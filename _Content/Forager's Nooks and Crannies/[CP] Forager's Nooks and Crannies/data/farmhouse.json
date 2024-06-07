@@ -1,0 +1,151 @@
+{
+		
+"Changes": [
+
+{
+	"LogName":"Map Patch Backwoods for Abandoned Farmhouse",
+	"Action": "EditMap",
+	"Target": "Maps/Backwoods", 
+	"FromFile": "assets/Maps/Backwoods_AbandonedFarmhouseWarp.tmx",
+	"ToArea": {
+			"X": 28,
+			"Y": 26,
+			"Width": 4,
+			"Height": 2
+			},
+	
+	"When": {"AbandonedFarmhouseToken": "1"}	
+},	
+
+{
+	"LogName":"Add Warp to Backwoods for Abandoned Farmhouse",
+	"Action": "EditMap",
+	"Target": "Maps/Backwoods",
+	"AddWarps": ["29 27 Custom_WF_AbandonedFarmhouse 49 22"],
+	"When": {"AbandonedFarmhouseToken": "1"}	
+},
+
+/*{
+	"LogName":"Map Patch Backwoods for Abandoned Farmhouse - DaisyNiko Patch",
+	"Action": "EditMap",
+	"Target": "Maps/Backwoods", 
+	"FromFile": "assets/Maps/Backwoods_AbandonedFarmhouseWarp_DN.tmx",
+	"ToArea": {
+			"X": 28,
+			"Y": 26,
+			"Width": 4,
+			"Height": 2
+			},
+	
+	"When": {"AbandonedFarmhouseToken": "1", "UseSVR3Backwoods":"true"}	
+},*/	
+
+{
+	"LogName":"Add Warps to Abandoned Farmhouse Map",
+	"Action": "EditMap",
+	"Target": "Maps/Custom_WF_AbandonedFarmhouse",
+	"AddWarps": ["51 20 Backwoods 29 28",
+				"51 21 Backwoods 29 28",
+				"51 22 Backwoods 30 28",
+				"51 23 Backwoods 30 28",
+				"51 24 Backwoods 30 28"
+			]
+},
+
+
+////////////////////////
+// WILD TREE SPAWNING //
+////////////////////////
+
+{
+	"Action": "EditMap",
+	"Target": "Maps/Custom_WF_AbandonedFarmhouse",
+	"When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": "True"},
+	"MapTiles": [
+		{
+			"Position": { "X": 39, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit wildflour.ateliercrops_daisy_sapling"
+			}
+		},
+		{
+			"Position": { "X": 42, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit wildflour.ateliercrops_primrose_sapling"
+			}
+		},
+		{
+			"Position": { "X": 45, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit wildflour.ateliercrops_violet_sapling"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit wildflour.ateliercrops_geranium_sapling"
+			}
+		},
+	
+	]
+},
+
+{
+	"Action": "EditMap",
+	"Target": "Maps/Custom_WF_AbandonedFarmhouse",
+	"When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": "False"},
+	"MapTiles": [
+		{
+			"Position": { "X": 39, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "wild 1"
+			}
+		},
+		{
+			"Position": { "X": 42, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "wild 2"
+			}
+		},
+		{
+			"Position": { "X": 45, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "wild 3"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "wild 1"
+			}
+		},
+	]
+}
+
+
+	]
+}

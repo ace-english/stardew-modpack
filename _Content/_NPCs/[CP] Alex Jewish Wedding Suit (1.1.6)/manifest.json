@@ -1,0 +1,19 @@
+{
+   "Name": "Alex Jewish Wedding Suit",
+   "Author": "Elaho",
+   "Version": "1.1.6",
+   "Description": "Changes Alex's wedding sprite to incorporate traditional Jewish wedding regalia.",
+   "UniqueID": "Elaho.AlexJewishWeddingSuit",
+   "MinimumApiVersion": "2.8",
+   "UpdateKeys": [ "Nexus:10900" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+    "Dependencies": [
+    {
+	"UniqueID": "Poltergeister.SeasonalCuteCharacters",
+        "IsRequired": false
+    }
+	
+]
+}

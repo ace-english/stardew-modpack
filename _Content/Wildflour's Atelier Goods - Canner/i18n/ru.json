@@ -1,0 +1,102 @@
+{
+
+	"jams_banana_maple_jam.name": "Бананово-кленовый джем",
+	"jams_banana_maple_jam.description": "Джем, сделанный из пюре спелых бананов и местного кленового сиропа.",
+
+	"jams_banana_split_jam.name": "Джем из бананов",
+	"jams_banana_split_jam.description": "Бананы, клубника и вишенка сверху!",
+
+	"jams_blackberry_mint_jelly.name": "Мятное желе с ежевикой",
+	"jams_blackberry_mint_jelly.description": "Сладкое желе из выращенной ежевики и домашней мяты.",
+
+	"jams_blueberry_lavender_jelly.name": "Чернично-лавандовое желе",
+	"jams_blueberry_lavender_jelly.description": "Сладкое желе из свежей черники и лаванды.",
+	
+	"jams_blue_jazz_jelly.name": "Желе из синего яркоцвета",
+	"jams_blue_jazz_jelly.description": "Цветочное желе из лепестков синего яркоцвета.",
+
+	"jams_chamomile_jelly.name":"Желе из ромашки",
+	"jams_chamomile_jelly.description":"Цветочное желе из лепестков ромашки.",
+	
+	"jams_cherry_vanilla_jam.name": "Вишнёво-ванильный джем",
+	"jams_cherry_vanilla_jam.description": "Джем из свежесобранной вишни и цветов ванили.",
+	
+	"jams_cinnamon_apple_preserves.name": "Яблочное варенье с корицей",
+	"jams_cinnamon_apple_preserves.description": "Свежие, хрустящие яблоки и пряная корица — добавляя их практически ко всему, вы ощутите взрыв осеннего вкуса.",
+
+	"jams_cranberry_chutney.name": "Клюквенный чатни",
+	"jams_cranberry_chutney.description": "Клюквенный соус настолько переоценен — вы пробовали вместо этого яркое и цитрусовое чатни?",
+
+	"jams_crocus_jelly.name": "Желе из крокусов",
+	"jams_crocus_jelly.description": "Желе из дикого крокуса; его вкус немного похож на ваниль со специями.",
+
+	"jams_dandelion_jelly.name": "Желе из одуванчиков",
+	"jams_dandelion_jelly.description": "Желе из собранных одуванчиков; на вкус нежное и сладкое.",
+
+	"jams_honey_apricot_preserves.name": "Медово-абрикосовое варенье",
+	"jams_honey_apricot_preserves.description": "Варенье из местного меда и свежесобранных абрикосов.",
+
+	"jams_honey_peach_preserves.name": "Медово-персиковое варенье",
+	"jams_honey_peach_preserves.description": "Варенье из местного меда и свежесобранных персиков.",
+
+	"jams_mango_chutney.name": "Манговый чатни",
+	"jams_mango_chutney.description": "Этот летний чатни идеально подходит к свежей и жареной рыбе.",
+	
+	"jams_mixed_berry_preserves.name": "Варенье из смеси ягод",
+	"jams_mixed_berry_preserves.description": "Варенье из трех видов свежих ягод.",
+
+	"jams_peach_blossom_jelly.name": "Персиковое желе с лепестками сакуры",
+	"jams_peach_blossom_jelly.description": "Лепестки цветков вишни и свежесобранные персики создали восхитительно ароматное желе.",
+	
+	"jams_peach_ginger_preserves.name": "Персиково-имбирное варенье",
+	"jams_peach_ginger_preserves.description": "Варенье из персиков и немного имбиря с Имбирного острова для придания пикантного вкуса.",
+	
+	"jams_rose_petal_jelly.name":"Желе из лепестков роз",
+	"jams_rose_petal_jelly.description":"Цветочное желе из лепестков роз.",
+	
+	"jams_flower_dance_jelly.name": "Специальная серия желе \"Цветочные танцы\"",
+	"jams_flower_dance_jelly.description": "Небольшая партия желе, приготовленная в честь ежегодных Цветочных танцев в городе Пеликан!",
+	
+	"jams_luau_jam.name": "Специальная серия джема \"Луау\"",
+	"jams_luau_jam.description": "Небольшая партия джема, приготовленная в честь ежегодного праздника Луау в городе Пеликан!",
+	
+	"jams_spirits_eve_jam.name": "Специальная серия джема \"День всех духов\"",
+	"jams_spirits_eve_jam.description": "Небольшая партия джема, приготовленная в честь празднования Дня всех духов!",
+	
+	"jams_winter_star_jelly.name": "Специальная серия желе \"Зимняя звезда\"",
+	"jams_winter_star_jelly.description": "Небольшая партия желе, приготовленная в честь Пира Зимней звезды!",
+	
+	"jams_lemon_marmalade.name": "Весенний лимонный мармелад",
+	"jams_lemon_marmalade.description": "Благодаря лимонной цедре действительно проявляется яркий, насыщенный вкус лимонов!",
+	
+	"jams_strawberry_rhubarb_jam.name": "Клубничный джем с ревенем",
+	"jams_strawberry_rhubarb_jam.description": "Джем, приготовленный из сладкой клубники с терпким ревенем.",
+
+	"jams_strawberry_rose_jelly.name":"Клубнично-розовое желе",
+	"jams_strawberry_rose_jelly.description": "Свежесобранная клубника и лепестки роз, сваренные в ароматное сладкое желе.",
+	
+	"jams_spangle_jelly.name": "Желе летнего блестника",
+	"jams_spangle_jelly.description": "Желе, сделанное из лучших цветов летнего блестника, на вкус как солнечный свет в банке.",
+	
+	"jams_orange_marmalade.name": "Летний апельсиновый мармелад",
+	"jams_orange_marmalade.description": "Благодаря апельсиновой цедре действительно проявляется яркий, насыщенный вкус апельсинов!",
+	
+	"jams_sunflower_jelly.name": "Желе из подсолнечника",
+	"jams_sunflower_jelly.description": "Желе из лепестков подсолнуха имеет слегка ореховый вкус.",	
+
+	"jams_lime_marmalade.name": "Сладкий лаймовый мармелад",
+	"jams_lime_marmalade.description": "Благодаря цедре лайма действительно проявляется терпкий, но сладкий вкус лайма!",
+
+	"jams_jasmine_jelly.name": "Сладкое жасминовое желе",
+	"jams_jasmine_jelly.description": "Желе, приготовленное из свежесобранного жасмина, имеет свежий цветочный вкус.",
+
+	"jams_citrus_marmalade.name": "Тройной цитрусовый мармелад",
+	"jams_citrus_marmalade.description": "Лимоны, лаймы и апельсины объединяются для взрывного цитрусового вкуса.",
+
+	"jams_tulip_jelly.name": "Тюльпановое желе",
+	"jams_tulip_jelly.description": "Желе из тюльпанов имеет свежий и цветочный вкус.",
+
+	"jams_vanilla_raspberry_preserves.name": "Ванильно-малиновое варенье",
+	"jams_vanilla_raspberry_preserves.description": "Ваниль и малина — идеальное сочетание — намазывайте это варенье на тосты или используйте в качестве начинки для торта, чтобы получить истинно сладкое лакомство!",
+
+}

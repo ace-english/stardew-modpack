@@ -1,0 +1,81 @@
+{
+
+    //COFFEE BREWER
+    
+    "atelierbarista_CoffeeGrinder.name":"コーヒーメーカー",
+    "atelierbarista_CoffeeGrinder.description":"このお洒落なコーヒーポットには、特別なブレンドコーヒーを作るのに最適なグラインダーも内蔵されている。",
+    
+    //COFFEE BAGS
+    
+    "atelierbarista_breakfast_ground.name":"ブレックファスト・ブレンド",
+    "atelierbarista_breakfast_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    "atelierbarista_vanilla_ground.name":"カリコバニラ・ブレンド",
+    "atelierbarista_vanilla_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    "atelierbarista_cold_ground.name":"コールドブリュー・ブレンド",
+    "atelierbarista_cold_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    "atelierbarista_donut_ground.name":"ドーナツショップ・ブレンド",
+    "atelierbarista_donut_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    "atelierbarista_hazelnut_ground.name":"ヘーゼルナッツ・ブレンド",
+    "atelierbarista_hazelnut_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    "atelierbarista_holiday_ground.name":"ホリデー・ブレンド",
+    "atelierbarista_holiday_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    "atelierbarista_mocha_ground.name":"モカ・ブレンド",
+    "atelierbarista_mocha_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    "atelierbarista_pumpkin_ground.name":"パンプキンスパイス・ブレンド",
+    "atelierbarista_pumpkin_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    "atelierbarista_sweetheart_ground.name":"スウィートハート・ブレンド",
+    "atelierbarista_sweetheart_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    "atelierbarista_coconut_ground.name":"トーストココナッツ・ブレンド",
+    "atelierbarista_coconut_ground.description":"挽きたてのコーヒー豆が袋に入れられて、おいしいコーヒーに生まれ変わる準備は万端。",
+    
+    
+    //LATTE
+    
+    "atelierbarista_breakfast_latte.name": "ブレックファスト ラテ",
+    "atelierbarista_breakfast_latte.description": "淹れたてのコーヒー。とても落ち着く。",
+    
+    "atelierbarista_vanilla_latte.name":"カリコバニラ ラテ",
+    "atelierbarista_vanilla_latte.description":"淹れたてのコーヒー。とても落ち着く。",
+    
+    "atelierbarista_cold_latte.name":"水出しコーヒー",
+    "atelierbarista_cold_latte.description":"淹れたてのコーヒー。とても落ち着く。",
+    
+    "atelierbarista_donut_latte.name":"ドーナツショップ ラテ",
+    "atelierbarista_donut_latte.description":"淹れたてのコーヒー。とても落ち着く。",
+    
+    "atelierbarista_hazelnut_latte.name":"ヘーゼルナッツ ラテ",
+    "atelierbarista_hazelnut_latte.description":"淹れたてのコーヒー。とても落ち着く。",
+    
+    "atelierbarista_holiday_latte.name":"ホリデーブレンド ラテ",
+    "atelierbarista_holiday_latte.description":"淹れたてのコーヒー。とても落ち着く。",
+    
+    "atelierbarista_mocha_latte.name":"リッチモカ ラテ",
+    "atelierbarista_mocha_latte.description":"淹れたてのコーヒー。とても落ち着く。",
+    
+    "atelierbarista_pumpkin_latte.name":"パンプキンスパイス ラテ",
+    "atelierbarista_pumpkin_latte.description":"淹れたてのコーヒー。とても落ち着く。",
+    
+    "atelierbarista_sweetheart_latte.name":"スウィートハート ラテ",
+    "atelierbarista_sweetheart_latte.description":"淹れたてのコーヒー。とても落ち着く。",
+    
+    "atelierbarista_coconut_latte.name":"トーストココナッツ ラテ",
+    "atelierbarista_coconut_latte.description":"淹れたてのコーヒー。とても落ち着く。",
+    
+        //MAIL TEXT
+        
+        "atelierbarista_GrinderRecipe.text":"@, ^^ コーヒーを淹れるのはとてもリラックスできる趣味なので、私が愛用しているコーヒー器具の設計図を紹介しようと思います。ただ、カフェインを摂りすぎるとイライラするので、何事もほどほどに！^^ - ハーヴィー",
+        "atelierbarista_haley.text":"@, ^^ この街にはかわいいコーヒーショップがないのが残念だけど、少なくとも今はおいしいラテを飲みにあなたを訪ねることができるわ。今度モカ・ラテを作ってくれる？^^ - ヘイリー",
+        "atelierbarista_george.text":"@, ^^ エブリンは紅茶を好むが、わしは濃いコーヒーが飲みたいんじゃ。彼女は一度バニラ・ラテを作ってくれたことがある。まぁとにかく、このバニラビーンズで作れるかもしれん。^^ - ジョージ",
+        "atelierbarista_sebastian.text":"@, ^^ 水出しコーヒーはもう試したか？水出しは苦味もなく、カフェインも風味もそのままだから、ぜひ試してみてほしい。ほら、これをうまく使えば、水出しコーヒーを作るのに役立つかもしれないな。^^ - セバスチャン",
+        
+    
+    }

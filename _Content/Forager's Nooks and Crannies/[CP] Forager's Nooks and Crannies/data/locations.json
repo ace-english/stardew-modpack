@@ -1,0 +1,379 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "wildflour.foragelocations_AbandonedFarmhouse": {
+          "CreateOnLoad": {"MapPath": "Maps/wildflour.foragelocations_AbandonedFarmhouse"},
+          "FormerLocationNames": [ "Custom_WF_AbandonedFarmhouse"],
+          "DisplayName": "{{i18n: AbandonedFarmhouse}}",
+          "ArtifactSpots": [],
+          "Forage": [
+            {
+              "Chance": 0.6,
+              "Id": "wildflour.foragelocations_LaceFlower",
+              "Condition": "LOCATION_SEASON Here spring summer",
+              "ItemId": "wildflour.foragelocations_LaceFlower",
+              "MinStack": -1,
+              "MaxStack": 2,
+            },
+            {
+              "Chance": 0.8,
+              "Season": "spring",
+              "Id": "wildflour.foragelocations_Porchini",
+              "ItemId": "wildflour.foragelocations_Porchini",
+            }
+          ]
+        },
+        "wildflour.foragelocations_BerryGrove": {
+            "CreateOnLoad": {"MapPath": "Maps/wildflour.foragelocations_BerryGrove"},
+            "FormerLocationNames": ["Custom_WF_BerryGrove"],
+            "DisplayName": "{{i18n: BerryGrove}}",
+            "ArtifactSpots": [],
+            "Forage": [
+              {
+                "Chance": 0.6,
+                "Id": "wildflour.foragelocations_LaceFlower",
+                "Condition": "LOCATION_SEASON Here spring summer",
+                "ItemId": "wildflour.foragelocations_LaceFlower",
+                "MinStack": -1,
+                "MaxStack": 2,
+              },
+              {
+                "Chance": 0.8,
+                "Season": "spring",
+                "Id": "wildflour.foragelocations_Porchini",
+                "ItemId": "wildflour.foragelocations_Porchini",
+              }
+            ]
+        },
+        "wildflour.foragelocations_CrystalCave": {
+            "CreateOnLoad": {"MapPath": "Maps/wildflour.foragelocations_CrystalCave"},
+            "FormerLocationNames": ["Custom_WF_CrystalCave"],
+            "DisplayName": "{{i18n: CrystalCave}}",
+            "ArtifactSpots": [],
+            "Forage": [
+              {
+                "Chance": 0.6,
+                "Id": "wildflour.foragelocations_LaceFlower",
+                "Condition": "LOCATION_SEASON Here spring summer",
+                "ItemId": "wildflour.foragelocations_LaceFlower",
+                "MinStack": -1,
+                "MaxStack": 2,
+              },
+              {
+                "Chance": 0.8,
+                "Season": "spring",
+                "Id": "wildflour.foragelocations_Porchini",
+                "ItemId": "wildflour.foragelocations_Porchini",
+              }
+            ]
+        },
+        "wildflour.foragelocations_FrogHollow": {
+            "CreateOnLoad": {"MapPath": "Maps/wildflour.foragelocations_FrogHollow"},
+            "FormerLocationNames": ["Custom_WF_FrogHollow"],
+            "DisplayName": "{{i18n: FrogHollow}}",
+            "ArtifactSpots": [],
+            "Forage": [
+              {
+                "Chance": 0.6,
+                "Id": "wildflour.foragelocations_LaceFlower",
+                "Condition": "LOCATION_SEASON Here spring summer",
+                "ItemId": "wildflour.foragelocations_LaceFlower",
+                "MinStack": -1,
+                "MaxStack": 2,
+              },
+              {
+                "Chance": 0.8,
+                "Season": "spring",
+                "Id": "wildflour.foragelocations_Porchini",
+                "ItemId": "wildflour.foragelocations_Porchini",
+              }
+            ]
+        },
+        "wildflour.foragelocations_MermaidGrotto": {
+            "CreateOnLoad": {"MapPath": "Maps/wildflour.foragelocations_MermaidGrotto"},
+            "FormerLocationNames": ["Custom_WF_MermaidGrotto"],
+            "DisplayName": "{{i18n: MermaidGrotto}}",
+            "ArtifactSpots": [],
+            "Forage": [
+              {
+                "Chance": 0.6,
+                "Id": "wildflour.foragelocations_LaceFlower",
+                "Condition": "LOCATION_SEASON Here spring summer",
+                "ItemId": "wildflour.foragelocations_LaceFlower",
+                "MinStack": -1,
+                "MaxStack": 2,
+              },
+              {
+                "Chance": 0.8,
+                "Season": "spring",
+                "Id": "wildflour.foragelocations_Porchini",
+                "ItemId": "wildflour.foragelocations_Porchini",
+              }
+            ]
+        },
+        "wildflour.foragelocations_OldForest": {
+            "CreateOnLoad": {"MapPath": "Maps/wildflour.foragelocations_OldForest"},
+            "FormerLocationNames": ["Custom_WF_OldForest"],
+            "DisplayName": "{{i18n: OldForest}}",
+            "ArtifactSpots": [
+              {
+                "Chance": 0.01,
+                "ApplyGenerousEnchantment": true,
+                "OneDebrisPerDrop": true,
+                "Precedence": 0,
+                "ContinueOnDrop": true,
+                "Id": "wildflour.foragelocations_ArtifactsRare",
+                "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                "MinStack": 1,
+                "MaxStack": 1,
+              }
+            ],
+            "Forage": [
+              {
+                "Chance": 0.6,
+                "Id": "wildflour.foragelocations_LaceFlower",
+                "Condition": "LOCATION_SEASON Here spring summer",
+                "ItemId": "wildflour.foragelocations_LaceFlower",
+                "MinStack": -1,
+                "MaxStack": 2,
+              },
+              {
+                "Chance": 0.8,
+                "Season": "spring",
+                "Id": "wildflour.foragelocations_Porchini",
+                "ItemId": "wildflour.foragelocations_Porchini",
+              }
+            ]
+        },
+        "wildflour.foragelocations_MysticalForest": {
+            "CreateOnLoad": {
+              "MapPath": "Maps/wildflour.foragelocations_MysticalForest"
+            },
+            "FormerLocationNames": [
+              "Custom_WF_MysticalForest"
+            ],
+            "DisplayName": "{{i18n: MysticalForest}}",
+            "ArtifactSpots": [
+              {
+                "Chance": 0.01,
+                "ApplyGenerousEnchantment": true,
+                "OneDebrisPerDrop": true,
+                "Precedence": 0,
+                "ContinueOnDrop": true,
+                "Id": "wildflour.foragelocations_ArtifactsRare",
+                "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                "MinStack": 1,
+                "MaxStack": 1,
+              }
+            ],
+            "Forage": [
+              {
+                "Chance": 0.6,
+                "Id": "wildflour.foragelocations_LaceFlower",
+                "Condition": "LOCATION_SEASON Here spring summer",
+                "ItemId": "wildflour.foragelocations_LaceFlower",
+                "MinStack": -1,
+                "MaxStack": 2,
+              },
+              {
+                "Chance": 0.8,
+                "Season": "spring",
+                "Id": "wildflour.foragelocations_Porchini",
+                "ItemId": "wildflour.foragelocations_Porchini",
+              }
+            ]
+        },
+        "wildflour.foragelocations_RainforestRetreat": {
+            "CreateOnLoad": {
+              "MapPath": "Maps/wildflour.foragelocations_RainforestRetreat"
+            },
+            "FormerLocationNames": [
+              "Custom_WF_RainforestRetreat"
+            ],
+            "DisplayName": "{{i18n: RainforestRetreat}}",
+            "ArtifactSpots": [
+              {
+                "Chance": 0.01,
+                "ApplyGenerousEnchantment": true,
+                "OneDebrisPerDrop": true,
+                "Precedence": 0,
+                "ContinueOnDrop": true,
+                "Id": "wildflour.foragelocations_ArtifactsRare",
+                "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                "MinStack": 1,
+                "MaxStack": 1,
+              }
+            ],
+            "Forage": [
+              {
+                "Chance": 0.6,
+                "Id": "wildflour.foragelocations_LaceFlower",
+                "Condition": "LOCATION_SEASON Here spring summer",
+                "ItemId": "wildflour.foragelocations_LaceFlower",
+                "MinStack": -1,
+                "MaxStack": 2,
+              },
+              {
+                "Chance": 0.8,
+                "Season": "spring",
+                "Id": "wildflour.foragelocations_Porchini",
+                "ItemId": "wildflour.foragelocations_Porchini",
+              }
+            ]
+        },
+        "wildflour.foragelocations_SecretOrchard": {
+            "CreateOnLoad": {
+              "MapPath": "Maps/wildflour.foragelocations_SecretOrchard"
+            },
+            "FormerLocationNames": [
+              "Custom_WF_SecretOrchard"
+            ],
+            "DisplayName": "{{i18n: SecretOrchard}}",
+            "ArtifactSpots": [
+              {
+                "Chance": 0.01,
+                "ApplyGenerousEnchantment": true,
+                "OneDebrisPerDrop": true,
+                "Precedence": 0,
+                "ContinueOnDrop": true,
+                "Id": "wildflour.foragelocations_ArtifactsRare",
+                "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                "MinStack": 1,
+                "MaxStack": 1,
+              }
+            ],
+            "Forage": [
+              {
+                "Chance": 0.6,
+                "Id": "wildflour.foragelocations_LaceFlower",
+                "Condition": "LOCATION_SEASON Here spring summer",
+                "ItemId": "wildflour.foragelocations_LaceFlower",
+                "MinStack": -1,
+                "MaxStack": 2,
+              },
+              {
+                "Chance": 0.8,
+                "Season": "spring",
+                "Id": "wildflour.foragelocations_Porchini",
+                "ItemId": "wildflour.foragelocations_Porchini",
+              }
+            ]
+        },
+        "wildflour.foragelocations_Ruins": {
+            "CreateOnLoad": {
+              "MapPath": "Maps/wildflour.foragelocations_Ruins"
+            },
+            "FormerLocationNames": [
+              "Custom_WF_Ruins"
+            ],
+            "DisplayName": "{{i18n: Ruins}}",
+            "ArtifactSpots": [
+              {
+                "Chance": 0.01,
+                "ApplyGenerousEnchantment": true,
+                "OneDebrisPerDrop": true,
+                "Precedence": 0,
+                "ContinueOnDrop": true,
+                "Id": "wildflour.foragelocations_ArtifactsRare",
+                "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                "MinStack": 1,
+                "MaxStack": 1,
+              }
+            ],
+            "Forage": [
+              {
+                "Chance": 0.6,
+                "Id": "wildflour.foragelocations_LaceFlower",
+                "Condition": "LOCATION_SEASON Here spring summer",
+                "ItemId": "wildflour.foragelocations_LaceFlower",
+                "MinStack": -1,
+                "MaxStack": 2,
+              },
+              {
+                "Chance": 0.8,
+                "Season": "spring",
+                "Id": "wildflour.foragelocations_Porchini",
+                "ItemId": "wildflour.foragelocations_Porchini",
+              },
+              {
+                "Chance": 0.6, //60% of spawning
+                "Id": "ItemExtension.Clump_Purple", //MUST be prefixed by ItemExtension.Clump
+                "ItemId": "MyCustomClump"
+            }
+            ],
+            "CustomFields": {
+                // (optional) this means clumps will only spawn from 1,12 to 22,19
+                "mistyspring.ItemExtensions/ClumpSpawnRect": "1 12 22 8"
+            }
+        },
+      }
+    },
+   
+    /* load maps into game*/
+    {
+        "LogName": "Load Abandoned Farmhouse Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_AbandonedFarmhouse",
+        "FromFile": "assets/Maps/AbandonedFarmhouse.tmx"
+    },
+    {
+        "LogName": "Load Berry Grove Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_BerryGrove",
+        "FromFile": "assets/Maps/BerryGrove.tmx"
+    },
+    {
+        "LogName": "Load Crystal Cave Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_CrystalCave",
+        "FromFile": "assets/Maps/CrystalCave.tmx"
+    },
+  
+    {
+        "LogName": "Load Frog Hollow Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_FrogHollow",
+        "FromFile": "assets/Maps/FrogHollow.tmx"
+    },
+    {
+        "LogName": "Load Mermaid Grotto Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_MermaidGrotto",
+        "FromFile": "assets/Maps/MermaidGrotto.tmx"
+    },
+    {
+        "LogName": "Load Mystical Forest Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_MysticalForest",
+        "FromFile": "assets/Maps/MysticalForest.tmx"
+    },
+    {
+        "LogName": "Load Old Forest Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_OldForest",
+        "FromFile": "assets/Maps/OldForest.tmx"
+    },
+    {
+        "LogName": "Load RainforestRetreat Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_RainforestRetreat",
+        "FromFile": "assets/Maps/RainforestRetreat.tmx"
+    },
+    {
+        "LogName": "Load Forest SecretOrchard Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_SecretOrchard",
+        "FromFile": "assets/Maps/SecretOrchard.tmx"
+    },
+    {
+        "LogName": "Load Ruins Map",
+        "Action": "Load",
+        "Target": "Maps/wildflour.foragelocations_Ruins",
+        "FromFile": "assets/Maps/Ruins.tmx"
+    },
+
+  ]
+}

@@ -1,0 +1,18 @@
+{
+   "Name": "Leah Polish Wedding Outfits",
+   "Author": "Elaho",
+   "Version": "1.1.6",
+   "Description": "Changes Leah's wedding sprite to incorporate traditional Polish wedding regalia to either masculine or feminine versions, based on player configuration.",
+   "UniqueID": "Elaho.LeahPolishWeddingOutfits",
+   "MinimumApiVersion": "2.8",
+   "UpdateKeys": [ "Nexus:10860" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+    "Dependencies": [
+    {
+	"UniqueID": "Poltergeister.SeasonalCuteCharacters",
+        "IsRequired": false
+    }
+]
+}

@@ -1,0 +1,300 @@
+{
+// KENT DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Kent Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Kent", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Kent.Indoor":
+				{
+					"Id": "{{ModId}}_Kent_Indoor",
+					"Portrait": "Portraits/Kent_Indoor",
+					"Sprite": "Characters/Kent_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Kent.Outdoor":
+				{
+					"Id": "{{ModId}}_Kent_Outdoor",
+					"Portrait": "Portraits/Kent_Outdoor",
+					"Sprite": "Characters/Kent_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+				"DSV.Kent.Beach":
+				{
+					"Id": "{{ModId}}_Kent_Beach",
+					"Portrait": "Portraits/Kent_Beach",
+					"Sprite": "Characters/Kent_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Kent.EggFestival":
+				{
+					"Id": "{{ModId}}_Kent_EggFestival",
+					"Portrait": "Portraits/Kent_EggFestival",
+					"Sprite": "Characters/Kent_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Kent.FlowerDance":
+				{
+					"Id": "{{ModId}}_Kent_FlowerDance",
+					"Portrait": "Portraits/Kent_FlowerDance",
+					"Sprite": "Characters/Kent_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Kent.Luau":
+				{
+					"Id": "{{ModId}}_Kent_Luau",
+					"Portrait": "Portraits/Kent_Luau",
+					"Sprite": "Characters/Kent_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Kent.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Kent_MoonlightJellies",
+					"Portrait": "Portraits/Kent_MoonlightJellies",
+					"Sprite": "Characters/Kent_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Kent.SVFair":
+				{
+					"Id": "{{ModId}}_Kent_SVFair",
+					"Portrait": "Portraits/Kent_SVFair",
+					"Sprite": "Characters/Kent_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Kent.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Kent_SpiritsEve",
+					"Portrait": "Portraits/Kent_SpiritsEve",
+					"Sprite": "Characters/Kent_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Kent.IceFestival":
+				{
+					"Id": "{{ModId}}_Kent_IceFestival",
+					"Portrait": "Portraits/Kent_IceFestival",
+					"Sprite": "Characters/Kent_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Kent.WinterStar":
+				{
+					"Id": "{{ModId}}_Kent_WinterStar",
+					"Portrait": "Portraits/Kent_WinterStar",
+					"Sprite": "Characters/Kent_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Kent.Swim":
+				{
+					"Id": "{{ModId}}_Kent_Swim",
+					"Portrait": "Portraits/Kent_Swim",
+					"Sprite": "Characters/Kent_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Kent.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Kent_WeddingGuest",
+					"Portrait": "Portraits/Kent_WeddingGuest",
+					"Sprite": "Characters/Kent_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Kent.HotClimate":
+				{
+					"Id": "{{ModId}}_Kent_HotClimate",
+					"Portrait": "Portraits/Kent_HotClimate",
+					"Sprite": "Characters/Kent_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Kent Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Kent_Indoor, Characters/Kent_Indoor, Portraits/Kent_Outdoor, Characters/Kent_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/Kent_Spring_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Kent Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Kent_Beach, Characters/Kent_Beach",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/Kent_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Kent Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Kent_EggFestival, Characters/Kent_EggFestival, Portraits/Kent_FlowerDance, Characters/Kent_FlowerDance, Portraits/Kent_Luau, Characters/Kent_Luau, Portraits/Kent_MoonlightJellies, Characters/Kent_MoonlightJellies, Portraits/Kent_SVFair, Characters/Kent_SVFair, Portraits/Kent_SpiritsEve, Characters/Kent_SpiritsEve, Portraits/Kent_IceFestival, Characters/Kent_IceFestival, Portraits/Kent_WinterStar, Characters/Kent_WinterStar, Portraits/Kent_Swim, Characters/Kent_Swim, Portraits/Kent_WeddingGuest, Characters/Kent_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Kent Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Kent_HotClimate, Characters/Kent_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/Kent_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Kent Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Kent_Indoor, Characters/Kent_Indoor",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/Kent_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Kent Indoor/Outdoor Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Kent_Outdoor, Characters/Kent_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/Kent_{{season}}_1_{{DSV.Core/Weather:Kent}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		{
+			"LogName": "Kent Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Kent_HotClimate, Characters/Kent_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/Kent_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Kent Flower Dance Outfits Elaho",
+			"Action": "EditImage",
+			"Target": "Portraits/Kent_FlowerDance, Characters/Kent_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/Kent_FlowerDance_{{KentFlowerDanceToken}}.png"
+		},
+		{
+			"LogName": "Kent Beach/Swim Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Kent_Beach, Characters/Kent_Beach, Portraits/Kent_Swim, Characters/Kent_Swim",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/Kent_Swim_{{KentSwimToken}}.png"
+		},
+		{
+			"LogName": "Kent Sleep Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Kent_Indoor",
+			"FromFile": "Art/VanillaNPCs/Kent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:KentVariant}}/Kent_SleepSprite.png",
+			"ToArea": { "X": 32, "Y": 128, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"LocationName |contains= SamHouse": true
+			},
+			"Update": "OnLocationChange"
+		},
+
+// RAIN HEARING AID OVERLAY
+
+		{
+			"LogName": "Kent Hearing Aid Rain Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Kent_Indoor, Portraits/Kent_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Kent/Portraits/Kent_RainNoAid_Overlay_{{DSV.Core/ConfigValue:KentVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:VariantBasedDialogue": "true",
+				"Weather |contains= rain, storm": true,
+				"LocationName |contains= SamHouse": false,
+				"DSV.Core/ConfigValue:KentVariant|contains= VanillaDisabled, OmaniDisabled": true
+			},
+			"Update": "OnLocationChange"
+		},
+
+// MERMAID PENDANTS
+		
+		{
+			"LogName": "Kent Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Kent_Indoor",
+			"FromFile": "Art/VanillaNPCs/Kent/Misc/MermaidPendants/Kent_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsCanon |contains= True": true
+			}
+		},
+		
+// COMPATIBILITY
+// Kent Does the Dishes
+
+		{
+			"LogName": "Kent Does Dishes Compat",
+			"Action": "EditImage",
+			"Target": "Characters/Kent_Indoor",
+			"FromFile": "Art/VanillaNPCs/Kent/Misc/KentDoesTheDishes/{{DSV.Core/ConfigValue:KentVariant}}/KentDishes_{{season}}.png",
+			"ToArea": { "X": 0, "Y": 160, "Width": 32, "Height": 32 },
+			"When":
+			{
+				"HasMod |contains= Sqbr.KentDoesTheDishes": true
+			}
+		},
+
+// NO BOMBS IN MAIL 
+
+        {
+			"LogName": "NMW Dialogue - No Bombs in Mail",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": 
+            {
+                "Kent": "{{i18n:DSV.MailEdits.ReligionNMW.Vanilla.Kent.Body}}%item object 709 5 495 5 496 5 497 5 498 5 691 1 695 1 686 1 787 2 %%[#]{{i18n:DSV.MailEdits.ReligionNMW.Vanilla.Kent.Title}}"
+            },
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{DSV.Core/ConfigValue:KentNoBombsInMail}}' = 'true'": "true"
+			}
+        }
+	]
+}

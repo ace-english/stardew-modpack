@@ -1,0 +1,291 @@
+{
+// ELLIOTT DSV ULTRALIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Elliott Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Elliott", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Elliott.Indoor":
+				{
+					"Id": "{{ModId}}_Elliott_Indoor",
+					"Portrait": "Portraits/Elliott_Indoor",
+					"Sprite": "Characters/Elliott_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Elliott.EggFestival":
+				{
+					"Id": "{{ModId}}_Elliott_EggFestival",
+					"Portrait": "Portraits/Elliott_EggFestival",
+					"Sprite": "Characters/Elliott_EggFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_spring13\"",
+					"Precedence": -200
+				},
+				"DSV.Elliott.FlowerDance":
+				{
+					"Id": "{{ModId}}_Elliott_FlowerDance",
+					"Portrait": "Portraits/Elliott_FlowerDance",
+					"Sprite": "Characters/Elliott_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Elliott.Luau":
+				{
+					"Id": "{{ModId}}_Elliott_Luau",
+					"Portrait": "Portraits/Elliott_Luau",
+					"Sprite": "Characters/Elliott_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Elliott.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Elliott_MoonlightJellies",
+					"Portrait": "Portraits/Elliott_MoonlightJellies",
+					"Sprite": "Characters/Elliott_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Elliott.SVFair":
+				{
+					"Id": "{{ModId}}_Elliott_SVFair",
+					"Portrait": "Portraits/Elliott_SVFair",
+					"Sprite": "Characters/Elliott_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Elliott.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Elliott_SpiritsEve",
+					"Portrait": "Portraits/Elliott_SpiritsEve",
+					"Sprite": "Characters/Elliott_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Elliott.IceFestival":
+				{
+					"Id": "{{ModId}}_Elliott_IceFestival",
+					"Portrait": "Portraits/Elliott_IceFestival",
+					"Sprite": "Characters/Elliott_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Elliott.WinterStar":
+				{
+					"Id": "{{ModId}}_Elliott_WinterStar",
+					"Portrait": "Portraits/Elliott_WinterStar",
+					"Sprite": "Characters/Elliott_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Elliott.Swim":
+				{
+					"Id": "{{ModId}}_Elliott_Swim",
+					"Portrait": "Portraits/Elliott_Swim",
+					"Sprite": "Characters/Elliott_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Elliott.HotClimate":
+				{
+					"Id": "{{ModId}}_Elliott_HotClimate",
+					"Portrait": "Portraits/Elliott_HotClimate",
+					"Sprite": "Characters/Elliott_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Elliott Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Elliott_Indoor, Characters/Elliott_Indoor",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Elliott_Fall_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ElliottVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Elliott Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Elliott_EggFestival, Characters/Elliott_EggFestival, Portraits/Elliott_FlowerDance, Characters/Elliott_FlowerDance, Portraits/Elliott_Luau, Characters/Elliott_Luau, Portraits/Elliott_MoonlightJellies, Characters/Elliott_MoonlightJellies, Portraits/Elliott_SVFair, Characters/Elliott_SVFair, Portraits/Elliott_SpiritsEve, Characters/Elliott_SpiritsEve, Portraits/Elliott_IceFestival, Characters/Elliott_IceFestival, Portraits/Elliott_WinterStar, Characters/Elliott_WinterStar, Portraits/Elliott_Swim, Characters/Elliott_Swim",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ElliottVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Elliott Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Elliott_HotClimate, Characters/Elliott_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Elliott_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ElliottVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Elliott Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Indoor, Characters/Elliott_Indoor",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Elliott_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Elliott Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_HotClimate, Characters/Elliott_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Elliott_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Elliott Festival Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_FlowerDance, Characters/Elliott_FlowerDance, Portraits/Elliott_MoonlightJellies, Characters/Elliott_MoonlightJellies, Portraits/Elliott_SVFair, Characters/Elliott_SVFair, Portraits/Elliott_WinterStar, Characters/Elliott_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/{{TargetWithoutPath}}_1{{ElliottFlowerDanceToken}}.png"
+		},
+		{
+			"LogName": "Elliott Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Beach, Characters/Elliott_Beach",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Elliott_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:BeachStyle |contains= RandomBeachwear": false
+			}
+		},
+		{
+			"LogName": "Elliott Sleep Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Elliott_Indoor",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Elliott_SleepSprite.png",
+			"ToArea": { "X": 48, "Y": 384, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"LocationName |contains= ElliottHouse": true
+			}
+		},
+		{
+			"LogName": "Elliott Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Elliott_Indoor",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Elliott_Wedding_{{ElliottSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 384, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Elliott Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Elliott/Misc/Elliott_Emoji_Modded.png",
+			"ToArea": {"X": 99, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:ElliottVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Elliott Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Elliott/Misc/Elliott_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}.png",
+			"ToArea": {"X": 128, "Y": 304, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:ElliottVariant|contains= Vanilla, Off": false
+			}
+		},
+		
+// COMPATIBILITY
+// Elliott Immersive Wedding
+		{
+			"LogName": "Elliott Immersive Wedding Post-Ceremony",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Indoor, Characters/Elliott_Indoor, Portraits/Elliott_Outdoor, Characters/Elliott_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Elliott/ElahoCompat/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Elliott_Wedding_{{season}}.png",
+			"When":
+			{
+                "DayEvent |contains= wedding": true,
+                "HasSeenEvent |contains= 13458001": true, 
+                "HasCraftingRecipe |contains= Enchanted Mead Horn": true,
+                "Time": "{{Range: 0600, 0700}}",
+				"HasMod |contains= Elaho.ElliottImmersiveWeddingCP": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Elliott Immersive Wedding Reception",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Indoor, Characters/Elliott_Indoor, Portraits/Elliott_Outdoor, Characters/Elliott_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Elliott/ElahoCompat/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Elliott_Wedding_{{season}}.png",
+			"When":
+			{
+                "DayEvent |contains= wedding": true,
+				"LocationName |contains= Saloon": true,
+                "HasSeenEvent |contains= 13458001": true, 
+                "HasCraftingRecipe |contains= Enchanted Mead Horn": true,
+				"Time": "{{Range: 1900, 2100}}",
+				"HasMod |contains= Elaho.ElliottImmersiveWeddingCP": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// JEWISH ELLIOTT
+
+		{
+			"LogName": "Elliott Kippah",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Indoor, Characters/Elliott_Indoor, Portraits/Elliott_Outdoor, Characters/Elliott_Outdoor, Portraits/Elliott_EggFestival, Characters/Elliott_EggFestival, Portraits/Elliott_FlowerDance, Characters/Elliott_FlowerDance, Portraits/Elliott_Luau, Characters/Elliott_Luau, Portraits/Elliott_MoonlightJellies, Characters/Elliott_MoonlightJellies, Portraits/Elliott_SVFair, Characters/Elliott_SVFair, Portraits/Elliott_SpiritsEve, Characters/Elliott_SpiritsEve, Portraits/Elliott_IceFestival, Characters/Elliott_IceFestival, Portraits/Elliott_WinterStar, Characters/Elliott_WinterStar, Portraits/Elliott_HotClimate, Characters/Elliott_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Elliott/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ElliottVariant}}/Overlays/Elliott_Kippah_{{season}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JewishElliott |contains= True": true,
+				"DSV.Core/Weather:Elliott |contains= rain": false
+			}
+		},
+
+// COMPATIBILITY
+// PPAF
+		{
+			"LogName": "PPaF Compat - Elliott No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Indoor, Portraits/Elliott_EggFestival, Portraits/Elliott_FlowerDance, Portraits/Elliott_Luau, Portraits/Elliott_MoonlightJellies, Portraits/Elliott_SVFair, Portraits/Elliott_IceFestival, Portraits/Elliott_WinterStar, Portraits/Elliott_Swim, Portraits/Elliott_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Elliott/Portraits/{{DSV.Core/ConfigValue:ElliottVariant}}/Overlays/Elliott_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Elliott": true
+			}
+		}
+	]
+}

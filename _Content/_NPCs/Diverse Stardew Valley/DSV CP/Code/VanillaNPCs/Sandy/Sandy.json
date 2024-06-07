@@ -1,0 +1,220 @@
+{
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Sandy Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Sandy", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Sandy.Indoor":
+				{
+					"Id": "{{ModId}}_Sandy_Indoor",
+					"Portrait": "Portraits/Sandy_Indoor",
+					"Sprite": "Characters/Sandy_Indoor",
+					"Indoors": true,
+					//"Outdoors": false,
+					"Precedence": -110
+				},
+				/*"DSV.Sandy.Outdoor":
+				{
+					"Id": "{{ModId}}_Sandy_Outdoor",
+					"Portrait": "Portraits/Sandy_Outdoor",
+					"Sprite": "Characters/Sandy_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},*/
+				"DSV.Sandy.Beach":
+				{
+					"Id": "{{ModId}}_Sandy_Beach",
+					"Portrait": "Portraits/Sandy_Beach",
+					"Sprite": "Characters/Sandy_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Condition": "!{{HasMod |contains= violetlizabet.CP.SandyBeach}}",
+					"Precedence": -110
+				}
+			// FESTIVALS
+				/*"DSV.Sandy.EggFestival":
+				{
+					"Id": "{{ModId}}_Sandy_EggFestival",
+					"Portrait": "Portraits/Sandy_EggFestival",
+					"Sprite": "Characters/Sandy_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Sandy.FlowerDance":
+				{
+					"Id": "{{ModId}}_Sandy_FlowerDance",
+					"Portrait": "Portraits/Sandy_FlowerDance",
+					"Sprite": "Characters/Sandy_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Sandy.Luau":
+				{
+					"Id": "{{ModId}}_Sandy_Luau",
+					"Portrait": "Portraits/Sandy_Luau",
+					"Sprite": "Characters/Sandy_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Sandy.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Sandy_MoonlightJellies",
+					"Portrait": "Portraits/Sandy_MoonlightJellies",
+					"Sprite": "Characters/Sandy_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Sandy.SVFair":
+				{
+					"Id": "{{ModId}}_Sandy_SVFair",
+					"Portrait": "Portraits/Sandy_SVFair",
+					"Sprite": "Characters/Sandy_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Sandy.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Sandy_SpiritsEve",
+					"Portrait": "Portraits/Sandy_SpiritsEve",
+					"Sprite": "Characters/Sandy_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Sandy.IceFestival":
+				{
+					"Id": "{{ModId}}_Sandy_IceFestival",
+					"Portrait": "Portraits/Sandy_IceFestival",
+					"Sprite": "Characters/Sandy_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Sandy.WinterStar":
+				{
+					"Id": "{{ModId}}_Sandy_WinterStar",
+					"Portrait": "Portraits/Sandy_WinterStar",
+					"Sprite": "Characters/Sandy_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},*/
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Sandy Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sandy_Indoor, Characters/Sandy_Indoor",
+			"FromFile": "Art/VanillaNPCs/Sandy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLSandy}}/{{DSV.Core/ConfigValue:SandyVariant}}/Sandy_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SandyVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Sandy Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sandy_Beach, Characters/Sandy_Beach",
+			"FromFile": "Art/VanillaNPCs/Sandy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLSandy}}/{{DSV.Core/ConfigValue:SandyVariant}}/Sandy_Beach.png",
+			"When":
+			{
+				"Query: '{{HasMod |contains= violetlizabet.CP.SandyBeach}}' = 'false' OR '{{DSV.Core/ConfigValue:SandyVariant |contains= Modded}}' = 'true'": true
+			}
+		},
+		/*{
+			"LogName": "Sandy Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sandy_EggFestival, Characters/Sandy_EggFestival, Portraits/Sandy_FlowerDance, Characters/Sandy_FlowerDance, Portraits/Sandy_Luau, Characters/Sandy_Luau, Portraits/Sandy_MoonlightJellies, Characters/Sandy_MoonlightJellies, Portraits/Sandy_SVFair, Characters/Sandy_SVFair, Portraits/Sandy_SpiritsEve, Characters/Sandy_SpiritsEve, Portraits/Sandy_IceFestival, Characters/Sandy_IceFestival, Portraits/Sandy_WinterStar, Characters/Sandy_WinterStar, Portraits/Sandy_Swim, Characters/Sandy_Swim, Portraits/Sandy_Aerobics, Characters/Sandy_Aerobics",
+			"FromFile": "Art/VanillaNPCs/Sandy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLSandy}}/{{DSV.Core/ConfigValue:SandyVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SandyVariant|contains= Off": false
+			}
+		},*/
+
+	// EDITS
+
+		{
+			"LogName": "Sandy Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy_Indoor, Characters/Sandy_Indoor",
+			"FromFile": "Art/VanillaNPCs/Sandy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLSandy}}/{{DSV.Core/ConfigValue:SandyVariant}}/Sandy_{{season}}_{{RandomTwoToken}}_Base.png"
+		},		
+		/*{
+			"LogName": "Sandy Indoor/Outdoor Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy_Outdoor, Characters/Sandy_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Sandy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SandyVariant}}/Sandy_{{season}}_{{RandomTwoToken}}_{{DSV.Core/Weather:Sandy}}.png"
+		}*/
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Sandy Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Sandy/Misc/Sandy_Emoji_Modded.png",
+			"ToArea": {"X": 108, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SandyVariant |contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Oasis Yoba Poster Art Replacement",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "Art/Misc/PosterEdit_Flowers.png",
+			"ToArea": {"X": 370, "Y": 80, "Width": 13, "Height": 16},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true,
+				"LocationName |contains= SandyHouse": true,
+				"HasMod |contains= uglynt.town.interiors": true
+			},
+			"Update": "OnLocationChange"
+		},
+
+// MERMAID PENDANTS
+		{
+			"LogName": "Sandy Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy_Indoor",
+			"FromFile": "Art/VanillaNPCs/Sandy/Misc/MermaidPendants/Sandy_Pendant_{{DSV.Core/ConfigValue:SandyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sandy |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Sandy Pendants - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy_Beach",
+			"FromFile": "Art/VanillaNPCs/Sandy/Misc/MermaidPendants/{{TargetWithoutPath}}_Pendant_{{DSV.Core/ConfigValue:SandyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sandy |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		}
+	]
+}

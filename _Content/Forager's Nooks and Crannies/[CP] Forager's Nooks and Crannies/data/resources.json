@@ -1,0 +1,682 @@
+{
+    "Changes": [
+
+     
+
+        {
+            "Action": "Load",
+            "Target": "Mods/wildflour.foragelocations/assets/Resources",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            "LogName": "Add wildflour forage resources",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "wildflour.foragelocations_WildMushStump": {
+                    "DisplayName":"{{i18n:WildMushStump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 0,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 12,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "stump #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_meringueshroom",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_milkshroom",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_honeyfungus",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)281",
+                            "Chance": 0.4
+                        }
+                       
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ContextTags": [
+                        "color_yellow"
+                    ]
+                },
+                "wildflour.foragelocations_MagicMushStump": {
+                    "DisplayName":"{{i18n:MagicMushStump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 2,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 12, 
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "stump #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_gloomy_blewit",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_golden_aura",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)420",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)851",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 1, 
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ContextTags": [
+                        "color_dark_brown"
+                    ]
+                },
+                "wildflour.foragelocations_WildFlowerStump": {
+                    "DisplayName":"{{i18n:WildFlowerStump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 4,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 12, 
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "stump #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_chamomile",
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_lavender",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "Chance": 0.2
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_mallow",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ContextTags": [
+                        "color_brown"
+                    ]
+                },
+                "wildflour.foragelocations_MagicFlowerStump": {
+                    "DisplayName":"{{i18n:MagicFlowerStump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 36,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 12, 
+                    "Sound": "axe", 
+                    "BreakingSound": "treethud",
+                    "Debris": "stump #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_chiffon",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_daisy",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_violet",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_geranium",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ContextTags": [
+                        "color_brown"
+                    ]
+                },
+                "wildflour.foragelocations_WildMushLog": {
+                    "DisplayName":"{{i18n:WildMushLog}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 32,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 20,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_wheatshroom",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_chickenwoods",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O)257",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O)404",
+                            "Chance": 0.4,
+                            "Condition":""
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 2,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ContextTags": [
+                        "color_dark_brown"
+                    ]
+                },
+                "wildflour.foragelocations_MagicMushLog": {
+                    "DisplayName":"{{i18n:MagicMushLog}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 34,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 20,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_verdigris_agaric",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_dawn_trumpet",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)420",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)404",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 2,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ContextTags": [
+                        "color_dark_brown"
+                    ]
+                },
+                "wildflour.foragelocations_GiantBerryRed": {
+                    "DisplayName":"{{i18n:GiantBerryRed}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 22,
+                    "Width": 3,
+                    "Height": 3,
+                    "Health": 20,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)771",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)638",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)417",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_lemon",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_lime",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ContextTags": [
+                        "color_red"
+                    ]
+                },
+                "wildflour.foragelocations_GiantBerryBlue": {
+                    "DisplayName":"{{i18n:GiantBerryBlue}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 25,
+                    "Width": 3,
+                    "Height": 3,
+                    "Health": 20,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)771",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_cherry",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_pomegranate",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_orange",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)454",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ContextTags": [
+                        "color_dark_blue"
+                    ]
+                },
+                "wildflour.foragelocations_flower_weed_wild": {
+                    "SpriteIndex": 11,
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "Health": 1, 
+                    "Sound": null,
+                    "BreakingSound": "cut",
+                    "ItemDropped": "(O)771", 
+                    "Tool": "AnyExceptWateringCan",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_jasmineseeds",
+                            "Chance": 0.2,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_lavenderseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_chamomileseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_mallowseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_vanillaseeds",
+                            "Chance": 0.2
+                        }
+                    ],
+                    "Debris": "weeds blue"
+                },
+                "wildflour.foragelocations_flower_weed_magical": {
+                    "SpriteIndex": 13,
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "Health": 1, 
+                    "Sound": null,
+                    "BreakingSound": "cut",
+                    "ItemDropped": "(O)771", 
+                    "Tool": "AnyExceptWateringCan",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_avalune_seeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_puffball_seeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_arctic_fox_seeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_yarrow_seeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_maiden_seeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_pixies_breath_seeds",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Debris": "weeds blue"
+                },
+                "wildflour.foragelocations_herb_weed_wild": {
+                    "SpriteIndex": 8,
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "Health": 1, 
+                    "Sound": null,
+                    "BreakingSound": "cut",
+                    "ItemDropped": "(O)771", 
+                    "Tool": "AnyExceptWateringCan",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_basilseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_cilantroseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_sageseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_thymeseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_mintseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_basilseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_wormwoodseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_rosemaryseeds",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Debris": "weeds blue"
+                },
+                "wildflour.foragelocations_herb_weed_magical": {
+                    "SpriteIndex": 6,
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "Health": 1, 
+                    "Sound": null,
+                    "BreakingSound": "cut",
+                    "ItemDropped": "(O)771", 
+                    "Tool": "AnyExceptWateringCan",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_mugwort",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_thistle",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_valerian",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_rose_flax",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_mandrake_seeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_violet_flax",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Debris": "weeds blue"
+                },
+                "wildflour.foragelocations_berry_node_wild": {
+                    "SpriteIndex": 15,
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "Health": 2, 
+                    "Sound": "axe",
+                    "BreakingSound": null,
+                    "ItemDropped": "(O)388",
+                    "Tool": "Axe",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_strawberry",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_raspberry",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(BC)wildflour.ateliercrops_StrawberryBush",
+                            "Chance": 0.1
+                        },
+                        {
+                            "ItemId": "(BC)wildflour.ateliercrops_RaspberryBush",
+                            "Chance": 0.1
+                        }
+                    ],
+                    "Debris": "wood green"
+                },
+                "wildflour.foragelocations_berry_node_magical": {
+                    "SpriteIndex": 31,
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "Health": 2, 
+                    "Sound": "axe",
+                    "BreakingSound": null,
+                    "ItemDropped": "(O)388",
+                    "Tool": "Axe",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_amber_moondrop",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_jade_moondrop",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_lapis_moondrop",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_pearl_moondrop",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(BC)wildflour.ateliercrops_AmberBush",
+                            "Chance": 0.1
+                        },
+                        {
+                            "ItemId": "(BC)wildflour.ateliercrops_JadeBush",
+                            "Chance": 0.1
+                        },
+                        {
+                            "ItemId": "(BC)wildflour.ateliercrops_LapisBush",
+                            "Chance": 0.1
+                        },
+                        {
+                            "ItemId": "(BC)wildflour.ateliercrops_PearlBush",
+                            "Chance": 0.1
+                        }
+                    ],
+                    "Debris": "wood green"
+                },
+                "wildflour.foragelocations_mush_node_red_magical": {
+                    "SpriteIndex": 14,
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "Health": 2, 
+                    "Sound": "axe",
+                    "BreakingSound": null,
+                    "ItemDropped": "(O)388",
+                    "Tool": "Axe",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_StrangeCap_seeds",
+                            "Chance": 0.3
+                        },
+                        {
+                            "ItemId": "(O)891",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)MysticTreeSeed",
+                            "Chance": 0.1
+                        },
+                        {
+                            "ItemId": "(O)MossySeed",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Debris": "wood green"
+                },
+                "wildflour.foragelocations_mush_node_purple_magical": {
+                    "SpriteIndex": 10,
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "Health": 2, 
+                    "Sound": "axe",
+                    "BreakingSound": null,
+                    "ItemDropped": "(O)388",
+                    "Tool": "Axe",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_MysticTrumpet_seeds",
+                            "Chance": 0.2
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_WitchwoodTree_seeds",
+                            "Chance": 0.2
+                        },
+                        {
+                            "ItemId": "(O)891",
+                            "Chance": 0.3
+                        },
+                        {
+                            "ItemId": "(O)MossySeed",
+                            "Chance": 0.4
+                        }
+                    ]
+                },
+                "wildflour.foragelocations_mush_node_brown_wild": {
+                    "SpriteIndex": 9,
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "Health": 2, 
+                    "Sound": "axe",
+                    "BreakingSound": null,
+                    "ItemDropped": "(O)388",
+                    "Tool": "Axe",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_milkshroomseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_wheatshroomseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_meringueshroomseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_chickenwoodsseeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)wildflour.ateliercrops_honeyfungusseeds",
+                            "Chance": 0.4
+                        }
+                    ],
+                    "Debris": "wood green"
+                }
+            }
+        },
+
+
+    ]
+}

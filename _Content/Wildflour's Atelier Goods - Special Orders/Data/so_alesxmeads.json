@@ -1,0 +1,544 @@
+{
+  "Changes": [
+
+////////////////
+// DROPBOXES //
+///////////////
+
+  {
+      "Action": "EditMap",
+      "Target": "Maps/SamHouse",
+      "MapTiles": [
+              {
+                  "Position": { "X": 6, "Y": 4},
+                  "Layer": "Buildings",
+                  "SetProperties": { "Action": "DropBox KentKitchen"}
+              }		
+      ]
+  },
+
+  {
+    "Action": "EditMap",
+      "Target": "Maps/LeahHouse",
+    "MapTiles": [
+    {
+      "Position": { "X": 13, "Y": 4},
+      "Layer": "Buildings",
+      "SetProperties": { "Action": "DropBox LeahRoom"}
+    }		
+    ]
+  },
+
+/////////////////////
+// SPECIAL ORDER 1 //
+/////////////////////
+
+    {
+    "LogName": "Ales x Meads Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "wildflour.alesxmeads_SO_1": {
+        "Name": "{{i18n:alesxmeads_SO_1.name}}",
+        "Requester": "Pam",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:alesxmeads_SO_1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:alesxmeads_SO_1.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.alesxmeads_coconut_ale",
+                "Message": "{{i18n:alesxmeads_SO_1.accept}}",
+                "TargetName": "Pam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Pam"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+/////////////////////
+// SPECIAL ORDER 2 //
+/////////////////////
+    {
+      "LogName": "Ales x Meads Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.alesxmeads_SO_2": {
+          "Name": "{{i18n:alesxmeads_SO_2.name}}",
+          "Requester": "Shane",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_spring, mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:alesxmeads_SO_2.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:alesxmeads_SO_2.deliver}}",
+                "RequiredCount": "5",
+                "Data": {
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_cherry_ale",
+                  "Message": "{{i18n:alesxmeads_SO_2.accept}}",
+                  "TargetName": "Shane"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Shane"
+                  }
+                },
+
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "wildflour.alesxmeads_SO2_complete",
+                        "NoLetter": "true"
+                  }
+                }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 3 //
+/////////////////////
+    {
+      "LogName": "Ales x Meads Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.alesxmeads_SO_3": {
+          "Name": "{{i18n:alesxmeads_SO_3.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "season_summer, mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:alesxmeads_SO_3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:alesxmeads_SO_3a.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_orange_ale"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:alesxmeads_SO_3b.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_peach_ale"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:alesxmeads_SO_3c.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_melon_ale"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:alesxmeads_SO_3d.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_blueberry_ale"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "13464"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Gus"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.alesxmeads_SO3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 4 //
+/////////////////////
+
+    {
+      "LogName": "Ales x Meads Order 4",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.alesxmeads_SO_4": {
+          "Name": "{{i18n:alesxmeads_SO_4.name}}",
+          "Requester": "Shane",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_spring, mail_willyBugWadCutscene",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:alesxmeads_SO_4.text}}",
+          "Objectives": [
+
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:alesxmeads_SO_4.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_apricot_mead",
+                  "Message": "{{i18n:alesxmeads_SO_4.accept}}",
+                  "TargetName": "Shane"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "2700"
+                }
+              },
+
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Shane"
+                  }
+                }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 5 //
+/////////////////////
+
+    {
+      "LogName": "Ales x Meads Order 5",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.alesxmeads_SO_5": {
+          "Name": "{{i18n:alesxmeads_SO_5.name}}",
+          "Requester": "Willy",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_fall, mail_willyBugWadCutscene,",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:alesxmeads_SO_5.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:alesxmeads_SO_5.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_pomegranate_mead",
+                  "Message": "{{i18n:alesxmeads_SO_5.accept}}",
+                  "TargetName": "Willy"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "3900"
+                }
+              },
+
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Willy"
+                  }
+                }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 6 //
+/////////////////////
+
+    {
+    "LogName": "Ales x Meads Order 6",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+        "wildflour.alesxmeads_SO_6": {
+          "Name": "{{i18n:alesxmeads_SO_6.name}}",
+          "Requester": "Leah",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "season_fall, mail_willyBugWadCutscene",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:alesxmeads_SO_6.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:alesxmeads_SO_6a.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "LeahRoom",
+                  "DropBoxGameLocation": "LeahHouse",
+                  "DropBoxIndicatorLocation": "13 4",
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_spiced_mead"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:alesxmeads_SO_6b.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "LeahRoom",
+                  "DropBoxGameLocation": "LeahHouse",
+                  "DropBoxIndicatorLocation": "13 4",
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_cranberry_mead"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:alesxmeads_SO_6c.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "LeahRoom",
+                  "DropBoxGameLocation": "LeahHouse",
+                  "DropBoxIndicatorLocation": "13 4",
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_blackberry_mead"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:alesxmeads_SO_6d.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "LeahRoom",
+                  "DropBoxGameLocation": "LeahHouse",
+                  "DropBoxIndicatorLocation": "13 4",
+                  "AcceptedContextTags": "item_wildflour.alesxmeads_apple_mead"
+                }
+              }
+            ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "7350"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Leah"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour_meadOrder6_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      }
+    }
+    },
+
+/////////////////////
+// SPECIAL ORDER 7 //
+/////////////////////
+
+    {
+    "LogName": "Ales x Meads Order 100 Mead Shipment",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+        "wildflour.alesxmeads_SO_7": {
+          "Name": "{{i18n:alesxmeads_SO_8.name}}",
+          "Requester": "Lewis",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "mail_wildflour_meadOrder4_complete",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:alesxmeads_SO_8.text}}",
+          "Objectives": [
+              {
+                "Type": "Ship",
+                "Text": "{{i18n:alesxmeads_SO_8.ship}}",
+                "RequiredCount": "100",
+                "Data": {
+                  "AcceptedContextTags": "wildflour_mead_item"
+                }
+              }
+            ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "100000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.alesxmeads_SO7_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      }
+    }
+    },
+
+/////////////////////
+// SPECIAL ORDER 7 //
+/////////////////////
+
+    {
+      "LogName": "Ales x Meads Order 100 Ale Shipment",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+          "wildflour.alesxmeads_SO_8": {
+            "Name": "{{i18n:alesxmeads_SO_7.name}}",
+            "Requester": "Lewis",
+            "Duration": "Month",
+            "Repeatable": "False",
+            "RequiredTags": "mail_wildflour.alesxmeads_SO2_complete, mail_wildflour.alesxmeads_SO3_complete, mail_wildflour.alesxmeads_SO4_complete",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:alesxmeads_SO_7.text}}",
+            "Objectives": [
+                {
+                  "Type": "Ship",
+                  "Text": "{{i18n:alesxmeads_SO_7.ship}}",
+                  "RequiredCount": "100",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_ale_item"
+                  }
+                },
+
+                
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "100000"
+                }
+              },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.alesxmeads_SO8_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+  ]
+}
+

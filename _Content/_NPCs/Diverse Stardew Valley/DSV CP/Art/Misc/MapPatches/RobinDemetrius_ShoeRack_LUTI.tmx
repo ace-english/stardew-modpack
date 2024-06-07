@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="2" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="57">
+ <properties>
+  <property name="DayTiles" value="Front 8 1 256 Front 8 2 288 Front 3 1 256 Front 3 2 288 Front 3 14 256 Front 3 15 288 Front 7 14 256 Front 7 15 288 Front 18 14 256 Front 18 15 288 Front 21 14 256 Front 21 15 288 Front 22 14 1344  Front 7 3 1346 Front 14 1 1344 Front 15 1 256 Front 15 2 288 Front 19 1 1344 Front 20 1 256 Front 20 2 288 Front 21 1 1344 Front 30 5 256 Front 30 6 288 Front 29 5 256 Front 29 6 288 Front 7 3 1346"/>
+  <property name="Doors" value="7 10 1 120 13 10 1 120"/>
+  <property name="Light" value="22 14 4 14 1 4 19 1 4 21 1 4 7 3 1"/>
+  <property name="NightTiles" value="Front 8 1 1253 Front 8 2 1285 Front 3 1 1253 Front 3 2 1285 Front 3 14 1253 Front 3 15 1285 Front 7 14 1253 Front 7 15 1285 Front 18 14 1253 Front 18 15 1285 Front 21 14 1253 Front 21 15 1285 Front 22 14 1345 Front 7 3 1347 Front 14 1 1345 Front 15 1 1253 Front 15 2 1285 Front 19 1 1345 Front 20 1 1253 Front 20 2 1285 Front 21 1 1345 Front 30 5 1253 Front 30 6 1285 Front 29 5 1253 Front 29 6 1285 Front 30 5 1345 Front 7 3 1347"/>
+  <property name="Warp" value="6 25 Mountain 12 26 3 9 Mountain 8 21 12 23 SebastianRoom 1 1 13 23 SebastianRoom 1 1"/>
+  <property name="WindowLight" value="3 1 6 3 2 6 8 1 6 8 2 6 15 1 6 15 2 6 20 1 6 20 2 6 18 14 6 18 15 6 21 14 6 21 15 6 30 5 6 30 6 6 29 5 6 29 6 6 3 14 6 3 15 6 7 14 6 7 15 6"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3489" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="3553" name="zDSV_HouseEdits_Tilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="30">
+  <image source="DSV_HouseEdits_Tilesheet.png" width="480" height="256"/>
+ </tileset>
+ <layer id="1" name="Back" width="2" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxz52BgeMnAwJAOpDOAmIORgYETiF8wQMRhfFUoBgCFAgRb
+  </data>
+ </layer>
+ <layer id="9" name="Back1" width="2" height="6">
+  <data encoding="base64" compression="zlib">
+   eJzL4mRgyAbiLiDuBmJCAABVVAIP
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back" visible="0"/>
+ <layer id="3" name="Buildings" width="2" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAVz7sdDKUhgEAJigBaw==
+  </data>
+ </layer>
+ <layer id="14" name="Buildings1" width="2" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANAAAAMAAB
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="53" name="TileData" x="0" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;DSV.RobinDemetrius.Shoerack1&quot;"/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="0" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;DSV.RobinDemetrius.Shoerack2&quot;"/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="0" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;DSV.RobinDemetrius.Shoerack3&quot;"/>
+   </properties>
+  </object>
+  <object id="56" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;DSV.RobinDemetrius.Shoerack4&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="2" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxT52MgCQAAChIANg==
+  </data>
+ </layer>
+ <layer id="13" name="Front1" width="2" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANAAAAMAAB
+  </data>
+ </layer>
+ <layer id="10" name="Front2" width="2" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANAAAAMAAB
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="2" height="6" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxbzsvAsJwEDADa9Ahx
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths" visible="0"/>
+</map>

@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+{
+    "Action": "Load",
+    "Target": "Mods/wildflour.ateliercrops/CropsWF, Mods/wildflour.ateliercrops/FruitTreesWF, Mods/wildflour.ateliercrops/GiantCropsWF, Mods/wildflour.ateliercrops/ObjectsWF,Mods/wildflour.ateliercrops/Bushes_Spring,Mods/wildflour.ateliercrops/Bushes_Summer,Mods/wildflour.ateliercrops/Bushes_Fall,Mods/wildflour.ateliercrops/Bushes_Winter",
+    "FromFile": "assets/{{TargetWithoutPath}}.png"
+},
+
+{
+    "LogName": "VT Seed Bags",
+    "Action": "EditImage",
+    "Target": "Mods/wildflour.ateliercrops/ObjectsWF",
+    "FromFile": "assets/ObjectsWF_VT.png",
+    "PatchMode":"Replace",
+    "When": {"Atelier.Cauldron/ConfigValue:VanillaTweaks": true}
+} 
+
+]
+}

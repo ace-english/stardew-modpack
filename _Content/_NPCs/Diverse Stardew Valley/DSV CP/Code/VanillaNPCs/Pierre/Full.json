@@ -1,0 +1,231 @@
+{
+// PIERRE DSV FULL
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Pierre Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Pierre", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Pierre.Indoor":
+				{
+					"Id": "{{ModId}}_Pierre_Indoor",
+					"Portrait": "Portraits/Pierre_Indoor",
+					"Sprite": "Characters/Pierre_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Pierre.Outdoor":
+				{
+					"Id": "{{ModId}}_Pierre_Outdoor",
+					"Portrait": "Portraits/Pierre_Outdoor",
+					"Sprite": "Characters/Pierre_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Pierre.EggFestival":
+				{
+					"Id": "{{ModId}}_Pierre_EggFestival",
+					"Portrait": "Portraits/Pierre_EggFestival",
+					"Sprite": "Characters/Pierre_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Pierre.FlowerDance":
+				{
+					"Id": "{{ModId}}_Pierre_FlowerDance",
+					"Portrait": "Portraits/Pierre_FlowerDance",
+					"Sprite": "Characters/Pierre_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Pierre.Luau":
+				{
+					"Id": "{{ModId}}_Pierre_Luau",
+					"Portrait": "Portraits/Pierre_Luau",
+					"Sprite": "Characters/Pierre_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Pierre.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Pierre_MoonlightJellies",
+					"Portrait": "Portraits/Pierre_MoonlightJellies",
+					"Sprite": "Characters/Pierre_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Pierre.SVFair":
+				{
+					"Id": "{{ModId}}_Pierre_SVFair",
+					"Portrait": "Portraits/Pierre_SVFair",
+					"Sprite": "Characters/Pierre_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Pierre.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Pierre_SpiritsEve",
+					"Portrait": "Portraits/Pierre_SpiritsEve",
+					"Sprite": "Characters/Pierre_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Pierre.IceFestival":
+				{
+					"Id": "{{ModId}}_Pierre_IceFestival",
+					"Portrait": "Portraits/Pierre_IceFestival",
+					"Sprite": "Characters/Pierre_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Pierre.WinterStar":
+				{
+					"Id": "{{ModId}}_Pierre_WinterStar",
+					"Portrait": "Portraits/Pierre_WinterStar",
+					"Sprite": "Characters/Pierre_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Pierre.Swim":
+				{
+					"Id": "{{ModId}}_Pierre_Swim",
+					"Portrait": "Portraits/Pierre_Swim",
+					"Sprite": "Characters/Pierre_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Pierre.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Pierre_WeddingGuest",
+					"Sprite": "Characters/Pierre_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Pierre.HotClimate":
+				{
+					"Id": "{{ModId}}_Pierre_HotClimate",
+					"Portrait": "Portraits/Pierre_HotClimate",
+					"Sprite": "Characters/Pierre_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Pierre Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Pierre_Indoor, Characters/Pierre_Indoor, Portraits/Pierre_Outdoor, Characters/Pierre_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Pierre/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PierreVariant}}/Pierre_Summer_1_Rain.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Pierre Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Pierre_EggFestival, Characters/Pierre_EggFestival, Portraits/Pierre_FlowerDance, Characters/Pierre_FlowerDance, Portraits/Pierre_Luau, Characters/Pierre_Luau, Portraits/Pierre_MoonlightJellies, Characters/Pierre_MoonlightJellies, Portraits/Pierre_SVFair, Characters/Pierre_SVFair, Portraits/Pierre_SpiritsEve, Characters/Pierre_SpiritsEve, Portraits/Pierre_IceFestival, Characters/Pierre_IceFestival, Portraits/Pierre_WinterStar, Characters/Pierre_WinterStar, Portraits/Pierre_Swim, Characters/Pierre_Swim, Characters/Pierre_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Pierre/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PierreVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Pierre Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Pierre_HotClimate, Characters/Pierre_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Pierre/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PierreVariant}}/Pierre_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Pierre Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre_Indoor, Characters/Pierre_Indoor",
+			"FromFile": "Art/VanillaNPCs/Pierre/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PierreVariant}}/Pierre_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Pierre Indoor/Outdoor Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre_Outdoor, Characters/Pierre_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Pierre/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PierreVariant}}/Pierre_{{season}}_1_{{DSV.Core/Weather:Pierre}}.png"
+		},
+		{
+			"LogName": "Pierre Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre_HotClimate, Characters/Pierre_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Pierre/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PierreVariant}}/Pierre_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Pierre Elaho Flower Dance",
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre_FlowerDance, Characters/Pierre_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Pierre/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PierreVariant}}/Pierre_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:PierreVariant |contains= Vanilla": true
+			}
+		},
+		{
+			"LogName": "Pierre Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre_Beach, Characters/Pierre_Beach",
+			"FromFile": "Art/VanillaNPCs/Pierre/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PierreVariant}}/Pierre_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Pierre Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Pierre/Misc/Pierre_Emoji_{{DSV.Core/ConfigValue:PierreVariant}}.png",
+			"ToArea": {"X": 27, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:PierreVariant|contains= Vanilla, Off": false
+			}
+		},
+
+// MERMAID PENDANTS
+		
+		{
+			"LogName": "Pierre Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre_Indoor",
+			"FromFile": "Art/VanillaNPCs/Pierre/Misc/MermaidPendants/Pierre_Pendant_{{DSV.Core/ConfigValue:PierreVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsCanon |contains= True": true
+			}
+		}
+	]
+}

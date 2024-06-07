@@ -1,0 +1,102 @@
+{
+
+    "jams_banana_maple_jam.name": "Muzlu Akçaağaç Reçeli",
+	"jams_banana_maple_jam.description": "Taze muzların püresi ve yerli akçaağaç özünden yapılan reçel.",
+
+	"jams_banana_split_jam.name": "Muzlu Tatlı Reçeli",
+	"jams_banana_split_jam.description": "Muzlar, çilekler ve en tepede bir kiraz!",
+
+	"jams_blackberry_mint_jelly.name": "Böğürtlenli Nane Jölesi",
+	"jams_blackberry_mint_jelly.description": "Toplanmış böğürtlenler ve evde yetiştirilen naneden yapılma tatlı bir jöle.",
+
+	"jams_blueberry_lavender_jelly.name": "Yabanmersinli Lavanta Jölesi",
+	"jams_blueberry_lavender_jelly.description": "Toplanmış lavanta ve taze toplanmış yabanmersinlerinden yapılma tatlı bir jöle.",
+	
+	"jams_blue_jazz_jelly.name": "Maviruh Jölesi",
+	"jams_blue_jazz_jelly.description": "Maviruh taç yapraklarından yapılan çiçek jölesi.",
+
+	"jams_chamomile_jelly.name":"Papatya Jölesi",
+	"jams_chamomile_jelly.description":"Toplanmış papatyaların taç yapraklarından yapılan çiçek jölesi.",
+	
+	"jams_cherry_vanilla_jam.name": "Kirazlı Vanilya Reçeli",
+	"jams_cherry_vanilla_jam.description": "Taze toplanmış kirazlar ve vanilyadan yapılan reçel.",
+	
+	"jams_cinnamon_apple_preserves.name": "Tarçınlı Elma Reçeli",
+	"jams_cinnamon_apple_preserves.description": "Taze kıtır elmalar ve bitter tarçın - dolu bir güz aroması için bu reçeli her şeye ekleyebilirsin.",
+
+	"jams_cranberry_chutney.name": "Kızılcık Chutney",
+	"jams_cranberry_chutney.description": "Kızılcık sosu çok abartılıyor - onun yerine bu ekşi hint turşusunu denedin mi?",
+
+	"jams_crocus_jelly.name": "Çiğdem Jölesi",
+	"jams_crocus_jelly.description": "Yabani çiğdem çiçeklerinden yapılan jöle, tadı biraz vanilya ve acı gibi.",
+
+	"jams_dandelion_jelly.name": "Karahindiba Jölesi",
+	"jams_dandelion_jelly.description": "Toplanmış karahindibalardan yapılan jöle, hoş ve tatlı.",
+
+	"jams_honey_apricot_preserves.name": "Ballı Kayısı Reçeli",
+	"jams_honey_apricot_preserves.description": "Taze toplanmış kayısılar ve yerli baldan yapılan reçel.",
+
+	"jams_honey_peach_preserves.name": "Ballı Şeftali Reçeli",
+	"jams_honey_peach_preserves.description": "Taze toplanmış şeftaliler ve yerli baldan yapılan reçel.",
+
+	"jams_mango_chutney.name": "Mango Chutney",
+	"jams_mango_chutney.description": "Bu yazsı chutney taze yakalanıp ızgarada pişirilmiş balığın üstüne sürmek için mükemmel.",
+	
+	"jams_mixed_berry_preserves.name": "Karışık Meyve Reçeli",
+	"jams_mixed_berry_preserves.description": "Üç çeşit meyveden yapılan reçel.",
+
+	"jams_peach_blossom_jelly.name":"Şeftalili Kiraz Çiçeği Jölesi",
+	"jams_peach_blossom_jelly.description":"Kiraz çiçeğinin taç yaprakları ve taze toplanmış şeftalilerin, enfes kokulu bir jölesi oluşana kadar pişirilmiş hali.",
+	
+	"jams_peach_ginger_preserves.name": "Şeftalili Zencefil Reçeli",
+	"jams_peach_ginger_preserves.description": "Şeftalilerden yapılan ve fazladan tat için ada zencefilleri eklenmiş reçel.",
+	
+	"jams_rose_petal_jelly.name":"Gül Yaprağı Jölesi",
+	"jams_rose_petal_jelly.description":"Gül yapraklarından yapılan jöle.",
+	
+	"jams_flower_dance_jelly.name": "Özel Çiçek Dansı Jölesi",
+	"jams_flower_dance_jelly.description": "Pelikan Kasabası'nın Yıllık Çiçek Dansı'nın kutlaması için yapılmış küçük bir paket jöle!",
+	
+	"jams_luau_jam.name": "Özel Luau Reçeli",
+	"jams_luau_jam.description": "Pelikan Kasabası'nın Yıllık Luau'yu kutlamak için yapılmış küçük bir paket reçel!",
+	
+	"jams_spirits_eve_jam.name": "Özel Ruhlar Arefesi Reçeli",
+	"jams_spirits_eve_jam.description": "Ruhlar Arefesi'ni kutlamak için yapılmış küçük bir paket reçel!",
+	
+	"jams_winter_star_jelly.name": "Özel Kış Yıldızı Şöleni Jölesi",
+	"jams_winter_star_jelly.description": "Kış Yıldızı Şöleni'nin kutlaması için yapılmış küçük bir paket jöle!",
+	
+	"jams_lemon_marmalade.name": "Bahar Limon Marmelatı",
+	"jams_lemon_marmalade.description": "Limon kabuğunun tam parçaları sayesinde, limonların güçlü aroması kendini hissettiriyor!",
+	
+	"jams_strawberry_rhubarb_jam.name": "Çilekli Uşkun Reçeli",
+	"jams_strawberry_rhubarb_jam.description": "Tatlı çilekler ve sert uşkunun birleşimiyle yapılmış reçel.",
+
+	"jams_strawberry_rose_jelly.name": "Çilekli Gül Jölesi",
+	"jams_strawberry_rose_jelly.description": "Taze toplanmış yabani çilekler ve gül yaprakları beraber pişirilerek güzel kokulu ve tatlı bir reçel olmuş.",
+	
+	"jams_spangle_jelly.name": "Yazpulu Jölesi",
+	"jams_spangle_jelly.description": "Yaz mevsiminin en iyi yazpullarından yapılmış jöle, tadı sanki kavanoza konulmuş gün ışığı gibi.",
+	
+	"jams_orange_marmalade.name": "Yaz Portakalı Marmelatı",
+	"jams_orange_marmalade.description": "Portakal kabuğunun tam parçaları sayesinde, portakallarının güçlü aroması kendini hissettiriyor!",
+	
+	"jams_sunflower_jelly.name": "Ayçiçeği Jölesi",
+	"jams_sunflower_jelly.description": "Ayçiçeklerinin taç yapraklarından yapılan çiçek jölesi, çok az yemiş tadı var.",	
+
+	"jams_lime_marmalade.name": "Tatlı Yeşil Limon Marmelatı",
+	"jams_lime_marmalade.description": "Yeşil limonun kabuğunun tam parçaları sayesinde, yeşil limonun sert aroması ve tatlılığı kendini hissettiriyor!",
+
+	"jams_jasmine_jelly.name": "Tatlı Yasemin Jölesi",
+	"jams_jasmine_jelly.description": "Taze toplanmış yaseminlerden yapılan jöle, taze ve çiçeksi bir tadı var.",
+
+	"jams_citrus_marmalade.name": "Üçlü Turunçgil Marmelatı",
+	"jams_citrus_marmalade.description": "Limonlar, yeşil limonlar ve portakallar güçlü sitrik bir aroma için bir araya geldi.",
+
+	"jams_tulip_jelly.name": "Lale Jölesi",
+	"jams_tulip_jelly.description": "Taze toplanmış lalelerden yapılan jöle, taze ve çiçeksi bir tadı var.",
+
+	"jams_vanilla_raspberry_preserves.name": "Vanilyalı Ahududu Reçeli",
+	"jams_vanilla_raspberry_preserves.description": "Vanilya ve ahududu mükemmel ikili - harbiden tatlı bir atıştırmalık için bir tostun üstüne sürün veya bir pastanın içinde kullanın!",
+
+}

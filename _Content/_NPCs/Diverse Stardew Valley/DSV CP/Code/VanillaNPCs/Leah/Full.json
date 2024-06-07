@@ -1,0 +1,448 @@
+{
+// LEAH DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Leah Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Leah", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Leah.Indoor":
+				{
+					"Id": "{{ModId}}_",
+					"Portrait": "Portraits/Leah_Indoor",
+					"Sprite": "Characters/Leah_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Leah.Outdoor":
+				{
+					"Id": "{{ModId}}_",
+					"Portrait": "Portraits/Leah_Outdoor",
+					"Sprite": "Characters/Leah_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Leah.EggFestival":
+				{
+					"Id": "{{ModId}}_Leah_EggFestival",
+					"Portrait": "Portraits/Leah_EggFestival",
+					"Sprite": "Characters/Leah_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Leah.FlowerDance":
+				{
+					"Id": "{{ModId}}_Leah_FlowerDance",
+					"Portrait": "Portraits/Leah_FlowerDance",
+					"Sprite": "Characters/Leah_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Leah.Luau":
+				{
+					"Id": "{{ModId}}_Leah_Luau",
+					"Portrait": "Portraits/Leah_Luau",
+					"Sprite": "Characters/Leah_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Leah.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Leah_MoonlightJellies",
+					"Portrait": "Portraits/Leah_MoonlightJellies",
+					"Sprite": "Characters/Leah_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Leah.SVFair":
+				{
+					"Id": "{{ModId}}_Leah_SVFair",
+					"Portrait": "Portraits/Leah_SVFair",
+					"Sprite": "Characters/Leah_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Leah.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Leah_SpiritsEve",
+					"Portrait": "Portraits/Leah_SpiritsEve",
+					"Sprite": "Characters/Leah_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Leah.IceFestival":
+				{
+					"Id": "{{ModId}}_Leah_IceFestival",
+					"Portrait": "Portraits/Leah_IceFestival",
+					"Sprite": "Characters/Leah_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Leah.WinterStar":
+				{
+					"Id": "{{ModId}}_Leah_WinterStar",
+					"Portrait": "Portraits/Leah_WinterStar",
+					"Sprite": "Characters/Leah_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// MATERNITY
+				"DSV.Leah.Maternity":
+				{
+					"Id": "{{ModId}}_Leah_Maternity",
+					"Portrait": "Portraits/Leah_Maternity",
+					"Sprite": "Characters/Leah_Maternity",
+					"Condition": "{{Pregnant |contains= Leah}}, {{DSV.Core/ConfigValue:MaternitySprites |contains= True}}, {{DSV.Core/ConfigValue:LeahVariant |contains= Vanilla, Native}}",
+					"Precedence": -250
+				},
+				"DSV.Leah.MaternityBeach":
+				{
+					"Id": "{{ModId}}_Leah_Beach_Maternity",
+					"Portrait": "Portraits/Leah_Beach_Maternity",
+					"Sprite": "Characters/Leah_Beach_Maternity",
+					"Condition": "{{Pregnant |contains= Leah}}, {{DSV.Core/ConfigValue:MaternitySprites |contains= True}}, {{DSV.Core/ConfigValue:LeahVariant |contains= Vanilla, Native}}",
+					"IsIslandAttire": true,
+					"Precedence": -250
+				},
+			// OTHER
+				"DSV.Leah.Swim":
+				{
+					"Id": "{{ModId}}_Leah_Swim",
+					"Portrait": "Portraits/Leah_Swim",
+					"Sprite": "Characters/Leah_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Leah.Pyjamas":
+				{
+					"Id": "{{ModId}}_Leah_Pyjamas",
+					"Portrait": "Portraits/Leah_Pyjamas",
+					"Sprite": "Characters/Leah_Pyjamas",
+					"Condition": "ANY \"LOCATION_NAME Target LeahHouse, !TIME 0820 2140, {{DSV.Core/ConfigValue:Pyjamas |contains= On}}\" \"LOCATION_NAME Target Farmhouse, !TIME 0820 2140, !{{DSV.Core/ConfigValue:Pyjamas |contains= Off}}, PLAYER_NPC_RELATIONSHIP Current Leah Married Roommate\"",
+					"Precedence": -150
+				},
+				"DSV.Leah.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Leah_WeddingGuest",
+					"Sprite": "Characters/Leah_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Leah.HotClimate":
+				{
+					"Id": "{{ModId}}_Leah_HotClimate",
+					"Portrait": "Portraits/Leah_HotClimate",
+					"Sprite": "Characters/Leah_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Leah.Aerobics":
+				{
+					"Id": "{{ModId}}_Leah_Aerobics",
+					"Sprite": "Characters/Leah_Aerobics",
+					"Condition": "IS_EVENT 58",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Leah Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Leah_Indoor, Characters/Leah_Indoor, Portraits/Leah_Outdoor, Characters/Leah_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Leah Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Leah_EggFestival, Characters/Leah_EggFestival, Portraits/Leah_FlowerDance, Characters/Leah_FlowerDance, Portraits/Leah_Luau, Characters/Leah_Luau, Portraits/Leah_MoonlightJellies, Characters/Leah_MoonlightJellies, Portraits/Leah_SVFair, Characters/Leah_SVFair, Portraits/Leah_SpiritsEve, Characters/Leah_SpiritsEve, Portraits/Leah_IceFestival, Characters/Leah_IceFestival, Portraits/Leah_WinterStar, Characters/Leah_WinterStar, Portraits/Leah_Swim, Characters/Leah_Swim, Portraits/Leah_Pyjamas, Characters/Leah_Pyjamas, Characters/Leah_Aerobics, Characters/Leah_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Leah Load - Maternity Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Leah_Maternity, Characters/Leah_Maternity",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Native": true
+			}
+		},
+		{
+			"LogName": "Leah Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Leah_HotClimate, Characters/Leah_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Leah Load - Maternity Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Leah_Beach_Maternity, Characters/Leah_Beach_Maternity",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Native": true
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Leah Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Characters/Leah_Indoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_{{Season}}_{{RandomTwoToken}}_Base.png"
+		},
+		{
+			"LogName": "Leah Outdoor Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Outdoor, Characters/Leah_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_{{Season}}_{{RandomTwoToken}}_{{DSV.Core/Weather:Leah}}.png"
+		},
+		{
+			"LogName": "Leah Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_HotClimate, Characters/Leah_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Summer_{{RandomTwoToken}}_Sun.png"
+		},
+		{
+			"LogName": "Leah Random Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_SpiritsEve, Characters/Leah_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_SpiritsEve_{{RandomSpiritsEveTwoToken}}.png"
+		},
+		{
+			"LogName": "Leah Flower Queen Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_FlowerDance, Characters/Leah_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_FlowerDance_1{{LeahFlowerDanceToken}}.png",
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Leah Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach, Characters/Leah_Beach",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Leah Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Leah_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Wedding_{{LeahSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Leah Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/Leah_Emoji_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"ToArea": {"X": 27, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Leah 14-Heart Event Temporary Sprites Hands",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/Leah14Heart_TemporarySprites1_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Leah Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/Leah_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"ToArea": {"X": 48, "Y": 368, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Off": false
+			}
+		},
+
+// MERMAID PENDANTS
+		{
+			"LogName": "Leah Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Portraits/Leah_Pyjamas, Portraits/Leah_EggFestival, Portraits/Leah_FlowerDance, Portraits/Leah_Luau, Portraits/Leah_MoonlightJellies, Portraits/Leah_SVFair, Portraits/Leah_Maternity",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/MermaidPendants/Leah_Pendant_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Leah |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Leah Pendants - Beach & Winter Star",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach, Portraits/Leah_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/MermaidPendants/Leah_Pendant_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Leah |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Leah Pendants - Life Cycle Leah/Haley Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Portraits/Leah_Pyjamas, Portraits/Leah_EggFestival, Portraits/Leah_FlowerDance, Portraits/Leah_Luau, Portraits/Leah_MoonlightJellies, Portraits/Leah_SVFair",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/MermaidPendants/Leah_Pendant_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Leah |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleHaleyLeah": true,
+				"HasSeenEvent |contains= 59020035": true
+			}
+		},
+		{
+			"LogName": "Leah Pendants - Beach & Winter Star - Life Cycle Leah/Haley Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach, Portraits/Leah_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/MermaidPendants/Leah_Pendant_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Leah |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleHaleyLeah": true,
+				"HasSeenEvent |contains= 59020035": true
+			}
+		},
+
+// COMPATIBILITY
+// PPAF
+		{
+			"LogName": "PPaF Compat - Leah No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Portraits/Leah_EggFestival, Portraits/Leah_FlowerDance, Portraits/Leah_Luau, Portraits/Leah_MoonlightJellies, Portraits/Leah_SVFair, Portraits/Leah_IceFestival, Portraits/Leah_WinterStar, Portraits/Leah_Swim, Portraits/Leah_HotClimate, Portraits/Leah_Maternity, Portraits/Leah_Pyjamas",
+			"FromFile": "Art/VanillaNPCs/Leah/Portraits/{{DSV.Core/ConfigValue:LeahVariant}}/Overlays/Leah_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Leah": true
+			}
+		},
+		
+//MISCELLANEOUS OVERLAYS
+		{
+			"LogName": "Art Bags",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Outdoor, Characters/Leah_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Overlays/Leah_{{season}}_{{RandomTwoToken}}_Sun_Bag{{Random: 1, 2|key= LeahArtBag}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Season |contains= winter": false,
+				"DayOfWeek |contains= Tuesday, Wednesday, Thursday": true,
+				"Weather |contains= sun, wind": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Leah Paint Splatter 1",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Characters/Leah_Indoor, Portraits/Leah_Outdoor, Characters/Leah_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Overlays/Leah_PaintSplatter_{{Random: 1, 2, 3, 4, 5, x, x, x}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Time": "{{Range: 1230, 2400}}",
+				"Query: ('{{Weather}}' = 'rain') OR ('{{DayOfWeek |contains= Friday, Saturday}}' = 'true') OR ('{{Season}}' = 'winter')": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"LogName": "Leah Paint Splatter 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Characters/Leah_Indoor, Portraits/Leah_Outdoor, Characters/Leah_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Overlays/Leah_PaintSplatter_{{Random: 1, 2, 3, 4, 5, x, x, x}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Time": "{{Range: 1230, 2400}}",
+				"Query: ('{{Weather}}' = 'rain') OR ('{{DayOfWeek |contains= Friday, Saturday}}' = 'true') OR ('{{Season}}' = 'winter')": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"LogName": "Leah Paint Splatter 3",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Characters/Leah_Indoor, Portraits/Leah_Outdoor, Characters/Leah_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Overlays/Leah_PaintSplatter_{{Random: 1, 2, 3, 4, 5, x, x, x}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Time": "{{Range: 1230, 2400}}",
+				"Query: ('{{Weather}}' = 'rain') OR ('{{DayOfWeek |contains= Friday, Saturday}}' = 'true') OR ('{{Season}}' = 'winter')": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"LogName": "Leah Woodworking Goggles",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Characters/Leah_Indoor, Portraits/Leah_Outdoor, Characters/Leah_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Overlays/Leah_WoodworkGoggles.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"LocationName |contains= Farm, LeahHouse": true,
+				"Time": "{{Range: 0900, 1200}}"
+			},
+			"Update": "OnLocationChange"
+		}
+	]
+}

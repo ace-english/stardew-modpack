@@ -1,0 +1,431 @@
+{
+	//////////////
+	// MACHINES //
+	//////////////
+	
+	"gourmetpantry_KitchenBlender.name": "Кухонный блендер",
+	"gourmetpantry_KitchenBlender.description": "Кухонный прибор, который может смешивать орехи с молоком, молоко со сливками и многое другое!",
+
+	"gourmetpantry_KitchenMortar.name": "Кухонная ступка",
+	"gourmetpantry_KitchenMortar.description": "С ее помощью можно измельчать урожай в муку и смеси специй.",
+
+	"gourmetpantry_YogurtBowl.name": "Чаша для йогурта",
+	"gourmetpantry_YogurtBowl.description": "С ее помощью можно приготовить йогурты со сливочным вкусом.",
+
+	"gourmetpantry_SyrupMaker.name": "Дистиллятор",
+	"gourmetpantry_SyrupMaker.description": "Кухонная станция для перегонки ароматизированных сиропов и других жидких смесей.",
+
+	/////////////
+	// STRINGS //
+	/////////////
+
+	"gourmetpantry_flavored_syrup":"{0} Сироп",
+	"gourmetpantry_flavored_yogurt":"{0} Йогурт",
+
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"gourmetpantry_KitchenBlender_InvalidItem.message": "Это невозможно обработать",
+	"gourmetpantry_KitchenBlender_InvalidCount.message": "Требуется больше ингредиентов.",
+
+	"gourmetpantry_KitchenMortar_InvalidItem.message": "Это невозможно обработать",
+	"gourmetpantry_KitchenMortar_InvalidCount.message": "Требуется больше ингредиентов",
+
+	"gourmetpantry_YogurtBowl_InvalidItem.message": "Это невозможно обработать",
+	"gourmetpantry_YogurtBowl_InvalidCount.message": "Требуется больше ингредиентов.",
+
+	"gourmetpantry_SyrupMaker_InvalidItem.message": "Это невозможно обработать",
+	"gourmetpantry_SyrupMaker_InvalidCount.message": "Требуется больше ингредиентов",
+
+
+	/////////////////////////
+	// NUT & FRUIT BUTTERS //
+	/////////////////////////
+	
+	"gourmetpantry_almond_butter.name": "Миндально-ореховое масло",
+	"gourmetpantry_almond_butter.description": "Сливочный, похожий на масло спред из миндаля. Идеально подходит для выпечки, тостов и многого другого!",
+
+	"gourmetpantry_cashew_butter.name": "Масло кешью",
+	"gourmetpantry_cashew_butter.description": "Сливочный, похожий на масло спред из кешью. Идеально подходит для выпечки, тостов и многого другого!",
+
+	"gourmetpantry_coconut_butter.name": "Кокосовое масло",
+	"gourmetpantry_coconut_butter.description": "Заменитель сливочного масла, изготовленный из жира кокоса. Идеально подходит для выпечки безлактозных лакомств!",
+
+	"gourmetpantry_apple_butter.name": "Яблочное масло",
+	"gourmetpantry_apple_butter.description": "Сделано по секретному семейному рецепту фермера — теплое и сладкое, идеально подходит для утренних тостов и кексов!",
+
+	"gourmetpantry_honey_butter.name": "Медовое масло",
+	"gourmetpantry_honey_butter.description": "Сделано по секретному семейному рецепту фермера с помощью прекрасных шмелей.",
+
+	"gourmetpantry_maple_butter.name": "Кленовое масло",
+	"gourmetpantry_maple_butter.description": "Сделано по секретному семейному рецепту фермера с использованием кленового сиропа местного производства.",
+
+	"gourmetpantry_pumpkin_butter.name": "Тыквенное масло",
+	"gourmetpantry_pumpkin_butter.description": "Сделано по секретному семейному рецепту фермера — идеально подходит для всех любителей тыквенных специй.",
+
+	"gourmetpantry_lemon_curd.name": "Лимонный курд",
+	"gourmetpantry_lemon_curd.description": "Его сочная кремовая текстура обусловлена высококачественными яичными желтками от очень счастливых кур.",
+
+	"gourmetpantry_lime_curd.name": "Лаймовый курд",
+	"gourmetpantry_lime_curd.description": "Его сочная кремовая текстура обусловлена высококачественными яичными желтками от очень счастливых кур.",
+
+	"gourmetpantry_orange_curd.name": "Апельсиновый курд",
+	"gourmetpantry_orange_curd.description": "Его сочная кремовая текстура обусловлена высококачественными яичными желтками от очень счастливых кур.",
+	
+	"gourmetpantry_hazelnut_butter.name": "Фундучное масло",
+	"gourmetpantry_hazelnut_butter.description": "Сливочный, похожий на масло спред из фундука. Идеально подходит для выпечки, тостов и многого другого!",
+
+	"gourmetpantry_pistachio_butter.name": "Фисташковое масло",
+	"gourmetpantry_pistachio_butter.description": "Сливочный, похожий на масло спред из фисташек. Идеально подходит для выпечки, тостов и многого другого",
+
+	"gourmetpantry_walnut_butter.name": "Масло из грецкого ореха",
+	"gourmetpantry_walnut_butter.description": "Сливочный, похожий на масло спред из грецких орехов. Идеально подходит для выпечки, тостов и многого другого!",
+	
+	///////////
+	// MILKS //
+	///////////
+
+	"gourmetpantry_almond_milk.name": "Миндальное молоко",
+	"gourmetpantry_almond_milk.description": "Альтернативное молоко из миндаля. Отличный заменитель молочных продуктов в выпечке, смузи и многом другом!",
+
+	"gourmetpantry_cashew_milk.name": "Молоко из кешью",
+	"gourmetpantry_cashew_milk.description": "Альтернативное молоко из кешью. Отличный заменитель молочных продуктов в выпечке, смузи и многом другом!",
+
+	"gourmetpantry_coconut_milk.name": "Кокосовое молоко",
+	"gourmetpantry_coconut_milk.description": "Альтернативное молоко из кокоса. Отличный заменитель молочных продуктов в выпечке, смузи и многом другом!",
+
+	"gourmetpantry_hazelnut_milk.name": "Фундучное молоко",
+	"gourmetpantry_hazelnut_milk.description": "Альтернативное молоко из фундука. Отличный заменитель молочных продуктов в выпечке, смузи и многом другом!",
+
+	"gourmetpantry_pistachio_milk.name": "Фисташковое молоко",
+	"gourmetpantry_pistachio_milk.description": "Альтернативное молоко из фисташек. Отличный заменитель молочных продуктов в выпечке, смузи и многом другом!",
+
+	"gourmetpantry_rice_milk.name": "Рисовое молоко",
+	"gourmetpantry_rice_milk.description": "Альтернативное молоко из риса. Отличный заменитель молочных продуктов в выпечке, смузи и многом другом!",
+
+	///////////////
+	// CHOCOLATE //
+	///////////////
+
+	"gourmetpantry_bittersweet_chocolate.name": "Горький шоколад",
+	"gourmetpantry_bittersweet_chocolate.description": "Плитка темного шоколада, используется при изготовлении сладостей и угощений.",
+
+	"gourmetpantry_chocolate_chips.name": "Шоколадная крошка",
+	"gourmetpantry_chocolate_chips.description": "Она ОБЯЗАТЕЛЬНА для всех, кто любит готовить печенье.",
+
+	"gourmetpantry_semisweet_chocolate.name": "Полусладкий шоколад",
+	"gourmetpantry_semisweet_chocolate.description": "Плитка слегка сладкого шоколада, используется при изготовлении сладостей и угощений.",
+
+	"gourmetpantry_white_chocolate.name": "Белый шоколад",
+	"gourmetpantry_white_chocolate.description": "Плитка белого шоколада, используется при изготовлении сладостей и угощений.",
+
+	/////////////////
+	// INGREDIENTS //
+	/////////////////
+
+	"gourmetpantry_vanilla_extract.name": "Экстракт ванили",
+	"gourmetpantry_vanilla_extract.description": "Ванильная эссенция, дистиллированная из собранных ванильных бобов. Используется при выпечке сладких лакомств!",
+
+	"gourmetpantry_confectioners_sugar.name": "Кондитерский сахар",
+	"gourmetpantry_confectioners_sugar.description": "Также известен как сахарная пудра; в этот мелкоизмельченный сахар добавлено немного кукурузного крахмала, чтобы он не слипался, его часто используют для посыпки выпечки.",
+
+	"gourmetpantry_espresso_powder.name": "Порошок эспрессо",
+	"gourmetpantry_espresso_powder.description": "Кофейные нотки прекрасно дополняют шоколадную выпечку.",
+
+	"gourmetpantry_pectin.name": "Пектин",
+	"gourmetpantry_pectin.description": "Желирующий агент из фруктов; необходим для джемов и желе.",
+
+	"gourmetpantry_rainbow_sprinkles.name": "Радужная посыпка",
+	"gourmetpantry_rainbow_sprinkles.description": "Также известна как разноцветная вермишель; как бы вы ее не называли, она милая и красочная, и является идеальной добавкой практически ко всему!",
+
+	"gourmetpantry_brown_sugar.name": "Коричневый сахар",
+	"gourmetpantry_brown_sugar.description": "Сахар, из которого при обработке не была удалена вся патока, что дает более насыщенный, карамельный вкус, который хорошо подходит для кексов и некоторых тортов.",
+
+	"gourmetpantry_cocoa_powder.name": "Какао-порошок",
+	"gourmetpantry_cocoa_powder.description": "Какао, высушенное и перетёртое в порошок для использования в выпечке.",
+
+	"gourmetpantry_olive_oil.name": "Оливковое масло",
+	"gourmetpantry_olive_oil.description": "Оливковое масло холодного отжима превосходно подходит для использования в салатах или обжаривания свежих овощей!",
+	
+
+	///////////
+	// DAIRY //
+	///////////
+
+	"gourmetpantry_butter.name": "Сливочное масло",
+	"gourmetpantry_butter.description": "Свежее коровье молоко, вручную взбитое до великолепного масла.",
+
+	"gourmetpantry_buttermilk.name": "Пахта",
+	"gourmetpantry_buttermilk.description": "Хотя пахнет немного неприятно, этот ингредиент помогает приготовить нежный кукурузный хлеб и пышные блины.",
+
+	"gourmetpantry_cream.name": "Крем",
+	"gourmetpantry_cream.description": "Этот крем, изготовленный из молока местных коров, необходим для некоторых видов выпечки и мягкой, воздушной глазури!",
+
+	"gourmetpantry_cream_cheese.name": "Крем-чиз",
+	"gourmetpantry_cream_cheese.description": "Этот сливочный сыр, приготовленный из молока местных коров, идеально подойдет для чизкейка или простых тостов.",
+
+	////////////
+	// YOGURT //
+	////////////
+
+	"gourmetpantry_plain_yogurt.name": "Йогурт",
+	"gourmetpantry_plain_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_ambrosia_yogurt.name": "Йогурт \"Амброзия\"",
+	"gourmetpantry_ambrosia_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_ancient_yogurt.name": "Древний йогурт",
+	"gourmetpantry_ancient_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_apple_yogurt.name": "Яблочный йогурт",
+	"gourmetpantry_apple_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_apricot_yogurt.name": "Абрикосовый йогурт",
+	"gourmetpantry_apricot_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_banana_yogurt.name": "Банановый йогурт",
+	"gourmetpantry_banana_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_blood_orange_yogurt.name": "Йогурт из кровавого апельсина",
+	"gourmetpantry_blood_orange_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_blueberry_yogurt.name": "Черничный йогурт",
+	"gourmetpantry_blueberry_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_chocolate_yogurt.name": "Шоколадный йогурт",
+	"gourmetpantry_chocolate_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_cheesecake_yogurt.name": "Йогурт со вкусом чизкейка",
+	"gourmetpantry_cheesecake_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_vanilla_yogurt.name": "Ванильный йогурт",
+	"gourmetpantry_vanilla_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_caramel_yogurt.name": "Карамельный йогурт",
+	"gourmetpantry_caramel_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_cherry_yogurt.name": "Вишневый йогурт",
+	"gourmetpantry_cherry_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_coconut_yogurt.name": "Кокосовый йогурт",
+	"gourmetpantry_coconut_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_coffee_yogurt.name": "Кофейный йогурт",
+	"gourmetpantry_coffee_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_creamsicle_yogurt.name": "Йогурт со сливками",
+	"gourmetpantry_creamsicle_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_custard_yogurt.name": "Йогурт с заварным кремом",
+	"gourmetpantry_custard_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_eversweet_yogurt.name": "Вечносладкий йогурт",
+	"gourmetpantry_eversweet_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_candy_yogurt.name": "Конфетный йогурт",
+	"gourmetpantry_candy_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_tiramisu_yogurt.name": "Йогурт с тирамису",
+	"gourmetpantry_tiramisu_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_macaron_yogurt.name": "Йогурт с кусочками макарона",
+	"gourmetpantry_macaron_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_mango_yogurt.name": "Манговый йогурт",
+	"gourmetpantry_mango_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_melon_yogurt.name": "Дынный йогурт",
+	"gourmetpantry_melon_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_galaxy_yogurt.name": "Галактический йогурт",
+	"gourmetpantry_galaxy_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_moongold_yogurt.name": "Йогурт Лунного золота",
+	"gourmetpantry_moongold_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_orange_yogurt.name": "Апельсиновый йогурт",
+	"gourmetpantry_orange_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_peach_yogurt.name": "Персиковый йогурт",
+	"gourmetpantry_peach_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_mint_yogurt.name": "Мятный йогурт",
+	"gourmetpantry_mint_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_lemon_yogurt.name": "Лимонный йогурт",
+	"gourmetpantry_lemon_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_lime_yogurt.name": "Лаймовый йогурт",
+	"gourmetpantry_lime_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_pie_yogurt.name": "йогуртом с кусочками пирога",
+	"gourmetpantry_pie_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_pineapple_yogurt.name": "Ананасовый йогурт",
+	"gourmetpantry_pineapple_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_pomegranate_yogurt.name": "Гранатовый йогурт",
+	"gourmetpantry_pomegranate_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_pumpkin_yogurt.name": "Тыквенный йогурт",
+	"gourmetpantry_pumpkin_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_shortcake_yogurt.name": "Йогурт с кусочками печенья",
+	"gourmetpantry_shortcake_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_snow_yogurt.name": "Снежный йогурт",
+	"gourmetpantry_snow_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_sprinkle_yogurt.name": "Йогурт с посыпкой",
+	"gourmetpantry_sprinkle_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_starfruit_yogurt.name": "Йогурт из карамболы",
+	"gourmetpantry_starfruit_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_sugar_yogurt.name": "Йогурт сахарных цветов",
+	"gourmetpantry_sugar_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_sunset_yogurt.name": "Йогурт из рассветного манго",
+	"gourmetpantry_sunset_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_gem_yogurt.name": "Йогурт из сладкой ягоды",
+	"gourmetpantry_gem_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_raspberry_yogurt.name": "Йогурт из дикой малины",
+	"gourmetpantry_raspberry_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	"gourmetpantry_strawberry_yogurt.name": "Йогурт из дикой клубники",
+	"gourmetpantry_strawberry_yogurt.description": "Этот йогурт, приготовленный из молока местных коров, полон пробиотиков!",
+    
+	////////////
+	// SYRUPS //
+	////////////
+
+	"gourmetpantry_ancient_syrup.name": "Древний сироп",
+	"gourmetpantry_ancient_syrup.description": "Простой сироп со вкусом древнего плода. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_apple_syrup.name": "Яблочный сироп",
+	"gourmetpantry_apple_syrup.description": "Простой сироп со вкусом яблока. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_apricot_syrup.name": "Абрикосовый сироп",
+	"gourmetpantry_apricot_syrup.description": "Простой сироп со вкусом абрикоса. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_banana_syrup.name": "Банановый сироп",
+	"gourmetpantry_banana_syrup.description": "Простой сироп со вкусом банана. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_blueberry_syrup.name": "Черничный сироп",
+	"gourmetpantry_blueberry_syrup.description": "Простой сироп со вкусом свежей черники. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_caramel_syrup.name": "Карамельный сироп",
+	"gourmetpantry_caramel_syrup.description": "Простой сироп со вкусом карамели. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_chai_syrup.name": "Чайный сироп",
+	"gourmetpantry_chai_syrup.description": "Простой сироп со вкусом чая. Идеально подходит для приготовления индивидуальных напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_cherry_syrup.name": "Вишнёвый сироп",
+	"gourmetpantry_cherry_syrup.description": "Простой сироп со вкусом вишни. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_chocolate_syrup.name": "Шоколадный сироп",
+	"gourmetpantry_chocolate_syrup.description": "Простой сироп со вкусом какао. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_elderberry_syrup.name": "Бузинный сироп",
+	"gourmetpantry_elderberry_syrup.description": "Простой сироп со вкусом свежей бузины. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_grenadine_syrup.name": "Сироп Гренадин",
+	"gourmetpantry_grenadine_syrup.description": "Простой сироп со вкусом граната. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_lavender_syrup.name": "Лавандовый сироп",
+	"gourmetpantry_lavender_syrup.description": "Простой сироп со вкусом свежей лаванды. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_lemon_syrup.name": "Лимонный сироп",
+	"gourmetpantry_lemon_syrup.description": "Простой сироп со вкусом свежего лимона. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_lime_syrup.name": "Лаймовый сироп",
+	"gourmetpantry_lime_syrup.description": "Простой сироп со вкусом свежего лайма. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_mango_syrup.name": "Манговый сироп",
+	"gourmetpantry_mango_syrup.description": "Простой сироп со вкусом свежего манго. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_marshmallow_syrup.name": "Зефирный сироп",
+	"gourmetpantry_marshmallow_syrup.description": "Простой сироп со вкусом зефира. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_mint_syrup.name": "Мятный сироп",
+	"gourmetpantry_mint_syrup.description": "Простой сироп со вкусом свежей мяты. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_orange_syrup.name": "Апельсиновый сироп",
+	"gourmetpantry_orange_syrup.description": "Простой сироп со вкусом апельсина. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_peach_syrup.name": "Персиковый сироп",
+	"gourmetpantry_peach_syrup.description": "Простой сироп со вкусом персиков. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_gem_syrup.name": "Сироп сладкой ягоды",
+	"gourmetpantry_gem_syrup.description": "Простой сироп со вкусом сладкой ягоды. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_raspberry_syrup.name": "Малиновый сироп",
+	"gourmetpantry_raspberry_syrup.description": "Простой сироп со вкусом лесной малины. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_rose_syrup.name": "Розовый сироп",
+	"gourmetpantry_rose_syrup.description": "Простой сироп со вкусом свежей розы. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_sakura_syrup.name": "Сироп сакуры",
+	"gourmetpantry_sakura_syrup.description": "Простой сироп со вкусом свежих цветов сакуры. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_simple_syrup.name": "Сироп",
+	"gourmetpantry_simple_syrup.description": "Простой сироп из сахара и воды. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	"gourmetpantry_vanilla_syrup.name": "Ванильный сироп",
+	"gourmetpantry_vanilla_syrup.description": "Простой сироп со вкусом свежих стручков ванили. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+
+	"gourmetpantry_wild_strawberry_syrup.name": "Сироп дикой клубники",
+	"gourmetpantry_wild_strawberry_syrup.description": "Простой сироп со вкусом клубники. Идеально подходит для приготовления напитков и других изысканных вкусностей!",
+    
+	////////////
+	// FLOURS //
+	////////////
+
+	"gourmetpantry_almond_flour.name": "Миндальная мука",
+	"gourmetpantry_almond_flour.description": "Мука домашнего производства из молотого миндаля. Незаменима для макарон, но также отлично подходит для выпечки без глютена!",
+
+	"gourmetpantry_bread_flour.name": "Хлебная мука ",
+	"gourmetpantry_bread_flour.description": "Мука домашнего производства, изготовленная из более сытных сортов пшеницы. Высокое содержание белка в ней хорошо подходит для большинства видов хлебного теста.",
+
+	"gourmetpantry_cake_flour.name": "Мука для торта",
+	"gourmetpantry_cake_flour.description": "Мука домашнего производства, созданная специально для выпечки тортов. Благодаря более низкому содержанию белка ваши пирожные получатся более мягкими и с приятной нежной крошкой.",
+
+	"gourmetpantry_coconut_flour.name": "Кокосовая мука",
+	"gourmetpantry_coconut_flour.description": "Мука домашнего производства, изготовленная из молотого кокоса. Используется при приготовлении некоторых пельменей, а также отлично подходит для безглютеновой выпечки!",
+
+	"gourmetpantry_corn_flour.name": "Кукурузная мука",
+	"gourmetpantry_corn_flour.description": "Мука домашнего производства, приготовленная из молотой кукурузы. Незаменима для таких блюд, как тамале или кукурузный хлеб.",
+
+	"gourmetpantry_pastry_flour.name": "Кондитерская мука",
+	"gourmetpantry_pastry_flour.description": "Мука домашнего производства для выпечки. В ней меньшее содержание белка, чем в муке для тортов. Необходима для многих пирогов и выпечки.",
+
+	"gourmetpantry_rice_flour.name": "Рисовая мука",
+	"gourmetpantry_rice_flour.description": "Мука домашнего производства из молотого риса. Незаменима для пельменей и моти, а также отлично подходит для безглютеновой выпечки!",
+	
+
+//////////
+// MAIL //
+//////////
+
+	"gourmetpantry_MortarRecipe.name":"Кухонная ступка для твоего дома!",
+    	"gourmetpantry_MortarRecipe.text":"@, ^^ С кухонной ступкой ты сможешь начать делать домашнюю муку и сахар! Они отлично подходят для выпечки, но вы также можете продать их мне по хорошей цене. Было бы здорово расширить ассортимент магазина!^^ - Пьер",
+    
+	"gourmetpantry_BlenderRecipe.name":"Приступим к смешиванию!",
+	"gourmetpantry_BlenderRecipe.text":"@, ^^ Я вложил деньги в один из этих кухонных блендеров, когда люди начали просить меня о кофе на безлактозном молоке. Его слишком сложно закупать, поэтому теперь я делаю его сам, тебе тоже стоит попробовать. Думаю, что блендер может делать и другие вещи, посмотрим, на твои способности!^^ - Гас",
+    
+	"gourmetpantry_YogurtBowlRecipe.name":"Сила пробиотиков!",
+	"gourmetpantry_YogurtBowlRecipe.text":"@, ^^ Йогурт полон живых, активных бактерий, которые необходимы для здоровья кишечника! Он также имеет восхитительный вкус, если добавить в него ягод или фруктов с твоей фермы. Наслаждайся! ^^ - Харви",
+    
+	"gourmetpantry_harvey.name":"Никакого арахиса!",
+	"gourmetpantry_harvey.text":"@, ^^ У одного из моих пациентов была аллергия на арахис, и его мать рассказала мне, как она перешла на фундучное масло. Сначала я был настроен скептически, но теперь я сам большой поклонник миндального масла! Держу пари, можно приготовить и фисташковое масло.^^ - Харви",
+    
+	"gourmetpantry_jodi.name":"Свобода от молочных продуктов",
+	"gourmetpantry_jodi.text":"@, ^^ Никому не говори, но у меня есть ощущение, что у Сэма непереносимость лактозы. Я тайно перешла на безлактозное молоко, и он не заметил разницы, но я уверена...^^ -Джоди",
+    
+	"gourmetpantry_marnie.name":"Подарок от моих коров",
+	"gourmetpantry_marnie.text":"@, ^^ Гас поделился чертежами кухонного блендера? Это фантастика! С его помощью можно приготовить множество фирменных молочных продуктов. Этот свежий крем от моих коров должен помочь тебе погрузиться в это.^^ -Марни",
+	
+}

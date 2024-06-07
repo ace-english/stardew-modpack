@@ -1,0 +1,12 @@
+{
+	"$schema": "https://smapi.io/schemas/manifest.json",
+	"Name": "More Minecarts",
+	"Author": "Pagofr",
+	"Version": "1.2",
+	"Description": "Adds minecart locations like the ones in Extended Minecarts mod",
+	"UniqueID": "pagofr.minecarts",
+	"UpdateKeys": ["Nexus:21859"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

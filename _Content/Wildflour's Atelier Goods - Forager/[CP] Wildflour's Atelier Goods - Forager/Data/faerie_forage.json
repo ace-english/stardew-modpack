@@ -1,0 +1,1372 @@
+{
+    "Changes": [
+
+///////////////
+// BACKWOODS //
+///////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Backwoods","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_avalune": {
+                "Chance": 0.2,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_avalune",
+                "ItemId": "(O)wildflour.ateliercrops_avalune",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_faerie_helmets": {
+                "Chance": 0.2,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_faerie_helmets",
+                "ItemId": "(O)wildflour.ateliercrops_faerie_helmets",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+        
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Backwoods"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 10
+    }
+    },
+
+///////////
+// BEACH //
+///////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Beach","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_ice_dragon_scale": {
+                "Chance": 0.1,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_ice_dragon_scale",
+                "ItemId": "(O)wildflour.ateliercrops_ice_dragon_scale",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_shooting_star": {
+                "Chance": 0.1,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_shooting_star",
+                "ItemId": "(O)wildflour.ateliercrops_shooting_star",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Beach"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 10
+    }
+    },
+
+/////////////
+// DESERT ///
+/////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Desert","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_geranium": {
+                "Chance": 0.5,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_geranium",
+                "ItemId": "(O)wildflour.ateliercrops_geranium",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_dawn_lily": {
+                "Chance": 0.5,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_dawn_lily",
+                "ItemId": "(O)wildflour.ateliercrops_dawn_lily",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_dusk_lily": {
+                "Chance": 0.5,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_dusk_lily",
+                "ItemId": "(O)wildflour.ateliercrops_dusk_lily",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_fire_dragon_scale": {
+                "Chance": 0.2,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_fire_dragon_scale",
+                "ItemId": "(O)wildflour.ateliercrops_fire_dragon_scale",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_chiffon": {
+                "Chance": 0.5,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_chiffon",
+                "ItemId": "(O)wildflour.ateliercrops_chiffon",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Desert"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 10
+    }
+    },
+
+/////////////
+// FOREST ///
+/////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Forest","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_violet": {
+                "Chance": 0.3,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_violet",
+                "ItemId": "(O)wildflour.ateliercrops_violet",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_mysteria": {
+                "Chance": 0.25,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_mysteria",
+                "ItemId": "(O)wildflour.ateliercrops_mysteria",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_arctic_fox": {
+                "Chance": 0.4,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_arctic_fox",
+                "ItemId": "(O)wildflour.ateliercrops_arctic_fox",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_giant_amanita": {
+                "Chance": 0.25,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_giant_amanita",
+                "ItemId": "(O)wildflour.ateliercrops_giant_amanita",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_primrose": {
+                "Chance": 0.2,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_primrose",
+                "ItemId": "(O)wildflour.ateliercrops_primrose",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_chiffon": {
+                "Chance": 0.2,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_chiffon",
+                "ItemId": "(O)wildflour.ateliercrops_chiffon",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Forest"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 10
+    }
+    },
+
+//////////////////
+// ISLAND NORTH //
+//////////////////
+
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["IslandNorth","Forage"],
+    "Entries": {
+        "wildflour.ateliercrops_fire_dragon_scale": {
+            "Chance": 0.2,
+            "Season": "Summer",
+            "Condition": null,
+            "Id": "(O)wildflour.ateliercrops_fire_dragon_scale",
+            "ItemId": "(O)wildflour.ateliercrops_fire_dragon_scale",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        },
+}
+},
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["IslandNorth"],
+        "Entries": {
+            "MinDailyForageSpawn": 2,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 8
+    }
+    },
+
+//////////////////
+// ISLAND WEST ///
+//////////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["IslandWest","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_fire_dragon_scale": {
+                "Chance": 0.2,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_fire_dragon_scale",
+                "ItemId": "(O)wildflour.ateliercrops_fire_dragon_scale",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_golden_aura": {
+                "Chance": 0.25,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_fire_golden_aura",
+                "ItemId": "(O)wildflour.ateliercrops_fire_golden_aura",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_geranium": {
+                "Chance": 0.3,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_fire_geranium",
+                "ItemId": "(O)wildflour.ateliercrops_fire_geranium",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["IslandWest"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 8
+    }
+    },
+
+///////////////////
+// MINE ENTRANCE //
+///////////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Mine","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_phoenix_feather": {
+                "Chance": 0.1,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_phoenix_feather",
+                "ItemId": "(O)wildflour.ateliercrops_phoenix_feather",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_faerie_helmets": {
+                "Chance": 0.2,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_faerie_helmets",
+                "ItemId": "(O)wildflour.ateliercrops_faerie_helmets",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Mine"],
+        "Entries": {
+            "MinDailyForageSpawn": 2,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 8
+    }
+    },
+
+//////////////
+// MOUNTAIN //
+//////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Mountain","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_gloomy_blewit": {
+                "Chance": 0.25,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_gloomy_blewit",
+                "ItemId": "(O)wildflour.ateliercrops_gloomy_blewit",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_rosefinch_feather": {
+                "Chance": 0.3,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_rosefinch_feather",
+                "ItemId": "(O)wildflour.ateliercrops_rosefinch_feather",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_valerian": {
+                "Chance": 0.4,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_valerian",
+                "ItemId": "(O)wildflour.ateliercrops_valerian",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_lovebird_feather": {
+                "Chance": 0.25,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_lovebird_feather",
+                "ItemId": "(O)wildflour.ateliercrops_lovebird_feather",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_owl_feather": {
+                "Chance": 0.25,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_owl_feather",
+                "ItemId": "(O)wildflour.ateliercrops_owl_feather",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_bluebird_feather": {
+                "Chance": 0.25,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_bluebird_feather",
+                "ItemId": "(O)wildflour.ateliercrops_bluebird_feather",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": [
+          "Mountain",
+          "ArtifactSpots"
+        ],
+        "Entries": {
+          "wildflour.ateliercrops_mandrake": {
+            "Chance": 0.08,
+            "ApplyGenerousEnchantment": true,
+            "OneDebrisPerDrop": true,
+            "Precedence": -100,
+            "ContinueOnDrop": true,
+            "Id": "wildflour.ateliercrops_mandrake",
+            "ItemId": "wildflour.ateliercrops_mandrake",
+            "PerItemCondition": null,
+            "MinStack": 1,
+            "MaxStack": 1
+          }
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Mountain"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 10
+    }
+    },
+
+//////////////
+// RAILROAD //
+//////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Railroad","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_mugwort": {
+                "Chance": 0.4,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_mugwort",
+                "ItemId": "(O)wildflour.ateliercrops_mugwort",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_dawn_trumpet": {
+                "Chance": 0.3,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_dawn_trumpet",
+                "ItemId": "(O)wildflour.ateliercrops_dawn_trumpet",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_violet_flax": {
+                "Chance": 0.7,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_violet_flax",
+                "ItemId": "(O)wildflour.ateliercrops_violet_flax",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_rose_flax": {
+                "Chance": 0.7,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_rose_flax",
+                "ItemId": "(O)wildflour.ateliercrops_rose_flax",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_raven_feather": {
+                "Chance": 0.5,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_raven_feather",
+                "ItemId": "(O)wildflour.ateliercrops_raven_feather",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_unicorn_horn": {
+                "Chance": 0.2,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_unicorn_horn",
+                "ItemId": "(O)wildflour.ateliercrops_unicorn_horn",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_crow_feather": {
+                "Chance": 0.5,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_crow_feather",
+                "ItemId": "(O)wildflour.ateliercrops_crow_feather",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Railroad"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 10
+    }
+    },
+
+///////////
+// SEWER //
+///////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Sewer","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_tiny_angels": {
+                "Chance": 0.2,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_tiny_angels",
+                "ItemId": "(O)wildflour.ateliercrops_tiny_angels",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_dusk_cap": {
+                "Chance": 0.2,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_dusk_cap",
+                "ItemId": "(O)wildflour.ateliercrops_dusk_cap",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_blush_cap": {
+                "Chance": 0.3,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_blush_cap",
+                "ItemId": "(O)wildflour.ateliercrops_blush_cap",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_amanita_cluster": {
+                "Chance": 0.3,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_amanita_cluster",
+                "ItemId": "(O)wildflour.ateliercrops_amanita_cluster",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_verdigris_agaric": {
+                "Chance": 0.3,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_verdigris_agaric",
+                "ItemId": "(O)wildflour.ateliercrops_verdigris_agaric",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Sewer"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 8
+    }
+    },    
+
+/////////////////
+// WITCH SWAMP //
+/////////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["WitchSwamp","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_tiny_angels": {
+                "Chance": 0.3,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_tiny_angels",
+                "ItemId": "(O)wildflour.ateliercrops_tiny_angels",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_dusk_cap": {
+                "Chance": 0.3,
+                "Season": "Spring",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_dusk_cap",
+                "ItemId": "(O)wildflour.ateliercrops_dusk_cap",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_blush_cap": {
+                "Chance": 0.25,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_blush_cap",
+                "ItemId": "(O)wildflour.ateliercrops_blush_cap",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_amanita_cluster": {
+                "Chance": 0.4,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_amanita_cluster",
+                "ItemId": "(O)wildflour.ateliercrops_amanita_cluster",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_verdigris_agaric": {
+                "Chance": 0.3,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_verdigris_agaric",
+                "ItemId": "(O)wildflour.ateliercrops_verdigris_agaric",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_giant_amanita": {
+                "Chance": 0.25,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_giant_amanita",
+                "ItemId": "(O)wildflour.ateliercrops_giant_amanita",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_golden_aura": {
+                "Chance": 0.2,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_golden_aura",
+                "ItemId": "(O)wildflour.ateliercrops_golden_aura",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_faerie_helmets": {
+                "Chance": 0.4,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_faerie_helmets",
+                "ItemId": "(O)wildflour.ateliercrops_faerie_helmets",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_moon_mushroom": {
+                "Chance": 0.4,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_moon_mushroom",
+                "ItemId": "(O)wildflour.ateliercrops_moon_mushroom",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["WitchSwamp"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 8
+    }
+    },
+
+
+/////////////
+// WOODS ////
+/////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Woods","Forage"],
+        "Entries": {
+            "wildflour.ateliercrops_puffball": {
+                "Chance": 0.7,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_puffball",
+                "ItemId": "(O)wildflour.ateliercrops_puffball",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_clover": {
+                "Chance": 0.7,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_clover",
+                "ItemId": "(O)wildflour.ateliercrops_clover",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_daisy": {
+                "Chance": 0.6,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_daisy",
+                "ItemId": "(O)wildflour.ateliercrops_daisy",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_mysteria": {
+                "Chance": 0.25,
+                "Season": "Summer",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_mysteria",
+                "ItemId": "(O)wildflour.ateliercrops_mysteria",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_yarrow": {
+                "Chance": 0.4,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_yarrow",
+                "ItemId": "(O)wildflour.ateliercrops_yarrow",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_thistle": {
+                "Chance": 0.4,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_thistle",
+                "ItemId": "(O)wildflour.ateliercrops_thistle",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_peach_parasol": {
+                "Chance": 0.25,
+                "Season": "Fall",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_peach_parasol",
+                "ItemId": "(O)wildflour.ateliercrops_peach_parasol",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+            "wildflour.ateliercrops_pixies_breath": {
+                "Chance": 0.3,
+                "Season": "Winter",
+                "Condition": null,
+                "Id": "(O)wildflour.ateliercrops_pixies_breath",
+                "ItemId": "(O)wildflour.ateliercrops_pixies_breath",
+                "RandomItemId": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+            },
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "TargetField": ["Woods"],
+        "Entries": {
+            "MinDailyForageSpawn": 3,
+            "MaxDailyForageSpawn": 5,
+            "MaxSpawnedForageAtOnce": 10
+    }
+    },
+
+    ]
+}

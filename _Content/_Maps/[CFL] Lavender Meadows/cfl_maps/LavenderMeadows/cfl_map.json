@@ -1,0 +1,76 @@
+{
+  "Name": "Lavender Meadows",
+  "Author": "DaisyNiko",
+  "Description": "Grassy farmlands bisected by a freshwater river and bordered by wild lavender forests.",
+  "MapFile" : "LavenderMeadows.tmx",
+  "Icon": "icon.png",
+  "Preview": null,
+  "WorldMapOverlay": "Hills",
+
+  "Properties":{
+  	"SpawnMonstersAtNight":false,
+  	"FishSplashing":true
+  },
+
+  "StartFurniture":[
+  	{"ID": "Budget TV", "Position": "8,4"}
+  ],	
+  
+  "DailyUpdates": [
+  	//forage
+	  {
+	  	"Type":"SpawnForagingDrops",
+	  	"Attempts":5,
+	  	"Chance":0.2,
+	  	"Backgrounds": [ "Grass" ]
+	  },
+	  //weeds
+		{ 
+			"Type": "TransformWeeds", 
+			"Attempts": 20, 
+			"Chance": 0.2 
+		},
+		//stumps
+		{
+			"Type": "SpawnResourceClumps",
+			"Position": "5,14",
+			"Name": "Large Stump"
+		},
+		{ 
+			"Type": "SpawnResourceClumps", 
+			"Position": "6,9", 
+			"Name": "Large Stump" 
+		},
+		{ 
+			"Type": "SpawnResourceClumps", 
+			"Position": "45,66", 
+			"Name": "Large Stump" 
+		},
+		{ 
+			"Type": "SpawnResourceClumps",
+			"Position": "48,63", 
+			"Name": "Large Stump" 
+		},
+		{ 
+			"Type": "SpawnResourceClumps",
+			"Position": "54,62", 
+			"Name": "Large Stump" 
+		},
+		{ 
+			"Type": "SpawnResourceClumps",
+			"Position": "95,19", 
+			"Name": "Large Stump" 
+		},
+		{ 
+			"Type": "SpawnResourceClumps",
+			"Position": "96,22", 
+			"Name": "Large Stump" 
+		},
+		{ 
+			"Type": "SpawnResourceClumps",
+			"Position": "92,25", 
+			"Name": "Large Stump" 
+		}
+  ],  
+  "DescriptionTranslations": {  }
+}

@@ -1,0 +1,22 @@
+{
+  "Changes": [
+
+    {
+	  "LogName": "Magic Bushes Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+      "wildflour.ateliercrops_ThistleBush": "388 5 Moss 1 wildflour.ateliercrops_thistle 1/Home/wildflour.ateliercrops_ThistleBush/true/Foraging 2/{{i18n: ateliercrops_ThistleBush.name}}",
+			"wildflour.ateliercrops_MugwortBush": "388 5 Moss 1 wildflour.ateliercrops_mugwort 1/Home/wildflour.ateliercrops_MugwortBush/true/Foraging 4/{{i18n: ateliercrops_MugwortBush.name}}",
+      "wildflour.ateliercrops_ValerianBush": "388 5 Moss 1 wildflour.ateliercrops_valerian 1/Home/wildflour.ateliercrops_ValerianBush/true/Foraging 10/{{i18n: ateliercrops_ValerianBush.name}}",
+			"wildflour.ateliercrops_RoseFlaxBush": "388 5 Moss 1 wildflour.ateliercrops_rose_flax 1/Home/wildflour.ateliercrops_RoseFlaxBush/true/Foraging 6/{{i18n: ateliercrops_RoseFlaxBush.name}}",
+      "wildflour.ateliercrops_VioletFlaxBush": "388 5 Moss 1 wildflour.ateliercrops_violet_flax 1/Home/wildflour.ateliercrops_VioletFlaxBush/true/Foraging 8/{{i18n: ateliercrops_VioletFlaxBush.name}}",
+
+      "wildflour.ateliercrops_AmberBush": "388 5 Moss 1 wildflour.ateliercrops_amber_moondrop 1/Home/wildflour.ateliercrops_AmberBush/true/Farming 2/{{i18n: ateliercrops_AmberBush.name}}",
+      "wildflour.ateliercrops_JadeBush": "388 5 Moss 1 wildflour.ateliercrops_jade_moondrop 1/Home/wildflour.ateliercrops_JadeBush/true/Farming 4/{{i18n: ateliercrops_JadeBush.name}}",
+      "wildflour.ateliercrops_LapisBush": "388 5 Moss 1 wildflour.ateliercrops_lapis_moondrop 1/Home/wildflour.ateliercrops_LapisBush/true/Farming 6/{{i18n: ateliercrops_LapisBush.name}}",
+      "wildflour.ateliercrops_PearlBush": "388 5 Moss 1 wildflour.ateliercrops_pearl_moondrop 1/Home/wildflour.ateliercrops_PearlBush/true/Farming 8/{{i18n: ateliercrops_PearlBush.name}}"
+    }
+    }
+  ]
+}

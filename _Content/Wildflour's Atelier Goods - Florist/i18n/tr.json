@@ -1,0 +1,298 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+    "atelierfloral_FlowerStation.name": "Çiçek Yeri",
+	"atelierfloral_FlowerStation.description": "Çiçek esanslarını sabuna çevirir.",
+
+    "atelierfloral_BouquetStation.name": "Yabani Çiçek Küveti",
+	"atelierfloral_BouquetStation.description": "Beş çiçeği bir bukete veya çiçek esansını potpuriye çevirir.",
+
+    "atelierfloral_FragranceStation.name": "Koku Yeri",
+    "atelierfloral_FragranceStation.description": "İki çiçek esansını hoş bir parfüme çevirir.",
+
+    "atelierfloral_CandleStation.name": "Balmumu Kazanı",
+	"atelierfloral_CandleStation.description": "Çiçekleri ve balpeteklerini balmumu mumlarına çevirir.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfloral_FlowerStation_InvalidItem.message": "Bunu işleyemez.",
+"atelierfloral_FlowerStation_InvalidCount.message": "Esans veya 3 çiçek gerektirir.",
+
+"atelierfloral_BouquetStation_InvalidItem.message": "Bunu işleyemez.",
+"atelierfloral_BouquetStation_InvalidCount.message": "Esans veya 5 çiçek gerektirir.",    
+
+"atelierfloral_FragranceStation_InvalidItem.message": "Bunu işleyemez.",
+"atelierfloral_FragranceStation_InvalidCount.message": "2 esans gerektirir..",    
+
+"atelierfloral_CandleStation_InvalidItem.message": "Bunu işleyemez.",
+"atelierfloral_CandleStation_InvalidCount.message": "Balpeteği gerektirir.",    
+
+//////////////
+// BOUQUETS //
+//////////////
+
+    "atelierfloral_jazz_bouquet.name": "Maviruh Buketi",
+    "atelierfloral_jazz_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_vanilla_bouquet.name": "Patisko Vanilyası Buketi",
+    "atelierfloral_vanilla_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_fairy_bouquet.name": "Perigülü Buketi",
+    "atelierfloral_fairy_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_chamomile_bouquet.name": "Orman Papatyası Buketi",
+    "atelierfloral_chamomile_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_lavender_bouquet.name": "Orman Lavantası Buketi",
+    "atelierfloral_lavender_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_jasmine_bouquet.name": "Mücevher Adası Yasemini Buketi",
+    "atelierfloral_jasmine_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_mallow_bouquet.name": "Hatmi Çiçeği Buketi",
+    "atelierfloral_mallow_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_poppy_bouquet.name": "Haşhaş Buketi",
+    "atelierfloral_poppy_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_sakura_bouquet.name": "Kiraz Çiçeği Buketi",
+    "atelierfloral_sakura_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_spangle_bouquet.name": "Yazpulu Buketi",
+    "atelierfloral_spangle_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+    "atelierfloral_sunflower_bouquet.name": "Ayçiçeği Buketi",
+    "atelierfloral_sunflower_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+    
+    "atelierfloral_tulip_bouquet.name": "Lale Buketi",
+    "atelierfloral_tulip_bouquet.description": "Tam hediye etmelik güzelim bir buket!",
+
+/////////////
+// PERFUME //
+/////////////
+
+    "atelierfloral_jazz_perfume.name": "Maviruh Eau de Toilette",
+    "atelierfloral_jazz_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+    "atelierfloral_vanilla_perfume.name": "Patisko Vanilyası Eau de Toilette",
+    "atelierfloral_vanilla_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+    "atelierfloral_fairy_perfume.name": "Perigülü Eau de Toilette",
+    "atelierfloral_fairy_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+    "atelierfloral_chamomile_perfume.name": "Orman Papatyası Eau de Toilette",
+    "atelierfloral_chamomile_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+    "atelierfloral_lavender_perfume.name": "Orman Lavantası Eau de Toilette",
+    "atelierfloral_lavender_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+    "atelierfloral_jasmine_perfume.name": "Mücevher Adası Yasemini Eau de Toilette",
+    "atelierfloral_jasmine_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+    "atelierfloral_mallow_perfume.name": "Hatmi Çiçeği Eau de Toilette",
+    "atelierfloral_mallow_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+    "atelierfloral_poppy_perfume.name": "Haşhaş Eau de Toilette",
+    "atelierfloral_poppy_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+    
+    "atelierfloral_sakura_perfume.name": "Kiraz Çiçeği Eau de Toilette",
+    "atelierfloral_sakura_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+    
+    "atelierfloral_spangle_perfume.name": "Spangle Eau de Toilette",
+    "atelierfloral_spangle_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+    "atelierfloral_sunflower_perfume.name": "Sunflower Eau de Toilette",
+    "atelierfloral_sunflower_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+    "atelierfloral_tulip_perfume.name": "Lale Eau de Toilette",
+    "atelierfloral_tulip_perfume.description": "Çiçek esansından damıtılmış hoş kokulu bir parfüm.",
+
+/////////////
+// ESSENCE //
+/////////////
+
+    "atelierfloral_jazz_essence.name": "Maviruh Esansı",
+    "atelierfloral_jazz_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+    
+    "atelierfloral_vanilla_essence.name": "Patisko Vanilyası Esansı",
+    "atelierfloral_vanilla_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_fairy_essence.name": "Perigülü Esansı",
+    "atelierfloral_fairy_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_chamomile_essence.name": "Orman Papatyası Esansı",
+    "atelierfloral_chamomile_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_lavender_essence.name": "Orman Lavantası Esansı",
+    "atelierfloral_lavender_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_jasmine_essence.name": "Mücevher Adası Yasemini Esansı",
+    "atelierfloral_jasmine_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_mallow_essence.name": "Hatmi Çiçeği Esansı",
+    "atelierfloral_mallow_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_poppy_essence.name": "Haşhaş Esansı",
+    "atelierfloral_poppy_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_sakura_essence.name": "Kiraz Çiçeği Esansı",
+    "atelierfloral_sakura_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_spangle_essence.name": "Spangle Esansı",
+    "atelierfloral_spangle_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_sunflower_essence.name": "Sunflower Esansı",
+    "atelierfloral_sunflower_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+    "atelierfloral_tulip_essence.name": "Lale Esansı",
+    "atelierfloral_tulip_essence.description": "Taze çiçeklerden yapılma kokulu bir yağ.",
+
+//////////
+// SOAP //
+//////////
+
+    "atelierfloral_jazz_soap.name": "Maviruh Sabunu",
+    "atelierfloral_jazz_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_vanilla_soap.name": "Patisko Vanilyası Sabunu",
+    "atelierfloral_vanilla_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_fairy_soap.name": "Perigülü Sabunu",
+    "atelierfloral_fairy_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_chamomile_soap.name": "Orman Papatyası Sabunu",
+    "atelierfloral_chamomile_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_lavender_soap.name": "Orman Lavantası Sabunu",
+    "atelierfloral_lavender_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_jasmine_soap.name": "Mücevher Adası Yasemini Sabunu",
+    "atelierfloral_jasmine_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_mallow_soap.name": "Hatmi Çiçeği Sabunu",
+    "atelierfloral_mallow_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_poppy_soap.name": "Haşhaş Sabunu",
+    "atelierfloral_poppy_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_sakura_soap.name": "Kiraz Çiçeği Sabunu",
+    "atelierfloral_sakura_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_spangle_soap.name": "Yazpulu Sabunu",
+    "atelierfloral_spangle_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_sunflower_soap.name": "Ayçiçeği Sabunu",
+    "atelierfloral_sunflower_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+    "atelierfloral_tulip_soap.name": "Lale Sabunu",
+    "atelierfloral_tulip_soap.description": "Bir kalıp kokulu sabun - ne hoş!",
+
+///////////////
+// POTPOURRI //
+///////////////
+
+    "atelierfloral_jazz_potpourri.name": "Maviruh Potpuri Kesesi",
+    "atelierfloral_jazz_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_vanilla_potpourri.name": "Vanilya Potpuri Kesesi",
+    "atelierfloral_vanilla_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_fairy_potpourri.name": "Perigülü Potpuri Kesesi",
+    "atelierfloral_fairy_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_chamomile_potpourri.name": "Papatya Potpuri Kesesi",
+    "atelierfloral_chamomile_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_lavender_potpourri.name": "Lavanta Potpuri Kesesi",
+    "atelierfloral_lavender_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_jasmine_potpourri.name": "Yasemin Potpuri Kesesi",
+    "atelierfloral_jasmine_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_mallow_potpourri.name": "Hatmi Potpuri Kesesi",
+    "atelierfloral_mallow_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_poppy_potpourri.name": "Haşhaş Potpuri Kesesi",
+    "atelierfloral_poppy_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_sakura_potpourri.name": "Kiraz Çiçeği Potpuri Kesesi",
+    "atelierfloral_sakura_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_spangle_potpourri.name": "Yazpulu Potpuri Kesesi",
+    "atelierfloral_spangle_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_sunflower_potpourri.name": "Ayçiçeği Potpuri Kesesi",
+    "atelierfloral_sunflower_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+    "atelierfloral_tulip_potpourri.name": "Lale Potpuri Kesesi",
+    "atelierfloral_tulip_potpourri.description": "Tülbente sarılmış kuru çiçekler - Dolap veya çekmecelerine koku vermek için mükemmel.",
+
+/////////////
+// CANDLES //
+/////////////
+
+    "atelierfloral_jazz_candles.name": "Maviruh Kokulu Mumlar",
+    "atelierfloral_jazz_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_vanilla_candles.name": "Vanilya Kokulu Mumlar",
+    "atelierfloral_vanilla_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_fairy_candles.name": "Perigülü Kokulu Mumlar",
+    "atelierfloral_fairy_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_chamomile_candles.name": "Papatya Kokulu Mumlar",
+    "atelierfloral_chamomile_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_lavender_candles.name": "Lavanta Kokulu Mumlar",
+    "atelierfloral_lavender_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_jasmine_candles.name": "Yasemin Kokulu Mumlar",
+    "atelierfloral_jasmine_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_mallow_candles.name": "Hatmi Kokulu Mumlar",
+    "atelierfloral_mallow_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_poppy_candles.name": "Haşhaş Kokulu Mumlar",
+    "atelierfloral_poppy_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_sakura_candles.name": "Kiraz Çiçeği Kokulu Mumlar",
+    "atelierfloral_sakura_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_spangle_candles.name": "Yazpulu Kokulu Mumlar",
+    "atelierfloral_spangle_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_sunflower_candles.name": "Ayçiçeği Kokulu Mumlar",
+    "atelierfloral_sunflower_candles.description": "Güzel kokulu üç mum.",
+
+    "atelierfloral_tulip_candles.name": "Lale Kokulu Mumlar",
+    "atelierfloral_tulip_candles.description": "Güzel kokulu üç mum.",
+
+
+//////////
+// MAIL //
+//////////
+
+    "atelierfloral_FlowerStationRecipe.name": "Filiz Veren Çiçekçiye",
+    "atelierfloral_FlowerStationRecipe.text": "@, ^^ Çiçeklerin yapraklarını kurutabileceğini, potpuri ve ve kokulu mum bile yapabileceğini biliyor muydun? Jas'in eve getirdiği çiçeklerle yapmak hoşuma gidiyor, ama kendi çiçeklerinle böyle bir makineyle bayağı kazanırsın!^^ - Marnie",
+
+    "atelierfloral_FragranceStationRecipe.name": "Çiçek Esansları",
+    "atelierfloral_FragranceStationRecipe.text": "@, ^^ Bunu dergilerimden birinden kestim. Kendi esans ve parfümlerini yapmak şimdi çok moda! Belki sen de çiftliğindeki çiçeklerle denersin?^^ - Haley",
+
+    "atelierfloral_BouquetStationRecipe.name": "El Yapımı Buketler",
+    "atelierfloral_BouquetStationRecipe.text": "@, ^^ Kasabada beni çiçeklere bakarken görmüşsündür, ama evde buket işiyle falan uğraşmayı da seviyorum. Yabani Çiçek Küveti tarifiyle çabucak muhteşem buketler yapmaya başlarsın.^^ - Evelyn",
+
+    "atelierfloral_jas_gift.name": "Çiftçi için Çiçek",
+    "atelierfloral_jas_gift.text":"@, ^^ Marnie Teyze sana çiçeklerle ilgili bir mektup göndermiş ve ben de sana bir tane yazmak istedim! Ormanda bu güzel çiçekleri beraber bulduk ve teyzem senin de beğeneceğini söyledi!^^ - Jas",
+
+    "atelierfloral_sandy_gift.name": "Bir Dosta Bir Çiçek",
+    "atelierfloral_sandy_gift.text": "@, ^^ Çiçek çiftçiliği işi nasıl gidiyor? Keşke çölde de çiçek yetişse ama burası sadece sıcak. Mücevher Adaları'ndan bir arkadaşım bana bunları gönderdi ve ben de belki seranda yetiştirirsin diye düşündüm...^^ - Sandy",
+
+    "atelierfloral_emily_gift.name": "Biraz Buket İlhamı",
+    "atelierfloral_emily_gift.text": "@, ^^ Evelyn yeni çiçek projelerinden bahsediyordu ve ben de yardım etmek istedim! Bence peri gülleri nefes kesici güz buketleri için oldukça iyi, haksız mıyım?^^ - Emily",
+
+}

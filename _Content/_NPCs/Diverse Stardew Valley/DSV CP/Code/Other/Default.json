@@ -1,0 +1,537 @@
+{
+        "Changes": 
+        [
+            {
+                "LogName": "Abigail Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Abigail, Characters/Abigail, Portraits/Abigail_Winter, Characters/Abigail_Winter",
+                "FromFile": "Art/VanillaNPCs/Abigail/Default/{{TargetPathOnly}}/Abigail_{{DSV.Core/ConfigValue:AbigailVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:AbigailVariant|contains= VanillaStraightSize, Off": false
+                }
+            },
+            {
+                "LogName": "Abigail Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Abigail_Beach, Characters/Abigail_Beach",
+                "FromFile": "Art/VanillaNPCs/Abigail/Default/{{Target}}_{{DSV.Core/ConfigValue:AbigailVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:AbigailVariant|contains= VanillaStraightSize, Off": false
+                }
+            },
+            {
+                "LogName": "Alex Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Alex, Characters/Alex, Portraits/Alex_Winter, Characters/Alex_Winter",
+                "FromFile": "Art/VanillaNPCs/Alex/Default/{{TargetPathOnly}}/Alex_{{DSV.Core/ConfigValue:AlexVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:AlexVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Alex Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Alex_Beach, Characters/Alex_Beach",
+                "FromFile": "Art/VanillaNPCs/Alex/Default/{{Target}}_{{DSV.Core/ConfigValue:AlexVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:AlexVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Caroline Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Caroline, Characters/Caroline, Portraits/Caroline_Winter, Characters/Caroline_Winter",
+                "FromFile": "Art/VanillaNPCs/Caroline/Default/{{TargetPathOnly}}/Caroline_{{DSV.Core/ConfigValue:CarolineVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:CarolineVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Caroline Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Caroline_Beach, Characters/Caroline_Beach",
+                "FromFile": "Art/VanillaNPCs/Caroline/Default/{{Target}}_{{DSV.Core/ConfigValue:CarolineVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:CarolineVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Clint Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Clint, Characters/Clint, Portraits/Clint_Winter, Characters/Clint_Winter",
+                "FromFile": "Art/VanillaNPCs/Clint/Default/{{TargetPathOnly}}/Clint_{{DSV.Core/ConfigValue:ClintVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:ClintVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Clint Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Clint_Beach, Characters/Clint_Beach",
+                "FromFile": "Art/VanillaNPCs/Clint/Default/{{Target}}_{{DSV.Core/ConfigValue:ClintVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:ClintVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Demetrius Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Demetrius, Characters/Demetrius, Portraits/Demetrius_Winter, Characters/Demetrius_Winter",
+                "FromFile": "Art/VanillaNPCs/Demetrius/Default/{{TargetPathOnly}}/Demetrius_{{DSV.Core/ConfigValue:DemetriusVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:DemetriusVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Demetrius Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Characters/Demetrius_Beach",
+                "FromFile": "Art/VanillaNPCs/Demetrius/Default/{{Target}}_{{DSV.Core/ConfigValue:DemetriusVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:DemetriusVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Elliott Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Elliott, Characters/Elliott, Portraits/Elliott_Winter, Characters/Elliott_Winter",
+                "FromFile": "Art/VanillaNPCs/Elliott/Default/{{TargetPathOnly}}/Elliott_{{DSV.Core/ConfigValue:ElliottVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:ElliottVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Elliott Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Elliott_Beach, Characters/Elliott_Beach",
+                "FromFile": "Art/VanillaNPCs/Elliott/Default/{{Target}}_{{DSV.Core/ConfigValue:ElliottVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:ElliottVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Emily Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Emily, Characters/Emily, Portraits/Emily_Winter, Characters/Emily_Winter",
+                "FromFile": "Art/VanillaNPCs/Emily/Default/{{TargetPathOnly}}/Emily_{{DSV.Core/ConfigValue:EmilyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:EmilyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Emily Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Emily_Beach, Characters/Emily_Beach",
+                "FromFile": "Art/VanillaNPCs/Emily/Default/{{Target}}_{{DSV.Core/ConfigValue:EmilyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:EmilyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Evelyn Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Evelyn, Characters/Evelyn, Portraits/Evelyn_Winter, Characters/Evelyn_Winter",
+                "FromFile": "Art/VanillaNPCs/Evelyn/Default/{{Target}}_{{DSV.Core/ConfigValue:EvelynVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:EvelynVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "George Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/George, Characters/George, Portraits/George_Winter, Characters/George_Winter",
+                "FromFile": "Art/VanillaNPCs/George/Default/{{Target}}_{{DSV.Core/ConfigValue:GeorgeVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:GeorgeVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Gunther Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Gunther, Characters/Gunther",
+                "FromFile": "Art/VanillaNPCs/Gunther/Default/{{Target}}_{{DSV.Core/ConfigValue:GuntherVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:GuntherVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Gus Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Gus, Characters/Gus, Portraits/Gus_Winter, Characters/Gus_Winter",
+                "FromFile": "Art/VanillaNPCs/Gus/Default/{{Target}}_{{DSV.Core/ConfigValue:GusVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:GusVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Haley Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Haley, Characters/Haley, Portraits/Haley_Winter, Characters/Haley_Winter",
+                "FromFile": "Art/VanillaNPCs/Haley/Default/{{TargetPathOnly}}/Haley_{{DSV.Core/ConfigValue:HaleyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:HaleyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Haley Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Haley_Beach, Characters/Haley_Beach",
+                "FromFile": "Art/VanillaNPCs/Haley/Default/{{Target}}_{{DSV.Core/ConfigValue:HaleyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:HaleyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Harvey Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Harvey, Characters/Harvey, Portraits/Harvey_Winter, Characters/Harvey_Winter",
+                "FromFile": "Art/VanillaNPCs/Harvey/Default/{{TargetPathOnly}}/Harvey_{{DSV.Core/ConfigValue:HarveyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:HarveyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Harvey Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Harvey_Beach, Characters/Harvey_Beach",
+                "FromFile": "Art/VanillaNPCs/Harvey/Default/{{Target}}_{{DSV.Core/ConfigValue:HarveyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:HarveyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Jas Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Jas, Characters/Jas, Portraits/Jas_Winter, Characters/Jas_Winter",
+                "FromFile": "Art/VanillaNPCs/Jas/Default/{{Target}}_{{DSV.Core/ConfigValue:JasVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:JasVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Jodi Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Jodi, Characters/Jodi, Portraits/Jodi_Winter, Characters/Jodi_Winter",
+                "FromFile": "Art/VanillaNPCs/Jodi/Default/{{TargetPathOnly}}/Jodi_{{DSV.Core/ConfigValue:JodiVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:JodiVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Jodi Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Jodi_Beach, Characters/Jodi_Beach",
+                "FromFile": "Art/VanillaNPCs/Jodi/Default/{{Target}}_{{DSV.Core/ConfigValue:JodiVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:JodiVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Kent Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Kent, Characters/Kent, Portraits/Kent_Winter, Characters/Kent_Winter",
+                "FromFile": "Art/VanillaNPCs/Kent/Default/{{Target}}_{{DSV.Core/ConfigValue:KentVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:KentVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Leah Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Leah, Characters/Leah, Portraits/Leah_Winter, Characters/Leah_Winter",
+                "FromFile": "Art/VanillaNPCs/Leah/Default/{{TargetPathOnly}}/Leah_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Leah Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Leah_Beach, Characters/Leah_Beach",
+                "FromFile": "Art/VanillaNPCs/Leah/Default/{{Target}}_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Lewis Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Lewis, Characters/Lewis, Portraits/Lewis_Winter, Characters/Lewis_Winter",
+                "FromFile": "Art/VanillaNPCs/Lewis/Default/{{TargetPathOnly}}/Lewis_{{DSV.Core/ConfigValue:LewisVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:LewisVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Lewis Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Characters/Lewis_Beach",
+                "FromFile": "Art/VanillaNPCs/Lewis/Default/{{Target}}_{{DSV.Core/ConfigValue:LewisVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:LewisVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Marlon Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Marlon, Characters/Marlon",
+                "FromFile": "Art/VanillaNPCs/Marlon/Default/{{Target}}_{{DSV.Core/ConfigValue:MarlonVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:MarlonVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Marnie Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Marnie, Characters/Marnie, Portraits/Marnie_Winter, Characters/Marnie_Winter",
+                "FromFile": "Art/VanillaNPCs/Marnie/Default/{{TargetPathOnly}}/Marnie_{{DSV.Core/ConfigValue:MarnieVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:MarnieVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Marnie Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Marnie_Beach, Characters/Marnie_Beach",
+                "FromFile": "Art/VanillaNPCs/Marnie/Default/{{Target}}_{{DSV.Core/ConfigValue:MarnieVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:MarnieVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Maru Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Maru, Characters/Maru, Portraits/Maru_Winter, Characters/Maru_Winter",
+                "FromFile": "Art/VanillaNPCs/Maru/Default/{{TargetPathOnly}}/Maru_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:MaruVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Maru Default Beach & Hospital Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Maru_Beach, Characters/Maru_Beach, Portraits/Maru_Hospital, Characters/Maru_Hospital",
+                "FromFile": "Art/VanillaNPCs/Maru/Default/{{Target}}_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:MaruVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Pam Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Pam, Characters/Pam, Portraits/Pam_Winter, Characters/Pam_Winter",
+                "FromFile": "Art/VanillaNPCs/Pam/Default/{{TargetPathOnly}}/Pam_{{DSV.Core/ConfigValue:PamVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:PamVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Pam Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Pam_Beach, Characters/Pam_Beach",
+                "FromFile": "Art/VanillaNPCs/Pam/Default/{{Target}}_{{DSV.Core/ConfigValue:PamVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:PamVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Penny Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Penny, Characters/Penny, Portraits/Penny_Winter, Characters/Penny_Winter",
+                "FromFile": "Art/VanillaNPCs/Penny/Default/{{TargetPathOnly}}/Penny_{{DSV.Core/ConfigValue:PennyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:PennyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Penny Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Penny_Beach, Characters/Penny_Beach",
+                "FromFile": "Art/VanillaNPCs/Penny/Default/{{Target}}_{{DSV.Core/ConfigValue:PennyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:PennyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Pierre Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Pierre, Characters/Pierre, Portraits/Pierre_Winter, Characters/Pierre_Winter",
+                "FromFile": "Art/VanillaNPCs/Pierre/Default/{{TargetPathOnly}}/Pierre_{{DSV.Core/ConfigValue:PierreVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:PierreVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Pierre Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Pierre_Beach, Characters/Pierre_Beach",
+                "FromFile": "Art/VanillaNPCs/Pierre/Default/{{Target}}_{{DSV.Core/ConfigValue:PierreVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:PierreVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Robin Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Robin, Characters/Robin, Portraits/Robin_Winter, Characters/Robin_Winter",
+                "FromFile": "Art/VanillaNPCs/Robin/Default/{{TargetPathOnly}}/Robin_{{DSV.Core/ConfigValue:RobinVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:RobinVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Robin Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Robin_Beach, Characters/Robin_Beach",
+                "FromFile": "Art/VanillaNPCs/Robin/Default/{{Target}}_{{DSV.Core/ConfigValue:RobinVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:RobinVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Sam Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Sam, Characters/Sam, Portraits/Sam_Winter, Characters/Sam_Winter, Portraits/Sam_JojaMart, Characters/Sam_JojaMart",
+                "FromFile": "Art/VanillaNPCs/Sam/Default/{{TargetPathOnly}}/Sam_{{DSV.Core/ConfigValue:SamVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:SamVariant|contains= Vanilla, Off": false,
+                    "HasFile:{{FromFile}}": true
+                }
+            },
+            {
+                "LogName": "Sam Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+                "FromFile": "Art/VanillaNPCs/Sam/Default/{{Target}}_{{DSV.Core/ConfigValue:SamVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:SamVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Sandy Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Sandy, Characters/Sandy",
+                "FromFile": "Art/VanillaNPCs/Sandy/Default/{{Target}}_{{DSV.Core/ConfigValue:SandyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:SandyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Sebastian Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Sebastian, Characters/Sebastian, Portraits/Sebastian_Winter, Characters/Sebastian_Winter",
+                "FromFile": "Art/VanillaNPCs/Sebastian/Default/{{TargetPathOnly}}/Sebastian_{{DSV.Core/ConfigValue:SebastianVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:SebastianVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Sebastian Default Beach Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Sebastian_Beach, Characters/Sebastian_Beach",
+                "FromFile": "Art/VanillaNPCs/Sebastian/Default/{{Target}}_{{DSV.Core/ConfigValue:SebastianVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:SebastianVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Shane Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Shane, Characters/Shane, Portraits/Shane_Winter, Characters/Shane_Winter",
+                "FromFile": "Art/VanillaNPCs/Shane/Default/{{TargetPathOnly}}/Shane_{{DSV.Core/ConfigValue:ShaneVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:ShaneVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Shane Default Beach & Joja Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Shane_Beach, Characters/Shane_Beach, Portraits/Shane_JojaMart, Characters/Shane_JojaMart",
+                "FromFile": "Art/VanillaNPCs/Shane/Default/{{Target}}_{{DSV.Core/ConfigValue:ShaneVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:ShaneVariant|contains= Vanilla, Off": false,
+                    "HasFile:{{FromFile}}": true
+                }
+            },
+            {
+                "LogName": "Vincent Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Vincent, Characters/Vincent, Portraits/Vincent_Winter, Characters/Vincent_Winter",
+                "FromFile": "Art/VanillaNPCs/Vincent/Default/{{Target}}_{{DSV.Core/ConfigValue:VincentVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:VincentVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Willy Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Willy, Characters/Willy, Portraits/Willy_Winter, Characters/Willy_Winter",
+                "FromFile": "Art/VanillaNPCs/Willy/Default/{{Target}}_{{DSV.Core/ConfigValue:WillyVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:WillyVariant|contains= Vanilla, Off": false
+                }
+            },
+            {
+                "LogName": "Wizard Default Replacer",
+                "Action": "EditImage",
+                "Target": "Portraits/Wizard, Characters/Wizard",
+                "FromFile": "Art/VanillaNPCs/Wizard/Default/{{Target}}_{{DSV.Core/ConfigValue:WizardVariant}}.png",
+                "When":
+                {
+                    "DSV.Core/ConfigValue:WizardVariant|contains= Vanilla, Off": false
+                }
+            }
+        ]
+    }

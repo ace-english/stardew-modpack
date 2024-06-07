@@ -1,0 +1,63 @@
+﻿{
+	"Changes": [
+
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"Entries": {
+				"wildflour.ateliercrops/spring_strawberry": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_strawberry",
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 7,
+					"Chance": 0.4,
+					"Locations":["Town","Mountain"],
+					"Weather": [ "Sun"  ]		
+				},
+
+				"wildflour.ateliercrops/spring_cherryblossoms": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_cherryblossoms",
+					"StartSeason": "spring",
+					"StartDay": 20,
+					"EndSeason": "spring",
+					"EndDay": 28,
+					"Chance": 0.4,
+					"Locations":["Town","Mountain"]	
+				},
+
+
+				"wildflour.ateliercrops/summer_raspberry": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_raspberry",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndSeason": "summer",
+					"EndDay": 7,
+					"Chance": 0.4,
+					"Locations":["Town","Mountain"]
+				},
+
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/spring_strawberry",
+			"FromFile": "Assets/strawberry.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/spring_cherryblossoms",
+			"FromFile": "Assets/sakurapetals.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/summer_raspberry",
+			"FromFile": "Assets/raspberry.png"
+		}
+
+	]
+}

@@ -1,0 +1,1471 @@
+{
+
+//
+///////////// MINOR EDITS /////////////
+//
+
+    "DSV.DialogueEdit.Alex.Workout": "Unghh... Can't talk.$6",
+
+    "DSV.DialogueEdit.Demetrius.IceFest": "Even with a jacket on, it's still cold out here. I admire Robin's ability to stand so close to the ice!",
+
+    "DSV.DialogueEdit.Haley.NightMarket": "Brrr... I thought I was dressed warmly enough, but that sea breeze is icy-cold!$s",
+
+    "DSV.DialogueEdit.Emily.Luau": "@! Dance with me! Feel your heart beat in time with the music!$h",
+	
+    "DSV.DialogueEdit.Emily.AcceptGift_(O)64": "$c 0.5#Wow, look at that color! It matches perfectly with my energy today.$h#Oh, this is perfect... I've been feeling a little sluggish lately. Rubies are great for energizing the spirit!", 
+
+    "DSV.MapStringEdit.Marnie.AnimalShop6": "You rummage through Marnie's dresser. It's mostly long dresses and sturdy work clothes, but there's a pair of brown suspenders in here as well.",
+
+    "DSV.DialogueEdit.Abigail.FlowerDance.ImmersiveFestivalDialogue": "Ugh, I HATE having to wear a skirt.$a#$b#I'm gonna look like a dweeb.$s",
+    "DSV.DialogueEdit.Sebastian.Luau.ImmersiveFestivalDialogue": "Ugh, it's so hot out here.#$b#No, I'm not taking off my t-shirt, though I'm sure you'd love that.$h",
+    "DSV.DialogueEdit.Penny.Wedding.ImmersiveFestivalDialogue": "I'm working with Emily to make a beautiful gown with a nice warm underlayer.#$b#Oh, I know I shouldn't be telling you about it, but I'm just so excited!$h#$b#It's going to be such a beautiful wedding. I hope it snows on the day!$l",
+    "DSV.DialogueEdit.Emily.FlowerDance.ImmersiveFestivalDialogue": "What do you think of everyone's Flower Dance outfits? Personally, I'd let people wear any color they want, like a rainbow of flowers...#$b#But you know how Mayor Lewis is about his traditions!$h",
+
+//
+///////////// ADDITIONAL VARIANT EDITS /////////////
+//
+    
+    "DSV.OtherEdits.Altar.Religion.Strings.SeedShop": "Community Altar",
+
+    "DSV.OtherEdits.Altar.Religion.Strings.Hospital": "A poster of a cute kitten clinging to a branch. It's captioned 'hang in there, baby!'",
+    "DSV.OtherEdits.Altar.Religion.Strings.Hospital.Jorts": "A poster of a cute cat clinging to a branch. It's captioned 'hang in there, baby!'#$b#...doesn't the cat look suspiciously like Jorts?",
+
+	"DSV.OtherEdits.Caroline.Religion.Strings.Sun.000": "It was the previous owners who built the altar room as a community shrine for anyone who wants to pray or reflect, Yoba worshipper or not.#$b#We aren't religious, but we let the other townsfolk use it if they want.", //&&Edit! Changed $b# to #$b#
+
+	"DSV.OtherEdits.George.Religion.Strings.Sun.001": "Hehehe... I skipped my usual altar visit to come here! I hope Evelyn isn't too angry with me.$h",
+
+	"DSV.OtherEdits.Caroline.Dialogue.CanonFriendlyDialogue.Sun2": "Feel free to pray at the community altar if you'd like. It's intended for anyone who would find peace there, no matter their religion.#$e#No, it's not really my thing. I appreciate that it's there for the people who need it, though.",
+
+	"DSV.OtherEdits.George.Dialogue.CanonFriendlyDialogue.fall_Sat10": "The way things used to be, you'd see half the town showing up at the community altar each weekend.",
+
+	"DSV.OtherEdits.Evelyn.Dialogue.CanonFriendlyDialogue.Fri4": "You'll see George heading to the community altar on Sundays.#$b#His own little traditions are the only things that can get him to do anything good for him.",
+
+	"DSV.OtherEdits.Pam.Dialogue.CanonFriendlyDialogue.winter_Thu10": "I probably oughta get to that community altar more often, seein' as I believe in Yoba and all that.#$e#It's just tough to find the time with my work schedule the way it is.",
+
+    "DSV.OtherEdits.Jodi.Dialogue.Mon2": "$d kent#Yesterday I visited the community altar to give thanks for my husband's safe return.|Yesterday I visited the community altar to ask for my husband's safe return.#$e#I'm trying to stay positive, but it's hard sometimes.$s",
+
+	"DSV.OtherEdits.Jodi.Dialogue.CanonFriendlyDialogue.Mon2":"Yesterday I visited the community altar to ask for my husband's safe return.#$e#I'm trying to stay positive, but it's hard sometimes.$s",
+	
+//
+///////////// MAP PATCHES TEXT /////////////
+//
+
+// ELLIOTT
+
+	"DSV.MapPatchStrings.JewishElliott.Mezuzah": "A mezuzah in a beautiful gold case is mounted on the doorframe.",
+
+	"DSV.MapPatchStrings.Elliott.Shoerack": "It's a shoe rack. There's a pair of elegant heeled boots and two pairs of dress shoes. Sand has piled up underneath.",
+
+// ALEX, EVELYN & GEORGE
+
+	"DSV.MapPatchStrings.JewishMullners.Mezuzah": "A mezuzah in a plain but sturdy silver case is mounted on the doorframe.",
+	
+	"DSV.MapPatchStrings.ModdedMullners.Shoerack1": "It's a shoe rack. There's a pair of gridball cleats and two pairs of fashionable Dasadi sneakers.",
+	"DSV.MapPatchStrings.ModdedMullners.Shoerack2": "It's a shoe rack. There's a pair of floral-print slip-ons and a pair of rubber boots with smudges of soil on the toes.",
+	"DSV.MapPatchStrings.ModdedMullners.Shoerack3": "It's a shoe rack. There's a pair of black loafers and a pair of steel-cap work boots. Looks like they haven't been worn in a while...",
+
+// HALEY & EMILY
+
+	"DSV.MapPatchStrings.RomaniHaley.WallHanging": "A beautiful handwoven floral wall hanging featuring bold sunflowers next to delicate peonies and morning glory.",
+	"DSV.MapPatchStrings.RomaniEmilyHaley.WallHanging": "A beautiful handwoven floral wall hanging featuring auspicious gold and red roses. Its colour has faded a little with age.",
+	"DSV.MapPatchStrings.RomaniEmily.WallHanging": "A beautiful handwoven floral wall hanging featuring inspiring crocuses arranged with white wildflowers and lush foliage.",
+	
+	"DSV.MapPatchStrings.NonbinaryEmily.Pennant": "A small silk pennant in the nonbinary flag colors. 'You are valid, no matter what' has been embroidered along the edges in beautiful swooping cursive.",
+	
+	"DSV.MapPatchStrings.ModdedHaleyEmily.Shoerack1": "It's a shoe rack. There are many pairs of designer shoes and boots in a variety of colours and styles, enough to cover any occasion.",
+	"DSV.MapPatchStrings.ModdedHaleyEmily.Shoerack2": "It's a shoe rack. There are several pairs of shoes and sandals with hand-painted patterns and custom decorative embellishments.",
+
+// SAM, VINCENT, JODI & KENT
+
+	"DSV.MapPatchStrings.ModdedJodi.PrayerMat.JustJodi": "An exquisitely intricate prayer mat, worn thin with use. Careful you don't step on it.", 
+	"DSV.MapPatchStrings.ModdedJodi.PrayerMat.JustKent": "A sturdy handcrafted prayer mat, worn thin with use. Careful you don't step on it.", 
+	"DSV.MapPatchStrings.ModdedJodi.PrayerMat.Both": "An exquisitely intricate prayer mat, worn thin with use, with a second prayer mat rolled up nearby. Careful you don't step on them.", 
+
+	"DSV.MapPatchStrings.ModdedSam.PrayerMat": "A woven prayer mat with a mosque design. Careful you don't step on it.",
+
+	"DSV.MapPatchStrings.TransSam.TransFlag": "Sebastian and Abigail have written congratulations and sassy remarks on the bottom of Sam's trans flag.",
+	"DSV.MapPatchStrings.TransSam.Blahaj": "It's a klappahaj, the iconic shark plushie! This one's nearly as big as Sam is.",
+	"DSV.MapPatchStrings.TransSam.VincentBlahaj": "Aw, it's a baby klappahaj! Vincent must have got one to match with his big brother.",
+	
+	"DSV.MapPatchStrings.ModdedJodi.Shoerack1": "It's a shoe rack. There's a pair of classy low-heeled slip-ons and a conspicuous gap next to them.",
+	"DSV.MapPatchStrings.ModdedJodi.Shoerack1.Kent": "It's a shoe rack. There's a pair of classy low-heeled slip-ons and a larger pair of well-worn boots next to them.",
+	"DSV.MapPatchStrings.ModdedJodi.Shoerack2": "It's a shoe rack. There are several pairs of custom high-top sneakers and skate shoes, including one with blue, purple, and pink gradient laces.",
+	"DSV.MapPatchStrings.ModdedJodi.Shoerack3": "It's a shoe rack. There's a pair of scuffed brightly-colored sneakers with fraying laces covered in mud. They light up!",
+
+// SEBASTIAN, MARU, ROBIN & DEMETRIUS
+
+	"DSV.MapPatchStrings.RobinDemetrius.Shoerack1": "It's a shoe rack. There's a pair of classic Inverse high-tops and a pair of black lace-up knee-high platform boots.",
+	"DSV.MapPatchStrings.RobinDemetrius.Shoerack2": "It's a shoe rack. There are two pairs of well-worn non-slip sneakers, one with a glow-in-the-dark star pattern and the other with a purple galaxy print.",
+	"DSV.MapPatchStrings.RobinDemetrius.Shoerack3": "It's a shoe rack. There are two pairs of steel-cap boots covered in sawdust and a pair of light slip-ons.",
+	"DSV.MapPatchStrings.RobinDemetrius.Shoerack4": "It's a shoe rack. There's a pair of orthopedic deck shoes stained with grass and something oddly purple alongside a few sets of waterproof shoe covers.",
+
+	"DSV.MapPatchStrings.Sebastian.NonbinaryFlag": "Sam and Abigail have doodled goofy faces and cartoon characters sitting on chairs in unusual ways on the bottom of Sebastian's nonbinary flag.",
+
+// ABIGAIL, CAROLINE & PIERRE
+
+	"DSV.MapPatchStrings.ModdedCarolinePierre.Shoerack1": "It's a shoe rack. There's a pair of tan suede loafers that are about as business casual as you can get.",
+	"DSV.MapPatchStrings.ModdedCarolinePierre.Shoerack2": "It's a shoe rack. There's a pair of Stokkenberk leather sandals, a pair of kitten heel pumps, and a pair of old sneakers with dirt stains.",
+
+	"DSV.MapPatchStrings.ModdedAbigail.Shoerack": "It's a shoe rack. There's a pair of purple Doc Mortyn boots next to a pair of sturdy leather greaves.",
+
+	"DSV.MapPatchStrings.Abigail.NonbinaryFlag": "Sebastian and Sam have written funny queer jokes and quips on the bottom of Abigail's nonbinary flag.",
+
+// HARVEY
+
+	"DSV.MapPatchStrings.ModdedHarvey.Shoerack": "It's a shoe rack. There's two pairs of sensible leather wingtip shoes alongside a forgotten empty coffee mug.",
+
+// GUS
+
+	"DSV.MapPatchStrings.ModdedGus.Shoerack": "It's a shoe rack. There's a pair of comfortable loafers and a pair of non-slip work clogs. The vague scent of spices still clings to them.",
+
+// LEAH
+
+	"DSV.MapPatchStrings.ModdedLeah.Shoerack": "It's a shoe rack. There's a pair of sturdy workboots and a pair of thick sandals with a heel strap, both speckled with paint, charcoal smudges, and sawdust.",
+
+// PENNY
+
+	"DSV.MapPatchStrings.TransPenny.StickyNotes": "Penny's put up cute blue, pink, and white sticky notes above her desk with curriculum notes and ideas for lesson plans.",
+	"DSV.MapPatchStrings.TransPenny.Flowers": "A beautiful bouquet of pale blue forget-me-not, light pink carnations, and small white roses.",
+	"DSV.MapPatchStrings.Penny.Shoerack": "It's a shoe rack. There are two pairs of cute ballet flats, one with a bow and the other with lace, and a pair of vintage laced boots.",
+
+// SHANE, JAS & MARNIE	
+
+	"DSV.MapPatchStrings.ModdedMarnie.Shoerack1": "It's a shoe rack. There's a pair of purple sneakers with pink laces and little sequins on the toes. They're a bit muddy but in good condition.",
+	"DSV.MapPatchStrings.ModdedMarnie.Shoerack1.BunnyJewelSlippers": "It's a shoe rack. There's a pair of purple sneakers with pink laces and little sequins on the toes and a pair of delicate bunny-jewel slippers.",
+	"DSV.MapPatchStrings.ModdedMarnie.Shoerack2": "It's a shoe rack. There's a pair of calf-length work boots splattered in what might be mud, a pair of comfy slip-ons, and... is that a lone men's business shoe under there?",
+	"DSV.MapPatchStrings.ModdedMarnie.Shoerack3": "It's a shoe rack. There are a few pairs of off-brand Gators, one of which is decorated with little chicken charms.",
+
+// WILLY
+
+	"DSV.MapPatchStrings.TonganWilly.Shoerack": "It's a shoe rack. There's a pair of heavy-duty fishing waders, a pair of deck shoes, and a pair of thick-soled flip-flops.",
+	"DSV.MapPatchStrings.DisabledWilly.Shoerack": "It's a shoe rack. There's a pair of heavy-duty fishing waders, a lone flip-flop, and a spare prosthesis liner.",
+	"DSV.MapPatchStrings.TonganDisabledWilly.Shoerack": "It's a shoe rack. There's a pair of heavy-duty fishing waders, a lone flip-flop, and a spare prosthesis liner.",
+
+// SANDY
+
+	"DSV.MapPatchStrings.ModdedSandy.Shoerack": "It's a shoe rack. There are several pairs of light, elegant slip-ons and a small box of jeweled hijab pins sitting beside them.",
+
+//
+///////////// BABY & PREGNANCY CHANGES /////////////
+//
+
+	"DSV.StringsEdit.Adopt.HaveBabyQuestion": "Should we adopt a baby, {0}?",
+	"DSV.StringsEdit.Adopt.BirthMessage_SpouseMother": "During the night, the adoption agency dropped off your new baby {0}.",
+	"DSV.StringsEdit.Adopt.StringsFromCSFiles.4443": "I just don't have any energy today.... can't you make your own breakfast?$s",
+	"DSV.StringsEdit.Adopt.StringsFromCSFiles.4445": "{0}, we'll be parents soon. Isn't it wonderful?$l",
+	"DSV.StringsEdit.Adopt.StringsFromCSFiles.4448": "{0}, I filed our adoption papers. Now all we can do is cross our fingers and wait.$l",
+//
+///////////// GIFT TASTES CHANGES /////////////
+//
+
+// HARVEY
+
+    "DSV.GiftTastes.Harvey.CGD.Alcohol": "Oh, this is alcoholic... I appreciate the thought, but I don't drink alcohol because of my religion.$s",
+    "DSV.GiftTastes.Harvey.CGD.Vegetarian": "I'm vegetarian, @. Please don't give me things like that.$a",
+
+// SAM, VINCENT, JODI & KENT
+
+    "DSV.GiftTastes.Jodi.CGD.Alcohol.JustJodi": "Um, thank you, @, but I don't drink alcohol.$4", 
+	"DSV.GiftTastes.Jodi.CGD.Pork.JustJodi": "I don't eat anything with pork, @. You should find someone else who can eat it instead.$4",
+	"DSV.GiftTastes.Jodi.CGD.Drugs.JustJodi": "Get that away from me, and don't you bring it near my boys either!$a", 
+
+    "DSV.GiftTastes.Jodi.CGD.Alcohol.JustKent": "Um, thank you, @, but Kent doesn't drink alcohol so I'd rather not have it in the house.$4", 
+	"DSV.GiftTastes.Jodi.CGD.Pork.JustKent": "We don't eat anything with pork, @. You should find someone else who can eat it instead.$4", 
+	"DSV.GiftTastes.Jodi.CGD.Drugs.JustKent": "Get that away from me, and don't you bring it near my husband either!$a", 
+
+    "DSV.GiftTastes.Jodi.CGD.Alcohol.Both": "Um, thank you, @, but we don't drink alcohol.$4", 
+	"DSV.GiftTastes.Jodi.CGD.Pork.Both": "We don't eat anything with pork, @. You should find someone else who can eat it instead.$4", 
+	"DSV.GiftTastes.Jodi.CGD.Drugs.Both": "Get that away from me, and don't you bring it near my family either!$a", 
+	
+	"DSV.GiftTastes.Sam.CGD.Alcohol": "Nah, I don't drink booze. I'm trying to be a good role model to Vincent, y'know?$s",
+	"DSV.GiftTastes.Sam.CGD.Pork": "Sorry, @, we don't eat that stuff.$s",
+	"DSV.GiftTastes.Sam.CGD.Drugs": "Uh, I shouldn't... Go give it to Seb instead.$s",
+	
+	"DSV.GiftTastes.Vincent.CGD.Alcohol": "My mom says drinks like that are evil.$s",
+	"DSV.GiftTastes.Vincent.CGD.Pork": "I don't think I can eat that...$s",
+	"DSV.GiftTastes.Vincent.CGD.Drugs": "Huh? What's that stuff? It has a funny smell... I don't think Mom would like me having it.$s",
+	
+	"DSV.GiftTastes.Kent.CGD.Alcohol.JustJodi": "Been tempted a few times, but we're a dry family, @.", 
+	"DSV.GiftTastes.Kent.CGD.Pork.JustJodi": "Jodi and the boys can't eat pork. Give it to someone else.$s", 
+	"DSV.GiftTastes.Kent.CGD.Drugs.JustJodi": "Got suggested it as a therapy option, but Jodi wouldn't like it. It's against her religion.", 
+	
+	"DSV.GiftTastes.Kent.CGD.Alcohol.JustKent": "We're a dry family, @. Religious reasons.", 
+	"DSV.GiftTastes.Kent.CGD.Pork.JustKent": "Me and the boys can't eat pork. Give it to someone else.$s", 
+	"DSV.GiftTastes.Kent.CGD.Drugs.JustKent": "Got suggested it as a therapy option, but I couldn't. It's against my religion.", 
+	
+	"DSV.GiftTastes.Kent.CGD.Alcohol.Both": "We're a dry family, @. Religious reasons.", 
+	"DSV.GiftTastes.Kent.CGD.Pork.Both": "Our family can't eat pork. Give it to someone else.$s", 
+	"DSV.GiftTastes.Kent.CGD.Drugs.Both": "Got suggested it as a therapy option, but I couldn't. It's against our religion.", 
+	
+	"DSV.GiftTastes.Kent.Vanilla.Hate": "This... A Gotoro soldier gave me this when they were detaining me. I've been trying to forget about that. *shudder*",
+
+	"DSV.GiftTastes.Kent.CGRGiftTastes.RabbitFoot": "I used to carry one of these around with me while I was reporting.#$b#Thank you, I appreciate it.",
+
+// GUS
+
+    "DSV.GiftTastes.Gus.CGD.Alcohol": "It sounds like the setup for a joke, doesn't it? A chef who doesn't drink.",
+    "DSV.GiftTastes.Gus.CGD.Pork": "If you want me to cook that for you, @, I'll have to decline.$a",
+
+// SANDY
+
+    "DSV.GiftTastes.Sandy.CGD.Alcohol": "Oh sweetie, thank you for thinking of me! But I don't drink alcohol.$s",
+    "DSV.GiftTastes.Sandy.CGD.Pork": "Oh... I don't eat pork, @. Please give it to someone else.$s",
+
+// ELLIOTT
+
+    "DSV.GiftTastes.Elliott.CGD.Kosher": "@, you may not be aware, but I can't eat this! It's not kosher, you see.$s",
+
+// ALEX, EVELYN & GEORGE
+
+    "DSV.GiftTastes.Alex.CGD.Kosher": "Is that kosher, @? I gotta watch what I eat, you know.",
+
+    "DSV.GiftTastes.Evelyn.CGD.Kosher": "Oh dear... Thank you, @, but I don't think this is kosher so I can't accept it.$s",
+    
+    "DSV.GiftTastes.George.CGD.Kosher": "This ain't kosher, is it? How about you think of what people can eat next time!$a",
+
+// LINUS
+
+    "DSV.GiftTastes.Linus.CGD.Cheese": "Thank you, @. Marigold loves a good piece of cheese. I'll share it with her later.",
+    "DSV.GiftTastes.Linus.CGD.Egg": "Marigold will be delighted with a fresh egg! Thank you, @.",
+    "DSV.GiftTastes.Linus.CGD.GiantEgg": "Oh my, that is an enormous egg indeed! Marigold will be over the moon! Thank you, @.",
+    "DSV.GiftTastes.Linus.CGD.Bones": "Thank you, @. I'm sure Marigold will adore a nice bone like this.",
+    "DSV.GiftTastes.Linus.CGD.NoBones": "For Marigold? Thank you, but I don't think a bone like that would be good for her.",
+    "DSV.GiftTastes.Linus.CGD.VoidEgg": "What is that, @? I have never seen its like in nature. I don't think it would be good for Marigold to try eating it.$s",
+
+//
+///////////// NO MORE WAR DIALOGUE EDITS /////////////
+//
+
+// JODI
+
+	"DSV.DialogueEdit.Jodi.ReligionNMW.Vanilla.2_1": "My husband Kent is a journalist, working overseas. That's why he's not here right now.#$b#I know he'll come back safe once his assignment is over!#$e#Need something?",
+	"DSV.DialogueEdit.Jodi.ReligionNMW.Vanilla.winter_Thu8": "We kind of rushed into our marriage, with Kent being busy with school... I hardly got a taste of youth and freedom, and now it's too late to ever go back.$s#$e#Just don't make the same mistake.$4",
+	"DSV.DialogueEdit.Jodi.ReligionNMW.Vanilla.reject_864": "What's this? It looks like one of Kent's buddies from when he was in Gotoro. Maybe you should show it to him?",
+	
+	"DSV.DialogueEdit.Jodi.ReligionNMW.ExtendedDialogue.winter_Sat10_2": "I'm so relieved that Kent is safe, but... I trust you to keep this between the two of us, @...$s#$b#He's just not the same man he was before he went to Gotoro.$s#$b#I know he went through some terrible things, but he doesn't like to talk about it and I don't know how to help him.$s#$e#Sometimes it's hard to be strong for the people you love. *sigh* Thanks for listening, @.$s",
+	
+	"DSV.DialogueEdit.Jodi.ReligionNMW.CanonFriendlyDialogue.2_1": "My husband Kent is a journalist, working overseas. That's why he's not here right now.#$b#I know he'll come back safe once his assignment is over!#$e#Need something?",
+	"DSV.DialogueEdit.Jodi.ReligionNMW.CanonFriendlyDialogue.Sun4_2": "Sam has come a long way with Vincent. He really stepped up when Kent's assignment started.#$e#It did make me happy to see him grow and change like that.",
+	"DSV.DialogueEdit.Jodi.ReligionNMW.CanonFriendlyDialogue.summer_Mon4": "Kent's retirement pension actually exceeds his working salary.#$b#We can meet our bills decently, but... well, uh...$s#$b#How are things going for you?",
+	"DSV.DialogueEdit.Jodi.ReligionNMW.CanonFriendlyDialogue.summer_Wed8": "Kent truly is a good man at heart. I wish you could have met him before he left, @.$s",
+	
+	"DSV.DialogueEdit.Jodi.ReligionNMW.Toshinori.ToshisPTSD": "I deeply sympathize with Toshinori's ire with Pam about her parenting and drinking habits.#$b# But speaking as the wife of someone who was in the same war, I don't think these recent outbursts are really about that...",
+
+// KENT
+
+	"DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.Wed6": "... I saw a lot of friends get hurt... Some even died.$s#$e#What's sad is that I can't even remember their faces.#$e#...",
+	"DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.Sun": "I don't know what to do with myself now that I'm back.#$e#I'm used to building more structure into my day.",
+	"DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.Resort": "The boat ride was fun. I even got to use some of my boyhood sailing skills to help navigate.$h",
+	"DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.accept_864": "...!$4#$b#...Where did you find this?$4#$b#...$5#$b#This man... He was my translator when I was overseas, @. He was like a brother to me. #$b#But... only one of us made it back.$5#$b#He never lost his courage, though. Even in the face of death. A true hero... I'll never forget him.#$b#Thanks for bringing me this... It means a lot to me.#$b#Here, take this. It's been sitting in the back of our cupboard for years, and we've never used it.",
+	
+	"DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.accept_Book_Crabbing": "Interesting. I like fishing, but I haven't been out crabbing much before, so this is something new. Thank you.", //&&New!
+	
+	"DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.FlowerDance": "It's been too long since I've been able to relax like this.$h",
+
+	"DSV.DialogueEdit.Kent.ReligionNMW.ColaShop.Sun2": "I tried to get a job, but there's no call for my skills in a town this small.#$b#Don't look at me like that. I wasn't always a reporter.",
+	
+	"DSV.DialogueEdit.Kent.ReligionNMW.ExtendedDialogue.Fri10": "Damn this war, @. When you're on the front lines, you forget how to do anything other than survive. How does anyone come back from that?#$e#How does a man go back to being the husband and father his family needs? Nothing feels the same.$s",
+	"DSV.DialogueEdit.Kent.ReligionNMW.ExtendedDialogue.Sat5": "Sam and Vincent turned out to be good kids. I can't get back the time I missed watching them grow up, but at least I got to see them again.#$b#Too many people I met over there will never get that chance.$s",
+	"DSV.DialogueEdit.Kent.ReligionNMW.ExtendedDialogue.fall_Sun8": "Sometimes I have this dream where Sam and Vincent are with the kids trying to escape the fighting. No matter what I do, the dream always ends the same way.#$b#...I hope this war ends soon, @.$s",
+	"DSV.DialogueEdit.Kent.ReligionNMW.ExtendedDialogue.winter_Sun8": "Sometimes I have this dream where Sam and Vincent are with the kids trying to escape the fighting. No matter what I do, the dream always ends the same way.#$b#...I hope this war ends soon, @.$s",
+
+	"DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Tue_019": "Hm. Sounds miserable. I'm glad you got out.#$b#Well, better to be a retired newshound with a family you love than to spend your entire life in a cubicle. Thanks for sharing.$h",
+	"DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Wed10": "@, I know you want to help me, and I appreciate it. But some things will never be the same again.#$b#What's a man to do? It's miles away from perfect, but all I can do each day is my best, for the kids, for Jodi...#$b#...and then hope it's enough.",
+	"DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Thu8": "I talked to one of my contacts on the phone. He said watching cartoons with his daughter helped 'bring the color back.'#$e#I think I get what he means by that, but mostly in the abstract sense.#$e#It must be nice.",
+	"DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Fri10": "In the war, so many people are forced to learn that survival is the only right... the only good.#$b#And the reality of the situation only confirms that.$s#$e#How does anyone expect someone like me to resume a normal life again after that?#$e#...Sorry.",
+	"DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Sat4": "The newspaper company let me take an early retirement.#$e#It's nice that they send checks that support the family.#$e#They deserve the money, even if I don't.",
+	"DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Sat6": "The boys turned out pretty well. Jodi's been a good mother to them.#$b#And there's still some time. Vincent's still just a boy.#$e#Too many people I met over there won't even get to see their families again.$s",
+	"DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.fall_Sun8": "I've been having this dream where I'm on the front lines again, but Sam's there trying to draw the soldiers away from us.$s#$b#Then for some reason, Vincent shows up.$s#$e#It all feels so real when it happens. I never had to face that image before I came home.$3",
+	
+	"DSV.DialogueEdit.Kent.ReligionNMW.Toshinori.winter_27_2": "Toshinori helped me when I was still finding my feet in Gotoro. I really believe I wouldn't still be here if I hadn't travelled with his platoon.",
+	
+// SAM
+		
+	"DSV.DialogueEdit.Sam.ReligionNMW.Vanilla.Thu2": "My dad is a journalist, covering the conflict between the Gotoro Empire and its former territory Jhunal. That's why he's not here...#$e#He'll come back someday.#$e#...I've heard some terrible things about the Gotoro Empire...$s",
+	"DSV.DialogueEdit.Sam.ReligionNMW.Vanilla.summer_Thu": "Dad was telling me about the Gotoro Empire, where he was reporting... They sound like a ruthless bunch.",
+	"DSV.DialogueEdit.Sam.ReligionNMW.Vanilla.winter_Thu": "My dad is a journalist, covering between the Gotoro Empire and its former territory Jhunal. That's why he's not here.#$e#He's coming back soon, though.",
+
+	"DSV.DialogueEdit.Sam.ReligionNMW.CanonFriendlyDialogue.summer_Thu": "Dad was telling me about the Gotoro Empire, where he was reporting... They sound like a ruthless bunch.",
+	"DSV.DialogueEdit.Sam.ReligionNMW.CanonFriendlyDialogue.fall_Tue6":"After Dad left for his assignment, I made a conscious decision to give Vince the best childhood he can get.#$e#I realized, if I don't help make that happen for him, who else will?",
+		
+// VINCENT
+				
+	"DSV.DialogueEdit.Vincent.ReligionNMW.CanonFriendlyDialogue.Sat2": "Do you know anyone in Gotoro? That's where my dad works.",
+
+// RSV EZEKIEL
+		
+	"DSV.DialogueEdit.Ezekiel.ReligionNMW.RSV.Fri4_1": "Kent knows what I'm going through.$s#$b#But he's been through a lot worse.$s#$b#Gave his all so his country could hear the truth and what's he got to show for it?#$b#Huh? Who's Kent? That's Jodi's husband, don't you know? He's currently on assignment overseas.$s",
+	"DSV.DialogueEdit.Ezekiel.ReligionNMW.RSV.Fri4_2": "Kent knows what I'm going through.$s#$b#But he's been through a lot worse.$s#$b#Gave his all so his country could hear the truth and what's he got to show for it?#$b#You should show him some respect when you see him.",
+
+// RSV PAULA
+		
+	"DSV.DialogueEdit.Paula.ReligionNMW.RSV.Fri2": "Philip's doing a great job in his field.#$b#We could use men like him in the medical branch.#$b#He'd make recovery easier for the refugees and soldiers who have impairments.",
+	"DSV.DialogueEdit.Paula.ReligionNMW.RSV.Mon6": "You have a nice build!$h#$b#Have you ever experienced training? We could use hardworking people like you in the reserve.",
+
+// ES ELOISE
+		
+	"DSV.DialogueEdit.Eloise.ReligionNMW.ES.Tue10": "I'm writing to ask the Governor to help the people in Gotoro too.#$b#It's not their fault that their soldiers invaded that other country. Sora and his family are homeless because of the fighting!",
+
+// ES ROSA
+		
+	"DSV.DialogueEdit.Rosa.ReligionNMW.ES.Tue": "Back in Fort Josa, my dad's bakery had the most wonderful aromas.#$b#The recession stopped us from buying ingredients for many of our traditional cakes and sweets, but we improvised.$s",
+	"DSV.DialogueEdit.Rosa.ReligionNMW.ES.summer_Fri8": "Fort Josa's a coastal town, so we used to play in the water all the time. Sometimes we'd even see dolphins.#$b#That was until the big oil spill ten years ago... after that, well, let's just say swimming became a lot less fun.$2",
+	
+// TOSHINORI
+
+	"DSV.DialogueEdit.Toshinori.ReligionNMW.Toshinori.Fri8": "Please don't tell Kent but... I worry about him. I know he would feel guilty, if he knew.#$b#But I also know the transition back to a peacetime environment is hard.$s",
+	"DSV.DialogueEdit.Toshinori.ReligionNMW.Toshinori.summer_Tue8": "Kent and I plan on going fishing together.#$b#Willy offered to give me lessons, and Kent said he'd show me a trick or two!$h",
+		
+// IZUKU
+
+	"DSV.DialogueEdit.Izuku.ReligionNMW.Toshinori.fall_10_2": "I was in my senior year of highschool when Dad was called up for military duty.$2#$b#That was the last we saw of him. For years and years. We'd write to him all the time. We stayed in touch. But we all worried.#$b#When we heard he was injured on duty, we were devastated. At the time, the doctors weren't sure he was going to make it. He was in the ICU for months.#$b#The next time I saw him... when they were finally allowing visitors... he'd lost so much weight.#$b# His muscles had atrophied. He looked... you know. Kind of like he does now.",
+
+// JAEMIN
+
+	"DSV.DialogueEdit.Jaemin.ReligionNMW.Jaemin.Tue2": "It's hard living in this country with this face after hearing about some of the things the Gotoro Empire has done.$9#$b#A lot of people just assume I support them.$9",
+
+	"DSV.DialogueEdit.Jaemin.ReligionNMW.Kent.Thu.Part1": "Are you friends with my son?#$e#You probably know him better than I do...",
+	"DSV.DialogueEdit.Jaemin.ReligionNMW.Kent.Thu.Part2": "I can tell I make that sailor uncomfortable.#$e#I know he was in our navy, but I just can't forget how I was captured by people who look just like him.",
+	"DSV.DialogueEdit.Jaemin.ReligionNMW.Vincent.Wed4.Part1": "I wanna look for bugs, but Mom gets mad when I'm all dirty.$u#$b#It's a tough choice.",
+	"DSV.DialogueEdit.Jaemin.ReligionNMW.Vincent.Wed4.Part2": "My brother said that Mister Jaemin was on a big boat that helped make sure the bad guys didn't come near us.$s#$e#Why would he do something like that?$s#$b#...I don't get it.$s",
+	"DSV.DialogueEdit.Jaemin.ReligionNMW.Vincent.Sat8.Part1": "Miss Penny makes me read a new book every week.$s#$b#At least she lets me pick them, sometimes!",
+	"DSV.DialogueEdit.Jaemin.ReligionNMW.Vincent.Sat8.Part2": "Jas said she wished everyone could be friends so the Gotoro Empire could stop fighting people.$u#$e#I wish they could stop fighting, too.$s",
+
+//
+///////////// NO MORE WAR EVENT EDITS /////////////
+//
+	
+// NO MORE WAR EVENTS - VANILLA 
+	
+	"DSV.EventEdit.NMW.Vanilla.733330.33": "But I heard some grown-ups saying that... that everybody in the Gotoro Empire is getting shot to pieces.$s",
+	"DSV.EventEdit.NMW.Vanilla.733330.38": "Don't you remember how smart Dad is? He'd never get in the way of a firefight! Don't you worry!$a#$b#And always remember that Mom and I are here to play with you if you ever feel lonely.",
+	"DSV.EventEdit.NMW.Vanilla.733330.55": "To be honest, I have no idea if my old man will come back... We've all read his articles. Soldiers are falling by the hundreds, and he's in the middle of it.$s#$b#But what am I going to say to Vincent?$7",	
+	
+	"DSV.EventEdit.NMW.Vanilla.100.70": "You should've known that sound would remind me of being in the empire!$u",
+	"DSV.EventEdit.NMW.Vanilla.100.85": "... I lost a lot of good friends in those bloody streets.$s",
+
+// NO MORE WAR EVENTS - RSV
+	
+	"DSV.EventEdit.NMW.RSV.75160072.23": "Take a look at this beauty!$h#$b#These old boots were the very ones I wore when we came back from our 148-hour rescue mission after being stranded in a cave following an ambush!$h#$b#It was one of the most intense battles I ever had. Lost some friends... Gained new ones... It was... something.$s#$b#I wouldn't wish that kind of experience on anyone else. That's why I keep this displayed.#$b#To remind me of the people I protected and fought for. For the peace I pray to Yoba comes for Corine and her generation.",
+	
+	"DSV.EventEdit.NMW.RSV.75160413.8": "...Anyway, it's good to see you back again.$h",
+	"DSV.EventEdit.NMW.RSV.75160413.12": "It's been hard. Everything is so quiet, and some days that's what's most frightening.#$b#Sometimes I wake up at night and don't even recognize where I am.$3",
+	"DSV.EventEdit.NMW.RSV.75160413.23": "Besides, things were different for me back then.",
+	"DSV.EventEdit.NMW.RSV.75160413.28": "After Helen passed, I didn't know what to do with myself. With the news spreading fear of the war every day, the peacekeeping reserve just felt right for me.$s#$b#It was a hard time, mind you, but it helped to have something to focus on, knowing I was protecting kids like my Corine.$h",
+	
+	"DSV.EventEdit.NMW.RSV.75160437.15": "You've served your ambassadoral duties for this country more than enough already, Zayne.$a#$b#Besides, the Gotoro-Jhunal war is almost as good as finished. Our mediation is progressing as planned, treaties are being discussed, and everything is falling into order.#$b#You have served them well, and you've lived up to the Amethyne name, representing our greatness on the global scale.#$b#But now is the time to serve our family.$a#$b#My grandson, you know why I need you in this position.$a#$b#With your father's scandal, your aunt's instability, your cousins' subpar performances and--$a",
+	
+// NO MORE WAR EVENTS - TOSHINORI 
+
+	"DSV.EventEdit.NMW.Toshinori.66170024.20": "We were friends in high school before I became a teacher and Kent went into journalism, then we were reunited on the front lines.",
+	
+	"DSV.EventEdit.NMW.Toshinori.approvequestionToshi.20": "Well, I was in the peacekeeping reserve. The Gotoro Empire's forces vastly outnumbered those of their ex-territory Jhunal, and so many Jhunalese refugees were trying to reach safety that Ferngill sent some of our peacekeepers to assist. I was still a teacher at the time, but I packed my bags when they asked and joined the military.#$b#The hardest part was honestly saying goodbye to my students, knowing I might never see them again.#$b# But, despite how I look now, I wasn't always like this. I was actually an extremely big man! It would take an entire kitchen to feed me and I'd always go back for seconds, haha!$h#$b#I had a reputation at the military base for my appetite and my bad jokes. And I performed very well at boot camp. Due to my strength I was assigned to the front lines.#$b# For the first couple of months I didn't really see much action, but as the Gotoro Empire moved further into Jhunal, things quickly got messy.#$b#But, ah, I'm afraid I don't really feel like talking much more about it. Still... thank you for taking interest in my life, @.",
+	"DSV.EventEdit.NMW.Toshinori.sadToshi.4": "It was... well, I was... I was behind a demolished wall. With Kent, and many others. We were escorting a small group of civilians.#$b#The Gotoro Empire was blocking our escape route. They were better equipped. At the time, they had just developed a new breed of explosive. They were using us to test their weapons, like rats in a cage.#$b#It's... very difficult for me to recall this moment. But the long and short of it? I abandoned my post to protect my fellow soldiers and the civilians we were defending. I managed to take out their grenadiers before an explosive detonated against my chest. Kent pulled me out of there. I don't remember what happened. And people were delicate enough not to tell me.",
+	"DSV.EventEdit.NMW.Toshinori.sadToshi.5": "I was told that dozens of innocent people might not have made it to safety if not for my actions that day.#$b# I got... some medals. Honor. Bravery. Sacrifice. That sort of thing.$s",
+	
+	"DSV.EventEdit.NMW.Toshinori.66170001.48": "Oh! Cool! I bet he saved lots of people like in Dad's stories!",
+	
+	"DSV.EventEdit.NMW.Toshinori.66170003.26": "Many of my students still keep in touch. This one's from Izuku. He's so close he's practically my own son.$6#$b#It's been years since he graduated. Back when I still lived in the city, he'd visit me almost every day.$6#$b#Of course, this was before I was involved in that horrible war.",
+	
+	"DSV.EventEdit.NMW.Toshinori.66170031.20": "I know you're a busy individual, so I'll just get to the point.#$b# My friend, Toshinori... words can't really express just how much that guy means to me. But, lately, he's not acting like himself. I'm sure you've noticed.#$b# Something's up... and, knowing the guy like I do, I don't think he's actually that upset at anyone in town. It's deeper than that.#$b#I don't know if he's told you or not, but we were together in Gotoro during the war, me as a journalist and him as a peacekeeper. We've seen hell, been through hell. I've been seeing a therapist, but I don't think Toshinori's bothered.#$b# I don't know if he thought he was too good for it, or if he wasn't traumatized enough to need it, but... he's... always preferred to distract himself with other people's problems than deal with his own.#$b# I've told him I think it's a bad idea, that he needs to address what he's gone through, but he always laughed me off and said he was fine.#$b# At his best, he just genuinely wants to help other people. But the way it's coming out lately... He needs help.#$b#I think 'confrontation' is a strong word, and 'intervention' makes me think of an addiction problem. I just know he needs help.#$b#He won't listen to me. Our trauma is just too similar. He likes you, @. I think he'll listen to you. Please, talk to him. Get through to him.",
+	"DSV.EventEdit.NMW.Toshinori.66170032.20": "I know you're a busy individual, so I'll just get to the point.#$b# Your husband, Toshinori... words can't really express just how much that guy means to me. But, lately, he's not acting like himself. I'm sure you've noticed, considering you live with him.#$b# Something's up... and, knowing the guy like I do, I don't think he's actually that upset at anyone in town. It's deeper than that.#$b# I don't know if he's told you or not, but we were together in Gotoro during the war, me as a journalist and him as a peacekeeper. We've seen hell, been through hell. I've been seeing a therapist, but I don't think Toshinori's bothered.#$b# I don't know if he thought he was too good for it, or if he wasn't traumatized enough to need it, but... he's... always preferred to distract himself with other people's problems than deal with his own.#$b# I've told him I think it's a bad idea, that he needs to address what he's gone through, but he always laughed me off and said he was fine.#$b# At his best, he just genuinely wants to help other people. But the way it's coming out lately... He needs help.#$b# I think 'confrontation' is a strong word, and 'intervention' makes me think of an addiction problem. I just know he needs help.#$b# He won't listen to me. Our trauma is just too similar. He clearly loves you, @, and values what you say. I think he'll listen to you. Please, talk to him. Get through to him.",
+	
+	"DSV.EventEdit.NMW.Toshinori.66170033.30": "During the war... it felt like so many people's lives were depending on us. That if we failed, people we had come to know and love would die.$12#$b#I was never... quite able to adjust to civilian life. I tried. But I still feel like someone, somewhere, is going to die due to my inaction. And it'd be my fault.$12",
+
+//
+///////////// NO MORE WAR OTHER EDITS /////////////
+//
+
+// NO MORE WAR QUESTS
+	
+    "DSV.OtherEdits.NMW.Quests.Vanilla.119": "A Summer Star",
+
+// NO MORE WAR STRINGS
+	
+	"DSV.OtherEdits.Kent.ReligionNMW.RememberMyBirthday.spring.004": "Birthdays aren't really important in Gotoro, so we often forgot about them.$0#$b#But I guess it's different now that I'm back home.$1",
+
+	"DSV.OtherEdits.Kent.ReligionNMW.ColaShop.000": "This tastes like something the Jhunalese refugees used to make.#$b#Should send the recipe to some of my friends...",
+
+// NO MORE WAR OTHER
+	
+	"DSV.OtherEdits.SecretNote.ReligionNMW.Lyell.982": "Dear journal,^This is my final entry. Not because I grow tired of writing but because this is my last page.^I've returned from war - Gotoro and its former territory have been at it for a while now, and I heard the call to fight against my own motherland for what I believe is right.^I left unwillingly; the military could no longer use me to their benefit, so I am being sent back. I have no home in Ferngill, but luckily I have savings in a bank. I plan to buy a piece of land somewhere. Somewhere small and peaceful.^I hope to raise a farm, though I only have one arm now. I'm sure it'll be a difficult task. But I am hopeful for it.^I just want to rest now.^-Lyell Halkias",
+
+// NO BOMBS IN MAIL EDIT
+	
+	"DSV.MailEdits.ReligionNMW.Vanilla.Kent.Body": "Hello, @.^This item was collecting dust in the toolshed. I figured you might be able to use it.  ^   -Kent",
+	"DSV.MailEdits.ReligionNMW.Vanilla.Kent.Title": "A Gift From Kent",
+
+//
+///////////// JEWISH MULLNERS EDITS /////////////
+//
+
+// JEWISH GEORGE
+
+	"DSV.OtherEdits.George.Religion.Strings.Sat.000": "I've never been all that religious, but Evelyn is. And it means a lot to her when we come here together.",
+	"DSV.OtherEdits.George.Religion.Strings.Sat.001": "Hehehe... I snuck out to come here! I hope Evelyn isn't too angry with me.$h",
+
+// JEWISH EVELYN
+
+	"DSV.OtherEdits.Evelyn.Religion.Strings.Sat.000": "Baruch atah Hashem Elokeinu...",
+
+// JEWISH CLARA
+
+	"DSV.OtherEdits.Clara.Religion.MapStrings.JoshHouse.1": "Imma-^If you're reading this, it means I've passed on. I'm so sorry you had to go through this. Know that I love you both.^Don't be too upset, I'm at peace now. ^My final request: take care of Alex. He needs a family, something stable. He's a good kid.^ Love, ^Clara",
+
+//
+///////////// FLOWER QUEEN'S CROWN DIALOGUE /////////////
+//
+
+// ABIGAIL QUEEN
+	"DSV.Dialogue.FQC.AbigailQueen.Abigail": "This Flower Queen thing is pretty stupid, huh? But at least there's no speech or anything. It could be worse.",
+	
+// ALEX QUEEN
+	"DSV.Dialogue.FQC.AlexQueen.Alex.Vanilla": "Grams is really happy to see me as the Flower Queen. She grows the flowers for the crown each year.$h",
+	"DSV.Dialogue.FQC.AlexQueen.Alex.Samoan": "Tinä is really happy to see me as the Flower Queen. She grows the flowers for the crown each year.$h",
+	"DSV.Dialogue.FQC.AlexQueen.Alex.Mexican": "Abuela is really happy to see me as the Flower Queen. She grows the flowers for the crown each year.$h",
+	"DSV.Dialogue.FQC.AlexQueen.Alex.Jewish": "Bubbe is really happy to see me as the Flower Queen. She grows the flowers for the crown each year.$h",
+	
+// EMILY QUEEN
+	"DSV.Dialogue.FQC.EmilyQueen.Emily": "The Flower Queen traditionally leads the dance each year. I always love feeling the energy of everyone following my steps!$h",
+	
+// ELLIOTT QUEEN
+	"DSV.Dialogue.FQC.ElliottQueen.Elliott": "As the Flower Queen, shall I recite to you a poem of the ever-renewing spring, @?$h#$b#Wait, I have that the wrong way around, don't I?$8",
+	
+// HALEY QUEEN
+	"DSV.Dialogue.FQC.HaleyQueen.Haley": "I'm practicing my dance moves... It needs to be perfect.#$e#I've been flower queen 5 times and I'm not ready to step off the throne just yet!",
+
+// NOT HALEY QUEEN
+	"DSV.Dialogue.FQC.NotHaleyQueen.Haley": "I'm practicing my dance moves... It needs to be perfect.#$e#I'll win back the crown next year, you watch!$h",
+
+	"DSV.Dialogue.FQC.NotHaleyQueen.Haley.IFD.6-10": "Me and Alex?$l#$b#Oh, we're just friends! We always dance together, it's like tradition. I'm the fashionista, he's the hot jock...$n#$b#I'm pretty sure he likes me, though...$h#$b#DON'T tell him I said that.$u",
+	"DSV.Dialogue.FQC.NotHaleyQueen.Haley.IFD.Dating": "Oh, you are so lucky you get to dance with me this year! You're in the presence of 5 time Flower Dance royalty, you know!$h#$b#I'm pretty excited to dance with you, too.$l",
+	"DSV.Dialogue.FQC.NotHaleyQueen.Haley.IFD.Married": "Hi, sweetie. I might not be Flower Queen this year, but are you ready to dance like we're royalty?",
+
+	"DSV.Dialogue.FQC.NotHaleyQueen.Emily.IFD.Dating": "Haley had her first Flower Queen win when we were teenagers. I think it's a point of pride for her.#$b#Me? I just love dancing!$h",
+	
+// HARVEY QUEEN
+	"DSV.Dialogue.FQC.HarveyQueen.Harvey": "@, did you know that the flowers in the queen's crown are traditionally used for medicinal purposes?#$e#Don't mind me, I'm just trying to distract myself from thinking of the dance.$s",
+	
+// JAS QUEEN
+	"DSV.Dialogue.FQC.JasQueen.Jas": "Heehee, I'm the Flower Queen this year!$h",
+	
+// LEAH QUEEN
+	"DSV.Dialogue.FQC.LeahQueen.Leah": "Hi, @. Think I should paint a self-portrait of me as Flower Queen before I have to hand back the crown?$h",
+	
+// MARU QUEEN
+	"DSV.Dialogue.FQC.MaruQueen.Maru": "The Flower Queen's crown is pretty, but I wonder if I could make a reusable crown out of wire and metal leaves?#$e#Maybe with LEDs in the flowers...?",
+	
+// PENNY QUEEN
+	"DSV.Dialogue.FQC.PennyQueen.Penny": "I'm the Flower Queen this year...$l#$b#It's flattering, but also a little embarrassing.",
+	
+// SAM QUEEN
+	"DSV.Dialogue.FQC.SamQueen.Sam": "Flower Queen, yeah! Flower crowns are the best!$h#$b#Even if they do make my nose run like crazy...",
+	
+// SEBASTIAN QUEEN
+	"DSV.Dialogue.FQC.SebastianQueen.Sebastian": "Ugh, I want to burn this stupid crown. Who even voted for me as Flower Queen?$a",
+	
+// SHANE QUEEN
+	"DSV.Dialogue.FQC.ShaneQueen.Shane.Pre6": "This is a joke... Don't know why anyone would pick a washed-up loser like me as Flower Queen.$s",
+	"DSV.Dialogue.FQC.ShaneQueen.Shane.Post6": "Hey, @, as the Flower Queen, I command you to pass me one of those little pies.$h",
+	
+// VINCENT QUEEN
+	"DSV.Dialogue.FQC.VincentQueen.Vincent": "Yay, I'm the Flower Queen! Did you see my crown, @? It's so pretty!$h",
+
+	"DSV.Dialogue.FQC.VincentQueen.Sean": "Aww, I'm glad they chose Vincent this year! He looks so great in that crown.$h",
+	
+//
+///////////// DAILY DIALOGUE /////////////
+//
+
+// ABIGAIL DIALOGUE
+
+	"DSV.Dialogue.Daily.Abigail.ChineseFilipino.Thu4": "Ugh, Dad is making dinner tonight... I hope he doesn't try to make adobo again.$s#$b#He totally thinks he's good at it but he really, REALLY isn't...$s",
+	"DSV.Dialogue.Daily.Abigail.ChineseFilipino.Tue6": "Don't tell my dad this, but there are some vegetables we sell that I couldn't live without. Joja could never.",
+	"DSV.Dialogue.Daily.Abigail.ChineseFilipino.summer_Fri4": "Dad always says I need to eat or drink specific things to combat the heat, ugh.#$b#I'm not sure if they actually help, but at least they taste good.",
+	"DSV.Dialogue.Daily.Abigail.ChineseFilipino.summer_Mon8": "If we got married, I think my parents would appreciate a tea ceremony...$l#$b#That's just an if, of course!$7",
+	"DSV.Dialogue.Daily.Abigail.ChineseFilipino.fall_Mon6": "Have you ever seen a wuxia drama? I would love to fly through the air like those guys. It just seems so cool!$h",
+
+	"DSV.Dialogue.Daily.Abigail.ChineseFilipino.spring24": "Mom likes to keep our clothes pretty traditional, but I enjoy switching it up a bit gender-wise.",
+
+	"DSV.Dialogue.Daily.Abigail.ChineseFilipino.spring24.Y2.CanonFriendlyDialogue": "Can't we just have a flower dance without the dance? I don't mind wearing Lolo's barong.$u",
+
+	"DSV.Dialogue.Daily.Abigail.PlusSize.Tue": "If you want to make fun of my weight, go right ahead. Just keep in mind that I could crush you like a bug, though.$h",
+	"DSV.Dialogue.Daily.Abigail.PlusSize.summer_Thu2": "Dad is trying to push me into a diet, again. I keep telling him, they're all scams!$a",
+	"DSV.Dialogue.Daily.Abigail.PlusSize.fall_Sat6": "Our previous doctor really wanted to find something wrong with me so he could tell me to lose weight.#$b#Too bad for him, I'm as healthy as a horse!$h#$e#I'm still reserving judgment on Harvey, but he seems okay so far.$u", //&&Edit! Changed $h#$e to $h#$e#
+	"DSV.Dialogue.Daily.Abigail.PlusSize.winter_Tue4": "Why are bras so expensive? I shouldn't have to pay 6000$c for something that doesn't even deflect arrows!$a",
+
+	"DSV.Dialogue.Daily.Abigail.PlusSize.summer11": "I saw this video the other day of a girl who cracked a watermelon open with just her legs.#$b#Think the Governor would be impressed if I tried it?$h",
+	"DSV.Dialogue.Daily.Abigail.PlusSize.fall16": "Alex challenged me to the strength game, but just the once. I think he's still sore that he lost to a fat girl.$h",
+	"DSV.Dialogue.Daily.Abigail.PlusSize.winter8": "I don't mind the cold that much.#$b#I guess you could say I'm well-insulated.$h",
+
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.summer_Sat4": "It's good to have non-cis friends because they just... get it, y'know?",
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.fall_Tue4": "Mom and Dad took a bit to figure out everything with my pronouns, but they get it now. It's a huge relief to know they're on my side.$h",
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.winter_Wed2": "Sam and Seb use they/them for me most the time, and honestly? It feels so good.",
+
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.Introduction": "Oh, that's right... I heard someone new was moving onto that old farm.#$e#It's kind of a shame, really. I always enjoyed exploring those overgrown fields by myself.$9#$b#My name's Abigail. She/they pronouns, if you were wondering.",
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.Event_Grave3": "Why? I'm just as strong as you!$a#$b#I'm not some fragile princess... I can take care of myself!$a#$b#I've lived in the valley my whole life, but I've never really done anything memorable. I want to go on an adventure!$8",
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.patio_Abigail": "%Abigail is lost in their music.",
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.dating_Abigail": "%Abigail is blushing, but they look happy.", 
+
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.Tue4.CanonFriendlyDialogue": "Sometimes I wonder... are everyone's parents as out-of-touch as mine are?$s#$e#Seems like their idea of someone being adventurous is to try on a new shirt or something.$u",
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.Tue8.CanonFriendlyDialogue": "One of my online friends seems to get along so great with her parents.$s#$e#Is it normal for someone my age to feel like I'm perpetually stuck in those early teenage years?$s",
+
+	"DSV.Dialogue.Daily.Abigail.NonbinarySebastian.Bad_9": "I wonder if I could've done better... I was very good friends with Sebastian before we met. They were probably the one...$s",
+	"DSV.Dialogue.Daily.Abigail.NonbinarySebastian.Introduction": "Oh, that's right... I heard someone new was moving onto that old farm.#$e#It's kind of a shame, really. I always enjoyed exploring those overgrown fields by myself.$9#$b#My name's Abigail. She/her pronouns, if you were wondering.",
+	"DSV.Dialogue.Daily.Abigail.NonbinarySebastian.eventSeen_2_memory_oneday": "Sebastian mentioned that they heard strange music while having dinner the other night...#$e#I didn't tell them it was us! It seemed better to keep it a mystery.$h.", 
+	"DSV.Dialogue.Daily.Abigail.NonbinarySebastian.married_Sebastian": "Congratulations on the marriage. I guess this means Sebastian won't be moving to the city like they always talked about.$6#$b#That'll be nice. I'd be kind of sad if I never saw them again. We've always been good friends.$6", 
+
+	"DSV.Dialogue.Daily.Abigail.NonbinarySebastian.Thu2.CanonFriendlyDialogue": "Sebastian's basically my best friend. I don't know what I'd do without them.#$e#We pretty much grew up together.",
+	"DSV.Dialogue.Daily.Abigail.NonbinarySebastian.summer_Fri2.CanonFriendlyDialogue": "Sebastian's a few years older than I am, but they're one of the few people who actually gets me.",
+	"DSV.Dialogue.Daily.Abigail.NonbinarySebastian.fall_Tue2.CanonFriendlyDialogue": "Sebastian's basically my best friend. I don't know what I'd do without them.#$e#We pretty much grew up together.",
+	"DSV.Dialogue.Daily.Abigail.NonbinarySebastian.fall_Thu4.CanonFriendlyDialogue": "Sebastian's a few years older than I am, but they're one of the few people who actually gets me.#$e#Well, and you and Sam sort of do, too.$h",
+
+	"DSV.Dialogue.Daily.Abigail.NonbinarySebastian.FlowerDance.ImmersiveFestivalDialogue": "Sometimes I feel like Sebastian only asks me to dance because they feel sorry for me...$s#$b#Ugh, this is so LAME.$u#$b#Hey, would you dance with me?$6",
+	
+	"DSV.Dialogue.Daily.Abigail.Nonbinary.RSVSBVStall": "Break the binary, break the competition! Yeah!!$h#$e#@, if you see some sabotage of the boys' stall happening later, no you didn't. Okay?$h", 
+
+// ALEX DIALOGUE
+
+	"DSV.Dialogue.Daily.Alex.Jewish.fall_Fri4": "Fridays are great. My bubbe and me make the best challah.$h",
+	"DSV.Dialogue.Daily.Alex.Jewish.summer_Fri8": "It's my mother's yahrzeit soon. I don't know how I'm supposed to feel.$s",
+	"DSV.Dialogue.Daily.Alex.Jewish.fall_Sun2": "We have so many holidays coming up, I can never keep them straight.",
+
+	"DSV.Dialogue.Daily.Alex.SamoanEvelyn.Fall_Mon": "My tinä told me I should spend more time studying.#$e#I was like, '...tinä, don't fret. I'm turning pro!'$h#$e#Studying is for nerds, anyway.",
+	"DSV.Dialogue.Daily.Alex.SamoanEvelyn.Part1.Fri4": "Hey, @. I'm glad you stopped by.#e#I'm not ashamed to say that I love my tinä!#$e",
+	"DSV.Dialogue.Daily.Alex.SamoanGeorge.Part2.Fri4": "Now Tamä, on the other hand...#$e#Just kidding.$h",
+	"DSV.Dialogue.Daily.Alex.SamoanGeorge.Fall_26": "I hope my grandparents are doing okay. Tamä's too cheap to turn on the furnace until the last minute.",
+
+	"DSV.Dialogue.Daily.Alex.MexicanEvelyn.Fall_Mon": "My abuela told me I should spend more time studying.#$e#I was like, '...Abuela, don't fret. I'm turning pro!'$h#$e#Studying is for nerds, anyway.",
+	"DSV.Dialogue.Daily.Alex.MexicanEvelyn.Part1.Fri4": "Hey, @. I'm glad you stopped by.#e#I'm not ashamed to say that I love my abuela!#$e#",
+	"DSV.Dialogue.Daily.Alex.MexicanGeorge.Part2.Fri4": "Hey, @. I'm glad you stopped by.#e#I'm not ashamed to say that I love my tinä!#$e#Now Abuelo, on the other hand...#$e#Just kidding.$h",
+	"DSV.Dialogue.Daily.Alex.MexicanGeorge.Fall_26": "I hope my grandparents are doing okay. Abuelo's too cheap to turn on the furnace until the last minute.",
+
+	"DSV.Dialogue.Daily.Alex.VanillaEvelyn.Part1.Fri4": "Hey, @. I'm glad you stopped by.#e#I'm not ashamed to say that I love my grandma!#$e",
+	"DSV.Dialogue.Daily.Alex.VanillaGeorge.Part2.Fri4": "Now Gramps, on the other hand...#$e#Just kidding.$h",
+
+	"DSV.Dialogue.Daily.Alex.VanillaJewish.Fall_Mon": "My bubbe told me I should spend more time studying.#$e#I was like, '...Bubbe, don't fret. I'm turning pro!'$h#$e#Studying is for nerds, anyway.",
+	"DSV.Dialogue.Daily.Alex.VanillaJewish.Fri4": "Hey, @. I'm glad you stopped by.#e#I'm not ashamed to say that I love my bubbe!#$eNow Zayde, on the other hand...#$e#Just kidding.$h",
+	"DSV.Dialogue.Daily.Alex.VanillaJewish.Fall_26": "I hope my grandparents are doing okay. Zayde's too cheap to turn on the furnace until the last minute.",
+
+	"DSV.Dialogue.Daily.Alex.SamoanEvelyn.Sat4.CanonFriendlyDialogue": "Tinä keeps complaining I take up too much space in the freezer with all of my ice cube trays.#$b#But I mean, how else am I supposed to have enough ice to take ice baths?",
+	"DSV.Dialogue.Daily.Alex.SamoanEvelyn.fall_Mon4.CanonFriendlyDialogue": "Tinä told me I should spend more time studying.#$e#Maybe she's right...$s",
+	"DSV.Dialogue.Daily.Alex.SamoanGeorge.fall_Sun6.CanonFriendlyDialogue": "Hey, @, if Tamä won't get off the freakin' TV, is it alright if I just sprint over to your house to watch the game?#$e#What kind of TV do you have, anyway?",
+	"DSV.Dialogue.Daily.Alex.SamoanEvelyn.winter_Wed10.CanonFriendlyDialogue": "I finished reading this book that Tinä said was my mom's favorite.#$b#It was about these two teenagers who travel through time and change history.#$b#So weird. I had no idea my mom was into that stuff.",
+
+	"DSV.Dialogue.Daily.Alex.Married.SamoanEvelyn.Part1.funLeave_Alex.CanonFriendlyDialogue": "#$c .5#I'm going into town today. I'll see you tonight.#It's about time I owe a visit to Tinä",
+	"DSV.Dialogue.Daily.Alex.Married.SamoanGeorge.Part2.funLeave_Alex.CanonFriendlyDialogue": " and Tamä. That's where I'll be, so drop in if you get a chance!",
+	"DSV.Dialogue.Daily.Alex.Married.SamoanGeorge.spring_15.CanonFriendlyDialogue": "When I visit Tamä today, I wonder if I can get him to watch something good with me.#$b#Like... Sports Report! I don't wanna miss a minute of the gridball draft.$h",
+
+	"DSV.Dialogue.Daily.Alex.MexicanEvelyn.Sat4.CanonFriendlyDialogue": "Abuela keeps complaining I take up too much space in the freezer with all of my ice cube trays.#$b#But I mean, how else am I supposed to have enough ice to take ice baths?",
+	"DSV.Dialogue.Daily.Alex.MexicanEvelyn.fall_Mon4.CanonFriendlyDialogue": "Abuela told me I should spend more time studying.#$e#Maybe she's right...$s",
+	"DSV.Dialogue.Daily.Alex.MexicanGeorge.fall_Sun6.CanonFriendlyDialogue": "Hey, @, if Abuelo won't get off the freakin' TV, is it alright if I just sprint over to your house to watch the game?#$e#What kind of TV do you have, anyway?",
+	"DSV.Dialogue.Daily.Alex.MexicanEvelyn.winter_Wed10.CanonFriendlyDialogue": "I finished reading this book that Abuela said was my mom's favorite.#$b#It was about these two teenagers who travel through time and change history.#$b#So weird. I had no idea my mom was into that stuff.",
+
+	"DSV.Dialogue.Daily.Alex.Married.MexicanEvelyn.Part1.funLeave_Alex.CanonFriendlyDialogue": "#$c .5#I'm going into town today. I'll see you tonight.#It's about time I owe a visit to Abuela",
+	"DSV.Dialogue.Daily.Alex.Married.MexicanGeorge.Part2.funLeave_Alex.CanonFriendlyDialogue": " and Abuelo. That's where I'll be, so drop in if you get a chance!",
+	"DSV.Dialogue.Daily.Alex.Married.MexicanGeorge.spring_15.CanonFriendlyDialogue": "When I visit Abuelo today, I wonder if I can get him to watch something good with me.#$b#Like... Sports Report! I don't wanna miss a minute of the gridball draft.$h",
+
+	"DSV.Dialogue.Daily.Alex.Married.VanillaEvelyn.Part1.funLeave_Alex.CanonFriendlyDialogue": "#$c .5#I'm going into town today. I'll see you tonight.#It's about time I owe a visit to Grandma",
+	"DSV.Dialogue.Daily.Alex.Married.VanillaGeorge.Part2.funLeave_Alex.CanonFriendlyDialogue": " and Grandpa. That's where I'll be, so drop in if you get a chance!",
+
+	"DSV.Dialogue.Daily.Alex.VanillaJewish.Sat4.CanonFriendlyDialogue": "Bubbe keeps complaining I take up too much space in the freezer with all of my ice cube trays.#$b#But I mean, how else am I supposed to have enough ice to take ice baths?",
+	"DSV.Dialogue.Daily.Alex.VanillaJewish.fall_Mon4.CanonFriendlyDialogue": "Bubbe told me I should spend more time studying.#$e#Maybe she's right...$s",
+	"DSV.Dialogue.Daily.Alex.VanillaJewish.fall_Sun6.CanonFriendlyDialogue": "Hey, @, if Zayde won't get off the freakin' TV, is it alright if I just sprint over to your house to watch the game?#$e#What kind of TV do you have, anyway?",
+	"DSV.Dialogue.Daily.Alex.VanillaJewish.winter_Wed10.CanonFriendlyDialogue": "I finished reading this book that Bubbe said was my mom's favorite.#$b#It was about these two teenagers who travel through time and change history.#$b#So weird. I had no idea my mom was into that stuff.",
+
+	"DSV.Dialogue.Daily.Alex.Married.VanillaJewish.funLeave_Alex.CanonFriendlyDialogue": "#$c .5#I'm going into town today. I'll see you tonight.#It's about time I owe a visit to Bubbe and Zayde. That's where I'll be, so drop in if you get a chance!",
+	"DSV.Dialogue.Daily.Alex.Married.VanillaJewish.spring_15.CanonFriendlyDialogue": "When I visit Zayde today, I wonder if I can get him to watch something good with me.#$b#Like... Sports Report! I don't wanna miss a minute of the gridball draft.$h",
+
+	"DSV.Dialogue.Daily.Alex.JericRSV.Part1.Thu8": "It took Seb a good while to finally warm up to me.$h#$b#He can be very shy around people he doesn't know.#$e#He's a good person, though.$h#$b#Don't let his shyness put you off, okay?$h",
+	"DSV.Dialogue.Daily.Alex.MexicanEvelyn.JericRSV.Part2.Thu8": "Hmm, maybe when I go visit Mr and Mrs Muñoz I can pick up some spaghetti from the saloon on the way back.#$e#Pika's a genius in the kitchen but Gus really knows his pasta!$h",
+	"DSV.Dialogue.Daily.Alex.SamoanEvelyn.JericRSV.Part2.Thu8": "Hmm, maybe when I go visit Mr and Mrs Muliaina I can pick up some spaghetti from the saloon on the way back.#$e#Pika's a genius in the kitchen but Gus really knows his pasta!$h",
+
+	"DSV.Dialogue.Daily.Alex.Jaemin.MexicanGeorge.Resort_Left_JoshHouse_GeorgeFamily": "That was fun! Even Abuelo enjoyed himself today.$h#$e#Nobody can be grumpy at a beautiful beach like that.",
+	"DSV.Dialogue.Daily.Alex.Jaemin.SamoanGeorge.Resort_Left_JoshHouse_GeorgeFamily": "That was fun! Even Tamä enjoyed himself today.$h#$e#Nobody can be grumpy at a beautiful beach like that.",
+	"DSV.Dialogue.Daily.Alex.Jaemin.VanillaJewish.Resort_Left_JoshHouse_GeorgeFamily": "That was fun! Even Zayde enjoyed himself today.$h#$e#Nobody can be grumpy at a beautiful beach like that.",
+
+// CAROLINE DIALOGUE
+
+	"DSV.Dialogue.Daily.Caroline.Filipino.summer_Mon4": "Abigail loves wuxia, but I wish she would practice her martial arts moves outside instead of indoors.#$b#She almost knocked over my favourite vase!$a",
+	"DSV.Dialogue.Daily.Caroline.Filipino.winter_Sat": "Don't you think Abby would look better with her natural hair color?#$e#She used to have black hair.",
+
+	"DSV.Dialogue.Daily.Caroline.Filipino.NonbinaryAbigail.summer_Mon4": "Abigail loves wuxia, but I wish they would practice their martial arts moves outside instead of indoors.#$b#They almost knocked over my favourite vase!$a",
+	"DSV.Dialogue.Daily.Caroline.Filipino.NonbinaryAbigail.winter_Sat": "Don't you think Abby would look better with their natural hair color?#$e#They used to have black hair.",
+
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Thu4": "I admit it took us some time to adjust when Abigail came out to us. Pierre and I hadn't really known much about nonbinary people at the time.#$b#I like to think that we do an okay job of remembering Abby's pronouns now, though.$h",
+
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Introduction": "Hello! You must be @, the new farmer. I'm Caroline.#$e#My husband runs the general store here. And have you met my child, Abigail? They're the pale one with the purple hair.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Mon": "I wish Abby wouldn't spend so much time in their room.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Sat_inlaw_Abigail": "Dinner's been a lot quieter since Abigail moved out...#$e#No, not because they used to chew with their mouth open!$h",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Sat2": "Abby's always had a strange interest in the occult. I'm not sure where they get it from...",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Sat4": "Abby's always had a strange interest in the occult. I'm not sure where they get it from...",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.summer_Sat": "Is it just me, or does Abigail look a little pale?#$e#Maybe I'm just worrying about them too much.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.summer_Sat_inlaw_Abigail": "How's Abigail's health? They've always been so pale. Hopefully the farm lifestyle puts a little color in their cheeks.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Mon": "Fall is Abby's favorite season, so I'm hoping they'll come out of their room more often.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Mon_inlaw_Abigail": "Abby was taking online classes here, but I don't think their heart was really in it...#$e#They're a free spirit, like I was before I met Pierre. They're probably having the time of their life on your farm.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.winter_Sat": "Don't you think Abby would look better with their natural hair color?#$e#They used to have light chestnut-colored hair.",
+	
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Mon2.CanonFriendlyDialogue":"Was Abby polite the last time you saw them?#$e#Usually, they're polite to others, but they do have the occasional outburst. I hope they've been good to you.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Mon4.CanonFriendlyDialogue":"Abby's actually pretty musically talented, but they've never stuck with one instrument for too long.#$b#Have you ever heard them play anything?",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Mon6.CanonFriendlyDialogue":"Abby and I keep fighting. I really wish they'd understand that I know more than they think.$3#$e#Sorry, I hope your day is going well.", //&&Edit! Changed $3#$e$ to $3#$e#
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Fri4.CanonFriendlyDialogue":"Abby goes to the saloon with a couple of their friends on Friday nights. Maybe you could join them?",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Sat6.CanonFriendlyDialogue":"I thought I'd set a good example for Abigail with the aerobics classes I host, but if anything, it just seems like it pushed them away from wanting to exercise.#$e#I guess I shouldn't be surprised.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.summer_Sat6.CanonFriendlyDialogue":"Sorry if Abby's ever said anything that made you feel awkward.#$b#I wonder if they could have learned better social skills if they'd gotten outside a bit more.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Mon10.CanonFriendlyDialogue":"I hope Abby doesn't make the same mistakes I made when I was their age...$s#$e#Uhm, I mean, looks like we've got another exercise class tomorrow! I'll see you around?",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Sat6.CanonFriendlyDialogue":"Abby's always had a strange interest in the occult. I'm not sure where they get it from...",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.winter_Wed10.CanonFriendlyDialogue": "Ugh, Abby needs to clean their guinea pig's cage. I can smell the fumes from halfway across the house.$s#$e#Can you nag them about it for me? Phew, thanks.",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.winter_Fri6.CanonFriendlyDialogue": "Don't you think Abby would look better with their natural hair color?#$e#They used to have light chestnut-colored hair.",
+	
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.spring24.CanonFriendlyDialogue": "Abby needs to learn that a little dance once a year is far from anything that will kill them.#$e#I think they're more insecure than they realize, and there's only one way to fix that!",
+	"DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall27.CanonFriendlyDialogue": "Um, if you see Abby in the maze, can you tell them not to miss dinner? They've got some of their favorites here...",
+	
+	"DSV.Dialogue.Daily.Caroline.TransSam.Tue6.CanonFriendlyDialogue":"I'm still amazed with how Jodi went back for round two, raising another child. Especially when Sam turned out to be a boy as well!#$b#I remember he was quite a handful when he was younger, before he figured things out.$h#$e#It was 'one and done' for Pierre and me. That was our plan from the get-go.",
+
+// CLINT DIALOGUE
+
+	"DSV.Dialogue.Daily.Clint.Blind.Thu2": "Sorry, I don't like talking about why I'm blind.", 
+	"DSV.Dialogue.Daily.Clint.Blind.summer_wed2": "Lots of people are surprised I can work as a blacksmith with my eyesight.#$b#But I can feel if something's not joined right even if I can't see it.",
+	"DSV.Dialogue.Daily.Clint.Blind.summer_Fri4": "I hit another rock with my cane the other day...$s#$b#The paths around here being made of dirt makes it hard for me to get around some days since my cane doesn't move smoothly.$s",
+	"DSV.Dialogue.Daily.Clint.Blind.fall_Thu4": "I'm not completely blind, you know. I can see general shapes and I can see the difference between bright areas and dark areas.",
+	"DSV.Dialogue.Daily.Clint.Blind.winter_Tue4": "Darn it, this snow makes it so difficult to get around with my cane. Can't Lewis get someone to clear it?$a",
+	"DSV.Dialogue.Daily.Clint.Blind.Marigold.Fall_Sat6": "Do you think it would help if I had a guide dog like that man near the carpenter shop?#$b#I thought about it earlier, but I don't think the dog would do well in the forge.", 
+	"DSV.Dialogue.Daily.Clint.Blind.winter_Mon8.True": "Are you still wondering about what happened to my eyes? I guess I can tell you now.#$b#I was born with an eye disease, so my sight started disappearing when I was a baby.#$b#I didn't lose all of it, but I lost enough that I couldn't study properly and I dropped out of high school.$s#$b#It didn't change much though. I knew I'd be taking on the family business anyway.#$e#Huh? The scar? That's unrelated. I was leaning too close to the forge and a big ember caught me in the face.",
+	"DSV.Dialogue.Daily.Clint.Blind.winter_Mon8.False": "Are you still wondering about what happened to my eyes? I guess I can tell you now.#$b#I was born with an eye disease, so my sight started disappearing when I was a baby.#$b#I didn't lose all of it, but I lost enough that I couldn't study properly and I dropped out of high school.$s#$b#It didn't change much though. I knew I'd be taking on the family business anyway.", 
+
+// DEMETRIUS DIALOGUE
+
+	"DSV.Dialogue.Daily.Demetrius.Albino.Wed2": "Yes, I have albinism. If you're curious about it, I can tell you quite a lot.",
+	"DSV.Dialogue.Daily.Demetrius.Albino.Sun4": "Not a lot of people realize that albinism usually causes more problems in the eyes than with the skin.",
+	"DSV.Dialogue.Daily.Demetrius.Albino.summer_Sat2": "I don't mind questions about my albinism.  I think education and greater awareness makes things better for all.",
+	"DSV.Dialogue.Daily.Demetrius.Albino.summer_Wed4": "The hot weather in summer always puts me in the mood to do field research, but I have to be even more careful to cover up. The sun's rays can be intense.",
+	"DSV.Dialogue.Daily.Demetrius.Albino.fall_Mon4": "My albinism is partly why I became a scientist.  I wanted to know what caused it, and that turned into a study of biology.",
+	"DSV.Dialogue.Daily.Demetrius.Albino.fall_Wed6": "We just put in some new filters in the lights to decrease the luminosity here in the lab. It's much easier on my photophobia.",
+	"DSV.Dialogue.Daily.Demetrius.Albino.winter_Thu4": "Winter is a difficult season for me.  We don't see as much sunlight, but snow has such high albedo that it can cause damage without even being noticed. Make sure you protect your eyes this season, @.",
+	"DSV.Dialogue.Daily.Demetrius.Albino.winter_Sun6": "Have you heard of strabismus? It's quite common in albinistic children. When I was younger, I wore glasses for it, but now I can wear contacts.",
+
+	"DSV.Dialogue.Daily.Demetrius.Albino.summer28": "Many wild animals can be albino, but they usually don't live long. Thanks to the curiosity of humans, though, such animals can be kept in zoos or preserves and live healthy lives.",
+	"DSV.Dialogue.Daily.Demetrius.Albino.winter25": "Sebastian got me a spotlight reading lamp for Winter Star. I didn't realize he knew how useful it would be.$h",
+	"DSV.Dialogue.Daily.Demetrius.Albino.winter25.SWS": "Sebastian got me a spotlight reading lamp recently. I didn't realize he knew how useful it would be.$h",
+
+	"DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.winter_Wed8": "Did you know that on an anthropological level, cultures across the world have expressed gender in a multitude of ways?#$b#On a biological level too, the body's genetics are much more varied than the simple two-sex model that many people learn about in school.#$e#On a personal level though, it is harder than you might think to update your mental image for someone you've known for a long time.#$b#I try, but I often still default to 'he' for Sebastian.$s",
+
+	"DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.Sun6.CanonFriendlyDialogue":"For Sebastian, I left most of the parenting to Robin.#$e#Even today, it's usually best to stay out of their way and let Robin handle things with them.",
+	"DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.Sun_inlaw_Sebastian.CanonFriendlyDialogue":"It's such a relief that Sebastian's finally moved out. I did always think you were a good match for them.$h",
+	"DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.Sun8.CanonFriendlyDialogue": "Sebastian always seems bored by just about every aspect of my work.$s#$e#Computer science is a science, though. I've always tried to bond with them over that, but there's still a bit of a divide between us.#$e#The books I've read say that's to be expected.",
+	"DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.Sun10.CanonFriendlyDialogue": "Between you and me, I really thought that Sebastian would have moved out by now.$s#$e#He's -- sorry, they're -- even older than I was when I first met Robin...$s#$e#As long as they work and pays their rent, though...",
+
+// ELLIOTT DIALOGUE
+
+	"DSV.Dialogue.Daily.Elliott.Black.Mon8": "'I am, in other words, invested in troubling he-ness. I want to complicate, expand, and change it by being inside it.'$h#$b#@, have you ever come across a line of poetry that just dives into the depths of your heart and grips it tight?$l#$e#It took my breath away when I first read his work. I couldn't breathe for the feeling of being known.$l",
+	"DSV.Dialogue.Daily.Elliott.Black.fall_Tue6": "Let's see, how did that poem go again? 'A poem is a gesture toward home...'#$b#I can't remember if that's the last line or the first.",
+	"DSV.Dialogue.Daily.Elliott.Black.winter_Sat8": "Another Black writer once wrote, 'poetry is the way we help give name to the nameless so it can be thought.'#$b#Oh @, I can only hope to do the same in my writing.$l",
+
+	"DSV.Dialogue.Daily.Elliott.Black.Summer_Sat": "The sun is angry today... My skin is a bit too delicate, I'm afraid. It dries out so easily.",
+	"DSV.Dialogue.Daily.Elliott.Black.Winter_Fri": "I have to retwist my locs daily, or else they'll clump up into messy knots.#$e#It's a lot of work.#$e#I'm surprised I haven't just shaved it off in a fit of passion.$h#$e#I suppose I am too vain.",
+
+	"DSV.Dialogue.Daily.Elliott.Black.Married.Rainy_Day_3": "I think I'll remain indoors today, my dear. I dare not risk getting mold in my locs should they get wet.$8",
+
+	"DSV.Dialogue.Daily.Elliott.Black.Married.Rainy_Day_3.CanonFriendlyDialogue": "#$c .5#I think I'll remain indoors today, my dear. I dare not risk getting mold in my locs should they get wet.#Goodness! I'm in constant admiration at how you boldly venture outside on these days, yet it never dampens your spirit.",
+
+	"DSV.Dialogue.Daily.Elliott.Black.Married.14Heart": "Don't let me forget my hairbrush, my hairspray, my silk hair cap, and my pomegranate conditioner!",
+	
+	"DSV.Dialogue.Daily.Elliott.Jewish.spring_Wed6": "Shavuot is my favourite holiday. I'm giving a talk on religious poetry at the all night learning this year.$h",
+	"DSV.Dialogue.Daily.Elliott.Jewish.summer_Mon2": "Oh hello, I didn't see you there, @.#$b#I've been studying Kabbalah, and it's all I can think about.",
+	"DSV.Dialogue.Daily.Elliott.Jewish.winter_Thu4": "I read the most wonderful poem in the Siddur commentary this morning! Oh, what was it...#$e#It'll come back to me later, I'm sure.",
+
+	"DSV.Dialogue.Daily.Elliott.Jewish.Introduction": "Ah, shalom! You must be the new farmer we've all been expecting... and whose arrival has sparked many a conversation!#$b#I'm Elliott... I live in the little cabin by the beach. It's a pleasure to meet you.",
+	"DSV.Dialogue.Daily.Elliott.Jewish.event_toast1": "Well...okay.#$b#L'chaim! Here's to @!",
+	"DSV.Dialogue.Daily.Elliott.Jewish.event_toast2": "That's a great idea! L'chaim!$h#$b#Here's to us!",
+
+// EMILY DIALOGUE
+
+	"DSV.Dialogue.Daily.Emily.Nonbinary.Sun8": "Recently Haley's been using varied pronouns for me more often. I know she can be abrasive, but it makes me so happy to see how she's thinking of me.$l",
+	"DSV.Dialogue.Daily.Emily.Nonbinary.summer_Wed6": "Have you ever been to a Pride event, @?$b#They're so energizing, even if you're just an ally! Let me know if you want to come to one with me.$h",
+	"DSV.Dialogue.Daily.Emily.Nonbinary.fall_Wed4": "I once was cleaning under the cash register and found a tally sheet Gus keeps to keep track of how often he used different pronouns for me.$h#$b#Do you do that too, @?",
+	"DSV.Dialogue.Daily.Emily.Nonbinary.winter_Mon6": "For my pronouns, I really am happy with anything! I'm me no matter how people see me.#$b#I think gender is like dancing. What's important isn't the audience, it's how you follow your heart and express yourself.$h",
+
+	"DSV.Dialogue.Daily.Emily.Nonbinary.Introduction": "Ooh!... I can read it on your face. You're going to love it here in Pelican Town.#$b#If you're ever looking for something to do in the evening, stop by the saloon. That's where I work!#$b#What pronouns do you use? I use all of them. I find it a good habit to ask!$h",
+	"DSV.Dialogue.Daily.Emily.Nonbinary.dating_Emily": "%Emily has a big smile on their face.", 
+
+	"DSV.Dialogue.Daily.Emily.Nonbinary.SpiritsEve.ImmersiveFestivalDialogue": "I just love Spirit's Eve! What a fun time to be creative and play around with costumes!$h#$b#I've always made my own costumes. When I was a child, my dad helped me.$n",
+
+	"DSV.Dialogue.Daily.Emily.Nonbinary.RSVSBVStall": "I love events like this! I've handed out so many rainbow pronoun stickers.$h#$b#Would you like one too, @? Or several?$h", 
+
+	"DSV.Dialogue.Daily.Emily.Romani.fall_Thu6": "I love using floral motifs in my designs when I can. I find it a beautiful way of blending our traditions with modern fashion.#$b#Some day I'd love to create a line of floral dance dresses.$h",
+
+	"DSV.Dialogue.Daily.Emily.Black.fall_Thu6": "I love using kente cloth in my designs when I can. Every pattern is so unique and it's a wonderful challenge matching the right garment with the right fabric.#$b#Some day I'd love to create my own pattern.$h",
+
+	"DSV.Dialogue.Daily.Emily.HoHHaley.summer_Mon2": "Please don't take it personally if it seems like Haley is ignoring you.$3#$b#Sometimes sounds just get too much for her and she turns off her hearing aids.$3",
+	"DSV.Dialogue.Daily.Emily.HoHHaley.fall_Tue6": "@, if you ever need to brush up on your sign language, you're welcome to practise with me!$h#$b#Haley and I learned it together when she was a child. We're as comfortable speaking together in sign as we are out loud.$h",
+	"DSV.Dialogue.Daily.Emily.HoHHaley.winter_Sun4": "When we were kids, Haley and I used to dance together by putting our old boombox on the floor and turning it up loud enough that the floorboards would vibrate.$h#$b#That way Haley could feel the music too.$h",
+
+	"DSV.Dialogue.Daily.Emily.TurkishGus.SpiritsEve.ImmersiveFestivalDialogue": "It's fun to do something at night other than working at Gus's.$h#$b#Don't get me wrong, I do love my job!$n#$b#I'm just happy I get to spend time with my friends outside of work, too!$n#$b#Don't forget to try the pomegranate şerbet - Gus' specialty!$h",
+
+// EVELYN DIALOGUE
+
+	"DSV.Dialogue.Daily.Evelyn.Jewish.summer_Fri2": "Hello, dear! I always make fresh challah with Alex on Fridays.#$b#It's a traditional recipe passed down to me from my grandmother. One day I hope Alex will pass it to his grandchildren as well.",
+	"DSV.Dialogue.Daily.Evelyn.Jewish.winter_Wed4": "Oh dear, am I short on potatoes again...?$s#$b#I try to put aside the best ones for making latkes, but Alex sometimes forgets and eats them after his training.#$b#I'll have to see if Pierre has any next time I go shopping.",
+	"DSV.Dialogue.Daily.Evelyn.Jewish.summer_Sat6": "When George and I were newly married, I was so proud to wear my tichel every day.$h#$b#Nowadays wrapping it makes my hands ache so I only wear it for Shabbat prayers, but it's still a beautiful feeling.$h",
+
+	"DSV.Dialogue.Daily.Evelyn.Jewish.Fri4.CanonFriendlyDialogue": "George and I always head to the community altar on Saturdays.#$b#Traditions like this are the only things that can get him to do anything good for him.",
+
+	"DSV.Dialogue.Daily.Evelyn.Samoan.spring_Thu": "Today I'm making panikeke. They're best eaten when they're fresh and hot!$h#$e#Maybe I'll tell you my recipe one of these days.",
+	"DSV.Dialogue.Daily.Evelyn.Samoan.summer_Thu": "I'm going to make paifala today. The sweet pineapple filling is perfect for summer!$h#$e#Maybe I'll tell you my recipe one of these days.",
+	"DSV.Dialogue.Daily.Evelyn.Samoan.fall_Thu": "I'll be making fa'ausi today. I like to make it with pumpkin fa'apapa in fall.$h#$e#Maybe I'll tell you my recipe one of these days.",
+	"DSV.Dialogue.Daily.Evelyn.Samoan.winter_Thu": "I'll be making pagipopo today. I always make a big pot of koko to go with it.$h#$e#Maybe I'll tell you my recipe one of these days.",
+
+	"DSV.Dialogue.Daily.Evelyn.Samoan.Introduction": "Why, hello and welcome to our little community, dear! #$b#You can call me 'tinä' if you like.$h",
+	"DSV.Dialogue.Daily.Evelyn.Samoan.FayeRSV.Fri6": "Sometimes, I feel a bit anxious that I haven't already become a successful adult and achieved my dreams. But that's nothing a nice batch of Mrs. Muliaina's cookies can't fix.",
+	"DSV.Dialogue.Daily.Evelyn.Samoan.SecretNote5": "It's Penny's handwriting:^^I want to get everyone something they love!^^Mom: Parsnip, Glazed Yams, NO BEER!^Jas: Fairy Rose, Plum Pudding^Vincent: Pink Cake, Grape^Mr. Muliaina: Leek, Fried Mushroom^Granny Muliaina: Beet, Tulip%revealtastePam24%revealtastePam208%revealtastePam346%revealtasteJas595%revealtasteJas604%revealtasteVincent398%revealtasteVincent221%revealtasteGeorge20%revealtasteGeorge205%revealtasteEvelyn284%revealtasteEvelyn591",
+
+	"DSV.Dialogue.Daily.Evelyn.Mexican.spring_Thu": "Today I'm making sopapillas. They're best eaten when they're fresh and hot!$h#$e#Maybe I'll tell you my recipe one of these days.",
+	"DSV.Dialogue.Daily.Evelyn.Mexican.summer_Thu": "I'm going to make melon paletas today. I have a set of palm tree-shaped molds for them!$h#$e#Maybe I'll tell you my recipe one of these days.",
+	"DSV.Dialogue.Daily.Evelyn.Mexican.fall_Thu": "I'll be baking conchas today. I like to make them with a little cinnamon.$h#$e#Maybe I'll tell you my recipe one of these days.",
+	"DSV.Dialogue.Daily.Evelyn.Mexican.winter_Thu": "I'll be making buñuelos today. It's traditional to make them when the weather turns cold like this.$h#$e#Maybe I'll tell you my recipe one of these days.",
+
+	"DSV.Dialogue.Daily.Evelyn.Mexican.Introduction": "Why, hello and welcome to our little community, dear! #$b#You can call me 'abuela' if you like.$h",
+	"DSV.Dialogue.Daily.Evelyn.Mexican.FayeRSV.Fri6": "Sometimes, I feel a bit anxious that I haven't already become a successful adult and achieved my dreams. But that's nothing a nice batch of Mrs. Muñoz's cookies can't fix.",
+	"DSV.Dialogue.Daily.Evelyn.Mexican.SecretNote5": "It's Penny's handwriting:^^I want to get everyone something they love!^^Mom: Parsnip, Glazed Yams, NO BEER!^Jas: Fairy Rose, Plum Pudding^Vincent: Pink Cake, Grape^Mr. Muñoz: Leek, Fried Mushroom^Granny Muñoz: Beet, Tulip%revealtastePam24%revealtastePam208%revealtastePam346%revealtasteJas595%revealtasteJas604%revealtasteVincent398%revealtasteVincent221%revealtasteGeorge20%revealtasteGeorge205%revealtasteEvelyn284%revealtasteEvelyn591",	
+
+	"DSV.Dialogue.Daily.Evelyn.Samoan.spring_Thu4.CanonFriendlyDialogue": "Today I'm making panikeke. They're best eaten when they're fresh and hot!$h#$e#Have you tried a little baking yet, dear?",
+	"DSV.Dialogue.Daily.Evelyn.Samoan.summer_Thu4.CanonFriendlyDialogue": "I'm going to make paifala today. The sweet pineapple filling is perfect for summer!$h#$e#Have you tried a little baking yet, dear?",
+	"DSV.Dialogue.Daily.Evelyn.Samoan.fall_Thu4.CanonFriendlyDialogue": "I'll be making fa'ausi today. I like to make it with pumpkin fa'apapa in fall.$h#$e#Have you tried a little baking yet, dear?",
+	"DSV.Dialogue.Daily.Evelyn.Samoan.winter_Thu4.CanonFriendlyDialogue": "I'll be making pagipopo today. I always make a big pot of koko to go with it.$h#$e#Have you tried a little baking yet, dear?",
+
+	"DSV.Dialogue.Daily.Evelyn.Mexican.spring_Thu4.CanonFriendlyDialogue": "Today I'm making sopapillas. They're best eaten when they're fresh and hot!$h#$e#Have you tried a little baking yet, dear?",
+	"DSV.Dialogue.Daily.Evelyn.Mexican.summer_Thu4.CanonFriendlyDialogue": "I'm going to make melon paletas today. I have a set of palm tree-shaped molds for them!$h#$e#Have you tried a little baking yet, dear?",
+	"DSV.Dialogue.Daily.Evelyn.Mexican.fall_Thu4.CanonFriendlyDialogue": "I'll be baking conchas today. I like to make them with a little cinnamon.$h#$e#Have you tried a little baking yet, dear?",
+	"DSV.Dialogue.Daily.Evelyn.Mexican.winter_Thu4.CanonFriendlyDialogue": "I'll be making buñuelos today. It's traditional to make them when the weather turns cold like this.$h#$e#Have you tried a little baking yet, dear?",
+
+	"DSV.Dialogue.Daily.Evelyn.Modded.Thu8.CanonFriendlyDialogue": "It's baking day again. If we wind up with leftovers, I'll be sure to send you some in the mail.",
+	"DSV.Dialogue.Daily.Evelyn.Modded.summer_Thu6.CanonFriendlyDialogue":"It seems like we always have more visitors when I start baking.#$e#My parents taught me all their recipes.",
+
+// GEORGE DIALOGUE
+
+	"DSV.Dialogue.Daily.George.Samoan.SecretNote12": "I've found some good things by looking in the garbage cans, on lucky days.^^Sometimes you'll find the 'dish of the day' behind the saloon... usually fresh!^^For dessert, I'll check the Muliainas' can for cookies.^^For treasures, check the cans by the blacksmith and museum.", 
+
+	"DSV.Dialogue.Daily.George.Mexican.SecretNote12": "I've found some good things by looking in the garbage cans, on lucky days.^^Sometimes you'll find the 'dish of the day' behind the saloon... usually fresh!^^For dessert, I'll check the Muñoz family's can for cookies.^^For treasures, check the cans by the blacksmith and museum.", 
+
+	"DSV.Dialogue.Daily.George.Jewish.Sun10.CanonFriendlyDialogue": "I didn't spend much time praying till recently.#$b#For a while, I was too furious for belief, what with me losing everything I had.#$e#I have a kernel of faith that there's something better for me after this old body's ticker runs out.#$b#It's not much, but what's an old man like me to do?$s",
+	"DSV.Dialogue.Daily.George.Jewish.fall_Sat10.CanonFriendlyDialogue": "Today's an altar day for me an' Evelyn. The way things used to be, you'd see half the town showing up at the community altar each weekend.",
+
+// GUS DIALOGUE
+
+	"DSV.Dialogue.Daily.Gus.Turkish.spring_Sun4": "There's a long-standing conflict between my homeland Tarinya and our of our neighbors over who invented baklava. The historians say it was originally a dish made by our shared ancestors.#$b#If you ask me though, it was definitely Tarinya.$h",
+	"DSV.Dialogue.Daily.Gus.Turkish.summer_Mon6": "When I was a boy, I always loved buying Maraş ice cream from the street vendor near school.$h#$b#You wouldn't believe the number of times I fell for the vendor's tricks though!$h#$e#Ah, I could really go for some on a hot day like this...",
+	"DSV.Dialogue.Daily.Gus.Turkish.fall_Thu4": "Most of the bread I use is bought from Pierre's, but when I have the time, I love preparing fresh pide and bazlama.#$b#There's nothing better than the smell of fresh bread and taking that first bite while it's still hot.$h",
+	"DSV.Dialogue.Daily.Gus.Turkish.winter_Wed2": "Hello, @! If you'd ever like a hot drink other than coffee or tea, you can always try my salep at the saloon.$h#$b#I try to find the best quality orchids for it. If you grow any, I'll gladly buy them from you!",
+
+	"DSV.Dialogue.Daily.Gus.Turkish.ModdedJodiKent.spring_Mon6.JustJodi": "Jodi and her family often join me for iftar during Ramzan. I make fresh Ramazan pidesi and güllaç, she makes paneer and aush reshteh, and between us we have a real feast!$h#$b#Don't worry though, @, the saloon will still have food available even when I'm fasting.",
+	"DSV.Dialogue.Daily.Gus.Turkish.ModdedJodiKent.spring_Mon6.JustKent": "Kent and his family often join me for iftar during Ramzan. I make fresh Ramazan pidesi and güllaç, he and Jodi make harees and mashuai, and between us we have a real feast!$h#$b#Don't worry though, @, the saloon will still have food available even when I'm fasting.", 
+	"DSV.Dialogue.Daily.Gus.Turkish.ModdedJodiKent.spring_Mon6.Both": "Jodi, Kent, and their sons often join me for iftar during Ramzan. I make fresh Ramazan pidesi and güllaç, Kent and Jodi make harees, mashuai, and aush reshteh, and between us we have a real feast!$h#$b#Don't worry though, @, the saloon will still have food available even when I'm fasting.", 
+	
+	"DSV.Dialogue.Daily.Gus.Turkish.Mon": "Yeah, I know a lot about the people living here.#$e#That's one of the benefits of owning a saloon.$h#$e#Sometimes I hear too much...",
+	"DSV.Dialogue.Daily.Gus.Turkish.Saloon_Thu": "Hey, you look like you could use a beverage or a good meal. Speak to Emily for drinks or let me know what I can get you to eat.",
+	"DSV.Dialogue.Daily.Gus.Turkish.Wed": "Emily's been working here for a while now. I don't know what I'd do without her!#$e#I can't serve alcohol myself, so it wouldn't be much of a saloon otherwise.$s",
+	"DSV.Dialogue.Daily.Gus.Turkish.Fri4": "I don't actually drink myself, since it's forbidden for people of my faith. Emily handles everything related to the bar.#$e#The kitchen is my pride and joy, and where I make my living.",
+	"DSV.Dialogue.Daily.Gus.Turkish.StardropTea": "Oh wow, thank you! I'm tempted to drink all of it, but I'm going to save some for later. Tea like this deserves my best ince belli glasses.", 
+	"DSV.Dialogue.Daily.Gus.Turkish.Introduction": "Well hello there! I'm Gus, chef and owner of the Stardrop Saloon.#$e#Stop in if you need any refreshments. I've always got hot coffee and cold refreshments at the ready.$h",
+
+	"DSV.Dialogue.Daily.Gus.Turkish.Rainy": "There's nothing like a bowl of hot tarhana soup on a day like this, huh?#$e#I love my job.$h",
+	
+	"DSV.Dialogue.Daily.Gus.Turkish.NonbinaryEmily.Wed": "Emily's been working here for a while now. I don't know what I'd do without him!#$e#I can't serve alcohol myself, so it wouldn't be much of a saloon otherwise.$s",
+	"DSV.Dialogue.Daily.Gus.Turkish.NonbinaryEmily.dating_Emily_memory_oneweek": "Emily has a real pep in his step lately... I wonder why? *wink*", 
+
+	"DSV.Dialogue.Daily.Gus.Turkish.Mon8.CanonFriendlyDialogue": "*whisper* Hey, @. Y'know, I've been thinking...$s#$q 010/011 Mon_old#If I keep letting someone with a drinking problem return, am I helping them make bad choices?#$r 010 -20 Mon_010#Honestly? Yes.#$r 011 0 Mon_011#No. Everyone's responsible for themselves.",
+	"DSV.Dialogue.Daily.Gus.Turkish.Wed.CanonFriendlyDialogue": "Glad to see you, @.$h#$q 012/013/014/015 Wed_old#I've got a bowl of warm soup here on the house.[199] What's today's battle? Lay it on me.#$r 012 10 Wed_012#It's kind of lonely here.#$r 013 10 Wed_013#I know nothing about farming.#$r 014 10 Wed_014#I have no money.#$r 015 0 Wed_015#Everything's peachy!",
+	"DSV.Dialogue.Daily.Gus.Turkish.Wed_013.CanonFriendlyDialogue": "Well, I once knew nothing about cooking and baking! But here I am.$h#$b#Truth is, we all start somewhere. Be sure to forgive yourself when things go wrong, and I'm sure you'll make it.",
+	"DSV.Dialogue.Daily.Gus.Turkish.Thu10.CanonFriendlyDialogue": "*whisper* I've been asking Emily to limit the number of drinks she gives Pam, more than we used to.#$e#I swear she's got a flask in her pocket, though, because sometimes she still winds up pretty sloshy.$s",
+	"DSV.Dialogue.Daily.Gus.Turkish.Fri6.CanonFriendlyDialogue": "I don't actually drink at all myself. I'm mainly doing this to make a living.#$e#Although I do enjoy the conversation with people who come in for a drink.",
+	"DSV.Dialogue.Daily.Gus.Turkish.Sat6.CanonFriendlyDialogue": "Look, I know my establishment serves a lot of drinks to a few of our customers. But I'm a strong believer in personal freedom. That's all.$3#$e#Sorry... what's new with you?",
+	"DSV.Dialogue.Daily.Gus.Turkish.Sat8.CanonFriendlyDialogue": "I think I've earned a plate of karnıyarik with pilav tonight. There's nothing better for comfort food!#$e#Are you going to be enjoying anything, @?",
+	"DSV.Dialogue.Daily.Gus.Turkish.Sun10.CanonFriendlyDialogue": "You're a good friend, @. Here's dessert on the house.[233]#$e#Cheers! To another good week!",
+	"DSV.Dialogue.Daily.Gus.Turkish.summer_Sun6.CanonFriendlyDialogue": "What a hot day! I could really go for a fresh glass of ayran right now.#$e#It's an old favorite of mine.$h",
+	"DSV.Dialogue.Daily.Gus.Turkish.winter_Sat.CanonFriendlyDialogue": "Sure is chilly out there! Think you could do with a hot cup of coffee? How about some salep?",
+	"DSV.Dialogue.Daily.Gus.Turkish.winter_28.CanonFriendlyDialogue": "Happy new year, @! I'm breaking out the good coffee beans tonight! [253]$h#$e#Cheers to a great year in Stardew Valley. May the next year be even better!",
+
+	"DSV.Dialogue.Daily.Gus.Turkish.Rainy.CanonFriendlyDialogue": "#$c .5#There's nothing like a bowl of hot tarhana soup on a day like this, huh? I love my job.$h#Need something to warm you up tonight? Don't be shy!",
+
+	"DSV.Dialogue.Daily.Gus.Turkish.NonbinaryEmily.Wed4.CanonFriendlyDialogue": "Emily's been working here for a while now. I don't know what I'd do without him!#$e#I would hate to have to clean all those pots by myself.$s",
+
+	"DSV.Dialogue.Daily.Gus.AroAce.Wed8": "I've never been married or even dated anyone before. I thought for years that it might happen with time, but then I learnt about asexuality and aromanticism and things clicked.#$b#People sometimes ask me if I'm unhappy without a romantic partner, but I've got my good friends and the saloon. What more could I want?$h",
+	"DSV.Dialogue.Daily.Gus.AroAce.winter_Thu10": "When I was younger, I lived together with a close friend. We thought that we would grow old together as happy bachelors.$s#$b#We had plans to open a soup kitchen together, but he passed away unexpectedly.$s#$b#I think he would've liked what I've done with the saloon though and I hope that I've made him proud.",
+
+	"DSV.Dialogue.Daily.Gus.AroAce.Introduction": "Well hello there! I'm Gus, chef and owner of the Stardrop Saloon.#$e#Stop by if you need a warm meal or someone to talk to. I always take care of my community.$h",
+
+	"DSV.Dialogue.MapStrings.Gus.AroAce.LUTI": "Hello my dear friend,^^Though I hope it won't be, this may be my last letter to you; I hope you have received my previous letters. I'd like to give you something to read when you're feeling bad, as well as something to remember me by. I know they said I have years yet, but fate answers to no one.^^I'm wondering how you are today, my friend. Have you fulfilled your long-held dream of opening a kitchen? Have you finally mastered those dishes whose names you struggled to say?^^I bet you did, and it must be the most delicious food in the world.^^What I wouldn't give to taste your cooking once again. Why must fate deal us a cruel hand? ^All we wanted was to be happy by each other's side and live somewhere where nature was abundant and the birds sang in harmony. ^Some place where the problems couldn't reach us.^^Are you happy?^^I know I was at my happiest while we were together. Even the most crushing of tasks became easy when we were side by side. ^The good times though, those meant the world to me. Whether it was sharing a meal in our little kitchen or simply spending the night counting the stars and telling each other our dreams. ^^We both knew how this was going to end eventually, and yet we still tried to live as though we could ignore it. We just couldn't face the truth.^^Stay true to your path and be kind. This is the only advice that I hope you will remember, my friend. Following these words will surely help you find your rightful place in this world. ^^As for me... This is where my path ends. Perhaps it is because I already knew where I was meant to be. Living by your side brought such warmth that words cannot describe it.^^I will wish for your happiness, my dearest of friends. I hope that you will surround yourself with people who bring you only joy, as you did for me.^^From someone who cared for you with all of my heart,^^D.",
+
+// HALEY DIALOGUE
+
+	"DSV.Dialogue.Daily.Haley.Modded.Mon2": "Ugh, do you know how hard it is to get good products for my hair type out here? Everything is for straight hair.$a",
+
+	"DSV.Dialogue.Daily.Haley.Modded.Resort_Towel": "There's nothing like sunning yourself on a warm beach...$h#$e#I won't stay out too long though. It's not worth the risk to my skin.",
+
+	"DSV.Dialogue.Daily.Haley.Black.Married.Rainy_Day_3": "I can't go outside today... I can't risk damaging my braids. Forgive me, dear.$s#$e#I want to look my best for you.",
+	"DSV.Dialogue.Daily.Haley.Black.Married.Summer_3": "Sorry if I don't look my best... the air is just so humid that my foundation doesn't hold up too well.",
+
+	"DSV.Dialogue.Daily.Haley.Modded.Married.Rainy_Day_4.CanonFriendlyDialogue": "#$c .5#Oh no... If this weather keeps up I'll lose my glow.$s#Are you going out in this weather? Just make sure to wipe your boots on the way back in, honey.#$e#I'll just stay here and do some housework.",
+	"DSV.Dialogue.Daily.Haley.Black.Married.Rainy_Day_3.CanonFriendlyDialogue": "#$c .5#I can't go outside today... I can't risk damaging my braids. Forgive me, dear.$s#You want me to go out there with you and ruin my hair? Heehee, no, I'll pass.$h#$e#I want to look my best for you.",
+
+	"DSV.Dialogue.Event.Haley.Modded.Event34.40.MoreHaleyHeartEvents": "I wish I could engage more, you know?$s#$b#Dive into the community, be a part of the everyday moments that make this town special.$s#$b#But sometimes, my past holds me back.$s#$b#I worry that people might still see me as the 'dumb snob', as someone who doesn't belong.$s",
+
+	"DSV.Dialogue.Event.Haley.Modded.Event17206014.380.HaleysPregnancy": "I saw Penny hand Haley a children's book that had a princess in a pretty blue dress on its cover.",
+	"DSV.Dialogue.Event.Haley.Modded.Event17206014.381.HaleysPregnancy": "'The Wondrous Adventures of the Azure Princess.' I remember how you used to love this book, Haley, and how we read it together so many times when we were little...$h",
+	"DSV.Dialogue.Event.Haley.Modded.Event17206014.329.HaleysPregnancy.SamoanEvelyn": "Oh... Mrs. Muliaina, thank you!$h",
+	"DSV.Dialogue.Event.Haley.Modded.Event17206014.329.HaleysPregnancy.MexicanEvelyn": "Oh... Mrs. Muñoz, thank you!$h",
+	
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.Tue8": "I usually just use she/her for Emily, but I want to start making more of an effort to use other pronouns too.#$b#Her - I mean their - eyes always light up when they hear it.$h",
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.summer_Sat8": "Emily told me I could 'reflect on gender and how I relate to it' as a way of learning more about myself.#$b#So I thought it over, but my view hasn't changed. I'm still happy being a woman.#$e#Sam called me 'cis plus' when I mentioned that. What a weirdo.",
+
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.Sun8_inlaw_Emily.CanonFriendlyDialogue": "The house is so empty and quiet without Emily around. I never thought I'd miss them this much.$s#$b#But are you guys doing well?",
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.summer_Sun8_inlaw_Emily.CanonFriendlyDialogue": "Hey. How's my sibling?#$e#I've been getting along okay. It's been an adjustment.",
+
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.SVFair.ImmersiveFestivalDialogue": "My sibling's kind of weird, right? I mean... we've got like nothing in common...$s#$b#We argue a lot, but, to be honest, they're pretty nice to me most of the time.$u#$b#I don't really get it...$7",
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.SpiritsEve.ImmersiveFestivalDialogue": "Oh, I'm so glad you're here. Have you seen my sibling around?#$b#I think they're trying to scare me again...$s#$b#C-can I just hold on to you for a little bit?$l",
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.Luau.ImmersiveFestivalDialogue": "Look how the sun sparkles on the water out there.$l#$b#I don't really believe in all that woo-woo like my sibling...$7#$b#...but it feels like a good omen!$h",
+
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.Married.Rainy_Night_2.CanonFriendlyDialogue": "#$c .5#Oh, thank goodness! I thought I might not see you until the morning.#I hope Emily isn't too lonely all by themself. I should visit them again soon.$7",
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.Married.summer_12.CanonFriendlyDialogue": "I like dancing, but when Emily does their thing at the luau, it's actually more fun for me just to watch.",
+	
+	"DSV.Dialogue.Daily.Haley.NonbinaryEmily.Introduction": "Oh... you're that new farmer, aren't you?#$e#Huh? Oh... I'm Haley.#$b#...My pronouns are she and her. You probably weren't wondering.#$e#Hmm... If it weren't for those horrendous clothes you might actually be cute.$h",
+	
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.Fri": "%Haley's hearing aids aren't in her ears today.",	
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.Sun2": "%Haley gives you a confused look, then turns away from you. Looks like she doesn't have her hearing aids today.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.Fri4": "Hi, @. Sorry, I don't have my hearing aids turned on, so I can't chat right now.#$b# I need to take some breaks from sound sometimes.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.Wed6": "%Haley doesn't have her hearing aids in today.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.Mon8": "Would you like to practise sign language with me? It's useful when I don't have my hearing aids in.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.summer_Sat2": "%You tried to say hello. Haley huffs and doesn't answer you.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.summer_Tue6": "%Haley looks at you expectantly before remembering she doesn't have her hearing aids in today. That's okay, you can talk tomorrow.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.summer_Mon8": "%Haley gestures to her ears and you realize her hearing aids aren't in. She can't hear you.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Fri2": "%Haley is looking at the ground and humming to herself. She can't hear you.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Wed4": "%Haley pauses before waving at you in response.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Sat4": "I was born unable to hear anything. I got a whole bunch of surgeries done, and now I can with the help of my hearing aids!$h#$b# I can't hear anything without them, though.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Sun6": "%Haley waves at you and only smiles and nods when you say something to her. She must not have her hearing aids in today.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Wed8": "%Haley signs 'hello' and smiles. You reply with the same movements, and you both grin.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Tue": "%Haley can't hear you. It doesn't look like she wants to, either.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Mon2": "%Haley can't hear you.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Fri4": "%Haley's mind is elsewhere. She didn't hear you.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Sun6": "%Haley's carefully examining her nails and can't hear you. Her hearing aids might be turned off today.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Tue8": "Darn it, I forgot to charge my hearing aids yesterday. If I stop responding to you mid-conversation, they ran out of battery.#$b#Sorry in advance.",
+
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Fri10.Romantic": "%Haley waves to catch your attention. When you meet her eyes, she says 'I love you' in sign language. When you smile, she smiles back and wraps her arms around your waist in a tight hug.",
+	"DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Fri10.Platonic": "%Haley waves to catch your attention. When you meet her eyes, she says 'You're my best friend' in sign language. When you smile, she smiles back and wraps her arms around your waist in a tight hug.",
+
+	"DSV.Dialogue.Daily.Haley.MexicanEvelyn.AlexJericMarried": "The wedding was so cute, right? I helped Mrs Muñoz with the flowers.$h",
+	"DSV.Dialogue.Daily.Haley.SamoanEvelyn.AlexJericMarried": "The wedding was so cute, right? I helped Mrs Muliaina with the flowers.$h",
+
+// HARVEY DIALOGUE
+
+	"DSV.Dialogue.Daily.Harvey.Modded.summer_Mon": "It's okay to get a moderate amount of sunlight. Just protect your skin from UV rays.#$e#Okay. Take care! Stay healthy.",
+	"DSV.Dialogue.Daily.Harvey.Modded.summer_Tue": "Tulasi is a very useful plant to keep on hand for its medicinal properties. If I can find good sources, I'd love to incorporate it into my practice.",
+	"DSV.Dialogue.Daily.Harvey.Modded.summer_Fri": "People don't get sick much during the summer. That's nice, and it means less stress for me.",
+	"DSV.Dialogue.Daily.Harvey.Modded.winter_Sun": "As a doctor, I take care to not see my patients' poor health as a source of income.#$b#The universe has a way of punishing those who wish harm on others, and wanting someone to get sick just to take their money is not an honest living.#$e#Or so they say...$s#$b#That was a joke! I didn't mean that!$8",
+
+	"DSV.Dialogue.Daily.Harvey.Modded.Married.Summer_1": "Make sure you wear sunscreen, dear! With the sun this strong, it's very dangerous for your skin.$8#$e#As your husband and doctor, I consider your health and safety my top priority!",
+
+	"DSV.Dialogue.Daily.Harvey.Modded.WinterStar": "When I was a kid, my neighborhood used to celebrate the end of winter by gathering around a big bonfire.#$e#I like this tradition too. More than the fire, this sense of community is what really warms me up.$h#$e#I do wish there was gajak, though.$2#$b#Maybe I can figure out how to make it for next year...$2",
+	"DSV.Dialogue.Daily.Harvey.Modded.Rain": "The sound of rain gives our minds something to focus on, so we're not distracted by random thoughts.#$e#Maybe I should practice meditation again...",
+
+	"DSV.Dialogue.Daily.Harvey.Modded.summer_Fri4.CanonFriendlyDialogue": "People don't get sick much during the summer. That's nice, and it means less stress for me.",
+	"DSV.Dialogue.Daily.Harvey.Modded.fall_Sat8.CanonFriendlyDialogue": "Do you know the concept of seva, @? It means selfless service, to help others without any expectation of reward.#$b#It's a core part of my beliefs and while I do take payment from some of my patients so I can pay my rent, I also offer free services to those who can't afford it.#$e#It's why I became a doctor. I just want to reduce the amount of suffering in the world.#$e#What drives you, @?",
+	
+	"DSV.Dialogue.Daily.Harvey.ModdedSikh.summer_Tue6": "It's not a religious requirement for me to be vegetarian, but it's something I prefer anyway.#$b#I don't judge anyone who eats meat though.",
+	"DSV.Dialogue.Daily.Harvey.ModdedSikh.AcceptGift_(O)395": "For me? What a gift! This looks fantastic!$h#$b#You know, on a physiological level, I wouldn't advise the consumption of caffeine...#$b#But there's no denying the benefit of kicking back and enjoying a fine cup of joe!$h", 
+
+	"DSV.Dialogue.Daily.Harvey.ModdedSikh.Married.Rainy_Night_4": "Here @, I made you dinner. Dal is hard to find here, but fish is also a great source for protein. [212 214 225 209 198]$h#$e#I couldn't bring myself to actually cook meat so I just warmed up leftovers from the fridge.",
+	"DSV.Dialogue.Daily.Harvey.ModdedSikh.Married.Indoor_Day_1": "Good morning, @! I made you a nutritious breakfast.[200]#$e#Vegetables are essential to your health, so eat up.",
+	"DSV.Dialogue.Daily.Harvey.ModdedSikh.Married.Good_3": "Wow... you look wonderful today!$l",
+	"DSV.Dialogue.Daily.Harvey.ModdedSikh.Married.fall_Harvey": "I could sure go for some coffee.", //&&New!
+	
+	"DSV.Dialogue.Daily.Harvey.ModdedSikhTurkishGus.fall16": "I may not be a veterinarian, but I can tell these animals are all at peak health!#$b#Marnie does a fine job caring for them.$h", //&&New!
+
+// JAS DIALOGUE
+	
+	"DSV.Dialogue.Daily.Jas.Modded.summer_Wed4": "Aunt Marnie sometimes helps me with my hair before school.#$b#She didn't know how to do it properly at first, but we borrowed a book about styles for curly hair from the library.",
+	"DSV.Dialogue.Daily.Jas.Modded.fall_Thu8": "Aunt Marnie was telling me earlier about the big party she had when she turned fifteen. She got to wear a beautiful pink dress and eat lots of food, she danced with Abuelo Luis and her brothers!$h#$b#I'm going to ask Uncle Shane to have the first dance with me.", 
+
+	"DSV.Dialogue.Daily.Jas.Modded.MixedPenny.summer_Wed2": "When I'm older, I want to have beautiful big curls like Miss Penny!$h",
+	
+	"DSV.Dialogue.Daily.Jas.spring_Mon6": "Sometimes me and Vincent swap our clothes for the Flower Dance. Uncle Shane calls me a dapper little lady when I wear Vincent's bowtie.$h#$b#I like my dress more, but Vincent likes wearing it too.#$e#Maybe next year his mom can buy him a dress and we can match!$h",
+
+
+// JODI DIALOGUE
+
+	"DSV.Dialogue.Daily.Jodi.Modded.spring24.Y2": "I have a special hijab pin I only wear once a year for this event.$0#$e#It's a chandelier lily... see?$h", 
+
+	"DSV.DialogueEdit.Jodi.Modded.winter_28.CanonFriendlyDialogue": "The boys are staying up late, but not me. I've had a lot of work to do today.",
+
+	"DSV.Dialogue.Daily.Jodi.Modded.ModdedGus.spring_Mon4.JustJodi": "It's still a little unusual for me to share iftar with Gus. I grew up with it being a family meal, but for Gus, it's something shared with the community.#$b#It's a lovely cultural tradition though, I think, especially in a small town like this.$h", 
+	"DSV.Dialogue.Daily.Jodi.Modded.ModdedGus.spring_Mon4.Both": "It's still a little unusual for me to share iftar with others. I grew up with it being a family meal, but for Kent and Gus, it's something shared with the community.#$b#It's a lovely cultural tradition though, I think, especially in a small town like this.$h", 
+
+	"DSV.Dialogue.Daily.Jodi.DisabledKent.fall_Tue6": "Kent sometimes turns off his hearing aids when things get too noisy and overwhelming for him, so you might need to wave to get his attention.#$e#...I envy him for that some days.", 
+
+// KENT DIALOGUE
+
+	"DSV.Dialogue.Daily.Kent.Disabled.Fri2": "Hm, the batteries in my hearing aids are going flat. Have to replace them soon.", 
+	"DSV.Dialogue.Daily.Kent.Disabled.fall_Sat6": "It's mostly high frequencies that I can't hear without my aids. Didn't realise how much birdsong I'd been missing until I got them.", 
+	"DSV.Dialogue.Daily.Kent.Disabled.summer_Tue8": "A lot of people assume that I lost my leg in Gotoro, but I was born missing a foot and most of my calf. Been wearing a prosthesis all my life.#$b#My hearing though, that's more recent.", 
+	"DSV.Dialogue.Daily.Kent.Disabled.Rain": "#$c .5#%Kent doesn't notice you speaking to him. It looks like he's not wearing his hearing aids today.#Sorry if I ignore you on rainy days, @. My hearing aids aren't waterproof so I have to take them out if it comes down heavy.", 
+	
+	"DSV.Dialogue.Daily.Kent.Omani.summer_Sat4": "I might not be the chef Jodi is, but I can make a mean plate of mashuai.$h#$b#It tastes even better when you catch the kingfish for it yourself.$h", 
+	
+	"DSV.Dialogue.Daily.Kent.TransSam.fall_Tue8": "I regret that I couldn't be there for Sam in the last few years, but I'm trying to make up for it now. I'm teaching him all the things my father taught me when I was a boy.",
+	"DSV.Dialogue.Daily.Kent.TransSam.summer_Wed6": "I'm still getting used to Sam's voice being deeper now. He had only just started on hormones when I went overseas.",
+	"DSV.Dialogue.Daily.Kent.TransSam.fall_Thu4": "Fall's a good time to go camping. I should take Sam with me one of these weekends. Have some father-son bonding time.",
+	"DSV.Dialogue.Daily.Kent.TransSam.winter_Tue8": "You think Vincent will turn out like Sam and change his gender too? I missed so much of his childhood that I don't have any idea.",
+
+// LEAH DIALOGUE
+
+	"DSV.Dialogue.Daily.Leah.Native.summer_Wed6": "Part of the reason why I picked sculpture as my medium of choice is there's a long history of woodcarving in my people's culture.#$b#I hope that some of my more traditional pieces honor them and our history.",
+	"DSV.Dialogue.Daily.Leah.Native.fall_Fri8": "Have you heard of Bill Reid? He was a famous artist from the same nation as me.#$b#I saw his work when I was a kid and it was breath-taking.#$b#He carved bears, ravens, scenes from our mythology... Incredible work.",
+	"DSV.Dialogue.Daily.Leah.Native.summer10": "Did you know that many of our festival traditions date back to the custom of 'potlatch' celebrated by the First Nations people of this area? It's thought to be where the word 'potluck' comes from!#$b#People would share food and gifts as well as discussing family and clan politics and honoring our connection to the supernatural.",
+	
+	"DSV.Dialogue.Daily.Leah.Native.Fri6": "Sometimes, a strange feeling comes over me. My head becomes totally empty... and I feel completely at peace, even blissful.#$e#That's the beauty of living with nature, isn't it?$h", //&&New!
+	"DSV.Dialogue.Daily.Leah.Native.Resort_Bar": "Have you tried the Piña Colada? Nothing says 'tropical' like slowly sipping one on the warm sand.$h", //&&New!
+
+	"DSV.Dialogue.Daily.Leah.Native.Married.winter_28": "Hey, here's to another great year at %farm farm! Let's have some fun tonight!$h#$e#Next year is going to be great, I can feel it.", //&&New!
+	"DSV.Dialogue.Daily.Leah.Native.Married.summer_Leah": "Nothing pairs so well with summer like a nice fresh salad. Don't you think, honey?", //&&New!
+
+	"DSV.Dialogue.Daily.Leah.Native.Married.Leah_spouse_y2": "I probably had too much to eat before jumping into the maze.$2#$e#You go on ahead. I'll catch up.$0", //&&New!
+
+	"DSV.Dialogue.Daily.Leah.Native.Mon4.CanonFriendlyDialogue": "Have you ever tried the cheeses from the valley?#$e#Better yet, you could probably make your own cheese on your farm. That would be amazing.$h", //&&New!
+	"DSV.Dialogue.Daily.Leah.Native.summer_Wed8.CanonFriendlyDialogue": "Sometimes, a strange feeling comes over me. My head becomes totally empty... and I feel completely at peace, even blissful.#$e#That's the beauty of living with nature, isn't it?$h", //&&New!
+	"DSV.Dialogue.Daily.Leah.Native.fall_Fri4.CanonFriendlyDialogue": "Have you ever tried the cheeses from the valley?#$e#Better yet, you could probably make your own cheese on your farm. That would be amazing.$h", //&&New!
+	
+	"DSV.Dialogue.Daily.Leah.Butch.summer_Wed2": "Days like this make me really glad I have short hair. No more sweat on the back of my neck!",
+
+// LINUS DIALOGUE
+
+	"DSV.Dialogue.Daily.Linus.Modded.spring_Mon2": "Please don't pet Marigold. She's working right now.#$b#How? Maybe I'll tell you more about her when we're better friends. But she helps me live my life without relying on others.",
+	"DSV.Dialogue.Daily.Linus.Modded.summer_Tue6": "You want to know more about Marigold? Well, you've certainly become good friends with the both of us, so of course I'll tell you.$h#$b#She's a seizure alert dog. I don't like to advertise it, but I'm epileptic. Marigold can actually sense when a seizure is coming so I can lie down first.#$b#It's falling that you really have to worry about, you see. The seizures themselves aren't pleasant, but it's a big problem if I fall down and break a bone. And if I'm near a cliff edge or somewhere like that, well...#$b#So you can see why she means the world to me.$h",
+	"DSV.Dialogue.Daily.Linus.Modded.fall_Wed6": "@, are you seeing Marlon today? Could you tell him I need a new battery for my alert button?#$b#It's something we worked out a few years after I came to this valley. He found me in the mountains one night after I had a seizure, and told me I either needed to move into town or else have a way to contact him if it ever happened again.#$b#This was before I got Marigold, of course, but having the button still makes both of us feel better.#$b#%'Woof!' Marigold barks at you.#$b#Ha, yes, the button makes all THREE of us feel better.$h",
+	"DSV.Dialogue.Daily.Linus.Modded.winter_Sat6": "Be careful in the mines, @. Maybe we should get you an alert button like mine...",
+	"DSV.Dialogue.Daily.Linus.Modded.summer_Tue10": "I hope you don't mind my saying so, @, but I'm happy I've been able to come to your rescue.#$b#You might not think it matters if you fall asleep in the middle of a field in a peaceful place like Pelican Town, but I've had some bad experiences...#$b#Patrolling at night for others who might have fallen and need help makes me feel like I'm doing some good in the valley.$h#$b#Do take care of yourself, though. While I'm glad to be of help, I never want it to be at the expense of your health.",
+	
+	"DSV.Dialogue.Daily.Linus.Modded.MoonlightJellies": "Oh, hello @. Would you like to pet Marigold? This is her favorite festival because she can just enjoy the beach and bark at the jellyfish.#$b#She doesn't have to work because I can spend the evening sitting here, and Marlon keeps an eye out for me just in case.$h",
+	
+	"DSV.Dialogue.Daily.Linus.Modded.SVFair.Y2": "Animals are kind of like little people... they also have feelings and emotions.#$b#Marigold here is proof of that! Aren't you, beloved?$h",  
+
+	"DSV.Dialogue.Daily.Linus.Modded.Summer_Sun": "This is an easier time of year for me and Marigold. I don't have to worry about us staying warm.#$e#Plus, the fruits of the wild are growing everywhere.",
+	"DSV.Dialogue.Daily.Linus.Modded.Summer_Thu4": "I have my own reasons for living like this.#$e#Some things are best left unsaid...#$e#Marigold and I should do some foraging.",
+	"DSV.Dialogue.Daily.Linus.Modded.Fall_Sun6": "There's nothing quite like a feast of wild mushrooms in the fall.$h#$b#Marigold is adept at catching bream in the river too.",
+	"DSV.Dialogue.Daily.Linus.Modded.Winter_Mon": "It can get really cold if you live in a tent.$s#$b#Marigold sleeps pressed against me at night though and that helps keep me warm.",
+	"DSV.Dialogue.Daily.Linus.Modded.Winter_Thu4": "Winter is tough, but you can still fish and forage to get by.#$e#If you have any animals you should keep them inside. I always go back into my tent when I see Marigold shivering.",
+	"DSV.Dialogue.Daily.Linus.Modded.Sat": "I'm happy with just Marigold for company, you know.#$e#I don't need new friends.",
+
+	"DSV.Dialogue.Daily.Linus.Modded.Tue10.CanonFriendlyDialogue": "Well, @, I suppose I could consider you a part of my new family, if that's alright.$h#$e#Oh, please don't be alarmed. The trees, the rocks, the lake, the sky... they are all my family, too. And of course my beloved Marigold.",
+	"DSV.Dialogue.Daily.Linus.Modded.summer_Tue8.CanonFriendlyDialogue": "Marlon and Gil? Yes, I see them every now and then.#$e#Marlon checks in on me from time to time, but otherwise we mostly keep to ourselves.",
+	"DSV.Dialogue.Daily.Linus.Modded.fall_Sat10.CanonFriendlyDialogue": "Everyone must discover and understand the role they can best play in the world.#$e#For example, there's just as much nature underground as there is up here.#$b#But if I stay in the mines too long, my lungs get heavy and my eyes long for sunshine, and Marigold gets anxious. It goes against our nature.#$e#The same could be said for all aspects of life, inside and out.#$b#Have you found your role yet, @?$h",
+	"DSV.Dialogue.Daily.Linus.Modded.winter_Tue8.CanonFriendlyDialogue": "If I play things right, I can go for a week or so without food.#$e#It isn't my first choice, but I can do it if it becomes necessary.#$b#There has been times when I've only found enough food for one, and I couldn't bear to see Marigold go hungry.",
+	
+	"DSV.Dialogue.Daily.Linus.Modded.Introduction": "A stranger?... Hello.#$e#Don't mind me. I just live out here with my dog, Marigold.#$b#She won't bite, but she's a service dog, so please don't pet her.",	
+	"DSV.Dialogue.Strings.Linus.Modded.DesertFestival": "I saved the best of the spring forage and traded it with Gus for a bus ticket.#$e#You can't find this Calico Desert flavor anywhere else. Heheh...$h", //&&New!
+
+// MARU DIALOGUE
+
+  	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.summer_Tue": "Sebastian is my half-sibling, if you didn't know already.#$e#We look totally different.",
+  	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.summer_Tue4": "Sebastian hardly ever talks to me. I wonder if they even like me at all?#$e#It's sad, I want to have a sibling but they don't act like one.",
+
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.summer_20": "I wonder if my sibling will ever have the courage to ask Abigail out?",
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.Introduction": "Oh! Aren't you the one who just moved in?#$b#I'm Maru, she/her. I've been looking forward to meeting you!$h#$e#You know, with a small town like this, a new face can really alter the community dynamic. It's exciting!",
+
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.summer_Fri4.CanonFriendlyDialogue": "Dad and I sometimes go out for ice cream. Sebastian used to come too, but they don't anymore.",
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.fall_Mon_inlaw_Sebastian.CanonFriendlyDialogue": "Oh, hey @! How's my sibling doing?",
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.winter_Thu4.CanonFriendlyDialogue":"I hope Sebastian's okay. I feel like they barely see the sun during the winter. It's not healthy.$s",
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.winter_Thu6.CanonFriendlyDialogue":"I tried asking Sebastian if I could join them the next time Sam comes over, but they looked really unenthusiastic.$s#$e#I mean, I'd understand if I did something wrong, but honestly, why do they single me out like that?$a",
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.winter_Thu8.CanonFriendlyDialogue":"I let Sebastian do their own thing these days. I think they just want to be left alone.#$e#It sucks. I've tried all these years to be a good sister, but I don't think they'll ever stop pushing me away.$s#$e#Well, not every sibling relationship winds up perfect.$s",
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.winter_Thu4_inlaw_Sebastian.CanonFriendlyDialogue":"I did a voicechat with Sebastian this morning. Now that they've moved out, it's a lot easier to get along with them.#$b#Isn't it funny how that works?$h",
+
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.IceFestival.CanonFriendlyDialogue": "Sebastian makes some pretty cool snowpeople. I feel like I could learn a thing or two from them, if they'd let me.",
+
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.Luau.ImmersiveFestivalDialogue": "Honestly, I probably wouldn't trust that soup. You never know what people might put in it.#$b#People like my sibling and their friends...$u",
+	"DSV.Dialogue.Daily.Maru.NonbinarySebastian.SpiritsEve.ImmersiveFestivalDialogue": "Oh, boy, Maru, here we are again. Lost in the Spirit's Eve maze...$8#$b#Oh!$9#$b#Oh, @, you scared me! Don't tell Sebastian I got lost again, okay? They'll just make fun of me...$s",
+
+// MARNIE DIALOGUE
+
+	"DSV.Dialogue.Daily.Marnie.Modded.summer_Thu8": "I've started putting aside a little money each season for Jas's fiesta de quinceañera. It's still years away, but it doesn't hurt to start preparing early.$h", 
+
+// PAM DIALOGUE
+	
+	"DSV.Dialogue.Daily.Pam.Modded.summer_Mon4": "Sorry if it looks like I'm sneerin' at you when I ain't. This lip of mine doesn't always play nice with my face.$s",
+	"DSV.Dialogue.Daily.Pam.Modded.fall_Wed6": "My folks didn't have the money to get my lip fixed properly when I was born. I went through a lot of trouble at school because of that.$s#$e#Any other country, the government woulda fixed it for free...$4",
+	"DSV.Dialogue.Daily.Pam.Modded.winter_Mon10": "I'll never forget the day I turned twenty-four. I'd been scrimpin' and savin' to get my lip fixed up proper but I was still a long way off.#$b#My folks went around asking everyone they knew to chip in and they got enough to get me over the line.$h#$b#Seeing my face in the mirror for the first time after that... it was a real good feeling.$h",
+
+	"DSV.Dialogue.Daily.Pam.TransPenny.Thu2": "Anyone disrespects my baby girl by calling her the wrong name, they're gonna get a walloping, mark my words.$4",
+	"DSV.Dialogue.Daily.Pam.TransPenny.fall_Fri6": "Penny weren't much different when she was little. She was always reading about kind girls who fell in love with handsome princes or beautiful princesses.#$b#When she told me she wanted to be like the girls from her books, it wasn't much of a surprise.$h",
+	"DSV.Dialogue.Daily.Pam.TransPenny.winter_Mon4": "Penny and me used to have a girls' day when she was feelin' down about her looks.#$b#We'd go shopping together at those li'l boutiques Penny loves and get coffee and cake after.$h#$e#I miss those days...$s",
+
+	"DSV.Dialogue.Daily.Pam.TurkishGus.Saloon_Tue": "Hey Emily! Gimme another round! *hic*$h",
+	"DSV.Dialogue.Daily.Pam.TurkishGus.Saloon_Fri": "Oi, Emily! Gimme another pint of your strongest!",
+	"DSV.Dialogue.Daily.Pam.TurkishGus.Sun": "Are you friends with Gus? He's a pretty good guy.#$e#He even gives me free food on my birthday.",
+	
+	"DSV.Dialogue.Daily.Pam.SamoanAlex.married_Alex": "So, you married the Muliaina boy, huh?#$b#Will you be takin' that smelly old dog with ya, too?", 
+	"DSV.Dialogue.Daily.Pam.MexicanAlex.married_Alex": "So, you married the Muñoz boy, huh?#$b#Will you be takin' that smelly old dog with ya, too?", 
+
+// PENNY DIALOGUE
+
+	"DSV.Dialogue.Daily.Penny.Mixed.fall_Thu4": "When I was little, Mom used to tell me that she put rollers in her hair so that it would be curly like mine.$h",
+
+	"DSV.Dialogue.Daily.Penny.Trans.Fri8": "Mom was so excited when I picked my name because we got to match and be Penny and Pam.#$b#She helped me get a name change in Zuzu City a couple years ago, when I was sure it was the one I wanted to use. Honestly, I've always been sure, but we had to save up for a while to pay the fees.#$b#It set us back for a few months and I still feel guilty about it...$s#$b#...but I'm so happy that I'm legally Penelope now!$h",
+	"DSV.Dialogue.Daily.Penny.Trans.summer_Mon6": "Sam and I have been friends since his family moved here, before either of us came out. We got a lot closer when we both did, though.#$b# It's nice to have someone else to talk to about this stuff.$h",
+	"DSV.Dialogue.Daily.Penny.Trans.summer_Wed6": "Vincent very matter of factly told Jas today that sometimes there are people who aren't boys or girls, they're something else.#$b#He understands a surprising amount about gender for such a little boy! His big brother has been teaching him well.$h",
+	"DSV.Dialogue.Daily.Penny.Trans.Sun8.NoBus": "I know my mother is... difficult sometimes, but she's always been so kind and accepting of me.#$b#I was terrified to come out to her at first, but she was actually overjoyed to have a daughter and took me clothes shopping in the city that day.#$b#That was back when she used to drive the bus and things were a little more stable...$s",
+	"DSV.Dialogue.Daily.Penny.Trans.Sun8.YesBus": "I know my mother is... difficult sometimes, but she's always been so kind and accepting of me.#$b#I was terrified to come out to her at first, but she was actually overjoyed to have a daughter and took me clothes shopping in the city that day.#$b#Hopefully now that she has her job again, we'll be able to reconnect like we used to.",
+	"DSV.Dialogue.Daily.Penny.Trans.fall_Sun6": "Giving myself the name Penelope seemed like a good idea until my mom figured out she can call me by my full name when she's mad at me...#$b#Sometimes she calls me “Miss Penelope” when she's in a good mood, though. It's sweet.$h",
+	"DSV.Dialogue.Daily.Penny.Trans.winter_Mon4": "When I was younger, Mom and I used to style our hair together every night, as our mother-daughter time.#$b#She taught me how to do makeup too, though I don't wear as much as she does.$h#$e#I miss those days...$s",
+	"DSV.Dialogue.Daily.Penny.Trans.winter_Thu8": "Honestly, most of my tutoring money goes to paying for hormones...$s#$b#There's help available, but it's still not cheap. I wish I was able to contribute more to helping Mom out.$s",
+
+	"DSV.Dialogue.Daily.Penny.Trans.Married.funLeave_Penny": "#$c .5#Morning, honey! I have to stop by the clinic today to pick up my HRT prescription, do you need anything from the pharmacy?$h#I'm going to head into town today, just for fun. I'll be back in a while!",
+	"DSV.Dialogue.Daily.Penny.Trans.Married.Indoor_Night_1": "Now that I have another source of income, I can start saving up for surgery... I'm so grateful to be able to share in all the success you've had here.$l",
+	
+	"DSV.Dialogue.Daily.Penny.Trans.Married.Indoor_Night_1.CanonFriendlyDialogue": "#$c .5#Now that I have another source of income, I can start saving up for surgery... I'm so grateful to be able to share in all the success you've had here.$l#So this is what happily ever after feels like.$l",
+
+	"DSV.Dialogue.Event.Penny.SamoanGeorge.Event34.event_mail2": "Oh... I guess you're right.$l#$b#I'm sorry, Mr. Muliaina. It was rude, what I did.$s",
+	"DSV.Dialogue.Event.Penny.SamoanGeorge.Event34.19": "speak Penny \"Here, let me help you, Mr. Muliaina!\"/",
+	"DSV.Dialogue.Event.Penny.SamoanGeorge.Event34.77": "speak Penny \"That's okay, Mr. Muliaina. I understand.\"/",
+
+	"DSV.Dialogue.Event.Penny.MexicanGeorge.Event34.event_mail2": "Oh... I guess you're right.$l#$b#I'm sorry, Mr. Muñoz. It was rude, what I did.$s",
+	"DSV.Dialogue.Event.Penny.MexicanGeorge.Event34.19": "speak Penny \"Here, let me help you, Mr. Muñoz!\"/",
+	"DSV.Dialogue.Event.Penny.MexicanGeorge.Event34.77": "speak Penny \"That's okay, Mr. Muñoz. I understand.\"/",
+
+	"DSV.Dialogue.Event.Penny.SamoanGeorge.Event34.77.GeorgeDialogueEdits": "speak Penny \"That's okay, Mr. Muliaina. I understand why you got upset. I shouldn't have done that.#$b#I'll talk to Vincent and Jas about it, too. I'll try to be a better role model for them.\"/",
+	"DSV.Dialogue.Event.Penny.MexicanGeorge.Event34.77.GeorgeDialogueEdits": "speak Penny \"That's okay, Mr. Muñoz. I understand why you got upset. I shouldn't have done that.#$b#I'll talk to Vincent and Jas about it, too. I'll try to be a better role model for them.\"/",
+
+// PIERRE DIALOGUE
+
+	"DSV.Dialogue.Daily.Pierre.Modded.Wed2": "Ginseng grows all year round, but it's so hard to find here... I'd be happy to purchase some from you if you grow it!",
+	"DSV.Dialogue.Daily.Pierre.Modded.Mon4": "So many of my favourite vegetables grow in this season. Niubang, fava beans, elephant garlic... I wish we could have them all year round.$h",
+	"DSV.Dialogue.Daily.Pierre.Modded.summer_Mon2": "You should remember to balance the heating and cooling elements in your cooking, especially during the summer heat.",
+	"DSV.Dialogue.Daily.Pierre.Modded.fall_Sat4": "Have you tried gai lan or pak choy? They're a little hard to get in stock, but we try our best!",
+	"DSV.Dialogue.Daily.Pierre.Modded.fall_Tue6": "You can make delicious soup stocks with just jujubes, dried scallops and pork bones as the base. Try it sometime!",
+	"DSV.Dialogue.Daily.Pierre.Modded.winter_Tue2": "Winter is the best season for hotpot! Or all seasons, really.",
+	"DSV.Dialogue.Daily.Pierre.Modded.Winter_28": "We're going to have to spring clean everything before the Lunar New Year.",
+	
+	"DSV.Dialogue.Daily.Pierre.Modded.Luau": "Do you think the others would complain if I put hot peppers into the soup? Some of them really can't take any heat.$s",
+
+	"DSV.Dialogue.Daily.Pierre.ModdedAbigail.summer_Sat6": "We try to keep Abigail in touch with her culture by cooking dishes from home, but she doesn't really seem to like them much.",
+	
+	"DSV.Dialogue.Daily.Pierre.ModdedAbigail.NonbinaryAbigail.summer_Sat6": "We try to keep Abigail in touch with their culture by cooking dishes from home, but they don't really seem to like them much.",
+
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.summer_Tue8": "Abigail was surprisingly patient with me and Caroline about their pronouns when they first came out. I slipped up more than a few times...$s#$b#Even though Abby said they're okay with both she and they, I'm trying to get better at using they more often.",
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.winter_Sun6": "Abigail taught me a good trick recently for remembering someone's pronouns if they don't match what you expect.#$b#Every time you make a mistake, say five sentences to yourself using the correct pronouns.",
+
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.Mon4_inlaw_Abigail": "Hi, @. How's Abigail doing? The shop hasn't been the same without them...",
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.eventSeen_4": "Abigail's going through a rebellious phase... I get it.#$e#They'll wise up when they have to make their first mortgage payment!$h", 
+
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.Fri4.CanonFriendlyDialogue": "With their online classes, Abigail's already formally more educated than I've ever been. I'm proud of them.#$e#I started out as a courtesy clerk as a kid, and then I worked my way up until I could open this store.",
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.summer_Thu6.CanonFriendlyDialogue": "Abigail will always be my baby. It was love at first sight, when I saw them for the first time.",
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.summer_Sun10.CanonFriendlyDialogue": "With their online classes, Abigail's already formally more educated than I've ever been. I'm proud of them.#$e#I started out as a courtesy clerk as a kid, and then I worked my way up until I could open this store.",
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.fall_Mon4_inlaw_Abigail.CanonFriendlyDialogue": "Hi, @. How's Abigail doing? Tell them that we've been missing them around here.",
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.winter_Mon4_inlaw_Abigail.CanonFriendlyDialogue": "I used to worry about Abigail's future, but I can see that they've wound up exactly where they need to be.#$e#You be good to each other now, alright?$h",
+	"DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.winter_Tue10.CanonFriendlyDialogue": "Abigail will always be my baby. It was love at first sight, when I saw them for the first time.",
+
+// ROBIN DIALOGUE
+
+	"DSV.Dialogue.Daily.Robin.Modded.Spring_1": "I know Sebastian is grown, but I still give him red envelopes for Tet. He needs all the luck he can get.$h",
+	"DSV.Dialogue.Daily.Robin.Modded.Rain": "#$c .5#Rainy days like this are the perfect time for pho. The simmering takes ages, but the result is comforting and *delicious*#The rain doesn't stop me from getting a job done! ...Although soggy wood isn't a joy to work with.",	
+
+	"DSV.Dialogue.Daily.Robin.NonbinarySebastian.Wed2": "I knew there was something different about Sebastian from a young age, but I could never put my finger on it.#$b#I finally realized what it was when they came out as nonbinary.$h",
+
+	"DSV.Dialogue.Daily.Robin.NonbinarySebastian.Fri": "You've met my child Sebastian, right? They live downstairs.#$e#They're a little shy, but I'm sure they'll warm up to you if you're nice to them.",
+	"DSV.Dialogue.Daily.Robin.NonbinarySebastian.Fri_inlaw_Sebastian": "I miss my Sebby... they were always a little misunderstood, but I believed in them.",
+	"DSV.Dialogue.Daily.Robin.NonbinarySebastian.Fri4": "#$1 RobinSeb#I found an ashtray in Sebastian's room, and it smelled really weird. Should I be worried about this?#$e#Sometimes I worry about Sebastian... they don't have many friends and don't really seem to care about their future very much...#$e#I would talk to them about it but they never open up to me.",
+	"DSV.Dialogue.Daily.Robin.NonbinarySebastian.Fri4_inlaw_Sebastian": "Sebastian told me they're trying to quit smoking! I'm really proud of them.",
+	
+	"DSV.Dialogue.Daily.Robin.NonbinarySebastian.Thu8.CanonFriendlyDialogue": "Sometimes, I wonder if Sebastian passively resents me for not having their father around.$s#$e#Maybe they feel like Maru's got it all, and they live in her shadow...$s",
+	"DSV.Dialogue.Daily.Robin.NonbinarySebastian.Sat4.CanonFriendlyDialogue": "Ugh, I wish Sebastian wouldn't smoke.$s#$e#I don't even know where they picked that up from.$s",
+	"DSV.Dialogue.Daily.Robin.NonbinarySebastian.summer_Sat10.CanonFriendlyDialogue": "Sometimes, I wonder if Sebastian passively resents me for not having their father around.$s#$e#Maybe they feel like Maru's got it all, and they live in her shadow...$s",
+	"DSV.Dialogue.Daily.Robin.NonbinarySebastian.winter_Tue10.CanonFriendlyDialogue": "My kids have their own interests. I never really pushed either of them into carpentry.#$e#They still seem to enjoy their hands-on activities, though. Maru's got her gadgets and Sebastian's got their motorcycle.",
+
+  	"DSV.Dialogue.Daily.Robin.ModdedLinus.fall_Fri": "Have you met the wild man and his dog that live behind our house?$s#$e#I guess I don't really mind, as long as they don't bother us.",
+
+// SANDY DIALOGUE
+
+	"DSV.Dialogue.Daily.Sandy.Modded.Sun": "It's always sunny here, even in winter!#$e#Actually, it's a little hot for my tastes... my delicate skin gets so dry in the sun.$s",
+	"DSV.Dialogue.Daily.Sandy.Modded.Wed4": "It's hard finding modest blouses sometimes, especially since I have to get things exported from my home country. But it's so worth it!",
+	"DSV.Dialogue.Daily.Sandy.Modded.spring_Wed8": "Are you growing apricots this time of year, @?#$b#Emily brought some for me last week and we made khubani ka meetha together. What a day that was.$h",
+	"DSV.Dialogue.Daily.Sandy.Modded.summer_Sat2": "Cotton saris are so perfect for this desert sun. The fabric keeps me cool and it's so breathable.#$b#Ahhh, I need to order more from my supplier. They're worth the wait!$h",
+	"DSV.Dialogue.Daily.Sandy.Modded.summer_Sun4": "If you want a dessert that's cool and refreshing in this summer heat, you can't beat a glass of falooda.$h#$b#I'll make it for you sometime.",
+	"DSV.Dialogue.Daily.Sandy.Modded.summer_Wed6": "Even after all these years, I'm still not completely used to living out here in the desert...$s#$b#I grew up in a city on a great plateau, so it rained a lot more. You haven't seen rain until you've seen our monsoons!",
+	"DSV.Dialogue.Daily.Sandy.Modded.fall_Thu2": "I'm running low on tamarind and cumin... If you're growing any, honey, you know where to find me!",
+	"DSV.Dialogue.Daily.Sandy.Modded.fall_Tue4": "Ooh, what I wouldn't give for a nice plate of kalyani biryani about now...#$b#There's a little restaurant in Zuzu that makes the best biryani I've ever tasted in this country, but it's so far away.",
+	"DSV.Dialogue.Daily.Sandy.Modded.fall_Mon6": "Do you like my new sari? A friend of mine from the hills taught me this traditional way of draping it.#$b#I don't have to worry so much about my stomach accidentally showing this way!$h",
+	"DSV.Dialogue.Daily.Sandy.Modded.winter_Thu2": "Hmm, I wonder if there'd be any takers for goods from home? I know Emily would love the fine silk I can source, that's for sure.",
+	"DSV.Dialogue.Daily.Sandy.Modded.winter_Mon4": "Sometimes, all you crave is a good seekh kebab. Luckily for me, I have the spice mix in good supply!",
+	"DSV.Dialogue.Daily.Sandy.Modded.winter_Tue6": "The cuisine of the desert isn't very spicy. It makes sense, given the heat, but I do miss the kick of chillies in my food.#$b#On the bright side, the climate here is perfect for drying spices!",
+
+	"DSV.Dialogue.Daily.Sandy.Modded.summer_Mon10.CanonFriendlyDialogue": "Are my pins still in place? I bought new ones recently and they keep slipping.$s#$e#*sigh* It's such a long journey into the city, too, I can't just go back and get a refund.$s",
+
+	"DSV.Dialogue.Daily.Sandy.NonbinaryEmily.Mon6.CanonFriendlyDialogue": "I got lunch with Emily not too long ago! It was so great to catch up with them.$h#$e#We talked for a bit about you, actually. All good things, I promise!$h",
+	"DSV.Dialogue.Daily.Sandy.NonbinaryEmily.Mon8.CanonFriendlyDialogue": "Emily's got a real knack for reading people. It's like they're on a different wavelength, or something.#$e#They can't help but treat everyone with equal respect, though, no matter how the other person acts. I admire that.",
+	"DSV.Dialogue.Daily.Sandy.NonbinaryEmily.summer_Thu10.CanonFriendlyDialogue": "If you see Emily, be sure to let them know that I'm free to meet up with them at the time she mentioned.",
+	"DSV.Dialogue.Daily.Sandy.NonbinaryEmily.winter_Wed10.CanonFriendlyDialogue": "Emily's got a real knack for reading people. It's like they're on a different wavelength, or something.#$e#They can't help but treat everyone with equal respect, though, no matter how the other person acts. I admire that.",
+
+// SAM DIALOGUE
+
+	"DSV.Dialogue.Daily.Sam.Trans.Wed2": "I'm always so tired just before my T shot. At least I've only got another day to go.$s",
+	"DSV.Dialogue.Daily.Sam.Trans.Wed4": "I'm glad I'm able to get my T prescription from Dr Harvey. It'd be a real pain if I had to go to Zuzu every time I need it renewed.",
+	"DSV.Dialogue.Daily.Sam.Trans.Mon6": "Penny and me used to secretly swap clothes before we came out to our parents.$h#$b#But you've seen both of us - our fashion styles are completely different! We always ended up laughing at ourselves.$h",
+	"DSV.Dialogue.Daily.Sam.Trans.summer_Mon4": "When I came out to Seb and Abby the second time, I made this giant pink and blue 'Coming Out 2: Electric Boogaloo' banner.$h#$b#It was awesome! You should've seen their faces.$h",
+	"DSV.Dialogue.Daily.Sam.Trans.summer_Sat4.Binder": "Man, binders in summer are the worst, I swear. I'm getting acne breakouts like I'm fifteen again.$s",
+	"DSV.Dialogue.Daily.Sam.Trans.summer_Sat4.NoBinder": "Days like this make me really glad I got top surgery. I don't miss sweating in a binder all day.$h",
+	"DSV.Dialogue.Daily.Sam.Trans.summer_Thu8": "@, you ever get these big rushes of happiness out of nowhere?#$b#Sometimes I'll see 'Mr Samson' written on something and it makes me feel like I could jump up on stage and play for ten thousand people.$h",
+	"DSV.Dialogue.Daily.Sam.Trans.fall_Tue2": "$d kent#Dad's been trying so hard to teach me all the manly stuff he thinks I gotta know.#$b#...I really appreciate it. There's a lot of stuff I never realised.$h|I wonder how Dad will react when he sees me again? I look pretty different from how I was before he left.$s",
+	"DSV.Dialogue.Daily.Sam.Trans.fall_Fri4": "Vincent's a great kid. I'm trying to encourage him to explore gender more, like I did when I was little.#$b#Our parents don't know much about this stuff so I had to figure it out on my own.",
+	"DSV.Dialogue.Daily.Sam.Trans.fall_Mon8": "Yeah, my full name is Samson... Actually, it's a LOT more tame than my birthname.#$b#I let my parents choose my new name when I came out 'cause I wanted them to feel like part of the process, but my dad likes to go really overboard with the old people names.#$b#I like Sam and all, but man...$10",
+	"DSV.Dialogue.Daily.Sam.Trans.winter_Wed4": "I gave Vincent some of my old skirts when I stopped wearing them.#$b#He doesn't care whether they're 'boy clothes' or 'girl clothes', he just thinks they're comfortable to play in.",
+	"DSV.Dialogue.Daily.Sam.Trans.winter_Mon6": "Man, I always used to get annoyed at those dudes who'd walk around in a t-shirt in winter, but then I started on T and I suddenly got it.",
+	"DSV.Dialogue.Daily.Sam.Trans.winter_Thu8.Binder": "I was looking into top surgery options the other day, but man is it expensive!$8#$b#Plus I wouldn't be able to play guitar for a few weeks afterwards.$s#$b#I dunno for sure yet if it's what I want to do, but at least I've got the information now.",
+	"DSV.Dialogue.Daily.Sam.Trans.winter_Thu8.NoBinder": "Mom and Dad were really worried about me after I got top surgery because it took longer than expected for it all to heal up properly, but it's all good now.#$b#I got some awesome scars too!$h",
+
+	"DSV.Dialogue.Daily.Sam.Trans.winter_Tue8.CanonFriendlyDialogue": "Penny and I used to hang out a lot when we first moved here. We might not have that much in common, but we transitioned together and that was huge.#$b#You could say it trans-cended our differences! Hehe.$h#$e#We don't hang out as much now that we're both working, though...$s",
+	
+	"DSV.Dialogue.Daily.Sam.Trans.Fall_10": "Gotta remember to pick up my T prescription at the clinic tomorrow.#$b#I know, I know, I could just walk back over if I forget. That's not the point though!",	
+	"DSV.Dialogue.Daily.Sam.Trans.OneKid_1": "It's weird, but it's so validating to know that I'm a father.$h",
+	
+	"DSV.Dialogue.Daily.Sam.Iranian.spring_Fri6": "Seb and Abigail try not to eat around me during Ramzan.#$b#Sometimes Abigail fasts with me too. She says it's for 'hunger training' or something, but I'm pretty sure it's just solidarity.$h",
+	
+	"DSV.Dialogue.Daily.Sam.Iranian.NonbinaryAbigail.spring_Fri6": "Seb and Abigail try not to eat around me during Ramzan.#$b#Sometimes Abigail fasts with me too. They say it's for 'hunger training' or something, but I'm pretty sure it's just solidarity.$h",
+	
+	"DSV.Dialogue.Daily.Sam.DisabledKent.fall_Sun4": "Mom complains about how often I'm on my phone, but it's been really helpful on days when Dad can't wear his hearing aids. I can just type what I wanna tell him.", 
+	
+	"DSV.Dialogue.Daily.Sam.TwoFriends.winter_Tue6": "I'm pretty lucky to have two non-cis friends I can talk to about things. You know how rare that is in small towns like this?",
+	"DSV.Dialogue.Daily.Sam.ThreeFriends.winter_Tue6": "I'm pretty lucky to have three non-cis friends I can talk to about things. You know how rare that is in small towns like this?",
+	"DSV.Dialogue.Daily.Sam.NonbinaryFriends.Introduction": "Hey, I'm Sam. Good to meet you.$h#$b#Oh yeah, I use he/him pronouns. How 'bout you?",
+
+	"DSV.Dialogue.Daily.Sam.NonbinarySebastian.Wed6": "I've been friends with Sebastian for a while. They're pretty cool.#$e#If you two weren't around I wouldn't really have any friends in town.",
+	"DSV.Dialogue.Daily.Sam.NonbinarySebastian.dating_Sebastian": "I heard you and Sebastian are going out... they better still be coming to band practice every week!",
+	"DSV.Dialogue.Daily.Sam.NonbinarySebastian.married_Sebastian": "Wow, I can't believe you and Sebastian got hitched. Times really are changing...$u#$e#Eh, it's alright, I'm sure they'll still have time to hang out.",
+
+	"DSV.Dialogue.Daily.Sam.NonbinarySebastian.summer_Thu4.CanonFriendlyDialogue": "Sebastian has some pretty cool board games.#$b#A long time ago, I wasn't into board games, but they know how to make them fun.$h",
+
+	"DSV.Dialogue.Daily.Sam.NonbinarySebastian.Rainy_Day_1.CanonFriendlyDialogue": "#$c .5#Do you think Sebastian and Abigail will ever hook up? Heh... now that I'm married I'm trying to get everyone else married too.#Sebastian's a few years older than me. I never expected I'd beat them to the punch with tying the knot.",
+	"DSV.Dialogue.Daily.Sam.NonbinarySebastian.spring_8.CanonFriendlyDialogue": "Sebastian lent me a big ol' stack of their comics. That pretty much carves out my reading for the next month.$h",
+
+	"DSV.Dialogue.Daily.Sam.NonbinarySebastian.IceFestival.ImmersiveFestivalDialogue": "Hey, @. I'm thinking about starting a snowball fight.#$b#If I can just get the drop on Sebastian... They alway seems to know what I'm doing.$7#$b#Hey, wanna help?$h",
+
+	"DSV.Dialogue.Daily.Sam.NonbinaryAbigail.Sat6.CanonFriendlyDialogue": "Abby came up with a cool drum solo. I just have to figure out how to incorporate it into one of our songs.#$e#I didn't think too much of Abby when I was younger, but it turns out they're really creative.",
+	"DSV.Dialogue.Daily.Sam.NonbinaryAbigail.Sat8_1.CanonFriendlyDialogue": "Abby came up with a cool drum solo. I just have to figure out how to incorporate it into one of our songs.#$e#I didn't think too much of Abby when I was younger, but it turns out they're really creative.",
+
+	"DSV.Dialogue.Daily.Sam.NonbinaryAbigail.fall_4.CanonFriendlyDialogue":"This is Abby's favorite season, right? I bet they're enjoying themself.#$e#I noticed, whenever they're in a good mood, Sebastian seems to be pretty happy, too.",
+
+// SEBASTIAN DIALOGUE
+	
+	"DSV.Dialogue.Daily.Sebastian.Modded.Spring_1": "Tet's nearly here! I feel like I'm at the age to be giving red envelopes instead of receiving them, but Mom always slips me one anyway.$h",
+
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.Fri6": "Nonbinary stereotypes are just that, stereotypes. I am perfectly capable of sitting in a chair like a normal person.#$b#...Not that I do.$s",
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.Tue8": "It never hurts to think about your own gender, @. Even if you decide you're cis, you can feel more confident in knowing about yourself.",
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.summer_Thu4": "It'd be fun to try a skirt or something that isn't traditionally masculine. But I think Demetrius would probably short circuit if I broke the gender binary that much.#$b#... That's a pretty good reason to do it, actually.",
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.summer_Sat8": "I think Sam helped me realize I'm nonbinary.  He's so masculine, and that kind of thing just doesn't fit me at all.",
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.fall_Fri4": "One of my favorite comic book artists came out as nonbinary the other day. I'm glad. I always felt like their work was a little queer.$h",
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.fall_Tue6": "Ugh, I know I said my pronouns are he/they, but would it kill Demetrius to use 'they' once in a while? I have both for a reason!$a",
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.winter_Mon4": "Mom's always been supportive of me, but I don't think she really gets it.  It's just not something she grew up thinking about.",
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.winter_Tue8": "You ever feel caught in the middle where you're not really one thing or the other, @?  That's what gender is like for me.",
+	
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.spring24": "I wish this dance wasn't so binary. At least I can dance with Abigail and pretend we're not being gendered.",
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.summer28": "Some jellyfish have both male and female anatomy. And other species of animals have three or more sexes, or just one. Nature is pretty cool, huh?$h",
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.Introduction": "You're the new farmer in town? Why would you move here?#$b#Anyway, I'm Sebastian, he/they pronouns.",
+
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.RSVSBVStall": "I wasn't going to join in, but then I saw the nonbinary stall that Ezra and Derya set up.#$b#Sorry, Sam. Pool's one thing, but all's fair in love and queer competitions.$h", 
+	"DSV.Dialogue.Daily.Sebastian.Married.Nonbinary.RSVSBVStall": "Let's catch up later. I've got to help Derya lay out these queer frog pins.", 
+
+	"DSV.Dialogue.Daily.Sebastian.Nonbinary.Married.OneKid_0": "I'm still getting used to being a parent. Don't worry, I'll take good care of %kid1! It's just... something new.",
+
+	"DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.winter_Wed10.CanonFriendlyDialogue": "Abby's a great person, don't get me wrong. They're cooler than most of the people in town.#$b#But they're a little young. And besides, I've got you.$l",
+	"DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.Introduction": "You're the new farmer in town? Why would you move here?#$b#Anyway, I'm Sebastian, he/him pronouns.",
+
+	"DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.EggFestival.2-3.ImmersiveFestivalDialogue": "Abby always wins the egg hunt.#$b#I honestly don't know why Lewis still lets them compete.",
+	"DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.EggFestival.4-5.ImmersiveFestivalDialogue": "One time I put a bunch of extra eggs in Sam's basket when no one was looking.#$b#The only time Abby's ever lost.$h#$b#Don't tell Sam, he still thinks he beat them fair and square...$7",
+	"DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.FlowerDance.ImmersiveFestivalDialogue": "I wish I didn't have to do this stupid dance...$a#$b#But then Abby wouldn't have anyone to dance with...$n#$b#Don't wanna leave them hangin', I guess...$s",
+
+// SHANE DIALOGUE
+
+	"DSV.Dialogue.Daily.Shane.TurkishGus.SpiritsEve.ImmersiveFestivalDialogue": "We gotta serve Gus's pomegranate şerbet at the wedding, babe! Everyone loves it!$hAnd I want everyone to have a good time.$l",
+
+	"DSV.Dialogue.Daily.Shane.Modded.summer_Tue8": "I've been thinking about Jas's fiesta de quinceañera recently. Since her parents won't be there...$3#$b#Marnie and me are gonna make sure she has a good one and she's not missing out. D'you think she'd want to dance with...?#$b#Don't get your hopes up too high, Shane. It's still years away.$s", 
+
+// VINCENT DIALOGUE
+
+	"DSV.Dialogue.Daily.Vincent.DisabledKent.summer_Fri2": "@, do you wanna see my notebook? It's for writing stuff down when Dad can't hear me!$h",  
+	"DSV.Dialogue.Daily.Vincent.DisabledKent.fall_Wed8": "Do you know how to talk with your hands, @? Dad told me some people who can't hear learn how to do that! Do you think Miss Penny can teach me?",  
+	"DSV.Dialogue.Daily.Vincent.DisabledKent.winter_Thu6": "Sometimes Dad's hearing aids make these funny whistles. It's like there's a bird living in his ear!#$b#If a bird lived in my ear, would I have to put seeds in there for it to eat?$3",  
+
+	"DSV.Dialogue.Daily.Vincent.spring_Wed2": "Sometimes me and Jas swap our clothes for the Flower Dance. It's really fun wearing her dress! I like swishing the skirt around.$h",
+
+	"DSV.Dialogue.Daily.Vincent.TransSam.spring_Mon6": "I wanna wear a pretty dress for the Flower Dance! Sam says I should 'cause I'll... 'break the gender binary'?#$b#I dunno what that means but I'm gonna be Flower Queen when I grow up!$h",
+	"DSV.Dialogue.Daily.Vincent.TransSam.summer_Mon6": "Sam used to wear a lot of skirts and dresses, but he gave all of those to Miss Penny when he found out he was actually a boy! I wish he saved some for me, though.",
+	"DSV.Dialogue.Daily.Vincent.TransSam.fall_Fri6": "Sam and Miss Penny are friends! Sam gave Miss Penny all of his old girl clothes and she gave him all of her old boy clothes a few years ago.#$b#If Jas ever wants my old boy clothes, I'll trade with her too! She has a lot of pretty dresses!",
+	"DSV.Dialogue.Daily.Vincent.TransSam.winter_Thu2": "Sam told me he didn't always know he was my big brother.$3#$b#Isn't that funny? I can't imagine not having a big brother!$h",
+
+	"DSV.Dialogue.Daily.Vincent.DisabledKent.HoHHaley.fall_Sat4": "Miss Haley who lives next door to us has hearing aids just like Dad!#$b#Hers always have pretty gems and beads on them.", 
+
+	"DSV.Dialogue.Daily.Vincent.NonbinaryEmily.summer_Mon4": "Sam said that one of our neighbours Emily isn't a boy or a girl, she's both!$3#$b#And he said that she's not a Miss like Miss Penny, she's Mx Emily.#$e#Mx is a fun word. Can I be Mx Vincent?$h", 
+
+// WILLY DIALOGUE
+
+	"DSV.Dialogue.Daily.Willy.Disabled.Sun2": "Workin' the sea really can cost ye an arm and a leg. Ha! I never get tired of that one.$h",
+	"DSV.Dialogue.Daily.Willy.Disabled.summer_Mon4": "My limbs, eh? This is nothing compared to what happened to the other guy!#$b#Yoba bless his poor soul.$s",
+	"DSV.Dialogue.Daily.Willy.Disabled.summer_Tue6": "The way I lost my hand, eh... Sometimes ye really learn the hard way not to push Gus on his secret sauce recipe too hard.",
+	"DSV.Dialogue.Daily.Willy.Disabled.fall_Mon8": "How'd I lose my limbs? Well... that's why there aren't hippos in Stardew Valley anymore.",
+	"DSV.Dialogue.Daily.Willy.Disabled.fall_Thu6": "My arm and leg? Never take a loan from Joja. They're dead serious about debt collection!",
+	"DSV.Dialogue.Daily.Willy.Disabled.winter_Tue10": "My hand, ye say? Same way Marlon lost his eye. He's never really forgiven me for that one.",
+	"DSV.Dialogue.Daily.Willy.Disabled.winter_Sat2": "The way I lost my leg... Well, ye can love crabs, but they'll never love ye back.",
+	"DSV.Dialogue.Daily.Willy.Disabled.spring_Fri2": "Listen, I promise ye I didn't lose my limbs in a shark attack. They'll not go pokin' ye unless ye poke 'em first.",
+	"DSV.Dialogue.Daily.Willy.Disabled.summer_Sat4": "One of the first things I learned after losing my hand was how to tie a bowline knot one-handed in ten seconds or less.#$b#I'm under seven seconds now!$h",
+	
+	"DSV.Dialogue.Daily.Willy.Disabled.Rain": "The rain makes my knees hurt.  I know I only have the one... but they both hurt all the same.$s",
+	"DSV.Dialogue.Daily.Willy.Disabled.summer28": "Jellies can regrow a limb if they lose one. Not that I envy them, mind. Jellies can't go fishin', after all.$h",
+	"DSV.Dialogue.Daily.Willy.Disabled.winter8": "I put special grips on my prosthetic leg in winter to deal with ice. I've got a better grip than ye two-legged folk, that's fer sure!",
+
+	"DSV.Dialogue.Daily.Willy.Tongan.spring_Wed8": "I once knew a historian an' storyteller, a fellow Islander who called himself a seeker o' lore.$s#$b#We had our differences, but he was a good man who loved his friends.$s#$b#May his 'aumakua welcome him home.",
+
+	"DSV.Dialogue.Daily.Willy.SpiritsEve": "Ahh, I could tell ye some tales of the deep dark ocean that'd scare the skin off your bones!", //&&New!
+
+// WITCH DIALOGUE
+
+	"DSV.Dialogue.Daily.Witch.Modded.MagicInk": "Her anger was so intense that in an attempt to hurt me, she began flying around the countryside, cursing everything in her path...",
+
+//
+///////////// JAEMIN DIALOGUE /////////////
+//
+
+// DAILY DIALOGUE
+
+	"DSV.Dialogue.Daily.Jaemin.SamoanGeorge.fall_Sun2.Regular": "On Sundays, I watch gridball with Mr. Muliaina and Alex.#$b#I don't really get what's going on most of the time, but it's cute how excited they both get.$h", //&&Edit! Changed $b# to #$b#
+	"DSV.Dialogue.Daily.Jaemin.SamoanGeorge.fall_23.Regular": "It's Mr. Muliaina's birthday tomorrow. I want to get him something, but all I can think of is leeks...$s#$e#It would be kind of weird to gift wrap a leek, huh?$s",
+	"DSV.Dialogue.Daily.Jaemin.SamoanGeorge.fall_Sun2.Avoiding": "Normally, around this time I'd be watching gridball with Mr. Muliaina and Alex...$9#$e#Maybe it's for the better. I didn't really get what was going on most of the time, anyway.$9",
+	"DSV.Dialogue.Daily.Jaemin.SamoanGeorge.fall_23.Avoiding": "Tomorrow is Mr. Muliaina's birthday. I bet Alex is going to give him a gift-wrapped leek again.#$e#If things weren't so awkward between us right now, I'd tell him to at least try frying some mushrooms...$9",
+	"DSV.Dialogue.Daily.Jaemin.SamoanGeorge.spring_Sun10.Married": "'Jaemin Muliaina' sounds a little funny, but I like it!#$b#My Gotoro heritage will always be a part of me, but I am also a part of Alex's family - and this country.$h",
+
+	"DSV.Dialogue.Daily.Jaemin.MexicanGeorge.fall_Sun2.Regular": "On Sundays, I watch gridball with Mr. Muñoz and Alex.#$b#I don't really get what's going on most of the time, but it's cute how excited they both get.$h", //&&Edit! Changed $b# to #$b#
+	"DSV.Dialogue.Daily.Jaemin.MexicanGeorge.fall_23.Regular": "It's Mr. Muñoz's birthday tomorrow. I want to get him something, but all I can think of is leeks...$s#$e#It would be kind of weird to gift wrap a leek, huh?$s",
+	"DSV.Dialogue.Daily.Jaemin.MexicanGeorge.fall_Sun2.Avoiding": "Normally, around this time I'd be watching gridball with Mr. Muñoz and Alex...$9#$e#Maybe it's for the better. I didn't really get what was going on most of the time, anyway.$9",
+	"DSV.Dialogue.Daily.Jaemin.MexicanGeorge.fall_23.Avoiding": "Tomorrow is Mr. Muñoz's birthday. I bet Alex is going to give him a gift-wrapped leek again.#$e#If things weren't so awkward between us right now, I'd tell him to at least try frying some mushrooms...$9",
+	"DSV.Dialogue.Daily.Jaemin.MexicanGeorge.spring_Sun10.Married": "'Jaemin Muñoz' sounds a little funny, but I like it!#$b#My Gotoro heritage will always be a part of me, but I am also a part of Alex's family - and this country.$h",
+
+// EVENTS
+
+	"DSV.Events.Jaemin.SamoanGeorge.WeddingCeremony.JaeminVows": "speak Jaemin \"I, Park Jaemin, hereby take you, Alex Muliaina, as my lawfully wedded husband.$3#$b#When you need a friend, I will comfort you.$3#$b#When you need a teacher, I will guide you.$3#$b#When you need me... I will be with you.$2#$b#I promise to love you with all my heart, for as long as we both shall live.$2\"",
+	"DSV.Events.Jaemin.SamoanGeorge.WeddingCeremony.AlexVows": "speak Alex \"I, Alex Muliaina, take you, Park Jaemin, as my lawfully wedded husband.#$b#I will be your husband, your friend, and your biggest supporter.#$b#I promise to always put you first, even during gridball season, and I will share all my hair gel with you.$h#$b#But most of all, I promise to love you with all my heart, even more than I already do, for as long as we both live.$2\"",
+	
+	"DSV.Events.Jaemin.MexicanGeorge.WeddingCeremony.JaeminVows": "speak Jaemin \"I, Park Jaemin, hereby take you, Alex Muñoz, as my lawfully wedded husband.$3#$b#When you need a friend, I will comfort you.$3#$b#When you need a teacher, I will guide you.$3#$b#When you need me... I will be with you.$2#$b#I promise to love you with all my heart, for as long as we both shall live.$2\"",
+	"DSV.Events.Jaemin.MexicanGeorge.WeddingCeremony.AlexVows": "speak Alex \"I, Alex Muñoz, take you, Park Jaemin, as my lawfully wedded husband.#$b#I will be your husband, your friend, and your biggest supporter.#$b#I promise to always put you first, even during gridball season, and I will share all my hair gel with you.$h#$b#But most of all, I promise to love you with all my heart, even more than I already do, for as long as we both live.$2\"",
+
+// MAIL
+
+	"DSV.Mail.Jaemin.SamoanGeorge.ShoppingLetter": "Jaemin and Alex Muliaina",
+	"DSV.Mail.Jaemin.SamoanGeorge.WeddingInvitation": "Jaemin Park and Alex Muliaina",
+
+	"DSV.Mail.Jaemin.MexicanGeorge.ShoppingLetter": "Jaemin and Alex Muñoz",
+	"DSV.Mail.Jaemin.MexicanGeorge.WeddingInvitation": "Jaemin Park and Alex Muñoz",
+
+// STRINGS
+
+	"DSV.Strings.Jaemin.SamoanGeorge.GeorgeBday": "Happy birthday, Mr. Muliaina!$h",
+
+	"DSV.Strings.Jaemin.MexicanGeorge.GeorgeBday": "Happy birthday, Mr. Muñoz!$h",
+
+//
+///////////// MARIGOLD DIALOGUE /////////////
+//
+
+	"DSV.Marigold.CharacterName": "Marigold",
+	"DSV.Marigold.LinusRelationship": "human",
+	"DSV.Marigold.MarigoldRelationship": "service dog",
+
+	"DSV.Marigold.Working": "*Marigold is working now. Better not distract her.*",
+
+	"DSV.Marigold.Daily.1": "Ruff! Ruff!",
+	"DSV.Marigold.Daily.2": "Arf! Woof!",
+	"DSV.Marigold.Daily.3": "*pant* *pant* *pant*",
+	"DSV.Marigold.Daily.4": "*sniff* *sniff*",
+	"DSV.Marigold.Daily.5": "Bark! Bark!$h", 
+	"DSV.Marigold.Daily.6": "Woof! Woof!",
+	"DSV.Marigold.Daily.7": "Arf! Arf!",
+	"DSV.Marigold.Daily.8": "Arooooo...$s", 
+	"DSV.Marigold.Daily.9": "Aroo? Whuff!", 
+	"DSV.Marigold.Daily.10": "Whuff! Bark bark bark!$h", 
+
+	"DSV.Marigold.Daily.Sunny.8": "*Marigold scratches behind her ears.*",
+	"DSV.Marigold.Daily.Sunny.9": "*Marigold wags her tail when she sees you.*$h",
+	"DSV.Marigold.Daily.Sunny.10": "*Marigold is watching Linus.*",
+	"DSV.Marigold.Daily.Sunny.11": "*Marigold stretches her back.*",
+
+	"DSV.Marigold.Daily.Rainy.8": "*Marigold sneezes as a raindrop hits her nose.*$s",
+	"DSV.Marigold.Daily.Rainy.9": "*Marigold wags her tail when she sees you, water droplets flying everywhere.*$h",
+	"DSV.Marigold.Daily.Rainy.10": "*Marigold looks around happily.*$h",
+	"DSV.Marigold.Daily.Rainy.11": "*Marigold is watching Linus.*",
+	"DSV.Marigold.Daily.Rainy.12": "*Marigold shakes water out of her coat.*",
+
+	"DSV.Marigold.Daily.1.Talk": "Linus! The mountain smells good today!",
+	"DSV.Marigold.Daily.2.Talk": "@! Hi, @! Are you here to see Linus?",
+	"DSV.Marigold.Daily.3.Talk": "*pant* *pant* *pant*#$b#Yesterday's forage was a good one!",
+	"DSV.Marigold.Daily.4.Talk": "*sniff* *sniff* Is there a rat nearby? I think I smell a rat. But I won't chase it.",
+	"DSV.Marigold.Daily.5.Talk": "%revealtaste:Linus:583 Jorts and I found a good bone in the trash the other day.$h", 
+	"DSV.Marigold.Daily.6.Talk": "Sorry, @, can't talk. I'm watching Linus.",
+	"DSV.Marigold.Daily.7.Talk": "I won't get distracted! I'm working hard.",
+	"DSV.Marigold.Daily.8.Talk": "%revealtaste:Linus:580 I can smell a good bone nearby... I won't dig for it, but I wish I had it.$s",
+	"DSV.Marigold.Daily.9.Talk": "%revealtaste:Linus:424 Cheese...? Do you have cheese?! No no, I won't get distracted. Cheese will wait.",
+	"DSV.Marigold.Daily.10.Talk": "%revealtaste:Linus:176 Eggs are really tasty. Sometimes Linus finds a bird nest with lots of eggs!$h",
+
+	"DSV.Marigold.Daily.Sunny.8.Talk": "*Marigold scratches behind her ears.*#$b#I think there's a bramble stuck in my fur. Linus, can you get it for me?",
+	"DSV.Marigold.Daily.Sunny.9.Talk": "*Marigold wags her tail when she sees you.*$h#$b#Hello, @! It's a good day today!",
+	"DSV.Marigold.Daily.Sunny.10.Talk": "*Marigold is watching Linus.*#$b#Linus, please take it easy today...",
+	"DSV.Marigold.Daily.Sunny.11.Talk": "*Marigold stretches her back.*#$b#Linus, will you scritch my ears for me, please?",
+
+	"DSV.Marigold.Daily.Rainy.8.Talk": "*Marigold sneezes as a raindrop hits her nose.*$s#$b#I hope it doesn't storm later...",
+	"DSV.Marigold.Daily.Rainy.9.Talk": "*Marigold wags her tail when she sees you, water droplets flying everywhere.*$h#$bHello, @! Did you get very wet coming here?",
+	"DSV.Marigold.Daily.Rainy.10.Talk": "*Marigold looks around happily.*$h#$b#What are we looking for today, Linus?",
+	"DSV.Marigold.Daily.Rainy.11.Talk": "*Marigold is watching Linus.*#$b#Linus, make sure you watch your feet today.",
+	"DSV.Marigold.Daily.Rainy.12.Talk": "*Marigold shakes water out of her coat.*#$b#Don't worry, @, my vest is waterproof!",
+
+	"DSV.Marigold.Sleep.1": "*Marigold is sleeping now. Better not disturb her.*",
+	"DSV.Marigold.Sleep.2": "Zzz... zzz...$3#$b#*Marigold is sleeping now. Better not disturb her.*",
+	"DSV.Marigold.Sleep.3": "Rrr... rrr...$3#$b#*Marigold is sleeping now. Better not disturb her.*",
+	"DSV.Marigold.Sleep.4": "*Marigold snuffles gently in her sleep. Better not disturb her.*",
+	"DSV.Marigold.Sleep.5": "*Marigold whimpers a little in her sleep. Better not disturb her.*",
+	"DSV.Marigold.Sleep.6": "*Marigold is sleeping peacefully. Better not disturb her.*",
+	"DSV.Marigold.Sleep.7": "*Marigold's paws twitch in her sleep. Better not disturb her.*",
+	"DSV.Marigold.Sleep.8": "*Marigold is curled up with her nose tucked under her tail. Better not disturb her.*",
+	"DSV.Marigold.Sleep.9": "*Marigold is sprawled out in her sleep. Better not disturb her.*",
+	"DSV.Marigold.Sleep.10": "*Marigold is making little whuff sounds in her sleep. Better not disturb her.*",
+
+	"DSV.Marigold.Sleep.2.Talk": "Zzz... zzz... More cheese, please...$3#$b#*Marigold is sleeping now. Better not disturb her.*",
+	"DSV.Marigold.Sleep.3.Talk": "Rrr... rrr... Gonna catch you, squirrel...$3#$b#*Marigold is sleeping now. Better not disturb her.*",
+
+	"DSV.Marigold.Festival.spring13": "*Marigold is eyeing a boiled egg that's been left too close to the edge of the table.*#$b#*Maybe if she stretches out her tongue, she'll be able to grab it?*$h",
+	"DSV.Marigold.Festival.spring24": "*Marigold paws at her nose as a petal lands on it.*",
+	"DSV.Marigold.Festival.summer11": "*Marigold is drooling as she watches the meat cooking, her nose twitching at the delicious smell.*$h",
+	"DSV.Marigold.Festival.summer28": "*Marigold is intently watching a small jellyfish in the water, but one ear is turned back towards Linus.*#$b#*Since Linus said it was okay, you gently pet her.*$h",
+	"DSV.Marigold.Festival.fall16": "*Marigold is enjoying a hotdog someone dropped. She nudges at Linus's hand so he'll scritch behind her ears.*$h",
+	"DSV.Marigold.Festival.fall27": "*Marigold lets out a gentle whuff. Somehow it seems more knowing than usual.*",
+	"DSV.Marigold.Festival.winter8": "*Marigold is pressed up against Linus's side. He runs a hand through her fur reassuringly.*$s",
+	"DSV.Marigold.Festival.winter25": "*Marigold licks Linus's hand and he smiles a little in response.*",
+
+	"DSV.Marigold.Festival.Y2.spring13": "*Marigold's ears perk up when Linus says 'pie'. She's sitting politely, but her tail is wagging in slow thumps against the ground.*", 
+	"DSV.Marigold.Festival.Y2.spring24": "*Marigold licks a blob of salmonberry jelly off her snout.*$h", 
+	"DSV.Marigold.Festival.Y2.summer11": "*Marigold watches Linus as he walks around the spit. Even with the meat right there!*", 
+	"DSV.Marigold.Festival.Y2.summer28": "*Marigold has positioned herself slightly between Linus and the edge of the dock so that he can use her for support.*", 
+	"DSV.Marigold.Festival.Y2.fall16": "*Marigold whuffs and presses her head gently against Linus's side.*", 
+	"DSV.Marigold.Festival.Y2.fall27": "*Marigold lets out a gentle whuff. Somehow it seems more knowing than usual.*", 
+	"DSV.Marigold.Festival.Y2.winter8": "*Marigold's fur has fluffed up in protest against the cold.*$s", 
+	"DSV.Marigold.Festival.Y2.winter25": "*Marigold is happily gnawing on a big bone that Linus slipped her under the table.*$h", 
+	
+	"DSV.Marigold.Festival.fall20": "*Despite all the distractions, Marigold is keeping a close watch on Linus. She's a hard worker.*",
+	"DSV.Marigold.Festival.winter28": "*Marigold is sniffing curiously at the scent of ash and fresh-cut wood in the air.*",
+	"DSV.Marigold.Festival.summer20": "*Marigold's ears are pressed back in discomfort, but she's still standing vigilant. What a professional.*$s",
+	"DSV.Marigold.Festival.summer5": "*Marigold is panting happily, her eyes closed as she enjoys the sun.*$h",
+
+	"DSV.Marigold.Festival.spring13.Talk": "*Marigold is eyeing a boiled egg that's been left too close to the edge of the table.*#$b#*Maybe if she stretches out her tongue, she'll be able to grab it?*$h#$b#A little more... roll just a little more...",
+	"DSV.Marigold.Festival.spring24.Talk": "*Marigold paws at her nose as a petal lands on it.*#$b#It's been a long time since you danced, Linus. Let's dance at home!",
+	"DSV.Marigold.Festival.summer11.Talk": "*Marigold is drooling as she watches the meat cooking, her nose twitching at the delicious smell.*$h#$b#So much meat and cheese...$h",
+	"DSV.Marigold.Festival.summer28.Talk": "*Marigold is intently watching a small jellyfish in the water, but one ear is turned back towards Linus.*#$b#*Since Linus said it was okay, you gently pet her.*$h#$b#Ohh, that feels nice. A little to the left, please.$h",
+	"DSV.Marigold.Festival.fall16.Talk": "*Marigold is enjoying a hotdog someone dropped. She nudges at Linus's hand so he'll scritch behind her ears.*$h#$b#The other animals like being here, @. They get lots of treats and pats.",
+	"DSV.Marigold.Festival.fall27.Talk": "*Marigold lets out a gentle whuff. Somehow it seems more knowing than usual.*#$b#They're happy today, aren't they? It's nice.",
+	"DSV.Marigold.Festival.winter8.Talk": "*Marigold is pressed up against Linus's side. He runs a hand through her fur reassuringly.*$s#$b#It's cold... Even my fur isn't thick enough for this ice.",
+	"DSV.Marigold.Festival.winter25.Talk": "*Marigold licks Linus's hand and he smiles a little in response.*#$b#You'll always have me, Linus. No matter what.",
+
+	"DSV.Marigold.Festival.Y2.spring13.Talk": "*Marigold's ears perk up when Linus says 'pie'. She's sitting politely, but her tail is wagging in slow thumps against the ground.*#$b#Pie would be very nice, yes yes. And some of the egg pie too!", 
+	"DSV.Marigold.Festival.Y2.spring24.Talk": "*Marigold licks a blob of salmonberry jelly off her snout.*$h#$b#Linus's jelly is really good on the bread we find outside the saloon sometimes. You should try it, @!", 
+	"DSV.Marigold.Festival.Y2.summer11.Talk": "*Marigold watches Linus as he walks around the spit. Even with the meat right there!*#$b#How much longer, Linus?$h", 
+	"DSV.Marigold.Festival.Y2.summer28.Talk": "*Marigold has positioned herself slightly between Linus and the edge of the dock so that he can use her for support.*#$b#If you start feeling tired, promise me we'll go back to the sand.$s", 
+	"DSV.Marigold.Festival.Y2.fall16.Talk": "*Marigold whuffs and presses her head gently against Linus's side.*#$b#We do have feelings. I'll always love Linus.", 
+	"DSV.Marigold.Festival.Y2.fall27.Talk": "*Marigold lets out a gentle whuff. Somehow it seems more knowing than usual.*#$b#I'm happy the two of you can spend time together again like this.", 
+	"DSV.Marigold.Festival.Y2.winter8.Talk": "*Marigold's fur has fluffed up in protest against the cold.*$s#$b#Can we go back inside the igloo now, Linus? Please?", 
+	"DSV.Marigold.Festival.Y2.winter25.Talk": "*Marigold is happily gnawing on a big bone that Linus slipped her under the table.*$h#$b#The mayor is so nice! He gave us some food for tomorrow too!", 
+	
+	"DSV.Marigold.Festival.fall20.Talk": "*Despite all the distractions, Marigold is keeping a close watch on Linus. She's a hard worker.*#$b#It smells so different up here. We should come and forage more often, Linus!",
+	"DSV.Marigold.Festival.winter28.Talk": "*Marigold is sniffing curiously at the scent of ash and fresh-cut wood in the air.*#$b#When does the big fire start again?",
+	"DSV.Marigold.Festival.summer20.Talk": "*Marigold's ears are pressed back in discomfort, but she's still standing vigilant. What a professional.*$s#$b#Linus, can we go home soon? I don't like the bangs.$s",
+	"DSV.Marigold.Festival.summer5.Talk": "*Marigold is panting happily, her eyes closed as she enjoys the sun.*$h#$b#Let's go for a splash later, Linus!$h",
+
+	"DSV.Marigold.ConversationTopic.GreenRain": "Woof! Woof!#$b#*Marigold barks happily at the sky. Looks like the green rain doesn't bother her.*$h", 
+	"DSV.Marigold.ConversationTopic.GreenRainFinished": "*Marigold is eagerly sniffing some of the moss Linus collected.*$h", 
+	"DSV.Marigold.ConversationTopic.GreenRain_2": "*Marigold's tail is wagging a million miles an hour, spraying green droplets everywhere.*$h", 
+
+	"DSV.Marigold.ConversationTopic.GreenRain.Talk": "Woof! Woof!#$b#*Marigold barks happily at the sky. Looks like the green rain doesn't bother her.*$h#$b#Everything smells like moss! Let's go play in the rain, Linus!$h", //&&Edit!
+	"DSV.Marigold.ConversationTopic.GreenRainFinished.Talk": "*Marigold is eagerly sniffing some of the moss Linus collected.*$h#$b#The special rain went away, but we have lots of moss for naps now.$h", //&&Edit!
+	"DSV.Marigold.ConversationTopic.GreenRain_2.Talk": "*Marigold's tail is wagging a million miles an hour, spraying green droplets everywhere.*$h#$b#The special rain is back! It feels nice in my fur.$h", //&&Edit!
+
+	"DSV.Marigold.DesertFestival.1": "*Marigold crunches happily on a Calico egg.*$h", //&&New!
+	"DSV.Marigold.DesertFestival.2": "*Marigold is relaxing in the warm sand.*", //&&New!
+	"DSV.Marigold.DesertFestival.3": "*Marigold is warily keeping an eye on the Skull Cavern.*", //&&New!
+
+	"DSV.Marigold.DesertFestival.1.Talk": "*Marigold crunches happily on a Calico egg.*$h#$b#Th's egg is sho d'lishus!$h", //&&New!
+	"DSV.Marigold.DesertFestival.2.Talk": "*Marigold is relaxing in the warm sand.*#$b#The desert smells like so many old bones hidden under the sand. But there's life here too.", //&&New!
+	"DSV.Marigold.DesertFestival.3.Talk": "*Marigold is warily keeping an eye on the Skull Cavern.*#$b#@, that place is bad. Don't go in there, please.$s", //&&New!
+
+	"DSV.Marigold.ConversationTopic.Marigold.MeetTheCats": "Did you meet Jorts and Jean, @? I like them! Jorts is very friendly.$h",
+	"DSV.Marigold.ConversationTopic.Marigold.DumpsterFishing": "*Marigold looks particularly happy today. She must have enjoyed that bone.*$h#$b#It's nice to see people being kind to Linus. It doesn't happen much.",
+	"DSV.Marigold.ConversationTopic.Jean.DumpsterFishing": "Most dogs are NOT friends, but... Marigold is a fellow professional.#$b#I'll admit she still makes me nervous for Jorts, but I hold a lot of respect for the work she does.",
+	"DSV.Marigold.ConversationTopic.Linus.MeetTheCats": "Jean comes to fish with me and Marigold sometimes, while Jorts keeps us company.#$b#She's a good listener and he's a good talker. They work well together.$h#$b#I'm glad Marigold has never tried to chase them either.$h",
+
+//
+///////////// MARIGOLD EVENTS /////////////
+//
+
+	"DSV.Marigold.Event.26.01": "@! Come stand next to the firepit. It feels great.",
+	"DSV.Marigold.Event.26.02": "I was hoping you'd come by sometime.",
+	"DSV.Marigold.Event.26.03": "I wanted to say sorry for mistrusting you at first.$s#$b#Most people don't treat us well, so I've learned to be cautious.$s",
+	"DSV.Marigold.Event.26.04": "But you've been uncommonly nice to me. You're a unique person.$h#$b#...And I consider you a good friend.",
+	"DSV.Marigold.Event.26.05": "Hey, I want to show you something. Come inside.$h",
+	"DSV.Marigold.Event.26.06": "Ah... there we go. See this? It's a special kind of fish bait that I make.#$b#It's top quality stuff... I'd eat it myself!#$b#Here, I want you to have the recipe.",
+	"DSV.Marigold.Event.26.07": "Learned how to craft 'Wild Bait'",
+	
+	"DSV.Marigold.Event.371652.01": "Eep!",
+	"DSV.Marigold.Event.371652.02": "Oh... It's Linus, right?$s",
+	"DSV.Marigold.Event.371652.03": "Are you hungry? I could make you some lunch...#$b#How about some leftover cave carrot stew? I could find something for your dog too.",
+	"DSV.Marigold.Event.371652.04": "That's very nice of you, but no thanks! We've had great luck foraging today.$h",
+	"DSV.Marigold.Event.371652.05": "Heh... okay.$5",
+	"DSV.Marigold.Event.371652.06": "@? You look like you have something to say...",
+	"DSV.Marigold.Event.371652.07": "Wow!",
+	"DSV.Marigold.Event.371652.08": "That's really generous! What a great idea! I can build a real cozy house for you, Linus.$h",
+	"DSV.Marigold.Event.371652.09": "You'll finally have running water, heat, a roof over your head... just like the rest of us! Isn't that wonderful, Linus?",
+	"DSV.Marigold.Event.371652.10": "Er...$s#$b#Um... No, thanks.$s",
+	"DSV.Marigold.Event.371652.11": "Whaa..?",
+	"DSV.Marigold.Event.371652.12": "I appreciate the kindness... I really do...$s#$b#But... I've told you before... I choose to live this way...",
+	"DSV.Marigold.Event.371652.13": "I like to be alone most of the time... I like the quiet sounds... moving with the rhythm of nature...#$b#It's a way of life that I'm comfortable with. I don't ever want to change that.",
+	"DSV.Marigold.Event.371652.14": "I guess I never thought about it that way...$5",
+	"DSV.Marigold.Event.371652.15": "@... I cherish our friendship very much. And I know you do, too.$h#$b#But... You don't need to try and 'help' me... I know best how to live my own life... okay?",
+	"DSV.Marigold.Event.371652.16": "...can you smell that? It's the sweet aroma of ripe berries...$h",
+	"DSV.Marigold.Event.371652.linusWell.01": "Thanks, @. You had me worried, there... I thought you were going to ask me to move on to the farm with you! *wink*#$b#You know, I consider you my closest friend in the valley... you've never tried to 'fix' me... you respect my way of life, even if you don't understand it.$h#$b#I really appreciate that.",
+	"DSV.Marigold.Event.371652.linusWell.02": "Ah... can you smell that? It's the sweet aroma of ripe berries...$h",
+	"DSV.Marigold.Event.371652.linusWell.03": "Aww.. What a sweetheart...$h",
+	
+	"DSV.Marigold.Event.8357109.01": "Ahhh... that feels good.$4",
+	"DSV.Marigold.Event.8357109.02": "The water's never been cleaner.$4",
+	"DSV.Marigold.Event.8357109.03": "...And the same goes for me! Hehehe.$5",
+
+	"DSV.Marigold.Event.502969.01": "Grr... sounds like those raccoons are back again. Filthy varmints...",
+	"DSV.Marigold.Event.502969.02": "Ah, you turned up at the right moment, farmer.#$b#Could you do an old man a favor? Could you go around the corner and scare off those raccoons for me? They've been causin' a real mess.#$b#Thanks. Make sure you give 'em a good scare so they never come back.",
+	"DSV.Marigold.Event.502969.03": "It was me... I'm sorry.$s",
+	"DSV.Marigold.Event.502969.04": "I find a lot of hot, fresh food in these cans... stuff that will go to waste if Marigold and I don't take it.",
+	"DSV.Marigold.Event.502969.05": "$y 'Do you think there's something wrong with what I'm doing?_Yes, it's disgusting._Disgusting to you, maybe. To me, it's a way of life. And I haven't gotten sick yet. I only eat things that look fresh._No. It's a shame for food to go to waste._Thanks, @. I knew you were an open-minded person. I feel good about what I'm doing. I'm not harming anyone.$h_Yes, it's illegal. That's George's private property._I don't believe in 'private property'. Besides, what do you want us to do? We need this food to survive. Have a heart.$s_No, but you should get a job and stop leeching off others._*Sigh*... Not everyone's cut out for this world, @. You don't know what it's like to be me. I'm not harming anyone, I just want to live life in my own way. Is that so wrong?'",
+	"DSV.Marigold.Event.502969.06": "You can go on home. I promise I won't rummage in George's can anymore.#$b#You can tell him you scared off the raccoons for good.",
+	"DSV.Marigold.Event.502969.07": "Wait.$u",
+	"DSV.Marigold.Event.502969.08": "I know what you were doing, Linus.$3",
+	"DSV.Marigold.Event.502969.09": "If you need food... just ask. I don't want anyone in Pelican Town to go hungry.",
+	"DSV.Marigold.Event.502969.10": "Here. I've got a basket of zucchini fritters for you, and a nice meaty bone for Marigold. Just make sure you dip the fritters in my spicy marinara sauce!$h#$b#Go on... take it.",
+
+	"DSV.Marigold.Event.502969.Jorts.01": "Hiya!$h",
+	"DSV.Marigold.Event.502969.Jorts.02": "Don't tell me that orange cat's ended up in the garbage again....",
+	"DSV.Marigold.Event.502969.Jorts.03": "Ah, you turned up at the right moment, son.^Ah, you turned up at the right moment, miss.#$b#Could you do an old man a favor? Could you go around the corner and see if that Jorts cat has gotten in there? It's making an awful racket.#$b#Thanks. Make sure you seal it real tight so he doesn't get in again.",
+	"DSV.Marigold.Event.502969.Jorts.04": "Hi, @! Linus and Marigold and I were about to go dumpster fishing!$h",
+	"DSV.Marigold.Event.502969.Jorts.05": "It's dumpster diving, Jorts...$s",
+	"DSV.Marigold.Event.502969.Jorts.06": "Jorts helps me and Marigold find a lot of hot, fresh food in these cans... stuff that will go to waste if we don't take it.",
+	"DSV.Marigold.Event.502969.Jorts.07": "It's like exploring! Except nothing is dangerous, just scrungy.",
+	"DSV.Marigold.Event.502969.Jorts.08": "$y 'Do you think there's something wrong with what I'm doing?_Yes, it's disgusting._Disgusting to you, maybe. To me, it's a way of life. And I haven't gotten sick yet. I only eat things that look fresh._No. It's a shame for food to go to waste._Thanks, @. I knew you were an open-minded person. I feel good about what I'm doing. I'm not harming anyone.$h_Yes, it's illegal. That's George's private property._I don't believe in 'private property'. Besides, what do you want me to do? I need this food to survive. Have a heart.$s_No, but you should get a job and stop leeching off others._*Sigh*... Not everyone's cut out for this world, @. You don't know what it's like to be me. I'm not harming anyone, I just want to live life in my own way. Is that so wrong?'",
+	"DSV.Marigold.Event.502969.Jorts.09": "You can go on home. I'll make sure Jorts and I keep the noise down from now on.#$b#You can tell him you sealed up the can nice and good.#$b#And you go on home too, Jorts. Jean's waiting on you.",
+	"DSV.Marigold.Event.502969.Jorts.10": "'kay!",
+	"DSV.Marigold.Event.502969.Jorts.11": "Wait.$u",
+	"DSV.Marigold.Event.502969.Jorts.12": "I thought it was Jorts in my trash can... turns out it was just you, huh?$3",
+	"DSV.Marigold.Event.502969.Jorts.13": "Well, I'm not sure if it's to your taste, but I've got a fresh-baked fish here, and there's some nice meaty bones for Marigold just inside. You can have them.$h",
+	"DSV.Marigold.Event.502969.Jorts.14": "If you need food... just ask. I don't want anyone in Pelican Town to go hungry.#$b#Go on... take it.$h",
+
+	"DSV.Marigold.Event.6497428.01": "Hello, Leo... My name's Linus and this is Marigold.#$b#I've heard all about you, and your parrot family.#$b#It's really something special!$h",
+	"DSV.Marigold.Event.6497428.02": "Aye, lad... Linus lives on the mainland with Marigold and the rest of us.#$b#After hearing your story... I wanted to help. So, I talked to Linus here and hatched a little plan.$h",
+
+	"DSV.Marigold.Event.6497428.GINO.01": "It's alright, Leo. This is Linus and Marigold. They're friendly.",
+	"DSV.Marigold.Event.6497428.GINO.02": "Aye, lad... Linus lives on the mainland with Marigold and the rest of us.#$b#After hearing your story... I wanted to help. So I brought him here to hatch a little plan.$h"
+	
+}

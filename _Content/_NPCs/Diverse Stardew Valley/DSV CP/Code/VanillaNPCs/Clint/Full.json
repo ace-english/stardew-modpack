@@ -1,0 +1,352 @@
+{
+// CLINT DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Clint Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Clint", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Clint.Indoor":
+				{
+					"Id": "{{ModId}}_Clint_Indoor",
+					"Portrait": "Portraits/Clint_Indoor",
+					"Sprite": "Characters/Clint_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Clint.Outdoor":
+				{
+					"Id": "{{ModId}}_Clint_Outdoor",
+					"Portrait": "Portraits/Clint_Outdoor",
+					"Sprite": "Characters/Clint_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Clint.EggFestival":
+				{
+					"Id": "{{ModId}}_Clint_EggFestival",
+					"Portrait": "Portraits/Clint_EggFestival",
+					"Sprite": "Characters/Clint_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Clint.FlowerDance":
+				{
+					"Id": "{{ModId}}_Clint_FlowerDance",
+					"Portrait": "Portraits/Clint_FlowerDance",
+					"Sprite": "Characters/Clint_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Clint.Luau":
+				{
+					"Id": "{{ModId}}_Clint_Luau",
+					"Portrait": "Portraits/Clint_Luau",
+					"Sprite": "Characters/Clint_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Clint.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Clint_MoonlightJellies",
+					"Portrait": "Portraits/Clint_MoonlightJellies",
+					"Sprite": "Characters/Clint_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Clint.SVFair":
+				{
+					"Id": "{{ModId}}_Clint_SVFair",
+					"Portrait": "Portraits/Clint_SVFair",
+					"Sprite": "Characters/Clint_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Clint.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Clint_SpiritsEve",
+					"Portrait": "Portraits/Clint_SpiritsEve",
+					"Sprite": "Characters/Clint_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Clint.IceFestival":
+				{
+					"Id": "{{ModId}}_Clint_IceFestival",
+					"Portrait": "Portraits/Clint_IceFestival",
+					"Sprite": "Characters/Clint_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Clint.WinterStar":
+				{
+					"Id": "{{ModId}}_Clint_WinterStar",
+					"Portrait": "Portraits/Clint_WinterStar",
+					"Sprite": "Characters/Clint_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Clint.Swim":
+				{
+					"Id": "{{ModId}}_Clint_Swim",
+					"Portrait": "Portraits/Clint_Swim",
+					"Sprite": "Characters/Clint_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Clint.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Clint_WeddingGuest",
+					"Sprite": "Characters/Clint_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Clint.HotClimate":
+				{
+					"Id": "{{ModId}}_Clint_HotClimate",
+					"Portrait": "Portraits/Clint_HotClimate",
+					"Sprite": "Characters/Clint_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Clint.Forge":
+				{
+					"Id": "{{ModId}}_Clint_Forge",
+					"Portrait": "Portraits/Clint_Forge",
+					"Sprite": "Characters/Clint_Forge",
+					"Condition": "ANY \"LOCATION_NAME Target Blacksmith, !IS_COMMUNITY_CENTER_COMPLETE\" \"LOCATION_NAME Target Blacksmith, IS_COMMUNITY_CENTER_COMPLETE, !DAY_OF_WEEK Friday\"",
+					"Precedence": -150
+				},
+				"DSV.Clint.VMV":
+				{
+					"Id": "{{ModId}}_Clint_VMV",
+					"Portrait": "Portraits/Clint_VMV",
+					"Sprite": "Characters/Clint_VMV",
+					"Condition": "IS_EVENT Lumisteria.MtVapius_Hamlet_ClintMeetMariam, {{HasMod |contains= Lumisteria.MtVapius}}",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Clint Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Clint_Indoor, Characters/Clint_Indoor, Portraits/Clint_Outdoor, Characters/Clint_Outdoor, Portraits/Clint_Forge, Characters/Clint_Forge, Portraits/Clint_VMV, Characters/Clint_VMV",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/{{DSV.Core/ConfigValue:ClintVariant}}/Clint_Fall_2_Base_Forge.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Clint Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Clint_EggFestival, Characters/Clint_EggFestival, Portraits/Clint_FlowerDance, Characters/Clint_FlowerDance, Portraits/Clint_Luau, Characters/Clint_Luau, Portraits/Clint_MoonlightJellies, Characters/Clint_MoonlightJellies, Portraits/Clint_SVFair, Characters/Clint_SVFair, Portraits/Clint_SpiritsEve, Characters/Clint_SpiritsEve, Portraits/Clint_IceFestival, Characters/Clint_IceFestival, Portraits/Clint_WinterStar, Characters/Clint_WinterStar, Portraits/Clint_Swim, Characters/Clint_Swim, Characters/Clint_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/{{DSV.Core/ConfigValue:ClintVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Clint Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Clint_HotClimate, Characters/Clint_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/{{DSV.Core/ConfigValue:ClintVariant}}/Clint_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Clint Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Indoor, Characters/Clint_Indoor",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/{{DSV.Core/ConfigValue:ClintVariant}}/Clint_{{season}}_{{RandomTwoToken}}_Base.png"
+		},
+		{
+			"LogName": "Clint Indoor/Outdoor Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Outdoor, Characters/Clint_Outdoor, Portraits/Clint_VMV, Characters/Clint_VMV",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/{{DSV.Core/ConfigValue:ClintVariant}}/Clint_{{season}}_{{RandomTwoToken}}_{{DSV.Core/Weather:Clint}}.png"
+		},
+		{
+			"LogName": "Clint Forge Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Forge, Characters/Clint_Forge",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/{{DSV.Core/ConfigValue:ClintVariant}}/Clint_{{season}}_{{RandomTwoToken}}_Base_Forge.png"
+		},
+		{
+			"LogName": "Clint Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_HotClimate, Characters/Clint_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/{{DSV.Core/ConfigValue:ClintVariant}}/Clint_Summer_{{RandomTwoToken}}_Sun.png"
+		},
+		{
+			"LogName": "Clint Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Beach, Characters/Clint_Beach",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/{{DSV.Core/ConfigValue:ClintVariant}}/Clint_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Clint Sleep Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Clint_Indoor",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/{{DSV.Core/ConfigValue:ClintVariant}}/Clint_SleepSprite.png",
+			"ToArea": { "X": 48, "Y": 320, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"LocationName |contains= Blacksmith": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Clint Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Clint/Misc/Clint_Emoji_Modded_{{DSV.Core/ConfigValue:ClintScar}}.png",
+			"ToArea": {"X": 54, "Y": 117, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:ClintVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Clint Clothes Therapy Characters 1",
+			"Action": "EditImage",
+			"Target": "Characters/ClothesTherapyCharacters",
+			"FromFile": "Art/VanillaNPCs/Clint/Misc/ClothesTherapy_Clint_Modded.png",
+			"ToArea": {"X": 0, "Y": 96, "Width": 64, "Height": 32},
+			"FromArea": {"X": 0, "Y": 96, "Width": 64, "Height": 32},
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Clint Clothes Therapy Characters 2",
+			"Action": "EditImage",
+			"Target": "Characters/ClothesTherapyCharacters",
+			"FromFile": "Art/VanillaNPCs/Clint/Misc/ClothesTherapy_Clint_Modded.png",
+			"ToArea": {"X": 32, "Y": 160, "Width": 32, "Height": 32},
+			"FromArea": {"X": 32, "Y": 160, "Width": 32, "Height": 32},
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Clint Clothes Therapy Characters Scar",
+			"Action": "EditImage",
+			"Target": "Characters/ClothesTherapyCharacters",
+			"FromFile": "Art/VanillaNPCs/Clint/Misc/ClothesTherapy_Clint_Scar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintVariant|contains= Modded": true,
+				"DSV.Core/ConfigValue:ClintScar|contains= true": true
+			}
+		},
+		
+//EXTRAS OVERLAYS
+		{
+			"LogName": "Clint Scars Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Indoor, Characters/Clint_Indoor, Portraits/Clint_Outdoor, Characters/Clint_Outdoor, Portraits/Clint_EggFestival, Characters/Clint_EggFestival, Portraits/Clint_FlowerDance, Characters/Clint_FlowerDance, Portraits/Clint_Luau, Characters/Clint_Luau, Portraits/Clint_MoonlightJellies, Characters/Clint_MoonlightJellies, Portraits/Clint_SVFair, Characters/Clint_SVFair, Portraits/Clint_IceFestival, Characters/Clint_IceFestival, Portraits/Clint_WinterStar, Characters/Clint_WinterStar, Portraits/Clint_Swim, Characters/Clint_Swim, Portraits/Clint_Forge, Characters/Clint_Forge, Portraits/Clint_HotClimate, Characters/Clint_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/Clint_Scar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintVariant |contains= Modded": true,
+				"DSV.Core/ConfigValue:ClintScar |contains= true": true
+			}
+		},
+		{
+			"LogName": "Clint Scars Overlay - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Beach, Characters/Clint_Beach",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/Clint_Beach_Scar.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintVariant |contains= Modded": true,
+				"DSV.Core/ConfigValue:ClintScar |contains= true": true
+			}
+		},
+		{
+			"LogName": "Clint Beard Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Indoor, Characters/Clint_Indoor, Portraits/Clint_Outdoor, Characters/Clint_Outdoor, Portraits/Clint_EggFestival, Characters/Clint_EggFestival, Portraits/Clint_FlowerDance, Characters/Clint_FlowerDance, Portraits/Clint_Luau, Characters/Clint_Luau, Portraits/Clint_MoonlightJellies, Characters/Clint_MoonlightJellies, Portraits/Clint_SVFair, Characters/Clint_SVFair, Portraits/Clint_IceFestival, Characters/Clint_IceFestival, Portraits/Clint_WinterStar, Characters/Clint_WinterStar, Portraits/Clint_Swim, Characters/Clint_Swim, Portraits/Clint_Forge, Characters/Clint_Forge, Portraits/Clint_HotClimate, Characters/Clint_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/Clint_Beard.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintBeard |contains= true": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Clint Beard Overlay - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Beach, Characters/Clint_Beach",
+			"FromFile": "Art/VanillaNPCs/Clint/{{TargetPathOnly}}/{{ClintMarriageToken}}/Clint_Beach_Beard.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintBeard |contains= true": true
+			}
+		},
+		
+// MERMAID PENDANTS
+		{
+			"LogName": "Clint Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Indoor",
+			"FromFile": "Art/VanillaNPCs/Clint/Misc/MermaidPendants/Clint_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Clint |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Clint Pendants - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Beach",
+			"FromFile": "Art/VanillaNPCs/Clint/Misc/MermaidPendants/Clint_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Clint |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		}
+	]
+}

@@ -1,0 +1,233 @@
+{
+    "Changes":
+    [   
+		
+//
+///////////// WILLY /////////////
+//
+		
+// DISABLED WILLY
+
+		{
+			"LogName": "Willy Variant-Based Dialogue - Disabled (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": 
+			{
+				"Sun2": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.Sun2}}",
+				"summer_Mon4": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.summer_Mon4}}",
+				"summer_Tue6": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.summer_Tue6}}",
+				"fall_Mon8": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.fall_Mon8}}",
+				"fall_Thu6": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.fall_Thu6}}",
+				"winter_Tue10": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.winter_Tue10}}",
+				"winter_Sat2": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.winter_Sat2}}",
+				"spring_Fri2": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.spring_Fri2}}",
+				"summer_Sat4": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.summer_Sat4}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:WillyDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:WillyVariant |contains= Disabled, TonganDisabled}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.DSVTeam.AddOnPack.AirynWilly}}' = 'true'": true
+            }
+		}, 
+		{
+			"LogName": "Willy Variant-Based Dialogue - Disabled (Rainy)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": 
+			{
+				"Willy": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.Rain}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:WillyDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:WillyVariant |contains= Disabled, TonganDisabled}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.DSVTeam.AddOnPack.AirynWilly}}' = 'true'": true
+            }
+		},  
+		{
+			"LogName": "Willy Variant-Based Dialogue - Disabled (Festival)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28, Data/Festivals/winter8",
+			"Entries": 
+			{
+				"Willy": "{{i18n:DSV.Dialogue.Daily.Willy.Disabled.{{TargetWithoutPath}}}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:WillyDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:WillyVariant |contains= Disabled, TonganDisabled}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.DSVTeam.AddOnPack.AirynWilly}}' = 'true'": true,
+				"FestivalDialogueRandomToken |contains= 1": true
+            }
+		},  
+		{
+			"LogName": "Willy Variant-Based Dialogue - Any (Festival)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{
+				"Willy": "{{i18n:DSV.Dialogue.Daily.Willy.SpiritsEve}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:WillyDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:WillySpiritsEve": "true"
+            }
+		},  
+		
+// TONGAN WILLY
+
+		{
+			"LogName": "Willy Variant-Based Dialogue - Tongan (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": 
+			{
+				"spring_Wed8": "{{i18n:DSV.Dialogue.Daily.Willy.Tongan.spring_Wed8}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:WillyDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:WillyVariant |contains= Tongan, TonganDisabled}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.DSVTeam.AddOnPack.AirynWilly}}' = 'true'": true
+            }
+		},   
+		
+//
+///////////// CLINT /////////////
+//
+		
+// BLIND CLINT
+
+		{
+			"LogName": "Clint Variant-Based Dialogue - Blind (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": 
+			{
+				"Thu2": "{{i18n:DSV.Dialogue.Daily.Clint.Blind.Thu2}}",
+				"summer_wed2": "{{i18n:DSV.Dialogue.Daily.Clint.Blind.summer_wed2}}",
+				"summer_Fri4": "{{i18n:DSV.Dialogue.Daily.Clint.Blind.summer_Fri4}}",
+				"fall_Thu4": "{{i18n:DSV.Dialogue.Daily.Clint.Blind.fall_Thu4}}",
+				"winter_Tue4": "{{i18n:DSV.Dialogue.Daily.Clint.Blind.winter_Tue4}}",
+				"winter_Mon8": "{{i18n:DSV.Dialogue.Daily.Clint.Blind.winter_Mon8.{{DSV.Core/ConfigValue:ClintScar}}}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:ClintDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:ClintVariant |contains= Modded": true
+            }
+		},    
+		{
+			"LogName": "Clint Variant-Based Dialogue - Blind (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": 
+			{
+				"Fall_Sat6": "{{i18n:DSV.Dialogue.Daily.Clint.Blind.Marigold.Fall_Sat6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:ClintDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:ClintVariant |contains= Modded": true,
+				"DSV.Core/ConfigValue:LinusVariant |contains= Modded": true,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
+            }
+		}, 
+		
+//
+///////////// LINUS /////////////
+//
+		
+// MODDED LINUS
+
+		{
+			"LogName": "Linus Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": 
+			{
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.Introduction}}",
+				"Sat": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.Sat}}",
+				"spring_Mon2": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.spring_Mon2}}",
+				"summer_Tue6": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.summer_Tue6}}",
+				"fall_Wed6": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.fall_Wed6}}",
+				"winter_Sat6": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.winter_Sat6}}",
+				"Summer_Sun": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.Summer_Sun}}",
+				"Summer_Thu4": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.Summer_Thu4}}",
+				"Fall_Sun6": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.Fall_Sun6}}",
+				"Winter_Mon": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.Winter_Mon}}",
+				"Winter_Thu4": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.Winter_Thu4}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LinusDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:LinusVariant |contains= Modded": true,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
+            }
+		},
+		{
+			"LogName": "Linus Variant-Based Dialogue - Modded (Festival)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{
+				"Linus": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.MoonlightJellies}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LinusDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:LinusVariant |contains= Modded": true,
+				"FestivalDialogueRandomToken |contains= 1": true,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
+            }
+		},
+		{
+			"LogName": "Linus Variant-Based Dialogue - Modded (Festival)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{
+				"Linus_y2": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.SVFair.Y2}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LinusDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:LinusVariant |contains= Modded": true,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
+            }
+		},
+		{
+			"LogName": "Linus Variant-Based Dialogue - Modded (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": 
+			{
+				"Tue10": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.Tue10.CanonFriendlyDialogue}}",
+				"summer_Tue8": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.summer_Tue8.CanonFriendlyDialogue}}",
+				"fall_Sat10": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.fall_Sat10.CanonFriendlyDialogue}}",
+				"winter_Tue8": "{{i18n:DSV.Dialogue.Daily.Linus.Modded.winter_Tue8.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LinusDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:LinusVariant |contains= Modded": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
+            }
+		},
+		{
+			"LogName": "Linus Variant-Based Dialogue - Modded (Festival Strings)",
+			"Action": "EditData",
+			"Target": "Strings/1_6_Strings",
+			"Entries": 
+			{
+				"DesertFestival_Linus": "{{i18n:DSV.Dialogue.Strings.Linus.Modded.DesertFestival}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LinusDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:LinusVariant |contains= Modded": true,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
+            }
+		}
+    ]
+}

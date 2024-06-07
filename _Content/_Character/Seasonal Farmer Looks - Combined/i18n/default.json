@@ -1,0 +1,217 @@
+{
+	"config.UseModOutfits.name": "Use mod outfits",
+	"config.UseModOutfits.description": "Enables and disables the mod's Fashion Sense Outfits features. If you disable this, you may uninstall Fashion Sense Outfits and/or Fashion Sense",
+	
+	"config.UseModPortraits.name": "Use mod portraits",
+	"config.UseModPortraits.description": "Enables and disables the mod's Farmer's Potrait features. If you disable this, you may uninstall Farmer's Portrait",
+	
+	"config.SeasonalOutfitsEnabled.name": "Seasonal outfits",
+	"config.SeasonalOutfitsEnabled.description": "Has the farmer wear different clothing in different seasons, if available",
+	
+	"config.RaincoatEnabled.name": "Raincoat",
+	"config.RaincoatEnabled.description": "Has the farmer wear a raincoat when it rains, if available",
+
+	"config.SeasonalRaincoatsEnabled.name": "Seasonal raincoats",
+	"config.SeasonalRaincoatsEnabled.description": "Has the farmer wear different raincoats when it rains depending on the season, if available. Doesn't do anything if the raincoat is turned off",
+	
+	"config.GreenRaincoatChoice.name": "Green rain outfit",
+	"config.GreenRaincoatChoice.description": "Choose what the farmer wears during Green Rain weather. Works regardless of regular raincoat and seasonal raincoat settings",
+	"config.GreenRaincoatChoice.values.NoneOption": "None",
+	"config.GreenRaincoatChoice.values.RegularRaincoatOption": "Regular raincoat",
+	"config.GreenRaincoatChoice.values.SeasonalRaincoatOption": "Seasonal raincoat",
+	"config.GreenRaincoatChoice.values.GreenRaincoatOption": "Special outfit",
+	
+	"config.FestivalOutfitsEnabled.name": "Festival outfits",
+	"config.FestivalOutfitsEnabled.description": "Has the farmer wear different clothing for festivals and events, if available. You can add modded festivals in the content.json file, search for 'custom festival code sample' and follow instructions in both places where you will find it",
+	
+	"config.MiningOutfitEnabled.name": "Mining outfit",
+	"config.MiningOutfitEnabled.description": "Has the farmer wear a special outfit in dungeons, if available. You can add modded dungeon locations in the content.json file, search for 'ModdedMiningLocations' and follow the instructions there",
+	
+	"config.MountainMiningEnabled.name": "Mountain mining",
+	"config.MountainMiningEnabled.description": "Has the farmer wear the mining outfit in the Mountains location, near the carpentry shop and the lake. Does nothing if mining outfit is disabled",
+	
+	"config.SeasonalMiningEnabled.name": "Seasonal mining outfit",
+	"config.SeasonalMiningEnabled.description": "Has the farmer wear different outfits for dungeoneering depending on the season. Does nothing if mining outfit is disabled",
+	
+	"config.DesertOutfitEnabled.name": "Desert outfit",
+	"config.DesertOutfitEnabled.description": "Has the farmer wear the desert outfit while in the Calico Desert, as well as in the appropriate Walk to Desert Redux and Downtown Zuzu locations, if available",
+	
+	"config.IslandOutfitEnabled.name": "Island outfit",
+	"config.IslandOutfitEnabled.description": "Has the farmer wear the island outfit while on Ginger Island, if available",
+	
+	"config.IslandRaincoatChoice.name": "Island raincoat",
+	"config.IslandRaincoatChoice.description": "Allows the farmer to wear raincoats while on Ginger Island when it rains there, if available. Works even with the regular raincoat option disabled",
+	"config.IslandRaincoatChoice.value.NoneOption": "None",
+	"config.IslandRaincoatChoice.value.RegularRaincoatOption": "Regular raincoat",
+	"config.IslandRaincoatChoice.value.SeasonalRaincoatOption": "Seasonal raincoat",
+	"config.IslandRaincoatChoice.value.IslandRaincoatOption": "Island raincoat",
+	
+	"config.BathOutfitEnabled.name": "Bathhouse outfit",
+	"config.BathOutfitEnabled.description": "Has the farmer wear a special outfit in the bathhouse. Note that they will be changed into the swimsuit automatically by the game - however, accessories may not be removed correctly. You can add more locations where you want to wear this outfit in the content.json file, look for 'BathingLocations' and follow the instructions there",
+	
+	"config.IndoorPostfixEnabled.name": "Indoor variation",
+	"config.IndoorPostfixEnabled.description": "Double the number of outfits you possess by adding an indoor variation to each of them! Adds a postfix (default 'In', for example 'BaseIn', 'BaseInMat' with maternity enabled) to the end of each outfit and portrait. (You don't need to have an outdoor pajama variant, just add the postfix to the end of your current pajamas :3) (Yes, you do need to have an indoor variation saved for each of your outfits and portraits if this is enabled, even if they're identical)", 
+	
+	"config.MaternityPostfixEnabled.name": "Maternity variation",
+	"config.MaternityPostfixEnabled.description": "Double the number of outfits you possess by adding a maternity variation to each of them! Adds a postfix (default 'Mat', for example 'BaseMat', 'BaseInMat' with indoor variation enabled) to the end of each outfit and portrait. (Yes, you do need to have a maternity variation saved for each of your outfits and portraits if this is enabled, even if they're identical)",
+	
+	
+	"config.section.PajamaControls.name": "Pajama controls",
+	"config.section.PajamaControls.description": "Set the exact times you wear pajamas here",
+		
+	"config.PajamasAllDay.name": "Pajamas all day",
+	"config.PajamasAllDay.description": "Has the farmer wear the pajamas outfit whenever they're in the farmhouse any time of the day",
+	
+	"config.MorningPajamas.name": "Morning pajamas",
+	"config.MorningPajamas.description": "Has the farmer wear pajamas in the farmhouse in the morning, if available. If disabled, pajamas can still be worn in the evening. Note that due to a FashionSenseOutfits quirk when loading the game from the menu before the first time update the farmer will wear whichever clothes they went to sleep in and not what this mod specifies. Enabling both morning and evening pajamas makes the issue invisible",
+	
+	"config.PajamasUntil.name": "Pajamas until",
+	"config.PajamasUntil.description": "Sets the time AM when the farmer changes from pajamas into their outfit for the day, if morning pajamas are enabled. Pajamas will only be worn in the farmhouse",
+	
+	"config.EveningPajamas.name": "EveningPajamas",
+	"config.EveningPajamas.description": "Has the farmer wear pajamas in the farmhouse in the evening, if available. If disabled, pajamas can still be worn in the morning. Note that due to a FashionSenseOutfits quirk when loading the game from the menu before the first time update the farmer will wear whichever clothes they went to sleep in and not what this mod specifies. Enabling both morning and evening pajamas makes the issue invisible",
+	
+	"config.PajamasFrom.name": "Pajamas from",
+	"config.PajamasFrom.description": "Sets the time in the evening when the farmer changes from their outfit for the day into pajamas, if evening pajamas are enabled. Pajamas will only be worn in the farmhouse",
+	
+	
+	"config.section.OutfitNames.name": "Outfit Names",
+	"config.section.OutfitNames.description": "The very important section where you set the names of outfits in your Fashion Sense wardrobe and in your portrait file name after the 'portrait_' prefix",
+		
+	"config.BaseOutfitName.name": "Base outfit",
+	"config.BaseOutfitName.description": "The name of the outfit the farmer will wear when no other outfit is active. (If you have seasonal outfits enabled, that will be never.) Not case sensitive",
+	
+	"config.PajamasOutfitName.name": "Pajamas",
+	"config.PajamasOutfitName.description": "The name of the pajamas outfit. Not case sensitive",
+	
+	"config.RaincoatOutfitName.name": "Raincoat",
+	"config.RaincoatOutfitName.description": "The name of the regular rain outfit. Not case sensitive",
+	
+	"config.GreenRaincoatOutfitName.name": "Green rain outfit",
+	"config.GreenRaincoatOutfitName.description": "The name of the outfit worn during green rain. Not case sensitive",
+	
+	"config.MiningOutfitName.name": "Mining outfit",
+	"config.MiningOutfitName.description": "The name of the outfit for dungeoneering. Not case sensitive",
+	
+	"config.DesertOutfitName.name": "Desert outfit",
+	"config.DesertOutfitName.description": "The name of the outfit worn in the Calico desert. Not case sensitive",
+	
+	"config.IslandOutfitName.name": "Island outfit",
+	"config.IslandOutfitName.description": "The name of the outfit worn on Ginger Island. Not case sensitive",
+	
+	"config.IslandRaincoatOutfitName.name": "Island raincoat",
+	"config.IslandRaincoatOutfitName.description": "The name of the island-specific raincoat, if that option is selected as the raincoat to be worn on the island. Not case sensitive",
+	
+	"config.BathOutfitName.name": "Bathing outfit",
+	"config.BathOutfitName.description": "The name of the outfit worn in the bathhouse. Note that they will be changed into the swimsuit automatically by the game - however, accessories may not be removed correctly. You can add more locations where you want to wear this outfit in the content.json file, look for 'BathingLocations' and follow the instructions there",
+	
+	"config.IndoorPostfixName.name": "Indoor postfix",
+	"config.IndoorPostfixName.description": "The postfix at the end of the outfits and portraits when the farmer is expecting a child. Comes before the maternity postfix",
+	
+	"config.MaternityPostfixName.name": "Maternity postfix",
+	"config.MaternityPostfixName.description": "The postfix at the end of the outfits and portraits when the farmer is expecting a child. Comes after the indoor postfix",
+	
+	
+	"config.section.FestivalOutfits.name": "Festival Outfits",
+	"config.section.FestivalOutfits.description": "Configure outfits worn during various festivals",
+	
+	"config.FestiveOutfitEnabled.name": "Single festive outfit",
+	"config.FestiveOutfitEnabled.description": "Has the farmer wear a basic festive outfit on festivals without an enabled custom outfit, instead of the base or season-specific outfit. Does nothing if festival outfits are disabled",
+		
+	"config.FestiveOutfitName.name": "Festive outfit",
+	"config.FestiveOutfitName.description": "The name of the generic festival outfit. Not case sensitive",
+	
+	"config.WeddingOutfitEnabled.name": "Wedding outfit enabled",
+	"config.WeddingOutfitEnabled.description": "Has the farmer wear a custom wedding outfit on the day of their wedding, if available. Does nothing if festival outfits are disabled",
+	
+	"config.WeddingOutfitName.name": "Wedding outfit",
+	"config.WeddingOutfitName.description": "The name of the outfit worn on the farmer's wedding day. Not case sensitive",
+	
+	"config.EggFestivalOutfitEnabled.name": "Egg Festival outfit enabled",
+	"config.EggFestivalOutfitEnabled.description": "Has the farmer wear a custom Egg Festival outfit on the day of the corresponding festival, if available. Does nothing if festival outfits are disabled",
+	
+	"config.EggFestivalOutfitName.name": "Egg Festival outfit",
+	"config.EggFestivalOutfitName.description": "The name of the outfit worn on Egg Festival day. Not case sensitive",
+	
+	"config.FlowerDanceOutfitEnabled.name": "Flower Dance outfit enabled",
+	"config.FlowerDanceOutfitEnabled.description": "Has the farmer wear a custom Flower Dance outfit on the day of the corresponding festival, if available. Does nothing if festival outfits are disabled",
+	
+	"config.FlowerDanceOutfitName.name": "Flower Dance outfit",
+	"config.FlowerDanceOutfitName.description": "The name of the outfit worn on the day of the Flower Dance. Not case sensitive",
+	
+	"config.LuauOutfitEnabled.name": "Luau outfit enabled",
+	"config.LuauOutfitEnabled.description": "Has the farmer wear a custom Luau outfit on the day of the corresponding festival, if available. Does nothing if festival outfits are disabled",
+		
+	"config.LuauOutfitName.name": "Luau outfit",
+	"config.LuauOutfitName.description": "The name of the outfit worn on the day of the Luau. Not case sensitive",
+	
+	"config.MoonlightJelliesOutfitEnabled.name": "Dance of the Moonlight Jellies outfit enabled",
+	"config.MoonlightJelliesOutfitEnabled.description": "Has the farmer wear a custom Dance of the Moonlight Jellies outfit on the day of the corresponding festival, if available. Does nothing if festival outfits are disabled",
+	
+	"config.MoonlightJelliesOutfitName.name": "Dance of the Moonlight Jellies outfit",
+	"config.MoonlightJelliesOutfitName.description": "The name of the outfit worn on the day of the Dance of the Moonlight Jellies. Not case sensitive",
+
+	"config.FairOutfitEnabled.name": "Stardew Valley Fair outfit enabled",
+	"config.FairOutfitEnabled.description": "Has the farmer wear a custom Stardew Valley Fair outfit on the day of the corresponding festival, if available. Does nothing if festival outfits are disabled",
+	
+	"config.FairOutfitName.name": "Stardew Valley Fair outfit",
+	"config.FairOutfitName.description": "The name of the outfit worn on the day of the Stardew Valley Fair. Not case sensitive",
+	
+	"config.SpiritsEveOutfitEnabled.name": "Spirit's Eve outfit enabled",
+	"config.SpiritsEveOutfitEnabled.description": "Has the farmer wear a custom Spirit's Eve outfit on the day of the corresponding festival, if available. Does nothing if festival outfits are disabled",
+	
+	"config.SpiritsEveOutfitName.name": "Spirit's Eve outfit",
+	"config.SpiritsEveOutfitName.description": "The name of the outfit worn on Spirit's Eve. Not case sensitive",
+	
+	"config.IceFestivalOutfitEnabled.name": "Festival of Ice outfit enabled",
+	"config.IceFestivalOutfitEnabled.description": "Has the farmer wear a custom Ice Festival outfit on the day of the corresponding festival, if available. Does nothing if festival outfits are disabled",
+	
+	"config.IceFestivalOutfitName.name": "Festival of Ice outfit",
+	"config.IceFestivalOutfitName.description": "The name of the outfit worn on the day of the Festival of Ice. Not case sensitive",
+	
+	"config.WinterStarOutfitEnabled.name": "Feast of the Winter Star outfit enabled",
+	"config.WinterStarOutfitEnabled.description": "Has the farmer wear a custom Feast of the WinterStar outfit on the day of the corresponding festival, if available. Does nothing if festival outfits are disabled",
+	
+	"config.WinterStarOutfitName.name": "Feast of the Winter Star outfit",
+	"config.WinterStarOutfitName.description": "The name of the outfit worn on the day of the Feast of the Winter Star. Not case sensitive",
+	
+	
+	"config.section.SeasonalVariations.name": "Season Specific Outfit Names",
+	"config.section.SeasonalVariations.description": "Configure names of outfits worn in specific seasons",
+	
+	"config.SpringOutfitName.name": "Spring outfit",
+	"config.SpringOutfitName.description": "The name of the outfit worn in spring",
+	
+	"config.SummerOutfitName.name": "Summer outfit",
+	"config.SummerOutfitName.description": "The name of the outfit worn in summer",
+		
+	"config.FallOutfitName.name": "Fall outfit",
+	"config.FallOutfitName.description": "The name of the outfit worn in fall",
+	
+	"config.WinterOutfitName.name": "Winter outfit",
+	"config.WinterOutfitName.description": "The name of the outfit worn in winter",
+	
+	"config.SpringRaincoatOutfitName.name": "Spring raincoat",
+	"config.SpringRaincoatOutfitName.description": "The raincoat you wear for the fertile spring rains",
+	
+	"config.SummerRaincoatOutfitName.name": "Summer raincoat",
+	"config.SummerRaincoatOutfitName.description": "The raincoat you wear for the refreshing summer rains",
+	
+	"config.FallRaincoatOutfitName.name": "Fall raincoat",
+	"config.FallRaincoatOutfitName.description": "The raincoat you wear for the cold autumn rains",
+	
+	"config.WinterRaincoatOutfitName.name": "Winter raincoat",
+	"config.WinterRaincoatOutfitName.description": "The rarely-used raincoat you wear for the miraculous winter rains",
+	
+	"config.SpringMiningOutfitName.name": "Spring mining outfit",
+	"config.SpringMiningOutfitName.description": "The outfit worn for dungeoneering in spring",
+	
+	"config.SummerMiningOutfitName.name": "Summer mining outfit",
+	"config.SummerMiningOutfitName.description": "The outfit worn for dungeoneering in summer",
+	
+	"config.FallMiningOutfitName.name": "Fall mining outfit",
+	"config.FallMiningOutfitName.description": "The outfit worn for dungeoneering in fall",
+	
+	"config.WinterMiningOutfitName.name": "Winter mining outfit",
+	"config.WinterMiningOutfitName.description": "The outfit worn for dungeoneering in winter"
+}

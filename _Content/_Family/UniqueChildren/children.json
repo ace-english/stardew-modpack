@@ -1,0 +1,22 @@
+[
+  {
+    "UniqueGameID": -4614991590863603506,
+    "Child_Name": "Amythest",
+    "Child_Gender": "Female",
+    "Child_DarkSkin": "False",
+    "Child_Adopted": "True",
+    "Child_Sprites": "Abigail",
+    "Spouse_Name": "Abigail",
+    "Spouse_Married": "True"
+  },
+  {
+    "UniqueGameID": -4614991590863603506,
+    "Child_Name": "Jasper",
+    "Child_Gender": "Male",
+    "Child_DarkSkin": "False",
+    "Child_Adopted": "True",
+    "Child_Sprites": "Abigail",
+    "Spouse_Name": "Abigail",
+    "Spouse_Married": "True"
+  }
+]

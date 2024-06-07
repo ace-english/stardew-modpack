@@ -1,0 +1,29 @@
+{
+  "Changes": [
+    
+    ///////////////////////////////////
+    // crafting recipes for machines //
+    ///////////////////////////////////
+
+    {
+	    "LogName": "Atelier Floral Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+			"wildflour.atelierfloral_FlowerStation": "388 50 771 10 382 5/Home/wildflour.atelierfloral_FlowerStation/true/{{RecipeConfig}}/{{i18n: atelierfloral_FlowerStation.name}}",
+			"wildflour.atelierfloral_FragranceStation": "388 50 771 10 766 5/Home/wildflour.atelierfloral_FragranceStation/true/{{RecipeConfig}}/{{i18n: atelierfloral_FragranceStation.name}}",
+     }
+    },
+
+
+    {
+	    "LogName": "Atelier Floral Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "When":{"HasMod |contains=wildflour.honeybees": true},
+      "Entries": {
+		  "wildflour.atelierfloral_CandleStation": "388 50 771 10 wildflour.honeybees_honeycomb 5/Home/wildflour.atelierfloral_CandleStation/true/{{RecipeConfig}}/{{i18n: atelierfloral_CandleStation.name}}"
+      }
+    }
+  ]
+}

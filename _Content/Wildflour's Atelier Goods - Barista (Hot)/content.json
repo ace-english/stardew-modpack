@@ -1,0 +1,179 @@
+{
+    "Format": "2.0.0",
+
+    "DynamicTokens": [
+        {
+            "Name": "ShippingConfig",
+            "Value": "False",
+            "When":{"Atelier.Cauldron/ConfigValue:BaristaShipment": "True"}
+        },
+        {
+            "Name": "ShippingConfig",
+            "Value": "True",
+            "When":{"Atelier.Cauldron/ConfigValue:BaristaShipment": "False"}
+        },
+        {
+            "Name": "RecipeConfig",
+            "Value": "default",
+            "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": "True"}
+        },
+        {
+            "Name": "RecipeConfig",
+            "Value": "null",
+            "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": "False"}
+        },
+        {
+            "Name": "MachineColorConfig",
+            "Value": "Base",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Base"}
+        },
+        {
+            "Name": "MachineColorConfig",
+            "Value": "Black",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Black"}
+        },
+        {
+            "Name": "MachineColorConfig",
+            "Value": "Blue",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Blue"}
+        },
+        {
+            "Name": "MachineColorConfig",
+            "Value": "Cream",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Cream"}
+        },
+        {
+            "Name": "MachineColorConfig",
+            "Value": "Mint",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Mint"}
+        },
+        {
+            "Name": "MachineColorConfig",
+            "Value": "Mocha",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Mocha"}
+        },
+        {
+            "Name": "MachineColorConfig",
+            "Value": "Pink",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Pink"}
+        },
+        {
+            "Name": "MachineColorConfig",
+            "Value": "Purple",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Purple"}
+        },
+    ],
+
+    "Changes": [
+      
+        //Include Objects
+
+          
+        {
+            "LogName": "Vanilla Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_vanilla.json"
+        },
+
+         
+        {
+            "LogName": "Objects Strings",
+            "Action": "Include",
+            "FromFile": "Data/strings.json"
+        },
+
+        {
+            "LogName": "Wild Food Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_wildfood.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"}
+        },
+
+     /*   {
+            "LogName": "Faerie Garden Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_faerie.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": "True"}
+        },
+*/
+        {
+            "LogName": "Gourmet Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_crop_overlap.json",
+            "When": {
+                "Query: {{Atelier.Cauldron/ConfigValue:CMC}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
+                }
+        },
+
+        {
+            "LogName": "Floral Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_flower_overlap.json",
+            "When": {
+                "Query: {{Atelier.Cauldron/ConfigValue:CMF}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
+                }
+        },
+
+        {
+            "LogName": "Quaint Living Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_ql.json",
+            "When": {"Atelier.Cauldron/ConfigValue:QL": "True"}
+        },
+
+        {
+            "LogName": "Serene Meadow Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_sm.json",
+            "When": {"Atelier.Cauldron/ConfigValue:SM": "True"}
+        },
+
+        {
+            "LogName": "VMV Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_vmv.json",
+            "When": {"Atelier.Cauldron/ConfigValue:VMV": "True"}
+        },
+
+        //Include Crafting Recipes
+
+        {
+            "LogName": "Crafting Recipes",
+            "Action": "Include",
+            "FromFile": "Data/recipes.json"
+        },
+
+       
+        //Include Gift Tastes
+
+        {
+            "LogName": "Barista Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/gifttastes.json"
+        },
+
+         //Include Mail
+
+        {
+            "LogName": "Barista Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail.json"
+        },
+
+        //Include Machine Interactions
+
+        {
+            "LogName": "Barista Machine Rules",
+            "Action": "Include",
+            "FromFile": "Data/machines.json"
+        },
+        
+        //Include Textures
+
+        {
+            "LogName": "Barista Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "Changes": [
+
+/////////////////
+// CREATE MAIL //
+/////////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Mail",
+            "Entries": {
+                "wildflour.atelierbarista_TeaProcessorRecipe": "{{i18n: atelierbarista_TeaProcessorRecipe.text}} %item craftingRecipe wildflour.atelierbarista_TeaProcessor %%[#]{{i18n: atelierbarista_TeaProcessorRecipe.name}}",
+                "wildflour.atelierbarista_TeaKettleRecipe": "{{i18n: atelierbarista_TeaKettleRecipe.text}} %item craftingRecipe wildflour.atelierbarista_TeaKettle %%[#]{{i18n: atelierbarista_TeaKettleRecipe.name}}",
+                "wildflour.atelierbarista_evelyn_gift": "{{i18n: atelierbarista_evelyn_gift.text}} %item id (O)wildflour.ateliercrops_chamomileseeds 3 %%[#]{{i18n: atelierbarista_evelyn_gift.name}}",
+                "wildflour.atelierbarista_leah_gift": "{{i18n: atelierbarista_leah_gift.text}} %item id (O)815 3 %%[#]{{i18n: atelierbarista_leah_gift.name}}",
+                "wildflour.atelierbarista_GrinderRecipe": "{{i18n: atelierbarista_GrinderRecipe.text}} %item craftingRecipe wildflour.atelierbarista_CoffeeGrinder %%[#]{{i18n: atelierbarista_GrinderRecipe.name}}",
+                "wildflour.atelierbarista_BrewerRecipe": "{{i18n: atelierbarista_BrewerRecipe.text}} %item craftingRecipe wildflour.atelierbarista_CoffeeBrewer %%[#]{{i18n: atelierbarista_BrewerRecipe.name}}",
+                "wildflour.atelierbarista_haleygift": "{{i18n: atelierbarista_haley.text}} %item id (O)wildflour.ateliercrops_cacaopod 3 %%[#]{{i18n: atelierbarista_haley.name}}",
+                "wildflour.atelierbarista_georgegift": "{{i18n: atelierbarista_george.text}} %item id (O)wildflour.ateliercrops_vanilla 3 %%[#]{{i18n: atelierbarista_george.name}}",
+                "wildflour.atelierbarista_sebastiangift": "{{i18n: atelierbarista_sebastian.text}} %item id (O)84 3 %%[#]{{i18n: atelierbarista_sebastian.name}}",
+            
+            }
+    },
+
+///////////////
+// SEND MAIL //
+///////////////
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm", 
+        "Entries": {	
+            "wildflour.atelierbarista_leahmail/f Leah 1000/G {{HasCraftingRecipe: wildflour.atelierbarista_TeaProcessor}}/x wildflour.atelierbarista_leah_gift": "null",
+            "wildflour.atelierbarista_sebastianmail/f Sebastian 750/G {{HasCraftingRecipe: wildflour.atelierbarista_CoffeeBrewer}}/x wildflour.atelierbarista_sebastiangift": "null"
+        }
+    },         
+        
+    {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm", 
+        "When":{"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+        "Entries": {	
+            "wildflour.atelierbarista_evelynmail/f Evelyn 750/G {{HasCraftingRecipe: wildflour.atelierbarista_TeaProcessor}}/x wildflour.atelierbarista_evelyn_gift": "null",
+            "wildflour.atelierbarista_haleymail/f Haley 750/G {{HasCraftingRecipe: wildflour.atelierbarista_CoffeeGrinder}}/x wildflour.atelierbarista_haleygift": "null",
+            "wildflour.atelierbarista_georgemail/f George 1000/G {{HasCraftingRecipe: wildflour.atelierbarista_CoffeeGrinder}}/x wildflour.atelierbarista_georgegift": "null"
+        }
+    }, 
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": "False"},
+        "Entries": {
+            "wildflour.atelierbarista_TeaProcessor_mail/f Elliott 500/x wildflour.atelierbarista_TeaProcessorRecipe": "null",	
+            "wildflour.atelierbarista_TeaKettle_mail/f Caroline 500/x wildflour.atelierbarista_TeaKettleRecipe": "null",	
+            "wildflour.atelierbarista_grindermail/f Harvey 500/x wildflour.atelierbarista_GrinderRecipe": "null",	
+            "wildflour.atelierbarista_brewermail/f Sebastian 500/x wildflour.atelierbarista_BrewerRecipe": "null",			
+        }
+    }
+
+        ]
+
+    }

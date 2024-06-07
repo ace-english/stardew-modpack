@@ -1,0 +1,18 @@
+{
+  "Changes": [
+
+    {
+        "LogName": "Atelier Barista Craftable Recipes",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": 
+          {
+            "wildflour.atelierbarista_TeaProcessor": "388 30 330 10 815 2/Home/wildflour.atelierbarista_TeaProcessor/true/{{RecipeConfig}}/{{i18n: atelierbarista_TeaProcessor.name}}",
+            "wildflour.atelierbarista_TeaKettle": "388 30 330 10 335 2/Home/wildflour.atelierbarista_TeaKettle/true/{{RecipeConfig}}/{{i18n: atelierbarista_TeaKettle.name}}",
+            "wildflour.atelierbarista_CoffeeGrinder": "388 25 378 10/Home/wildflour.atelierbarista_CoffeeGrinder/true/{{RecipeConfig}}/{{i18n:atelierbarista_CoffeeGrinder.name}}",
+            "wildflour.atelierbarista_CoffeeBrewer": "388 25 378 10/Home/wildflour.atelierbarista_CoffeeBrewer/true/{{RecipeConfig}}/{{i18n:atelierbarista_CoffeeBrewer.name}}"
+          } 
+    }
+
+  ]
+}

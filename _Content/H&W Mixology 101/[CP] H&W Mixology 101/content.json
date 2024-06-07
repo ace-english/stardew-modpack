@@ -1,0 +1,52 @@
+{
+    "Format": "2.0.0",
+
+    "ConfigSchema": {
+        
+        "Cocktails": {
+            "Description": "Adds the alcoholic items and beverages. Set to False to remove these. Defaults to true.",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        },
+
+        "Mocktails": {
+            "Description": "Adds the non-alcoholic beverages. Set to False to remove these. Defaults to true.",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        }
+
+    },
+    
+    "Changes": [
+
+        {
+            "LogName": "H&W Mixology Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects.json"
+        },
+
+        {
+            "LogName": "H&W Mixology Machine Rules",
+            "Action": "Include",
+            "FromFile": "Data/machines.json"
+        },
+
+        {
+            "LogName": "H&W Mixology Machine Recipes",
+            "Action": "Include",
+            "FromFile": "Data/recipes.json"
+        },
+
+        //Include Textures
+
+        {
+            "LogName": "H&W Mixology Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json"
+        }
+    ]
+}

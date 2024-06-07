@@ -1,0 +1,669 @@
+{
+    "Format": "2.0.0",
+	
+    "ConfigSchema": { 
+	
+	
+	"Starter Gift": { 
+		"AllowValues": "Farming, Foraging, Floristing, Fishing, Combating, Ranching, Jojaing",
+		"Default": "Foraging",
+		"Description": "Changes the stuff you get from starter gift box (will only work if you start fresh game - choose before creating new save file.)",
+	
+			},
+			
+				"Top Pond": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+			},
+			"Bottom Pond": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+			},
+			"Ground Bridge": { 
+		"AllowValues": "true, false",
+		"Default": "false",
+			},
+			
+			
+			},
+	
+	
+		
+	
+
+    "Changes": [
+	
+			
+//
+//TILESHEETS
+
+	{
+            "Action": "Load",
+            "Target": "Maps/z_aimon_minefix",
+            "FromFile": "assets/Tilesheets/z_aimon_minefix_spring.png",
+        },
+		
+		{
+            "Action": "EditImage",
+            "Target": "Maps/z_aimon_minefix",
+            "FromFile": "assets/Tilesheets/z_aimon_minefix_{{season}}.png",
+        },
+
+	
+	
+//FORAGING FARM
+
+{
+            "Action": "Load",
+            "Target": "Maps/Farm_Foraging",
+            "FromFile": "assets/SmallForestFarm.tmx",
+			
+        },
+		
+	//patches 
+
+{             "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+		"FromFile": "assets/patches.tmx",
+		 "FromArea": { "X": 49, "Y": 0, "Width": 18, "Height": 11 },
+		 "ToArea": { "X": 49, "Y": 0, "Width": 18, "Height": 11 },
+		 "PatchMode": "Replace",
+			"When": { "Top Pond": "false",   },
+					
+        },
+		{             "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+		"FromFile": "assets/patches.tmx",
+		 "FromArea": { "X": 48, "Y": 26, "Width": 31, "Height": 18 },
+		 "ToArea": { "X": 48, "Y": 26, "Width": 31, "Height": 18 },
+		 "PatchMode": "Replace",
+			"When": { "Bottom Pond": "false",   },
+					
+        },
+		{             "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+		"FromFile": "assets/patches.tmx",
+		 "FromArea": { "X": 14, "Y": 10, "Width": 7, "Height": 8 },
+		 "ToArea": { "X": 14, "Y": 10, "Width": 7, "Height": 8 },
+		 "PatchMode": "Replace",
+			"When": { "Ground Bridge": "true",   },
+					
+        },
+
+		
+	
+		
+//MAPPROPS
+
+
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			"MapProperties": { 
+			"AllowGrassSurviveInWinter": "T",
+			"EnableGrassSpread": "T",
+			"ForceSpawnForageables": "T",
+			"SpawnForestFarmForage": "T",
+	
+			//
+			"BackwoodsEntry": "43 3",
+			"BusStopEntry": "76 16",
+			"FarmCaveEntry": "71 7",
+			"ForestEntry": "49 40",
+			
+		
+			
+			//
+			"GrandpaShrineLocation": "34 6",
+			"GreenhouseLocation": "11 2",
+			"MailboxLocation": "64 16",
+			"ShippingBinLocation": "66 15",
+			"SpouseAreaLocation": "65 5",
+			"WarpTotemEntry": "74 9",
+			"PetBowlLocation": "45 5",
+			"FarmHouseEntry": "60 15",
+			
+			"Warp": "21 41 Forest 39 7 22 41 Forest 39 7 80 17 BusStop 0 23 79 17 BusStop 11 24 79 16 BusStop 11 23 79 15 BusStop 11 23 49 43 Forest 68 1 50 43 Forest 68 1 42 1 Backwoods 14 38 43 1 Backwoods 14 38 44 1 Backwoods 14 38 71 5 FarmCave 8 11",
+	
+			
+			//
+			"BrookSounds": "61 7 4 27 9 4 23 8 4 11 29 4 8 30 4",
+			
+			"Light": "72 6 4",
+			"DayTiles": "Buildings 72 6 510",
+			"NightTiles": "Buildings 72 6 507",
+	
+			}
+        },
+//
+//starter gift
+			{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			
+			"When": { "Starter Gift": "Farming" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)472 15 (O)599 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			
+			"When": { "Starter Gift": "Foraging" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)CarrotSeeds 10 (O)403 3 (H)90 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			
+			"When": { "Starter Gift": "Fishing" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)710 1 (T)TrainingRod 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			
+			"When": { "Starter Gift": "Ranching" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)178 20 (O)223 3",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			
+			"When": { "Starter Gift": "Combating" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)286 3 (W)12 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			
+			"When": { "Starter Gift": "Floristing" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)427 9 (O)429 9 (H)19 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			
+			"When": { "Starter Gift": "Jojaing" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(H)JojaCap 1 (S)1105 1 (O)306 1",
+			}
+        },
+		
+		
+{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			 "When": {  "HasMod |contains=FlashShifter.StardewValleyExpandedCP":  false },
+
+            "AddWarps": [ "6 42 Woods 46 4", "7 42 Woods 46 4" ]
+	
+			},
+			
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+			 "When": {  "HasMod |contains=FlashShifter.StardewValleyExpandedCP":  true },
+
+            "AddWarps": [ "6 42 Woods 66 7", "7 42 Woods 66 7" ]
+	
+			},
+
+//warp woods
+
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+
+            "AddWarps": [ "46 3 Farm 7 37", "66 6 Farm 7 37", ]
+	
+			},
+			
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+			
+
+            "AddWarps": [ "39 5 Farm 22 37", "40 5 Farm 22 37" ]
+	
+			},
+			
+		{	
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+		
+			  "MapTiles": [
+                {
+                    "Position": { "X": 39, "Y": 5 },
+                    "Layer": "Buildings",
+                    "SetProperties": {   "Passable": "t" }
+                },
+				
+				{
+                    "Position": { "X": 40, "Y": 5 },
+                    "Layer": "Buildings",
+                    "SetProperties": {   "Passable": "t" }
+		
+                }
+            ]
+		},	
+		
+
+
+
+//FISH
+
+	{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": [ "Farm_Forest", "FishAreas" ],
+    "Entries": {
+		 "SecretWoodsPond": {
+        "DisplayName": null,
+        "Position": {
+          "X": 2,
+          "Y": 25,
+          "Width": 13,
+          "Height": 12
+        },
+        //"CrabPotFishTypes": [],
+        "CrabPotJunkChance": 0.1
+      },
+	   "ForestFishPond": {
+        "DisplayName": null,
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Width": 35,
+          "Height": 22
+        },
+        //"CrabPotFishTypes": [],
+        "CrabPotJunkChance": 0.2
+      },
+	     "ForestFishPond1": {
+        "DisplayName": null,
+        "Position": {
+          "X": 47,
+          "Y": 31,
+          "Width": 35,
+          "Height": 13
+        },
+        //"CrabPotFishTypes": [],
+        "CrabPotJunkChance": 0.2
+      },
+	     "ForestFishPond3": {
+        "DisplayName": null,
+        "Position": {
+          "X": 46,
+          "Y": 0,
+          "Width": 19,
+          "Height": 14
+        },
+        //"CrabPotFishTypes": [],
+        "CrabPotJunkChance": 0.2
+      },
+		 },
+    },
+	
+	
+	{ //farm
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": [ "Farm_Forest", "Fish" ],
+	
+	"Entries": {
+	
+	
+		 "SecretWoodsPond": {
+      
+        "Chance": 0.08,
+        "Season": null,
+        "FishAreaId": "SecretWoodsPond",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": -10,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": false,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(F)2425",
+        "ItemId": "(F)2425",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+       "SecretWoodsPond1": {
+        "Chance": 1.0,
+        "Season": null,
+        "FishAreaId": "SecretWoodsPond",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": 0,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(O)734",
+        "ItemId": "(O)734",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+       "SecretWoodsPond2": {
+        "Chance": 1.0,
+        "Season": null,
+        "FishAreaId": "SecretWoodsPond",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": 0,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(O)142",
+        "ItemId": "(O)142",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+       "SecretWoodsPond3": {
+        "Chance": 1.0,
+        "Season": null,
+        "FishAreaId": "SecretWoodsPond",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": 0,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(O)143",
+        "ItemId": "(O)143",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+       "SecretWoodsPond4": {
+        "Chance": 0.1,
+        "Season": null,
+        "FishAreaId": "SecretWoodsPond",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": 0,
+        "IgnoreFishDataRequirements": true,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.05,
+        "UseFishCaughtSeededRandom": true,
+        "Condition": null,
+        "Id": "(O)RiverJelly",
+        "ItemId": "(O)RiverJelly",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	  
+	  
+	   "ForestFishPond": {
+        "Chance": 0.8,
+        "Season": null,
+        "FishAreaId": "ForestFishPond",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": -10,
+        "IgnoreFishDataRequirements": true,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+        "ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	    "ForestFishPond3": {
+        "Chance": 0.6,
+        "Season": null,
+        "FishAreaId": "ForestFishPond3",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": -10,
+        "IgnoreFishDataRequirements": true,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+        "ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+    "ForestFishPond1": {
+        "Chance": 0.8,
+        "Season": null,
+        "FishAreaId": "ForestFishPond1",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": -10,
+        "IgnoreFishDataRequirements": true,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+        "ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+    
+	},
+},
+	
+
+
+
+
+
+    ]
+}

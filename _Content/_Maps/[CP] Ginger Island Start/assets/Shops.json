@@ -1,0 +1,258 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add hay and weed starter",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "IslandTrade",
+                "Items"
+            ],
+            "Entries": {
+                "WeedsStarter": {
+                    "TradeItemId": "(O)881",
+                    "TradeItemAmount": 4,
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day hayTrade 0.1, BUILDINGS_CONSTRUCTED IslandWest {{MainMod}}_OstrichBarn",
+                    "Id": "AnimalFeed: Starter",
+                    "ItemId": "(O)297",
+                    "IsRecipe": false
+                },
+                "Hay3": {
+                    "TradeItemId": "(O)771",
+                    "TradeItemAmount": 2,
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day hayTrade 0.4, BUILDINGS_CONSTRUCTED IslandWest {{MainMod}}_OstrichBarn",
+                    "Id": "AnimalFeed: Trade fiber",
+                    "ItemId": "(O)178",
+                    "IsRecipe": false
+                },
+                "Hay2": {
+                    "TradeItemId": "(O)398",
+                    "TradeItemAmount": 3,
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day hayTrade 0.7, BUILDINGS_CONSTRUCTED IslandWest {{MainMod}}_OstrichBarn",
+                    "Id": "AnimalFeed: Trade stone",
+                    "ItemId": "(O)178",
+                    "IsRecipe": false
+                },
+                "Hay1": {
+                    "TradeItemId": "(O)388",
+                    "TradeItemAmount": 3,
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day hayTrade 1.0, BUILDINGS_CONSTRUCTED IslandWest {{MainMod}}_OstrichBarn",
+                    "Id": "AnimalFeed: Trade wood",
+                    "ItemId": "(O)178",
+                    "IsRecipe": false
+                }
+            },
+            "When": {
+                "FirstDayOrFlag": true
+            }
+        },
+        {
+            "LogName": "Change farm warp to island warp",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "IslandTrade",
+                "Items",
+                "#0"
+            ],
+            "Entries": {
+                "ItemId": "(O)886"
+            },
+            "When": {
+                "FirstDayOrFlag": true
+            }
+        },
+        {
+            "LogName": "Add essence trade",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "IslandTrade",
+                "Items"
+            ],
+            "Entries": {
+                "essence_alt_easier": {
+                    "TradeItemId": "(O)292",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day hayTrade 0.4, PLAYER_COMBAT_LEVEL Current 2",
+                    "Id": "Void x Mahogany",
+                    "ItemId": "(O)769",
+                    "IsRecipe": false
+                },
+                "essence_alt_normal": {
+                    "TradeItemId": "(O)267",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day hayTrade 0.7, PLAYER_COMBAT_LEVEL Current 2",
+                    "Id": "Void x Flounder",
+                    "ItemId": "(O)769",
+                    "IsRecipe": false
+                }, //Midnight (O)269
+                "essence": {
+                    "TradeItemId": "(O)701",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "PLAYER_COMBAT_LEVEL Current 2",
+                    "Id": "Void x Tilapia",
+                    "ItemId": "(O)769",
+                    "IsRecipe": false
+                }
+            },
+            "When": {
+                "FirstDayOrFlag": true,
+                "HasFlag": "Island_Resort",
+                "HasFlag | contains=willyBoatFixed": false
+            }
+        },
+        {
+            "LogName": "Add fishing rods if applies",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "{{MainMod}}_Dwarf",
+                "Items"
+            ],
+            "Entries": {
+                "fishingRod1": {
+                    "TradeItemId": "(T)BambooPole",
+                    "TradeItemAmount": 1,
+                    "Price": 1800,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "PLAYER_FISHING_LEVEL Current 2",
+                    "Id": "(T)FiberglassRod",
+                    "ItemId": "(T)FiberglassRod",
+                    "IsRecipe": false,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/ExtraTrades": "(O)335 {{amount}}"
+                    }
+                },
+                "fishingRod2_alt": {
+                    "TradeItemId": "(T)FiberglassRod",
+                    "TradeItemAmount": 1,
+                    "Price": 7500,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day fishingRod 0.3, PLAYER_FISHING_LEVEL Current 6",
+                    "Id": "IridiumRod x Iridium ore",
+                    "ItemId": "(T)IridiumRod",
+                    "IsRecipe": false,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/ExtraTrades": "(O)386 {{Query: {{amount}} + {{amount}}}}"
+                    }
+                },
+                "fishingRod2_alt2": {
+                    "TradeItemId": "(T)FiberglassRod",
+                    "TradeItemAmount": 1,
+                    "Price": 7500,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day fishingRod 0.6, PLAYER_FISHING_LEVEL Current 6",
+                    "Id": "IridiumRod x Gold bar",
+                    "ItemId": "(T)IridiumRod",
+                    "IsRecipe": false,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/ExtraTrades": "(O)336 {{amount}}"
+                    }
+                },
+                "fishingRod2": {
+                    "TradeItemId": "(T)FiberglassRod",
+                    "TradeItemAmount": 1,
+                    "Price": 7500,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "PLAYER_FISHING_LEVEL Current 6",
+                    "Id": "IridiumRod x DragonTooth",
+                    "ItemId": "(T)IridiumRod",
+                    "IsRecipe": false,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/ExtraTrades": "(O)852 {{amount}}"
+                    }
+                },
+                "fishingMeat_altRare": {
+                    "TradeItemId": "(O)72",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": 10,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day fishingRod 0.05, PLAYER_FISHING_LEVEL Current 2",
+                    "Id": "MeatSelling x diamond",
+                    "ItemId": "(O)684",
+                    "MinStack": "{{Query: 10 + 4 * {{InverseShopMultiplier}}}}",
+                    "IsRecipe": false
+                },
+                "fishingMeat_alt": {
+                    "TradeItemId": "(O)66",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": 10,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day fishingRod 0.3, PLAYER_FISHING_LEVEL Current 2",
+                    "Id": "MeatSelling x amethyst",
+                    "ItemId": "(O)684",
+                    "MinStack": "{{Query: 3 + 2 * {{InverseShopMultiplier}}}}",
+                    "IsRecipe": false
+                },
+                "fishingMeat_alt2": {
+                    "TradeItemId": "(O)384",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": 10,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "SYNCED_RANDOM day fishingRod 0.6, PLAYER_FISHING_LEVEL Current 2",
+                    "Id": "MeatSelling x gold ore",
+                    "ItemId": "(O)684",
+                    "MinStack": "{{Query: 3 + 2 * {{InverseShopMultiplier}}}}",
+                    "IsRecipe": false
+                },
+                "fishingMeat_alt3": {
+                    "TradeItemId": "(O)380",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": 15,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": false,
+                    "Condition": "PLAYER_FISHING_LEVEL Current 2",
+                    "Id": "MeatSelling x silver ore",
+                    "ItemId": "(O)684",
+                    "MinStack": "{{Query: 2 + 2 * {{InverseShopMultiplier}}}}",
+                    "IsRecipe": false
+                }
+            },
+            "When": {
+                "FirstDayOrFlag": true,
+                "HasFlag": "Island_Resort",
+                "Rods": "true"
+            }
+        }
+    ]
+}

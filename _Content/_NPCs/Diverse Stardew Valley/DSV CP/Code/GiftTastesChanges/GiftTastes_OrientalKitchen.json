@@ -1,0 +1,507 @@
+{
+
+	"Changes": 
+	[
+		
+// SSATURN'S ORIENTAL KITCHEN
+// GIFT TASTES CHANGES
+		
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fresh Meat)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Jodi", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Kent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sam", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Vincent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Gus Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fresh Meat)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Gus", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fresh Meat)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sandy", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - SSaturn's Oriental Kitchen",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Alex", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Nasi Lemak}} {{spacechase0.JsonAssets/ObjectId:Ebi Tempura}} {{spacechase0.JsonAssets/ObjectId:Green Curry}} {{spacechase0.JsonAssets/ObjectId:Ikayaki}} {{spacechase0.JsonAssets/ObjectId:Odeng}} {{spacechase0.JsonAssets/ObjectId:Shrimp Paste}} {{spacechase0.JsonAssets/ObjectId:Sambal}} {{spacechase0.JsonAssets/ObjectId:Stuffed Crab Claws}}", 
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "George", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Nasi Lemak}} {{spacechase0.JsonAssets/ObjectId:Ebi Tempura}} {{spacechase0.JsonAssets/ObjectId:Green Curry}} {{spacechase0.JsonAssets/ObjectId:Ikayaki}} {{spacechase0.JsonAssets/ObjectId:Odeng}} {{spacechase0.JsonAssets/ObjectId:Shrimp Paste}} {{spacechase0.JsonAssets/ObjectId:Sambal}} {{spacechase0.JsonAssets/ObjectId:Stuffed Crab Claws}}", 
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Evelyn", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Nasi Lemak}} {{spacechase0.JsonAssets/ObjectId:Ebi Tempura}} {{spacechase0.JsonAssets/ObjectId:Green Curry}} {{spacechase0.JsonAssets/ObjectId:Ikayaki}} {{spacechase0.JsonAssets/ObjectId:Odeng}} {{spacechase0.JsonAssets/ObjectId:Shrimp Paste}} {{spacechase0.JsonAssets/ObjectId:Sambal}} {{spacechase0.JsonAssets/ObjectId:Stuffed Crab Claws}}", 
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fresh Meat)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Alex", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}}", 
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "George", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}}", 
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Evelyn", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}}", 
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fruits & Veggies)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Alex", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Samurai Balls}}", 
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "George", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Samurai Balls}}", 
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Evelyn", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Samurai Balls}}", 
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFruitsVeggies": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fruits & Veggies)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Elliott", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Samurai Balls}}", 
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFruitsVeggies": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - SSaturn's Oriental Kitchen",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Harvey", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Nasi Lemak}} {{spacechase0.JsonAssets/ObjectId:Ebi Tempura}} {{spacechase0.JsonAssets/ObjectId:Green Curry}} {{spacechase0.JsonAssets/ObjectId:Ikayaki}} {{spacechase0.JsonAssets/ObjectId:Odeng}} {{spacechase0.JsonAssets/ObjectId:Shrimp Paste}} {{spacechase0.JsonAssets/ObjectId:Sambal}} {{spacechase0.JsonAssets/ObjectId:Stuffed Crab Claws}}", 
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fresh Meat)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Harvey", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bak Pao}} {{spacechase0.JsonAssets/ObjectId:Char Siu}} {{spacechase0.JsonAssets/ObjectId:Siu Mai}} {{spacechase0.JsonAssets/ObjectId:Lumpia}} {{spacechase0.JsonAssets/ObjectId:Nasi Lemak}} {{spacechase0.JsonAssets/ObjectId:Satay}}", 
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fruits & Veggies)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Harvey", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Samurai Balls}}", 
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFruitsVeggies": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fruits & Veggies)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Harvey", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Bibimbap}}", 
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withOthers": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},
+
+// GIFT REJECTION
+		
+		{
+			"LogName": "Modded Jodi Gift Taste Changes - SSaturn's Oriental Kitchen Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi, Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bak Pao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Char Siu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Siu Mai}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},	
+		{
+			"LogName": "Modded Sam/Vincent Gift Taste Changes - SSaturn's Oriental Kitchen Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam, Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bak Pao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Char Siu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Siu Mai}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},	
+		{
+			"LogName": "Modded Gus Gift Taste Changes - SSaturn's Oriental Kitchen Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bak Pao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Char Siu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Siu Mai}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},		
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - SSaturn's Oriental Kitchen Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bak Pao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Char Siu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Siu Mai}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true
+			}
+		},		
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - SSaturn's Oriental Kitchen Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex, Characters/Dialogue/George, Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Nasi Lemak}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ebi Tempura}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Green Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ikayaki}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Odeng}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shrimp Paste}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sambal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Stuffed Crab Claws}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},		
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fresh Meat) Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex, Characters/Dialogue/George, Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bak Pao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Char Siu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Siu Mai}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},		
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fruits & Veggies) Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex, Characters/Dialogue/George, Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Samurai Balls}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFruitsVeggies": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},		
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - SSaturn's Oriental Kitchen Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Nasi Lemak}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ebi Tempura}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Green Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ikayaki}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Odeng}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shrimp Paste}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sambal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Stuffed Crab Claws}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},		
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fresh Meat) Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bak Pao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Char Siu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Siu Mai}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},		
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fruits & Veggies) Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Samurai Balls}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFruitsVeggies": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},		
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - SSaturn's Oriental Kitchen Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Nasi Lemak}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ebi Tempura}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Green Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ikayaki}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Odeng}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shrimp Paste}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sambal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Stuffed Crab Claws}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},		
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fresh Meat) Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bak Pao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Char Siu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Siu Mai}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFreshMeat": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},		
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fruits & Veggies) Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Samurai Balls}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withFruitsVeggies": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},	
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - SSaturn's Oriental Kitchen (with PPJA Fruits & Veggies) Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bibimbap}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen.withOthers": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		}
+	]
+}

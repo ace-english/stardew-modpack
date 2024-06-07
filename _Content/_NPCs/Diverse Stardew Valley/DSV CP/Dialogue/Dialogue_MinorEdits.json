@@ -1,0 +1,193 @@
+{
+    "Changes":
+    [        
+
+// WITCH GREEN SKIN EDIT
+	
+        {
+            "LogName": "Witch Variant-Based Dialogue - Modded",
+            "Action": "EditData",
+			"Target": "Data/Events/Railroad",
+			"Fields": 
+			{
+			"529952/C": 
+				{
+					35: "{{i18n:DSV.Dialogue.Daily.Witch.Modded.MagicInk}}"
+				}
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:WitchVariant |contains= Modded": true
+            }
+		},
+		
+// ALEX WORKOUT DIALOGUE FIX
+
+		{
+			"LogName": "Alex Workout Dialogue",
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": 
+			{
+				"alex_lift_weights": "{{i18n:DSV.DialogueEdit.Alex.Workout}}"
+			},
+            "When":
+            {
+				"Query: '{{DSV.Core/ConfigValue:AlexVariant |contains= off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.SnuffpotAlex}}' = 'true'": true
+            }
+		},
+
+// DEMETRIUS ICE FESTIVAL FIX
+
+		{
+            "LogName": "Demetrius Ice Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries":
+            {
+                "Demetrius": "{{i18n:DSV.DialogueEdit.Demetrius.IceFest}}"
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:DemetriusVariant |contains= off": false
+            }
+        }, 
+		
+// EMILY LUAU DIALOGUE FIX
+
+		{
+			"LogName": "Emily Luau Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{
+				"Emily": "{{i18n:DSV.DialogueEdit.Emily.Luau}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:EmilyVariant |contains= off": false,
+				"HasMod |contains= tangeriney.FestivalDialogue": false
+            }
+		},
+			
+// EMILY OUTFIT DIALOGUE FIX
+
+		{
+			"LogName": "Emily Outfit Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": 
+			{
+				"AcceptGift_(O)64": "{{i18n:DSV.DialogueEdit.Emily.AcceptGift_(O)64}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:EmilyVariant |contains= Off": false
+            }
+		},
+		
+// HALEY NIGHT MARKET DIALOGUE FIX
+
+		{
+            "LogName": "Haley Night Market Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Haley",
+            "Entries":
+            {
+                "winter_16.001": "{{i18n:DSV.DialogueEdit.Haley.NightMarket}}"
+            },
+            "When":
+            {
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true
+            }
+        },
+		
+// MARNIE ROOM STRINGS FIX
+
+		{
+            "LogName": "Marnie Room Strings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries":
+            {
+                "AnimalShop.6": "{{i18n:DSV.MapStringEdit.Marnie.AnimalShop6}}"
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:MarnieVariant |contains= Modded": true
+            }
+        },
+
+//
+////////// IMMERSIVE FESTIVAL DIALOGUE EDITS //////////
+//
+		
+// SEBASTIAN LUAU IFD EDIT
+
+		{
+            "LogName": "Sebastian Luau IFD Edit",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{
+			   	"Sebastian": "{{i18n:DSV.DialogueEdit.Sebastian.Luau.ImmersiveFestivalDialogue}}"
+			},
+			"When": 
+			{
+			  	"Relationship:Sebastian |contains= Dating": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true
+			}
+		 },
+		
+// ABIGAIL FLOWER DANCE IFD EDIT
+
+		 {
+            "LogName": "Abigail Flower Dance IFD Edit",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+			   	"Abigail": "{{i18n:DSV.DialogueEdit.Abigail.FlowerDance.ImmersiveFestivalDialogue}}"
+			},
+			"When": 
+			{
+			  	"Hearts:Abigail |contains= 2, 3": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true
+			}
+		 }, 
+		
+// EMILY FLOWER DANCE IFD EDIT
+    
+		 {
+            "LogName": "Emily Flower Dance IFD Edit",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+			   	"Emily": "{{i18n:DSV.DialogueEdit.Emily.FlowerDance.ImmersiveFestivalDialogue}}"
+			},
+			"When": 
+			{
+			  	"Hearts:Emily |contains= 2, 3": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true
+			}
+		 }, 
+		
+// PENNY WEDDING IFD EDIT
+    
+		 {
+            "LogName": "Penny Wedding IFD Edit",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{
+			   	"Penny_spouse": "{{i18n:DSV.DialogueEdit.Penny.Wedding.ImmersiveFestivalDialogue}}"
+			},
+			"When": 
+			{
+			  	"Relationship:Penny |contains= Engaged": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true
+			}
+		 }
+    ]
+}

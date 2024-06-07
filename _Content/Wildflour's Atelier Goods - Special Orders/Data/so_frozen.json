@@ -1,0 +1,489 @@
+{
+  "Changes": [
+
+///////////////
+// DROPBOXES //
+///////////////
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/SamHouse",
+      "MapTiles": [
+              {
+                 "Position": { "X": 7, "Y": 4},
+                 "Layer": "Buildings",
+                 "SetProperties": { "Action": "DropBox JodiFrozen"}
+              }		
+      ]
+  },
+  
+  {
+      "Action": "EditMap",
+      "Target": "Maps/ScienceHouse",
+      "MapTiles": [
+              {
+                 "Position": { "X": 21, "Y": 17},
+                 "Layer": "Buildings",
+                 "SetProperties": { "Action": "DropBox DemetriusFrozen"}
+              }		
+      ]
+  },
+
+
+
+///////////////////////
+// SPECIAL ORDERS WF //
+///////////////////////
+
+    {
+    "LogName": "Frozen Orders WF SMC",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When": {
+      "Query: {{Atelier.Cauldron/ConfigValue:CMC}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
+      },
+    "Entries": {
+      "wildflour.atelierfrozen_SO_1": {
+        "Name": "{{i18n:atelierfrozen_SO_1.name}}",
+        "Requester": "Dwarf",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierfrozen_SO_1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierfrozen_SO_1a.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_vanilla_milkshake",
+                "TargetName": "Dwarf"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierfrozen_SO_1b.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_strawberry_milkshake",
+                "TargetName": "Dwarf"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierfrozen_SO_1c.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_choco_milkshake",
+                "Message": "{{i18n:atelierfrozen_SO_1.accept}}",
+                "TargetName": "Dwarf"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Dwarf"
+                }
+              }
+          ]
+      },
+      "wildflour.atelierfrozen_SO_3": {
+        "Name": "{{i18n:atelierfrozen_SO_3.name}}",
+        "Requester": "Jodi",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierfrozen_SO_3.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierfrozen_SO_3a.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiFrozen",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "7 4",
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_lemon_froyo"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierfrozen_SO_3b.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiFrozen",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "7 4",
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_mint_cone"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierfrozen_SO_3c.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiFrozen",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "7 4",
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_lavender_cone"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierfrozen_SO_3d.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiFrozen",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "7 4",
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_horchata_cone"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "13464"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Jodi"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.atelierfrozen_SO3_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      },
+      "wildflour.atelierfrozen_SO_4": {
+        "Name": "{{i18n:atelierfrozen_SO_4.name}}",
+        "Requester": "Demetrius",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierfrozen_SO_4.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierfrozen_SO_4a.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "DemetriusFrozen",
+							  "DropBoxGameLocation": "ScienceHouse",
+							  "DropBoxIndicatorLocation": "21 17",
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_mocha_sandwich"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierfrozen_SO_4b.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "DemetriusFrozen",
+							  "DropBoxGameLocation": "ScienceHouse",
+							  "DropBoxIndicatorLocation": "21 17",
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_pistachio_sandwich"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierfrozen_SO_4c.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "DemetriusFrozen",
+							  "DropBoxGameLocation": "ScienceHouse",
+							  "DropBoxIndicatorLocation": "21 17",
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_strawberry_sandwich"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierfrozen_SO_4d.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "DemetriusFrozen",
+							  "DropBoxGameLocation": "ScienceHouse",
+							  "DropBoxIndicatorLocation": "21 17",
+                "AcceptedContextTags": "item_wildflour.atelierfrozen_mocha_coconut_sandwich"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "12720"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Demetrius"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.atelierfrozen_SO4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+    }
+  },
+
+/////////////////////
+// SPECIAL ORDERS //
+/////////////////////
+
+    {
+      "LogName": "Frozen Orders Vanilla",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+          "wildflour.atelierfrozen_SO_2": {
+          "Name": "{{i18n:atelierfrozen_SO_2.name}}",
+          "Requester": "Krobus",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:atelierfrozen_SO_2.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:atelierfrozen_SO_2.deliver}}",
+                "RequiredCount": "6",
+                "Data": {
+                  "AcceptedContextTags": "popsicle_item",
+                  "Message": "{{i18n:atelierfrozen_SO_2.accept}}",
+                  "TargetName": "Krobus"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Krobus"
+                  }
+                },
+
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "wildflour.atelierfrozen_SO2_complete",
+                        "NoLetter": "true"
+                  }
+                }
+            ]
+        },
+          "wildflour.atelierfrozen_SO_5": {
+          "Name": "{{i18n:atelierfrozen_SO_5.name}}",
+          "Requester": "Lewis",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "mail_wildflour.atelierfrozen_SO2_complete, mail_wildflour.atelierfrozen_SO6_complete, mail_wildflour.atelierfrozen_SO7_complete",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:atelierfrozen_SO_5.text}}",
+          "Objectives": [
+              {
+                "Type": "Ship",
+                "Text": "{{i18n:atelierfrozen_SO_5.ship}}",
+                "RequiredCount": "100",
+                "Data": {
+                  "AcceptedContextTags": "wildflour_frozen_item"
+                }
+              },
+  
+              
+            ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "100000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.atelierfrozen_SO5_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+        },
+          "wildflour.atelierfrozen_SO_6": {
+          "Name": "{{i18n:atelierfrozen_SO_6.name}}",
+          "Requester": "Kent",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet,mail_wildflour.atelierfrozen_SO2_complete, mail_wildflour.atelierfrozen_SO3_complete, mail_wildflour.atelierfrozen_SO4_complete",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:atelierfrozen_SO_6.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:atelierfrozen_SO_6.deliver}}",
+                "RequiredCount": "4",
+                "Data": {
+                  "AcceptedContextTags": "milkshake_item",
+                  "Message": "{{i18n:atelierfrozen_SO_6.accept}}",
+                  "TargetName": "Kent"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5000"
+                }
+              },
+    
+              {
+                "Type": "Friendship",
+                "Data": {}
+                }
+            ]
+        },
+          "wildflour.atelierfrozen_SO_7": {
+          "Name": "{{i18n:atelierfrozen_SO_7.name}}",
+          "Requester": "Elliott",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet, mail_wildflour.atelierfrozen_SO2_complete, mail_wildflour.atelierfrozen_SO3_complete, mail_wildflour.atelierfrozen_SO4_complete",
+           "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:atelierfrozen_SO_7.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:atelierfrozen_SO_7.deliver}}",
+                "RequiredCount": "4",
+                "Data": {
+                  "AcceptedContextTags": "popsicle_item",
+                  "Message": "{{i18n:atelierfrozen_SO_7.accept}}",
+                  "TargetName": "Elliott"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "3500"
+                }
+              },
+    
+            {
+                "Type": "Friendship",
+                "Data": {}
+                }
+            ]
+        },
+          "wildflour.atelierfrozen_SO_8": {
+          "Name": "{{i18n:atelierfrozen_SO_8.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet, mail_wildflour.atelierfrozen_SO2_complete, mail_wildflour.atelierfrozen_SO3_complete, mail_wildflour.atelierfrozen_SO4_complete",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:atelierfrozen_SO_8.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:atelierfrozen_SO_8.deliver}}",
+                "RequiredCount": "12",
+                "Data": {
+                  "AcceptedContextTags": "ice_cream_cone_item",
+                  "Message": "{{i18n:atelierfrozen_SO_8.accept}}",
+                  "TargetName": "Gus"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5000"
+                }
+              },
+    
+              {
+                "Type": "Friendship",
+                "Data": {}
+                }
+            ]
+        }
+      }
+    }
+
+  ]
+}
+

@@ -1,0 +1,379 @@
+{
+    "Changes": [
+        {
+            "LogName": "Category Display Name Override Wild Food",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+            "Fields": {
+                "wildflour.ateliercrops_pistachio": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_nut.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_cashew": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_nut.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_almond": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_nut.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_walnut": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_nut.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_chickenwoods": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_honeyfungus": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_meringueshroom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_milkshroom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_wheatshroom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_basil": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_cilantro": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_mint": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_rosemary": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_sage": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_thyme": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_wormwood": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_gentianroot": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_root.category}}"
+                    }
+                },
+            }
+        },
+
+        {
+            "LogName": "Category Display Name Override Wild Food",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When":{"Atelier.Cauldron/ConfigValue:FaerieGarden": "True"},
+            "Fields": {
+                "wildflour.ateliercrops_amber_moondrop": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_apple": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_apricot": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_banana": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_cherry": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_jade_moondrop": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_lapis_moondrop": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_mango": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_pearl_moondrop": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_orange": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_peach": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_pomegranate": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_fruit.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_blush_cap": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_dawn_trumpet": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_dusk_cap": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_faerie_helmets": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_giant_amanita": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_amanita_cluster": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_golden_aura": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_moon_mushroom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_basil": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_gloomy_blewit": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_tiny_angels": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_peach_parasol": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_verdigris_agaric": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_mushroom.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_fire_dragon_scale": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_ice_dragon_scale": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_shooting_star_scale": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_unicorn_horn": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_clover": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_crow_feather": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_feather.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_lovebird_feather": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_feather.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_bluebird_feather": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_feather.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_phoenix_feather": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_feather.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_raven_feather": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_feather.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_rosefinch_feather": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_feather.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_owl_feather": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_feather.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_starling_feather": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_feather.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_mugwort": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_rose_flax": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_thistle": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_valerian": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_violet_flax": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_yarrow": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_herb.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_mandrake": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_root.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_cake_blossom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_flower.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_caramel_blossom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_flower.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_creamsicle_blossom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_flower.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_custard_blossom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_flower.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_gumdrop_blossom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_flower.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_macaron_blossom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_flower.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_pie_blossom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_flower.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_sprinkle_blossom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_flower.category}}"
+                    }
+                },
+                "wildflour.ateliercrops_sugar_blossom": {
+                    "CustomFields": {
+                        "sophie.Calcifer/CategoryDisplayOverride": "{{i18n:ateliercrops_magic_flower.category}}"
+                    }
+                },
+            }
+        }
+
+
+
+    ]
+}

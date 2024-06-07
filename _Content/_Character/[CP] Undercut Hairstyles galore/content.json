@@ -1,0 +1,411 @@
+{
+	"Format": "1.11",
+	"ConfigSchema": {
+		"enableHairstyle5": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 5"
+		},
+		"enableHairstyle8": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 8"
+		},
+		"enableHairstyle9": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 9"
+		},
+		"enableHairstyle10": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 10"
+		},
+		"enableHairstyle15": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 15"
+		},
+		"enableHairstyle16": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 16"
+		},
+		"enableHairstyle17": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 17"
+		},
+		"enableHairstyle19": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 19"
+		},
+		"enableHairstyle20": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 20"
+		},
+		"enableHairstyle22": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 22"
+		},
+		"enableHairstyle23": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 23"
+		},
+		"enableHairstyle26": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 26"
+		},
+		"enableHairstyle32": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 32"
+		},
+		"enableHairstyle36": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 36"
+		},
+		"enableHairstyle42": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 42"
+		},
+		"enableHairstyle44": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 44"
+		},
+		"enableHairstyle50": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 50"
+		},
+		"enableHairstyle51": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 51"
+		},
+		"enableHairstyle58": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 58"
+		},
+		"enableHairstyle59": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 59"
+		},
+		"enableHairstyle65": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 65"
+		},
+		"enableHairstyle69": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable undercut version of Hairstyle 69"
+		}
+	},
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair5.png",
+			"ToArea": {
+				"X": 64,
+				"Y": 0,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle5": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair8.png",
+			"ToArea": {
+				"X": 112,
+				"Y": 0,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle8": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair10.png",
+			"ToArea": {
+				"X": 16,
+				"Y": 96,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle10": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair15.png",
+			"ToArea": {
+				"X": 96,
+				"Y": 96,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle15": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair16.png",
+			"ToArea": {
+				"X": 112,
+				"Y": 96,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle16": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair17.png",
+			"ToArea": {
+				"X": 0,
+				"Y": 192,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle17": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair19.png",
+			"ToArea": {
+				"X": 32,
+				"Y": 192,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle19": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair20.png",
+			"ToArea": {
+				"X": 48,
+				"Y": 192,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle20": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair22.png",
+			"ToArea": {
+				"X": 80,
+				"Y": 192,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle22": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair23.png",
+			"ToArea": {
+				"X": 96,
+				"Y": 192,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle23": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair26.png",
+			"ToArea": {
+				"X": 16,
+				"Y": 288,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle26": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair32.png",
+			"ToArea": {
+				"X": 112,
+				"Y": 288,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle32": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair36.png",
+			"ToArea": {
+				"X": 48,
+				"Y": 384,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle36": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair42.png",
+			"ToArea": {
+				"X": 16,
+				"Y": 480,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle42": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair44.png",
+			"ToArea": {
+				"X": 48,
+				"Y": 480,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle44": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair50.png",
+			"ToArea": {
+				"X": 16,
+				"Y": 576,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle50": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/hair51.png",
+			"ToArea": {
+				"X": 32,
+				"Y": 576,
+				"Width": 16,
+				"Height": 96
+			},
+			"When": {
+				"enableHairstyle51": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles2",
+			"FromFile": "assets/hair58.png",
+			"ToArea": {
+				"X": 16,
+				"Y": 0,
+				"Width": 16,
+				"Height": 128
+			},
+			"When": {
+				"enableHairstyle58": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles2",
+			"FromFile": "assets/hair59.png",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 16,
+				"Height": 128
+			},
+			"When": {
+				"enableHairstyle59": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles2",
+			"FromFile": "assets/hair65.png",
+			"ToArea": {
+				"X": 0,
+				"Y": 128,
+				"Width": 16,
+				"Height": 128
+			},
+			"When": {
+				"enableHairstyle65": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hairstyles2",
+			"FromFile": "assets/hair69.png",
+			"ToArea": {
+				"X": 64,
+				"Y": 128,
+				"Width": 16,
+				"Height": 128
+			},
+			"When": {
+				"enableHairstyle69": "true"
+			}
+		}
+	]
+}

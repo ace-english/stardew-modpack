@@ -1,0 +1,226 @@
+{
+
+	//SEEDS
+
+	"ateliercrops_vanillaseeds.name": "カリコバニラ栽培キット",
+	"ateliercrops_vanillaseeds.description": "夏植えの作物。成長まで14日かかるが、そのあとも5日おきに収穫が可能。",
+
+	"tea-seeds.name": "フェーンギル茶葉栽培キット",
+	"tea-seeds.description": "冬以外のどの季節でも植えられる。成長まで14日かかるが、そのあとも4日おきに収穫が可能。",
+
+	"ateliercrops_chamomileseeds.name": "フォレストカモミールの種",
+	"ateliercrops_chamomileseeds.description": "秋植えの作物。そだつのに7日かかる。",
+
+	"ateliercrops_lavenderseeds.name": "フォレストラベンダーの種",
+	"ateliercrops_lavenderseeds.description": "冬以外のどの季節でも植えられる。成長まで14日かかるが、そのあとも4日おきに収穫が可能。",
+
+	"ateliercrops_jasmineseeds.name": "ジンジャージャスミンの種",
+	"ateliercrops_jasmineseeds.description": "夏か秋植えの作物。そだつのに7日かかる。",
+
+	"ateliercrops_mallowseedsname": "マシュマロの種",
+	"ateliercrops_mallowseedsdescription": "香りがよく、風味豊かな花を咲かせるマシュマロは、春か夏植えの作物。そだつのに7日かかる。",
+
+	"ateliercrops_mintseeds.name": "ペリカンミントの種",
+	"ateliercrops_mintseeds.description": "冬以外のどの季節でも植えられる。成長まで10日かかるが、そのあとも3日おきに収穫が可能。",
+
+	"carrot-seeds.name": "ワイルドキャロットの種",
+	"carrot-seeds.description": "春か秋植えの作物。そだつのに7日かかる。",
+
+	"ateliercrops_redonionseeds.name": "ワイルドレッドオニオンの種",
+	"ateliercrops_redonionseeds.description": "春か秋植えの作物。そだつのに7日かかる。",
+
+	"ateliercrops_strawberryseeds.name": "ワイルドストロベリーの種",
+	"ateliercrops_strawberryseeds.description": "春か夏植えの作物。成長まで10日かかるが、そのあとも3日おきに収穫が可能。",
+
+	"ateliercrops_raspberryseeds.name": "ワイルドラズベリーの種",
+	"ateliercrops_raspberryseeds.description": "春か夏植えの作物。成長まで10日かかるが、そのあとも3日おきに収穫が可能。",
+
+	//HERB SEEDS
+
+	"ateliercrops_basilseeds.name": "スイートバジルの種",
+	"ateliercrops_basilseeds.description": "春か夏植えの作物。成長まで7日かかるが、そのあとも2日おきに収穫が可能。",
+	
+	"ateliercrops_cilantroseeds.name": "シンダーサップコリアンダーの種",
+	"ateliercrops_cilantroseeds.description": "春か夏植えの作物。成長まで7日かかるが、そのあとも2日おきに収穫が可能。",
+	
+	"ateliercrops_rosemaryseeds.name": "ハーディローズマリーの種",
+	"ateliercrops_rosemaryseeds.description": "春か秋植えの作物。成長まで7日かかるが、そのあとも2日おきに収穫が可能。",
+	
+	"ateliercrops_sageseeds.name": "シンダーサップセージの種",
+	"ateliercrops_sageseeds.description": "春か秋植えの作物。成長まで7日かかるが、そのあとも2日おきに収穫が可能。",
+	
+	"ateliercrops_thymeseeds.name": "レモンタイムの種",
+	"ateliercrops_thymeseeds.description": "冬以外のどの季節でも植えられる。成長まで7日かかるが、そのあとも2日おきに収穫が可能。",
+
+	// MUSHROOM STARTERS
+
+    "ateliercrops_chickenwoodsseeds.name":"マスタケ栽培キット",
+    "ateliercrops_chickenwoodsseeds.description":"夏植えの作物。成長まで10日かかるが、そのあとも4日おきに収穫が可能。",
+
+    "ateliercrops_honeyfungusseeds.name":"ナラタケ栽培キット",
+    "ateliercrops_honeyfungusseeds.description":"春か秋植えの作物。成長まで10日かかるが、そのあとも4日おきに収穫が可能。",
+
+    "ateliercrops_meringueshroomseeds.name":"メレンゲマッシュルーム栽培キット",
+    "ateliercrops_meringueshroomseeds.description":"秋植えの作物。成長まで10日かかるが、そのあとも4日おきに収穫が可能。",
+
+    "ateliercrops_milkshroomseedsname":"まっしろきのこ栽培キット",
+    "ateliercrops_milkshroomseedsdescription":"夏か秋植えの作物。成長まで10日かかるが、そのあとも4日おきに収穫が可能。",
+
+    "ateliercrops_wheatshroomseeds.name":"ウィートベリー・マッシュルーム栽培キット",
+    "ateliercrops_wheatshroomseeds.description":"春植えの作物。成長まで10日かかるが、そのあとも4日おきに収穫が可能。",
+	
+	//HERBS
+	
+	"ateliercrops_basil.name": "スイートバジル",
+	"ateliercrops_basil.description": "色と香りから様々な料理に使われる人気のハーブの、より甘い品種。",
+	
+	"ateliercrops_cilantro.name": "シンダーサップコリアンダー",
+	"ateliercrops_cilantro.description": "コリアンダーの野生種で、スパイシーな料理やサルサによく使われる。",
+	
+	"ateliercrops_sage.name": "シンダーサップセージ",
+	"ateliercrops_sage.description": "花のような香りを持つ繊細なハーブで、秋の料理の濃厚な味を引き立たせるために使われる。",
+	
+	"ateliercrops_rosemary.name": "ハーディローズマリー",
+	"ateliercrops_rosemary.description": "小さな松の木に似ていて、どこにでも生える丈夫なハーブ。",
+	
+	"ateliercrops_thyme.name": "レモンタイム",
+	"ateliercrops_thyme.description": "どんな庭でもすぐに育つ人気のハーブで、レモン種はハーブのような柑橘系の風味で珍重されている。",
+	
+	//TREES NEW
+
+	"ateliercrops_lemonsapling.name":"プチレモンの苗",
+	"ateliercrops_lemonsapling.description":"28日かけて成木にそだち、春になると実をつける。",
+	
+	"ateliercrops_limesapling.name":"プチライムの苗",
+	"ateliercrops_limesapling.description":"28日かけて成木にそだち、春になると実をつける。",
+	
+	//TREES
+
+	"ateliercrops_pistachiosapling.name": "カリコピスタチオの苗",
+	"ateliercrops_pistachiosapling.description": "28日かけて成木にそだち、秋になると実をつける。",
+
+	"ateliercrops_cinnamonsapling.name": "カリコバニラの苗",
+	"ateliercrops_cinnamonsapling.description": "28日かけて成木にそだち、冬に樹皮を収穫する。",
+
+	"ateliercrops_olivesapling.name": "フェーンオリーブの苗",
+	"ateliercrops_olivesapling.description": "28日かけて成木にそだち、夏になると実をつける。",
+
+	"ateliercrops_cashewsapling.name": "ジンジャーカシューの苗",
+	"ateliercrops_cashewsapling.description": "28日かけて成木にそだち、秋になると実をつける。",
+
+	"ateliercrops_walnutsapling.name": "グランプルトンウォールナッツの苗",
+	"ateliercrops_walnutsapling.description": "28日かけて成木にそだち、秋になると実をつける。",
+
+	"ateliercrops_almondsapling.name": "セント・カンノーリ・アーモンドの苗",
+	"ateliercrops_almondsapling.description": "28日かけて成木にそだち、秋になると実をつける。",
+
+	"ateliercrops_cacaopodsapling.name": "ワイルドカカオの苗",
+	"ateliercrops_cacaopodsapling.description": "28日かけて成木にそだち、秋になると実をつける。",
+
+	//OBJECTS
+
+	//Calico Pistachio
+	"ateliercrops_pistachio.name": "カリコピスタチオ",
+	"ateliercrops_pistachio.description": "カリコ砂漠で採れた珍しいピスタチオ。",
+
+    //Calico Vanilla
+	"ateliercrops_vanilla.name": "カリコバニラ",
+	"ateliercrops_vanilla.description": "カリコ砂漠で採れた珍しいバニラ。",
+
+	//Cherry Blossom Petals
+	"ateliercrops_cherryblossoms.name": "さくらの花びら",
+	"ateliercrops_cherryblossoms.description": "咲き誇るさくらの花びら。",
+
+	//Chicken of the Woods
+	"ateliercrops_chickenwoods.name": "マスタケ",
+	"ateliercrops_chickenwoods.description": "この不思議な名前のキノコは世界中にあり、チキンのような味がすると言う人もいる。",
+	
+	//Cindersap Cinnamon
+	"ateliercrops_cinnamon.name": "シンダーサップシナモン",
+	"ateliercrops_cinnamon.description": "シンダーサップの森で、冬にしか見られない珍しいシナモンの樹皮。",
+	
+	//Fern Isle Olive
+	"ateliercrops_olive.name": "フェーンオリーブ",
+	"ateliercrops_olive.description": "熱帯の島々に生息する珍しい種類のオリーブで、フェーンギル共和国の海岸で熟練ハンターが発見した。",
+	
+	//Ferngill Tea Leaf
+	"tea-leaf.name": "フェーンギル茶",
+	"tea-leaf.description": "フェーンギル共和国の森での採集で見つけた新鮮な茶葉。",
+	
+	//Forest Chamomile
+	"ateliercrops_chamomile.name": "フォレストカモミール",
+	"ateliercrops_chamomile.description": "森の奥に咲く繊細な花で、お茶に最適。",
+	
+	//Forest Lavender
+	"ateliercrops_lavender.name": "フォレストラベンダー",
+	"ateliercrops_lavender.description": "森の奥で見つけた、香りのよいふさふさした花。",
+
+	//Gem Isle Jasmine
+	"ateliercrops_jasmine.name": "ジンジャージャスミン",
+	"ateliercrops_jasmine.description": "ジンジャーアイランドでしか採取できない美しい香りを持つ。",
+	
+	//Gem Sea Cashew
+	"ateliercrops_cashew.name": "ジンジャーカシュー",
+	"ateliercrops_cashew.description": "ジンジャーアイランド海域の島々にのみ生息する、熱帯性のカシューアップルから採れる木の実。",
+	
+	//Grampleton Walnut
+	"ateliercrops_walnut.name": "グランプルトンウォールナッツ",
+	"ateliercrops_walnut.description": "グランプルトンで栽培されていたクルミの品種が、ペリカンタウンでも栽培されるようになった。",
+
+    //Honey Fungus Mushroom
+	"ateliercrops_honeyfungus.name": "ナラタケ",
+	"ateliercrops_honeyfungus.description": "生食は危険だが、適切に調理することでコクとナッツのような風味を持つ。",
+	
+	//Marsh Mallow
+	"ateliercrops_mallow.name": "マシュマロの花",
+	"ateliercrops_mallow.description": "マシュマロの花。主にお菓子作りに使われる。",
+	
+	//Meringue Mushroom
+	"ateliercrops_meringueshroom.name": "メレンゲマッシュルーム",
+	"ateliercrops_meringueshroom.description": "色も形もまるでお菓子のようで、この谷で最も優れた採集者だけが見つけることができる、不思議な甘さを持つキノコ。",
+	
+	//Milky White Mushrooms
+	"ateliercrops_milkshroom.name": "まっしろきのこ",
+	"ateliercrops_milkshroom.description": "真っ白でクリーミーな食感のキノコ。",
+	
+	//Pelican Mint
+	"ateliercrops_mint.name": "ペリカンミント",
+	"ateliercrops_mint.description": "ペリカンタウンのいたるところに生えていて、村人たちがどんなに追い払ってもなくならないミントの一種。",
+	
+	//Petite Lemon
+	"ateliercrops_lemon.name": "プチレモン",
+	"ateliercrops_lemon.description": "野外で見つかる、小さくても味わい深いレモン。",
+
+	//Petite Lime
+	"ateliercrops_lime.name": "プチライム",
+	"ateliercrops_lime.description": "野外で見つかる、小さくても味わい深いライム。",
+
+	//St Cannoli Almond
+    "ateliercrops_almond.name": "セント・カンノーリ・アーモンド",
+	"ateliercrops_almond.description": "探求者の夢がかなう! カンノーリ老師が自ら育てたと言われる希少なアーモンド。",
+	
+	//Wheatberry Mushroom
+	"ateliercrops_wheatshroom.name": "ウィートベリー・マッシュルーム",
+	"ateliercrops_wheatshroom.description": "素人目には何の変哲もないキノコだが、玄人たちはこのキノコが料理の重要な食材になることを知っている。",
+	
+	//Wild Cacao Pod
+	"ateliercrops_cacaopod.name": "ワイルドカカオ",
+	"ateliercrops_cacaopod.description": "カカオの木のフルーティーで肉厚なサヤ。ココアやエキゾチックな食品に使われる。",
+	
+	//Wild Carrot
+	"wild-carrot.name": "ワイルドキャロット",
+	"wild-carrot.description": "ニンジンなんだけど、野生のだから気をつけて！",
+	
+	//Wild Raspberry
+	"ateliercrops_raspberry.name": "ワイルドラズベリー",
+	"ateliercrops_raspberry.description": "フェーンギル各地の森に自生する、小さくて甘いベリー。",
+	
+	//Wild Red Onion
+	"ateliercrops_redonion.name": "ワイルドレッドオニオン",
+	"ateliercrops_redonion.description": "野生のニンジンと同じように、このタマネギも要注意！泣けますよ。",
+	
+	//Wild Strawberry
+	"ateliercrops_strawberry.name": "ワイルドストロベリー",
+	"ateliercrops_strawberry.description": "フェーンギル各地の森に自生するイチゴの小型品種。"
+	
+}

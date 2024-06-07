@@ -1,0 +1,103 @@
+{
+
+    "jams_banana_maple_jam.name": "단풍바나나 잼",
+	"jams_banana_maple_jam.description": "잘 익은 바나나를 으깨서 메이플 시럽을 더해 만든 잼입니다.",
+
+	"jams_banana_split_jam.name": "바나나 스플릿",
+	"jams_banana_split_jam.description": "바나나, 딸기, 그리고 체리를 더했습니다!",
+
+	"jams_blackberry_mint_jelly.name": "블랙베리 민트 젤레",
+	"jams_blackberry_mint_jelly.description": "잘 익은 블랙베리와 펠리칸 박하를 더해 만든 달콤한 젤레.",
+
+	"jams_blueberry_lavender_jelly.name": "블루베리 라벤더 젤레",
+	"jams_blueberry_lavender_jelly.description": "신선한 블루베리와 자연에서 채집한 라벤더를 더해 만든 달콤한 젤레입니다.",
+	
+	"jams_blue_jazz_jelly.name": "블루재즈 젤레",
+	"jams_blue_jazz_jelly.description": "블루재즈의 꽃잎으로 만든 플로럴 젤레입니다.",
+
+	"jams_chamomile_jelly.name":"캐모마일 젤레",
+	"jams_chamomile_jelly.description":"자연에서 채집한 캐모마일 꽃잎을 이용해 만든 달콤한 젤레입니다.",
+	
+	"jams_cherry_vanilla_jam.name": "체리바닐라 잼",
+	"jams_cherry_vanilla_jam.description": "갓 딴 체리와 향긋한 바닐라빈으로 만든 잼.",
+	
+	"jams_cinnamon_apple_preserves.name": "애플시나몬 프리저브",
+	"jams_cinnamon_apple_preserves.description": "신선하고 아삭아삭한 사과에 알싸한 계피-이 모든 것을 더한 프리저브는 가을의 풍미를 즐길 수 있습니다.",
+
+	"jams_cranberry_chutney.name": "크랜베리 처트니",
+	"jams_cranberry_chutney.description": "크랜베리 소스는 지금껏 과대평가되어 왔습니다. 소스 대신 이렇게 가볍고 상큼한 풍미가 있는 처트니는 어떠세요?",
+
+	"jams_crocus_jelly.name": "크로커스 젤레",
+	"jams_crocus_jelly.description": "자연에서 채집한 크로커스 꽃으로 만든 젤레는 바닐라와 향신료를 닮았습니다.",
+
+	"jams_dandelion_jelly.name": "민들레 젤레",
+	"jams_dandelion_jelly.description": "자연에서 수확한 민들레 꽃으로 만든 젤레-섬세하고 달콤한 맛이 납니다.",
+
+	"jams_honey_apricot_preserves.name": "살구 프리저브",
+	"jams_honey_apricot_preserves.description": "갓 딴 살구와 달콤한 벌꿀을 더해 만든 프리저브.",
+
+	"jams_honey_peach_preserves.name": "복숭아 프리저브",
+	"jams_honey_peach_preserves.description": "갓 딴 복숭아와 달콤한 벌꿀을 더해 만든 프리저브.",
+
+	"jams_mango_chutney.name": "망고 처트니",
+	"jams_mango_chutney.description": "이 여름에 걸맞는 처트니는 생선구이와 더할나위 없이 잘 어울립니다.",
+	
+	"jams_mixed_berry_preserves.name": "베리믹스 프리저브",
+	"jams_mixed_berry_preserves.description": "신선한 세 종류의 베리를 섞어 만든 프리저브.",
+
+	"jams_peach_blossom_jelly.name":"벚꽃복숭아 젤레",
+	"jams_peach_blossom_jelly.description":"벚꽃 꽃잎과 갓 딴 복숭아가 함께 어우러져 향긋하고 맛있는 젤레.",
+	
+	"jams_peach_ginger_preserves.name": "생강복숭아 프리저브",
+	"jams_peach_ginger_preserves.description": "이 프리저브는 복숭아에 생강으로 풍미를 더했습니다.",
+	
+	"jams_rose_petal_jelly.name":"장미 젤레",
+	"jams_rose_petal_jelly.description":"장미꽃잎을 사용해서 만든 젤레.",
+	
+	"jams_flower_dance_jelly.name": "봄꽃 무도회 젤레",
+	"jams_flower_dance_jelly.description": "펠리컨 마을에 매년 열리는 봄꽃 무도회를 기념해서 소량생산한 젤레.",
+	
+	"jams_luau_jam.name": "루아우 잼",
+	"jams_luau_jam.description": "펠리컨 마을에서 매년 열리는 루아우를 기념하기 위해 소량생산한 젤레",
+	
+	"jams_spirits_eve_jam.name": "영령의 전야제 잼",
+	"jams_spirits_eve_jam.description": "영령의 전야제를 기념하여 소량생산한 젤레!",
+	
+	"jams_winter_star_jelly.name": "겨울 별 젤레",
+	"jams_winter_star_jelly.description": "겨울 별 연회를 기념하여 소량생산한 젤레!",
+	
+	"jams_lemon_marmalade.name": "레몬 마멀레이드",
+	"jams_lemon_marmalade.description": "전체적으로 풍부하게 들어간 레몬 제스트 덕분에, 밝고 상큼한 레몬의 맛이 강렬하게 들어옵니다!",
+	
+	"jams_strawberry_rhubarb_jam.name": "딸기대황 잼",
+	"jams_strawberry_rhubarb_jam.description": "달콤한 딸기와 상큼한 대황을 조합해서 만든 잼.",
+
+	"jams_strawberry_rose_jelly.name":"장미딸기 젤레",
+	"jams_strawberry_rose_jelly.description": "갓 수확한 야생 딸기와 장미꽃잎을 함께 섞어 향기롭고 달콤한 젤레.",
+	
+	"jams_spangle_jelly.name": "여름별꽃 젤레",
+	"jams_spangle_jelly.description": "여름철, 엄선된 여름별꽃만을 사용해서 만든 젤레. 작은 항아리에 햇살이 담긴 듯한 맛을 자랑합니다.",
+	
+	"jams_orange_marmalade.name": "오렌지 마멀레이드",
+	"jams_orange_marmalade.description": "풍부한 오렌지 제스트 덕분에, 밝고 상큼한 오렌지 풍미가 가득합니다.",
+	
+	"jams_sunflower_jelly.name": "해바라기 젤레",
+	"jams_sunflower_jelly.description": "해바라기 꽃잎을 사용해서 만든 젤레. 약간 견과류 맛이 납니다.",	
+
+	"jams_lime_marmalade.name": "라임 마멀레이드",
+	"jams_lime_marmalade.description": "통채로 더해진 라임 제스트 덕분에, 상큼하면서도 달콤한 라임의 풍미를 진하게 즐길 수 있습니다.",
+
+	"jams_jasmine_jelly.name": "자스민 젤레",
+	"jams_jasmine_jelly.description": "갓 수확한 자스민 꽃으로 만들어 신선하고 꽃 향기가 풍부한 젤레.",
+
+	"jams_citrus_marmalade.name": "시트러스 마멀레이드",
+	"jams_citrus_marmalade.description": "레몬, 라임, 오렌지가 함께 어우러져 감귤류의 다양한 풍미를 한 번에 즐길 수 있습니다.",
+
+	"jams_tulip_jelly.name": "튤립 젤레",
+	"jams_tulip_jelly.description": "갓 수확한 튤립으로 만든 젤레. 신선하면서도 꽃의 맛을 즐길 수 있습니다.",
+
+	"jams_vanilla_raspberry_preserves.name": "라즈베리 바닐라 프리저브",
+	"jams_vanilla_raspberry_preserves.description": "바닐라와 라즈베리는 완벽한 조화를 이루고 있습니다. 토스트에 바르거나, 케이크의 속재료에 더하면 달콤한 간식으로 즐길 수 있을거에요!",
+
+
+}

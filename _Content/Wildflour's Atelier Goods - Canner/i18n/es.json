@@ -1,0 +1,103 @@
+{
+
+    "jams_banana_maple_jam.name": "Jalea de plátano y arce",
+	"jams_banana_maple_jam.description": "Mermelada elaborada con puré de plátanos maduros y jarabe de arce de origen local.",
+
+	"jams_banana_split_jam.name": "Jalea de Banana Split",
+	"jams_banana_split_jam.description": "¡Plátanos, fresas y una cereza encima!",
+
+	"jams_blackberry_mint_jelly.name": "Jalea de Mora y Menta",
+	"jams_blackberry_mint_jelly.description": "Una dulce jalea hecha de moras recolectadas y menta cultivada en casa.",
+
+	"jams_blueberry_lavender_jelly.name": "Jalea de Arándano y Lavanda",
+	"jams_blueberry_lavender_jelly.description": "Una dulce jalea hecha con arándanos frescos y lavanda recolectada.",
+
+	"jams_blue_jazz_jelly.name": "Jalea de Allium azul",
+	"jams_blue_jazz_jelly.description": "Jalea floral hecha con pétalos de Allium azul.",
+
+	"jams_chamomile_jelly.name":"Jalea de Manzanilla",
+	"jams_chamomile_jelly.description":"Jalea floral hecha con pétalos de manzanilla recolectados.",
+	
+	"jams_cherry_vanilla_jam.name": "Jalea de Cereza y Vainilla",
+	"jams_cherry_vanilla_jam.description": "Mermelada hecha con cerezas recién recolectadas y vainilla floral.",
+
+	"jams_cinnamon_apple_preserves.name": "Conservas de Manzana y Canela",
+	"jams_cinnamon_apple_preserves.description": "Manzanas frescas y crujientes y canela picante _ ¡añade estas conservas a casi cualquier cosa para obtener un explosión de sabor otoñal!",
+
+	"jams_cranberry_chutney.name": "Chutney de Arándano",
+	"jams_cranberry_chutney.description": "La salsa de arándanos está sobrevalorada _ ¿has probado este chutney brillante y cítrico en su lugar?",
+
+	"jams_crocus_jelly.name": "Jalea de Azafrán",
+	"jams_crocus_jelly.description": "Jalea hecha de flores de Azafrán silvestres; su sabor es un poco como vainilla y especias.",
+
+	"jams_dandelion_jelly.name": "Jalea de Diente de León",
+	"jams_dandelion_jelly.description": "Jalea hecha de dientes de león recolectados; tiene un sabor delicado y dulce.",
+
+	"jams_honey_apricot_preserves.name": "Conservas de Albaricoque y Miel",
+	"jams_honey_apricot_preserves.description": "Conservas hechas con miel local y albaricoques recién recolectados",
+
+	"jams_honey_peach_preserves.name": "Conservas de Durazno y Miel",
+	"jams_honey_peach_preserves.description": "Conservas hechas con miel local y duraznos recién recolectados.",
+
+	"jams_mango_chutney.name": "Chutney de Mango",
+	"jams_mango_chutney.description": "Este chutney veraniego es perfecto sobre un pescado recién pescado y asado.",
+
+	"jams_mixed_berry_preserves.name": "Conservas de Bayas Mixtas",
+	"jams_mixed_berry_preserves.description": "Conservas hechas con tres tipos de bayas frescas.",
+
+	"jams_peach_blossom_jelly.name":"Jalea de Durazno Sakura",
+	"jams_peach_blossom_jelly.description":"Pétalos de flor de cerezo y duraznos recién recolectados cocidos para hacer una jalea deliciosamente fragante.",
+
+	"jams_peach_ginger_preserves.name": "Conservas de Durazno y Jengibre",
+	"jams_peach_ginger_preserves.description": "Conservas hechas con duraznos y un poco de jengibre de la Isla Jengibre para darle un toque extra de sabor.",
+
+	"jams_rose_petal_jelly.name":"Jalea de Pétalos de Rosa",
+	"jams_rose_petal_jelly.description":"Jalea floral hecha con pétalos de rosa.",
+
+	"jams_flower_dance_jelly.name": "Jalea Edición Especial Baile de las Flores",
+	"jams_flower_dance_jelly.description": "¡Jalea en pequeñas cantidades hecha para celebrar el Baile de las Flores Anual de Pelican Town!",
+
+	"jams_luau_jam.name": "Jalea Edición Especial Luau",
+	"jams_luau_jam.description": "¡Mermelada en pequeñas cantidades hecha para celebrar el Luau Anual de Pelican Town!",
+
+	"jams_spirits_eve_jam.name": "Jalea Edición Especial Víspera de los Espíritus",
+	"jams_spirits_eve_jam.description": "¡Jalea en pequeñas cantidades hecha para celebrar la Víspera de los Espíritus!",
+
+	"jams_winter_star_jelly.name": "Jalea Edición Especial Estrella Invernal",
+	"jams_winter_star_jelly.description": "¡Jalea en pequeñas cantidades hecha para celebrar el Banquete de la Estrella Invernal!",
+
+	"jams_lemon_marmalade.name": "Jalea de Limón Primaveral",
+	"jams_lemon_marmalade.description": "Gracias a los trozos de cáscara de limón entera, ¡el sabor brillante y audaz de los limones realmente se destaca!",
+
+	"jams_strawberry_rhubarb_jam.name": "Jalea de Fresa y Ruibarbo",
+	"jams_strawberry_rhubarb_jam.description": "Mermelada hecha combinando fresas dulces con ruibarbo ácido.",
+
+	"jams_strawberry_rose_jelly.name":"Jalea de Fresa y Rosa",
+	"jams_strawberry_rose_jelly.description": "Fresas silvestres recién recolectadas y pétalos de rosa cocidos juntos para hacer una jalea fragante y dulce.",
+
+	"jams_spangle_jelly.name": "Jalea Lentejuela de verano",
+	"jams_spangle_jelly.description": "Jalea hecha de las mejores flores de Lentejuela de verano del verano, ¡sabe a sol en un frasco.",
+
+	"jams_orange_marmalade.name": "Jalea Veraniega de Naranja",
+	"jams_orange_marmalade.description": "Gracias a los trozos de cáscara de naranja entera, ¡el sabor brillante y audaz de las naranjas realmente se destaca!",
+
+	"jams_sunflower_jelly.name": "Jalea de Girasol",
+	"jams_sunflower_jelly.description": "Jalea hecha de pétalos de girasol, sabe ligeramente a nuez.",
+
+	"jams_lime_marmalade.name": "Jalea Dulce de Lima",
+	"jams_lime_marmalade.description": "Gracias a los trozos de cáscara de lima entera, ¡el sabor agrio pero dulce de la lima realmente se destaca!",
+
+	"jams_jasmine_jelly.name": "Jalea Dulce de Jazmín",
+	"jams_jasmine_jelly.description": "Jalea hecha de jazmín recién recolectado, sabe fresco y floral.",
+
+	"jams_citrus_marmalade.name": "Jalea de Cítricos Triples",
+	"jams_citrus_marmalade.description": "Limones, limas y naranjas se unen para un estallido de sabor cítrico.",
+
+	"jams_tulip_jelly.name": "Jalea de Tulipán",
+	"jams_tulip_jelly.description": "Jalea hecha de tulipanes recién recolectados, sabe fresca y floral.",
+
+	"jams_vanilla_raspberry_preserves.name": "Conservas de Frambuesa y Vainilla",
+	"jams_vanilla_raspberry_preserves.description": "Vainilla y frambuesa es la combinación perfecta _ ¡extiende estas conservas en pan tostado o úsalas como relleno en pasteles para un verdadero dulce!"
+
+
+}

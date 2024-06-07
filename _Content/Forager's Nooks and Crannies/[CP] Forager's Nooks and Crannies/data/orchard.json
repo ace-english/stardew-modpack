@@ -1,0 +1,492 @@
+{
+		
+"Changes": [
+
+{
+	"LogName":"Map Patch Forest for Secret Orchard",
+	"Action": "EditMap",
+	"Target": "Maps/Forest", 
+	"FromFile": "assets/Maps/ForestEdit.tmx",
+	"ToArea": {
+			"X": 97,
+			"Y": 55,
+			"Width": 2,
+			"Height": 3
+			},
+
+	"When":{"SecretOrchardToken": "1"}
+},
+
+{
+	"LogName":"Add Warp to Forest for Secret Orchard",
+	"Action": "EditMap",
+	"Target": "Maps/Forest",
+	"AddWarps": ["98 57 Custom_WF_SecretOrchard 31 13"],
+
+	"When":{"SecretOrchardToken": "1"}		
+},
+
+{
+	"LogName":"Add Warps to Secret Orchard",
+	"Action": "EditMap",
+	"Target": "Maps/Custom_WF_SecretOrchard",
+	"AddWarps": [
+		"30 6 Forest 96 56",
+		"31 6 Forest 96 57"
+	]	
+},
+
+////////////////////////
+// WILD TREE SPAWNING //
+////////////////////////
+
+{
+	"Action": "EditMap",
+	"Target": "Maps/Custom_WF_SecretOrchard",
+	"When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+	"MapTiles": [
+		{
+			"Position": { "X": 6, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_elder_sapling"
+			}
+		},
+		{
+			"Position": { "X": 6, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_elder_sapling"
+			}
+		},
+		{
+			"Position": { "X": 6, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_elder_sapling"
+			}
+		},
+		{
+			"Position": { "X": 6, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_elder_sapling"
+			}
+		},
+		{
+			"Position": { "X": 10, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_almondsapling"
+			}
+		},
+		{
+			"Position": { "X": 10, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_almondsapling"
+			}
+		},
+		{
+			"Position": { "X": 10, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_almondsapling"
+			}
+		},
+		{
+			"Position": { "X": 10, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_almondsapling"
+			}
+		},
+		{
+			"Position": { "X": 14, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_lemonsapling"
+			}
+		},
+		{
+			"Position": { "X": 14, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_lemonsapling"
+			}
+		},
+		{
+			"Position": { "X": 14, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_lemonsapling"
+			}
+		},
+		{
+			"Position": { "X": 14, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_lemonsapling"
+			}
+		},
+		{
+			"Position": { "X": 18, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_limesapling"
+			}
+		},
+		{
+			"Position": { "X": 18, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_limesapling"
+			}
+		},
+		{
+			"Position": { "X": 18, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_limesapling"
+			}
+		},
+		{
+			"Position": { "X": 18, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_limesapling"
+			}
+		},
+		{
+			"Position": { "X": 22, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_olivesapling"
+			}
+		},
+		{
+			"Position": { "X": 22, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_olivesapling"
+			}
+		},
+		{
+			"Position": { "X": 22, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_olivesapling"
+			}
+		},
+		{
+			"Position": { "X": 22, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_olivesapling"
+			}
+		},
+		{
+			"Position": { "X": 26, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_walnutsapling"
+			}
+		},
+		{
+			"Position": { "X": 26, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_walnutsapling"
+			}
+		},
+		{
+			"Position": { "X": 26, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_walnutsapling"
+			}
+		},
+		{
+			"Position": { "X": 26, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+			"SpawnTree": "fruit wildflour.ateliercrops_walnutsapling"
+			}
+		},
+	]
+},
+
+{
+	"Action": "EditMap",
+	"Target": "Maps/Custom_WF_SecretOrchard",
+	"When": {"Atelier.Cauldron/ConfigValue:WildFood": "False"},
+	"MapTiles": [
+		{
+			"Position": { "X": 6, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 625 5"
+			}
+		},
+		{
+			"Position": { "X": 6, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 625 5"
+			}
+		},
+		{
+			"Position": { "X": 6, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 625 5"
+			}
+		},
+		{
+			"Position": { "X": 6, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 625 5"
+			}
+		},
+		{
+			"Position": { "X": 10, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 630 5"
+			}
+		},
+		{
+			"Position": { "X": 10, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 630 5"
+			}
+		},
+		{
+			"Position": { "X": 10, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 630 5"
+			}
+		},
+		{
+			"Position": { "X": 10, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 630 5"
+			}
+		},
+		{
+			"Position": { "X": 14, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 631 5"
+			}
+		},
+		{
+			"Position": { "X": 14, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 631 5"
+			}
+		},
+		{
+			"Position": { "X": 14, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 631 5"
+			}
+		},
+		{
+			"Position": { "X": 14, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 631 5"
+			}
+		},
+		{
+			"Position": { "X": 18, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 632 5"
+			}
+		},
+		{
+			"Position": { "X": 18, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 632 5"
+			}
+		},
+		{
+			"Position": { "X": 18, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 632 5"
+			}
+		},
+		{
+			"Position": { "X": 18, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 632 5"
+			}
+		},
+		{
+			"Position": { "X": 22, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 633 5"
+			}
+		},
+		{
+			"Position": { "X": 22, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 633 5"
+			}
+		},
+		{
+			"Position": { "X": 22, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 633 5"
+			}
+		},
+		{
+			"Position": { "X": 22, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 633 5"
+			}
+		},
+		{
+			"Position": { "X": 26, "Y": 14 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 628 5"
+			}
+		},
+		{
+			"Position": { "X": 26, "Y": 21 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 628 5"
+			}
+		},
+		{
+			"Position": { "X": 26, "Y": 28 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 628 5"
+			}
+		},
+		{
+			"Position": { "X": 26, "Y": 35 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 628 5"
+			}
+		},
+	]
+}
+
+	]
+}

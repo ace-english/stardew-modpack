@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    
+
+    {
+	    "LogName": "Atelier Crops Berry Bush Crafting Recipes",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+            "wildflour.ateliercrops_StrawberryBush": "388 5 Moss 1 wildflour.ateliercrops_strawberry 1/Home/wildflour.ateliercrops_StrawberryBush/true/Foraging 4/{{i18n: ateliercrops_StrawberryBush.name}}",
+            "wildflour.ateliercrops_RaspberryBush": "388 5 Moss 1 wildflour.ateliercrops_raspberry 1/Home/wildflour.ateliercrops_RaspberryBush/true/Foraging 4/{{i18n: ateliercrops_RaspberryBush.name}}",
+        }
+    },
+
+
+  ]
+}

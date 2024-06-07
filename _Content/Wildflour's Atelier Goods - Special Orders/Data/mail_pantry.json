@@ -1,0 +1,39 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.gourmetpantry_SO2_reward": "{{i18n: gourmetpantry_SO2_reward.text}} %item id (O)wildflour.ateliercrops_pistachiosapling 1 %%[#]{{i18n: gourmetpantry_SO2_reward.name}}",     
+                    "wildflour.gourmetpantry_SO3_reward": "{{i18n: gourmetpantry_SO3_reward.text}} %item id (O)wildflour.ateliercrops_cashewsapling 1 %%[#]{{i18n: gourmetpantry_SO3_reward.name}}", 
+                    "wildflour.gourmetpantry_SO4_reward": "{{i18n: gourmetpantry_SO4_reward.text}} %item id (O)wildflour.ateliercrops_olivesapling 1 %%[#]{{i18n: gourmetpantry_SO4_reward.name}}", 
+                    "wildflour.gourmetpantry_SO5_reward": "{{i18n: gourmetpantry_SO5_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: gourmetpantry_SO5_reward.name}}" 
+                     
+                }
+            },
+
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.gourmetpantry_SO2mail/n wildflour.gourmetpantry_SO2_complete/x wildflour.gourmetpantry_SO2_reward": "null",
+                "wildflour.gourmetpantry_SO3mail/n wildflour.gourmetpantry_SO3_complete/x wildflour.gourmetpantry_SO3_reward": "null",
+                "wildflour.gourmetpantry_SO4mail/n wildflour.gourmetpantry_SO4_complete/x wildflour.gourmetpantry_SO4_reward": "null",			
+                "wildflour.gourmetpantry_SO5mail/n wildflour.gourmetpantry_SO5_complete/x wildflour.gourmetpantry_SO5_reward": "null"		
+            }
+            },         
+
+
+]
+}

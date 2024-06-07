@@ -1,0 +1,97 @@
+{
+	"Changes": 
+	[
+
+// MODDED ZINNIA
+		{
+			"LogName": "Zinnia Default",
+			"Action": "EditImage",
+			"Target": "Portraits/Zinnia, Characters/Zinnia, Portraits/Zinnia_Beach, Characters/Zinnia_Beach",
+			"FromFile": "Art/Compatibility/AGECompat/{{Target}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AGEZinnia |contains= False": false
+			}
+		},
+		{
+			"LogName": "Zinnia Seasonal",
+			"Action": "EditImage",
+			"Target": "Portraits/Zinnia, Characters/Zinnia",
+			"FromFile": "Art/Compatibility/AGECompat/{{TargetPathOnly}}/SeasonalZinnia/{{TargetWithoutPath}}_{{season}}{{AGEIndoorOutdoorToken}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AGEZinnia |contains= False": false,
+				"HasMod |contains= lillifer.SeasonalOutfitsAGE": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Zinnia Maps",
+			"Action": "EditImage",
+			"Target": "Maps/z_zinniaPicture",
+			"FromFile": "Art/Compatibility/AGECompat/{{Target}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AGEZinnia |contains= False": false
+			}
+		},
+		
+// MODDED ZINNIA
+		{
+			"LogName": "Gabriel Default",
+			"Action": "EditImage",
+			"Target": "Portraits/Gabriel, Characters/Gabriel, Portraits/Gabriel_Beach, Characters/Gabriel_Beach",
+			"FromFile": "Art/Compatibility/AGECompat/{{Target}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AGEGabriel |contains= False": false
+			}
+		},
+		{
+			"LogName": "Gabriel Seasonal",
+			"Action": "EditImage",
+			"Target": "Portraits/Gabriel, Characters/Gabriel",
+			"FromFile": "Art/Compatibility/AGECompat/{{TargetPathOnly}}/SeasonalGabriel/{{TargetWithoutPath}}_{{season}}{{AGEIndoorOutdoorToken}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AGEGabriel |contains= False": false,
+				"HasMod |contains= lillifer.SeasonalOutfitsAGE": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Gabriel Props",
+			"Action": "EditImage",
+			"Target": "Characters/YoungGabrielGE",
+			"FromFile": "Art/Compatibility/AGECompat/Props/YoungGabrielGE.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AGEGabriel |contains= False": false
+			}
+		},
+		
+// MODDED DAISY
+		{
+			"LogName": "Daisy Default",
+			"Action": "EditImage",
+			"Target": "Portraits/Daisy, Characters/Daisy",
+			"FromFile": "Art/Compatibility/AGECompat/{{Target}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AGEDaisy |contains= False": false
+			}
+		},
+
+// MARLON EDITS
+		{
+			"LogName": "Marlon AGE",
+			"Action": "EditImage",
+			"Target": "Characters/YoungMarlonGE",
+			"FromFile": "Art/Compatibility/AGECompat/Props/YoungMarlonGE.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarlonVariant |contains= Modded": true
+			}
+		}
+	]
+}

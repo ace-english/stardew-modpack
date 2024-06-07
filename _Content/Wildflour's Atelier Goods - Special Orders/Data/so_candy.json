@@ -1,0 +1,562 @@
+{
+  "Changes": [
+
+///////////////
+// DROPBOXES //
+///////////////
+
+{
+    "Action": "EditMap",
+    "Target": "Maps/SamHouse",
+    "MapTiles": [
+            {
+               "Position": { "X": 9, "Y": 13},
+               "Layer": "Buildings",
+               "SetProperties": { "Action": "DropBox VincentStuff"}
+            }		
+    ]
+},
+{
+    "Action": "EditMap",
+    "Target": "Maps/Trailer",
+    "MapTiles": [
+            {
+               "Position": { "X": 11, "Y": 6},
+               "Layer": "Buildings",
+               "SetProperties": { "Action": "DropBox PennyKitchen"}
+            }		
+    ]
+},
+
+{
+    "Action": "EditMap",
+    "Target": "Maps/Trailer_Big",
+    "MapTiles": [
+            {
+               "Position": { "X": 11, "Y": 6},
+               "Layer": "Buildings",
+               "SetProperties": { "Action": "DropBox PennyKitchen"}
+            }		
+    ]
+},
+
+{
+    "Action": "EditMap",
+    "Target": "Maps/SeedShop",
+    "MapTiles": [
+            {
+               "Position": { "X": 4, "Y": 4},
+               "Layer": "Buildings",
+               "SetProperties": { "Action": "DropBox AbigailRoom"}
+            }		
+    ]
+},
+
+
+{
+  "LogName": "Candy Orders Vanilla",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "wildflour.ateliercandy_SO_4": {
+        "Name": "{{i18n:ateliercandy_SO_4.name}}",
+        "Requester": "Abigail",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliercandy_SO_4.text}}",
+        "Objectives": [
+
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:ateliercandy_SO_4.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "AbigailRoom",
+                "DropBoxGameLocation": "SeedShop",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "rock_candy_item"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "4750"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Abigail"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.ateliercandy_SO4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    },
+      "wildflour.ateliercandy_SO_5": {
+        "Name": "{{i18n:ateliercandy_SO_5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour.ateliercandy_SO4_complete, mail_wildflour.ateliercandy_SO6_complete, mail_wildflour.ateliercandy_SO8_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliercandy_SO_5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:ateliercandy_SO_5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_candy_item"
+              }
+            }
+            
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.ateliercandy_SO5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    },
+      "wildflour.ateliercandy_SO_6": {
+      "Name": "{{i18n:ateliercandy_SO_6.name}}",
+      "Requester": "Emily",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:ateliercandy_SO_6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:ateliercandy_SO_6.deliver}}",
+            "RequiredCount": "3",
+            "Data": {
+              "AcceptedContextTags": "fairy_floss_item",
+              "Message": "{{i18n:ateliercandy_SO_6.accept}}",
+              "TargetName": "Emily"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "3500"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    },
+      "wildflour.ateliercandy_SO_8": {
+      "Name": "{{i18n:ateliercandy_SO_8.name}}",
+      "Requester": "Lewis",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:ateliercandy_SO_8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:ateliercandy_SO_8.deliver}}",
+            "RequiredCount": "12",
+            "Data": {
+              "AcceptedContextTags": "hard_candy_item",
+              "Message": "{{i18n:ateliercandy_SO_8.accept}}",
+              "TargetName": "Lewis"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "12000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+//////////////////////
+// SPECIAL ORDER WF //
+//////////////////////
+
+    {
+    "LogName": "Candy Orders Wild Food Marshmallows",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+    "Entries": {
+      "wildflour.ateliercandy_SO_1": {
+        "Name": "{{i18n:ateliercandy_SO_1.name}}",
+        "Requester": "Jas",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliercandy_SO_1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:ateliercandy_SO_1a.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.ateliercandy_strawberry_marshmallow",
+                "TargetName": "Jas"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:ateliercandy_SO_1b.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.ateliercandy_lavender_marshmallow",
+                "TargetName": "Jas"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:ateliercandy_SO_1c.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.ateliercandy_matcha_marshmallow",
+                "TargetName": "Jas"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:ateliercandy_SO_1d.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.ateliercandy_coconut_marshmallow",
+                "Message": "{{i18n:ateliercandy_SO_1.accept}}",
+                "TargetName": "Jas"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "10000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Jas"
+                }
+              }    
+          ]
+      },
+      "wildflour.ateliercandy_SO_2": {
+        "Name": "{{i18n:ateliercandy_SO_2.name}}",
+        "Requester": "Vincent",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliercandy_SO_2.text}}",
+        "Objectives": [
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:ateliercandy_SO_2a.deliver}}",
+            "RequiredCount": "1",
+            "Data": {
+              "DropBox": "VincentStuff",
+              "DropBoxGameLocation": "SamHouse",
+              "DropBoxIndicatorLocation": "9 13",
+              "AcceptedContextTags": "item_wildflour.ateliercandy_classic_fairyfloss"
+            }
+          },
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:ateliercandy_SO_2b.deliver}}",
+            "RequiredCount": "1",
+            "Data": {
+              "DropBox": "VincentStuff",
+              "DropBoxGameLocation": "SamHouse",
+              "DropBoxIndicatorLocation": "9 13",
+              "AcceptedContextTags": "item_wildflour.ateliercandy_lavender_fairyfloss"
+            }
+          },
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:ateliercandy_SO_2c.deliver}}",
+            "RequiredCount": "1",
+            "Data": {
+              "DropBox": "VincentStuff",
+              "DropBoxGameLocation": "SamHouse",
+              "DropBoxIndicatorLocation": "9 13",
+              "AcceptedContextTags": "item_wildflour.ateliercandy_lemon_fairyfloss"
+            }
+          },
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:ateliercandy_SO_2d.deliver}}",
+            "RequiredCount": "1",
+            "Data": {
+              "DropBox": "VincentStuff",
+              "DropBoxGameLocation": "SamHouse",
+              "DropBoxIndicatorLocation": "9 13",
+              "AcceptedContextTags": "item_wildflour.ateliercandy_orange_fairyfloss"
+            }
+          },
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:ateliercandy_SO_2e.deliver}}",
+            "RequiredCount": "1",
+            "Data": {
+              "DropBox": "VincentStuff",
+              "DropBoxGameLocation": "SamHouse",
+              "DropBoxIndicatorLocation": "9 13",
+              "AcceptedContextTags": "item_wildflour.ateliercandy_mint_fairyfloss"
+            }
+          }, 
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:ateliercandy_SO_2f.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "VincentStuff",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "9 13",
+                "AcceptedContextTags": "item_wildflour.ateliercandy_strawberry_fairyfloss"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:ateliercandy_SO_2g.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "VincentStuff",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "9 13",
+                "AcceptedContextTags": "item_wildflour.ateliercandy_vanilla_fairyfloss"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "4900"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Vincent"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.ateliercandy_SO2_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      },
+      "wildflour.ateliercandy_SO_7": {
+        "Name": "{{i18n:ateliercandy_SO_7.name}}",
+        "Requester": "Robin",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliercandy_SO_7.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:ateliercandy_SO_7.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "marshmallow_item",
+                "Message": "{{i18n:ateliercandy_SO_7.accept}}",
+                "TargetName": "Robin"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "7500"
+              }
+            },
+  
+          {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  },
+
+/////////////////////////////////////
+// SPECIAL ORDERS CMC OR WILD FOOD //
+/////////////////////////////////////
+
+    {
+      "LogName": "Candy Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {
+        "Query: {{Atelier.Cauldron/ConfigValue:CMC}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
+        },
+      "Entries": {
+        "wildflour.ateliercandy_SO_3": {
+          "Name": "{{i18n:ateliercandy_SO_3.name}}",
+          "Requester": "Penny",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:ateliercandy_SO_3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliercandy_SO_3a.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "PennyKitchen",
+                  "DropBoxGameLocation": "Trailer",
+                  "DropBoxIndicatorLocation": "11 6",
+                  "AcceptedContextTags": "item_wildflour.ateliercandy_lemon_gourmet_pop"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliercandy_SO_3b.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "PennyKitchen",
+                  "DropBoxGameLocation": "Trailer",
+                  "DropBoxIndicatorLocation": "11 6",
+                  "AcceptedContextTags": "item_wildflour.ateliercandy_mint_gourmet_pop"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliercandy_SO_3c.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "PennyKitchen",
+                  "DropBoxGameLocation": "Trailer",
+                  "DropBoxIndicatorLocation": "11 6",
+                  "AcceptedContextTags": "item_wildflour.ateliercandy_berry_gourmet_pop"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliercandy_SO_3d.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "PennyKitchen",
+                  "DropBoxGameLocation": "Trailer",
+                  "DropBoxIndicatorLocation": "11 6",
+                  "AcceptedContextTags": "item_wildflour.ateliercandy_blueberry_gourmet_pop"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "10000"
+                }
+              },
+  
+              {
+               "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Penny"
+                  }
+              },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.ateliercandy_SO3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    }
+
+  ]
+}
+

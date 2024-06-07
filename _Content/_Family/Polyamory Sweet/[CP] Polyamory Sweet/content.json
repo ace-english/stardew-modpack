@@ -1,0 +1,1181 @@
+{
+  "Format": "2.0.0",
+
+  "ConfigSchema": {
+
+    "Lantana_Disable": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "PG": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "Lantana_Wedding": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    }
+  },
+
+
+
+
+  "DynamicTokens": [
+    {
+      "Name": "LantanaWeddingLocation",
+      "Value": "MermaidLantana 22 71 0"
+    },
+    {
+      "Name": "LantanaWeddingLocation",
+      "Value": "MermaidLantana 500 500 0",
+      "When": {
+        "Lantana_Wedding": false
+      }
+    },
+    {
+      "Name": "LantanaSprite",
+      "Value": "assets/Lantana/spritesheet.png"
+    },
+    {
+      "Name": "LantanaSprite",
+      "Value": "assets/Lantana/spritesheetPG.png",
+      "When": {
+        "PG": true
+      }
+    }
+
+
+
+
+    //"assets/Lantana/spritesheet.png"
+  ],
+
+
+
+  "Changes": [
+
+
+    {
+      "Action": "Load",
+      "FromFile": "Assets/AineFlower.png",
+      "Target": "Mods/ApryllForever.CPPolyamorySweet/AineFlower"
+    },
+
+    {
+      "Action": "Load",
+      "FromFile": "Assets/AineFlowerSeeds.png",
+      "Target": "Mods/ApryllForever.CPPolyamorySweet/AineFlowerSeeds"
+    },
+
+    {
+      "Action": "Load",
+      "FromFile": "Assets/AineFlowerCrop.png",
+      "Target": "Mods/ApryllForever.CPPolyamorySweet/AineFlowerCrop"
+    },
+
+    {
+      "Action": "Load",
+      "FromFile": "Assets/AtagartisPendant.png",
+      "Target": "Mods/ApryllForever.CPPolyamorySweet/AtagartisPendant"
+    },
+
+    {
+      "Action": "Load",
+      "FromFile": "Assets/MermaidBouquet.png",
+      "Target": "Mods/ApryllForever.CPPolyamorySweet/MermaidBouquet"
+    },
+
+    {
+      "Action": "Load",
+      "FromFile": "Assets/RoomieBGone.png",
+      "Target": "Mods/ApryllForever.CPPolyamorySweet/RoomieBGone"
+    },
+
+
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Crops",
+      "Entries": {
+        "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+          "Seasons": [ "spring", "summer", "fall" ],
+          "DaysInPhase": [ 1, 2, 3, 3 ], // grows in 9 days with four growing sprites
+          "HarvestItemId": "ApryllForever.CPPolyamorySweet_AineFlower",
+          "Texture": "Mods/ApryllForever.CPPolyamorySweet/AineFlowerCrop",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "ApryllForever.CPPolyamorySweet_AineFlower": {
+          "Name": "Áine Flower",
+          "DisplayName": "Áine Flower",
+          "Description": "Named for Áine, the Éire Goddess of Summer, Love, and Sexuality (pronounced Anya, or Awnya), the Áine Flower first blossomed around The Lake of Áine, in Éire. Give this to a spouse to declare them the primary caretake of the home. Or give it as a gift to anyone you love!",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 339,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Buff": {
+
+
+          },
+          "ContextTags": [ "color_green", "fairy_item" ],
+          "Miscellaneous": null,
+          "Texture": "Mods/ApryllForever.CPPolyamorySweet/AineFlower",
+          "SpriteIndex": 0
+        }
+
+      }
+    },
+    {
+
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+
+        "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+          "Name": "Áine Flower Seeds",
+          "DisplayName": "Áine Flower Seeds",
+          "Description": "Áine Flowers grown from spring to fall, though, their traditional blooming date coincides with the Flower Dance! Takes 9 days to grow.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 100,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Buff": {
+          },
+          "ContextTags": [],
+          "Miscellaneous": null,
+          "Texture": "Mods/ApryllForever.CPPolyamorySweet/AineFlowerSeeds",
+          "ExcludeFromShippingCollection": true,
+          "SpriteIndex": 0
+        },
+
+        "ApryllForever.CPPolyamorySweet_AtagartisPendant": {
+          "Name": "Atagartis Pendant",
+          "DisplayName": "Atagartis Pendant",
+          "Description": "Named for Atagartis, the Mermaid Goddess. Give this pendant to someone you want to marry!",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 400,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Buff": {
+
+
+          },
+          "ContextTags": [ "color_bisexual", "mermaid_item" ],
+          "Miscellaneous": null,
+          "Texture": "Mods/ApryllForever.CPPolyamorySweet/AtagartisPendant",
+          "ExcludeFromShippingCollection": true,
+          "SpriteIndex": 0
+        },
+        "ApryllForever.CPPolyamorySweet_MermaidBouquet": {
+          "Name": "Mermaid Bouquet",
+          "DisplayName": "Mermaid Bouquet",
+          "Description": "A bouquet of purple, pink, and blue flowers! Give these to someone you want to date!",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 400,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Buff": {
+          },
+          "ContextTags": [ "color_bisexual", "mermaid_item" ],
+          "Miscellaneous": null,
+          "Texture": "Mods/ApryllForever.CPPolyamorySweet/MermaidBouquet",
+          "ExcludeFromShippingCollection": true,
+          "SpriteIndex": 0
+        }
+      }
+
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "ApryllForever.CPPolyamorySweet_RoomieBGone": {
+          "Name": "Roomie B Gone",
+          "DisplayName": "Roomie B Gone",
+          "Description": "Have a roommate you are tired of? This special candle will make them gone for good! Give it to them, and let the dark energies of this potent portent potray your parley!",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 100,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Buff": {
+
+
+          },
+          "ContextTags": [ "color_green", "fairy_item" ],
+          "Miscellaneous": null,
+          "Texture": "Mods/ApryllForever.CPPolyamorySweet/RoomieBGone",
+          "ExcludeFromShippingCollection": true,
+          "SpriteIndex": 0
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "ApryllForever.CPPolyamorySweet_AineFlower": {
+          "Id": "ApryllForever.CPPolyamorySweet_AineFlower",
+          "ItemId": "ApryllForever.CPPolyamorySweet_AineFlower",
+          "Price": 400
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+          "Id": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
+          "ItemId": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
+          "Price": 80
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "AineFlower_reject": "I... really do not feel close enough to you to receive this...",
+        "AineFlower_accept": "Awww thank you!!! You are very special to me too!",
+        "AineFlower_spouse": "Awww thank you!!! I love you so much too! I am happy to help any way I can!$h",
+        "NPC.cs.4434": "Nghh... what is it? I'm trying to sleep.$a",
+        "NPC.cs.4435": "I just don't feel like getting up today.$s",
+        "NPC.cs.4436": "*sigh*... I just want to stay in bed.$s",
+        "NPC.cs.4437": "Nnnghh... what is it? Make your own breakfast.$a",
+        "NPC.cs.4438": "...$a#$e#I had a bad dream, that's all.$s",
+        "RoomieBGone": "What?!?!?$2#$b#I'll leave...",
+        "NotRoomie": "I'm... not your roommate.#$b#Silly!$u"
+
+      }
+    },
+
+    // Minecarts, Jaqi!!!
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "TargetField": [ "Default", "Destinations" ],
+      "Entries": {
+        "Lantana": {
+
+          "Id": "Lantana",
+          "DisplayName": "Lantana Lagoon",
+          "TargetLocation": "Custom_LantanaLagoon",
+          "TargetTile": {
+            "X": 15,
+            "Y": 15
+          },
+          "TargetDirection": "down"
+        }
+      },
+      "When": {
+        "HasFlag": "ccBoilerRoom, jojaBoilerRoom",
+        //"query: {{DaysPlayed}} >= 32": true,
+        "Lantana_Disable": false
+      }
+    },
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "Entries": {
+        "PolyamorySweet.LantanaLoveShop": {
+          "Currency": 0,
+          "StackSizeVisibility": null,
+          "OpenSound": "pullItemFromWater",
+          "PurchaseSound": "crystal",
+          "PurchaseRepeatSound": "crystal",
+          "PriceModifiers": null,
+          "PriceModifierMode": "Stack",
+          "Owners": [
+            {
+              "Condition": null,
+              "Portrait": "MermaidLantana",
+              "Dialogues": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Dialogue": null,
+                  "RandomDialogue": [
+                    "Hey Love! Care to peruse my fine wares?"
+                  ]
+                }
+              ],
+              "RandomizeDialogueOnOpen": true,
+              "Id": "MermaidLantana",
+              "Name": "MermaidLantana"
+            }
+          ],
+          "VisualTheme": null,
+          "SalableItemTags": [
+            "category_building_resources",
+            "category_sell_at_fish_shop",
+            "category_sell_at_pierres"
+          ],
+          "Items": [
+
+            {
+              "TradeItemId": null,
+              "TradeItemAmount": 1,
+              "Price": 80,
+              "ApplyDifficultyModifier": null,
+              "AvailableStock": -1,
+              "AvailableStockLimit": "Global",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
+              "ItemId": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "TradeItemId": null,
+              "TradeItemAmount": 1,
+              "Price": 400,
+              "ApplyDifficultyModifier": null,
+              "AvailableStock": -1,
+              "AvailableStockLimit": "Global",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "ApryllForever.CPPolyamorySweet_AineFlower",
+              "ItemId": "ApryllForever.CPPolyamorySweet_AineFlower",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "TradeItemId": null,
+              "TradeItemAmount": 1,
+              "Price": 200,
+              "ApplyDifficultyModifier": null,
+              "AvailableStock": -1,
+              "AvailableStockLimit": "Global",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "ApryllForever.CPPolyamorySweet_MermaidBouquet",
+              "ItemId": "ApryllForever.CPPolyamorySweet_MermaidBouquet",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "TradeItemId": null,
+              "TradeItemAmount": 1,
+              "Price": 5000,
+              "ApplyDifficultyModifier": null,
+              "AvailableStock": 1,
+              "AvailableStockLimit": "Global",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": "WEATHER here Rain Snow Storm",
+              "Id": "ApryllForever.CPPolyamorySweet_AtagartisPendant",
+              "ItemId": "ApryllForever.CPPolyamorySweet_AtagartisPendant",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+
+            {
+              "TradeItemId": null,
+              "TradeItemAmount": 1,
+              "Price": 17071,
+              "ApplyDifficultyModifier": null,
+              "AvailableStock": 1,
+              "AvailableStockLimit": "Global",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": "WEATHER here Sun Wind Festival",
+              "Id": "ApryllForever.CPPolyamorySweet_AtagartisPendant",
+              "ItemId": "ApryllForever.CPPolyamorySweet_AtagartisPendant",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "TradeItemId": null,
+              "TradeItemAmount": 1,
+              "Price": 20000,
+              "ApplyDifficultyModifier": null,
+              "AvailableStock": 1,
+              "AvailableStockLimit": "Global",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "ApryllForever.CPPolyamorySweet_RoomieBGone",
+              "ItemId": "ApryllForever.CPPolyamorySweet_RoomieBGone",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            }
+
+          ],
+          "CustomFields": {}
+        }
+
+      }
+    },
+
+
+    //Location
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "Entries": {
+        "Custom_LantanaLagoon": {
+
+
+          "DefaultArrivalTile": {
+            "X": 15,
+            "Y": 15
+          },
+          "ExcludeFromNpcPathfinding": false,
+
+          "ArtifactSpots": [
+            {
+              "Chance": 0.2,
+              "ApplyGenerousEnchantment": true,
+              "OneDebrisPerDrop": true,
+              "Precedence": -1000,
+              "ContinueOnDrop": false,
+              //"Condition": "",
+              "Id": "(O)710",
+              "ItemId": "(O)710", //Crab
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 0.25,
+              "ApplyGenerousEnchantment": true,
+              "OneDebrisPerDrop": true,
+              "Precedence": -1000,
+              "ContinueOnDrop": false,
+              //"Condition": "",
+              "Id": "(O)716",
+              "ItemId": "(O)716", //Crayfish
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 0.05,
+              "ApplyGenerousEnchantment": true,
+              "OneDebrisPerDrop": true,
+              "Precedence": -1000,
+              "ContinueOnDrop": false,
+              "Condition": null,
+              "Id": "(O)797",
+              "ItemId": "(O)797", //Pearl
+              "RandomItemId": null,
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 0.2,
+              "ApplyGenerousEnchantment": true,
+              "OneDebrisPerDrop": true,
+              "Precedence": 0,
+              "ContinueOnDrop": false,
+              "Condition": null,
+              "Id": "(O)292",
+              "ItemId": "(O)292", //Mahogany Seed
+              "RandomItemId": null,
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 0.5,
+              "ApplyGenerousEnchantment": true,
+              "OneDebrisPerDrop": true,
+              "Precedence": 0,
+              "ContinueOnDrop": false,
+              "Condition": null,
+              "Id": "(O)393",
+              "ItemId": "(O)393", //Coral
+              "RandomItemId": null,
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 1.0,
+              "ApplyGenerousEnchantment": true,
+              "OneDebrisPerDrop": true,
+              "Precedence": 0,
+              "ContinueOnDrop": false,
+              "Condition": null,
+              "Id": "(O)749",
+              "ItemId": "(O)749", // Omni Geode
+              "RandomItemId": null,
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            }
+          ],
+          "FishAreas": {
+            "Freshwater": {
+              "DisplayName": null,
+              "Position": {
+                "X": 24,
+                "Y": 0,
+                "Width": 255,
+                "Height": 100
+              },
+              "CrabPotFishTypes": [],
+              "CrabPotJunkChance": 0.2
+            }
+
+          },
+          "Fish": [
+
+            {
+              "Chance": 1.0,
+              "Season": null,
+              "FishAreaId": "Freshwater",
+              "BobberPosition": null,
+              "PlayerPosition": null,
+              "MinFishingLevel": 0,
+              "MinDistanceFromShore": 0,
+              "MaxDistanceFromShore": -1,
+              "ApplyDailyLuck": false,
+              "CuriosityLureBuff": -1.0,
+              "CatchLimit": -1,
+              "IsBossFish": false,
+              "SetFlagOnCatch": null,
+              "RequireMagicBait": false,
+              "Precedence": 0,
+              "IgnoreFishDataRequirements": false,
+              "CanBeInherited": true,
+              "ChanceModifiers": null,
+              "ChanceModifierMode": "Stack",
+              "Condition": null,
+              "Id": "(O)701",
+              "ItemId": "(O)701", //Tilapia
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 1.0,
+              "Season": null,
+              "FishAreaId": "Freshwater",
+              "BobberPosition": null,
+              "PlayerPosition": null,
+              "MinFishingLevel": 0,
+              "MinDistanceFromShore": 0,
+              "MaxDistanceFromShore": -1,
+              "ApplyDailyLuck": false,
+              "CuriosityLureBuff": -1.0,
+              "CatchLimit": -1,
+              "IsBossFish": false,
+              "SetFlagOnCatch": null,
+              "RequireMagicBait": false,
+              "Precedence": 0,
+              "IgnoreFishDataRequirements": false,
+              "CanBeInherited": true,
+              "ChanceModifiers": null,
+              "ChanceModifierMode": "Stack",
+              "Condition": null,
+              "Id": "(O)145",
+              "ItemId": "(O)145", //Sunfish
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 1.0,
+              "Season": null,
+              "FishAreaId": "Freshwater",
+              "BobberPosition": null,
+              "PlayerPosition": null,
+              "MinFishingLevel": 0,
+              "MinDistanceFromShore": 0,
+              "MaxDistanceFromShore": -1,
+              "ApplyDailyLuck": false,
+              "CuriosityLureBuff": -1.0,
+              "CatchLimit": -1,
+              "IsBossFish": false,
+              "SetFlagOnCatch": null,
+              "RequireMagicBait": false,
+              "Precedence": 0,
+              "IgnoreFishDataRequirements": false,
+              "CanBeInherited": true,
+              "ChanceModifiers": null,
+              "ChanceModifierMode": "Stack",
+              "Condition": null,
+              "Id": "(O)136",
+              "ItemId": "(O)136", // Lg Bass
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 1.0,
+              "Season": null,
+              "FishAreaId": "Freshwater",
+              "BobberPosition": null,
+              "PlayerPosition": null,
+              "MinFishingLevel": 0,
+              "MinDistanceFromShore": 0,
+              "MaxDistanceFromShore": -1,
+              "ApplyDailyLuck": false,
+              "CuriosityLureBuff": -1.0,
+              "CatchLimit": -1,
+              "IsBossFish": false,
+              "SetFlagOnCatch": null,
+              "RequireMagicBait": false,
+              "Precedence": 0,
+              "IgnoreFishDataRequirements": false,
+              "CanBeInherited": true,
+              "ChanceModifiers": null,
+              "ChanceModifierMode": "Stack",
+              "Condition": null,
+              "Id": "(O)137",
+              "ItemId": "(O)137", // Sm Bass
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 1.0,
+              "Season": null,
+              "FishAreaId": "Freshwater",
+              "BobberPosition": null,
+              "PlayerPosition": null,
+              "MinFishingLevel": 0,
+              "MinDistanceFromShore": 0,
+              "MaxDistanceFromShore": -1,
+              "ApplyDailyLuck": false,
+              "CuriosityLureBuff": -1.0,
+              "CatchLimit": -1,
+              "IsBossFish": false,
+              "SetFlagOnCatch": null,
+              "RequireMagicBait": false,
+              "Precedence": 0,
+              "IgnoreFishDataRequirements": false,
+              "CanBeInherited": true,
+              "ChanceModifiers": null,
+              "ChanceModifierMode": "Stack",
+              "Condition": null,
+              "Id": "(O)700", //BullHead
+              "ItemId": "(O)700",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            }
+          ],
+          "Forage": [
+            {
+              "Chance": 0.9,
+              "Season": "spring",
+              "Condition": null,
+              "Id": "(O)259",
+              "ItemId": "(O)259", //Fern
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 0.7,
+              "Season": "spring",
+              "Condition": null,
+              "Id": "(O)372",
+              "ItemId": "(O)372", //Clam
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 0.7,
+              "Season": "summer",
+              "Condition": null,
+              "Id": "(O)372",
+              "ItemId": "(O)372", //Clam
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 0.2,
+              "Season": "summer",
+              "Condition": null,
+              "Id": "(O)394",
+              "ItemId": "(O)394", //Rainbow Shell
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+
+            {
+              "Chance": 0.2,
+              "Season": "winter",
+              "Condition": null,
+              "Id": "(O)394",
+              "ItemId": "(O)394", //Rainbow Shell
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 0.9,
+              "Season": "summer",
+              "Condition": null,
+              "Id": "(O)396",
+              "ItemId": "(O)396", //SpiceBerry
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            },
+            {
+              "Chance": 0.9,
+              "Season": "fall",
+              "Condition": null,
+              "Id": "(O)259",
+              "ItemId": "(O)259", //Fern
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack"
+            }
+          ],
+          "MinDailyWeeds": 0,
+          "MaxDailyWeeds": 1,
+          "FirstDayWeedMultiplier": 1,
+          "MinDailyForageSpawn": 3,
+          "MaxDailyForageSpawn": 7,
+          "MaxSpawnedForageAtOnce": 7,
+          "ChanceForClay": 0.25,
+          "Music": [],
+          "MusicDefault": null,
+          "MusicContext": "Default",
+          "MusicIgnoredInRain": false,
+          "MusicIgnoredInSpring": false,
+          "MusicIgnoredInSummer": false,
+          "MusicIgnoredInFall": false,
+          "MusicIgnoredInFallDebris": false,
+          "MusicIgnoredInWinter": false,
+          "MusicIsTownTheme": false,
+          "CustomFields": {}
+        }
+      }
+    },
+
+
+
+    //Lantana
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "Entries": {
+        "MermaidLantana": {
+          "DisplayName": "Lantana",
+          "BirthSeason": "Summer",
+          "BirthDay": 2,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Age": "Teen",
+          "Manner": "Rude",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Negative",
+
+          "CanBeRomanced": false,
+          "LoveInterest": "Oksana",
+          "CanVisitIslandCondition": false,
+          "IntroductionsQuest": false,
+          "PerfectionScore": false,
+          "WinterStarParticipant": false,
+
+          "FriendsAndFamily": {
+          },
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_LantanaLagoon",
+              "Tile": {
+                "X": 19,
+                "Y": 6
+              },
+              "Direction": "Down"
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "Entries": {
+        "MermaidLantana": "This is wonderful!!! Here's a kiss, sweetie!!! *MWAH*/66 234 238 239 394 421 577 578 595 612 611 716/Thank you, love!!!/-79 -80 -26 -12 -2 88/I don't like this. Who would?//This is seriously terrible!!! Consider therapy!!!/-81 -75 -27 -6 -5 -4 815 814 812 807/Well... thanks!/-20 -7/"
+      }
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/MermaidLantana",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "FromFile": "{{LantanaSprite}}"
+    },
+
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/MermaidLantana",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "FromFile": "assets/Lantana/portrait.png"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/MermaidLantana",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "FromFile": "assets/Lantana/schedule.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MermaidLantana",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "FromFile": "assets/Lantana/Dialogue.json"
+    },
+    
+    {
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/MermaidLantana",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "FromFile": "assets/Lantana/scheduleDialogue.json"
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Weddings",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "TargetField": [ "Attendees" ],
+      "Entries": {
+        "MermaidLantana": {
+          "Id": "MermaidLantana",
+          "Condition": null,
+          "Setup": "{{LantanaWeddingLocation}}",
+          "Celebration": null,
+          "IgnoreUnlockConditions": false
+        }
+      }
+    },
+
+
+
+
+    {
+      "Action": "EditData",
+      "When": {
+        "Lantana_Disable": false
+      },
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "PolyamorySweetLantanaFarm/n ccBoilerRoom": "jaunty/-500 -500/farmer 64 16 2 MermaidLantana 64 18 0/viewport 64 17 true/pause 800/speak MermaidLantana \"Hey there, @! I'm Mermaid Lantana! I love your farm!$1#$b#So, you are probably wondering why a mermaid washed up on your doorstep!\"/pause 300/emote farmer 8/pause 900/speak MermaidLantana \"I just wanted to let you know, that since the minecarts are up and running, that you can now come to my little store at Lantana Lagoon, via the minecarts!\"/pause 600/jump farmer/pause 1100/speak MermaidLantana \"If you want to date someone, give them a Mermaid Bouqet! You can date every available consenting person in town, if you please!$1#$b#If you want to marry someone, you have to be dating them, and 10 out of 10 hearts relationship! You may then give them an Atagartis Pendant!\"/pause 400/emote MermaidLantana 20/pause 500/speak MermaidLantana \"Listen close, this part is important: you can only be engaged to one person at a time!$1#$b#Also, if you have a stubborn Roommate who will not leave, you can always give them the Roomie B Gone candle, Guaranteed to Work in 24 Hours or Less!#$b#That candle will not work for anyone you are married to though. They will think you are confused! You have to divorce them.#$b#Lovely talking with you! Have a great day, dear!^Lovely talking with you! Have a beautiful day, cutie!\"/pause 300/emote farmer 20/emote MermaidLantana 20/pause 1200/end"
+      }
+    }
+
+
+
+    // {
+    //"Action": "EditData",
+    //"Target": "Strings/StringsFromCSFiles",
+    //"Entries": {
+    // "FlowerDanceFemaleAccept": "You want to be my partner for the flower dance?#$b#Okay! I'd love to dance with you! <$h",
+    // "FlowerDanceMaleAccept": "You want to be my partner for the flower dance?#$b#Okay! I'd love to dance with you! <$h"
+    //}
+    //}
+
+  ]
+}//Apryll

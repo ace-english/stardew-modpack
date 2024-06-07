@@ -1,0 +1,2559 @@
+{
+    "Changes": [
+
+//////////////////
+// ADD MACHINES //
+//////////////////
+
+{
+    "LogName": "Add Tea Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "wildflour.atelierbarista_TeaProcessor": {
+            "Name": "wildflour.atelierbarista_TeaProcessor",
+            "DisplayName": "{{i18n: atelierbarista_TeaProcessor.name}}",
+            "Description": "{{i18n: atelierbarista_TeaProcessor.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierbarista\\Machines_Base",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+          },
+          "wildflour.atelierbarista_TeaKettle": {
+            "Name": "wildflour.atelierbarista_TeaKettle",
+            "DisplayName": "{{i18n: atelierbarista_TeaKettle.name}}",
+            "Description": "{{i18n: atelierbarista_TeaKettle.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierbarista\\Machines_{{MachineColorConfig}}",
+            "SpriteIndex": 8,
+            "CustomFields": {}
+          },
+          "wildflour.atelierbarista_CoffeeGrinder": {
+            "Name": "wildflour.atelierbarista_CoffeeGrinder",
+            "DisplayName": "{{i18n: atelierbarista_CoffeeGrinder.name}}",
+            "Description": "{{i18n: atelierbarista_CoffeeGrinder.description}}",
+            "Price": 2550,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierbarista\\Machines_Coffee",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+          },
+          "wildflour.atelierbarista_CoffeeBrewer": {
+            "Name": "wildflour.atelierbarista_CoffeeBrewer",
+            "DisplayName": "{{i18n: atelierbarista_CoffeeBrewer.name}}",
+            "Description": "{{i18n: atelierbarista_CoffeeBrewer.description}}",
+            "Price": 2550,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierbarista\\Machines_Coffee",
+            "SpriteIndex": 8,
+            "CustomFields": {}
+          }
+    }
+},
+
+//////////////////
+// SACHET RULES //
+//////////////////
+
+{
+    "LogName": "Add Atelier Tea Sachet Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.atelierbarista_TeaProcessor": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierbarista_apple_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)613",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_apple_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_apple_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_vanilla_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Vanilla",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_vanilla_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_vanilla_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_breakfast_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)395",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_breakfast_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_breakfast_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_breakfast_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)395",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_breakfast_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_breakfast_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_matcha_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)815",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_matcha_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_matcha_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_cinnamon_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cinnamon",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_CinnamonSticks",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_cinnamon_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_cinnamon_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_chamomile_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_chamomile",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Chamomile",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_chamomile_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_chamomile_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_breakfast_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)433",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_breakfast_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_breakfast_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_jasmine_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Jasmine",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)QL_Jasmine",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_jasmine_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_jasmine_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_ginger_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)829",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_ginger_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_ginger_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_grey_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Lavender",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)QL_Lavender",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_grey_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_grey_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_lemon_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lemon",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Lemon",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_lemon_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_lemon_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_matcha_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)815",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_matcha_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_matcha_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_mint_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mint",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Mint",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_mint_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_mint_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_berry_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)258",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_berry_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_berry_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_peach_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)636",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_peach_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_peach_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_pineapple_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)832",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_pineapple_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_pineapple_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_pomegranate_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)637",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_pomegranate_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_pomegranate_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_raspberry_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_raspberry",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Raspberry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_raspberry_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_raspberry_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_rose_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_rose_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_rose_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_sakura_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cherryblossoms",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_sakura_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_sakura_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_strawberry_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_strawberry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_strawberry_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_strawberry_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_gardenia_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)QL_Gardenia",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_gardenia_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_gardenia_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_hibiscus_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)QL_Hibiscus",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Hibiscus",
+                            "RequiredCount": 1
+                        },
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_hibiscus_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_hibiscus_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_borage_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_Borage",
+                            "RequiredCount": 1
+                        },
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_borage_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_borage_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_calendula_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_Calendula",
+                            "RequiredCount": 1
+                        },
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_calendula_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_calendula_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_hollyhock_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_Hollyhock",
+                            "RequiredCount": 1
+                        },
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_hollyhock_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_hollyhock_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_springpansy_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_springpansy",
+                            "RequiredCount": 1
+                        },
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_springpansy_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_springpansy_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_orangeblossom_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.VisitMtVapius_OrangeBlossom",
+                            "RequiredCount": 1
+                        },
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_orangeblossom_sachet",
+                            "ItemId": "(O)wildflour.atelierbarista_orangeblossom_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.atelierbarista_flavored_sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "wildflour.atelierbarista_flavored_sachet",
+                        "ItemId": "CAULDRON_CUSTOM_PRESERVE wildflour.atelierbarista_flavored_sachet DROP_IN_ID",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:wildflour.atelierbarista_flavored_sachet %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Tea Sachet",  
+                        "PreserveID":"DROP_IN",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                }               
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)815",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:atelierbarista_TeaProcessor_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierbarista_TeaProcessor_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+///////////////
+// TEA RULES //
+///////////////
+
+{
+    "LogName": "Add Atelier Tea Rules for Kettle",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.atelierbarista_TeaKettle": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierbarista_apple_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_apple_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_apple_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_apple_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_vanilla_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_vanilla_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_vanilla_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_vanilla_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_matcha_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_matcha_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_matcha_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_matcha_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_cinnamon_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_cinnamon_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_cinnamon_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_cinnamon_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_chamomile_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_chamomile_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_chamomile_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_chamomile_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_breakfast_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_breakfast_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_breakfast_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_breakfast_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_jasmine_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_jasmine_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_jasmine_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_jasmine_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_ginger_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_ginger_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_ginger_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_ginger_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_grey_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_grey_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_grey_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_grey_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_lemon_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_lemon_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_lemon_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_lemon_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_mint_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_mint_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_mint_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_mint_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+              {
+                    "Id": "wildflour.atelierbarista_berry_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_berry_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_berry_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_berry_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_peach_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_peach_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_peach_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_peach_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+               {
+                    "Id": "wildflour.atelierbarista_pineapple_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_pineapple_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_pineapple_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_pineapple_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_pomegranate_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_pomegranate_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_pomegranate_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_pomegranate_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_raspberry_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_raspberry_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_raspberry_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_raspberry_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_rose_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_rose_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_rose_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_rose_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_sakura_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_sakura_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_sakura_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_sakura_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_strawberry_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_strawberry_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_strawberry_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_strawberry_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_gardenia_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_gardenia_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_gardenia_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_gardenia_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_hibiscus_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_hibiscus_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_hibiscus_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_hibiscus_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_borage_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_borage_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_borage_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_borage_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_calendula_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_calendula_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_calendula_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_calendula_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_hollyhock_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_hollyhock_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_hollyhock_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_hollyhock_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_springpansy_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_springpansy_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_springpansy_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_springpansy_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_orangeblossom_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_orangeblossom_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_orangeblossom_tea",
+                            "ItemId": "(O)wildflour.atelierbarista_orangeblossom_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_flavored_tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["sachet_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "wildflour.atelierbarista_flavored_tea",
+                        "ItemId": "CAULDRON_CUSTOM_PRESERVE wildflour.atelierbarista_flavored_tea DROP_IN_PRESERVE",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:wildflour.atelierbarista_flavored_tea %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Tea",
+                        "PreserveID":"Atelier.Cauldron_DROP_IN",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 2.4
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 600
+                }               
+        
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)340",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:atelierbarista_TeaKettle_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierbarista_TeaKettle_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+//////////////////
+// COFFEE RULES //
+//////////////////
+
+{
+    "LogName": "Add Atelier Barista Coffee Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.atelierbarista_CoffeeGrinder": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierbarista_breakfast_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)768",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_breakfast_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_breakfast_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierbarista_vanilla_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Vanilla",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_vanilla_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_vanilla_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierbarista_cold_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)84",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_cold_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_cold_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierbarista_donut_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)724",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_donut_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_donut_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierbarista_hazelnut_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)408",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_hazelnut_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_hazelnut_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierbarista_holiday_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mint",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Mint",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)829",
+                            "RequiredCount": 1
+                        },
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_holiday_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_holiday_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierbarista_mocha_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cacaopod",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_CocoaPod",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_mocha_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_mocha_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierbarista_pumpkin_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)276",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_pumpkin_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_pumpkin_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierbarista_sweetheart_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)400",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_sweetheart_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_sweetheart_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierbarista_coconut_ground",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)88",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_coconut_ground",
+                            "ItemId": "(O)wildflour.atelierbarista_coconut_ground",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1800
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)433",
+                    "RequiredCount":15,
+                    "InvalidCountMessage":"{{i18n:atelierbarista_CoffeeGrinder_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierbarista_CoffeeGrinder_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        },
+        "(BC)wildflour.atelierbarista_CoffeeBrewer": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierbarista_breakfast_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_breakfast_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_breakfast_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_breakfast_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_vanilla_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_vanilla_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_vanilla_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_vanilla_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_cold_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_cold_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_cold_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_cold_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_donut_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_donut_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_donut_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_donut_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_hazelnut_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_hazelnut_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_hazelnut_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_hazelnut_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_holiday_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_holiday_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_holiday_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_holiday_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_mocha_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_mocha_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_mocha_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_mocha_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_pumpkin_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_pumpkin_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_pumpkin_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_pumpkin_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_sweetheart_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_sweetheart_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_sweetheart_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_sweetheart_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierbarista_coconut_latte",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.atelierbarista_coconut_ground",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbarista_coconut_latte",
+                            "ItemId": "(O)wildflour.atelierbarista_coconut_latte",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)wildflour.gourmetpantry_cream",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:atelierbarista_CoffeeBrewer_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierbarista_CoffeeBrewer_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3],
+                    "Interval":200
+                }
+           ] 
+        }
+    }
+}
+
+]
+}

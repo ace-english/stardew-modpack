@@ -1,0 +1,298 @@
+{
+// JAS DSV ULTRALIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Jas Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Jas", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Jas.Indoor":
+				{
+					"Id": "{{ModId}}_Jas_Indoor",
+					"Portrait": "Portraits/Jas_Indoor",
+					"Sprite": "Characters/Jas_Indoor",
+					"Precedence": -110
+				},
+				"DSV.Jas.Beach":
+				{
+					"Id": "{{ModId}}_Jas_Beach",
+					"Portrait": "Portraits/Jas_Beach",
+					"Sprite": "Characters/Jas_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Jas.EggFestival":
+				{
+					"Id": "{{ModId}}_Jas_EggFestival",
+					"Portrait": "Portraits/Jas_EggFestival",
+					"Sprite": "Characters/Jas_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Jas.FlowerDance":
+				{
+					"Id": "{{ModId}}_Jas_FlowerDance",
+					"Portrait": "Portraits/Jas_FlowerDance",
+					"Sprite": "Characters/Jas_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Jas.Luau":
+				{
+					"Id": "{{ModId}}_Jas_Luau",
+					"Portrait": "Portraits/Jas_Luau",
+					"Sprite": "Characters/Jas_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Jas.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Jas_MoonlightJellies",
+					"Portrait": "Portraits/Jas_MoonlightJellies",
+					"Sprite": "Characters/Jas_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Jas.SVFair":
+				{
+					"Id": "{{ModId}}_Jas_SVFair",
+					"Portrait": "Portraits/Jas_SVFair",
+					"Sprite": "Characters/Jas_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Jas.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Jas_SpiritsEve",
+					"Portrait": "Portraits/Jas_SpiritsEve",
+					"Sprite": "Characters/Jas_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Jas.IceFestival":
+				{
+					"Id": "{{ModId}}_Jas_IceFestival",
+					"Portrait": "Portraits/Jas_IceFestival",
+					"Sprite": "Characters/Jas_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Jas.WinterStar":
+				{
+					"Id": "{{ModId}}_Jas_WinterStar",
+					"Portrait": "Portraits/Jas_WinterStar",
+					"Sprite": "Characters/Jas_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Jas.Swim":
+				{
+					"Id": "{{ModId}}_Jas_Swim",
+					"Portrait": "Portraits/Jas_Swim",
+					"Sprite": "Characters/Jas_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Jas.HotClimate":
+				{
+					"Id": "{{ModId}}_Jas_HotClimate",
+					"Portrait": "Portraits/Jas_HotClimate",
+					"Sprite": "Characters/Jas_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Jas Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Jas_Indoor, Characters/Jas_Indoor",
+			"FromFile": "Art/VanillaNPCs/Jas/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JasVariant}}/Jas_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Jas Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Jas_Beach, Characters/Jas_Beach",
+			"FromFile": "Art/VanillaNPCs/Jas/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JasVariant}}/Jas_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Jas Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Jas_EggFestival, Characters/Jas_EggFestival, Portraits/Jas_FlowerDance, Characters/Jas_FlowerDance, Portraits/Jas_Luau, Characters/Jas_Luau, Portraits/Jas_MoonlightJellies, Characters/Jas_MoonlightJellies, Portraits/Jas_SVFair, Characters/Jas_SVFair, Portraits/Jas_SpiritsEve, Characters/Jas_SpiritsEve, Portraits/Jas_IceFestival, Characters/Jas_IceFestival, Portraits/Jas_WinterStar, Characters/Jas_WinterStar, Portraits/Jas_Swim, Characters/Jas_Swim",
+			"FromFile": "Art/VanillaNPCs/Jas/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JasVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Jas Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Jas_HotClimate, Characters/Jas_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Jas/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JasVariant}}/Jas_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Jas Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Jas_Indoor, Characters/Jas_Indoor",
+			"FromFile": "Art/VanillaNPCs/Jas/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JasVariant}}/Jas_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Jas Sleep Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Jas_Indoor",
+			"FromFile": "Art/VanillaNPCs/Jas/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JasVariant}}/Jas_SleepSprite.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 16, "Height": 32 }
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Jas Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Jas/Misc/Jas_Emoji_{{DSV.Core/ConfigValue:JasVariant}}.png",
+			"ToArea": {"X": 108, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jas Bundle Sprite",
+			"Action": "EditImage",
+			"Target": "LooseSprites/BundleSprites",
+			"FromFile": "Art/VanillaNPCs/Jas/Misc/BundleSprites_Jas.png",
+			"ToArea": { "X": 16, "Y": 0, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jas Secret Note",
+			"Action": "EditImage",
+			"Target": "Tilesheets/SecretNotesImages",
+			"FromFile": "Art/VanillaNPCs/Jas/Misc/SecretNote_Jas_Modded.png",
+			"ToArea": {"X": 128, "Y": 64, "Width": 64, "Height": 64},
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Modded": true
+			}
+		},
+
+// COMPATIBILITY
+// Ranch Expansion
+		{
+			"LogName": "Jas Ranch Expansion No Bow",
+			"Action": "EditImage",
+			"Target": "Portraits/Jas_NoBow, Characters/Jas_NoBow",
+			"FromFile": "Art/VanillaNPCs/Jas/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JasVariant}}/Jas_{{season}}_1_Base.png",
+			"When":
+			{
+				"HasMod |contains= Lemurkat.JasRanchPack.CP": true,
+				"HasSeenEvent |contains= 50706115": false
+			}
+		},
+		{
+			"LogName": "Jas Ranch Expansion Custom Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/Jas_Indoor",
+			"FromFile": "Art/VanillaNPCs/Jas/Misc/RanchExpansion/{{DSV.Core/ConfigValue:JasVariant}}/JasCustomSprites_{{season}}_1_Base.png",
+			"FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 96},
+            "ToArea": {"X": 0, "Y": 224, "Width": 64, "Height": 96},
+            "When":
+			{
+				"HasMod |contains= Lemurkat.JasRanchPack.CP": true,
+				"HasSeenEvent |contains= 50706115": false
+			}
+		},
+		{
+			"LogName": "Mona DSV Ranch Expansion",
+			"Action": "EditImage",
+			"Target": "Portraits/Spirit, Characters/Spirit",
+			"FromFile": "Art/VanillaNPCs/Jas/Misc/MonaGhost_{{TargetPathOnly}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Modded": true,
+				"HasMod |contains= Lemurkat.JasRanchPack.CP": true
+			}
+		},		
+		
+// Tristan
+		{
+			"LogName": "Jas & Mona Cute Tristan",
+			"Action": "EditImage",
+			"Target": "Characters/JasCute, Characters/MonaCute",
+			"FromFile": "Art/VanillaNPCs/Jas/Misc/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Modded": true,
+				"HasMod |contains= Lemurkat.Tristan.CP": true
+			}
+		},	
+		
+// Lavril
+		{
+			"LogName": "Jas PJs",
+			"Action": "EditImage",
+			"Target": "Characters/JasPJ, Portraits/JasPJ",
+			"FromFile": "Art/VanillaNPCs/Jas/Misc/LavrilCompat/{{TargetWithoutPath}}_{{TargetPathOnly}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Modded": true,
+				"HasMod |contains= Arknir27.Lavril": true
+			}
+		},
+
+// Lumisteria Missing Hat Bundles
+		
+		{
+			"LogName": "Jas Lumisteria Bundles",
+			"Action": "EditImage",
+			"Target": "Mods/Lumisteria.CP.MissingHatsBundles/Jas",
+			"FromFile": "Art/VanillaNPCs/Jas/Misc/LumisteriaBundles_Jas.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant|contains= Modded": true,
+				"HasMod |contains= Lumisteria.CP.MissingHatsBundles": true
+			}
+		}
+	]
+}

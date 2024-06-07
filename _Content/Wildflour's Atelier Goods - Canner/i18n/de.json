@@ -1,0 +1,102 @@
+{
+
+    "jams_banana_maple_jam.name": "Banane-Ahorn-Konfitüre",
+	"jams_banana_maple_jam.description": "Aus pürierten reifen Bananen und regionalem Ahornsirup.",
+
+	"jams_banana_split_jam.name": "Bananensplit-Konfitüre",
+	"jams_banana_split_jam.description": "Bananen, Erdbeeren und eine Kirsche obendrauf!",
+
+	"jams_blackberry_mint_jelly.name": "Brombeer-Minz-Gelee",
+	"jams_blackberry_mint_jelly.description": "Ein süßes Gelee aus gesammelten Brombeeren und selbst angebauter Minze.",
+
+	"jams_blueberry_lavender_jelly.name": "Blaubeer-Lavendel-Gelee",
+	"jams_blueberry_lavender_jelly.description": "Ein süßes Gelee aus frischen Blaubeeren und gesammeltem Lavendel.",
+	
+	"jams_blue_jazz_jelly.name": "Blaue Jazz-Gelee",
+	"jams_blue_jazz_jelly.description": "Blumengelee aus den Blütenblättern blauer Jazzblumen.",
+
+	"jams_chamomile_jelly.name":"Kamille-Gelee",
+	"jams_chamomile_jelly.description":"Blumengelee aus den Blütenblättern gesammelter Kamillenblüten.",
+	
+	"jams_cherry_vanilla_jam.name": "Kirsch-Vanille-Konfitüre",
+	"jams_cherry_vanilla_jam.description": "Konfitüre aus frisch gepflückten Kirschen und blumiger Vanilleschote.",
+	
+	"jams_cinnamon_apple_preserves.name": "Apfel-Zimt-Konfitüre",
+	"jams_cinnamon_apple_preserves.description": "Frische, knackige Äpfel und würziger Zimt _ füge diese Konfitüren zu so ziemlich allem hinzu, um einen Hauch von Herbstgeschmack zu erhalten.",
+
+	"jams_cranberry_chutney.name": "Preiselbeer-Chutney",
+	"jams_cranberry_chutney.description": "Preiselbeeren-Sauce wird so überbewertet _ hast du stattdessen dieses helle und zitrische Chutney probiert?",
+
+	"jams_crocus_jelly.name": "Krokus-Gelee",
+	"jams_crocus_jelly.description": "Gelee aus wilden Krokusblüten; Der Geschmack erinnert ein wenig an Vanille und Gewürze.",
+
+	"jams_dandelion_jelly.name": "Löwenzahn-Gelee",
+	"jams_dandelion_jelly.description": "Gelee aus gesammeltem Löwenzahn; es schmeckt zart und süß.",
+
+	"jams_honey_apricot_preserves.name": "Honig-Aprikose-Eingemachtes",
+	"jams_honey_apricot_preserves.description": "Eingemachtes aus regionalem Honig und frisch gepflückten Aprikosen.",
+
+	"jams_honey_peach_preserves.name": "Honig-Pfirsich-Eingemachtes",
+	"jams_honey_peach_preserves.description": "Eingemachtes aus regionalem Honig und frisch gepflückten Pfirsichen.",
+
+	"jams_mango_chutney.name": "Mango-Chutney",
+	"jams_mango_chutney.description": "Dieses sommerliche Chutney passt perfekt zu fangfrischem und gebratenem Fisch.",
+	
+	"jams_mixed_berry_preserves.name": "Gemischte Beeren-Eingemachtes",
+	"jams_mixed_berry_preserves.description": "Eingemachtes aus drei Arten frischer Beeren.",
+
+	"jams_peach_blossom_jelly.name":"Sakura-Pfirsich-Gelee",
+	"jams_peach_blossom_jelly.description":"Kirsch-Blütenblätter und frisch gepflückte Pfirsiche zu einem herrlich duftenden Gelee verarbeitet.",
+	
+	"jams_peach_ginger_preserves.name": "Pfirsich-Ingwer-Eingemachtes",
+	"jams_peach_ginger_preserves.description": "Eingemachtes aus Pfirsichen und etwas Ingwer von der Ingewerinsel für einen zusätzlichen Geschmackskick.",
+	
+	"jams_rose_petal_jelly.name":"Rosen-Blatt-Gelee",
+	"jams_rose_petal_jelly.description":"Blumengelee aus Rosen-Blättern.",
+	
+	"jams_flower_dance_jelly.name": "Spezialedition Blumentanz-Gelee",
+	"jams_flower_dance_jelly.description": "Gelee in kleinen Mengen, hergestellt zur Feier des jährlichen Blumentanzes in Pelikan Stadt!",
+	
+	"jams_luau_jam.name": "Spezialedition Luau-Konfitüre",
+	"jams_luau_jam.description": "Konfitüre in kleinen Mengen, hergestellt zur Feier des jährlichen Luau in Pelikan Stadt!",
+	
+	"jams_spirits_eve_jam.name": "Spezialedition Geisternacht-Konfitüre",
+	"jams_spirits_eve_jam.description": "Konfitüre in kleinen Mengen, hergestellt zur Feier der jährlichen Geisternacht in Pelikan Stadt!!",
+	
+	"jams_winter_star_jelly.name": "Spezialedition Winterstern-Gelee",
+	"jams_winter_star_jelly.description": "Gelee in kleinen Mengen, hergestellt zur Feier des Festes des Wintersterns!",
+	
+	"jams_lemon_marmalade.name": "Frühlingszitronen-Marmelade",
+	"jams_lemon_marmalade.description": "Dank der ganzen Zitronenzesten kommt der helle, kräftige Geschmack der Zitronen besonders gut zur Geltung!",
+	
+	"jams_strawberry_rhubarb_jam.name": "Erdbeer-Rhabarber-Konfitüre",
+	"jams_strawberry_rhubarb_jam.description": "Konfitüre aus süßen Erdbeeren und säuerlichem Rhabarber.",
+
+	"jams_strawberry_rose_jelly.name":"Erdbeer-Rosen-Gelee",
+	"jams_strawberry_rose_jelly.description": "Frisch gesammelte Wilde Erdbeeren und Rosen-Blätter werden zu einem duftenden, süßen Gelee gekocht.",
+	
+	"jams_spangle_jelly.name": "Sommer-Pailletten-Gelee",
+	"jams_spangle_jelly.description": "Gelee aus den besten Pailletten-Blüten des Sommers. Schmeckt wie Sonnenschein im Glas.",
+	
+	"jams_orange_marmalade.name": "Sommerliche Orangen-Marmelade",
+	"jams_orange_marmalade.description": "Dank der ganzen Orangenzesten kommt der helle, kräftige Geschmack der Orangen besonders gut zur Geltung!",
+	
+	"jams_sunflower_jelly.name": "Sonnenblumen-Gelee",
+	"jams_sunflower_jelly.description": "Gelee aus Sonnenblumen-Blütenblättern, es schmeckt leicht nussig.",	
+
+	"jams_lime_marmalade.name": "Süße Limetten-Marmelade",
+	"jams_lime_marmalade.description": "Dank der ganzen Limettenzesten kommt der herb-süße Geschmack der Limette besonders gut zur Geltung!",
+
+	"jams_jasmine_jelly.name": "Süßes Jasmin-Gelee",
+	"jams_jasmine_jelly.description": "Gelee aus frisch gepflücktem Jasmin, es schmeckt frisch und blumig.",
+
+	"jams_citrus_marmalade.name": "Dreifach Zitrus-Marmelade",
+	"jams_citrus_marmalade.description": "Zitronen, Limetten und Orangen vereinen sich zu einer Zitrusgeschmacksexplosion.",
+
+	"jams_tulip_jelly.name": "Tulpen-Gelee",
+	"jams_tulip_jelly.description": "Gelee aus frisch gepflückten Tulpen, es schmeckt frisch und blumig.",
+
+	"jams_vanilla_raspberry_preserves.name": "Vanille-Himbeer-Konfitüre",
+	"jams_vanilla_raspberry_preserves.description": "Vanille und Himbeere sind die perfekte Kombination _ streiche diese Konfitüre auf Toast oder verwende sie als Füllung für einen Kuchen für einen wirklich süßen Leckerbissen!",
+
+}

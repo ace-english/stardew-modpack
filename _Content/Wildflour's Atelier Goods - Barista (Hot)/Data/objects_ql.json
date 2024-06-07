@@ -1,0 +1,87 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"Add Atelier Barista Tea Wild Food Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierbarista_gardenia_sachet": {
+                    "Name": "wildflour.atelierbarista_gardenia_sachet",
+                    "DisplayName": "{{i18n:atelierbarista_gardenia_sachet.name}}",
+                    "Description": "{{i18n:atelierbarista_gardenia_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 64
+            },
+                "wildflour.atelierbarista_hibiscus_sachet": {
+                    "Name": "wildflour.atelierbarista_hibiscus_sachet",
+                    "DisplayName": "{{i18n:atelierbarista_hibiscus_sachet.name}}",
+                    "Description": "{{i18n:atelierbarista_hibiscus_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 65
+            },
+                "wildflour.atelierbarista_gardenia_tea": {
+                    "Name": "wildflour.atelierbarista_gardenia_tea",
+                    "DisplayName": "{{i18n:atelierbarista_gardenia_tea.name}}",
+                    "Description": "{{i18n:atelierbarista_gardenia_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 80
+            },
+                "wildflour.atelierbarista_hibiscus_tea": {
+                    "Name": "wildflour.atelierbarista_hibiscus_tea",
+                    "DisplayName": "{{i18n:atelierbarista_hibiscus_tea.name}}",
+                    "Description": "{{i18n:atelierbarista_hibiscus_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 81
+            }
+        }
+        }
+
+    ]
+}

@@ -1,0 +1,522 @@
+{
+// SEBASTIAN DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Sebastian Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Sebastian", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Sebastian.Indoor":
+				{
+					"Id": "{{ModId}}_Sebastian_Indoor",
+					"Portrait": "Portraits/Sebastian_Indoor",
+					"Sprite": "Characters/Sebastian_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Sebastian.Outdoor":
+				{
+					"Id": "{{ModId}}_Sebastian_Outdoor",
+					"Portrait": "Portraits/Sebastian_Outdoor",
+					"Sprite": "Characters/Sebastian_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Sebastian.EggFestival":
+				{
+					"Id": "{{ModId}}_Sebastian_EggFestival",
+					"Portrait": "Portraits/Sebastian_EggFestival",
+					"Sprite": "Characters/Sebastian_EggFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_spring13\"",
+					"Precedence": -200
+				},
+				"DSV.Sebastian.FlowerDance":
+				{
+					"Id": "{{ModId}}_Sebastian_FlowerDance",
+					"Portrait": "Portraits/Sebastian_FlowerDance",
+					"Sprite": "Characters/Sebastian_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Sebastian.Luau":
+				{
+					"Id": "{{ModId}}_Sebastian_Luau",
+					"Portrait": "Portraits/Sebastian_Luau",
+					"Sprite": "Characters/Sebastian_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Sebastian.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Sebastian_MoonlightJellies",
+					"Portrait": "Portraits/Sebastian_MoonlightJellies",
+					"Sprite": "Characters/Sebastian_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Sebastian.SVFair":
+				{
+					"Id": "{{ModId}}_Sebastian_SVFair",
+					"Portrait": "Portraits/Sebastian_SVFair",
+					"Sprite": "Characters/Sebastian_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Sebastian.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Sebastian_SpiritsEve",
+					"Portrait": "Portraits/Sebastian_SpiritsEve",
+					"Sprite": "Characters/Sebastian_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Sebastian.IceFestival":
+				{
+					"Id": "{{ModId}}_Sebastian_IceFestival",
+					"Portrait": "Portraits/Sebastian_IceFestival",
+					"Sprite": "Characters/Sebastian_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Sebastian.WinterStar":
+				{
+					"Id": "{{ModId}}_Sebastian_WinterStar",
+					"Portrait": "Portraits/Sebastian_WinterStar",
+					"Sprite": "Characters/Sebastian_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Sebastian.Swim":
+				{
+					"Id": "{{ModId}}_Sebastian_Swim",
+					"Portrait": "Portraits/Sebastian_Swim",
+					"Sprite": "Characters/Sebastian_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\" \"LOCATION_NAME Target Beach, WEATHER Target Sun Wind, SEASON Summer\"",
+					"Precedence": -150
+				},
+				"DSV.Sebastian.Pyjamas":
+				{
+					"Id": "{{ModId}}_Sebastian_Pyjamas",
+					"Portrait": "Portraits/Sebastian_Pyjamas",
+					"Sprite": "Characters/Sebastian_Pyjamas",
+					"Condition": "ANY \"LOCATION_NAME Target SebastianRoom, !TIME 0830 2210, {{DSV.Core/ConfigValue:Pyjamas |contains= On}}\" \"LOCATION_NAME Target Farmhouse, !TIME 0830 2210, !{{DSV.Core/ConfigValue:Pyjamas |contains= Off}}, PLAYER_NPC_RELATIONSHIP Current Sebastian Married Roommate\"",
+					"Precedence": -150
+				},
+				"DSV.Sebastian.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Sebastian_WeddingGuest",
+					"Sprite": "Characters/Sebastian_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Sebastian.HotClimate":
+				{
+					"Id": "{{ModId}}_Sebastian_HotClimate",
+					"Portrait": "Portraits/Sebastian_HotClimate",
+					"Sprite": "Characters/Sebastian_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Sebastian.Motorbike":
+				{
+					"Id": "{{ModId}}_Sebastian_Motorbike",
+					"Portrait": "Portraits/Sebastian_Motorbike",
+					"Sprite": "Characters/Sebastian_Motorbike",
+					"Condition": "IS_EVENT 384882",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Sebastian Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sebastian_Indoor, Characters/Sebastian_Indoor, Portraits/Sebastian_Outdoor, Characters/Sebastian_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_Spring_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SebastianVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Sebastian Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sebastian_EggFestival, Characters/Sebastian_EggFestival, Portraits/Sebastian_FlowerDance, Characters/Sebastian_FlowerDance, Portraits/Sebastian_Luau, Characters/Sebastian_Luau, Portraits/Sebastian_MoonlightJellies, Characters/Sebastian_MoonlightJellies, Portraits/Sebastian_SVFair, Characters/Sebastian_SVFair, Portraits/Sebastian_SpiritsEve, Characters/Sebastian_SpiritsEve, Portraits/Sebastian_IceFestival, Characters/Sebastian_IceFestival, Portraits/Sebastian_WinterStar, Characters/Sebastian_WinterStar, Portraits/Sebastian_Swim, Characters/Sebastian_Swim, Portraits/Sebastian_Pyjamas, Characters/Sebastian_Pyjamas, Portraits/Sebastian_Motorbike, Characters/Sebastian_Motorbike, Characters/Sebastian_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SebastianVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Sebastian Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sebastian_HotClimate, Characters/Sebastian_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SebastianVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Sebastian Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Indoor, Characters/Sebastian_Indoor",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_{{Season}}_{{RandomThreeToken}}_Base.png"
+		},
+		{
+			"LogName": "Sebastian Outdoor Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Outdoor, Characters/Sebastian_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_{{Season}}_{{RandomThreeToken}}_{{DSV.Core/Weather:Sebastian}}.png"
+		},
+		{
+			"LogName": "Sebastian Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_HotClimate, Characters/Sebastian_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_Summer_{{RandomThreeToken}}_Sun.png"
+		},
+		{
+			"LogName": "Sebastian Random Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_SpiritsEve, Characters/Sebastian_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_SpiritsEve_{{RandomSpiritsEveTwoToken}}.png"
+		},
+		{
+			"LogName": "Sebastian Flower Queen Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_FlowerDance, Characters/Sebastian_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_FlowerDance_1_FlowerQueen.png",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Sebastian": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sebastian Motorbike Helmet",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Motorbike",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/{{TargetWithoutPath}}_1_Helmet.png",
+			"When":
+			{
+				"LocationName |contains= Mountain": true
+			},
+			"Update":"OnLocationChange"
+		},
+		{
+			"LogName": "Sebastian Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Beach, Characters/Sebastian_Beach",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Sebastian Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_Wedding_{{SebastianSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 384, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		{
+			"LogName": "Sebastian Sleep Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian_Indoor",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_SleepSprite.png",
+			"ToArea": { "X": 32, "Y": 416, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"LocationName |contains= SebastianRoom": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Sebastian Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Misc/Sebastian_Emoji_{{DSV.Core/ConfigValue:SebastianVariant}}.png",
+			"ToArea": {"X": 72, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SebastianVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Sebastian Cursors Motorbike",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Misc/BikeCursors/Cursors_Sebastian_{{DSV.Core/ConfigValue:SebastianVariant}}_Helmet.png",
+			"ToArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 }
+		},
+		{
+			"LogName": "Sebastian Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Misc/Sebastian_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:SebastianVariant}}.png",
+			"ToArea": {"X": 96, "Y": 304, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SebastianVariant|contains= Vanilla, Off": false
+			}
+		},
+
+// COMPATIBILITY
+// Rival Events Sam/Seb
+		{
+			"LogName": "Sebastian Rival Events Compatibility Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Shirtless, Characters/Sebastian_Shirtless, Portraits/Sebastian_Pink, Characters/Sebastian_Pink",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Sebastian_Swim_1.png",
+			"When":
+			{
+				"HasMod |contains= brin.SSRivalHeartEvents": true,
+				"HasSeenEvent |contains= 1918822": false
+			}
+		},
+		{
+			"LogName": "Sebastian Rival Events Pink Hair",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Pink, Characters/Sebastian_Pink",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Sebastian_PinkHair.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= brin.SSRivalHeartEvents": true,
+				"HasSeenEvent |contains= 1918822": false
+			}
+		},
+
+// ELAHO SEBASTIAN IMMERSIVE WEDDING
+
+		{
+			"LogName": "Sebastian Ugly Cry Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Sebastian{{SebastianElahoUglyCryToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"HasMod |contains= Elaho.SebastianImmersiveWeddingCP": true
+			}
+		},
+		
+// PPAF
+		{
+			"LogName": "PPaF Compat - Sebastian No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Indoor, Portraits/Sebastian_EggFestival, Portraits/Sebastian_FlowerDance, Portraits/Sebastian_Luau, Portraits/Sebastian_MoonlightJellies, Portraits/Sebastian_SVFair, Portraits/Sebastian_IceFestival, Portraits/Sebastian_WinterStar, Portraits/Sebastian_Swim, Portraits/Sebastian_HotClimate, Portraits/Sebastian_Pyjamas",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Portraits/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Sebastian_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Sebastian": true
+			}
+		},
+
+// SBV RSV Nonbinary Sebastian
+		{
+			"LogName": "Sebastian Ridgeside Gathering SBV Nonbinary Stall Setup",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "Sebastian 126 55 up",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true,
+				"HasMod |contains= skellady.SBVCP": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian": "True"
+			}
+		},
+		
+// MERMAID PENDANTS
+		{
+			"LogName": "Sebastian Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Indoor, Portraits/Sebastian_Pyjamas, Portraits/Sebastian_EggFestival, Portraits/Sebastian_FlowerDance, Portraits/Sebastian_Luau, Portraits/Sebastian_MoonlightJellies, Portraits/Sebastian_SVFair",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Misc/MermaidPendants/Sebastian_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sebastian |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Sebastian Pendants - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Beach, Portraits/Sebastian_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Misc/MermaidPendants/Sebastian_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sebastian |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Sebastian Pendants - Life Cycle Abigail/Sebastian Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Indoor, Portraits/Sebastian_Pyjamas, Portraits/Sebastian_EggFestival, Portraits/Sebastian_FlowerDance, Portraits/Sebastian_Luau, Portraits/Sebastian_MoonlightJellies, Portraits/Sebastian_SVFair",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Misc/MermaidPendants/Sebastian_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sebastian |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleAbigailSebastian": true,
+				"HasSeenEvent |contains= 59020048": true
+			}
+		},
+		{
+			"LogName": "Sebastian Pendants - Life Cycle Abigail/Sebastian Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Beach, Portraits/Sebastian_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Misc/MermaidPendants/Sebastian_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sebastian |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleAbigailSebastian": true,
+				"HasSeenEvent |contains= 59020048": true
+			}
+		},
+		
+// SEBASTIAN EXTRAS OVERLAYS
+		{
+			"LogName": "Sebastian Glasses Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Indoor, Characters/Sebastian_Indoor, Portraits/Sebastian_Outdoor, Characters/Sebastian_Outdoor, Portraits/Sebastian_Pyjamas, Characters/Sebastian_Pyjamas",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Glasses/Sebastian_{{SebGlassesToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:SebGlasses |contains= Off": false
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sebastian Glasses Overlay - Always",
+			"Action": "EditImage",
+			"Target": " Portraits/Sebastian_EggFestival, Characters/Sebastian_EggFestival, Portraits/Sebastian_FlowerDance, Characters/Sebastian_FlowerDance, Portraits/Sebastian_Luau, Characters/Sebastian_Luau, Portraits/Sebastian_MoonlightJellies, Characters/Sebastian_MoonlightJellies, Portraits/Sebastian_SVFair, Characters/Sebastian_SVFair, Portraits/Sebastian_IceFestival, Characters/Sebastian_IceFestival, Portraits/Sebastian_WinterStar, Characters/Sebastian_WinterStar, Portraits/Sebastian_Swim, Characters/Sebastian_Swim, Portraits/Sebastian_Motorbike, Characters/Sebastian_Motorbike, Portraits/Sebastian_HotClimate, Characters/Sebastian_HotClimate, Portraits/Sebastian_Shirtless, Characters/Sebastian_Shirtless, Portraits/Sebastian_Pink, Characters/Sebastian_Pink",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Glasses/Sebastian_Glasses.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SebGlasses |contains= Always": true
+			}
+		},
+		{
+			"LogName": "Sebastian Glasses Overlay - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Beach, Characters/Sebastian_Beach",
+			"FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Glasses/{{TargetWithoutPath}}_Glasses.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SebGlasses |contains= Always": true
+			}
+		},
+		{
+			"LogName": "Sebastian Glasses Overlay - Helmet",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Motorbike",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Portraits/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/{{TargetWithoutPath}}_{{SebGlassesTokenHelmet}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SebGlasses |contains= Off": false
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sebastian Glasses Spirits' Eve",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_SpiritsEve, Characters/Sebastian_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Portraits/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Sebastian_Glasses.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"RandomSpiritsEveTwoToken |contains= 1": true,
+				"DSV.Core/ConfigValue:SebGlasses |contains= Always": true
+			}
+		},
+		{
+			"LogName": "Sebastian Piercings Overlay Base",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Indoor, Portraits/Sebastian_Pyjamas, Portraits/Sebastian_EggFestival, Portraits/Sebastian_FlowerDance, Portraits/Sebastian_Luau, Portraits/Sebastian_MoonlightJellies, Portraits/Sebastian_SVFair, Portraits/Sebastian_IceFestival, Portraits/Sebastian_WinterStar, Portraits/Sebastian_Swim, Portraits/Sebastian_Motorbike, Portraits/Sebastian_Shirtless, Portraits/Sebastian_Pink",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Portraits/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Piercings/Sebastian_Piercings_Base.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SebPiercings": true
+			}
+		},
+		{
+			"LogName": "Sebastian Piercings Overlay Seasonal",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Outdoor, Portraits/Sebastian_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Portraits/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Piercings/Sebastian_Piercings_{{DSV.Core/Weather:Sebastian}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:SebPiercings": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sebastian Piercings Spirits' Eve",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Sebastian/Portraits/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Piercings/Sebastian_Piercings_Base.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"RandomSpiritsEveTwoToken |contains= 1": true,
+				"DSV.Core/ConfigValue:SebPiercings": true
+			}
+		}
+	]
+}

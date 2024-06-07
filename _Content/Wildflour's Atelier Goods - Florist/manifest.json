@@ -1,0 +1,22 @@
+{
+    "Name": "Wildflour's Atelier Goods: Florist",
+    "Author": "wildflourmods",
+    "Version": "1.0.5",
+    "Description": "This mod adds new items and machines centered around a florist-styled playthrough.",
+    "UniqueID": "wildflour.atelierfloral",
+    "UpdateKeys": ["Nexus:22733"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "wildflour.ateliercrops", "IsRequired": false},
+        {"UniqueID": "wildflour.honeybees", "IsRequired": false},
+        {"UniqueID": "Cornucopia.MoreCrops", "IsRequired": false},
+        {"UniqueID": "Cornucopia.MoreFlowers", "IsRequired": false},
+        {"UniqueID": "PC.CP.QL.FlowerGarden2", "IsRequired": false},
+        {"UniqueID": "Lumisteria.SereneMeadow", "IsRequired": false},
+        {"UniqueID": "Lumisteria.VisitMtVapius", "IsRequired": false}
+    ]
+}

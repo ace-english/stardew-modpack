@@ -1,0 +1,320 @@
+{
+
+//KETTLE
+
+"atelierbarista_TeaProcessor.name": "Procesador de Té",
+"atelierbarista_TeaProcessor.description": "Puede crear saquitos de té empaquetados a partir de varios ingredientes.",
+
+"atelierbarista_TeaKettle.name": "Hervidor de Agua para Té",
+"atelierbarista_TeaKettle.description": "Prepara tés especiales.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_TeaProcessor_InvalidItem.message": "No se puede procesar esto",
+"atelierbarista_TeaProcessor_InvalidCount.message": "Requiere hojas de té",
+
+"atelierbarista_TeaKettle_InvalidItem.message": "No se puede procesar esto",
+"atelierbarista_TeaKettle_InvalidCount.message": "Requiere miel",
+  
+
+////////////////////////////////
+// NEW FLAVORED GENERIC ITEMS //
+////////////////////////////////
+
+"atelierbarista_flavored_sachet.name": "Saquito de té",
+"atelierbarista_flavored_sachet.description": "Una mezcla personalizada de sabores únicos combinados en una bolsita de té.",
+
+"atelierbarista_flavored_tea.name": "Té",
+"atelierbarista_flavored_tea.description": "Una taza fresca de té hecha con una bolsita de té artesanal.",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"atelierbarista_gardenia_sachet.name": "Saquito de Té de Gardenia",
+"atelierbarista_gardenia_sachet.description": "Una mezcla personalizada de sabores únicos combinados en una bolsita de té.",
+
+"atelierbarista_hibiscus_sachet.name": "Saquito de Té de Hibisco",
+"atelierbarista_hibiscus_sachet.description": "Una mezcla personalizada de sabores únicos combinados en una bolsita de té.",
+
+"atelierbarista_gardenia_tea.name": "Té de Gardenia",
+"atelierbarista_gardenia_tea.description": "Una taza fresca de té con sabor a gardenia.",
+
+"atelierbarista_hibiscus_tea.name": "Té de Hibisco",
+"atelierbarista_hibiscus_tea.description": "Una taza fresca de té con sabor a hibisco.",
+
+"atelierbarista_borage_sachet.name": "Saquito de Té de Borraja",
+"atelierbarista_borage_sachet.description": "Una mezcla personalizada de sabores únicos combinados en una bolsita de té.",
+
+"atelierbarista_calendula_sachet.name": "Saquito de Té de Caléndula",
+"atelierbarista_calendula_sachet.description": "Una mezcla personalizada de sabores únicos combinados en una bolsita de té.",
+
+"atelierbarista_borage_tea.name": "Té de Borraja",
+"atelierbarista_borage_tea.description": "Una taza fresca de té con sabor a flores de borraja.",
+
+"atelierbarista_calendula_tea.name": "Té de Caléndula",
+"atelierbarista_calendula_tea.description": "Una taza fresca de té con sabor a flores de caléndula.",
+
+"atelierbarista_hollyhock_sachet.name": "Saquito de Té de Malva",
+"atelierbarista_hollyhock_sachet.description": "Una mezcla personalizada de sabores únicos combinados en una bolsita de té.",
+
+"atelierbarista_springpansy_sachet.name": "Saquito de Té de Pensamiento",
+"atelierbarista_springpansy_sachet.description": "Una mezcla personalizada de sabores únicos combinados en una bolsita de té.",
+
+"atelierbarista_hollyhock_tea.name": "Té de Malva",
+"atelierbarista_hollyhock_tea.description": "Una taza fresca de té con sabor a flores de malva.",
+
+"atelierbarista_springpansy_tea.name": "Té de Pensamiento",
+"atelierbarista_springpansy_tea.description": "Una taza fresca de té con sabor a pensamientos.",
+
+"atelierbarista_orangeblossom_sachet.name": "Saquito de Té de Flor de Naranjo",
+"atelierbarista_orangeblossom_sachet.description": "Una mezcla personalizada de sabores únicos combinados en una bolsita de té.",
+
+"atelierbarista_orangeblossom_tea.name": "Té de Flor de Naranjo",
+"atelierbarista_orangeblossom_tea.description": "Una taza fresca de té con sabor a flores de naranjo.",
+
+
+
+//TEA SACHETS
+
+"atelierbarista_apple_sachet.name": "Saquito de Té de Manzana",
+"atelierbarista_apple_sachet.description": "Las especias cálidas se mezclan con la manzana crujiente, haciendo que esta mezcla de té sea perfecta para una tarde de otoño fría.",
+
+"atelierbarista_vanilla_sachet.name": "Saquito de Té de Vainilla de Calico",
+"atelierbarista_vanilla_sachet.description": "Esta mezcla de té de vainilla es perfecta para calmar la mente y el cuerpo.",
+
+"atelierbarista_matcha_sachet.name": "Saquito de Té de Matcha",
+"atelierbarista_matcha_sachet.description": "Una mezcla de té de grado ceremonial hecha con hojas de la primera cosecha.",
+
+"atelierbarista_cinnamon_sachet.name": "Saquito de Té de Canela",
+"atelierbarista_cinnamon_sachet.description": "Una mezcla de hojas de té y canela Cindersap molida, perfecta para preparar té.",
+
+"atelierbarista_chamomile_sachet.name": "Saquito de Té de Manzanilla",
+"atelierbarista_chamomile_sachet.description": "Flores de manzanilla secas mezcladas con otras hierbas calmantes para producir una mezcla de té relajante.",
+
+"atelierbarista_breakfast_sachet.name": "Saquito de Té 'Earl Grey'",
+"atelierbarista_breakfast_sachet.description": "Una mezcla de té de cuerpo completo y robusto.",
+
+"atelierbarista_jasmine_sachet.name": "Saquito de Té de Jazmín Fragante",
+"atelierbarista_jasmine_sachet.description": "Una mezcla de hojas de té y pétalos de jazmín fragantes, perfecta para preparar té.",
+
+"atelierbarista_ginger_sachet.name": "Saquito de Té de Durazno y Jengibre",
+"atelierbarista_ginger_sachet.description": "Una mezcla de té que une la frutalidad dulce de los duraznos con la especia cálida del jengibre.",
+
+"atelierbarista_grey_sachet.name": "Saquito de Té Lady Grey",
+"atelierbarista_grey_sachet.description": "Una mezcla más suave y sutil que el Earl Grey, con toques de limón y naranja.",
+
+"atelierbarista_lemon_sachet.name": "Saquito de Té de Limón y Jengibre",
+"atelierbarista_lemon_sachet.description": "Una mezcla de té vigorizante hecha con la ralladura de limones pequeños y jengibre seco.",
+
+"atelierbarista_mint_sachet.name": "Saquito de Té de Menta",
+"atelierbarista_mint_sachet.description": "Una mezcla de té refrescante a menudo preparada para aliviar los síntomas del resfriado y la gripe.",
+
+"atelierbarista_berry_sachet.name": "Saquito de Té de Bayas Mixtas",
+"atelierbarista_berry_sachet.description": "Una mezcla de té de cuerpo completo con aroma a bayas frescas.",
+
+"atelierbarista_peach_sachet.name": "Saquito de Té de Durazno y Mango",
+"atelierbarista_peach_sachet.description": "¡Una encantadora mezcla de sabor a durazno y mango!",
+
+"atelierbarista_pineapple_sachet.name": "Saquito de Té de Piña y Coco",
+"atelierbarista_pineapple_sachet.description": "La dulce piña y el refrescante coco se mezclan para llevarte instantáneamente a una escapada en la isla.",
+
+"atelierbarista_pomegranate_sachet.name": "Saquito de Té Verde de Granada",
+"atelierbarista_pomegranate_sachet.description": "Una mezcla de té herbácea y animada acentuada con granada brillante.",
+
+"atelierbarista_raspberry_sachet.name": "Saquito de Té de Frambuesa",
+"atelierbarista_raspberry_sachet.description": "Una suave mezcla de té de Ferngill que presenta el sabor de las frambuesas ácidas.",
+
+"atelierbarista_rose_sachet.name": "Saquito de Té de Pétalos de Rosa",
+"atelierbarista_rose_sachet.description": "Una mezcla de té hecha con los pétalos y brotes del rosal.",
+
+"atelierbarista_sakura_sachet.name": "Saquito de Té de Sakura",
+"atelierbarista_sakura_sachet.description": "Una mezcla de té hecha con flores de cerezo preservadas.",
+
+"atelierbarista_strawberry_sachet.name": "Saquito de Té de Fresa Silvestre",
+"atelierbarista_strawberry_sachet.description": "Una dulce mezcla de té hecha con fresas silvestres de verano.",
+
+//TEA
+
+"atelierbarista_apple_tea.name": "Té de Manzana",
+"atelierbarista_apple_tea.description": "Té de manzana recién preparado.",
+
+"atelierbarista_vanilla_tea.name": "Té de Vainilla Calico",
+"atelierbarista_vanilla_tea.description": "Té de vainilla recién preparado.",
+
+"atelierbarista_matcha_tea.name": "Té de Matcha",
+"atelierbarista_matcha_tea.description": "Té de matcha recién preparado.",
+
+"atelierbarista_cinnamon_tea.name": "Té de Canela",
+"atelierbarista_cinnamon_tea.description": "Té de canela recién preparado.",
+
+"atelierbarista_chamomile_tea.name": "Té de Manzanilla",
+"atelierbarista_chamomile_tea.description": "Té de manzanilla recién preparado.",
+
+"atelierbarista_breakfast_tea.name": "Té de 'Earl Grey'",
+"atelierbarista_breakfast_tea.description": "Té de desayuno inglés recién preparado.",
+
+"atelierbarista_jasmine_tea.name": "Té de Jazmín Fragante",
+"atelierbarista_jasmine_tea.description": "Té de jazmín recién preparado.",
+
+"atelierbarista_ginger_tea.name": "Té de Durazno y Jengibre",
+"atelierbarista_ginger_tea.description": "Té de durazno y jengibre recién preparado.",
+
+"atelierbarista_grey_tea.name": "Té Lady Grey",
+"atelierbarista_grey_tea.description": "Té Lady Grey recién preparado.",
+
+"atelierbarista_lemon_tea.name": "Té de Limón y Jengibre",
+"atelierbarista_lemon_tea.description": "Té de limón y jengibre recién preparado.",
+
+"atelierbarista_mint_tea.name": "Té de Menta Feliz",
+"atelierbarista_mint_tea.description": "Té de menta recién preparado.",
+
+"atelierbarista_berry_tea.name": "Té de Bayas Mixtas",
+"atelierbarista_berry_tea.description": "Té de bayas mixtas recién preparado.",
+
+"atelierbarista_peach_tea.name": "Té de Durazno",
+"atelierbarista_peach_tea.description": "Té de durazno recién preparado.",
+
+"atelierbarista_pineapple_tea.name": "Té de Piña",
+"atelierbarista_pineapple_tea.description": "Té de piña recién preparado.",
+
+"atelierbarista_pomegranate_tea.name": "Té Verde de Granada",
+"atelierbarista_pomegranate_tea.description": "Té verde de granada recién preparado.",
+
+"atelierbarista_raspberry_tea.name": "Té de Frambuesa",
+"atelierbarista_raspberry_tea.description": "Té de frambuesa recién preparado.",
+
+"atelierbarista_rose_tea.name": "Té de Pétalos de Rosa",
+"atelierbarista_rose_tea.description": "Té de pétalos de rosa recién preparado.",
+
+"atelierbarista_sakura_tea.name": "Té de Sakura",
+"atelierbarista_sakura_tea.description": "Té de sakura recién preparado.",
+
+"atelierbarista_strawberry_tea.name": "Té de Fresa Silvestre",
+"atelierbarista_strawberry_tea.description": "Té de fresa silvestre recién preparado.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierbarista_TeaProcessorRecipe.name": "¡Es hora de elaborar saquitos de té artesanales!",
+"atelierbarista_TeaProcessorRecipe.text": "@, ^^ Si realmente quieres adentrarte en la preparación de té, deberías probar a hacer uno de estos procesadores. ¡Tiene una forma integrada de hacer bolsitas de té también! Me encantaría probar cualquier té nuevo que crees.^^ - Elliott",
+
+"atelierbarista_TeaKettleRecipe.name": "Pon la Tetera",
+"atelierbarista_TeaKettleRecipe.text": "@, ^^ Creo que tu propia tetera personal realmente traería algo de acogimiento a tu hogar; aquí te explico cómo puedes fabricar una tú mismo. Solo no te olvides de invitarme a tomar el té una vez que lo hagas.^^ - Caroline",
+
+"atelierbarista_evelyn_gift.name": "Semillas para Ti",
+"atelierbarista_evelyn_gift.text": "@, ^^ ¡Escuché que estás aprendiendo más sobre la preparación de té! ¡Qué maravillosa aventura estás a punto de comenzar! Aquí tienes: estas son algunas semillas de manzanilla de mi jardín. Las flores hacen un té de hierbas relajante que ayuda a dormir.^^ - Evelyn",
+
+"atelierbarista_leah_gift.name": "Para tu Jardín de Té",
+"atelierbarista_leah_gift.text": "@, ^^ ¿Cómo va la preparación de té? Si tienes problemas para encontrar suficientes hojas de té, ¡estaré encantada de compartir algunas semillas contigo! Estas producirán algunos arbustos de té resistentes para que puedas hacer todo el té que desees.^^ - Leah",
+
+"atelierbarista_maru_gift.name": "Preparando el Kombucha",
+"atelierbarista_maru_gift.text": "@, ^^ ¿Sabías que puedes fermentar té para hacer kombucha? No es del gusto de todos (perdón por el juego de palabras), pero ¡a mí me parece burbujeante y delicioso! Querrás empezar a cultivar algunos de estos hongos para ayudar con la fermentación.^^ - Maru",
+
+//////////////////
+// COFFEE BEGIN //
+//////////////////
+
+"atelierbarista_CoffeeGrinder.name": "Molinillo de Café",
+"atelierbarista_CoffeeGrinder.description": "Un molinillo para procesar granos e ingredientes en mezclas de café personalizadas.",
+
+"atelierbarista_CoffeeBrewer.name": "Cafetera",
+"atelierbarista_CoffeeBrewer.description": "Una olla para preparar lattes gourmet.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_CoffeeGrinder_InvalidItem.message": "Cannot Process This",
+"atelierbarista_CoffeeGrinder_InvalidCount.message": "Requires 15 Coffee Beans",
+
+"atelierbarista_CoffeeBrewer_InvalidItem.message": "Cannot Process This",
+"atelierbarista_CoffeeBrewer_InvalidCount.message": "Requires Milk",    
+
+///////////////////
+// GROUND COFFEE //
+///////////////////
+
+"atelierbarista_breakfast_ground.name": "Café Molido Desayuno",
+"atelierbarista_breakfast_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+"atelierbarista_vanilla_ground.name": "Café Molido Vainilla",
+"atelierbarista_vanilla_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+"atelierbarista_cold_ground.name": "Café Molido Cold Brew",
+"atelierbarista_cold_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+"atelierbarista_donut_ground.name": "Café Molido Donut Shoppe",
+"atelierbarista_donut_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+"atelierbarista_hazelnut_ground.name": "Café Molido Avellana",
+"atelierbarista_hazelnut_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+"atelierbarista_holiday_ground.name": "Café Molido Mezcla Navideña",
+"atelierbarista_holiday_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+"atelierbarista_mocha_ground.name": "Café Molido Mocha",
+"atelierbarista_mocha_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+"atelierbarista_pumpkin_ground.name": "Café Molido Calabaza especiada",
+"atelierbarista_pumpkin_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+"atelierbarista_sweetheart_ground.name": "Café Molido Mezcla Corazón",
+"atelierbarista_sweetheart_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+"atelierbarista_coconut_ground.name": "Café Molido Coco Tostado",
+"atelierbarista_coconut_ground.description": "¡Café recién molido, empaquetado y listo para ser transformado en delicioso café!",
+
+
+////////////
+// DRINKS //
+////////////
+
+"atelierbarista_breakfast_latte.name": "Latte de desayuno",
+"atelierbarista_breakfast_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+"atelierbarista_vanilla_latte.name": "Vainilla Latte",
+"atelierbarista_vanilla_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+"atelierbarista_cold_latte.name": "Clásico Cold Brew",
+"atelierbarista_cold_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+"atelierbarista_donut_latte.name": "Donut Shoppe Latte",
+"atelierbarista_donut_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+"atelierbarista_hazelnut_latte.name": "Avellana Latte",
+"atelierbarista_hazelnut_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+"atelierbarista_holiday_latte.name": "Mezcla Navideña Latte",
+"atelierbarista_holiday_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+"atelierbarista_mocha_latte.name": "Mocha Latte Rico",
+"atelierbarista_mocha_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+"atelierbarista_pumpkin_latte.name": "Latte de calabaza especiada",
+"atelierbarista_pumpkin_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+"atelierbarista_sweetheart_latte.name": "Latte Corazón",
+"atelierbarista_sweetheart_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+"atelierbarista_coconut_latte.name": "Latte de Coco Tostado",
+"atelierbarista_coconut_latte.description": "Café recién hecho. ¡Tan acogedor!",
+
+
+
+////////////
+/// MAIL ///
+////////////
+
+"atelierbarista_BrewerRecipe.text": "@, ^^ A veces necesitas tu propia cafetera personal para cuando estás despierto hasta tarde y no tienes ganas de entrar sigilosamente en la cocina. Oh, cierto. Supongo que no tienes que preocuparte por despertar a tus padres. Bueno, ya empecé a escribir esto así que... aquí lo tienes.^^ - Sebastian",
+"atelierbarista_GrinderRecipe.text": "@, ^^ Encuentro que moler mis propios granos de café produce una taza de café superior, así que pensé en compartir los planos de mi molinillo de café favorito contigo. Solo recuerda, demasiada cafeína puede ponerte nervioso, así que todo con moderación.^^ - Harvey",
+"atelierbarista_haley.text": "@, ^^ Es una pena que no tengamos una linda cafetería en este pueblo, pero al menos ahora puedo visitarte para tomar un buen café con leche. ¿Quizás me haces un café mocha la próxima vez que visite?^^ - Haley",
+"atelierbarista_george.text": "@, ^^ Evelyn tiene sus tés, pero dame una buena taza de café fuerte cualquier día. Una vez ella me hizo un café con leche de vainilla... eso estuvo bastante bueno, supongo. De todos modos, tal vez puedas hacer uno con estos granos de vainilla.^^ - George",
+"atelierbarista_sebastian.text": "@, ^^ ¿Ya probaste hacer café de extracción en frío? Todavía tiene toda la cafeína y el sabor sin ninguna de la amargura, así que definitivamente lo recomendaría. Aquí. Estos podrían ayudarte a crear una mezcla de café de extracción en frío si los usas bien.^^ - Sebastian",
+
+
+}

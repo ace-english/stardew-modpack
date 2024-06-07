@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"Add GP Floral Items",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+
+                "wildflour.gourmetpantry_lavender_syrup": {
+                    "Name": "wildflour.gourmetpantry_lavender_syrup",
+                    "DisplayName": "{{i18n:gourmetpantry_lavender_syrup.name}}",
+                    "Description": "{{i18n:gourmetpantry_lavender_syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "syrup_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 108
+            },
+
+        }
+        }
+
+    ]
+}

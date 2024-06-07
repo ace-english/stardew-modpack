@@ -1,0 +1,561 @@
+{
+
+//////////////////
+// BEVERAGE SOS //
+//////////////////
+
+"atelierjuicebar_SO_1.name": "Kahvaltının Gücü",
+"atelierjuicebar_SO_1.text": "Ağtopu maçlarımda güçlenip iyileşmeye çalışıyorum ve her sabah kahvaltı yapacak vaktim yok! Biri yardım eder mi?",
+"atelierjuicebar_SO_1.deliver": "Alex'e 5 Yeşil Kıvırcık Smoothie ver.",
+"atelierjuicebar_SO_1.accept": "Şimdi bu smoothielerde hem protein hem lif mi var? Harika! Bunlar sayesinde kaslarım daha da gelişecek.",
+
+"atelierjuicebar_SO_2.name": "Yeni Bir Köpük",
+"atelierjuicebar_SO_2.text": "Abigail incili çay hakkında bir şeyler söylüyordu... peki nedir bu? Güzel bir şey mi? Birisi denemem için getirirse çok güzel olur.",
+"atelierjuicebar_SO_2a.deliver": "Caroline'ın mutfağına 2 Oolong İncili Çay götür.",
+"atelierjuicebar_SO_2b.deliver": "Caroline'ın mutfağına 2 Esmer Şekerli İncili Çay götür.",
+"atelierjuicebar_SO_2c.deliver": "Caroline'ın mutfağına 2 Çilekli İncili Çay götür.",
+
+"atelierjuicebar_SO_3.name": "Limonata Soğuk Çaya Karşı",
+"atelierjuicebar_SO_3.text": "Sıcak bir günde buz gibi limonata gibisi yoktur... yoksa soğuk çay mıydı? Hmm... şimdi hangisini daha çok beğeniyorum hatırlamıyorum. Biri bana ikisinden de getirir mi, ki karar verebileyim?",
+"atelierjuicebar_SO_3a.deliver": "George'un mutfağına 2 Yeşil Çaylı Limonata götür.",
+"atelierjuicebar_SO_3b.deliver": "George'un mutfağına 2 Klasik Limonata götür.",
+"atelierjuicebar_SO_3c.deliver": "George'un mutfağına 2 Soğuk Çay götür.",
+"atelierjuicebar_SO_3d.deliver": "George'un mutfağına 2 Şeftalili Soğuk Çay götür.",
+
+"atelierjuicebar_SO_4.name": "Taze Sıkılmış",
+"atelierjuicebar_SO_4.text": "Sodayı kesmeye çalışıyorum ama hala içecek tatlı bir şeye ihtiyacım var. Fikri olan var mı?",
+"atelierjuicebar_SO_4a.deliver": "Sam'in odasına 2 Üzüm Suyu götür.",
+"atelierjuicebar_SO_4b.deliver": "Sam'in odasına 2 Elma Suyu götür.",
+"atelierjuicebar_SO_4c.deliver": "Sam'in odasına 2 Meyve Suyu götür.",
+"atelierjuicebar_SO_4d.deliver": "Sam'in odasına 2 Portakal Suyu götür.",
+
+"atelierjuicebar_SO_5.name": "Zevkli Yudumlar Meydan Okuması",
+"atelierjuicebar_SO_5.text": "Senenin o zamanı yine geldi - Zevkli Yudumlar Meydan Okuması için yıllık başvurular açık! Büyük ödülü alıp alamayacağınızı görmek için bize en iyi içeceklerinizi gönderin!",
+"atelierjuicebar_SO_5.ship": "100 altın kalite içecek gönder.",
+
+"atelierjuicebar_SO_6.name": "Emily için İncili Çay",
+"atelierjuicebar_SO_6.text": "İncili çayım bitti! Lütfen bana yenilerini gönderin!",
+"atelierjuicebar_SO_6.deliver": "Emily'e 4 incili çay ver.",
+"atelierjuicebar_SO_6.accept": "Çok iyi yetiştin! Güzel bir bardak incili çay olmadan kendimde hissetmiyorum. Sağol!",
+
+"atelierjuicebar_SO_7.name": "Haley için Smoothie",
+"atelierjuicebar_SO_7.text": "Geçen hafta o kadar meşguldüm ki bu hafta için smoothielerimi hazırlamadım! Kahvaltıda ne yapacağım ben şimdi?",
+"atelierjuicebar_SO_7.deliver": "Haley'e 4 Smoothie ver.",
+"atelierjuicebar_SO_7.accept": "Çok şükür! Bir smoothie olmadan sabahlarım aynı olmaz. Tekrar sağol.",
+
+"atelierjuicebar_SO_8.name": "Shane için Meyve Suyu",
+"atelierjuicebar_SO_8.text": "Jas ve arkadaşları için meyve suyu alma sırası bendeymiş unuttum da. Yine. Biri bana yardım eder mi??",
+"atelierjuicebar_SO_8.deliver": "Shane'e 8 meyve suyu ver.", 
+"atelierjuicebar_SO_8.accept": "Ah Yoba sağolsun. Beni gerçekten kurtardın.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierjuicebar_SO2_reward.title": "Teşekkürler!",
+"atelierjuicebar_SO2_reward.text": "@,^^^ İncili çaya bu kadar bayılacağımı kim düşünebilirdi ki? Bunu benimle paylaştığın için sağol. İşte iyiliğin için bir şey var burada.^^-Caroline",
+
+"atelierjuicebar_SO3_reward.title": "Buz Gibi İçecekler",
+"atelierjuicebar_SO3_reward.text": "@,^^^ Ah şimdi hatırlıyorum! İkisini de seviyorum! Sağol, @. Bu sana biraz yardımcı olur, ihtiyar George'un arada bir soğuk bir şeyler içmeyi sevdiğini unutayım deme!",
+
+"atelierjuicebar_SO4_reward.title": "Teşekkürler; Plus My Super Secret Soda Recipe",
+"atelierjuicebar_SO4_reward.text": "@,^^^ Meyve suları için tekrar sağol! Çok güzellerdi, ama sodadan çok da daha güzel olmadığını anladım, o yüzden başa döndüm. Neyse, bu senin daha fazla içecek yapmana yardımcı olacaktır!^^-Sam",
+
+"atelierjuicebar_SO5_reward.title": "Tebrikler!",
+"atelierjuicebar_SO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici. Zevkli Yudumlar Yarışması'nda size 1. ödülü vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak kabul edin.",
+
+///////////////
+// CANDY SOS //
+///////////////
+
+"ateliercandy_SO_1.name": "Tombiş Tavşan",
+"ateliercandy_SO_1.text": "Tombiş Tavşan oynamak istiyorum ama normal marşmelowlar çok sıkıcı! Birisi bana aromalı olanlardan getirir mi?",
+"ateliercandy_SO_1a.deliver": "Jas'e 3 çilekli marşmelov ver.",
+"ateliercandy_SO_1b.deliver": "Jas'e 3 lavantalı marşmelov ver.",
+"ateliercandy_SO_1c.deliver": "Jas'e 3 matcha marşmelov ver.",
+"ateliercandy_SO_1d.deliver": "Jas'e 3 hindistan cevizli marşmelov ver.",
+"ateliercandy_SO_1.accept": "Yaşasın! Rengarenk. Artık arkadaşlarımla beraber tombiş tavşanlar olabiliriz!",
+
+"ateliercandy_SO_2.name": "İpini Unutma!",
+"ateliercandy_SO_2.text": "Pamuk şeker çok güzel! Çok hafif ve yumuşak ama leziz - Keşke dünyadaki her çeşidi deneyebilsem!",
+"ateliercandy_SO_2a.deliver": "Vincent'in evine 1 Pamuk Şeker bırak.",
+"ateliercandy_SO_2b.deliver": "Vincent'in evine 1 Lavantalı Pamuk Şeker bırak.",
+"ateliercandy_SO_2c.deliver": "Vincent'in evine 1 Limon Mezeli Pamuk Şeker bırak.",
+"ateliercandy_SO_2d.deliver": "Vincent'in evine 1 Portakal Creamsicle Pamuk Şeker bırak.",
+"ateliercandy_SO_2e.deliver": "Vincent'in evine 1 Naneli Pamuk Şeker bırak.",
+"ateliercandy_SO_2f.deliver": "Vincent'in evine 1 Çilekli Pamuk Şeker bırak.",
+"ateliercandy_SO_2g.deliver": "Vincent'in evine 1 Vanilyalı Pamuk Şeker bırak.",
+
+"ateliercandy_SO_3.name": "Nostaljik Tatlar",
+"ateliercandy_SO_3.text": "Annem ben küçükken şu süslü lolipoplarla bana sürpriz yapardı. Bugün ikimiz için de biraz bulmayı çok isterim, ancak nerede bulurum bilmiyorum!",
+"ateliercandy_SO_3a.deliver": "Penny'nin mutfağına 1 Limon Mezeli Gurme Lolipop bırak.",
+"ateliercandy_SO_3b.deliver": "Penny'nin mutfağına 1 Vanilyalı Naneli Gurme Lolipop bırak.",
+"ateliercandy_SO_3c.deliver": "Penny'nin mutfağına 1 Karışık Meyveli Gurme Lolipop bırak.",
+"ateliercandy_SO_3d.deliver": "Penny'nin mutfağına 1 Yabanmersini Turtalı Gurme Lolipop bırak.",
+
+"ateliercandy_SO_4.name": "Leziz Taşlar",
+"ateliercandy_SO_4.text": "Taş yiyebileceğimizi biliyordum! Artık favori şekerimi herkesle paylaşabilirim ama nereden bulacağım ki o kadar şekeri?",
+"ateliercandy_SO_4.deliver": "Abigail'in odasına 5 Kristal Şeker bırak.",
+
+"ateliercandy_SO_5.name": "Usta Şekerci İmtihanı",
+"ateliercandy_SO_5.text": "Senenin o vakti yine geldi - Usta Şekerci unvanı için yıllık başvurular açık! Büyük ödülü alıp alamayacağınızı görmek için bize en iyi şekerlerinizi gönderin!",
+"ateliercandy_SO_5.ship": "100 Altın Kalite Şeker gönder.",
+
+"ateliercandy_SO_6.name": "Emily için Pamuk Şeker",
+"ateliercandy_SO_6.text": "Pamuk şeker büyülü gibi, değil mi? Biri bana getirse çok hoşuma gider.",
+"ateliercandy_SO_6.deliver": "Emily'e 3 pamuk şekeri ver.",
+"ateliercandy_SO_6.accept": "Yemeye kıyamıyorum neredeyse! Teşekkür ederim.",
+
+"ateliercandy_SO_7.name": "Robin için Marşmelov",
+"ateliercandy_SO_7.text": "Sıcak çikolatam için marşmelov gerekiyor.",
+"ateliercandy_SO_7.deliver": "Robin'e 5 marşmelov ver.",
+"ateliercandy_SO_7.accept": "Dükkanda yorucu bir günden sonra sakinlemek için bir kupa sıcak çikolataya bayılırım. Bunlar mükemmel, getirdiğin için teşekkürler!",
+
+"ateliercandy_SO_8.name": "Lewis için Şeker",
+"ateliercandy_SO_8.text": "Canım eski zamanlardaki gibi akide şekerlerinden çekiyor. Hiçbir yerde bulamıyorum! Biri bana yardım eder mi?",
+"ateliercandy_SO_8.deliver": "Lewis'e 12 akide şekeri ver.",
+"ateliercandy_SO_8.accept": "Her yerde bunlar arıyordum! Böyle güzel şekerleri bugün bulmak çok zor. Sağol.",
+
+//CANDY REWARDS MAIL
+ 
+"ateliercandy_SO2_reward.title": "TEŞEKKÜRLER!!",
+"ateliercandy_SO2_reward.text": "@,^^^ Bunlar çok güzel görünüyor. Keşke annem o iğrenç ip yerine dişlerimi bunlarla temizletse...^^-Vincent",
+
+"ateliercandy_SO3_reward.title": "Teşekkür Ederim",
+"ateliercandy_SO3_reward.text": "@,^^^ Uzun tır gezilerinden sonra annemin eve getirdikleri gibi aynı bunlar. Onunla paylaşmaktan çok mutlu olacağım. ^^-Penny",
+
+"ateliercandy_SO4_reward.title": "Teşekkür Ederim",
+"ateliercandy_SO4_reward.text": "@,^^^ Kıtır kıtır ve şekerli. Seb ve Sam'le paylaşmaya gidiyorum, tekrar sağol! ^^-Abigail",
+
+"ateliercandy_SO5_reward.title": "Tebrikler!",
+"ateliercandy_SO5_reward.text": "Değerli @^^^, Azminiz oldukça etkileyici. Usta Şekerci unvanını size vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak kabul edin.",
+
+////////////////
+// COFFEE SOS //
+////////////////
+
+
+"atelierbarista_CoffeeSO_1.name": "Kahve Molası",
+"atelierbarista_CoffeeSO_1.text": "Öğütülmüş kahvem bitmek üzere! Stoğu doldurmam için biri bana birkaç poşet getirir mi?",
+"atelierbarista_CoffeeSO_1a.deliver": "Harvey'e 2 Fındıklı Öğütülmüş Kahve ver.",
+"atelierbarista_CoffeeSO_1b.deliver": "Harvey'e 2 Soğuk Harman ver.",
+"atelierbarista_CoffeeSO_1c.deliver": "Harvey'e 2 Patisko Vanilyalı Öğütülmüş Kahve ver.",
+"atelierbarista_CoffeeSO_1.accept": "Ah, tam vaktinde! Güven bana, kimse uykulu bir doktor istemez!",
+
+"atelierbarista_CoffeeSO_2.name": "Kahvesiz Başın Cezasını...",
+"atelierbarista_CoffeeSO_2.text": "Alarmımı sürekli erteleyip sonra her şeye geç kalıyorum! Artık geç kalmayıp bir şeylere yetişebilmem için biri bana kahve getirir mi?",
+"atelierbarista_CoffeeSO_2.deliver": "Haley'e 5 Sweetheart Latte ver.",
+"atelierbarista_CoffeeSO_2.accept": "Umarım işlerime yetişmeye başlarım!",
+
+"atelierbarista_CoffeeSO_3.name": "Kalk ve Öğüt",
+"atelierbarista_CoffeeSO_3.text": "Hiç sabahçı değilim ama denemek istiyorum. Başaracaksam çok ama çok kahve lazım olacak gerçi...",
+"atelierbarista_CoffeeSO_3a.deliver": "Sebastian'ın odasına 3 Kahvaltılık Öğütülmüş Kahve bırak.",
+"atelierbarista_CoffeeSO_3b.deliver": "Sebastian'ın odasına 3 Mocha Öğütülmüş Kahve bırak.",
+"atelierbarista_CoffeeSO_3c.deliver": "Sebastian'ın odasına 3 Kızarmış Hindistan Cevizli Öğütülmüş Kahve bırak.",
+"atelierbarista_CoffeeSO_3d.deliver": "Sebastian'ın odasına 3 Donut Shoppe Öğütülmüş Kahve bırak.",
+
+"atelierbarista_CoffeeSO_4.name": "Kabak Mevsimi",
+"atelierbarista_CoffeeSO_4.text": "Everyone is asking me to serve Pumpkin Spice Lattes at the saloon during autumn! I don't know what this is, but can someone help me get in on this craze?",
+"atelierbarista_CoffeeSO_4.deliver": "Deliver 12 Pumpkin Spice Lattes to Gus's Fridge in the Saloon.",
+
+"atelierbarista_CoffeeSO_5.name": "Usta Kahve Kavurucu İmtihanı",
+"atelierbarista_CoffeeSO_5.text": "Senenin o vakti yine geldi - Usta Kahve Kavurucu rolü için yıllık başvurular açık! Büyük ödülü alıp alamayacağınızı görmek için en iyi kahvelerinizi bize gönderin!",
+"atelierbarista_CoffeeSO_5.ship": "100 Altın Kalite Kahve Ürünü gönder.",
+
+"atelierbarista_CoffeeSO_6.name": "Sandy için Soğuk Harman",
+"atelierbarista_CoffeeSO_6.text": "Burası ÇOK sıcak. Biri biraz soğuk harman getirir mi??",
+"atelierbarista_CoffeeSO_6.deliver": "Sandy'e 3 soğuk harman ver.",
+"atelierbarista_CoffeeSO_6.accept": "Çok buz gibi ve ferahlatıcı, bu soğuk harman mükemmel! Çok sağol, canım.",
+
+"atelierbarista_CoffeeSO_7.name": "Marnie için Latte",
+"atelierbarista_CoffeeSO_7.text": "Hayvanlarım beni bütün gece ayakta tuttu ve çok yoruldum. Biri bana birkaç kupa latte getirir mi?",
+"atelierbarista_CoffeeSO_7.deliver": "Marnie'e 4 latte ver.",
+"atelierbarista_CoffeeSO_7.accept": "Hayvanlarımı seviyorum, ama uykusuz kalmayı değil. En azından artık beni canlandırmak için bu hoş latteler var! Tekrar sağol.",
+
+"atelierbarista_CoffeeSO_8.name": "Pierre için Kahve",
+"atelierbarista_CoffeeSO_8.text": "Dükkanda kahve harmanlarını yeniden stoklamam lazım.",
+"atelierbarista_CoffeeSO_8.deliver": "Pierre'e 8 kahve harmanı ver.",
+"atelierbarista_CoffeeSO_8.accept": "Bunlar sayesinde dükkan daha güzel duracak! Sağol, arkadaşım.",
+
+//COFFEE REWARDS MAIL
+ 
+"atelierbarista_CoffeeSO2_reward.title": "Tekrar Sağol!",
+"atelierbarista_CoffeeSO2_reward.text": "@,^^^Belki de geç kalmamak için latteden fazlası lazım bana, ama başlamak için oldukça iyi bir yol! ^-Haley",
+
+"atelierbarista_CoffeeSO3_reward.title": "Harmanlar için Sağol.",
+"atelierbarista_CoffeeSO3_reward.text": "@,^^^Gececi olabilirim, ama öğleden önce uyanmama belki bu yardım eder. Tekrar sağol. ^-Sebastian",
+
+"atelierbarista_CoffeeSO4_reward.title": "Teşekkür ederim!",
+"atelierbarista_CoffeeSO4_reward.text": "@,^^^Bütün bu karmaşanın ne olduğunu anlamıyorum, ama gençleri sonbaharda buraya getirip bir fincan aldırıyorsa, gerisi önemsiz! ^-Gus",
+
+"atelierbarista_CoffeeSO5_reward.title": "Tebrikler!",
+"atelierbarista_CoffeeSO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici, Size Usta Kahve Kavurucu unvanını vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak alın.",
+
+////////////////
+// FROZEN SOS //
+////////////////
+
+"atelierfrozen_SO_1.name": "Milkshake Cüceleri Bahçeye Getiriyor",
+"atelierfrozen_SO_1.text": "Yani sen şimdi süt... başka içeceklere dönüştürülebilir mi diyorsun? İlginç. Bu garip karışımlardan örnek getirecek birine güzel bir ücret verirdim.",
+"atelierfrozen_SO_1a.deliver": "Cüce'ye 1 Vanilyalı Milkshake ver.",
+"atelierfrozen_SO_1b.deliver": "Cüce'ye 1 Çilekli Milkshake ver.",
+"atelierfrozen_SO_1c.deliver": "Cüce'ye 1 Çikolatalı Milkshake ver.",
+"atelierfrozen_SO_1.accept": "Bunun adı milkshake mi? Büyüleyici. Soğuk ve tatlı... siz insanlar çok ilginç bir halksınız.",
+
+"atelierfrozen_SO_2.name": "Popsicle Dalgınlığı",
+"atelierfrozen_SO_2.text": "Küçükleri kasabada ellerinde çubuklu renkli buz küpleri tutarken görüyorum... Denemeyi oldukça isterim!",
+"atelierfrozen_SO_2.deliver": "Krobus'a 6 popsicle ver.",
+"atelierfrozen_SO_2.accept": "Teşekkür ederim! Bunları denemek için oldukça sabırsızım.",
+
+"atelierfrozen_SO_3.name": "Dondurma Partisi",
+"atelierfrozen_SO_3.text": "Bir dondurma partisi düzenliyorum ve menüye hangi çeşitleri koyacağımı seçmek için yardım gerek!",
+"atelierfrozen_SO_3a.deliver": "Jodi'nin mutfağına 3 Limonlu Şerbet bırak.",
+"atelierfrozen_SO_3b.deliver": "Jodi'nin mutfağına 3 Naneli Çikolatalı Donmuş Yoğurt bırak.",
+"atelierfrozen_SO_3c.deliver": "Jodi'nin mutfağına 3 Limonlu Lavantalı Dondurma bırak.",
+"atelierfrozen_SO_3d.deliver": "Jodi'nin mutfağına 3 Horchata Dondurma bırak.",
+
+"atelierfrozen_SO_4.name": "Tatlı Sandviç",
+"atelierfrozen_SO_4.text": "En sevdiğim çocukluk tatlımı özlüyorum: Dondurma Sandviçi. Maru artık tonla çeşidi olduğunu söylüyor. Biri bana denemem için birkaç tane getirebilir mi?",
+"atelierfrozen_SO_4a.deliver": "Demetrius'un Laboratuvarı'na 2 Mocha Dondurma Sandviçi bırak.",
+"atelierfrozen_SO_4b.deliver": "Demetrius'un Laboratuvarı'na 2 Antep Fıstıklı Dondurma Sandviçi bırak.",
+"atelierfrozen_SO_4c.deliver": "Demetrius'un Laboratuvarı'na 2 Çilekli Dondurma Sandviçi bırak.",
+"atelierfrozen_SO_4d.deliver": "Demetrius'un Laboratuvarı'na 2 Mochalı Hindistan Cevizli Dondurma Sandviçi bırak.",
+
+"atelierfrozen_SO_5.name": "Donmuş Ziyafet İmtihanı",
+"atelierfrozen_SO_5.text": "Senenin o vakti yine geldi - Donmuş Ziyafet İmtihanı için yıllık başvurular artık açık! Büyük ödülü alıp alamayacağını görmek için bize en iyi donmuş atıştırmalıklarınızı gönderin!",
+"atelierfrozen_SO_5.ship": "100 altın kalite donmuş atıştırmalık gönder.",
+
+"atelierfrozen_SO_6.name": "Kent için Milkshake",
+"atelierfrozen_SO_6.text": "Özel bir şeyle ailemi şaşırtmak istiyorum. Belki milkshakeler işimi görür?",
+"atelierfrozen_SO_6.deliver": "Kent'e 4 Milkshake ver.",
+"atelierfrozen_SO_6.accept": "Ailem bunlara bayılacak! Çok sağol, dostum.",
+
+"atelierfrozen_SO_7.name": "Elliott için Popsicle",
+"atelierfrozen_SO_7.text": "Edebi ilham için bana popsicle gerekiyor! Neden mi? Açıklayamam ancak açıkçası ihtiyacım var!",
+"atelierfrozen_SO_7.deliver": "Elliott'a 4 popsicle ver.",
+"atelierfrozen_SO_7.accept": "Popsicle mükemmeliyeti! Teşekkür ederim, şimdi popsicleları sessizlik içerisinde incelemeliyim.",
+
+"atelierfrozen_SO_8.name": "Gus için Dondurma",
+"atelierfrozen_SO_8.text": "Salonda donmuş tatlı satmaya başlamak istiyorum. Biri bana menüm için yardım eder mi?",
+"atelierfrozen_SO_8.deliver": "Gus'a 12 dondurma ver.",
+"atelierfrozen_SO_8.accept": "Salondakiler bunlara bayılacak! Çok sağol!",
+
+//FROZEN REWARDS MAIL
+ 
+"atelierfrozen_SO2_reward.title": "Sağol!",
+"atelierfrozen_SO2_reward.text": "@,^^^ Çubuklu dondurmalar. Ne muhteşem bir icat. Bir gün bana da öğreteceksindir nasıl yapıldığını illaki. Madenden gelen bu hazineler umarım daha çok çubuklu dondurma yapmana yardımcı olur.^^-Krobus",
+
+"atelierfrozen_SO3_reward.title": "Teşekkür ederim!",
+"atelierfrozen_SO3_reward.text": "@,^^^ Sayende menü artık mükemmel!!^^-Jodi",
+
+"atelierfrozen_SO4_reward.title": "Teşekkür ederim!",
+"atelierfrozen_SO4_reward.text": "@,^^^ Bu sandviçler beni gerçekten geçmişe götürüyor. Tekrar sağol!^^-Jodi",
+
+"atelierfrozen_SO5_reward.title": "Tebrikler!",
+"atelierfrozen_SO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici. Size Donmuş Ziyafet Yarışması'nda 1. yeri vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak alın.",
+   
+////////////////
+// FLORAL SOS //
+////////////////
+
+"atelierfloral_SO_1.name": "Bahar Temizliği",
+"atelierfloral_SO_1.text": "Bahar temizliğiyle meşgulüm ve bütün dolapları biraz potpuriyle tazelemek istiyorum, biri bana birkaç kese getirebilir mi?",
+"atelierfloral_SO_1.deliver": "Evelyn'e 6 kese potpuri ver.",
+"atelierfloral_SO_1.accept": "Bunlar çok hoş kokuyor. Bütün ev çabucak tertemiz olacak!",
+
+"atelierfloral_SO_2.name": "Durup Gülleri Kokla",
+"atelierfloral_SO_2.text": "Taze çiçekleri gerçekten seviyorum, beni hapşırtsalar da. Bir buket perigülü odamda çok güzel dururdu...",
+"atelierfloral_SO_2.deliver": "Sam'e 1 Perigülü Buketi ver.",
+"atelierfloral_SO_2.accept": "Vay be, buket rengarenk ve çok güzel kokuyor! Belki daha az hapşırayım diye odanın diğer tarafına koyarım...",
+
+"atelierfloral_SO_3.name": "Kokular Bazen Hayatidir",
+"atelierfloral_SO_3.text": "Favori parfümüm tamamen bitmiş! ONSUZ NE YAPACAĞIM BEN??",
+"atelierfloral_SO_3a.deliver": "Haley'in evine 2 Ayçiçeği Eau de Toilette götür.",
+"atelierfloral_SO_3b.deliver": "Haley'in evine 2 Orman Lavantası Eau de Toilette götür.",
+"atelierfloral_SO_3c.deliver": "Haley'in evine 2 Perigülü Eau de Toilette götür.",
+"atelierfloral_SO_3d.deliver": "Haley'in evine 2 Lale Eau de Toilette götür.",
+
+"atelierfloral_SO_4.name": "Sabun Dramı",
+"atelierfloral_SO_4.text": "Sabun alkali çözeltisi üzerinde bilimsel deneyler yapıyorum ve deneklerimle karşılaştıracak daha çok örnek lazım!",
+"atelierfloral_SO_4.deliver": "Maru'nun Laboratuvarı'ndaki kutuya 10 Sabun bırak.",
+
+"atelierfloral_SO_5.name": "Usta Çiçekçi",
+"atelierfloral_SO_5.text": "Senenin o zamanı yine geldi - Usta Çiçekçi rolü için yıllık başvurular açık! En iyi kalite çiçek ürünlerinizi büyük ödülü alıp alamayacağını görmek için bize gönderin!",
+"atelierfloral_SO_5.ship": "100 Altın Kalite Çiçek Ürünü gönder.",
+
+"atelierfloral_SO_6.name": "Shane için Buket",
+"atelierfloral_SO_6.text": "Jas ve Marnie bana karşı çok sabırlı ve onlara güzel bir şey vermek istiyorum...",
+"atelierfloral_SO_6.deliver": "Shane'e 2 buket ver.",
+"atelierfloral_SO_6.accept": "Bunlar çok güzel. Jas ve Marnie için mükemmel. Sağol dostum.",
+
+"atelierfloral_SO_7.name": "Willy için Sabun",
+"atelierfloral_SO_7.text": "Balıkçılık zor is ve cildimi çok kurutuyor! Normale dönmüş hissetmem için iyi kalite sabunlar olsa güzel olurdu.",
+"atelierfloral_SO_7.deliver": "Willy'e 4 sabun ver.",
+"atelierfloral_SO_7.accept": "Bulaşık leğeni ellerini duymuşsundur, bu kadar kuru olduğuna göre bende de BALIŞIK leğeni olsun bari. Sabunlar için sağol, eminim yardımı olacaktır.",
+
+"atelierfloral_SO_8.name": "Krobus için Mum",
+"atelierfloral_SO_8.text": "İnsanlar çiçeklerin sadece kendileriyle değil, kokularıyla da ilgililer. Lağımı da çiçek gibi yapmak istiyorum, yardım eder misiniz?",
+"atelierfloral_SO_8.deliver": "Krobus'a 8 mum ver.",
+"atelierfloral_SO_8.accept": "Büyüleyici, mumlar güzel kokuyor ve ortama rahatlatıcı bir parıltı ekliyor. İnsanlar oldukça ilginç varlıklar. Bunları getirdiğin için teşekkürler.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierfloral_SO2_reward.title": "Teşekkür ederim!",
+"atelierfloral_SO2_reward.text": "@,^^^Buket için ne kadar teşekkür etsem az, burnumu biraz akıtsa da. ^^-Sam",
+
+"atelierfloral_SO3_reward.title": "Çok teşekkürler!",
+"atelierfloral_SO3_reward.text": "@,^^^HAYATIMI KURTARDIN. Bir kızın favori parfümü asla eksik olmamalıdır, bilirsin.^^-Haley",
+
+"atelierfloral_SO4_reward.title": "Teşekkür ederim!",
+"atelierfloral_SO4_reward.text": "@,^^^Deneylerim için bunlar mükemmel! Sabun yapımının teriminin sabunlaşma olduğunu biliyor muydun? Hayır mı? Kendi karışımlarımla bunları karşılaştırayım bari. ^^-Maru",
+
+"atelierfloral_SO5_reward.title": "Tebrikler!",
+"atelierfloral_SO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici. Usta Çiçekçi unvanını size vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak kabul edin.",
+
+//////////////
+// JAMS SOS //
+//////////////
+
+"jams_SO_1.name": "Evelyn için Bahar Hediyesi",
+"jams_SO_1.text": "Evelyn benim için çok şey yapıyor; onu ne kadar çok sevdiğimi göstermek için ona bir şey vermek istiyorum. Laleleri çok sever, belki çörekleri için biraz lale reçeli iş görür?",
+"jams_SO_1.deliver": "George'a 5 Lale Jölesi ver.",
+"jams_SO_1.accept": "Buna bayılacak - Sana borçluyum.",
+
+"jams_SO_2.name": "Pembik Güzellik",
+"jams_SO_2.text": "Jas her şeyin pembe olsun istediği bir dönemden geçiyor, yemeğinin bile! Biri yardım eder mi??",
+"jams_SO_2.deliver": "Marnie'ye 5 Çilekli Gül Reçeli ver.",
+"jams_SO_2.accept": "Ah nihayet! Belki bunu ekmeğin üstüne sürerek ona kahvaltı yaptırabilirim?",
+
+"jams_SO_3.name": "Mükemmel Pankek Sosu",
+"jams_SO_3.text": "Pankekler bizim evde bir pazar kahvaltısıdır ve üstüne dökmek için klasik akçaağaç özü yerine farklı bir şeyler istiyorum. Fikri olan var mı?",
+"jams_SO_3a.deliver": "Jodi'nin mutfağına 3 Kirazlı Vanilya Reçeli bırak.",
+"jams_SO_3b.deliver": "Jodi'nin mutfağına 3 Ballı Şeftali Reçeli bırak.",
+"jams_SO_3c.deliver": "Jodi'nin mutfağına 3 Çilekli Uşkun Jölesi bırak.",
+
+"jams_SO_4.name": "C Vitamini Lazım",
+"jams_SO_4.text": "Sağlıklı bir beslenme için vitaminler önemli! Marmelattaki C vitamini de iş görür. Haksız mıyım..?",
+"jams_SO_4a.deliver": "Lewis'in mutfağına 2 Üçlü Turunçgil Marmelatı bırak.",
+"jams_SO_4b.deliver": "Lewis'in mutfağına 2 Tatlı Yeşil Limon Marmelatı bırak.",
+"jams_SO_4c.deliver": "Lewis'in mutfağına 2 Yaz Portakalı Marmelatı bırak.",
+"jams_SO_4d.deliver": "Lewis'in mutfağına 2 Bahar Limon Marmelatı bırak.",
+
+"jams_SO_5.name": "Usta Reçelci İmtihanı",
+"jams_SO_5.text": "Senenin o zamanı yine geldi - Usta Reçelci rolü için yıllık başvurular açık! Büyük ödülü alıp alamayacağınızı görmek için bize en iyi reçel ve jölelerinizi bize gönderin!",
+"jams_SO_5.ship": "100 özel reçel ve jöle gönder.",
+
+"jams_SO_6.name": "Linus için Reçel",
+"jams_SO_6.text": "Kış geldiğinde doğanın armağanlarının tadını meyve reçelleriyle çıkarabilmek isterim...",
+"jams_SO_6.deliver": "Linus'a 3 reçel ver.",
+"jams_SO_6.accept": "Ne hoş. Kışın derinliklerinde bile doğanın armağanlarının tadını çıkarabileceğim. Teşekkür ederim, arkadaşım.",
+
+"jams_SO_7.name": "Penny için Reçel",
+"jams_SO_7.text": "Annemle ben sabah kahvaltıda reçel yemeyi seviyoruz. Biri bize birkaç ilginç çeşit getirebilir mi?",
+"jams_SO_7.deliver": "Penny'e 5 reçel ver.",
+"jams_SO_7.accept": "Pazar pankeklerimizde bunlar çok iyi gidecek! Çok sağol!",
+
+"jams_SO_8.name": "Clint için Reçel",
+"jams_SO_8.text": "Daha özel malzemeler açısından kilerime stok yapmak istiyorum. Reçel severim, belki böyle başlayabilirim?",
+"jams_SO_8.deliver": "Clint'e 10 reçel ver.",
+"jams_SO_8.accept": "Bütün bu reçelle ne mi yapacağım? Bilmiyorum, ama mutfağıma yakışacak. Sağol.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+"jams_SO2_reward.title": "Teşekkür ederim!",
+"jams_SO2_reward.text": "@,^^^ Reçel için tekrar teşekkürler. Jas çok beğendi! Kendine de yapmak istersen biraz pektin gönderdim. ^^-Marnie",
+
+"jams_SO3_reward.title": "Tekrar teşekkürler!",
+"jams_SO3_reward.text": "@,^^^ Vay be! Bunlar sayesinde pankekler daha güzel! ^^-Jodi",
+
+"jams_SO4_reward.title": "Teşekkür ederim!",
+"jams_SO4_reward.text": "@,^^^ Bunlar harika! Artık iskorbüt gibi şeylerden asla korkmama gerek kalmayacak.^^-Lewis",
+
+"jams_SO5_reward.title": "Tebrikler!",
+"jams_SO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici. Size Usta Reçelci unvanını vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak kabul edin.",
+
+///////////////
+// PANTRY SO //
+///////////////
+
+"gourmetpantry_SO_1.name": "Birkaç Kavanoz Ezme",
+"gourmetpantry_SO_1.text": "Caroline sürekli bir şeyler pişirmeye başladı ve ona tatlılarıyla iyi gidecek bir şey vermek istiyorum.",
+"gourmetpantry_SO_1a.deliver": "Pierre'e Gurme Limon Ezmesi ver.", 
+"gourmetpantry_SO_1b.deliver": "Pierre'e Çiftlik Kabak Ezmesi ver.",
+"gourmetpantry_SO_1c.deliver": "Pierre'e Çiftlik Ballı Ezmesi ver.",
+"gourmetpantry_SO_1d.deliver": "Pierre'e Gurme Yeşil Limon Ezmesi ver.",
+"gourmetpantry_SO_1.accept": "Bunlar kek ve bisküvileriyle çok uyacak! Onu bunlarla şaşırtmak için sabırsızlanıyorum.",
+
+"gourmetpantry_SO_2.name": "Süt Var Mı?",
+"gourmetpantry_SO_2.text": "Gördüğüm bir çok hastanın laktoza intoleransı var ama alternatif sütler hakkında pek bilgim yok. Biri bana tat testi yapmam için birkaç tür getirebilir mi?",
+"gourmetpantry_SO_2a.deliver": "Harvey'in Kliniğindeki Kutuya 2 Badem Sütü bırak.",
+"gourmetpantry_SO_2b.deliver": "Harvey'in Kliniğindeki Kutuya 2 Pirinç Sütü bırak.",
+"gourmetpantry_SO_2c.deliver": "Harvey'in Kliniğindeki Kutuya 2 Hindistan Cevizi Sütü bırak.",
+"gourmetpantry_SO_2d.deliver": "Harvey'in Kliniğindeki Kutuya 2 Fındık Sütü bırak.",
+
+"gourmetpantry_SO_3.name": "Yeni Protein Lazım!",
+"gourmetpantry_SO_3.text": "Yemişlerin iyi bir protein kaynağı olduğunu duydum, özellikle de smoothielerde! Sabah protein içeceklerimde birkaç çeşit denemek istiyorum",
+"gourmetpantry_SO_3.deliver": "Alex'in evindeki kutuya 10 zanaatsal yemiş ezmesi bırak.",
+
+"gourmetpantry_SO_4.name": "Fırtına Pişiriyoruz",
+"gourmetpantry_SO_4.text": "Evelyn o kadar çok fırında pişiriyor ki ikide bir unumuz bitiyor! Belki yeni un çeşitleriyle pişirmek onun da hoşuna gider?",
+"gourmetpantry_SO_4.deliver": "George'un evindeki kutuya 10 özel un bırak.",
+
+"gourmetpantry_SO_5.name":"Usta Zanaatkar İmtihanı",
+"gourmetpantry_SO_5.text": "Senenin o zamanı yine geldi - Usta Zanaatkar rolü için yıllık başvurular açık! En iyi kalite malzemelerinizi büyük ödülü alıp alamayacağını görmek için bize gönderin!",
+"gourmetpantry_SO_5.ship": "100 Altın Kalite Kiler Ürünü gönder.",
+
+"gourmetpantry_SO_6.name": "Evelyn için Öz",
+"gourmetpantry_SO_6.text": "Hiç vanilya özüm kalmadı! Onsuz pişiremem...",
+"gourmetpantry_SO_6.deliver": "Evelyn'e 3 vanilya özü ver.",
+"gourmetpantry_SO_6.accept": "Vanilya olmadan kurabiye yapmayı düşünebilir misin? Katiyen olamaz. Getirdiğin için sağol, tatlım.",
+
+"gourmetpantry_SO_7.name": "Abigail için Zeytinyağı",
+"gourmetpantry_SO_7.text": "Yeni yemek tarifleri denemek istiyorum, ama zeytinyağı lazım. Biri yardım eder mi?",
+"gourmetpantry_SO_7.deliver": "Abigail'e 5 özel zeytinyağı ver.",
+"gourmetpantry_SO_7.accept": "Sağol! Focaccia için bir sürü zeytinyağı gerektiğini okudum, o yüzden bu işimi çok kolaylaştıracak.",
+
+"gourmetpantry_SO_8.name": "Gus için Çikolata",
+"gourmetpantry_SO_8.text": "Çikolata tedarikçim son dakika çark etti! Biri bana ihtiyacım olanı verebilir mi?",
+"gourmetpantry_SO_8.deliver": "Gus'a 9 pastacı çikolatası ver.",
+"gourmetpantry_SO_8.accept": "Salon menüsü Gus'ın Özel Çikolatalı Pastası olmadan olmazdı! Hızır gibi yetiştin, teşekkür ederim.",
+
+//PANTRY REWARDS MAIL
+
+"gourmetpantry_SO2_reward.title": "Teşekkür ederim!",
+"gourmetpantry_SO2_reward.text": "@,^^^Pirinç, yemişler ve hindistan cevizi gibi şeylerden yapılma mı? Müthiş! Hastalarım için harika muadiller olacak.^-Harvey",
+
+"gourmetpantry_SO3_reward.title": "Çok sağol!",
+"gourmetpantry_SO3_reward.text": "@,^^^Harika! Bunlarla kesinlikle öncesinden de güçlenebileceğim! Kralsın! ^-Alex",
+
+"gourmetpantry_SO4_reward.title": "Tekrar teşekkürler.",
+"gourmetpantry_SO4_reward.text": "@,^^^ Maybe with these we won't run out of flour in a day... I hope. Thanks for the help, farmer. ^-George",
+
+"gourmetpantry_SO5_reward.title": "Tebrikler!",
+"gourmetpantry_SO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici. Usta Zanaatkar unvanını size sunmaktan gurur duyuyoruz. Lütfen bunu bir ödül olarak kabul edin.",
+    
+////////////////////////
+// SPECIAL ORDERS TEA //
+////////////////////////
+
+"atelierbarista_TeaSO_1.name": "Poşet Stoğu",
+"atelierbarista_TeaSO_1.text": "Ev yapımı çay harmanım tamamen bitmiş! Haftayı geçirebilmem için biri bana birkaç poşet bırakır mı?",
+"atelierbarista_TeaSO_1a.deliver": "Caroline'a 2 Tarçınlı Çay Poşeti ver.",
+"atelierbarista_TeaSO_1b.deliver": "Caroline'a 2 Naneli Çay Poşeti ver.",
+"atelierbarista_TeaSO_1c.deliver": "Caroline'a 2 Lady Grey Çay Poşeti ver.",
+"atelierbarista_TeaSO_1.accept": "Ne kadar güzel çeşitler getirdin! Çay saatini bunlar benim için kesinlikle güzelleştirecek.",
+
+"atelierbarista_TeaSO_2.name": "Çay Partisi",
+"atelierbarista_TeaSO_2.text": "Hanımları kek ve çay için eve çağırıyorum, ama seçebilecekleri çeşitler olsun istiyorum! Biri bana yardım eder mi?",
+"atelierbarista_TeaSO_2a.deliver": "Evelyn'in mutfağına 2 Kiraz Çiçeği Çayı bırak.",
+"atelierbarista_TeaSO_2b.deliver": "Evelyn'in mutfağına 2 Gül Yaprağı Çayı bırak.",
+"atelierbarista_TeaSO_2c.deliver": "Evelyn'in mutfağına 2 İngiliz Kahvaltısı Çayı bırak.",
+
+"atelierjuicebar_TeaSO_3.name": "Gelsin Kombucha",
+"atelierjuicebar_TeaSO_3.text": "I heard Abigail and Sebby talking about how good kombucha is for you...can someone bring me some so I can see for myself?",
+"atelierjuicebar_TeaSO_3a.deliver": "Robin'in atölyesine 2 Güz Elması Kombucha bırak.",
+"atelierjuicebar_TeaSO_3b.deliver": "Robin'in atölyesine 2 Ahududu Kombucha bırak.",
+"atelierjuicebar_TeaSO_3c.deliver": "Robin'in atölyesine 2 Yabani Çilek Kombucha bırak.",
+"atelierjuicebar_TeaSO_3d.deliver": "Robin'in atölyesine 2 Narlı Yeşil Kombucha bırak.",
+
+"atelierbarista_TeaSO_4.name": "Uyku Çayı",
+"atelierbarista_TeaSO_4.text": "Çok yorgunum ve güzel bir uyku çekmek istiyorum. Biri bana rahatlatıcı bitki çaylarından getirebilir mi?",
+"atelierbarista_TeaSO_4a.deliver": "Jodi'nin mutfağına 3 Sıcak Papatya Çay Poşeti bırak.",
+"atelierbarista_TeaSO_4b.deliver": "Jodi'nin mutfağına 3 Naneli Çay Poşeti bırak.",
+"atelierbarista_TeaSO_4c.deliver": "Jodi'nin mutfağına 3 Patisko Vanilyası Çay Poşeti bırak.",
+"atelierbarista_TeaSO_4d.deliver": "Jodi'nin mutfağına 3 Limon-Zencefil Çay Poşeti bırak.",
+
+"atelierbarista_TeaSO_5.name": "Usta Çay Üreticisi İmtihanı",
+"atelierbarista_TeaSO_5.text": "Senenin o zamanı yine geldi - Usta Çay Üreticisi rolü için yıllık başvurular açık! Büyük ödülü alıp alamayacağınızı görmek için bize en iyi çaylarınızı gönderin!",
+"atelierbarista_TeaSO_5.ship": "100 Altın Kalite Çay Ürünü gönder.",
+ 
+"atelierjuicebar_TeaSO_6.name": " Alex için Kombucha",
+"atelierjuicebar_TeaSO_6.text": "Pierre ne kadar sorarsam sorayım kombucha getirmeyecek. Şimdi nasıl bulacağım?",
+"atelierjuicebar_TeaSO_6.deliver": "Alex'e 4 kombucha ver.",
+"atelierjuicebar_TeaSO_6.accept": "GETİRMİŞSİN! Kralsın, getirdiğin için sağol!",
+
+"atelierbarista_TeaSO_7.name": "Haley için Çay",
+"atelierbarista_TeaSO_7.text": "Çayımı internetten almak çok yorucu, göremiyorsam kalitesini nereden bileceğim? Belki kasabadan biri bana çay satabilir...",
+"atelierbarista_TeaSO_7.deliver": "Haley'e 6 çay ver.",
+"atelierbarista_TeaSO_7.accept": "Bu çaylar çok güzel duruyor. Çok hoşuma gidecekler - tekrar sağol!",
+
+"atelierbarista_TeaSO_8.name": "Sandy için Çay Poşeti", 
+"atelierbarista_TeaSO_8.text": "Çölde serin kalmak için büyük bir sürahi buzlu çay tapmak istiyorum. Biri bana birkaç poşet getirir mi?",
+"atelierbarista_TeaSO_8.deliver": "Sandy'e 8 çay poşeti ver.",
+"atelierbarista_TeaSO_8.accept": "Artık bu çöl sıcağında erimeyeceğim! Sağol, canım.",
+
+//TEA REWARDS MAIL
+ 
+"atelierbarista_TeaSO2_reward.title": "Teşekkür ederim; Artı Çay Tohumları!",
+"atelierbarista_TeaSO2_reward.text": "@,^^^ Bunlarla mükemmel bir Viktoryen çay partisi yapacağız!^^-Evelyn",
+
+"atelierbarista_TeaSO3_reward.title": "Teşekkür ederim, Artı Birkaç Mantar Başlatıcı!",
+"atelierbarista_TeaSO3_reward.text": "@,^^^ Beklediğimden daha köpüklüymüş! Ama ilginç bir şekilde güzel.^^-Robin",
+
+"atelierbarista_TeaSO4_reward.title": "Tekrar Teşekkürler!",
+"atelierbarista_TeaSO4_reward.text": "@,^^^ O kadar güzel kokuyorlar ki yastığa başımı koymayan uyuyacağım herhalde!^^-Jodi",
+
+"atelierbarista_TeaSO5_reward.title": "Tebrikler!",
+"atelierbarista_TeaSO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici. Size Usta Çay Üreticisi unvanını vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak kabul edin.",
+
+///////////////////
+// WILD FOOD SOS //
+///////////////////
+
+"ateliercrops_SO_1.name": "Patisko Rüyası",
+"ateliercrops_SO_1.text": "Patisko Çölü'nde sadece belli mevsimlerde çiçek açan bir orkide olduğunu duydum. Birisi bana kurutup çadırımda saklayabilmem içinde getirir mi?",
+"ateliercrops_SO_1.deliver": "Linus'a 3 patisko vanilyası ver.",
+"ateliercrops_SO_1.accept": "Patisko Çölü'ne oldukça hayranım. Bu orkideleri kuruttuktan sonra, çadırımda istediğim zaman çölün az biraz tadını çıkarabileceğim.",
+
+"ateliercrops_SO_2.name": "Avuç Avuç Meyve",
+"ateliercrops_SO_2.text": "Hiç meyvem kalmadı ve canım çikolatalı meyveli tart yapmayı çok istiyor. Biri bana yardımcı olur mu?",
+"ateliercrops_SO_2a.deliver": "Leah'ın evine 4 yabani çilek bırak.",
+"ateliercrops_SO_2b.deliver": "Leah'ın evine 4 yabani ahududu bırak.",
+
+"ateliercrops_SO_3.name": "Tadı Tavuk Gibi",
+"ateliercrops_SO_3.text": "Bilim insanının vadideki en iyi et alternatiflerini bulmak için çeşitli mantarlara ihtiyacı var.",
+"ateliercrops_SO_3.deliver": "Demetrius'un laboratuvarına 15 mantar bırak.",
+
+"ateliercrops_SO_4.name": "Çöl Çiçekleri",
+"ateliercrops_SO_4.text": "Çölün kendi güzelliği var, ama sadece vadide yetişen kır çiçeklerini de özlüyorum! Birisi bana birkaç tane getirir mi?",
+"ateliercrops_SO_4a.deliver": "Sandy'nin dükkanına 5 Orman Lavantası bırak.",
+"ateliercrops_SO_4b.deliver": "Sandy'nin dükkanına 5 Orman Papatyası bırak.",
+
+"ateliercrops_SO_5.name": "Usta Toplayıcı İmtihanı",
+"ateliercrops_SO_5.text": "Senenin o vakti yine geldi - Usta Toplayıcı unvanı için yıllık başvurular artık açık! Büyük ödülü alıp alamayacağınızı görmek için bize en iyi toplamalarınızı gönderin!",
+"ateliercrops_SO_5.ship": "100 Altın Kalite Toplama nesne gönder.",
+
+"ateliercrops_SO_6.name": "Maru için Mantar",
+"ateliercrops_SO_6.text": "Bir deney için taze mantara ihtiyacım var ama sağlık ocağında çok işim var. Bir ihtimal kimsede fazladan var mı?",
+"ateliercrops_SO_6.deliver": "Maru'ya 5 yabani mantar ver.",
+"ateliercrops_SO_6.accept": "Mükemmel görünüyorlar! Teşekkür ederim beni bunları arama zahmetinden kurtardın.",
+
+"ateliercrops_SO_7.name": "Gus için Meyve",
+"ateliercrops_SO_7.text": "Taze meyve siparişim bir türlü gelmiyor ve salon için kokteyl hazırlamam lazım! Şimdi ne yapacağım?",
+"ateliercrops_SO_7.deliver": "Gus'a 6 yabani meyve ver.",
+"ateliercrops_SO_7.accept": "Bu meyvelerle kokteyllerim sıradışı olacak! Tekrar sağol.",
+
+"ateliercrops_SO_8.name": "Evelyn için Bitki",
+"ateliercrops_SO_8.text": "Evde hiçbir şey için ot kalmadı ama yemeğim için lazım! Biri bana yardım edebilir mi?",
+"ateliercrops_SO_8.deliver": "Evelyn'e 8 yabani ot ver.",
+"ateliercrops_SO_8.accept": "Otlarla yemek hazırlamak çok önemlidir! Bıraktığın için çok teşekkür ederim.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+"ateliercrops_SO2_reward.title": "Teşekkür ederim.",
+"ateliercrops_SO2_reward.text": "Bu meyveler tartım için mükemmel! Bulduğun için çok teşekkür ederim.^^-Leah",
+
+"ateliercrops_SO3_reward.title": "Bir Teşekkür Notu ve Birkaç Mantar Yetiştirici!",
+"ateliercrops_SO3_reward.text": "Sevgili @ ^^ Sayende, mükemmel vegan protein kaynağını bulmaya bir adım daha yakınım! Bunları toplayıp bana getirdiğin için gerçekten minnettarım.^^-Demetrius",
+
+"ateliercrops_SO4_reward.title": "Bir Teşekkür Notu ve DAHA ÇOK Mantar Yetiştirici!",
+"ateliercrops_SO4_reward.text": "Bunlar tam aradığım şeyler! Hemen defterimin arasında kurutacağım!^^-Sandy",
+
+"ateliercrops_SO5_reward.title": "Tebrikler!!",
+"ateliercrops_SO5_reward.text": "Azminiz oldukça etkileyici. Size Usta Toplayıcı unvanını vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak kabul edin.",
+
+}

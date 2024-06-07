@@ -1,0 +1,136 @@
+{
+    "Changes":
+    [     
+		
+//
+///////////// SHANE /////////////
+//  
+
+// MODDED JAS
+		{
+			"LogName": "Shane Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": 
+			{
+				"summer_Tue8": "{{i18n:DSV.Dialogue.Daily.Shane.Modded.summer_Tue8}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:ShaneDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:JasVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.SarahsynaJas}}' = 'true'": true
+            }
+		},
+		
+// TURKISH GUS
+
+		{
+			"LogName": "Shane Variant-Based Dialogue - Turkish Gus (IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{
+				"Shane": "{{i18n:DSV.Dialogue.Daily.Shane.TurkishGus.SpiritsEve.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:ShaneDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,				
+				"Relationship:Shane |contains= Engaged": true
+            }
+		}, 
+		
+//
+///////////// JAS /////////////
+//
+		
+// MODDED JAS
+
+		{
+			"LogName": "Jas Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": 
+			{
+				"summer_Wed4": "{{i18n:DSV.Dialogue.Daily.Jas.Modded.summer_Wed4}}"
+
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:JasDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:JasVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.SarahsynaJas}}' = 'true'": true
+            }
+		},
+		{
+			"LogName": "Jas Variant-Based Dialogue - Modded, Mixed Penny (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": 
+			{
+				"summer_Wed2": "{{i18n:DSV.Dialogue.Daily.Jas.Modded.MixedPenny.summer_Wed2}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:JasDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:JasVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.SarahsynaJas}}' = 'true'": true,
+				"DSV.Core/ConfigValue:PennyVariant |contains= Mixed": true
+            }
+		},
+		
+// MODDED MARNIE
+
+		{
+			"LogName": "Jas Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": 
+			{
+				"fall_Thu8": "{{i18n:DSV.Dialogue.Daily.Jas.Modded.fall_Thu8}}"
+
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:JasDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:MarnieVariant |contains= Modded": true
+            }
+		},
+		
+// JAS CLOTHES
+
+		{
+			"LogName": "Jas Variant-Based Dialogue - Clothes (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": 
+			{
+				"spring_Mon6": "{{i18n:DSV.Dialogue.Daily.Jas.spring_Mon6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:JasDialogue |contains= True": true
+            }
+		},  
+		
+//
+///////////// MARNIE /////////////
+//
+
+// MODDED JAS
+
+		{
+			"LogName": "Marnie Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": 
+			{
+				"summer_Thu8": "{{i18n:DSV.Dialogue.Daily.Marnie.Modded.summer_Thu8}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:MarnieDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:JasVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.SarahsynaJas}}' = 'true'": true
+            }
+		}
+    ]
+}

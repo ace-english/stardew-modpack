@@ -1,0 +1,291 @@
+{
+	"Format": "1.28",
+	"ConfigSchema": {
+		"ReplaceVanillaFarm": {
+			"AllowValues": "None, Standard, Riverland, Forest, Hilltop, Wilderness, FourCorners, Beach",
+			"Default": "None"
+		},
+		"UseBigFarmCave": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"EnableDecorations": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"EnableDebris": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		}		
+	},
+	"DynamicTokens": [
+		{
+			"Name": "file",
+			"Value": "Farm",
+			"When": {"ReplaceVanillaFarm": "Standard"}
+		},
+		{
+			"Name": "file",
+			"Value": "Farm_Fishing",
+			"When": {"ReplaceVanillaFarm": "Riverland"}
+		},
+		{
+			"Name": "file",
+			"Value": "Farm_Foraging",
+			"When": {"ReplaceVanillaFarm": "Forest"}
+		},
+		{
+			"Name": "file",
+			"Value": "Farm_Mining",
+			"When": {"ReplaceVanillaFarm": "Hilltop"}
+		},
+		{
+			"Name": "file",
+			"Value": "Farm_Combat",
+			"When": {"ReplaceVanillaFarm": "Wilderness"}
+		},
+		{
+			"Name": "file",
+			"Value": "Farm_FourCorners",
+			"When": {"ReplaceVanillaFarm": "FourCorners"}
+		},
+		{
+			"Name": "file",
+			"Value": "Farm_Island",
+			"When": {"ReplaceVanillaFarm": "Beach"}
+		},
+	],
+	"CustomLocations": [
+		{
+			"Name": "Custom_LavenderMeadows_Spa",
+			"FromMapFile": "assets/LavenderMeadows_Spa.tmx"
+		}
+	],
+	"Changes": [
+		//replace vanilla farm
+		{
+			"Action": "Load",
+			"Target": "Maps/{{file}}",
+			"FromFile": "assets/LavenderMeadows.tmx",
+			"When": {"ReplaceVanillaFarm |contains=None": false}
+		},
+		//add tv
+		{
+			"Action":"EditMap",
+			"Target":"Maps/{{file}}",
+			"MapProperties":{
+				"FarmHouseFurniture":"1383 1 4 0 709 2 4 0 1792 5 4 0 1466 8 4 0 1393 10 4 0 1368 10 4 0 1960 9 1 0 3 2 7 1 3 5 8 3 1122 3 7 0 1363 3 7 0 1623 8 6 0 1664 2 9 0 1614 3 1 0 1614 8 1 0"
+			},
+			"When":{"FarmType":"{{ReplaceVanillaFarm}}"}
+		},
+		//replace greenhouse dirt
+		{
+			"Action": "Load",
+			"Target": "Maps/Farm_Greenhouse_Dirt, Maps/Farm_Greenhouse_Dirt_FourCorners",
+			"FromFile": "assets/LavenderMeadows_GreenhouseDirt.tmx",
+			"When": {
+				"FarmType": "{{ReplaceVanillaFarm}}"
+			}
+		},
+		//replace farm cave
+		{
+			"Action": "Load",
+			"Target": "Maps/FarmCave",
+			"FromFile": "assets/LavenderMeadows_BigCave.tmx",
+			"When": {
+				"UseBigFarmCave": "true",
+				"FarmType": "DaisyNiko.LavenderMeadows/Lavender Meadows, {{ReplaceVanillaFarm}}"
+			}
+		},
+		//edit intro
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/BusStop",
+			"Entries": {
+				"60367/u 0": "none/-1000 -1000/farmer 12 10 2 Robin 12 13 0 Lewis -100 -100 2/skippable/pause 500/playSound busDoorOpen/pause 5000/viewport 13 10 clamp true/move farmer 0 2 2/playMusic SettlingIn/speak Robin \"Hello! You must be @.#$b#I'm Robin, the local carpenter. Mayor Lewis sent me here to fetch you and show you the way to your new home. He's there right now, tidying things up for your arrival.#$b#The farm's right over here, if you'll follow me.\"/viewport move 0 2 800/move Robin 0 5 2 true/pause 800/move farmer 0 4 2 true/fade/speed farmer 2/viewport -200 -200/changeLocation Farm/halt/warp Robin 85 14/faceDirection Robin 3/warp farmer 86 14/faceDirection farmer 3/viewport 86 16 clamp/viewport move -1 0 4000/move Robin -6 0 3 farmer -6 0 3/pause 700/faceDirection Robin 2/speak Robin \"This is %farm farm.\"/pause 500/faceDirection farmer 2/showFrame 94/jump farmer/startJittering/pause 1000/emote farmer 28/showFrame 0/stopJittering/pause 800/faceDirection Robin 1/pause 200/speak Robin \"What's the matter?#$b#Sure, it's a bit overgrown, but there's some good soil underneath that mess!#$b#With a little dedication you'll have it cleaned up in no time.\"/pause 500/faceDirection farmer 3/pause 200/move Robin -5 0 0 farmer -5 0 0/pause 400/faceDirection Robin 0/speak Robin \"...And here we are, your new home.$h\"/pause 300/faceDirection farmer 0/pause 500/playSound doorClose/warp Lewis 76 12/pause 1500/speak Lewis \"Ah, the new farmer!$h\"/move Lewis 0 1 2/move Lewis 1 0 2/move Lewis 0 1 3/faceDirection farmer 1/faceDirection Robin 1/pause 600/speak Lewis \"Welcome! I'm Lewis, Mayor of Pelican Town.#$b#You know, everyone's been asking about you.#$b#It's not every day that someone new moves in. It's quite a big deal!\"/pause 1000/faceDirection Lewis 3/pause 100/faceDirection Lewis 0/pause 500/speak Lewis \"So... You're moving into your grandfather's old cottage.#$b#It's a good house... very 'rustic'.\"/pause 300/faceDirection Robin 0 true/faceDirection farmer 0/viewport move 0 -1 2000/pause 3000/speak Robin \"Rustic? That's one way to put it... $4#$b#'Crusty' might be a little more apt, though.$4\"/faceDirection Lewis 3 true/jump Lewis/shake Lewis 1600/textAboveHead Lewis \"Rude!\"/showFrame Lewis 24/pause 500/faceDirection Robin 1 true/pause 100/faceDirection Robin 2 true/pause 100/animate Robin false true 100 32 33/faceDirection farmer 2/pause 1000/showFrame Lewis 12/stopAnimation Robin/pause 300/faceDirection Robin 1/showFrame Lewis 12/faceDirection farmer 1/speak Lewis \"Don't listen to her, @. She's just trying to make you dissatisfied so that you buy one of her house upgrades.$u\"/showFrame Lewis 12/showFrame Robin 19/shake Robin 800/pause 1200/showFrame Robin 0/pause 600/animate Robin false true 300 34 35/textAboveHead Robin \"Hmmph.\"/pause 1500/speak Lewis \"Anyway... You must be tired from the long journey. You should get some rest.#$b#Tomorrow you ought to explore the town a bit and introduce yourself.#$b#The townspeople would appreciate that.\"/move Lewis 4 0 1 true/viewport move 1 0 2000/pause 3000/proceedPosition Lewis/faceDirection Lewis 0/pause 500/faceDirection Lewis 3/speak Lewis \"Oh, I almost forgot. If you have anything to sell, just place it in this box here. I'll come by during the night to collect it.#$b#Well... Good luck!\"/pause 300/move Lewis 8 0 1 true/faceDirection farmer 0/stopAnimation Robin/advancedMove Robin false 0 1 2 0 0 -1 5 0/pause 1000/globalFade/viewport -1000 -1000/playMusic none/pause 2000/playSound rooster/pause 1000/end beginGame"
+			},
+			"When": {
+				"FarmType": "DaisyNiko.LavenderMeadows/Lavender Meadows, {{ReplaceVanillaFarm}}"
+			}
+		},
+		//add decorations - replacer
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{file}}",
+			"FromFile": "assets/LavenderMeadows_decorations.tmx",
+			"PatchMode": "Overlay",
+			"When": {
+				"EnableDecorations": "true",
+				"ReplaceVanillaFarm |contains=None": false
+			}
+		},
+		//add decorations - cfl
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CFL_Map/DaisyNiko.LavenderMeadows/Lavender Meadows",
+			"FromFile": "assets/LavenderMeadows_decorations.tmx",
+			"PatchMode": "Overlay",
+			"When": {"EnableDecorations": "true"}
+		},
+		//decorations properties - replacer
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{file}}",
+			"MapProperties": {
+				"DayTiles": "AlwaysFront 81 8 227 AlwaysFront 63 3 227 AlwaysFront 81 25 227 AlwaysFront 52 17 227 AlwaysFront 53 28 227 AlwaysFront 20 41 227 AlwaysFront 35 59 227 AlwaysFront 47 47 227 AlwaysFront 80 54 227 AlwaysFront 36 7 227",
+				"NightTiles": "AlwaysFront 81 8 226 AlwaysFront 63 3 226 AlwaysFront 81 25 226 AlwaysFront 52 17 226 AlwaysFront 53 28 226 AlwaysFront 20 41 226 AlwaysFront 35 59 226 AlwaysFront 47 47 226 AlwaysFront 80 54 226 AlwaysFront 36 7 226",
+				"Light": "81 8 6 63 3 6 81 25 6 52 17 6 53 28 6 20 41 6 35 59 6 47 47 6 80 54 6 36 7 6"
+			},
+			"When": {
+				"EnableDecorations": "true",
+				"ReplaceVanillaFarm |contains=None": false
+			}
+		},
+		//decorations properties - cfl
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CFL_Map/DaisyNiko.LavenderMeadows/Lavender Meadows",
+			"MapProperties": {
+				"DayTiles": "AlwaysFront 81 8 227 AlwaysFront 63 3 227 AlwaysFront 81 25 227 AlwaysFront 52 17 227 AlwaysFront 53 28 227 AlwaysFront 20 41 227 AlwaysFront 35 59 227 AlwaysFront 47 47 227 AlwaysFront 80 54 227 AlwaysFront 36 7 227",
+				"NightTiles": "AlwaysFront 81 8 226 AlwaysFront 63 3 226 AlwaysFront 81 25 226 AlwaysFront 52 17 226 AlwaysFront 53 28 226 AlwaysFront 20 41 226 AlwaysFront 35 59 226 AlwaysFront 47 47 226 AlwaysFront 80 54 226 AlwaysFront 36 7 226",
+				"Light": "81 8 6 63 3 6 81 25 6 52 17 6 53 28 6 20 41 6 35 59 6 47 47 6 80 54 6 36 7 6"
+			},
+			"When": {"EnableDecorations": "true"}
+		},
+		//add debris - replacer
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{file}}",
+			"FromFile": "assets/LavenderMeadows_debris.tmx",
+			"PatchMode": "Overlay",
+			"When": {
+				"EnableDebris": "true",
+				"ReplaceVanillaFarm |contains=None": false
+			}
+		},
+		//add debris - cfl
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CFL_Map/DaisyNiko.LavenderMeadows/Lavender Meadows",
+			"FromFile": "assets/LavenderMeadows_debris.tmx",
+			"PatchMode": "Overlay",
+			"When": {"EnableDebris": "true"}
+		},
+		//add minecarts - replacer
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{file}}",
+			"FromFile": "assets/LavenderMeadows_minecarts.tmx",
+			"PatchMode": "Overlay",
+			"When": {
+				"HasMod": "mod.kitchen.minecartpatcher",
+				"ReplaceVanillaFarm |contains=None": false
+			}
+		},
+		//add minecarts - cfl
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CFL_Map/DaisyNiko.LavenderMeadows/Lavender Meadows",
+			"FromFile": "assets/LavenderMeadows_minecarts.tmx",
+			"PatchMode": "Overlay",
+			"When": {"HasMod": "mod.kitchen.minecartpatcher"}
+		},
+		//minecart data - cave
+		{
+			"Action": "EditData",
+			"Target": "MinecartPatcher.Minecarts",
+			"Entries": {
+				"LavenderMeadows.BigCave": {
+					"LocationName": "FarmCave",
+					"DisplayName": "{{FarmName}} Farm Cave",
+					"LandingPointX": 11,
+					"LandingPointY": 6,
+					"LandingPointDirection": 2,
+					"IsUnderground": true
+				}
+			},
+			"When": {
+				"HasMod": "mod.kitchen.minecartpatcher",
+				"FarmType": "DaisyNiko.LavenderMeadows/Lavender Meadows, {{ReplaceVanillaFarm}}",
+				"UseBigFarmCave": "true"
+			}
+		},
+		//minecart data - farm
+		{
+			"Action": "EditData",
+			"Target": "MinecartPatcher.Minecarts",
+			"Entries": {
+				"LavenderMeadows.NE": {
+					"LocationName": "Farm",
+					"DisplayName": "{{FarmName}} Farm North-East",
+					"LandingPointX": 85,
+					"LandingPointY": 7,
+					"LandingPointDirection": 2,
+					"IsUnderground": false,
+					"NetworkId":"LavenderMeadows"
+				}
+			},
+			"When": {
+				"HasMod": "mod.kitchen.minecartpatcher",
+				"FarmType": "DaisyNiko.LavenderMeadows/Lavender Meadows, {{ReplaceVanillaFarm}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "MinecartPatcher.Minecarts",
+			"Entries": {
+				"LavenderMeadows.SE": {
+					"LocationName": "Farm",
+					"DisplayName": "{{FarmName}} Farm South-East",
+					"LandingPointX": 67,
+					"LandingPointY": 66,
+					"LandingPointDirection": 0,
+					"IsUnderground": false,
+					"NetworkId":"LavenderMeadows"
+				}
+			},
+			"When": {
+				"HasMod": "mod.kitchen.minecartpatcher",
+				"FarmType": "DaisyNiko.LavenderMeadows/Lavender Meadows, {{ReplaceVanillaFarm}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "MinecartPatcher.Minecarts",
+			"Entries": {
+				"LavenderMeadows.SW": {
+					"LocationName": "Farm",
+					"DisplayName": "{{FarmName}} Farm South-West",
+					"LandingPointX": 2,
+					"LandingPointY": 54,
+					"LandingPointDirection": 2,
+					"IsUnderground": false,
+					"NetworkId":"LavenderMeadows"
+				}
+			},
+			"When": {
+				"HasMod": "mod.kitchen.minecartpatcher",
+				"FarmType": "DaisyNiko.LavenderMeadows/Lavender Meadows, {{ReplaceVanillaFarm}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "MinecartPatcher.Minecarts",
+			"Entries": {
+				"LavenderMeadows.NW": {
+					"LocationName": "Farm",
+					"DisplayName": "{{FarmName}} Farm North-West",
+					"LandingPointX": 25,
+					"LandingPointY": 6,
+					"LandingPointDirection": 2,
+					"IsUnderground": false,
+					"NetworkId":"LavenderMeadows"
+				}
+			},
+			"When": {
+				"HasMod": "mod.kitchen.minecartpatcher",
+				"FarmType": "DaisyNiko.LavenderMeadows/Lavender Meadows, {{ReplaceVanillaFarm}}"
+			}
+		}
+	]
+}

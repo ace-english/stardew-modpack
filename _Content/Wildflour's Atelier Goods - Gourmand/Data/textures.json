@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.gourmetpantry/Objects",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.gourmetpantry/Machines_Base, Mods/wildflour.gourmetpantry/Machines_Black, Mods/wildflour.gourmetpantry/Machines_Blue, Mods/wildflour.gourmetpantry/Machines_Cream, Mods/wildflour.gourmetpantry/Machines_Mocha, Mods/wildflour.gourmetpantry/Machines_Mint, Mods/wildflour.gourmetpantry/Machines_Purple, Mods/wildflour.gourmetpantry/Machines_Pink",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+
+       
+    ]
+}

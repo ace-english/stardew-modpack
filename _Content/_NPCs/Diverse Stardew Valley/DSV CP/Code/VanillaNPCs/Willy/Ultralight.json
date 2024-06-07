@@ -1,0 +1,235 @@
+{
+// WILLY DSV ULTRALIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Willy Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Willy", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Willy.Indoor":
+				{
+					"Id": "{{ModId}}_Willy_Indoor",
+					"Portrait": "Portraits/Willy_Indoor",
+					"Sprite": "Characters/Willy_Indoor",
+					"Precedence": -110
+				},
+				"DSV.Willy.Beach":
+				{
+					"Id": "{{ModId}}_Willy_Beach",
+					"Portrait": "Portraits/Willy_Beach",
+					"Sprite": "Characters/Willy_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Willy.EggFestival":
+				{
+					"Id": "{{ModId}}_Willy_EggFestival",
+					"Portrait": "Portraits/Willy_EggFestival",
+					"Sprite": "Characters/Willy_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Willy.FlowerDance":
+				{
+					"Id": "{{ModId}}_Willy_FlowerDance",
+					"Portrait": "Portraits/Willy_FlowerDance",
+					"Sprite": "Characters/Willy_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Willy.Luau":
+				{
+					"Id": "{{ModId}}_Willy_Luau",
+					"Portrait": "Portraits/Willy_Luau",
+					"Sprite": "Characters/Willy_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Willy.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Willy_MoonlightJellies",
+					"Portrait": "Portraits/Willy_MoonlightJellies",
+					"Sprite": "Characters/Willy_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Willy.SVFair":
+				{
+					"Id": "{{ModId}}_Willy_SVFair",
+					"Portrait": "Portraits/Willy_SVFair",
+					"Sprite": "Characters/Willy_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Willy.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Willy_SpiritsEve",
+					"Portrait": "Portraits/Willy_SpiritsEve",
+					"Sprite": "Characters/Willy_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Willy.IceFestival":
+				{
+					"Id": "{{ModId}}_Willy_IceFestival",
+					"Portrait": "Portraits/Willy_IceFestival",
+					"Sprite": "Characters/Willy_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Willy.WinterStar":
+				{
+					"Id": "{{ModId}}_Willy_WinterStar",
+					"Portrait": "Portraits/Willy_WinterStar",
+					"Sprite": "Characters/Willy_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Willy.Swim":
+				{
+					"Id": "{{ModId}}_Willy_Swim",
+					"Portrait": "Portraits/Willy_Swim",
+					"Sprite": "Characters/Willy_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Willy.HotClimate":
+				{
+					"Id": "{{ModId}}_Willy_HotClimate",
+					"Portrait": "Portraits/Willy_HotClimate",
+					"Sprite": "Characters/Willy_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Willy Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Willy_Indoor, Characters/Willy_Indoor",
+			"FromFile": "Art/VanillaNPCs/Willy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLWilly}}/{{DSV.Core/ConfigValue:WillyVariant}}/Willy_Fall_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WillyVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Willy Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Willy_Beach, Characters/Willy_Beach",
+			"FromFile": "Art/VanillaNPCs/Willy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLWilly}}/{{DSV.Core/ConfigValue:WillyVariant}}/Willy_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WillyVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Willy Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Willy_EggFestival, Characters/Willy_EggFestival, Portraits/Willy_FlowerDance, Characters/Willy_FlowerDance, Portraits/Willy_Luau, Characters/Willy_Luau, Portraits/Willy_MoonlightJellies, Characters/Willy_MoonlightJellies, Portraits/Willy_SVFair, Characters/Willy_SVFair, Portraits/Willy_SpiritsEve, Characters/Willy_SpiritsEve, Portraits/Willy_IceFestival, Characters/Willy_IceFestival, Portraits/Willy_WinterStar, Characters/Willy_WinterStar, Portraits/Willy_Swim, Characters/Willy_Swim",
+			"FromFile": "Art/VanillaNPCs/Willy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLWilly}}/{{DSV.Core/ConfigValue:WillyVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WillyVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Willy Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Willy_HotClimate, Characters/Willy_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Willy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLWilly}}/{{DSV.Core/ConfigValue:WillyVariant}}/Willy_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WillyVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Willy Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Willy_Indoor, Characters/Willy_Indoor",
+			"FromFile": "Art/VanillaNPCs/Willy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLWilly}}/{{DSV.Core/ConfigValue:WillyVariant}}/Willy_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Willy Elaho Flower Dance",
+			"Action": "EditImage",
+			"Target": "Portraits/Willy_FlowerDance, Characters/Willy_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Willy/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLWilly}}/{{DSV.Core/ConfigValue:WillyVariant}}/Willy_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:WillyVariant |contains= Vanilla": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Willy Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Willy/Misc/Willy_Emoji_{{DSV.Core/ConfigValue:WillyVariant}}.png",
+			"ToArea": {"X": 81, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:WillyVariant|contains= Vanilla, Off, Disabled": false
+			}
+		},
+		{
+			"LogName": "Willy Boat",
+			"Action": "EditImage",
+			"Target": "LooseSprites/WillysBoat",
+			"FromFile": "Art/VanillaNPCs/Willy/Misc/WillyBoat/{{DSV.Core/ConfigValue:WillyVariant}}/WillysBoat_{{season}}_1_Base.png",
+			"ToArea": { "X": 173, "Y": 163, "Width": 16, "Height": 18 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:WillyVariant|contains= Vanilla, Off, Disabled": false
+			}
+		},
+		{
+			"LogName": "Willy Spirits Eve Position",
+		  	"Action": "EditData",
+		  	"Target": "data/festivals/fall27",
+			"TextOperations": 
+            [
+				{    
+					"Operation": "Append",
+					"Target": 
+                    [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "Willy 37 63 3",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"DSV.Core/ConfigValue:WillySpiritsEve": "true",
+				"OddYearToken": "1"
+			}
+		}
+	]
+}

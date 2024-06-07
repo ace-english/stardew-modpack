@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.atelierfloral/Objects",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.atelierfloral/Machines_Base, Mods/wildflour.atelierfloral/Machines_Black, Mods/wildflour.atelierfloral/Machines_Blue, Mods/wildflour.atelierfloral/Machines_Cream, Mods/wildflour.atelierfloral/Machines_Mocha, Mods/wildflour.atelierfloral/Machines_Mint, Mods/wildflour.atelierfloral/Machines_Pink, Mods/wildflour.atelierfloral/Machines_Purple,",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+
+       
+    ]
+}

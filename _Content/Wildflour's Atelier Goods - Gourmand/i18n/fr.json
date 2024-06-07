@@ -1,0 +1,436 @@
+{
+	//////////////
+	// MACHINES //
+	//////////////
+	
+	"gourmetpantry_KitchenBlender.name": "Mixeur",
+	"gourmetpantry_KitchenBlender.description": "Transforme les fruits à coque en lait, le lait en crème et plus encore !",
+
+	"gourmetpantry_KitchenMortar.name": "Mortier",
+	"gourmetpantry_KitchenMortar.description": "Broie les céréales en farine et les épices en poudre.",
+
+	"gourmetpantry_YogurtBowl.name": "Yaourtière",
+	"gourmetpantry_YogurtBowl.description": "Pour créer des yaourts crémeux et aromatisés.",
+
+	"gourmetpantry_SyrupMaker.name": "Siropier",
+	"gourmetpantry_SyrupMaker.description": "Crée des sirops aromatisés aux fruits.",
+
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"gourmetpantry_KitchenBlender_InvalidItem.message": "Ne fonctionne pas avec cela",
+	"gourmetpantry_KitchenBlender_InvalidCount.message": "Nécessite 1 champignon laiteux",
+
+	"gourmetpantry_KitchenMortar_InvalidItem.message": "Ne fonctionne pas avec cela",
+	"gourmetpantry_KitchenMortar_InvalidCount.message": "Nécessite plus d'ingrédients",
+
+	"gourmetpantry_YogurtBowl_InvalidItem.message": "Ne fonctionne pas avec cela",
+	"gourmetpantry_YogurtBowl_InvalidCount.message": "Nécessite 1 champignon laiteux",
+
+	"gourmetpantry_SyrupMaker_InvalidItem.message": "Ne fonctionne pas avec cela",
+	"gourmetpantry_SyrupMaker_InvalidCount.message": "Nécessite plus d'ingrédients",
+
+	/////////////
+	// STRINGS //
+	/////////////
+
+	"gourmetpantry_flavored_syrup":"Sirop de {0}",
+	"gourmetpantry_flavored_yogurt":"Yaourt à {0}",
+
+	/////////////////////////
+	// NUT & FRUIT BUTTERS //
+	/////////////////////////
+
+    "gourmetpantry_almond_butter.name": "Beurre d'amande",
+	"gourmetpantry_almond_butter.description": "Une pâte à tartiner végétale crémeuse à utiliser en pâtisserie, en tartine et plus encore !",
+
+	"gourmetpantry_cashew_butter.name": "Beurre de noix de cajou",
+	"gourmetpantry_cashew_butter.description": "Une pâte à tartiner végétale crémeuse à utiliser en pâtisserie, en tartine et plus encore !",
+
+	"gourmetpantry_coconut_butter.name": "Beurre de coco",
+	"gourmetpantry_coconut_butter.description": "Un substitut de beurre fabriqué à partir de noix de coco. Parfait pour cuisiner sans produits laitiers !",
+
+	"gourmetpantry_apple_butter.name": "Beurre de pomme",
+	"gourmetpantry_apple_butter.description": "Une recette familiale secrète. Une pâte à tartiner à déguster sur du pain ou un muffin.",
+
+	"gourmetpantry_honey_butter.name": "Beurre de miel",
+	"gourmetpantry_honey_butter.description": "Une recette familiale secrète. L'aide des abeilles est essentielle !",
+
+	"gourmetpantry_maple_butter.name": "Beurre d'érable",
+	"gourmetpantry_maple_butter.description": "Une recette familiale secrète. Fabriqué avec du sirop des érables locaux.",
+
+	"gourmetpantry_pumpkin_butter.name": "Beurre de citrouille",
+	"gourmetpantry_pumpkin_butter.description": "Une recette familiale secrète. Un cadeau pour l'amateur de Pumpkin Spice qui sommeille en chacun de nous.",
+
+	"gourmetpantry_lemon_curd.name": "Crème de citron",
+	"gourmetpantry_lemon_curd.description": "Sa texture fondante est due aux jaunes d'œufs pondus par des poules très heureuses.",
+
+	"gourmetpantry_lime_curd.name": "Crème de lime",
+	"gourmetpantry_lime_curd.description": "Sa texture fondante est due aux jaunes d'œufs pondus par des poules très heureuses.",
+
+	"gourmetpantry_orange_curd.name": "Crème d'orange",
+	"gourmetpantry_orange_curd.description": "Sa texture fondante est due aux jaunes d'œufs pondus par des poules très heureuses.",
+
+	"gourmetpantry_hazelnut_butter.name": "Beurre de noisette",
+	"gourmetpantry_hazelnut_butter.description": "Une pâte à tartiner végétale crémeuse à utiliser en pâtisserie, en tartine et plus encore !",
+
+	"gourmetpantry_pistachio_butter.name": "Beurre de pistache",
+	"gourmetpantry_pistachio_butter.description": "Une pâte à tartiner végétale crémeuse à utiliser en pâtisserie, en tartine et plus encore !",
+
+	"gourmetpantry_walnut_butter.name": "Beurre de noix",
+	"gourmetpantry_walnut_butter.description": "Une pâte à tartiner végétale crémeuse à utiliser en pâtisserie, en tartine et plus encore !",
+	
+	///////////
+	// MILKS //
+	///////////
+
+	"gourmetpantry_almond_milk.name": "Lait d'amande",
+	"gourmetpantry_almond_milk.description": "Un excellent substitut végétal aux produits laitiers en pâtisserie, dans les smoothies et plus encore !",
+
+	"gourmetpantry_cashew_milk.name": "Lait de cajou",
+	"gourmetpantry_cashew_milk.description": "Un excellent substitut végétal aux produits laitiers en pâtisserie, dans les smoothies et plus encore !",
+
+	"gourmetpantry_coconut_milk.name": "Lait de coco",
+	"gourmetpantry_coconut_milk.description": "Un excellent substitut végétal aux produits laitiers en pâtisserie, dans les smoothies et plus encore !",
+
+	"gourmetpantry_hazelnut_milk.name": "Lait de noisette",
+	"gourmetpantry_hazelnut_milk.description": "Un excellent substitut végétal aux produits laitiers en pâtisserie, dans les smoothies et plus encore !",
+
+	"gourmetpantry_pistachio_milk.name": "Lait de pistache",
+	"gourmetpantry_pistachio_milk.description": "Un excellent substitut végétal aux produits laitiers en pâtisserie, dans les smoothies et plus encore !",
+
+	"gourmetpantry_rice_milk.name": "Lait de riz",
+	"gourmetpantry_rice_milk.description": "Un excellent substitut végétal aux produits laitiers en pâtisserie, dans les smoothies et plus encore !",
+
+	///////////////
+	// CHOCOLATE //
+	///////////////
+
+	"gourmetpantry_bittersweet_chocolate.name": "Chocolat noir pâtissier",
+	"gourmetpantry_bittersweet_chocolate.description": "Une tablette de chocolat noir spécial pâtisserie.",
+
+	"gourmetpantry_chocolate_chips.name": "Pépites de chocolat",
+	"gourmetpantry_chocolate_chips.description": "Un indispensable pour faire des cookies.",
+
+    "gourmetpantry_semisweet_chocolate.name": "Chocolat au lait pâtissier",
+	"gourmetpantry_semisweet_chocolate.description": "Une tablette de chocolat au lait spécial pâtisserie.",
+
+	"gourmetpantry_white_chocolate.name": "Chocolat blanc pâtissier",
+	"gourmetpantry_white_chocolate.description": "Une tablette de chocolat blanc spécial pâtisserie.",
+
+	/////////////////
+	// INGREDIENTS //
+	/////////////////
+
+	"gourmetpantry_vanilla_extract.name": "Extrait de vanille",
+	"gourmetpantry_vanilla_extract.description": "De l'essence de vanille issue de gousses de vanille sauvage.",
+
+	"gourmetpantry_confectioners_sugar.name": "Sucre glace",
+	"gourmetpantry_confectioners_sugar.description": "Ce sucre très finement moulu contient un peu de fécule de maïs pour l'empêcher de s'agglutiner.",
+
+	"gourmetpantry_espresso_powder.name": "Poudre d'espresso",
+	"gourmetpantry_espresso_powder.description": "Du café déshydraté, parfait pour parfumer des desserts au chocolat.",
+
+	"gourmetpantry_pectin.name": "Pectine",
+	"gourmetpantry_pectin.description": "Un gélifiant à base de fruits. Indispensable à la tenue des confitures et des gelées.",
+
+	"gourmetpantry_rainbow_sprinkles.name": "Vermicelles arc-en-ciel",
+	"gourmetpantry_rainbow_sprinkles.description": "Des petits morceaux de sucre colorés pour décorer tous vos gâteaux.",
+
+	"gourmetpantry_brown_sugar.name": "Cassonnade",
+	"gourmetpantry_brown_sugar.description": "Du sucre dont toute la mélasse n'a pas été retirée lors de la transformation. Idéal pour les muffins et certains gâteaux.",
+
+	"gourmetpantry_cocoa_powder.name": "Cacao en poudre",
+	"gourmetpantry_cocoa_powder.description": "Du cacao séché et moulé à utiliser en pâtisserie.",
+
+	"gourmetpantry_olive_oil.name": "Huile d'olive",
+	"gourmetpantry_olive_oil.description": "Des olives pressées à froid pour une huile de qualité supérieure.",
+	
+
+	///////////
+	// DAIRY //
+	///////////
+
+	"gourmetpantry_butter.name": "Beurre frais",
+	"gourmetpantry_butter.description": "Tiré du lait frais produit localement baratté à la main.",
+
+	"gourmetpantry_buttermilk.name": "Babeurre",
+	"gourmetpantry_buttermilk.description": "Son odeur est aigre mais c'est un ingrédient essentiel pour faire du pain de maïs et des pancakes.",
+
+	"gourmetpantry_cream.name": "Crème fraîche",
+	"gourmetpantry_cream.description": "Fabriquée à partir de lait produit localement. Essentielle en pâtisserie et pour faire des glaces.",
+
+	"gourmetpantry_cream_cheese.name": "Fromage à la crème",
+	"gourmetpantry_cream_cheese.description": "Fabriqué à partir de lait produit localement. Parfait pour faire un cheesecake ou sur une tartine.",
+
+	////////////
+	// YOGURT //
+	////////////
+
+	"gourmetpantry_plain_yogurt.name": "Yaourt nature",
+	"gourmetpantry_plain_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_ambrosia_yogurt.name": "Yaourt ambroisie",
+	"gourmetpantry_ambrosia_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_ancient_yogurt.name": "Yaourt à l'ancienne",
+	"gourmetpantry_ancient_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_apple_yogurt.name": "Yaourt à la pomme",
+	"gourmetpantry_apple_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_apricot_yogurt.name": "Yourt à l'abricot",
+	"gourmetpantry_apricot_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+	
+	"gourmetpantry_banana_yogurt.name": "Yaourt à la banane",
+	"gourmetpantry_banana_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_blood_orange_yogurt.name": "Yaourt à l'orange sanguinelle",
+	"gourmetpantry_blood_orange_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_blueberry_yogurt.name": "Yaourt aux bleuets",
+	"gourmetpantry_blueberry_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_chocolate_yogurt.name": "Yaourt au chocolat",
+	"gourmetpantry_chocolate_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+    
+	"gourmetpantry_cheesecake_yogurt.name": "Yaourt façon cheesecake",
+	"gourmetpantry_cheesecake_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_vanilla_yogurt.name": "Yaourt à la vanille",
+	"gourmetpantry_vanilla_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_caramel_yogurt.name": "Yaourt au caramel",
+	"gourmetpantry_caramel_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_cherry_yogurt.name": "Yaourt à la cerise",
+	"gourmetpantry_cherry_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+    
+	"gourmetpantry_coconut_yogurt.name": "Yaourt à la noix de coco",
+	"gourmetpantry_coconut_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_coffee_yogurt.name": "Yaourt au café",
+	"gourmetpantry_coffee_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_creamsicle_yogurt.name": "Yaourt façon glace",
+	"gourmetpantry_creamsicle_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_custard_yogurt.name": "Yaourt à la crème pâtissière",
+	"gourmetpantry_custard_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+    
+	"gourmetpantry_eversweet_yogurt.name": "Yaourt grenadivine",
+	"gourmetpantry_eversweet_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_candy_yogurt.name": "Yaourt au bonbon",
+	"gourmetpantry_candy_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_tiramisu_yogurt.name": "Yaourt au tiramisu",
+	"gourmetpantry_tiramisu_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_macaron_yogurt.name": "Yaourt au macaron",
+	"gourmetpantry_macaron_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_mango_yogurt.name": "Yaourt à la mangue",
+	"gourmetpantry_mango_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_melon_yogurt.name": "Yaourt au melon",
+	"gourmetpantry_melon_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_galaxy_yogurt.name": "Yaourt galaxie",
+	"gourmetpantry_galaxy_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+    
+	"gourmetpantry_moongold_yogurt.name": "Yaourt pleine-lune",
+	"gourmetpantry_moongold_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_orange_yogurt.name": "Yaourt à l'orange",
+	"gourmetpantry_orange_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_peach_yogurt.name": "Yaourt à la pêche",
+	"gourmetpantry_peach_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_mint_yogurt.name": "Yaourt à la menthe",
+	"gourmetpantry_mint_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_lemon_yogurt.name": "Yaourt au citron",
+	"gourmetpantry_lemon_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_lime_yogurt.name": "Yaourt à la lime",
+	"gourmetpantry_lime_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_pie_yogurt.name": "Yaourt à la tarte",
+	"gourmetpantry_pie_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_pineapple_yogurt.name": "Yaourt à l'ananas",
+	"gourmetpantry_pineapple_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_pomegranate_yogurt.name": "Yaourt à la grenade",
+	"gourmetpantry_pomegranate_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_pumpkin_yogurt.name": "Yaourt à la citrouille",
+	"gourmetpantry_pumpkin_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_shortcake_yogurt.name": "Yaourt façon charlotte",
+	"gourmetpantry_shortcake_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_snow_yogurt.name": "Yaourt fraîche-neige",
+	"gourmetpantry_snow_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_sprinkle_yogurt.name": "Yaourt aux vermicelles",
+	"gourmetpantry_sprinkle_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_starfruit_yogurt.name": "Yaourt à la carambole",
+	"gourmetpantry_starfruit_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_sugar_yogurt.name": "Yaourt à la fleur-candy",
+	"gourmetpantry_sugar_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_sunset_yogurt.name": "Yaourt grand-soleil",
+	"gourmetpantry_sunset_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_gem_yogurt.name": "Yaourt gemme",
+	"gourmetpantry_gem_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_raspberry_yogurt.name": "Yaourt à la framboise sauvage",
+	"gourmetpantry_raspberry_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+
+	"gourmetpantry_strawberry_yogurt.name": "Yaourt à la fraise des bois",
+	"gourmetpantry_strawberry_yogurt.description": "Fait avec le lait des vaches locales, et plein de probiotiques !",
+    
+	////////////
+	// SYRUPS //
+	////////////
+
+	"gourmetpantry_ancient_syrup.name": "Sirop à l'ancienne",
+	"gourmetpantry_ancient_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_apple_syrup.name": "Sirop de pomme",
+	"gourmetpantry_apple_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_apricot_syrup.name": "Sirop d'abricot",
+	"gourmetpantry_apricot_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_banana_syrup.name": "Sirop de banane",
+	"gourmetpantry_banana_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_blueberry_syrup.name": "Sirop de myrtille",
+	"gourmetpantry_blueberry_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_caramel_syrup.name": "Sirop de caramel",
+	"gourmetpantry_caramel_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_chai_syrup.name": "Sirop aux épices chaï",
+	"gourmetpantry_chai_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_cherry_syrup.name": "Sirop de cerise",
+	"gourmetpantry_cherry_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_chocolate_syrup.name": "Sirop de cacao",
+	"gourmetpantry_chocolate_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_elderberry_syrup.name": "Sirop de sureau",
+	"gourmetpantry_elderberry_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_grenadine_syrup.name": "Sirop de grenadine",
+	"gourmetpantry_grenadine_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_lavender_syrup.name": "Sirop de lavande",
+	"gourmetpantry_lavender_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_lemon_syrup.name": "Sirop de citron",
+	"gourmetpantry_lemon_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+	
+	"gourmetpantry_lime_syrup.name": "Sirop de lime",
+	"gourmetpantry_lime_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_mango_syrup.name": "Sirop de mangue",
+	"gourmetpantry_mango_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_marshmallow_syrup.name": "Sirop de guimauve",
+	"gourmetpantry_marshmallow_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_mint_syrup.name": "Sirop de menthe",
+	"gourmetpantry_mint_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_orange_syrup.name": "Sirop d'orange",
+	"gourmetpantry_orange_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_peach_syrup.name": "Sirop de pêche",
+	"gourmetpantry_peach_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_pineapple_syrup.name": "Sirop d'ananas",
+	"gourmetpantry_pineapple_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_pumpkin_syrup.name": "Sirop Pumpkin Spice",
+	"gourmetpantry_pumpkin_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_gem_syrup.name": "Sirop gemme",
+	"gourmetpantry_gem_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_raspberry_syrup.name": "Sirop de framboise sauvage",
+	"gourmetpantry_raspberry_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_rose_syrup.name": "Sirop de rose",
+	"gourmetpantry_rose_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_sakura_syrup.name": "Sirop Sakura",
+	"gourmetpantry_sakura_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_simple_syrup.name": "Sirop nature",
+	"gourmetpantry_simple_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	"gourmetpantry_vanilla_syrup.name": "Sirop de vanille",
+	"gourmetpantry_vanilla_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+
+	"gourmetpantry_wild_strawberry_syrup.name": "Sirop de fraise des bois",
+	"gourmetpantry_wild_strawberry_syrup.description": "Un sirop aromatisé maison. Idéal pour réaliser des boissons originales !",
+    
+	////////////
+	// FLOURS //
+	////////////
+
+	"gourmetpantry_almond_flour.name": "Poudre d'amande",
+	"gourmetpantry_almond_flour.description": "Des amandes réduites en poudre fine. Indispensable dans les macarons !",
+
+	"gourmetpantry_bread_flour.name": "Farine à pain",
+	"gourmetpantry_bread_flour.description": "Riche en protéines pour des pains bien consistants.",
+
+	"gourmetpantry_cake_flour.name": "Farine à gâteau",
+	"gourmetpantry_cake_flour.description": "Pauvre en protéines pour des gâteaux bien moelleux.",
+
+	"gourmetpantry_coconut_flour.name": "Farine de noix de coco",
+	"gourmetpantry_coconut_flour.description": "Indispensable dans certains plats et idéale pour la cuisine sans gluten !",
+
+	"gourmetpantry_corn_flour.name": "Farine de maïs",
+	"gourmetpantry_corn_flour.description": "Indispensable dans certains plats comme les tamales ou le pain de maïs.",
+
+	"gourmetpantry_pastry_flour.name": "Fleur de farine",
+	"gourmetpantry_pastry_flour.description": "Moins riche en protéines que la farine à gâteau, elle est indispensable à la pâtisserie.",
+
+	"gourmetpantry_rice_flour.name": "Farine de riz",
+	"gourmetpantry_rice_flour.description": "Indispensable dans les gyoza et les mochi et idéale pour la cuisine sans gluten !",
+	
+
+//////////
+// MAIL //
+//////////
+
+	"gourmetpantry_MortarRecipe.name":"Un mortier pour ta cuisine",
+    "gourmetpantry_MortarRecipe.text":"Salut @, ^^ Avec le mortier dont je t'envoie le schéma, tu peux réaliser des farines spéciales ! Tu peux t'en servir pour cuisiner ou me les revendre pour faire un bon profit. Ça me permet d'élargir l'offre de la boutique !^^ À bientôt à l'épicerie,^      - Pierre",
+    
+	"gourmetpantry_BlenderRecipe.name":"Appuie sur le bouton !",
+	"gourmetpantry_BlenderRecipe.text":"Bonjour @, ^^ J'ai investi dans un mixeur spécial lorsque j'ai commencé à avoir beaucoup de demande de lait végétal. Comme ces derniers sont chers à l'achat, je les fais maison. Tu devrais essayer - et voir ce que tu peux faire d'autre avec !^^ Amuse-toi bien,^     - Gus",
+    
+	"gourmetpantry_YogurtBowlRecipe.name":"Le pouvoir des probiotiques",
+	"gourmetpantry_YogurtBowlRecipe.text":"Bonjour @, ^^ Le yaourt est plein de probiotiques, les microbes constituant notre fleur intestinale et nous aidant à digérer. Voici comment fabriquer une yaourtière pour en faire chez toi. ^^ Prends soin de toi,^     - Harvey",
+    
+	"gourmetpantry_harvey.name":"C'est peanuts",
+	"gourmetpantry_harvey.text":"Bonjour @, ^^ Un de mes jeunes patients était allergique aux cacahuètes et sa mère m'a raconté qu'elle fabriquait du beurre avec des oléagineux sans allergènes. J'étais sceptique au début, mais maintenant, je suis moi-même un grand fan de beurre d'amande ! C'est une alternative saine aux produits laitiers, aussi.^ Essaie de faire du beurre avec d'autres fruits à coque.^^     - Harvey",
+    
+	"gourmetpantry_jodi.name":"Intolérance justifiée",
+	"gourmetpantry_jodi.text":"Bonjour @, ^^ Ne le dis à personne, mais je crois que Sam est intolérant au lactose. J'ai commencé à utiliser du lait végétal à la place du lait de vache, et il n'a même pas remarqué la différence... Mais moi, j'ai vu qu'il avait moins mal au ventre !^^ Bien à toi,^     - Jodi",
+    
+	"gourmetpantry_marnie.name":"Petit cadeau de la part de mes vaches",
+	"gourmetpantry_marnie.text":"Hello @, ^^ Gus t'a donné les plans de son mixeur à toi aussi, n'est-ce pas ? C'est une machine fantastique ! Tu peux faire plein de bons produits avec ça. Je t'envoie un pot de crème fraîche réalisé avec le lait de mes vaches pour te lancer.^^ Amuse-toi bien,^     - Marnie",
+	
+}

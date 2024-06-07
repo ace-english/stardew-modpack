@@ -1,0 +1,150 @@
+{
+
+"Format": "2.0.0",
+
+"DynamicTokens": [
+    {
+        "Name": "WFShippingConfig",
+        "Value": "False",
+        "When":{"Atelier.Cauldron/ConfigValue:WildFoodShipment": "True"}
+    },
+    {
+        "Name": "WFShippingConfig",
+        "Value": "True",
+        "When":{"Atelier.Cauldron/ConfigValue:WildFoodShipment": "False"}
+    },
+    {
+        "Name": "FGShippingConfig",
+        "Value": "False",
+        "When":{"Atelier.Cauldron/ConfigValue:FaerieGardenShipment": "True"}
+    },
+    {
+        "Name": "FGShippingConfig",
+        "Value": "True",
+        "When":{"Atelier.Cauldron/ConfigValue:FaerieGardenShipment": "False"}
+    },
+],
+
+    "Changes": [
+
+        //Include Crop Data
+
+        {
+            "LogName": "Wild Food Crops",
+            "Action": "Include",
+            "FromFile": "Data/wildfood_crops.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": true}
+        },
+
+        {
+            "LogName": "Faerie Garden Crops",
+            "Action": "Include",
+            "FromFile": "Data/faerie_crops.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": true}
+        },
+      
+        //Include Tree Data
+
+        {
+            "LogName": "Wild Food Trees",
+            "Action": "Include",
+            "FromFile": "Data/wildfood_trees.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": true}
+        },
+
+        {
+            "LogName": "Faerie Garden Trees",
+            "Action": "Include",
+            "FromFile": "Data/faerie_trees.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": true}
+        },
+
+        //Include Object Data
+
+        {
+            "LogName": "Wild Food Objects",
+            "Action": "Include",
+            "FromFile": "Data/wildfood_objects.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": true}
+        },
+
+        {
+            "LogName": "Wild Food Recipes",
+            "Action": "Include",
+            "FromFile": "Data/wildfood_recipes.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": true}
+        },
+
+        {
+            "LogName": "Faerie Garden Objects",
+            "Action": "Include",
+            "FromFile": "Data/faerie_objects.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": true}
+        },
+
+        {
+            "LogName": "Faerie Garden Recipes",
+            "Action": "Include",
+            "FromFile": "Data/faerie_recipes.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": true}
+        },
+
+        //Include Gift Taste Data
+
+        {
+            "LogName": "Wild Food Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/wildfood_gifttastes.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": true}
+        },
+
+        {
+            "LogName": "Faerie Garden Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/faerie_gifttastes.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": true}
+        },
+
+        //Include Machine Data
+
+        {
+            "LogName": "Wild Food Machine Rules",
+            "Action": "Include",
+            "FromFile": "Data/wildfood_machines.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": true}
+        },
+
+        {
+            "LogName": "Faerie Garden Machine Rules",
+            "Action": "Include",
+            "FromFile": "Data/faerie_machines.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": true}
+        },
+        
+        //Include Shop Data
+
+        {
+            "LogName": "Forager Shop Data",
+            "Action": "Include",
+            "FromFile": "Data/shops.json",
+            
+        },
+
+        //Include Textures
+
+        {
+            "LogName": "Wild Food Textures",
+            "Action": "Include",
+            "FromFile": "Data/wildfood_textures.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": true}
+        },
+
+        {
+            "LogName": "Faerie Garden Textures",
+            "Action": "Include",
+            "FromFile": "Data/faerie_textures.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": true}
+        },
+
+    ]
+}

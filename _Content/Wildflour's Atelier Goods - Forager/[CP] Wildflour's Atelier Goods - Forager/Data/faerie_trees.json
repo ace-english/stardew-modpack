@@ -1,0 +1,1058 @@
+{
+    "Changes": [
+
+/////////////////
+// FRUIT TREES //
+/////////////////
+
+
+{
+    "LogName":"Faerie Garden Fruit Trees",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Entries": {
+
+        "wildflour.ateliercrops_geranium_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_geranium_sapling.name}}",
+            "Seasons": [ "fall" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_geranium",
+                    "ItemId": "wildflour.ateliercrops_geranium"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 0
+        },
+        "wildflour.ateliercrops_chiffon_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_chiffon_sapling.name}}",
+            "Seasons": [ "fall" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_chiffon",
+                    "ItemId": "wildflour.ateliercrops_chiffon"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 1
+        },
+        "wildflour.ateliercrops_daisy_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_daisy_sapling.name}}",
+            "Seasons": [ "spring"],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_daisy",
+                    "ItemId": "wildflour.ateliercrops_daisy"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 2
+        },
+        "wildflour.ateliercrops_dawn_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_dawn_sapling.name}}",
+            "Seasons": [ "summer"],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_dawn_lily",
+                    "ItemId": "wildflour.ateliercrops_dawn_lily"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 3
+        },
+        "wildflour.ateliercrops_dusk_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_dusk_sapling.name}}",
+            "Seasons": [ "summer" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_dusk_lily",
+                    "ItemId": "wildflour.ateliercrops_dusk_lily"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 4
+        },
+        "wildflour.ateliercrops_mysteria_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_mysteria_sapling.name}}",
+            "Seasons": [ "spring" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_mysteria",
+                    "ItemId": "wildflour.ateliercrops_mysteria"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 4
+        },
+        "wildflour.ateliercrops_violet_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_violet_sapling.name}}",
+            "Seasons": [ "spring" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_violet",
+                    "ItemId": "wildflour.ateliercrops_violet"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 6
+        },
+        "wildflour.ateliercrops_primrose_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_primrose_sapling.name}}",
+            "Seasons": [ "spring" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_primrose",
+                    "ItemId": "wildflour.ateliercrops_primrose"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 7
+        },
+        "wildflour.ateliercrops_pavlova_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_pavlova_sapling.name}}",
+            "Seasons": [ "spring", "summer", "fall","winter" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_macaron_blossom",
+                    "ItemId": "wildflour.ateliercrops_macaron_blossom",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_shortcake_blossom",
+                    "ItemId": "wildflour.ateliercrops_shortcake_blossom",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_cherry",
+                    "ItemId": "wildflour.ateliercrops_cherry",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_orange",
+                    "ItemId": "wildflour.ateliercrops_orange",
+                    "Condition":"SEASON winter"
+                },
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 8
+        },
+        "wildflour.ateliercrops_brulee_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_brulee_sapling.name}}",
+            "Seasons": [ "spring", "summer", "fall","winter" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_apple",
+                    "ItemId": "wildflour.ateliercrops_apple",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_caramel_blossom",
+                    "ItemId": "wildflour.ateliercrops_caramel_blossom",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_apricot",
+                    "ItemId": "wildflour.ateliercrops_apricot",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_gumdrop_blossom",
+                    "ItemId": "wildflour.ateliercrops_gumdrop_blossom",
+                    "Condition":"SEASON winter"
+                },
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 9
+        },
+        "wildflour.ateliercrops_souffle_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_souffle_sapling.name}}",
+            "Seasons": [ "spring", "summer", "fall","winter" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_apple",
+                    "ItemId": "wildflour.ateliercrops_pomegranate",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_custard_blossom",
+                    "ItemId": "wildflour.ateliercrops_custard_blossom",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_pie_blossom",
+                    "ItemId": "wildflour.ateliercrops_pie_blossom",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_mango",
+                    "ItemId": "wildflour.ateliercrops_mango",
+                    "Condition":"SEASON winter"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 10
+        },
+        "wildflour.ateliercrops_buttercream_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_buttercream_sapling.name}}",
+            "Seasons": [ "spring", "summer", "fall","winter" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_cake_blossom",
+                    "ItemId": "wildflour.ateliercrops_cake_blossom",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_sugar_blossom",
+                    "ItemId": "wildflour.ateliercrops_sugar_blossom",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_sugar_plum",
+                    "ItemId": "wildflour.ateliercrops_sugar_plum",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_peach",
+                    "ItemId": "wildflour.ateliercrops_peach",
+                    "Condition":"SEASON winter"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 11
+        },
+        "wildflour.ateliercrops_gelato_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_gelato_sapling.name}}",
+            "Seasons": [ "spring", "summer", "fall","winter" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_sprinkle_blossom",
+                    "ItemId": "wildflour.ateliercrops_sprinkle_blossom",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_creamsicle_blossom",
+                    "ItemId": "wildflour.ateliercrops_creamsicle_blossom",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_rose_cacao",
+                    "ItemId": "wildflour.ateliercrops_rose_cacao",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "Id": "wildflour.ateliercrops_banana",
+                    "ItemId": "wildflour.ateliercrops_banana",
+                    "Condition":"SEASON winter"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesFG",
+            "TextureSpriteRow": 12
+        }
+    }
+},
+       
+////////////////
+// WILD TREES //
+////////////////
+
+{
+    "LogName":"Faerie Garden Wild Trees",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "Entries": {
+        "wildflour.ateliercrops_StrangeCap_tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/wildflour.ateliercrops/StrangeCap_spring",
+                    "Season":"spring"
+                },
+                {
+                    "Texture":"Mods/wildflour.ateliercrops/StrangeCap_Summer",
+                    "Season":"summer"
+                },
+                {
+                    "Texture":"Mods/wildflour.ateliercrops/StrangeCap_Fall",
+                    "Season":"fall"
+                },
+                {   
+                    "Texture":"Mods/wildflour.ateliercrops/StrangeCap_Winter",
+                    "Season":"winter"
+                }
+            ],
+            "SeedItemId":"wildflour.ateliercrops_StrangeCap_seeds",
+            "SeedChance":0.05,
+            "IsLeafy":"False",
+            "IsLeafyInWinter":"false",
+            "GrowsInWinter":"true",
+            "SeedPlantable": true,
+            "GrowthChance": 0.4,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": false,
+            "DropHardwoodOnLumberChop": false,
+            "UseAlternateSpriteWhenNotShaken":"false",
+            "ShakeItems":[
+                {
+                    "ItemId":"wildflour.ateliercrops_blush_cap",
+                    "Chance":"1",
+                    "Season":"spring"
+                },
+                {
+                    "ItemId":"wildflour.ateliercrops_dusk_cap",
+                    "Chance":"1",
+                    "Season":"summer"
+                },
+                {
+                    "ItemId":"wildflour.ateliercrops_giant_amanita",
+                    "Chance":"1",
+                    "Season":"fall"
+                },
+                {
+                    "ItemId":"wildflour.ateliercrops_faerie_helmets",
+                    "Chance":"1",
+                    "Season":"winter"
+                }
+            ]
+    },
+        "wildflour.ateliercrops_MysticTrumpet_tree": {
+
+            "Textures": [
+                {
+                    "Texture":"Mods/wildflour.ateliercrops/MysticTrumpet_Spring",
+                    "Season":"spring"
+                },
+                {
+                    "Texture":"Mods/wildflour.ateliercrops/MysticTrumpet_Summer",
+                    "Season":"summer"
+                },
+                {
+                    "Texture":"Mods/wildflour.ateliercrops/MysticTrumpet_Fall",
+                    "Season":"fall"
+                },
+                {   
+                    "Texture":"Mods/wildflour.ateliercrops/MysticTrumpet_Winter",
+                    "Season":"winter"
+                }
+            ],
+
+            "SeedItemId":"wildflour.ateliercrops_MysticTrumpet_seeds",
+            "IsLeafyInWinter":"false",
+            "IsLeafy":"False",
+            "SeedPlantable": true,
+            "GrowthChance": 0.4,
+            "FertilizedGrowthChance": 1,
+            "SeedChance": 0.05,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": false,
+            "DropHardwoodOnLumberChop": false,
+            "GrowsInWinter":"true",
+            "UseAlternateSpriteWhenNotShaken":"false",
+            "ShakeItems":[
+                {
+                    "ItemId":"wildflour.ateliercrops_gloomy_blewit",
+                    "Chance":"1",
+                    "Season":"spring"
+                },
+                {
+                    "ItemId":"wildflour.ateliercrops_dawn_trumpet",
+                    "Chance":"1",
+                    "Season":"summer"
+                },
+                {
+                    "ItemId":"wildflour.ateliercrops_golden_aura",
+                    "Chance":"1",
+                    "Season":"fall"
+                },
+                {
+                    "ItemId":"wildflour.ateliercrops_moon_mushroom",
+                    "Chance":"1",
+                    "Season":"winter"
+                }
+            ]
+    },
+        "wildflour.ateliercrops_Witchwood_tree": {
+
+            "Textures": [
+                {
+                    "Texture":"Mods/wildflour.ateliercrops/WitchwoodTree_Spring",
+                    "Season":"spring"
+                },
+                {
+                    "Texture":"Mods/wildflour.ateliercrops/WitchwoodTree_Summer",
+                    "Season":"summer"
+                },
+                {
+                    "Texture":"Mods/wildflour.ateliercrops/WitchwoodTree_Fall",
+                    "Season":"fall"
+                },
+                {   
+                    "Texture":"Mods/wildflour.ateliercrops/WitchwoodTree_Winter",
+                    "Season":"winter"
+                }
+            ],
+
+            "SeedItemId":"wildflour.ateliercrops_WitchwoodTree_seeds",
+            "IsLeafyInWinter":"false",
+            "GrowsInWinter":"true",
+            "SeedPlantable": true,
+            "GrowthChance": 0.4,
+            "FertilizedGrowthChance": 1,
+            "SeedChance": 0.05,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "UseAlternateSpriteWhenNotShaken":"true",
+            "ChopItems": [],
+            "ShakeItems":[
+                {
+                    "ItemId":"wildflour.ateliercrops_verdigris_agaric",
+                    "Chance":"1",
+                    "Season":"spring"
+                },
+                {
+                    "ItemId":"wildflour.ateliercrops_peach_parasol",
+                    "Chance":"1",
+                    "Season":"summer"
+                },
+                {
+                    "ItemId":"wildflour.ateliercrops_amanita_cluster",
+                    "Chance":"1",
+                    "Season":"fall"
+                },
+                {
+                    "ItemId":"wildflour.ateliercrops_tiny_angels",
+                    "Chance":"1",
+                    "Season":"winter"
+                }
+            ]
+    }
+                }
+},
+
+//////////////////////////////
+// ADDITIONS TO FRUIT TREES //
+//////////////////////////////
+
+////////////////////
+// AMBROSIA APPLE //
+////////////////////
+
+{
+    "LogName":"Add Ambrosia Apple to Apple Tree",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": ["633","Fruit"],
+    "Entries": {
+        "wildflour.ateliercrops_apple": {
+            "Season": "spring",
+            "Chance": 0.2,
+            "Id": "wildflour.ateliercrops_apple",
+            "ItemId": "(O)wildflour.ateliercrops_apple"           
+        }
+    }
+},
+{
+    "LogName": "Apple Trees Season",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Fields": {
+        "633": {
+            "Seasons": [
+                "spring",
+                "fall"
+            ]
+        }
+    }
+},
+{
+    "LogName": "Apple Trees Fall Produces",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": [
+        "633",
+        "Fruit",
+        "Default"
+    ],
+    "Entries": {
+        "Season": "fall"
+    }
+},
+
+//////////////////////
+// MOONGOLD APRICOT //
+//////////////////////
+
+{
+    "LogName":"Add Moongold Apricot to Apricot Tree",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": ["629","Fruit"],
+    "Entries": {
+        "wildflour.ateliercrops_apricot": {
+            "Season": "fall",
+            "Chance": 0.2,
+            "Id": "wildflour.ateliercrops_apricot",
+            "ItemId": "(O)wildflour.ateliercrops_apricot"
+        }
+    }
+},
+{
+    "LogName": "Apricot Trees Season",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Fields": {
+        "629": {
+            "Seasons": [
+                "spring",
+                "fall"
+            ]
+        }
+    }
+},
+{
+    "LogName": "Apricot Trees Spring Produce",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": [
+        "629",
+        "Fruit",
+        "Default"
+    ],
+    "Entries": {
+        "Season": "spring"
+    }
+},
+
+///////////////////////
+// LADYFINGER BANANA //
+///////////////////////
+
+{
+    "LogName":"Add LadyFinger Banana to Banana Tree",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": ["69","Fruit"],
+    "Entries": {
+        "wildflour.ateliercrops_banana": {
+            "Season": "winter",
+            "Chance": 0.2,
+            "Id": "wildflour.ateliercrops_banana",
+            "ItemId": "(O)wildflour.ateliercrops_banana",
+                    "StackModifiers": [],
+                    "StackModifierMode": "Stack"
+        }
+    }
+},
+{
+    "LogName": "Banana Trees Season",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Fields": {
+        "69": {
+            "Seasons": [
+                "summer",
+                "winter"
+            ]
+        }
+    }
+},
+{
+    "LogName": "Banana Trees Summer Produce",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": [
+        "69",
+        "Fruit",
+        "Default"
+    ],
+    "Entries": {
+        "Season": "summer"
+    }
+},
+
+////////////////////////
+// METEOR SOUR CHERRY //
+////////////////////////
+
+{
+    "LogName":"Add Meteor Sour Cherry to Cherry Tree",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": ["628","Fruit"],
+    "Entries": {
+        "wildflour.ateliercrops_cherry": {
+            "Season": "fall",
+            "Chance": 0.2,
+            "Id": "wildflour.ateliercrops_cherry",
+            "ItemId": "(O)wildflour.ateliercrops_cherry",
+                    "StackModifiers": [],
+                    "StackModifierMode": "Stack"
+        }
+    }
+},
+{
+    "LogName": "Cherry Trees Season",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Fields": {
+        "628": {
+            "Seasons": [
+                "spring",
+                "fall"
+            ]
+        }
+    }
+},
+{
+    "LogName": "Cherry Trees Spring Produce",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": [
+        "628",
+        "Fruit",
+        "Default"
+    ],
+    "Entries": {
+        "Season": "spring"
+    }
+},
+
+////////////////////
+// SUNSET MANGO ////
+////////////////////
+
+{
+    "LogName":"Add Sunset Mango to Mango Tree",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": ["835","Fruit"],
+    "Entries": {
+        "wildflour.ateliercrops_mango": {
+            "Season": "winter",
+            "Chance": 0.2,
+            "Id": "wildflour.ateliercrops_mango",
+            "ItemId": "(O)wildflour.ateliercrops_mango",
+                    "StackModifiers": [],
+                    "StackModifierMode": "Stack"
+        }
+    }
+},
+{
+    "LogName": "Mango Trees Season",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Fields": {
+        "835": {
+            "Seasons": [
+                "summer",
+                "winter"
+            ]
+        }
+    }
+},
+{
+    "LogName": "Mango Trees Summer Produce",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": [
+        "835",
+        "Fruit",
+        "Default"
+    ],
+    "Entries": {
+        "Season": "summer"
+    }
+},
+
+//////////////////
+// BLOOD ORANGE //
+//////////////////
+
+{
+    "LogName":"Add Blood Orange to Orange Tree",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": ["630","Fruit"],
+    "Entries": {       
+        "wildflour.ateliercrops_orange": {
+            "Season": "winter",
+            "Chance": 0.2,
+            "Id": "wildflour.ateliercrops_orange",
+            "ItemId": "(O)wildflour.ateliercrops_orange",
+                    "StackModifiers": [],
+                    "StackModifierMode": "Stack"
+        }
+    }
+},
+{
+    "LogName": "Orange Trees Season",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Fields": {
+        "630": {
+            "Seasons": [
+                "summer",
+                "winter"
+            ]
+        }
+    }
+},
+{
+    "LogName": "Orange Trees Summer Produce",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": [
+        "630",
+        "Fruit",
+        "Default"
+    ],
+    "Entries": {
+        "Season": "summer"
+    }
+},
+
+///////////////////////
+// SNOW BEAUTY PEACH //
+///////////////////////
+
+{
+    "LogName":"Add Snow Peach to Peach Tree",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": ["631","Fruit"],
+    "Entries": {              
+        "wildflour.ateliercrops_peach": {
+            "Season": "winter",
+            "Chance": 0.2,
+            "Id": "wildflour.ateliercrops_peach",
+            "ItemId": "(O)wildflour.ateliercrops_peach",
+                    "StackModifiers": [],
+                    "StackModifierMode": "Stack"
+        }
+    }
+},
+{
+    "LogName": "Peach Trees Season",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Fields": {
+        "631": {
+            "Seasons": [
+                "summer",
+                "winter"
+            ]
+        }
+    }
+},
+{
+    "LogName": "Peach Trees Summer Produce",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": [
+        "631",
+        "Fruit",
+        "Default"
+    ],
+    "Entries": {
+        "Season": "summer"
+    }
+},
+
+///////////////////////////
+// EVERSWEET POMEGRANATE //
+///////////////////////////
+
+{
+    "LogName":"Add Eversweet Pomegranate to Pomegranate Tree",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": ["632","Fruit"],
+    "Entries": {              
+        "wildflour.ateliercrops_pomegranate": {
+            "Season": "spring",
+            "Chance": 0.2,
+            "Id": "wildflour.ateliercrops_pomegranate",
+            "ItemId": "(O)wildflour.ateliercrops_pomegranate",
+                    "StackModifiers": [],
+                    "StackModifierMode": "Stack"
+        }
+    }
+},
+{
+    "LogName": "Pomegranate Trees Season",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Fields": {
+        "632": {
+            "Seasons": [
+                "spring",
+                "fall"
+            ]
+        }
+    }
+},
+{
+    "LogName": "Pomegranate Trees Fall Produce",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "TargetField": [
+        "632",
+        "Fruit",
+        "Default"
+    ],
+    "Entries": {
+        "Season": "fall"
+    }
+},
+
+
+////////////////////////////
+// FEATHERS IN BASE TREES //
+////////////////////////////
+
+{
+    "LogName":"Add Feather to Pine Tree Choppable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["3","ChopItems"],
+    "Entries": {
+        "wildflour.ateliercrops_owl_feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": "winter",
+            "Chance": 0.4,
+            "Condition": null,
+            "Id": "wildflour.ateliercrops_owl_feather",
+            "ItemId": "(O)wildflour.ateliercrops_owl_feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        },
+        "wildflour.ateliercrops_raven_feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": "fall",
+            "Chance": 0.4,
+            "Condition": null,
+            "Id": "wildflour.ateliercrops_raven_feather",
+            "ItemId": "(O)wildflour.ateliercrops_raven_feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        },
+    }
+},
+
+{
+    "LogName":"Add Feather to Oak Tree Choppable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["1","ChopItems"],
+    "Entries": {
+        "wildflour.ateliercrops_bluebird_feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": "winter",
+            "Chance": 0.4,
+            "Condition": null,
+            "Id": "wildflour.ateliercrops_bluebird_feather",
+            "ItemId": "(O)wildflour.ateliercrops_bluebird_feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        },
+        "wildflour.ateliercrops_crow_feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": "fall",
+            "Chance": 0.4,
+            "Condition": null,
+            "Id": "wildflour.ateliercrops_crow_feather",
+            "ItemId": "(O)wildflour.ateliercrops_crow_feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        },
+        "wildflour.ateliercrops_starling_feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": "summer",
+            "Chance": 0.4,
+            "Condition": null,
+            "Id": "wildflour.ateliercrops_starling_feather",
+            "ItemId": "(O)wildflour.ateliercrops_starling_feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        }
+    }
+},
+
+{
+    "LogName":"Add Feather to Maple Tree Choppable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["2","ChopItems"],
+    "Entries": {
+        "wildflour.ateliercrops_rosefinch_feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": "spring",
+            "Chance": 0.4,
+            "Condition": null,
+            "Id": "wildflour.ateliercrops_rosefinch_feather",
+            "ItemId": "(O)wildflour.ateliercrops_rosefinch_feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        },
+        "wildflour.ateliercrops_lovebird_feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": "summer",
+            "Chance": 0.4,
+            "Condition": null,
+            "Id": "wildflour.ateliercrops_lovebird_feather",
+            "ItemId": "(O)wildflour.ateliercrops_lovebird_feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        },
+    }
+},
+
+{
+    "LogName":"Add Feather to Mystic Tree Shakeable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["13","ShakeItems"],
+    "Entries": {
+        "wildflour.ateliercrops_phoenix_feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Chance": 0.3,
+            "Id": "wildflour.ateliercrops_phoenix_feather",
+            "ItemId": "(O)wildflour.ateliercrops_phoenix_feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "IsRecipe": false
+        }
+    }
+},
+
+
+////////////////////////
+// MUSHROOMS TAPPABLE //
+////////////////////////
+
+
+{
+    "LogName":"Add Giant Amanita to Tree Tappable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["10","TapItems"],
+    "Entries": {
+        "wildflour.ateliercrops_giant_amanita": {
+            "DaysUntilReady":3,
+            "Chance": 1.0,
+            "Id": "wildflour.ateliercrops_giant_amanita",
+            "ItemId": "(O)wildflour.ateliercrops_giant_amanita",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "IsRecipe": false
+        }
+    }
+},
+
+{
+    "LogName":"Add Faerie Helmets to Tree Tappable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["11","TapItems"],
+    "Entries": {
+        "wildflour.ateliercrops_faerie_helmets": {
+            "DaysUntilReady":2,
+            "Chance": 1.0,
+            "Id": "wildflour.ateliercrops_faerie_helmets",
+            "ItemId": "(O)wildflour.ateliercrops_faerie_helmets",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "IsRecipe": false
+        }
+    }
+},
+
+{
+    "LogName":"Add Verdigris Agaric to Tree Tappable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["12","TapItems"],
+    "Entries": {
+        "wildflour.ateliercrops_verdigris_agaric": {
+            "Chance": 1.0,
+            "DaysUntilReady": 2,
+            "Id": "wildflour.ateliercrops_verdigris_agaric",
+            "ItemId": "(O)wildflour.ateliercrops_verdigris_agaric",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "IsRecipe": false
+        }
+    }
+}
+
+    ]
+}

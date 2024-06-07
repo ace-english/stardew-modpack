@@ -1,0 +1,169 @@
+{
+    "Changes": [
+        
+////////////////
+//FRUIT TREES///
+////////////////
+
+
+{
+    "LogName":"Wild Food Fruit Trees",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Entries": {
+
+        "wildflour.ateliercrops_pistachiosapling": {
+            "DisplayName": "{{i18n:ateliercrops_pistachiosapling.name}}",
+            "Seasons": [ "summer" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_pistachio",
+                    "ItemId": "wildflour.ateliercrops_pistachio"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 0
+        },
+
+        "wildflour.ateliercrops_olivesapling": {
+            "DisplayName": "{{i18n:ateliercrops_olivesapling.name}}",
+            "Seasons": [ "summer" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_olive",
+                    "ItemId": "wildflour.ateliercrops_olive"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 1
+        },
+
+        "wildflour.ateliercrops_cashewsapling": {
+            "DisplayName": "{{i18n:ateliercrops_cashewsapling.name}}",
+            "Seasons": [ "fall" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_cashew",
+                    "ItemId": "wildflour.ateliercrops_cashew"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 2
+        },
+
+        "wildflour.ateliercrops_walnutsapling": {
+            "DisplayName": "{{i18n:ateliercrops_walnutsapling.name}}",
+            "Seasons": [ "fall" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_walnut",
+                    "ItemId": "wildflour.ateliercrops_walnut"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 3
+        },
+
+        "wildflour.ateliercrops_lemonsapling": {
+            "DisplayName": "{{i18n:ateliercrops_lemonsapling.name}}",
+            "Seasons": [ "spring" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_lemon",
+                    "ItemId": "wildflour.ateliercrops_lemon"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 4
+        },
+
+        "wildflour.ateliercrops_limesapling": {
+            "DisplayName": "{{i18n:ateliercrops_limesapling.name}}",
+            "Seasons": [ "spring" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_lime",
+                    "ItemId": "wildflour.ateliercrops_lime"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 5
+        },
+
+        "wildflour.ateliercrops_almondsapling": {
+            "DisplayName": "{{i18n:ateliercrops_almondsapling.name}}",
+            "Seasons": [ "summer" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_almond",
+                    "ItemId": "wildflour.ateliercrops_almond"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 6
+        },
+
+        "wildflour.ateliercrops_cacaopodsapling": {
+            "DisplayName": "{{i18n:ateliercrops_cacaopodsapling.name}}",
+            "Seasons": [ "fall" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_cacaopod",
+                    "ItemId": "wildflour.ateliercrops_cacaopod"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 7
+        },
+
+        "wildflour.ateliercrops_anise_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_anise_sapling.name}}",
+            "Seasons": [ "fall" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_anise",
+                    "ItemId": "wildflour.ateliercrops_anise"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 8
+        },
+        "wildflour.ateliercrops_elder_sapling": {
+            "DisplayName": "{{i18n:ateliercrops_elder_sapling.name}}",
+            "Seasons": [ "summer" ],
+            "Fruit": [
+                {
+                    "Id": "wildflour.ateliercrops_elderberries",
+                    "ItemId": "wildflour.ateliercrops_elderberries"
+                }
+            ],
+            "Texture": "Mods/wildflour.ateliercrops/FruitTreesWF",
+            "TextureSpriteRow": 9
+        }
+    }
+},
+          
+
+////////////////
+// WILD TREES //
+////////////////
+
+{
+    "LogName":"Wild Food Cinnamon from Wild Trees",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField":["8","ShakeItems"],
+    "Entries": {
+        "wildflour.ateliercrops_cinnamon": {
+                    "Id": "wildflour.ateliercrops_cinnamon",
+                    "ItemId":"(O)wildflour.ateliercrops_cinnamon",
+                    "Chance":"0.5",
+                    "MinStack":1,
+                    "MaxStack":1,
+                    "Season":"winter"
+        }
+    }
+},
+
+    ]
+}

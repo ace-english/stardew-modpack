@@ -1,0 +1,811 @@
+{
+  "Changes": [
+
+////////////////
+// DROPBOXES //
+///////////////
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/JoshHouse",
+      "MapTiles": [
+      {
+       "Position": { "X": 2, "Y": 16},
+       "Layer": "Buildings",
+       "SetProperties": { "Action": "DropBox EvelynKitchen"}
+      }		
+      ]
+      },
+
+
+      {
+      "Action": "EditMap",
+      "Target": "Maps/SamHouse",
+      "MapTiles": [
+      {
+       "Position": { "X": 4, "Y": 4},
+       "Layer": "Buildings",
+       "SetProperties": { "Action": "DropBox JodiCounter"}
+      }		
+      ]
+      },
+      {
+        "Action": "EditMap",
+              "Target": "Maps/SebastianRoom",
+        "MapTiles": [
+            {
+               "Position": { "X": 3, "Y": 4},
+               "Layer": "Buildings",
+               "SetProperties": { "Action": "DropBox SebastianStuff"}
+            }		
+        ]
+      },
+
+
+////////////////
+// TEA ORDERS //
+////////////////
+
+    {
+      "LogName": "Teas Orders Vanilla",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+          "wildflour.atelierbarista_TeaSO_5": {
+            "Name": "{{i18n:atelierbarista_TeaSO_5.name}}",
+            "Requester": "Lewis",
+            "Duration": "Month",
+            "Repeatable": "False",
+            "RequiredTags": "mail_wildflour.atelierbarista_TeaSO7_complete, mail_wildflour.atelierbarista_TeaSO8_complete",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:atelierbarista_TeaSO_5.text}}",
+            "Objectives": [
+                {
+                  "Type": "Ship",
+                  "Text": "{{i18n:atelierbarista_TeaSO_5.ship}}",
+                  "RequiredCount": "100",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_tea_item/wildfour_coffee_item",
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "100000"
+                }
+              },
+    
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.atelierbarista_TeaSO5_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+          },
+          "wildflour.atelierbarista_TeaSO_7": {
+            "Name": "{{i18n:atelierbarista_TeaSO_7.name}}",
+            "Requester": "Haley",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:atelierbarista_TeaSO_7.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:atelierbarista_TeaSO_7.deliver}}",
+                  "RequiredCount": "6",
+                  "Data": {
+                    "AcceptedContextTags": "tea_item",
+                    "Message": "{{i18n:atelierbarista_TeaSO_7.accept}}",
+                    "TargetName": "Haley"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "7500"
+                  }
+                },
+      
+              {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+          },
+          "wildflour.atelierbarista_TeaSO_8": {
+            "Name": "{{i18n:atelierbarista_TeaSO_8.name}}",
+            "Requester": "Sandy",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:atelierbarista_TeaSO_8.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:atelierbarista_TeaSO_8.deliver}}",
+                  "RequiredCount": "8",
+                  "Data": {
+                    "AcceptedContextTags": "sachet_item",
+                    "Message": "{{i18n:atelierbarista_TeaSO_8.accept}}",
+                    "TargetName": "Sandy"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "8000"
+                  }
+                },
+      
+                {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+          }
+        }
+    },
+
+
+    {
+      "LogName": "Teas Orders Wild Food",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+      "Entries": {
+          "wildflour.atelierbarista_TeaSO_1": {
+          "Name": "{{i18n:atelierbarista_TeaSO_1.name}}",
+          "Requester": "Caroline",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:atelierbarista_TeaSO_1.text}}",
+          "Objectives": [
+  
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierbarista_TeaSO_1a.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.atelierbarista_cinnamon_sachet",
+                "TargetName": "Caroline"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierbarista_TeaSO_1b.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.atelierbarista_mint_sachet",
+                "TargetName": "Caroline"
+              }
+            },
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:atelierbarista_TeaSO_1c.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "AcceptedContextTags": "item_wildflour.atelierbarista_grey_sachet",
+                  "Message": "{{i18n:atelierbarista_TeaSO_1.accept}}",
+                  "TargetName": "Caroline"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "3340"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Caroline"
+                  }
+                }
+            ]
+          },
+          "wildflour.atelierbarista_TeaSO_2": {
+            "Name": "{{i18n:atelierbarista_TeaSO_2.name}}",
+            "Requester": "Evelyn",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:atelierbarista_TeaSO_2.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:atelierbarista_TeaSO_2a.deliver}}",
+                  "RequiredCount": "2",
+                  "Data": {
+                    "DropBox": "EvelynKitchen",
+                    "DropBoxGameLocation": "JoshHouse",
+                    "DropBoxIndicatorLocation": "2 16",
+                    "AcceptedContextTags": "item_wildflour.atelierbarista_sakura_tea",
+                  }
+                },
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:atelierbarista_TeaSO_2b.deliver}}",
+                  "RequiredCount": "2",
+                  "Data": {
+                    "DropBox": "EvelynKitchen",
+                    "DropBoxGameLocation": "JoshHouse",
+                    "DropBoxIndicatorLocation": "2 16",
+                    "AcceptedContextTags": "item_wildflour.atelierbarista_rose_tea",
+                  }
+                },
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:atelierbarista_TeaSO_2c.deliver}}",
+                  "RequiredCount": "2",
+                  "Data": {
+                    "DropBox": "EvelynKitchen",
+                    "DropBoxGameLocation": "JoshHouse",
+                    "DropBoxIndicatorLocation": "2 16",
+                    "AcceptedContextTags": "item_wildflour.atelierbarista_breakfast_tea",
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "6675"
+                  }
+                },
+    
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Evelyn"
+                    }
+                  },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "wildflour.atelierbarista_TeaSO2_complete",
+                        "NoLetter": "true"
+                  }
+                }
+              ]
+          },
+          "wildflour.atelierbarista_TeaSO_4": {
+            "Name": "{{i18n:atelierbarista_TeaSO_4.name}}",
+            "Requester": "Jodi",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:atelierbarista_TeaSO_4.text}}",
+            "Objectives": [
+    
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:atelierbarista_TeaSO_4a.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "DropBox": "JodiCounter",
+                    "DropBoxGameLocation": "SamHouse",
+                    "DropBoxIndicatorLocation": "4 4",
+                    "AcceptedContextTags": "item_wildflour.atelierbarista_chamomile_sachet",
+                  }
+                },
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:atelierbarista_TeaSO_4b.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "DropBox": "JodiCounter",
+                    "DropBoxGameLocation": "SamHouse",
+                    "DropBoxIndicatorLocation": "4 4",
+                    "AcceptedContextTags": "item_wildflour.atelierbarista_mint_sachet",
+                  }
+                },
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:atelierbarista_TeaSO_4c.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "DropBox": "JodiCounter",
+                    "DropBoxGameLocation": "SamHouse",
+                    "DropBoxIndicatorLocation": "4 4",
+                    "AcceptedContextTags": "item_wildflour.atelierbarista_vanilla_sachet",
+                  }
+                },
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:atelierbarista_TeaSO_4d.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "DropBox": "JodiCounter",
+                    "DropBoxGameLocation": "SamHouse",
+                    "DropBoxIndicatorLocation": "4 4",
+                    "AcceptedContextTags": "item_wildflour.atelierbarista_lemon_sachet",
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6730"
+                }
+              },
+    
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Jodi"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.atelierbarista_TeaSO4_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+          },
+        }
+      },
+
+///////////////////
+// COFFEE ORDERS //
+///////////////////
+
+{
+  "LogName": "Coffee Orders Vanilla",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "wildflour.atelierbarista_CoffeeSO_2": {
+      "Name": "{{i18n:atelierbarista_CoffeeSO_2.name}}",
+      "Requester": "Haley",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierbarista_CoffeeSO_2.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_2.deliver}}",
+            "RequiredCount": "5",
+            "Data": {
+              "AcceptedContextTags": "item_wildflour.atelierbarista_sweetheart_latte",
+              "Message": "{{i18n:atelierbarista_CoffeeSO_2.accept}}",
+              "TargetName": "Haley"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "6000"
+            }
+          },
+
+          {
+           "Type": "Friendship",
+           "Data": {
+                 "Amount": "250",
+                "TargetName": "Haley"
+             }
+           },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.atelierbarista_CoffeeSO2_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    },
+    "wildflour.atelierbarista_CoffeeSO_4": {
+      "Name": "{{i18n:atelierbarista_CoffeeSO_4.name}}",
+      "Requester": "Gus",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "season_fall, mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierbarista_CoffeeSO_4.text}}",
+      "Objectives": [
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_4.deliver}}",
+            "RequiredCount": "12",
+            "Data": {
+              "DropBox": "GusFridge",
+              "DropBoxGameLocation": "Saloon",
+              "DropBoxIndicatorLocation": "18 16",
+              "AcceptedContextTags": "item_wildflour.atelierbarista_pumpkin_latte",
+            }
+          }
+        ],
+      "Rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "21600"
+          }
+        },
+
+        {
+          "Type": "Friendship",
+          "Data": {
+                "Amount": "250",
+               "TargetName": "Gus"
+            }
+          },
+        {
+          "Type": "Mail",
+          "Data": {
+                "MailReceived": "wildflour.atelierbarista_CoffeeSO4_complete",
+                "NoLetter": "true"
+          }
+        }
+      ]
+    },
+    "wildflour.atelierbarista_CoffeeSO_5": {
+      "Name": "{{i18n:atelierbarista_CoffeeSO_5.name}}",
+      "Requester": "Lewis",
+      "Duration": "Month",
+      "Repeatable": "False",
+      "RequiredTags": "mail_wildflour.atelierbarista_CoffeeSO2_complete, mail_wildflour.atelierbarista_CoffeeSO4_complete",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierbarista_CoffeeSO_5.text}}",
+      "Objectives": [
+          {
+            "Type": "Ship",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_5.ship}}",
+            "RequiredCount": "100",
+            "Data": {
+              "AcceptedContextTags": "wildflour_coffee_item",
+            }
+          }
+        ],
+      "Rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "100000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+                "MailReceived": "wildflour.atelierbarista_CoffeeSO5_complete",
+                "NoLetter": "true"
+          }
+        }
+      ]
+    },
+    "wildflour.atelierbarista_CoffeeSO_6": {
+      "Name": "{{i18n:atelierbarista_CoffeeSO_6.name}}",
+      "Requester": "Sandy",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierbarista_CoffeeSO_6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_6.deliver}}",
+            "RequiredCount": "3",
+            "Data": {
+              "AcceptedContextTags": "item_wildflour.atelierbarista_cold_latte",
+              "Message": "{{i18n:atelierbarista_CoffeeSO_6.accept}}",
+              "TargetName": "Sandy"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "3000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    },
+    "wildflour.atelierbarista_CoffeeSO_7": {
+      "Name": "{{i18n:atelierbarista_CoffeeSO_7.name}}",
+      "Requester": "Marnie",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierbarista_CoffeeSO_7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_7.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "wildflour_coffee_item",
+              "Message": "{{i18n:atelierbarista_CoffeeSO_7.accept}}",
+              "TargetName": "Marnie"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "5000"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    },
+    "wildflour.atelierbarista_CoffeeSO_8": {
+      "Name": "{{i18n:atelierbarista_CoffeeSO_8.name}}",
+      "Requester": "Pierre",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierbarista_CoffeeSO_8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_8.deliver}}",
+            "RequiredCount": "8",
+            "Data": {
+              "AcceptedContextTags": "ground_coffee_item",
+              "Message": "{{i18n:atelierbarista_CoffeeSO_8.accept}}",
+              "TargetName": "Pierre"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+
+{
+  "LogName": "Coffee Orders Wild Food",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+  "Entries": {
+    "wildflour.atelierbarista_CoffeeSO_1": {
+      "Name": "{{i18n:atelierbarista_CoffeeSO_1.name}}",
+      "Requester": "Harvey",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierbarista_CoffeeSO_1.text}}",
+      "Objectives": [
+    
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_1a.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "AcceptedContextTags": "item_wildflour.atelierbarista_hazelnut_ground",
+              "TargetName": "Harvey"
+            }
+          },
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_1b.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "AcceptedContextTags": "item_wildflour.atelierbarista_cold_ground",
+              "TargetName": "Harvey"
+            }
+          },
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_1c.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "AcceptedContextTags": "item_wildflour.atelierbarista_vanilla_ground",
+              "Message": "{{i18n:atelierbarista_CoffeeSO_1.accept}}",
+              "TargetName": "Harvey"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "4600"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Harvey"
+              }
+            }
+        ]
+    },
+    "wildflour.atelierbarista_CoffeeSO_3": {
+      "Name": "{{i18n:atelierbarista_CoffeeSO_3.name}}",
+      "Requester": "Sebastian",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierbarista_CoffeeSO_3.text}}",
+      "Objectives": [
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_3a.deliver}}",
+            "RequiredCount": "3",
+            "Data": {
+              "DropBox": "SebastianStuff",
+              "DropBoxGameLocation": "SebastianRoom",
+              "DropBoxIndicatorLocation": "3 4",
+              "AcceptedContextTags": "item_wildflour.atelierbarista_breakfast_ground",
+            }
+          },
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_3b.deliver}}",
+            "RequiredCount": "3",
+            "Data": {
+              "DropBox": "SebastianStuff",
+              "DropBoxGameLocation": "SebastianRoom",
+              "DropBoxIndicatorLocation": "3 4",
+              "AcceptedContextTags": "item_wildflour.atelierbarista_mocha_ground",
+            }
+          },
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_3c.deliver}}",
+            "RequiredCount": "3",
+            "Data": {
+              "DropBox": "SebastianStuff",
+              "DropBoxGameLocation": "SebastianRoom",
+              "DropBoxIndicatorLocation": "3 4",
+              "AcceptedContextTags": "item_wildflour.atelierbarista_coconut_ground",
+            }
+          },
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:atelierbarista_CoffeeSO_3d.deliver}}",
+            "RequiredCount": "3",
+            "Data": {
+              "DropBox": "SebastianStuff",
+              "DropBoxGameLocation": "SebastianRoom",
+              "DropBoxIndicatorLocation": "3 4",
+              "AcceptedContextTags": "item_wildflour.atelierbarista_donut_ground",
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Sebastian"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.atelierbarista_CoffeeSO3_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+}
+
+  ]
+}
+

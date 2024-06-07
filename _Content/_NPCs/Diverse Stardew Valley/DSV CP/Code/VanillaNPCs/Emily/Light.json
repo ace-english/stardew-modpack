@@ -1,0 +1,353 @@
+{
+// EMILY DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Emily Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Emily", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Emily.Indoor":
+				{
+					"Id": "{{ModId}}_Emily_Indoor",
+					"Portrait": "Portraits/Emily_Indoor",
+					"Sprite": "Characters/Emily_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Emily.EggFestival":
+				{
+					"Id": "{{ModId}}_Emily_EggFestival",
+					"Portrait": "Portraits/Emily_EggFestival",
+					"Sprite": "Characters/Emily_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Emily.FlowerDance":
+				{
+					"Id": "{{ModId}}_Emily_FlowerDance",
+					"Portrait": "Portraits/Emily_FlowerDance",
+					"Sprite": "Characters/Emily_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Emily.Luau":
+				{
+					"Id": "{{ModId}}_Emily_Luau",
+					"Portrait": "Portraits/Emily_Luau",
+					"Sprite": "Characters/Emily_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Emily.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Emily_MoonlightJellies",
+					"Portrait": "Portraits/Emily_MoonlightJellies",
+					"Sprite": "Characters/Emily_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Emily.SVFair":
+				{
+					"Id": "{{ModId}}_Emily_SVFair",
+					"Portrait": "Portraits/Emily_SVFair",
+					"Sprite": "Characters/Emily_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Emily.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Emily_SpiritsEve",
+					"Portrait": "Portraits/Emily_SpiritsEve",
+					"Sprite": "Characters/Emily_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Emily.IceFestival":
+				{
+					"Id": "{{ModId}}_Emily_IceFestival",
+					"Portrait": "Portraits/Emily_IceFestival",
+					"Sprite": "Characters/Emily_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Emily.WinterStar":
+				{
+					"Id": "{{ModId}}_Emily_WinterStar",
+					"Portrait": "Portraits/Emily_WinterStar",
+					"Sprite": "Characters/Emily_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// MATERNITY
+				"DSV.Emily.Maternity":
+				{
+					"Id": "{{ModId}}_Emily_Maternity",
+					"Portrait": "Portraits/Emily_Maternity",
+					"Sprite": "Characters/Emily_Maternity",
+					"Condition": "{{Pregnant |contains= Emily}}, {{DSV.Core/ConfigValue:MaternitySprites |contains= True}}",
+					"Precedence": -250
+				},
+				"DSV.Emily.MaternityBeach":
+				{
+					"Id": "{{ModId}}_Emily_Beach_Maternity",
+					"Portrait": "Portraits/Emily_Beach_Maternity",
+					"Sprite": "Characters/Emily_Beach_Maternity",
+					"Condition": "{{Pregnant |contains= Emily}}, {{DSV.Core/ConfigValue:MaternitySprites |contains= True}}",
+					"IsIslandAttire": true,
+					"Precedence": -250
+				},
+			// OTHER
+				"DSV.Emily.Swim":
+				{
+					"Id": "{{ModId}}_Emily_Swim",
+					"Portrait": "Portraits/Emily_Swim",
+					"Sprite": "Characters/Emily_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Emily.HotClimate":
+				{
+					"Id": "{{ModId}}_Emily_HotClimate",
+					"Portrait": "Portraits/Emily_HotClimate",
+					"Sprite": "Characters/Emily_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Emily.Aerobics":
+				{
+					"Id": "{{ModId}}_Emily_Aerobics",
+					"Portrait": "Portraits/Emily_Aerobics",
+					"Sprite": "Characters/Emily_Aerobics",
+					"Condition": "ANY \"LOCATION_NAME Target SeedShop, DAY_OF_WEEK Tuesday, !WEATHER Target Rain Storm\" \"IS_EVENT 58\"",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Emily Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Emily_Indoor, Characters/Emily_Indoor",
+			"FromFile": "Art/VanillaNPCs/Emily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EmilyVariant}}/Emily_Fall_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EmilyVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Emily Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Emily_EggFestival, Characters/Emily_EggFestival, Portraits/Emily_FlowerDance, Characters/Emily_FlowerDance, Portraits/Emily_Luau, Characters/Emily_Luau, Portraits/Emily_MoonlightJellies, Characters/Emily_MoonlightJellies, Portraits/Emily_SVFair, Characters/Emily_SVFair, Portraits/Emily_SpiritsEve, Characters/Emily_SpiritsEve, Portraits/Emily_IceFestival, Characters/Emily_IceFestival, Portraits/Emily_WinterStar, Characters/Emily_WinterStar, Portraits/Emily_Swim, Characters/Emily_Swim, Portraits/Emily_Aerobics, Characters/Emily_Aerobics, Portraits/Emily_Maternity, Characters/Emily_Maternity",
+			"FromFile": "Art/VanillaNPCs/Emily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EmilyVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EmilyVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Emily Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Emily_HotClimate, Characters/Emily_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Emily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EmilyVariant}}/Emily_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EmilyVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Emily Load - Maternity Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Emily_Beach_Maternity, Characters/Emily_Beach_Maternity",
+			"FromFile": "Art/VanillaNPCs/Emily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EmilyVariant}}/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EmilyVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Emily Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_Indoor, Characters/Emily_Indoor",
+			"FromFile": "Art/VanillaNPCs/Emily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EmilyVariant}}/Emily_{{Season}}_{{RandomThreeToken}}_Base.png"
+		},
+		{
+			"LogName": "Emily Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_HotClimate, Characters/Emily_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Emily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EmilyVariant}}/Emily_Summer_{{RandomThreeToken}}_Sun.png"
+		},
+		{
+			"LogName": "Emily Flower Queen Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_FlowerDance, Characters/Emily_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Emily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EmilyVariant}}/Emily_FlowerDance_1_FlowerQueen.png",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Emily": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Emily Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_Beach, Characters/Emily_Beach",
+			"FromFile": "Art/VanillaNPCs/Emily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EmilyVariant}}/Emily_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Emily Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Emily_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Emily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EmilyVariant}}/Emily_Wedding_{{EmilySeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Emily Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Emily/Misc/Emily_Emoji_{{DSV.Core/ConfigValue:EmilyVariant}}.png",
+			"ToArea": {"X": 45, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:EmilyVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Emily Junimo Note",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "Art/VanillaNPCs/Emily/Misc/Junimo_Emily_{{DSV.Core/ConfigValue:EmilyVariant}}.png",
+			"ToArea": { "X": 448, "Y": 212, "Width": 32, "Height": 32 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:EmilyVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Emily Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Emily/Misc/Emily_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:EmilyVariant}}{{EmilyPortraitToken}}.png",
+			"ToArea": {"X": 64, "Y": 272, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:EmilyVariant|contains= Vanilla, Off": false
+			}
+		},
+
+// MERMAID PENDANTS
+		{
+			"LogName": "Emily Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_Indoor, Portraits/Emily_EggFestival, Portraits/Emily_FlowerDance, Portraits/Emily_Luau, Portraits/Emily_MoonlightJellies, Portraits/Emily_SVFair, Portraits/Emily_Maternity",
+			"FromFile": "Art/VanillaNPCs/Emily/Misc/MermaidPendants/Emily_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Emily |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Emily Pendants - Beach & Winter Star",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_Beach, Portraits/Emily_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Emily/Misc/MermaidPendants/Emily_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Emily |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+
+// COMPATIBILITY
+// Lumisteria Missing Hat Bundles
+		
+		{
+			"LogName": "Emily Lumisteria Bundles",
+			"Action": "EditImage",
+			"Target": "Mods/Lumisteria.CP.MissingHatsBundles/Emily",
+			"FromFile": "Art/VanillaNPCs/Emily/Misc/LumisteriaBundles_Emily_{{DSV.Core/ConfigValue:EmilyVariant}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EmilyVariant|contains= Vanilla, Off": false,
+				"HasMod |contains= Lumisteria.CP.MissingHatsBundles": true
+			}
+		},
+		
+// PPAF
+		{
+			"LogName": "PPaF Compat - Emily No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_Indoor, Portraits/Emily_EggFestival, Portraits/Emily_FlowerDance, Portraits/Emily_Luau, Portraits/Emily_MoonlightJellies, Portraits/Emily_SVFair, Portraits/Emily_IceFestival, Portraits/Emily_WinterStar, Portraits/Emily_Swim, Portraits/Emily_HotClimate, Portraits/Emily_Aerobics, Portraits/Emily_Maternity",
+			"FromFile": "Art/VanillaNPCs/Emily/Portraits/{{DSV.Core/ConfigValue:EmilyVariant}}/Overlays/Emily_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Emily": true
+			}
+		},
+		{
+			"LogName": "PPaF Compat - Emily Stick",
+			"Action": "EditImage",
+			"Target": "Characters/Emily_Indoor",
+			"FromFile": "Art/VanillaNPCs/Emily/Misc/Emily_Stick.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:EmilyRelationshipType |contains= FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+
+// SBV RSV Nonbinary Emily
+		{
+			"LogName": "Emily Ridgeside Gathering SBV Nonbinary Stall Setup",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "Emily 132 54 down",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true,
+				"HasMod |contains= skellady.SBVCP": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily": "True"
+			}
+		}
+	]
+}

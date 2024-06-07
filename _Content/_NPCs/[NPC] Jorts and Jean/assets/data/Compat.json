@@ -1,0 +1,63 @@
+ {
+"Changes": 
+    [
+		//Dialogue for Solstice compat
+		{
+            "Action": "EditData",
+		  	"Target": "Characters/Dialogue/JortsCat",
+			"When": { "HasMod: |contains=Airyn.CPSolsticeWinterStar": true},
+            "Entries": { "winter_24": "Hey @, could you put a wish tag on the tree for me? I don't have thumbs.#$b#Also, I can't write.$4",},
+		},
+		{
+            "Action": "EditData",
+		  	"Target": "Characters/Dialogue/JeanCat",
+			"When": { "HasMod: |contains=Airyn.CPSolsticeWinterStar": true},
+            "Entries": { "winter_27": "I think there's so much food at the Winter Solstice because humans associate food with care. What better way to show someone love than to take care of a basic need?$h",},
+		},
+		{	
+		"LogName": "Feast of the Winter Star Solstice Compat",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"When": { "HasMod: |contains=Airyn.CPSolsticeWinterStar": true},
+		"Entries": 
+			{ "JortsCat": "Happy food and friends day, @! I saved this just for you! It's my favorite so I hope you like it too![280]$h"},
+		},
+
+		//Dialogue for Ridgeside festivals
+		{
+            "Action": "EditData",
+		  	"Target": "Characters/Dialogue/JortsCat",
+			"When": { "HasMod: |contains=Rafseazz.RSVCP": true},
+            "Entries": 
+            {
+                "fall_19": "Are you going up to Ridgeside tomorrow?", // Day before Ridgeside Gathering
+				"winter_27": "Jean and I are going to go up to the Ridge a little early so I can pick out a good branch. I want something nice and scrungy!", // Day before Ember of Resolutions
+            },
+		},
+		{
+            "Action": "EditData",
+		  	"Target": "Characters/Dialogue/JeanCat",
+			"When": { "HasMod: |contains=Rafseazz.RSVCP": true},
+            "Entries": 
+            {
+                "fall_19": "Whereas the Fair is a regional event, Ridgeside's Gathering is really meant more for the people local to here.#$b#It allows the two towns time to get together without all the pressure of an 'important' event.", // Day before Ridgeside Gathering
+				"winter_27": "I'm not fond of the Ridge after dark, but rituals like the Ember of Resolutions are good to put finality into the year and start afresh.", // Day before Ember of Resolutions
+            },
+		},
+
+		//NPC Locations offset because cats are small - thanks Lenne!
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"JortsCat": {
+					"MarkerCropOffset": 16
+				},
+				"JeanCat": {
+					"MarkerCropOffset": 16
+				},
+        
+			},
+		},
+	]
+ }

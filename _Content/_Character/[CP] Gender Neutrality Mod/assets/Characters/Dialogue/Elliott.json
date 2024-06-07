@@ -1,0 +1,27 @@
+{
+"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":
+				{
+					"event_boat1": "So am I.$l"
+				},
+			"LogName": "Fix Elliott - Modded Dialogue + Custom Pronouns - Plural"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":
+				{
+					"event_boat1": "So am I.$l"
+				},
+			"LogName": "Fix Elliott - Modded Dialogue + Custom Pronouns - Singular",
+			"When": 
+				{
+					"Hana.GNMTokens/Singular": true
+				}
+		}
+	]
+}

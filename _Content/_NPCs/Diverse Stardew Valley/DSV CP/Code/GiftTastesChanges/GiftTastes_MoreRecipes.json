@@ -1,0 +1,93 @@
+{
+
+	"Changes": 
+	[
+		
+// MORE RECIPES
+// GIFT TASTES CHANGES
+		
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - More Recipes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Alex", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Avocado Eel Roll}} {{spacechase0.JsonAssets/ObjectId:Crab Roll}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "George", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Avocado Eel Roll}} {{spacechase0.JsonAssets/ObjectId:Crab Roll}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Evelyn", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Avocado Eel Roll}} {{spacechase0.JsonAssets/ObjectId:Crab Roll}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.morefood": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - More Recipes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Elliott", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Avocado Eel Roll}} {{spacechase0.JsonAssets/ObjectId:Crab Roll}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.morefood": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},
+
+// GIFT REJECTION
+
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - More Recipes Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex, Characters/Dialogue/George, Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Avocado Eel Roll}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Crab Roll}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.morefood": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - More Recipes Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Avocado Eel Roll}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Crab Roll}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.morefood": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		}
+	]
+}

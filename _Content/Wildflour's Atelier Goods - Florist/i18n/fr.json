@@ -1,0 +1,675 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+    "atelierfloral_FlowerStation.name": "Atelier de fleuriste",
+	"atelierfloral_FlowerStation.description": "Réunit 5 fleurs en un bouquet.",
+
+    "atelierfloral_FragranceStation.name":"Orgue à parfums",
+    "atelierfloral_FragranceStation.description":"Transforme les fleurs en eau de toilette et les fleurs séchées en encens.",
+
+    "atelierfloral_CandleStation.name": "Baril de cire",
+	"atelierfloral_CandleStation.description": "Transforme les fleurs en savons et les fleurs séchées en bougies. Nécessite des rayons de ruche.",
+
+///////////////////////
+// GENERIC ITEMS NEW //
+///////////////////////
+
+    "atelierfloral_dried_flowers.name": "séché(e)s",
+    "atelierfloral_dried_flowers.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+    "atelierfloral_flower_bouquet.name": "en bouquet",
+    "atelierfloral_flower_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_flower_perfume.name": "en eau de toilette",
+    "atelierfloral_flower_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_flower_soap.name": "en savon de luxe",
+    "atelierfloral_flower_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_flower_candles.name": "en bougies parfumées",
+    "atelierfloral_flower_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_flower_incense.name": "en encens",
+    "atelierfloral_flower_incense.description": "On le brûle pour accompagner la méditation.",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierfloral_dried_flowers": "Séchées {0}",
+"atelierfloral_flower_bouquet": "{0} Bouquet",
+"atelierfloral_flower_perfume": "{0} Eau de Toilette",
+"atelierfloral_flower_soap": "{0} savon de Luxe",
+"atelierfloral_flower_candles": "{0} Bougies Parfumées",
+"atelierfloral_flower_incense": "{0} Encens",
+
+//////////////////////////////
+// MODDED SUPPORT ITEMS NEW //
+//////////////////////////////
+
+"atelierfloral_dried_gardenias.name": "Gardénias séchés",
+"atelierfloral_dried_gardenias.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_gardenia_bouquet.name": "Bouquet de gardénia",
+"atelierfloral_gardenia_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_gardenia_perfume.name": "Eau de toilette au gardénia",
+"atelierfloral_gardenia_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_gardenia_soap.name": "Savon de luxe au gardénia",
+"atelierfloral_gardenia_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_gardenia_candles.name": "Bougies parfumées au gardénia",
+"atelierfloral_gardenia_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_gardenia_incense.name": "Encens au gardénia",
+"atelierfloral_gardenia_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec du gardénia pour être en phase avec ses émotions.",
+
+"atelierfloral_dried_hibiscus.name": "Hibiscus séchés",
+"atelierfloral_dried_hibiscus.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_hibiscus_bouquet.name": "Bouquet d'hibiscus",
+"atelierfloral_hibiscus_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_hibiscus_perfume.name": "Eau de toilette à l'hibiscus",
+"atelierfloral_hibiscus_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_hibiscus_soap.name": "Savon de luxe à l'hibiscus",
+"atelierfloral_hibiscus_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_hibiscus_candles.name": "Bougies parfumées à l'hibiscus",
+"atelierfloral_hibiscus_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_hibiscus_incense.name": "Encens à l'hibiscus",
+"atelierfloral_hibiscus_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de l'hibiscus pour vous transporter sur la plage.",
+
+"atelierfloral_dried_freesia.name": "Freesias séchés",
+"atelierfloral_dried_freesia.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_freesia_bouquet.name": "Bouquet de freesia",
+"atelierfloral_freesia_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_freesia_perfume.name": "Eau de toilette au freesia",
+"atelierfloral_freesia_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_freesia_soap.name": "Savon de luxe au freesia",
+"atelierfloral_freesia_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_freesia_candles.name": "Bougies parfumées au freesia",
+"atelierfloral_freesia_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_freesia_incense.name": "Encens au freesia",
+"atelierfloral_freesia_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec du freesia pour embaumer l'atmosphère.",
+
+"atelierfloral_dried_peony.name": "Pivoines séchées",
+"atelierfloral_dried_peony.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_peony_bouquet.name": "Bouquet de pivoines",
+"atelierfloral_peony_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_peony_perfume.name": "Eau de toilette à la pivoine",
+"atelierfloral_peony_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_peony_soap.name": "Savon de luxe à la pivoine",
+"atelierfloral_peony_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_peony_candles.name": "Bougies parfumées à la pivoine",
+"atelierfloral_peony_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_peony_incense.name": "Encens à la pivoine",
+"atelierfloral_peony_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la pivoine pour vous empêcher de rougir.",
+
+"atelierfloral_dried_snapdragon.name": "Gueules-de-loup séchées",
+"atelierfloral_dried_snapdragon.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_snapdragon_bouquet.name": "Bouquet de gueules-de-loup",
+"atelierfloral_snapdragon_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_snapdragon_perfume.name": "Eau de toilette à la gueule-de-loup",
+"atelierfloral_snapdragon_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_snapdragon_soap.name": "Savon de luxe à la gueule-de-loup",
+"atelierfloral_snapdragon_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_snapdragon_candles.name": "Bougies parfumées à la gueule-de-loup",
+"atelierfloral_snapdragon_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_snapdragon_incense.name": "Encens à la gueule-de-loup",
+"atelierfloral_snapdragon_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la gueule-de-loup pour contrôler ses désirs.",
+
+"atelierfloral_dried_calendula.name": "Soucis séchés",
+"atelierfloral_dried_calendula.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_calendula_bouquet.name": "Bouquet de soucis",
+"atelierfloral_calendula_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_calendula_perfume.name": "Eau de toilette au souci",
+"atelierfloral_calendula_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_calendula_soap.name": "Savon de luxe au souci",
+"atelierfloral_calendula_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_calendula_candles.name": "Bougies parfumées au souci",
+"atelierfloral_calendula_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_calendula_incense.name": "Encens au souci",
+"atelierfloral_calendula_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec du souci pour faire oublier les vôtres !",
+
+"atelierfloral_dried_hollyhock.name": "Passeroses séchées",
+"atelierfloral_dried_hollyhock.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_hollyhock_bouquet.name": "Bouquet de passeroses",
+"atelierfloral_hollyhock_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_hollyhock_perfume.name": "Eau de toilette à la passerose",
+"atelierfloral_hollyhock_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_hollyhock_soap.name": "Savon de luxe à la passerose",
+"atelierfloral_hollyhock_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_hollyhock_candles.name": "Bougies parfumées à la passerose",
+"atelierfloral_hollyhock_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_hollyhock_incense.name": "Encens à la passerose",
+"atelierfloral_hollyhock_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la passerose pour apaiser la colère.",
+
+"atelierfloral_dried_springpansy.name": "Pensées printanières séchées",
+"atelierfloral_dried_springpansy.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_springpansy_bouquet.name": "Bouquet de pensées printanières",
+"atelierfloral_springpansy_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_springpansy_perfume.name": "Eau de toilette à la pensée printanière",
+"atelierfloral_springpansy_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_springpansy_soap.name": "Savon de luxe à la pensée printanière",
+"atelierfloral_springpansy_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_springpansy_candles.name": "Bougies parfumées à la pensée printanière",
+"atelierfloral_springpansy_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_springpansy_incense.name": "Encens à la pensée printanière",
+"atelierfloral_springpansy_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec des pensées pour mieux se concentrer.",
+
+"atelierfloral_dried_cornflower.name": "Centaurées bleuet séchées",
+"atelierfloral_dried_cornflower.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_cornflower_bouquet.name": "Bouquet de centaurées bleuet",
+"atelierfloral_cornflower_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_cornflower_perfume.name": "Eau de toilette à la centaurée bleuet",
+"atelierfloral_cornflower_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_cornflower_soap.name": "Savon de luxe à la centaurée bleuet",
+"atelierfloral_cornflower_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_cornflower_candles.name": "Bougies parfumées à la centaurée bleuet",
+"atelierfloral_cornflower_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_cornflower_incense.name": "Encens à la centaurée bleuet",
+"atelierfloral_cornflower_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la centaurée pour invoquer la richesse.",
+
+"atelierfloral_dried_iris.name": "Iris séchés",
+"atelierfloral_dried_iris.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_iris_bouquet.name": "Bouquet d'iris",
+"atelierfloral_iris_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_iris_perfume.name": "Eau de toilette à l'iris",
+"atelierfloral_iris_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_iris_soap.name": "Savon de luxe à l'iris",
+"atelierfloral_iris_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_iris_candles.name": "Bougies parfumées à l'iris",
+"atelierfloral_iris_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_iris_incense.name": "Encens à l'iris",
+"atelierfloral_iris_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de l'iris pour invoquer un arc-en-ciel.",
+
+"atelierfloral_dried_cosmos.name": "Cosmos séchés",
+"atelierfloral_dried_cosmos.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_cosmos_bouquet.name": "Bouquet de cosmos",
+"atelierfloral_cosmos_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_cosmos_perfume.name": "Eau de toilette au cosmos",
+"atelierfloral_cosmos_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_cosmos_soap.name": "Savon de luxe au cosmos",
+"atelierfloral_cosmos_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_cosmos_candles.name": "Bougies parfumées au cosmos",
+"atelierfloral_cosmos_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_cosmos_incense.name": "Encens au cosmos",
+"atelierfloral_cosmos_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec du cosmos.",
+
+"atelierfloral_dried_primrose.name": "Onagres séchées",
+"atelierfloral_dried_primrose.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_primrose_bouquet.name": "Bouquet d'onagres",
+"atelierfloral_primrose_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_primrose_perfume.name": "Eau de toilette à l'onagre",
+"atelierfloral_primrose_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_primrose_soap.name": "Savon de luxe à l'onagre",
+"atelierfloral_primrose_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_primrose_candles.name": "Bougies parfumées à l'onagre",
+"atelierfloral_primrose_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_primrose_incense.name": "Encens à l'onagre",
+"atelierfloral_primrose_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de l'onagre pour apaiser le rhume.",
+
+"atelierfloral_dried_pixiebell.name": "Campanules carillon séchées",
+"atelierfloral_dried_pixiebell.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_pixiebell_bouquet.name": "Bouquet de campanules carillon",
+"atelierfloral_pixiebell_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_pixiebell_perfume.name": "Eau de toilette à la campanule carillon",
+"atelierfloral_pixiebell_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_pixiebell_soap.name": "Savon de luxe à la campanule carillon",
+"atelierfloral_pixiebell_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_pixiebell_candles.name": "Bougies parfumées à la campanule carillon",
+"atelierfloral_pixiebell_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_pixiebell_incense.name": "Encens à la campanule carillon",
+"atelierfloral_pixiebell_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la campanule pour entendre les rires des fées.",
+
+"atelierfloral_dried_pinkmorningglory.name": "Ipomées roses séchées",
+"atelierfloral_dried_pinkmorningglory.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_pinkmorningglory_bouquet.name": "Bouquet d'ipomées roses",
+"atelierfloral_pinkmorningglory_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_pinkmorningglory_perfume.name": "Eau de toilette à l'ipomée rose",
+"atelierfloral_pinkmorningglory_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_pinkmorningglory_soap.name": "Savon de luxe à l'ipomée rose",
+"atelierfloral_pinkmorningglory_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_pinkmorningglory_candles.name": "Bougies parfumées à l'ipomée rose",
+"atelierfloral_pinkmorningglory_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_pinkmorningglory_incense.name": "Encens à l'ipomée rose",
+"atelierfloral_pinkmorningglory_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de l'ipomée pour faire des rêves divinatoires.",
+
+"atelierfloral_dried_sweetpea.name": "Pois de senteur séchés",
+"atelierfloral_dried_sweetpea.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+"atelierfloral_sweetpea_bouquet.name": "Bouquet de pois de senteur",
+"atelierfloral_sweetpea_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+"atelierfloral_sweetpea_perfume.name": "Eau de toilette au pois de senteur",
+"atelierfloral_sweetpea_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+"atelierfloral_sweetpea_soap.name": "Savon de luxe au pois de senteur",
+"atelierfloral_sweetpea_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+"atelierfloral_sweetpea_candles.name": "Bougies parfumées au pois de senteur",
+"atelierfloral_sweetpea_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+"atelierfloral_sweetpea_incense.name": "Encens au pois de senteur",
+"atelierfloral_sweetpea_incense.description": "On le brûle pour accompagner la méditation. Celui-ci est parfumé avec des pois de senteur pour mettre de bonne humeur.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfloral_FlowerStation_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierfloral_FlowerStation_InvalidCount.message": "Nécessite 5 fleurs",
+
+"atelierfloral_FragranceStation_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierfloral_FragranceStation_InvalidCount.message": "Nécessite plus d'objets",    
+
+"atelierfloral_CandleStation_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierfloral_CandleStation_InvalidCount.message": "Nécessite 1 rayon de ruche",    
+
+	
+//INCENSE
+
+	"atelierfloral_autumn_incense.name":"Encens de l'automne",
+	"atelierfloral_autumn_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec des fleurs d'automne pour annoncer la nouvelle saison.",
+
+	"atelierfloral_chamomile_incense.name":"Encens du bonheur",
+	"atelierfloral_chamomile_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la camomille pour procurer paix et joie.",
+
+	"atelierfloral_chiffon_incense.name":"Encens d'harmonie",
+	"atelierfloral_chiffon_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de l'organdi bleu pour rééquilibrer les sens.",
+
+	"atelierfloral_daisy_incense.name":"Encens d'espérance",
+	"atelierfloral_daisy_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec des géraniums pour procurer espoir et protection.",
+
+	"atelierfloral_jasmine_incense.name":"Encens de méditation",
+	"atelierfloral_jasmine_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec du jasmin pour approfondir les pensées.",
+
+	"atelierfloral_lavender_incense.name":"Encens de sérénité",
+	"atelierfloral_lavender_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la lavande pour ses effets apaisants.",
+
+	"atelierfloral_lily_incense.name":"Encens de protection",
+	"atelierfloral_lily_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec du lys pour protéger des mauvais sorts.",
+
+	"atelierfloral_mugwort_incense.name":"Encens divinatoire",
+	"atelierfloral_mugwort_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de l'armoise pour ses propriétés magiques.",
+
+	"atelierfloral_pixie_incense.name":"Encens d'inspiration",
+	"atelierfloral_pixie_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec du souffle de fée, qui favorise la créativité.",
+
+	"atelierfloral_quartz_primrose_incense.name":"Encens salvateur",
+	"atelierfloral_quartz_primrose_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la primerose, qui amplifie les énergies positives.",
+
+	"atelierfloral_mysteria_incense.name":"Encens du secret",
+	"atelierfloral_mysteria_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec la fleur de mystycine, qui procure prospérité et bonheur.",
+
+	"atelierfloral_spring_incense.name":"Encens du printemps",
+	"atelierfloral_spring_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec des fleurs printanières pour célébrer la nouvelle année.",
+
+	"atelierfloral_summer_incense.name":"Encens de l'été",
+	"atelierfloral_summer_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec des fleurs d'été pour annoncer la nouvelle saison.",
+
+	"atelierfloral_thistle_incense.name":"Encens de noblesse",
+	"atelierfloral_thistle_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec du chardon, symbole d'humilité et de protection.",
+
+	"atelierfloral_valerian_incense.name":"Encens des rêves",
+	"atelierfloral_valerian_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la valériane pour approfondir le sommeil.",
+
+	"atelierfloral_vanilla_incense.name":"Encens du foyer",
+	"atelierfloral_vanilla_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la vanille pour ses effets apaisants.",
+
+	"atelierfloral_violet_incense.name":"Encens de la tendresse",
+	"atelierfloral_violet_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de la violette, symbole d'amour et de fertilité.",
+
+	"atelierfloral_winter_incense.name":"Encens d'hiver",
+	"atelierfloral_winter_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec des fleurs hivernales pour célébrer l'année qui s'achève.",
+
+	"atelierfloral_yarrow_incense.name":"Encens de courage",
+	"atelierfloral_yarrow_incense.description":"On le brûle pour accompagner la méditation. Celui-ci est parfumé avec de l'achillée, ce qui procure bravoure et santé.",
+
+
+//DRIED ITEMS
+
+	"atelierfloral_dried_geranium.name": "Géraniums séchés",
+	"atelierfloral_dried_geranium.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_snapdragon.name": "Mufliers séchés",
+	"atelierfloral_dried_snapdragon.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_avalune.name": "Lupin séché",
+	"atelierfloral_dried_avalune.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_bluechiffon.name": "Pivoines séchées",
+	"atelierfloral_dried_bluechiffon.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_chamomile.name": "Camomille séchée",
+	"atelierfloral_dried_chamomile.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_daisy.name": "Pâquerettes séchées",
+	"atelierfloral_dried_daisy.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_dawn_lily.name": "Lys d'une aube séché",
+	"atelierfloral_dried_dawn_lily.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_dusk_lily.name": "Lys d'un soir séché",
+	"atelierfloral_dried_dusk_lily.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_crocus.name": "Crocus séchés",
+	"atelierfloral_dried_crocus.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_fairy_rose.name": "Roses féériques séchées",
+	"atelierfloral_dried_fairy_rose.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_jazz.name": "Zinnias bleues séchées",
+	"atelierfloral_dried_jazz.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_mallow.name": "Guimauves séchées",
+	"atelierfloral_dried_mallow.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_puffball.name": "Pompons de lutin séchés",
+	"atelierfloral_dried_puffball.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_jasmine.name": "Jasmin séché",
+	"atelierfloral_dried_jasmine.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_lavender.name": "Lavande séchée",
+	"atelierfloral_dried_lavender.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_mysteria.name": "Mystycine séchée",
+	"atelierfloral_dried_mysteria.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_violet.name": "Violettes séchées",
+	"atelierfloral_dried_violet.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_moon_maiden.name": "Belles de lune séchées",
+	"atelierfloral_dried_moon_maiden.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_mugwort.name": "Armoise séchée",
+	"atelierfloral_dried_mugwort.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_pixiesbreath.name": "Souffle de fée séché",
+	"atelierfloral_dried_pixiesbreath.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_quartz_primrose.name": "Primeroses séchées",
+	"atelierfloral_dried_quartz_primrose.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_poppy.name": "Pavots séché",
+	"atelierfloral_dried_poppy.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_sakura.name": "Fleurs de cerisier séchées",
+	"atelierfloral_dried_sakura.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_spangle.name": "Fleurs d'été séchées",
+	"atelierfloral_dried_spangle.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_sunflower.name": "Tournesols séchés",
+	"atelierfloral_dried_sunflower.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_thistle.name": "Chardons séchés",
+	"atelierfloral_dried_thistle.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_tulip.name": "Tulipes séchées",
+	"atelierfloral_dried_tulip.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_valerian.name": "Valériane séchée",
+	"atelierfloral_dried_valerian.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_vanilla.name": "Orchidées de vanille séchées",
+	"atelierfloral_dried_vanilla.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+	"atelierfloral_dried_yarrow.name": "Achillée séchée",
+	"atelierfloral_dried_yarrow.description": "Un bouquet de fleurs séchées. Il peut se conserver des mois, voire des années.",
+
+
+//////////////
+// BOUQUETS //
+//////////////
+
+    "atelierfloral_jazz_bouquet.name": "Bouquet de zinnias bleues",
+    "atelierfloral_jazz_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_vanilla_bouquet.name": "Bouquet d'orchidées de Calico",
+    "atelierfloral_vanilla_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_fairy_bouquet.name": "Bouquet de roses féeriques",
+    "atelierfloral_fairy_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_chamomile_bouquet.name": "Bouquet de camomille sylvestre",
+    "atelierfloral_chamomile_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_lavender_bouquet.name": "Bouquet de lavande sylvestre",
+    "atelierfloral_lavender_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_jasmine_bouquet.name": "Bouquet de jasmin des Gemmes",
+    "atelierfloral_jasmine_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_mallow_bouquet.name": "Bouquet de guimauves",
+    "atelierfloral_mallow_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_poppy_bouquet.name": "Bouquet de pavots",
+    "atelierfloral_poppy_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_sakura_bouquet.name": "Bouquet de fleurs de cerisier",
+    "atelierfloral_sakura_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_spangle_bouquet.name": "Bouquet de fleurs tropicales",
+    "atelierfloral_spangle_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_sunflower_bouquet.name": "Bouquet de tournesols",
+    "atelierfloral_sunflower_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+    "atelierfloral_tulip_bouquet.name": "Bouquet de tulipes",
+    "atelierfloral_tulip_bouquet.description": "Un magnifique bouquet de fleurs joliment composé.",
+
+/////////////
+// PERFUME //
+/////////////
+
+    "atelierfloral_jazz_perfume.name": "Eau de toilette à la zinnia bleue",
+    "atelierfloral_jazz_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_vanilla_perfume.name": "Eau de toilette à la vanille",
+    "atelierfloral_vanilla_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_fairy_perfume.name": "Eau de toilette à la rose féérique",
+    "atelierfloral_fairy_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_chamomile_perfume.name": "Eau de toilette à la camomille sylvestre",
+    "atelierfloral_chamomile_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_lavender_perfume.name": "Eau de toilette à la lavande sylvestre",
+    "atelierfloral_lavender_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_jasmine_perfume.name": "Eau de toilette au jasmin des Gemmes",
+    "atelierfloral_jasmine_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_mallow_perfume.name": "Eau de toilette à la guimauve",
+    "atelierfloral_mallow_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_poppy_perfume.name": "Eau de toilette au pavot",
+    "atelierfloral_poppy_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_sakura_perfume.name": "Eau de toilette Sakura",
+    "atelierfloral_sakura_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_spangle_perfume.name": "Eau de toilette à la fleur tropicale",
+    "atelierfloral_spangle_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_sunflower_perfume.name": "Eau de toilette au tournesol",
+    "atelierfloral_sunflower_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+    "atelierfloral_tulip_perfume.name": "Eau de toilette à la tulipe",
+    "atelierfloral_tulip_perfume.description": "Un parfum léger et délicat créé à partir de fleurs distillées.",
+
+//////////
+// SOAP //
+//////////
+
+    "atelierfloral_jazz_soap.name": "Savon de luxe à la zinnia bleue",
+    "atelierfloral_jazz_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_vanilla_soap.name": "Savon de luxe à la vanille de Calico",
+    "atelierfloral_vanilla_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_fairy_soap.name": "Savon de luxe à la rose féérique",
+    "atelierfloral_fairy_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_chamomile_soap.name": "Savon de luxe à la camomille sylvestre",
+    "atelierfloral_chamomile_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_lavender_soap.name": "Savon de luxe à la lavande sylvestre",
+    "atelierfloral_lavender_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_jasmine_soap.name": "Savon de luxe au jasmin des Gemmes",
+    "atelierfloral_jasmine_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_mallow_soap.name": "Savon de luxe à la guimauve",
+    "atelierfloral_mallow_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_poppy_soap.name": "Savon de luxe au pavot",
+    "atelierfloral_poppy_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_sakura_soap.name": "Savon de luxe Sakura",
+    "atelierfloral_sakura_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_spangle_soap.name": "Savon de luxe à la fleur tropicale",
+    "atelierfloral_spangle_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_sunflower_soap.name": "Savon de luxe au tournesol",
+    "atelierfloral_sunflower_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+    "atelierfloral_tulip_soap.name": "Savon de luxe à la tulipe",
+    "atelierfloral_tulip_soap.description": "Une barre de savon qui laisse les mains délicatement parfumées.",
+
+
+/////////////
+// CANDLES //
+/////////////
+
+    "atelierfloral_jazz_candles.name": "Bougies parfumées à la zinnia bleue",
+    "atelierfloral_jazz_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_vanilla_candles.name": "Bougies parfumées à la vanille",
+    "atelierfloral_vanilla_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_fairy_candles.name": "Bougies parfumées à la rose féérique",
+    "atelierfloral_fairy_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_chamomile_candles.name": "Bougies parfumées à la camomille",
+    "atelierfloral_chamomile_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_lavender_candles.name": "Bougies parfumées à la lavande",
+    "atelierfloral_lavender_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_jasmine_candles.name": "Bougies parfumées au jasmin",
+    "atelierfloral_jasmine_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_mallow_candles.name": "Bougies parfumées à la guimauve",
+    "atelierfloral_mallow_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_poppy_candles.name": "Bougies parfumées au pavot",
+    "atelierfloral_poppy_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_sakura_candles.name": "Bougies parfumées Sakura",
+    "atelierfloral_sakura_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_spangle_candles.name": "Bougies parfumées à la fleur tropicale",
+    "atelierfloral_spangle_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_sunflower_candles.name": "Bougies parfumée au tournesol",
+    "atelierfloral_sunflower_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+    "atelierfloral_tulip_candles.name": "Bougies parfumées à la tulipe",
+    "atelierfloral_tulip_candles.description": "Un trio de jolies bougies parfumées aux fleurs séchées.",
+
+
+//////////
+// MAIL //
+//////////
+
+    "atelierfloral_FlowerStationRecipe.name":"Pour notre fleuriste en herbe",
+    "atelierfloral_FlowerStationRecipe.text":"@, ^^ Je pensais à toi car Jas m'a encore apporté une brassée de fleurs hier... Je ne savais plus quoi en faire jusqu'à ce que je commence à en faire des savons et des bougies parfumées.^ Avec tout ce qui pousse dans ton jardin, tu peux en faire une activité rémunératrice !^^ - Marnie",
+
+    "atelierfloral_FragranceStationRecipe.name":"Parfums de fleurs à toute heure",
+    "atelierfloral_FragranceStationRecipe.text":"Salut @, ^^ J'ai découpé ça dans un de mes magazines. C'est super tendance de fabriquer ses propres parfums en ce moment ! Ça marchera peut-être avec les fleurs de ta ferme ?^^ - Haley",
+
+    "atelierfloral_BouquetStationRecipe.name":"Composition de fleurs",
+    "atelierfloral_BouquetStationRecipe.text":"Bonjour mon petit, ^^ Je te vois souvent dans le village lorsque je m'occupe des parterres de fleurs. Mais j'aime aussi faire des bouquets. Après tout, c'est moi qui fais la couronne de la Reine des Fleurs chaque année !^ Avec ce plan d'atelier, tu pourras toi aussi faire de belles compositions.^^ Prends soin de toi,^ - Evelyn",
+
+    "atelierfloral_jas_gift.name":"Fleurs des bois",
+    "atelierfloral_jas_gift.text":"Bonjour @, ^^ Tante Marnie t'a envoyé une lettre sur les fleurs et je voulais t'en écrire une aussi ! Nous avons trouvé ensemble ces jolies fleurs dans la forêt et elle a dit que ça te ferait plaisir d'en avoir. Alors voilà !^^ Bisous,^ - Jas",
+
+    "atelierfloral_sandy_gift.name":"Des fleurs... exotiques",
+    "atelierfloral_sandy_gift.text":"Hello mon chou, ^^ Comment se passe la floriculture ? J'aimerais bien voir plus de fleurs pousser à Calico, mais le climat est rude dans le désert...^ Un ami de l'archipel des Gemmes m'a envoyé celles-ci. Tu pourrais en faire pousser dans ta serre, qui sait.^^ Bises,^ - Sandy",
+
+    "atelierfloral_emily_gift.name":"Allons voir si la rose...",
+    "atelierfloral_emily_gift.text":"Coucou @, ^^ Evelyn m'a dit qu'elle t'encourageait à te lancer dans l'élaboration de bouquets de fleurs ! Que penses-tu d'essayer avec des roses féeriques ?^^ Bisous,^ - Emily",
+
+}

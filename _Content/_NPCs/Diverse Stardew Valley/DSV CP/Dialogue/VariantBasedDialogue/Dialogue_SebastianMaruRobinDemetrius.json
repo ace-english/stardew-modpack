@@ -1,0 +1,453 @@
+{
+    "Changes":
+    [    
+		
+//
+///////////// SEBASTIAN /////////////
+//
+		
+// VIETNAMESE SEBASTIAN
+
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Vietnamese (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": 
+			{
+				"Spring_1": "{{i18n:DSV.Dialogue.Daily.Sebastian.Modded.Spring_1}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SebastianDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:SebastianVariant |contains= ModdedBlack, ModdedPurple": true
+            }
+		},   
+		
+// NONBINARY SEBASTIAN
+
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Nonbinary (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": 
+			{
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.Introduction}}",
+				"Fri6": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.Fri6}}",
+				"Tue8": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.Tue8}}",
+				"summer_Thu4": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.summer_Thu4}}",
+				"summer_Sat8": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.summer_Sat8}}",
+				"fall_Fri4": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.fall_Fri4}}",
+				"fall_Tue6": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.fall_Tue6}}",
+				"winter_Mon4": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.winter_Mon4}}",
+				"winter_Tue8": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.winter_Tue8}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SebastianDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true
+            }
+		},
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Nonbinary (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+			"Entries": 
+			{
+				"OneKid_0": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.Married.OneKid_0}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SebastianDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true
+            }
+		},
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Nonbinary (Festivals)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24, Data/Festivals/summer28",
+			"Entries": 
+			{
+				"Sebastian": "{{i18n:DSV.Dialogue.Daily.Sebastian.Nonbinary.{{TargetWithoutPath}}}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SebastianDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"FestivalDialogueRandomToken |contains= 1": true
+            }
+		},
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Nonbinary (RSV-SBV Nonbinary Stall)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"Entries": 
+			{
+				"Sebastian": "{{i18n: DSV.Dialogue.Daily.Sebastian.Nonbinary.RSVSBVStall}}",
+				"Sebastian_spouse": "{{i18n: DSV.Dialogue.Daily.Sebastian.Married.Nonbinary.RSVSBVStall}}"
+			},
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true,
+				"HasMod |contains= skellady.SBVCP": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian": "True"
+			}
+		},  
+		
+// NONBINARY ABIGAIL
+
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Nonbinary Abigail (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": 
+			{
+				"winter_Wed10": "{{i18n:DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.winter_Wed10.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SebastianDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		}, 
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Nonbinary Abigail (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": 
+			{
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.Introduction}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SebastianDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= False": true
+            }
+		}, 
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Nonbinary Abigail (EggFest 1, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{
+				"Sebastian": "{{i18n:DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.EggFestival.2-3.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SebastianDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Hearts:Sebastian": "2, 3"
+            }
+		}, 
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Nonbinary Abigail (EggFest 2, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{
+				"Sebastian": "{{i18n:DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.EggFestival.4-5.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SebastianDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Hearts:Sebastian": "4, 5"
+            }
+		}, 
+		{
+			"LogName": "Sebastian Variant-Based Dialogue - Nonbinary Abigail (FlowerDance, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Sebastian": "{{i18n:DSV.Dialogue.Daily.Sebastian.NonbinaryAbigail.FlowerDance.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SebastianDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Hearts:Sebastian": "4, 5"
+            }
+		}, 
+		
+//
+///////////// MARU /////////////
+//
+		
+// NONBINARY SEBASTIAN
+
+		{
+			"LogName": "Maru Variant-Based Dialogue - Nonbinary Sebastian (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": 
+			{
+				"summer_Tue": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.summer_Tue}}",
+				"summer_Tue4": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.summer_Tue4}}",
+				"summer_20": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.summer_20}}",
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.Introduction}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:MaruDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true
+            }
+		},   
+		{
+			"LogName": "Maru Variant-Based Dialogue - Nonbinary Sebastian (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": 
+			{
+				"summer_Fri4": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.summer_Fri4.CanonFriendlyDialogue}}",
+				"fall_Mon_inlaw_Sebastian": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.fall_Mon_inlaw_Sebastian.CanonFriendlyDialogue}}",
+				"winter_Thu4": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.winter_Thu4.CanonFriendlyDialogue}}",
+				"winter_Thu6": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.winter_Thu6.CanonFriendlyDialogue}}",
+				"winter_Thu8": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.winter_Thu8.CanonFriendlyDialogue}}",
+				"winter_Thu4_inlaw_Sebastian": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.winter_Thu4_inlaw_Sebastian.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:MaruDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},    
+		{
+			"LogName": "Maru Variant-Based Dialogue - Nonbinary Sebastian (CFDE)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{
+				"Maru": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.IceFestival.CanonFriendlyDialogue}}",
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:MaruDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": false
+            }
+		},    
+		{
+			"LogName": "Maru Variant-Based Dialogue - Nonbinary Sebastian (Luau, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{
+				"Maru": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.Luau.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:MaruDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Hearts:Maru": "2, 3"
+            }
+		},   
+		{
+			"LogName": "Maru Variant-Based Dialogue - Nonbinary Sebastian (SpiritsEve, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{
+				"Maru": "{{i18n:DSV.Dialogue.Daily.Maru.NonbinarySebastian.SpiritsEve.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:MaruDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Hearts:Maru": "6, 7, 8, 9, 10"
+            }
+		},  
+		
+//
+///////////// ROBIN /////////////
+//
+		
+// VIETNAMESE ROBIN
+
+		{
+			"LogName": "Robin Variant-Based Dialogue - Vietnamese (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": 
+			{
+				"Spring_1": "{{i18n:DSV.Dialogue.Daily.Robin.Modded.Spring_1}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:RobinDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:RobinVariant |contains= Modded": true
+            }
+		},   
+		{
+			"LogName": "Robin Variant-Based Dialogue - Vietnamese (Rainy)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": 
+			{
+				"Robin": "{{i18n:DSV.Dialogue.Daily.Robin.Modded.Rain}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:RobinDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:RobinVariant |contains= Modded": true
+            }
+		}, 
+		
+// NONBINARY SEBASTIAN
+
+		{
+			"LogName": "Robin Variant-Based Dialogue - Nonbinary Sebastian (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": 
+			{
+				"Fri": "{{i18n:DSV.Dialogue.Daily.Robin.NonbinarySebastian.Fri}}",
+				"Fri_inlaw_Sebastian": "{{i18n:DSV.Dialogue.Daily.Robin.NonbinarySebastian.Fri_inlaw_Sebastian}}",
+				"Fri4": "{{i18n:DSV.Dialogue.Daily.Robin.NonbinarySebastian.Fri4}}",
+				"Fri4_inlaw_Sebastian": "{{i18n:DSV.Dialogue.Daily.Robin.NonbinarySebastian.Fri4_inlaw_Sebastian}}",
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:RobinDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true
+            }
+		},  
+		{
+			"LogName": "Robin Variant-Based Dialogue - Nonbinary Sebastian (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": 
+			{
+				"Thu8": "{{i18n:DSV.Dialogue.Daily.Robin.NonbinarySebastian.Thu8.CanonFriendlyDialogue}}",
+				"Sat4": "{{i18n:DSV.Dialogue.Daily.Robin.NonbinarySebastian.Sat4.CanonFriendlyDialogue}}",
+				"summer_Sat10": "{{i18n:DSV.Dialogue.Daily.Robin.NonbinarySebastian.summer_Sat10.CanonFriendlyDialogue}}",
+				"winter_Tue10": "{{i18n:DSV.Dialogue.Daily.Robin.NonbinarySebastian.winter_Tue10.CanonFriendlyDialogue}}",
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:RobinDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},  
+		
+// MODDED LINUS
+
+		{
+			"LogName": "Robin Variant-Based Dialogue - Modded Linus (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": 
+			{
+				"fall_Fri": "{{i18n:DSV.Dialogue.Daily.Robin.ModdedLinus.fall_Fri}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:RobinDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:LinusVariant |contains= Modded": true
+            }
+		},    
+		
+//
+///////////// DEMETRIUS /////////////
+//
+		
+// ALBINO DEMETRIUS
+
+		{
+			"LogName": "Demetrius Variant-Based Dialogue - Albino (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": 
+			{
+				"Wed2": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.Wed2}}",
+				"Sun4": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.Sun4}}",
+				"summer_Sat2": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.summer_Sat2}}",
+				"summer_Wed4": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.summer_Wed4}}",
+				"fall_Mon4": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.fall_Mon4}}",
+				"fall_Wed6": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.fall_Wed6}}",
+				"winter_Thu4": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.winter_Thu4}}",
+				"winter_Sun6": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.winter_Sun6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:DemetriusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:DemetriusVariant |contains= ModdedAlbino": true
+            }
+		},   
+		{
+			"LogName": "Demetrius Variant-Based Dialogue - Albino (Festivals)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28, Data/Festivals/winter25",
+			"Entries": 
+			{
+				"Demetrius": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.{{TargetWithoutPath}}}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:DemetriusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:DemetriusVariant |contains= ModdedAlbino": true,
+				"FestivalDialogueRandomToken |contains= 1": true
+            }
+		},  
+		{
+			"LogName": "Demetrius Variant-Based Dialogue - Albino (Festivals, SWS)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": 
+			{
+				"Demetrius": "{{i18n:DSV.Dialogue.Daily.Demetrius.Albino.{{TargetWithoutPath}}.SWS}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:DemetriusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:DemetriusVariant |contains= ModdedAlbino": true,
+				"HasMod |contains= Airyn.CPSolsticeWinterStar": true,
+				"FestivalDialogueRandomToken |contains= 1": true
+            }
+		},
+		
+// NONBINARY SEBASTIAN
+
+		{
+			"LogName": "Demetrius Variant-Based Dialogue - Albino (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": 
+			{
+				"winter_Wed8": "{{i18n:DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.winter_Wed8}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:DemetriusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:DemetriusVariant |contains= ModdedAlbino": true
+            }
+		},   
+		{
+			"LogName": "Demetrius Variant-Based Dialogue - Albino (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": 
+			{
+				"Sun6": "{{i18n:DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.Sun6.CanonFriendlyDialogue}}",
+				"Sun_inlaw_Sebastian": "{{i18n:DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.Sun_inlaw_Sebastian.CanonFriendlyDialogue}}",
+				"Sun8": "{{i18n:DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.Sun8.CanonFriendlyDialogue}}",
+				"Sun10": "{{i18n:DSV.Dialogue.Daily.Demetrius.NonbinarySebastian.Sun10.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:DemetriusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		}, 
+    ]
+}

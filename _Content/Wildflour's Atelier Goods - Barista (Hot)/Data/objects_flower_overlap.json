@@ -1,0 +1,123 @@
+{
+    "Changes": [
+        
+    {
+        "LogName":"Add Atelier Tea Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+            "wildflour.atelierbarista_chamomile_sachet": {
+                "Name": "wildflour.atelierbarista_chamomile_sachet",
+                "DisplayName": "{{i18n:atelierbarista_chamomile_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_chamomile_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_dark_gold"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 4
+        },
+            "wildflour.atelierbarista_jasmine_sachet": {
+                "Name": "wildflour.atelierbarista_jasmine_sachet",
+                "DisplayName": "{{i18n:atelierbarista_jasmine_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_jasmine_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_jade"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 6
+        },
+            "wildflour.atelierbarista_grey_sachet": {
+                "Name": "wildflour.atelierbarista_grey_sachet",
+                "DisplayName": "{{i18n:atelierbarista_grey_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_grey_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_pale_violet"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 8
+        },
+            "wildflour.atelierbarista_chamomile_tea": {
+                "Name": "wildflour.atelierbarista_chamomile_tea",
+                "DisplayName": "{{i18n:atelierbarista_chamomile_tea.name}}",
+                "Description": "{{i18n:atelierbarista_chamomile_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_gold"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 36
+        },
+            "wildflour.atelierbarista_jasmine_tea": {
+                "Name": "wildflour.atelierbarista_jasmine_tea",
+                "DisplayName": "{{i18n:atelierbarista_jasmine_tea.name}}",
+                "Description": "{{i18n:atelierbarista_jasmine_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_jade"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 38
+        }, 
+            "wildflour.atelierbarista_grey_tea": {
+                "Name": "wildflour.atelierbarista_grey_tea",
+                "DisplayName": "{{i18n:atelierbarista_grey_tea.name}}",
+                "Description": "{{i18n:atelierbarista_grey_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_pale_violet"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 40
+        }
+    }
+    }
+
+    ]
+}

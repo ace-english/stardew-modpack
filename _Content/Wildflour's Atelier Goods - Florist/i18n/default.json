@@ -1,0 +1,697 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+    "atelierfloral_FlowerStation.name": "Flower Station",
+	"atelierfloral_FlowerStation.description": "Turns 5 flowers into a bouquet.",
+
+    "atelierfloral_FragranceStation.name":"Fragrance Station",
+    "atelierfloral_FragranceStation.description":"Turns flowers into perfume or dried flowers into incense",
+
+    "atelierfloral_CandleStation.name": "Wax Cauldron",
+	"atelierfloral_CandleStation.description": "Turns flowers into soap or dried flowers into candles. Requires Honeycomb to work.",
+
+///////////////////
+// GENERIC ITEMS //
+///////////////////
+
+    "atelierfloral_dried_flowers.name": "Dried Flowers",
+    "atelierfloral_dried_flowers.description": "Dried flowers, perfectly preserved.",
+
+    "atelierfloral_flower_bouquet.name": "Bouquet",
+    "atelierfloral_flower_bouquet.description": "A freshly arranged bouquet of flowers.",
+
+    "atelierfloral_flower_perfume.name": "Perfume",
+    "atelierfloral_flower_perfume.description": "Perfume made with fresh flowers.",
+
+    "atelierfloral_flower_soap.name": "Soap",
+    "atelierfloral_flower_soap.description": "Soap made with honeycomb and fresh flowers.",
+
+    "atelierfloral_flower_candles.name": "Candles",
+    "atelierfloral_flower_candles.description": "Hand-dipped candles scented with dried flowers.",
+
+    "atelierfloral_flower_incense.name": "Incense",
+    "atelierfloral_flower_incense.description": "Dried flowers made into a burnable incense.",
+
+/////////////////
+// NEWLY ADDED //
+/////////////////
+
+"atelierfloral_crocus_candles.name": "Festive Winter Candles",
+"atelierfloral_crocus_candles.description": "Hand-dipped candles scented with dried crocus.",
+
+"atelierfloral_daisy_candles.name": "Spring Meadow Candles",
+"atelierfloral_daisy_candles.description": "Hand-dipped candles scented with dried daisies.",
+
+"atelierfloral_thistle_candles.name": "Secret Forest Candles",
+"atelierfloral_thistle_candles.description": "Hand-dipped candles scented with dried thistle.",
+
+"atelierfloral_valerian_candles.name": "Quiet Peace Candles",
+"atelierfloral_valerian_candles.description": "Hand-dipped candles scented with dried valerian.",
+
+"atelierfloral_violet_candles.name": "Violet Candles",
+"atelierfloral_violet_candles.description": "Hand-dipped candles scented with dried violets.",
+
+"atelierfloral_yarrow_candles.name": "Witch's Candles",
+"atelierfloral_yarrow_candles.description": "Hand-dipped candles scented with dried yarrow.",
+
+
+/////////////
+// STRINGS //
+/////////////
+
+    "atelierfloral_dried_flowers": "Dried {0}",
+    "atelierfloral_flower_bouquet": "{0} Bouquet",
+    "atelierfloral_flower_perfume": "{0} Perfume",
+    "atelierfloral_flower_soap": "{0} Soap",
+    "atelierfloral_flower_candles": "{0} Candles",
+    "atelierfloral_flower_incense": "{0} Incense",
+
+//////////////////////////
+// MODDED SUPPORT ITEMS //
+//////////////////////////
+
+"atelierfloral_dried_gardenia.name": "Dried Gardenia",
+"atelierfloral_dried_gardenia.description": "Dried gardenias, perfectly preserved.",
+
+"atelierfloral_gardenia_bouquet.name": "Gardenia Bouquet",
+"atelierfloral_gardenia_bouquet.description": "A freshly arranged bouquet of gardenias.",
+
+"atelierfloral_gardenia_perfume.name": "Gardenia Perfume",
+"atelierfloral_gardenia_perfume.description": "Perfume made with fresh gardenias.",
+
+"atelierfloral_gardenia_soap.name": "Gardenia Soap",
+"atelierfloral_gardenia_soap.description": "Soap made with honeycomb and fresh gardenias.",
+
+"atelierfloral_gardenia_candles.name": "Gardenia Candles",
+"atelierfloral_gardenia_candles.description": "Hand-dipped candles scented with dried gardenias.",
+
+"atelierfloral_gardenia_incense.name": "Gardenia Incense",
+"atelierfloral_gardenia_incense.description": "Dried gardenias made into a burnable incense.",
+
+"atelierfloral_dried_hibiscus.name": "Dried Hibiscus",
+"atelierfloral_dried_hibiscus.description": "Dried hibiscus, perfectly preserved.",
+
+"atelierfloral_hibiscus_bouquet.name": "Hibiscus Bouquet",
+"atelierfloral_hibiscus_bouquet.description": "A freshly arranged bouquet of hibiscus.",
+
+"atelierfloral_hibiscus_perfume.name": "Hibiscus Perfume",
+"atelierfloral_hibiscus_perfume.description": "Perfume made with fresh hibiscus.",
+
+"atelierfloral_hibiscus_soap.name": "Hibiscus Soap",
+"atelierfloral_hibiscus_soap.description": "Soap made with honeycomb and fresh hibiscus.",
+
+"atelierfloral_hibiscus_candles.name": "Hibiscus Candles",
+"atelierfloral_hibiscus_candles.description": "Hand-dipped candles scented with dried hibiscus.",
+
+"atelierfloral_hibiscus_incense.name": "Hibiscus Incense",
+"atelierfloral_hibiscus_incense.description": "Dried hibiscus made into a burnable incense.",
+
+"atelierfloral_dried_freesia.name": "Dried Freesia",
+"atelierfloral_dried_freesia.description": "Dried freesia, perfectly preserved.",
+
+"atelierfloral_freesia_bouquet.name": "Freesia Bouquet",
+"atelierfloral_freesia_bouquet.description": "A freshly arranged bouquet of freesia.",
+
+"atelierfloral_freesia_perfume.name": "Freesia Perfume",
+"atelierfloral_freesia_perfume.description": "Perfume made with fresh freesia.",
+
+"atelierfloral_freesia_soap.name": "Freesia Soap",
+"atelierfloral_freesia_soap.description": "Soap made with honeycomb and fresh freesia.",
+
+"atelierfloral_freesia_candles.name": "Freesia Candles",
+"atelierfloral_freesia_candles.description": "Hand-dipped candles scented with dried freesia.",
+
+"atelierfloral_freesia_incense.name": "Freesia Incense",
+"atelierfloral_freesia_incense.description": "Dried freesia made into a burnable incense.",
+
+"atelierfloral_dried_peony.name": "Dried Peony",
+"atelierfloral_dried_peony.description": "Dried peony, perfectly preserved.",
+
+"atelierfloral_peony_bouquet.name": "Peony Bouquet",
+"atelierfloral_peony_bouquet.description": "A freshly arranged bouquet of peonies.",
+
+"atelierfloral_peony_perfume.name": "Peony Perfume",
+"atelierfloral_peony_perfume.description": "Perfume made with fresh peonies.",
+
+"atelierfloral_peony_soap.name": "Peony Soap",
+"atelierfloral_peony_soap.description": "Soap made with honeycomb and fresh peonies.",
+
+"atelierfloral_peony_candles.name": "Peony Candles",
+"atelierfloral_peony_candles.description": "Hand-dipped candles scented with dried peonies.",
+
+"atelierfloral_peony_incense.name": "Peony Incense",
+"atelierfloral_peony_incense.description": "Dried peonies made into a burnable incense.",
+
+"atelierfloral_dried_snapdragon.name": "Dried Snapdragon",
+"atelierfloral_dried_snapdragon.description": "Dried snapdragon, perfectly preserved.",
+
+"atelierfloral_snapdragon_bouquet.name": "Snapdragon Bouquet",
+"atelierfloral_snapdragon_bouquet.description": "A freshly arranged bouquet of snapdragon.",
+
+"atelierfloral_snapdragon_perfume.name": "Snapdragon Perfume",
+"atelierfloral_snapdragon_perfume.description": "Perfume made with fresh snapdragon.",
+
+"atelierfloral_snapdragon_soap.name": "Snapdragon Soap",
+"atelierfloral_snapdragon_soap.description": "Soap made with honeycomb and fresh snapdragon.",
+
+"atelierfloral_snapdragon_candles.name": "Snapdragon Candles",
+"atelierfloral_snapdragon_candles.description": "Hand-dipped candles scented with dried snapdragon.",
+
+"atelierfloral_snapdragon_incense.name": "Snapdragon Incense",
+"atelierfloral_snapdragon_incense.description": "Dried snapdragon made into a burnable incense.",
+
+"atelierfloral_dried_calendula.name": "Dried Calendula",
+"atelierfloral_dried_calendula.description": "Dried calendula, perfectly preserved.",
+
+"atelierfloral_calendula_bouquet.name": "Calendula Bouquet",
+"atelierfloral_calendula_bouquet.description": "A freshly arranged bouquet of calendula.",
+
+"atelierfloral_calendula_perfume.name": "Calendula Perfume",
+"atelierfloral_calendula_perfume.description": "Perfume made with fresh calendula.",
+
+"atelierfloral_calendula_soap.name": "Calendula Soap",
+"atelierfloral_calendula_soap.description": "Soap made with honeycomb and fresh calendula.",
+
+"atelierfloral_calendula_candles.name": "Calendula Candles",
+"atelierfloral_calendula_candles.description": "Hand-dipped candles scented with dried calendula.",
+
+"atelierfloral_calendula_incense.name": "Calendula Incense",
+"atelierfloral_calendula_incense.description": "Dried calendula made into a burnable incense.",
+
+"atelierfloral_dried_hollyhock.name": "Dried hollyhock",
+"atelierfloral_dried_hollyhock.description": "Dried hollyhock, perfectly preserved.",
+
+"atelierfloral_hollyhock_bouquet.name": "Hollyhock Bouquet",
+"atelierfloral_hollyhock_bouquet.description": "A freshly arranged bouquet of hollyhock.",
+
+"atelierfloral_hollyhock_perfume.name": "Hollyhock Perfume",
+"atelierfloral_hollyhock_perfume.description": "Perfume made with fresh hollyhock.",
+
+"atelierfloral_hollyhock_soap.name": "Hollyhock Soap",
+"atelierfloral_hollyhock_soap.description": "Soap made with honeycomb and fresh hollyhock.",
+
+"atelierfloral_hollyhock_candles.name": "Hollyhock Candles",
+"atelierfloral_hollyhock_candles.description": "Hand-dipped candles scented with dried hollyhock.",
+
+"atelierfloral_hollyhock_incense.name": "Hollyhock Incense",
+"atelierfloral_hollyhock_incense.description": "Dried hollyhock made into a burnable incense.",
+
+"atelierfloral_dried_springpansy.name": "Dried Pansy",
+"atelierfloral_dried_springpansy.description": "Dried pansies, perfectly preserved.",
+
+"atelierfloral_springpansy_bouquet.name": "Spring Pansy Bouquet",
+"atelierfloral_springpansy_bouquet.description": "A freshly arranged bouquet of spring pansies.",
+
+"atelierfloral_springpansy_perfume.name": "Spring Pansy Perfume",
+"atelierfloral_springpansy_perfume.description": "Perfume made with fresh spring pansies.",
+
+"atelierfloral_springpansy_soap.name": "Spring Pansy Soap",
+"atelierfloral_springpansy_soap.description": "Soap made with honeycomb and fresh spring pansies.",
+
+"atelierfloral_springpansy_candles.name": "Spring Pansy Candles",
+"atelierfloral_springpansy_candles.description": "Hand-dipped candles scented with dried spring pansies.",
+
+"atelierfloral_springpansy_incense.name": "Spring Pansy Incense",
+"atelierfloral_springpansy_incense.description": "Dried spring pansies made into a burnable incense.",
+
+"atelierfloral_dried_cornflower.name": "Dried Cornflower",
+"atelierfloral_dried_cornflower.description": "Dried cornflowers, perfectly preserved.",
+
+"atelierfloral_cornflower_bouquet.name": "Cornflower Bouquet",
+"atelierfloral_cornflower_bouquet.description": "A freshly arranged bouquet of cornflowers.",
+
+"atelierfloral_cornflower_perfume.name": "Cornflower Perfume",
+"atelierfloral_cornflower_perfume.description": "Perfume made with fresh cornflowers.",
+
+"atelierfloral_cornflower_soap.name": "Cornflower Soap",
+"atelierfloral_cornflower_soap.description": "Soap made with honeycomb and fresh cornflowers.",
+
+"atelierfloral_cornflower_candles.name": "Cornflower Candles",
+"atelierfloral_cornflower_candles.description": "Hand-dipped candles scented with dried cornflowers.",
+
+"atelierfloral_cornflower_incense.name": "Cornflower Incense",
+"atelierfloral_cornflower_incense.description": "Dried cornflowers made into a burnable incense.",
+
+"atelierfloral_dried_iris.name": "Dried Iris",
+"atelierfloral_dried_iris.description": "Dried iris, perfectly preserved.",
+
+"atelierfloral_iris_bouquet.name": "Iris Bouquet",
+"atelierfloral_iris_bouquet.description": "A freshly arranged bouquet of iris.",
+
+"atelierfloral_iris_perfume.name": "Iris Perfume",
+"atelierfloral_iris_perfume.description": "Perfume made with fresh iris.",
+
+"atelierfloral_iris_soap.name": "Iris Soap",
+"atelierfloral_iris_soap.description": "Soap made with honeycomb and fresh iris.",
+
+"atelierfloral_iris_candles.name": "Iris Candles",
+"atelierfloral_iris_candles.description": "Hand-dipped candles scented with dried iris.",
+
+"atelierfloral_iris_incense.name": "Iris Incense",
+"atelierfloral_iris_incense.description": "Dried iris made into a burnable incense.",
+
+"atelierfloral_dried_cosmos.name": "Dried Cosmos",
+"atelierfloral_dried_cosmos.description": "Dried cosmos, perfectly preserved.",
+
+"atelierfloral_cosmos_bouquet.name": "Cosmos Bouquet",
+"atelierfloral_cosmos_bouquet.description": "A freshly arranged bouquet of cosmos.",
+
+"atelierfloral_cosmos_perfume.name": "Cosmos Perfume",
+"atelierfloral_cosmos_perfume.description": "Perfume made with fresh cosmos.",
+
+"atelierfloral_cosmos_soap.name": "Cosmos Soap",
+"atelierfloral_cosmos_soap.description": "Soap made with honeycomb and fresh cosmos.",
+
+"atelierfloral_cosmos_candles.name": "Cosmos Candles",
+"atelierfloral_cosmos_candles.description": "Hand-dipped candles scented with dried cosmos.",
+
+"atelierfloral_cosmos_incense.name": "Cosmos Incense",
+"atelierfloral_cosmos_incense.description": "Dried cosmos made into a burnable incense.",
+
+"atelierfloral_dried_primrose.name": "Dried Primrose",
+"atelierfloral_dried_primrose.description": "Dried primrose, perfectly preserved.",
+
+"atelierfloral_primrose_bouquet.name": "Primrose Bouquet",
+"atelierfloral_primrose_bouquet.description": "A freshly arranged bouquet of primrose.",
+
+"atelierfloral_primrose_perfume.name": "Primrose Perfume",
+"atelierfloral_primrose_perfume.description": "Perfume made with fresh primrose.",
+
+"atelierfloral_primrose_soap.name": "Primrose Soap",
+"atelierfloral_primrose_soap.description": "Soap made with honeycomb and fresh primrose.",
+
+"atelierfloral_primrose_candles.name": "Primrose Candles",
+"atelierfloral_primrose_candles.description": "Hand-dipped candles scented with dried primrose.",
+
+"atelierfloral_primrose_incense.name": "Primrose Incense",
+"atelierfloral_primrose_incense.description": "Dried primrose made into a burnable incense.",
+
+"atelierfloral_dried_pixiebell.name": "Dried Pixiebell",
+"atelierfloral_dried_pixiebell.description": "Dried pixiebell, perfectly preserved.",
+
+"atelierfloral_pixiebell_bouquet.name": "Pixiebell Bouquet",
+"atelierfloral_pixiebell_bouquet.description": "A freshly arranged bouquet of pixiebell.",
+
+"atelierfloral_pixiebell_perfume.name": "Pixiebell Perfume",
+"atelierfloral_pixiebell_perfume.description": "Perfume made with fresh pixiebell.",
+
+"atelierfloral_pixiebell_soap.name": "Pixiebell Soap",
+"atelierfloral_pixiebell_soap.description": "Soap made with honeycomb and fresh pixiebell.",
+
+"atelierfloral_pixiebell_candles.name": "Pixiebell Candles",
+"atelierfloral_pixiebell_candles.description": "Hand-dipped candles scented with dried pixiebell.",
+
+"atelierfloral_pixiebell_incense.name": "Pixiebell Incense",
+"atelierfloral_pixiebell_incense.description": "Dried pixiebell made into a burnable incense.",
+
+"atelierfloral_dried_pinkmorningglory.name": "Dried Pink Morning Glory",
+"atelierfloral_dried_pinkmorningglory.description": "Dried pink morning glory, perfectly preserved.",
+
+"atelierfloral_pinkmorningglory_bouquet.name": "Pink Morning Glory Bouquet",
+"atelierfloral_pinkmorningglory_bouquet.description": "A freshly arranged bouquet of pink morning glory.",
+
+"atelierfloral_pinkmorningglory_perfume.name": "Pink Morning Glory Perfume",
+"atelierfloral_pinkmorningglory_perfume.description": "Perfume made with fresh pink morning glory.",
+
+"atelierfloral_pinkmorningglory_soap.name": "Pink Morning Glory Soap",
+"atelierfloral_pinkmorningglory_soap.description": "Soap made with honeycomb and fresh pink morning glory.",
+
+"atelierfloral_pinkmorningglory_candles.name": "Pink Morning Glory Candles",
+"atelierfloral_pinkmorningglory_candles.description": "Hand-dipped candles scented with dried pink morning glory.",
+
+"atelierfloral_pinkmorningglory_incense.name": "Pink Morning Glory Incense",
+"atelierfloral_pinkmorningglory_incense.description": "Dried pink morning glory made into a burnable incense.",
+
+"atelierfloral_dried_sweetpea.name": "Dried Sweet Pea",
+"atelierfloral_dried_sweetpea.description": "Dried sweet pea, perfectly preserved.",
+
+"atelierfloral_sweetpea_bouquet.name": "Sweet Pea Bouquet",
+"atelierfloral_sweetpea_bouquet.description": "A freshly arranged bouquet of sweet pea.",
+
+"atelierfloral_sweetpea_perfume.name": "Sweet Pea Perfume",
+"atelierfloral_sweetpea_perfume.description": "Perfume made with fresh sweet pea.",
+
+"atelierfloral_sweetpea_soap.name": "Sweet Pea Soap",
+"atelierfloral_sweetpea_soap.description": "Soap made with honeycomb and fresh sweet pea.",
+
+"atelierfloral_sweetpea_candles.name": "Sweet Pea Candles",
+"atelierfloral_sweetpea_candles.description": "Hand-dipped candles scented with dried sweet pea.",
+
+"atelierfloral_sweetpea_incense.name": "Sweet Pea Incense",
+"atelierfloral_sweetpea_incense.description": "Dried sweet pea made into a burnable incense.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfloral_FlowerStation_InvalidItem.message": "Cannot Process This.",
+"atelierfloral_FlowerStation_InvalidCount.message": "Requires 5 flowers.",
+
+"atelierfloral_FragranceStation_InvalidItem.message": "Cannot Process This.",
+"atelierfloral_FragranceStation_InvalidCount.message": "Requires More Items",    
+
+"atelierfloral_CandleStation_InvalidItem.message": "Cannot Process This.",
+"atelierfloral_CandleStation_InvalidCount.message": "Requires honeycomb.",    
+
+	
+//INCENSE
+
+"atelierfloral_autumn_incense.name":"Autumn Incense",
+"atelierfloral_autumn_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with autumn flowers for welcoming the change in seasons.",
+
+"atelierfloral_chamomile_incense.name":"Happiness Incense",
+"atelierfloral_chamomile_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with chamomile for its association with peace and harmony.",
+
+"atelierfloral_chiffon_incense.name":"Harmonic Incense",
+"atelierfloral_chiffon_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with blue chiffon flowers for their association with harmony and peace.",
+
+"atelierfloral_daisy_incense.name":"Hopeful Incense",
+"atelierfloral_daisy_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with geraniums for their association with hope and protection.",
+
+"atelierfloral_jasmine_incense.name":"Meditation Incense",
+"atelierfloral_jasmine_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with jasmine for its association with harmony and spirituality",
+
+"atelierfloral_lavender_incense.name":"Relaxation Incense",
+"atelierfloral_lavender_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with lavender for a soothing effect.",
+
+"atelierfloral_lily_incense.name":"Protection Incense",
+"atelierfloral_lily_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with lilies for their association with protection from hexes.",
+
+"atelierfloral_mugwort_incense.name":"Diviner's Incense",
+"atelierfloral_mugwort_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with mugwort for its magickal properties.",
+
+"atelierfloral_pixie_incense.name":"Pixie Incense",
+"atelierfloral_pixie_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with sweet pea, for its association with creativity.",
+
+"atelierfloral_quartz_primrose_incense.name":"Healing Incense",
+"atelierfloral_quartz_primrose_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with primrose quartz, for its association with positive energies.",
+
+"atelierfloral_mysteria_incense.name":"Secret Incense",
+"atelierfloral_mysteria_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with the elusive mysteria Flower, for its association with prosperity.",
+
+"atelierfloral_spring_incense.name":"Spring Incense",
+"atelierfloral_spring_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with spring flowers for welcoming the new year.",
+
+"atelierfloral_summer_incense.name":"Summer Incense",
+"atelierfloral_summer_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with summer flowers for welcoming the change in seasons.",
+
+"atelierfloral_thistle_incense.name":"Splendorous Incense",
+"atelierfloral_thistle_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with thistle for its association with protection and prosperity.",
+
+"atelierfloral_valerian_incense.name":"Sweet Dreams Incense",
+"atelierfloral_valerian_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with valerian for a calming effect.",
+
+"atelierfloral_vanilla_incense.name":"Home Sweet Home Incense",
+"atelierfloral_vanilla_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with vanilla for its soothing effect",
+
+"atelierfloral_violet_incense.name":"Lovely Incense",
+"atelierfloral_violet_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with violets for their association with love, fertility and abundance.",
+
+"atelierfloral_winter_incense.name":"Winter Incense",
+"atelierfloral_winter_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with wild winter crocus for welcoming the end of another year.",
+
+"atelierfloral_yarrow_incense.name":"Courageous Incense",
+"atelierfloral_yarrow_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with yarrow for its association with bravery and love.",
+
+
+//DRIED ITEMS
+
+"atelierfloral_dried_geranium.name": "Dried Geraniums",
+"atelierfloral_dried_geranium.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_arcticfox.name": "Dried Arctic Fox",
+"atelierfloral_dried_arcticfox.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_avalune.name": "Dried Lupine",
+"atelierfloral_dried_avalune.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_chiffon.name": "Dried Chiffon Peonies",
+"atelierfloral_dried_chiffon.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_chamomile.name": "Dried Chamomile",
+"atelierfloral_dried_chamomile.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_daisy.name": "Dried Daisies",
+"atelierfloral_dried_daisy.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_dawn_lily.name": "Dried Dawn Lily",
+"atelierfloral_dried_dawn_lily.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_dusk_lily.name": "Dried Dusk Lily",
+"atelierfloral_dried_dusk_lily.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_crocus.name": "Dried Crocus",
+"atelierfloral_dried_crocus.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_fairy_rose.name": "Dried Fairy Rose",
+"atelierfloral_dried_fairy_rose.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_jazz.name": "Dried Blue Jazz",
+"atelierfloral_dried_jazz.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_mallow.name": "Dried Marsh Mallow",
+"atelierfloral_dried_mallow.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_puffball.name": "Dried Puffball",
+"atelierfloral_dried_puffball.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_jasmine.name": "Dried Jasmine",
+"atelierfloral_dried_jasmine.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_lavender.name": "Dried Lavender",
+"atelierfloral_dried_lavender.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_mysteria.name": "Dried Mysteria Flowers",
+"atelierfloral_dried_mysteria.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_violet.name": "Dried Violet",
+"atelierfloral_dried_violet.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_moon_maiden.name": "Dried Moon Maiden",
+"atelierfloral_dried_moon_maiden.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_mugwort.name": "Dried Mugwort",
+"atelierfloral_dried_mugwort.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_pixiesbreath.name": "Dried Pixie's Breath",
+"atelierfloral_dried_pixiesbreath.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_quartz_primrose.name": "Dried Primrose",
+"atelierfloral_dried_quartz_primrose.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_poppy.name": "Dried Poppy",
+"atelierfloral_dried_poppy.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_sakura.name": "Dried Cherry Blossoms",
+"atelierfloral_dried_sakura.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_spangle.name": "Dried Summer Spangle",
+"atelierfloral_dried_spangle.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_sunflower.name": "Dried Sunflower",
+"atelierfloral_dried_sunflower.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_thistle.name": "Dried Thistle",
+"atelierfloral_dried_thistle.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_tulip.name": "Dried Tulip",
+"atelierfloral_dried_tulip.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_valerian.name": "Dried Valerian",
+"atelierfloral_dried_valerian.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_vanilla.name": "Dried Vanilla Orchids",
+"atelierfloral_dried_vanilla.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+"atelierfloral_dried_yarrow.name": "Dried Yarrow",
+"atelierfloral_dried_yarrow.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+
+//////////////
+// BOUQUETS //
+//////////////
+
+    "atelierfloral_jazz_bouquet.name": "Blue Jazz Bouquet",
+    "atelierfloral_jazz_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_vanilla_bouquet.name": "Calico Vanilla Bouquet",
+    "atelierfloral_vanilla_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_fairy_bouquet.name": "Fairy Rose Bouquet",
+    "atelierfloral_fairy_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_chamomile_bouquet.name": "Forest Chamomile Bouquet",
+    "atelierfloral_chamomile_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_lavender_bouquet.name": "Forest Lavender Bouquet",
+    "atelierfloral_lavender_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_jasmine_bouquet.name": "Gem Isle Jasmine Bouquet",
+    "atelierfloral_jasmine_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_mallow_bouquet.name": "Marsh Mallow Bouquet",
+    "atelierfloral_mallow_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_poppy_bouquet.name": "Poppy Bouquet",
+    "atelierfloral_poppy_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_sakura_bouquet.name": "Sakura Bouquet",
+    "atelierfloral_sakura_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_spangle_bouquet.name": "Spangle Bouquet",
+    "atelierfloral_spangle_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_sunflower_bouquet.name": "Sunflower Bouquet",
+    "atelierfloral_sunflower_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+    
+    "atelierfloral_tulip_bouquet.name": "Tulip Bouquet",
+    "atelierfloral_tulip_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+/////////////
+// PERFUME //
+/////////////
+
+    "atelierfloral_jazz_perfume.name": "Blue Jazz Eau de Toilette",
+    "atelierfloral_jazz_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+    "atelierfloral_vanilla_perfume.name": "Calico Vanilla Eau de Toilette",
+    "atelierfloral_vanilla_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+    "atelierfloral_fairy_perfume.name": "Fairy Rose Eau de Toilette",
+    "atelierfloral_fairy_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+    "atelierfloral_chamomile_perfume.name": "Forest Chamomile Eau de Toilette",
+    "atelierfloral_chamomile_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+    "atelierfloral_lavender_perfume.name": "Forest Lavender Eau de Toilette",
+    "atelierfloral_lavender_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+    "atelierfloral_jasmine_perfume.name": "Gem Isle Jasmine Eau de Toilette",
+    "atelierfloral_jasmine_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+    "atelierfloral_mallow_perfume.name": "Marsh Mallow Eau de Toilette",
+    "atelierfloral_mallow_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+    "atelierfloral_poppy_perfume.name": "Poppy Eau de Toilette",
+    "atelierfloral_poppy_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+    
+    "atelierfloral_sakura_perfume.name": "Sakura Eau de Toilette",
+    "atelierfloral_sakura_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+    
+    "atelierfloral_spangle_perfume.name": "Spangle Eau de Toilette",
+    "atelierfloral_spangle_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+    "atelierfloral_sunflower_perfume.name": "Sunflower Eau de Toilette",
+    "atelierfloral_sunflower_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+    "atelierfloral_tulip_perfume.name": "Tulip Eau de Toilette",
+    "atelierfloral_tulip_perfume.description": "A delicately scented type of perfume made from distilled flowers.",
+
+//////////
+// SOAP //
+//////////
+
+    "atelierfloral_jazz_soap.name": "Blue Jazz Luxury Soap",
+    "atelierfloral_jazz_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_vanilla_soap.name": "Calico Vanilla Luxury Soap",
+    "atelierfloral_vanilla_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_fairy_soap.name": "Fairy Rose Luxury Soap",
+    "atelierfloral_fairy_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_chamomile_soap.name": "Forest Chamomile Luxury Soap",
+    "atelierfloral_chamomile_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_lavender_soap.name": "Forest Lavender Luxury Soap",
+    "atelierfloral_lavender_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_jasmine_soap.name": "Gem Isle Jasmine Luxury Soap",
+    "atelierfloral_jasmine_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_mallow_soap.name": "Marsh Mallow Luxury Soap",
+    "atelierfloral_mallow_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_poppy_soap.name": "Poppy Luxury Soap",
+    "atelierfloral_poppy_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_sakura_soap.name": "Sakura Luxury Soap",
+    "atelierfloral_sakura_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_spangle_soap.name": "Spangle Luxury Soap",
+    "atelierfloral_spangle_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_sunflower_soap.name": "Sunflower Luxury Soap",
+    "atelierfloral_sunflower_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_tulip_soap.name": "Tulip Luxury Soap",
+    "atelierfloral_tulip_soap.description": "A bar of scented luxury soap - how fancy!",
+
+/////////////
+// CANDLES //
+/////////////
+
+    "atelierfloral_jazz_candles.name": "Jazz Scented Candles",
+    "atelierfloral_jazz_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_vanilla_candles.name": "Vanilla Scented Candles",
+    "atelierfloral_vanilla_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_fairy_candles.name": "Fairy Rose Scented Candles",
+    "atelierfloral_fairy_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_chamomile_candles.name": "Chamomile Scented Candles",
+    "atelierfloral_chamomile_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_lavender_candles.name": "Lavender Scented Candles",
+    "atelierfloral_lavender_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_jasmine_candles.name": "Jasmine Scented Candles",
+    "atelierfloral_jasmine_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_mallow_candles.name": "Marshmallow Scented Candles",
+    "atelierfloral_mallow_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_poppy_candles.name": "Poppy Scented Candles",
+    "atelierfloral_poppy_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_sakura_candles.name": "Sakura Scented Candles",
+    "atelierfloral_sakura_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_spangle_candles.name": "Spangle Scented Candles",
+    "atelierfloral_spangle_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_sunflower_candles.name": "Sunflower Scented Candles",
+    "atelierfloral_sunflower_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_tulip_candles.name": "Tulip Scented Candles",
+    "atelierfloral_tulip_candles.description": "A trio of pretty scented candles.",
+
+
+//////////
+// MAIL //
+//////////
+
+    "atelierfloral_FlowerStationRecipe.name":"For the Budding Florist",
+    "atelierfloral_FlowerStationRecipe.text":"@, ^^ Did you know you can bundle your flowers into bouquets to sell? I like to do it with the flowers Jas brings home, but with your flowers you could probably earn quite a bit from working with a machine like this!^^ - Marnie",
+
+    "atelierfloral_FragranceStationRecipe.name":"Floral Essences",
+    "atelierfloral_FragranceStationRecipe.text":"@, ^^ I clipped this out of one of my magazines. Making your own perfumes and incense is so trendy right now! Maybe you can try it out with flowers from your farm?^^ - Haley",
+
+    "atelierfloral_CandleStationRecipe.name":"Every Good Florist Needs a Cauldron",
+    "atelierfloral_CandleStationRecipe.text":"@, ^^ You read that right. If you want to dip candles or make high quality soaps with your flowers, then a cauldron is essential. It's sturdy and heats evenly, and if someone bothers you, you can throw them in too and no one will know. Just kidding.^^ - Evelyn",
+
+    "atelierfloral_jas_gift.name":"Flowers for the Farmer",
+    "atelierfloral_jas_gift.text":"@, ^^ Aunt Marnie sent you a letter about flowers and so I wanted to write you one too! We found these pretty smelling flowers in the forest together and she said you'd like them so here you go!^^ - Jas",
+
+    "atelierfloral_sandy_gift.name":"A flower for a Friend",
+    "atelierfloral_sandy_gift.text":"@, ^^ How's the flower farming going? I wish the desert could support more flowers but it just gets so hot here. One of my friends from the Gem Isles sent me these though and I thought maybe you could keep them in your greenhouse...^^ - Sandy",
+
+    "atelierfloral_emily_gift.name":"Some Bouquet Inspiration",
+    "atelierfloral_emily_gift.text":"@, ^^ Evelyn has been talking about your new flower projects and so I wanted to help! I think fairy roses would make for quite the stunning autumn bouquet, don't you?^^ - Emily",
+
+}

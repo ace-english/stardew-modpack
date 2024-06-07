@@ -1,0 +1,53 @@
+{
+    "Format": "1.5",
+    "ConfigSchema": {
+        "MapToReplace": {
+            "AllowValues": "Standard, Foraging, Fishing, Mining, Combat",
+            "Default": "Standard",
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "file",
+            "Value": "Farm",
+            "When": {
+                "MapToReplace": "Standard"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Foraging",
+            "When": {
+                "MapToReplace": "Foraging"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Fishing",
+            "When": {
+                "MapToReplace": "Fishing"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Mining",
+            "When": {
+                "MapToReplace": "Mining"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Combat",
+            "When": {
+                "MapToReplace": "Combat"
+            }
+        }
+    ],
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/{{file}}",
+            "FromFile": "assets/farm.tmx"
+        }
+    ]
+}

@@ -1,0 +1,501 @@
+{
+	
+
+	"Changes": 
+	[
+
+// INCLUDES 
+
+		{
+			"LogName": "Gift Taste Includes - Artisan Valley",
+			"Action": "Include",
+			"FromFile": "Code/GiftTastesChanges/GiftTastes_ArtisanValley.json",
+			"When":
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true
+			}
+		},
+		{
+			"LogName": "Gift Taste Includes - Cannabis Kit",
+			"Action": "Include",
+			"FromFile": "Code/GiftTastesChanges/GiftTastes_CannabisKit.json",
+			"When":
+			{
+				"HasMod |contains= spacechase0.JsonAssets, PPJA.cannabiskit": true
+			}
+		},
+		{
+			"LogName": "Gift Taste Includes - Starbrew Valley",
+			"Action": "Include",
+			"FromFile": "Code/GiftTastesChanges/GiftTastes_StarbrewValley.json",
+			"When":
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.starbrewvalley": true
+			}
+		},
+		{
+			"LogName": "Gift Taste Includes - Champagne Wishes",
+			"Action": "Include",
+			"FromFile": "Code/GiftTastesChanges/GiftTastes_ChampagneWishes.json",
+			"When":
+			{
+				"HasMod |contains= spacechase0.JsonAssets, fwippy.champagnewishes": true
+			}
+		},
+		{
+			"LogName": "Gift Taste Includes - Fresh Meat",
+			"Action": "Include",
+			"FromFile": "Code/GiftTastesChanges/GiftTastes_FreshMeat.json",
+			"When":
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true
+			}
+		},
+		{
+			"LogName": "Gift Taste Includes - Ssaturn's Oriental Kitchen",
+			"Action": "Include",
+			"FromFile": "Code/GiftTastesChanges/GiftTastes_FreshMeat.json",
+			"When":
+			{
+				"HasMod |contains= spacechase0.JsonAssets, SSaturn.OrientalKitchen": true
+			}
+		},
+		{
+			"LogName": "Gift Taste Includes - More Recipes",
+			"Action": "Include",
+			"FromFile": "Code/GiftTastesChanges/GiftTastes_MoreRecipes.json",
+			"When":
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.morefood": true
+			}
+		},
+		{
+			"LogName": "Gift Taste Includes - Even More Recipes",
+			"Action": "Include",
+			"FromFile": "Code/GiftTastesChanges/GiftTastes_EvenMoreRecipes.json",
+			"When":
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.evenmorerecipes": true
+			}
+		},
+
+// GIFT TASTE CHANGES
+
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - Vanilla",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Jodi", "5"],
+					"Value": "alcohol_item 346 348 303 459 873 food_haram",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Kent", "5"],
+					"Value": "alcohol_item 346 348 303 459 873 food_haram",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sam", "5"],
+					"Value": "alcohol_item 346 348 303 459 873 food_haram",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Vincent", "5"],
+					"Value": "alcohol_item 346 348 303 459 873 food_haram",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Kent Gift Taste Changes - Book",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "RemoveDelimited",
+					"Target": ["Fields", "Kent", "3"],
+					"Search": "Book_Bombs",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Kent", "3"],
+					"Value": "Book_Crabbing",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Kent", "5"],
+					"Value": "Book_Bombs",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"NoMoreWarToken": "true"
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - Vanilla (Alcohol)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "RemoveDelimited",
+					"Target": ["Fields", "Harvey", "1"],
+					"Search": "348",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Harvey", "5"],
+					"Value": "alcohol_item 346 348 303 459 873 meat_item food_nonvegetarian",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - Vanilla (Vegetarian)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Harvey", "5"],
+					"Value": "198 209 212 213 214 219 227 228 242 202 203 204 218 225 226 265 728 729 730 732 733 921 372",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true,
+				"HasMod |contains= Badger.VeganVanillaRecipes": false
+			}
+		},
+		{
+			"LogName": "Modded Gus Gift Taste Changes - Vanilla",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Gus", "5"],
+					"Value": "alcohol_item 346 348 303 459 873 food_haram",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - Vanilla",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sandy", "5"],
+					"Value": "alcohol_item 346 348 303 459 873 food_haram",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - Vanilla",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Alex", "5"],
+					"Value": "202 203 204 218 225 226 265 728 729 730 732 733 921 372 food_tref",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "George", "5"],
+					"Value": "202 203 204 218 225 226 265 728 729 730 732 733 921 372 food_tref",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Evelyn", "5"],
+					"Value": "202 203 204 218 225 226 265 728 729 730 732 733 921 food_tref",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true,
+				"HasMod |contains= Badger.VeganVanillaRecipes": false
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - Vanilla",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "RemoveDelimited",
+					"Target": ["Fields", "Elliott", "1"],
+					"Search": "715",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Elliott", "5"],
+					"Value": "202 203 204 218 225 226 265 728 729 730 732 733 921 372 715 food_tref",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"DSV.Core/ConfigValue:JewishElliott": "true",
+				"HasMod |contains= Badger.VeganVanillaRecipes": false
+			}
+		},
+		{
+			"LogName": "Native Leah Gift Taste Changes - Vanilla (Alcohol)",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "RemoveDelimited",
+					"Target": ["Fields", "Leah", "1"],
+					"Search": "348",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Leah", "9"],
+					"Value": "348",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
+			}
+		},
+		
+// VANILLA GIFT REJECTION
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi, Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"reject_346": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_348": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_459": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_303": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_873": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_alcohol_item": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_food_haram": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}"
+			},
+			"When": 
+			{
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Sam/Vincent Gift Taste Changes - Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam, Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"reject_346": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_348": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_459": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_303": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_873": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_alcohol_item": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_food_haram": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}"
+			},
+			"When": 
+			{
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - CGD Dialogue (Alcohol)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{				
+				"reject_346": "{{i18n:DSV.GiftTastes.Harvey.CGD.Alcohol}}",
+				"reject_348": "{{i18n:DSV.GiftTastes.Harvey.CGD.Alcohol}}",
+				"reject_459": "{{i18n:DSV.GiftTastes.Harvey.CGD.Alcohol}}",
+				"reject_303": "{{i18n:DSV.GiftTastes.Harvey.CGD.Alcohol}}",
+				"reject_873": "{{i18n:DSV.GiftTastes.Harvey.CGD.Alcohol}}",
+				"reject_alcohol_item": "{{i18n:DSV.GiftTastes.Harvey.CGD.Alcohol}}"
+			},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - CGD Dialogue (Vegetarian)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{				
+				"reject_198": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_209": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_212": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_213": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_214": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_219": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_227": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_228": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_242": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_202": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_203": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_204": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_218": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_225": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_226": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_265": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_728": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_729": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_730": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_732": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_733": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_921": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_372": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_meat_item": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_food_nonvegetarian": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}"
+			},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true,
+				"HasMod |contains= Badger.VeganVanillaRecipes": false
+			}
+		},
+		{
+			"LogName": "Modded Gus Gift Taste Changes - CGD Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{				
+				"reject_346": "{{i18n:DSV.GiftTastes.Gus.CGD.Alcohol}}",
+				"reject_348": "{{i18n:DSV.GiftTastes.Gus.CGD.Alcohol}}",
+				"reject_459": "{{i18n:DSV.GiftTastes.Gus.CGD.Alcohol}}",
+				"reject_303": "{{i18n:DSV.GiftTastes.Gus.CGD.Alcohol}}",
+				"reject_873": "{{i18n:DSV.GiftTastes.Gus.CGD.Alcohol}}",
+				"reject_alcohol_item": "{{i18n:DSV.GiftTastes.Gus.CGD.Alcohol}}",
+				"reject_food_haram": "{{i18n:DSV.GiftTastes.Gus.CGD.Pork}}"
+			},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - CGD Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": 
+			{				
+				"reject_346": "{{i18n:DSV.GiftTastes.Sandy.CGD.Alcohol}}",
+				"reject_348": "{{i18n:DSV.GiftTastes.Sandy.CGD.Alcohol}}",
+				"reject_459": "{{i18n:DSV.GiftTastes.Sandy.CGD.Alcohol}}",
+				"reject_303": "{{i18n:DSV.GiftTastes.Sandy.CGD.Alcohol}}",
+				"reject_873": "{{i18n:DSV.GiftTastes.Sandy.CGD.Alcohol}}",
+				"reject_alcohol_item": "{{i18n:DSV.GiftTastes.Sandy.CGD.Alcohol}}",
+				"reject_food_haram": "{{i18n:DSV.GiftTastes.Sandy.CGD.Pork}}"
+			},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - CGD Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex, Characters/Dialogue/George, Characters/Dialogue/Evelyn",
+			"Entries": 
+			{				
+				"reject_202": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_203": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_204": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_218": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_225": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_226": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_265": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_728": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_729": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_730": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_732": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_733": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_921": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_372": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_food_tref": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true,
+				"HasMod |contains= Badger.VeganVanillaRecipes": false
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - CGD Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{				
+				"reject_202": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_203": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_204": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_218": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_225": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_226": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_265": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_728": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_729": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_730": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_732": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_733": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_921": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_372": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_715": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_food_tref": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:JewishElliott": "true",
+				"HasMod |contains= Badger.VeganVanillaRecipes": false
+			}
+		}
+	]
+}

@@ -1,0 +1,101 @@
+{
+    "Changes": [
+        {
+            "LogName": "Atelier Barista Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Caroline", 1],
+                    "Value": "wildflour_tea_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","George", 1],
+                    "Value": "wildflour.atelierbarista_breakfast_latte",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Evelyn", 1],
+                    "Value": "wildflour.atelierbarista_chamomile_tea",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Elliott", 1],
+                    "Value": "wildflour.atelierbarista_matcha_tea",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Gus", 1],
+                    "Value": "wildflour.atelierbarista_mocha_latte ",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Haley", 1],
+                    "Value": "wildflour.atelierbarista_pumpkin_latte wildflour.atelierbarista_sweetheart_latte",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Harvey", 1],
+                    "Value": "wildflour_coffee_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jas", 7],
+                    "Value": "wildflour_coffee_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jodi", 1],
+                    "Value": "wildflour_lemon_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Leah", 1],
+                    "Value": "wildflour.atelierbarista_rose_tea",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Lewis", 1],
+                    "Value": "wildflour.atelierbarista_hazelnut_latte",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Penny", 1],
+                    "Value": "wildflour.atelierbarista_breakfast_tea",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Pierre", 1],
+                    "Value": "wildflour.atelierbarista_breakfast_latte",
+                    "Delimiter": " "
+                },    
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Sebastian", 1],
+                    "Value": "wildflour.atelierbarista_cold_latte",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Vincent", 7],
+                    "Value": "wildflour_coffee_item",
+                    "Delimiter": " "
+                }
+            ]
+            }
+]
+}

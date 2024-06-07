@@ -1,0 +1,516 @@
+{
+    "Changes":
+    [    
+		
+//
+///////////// ABIGAIL /////////////
+//
+		
+// CHINESE-FILIPINO ABIGAIL
+
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Chinese-Filipino (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": 
+			{
+				"Thu4": "{{i18n:DSV.Dialogue.Daily.Abigail.ChineseFilipino.Thu4}}",
+				"Tue6": "{{i18n:DSV.Dialogue.Daily.Abigail.ChineseFilipino.Tue6}}",
+				"summer_Fri4": "{{i18n:DSV.Dialogue.Daily.Abigail.ChineseFilipino.summer_Fri4}}",
+				"summer_Mon8": "{{i18n:DSV.Dialogue.Daily.Abigail.ChineseFilipino.summer_Mon8}}",
+				"fall_Mon6": "{{i18n:DSV.Dialogue.Daily.Abigail.ChineseFilipino.fall_Mon6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true
+            }
+		},      
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Chinese-Filipino (Festival)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Abigail": "{{i18n:DSV.Dialogue.Daily.Abigail.ChineseFilipino.spring24}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true,
+				"FestivalDialogueRandomToken |contains= 1": true
+            }
+		},     
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Chinese-Filipino (Festival, CFDE)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Abigail": "{{i18n:DSV.Dialogue.Daily.Abigail.ChineseFilipino.spring24.Y2.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true,
+				"Year |contains= 2": true
+            }
+		},    
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Chinese-Filipino (Festival, CFDE Random)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Abigail": "{{i18n:DSV.Dialogue.Daily.Abigail.ChineseFilipino.{{Random: spring24, spring24.Y2.CanonFriendlyDialogue}}}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": false,
+				"Year |contains= 1,2,3": false
+            }
+		},
+		
+// PLUS-SIZE ABIGAIL
+
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Plus-Size (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": 
+			{
+				"Tue": "{{i18n:DSV.Dialogue.Daily.Abigail.PlusSize.Tue}}",
+				"summer_Thu2": "{{i18n:DSV.Dialogue.Daily.Abigail.PlusSize.summer_Thu2}}",
+				"fall_Sat6": "{{i18n:DSV.Dialogue.Daily.Abigail.PlusSize.fall_Sat6}}",
+				"winter_Tue4": "{{i18n:DSV.Dialogue.Daily.Abigail.PlusSize.winter_Tue4}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,VanillaPlusSize}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.LavenderAbigail}}' = 'true'": true
+            }
+		},      
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Plus-Size (Festival)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11, Data/Festivals/fall16, Data/Festivals/winter8",
+			"Entries": 
+			{
+				"Abigail": "{{i18n:DSV.Dialogue.Daily.Abigail.PlusSize.{{TargetWithoutPath}}}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"Query: '{{DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,VanillaPlusSize}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.LavenderAbigail}}' = 'true'": true,
+				"FestivalDialogueRandomToken |contains= 1": true
+            }
+		}, 
+		
+// NONBINARY ABIGAIL
+
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Nonbinary (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": 
+			{
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Abigail.Nonbinary.Introduction}}",
+				"Event_Grave3": "{{i18n:DSV.Dialogue.Daily.Abigail.Nonbinary.Event_Grave3}}",
+				"summer_Sat4": "{{i18n:DSV.Dialogue.Daily.Abigail.Nonbinary.summer_Sat4}}",
+				"fall_Tue4": "{{i18n:DSV.Dialogue.Daily.Abigail.Nonbinary.fall_Tue4}}",
+				"winter_Wed2": "{{i18n:DSV.Dialogue.Daily.Abigail.Nonbinary.winter_Wed2}}",
+				"dating_Abigail": "{{i18n:DSV.Dialogue.Daily.Abigail.Nonbinary.dating_Abigail}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true
+            }
+		},      
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Nonbinary (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAbigail",
+			"Entries": 
+			{
+				"patio_Abigail": "{{i18n:DSV.Dialogue.Daily.Abigail.Nonbinary.patio_Abigail}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true
+            }
+		},       
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Nonbinary (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": 
+			{
+				"Tue4": "{{i18n:DSV.Dialogue.Daily.Abigail.Nonbinary.Tue4.CanonFriendlyDialogue}}",
+				"Tue8": "{{i18n:DSV.Dialogue.Daily.Abigail.Nonbinary.Tue8.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},    
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Nonbinary (RSV-SBV Nonbinary Stall)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"Entries": 
+			{
+				"Abigail": "{{i18n: DSV.Dialogue.Daily.Abigail.Nonbinary.RSVSBVStall}}"
+			},
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true,
+				"HasMod |contains= skellady.SBVCP": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail": "True"
+			}
+		},  
+		
+// NONBINARY SEBASTIAN
+
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Nonbinary Sebastian (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": 
+			{
+				"eventSeen_2_memory_oneday": "{{i18n:DSV.Dialogue.Daily.Abigail.NonbinarySebastian.eventSeen_2_memory_oneday}}",
+				"married_Sebastian": "{{i18n:DSV.Dialogue.Daily.Abigail.NonbinarySebastian.married_Sebastian}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true
+            }
+		},  
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Nonbinary Sebastian (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAbigail",
+			"Entries": 
+			{
+				"Bad_9": "{{i18n:DSV.Dialogue.Daily.Abigail.NonbinarySebastian.Bad_9}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true
+            }
+		},      
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Nonbinary Sebastian (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": 
+			{
+				"Thu2": "{{i18n:DSV.Dialogue.Daily.Abigail.NonbinarySebastian.Thu2.CanonFriendlyDialogue}}",
+				"summer_Fri2": "{{i18n:DSV.Dialogue.Daily.Abigail.NonbinarySebastian.summer_Fri2.CanonFriendlyDialogue}}",
+				"fall_Tue2": "{{i18n:DSV.Dialogue.Daily.Abigail.NonbinarySebastian.fall_Tue2.CanonFriendlyDialogue}}",
+				"fall_Thu4": "{{i18n:DSV.Dialogue.Daily.Abigail.NonbinarySebastian.fall_Thu4.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},       
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Nonbinary Sebastian (FlowerDance, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Abigail": "{{i18n:DSV.Dialogue.Daily.Abigail.NonbinarySebastian.FlowerDance.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Hearts:Abigail": "6, 7, 8, 9, 10"
+            }
+		},  
+		{
+			"LogName": "Abigail Variant-Based Dialogue - Binary Abigail, Nonbinary Sebastian (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": 
+			{
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Abigail.NonbinarySebastian.Introduction}}",
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= False": true
+            }
+		},  	
+
+//
+///////////// CAROLINE /////////////
+//
+		
+// CHINESE-FILIPINO ABIGAIL
+
+		{
+			"LogName": "Caroline Variant-Based Dialogue - Modded Abigail",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": 
+			{
+				"summer_Mon4": "{{i18n:DSV.Dialogue.Daily.Caroline.Filipino.summer_Mon4}}",
+				"winter_Sat": "{{i18n:DSV.Dialogue.Daily.Caroline.Filipino.winter_Sat}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:CarolineDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true
+			}
+		},
+
+// NONBINARY ABIGAIL
+
+		{
+			"LogName": "Caroline Variant-Based Dialogue - Nonbinary Abigail (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": 
+			{
+				"fall_Thu4": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Thu4}}",
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Introduction}}",
+				"Mon": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Mon}}",
+				"Sat_inlaw_Abigail": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Sat_inlaw_Abigail}}",
+				"Sat2": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Sat2}}",
+				"Sat4": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Sat4}}",
+				"summer_Sat": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.summer_Sat}}",
+				"summer_Sat_inlaw_Abigail": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.summer_Sat_inlaw_Abigail}}",
+				"fall_Mon": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Mon}}",
+				"fall_Mon_inlaw_Abigail": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Mon_inlaw_Abigail}}",
+				"winter_Sat": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.winter_Sat}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:CarolineDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true
+			}
+		},    
+		{
+			"LogName": "Caroline Variant-Based Dialogue - Nonbinary Abigail (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": 
+			{
+				"Mon2": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Mon2.CanonFriendlyDialogue}}",
+				"Mon4": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Mon4.CanonFriendlyDialogue}}",
+				"Mon6": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Mon6.CanonFriendlyDialogue}}",
+				"Fri4": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Fri4.CanonFriendlyDialogue}}",
+				"Sat6": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.Sat6.CanonFriendlyDialogue}}",
+				"summer_Sat6": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.summer_Sat6.CanonFriendlyDialogue}}",
+				"fall_Mon10": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Mon10.CanonFriendlyDialogue}}",
+				"fall_Sat6": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall_Sat6.CanonFriendlyDialogue}}",
+				"winter_Wed10": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.winter_Wed10.CanonFriendlyDialogue}}",
+				"winter_Fri6": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.winter_Fri6.CanonFriendlyDialogue}}",
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:CarolineDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+			}
+		},    
+		{
+			"LogName": "Caroline Variant-Based Dialogue - Nonbinary Abigail (CFDE, Festival)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/spring24",
+			"Entries": 
+			{
+				"Caroline": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.spring24.CanonFriendlyDialogue}}",
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:CarolineDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true,
+				"Year |contains= 1,3": false
+			}
+		},     
+		{
+			"LogName": "Caroline Variant-Based Dialogue - Nonbinary Abigail (CFDE, Festival)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/fall27",
+			"Entries": 
+			{
+				"Caroline": "{{i18n:DSV.Dialogue.Daily.Caroline.NonbinaryAbigail.fall27.CanonFriendlyDialogue}}",
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:CarolineDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true,
+				"Year |contains= 1,2": false
+			}
+		}, 
+
+// CHINESE-FILIPINO NONBINARY ABIGAIL
+
+		{
+			"LogName": "Caroline Variant-Based Dialogue - Modded Abigail (Nonbinary)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": 
+			{
+				"summer_Mon4": "{{i18n:DSV.Dialogue.Daily.Caroline.Filipino.NonbinaryAbigail.summer_Mon4}}",
+				"winter_Sat": "{{i18n:DSV.Dialogue.Daily.Caroline.Filipino.NonbinaryAbigail.winter_Sat}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:CarolineDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true
+			}
+		}, 
+
+// TRANS SAM
+
+		{
+			"LogName": "Caroline Variant-Based Dialogue - Trans Sam (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": 
+			{
+				"Tue6": "{{i18n:DSV.Dialogue.Daily.Caroline.TransSam.Tue6.CanonFriendlyDialogue}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:CarolineDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+			}
+		}, 
+
+//
+///////////// PIERRE /////////////
+// 
+		
+// CHINESE PIERRE
+
+		{
+			"LogName": "Pierre Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": 
+			{
+				"Wed2": "{{i18n:DSV.Dialogue.Daily.Pierre.Modded.Wed2}}",
+				"Mon4": "{{i18n:DSV.Dialogue.Daily.Pierre.Modded.Mon4}}",
+				"summer_Mon2": "{{i18n:DSV.Dialogue.Daily.Pierre.Modded.summer_Mon2}}",
+				"fall_Sat4": "{{i18n:DSV.Dialogue.Daily.Pierre.Modded.fall_Sat4}}",
+				"fall_Tue6": "{{i18n:DSV.Dialogue.Daily.Pierre.Modded.fall_Tue6}}",
+				"winter_Tue2": "{{i18n:DSV.Dialogue.Daily.Pierre.Modded.winter_Tue2}}",
+				"Winter_28": "{{i18n:DSV.Dialogue.Daily.Pierre.Modded.Winter_28}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true
+			}
+		}, 
+		{
+			"LogName": "Pierre Variant-Based Dialogue - Modded (Festival)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/summer11",
+			"Entries": 
+			{
+				"Pierre": "{{i18n:DSV.Dialogue.Daily.Pierre.Modded.Luau}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:PierreVariant |contains= Modded": true,
+				"FestivalDialogueRandomToken |contains= 1": true
+			}
+		},
+
+// CHINESE-FILIPINO ABIGAIL
+
+		{
+			"LogName": "Pierre Variant-Based Dialogue - Modded Abigail",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": 
+			{
+				"summer_Sat6": "{{i18n:DSV.Dialogue.Daily.Pierre.ModdedAbigail.summer_Sat6}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true
+			}
+		}, 
+		{
+			"LogName": "Pierre Variant-Based Dialogue - Modded Abigail (Nonbinary)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": 
+			{
+				"summer_Sat6": "{{i18n:DSV.Dialogue.Daily.Pierre.ModdedAbigail.NonbinaryAbigail.summer_Sat6}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true
+			}
+		}, 
+
+// NONBINARY ABIGAIL
+
+		{
+			"LogName": "Pierre Variant-Based Dialogue - Modded Abigail (Nonbinary)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": 
+			{
+				"summer_Tue8": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.summer_Tue8}}",
+				"winter_Sun6": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.winter_Sun6}}",
+				"Mon4_inlaw_Abigail": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.Mon4_inlaw_Abigail}}",
+				"eventSeen_4": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.eventSeen_4}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true
+			}
+		}, 
+		{
+			"LogName": "Pierre Variant-Based Dialogue - Modded Abigail (Nonbinary)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": 
+			{
+				"Fri4": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.Fri4.CanonFriendlyDialogue}}",
+				"summer_Thu6": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.summer_Thu6.CanonFriendlyDialogue}}",
+				"summer_Sun10": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.summer_Sun10.CanonFriendlyDialogue}}",
+				"fall_Mon4_inlaw_Abigail": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.fall_Mon4_inlaw_Abigail.CanonFriendlyDialogue}}",
+				"winter_Mon4_inlaw_Abigail": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.winter_Mon4_inlaw_Abigail.CanonFriendlyDialogue}}",
+				"winter_Tue10": "{{i18n:DSV.Dialogue.Daily.Pierre.NonbinaryAbigail.winter_Tue10.CanonFriendlyDialogue}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreDialogue |contains= True": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+			}
+		}			
+    ]
+}

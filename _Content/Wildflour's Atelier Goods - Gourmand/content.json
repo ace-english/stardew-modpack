@@ -1,0 +1,166 @@
+{
+    "Format": "2.0.0",
+
+"DynamicTokens": [
+    {
+        "Name": "ShippingConfig",
+        "Value": "False",
+        "When":{"Atelier.Cauldron/ConfigValue:PantryShipment": "True"}
+    },
+    {
+        "Name": "ShippingConfig",
+        "Value": "True",
+        "When":{"Atelier.Cauldron/ConfigValue:PantryShipment": "False"}
+    },
+    {
+        "Name": "RecipeConfig",
+        "Value": "default",
+        "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": "True"}
+    },
+    {
+        "Name": "RecipeConfig",
+        "Value": "null",
+        "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": "False"}
+    },
+    {
+        "Name": "MachineColorConfig",
+        "Value": "Base",
+        "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Base"}
+    },
+    {
+        "Name": "MachineColorConfig",
+        "Value": "Black",
+        "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Black"}
+    },
+    {
+        "Name": "MachineColorConfig",
+        "Value": "Blue",
+        "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Blue"}
+    },
+    {
+        "Name": "MachineColorConfig",
+        "Value": "Cream",
+        "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Cream"}
+    },
+    {
+        "Name": "MachineColorConfig",
+        "Value": "Mint",
+        "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Mint"}
+    },
+    {
+        "Name": "MachineColorConfig",
+        "Value": "Mocha",
+        "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Mocha"}
+    },
+    {
+        "Name": "MachineColorConfig",
+        "Value": "Pink",
+        "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Pink"}
+    },
+    {
+        "Name": "MachineColorConfig",
+        "Value": "Purple",
+        "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Purple"}
+    },
+],
+
+    "Changes": [
+      
+        //Include Objects
+
+        {
+            "LogName": "Vanilla Pantry Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_vanilla.json"
+        },
+
+        {
+            "LogName": "Wild Food Pantry Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_wildfood.json",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood": "True"}
+        },
+
+        {
+            "LogName": "Faerie Pantry Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_faerie.json",
+            "When":{"Atelier.Cauldron/ConfigValue:FaerieGarden": "True"}
+        },
+
+        {
+            "LogName": "Gourmet Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_crop_overlap.json",
+            "When": {
+                "Query: {{Atelier.Cauldron/ConfigValue:CMC}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
+                }
+        },
+
+        {
+            "LogName": "Floral Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_flower_overlap.json",
+            "When": {
+                "Query: {{Atelier.Cauldron/ConfigValue:CMF}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
+                }
+        },
+
+        //Include Crafting Recipes
+
+        {
+            "LogName": "Gourmet Pantry Crafting Recipes",
+            "Action": "Include",
+            "FromFile": "Data/recipes.json"
+
+        },
+       
+        //Include Gift Tastes
+
+        {
+            "LogName": "Gourmet Pantry Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/gifttastes.json"
+        },
+
+         //Include Mail
+
+        {
+            "LogName": "Gourmet Pantry Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail.json"
+        },
+
+        //Include Machine Interactions
+
+        {
+            "LogName": "Gourmet Pantry Machine Rules",
+            "Action": "Include",
+            "FromFile": "Data/machines.json"
+        },
+
+        
+        {
+            "LogName": "Gourmet Pantry Strings",
+            "Action": "Include",
+            "FromFile": "Data/strings.json"
+
+        },
+        
+        //Include Shop Additions
+
+        {
+            "LogName": "Pantry Items Added to Shop Inventory",
+            "Action": "Include",
+            "FromFile": "Data/shops.json"
+        },
+
+        //Include Textures
+
+        {
+            "LogName": "Gourmet Pantry Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json"
+        }
+    ]
+}

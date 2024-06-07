@@ -1,0 +1,590 @@
+{
+
+//NEW CATEGORIES
+
+"ateliercrops_nut.category": "Noz",
+"ateliercrops_herb.category": "Erva",
+"ateliercrops_mushroom.category": "Cogumelo",
+"ateliercrops_root.category": "Raiz",
+"ateliercrops_feather.category": "Pena",
+"ateliercrops_magic.category": "Item Mágico",
+"ateliercrops_magic_fruit.category": "Fruta Mágica",
+"ateliercrops_magic_flower.category": "Flor Mágica",
+
+//NEW BUSHES
+
+	"ateliercrops_StrawberryBush.name":"Arbusto de Morango Selvagem",
+"ateliercrops_StrawberryBush.description":"Um arbusto que produz morangos selvagens na primavera.",
+
+"ateliercrops_RaspberryBush.name":"Arbusto de Framboesa Selvagem",
+"ateliercrops_RaspberryBush.description":"Um arbusto que produz framboesas selvagens no verão.",
+
+"ateliercrops_ValerianBush.name":"Arbusto de Valeriana",
+"ateliercrops_ValerianBush.description":"Um arbusto que produz valeriana na primavera.",
+
+"ateliercrops_MugwortBush.name":"Arbusto de Losna",
+"ateliercrops_MugwortBush.description":"Um arbusto que produz losna no verão e outono.",
+
+"ateliercrops_ThistleBush.name":"Arbusto de Cardo",
+"ateliercrops_ThistleBush.description":"Um arbusto que produz cardo no verão.",
+
+"ateliercrops_RoseFlaxBush.name":"Arbusto de Linho Rosa",
+"ateliercrops_RoseFlaxBush.description":"Um arbusto que produz linho rosa na primavera, verão e outono.",
+
+"ateliercrops_VioletFlaxBush.name":"Arbusto de Linho Violeta",
+"ateliercrops_VioletFlaxBush.description":"Um arbusto que produz linho violeta na primavera, verão e outono.",
+
+"ateliercrops_AmberBush.name":"Arbusto de Lágrima de Lua Âmbar",
+"ateliercrops_AmberBush.description":"Um arbusto que produz lágrima de lua âmbar na primavera e verão.",
+
+"ateliercrops_LapisBush.name":"Arbusto de Lágrima de Lua Lápis",
+"ateliercrops_LapisBush.description":"Um arbusto que produz lgrima de lua lápis no verão e outono.",
+
+"ateliercrops_JadeBush.name":"Arbusto de Lágrima de Lua Jade",
+"ateliercrops_JadeBush.description":"Um arbusto que produz lágrima de Lua jade no verão e outono.",
+
+"ateliercrops_PearlBush.name":"Arbusto de Lágrima de Lua Pérola",
+"ateliercrops_PearlBush.description":"Um arbusto que produz lágrima de lua pérola no inverno e primavera.",
+	
+	//SEEDS
+
+"ateliercrops_vanillaseeds.name": "Semente de Baunilha Calico",
+"ateliercrops_vanillaseeds.description": "Plante no verão. Leva 14 dias para crescer, então pode ser colhido a cada 5 dias.",
+
+"ateliercrops_chamomileseeds.name": "Semente de Camomila da Floresta",
+"ateliercrops_chamomileseeds.description": "Plante na primavera ou no verão. Leva 5 dias para crescer.",
+
+"ateliercrops_lavenderseeds.name": "Semente de Lavanda da Floresta",
+"ateliercrops_lavenderseeds.description": "Plante na primavera, verão ou outono. Leva 14 dias para crescer e pode ser colhido a cada 4 dias depois.",
+
+"ateliercrops_jasmineseeds.name": "Semente de Jasmim da Ilha de Joias",
+"ateliercrops_jasmineseeds.description": "Plante no verão. Leva 14 dias para crescer e pode ser colhido a cada 5 dias depois.",
+
+"ateliercrops_mallowseeds.name": "Semente de Malva das Marismas",
+"ateliercrops_mallowseeds.description": "Plante na primavera ou no verão. Leva 8 dias para amadurecer e pode ser colhido a cada 4 dias depois.",
+
+"ateliercrops_mintseeds.name": "Semente de Menta Pelicano",
+"ateliercrops_mintseeds.description": "Plante na primavera ou no verão. Leva 12 dias para crescer e pode ser colhido a cada 3 dias depois.",
+
+"ateliercrops_redonionseeds.name": "Semente de Cebola Vermelha Selvagem",
+"ateliercrops_redonionseeds.description": "Plante na primavera ou no outono. Leva 7 dias para crescer.",
+
+"ateliercrops_strawberryseeds.name": "Arbusto de Morango Selvagem",
+"ateliercrops_strawberryseeds.description": "Plante na primavera. Leva 12 dias para crescer e pode ser colhido a cada 3 dias depois.",
+
+"ateliercrops_raspberryseeds.name": "Arbusto de Framboesa Selvagem",
+"ateliercrops_raspberryseeds.description": "Plante no verão. Leva 10 dias para crescer e pode ser colhido a cada 4 dias depois.",
+
+"ateliercrops_wormwoodseeds.name": "Semente de Losna",
+"ateliercrops_wormwoodseeds.description": "Plante no verão. Leva 10 dias para crescer e pode ser colhido a cada 3 dias depois.",
+
+	//HERB SEEDS
+
+"ateliercrops_basilseeds.name": "Semente de Manjericão Doce",
+"ateliercrops_basilseeds.description": "Plante no verão. Leva 14 dias para crescer e pode ser colhido a cada 3 dias depois.",
+
+"ateliercrops_cilantroseeds.name": "Semente de Coentro Cinzaseiva",
+"ateliercrops_cilantroseeds.description": "Plante na primavera. Leva 7 dias para crescer e pode ser colhido a cada 5 dias depois.",
+
+"ateliercrops_rosemaryseeds.name": "Semente de Alecrim Resistente",
+"ateliercrops_rosemaryseeds.description": "Plante na primavera ou no outono. Leva 14 dias para crescer e pode ser colhido a cada 4 dias depois.",
+
+"ateliercrops_sageseeds.name": "Semente de Sálvia Cinzaseiva",
+"ateliercrops_sageseeds.description": "Plante no outono. Leva 12 dias para crescer e pode ser colhido a cada 5 dias depois.",
+
+"ateliercrops_thymeseeds.name": "Semente de Tomilho-Limão",
+"ateliercrops_thymeseeds.description": "Plante na primavera ou no verão. Leva 12 dias para crescer e pode ser colhido a cada 5 dias depois.",
+
+"ateliercrops_gentianroot.name": "Raiz de Genciana",
+"ateliercrops_gentianroot.description": "Uma raiz que cresce em terrenos alpinos e é frequentemente usada como aromatizante em bitters e outras bebidas.",
+
+"ateliercrops_wormwood.name": "Losna",
+"ateliercrops_wormwood.description": "Frequentemente conhecida por ser um dos principais ingredientes no absinto, esta erva tem uma ampla variedade de usos.",
+
+	// MUSHROOM STARTERS
+
+"ateliercrops_chickenwoodsseeds.name":"Semente de Cogumelo Galinha do Bosque",
+"ateliercrops_chickenwoodsseeds.description":"Plante no verão. Leva 14 dias para amadurecer e pode ser colhido a cada 5 dias depois.",
+
+"ateliercrops_honeyfungusseeds.name":"Semente de Cogumelo Fungo Mel",
+"ateliercrops_honeyfungusseeds.description":"Plante na primavera. Leva 21 dias para amadurecer e pode ser colhido a cada 3 dias depois.",
+
+"ateliercrops_meringueshroomseeds.name":"Semente de Cogumelo Meringue",
+"ateliercrops_meringueshroomseeds.description":"Plante no outono. Leva 16 dias para amadurecer e pode ser colhido a cada 3 dias depois.",
+
+"ateliercrops_milkshroomseeds.name":"Semente de Cogumelo Branco Leitoso",
+"ateliercrops_milkshroomseeds.description":"Plante no verão ou no outono. Leva 14 dias para amadurecer e pode ser colhido a cada 5 dias depois.",
+
+"ateliercrops_wheatshroomseeds.name":"Semente de Cogumelo Trigo",
+"ateliercrops_wheatshroomseeds.description":"Plante no outono. Leva 12 dias para amadurecer e pode ser colhido a cada 4 dias depois.",
+	
+	//HERBS
+	
+"ateliercrops_basil.name": "Manjericão Doce",
+"ateliercrops_basil.description": "Uma variedade mais doce da popular erva, usada em várias tradições culinárias tanto pela cor quanto pelo sabor.",
+
+"ateliercrops_cilantro.name": "Coentro Cinzaseiva",
+"ateliercrops_cilantro.description": "Uma variedade selvagem de coentro (também conhecido como coentro) que é frequentemente usada em pratos picantes ou salsas.",
+
+"ateliercrops_sage.name": "Sálvia Cinzaseiva",
+"ateliercrops_sage.description": "Uma erva delicada com notas florais, usada para cortar o sabor rico de muitos pratos de outono.",
+
+"ateliercrops_rosemary.name": "Alecrim Resistente",
+"ateliercrops_rosemary.description": "Uma erva forte e robusta que prospera quase em qualquer lugar; ela se assemelha a uma pequena árvore de pinheiro.",
+
+"ateliercrops_thyme.name": "Tomilho-Limão",
+"ateliercrops_thyme.description": "Uma erva popular que cresce rapidamente em qualquer jardim; a variedade de limão é valorizada por seu sabor herbáceo e cítrico.",
+
+"ateliercrops_anise.name": "Anis Estrelado",
+"ateliercrops_anise.description": "Embora seja uma erva comum em muitas cozinhas tradicionais, o anis estrelado também possui muitas propriedades mágicas e pode ser usado para trazer visões proféticas.",
+
+
+	//TREES NEW
+
+"ateliercrops_lemonsapling.name":"Muda de Limão Petite",
+"ateliercrops_lemonsapling.description":"Leva 28 dias para produzir uma árvore de Limão Petite madura. Dá frutos na primavera.",
+
+"ateliercrops_limesapling.name":"Muda de Lima Petite",
+"ateliercrops_limesapling.description":"Leva 28 dias para produzir uma árvore de Lima Petite madura. Dá frutos na primavera.",
+
+"ateliercrops_anise_sapling.name": "Muda de Anis Estrelado",
+"ateliercrops_anise_sapling.description": "Leva 28 dias para produzir uma árvore de Anis Estrelado madura. Pronta para a colheita na primavera. Só cresce se os 8 tiles ao redor estiverem vazios.",
+
+"ateliercrops_elder_sapling.name": "Muda de Sabugueiro",
+"ateliercrops_elder_sapling.description": "Leva 28 dias para produzir uma árvore de Sambucus madura. Pronta para a colheita no verão. Só cresce se os 8 tiles ao redor estiverem vazios.",
+
+	//TREES
+
+"ateliercrops_pistachiosapling.name": "Muda de Pistache Calico",
+"ateliercrops_pistachiosapling.description": "Leva 28 dias para produzir uma árvore de Pistache Calico madura. Dá frutos no verão e outono.",
+
+"ateliercrops_cinnamonsapling.name": "Muda de Canela Cinzaseiva",
+"ateliercrops_cinnamonsapling.description": "Leva 28 dias para produzir uma árvore de Canela Cindersap madura. Colheita da casca no inverno.",
+
+"ateliercrops_olivesapling.name": "Muda de Oliveira das Ilhas Samambaia",
+"ateliercrops_olivesapling.description": "Leva 28 dias para produzir uma árvore de Oliveira das Ilhas Samambaia madura. Dá frutos no verão.",
+
+"ateliercrops_cashewsapling.name": "Muda de Caju do Mar de Joias",
+"ateliercrops_cashewsapling.description": "Leva 28 dias para produzir uma árvore de Caju Gem Sea madura. Dá frutos no outono.",
+
+"ateliercrops_walnutsapling.name": "Muda de Nogueira de Grampleton",
+"ateliercrops_walnutsapling.description": "Leva 28 dias para produzir uma árvore de Nogueira Grampleton madura. Dá frutos no outono.",
+
+"ateliercrops_almondsapling.name": "Muda de Amêndoa St Cannoli",
+"ateliercrops_almondsapling.description": "Leva 28 dias para produzir uma árvore de Amêndoa St Cannoli madura. Dá frutos na primavera e verão.",
+
+"ateliercrops_cacaopodsapling.name": "Muda de Cacau Selvagem",
+"ateliercrops_cacaopodsapling.description": "Leva 28 dias para produzir uma árvore de Cacau madura. Dá frutos no outono.",
+
+	//OBJECTS
+
+"ateliercrops_pistachio.name":"Pistache Calico",
+"ateliercrops_pistachio.description":"Um pistache único encontrado apenas por forrageamento no Deserto de Calico.",
+
+"ateliercrops_vanilla.name": "Baunilha Calico",
+"ateliercrops_vanilla.description": "Uma baunilha única encontrada apenas por forrageamento no Deserto de Calico.",
+
+"ateliercrops_cherryblossoms.name": "Pétalas de Flor de Cerejeira",
+"ateliercrops_cherryblossoms.description": "Pétalas frescas de árvores de cerejeira em flor.",
+
+"ateliercrops_chickenwoods.name": "Galinha do Bosque",
+"ateliercrops_chickenwoods.description": "Este cogumelo estranhamente nomeado é encontrado em todo o mundo e alguns argumentam que realmente tem gosto de frango!",
+
+"ateliercrops_cinnamon.name": "Canela Cinzaseiva",
+"ateliercrops_cinnamon.description": "Uma casca rara de canela que só pode ser encontrada na Floresta de Cindersap no inverno.",
+
+"ateliercrops_olive.name": "Azeitona das Ilhas da Samambaia",
+"ateliercrops_olive.description": "Um tipo raro de azeitona encontrada em ilhas tropicais, encontrada por forrageadores habilidosos em praias da República de Ferngill.",
+
+"ateliercrops_chamomile.name": "Camomila da Floresta",
+"ateliercrops_chamomile.description": "Uma flor delicada encontrada no fundo da floresta; perfeita para fazer chá.",
+
+"ateliercrops_lavender.name": "Lavanda da Floresta",
+"ateliercrops_lavender.description": "Uma flor fragrante e frondosa encontrada no fundo da floresta.",
+
+"ateliercrops_jasmine.name": "Jasmim da Ilha de Joias",
+"ateliercrops_jasmine.description": "Uma flor lindamente perfumada encontrada apenas por forrageamento na Ilha Gengibre.",
+
+"ateliercrops_cashew.name": "Caju do Mar de Joias",
+"ateliercrops_cashew.description": "A noz da fruta tropical Caju, encontrada apenas em ilhas no mar de joias.",
+
+"ateliercrops_walnut.name": "Noz de Grampleton",
+"ateliercrops_walnut.description": "Um cultivo de noz encontrada para crescer localmente em Grampleton, e aparentemente agora na Vila Pelicanos!",
+
+"ateliercrops_honeyfungus.name": "Cogumelo de Mel",
+"ateliercrops_honeyfungus.description": "Embora perigoso para consumir cru, esses cogumelos têm um sabor rico e amendoado quando cozidos corretamente.",	
+	
+	"ateliercrops_mallow.name": "Malva Branca",
+"ateliercrops_mallow.description": "Flores de Malva Branca. Principalmente usadas na fabricação de doces.",
+
+"ateliercrops_meringueshroom.name": "Cogumelo Meringue",
+"ateliercrops_meringueshroom.description": "Um cogumelo estranhamente doce encontrado apenas pelos melhores forrageadores do vale, sua cor e forma são quase como doces.",
+
+"ateliercrops_milkshroom.name": "Cogumelos Brancos Leitosos",
+"ateliercrops_milkshroom.description": "Estes cogumelos são brancos brilhantes e têm uma textura cremosa.",
+
+"ateliercrops_mint.name": "Menta Pelicano",
+"ateliercrops_mint.description": "Um tipo de menta que cresce por toda a Vila Pelicanos, não importa o quanto os moradores tentem se livrar dela.",
+
+"ateliercrops_lemon.name": "Limão Petite",
+"ateliercrops_lemon.description": "Um limão pequeno, mas saboroso, encontrado na natureza por forrageadores habilidosos.",
+
+"ateliercrops_lime.name": "Lima Petite",
+"ateliercrops_lime.description": "Uma lima pequena, mas saborosa, encontrada na natureza por forrageadores habilidosos.",
+
+"ateliercrops_almond.name": "Amêndoa de St Cannoli",
+"ateliercrops_almond.description": "O sonho de todo forrageador! A mais rara das amêndoas, dizem ser cultivada pelo Velho Mestre Cannoli ele mesmo.",
+
+"ateliercrops_wheatshroom.name": "Cogumelo Trigo",
+"ateliercrops_wheatshroom.description": "Um cogumelo comum para o forrageador amador, mas os mestres sabem que este fungo pode ser transformado em um ingrediente culinário chave.",
+
+"ateliercrops_cacaopod.name": "Cacau Selvagem",
+"ateliercrops_cacaopod.description": "Fruto carnudo e frutado da árvore de cacau. Usado na fabricação de cacau e alimentos exóticos.",
+
+"ateliercrops_raspberry.name": "Amora Selvagem",
+"ateliercrops_raspberry.description": "Uma pequena e doce fruta que cresce selvagem nas florestas de Ferngill.",
+
+"ateliercrops_redonion.name": "Cebola Vermelha Selvagem",
+"ateliercrops_redonion.description": "Assim como a cenoura selvagem, tenha cuidado com esta cebola ou ela fará você chorar!",
+
+"ateliercrops_strawberry.name": "Morango Selvagem",
+"ateliercrops_strawberry.description": "Uma variedade menor de morango que cresce selvagem nas florestas de Ferngill.",
+
+
+"ateliercrops_elderberries.name": "Flores de Sabugueiro",
+"ateliercrops_elderberries.description": "Um cacho de sabugueiros e suas flores; estes fazem um ótimo chá ou licor.",
+
+///////////////////////////////
+// FAERIE GARDEN TRANSLATION //
+///////////////////////////////
+
+//MUSHROOMS
+
+"ateliercrops_dawn_trumpet.name": "Trombeta da Alvorada",
+"ateliercrops_dawn_trumpet.description": "Um aglomerado misterioso de cogumelos que cresce nas horas ao redor da alvorada.",
+
+"ateliercrops_dusk_cap.name": "Capuz do Entardecer",
+"ateliercrops_dusk_cap.description": "Um cogumelo sinistro e gotejante que aparece apenas após o pôr do sol.",
+
+"ateliercrops_giant_amanita.name": "Amanita Gigante",
+"ateliercrops_giant_amanita.description": "Um cogumelo venenoso incomumente grande.",
+
+"ateliercrops_amanita_cluster.name": "Aglomerado de Amanita",
+"ateliercrops_amanita_cluster.description": "Cogumelos venenosos crescendo em um pequeno aglomerado. Úteis na preparação de certas poções, mas mortais se ingeridos diretamente.",
+
+"ateliercrops_golden_aura.name": "Aura Dourada",
+"ateliercrops_golden_aura.description": "Um cogumelo dourado deslumbrante, frequentemente usado em poções mágicas.",
+
+"ateliercrops_moon_mushroom.name": "Cogumelo Lunar",
+"ateliercrops_moon_mushroom.description": "Uma variedade de cogumelo puffball que parece estranhamente semelhante à lua cheia.",
+
+"ateliercrops_gloomy_blewit.name": "Cogumelo Triste",
+"ateliercrops_gloomy_blewit.description": "Um cogumelo escuro e estranho que surge durante tempestades de chuva.",
+
+"ateliercrops_tiny_angels.name": "Anjinhos",
+"ateliercrops_tiny_angels.description": "Ao contrário de seu primo distante, o anjo destruidor, estes pequenos cogumelos são comestíveis e vão bem em saladas!",
+
+"ateliercrops_verdigris_agaric.name": "Agárico Verdegris",
+"ateliercrops_verdigris_agaric.description": "Um cogumelo azul-esverdeado deslumbrante, frequentemente ingerido por suas propriedades alucinógenas. Pode ser venenoso em grandes doses.",
+
+"ateliercrops_faerie_helmets.name": "Capacetes de Fada",
+"ateliercrops_faerie_helmets.description": "Devido ao seu tamanho pequeno e formato de chapéu, estes também são conhecidos como bonés de fada!",
+
+"ateliercrops_blush_cap.name": "Capuz Ruborizado",
+"ateliercrops_blush_cap.description": "Um cogumelo altamente venenoso que deve ser colhido apenas por bruxas ou forrageadores extremamente habilidosos!",
+
+"ateliercrops_peach_parasol.name": "Guarda-Sol Pêssego",
+"ateliercrops_peach_parasol.description": "Um cogumelo rosado estranho. Dizem que eles eram usados ​​para fazer corantes pigmentados para roupas e cosméticos.",
+
+//FLOWERS
+
+"ateliercrops_geranium.name": "Gerânio dos Anjos",
+"ateliercrops_geranium.description": "Uma variedade de gerânio arbustiva valorizada por suas cores marcantes.",
+
+"ateliercrops_arctic_fox.name": "Dedaleira",
+"ateliercrops_arctic_fox.description": "Uma variedade rara de dedaleira. Altamente venenosa.",
+
+"ateliercrops_avalune.name": "Tremoço",
+"ateliercrops_avalune.description": "Uma variedade de lupino incrivelmente vibrante. É um ótimo presente para as fadas.",
+
+"ateliercrops_chiffon.name": "Linho Azul",
+"ateliercrops_chiffon.description": "Uma variedade deslumbrante de peônia azul.",
+
+"ateliercrops_daisy.name": "Margarida Rasteira",
+"ateliercrops_daisy.description": "Embora muitas vezes negligenciada como uma flor comum, muitas partes da margarida comum podem ser usadas culinariamente, medicinalmente...e magicamente.",
+
+"ateliercrops_dawn_lily.name": "Lírio da Alvorada",
+"ateliercrops_dawn_lily.description": "Embora relacionada ao lírio-dia, esta cultivar é extremamente rara e só floresce ao amanhecer. Dizem que só prospera em lugares com forte energia espiritual.",
+
+"ateliercrops_dusk_lily.name": "Lírio do Entardecer",
+"ateliercrops_dusk_lily.description": "Embora relacionada ao lírio-dia, esta cultivar é extremamente rara e só floresce ao entardecer. Dizem que só prospera em lugares com forte energia espiritual.",
+
+"ateliercrops_puffball.name": "Bola de Fada",
+"ateliercrops_puffball.description": "Esta flor é tão macia quanto uma nuvem; talvez seja por isso que ela é frequentemente associada às fadas e suas magias etéreas.",
+
+"ateliercrops_violet.name": "Violeta dos Campos",
+"ateliercrops_violet.description": "Uma violeta rasteira que se espalha rapidamente para cobrir prados inteiros em tons de roxo profundo.",
+
+"ateliercrops_maiden.name": "Donzela da Lua",
+"ateliercrops_maiden.description": "Esta flor delicada é rumorada como um presente para os humanos dos bondosos duendes para dar as boas-vindas à estação da primavera.",
+
+"ateliercrops_pixies_breath.name": "Sopro de Fada",
+"ateliercrops_pixies_breath.description": "É como o mosquitinho, mas um pouco mais mágico.",
+
+"ateliercrops_primrose.name": "Prímula de Quartzo",
+"ateliercrops_primrose.description": "Uma variedade de rosa anã que cresce bem em uma treliça. Valorizada tanto pela cor quanto pela fragrância, as flores lembram um quartzo rosa.",
+
+"ateliercrops_cake_blossom.name":"Flor de Bolo",
+"ateliercrops_cake_blossom.description":"Uma flor dourada de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra bolo de aniversário.",
+
+"ateliercrops_caramel_blossom.name":"Flor de Caramelo",
+"ateliercrops_caramel_blossom.description":"Um trio de flores de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra açúcar mascavo.",
+
+"ateliercrops_creamsicle_blossom.name":"Flor Creamsicle",
+"ateliercrops_creamsicle_blossom.description":"Uma flor laranja de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra bolo de aniversário.",
+
+"ateliercrops_custard_blossom.name":"Flor de Creme",
+"ateliercrops_custard_blossom.description":"Uma flor branca de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra baunilha.",
+
+"ateliercrops_gumdrop_blossom.name":"Flor de Jujuba",
+"ateliercrops_gumdrop_blossom.description":"Um trio de flores de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra doces saborosos.",
+
+"ateliercrops_macaron_blossom.name":"Flor de Macaron",
+"ateliercrops_macaron_blossom.description":"Uma flor violeta de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra um macaron de lavanda.",
+
+"ateliercrops_pie_blossom.name":"Flor de Torta",
+"ateliercrops_pie_blossom.description":"Uma flor azul de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra uma torta de mirtilo.",
+
+"ateliercrops_shortcake_blossom.name":"Flor de Moranguinho",
+"ateliercrops_shortcake_blossom.description":"Uma flor rosa de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra morangos doces de verão.",
+
+"ateliercrops_sprinkle_blossom.name":"Flor de Granulado",
+"ateliercrops_sprinkle_blossom.description":"Uma flor rosa de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra confeitos coloridos.",
+
+"ateliercrops_sugar_blossom.name":"Flor de Açúcar",
+"ateliercrops_sugar_blossom.description":"Uma flor rosa de aroma estranhamente doce. Valorizada pelas fadas por seu sabor; lembra bolo de aniversário.",
+
+"ateliercrops_mysteria.name":"Mysteria",
+"ateliercrops_mysteria.description":"Uma cultivar rara e altamente valorizada de glicínia. Altamente venenosa, mas amada por muitos por sua fragrância e supostas propriedades mágicas.",
+
+//FRUITS
+
+"ateliercrops_rose_cacao.name": "Cacau de Rosa",
+"ateliercrops_rose_cacao.description": "Uma estranha vagem de cacau com uma tonalidade rica, marrom-magenta.",
+
+"ateliercrops_sugar_plum.name": "Ameixa Açucarada",
+"ateliercrops_sugar_plum.description": "Uma ameixa, mas algo parece... estranho sobre ela. Por que ela cheira tão doce?",
+
+"ateliercrops_amber_moondrop.name": "Lágrima de Lua Âmbar",
+"ateliercrops_amber_moondrop.description": "Uma bela e rara variedade de uva dourada, dizem ser originalmente cultivada pelas fadas da República de Ferngill.",
+
+"ateliercrops_apple.name": "Maçã Ambrosia",
+"ateliercrops_apple.description": "Uma maçã verde brilhante tão doce que recebeu o nome do néctar dos deuses.",
+
+"ateliercrops_orange.name": "Laranja Vermelha",
+"ateliercrops_orange.description": "Uma variedade rara de fruta cítrica.",
+
+"ateliercrops_pomegranate.name": "Romã Sempre Doce",
+"ateliercrops_pomegranate.description": "Uma romã vibrante envolta em mistério. Dizem que esta fruta é sempre suculenta e doce, independentemente de quando for colhida.",
+
+"ateliercrops_jade_moondrop.name": "Lágrima de Lua Jade",
+"ateliercrops_jade_moondrop.description": "Uma bela e rara variedade de uva verde, dizem ser originalmente cultivada pelas fadas da República de Ferngill.",
+
+"ateliercrops_banana.name": "Banana Dedos de Dama",
+"ateliercrops_banana.description": "Uma variedade longa e delicada de banana, dizem ser muito mais doce do que as bananas tradicionais.",
+
+"ateliercrops_lapis_moondrop.name": "Lágrima de Lua Lápis",
+"ateliercrops_lapis_moondrop.description": "Uma bela e rara variedade de uva azul, dizem ser originalmente cultivada pelas fadas da República de Ferngill.",
+
+"ateliercrops_apricot.name": "Damascos Luar de Ouro",
+"ateliercrops_apricot.description": "Um damasco pálido com polpa dourada, dizem ser a fruta favorita das divindades lunares.",
+
+"ateliercrops_pearl_moondrop.name": "Lágrima de Lua Pérola",
+"ateliercrops_pearl_moondrop.description": "Uma bela e rara variedade de uva branca, dizem ser originalmente cultivada pelas fadas da República de Ferngill.",
+
+"ateliercrops_peach.name": "Pêssego Bela da Neve",
+"ateliercrops_peach.description": "Um pêssego raro e delicado; dizem ser a fruta favorita de uma certa princesa de um conto antigo.",
+
+"ateliercrops_cherry.name": "Cereja Meteoro Azeda",
+"ateliercrops_cherry.description": "Embora pareça uma cereja comum, esta cultivar tem um gosto estranhamente semelhante a doce azedo mais do que fruta.",
+
+"ateliercrops_mango.name": "Manga do Pôr do Sol",
+"ateliercrops_mango.description": "Uma manga delicada amadurecida sob o sol poente.",
+
+//HERBS
+
+"ateliercrops_rose_flax.name":"Linho Rosa",
+"ateliercrops_rose_flax.description":"Um grão lindamente rosa. Produz uma farinha especializada valorizada quando moída.",
+
+"ateliercrops_mugwort.name": "Losna",
+"ateliercrops_mugwort.description": "Membro da família das margaridas, esta planta é cultivada por bruxas por suas propriedades de sonho e adivinhação.",
+
+"ateliercrops_violet_flax.name":"Linho Violeta",
+"ateliercrops_violet_flax.description":"Um grão lindamente violeta. Produz uma farinha especializada valorizada quando moída.",
+
+"ateliercrops_thistle.name": "Cardo",
+"ateliercrops_thistle.description": "Uma planta florífera comum, muitas vezes vista como uma erva daninha pelos humanos, mas valorizada por bruxas por suas propriedades espirituais de cura.",
+
+"ateliercrops_valerian.name": "Valeriana",
+"ateliercrops_valerian.description": "Uma erva frequentemente usada na produção de chás indutores do sono, também pode ser usada para afastar raios e inundações.",
+
+"ateliercrops_yarrow.name":"Yarrow",
+"ateliercrops_yarrow.description":"Também conhecida como 'Urtiga do Diabo', a erva de mil-folhas tem sido usada por bruxas sábias e forrageiros para aliviar cólicas estomacais por séculos.",
+
+//FEATHERS
+
+"ateliercrops_bluebird_feather.name": "Pena de Azulino-da-montanha",
+"ateliercrops_bluebird_feather.description": "A brilhante pena azul do Azulino-da-montanha local.",
+
+"ateliercrops_crow_feather.name": "Pena de Corvo",
+"ateliercrops_crow_feather.description": "Esta pena é tão preta quanto o céu noturno.",
+
+"ateliercrops_lovebird_feather.name": "Pena de Agapórnis",
+"ateliercrops_lovebird_feather.description": "A pena multicolorida de um agapórnis.",
+
+"ateliercrops_owl_feather.name": "Pena de Coruja-da-neve",
+"ateliercrops_owl_feather.description": "Uma majestosa pena branca de uma grande coruja-da-neve.",
+
+"ateliercrops_phoenix_feather.name": "Pena de Fênix",
+"ateliercrops_phoenix_feather.description": "Uma deslumbrante pena carmesim de uma fênix, provavelmente perdida durante sua transformação.",
+
+"ateliercrops_raven_feather.name": "Pena de Corvo-Comum",
+"ateliercrops_raven_feather.description": "A profunda pena preto-violeta de um corvo, uma ótima descoberta para um alquimista ou bruxa das ervas.",
+
+"ateliercrops_rosefinch_feather.name": "Pena de Pintarroxo-vermelho",
+"ateliercrops_rosefinch_feather.description": "Uma pena rosa brilhante de um Pintarroxo-vermelho.",
+
+"ateliercrops_starling_feather.name": "Pena de Estorninho Violeta",
+"ateliercrops_starling_feather.description": "Estorninhos de dorso violeta são quase da mesma cor que o minério de irídio, e como tal suas penas são tesouros valorizados entre os forrageiros.",
+
+//FORAGE
+
+"ateliercrops_fire_dragon_scale.name": "Escama de Dragão Ardente",
+"ateliercrops_fire_dragon_scale.description": "Uma escama cintilante que caiu de um dragão de fogo mítico.",
+
+"ateliercrops_clover.name": "Sorte Escondida",
+"ateliercrops_clover.description": "Um trevo de quatro folhas raro.",
+
+"ateliercrops_mandrake.name": "Raiz de Mandrágora",
+"ateliercrops_mandrake.description": "Uma raiz estranha que parece quase, sentiente? A lenda diz que ela gritará ao ser arrancada do chão, então bruxas sábias usam protetores auriculares ao forrageá-las.",
+
+"ateliercrops_ice_dragon_scale.name": "Escama de Dragão Nebuloso",
+"ateliercrops_ice_dragon_scale.description": "Uma escama cintilante que caiu de um dragão marinho mítico.",
+
+"ateliercrops_shooting_star.name": "Estrela Cadente",
+"ateliercrops_shooting_star.description": "Uma estrela cadente! Uma descoberta verdadeiramente rara e gloriosa para uma bruxa ou um bruxo forrageiro.",
+
+"ateliercrops_unicorn_horn.name": "Chifre de Unicórnio",
+"ateliercrops_unicorn_horn.description": "Um chifre solto de um unicórnio jovem; uma descoberta rara e valorizada para qualquer bruxa ou bruxo.",
+
+//TREE SAPLINGS
+
+"ateliercrops_chiffon_sapling.name": "Muda de Linho Azul",
+"ateliercrops_chiffon_sapling.description": "Demora 28 dias para produzir uma Treliça de Linho Azul madura. Pronta para colher no outono. Cresce apenas se os 8 azulejos ao redor estiverem vazios.",
+
+"ateliercrops_daisy_sapling.name": "Muda de Margarida Rasteira",
+"ateliercrops_daisy_sapling.description": "Demora 28 dias para produzir uma Treliça de Margarida Rasteira madura. Pronta para colher na primavera. Cresce apenas se os 8 azulejos ao redor estiverem vazios.",
+
+"ateliercrops_dawn_sapling.name": "Muda de Lírio da Alvorada",
+"ateliercrops_dawn_sapling.description": "Demora 28 dias para produzir uma Treliça de Lírio da Alvorada madura. Pronta para colher no verão. Cresce apenas se os 8 azulejos ao redor estiverem vazios.",
+
+"ateliercrops_dusk_sapling.name": "Muda de Lírio do Entardecer",
+"ateliercrops_dusk_sapling.description": "Demora 28 dias para produzir uma Treliça de Lírio do Entardecer madura. Pronta para colher no verão. Cresce apenas se os 8 azulejos ao redor estiverem vazios.",
+
+"ateliercrops_geranium_sapling.name": "Muda de Gerânio dos Anjos",
+"ateliercrops_geranium_sapling.description": "Demora 28 dias para produzir uma Treliça de Gerânio dos Anjos madura. Pronta para colher no outono. Cresce apenas se os 8 azulejos ao redor estiverem vazios.",
+
+"ateliercrops_primrose_sapling.name": "Muda de Prímula de Quartzo",
+"ateliercrops_primrose_sapling.description": "Demora 28 dias para produzir uma Treliça de Prímula de Quartzo madura. Pronta para colher no outono. Cresce apenas se os 8 azulejos ao redor estiverem vazios.",
+
+"ateliercrops_violet_sapling.name": "Muda de Violeta dos Campos",
+"ateliercrops_violet_sapling.description": "Demora 28 dias para produzir uma Treliça de Violeta dos Campos madura. Pronta para colher na primavera. Cresce apenas se os 8 azulejos ao redor estiverem vazios",
+
+"ateliercrops_mysteria_sapling.name": "Muda de Mysteria",
+"ateliercrops_mysteria_sapling.description": "Demora 28 dias para produzir uma Treliça de Mysteria madura. Pronta para colher na primavera. Cresce apenas se os 8 azulejos ao redor estiverem vazios",
+
+
+//SWEET TREE SAPLINGS
+
+"ateliercrops_pavlova_sapling.name": "Muda de Pavlova",
+"ateliercrops_pavlova_sapling.description": "Demora 28 dias para produzir uma Árvore de Pavlova madura. Pronta para colher na primavera e verão. Cresce apenas se os 8 azulejos ao redor estiverem vazios",
+
+"ateliercrops_gelato_sapling.name": "Muda de Gelato",
+"ateliercrops_gelato_sapling.description": "Demora 28 dias para produzir uma Árvore de Gelato madura. Pronta para colher no verão e inverno. Cresce apenas se os 8 azulejos ao redor estiverem vazios",
+
+"ateliercrops_souffle_sapling.name": "Muda de Soufflé",
+"ateliercrops_souffle_sapling.description": "Demora 28 dias para produzir uma Árvore de Soufflé madura. Pronta para colher no verão e outono. Cresce apenas se os 8 azulejos ao redor estiverem vazios",
+
+"ateliercrops_brulee_sapling.name": "Muda de Brûlée",
+"ateliercrops_brulee_sapling.description": "Demora 28 dias para produzir uma Árvore de Brûlée madura. Pronta para colher no outono e inverno. Cresce apenas se os 8 azulejos ao redor estiverem vazios",
+
+"ateliercrops_buttercream_sapling.name": "Muda de Creme de Manteiga",
+"ateliercrops_buttercream_sapling.description": "Demora 28 dias para produzir uma Árvore de Creme de Manteiga madura. Pronta para colher na primavera e verão. Cresce apenas se os 8 azulejos ao redor estiverem vazios",
+
+//MUSHROOM TREES
+
+"ateliercrops_MysticTrumpet_seeds.name": "Semente de Trombeta Mística",
+"ateliercrops_MysticTrumpet_seeds.description": "Uma semente encantada que pode crescer em uma grande árvore de cogumelos.",
+
+"ateliercrops_StrangeCap_seeds.name": "Semente de Chapéu Estranho",
+"ateliercrops_StrangeCap_seeds.description": "Uma semente encantada que pode crescer em uma grande árvore de cogumelos.",
+
+"ateliercrops_WitchwoodTree_seeds.name": "Semente de Árvore de Madeira de Bruxa",
+"ateliercrops_WitchwoodTree_seeds.description": "Uma semente encantada que pode crescer em uma grande árvore de cogumelos.",
+
+//FLOWER SEEDS
+
+"ateliercrops_arctic_fox_seeds.name": "Sementes de Dedalia",
+"ateliercrops_arctic_fox_seeds.description": "Plante na primavera ou no verão. Leva 20 dias para crescer.",
+
+"ateliercrops_avalune_seeds.name": "Sementes de Tremoço",
+"ateliercrops_avalune_seeds.description": "Plante na primavera ou no verão. Leva 12 dias para crescer.",
+
+"ateliercrops_puffball_seeds.name": "Sementes de Bola de Fada",
+"ateliercrops_puffball_seeds.description": "Plante na primavera. Leva 12 dias para crescer em uma Bola de Fada e pode ser colhido a cada 5 dias depois.",
+
+"ateliercrops_maiden_seeds.name": "Sementes de Donzela da Lua",
+"ateliercrops_maiden_seeds.description": "Plante na primavera. Leva 5 dias para crescer.",
+
+"ateliercrops_pixies_breath_seeds.name": "Sementes de Sopro de Fada",
+"ateliercrops_pixies_breath_seeds.description": "Plante no outono. Leva 14 dias para crescer e pode ser colhida a cada 3 dias depois.",
+
+//FRUIT SEEDS
+
+"ateliercrops_amber_moondrop_seeds.name": "Sementes de Lágrima de Lua Âmbar",
+"ateliercrops_amber_moondrop_seeds.description": "Plante na primavera ou no verão. Leva 21 dias para crescer, depois pode ser colhido a cada 4 dias.",
+
+"ateliercrops_lapis_moondrop_seeds.name": "Sementes de Lágrima de Lua Lápis",
+"ateliercrops_lapis_moondrop_seeds.description": "Plante no verão ou no outono. Leva 21 dias para crescer, depois pode ser colhido a cada 4 dias.",
+
+"ateliercrops_jade_moondrop_seeds.name": "Sementes de Lágrima de Lua Jade",
+"ateliercrops_jade_moondrop_seeds.description": "Plante no verão ou no outono. Leva 21 dias para crescer, depois pode ser colhido a cada 4 dias.",
+
+"ateliercrops_pearl_moondrop_seeds.name": "Sementes de Lágrima de Lua Pérola",
+"ateliercrops_pearl_moondrop_seeds.description": "Plante no inverno para colher na primavera. Leva 21 dias para crescer, depois pode ser colhido a cada 4 dias.",
+
+//HERB SEEDS
+
+"ateliercrops_rose_flax_seeds.name": "Sementes de Linho Rosa",
+"ateliercrops_rose_flax_seeds.description": "Plante em qualquer estação. Leva 4 dias para crescer e deve ser colhido com uma foice.",
+
+"ateliercrops_mandrake_seeds.name": "Sementes de Mandrágora",
+"ateliercrops_mandrake_seeds.description": "Plante no outono. Leva 10 dias para crescer uma raiz de mandrágora madura.",
+
+"ateliercrops_mugwort_seeds.name": "Sementes de Losna",
+"ateliercrops_mugwort_seeds.description": "Plante no verão ou no outono. Leva 12 dias para crescer e pode ser colhido a cada 4 dias depois.",
+
+"ateliercrops_violet_flax_seeds.name": "Sementes de Linho Violeta",
+"ateliercrops_violet_flax_seeds.description": "Plante em qualquer estação. Leva 4 dias para crescer e deve ser colhido com uma foice.",
+
+"ateliercrops_thistle_seeds.name": "Sementes de Cardo",
+"ateliercrops_thistle_seeds.description": "Plante no verão ou no outono. Leva 10 dias para crescer e pode ser colhido a cada 5 dias depois.",
+
+"ateliercrops_valerian_seeds.name": "Sementes de Valeriana",
+"ateliercrops_valerian_seeds.description": "Plante no verão. Leva 13 dias para crescer e pode ser colhido a cada 5 dias depois.",
+
+"ateliercrops_yarrow_seeds.name": "Sementes de Yarrow",
+"ateliercrops_yarrow_seeds.description": "Plante na primavera ou no verão. Leva 12 dias para crescer.",	
+
+
+}

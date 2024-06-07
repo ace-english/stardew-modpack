@@ -1,0 +1,454 @@
+{
+	//////////////
+	// MACHINES //
+	//////////////
+	
+"gourmetpantry_KitchenBlender.name": "Liquidificador de Cozinha",
+"gourmetpantry_KitchenBlender.description": "Um eletrodoméstico de cozinha que pode transformar nozes em leites, leites em creme e muito mais!",
+
+"gourmetpantry_KitchenMortar.name": "Mortar de Cozinha",
+"gourmetpantry_KitchenMortar.description": "Um eletrodoméstico de cozinha que pode moer cultivos em farinhas e misturas de especiarias.",
+
+"gourmetpantry_YogurtBowl.name": "Tigela de Iogurte",
+"gourmetpantry_YogurtBowl.description": "Isso pode criar iogurtes cremosos e saborosos.",
+
+"gourmetpantry_SyrupMaker.name": "Bancada de Destilação",
+"gourmetpantry_SyrupMaker.description": "Uma estação de cozinha para destilar xaropes aromatizados e outras misturas líquidas.",
+
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+"gourmetpantry_KitchenBlender_InvalidItem.message": "Não é possível processar este item",
+"gourmetpantry_KitchenBlender_InvalidCount.message": "Requer cogumelos brancos leitosos",
+
+"gourmetpantry_KitchenMortar_InvalidItem.message": "Não é possível processar este item",
+"gourmetpantry_KitchenMortar_InvalidCount.message": "Requer mais ingredientes",
+
+"gourmetpantry_YogurtBowl_InvalidItem.message": "Não é possível processar este item",
+"gourmetpantry_YogurtBowl_InvalidCount.message": "Requer cogumelos brancos leitosos",
+
+"gourmetpantry_SyrupMaker_InvalidItem.message": "Não é possível processar este item",
+"gourmetpantry_SyrupMaker_InvalidCount.message": "Requer mais ingredientes",
+
+	/////////////
+	// STRINGS //
+	/////////////
+
+"gourmetpantry_flavored_syrup":"{0} Xarope",
+"gourmetpantry_flavored_yogurt":"{0} Iogurte",
+
+	/////////////////////
+	//GENERIC ITEMS NEW//
+	/////////////////////
+
+"gourmetpantry_flavored_syrup.name": "Xarope Aromatizado",
+"gourmetpantry_flavored_syrup.description": "Um xarope simples aromatizado com frutas ou flores. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_flavored_yogurt.name": "Iogurte Aromatizado",
+"gourmetpantry_flavored_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+
+	/////////////////////////
+	// NUT & FRUIT BUTTERS //
+	/////////////////////////
+
+    "gourmetpantry_almond_butter.name": "Manteiga de Amêndoa",
+"gourmetpantry_almond_butter.description": "Um spread cremoso, semelhante à manteiga, feito de amêndoas. Perfeito para assar, espalhar no pão e muito mais!",
+
+"gourmetpantry_cashew_butter.name": "Manteiga de Castanha de Caju",
+"gourmetpantry_cashew_butter.description": "Um spread cremoso, semelhante à manteiga, feito de castanhas de caju. Perfeito para assar, espalhar no pão e muito mais!",
+
+"gourmetpantry_coconut_butter.name": "Manteiga de Coco",
+"gourmetpantry_coconut_butter.description": "Um substituto de manteiga feito da gordura do coco. Perfeito para assar tratamentos sem lácteos!",
+
+"gourmetpantry_apple_butter.name": "Manteiga de Maçã",
+"gourmetpantry_apple_butter.description": "Feito com a receita secreta da família do agricultor - quente, doce e perfeito para passar no pão pela manhã ou ao lado de um muffin",
+
+"gourmetpantry_honey_butter.name": "Manteiga de Mel",
+"gourmetpantry_honey_butter.description": "Feito com a receita secreta da família do agricultor e com a ajuda de algumas adoráveis abelhas.",
+
+"gourmetpantry_maple_butter.name": "Manteiga de Bordo",
+"gourmetpantry_maple_butter.description": "Feito com a receita secreta da família do agricultor e xarope de bordo local.",
+
+"gourmetpantry_pumpkin_butter.name": "Manteiga de Abóbora",
+"gourmetpantry_pumpkin_butter.description": "Feito com a receita secreta da família do agricultor - perfeito para os amantes de especiarias de abóbora.",
+
+"gourmetpantry_lemon_curd.name": "Coalhada de Limão",
+"gourmetpantry_lemon_curd.description": "Sua textura lusciosa e cremosa se deve às gemas de ovo de alta qualidade de galinhas muito felizes.",
+
+"gourmetpantry_lime_curd.name": "Coalhada de Lima",
+"gourmetpantry_lime_curd.description": "Sua textura lusciosa e cremosa se deve às gemas de ovo de alta qualidade de galinhas muito felizes.",
+
+"gourmetpantry_orange_curd.name": "Coalhada de Laranja",
+"gourmetpantry_orange_curd.description": "Sua textura lusciosa e cremosa se deve às gemas de ovo de alta qualidade de galinhas muito felizes.",
+
+"gourmetpantry_hazelnut_butter.name": "Manteiga de Avelã",
+"gourmetpantry_hazelnut_butter.description": "Um spread cremoso, semelhante à manteiga, feito de avelãs. Perfeito para assar, espalhar no pão e muito mais!",
+
+"gourmetpantry_pistachio_butter.name": "Manteiga de Pistache",
+"gourmetpantry_pistachio_butter.description": "Um spread cremoso, semelhante à manteiga, feito de pistache. Perfeito para assar, espalhar no pão e muito mais!",
+
+"gourmetpantry_walnut_butter.name": "Manteiga de Noz",
+"gourmetpantry_walnut_butter.description": "Um spread cremoso, semelhante à manteiga, feito de nozes. Perfeito para assar, espalhar no pão e muito mais!",
+	
+	///////////
+	// MILKS //
+	///////////
+
+	"gourmetpantry_almond_milk.name": "Leite de Amêndoa",
+"gourmetpantry_almond_milk.description": "Um leite alternativo feito de amêndoas. Um ótimo substituto para laticínios em receitas, smoothies e muito mais!",
+
+"gourmetpantry_cashew_milk.name": "Leite de Castanha de Caju",
+"gourmetpantry_cashew_milk.description": "Um leite alternativo feito de castanhas de caju. Um ótimo substituto para laticínios em receitas, smoothies e muito mais!",
+
+"gourmetpantry_coconut_milk.name": "Leite de Coco",
+"gourmetpantry_coconut_milk.description": "Um leite alternativo feito de coco. Um ótimo substituto para laticínios em receitas, smoothies e muito mais!",
+
+"gourmetpantry_hazelnut_milk.name": "Leite de Avelã",
+"gourmetpantry_hazelnut_milk.description": "Um leite alternativo feito de avelãs. Um ótimo substituto para laticínios em receitas, smoothies e muito mais!",
+
+"gourmetpantry_pistachio_milk.name": "Leite de Pistache",
+"gourmetpantry_pistachio_milk.description": "Um leite alternativo feito de pistaches. Um ótimo substituto para laticínios em receitas, smoothies e muito mais!",
+
+"gourmetpantry_rice_milk.name": "Leite de Arroz",
+"gourmetpantry_rice_milk.description": "Um leite alternativo feito de arroz. Um ótimo substituto para laticínios em receitas, smoothies e muito mais!",
+
+	///////////////
+	// CHOCOLATE //
+	///////////////
+
+	"gourmetpantry_bittersweet_chocolate.name": "Chocolate Amargo",
+"gourmetpantry_bittersweet_chocolate.description": "Barra de chocolate amargo usada na fabricação de doces e guloseimas.",
+
+"gourmetpantry_chocolate_chips.name": "Gotas de Chocolate",
+"gourmetpantry_chocolate_chips.description": "Também conhecidas como gotas de chocolate, um item essencial para quem adora fazer biscoitos.",
+
+"gourmetpantry_semisweet_chocolate.name": "Chocolate Meio Amargo",
+"gourmetpantry_semisweet_chocolate.description": "Barra de chocolate levemente doce usada na fabricação de doces e guloseimas.",
+
+"gourmetpantry_white_chocolate.name": "Chocolate Branco",
+"gourmetpantry_white_chocolate.description": "Barra de chocolate branco usada na fabricação de doces e guloseimas.",
+
+	/////////////////
+	// INGREDIENTS //
+	/////////////////
+
+	"gourmetpantry_vanilla_extract.name": "Extrato de Baunilha",
+"gourmetpantry_vanilla_extract.description": "Essência de baunilha destilada a partir de favas de baunilha forrageadas. Usada no preparo de doces!",
+	
+"gourmetpantry_confectioners_sugar.name": "Açúcar de Confeiteiro",
+"gourmetpantry_confectioners_sugar.description": "Também conhecido como açúcar de confeiteiro; este açúcar finamente moído tem um pouco de amido de milho adicionado para evitar aglomeração e é frequentemente usado para cobrir produtos assados.",
+
+"gourmetpantry_espresso_powder.name": "Pó de Café Expresso",
+"gourmetpantry_espresso_powder.description": "O sabor forte de café complementa muito bem produtos assados com chocolate.",
+
+"gourmetpantry_pectin.name": "Pectina",
+"gourmetpantry_pectin.description": "Um agente geleificante feito a partir de frutas; essencial para conservar geleias e gelatinas.",
+	
+"gourmetpantry_rainbow_sprinkles.name": "Confeitos Coloridos",
+"gourmetpantry_rainbow_sprinkles.description": "Também conhecidos como granulados; seja como você chama, eles são doces e coloridos e uma cobertura perfeita para quase tudo!",
+
+"gourmetpantry_brown_sugar.name": "Açúcar Mascavo",
+"gourmetpantry_brown_sugar.description": "Açúcar que não teve todo o melaço removido durante o processamento, resultando em um sabor mais rico e terroso que vai bem em muffins e certos bolos.",
+	
+"gourmetpantry_cocoa_powder.name": "Pó de Cacau",
+"gourmetpantry_cocoa_powder.description": "Cacau que foi seco e transformado em pó para ser usado em produtos assados.",
+	
+"gourmetpantry_olive_oil.name": "Azeite de Oliva",
+"gourmetpantry_olive_oil.description": "Azeitonas prensadas a frio significam um azeite de oliva superior para usar em saladas ou refogar vegetais frescos!",
+	
+
+	///////////
+	// DAIRY //
+	///////////
+
+	"gourmetpantry_butter.name": "Manteiga",
+"gourmetpantry_butter.description": "Leite fresco de vaca batido à mão em uma gloriosa manteiga.",
+
+"gourmetpantry_buttermilk.name": "Leitelho",
+"gourmetpantry_buttermilk.description": "Embora tenha um cheiro um pouco desagradável, este ingrediente ajuda a criar pães de milho macios e panquecas fofas.",
+
+"gourmetpantry_cream.name": "Creme de Leite",
+"gourmetpantry_cream.description": "Feito do leite de vacas locais, este creme é essencial para assar certos tipos de massas e para bater coberturas macias e fofas!",
+
+"gourmetpantry_cream_cheese.name": "Cream Cheese",
+"gourmetpantry_cream_cheese.description": "Feito com leite de vacas locais, este cream cheese é perfeito para cheesecake ou apenas para passar em um bagel.",
+
+	////////////
+	// YOGURT //
+	////////////
+
+	"gourmetpantry_plain_yogurt.name": "Iogurte Natural",
+"gourmetpantry_plain_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_ambrosia_yogurt.name": "Iogurte Ambrosia",
+"gourmetpantry_ambrosia_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_ancient_yogurt.name": "Iogurte Antigo",
+"gourmetpantry_ancient_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_apple_yogurt.name": "Iogurte de Maçã",
+"gourmetpantry_apple_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_apricot_yogurt.name": "Iogurte de Damasco",
+"gourmetpantry_apricot_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_banana_yogurt.name": "Iogurte de Banana",
+"gourmetpantry_banana_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_blood_orange_yogurt.name": "Iogurte de Laranja Vermelha",
+"gourmetpantry_blood_orange_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_blueberry_yogurt.name": "Iogurte de Mirtilo",
+"gourmetpantry_blueberry_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_chocolate_yogurt.name": "Iogurte de Chocolate",
+"gourmetpantry_chocolate_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_cheesecake_yogurt.name": "Iogurte de Cheesecake",
+"gourmetpantry_cheesecake_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_vanilla_yogurt.name": "Iogurte de Baunilha",
+"gourmetpantry_vanilla_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_caramel_yogurt.name": "Iogurte de Caramelo",
+"gourmetpantry_caramel_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_cherry_yogurt.name": "Iogurte de Cereja",
+"gourmetpantry_cherry_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_coconut_yogurt.name": "Iogurte de Coco",
+"gourmetpantry_coconut_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_coffee_yogurt.name": "Iogurte de Café",
+"gourmetpantry_coffee_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_creamsicle_yogurt.name": "Iogurte de Creamsicle",
+"gourmetpantry_creamsicle_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+    
+	"gourmetpantry_custard_yogurt.name": "Iogurte de Creme",
+"gourmetpantry_custard_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_eversweet_yogurt.name": "Iogurte Sempre Doce",
+"gourmetpantry_eversweet_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_candy_yogurt.name": "Iogurte de Doces",
+"gourmetpantry_candy_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_tiramisu_yogurt.name": "Iogurte de Tiramisu",
+"gourmetpantry_tiramisu_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_macaron_yogurt.name": "Iogurte de Macaron",
+"gourmetpantry_macaron_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_mango_yogurt.name": "Iogurte de Manga",
+"gourmetpantry_mango_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_melon_yogurt.name": "Iogurte de Melão",
+"gourmetpantry_melon_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_galaxy_yogurt.name": "Iogurte de Galáxia",
+"gourmetpantry_galaxy_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_moongold_yogurt.name": "Iogurte Luar de Ouro",
+"gourmetpantry_moongold_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_orange_yogurt.name": "Iogurte de Laranja",
+"gourmetpantry_orange_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_peach_yogurt.name": "Iogurte de Pêssego",
+"gourmetpantry_peach_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_mint_yogurt.name": "Iogurte de Menta",
+"gourmetpantry_mint_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_lemon_yogurt.name": "Iogurte de Limão",
+"gourmetpantry_lemon_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_lime_yogurt.name": "Iogurte de Lima",
+"gourmetpantry_lime_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+    
+	"gourmetpantry_pie_yogurt.name": "Iogurte de Torta",
+"gourmetpantry_pie_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_pineapple_yogurt.name": "Iogurte de Abacaxi",
+"gourmetpantry_pineapple_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_pomegranate_yogurt.name": "Iogurte de Romã",
+"gourmetpantry_pomegranate_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_pumpkin_yogurt.name": "Iogurte de Abóbora",
+"gourmetpantry_pumpkin_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_shortcake_yogurt.name": "Iogurte de Moranguinho",
+"gourmetpantry_shortcake_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_snow_yogurt.name": "Iogurte de Neve",
+"gourmetpantry_snow_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_sprinkle_yogurt.name": "Iogurte de Granulado",
+"gourmetpantry_sprinkle_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_starfruit_yogurt.name": "Iogurte de Carambola",
+"gourmetpantry_starfruit_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_sugar_yogurt.name": "Iogurte de Flores de Açúcar",
+"gourmetpantry_sugar_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_sunset_yogurt.name": "Iogurte de Manga do Pôr do Sol",
+"gourmetpantry_sunset_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+    
+	"gourmetpantry_gem_yogurt.name": "Iogurte de Joia Doce",
+"gourmetpantry_gem_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_raspberry_yogurt.name": "Iogurte de Framboesa Selvagem",
+"gourmetpantry_raspberry_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+
+"gourmetpantry_strawberry_yogurt.name": "Iogurte de Morango Selvagem",
+"gourmetpantry_strawberry_yogurt.description": "Feito com leite de vacas locais, este iogurte está repleto de probióticos!",
+    
+	////////////
+	// SYRUPS //
+	////////////
+
+	"gourmetpantry_ancient_syrup.name": "Xarope Antigo",
+"gourmetpantry_ancient_syrup.description": "Um xarope simples com sabor de frutas antigas. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_apple_syrup.name": "Xarope de Maçã",
+"gourmetpantry_apple_syrup.description": "Um xarope simples com sabor de maçã. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_apricot_syrup.name": "Xarope de Damasco",
+"gourmetpantry_apricot_syrup.description": "Um xarope simples com sabor de damascos. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_banana_syrup.name": "Xarope de Banana",
+"gourmetpantry_banana_syrup.description": "Um xarope simples com sabor de bananas. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_blueberry_syrup.name": "Xarope de Mirtilo",
+"gourmetpantry_blueberry_syrup.description": "Um xarope simples com sabor de mirtilos frescos. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_caramel_syrup.name": "Xarope de Caramelo",
+"gourmetpantry_caramel_syrup.description": "Um xarope simples com sabor de caramelo. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_chai_syrup.name": "Xarope de Chai",
+"gourmetpantry_chai_syrup.description": "Um xarope simples com sabor de especiarias chai. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_cherry_syrup.name": "Xarope de Cereja",
+"gourmetpantry_cherry_syrup.description": "Um xarope simples com sabor de cerejas. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+    
+	"gourmetpantry_chocolate_syrup.name": "Xarope de Chocolate",
+"gourmetpantry_chocolate_syrup.description": "Um xarope simples com sabor de cacau. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_cinnamon_syrup.name": "Xarope de Canela",
+"gourmetpantry_cinnamon_syrup.description": "Um xarope simples aromatizado com canela. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_elderberry_syrup.name": "Xarope de Sabugueiro",
+"gourmetpantry_elderberry_syrup.description": "Um xarope simples com sabor de sabugueiros frescos. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_grenadine_syrup.name": "Xarope de Grenadine",
+"gourmetpantry_grenadine_syrup.description": "Um xarope simples com sabor de romãs. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_lavender_syrup.name": "Xarope de Lavanda",
+"gourmetpantry_lavender_syrup.description": "Um xarope simples com sabor de lavanda fresca. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_lemon_syrup.name": "Xarope de Limão",
+"gourmetpantry_lemon_syrup.description": "Um xarope simples com sabor de limões frescos. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_lime_syrup.name": "Xarope de Lima",
+"gourmetpantry_lime_syrup.description": "Um xarope simples com sabor de limões frescos. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_mango_syrup.name": "Xarope de Manga",
+"gourmetpantry_mango_syrup.description": "Um xarope simples com sabor de mangas frescas. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_matcha_syrup.name": "Xarope de Matcha",
+"gourmetpantry_matcha_syrup.description": "Um xarope simples aromatizado com chá verde. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+
+"gourmetpantry_marshmallow_syrup.name": "Xarope de Marshmallow",
+"gourmetpantry_marshmallow_syrup.description": "Um xarope simples com sabor de marshmallows frescos. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+	"gourmetpantry_mint_syrup.name": "Xarope de Menta",
+"gourmetpantry_mint_syrup.description": "Um xarope simples com sabor de hortelã fresca. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_orange_syrup.name": "Xarope de Laranja",
+"gourmetpantry_orange_syrup.description": "Um xarope simples com sabor de laranjas. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_peach_syrup.name": "Xarope de Pêssego",
+"gourmetpantry_peach_syrup.description": "Um xarope simples com sabor de pêssegos. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_pineapple_syrup.name": "Xarope de Abacaxi",
+"gourmetpantry_pineapple_syrup.description": "Um xarope simples aromatizado com abacaxis. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_pumpkin_syrup.name": "Xarope de Abóbora e Especiarias",
+"gourmetpantry_pumpkin_syrup.description": "Um xarope simples aromatizado com abóbora. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_gem_syrup.name": "Xarope de Joia Doce",
+"gourmetpantry_gem_syrup.description": "Um xarope simples com sabor de frutas gem. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_raspberry_syrup.name": "Xarope de Framboesa",
+"gourmetpantry_raspberry_syrup.description": "Um xarope simples com sabor de framboesas silvestres. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_rose_syrup.name": "Xarope de Rosa",
+"gourmetpantry_rose_syrup.description": "Um xarope simples com sabor de rosa fresca. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_sakura_syrup.name": "Xarope de Sakura",
+"gourmetpantry_sakura_syrup.description": "Um xarope simples com sabor de flores de cerejeira frescas. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+    
+	"gourmetpantry_simple_syrup.name": "Xarope Simples",
+"gourmetpantry_simple_syrup.description": "Um xarope simples feito de açúcar e água. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_vanilla_syrup.name": "Xarope de Baunilha",
+"gourmetpantry_vanilla_syrup.description": "Um xarope simples com sabor de baunilha fresca. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+
+"gourmetpantry_wild_strawberry_syrup.name": "Xarope de Morango",
+"gourmetpantry_wild_strawberry_syrup.description": "Um xarope simples com sabor de morangos silvestres. Perfeito para fazer bebidas personalizadas e outras delícias gourmet!",
+    
+	////////////
+	// FLOURS //
+	////////////
+
+	"gourmetpantry_almond_flour.name": "Farinha de Amêndoas",
+"gourmetpantry_almond_flour.description": "Uma farinha artesanal feita de amêndoas moídas. Essencial para macarons, mas também ótima para receitas sem glúten!",
+
+"gourmetpantry_bread_flour.name": "Farinha de Pão",
+"gourmetpantry_bread_flour.description": "Uma farinha artesanal feita de um tipo mais robusto de trigo. Seu maior teor de proteína é ideal para a maioria das massas de pão.",
+
+"gourmetpantry_cake_flour.name": "Farinha de Bolo",
+"gourmetpantry_cake_flour.description": "Uma farinha artesanal feita especialmente para assar bolos. Seu menor teor de proteína resulta em bolos mais macios e com uma migalha agradável e macia.",
+
+"gourmetpantry_coconut_flour.name": "Farinha de Coco",
+"gourmetpantry_coconut_flour.description": "Uma farinha artesanal feita de coco moído. Usada na fabricação de certos dumplings, também é ótima para receitas sem glúten!",
+
+"gourmetpantry_corn_flour.name": "Farinha de Milho",
+"gourmetpantry_corn_flour.description": "Uma farinha artesanal feita de milho moído. Essencial para pratos como tamales ou pão de milho.",
+
+"gourmetpantry_pastry_flour.name": "Farinha de Pastelaria",
+"gourmetpantry_pastry_flour.description": "Uma farinha artesanal para fazer pastéis. Com menos proteína como a farinha de bolo, este ingrediente é essencial para muitas tortas e doces.",
+
+"gourmetpantry_rice_flour.name": "Farinha de Arroz",
+"gourmetpantry_rice_flour.description": "Uma farinha artesanal feita de arroz moído. Essencial para dumplings e mochi, mas também ótima para receitas sem glúten!",
+	
+
+//////////
+// MAIL //
+//////////
+
+	"gourmetpantry_MortarRecipe.name": "Um Mortar de Cozinha para Sua Casa!",
+	"gourmetpantry_MortarRecipe.text": "@, ^^ Se você criar um desses mortar de cozinha, poderá começar a fazer farinhas e açúcares especiais! Eles são ótimos para assar, mas você também pode vendê-los para mim com um bom lucro. Seria bom expandir as ofertas da loja! ^^ - Pierre",
+
+	"gourmetpantry_BlenderRecipe.name": "Vamos Misturar!",
+	"gourmetpantry_BlenderRecipe.text": "@, ^^ Eu investi em um desses liquidificadores de cozinha quando as pessoas começaram a me pedir café com leite sem lactose. Eles são muito caros para importar, então agora eu faço os meus próprios, mas você também deveria experimentar. Acho que ele pode fazer outras coisas também, então veja o que você consegue descobrir! ^^ - Gus",
+
+	"gourmetpantry_YogurtBowlRecipe.name": "Poder dos Probióticos!",
+	"gourmetpantry_YogurtBowlRecipe.text": "@, ^^ O iogurte está repleto de culturas vivas e ativas que são essenciais para um microbioma intestinal saudável! Também é delicioso quando aromatizado com produtos frescos da sua fazenda. Aproveite! ^^ - Harvey",
+
+	"gourmetpantry_harvey.name": "Sem Amendoins para Mim!",
+	"gourmetpantry_harvey.text": "@, ^^ Um dos meus pacientes era alérgico a amendoins e sua mãe me contou como ela trocou para manteigas de nozes. Eu estava cético no início, mas agora sou um grande fã de manteiga de amêndoas! Aposto que você poderia fazer manteiga de pistache com esses. ^^ - Harvey",
+
+	"gourmetpantry_jodi.name": "Finalmente Sem Lactose",
+	"gourmetpantry_jodi.text": "@, ^^ Não conte para ninguém, mas eu tenho a sensação de que o Sam pode ser intolerante à lactose. Eu secretamente mudei para leite sem lactose e ele não percebeu a diferença, mas eu sim... ^^ - Jodi",
+
+	"gourmetpantry_marnie.name": "Um Presente das Minhas Vacas",
+	"gourmetpantry_marnie.text": "@, ^^ Então o Gus compartilhou os planos para um Liquidificador de Cozinha? Isso é fantástico! Você pode fazer muitos produtos lácteos especiais com isso. Este creme fresco das minhas vacas deve ajudá-lo a começar. ^^ - Marnie",
+	
+}

@@ -1,0 +1,210 @@
+{
+  "WeatherForYesterday": "Sun",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "WitchSwamp",
+      "Name": "wildflour.ateliercrops_peach_parasol",
+      "Tile": "26, 20",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_peach_parasol",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "WitchSwamp",
+      "Name": "wildflour.ateliercrops_golden_aura",
+      "Tile": "4, 15",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_golden_aura",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": "wildflour.ateliercrops_cashew",
+      "Tile": "73, 9",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_cashew",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Railroad",
+      "Name": "wildflour.ateliercrops_sage",
+      "Tile": "33, 58",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_sage",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "BusStop",
+      "Name": "wildflour.ateliercrops_violet_flax",
+      "Tile": "26, 17",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_violet_flax",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "BusStop",
+      "Name": "wildflour.ateliercrops_milkshroom",
+      "Tile": "31, 23",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_milkshroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "BusStop",
+      "Name": "wildflour.ateliercrops_milkshroom",
+      "Tile": "17, 15",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_milkshroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
+      "Name": "wildflour.ateliercrops_cashew",
+      "Tile": "62, 23",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_cashew",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "wildflour.ateliercrops_wheatshroom",
+      "Tile": "4, 11",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_wheatshroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "wildflour.ateliercrops_thistle",
+      "Tile": "31, 10",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_thistle",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": null,
+      "Tile": "23, 31",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Buried",
+        "Contents": [
+          "wildflour.ateliercrops_gentianroot"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WaterfallForest",
+      "Name": "wildflour.ateliercrops_giant_amanita",
+      "Tile": "45, 31",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_giant_amanita",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WaterfallForest",
+      "Name": "wildflour.ateliercrops_wheatshroom",
+      "Tile": "51, 46",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_wheatshroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "wildflour.ateliercrops_wheatshroom",
+      "Tile": "78, 88",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_wheatshroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "wildflour.ateliercrops_wheatshroom",
+      "Tile": "61, 11",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_wheatshroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "wildflour.ateliercrops_pistachio",
+      "Tile": "19, 18",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_pistachio",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "wildflour.ateliercrops_cacaopod",
+      "Tile": "14, 30",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_cacaopod",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "wildflour.ateliercrops_tiny_angels",
+      "Tile": "63, 41",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_tiny_angels",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

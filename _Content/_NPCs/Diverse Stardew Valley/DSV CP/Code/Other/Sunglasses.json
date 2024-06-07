@@ -1,0 +1,287 @@
+{
+        "Changes": 
+        [
+
+// ALEX
+            {
+                "LogName": "Alex Sunglasses Spring/Fall",
+                "Action": "EditImage",
+                "Target": "Portraits/Alex_Outdoor, Characters/Alex_Outdoor",
+                "FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Overlays/Alex_{{Random: SunglassesOverlay, x, x, x, x |key= AlexSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSpringFall": true,
+                    "DSV.Core/ConfigValue:AlexVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:AlexLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Alex Sunglasses Summer",
+                "Action": "EditImage",
+                "Target": "Portraits/Alex_Outdoor, Characters/Alex_Outdoor, Portraits/Alex_IceCream, Characters/Alex_IceCream, Portraits/Alex_Swim, Characters/Alex_Swim",
+                "FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Overlays/Alex_{{Random: SunglassesOverlay, x |key= AlexSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSummer": true,
+                    "DSV.Core/ConfigValue:AlexVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:AlexLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Alex Sunglasses Hot Climate",
+                "Action": "EditImage",
+                "Target": "Portraits/Alex_HotClimate, Characters/Alex_HotClimate, Portraits/Alex_Beach, Characters/Alex_Beach",
+                "FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Overlays/Alex_{{Random: SunglassesOverlay, x |key= AlexSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:AlexVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:AlexLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Alex Sunglasses Beach",
+                "Action": "EditImage",
+                "Target": "Portraits/Alex_Beach, Characters/Alex_Beach",
+                "FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Overlays/Alex_Beach_{{Random: SunglassesOverlay, x |key= AlexSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:AlexVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:AlexLightweightConfig |contains= full": true
+                }
+            },
+
+// HALEY
+            {
+                "LogName": "Haley Sunglasses Spring/Fall",
+                "Action": "EditImage",
+                "Target": "Portraits/Haley_Outdoor, Characters/Haley_Outdoor, Portraits/Haley_Maternity, Characters/Haley_Maternity",
+                "FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_{{Random: SunglassesOverlay, x, x, x, x |key= HaleySunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSpringFall": true,
+                    "DSV.Core/ConfigValue:HaleyVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:HaleyLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Haley Sunglasses Summer",
+                "Action": "EditImage",
+                "Target": "Portraits/Haley_Outdoor, Characters/Haley_Outdoor, Portraits/Haley_Swim, Characters/Haley_Swim, Portraits/Haley_Maternity, Characters/Haley_Maternity",
+                "FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_{{Random: SunglassesOverlay, x |key= HaleySunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSummer": true,
+                    "DSV.Core/ConfigValue:HaleyVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:HaleyLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Haley Sunglasses Hot Climate",
+                "Action": "EditImage",
+                "Target": "Portraits/Haley_HotClimate, Characters/Haley_HotClimate",
+                "FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_{{Random: SunglassesOverlay, x |key= HaleySunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:HaleyVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:HaleyLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Haley Sunglasses Beach",
+                "Action": "EditImage",
+                "Target": "Portraits/Haley_Beach, Characters/Haley_Beach, Portraits/Haley_Beach_Maternity, Characters/Haley_Beach_Maternity",
+                "FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_Beach_{{Random: SunglassesOverlay, x |key= HaleySunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:HaleyVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:HaleyLightweightConfig |contains= full": true
+                }
+            },
+
+// SAM
+            {
+                "LogName": "Sam Sunglasses Spring/Fall",
+                "Action": "EditImage",
+                "Target": "Portraits/Sam_Outdoor, Characters/Sam_Outdoor",
+                "FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_{{Random: SunglassesOverlay, x, x, x, x |key= SamSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSpringFall": true,
+                    "DSV.Core/ConfigValue:SamVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:SamLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Sam Sunglasses Summer",
+                "Action": "EditImage",
+                "Target": "Portraits/Sam_Outdoor, Characters/Sam_Outdoor, Portraits/Sam_Swim, Characters/Sam_Swim",
+                "FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_{{Random: SunglassesOverlay, x |key= SamSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSummer": true,
+                    "DSV.Core/ConfigValue:SamVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:SamLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Sam Sunglasses Hot Climate",
+                "Action": "EditImage",
+                "Target": "Portraits/Sam_HotClimate, Characters/Sam_HotClimate",
+                "FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_{{Random: SunglassesOverlay, x |key= SamSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:SamVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:SamLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Sam Sunglasses Beach",
+                "Action": "EditImage",
+                "Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+                "FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_Beach_{{Random: SunglassesOverlay, x |key= SamSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:SamVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:SamLightweightConfig |contains= full": true
+                }
+            },
+
+// SEBASTIAN
+            {
+                "LogName": "Sebastian Sunglasses Spring/Fall",
+                "Action": "EditImage",
+                "Target": "Portraits/Sebastian_Outdoor, Characters/Sebastian_Outdoor",
+                "FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Sebastian_{{Random: SunglassesOverlay, x, x, x, x |key= SebastianSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSpringFall": true,
+                    "DSV.Core/ConfigValue:SebastianVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:SebastianLightweightConfig |contains= full": true,
+                    "SebastianElahoUglyCryToken |contains= _UglyCry, _UglyCry_Summer": false
+                }
+            },
+            {
+                "LogName": "Sebastian Sunglasses Summer",
+                "Action": "EditImage",
+                "Target": "Portraits/Sebastian_Outdoor, Characters/Sebastian_Outdoor, Portraits/Sebastian_Swim, Characters/Sebastian_Swim",
+                "FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Sebastian_{{Random: SunglassesOverlay, x |key= SebastianSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSummer": true,
+                    "DSV.Core/ConfigValue:SebastianVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:SebastianLightweightConfig |contains= full": true,
+                    "SebastianElahoUglyCryToken |contains= _UglyCry, _UglyCry_Summer": false
+                }
+            },
+            {
+                "LogName": "Sebastian Sunglasses Hot Climate",
+                "Action": "EditImage",
+                "Target": "Portraits/Sebastian_HotClimate, Characters/Sebastian_HotClimate",
+                "FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Sebastian_{{Random: SunglassesOverlay, x |key= SebastianSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:SebastianVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:SebastianLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Sebastian Sunglasses Beach",
+                "Action": "EditImage",
+                "Target": "Portraits/Sebastian_Beach, Characters/Sebastian_Beach",
+                "FromFile": "Art/VanillaNPCs/Sebastian/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SebastianVariant}}/Overlays/Sebastian_Beach_{{Random: SunglassesOverlay, x |key= SebastianSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:SebastianVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:SebastianLightweightConfig |contains= full": true
+                }
+            },
+
+// SHANE
+            {
+                "LogName": "Shane Sunglasses Spring/Fall",
+                "Action": "EditImage",
+                "Target": "Portraits/Shane_Outdoor, Characters/Shane_Outdoor",
+                "FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Overlays/Shane_{{Random: SunglassesOverlay, x, x, x, x |key= ShaneSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSpringFall": true,
+                    "DSV.Core/ConfigValue:ShaneVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:ShaneLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Shane Sunglasses Summer",
+                "Action": "EditImage",
+                "Target": "Portraits/Shane_Outdoor, Characters/Shane_Outdoor, Portraits/Shane_Swim, Characters/Shane_Swim",
+                "FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Overlays/Shane_{{Random: SunglassesOverlay, x |key= ShaneSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "SunglassesToken |contains= SunglassesSummer": true,
+                    "DSV.Core/ConfigValue:ShaneVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:ShaneLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Shane Sunglasses Hot Climate",
+                "Action": "EditImage",
+                "Target": "Portraits/Shane_HotClimate, Characters/Shane_HotClimate",
+                "FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Overlays/Shane_{{Random: SunglassesOverlay, x |key= ShaneSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:ShaneVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:ShaneLightweightConfig |contains= full": true
+                }
+            },
+            {
+                "LogName": "Shane Sunglasses Beach",
+                "Action": "EditImage",
+                "Target": "Portraits/Shane_Beach, Characters/Shane_Beach",
+                "FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Overlays/Shane_Beach_{{Random: SunglassesOverlay, x |key= ShaneSunglasses}}.png",
+                "PatchMode": "Overlay",
+                "When":
+                {
+                    "HasFile:{{FromFile}}": true,
+                    "DSV.Core/ConfigValue:ShaneVariant|contains= Off": false,
+                    "DSV.Core/ConfigValue:ShaneLightweightConfig |contains= full": true
+                }
+            }
+        ]
+    }

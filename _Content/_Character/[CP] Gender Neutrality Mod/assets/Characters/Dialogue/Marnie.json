@@ -1,0 +1,27 @@
+{
+"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries":
+				{
+					"Mon": "I love animals, {{Random: {{Hana.GNMTokens/Title}} }} @. If you treat yours well I'm sure we'll become good friends!"
+				},
+			"LogName": "Fix Marnie - Modded Dialogue + Custom Pronouns - Plural"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries":
+				{
+					"Mon": "I love animals, {{Random: {{Hana.GNMTokens/Title}} }} @. If you treat yours well I'm sure we'll become good friends!"
+				},
+			"LogName": "Fix Marnie - Modded Dialogue + Custom Pronouns - Singular",
+			"When": 
+				{
+					"Hana.GNMTokens/Singular": true
+				}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+ {
+
+   "Changes": [
+ 
+    {
+        "LogName": "Load Textures",
+        "Action": "Load",
+        "Target": "Mods/HXW.Mixology/Machines, Mods/HXW.Mixology/Objects_Cocktails, Mods/HXW.Mixology/Objects_Mocktails",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+ 
+    ]
+}

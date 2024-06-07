@@ -1,0 +1,573 @@
+{
+
+//NEW BUSHES
+
+	"ateliercrops_StrawberryBush.name":"Wilde Erdbeere-Busch",
+	"ateliercrops_StrawberryBush.description":"Ein Strauch, an dem im Frühling Wilde Erdbeeren wachsen.",
+
+	"ateliercrops_RaspberryBush.name":"Wilde Himbeere-Busch",
+	"ateliercrops_RaspberryBush.description":"Ein Strauch, an dem im Sommer Wilde Himbeeren wachsen.",
+
+	"ateliercrops_ValerianBush.name":"Baldrian-Busch",
+	"ateliercrops_ValerianBush.description":"Ein Strauch, an dem im Frühling Baldrian wächst.",
+
+	"ateliercrops_MugwortBush.name":"Beifuß-Busch",
+	"ateliercrops_MugwortBush.description":"Ein Strauch, an dem im Sommer und Herbst Baldrian wächst.",
+
+	"ateliercrops_ThistleBush.name":"Disteln-Busch",
+	"ateliercrops_ThistleBush.description":"Ein Strauch, an dem im Sommer Disteln wachsen.",
+
+	"ateliercrops_RoseFlaxBush.name":"Rosaner Flachs-Busch",
+	"ateliercrops_RoseFlaxBush.description":"Ein Strauch, an dem im Frühling, Sommer und Herbst Rosaner Flachs wächst.",
+
+	"ateliercrops_VioletFlaxBush.name":"Violetter Flachs-Busch",
+	"ateliercrops_VioletFlaxBush.description":"Ein Strauch, an dem im Frühling, Sommer und Herbst Violetter Flachs wächst.",
+
+	"ateliercrops_AmberBush.name":"Bernstein-Mondtropfen-Busch",
+	"ateliercrops_AmberBush.description":"Ein Strauch, an dem im Frühling und Sommer Bernstein-Mondtropfen wachsen.",
+
+	"ateliercrops_LapisBush.name":"Lapis-Mondtropfen-Busch",
+	"ateliercrops_LapisBush.description":"Ein Strauch, an dem im Sommer und Herbst Lapis-Mondtropfen wachsen.",
+
+	"ateliercrops_JadeBush.name":"Jade-Mondtropfen-Busch",
+	"ateliercrops_JadeBush.description":"Ein Strauch, an dem im Sommer und Herbst Jade-Mondtropfen wachsen.",
+
+	"ateliercrops_PearlBush.name":"Perlen-Mondtropfen-Busch",
+	"ateliercrops_PearlBush.description":"Ein Strauch, an dem im Sommer und Herbst Perlen-Mondtropfen wachsen.",
+	
+	//SEEDS
+
+	"ateliercrops_vanillaseeds.name": "Calico-Vanille-Starter",
+	"ateliercrops_vanillaseeds.description": "Pflanze sie im Sommer. Wächst in 14 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+
+	"ateliercrops_chamomileseeds.name": "Wald-Kamille-Saat",
+	"ateliercrops_chamomileseeds.description": "Pflanze sie im Sommer. Benötigt 5 Tage zur ausgewachsenen Pflanze.",
+
+	"ateliercrops_lavenderseeds.name": "Wald-Lavendel-Saat",
+	"ateliercrops_lavenderseeds.description": "Pflanze sie im Frühling, Sommer oder Herbst. Wächst in 14 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+
+	"ateliercrops_jasmineseeds.name": "Edelsteininsel-Jasmin-Saat",
+	"ateliercrops_jasmineseeds.description": "Pflanze sie im Sommer. Wächst in 14 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+
+	"ateliercrops_mallowseeds.name": "Marshmallow-Saat",
+	"ateliercrops_mallowseeds.description": "Pflanze sie im Frühling oder Sommer. Wächst in 8 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+
+	"ateliercrops_mintseeds.name": "Pelikan-Minze-Saat",
+	"ateliercrops_mintseeds.description": "Pflanze sie im Frühling oder Sommer. Wächst in 12 Tage heran, kann aber danach alle 3 Tage geerntet werden.",
+
+	"ateliercrops_redonionseeds.name": "Wilde Rote Zwiebel-Saat",
+	"ateliercrops_redonionseeds.description": "Pflanze sie im Frühling oder Herbst. Benötigt 7 Tage zur ausgewachsenen Pflanze.",
+
+	"ateliercrops_strawberryseeds.name": "Wilde Erdbeere-Busch",
+	"ateliercrops_strawberryseeds.description": "Pflanze sie im Frühling. Wächst in 12 Tage heran, kann aber danach alle 3 Tage geerntet werden.",
+
+	"ateliercrops_raspberryseeds.name": "Wilde Himbeere-Busch",
+	"ateliercrops_raspberryseeds.description": "Pflanze sie im Sommer. Wächst in 10 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+
+	"ateliercrops_wormwoodseeds.name": "Wermut-Saat",
+	"ateliercrops_wormwoodseeds.description": "Pflanze sie im Sommer. Wächst in 10 Tage heran, kann aber danach alle 3 Tage geerntet werden.",
+
+	//HERB SEEDS
+
+	"ateliercrops_basilseeds.name": "Thai-Basilikum-Saat",
+	"ateliercrops_basilseeds.description": "Pflanze sie im Sommer. Wächst in 14 Tage heran, kann aber danach alle 3 Tage geerntet werden.",
+	
+	"ateliercrops_cilantroseeds.name": "Zundersaft-Koriander-Saat",
+	"ateliercrops_cilantroseeds.description": "Pflanze sie im Frühling. Wächst in 7 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+	
+	"ateliercrops_rosemaryseeds.name": "Winterharter Rosmarin-Saat",
+	"ateliercrops_rosemaryseeds.description": "Pflanze sie im Frühling oder Herbst. Wächst in 14 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+	
+	"ateliercrops_sageseeds.name": "Zundersaft-Salbei-Saat",
+	"ateliercrops_sageseeds.description": "Pflanze sie im Herbst. Wächst in 12 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+	
+	"ateliercrops_thymeseeds.name": "Zitronenthymian-Saat",
+	"ateliercrops_thymeseeds.description": "Pflanze sie im Frühling oder Sommer. Wächst in 12 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+
+	"ateliercrops_gentianroot.name": "Enzian-Wurzel",
+	"ateliercrops_gentianroot.description": "Eine Wurzel, die in alpinen Gebieten wächst und oft als Aroma in Bitterstoffen und anderen Getränken verwendet wird.",
+
+	"ateliercrops_wormwood.name": "Wermut",
+	"ateliercrops_wormwood.description": "Dieses Kraut ist oft als einer der Hauptbestandteile von Absinth bekannt und hat eine Vielzahl von Verwendungsmöglichkeiten.",
+
+	// MUSHROOM STARTERS
+
+    "ateliercrops_chickenwoodsseeds.name":"Schwefelporling-Starter",
+    "ateliercrops_chickenwoodsseeds.description":"Pflanze sie im Sommer. Wächst in 14 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+
+    "ateliercrops_honeyfungusseeds.name":"Honigpilz-Starter",
+    "ateliercrops_honeyfungusseeds.description":"Pflanze sie im Frühling. Wächst in 21 Tage heran, kann aber danach alle 3 Tage geerntet werden.",
+
+    "ateliercrops_meringueshroomseeds.name":"Baiserpilz-Starter",
+    "ateliercrops_meringueshroomseeds.description":"Pflanze sie im Herbst. Wächst in 16 Tage heran, kann aber danach alle 3 Tage geerntet werden.",
+
+    "ateliercrops_milkshroomseeds.name":"Weißer Milchpilz-Starter",
+    "ateliercrops_milkshroomseeds.description":"Pflanze sie im Sommer oder Herbst. Wächst in 14 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+
+    "ateliercrops_wheatshroomseeds.name":"Weizenkornpilz-Starter",
+    "ateliercrops_wheatshroomseeds.description":"Pflanze sie im Frühling. Wächst in 12 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+	
+	//HERBS
+	
+	"ateliercrops_basil.name": "Thai-Basilikum",
+	"ateliercrops_basil.description": "Eine süßere Sorte des beliebten Krauts, das in verschiedenen kulinarischen Traditionen sowohl wegen seiner Farbe als auch wegen seines Geschmacks verwendet wird.",
+	
+	"ateliercrops_cilantro.name": "Zundersaft-Koriander",
+	"ateliercrops_cilantro.description": "Eine wilde Koriandersorte (auch bekannt als arabische Petersilie), die oft in würzigen Gerichten oder Salsas verwendet wird.",
+	
+	"ateliercrops_sage.name": "Zundersaft-Salbei",
+	"ateliercrops_sage.description": "Ein zartes Kraut mit blumigen Noten, das den reichen Geschmack vieler Herbstgerichte unterstreicht.",
+	
+	"ateliercrops_rosemary.name": "Winterharter Rosmarin",
+	"ateliercrops_rosemary.description": "Ein starkes und robustes Kraut, das fast überall gedeiht; es ähnelt fast einer kleinen Kiefer.",
+	
+	"ateliercrops_thyme.name": "Zitronenthymian",
+	"ateliercrops_thyme.description": "Ein beliebtes Kraut, das in jedem Garten schnell wächst; Diese Sorte wird wegen ihres kräutig-, zitronigem Geschmacks geschätzt.",
+
+	"ateliercrops_anise.name": "Sternanis",
+	"ateliercrops_anise.description": "Obwohl er in vielen traditionellen Küchen ein verbreitetes Kraut ist, hat Sternanis auch viele magische Eigenschaften und kann zur Hervorrufung prophetischer Visionen verwendet werden.",
+
+	
+	//TREES NEW
+
+	"ateliercrops_lemonsapling.name":"Kleine Zitrone-Setzling",
+	"ateliercrops_lemonsapling.description":"Wächst in 28 Tagen zu einem reifen Kleine Zitronenbaum heran. Trägt im Frühling Früchte. ",
+	
+	"ateliercrops_limesapling.name":"Kleine Limette-Setzling",
+	"ateliercrops_limesapling.description":"Wächst in 28 Tagen zu einem reifen Kleine Limettenbaum heran. Trägt im Frühling Früchte.",
+
+	"ateliercrops_anise_sapling.name": "Sternanis-Setzling",
+	"ateliercrops_anise_sapling.description": "Wächst in 28 Tagen zu einem reifen Sternanisbaum heran. Trägt im Frühling Früchte. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+	"ateliercrops_elder_sapling.name": "Holunder-Setzling",
+	"ateliercrops_elder_sapling.description": "Wächst in 28 Tagen zu einem reifen Holunderbaum heran. Trägt im Sommer Früchte. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+	//TREES
+
+	"ateliercrops_pistachiosapling.name": "Calico-Pistazie-Setzling",
+	"ateliercrops_pistachiosapling.description": "Wächst in 28 Tagen zu einem reifen Calico-Pistazienbaum heran. Trägt im Sommer und Herbst Früchte.",
+
+	"ateliercrops_cinnamonsapling.name": "Zundersaft-Zimt-Setzling",
+	"ateliercrops_cinnamonsapling.description": "Wächst in 28 Tagen zu einem reifen Zundersaft-Zimtbaum heran. Ernte die Rinde im Winter.",
+
+	"ateliercrops_olivesapling.name": "Farninsel-Olive-Setzling",
+	"ateliercrops_olivesapling.description": "Wächst in 28 Tagen zu einem reifen Farninsel-Olivenbaum heran. Trägt im Sommer Früchte.",
+
+	"ateliercrops_cashewsapling.name": "Edelsteinsee-Cashew-Setzling",
+	"ateliercrops_cashewsapling.description": "Wächst in 28 Tagen zu einem reifen Edelsteinsee-Cashewbaum heran. Trägt im Herbst Früchte.",
+
+	"ateliercrops_walnutsapling.name": "Grampleton-Walnuss-Setzling",
+	"ateliercrops_walnutsapling.description": "Wächst in 28 Tagen zu einem reifen Grampleton-Walnussbaum heran. Trägt im Herbst Früchte.",
+
+	"ateliercrops_almondsapling.name": "St. Cannoli-Mandel-Setzling",
+	"ateliercrops_almondsapling.description": "Wächst in 28 Tagen zu einem reifen St. Cannoli-Mandelbaum heran. Trägt im Frühling und Sommer Früchte.",
+
+	"ateliercrops_cacaopodsapling.name": "Wilder Kakao-Setzling",
+	"ateliercrops_cacaopodsapling.description": "Wächst in 28 Tagen zu einem reifen Kakaobaum heran. Trägt im Herbst Früchte.",
+
+	//OBJECTS
+
+	"ateliercrops_pistachio.name":"Calico-Pistazie",
+	"ateliercrops_pistachio.description":"Eine seltene Pistaziennuss, die beim Sammeln in der Calico-Wüste gefunden wird.",
+
+	"ateliercrops_vanilla.name": "Calico-Vanille",
+	"ateliercrops_vanilla.description": "Schote einer seltenen Vanille, die beim Sammeln in der Calico-Wüste gefunden wird.",
+
+	"ateliercrops_cherryblossoms.name": "Kirsch-Blütenblätter",
+	"ateliercrops_cherryblossoms.description": "Frische Blütenblätter von blühenden Kirschbäumen.",
+
+	"ateliercrops_chickenwoods.name": "Schwefelporling",
+	"ateliercrops_chickenwoods.description": "Dieser Pilz kommt auf der ganzen Welt vor und einige behaupten, er schmecke tatsächlich genau wie Hühnchen!",
+	
+	"ateliercrops_cinnamon.name": "Zundersaft-Zimt",
+	"ateliercrops_cinnamon.description": "Eine seltene Zimtrinde, die nur im Winter im Zundersaftwald zu finden ist.",
+	
+	"ateliercrops_olive.name": "Farninsel-Olive",
+	"ateliercrops_olive.description": "Eine seltene Olivensorte, die auf tropischen Inseln vorkommt und von geschickten Sammlern an Stränden in der Ferngill-Republik gefunden wird.",
+	
+	"ateliercrops_chamomile.name": "Wald-Kamille",
+	"ateliercrops_chamomile.description": "Eine zarte Blume, die tief im Wald gefunden wird; perfekt für die Zubereitung von Tee.",
+	
+	"ateliercrops_lavender.name": "Wald-Lavendel",
+	"ateliercrops_lavender.description": "Eine duftende, buschige Blume, die tief im Wald gefunden wird.",
+
+	"ateliercrops_jasmine.name": "Edelsteininsel-Jasmin",
+	"ateliercrops_jasmine.description": "Eine wunderschön duftende Blume, die beim Sammeln auf der Ingewerinsel gefunden werden kann.",
+	
+	"ateliercrops_cashew.name": "Edelsteinsee-Cashew",
+	"ateliercrops_cashew.description": "Die Nuss einer tropischen Cashew-Apfelfrucht, die nur auf Inseln im Edelsteinmeer zu finden ist.",
+	
+	"ateliercrops_walnut.name": "Grampleton-Walnuss",
+	"ateliercrops_walnut.description": "Eine Walnusssorte, die in Grampleton beheimatet ist und jetzt offenbar auch in Pelikan Stadt wächst!",
+
+	"ateliercrops_honeyfungus.name": "Honigpilz",
+	"ateliercrops_honeyfungus.description": "Obwohl es gefährlich ist, diese Pilze roh zu verzehren, haben sie bei richtiger Zubereitung einen reichen, nussigen Geschmack..",	
+	
+	"ateliercrops_mallow.name": "Marshmallow",
+	"ateliercrops_mallow.description": "Marshmallow-Blüten. Wird hauptsächlich zur Süßwarenherstellung verwendet.",
+
+	"ateliercrops_meringueshroom.name": "Baiserpilz",
+	"ateliercrops_meringueshroom.description": "Ein seltsam süßer Pilz, den nur die besten Sammler im Tal finden. Seine Farbe und Form wirken fast wie Bonbons.",
+	
+	"ateliercrops_milkshroom.name": "Weißer Milchpilz",
+	"ateliercrops_milkshroom.description": "Diese Pilze sind strahlend weiß und haben eine cremige Konsistenz.",
+
+	"ateliercrops_mint.name": "Pelikan-Minze",
+	"ateliercrops_mint.description": "Eine Minzart, die überall in Pelikan Stadt wächst, egal wie sehr die Dorfbewohner versuchen, sie loszuwerden.",
+	
+	"ateliercrops_lemon.name": "Kleine Zitrone",
+	"ateliercrops_lemon.description": "Eine kleine, aber aromatische Zitrone, die von geschickten Sammlern in der Wildnis gefunden wird.",
+
+	"ateliercrops_lime.name": "Kleine Limette",
+	"ateliercrops_lime.description": "Eine kleine, aber aromatische Limette, die von geschickten Sammlern in der Wildnis gefunden wird.",
+	
+    "ateliercrops_almond.name": "St. Cannoli-Mandel",
+	"ateliercrops_almond.description": "Der Traum eines Sammlers wird wahr! Die seltenste Mandel, die angeblich vom Altmeister Cannoli selbst angebaut wurde.",
+	
+	"ateliercrops_wheatshroom.name": "Weizenkornpilz",
+	"ateliercrops_wheatshroom.description": "An ordinary looking mushroom to the amateur forager, masters know this fungus can be transformed into a key culinary ingredient.",
+
+	"ateliercrops_cacaopod.name": "Wilder Kakao-Schote",
+	"ateliercrops_cacaopod.description": "Fruchtige, fleischige Schote des Kakaobaums. Wird zur Herstellung von Kakao und exotischen Lebensmitteln verwendet.",
+	
+	"ateliercrops_raspberry.name": "Wilde Himbeere",
+	"ateliercrops_raspberry.description": "Eine kleine, süße Beere, die wild in den Wäldern von Ferngill wächst.",
+	
+	"ateliercrops_redonion.name": "Wilde Rote Zwiebel",
+	"ateliercrops_redonion.description": "Sei, ähnlich wie bei der Wilden Karotte, bei dieser Zwiebel vorsichtig, sonst bringt sie dich zum Weinen!",
+	
+	"ateliercrops_strawberry.name": "Wilde Erdbeere",
+	"ateliercrops_strawberry.description": "Eine kleinere Erdbeersorte, die wild in den Wäldern von Ferngill wächst.",
+
+	
+	"ateliercrops_elderberries.name": "Holunderbeeren-Blüten",
+	"ateliercrops_elderberries.description": "Ein Bündel Holunderbeeren und ihre Blüten; Daraus ergibt sich ein toller Tee oder Likör.",
+
+///////////////////////////////
+// FAERIE GARDEN TRANSLATION //
+///////////////////////////////
+
+//MUSHROOMS
+
+"ateliercrops_dawn_trumpet.name":"Morgendämmerungstrompete",
+"ateliercrops_dawn_trumpet.description":"Eine geheimnisvolle Pilzgruppe, die in den Morgenstunden wächst.",
+
+"ateliercrops_dusk_cap.name":"Abenddämmerungskappe",
+"ateliercrops_dusk_cap.description":"Ein bedrohlicher, nässender Pilz, der erst erscheint, wenn die Sonne untergegangen ist.",
+
+"ateliercrops_giant_amanita.name":"Riesen-Amanita",
+"ateliercrops_giant_amanita.description":"Ein ungewöhnlich großer giftiger Pilz.",
+
+"ateliercrops_amanita_cluster.name":"Amanita-Cluster",
+"ateliercrops_amanita_cluster.description":"Giftige Pilze wachsen in einer kleinen Gruppe. Nützlich beim Brauen bestimmter Tränke, aber tödlich, wenn es direkt eingenommen wird.",
+
+"ateliercrops_golden_aura.name":"Goldene Aura",
+"ateliercrops_golden_aura.description":"Ein atemberaubender goldener Pilz, der oft in magischen Zubereitungen verwendet wird.",
+
+"ateliercrops_moon_mushroom.name":"Mondpilz",
+"ateliercrops_moon_mushroom.description":"Eine Puffball-Pilzart, die unheimlich wie der Vollmond aussieht.",
+
+"ateliercrops_gloomy_blewit.name":"Düsterer Blödmann",
+"ateliercrops_gloomy_blewit.description":"Ein dunkler, seltsamer Pilz, der bei Regenstürmen entsteht.",
+
+"ateliercrops_tiny_angels.name":"Kleine Engel",
+"ateliercrops_tiny_angels.description":"Im Gegensatz zu ihrem entfernten Cousin, dem Zerstörungsengel, sind diese kleinen Pilze essbar und passen gut in Salate!",
+
+"ateliercrops_verdigris_agaric.name":"Grünspan-Träuschling",
+"ateliercrops_verdigris_agaric.description":"Ein atemberaubender türkiser Pilz, der oft wegen seiner halluzinogenen Eigenschaften eingenommen wird. Kann in großen Dosen giftig sein.“",
+
+"ateliercrops_faerie_helmets.name":"Feen-Helmling",
+"ateliercrops_faerie_helmets.description":"Aufgrund ihrer geringen Größe und hutähnlichen Form werden sie auch Feenhauben genannt!",
+
+"ateliercrops_blush_cap.name":"Blühende Schleimkappe",
+"ateliercrops_blush_cap.description":"Ein hochgiftiger Pilz, der nur von äußerst erfahrenen Hexen oder Sammlern gepflückt werden sollte!",
+
+"ateliercrops_peach_parasol.name":"Pfirsich-Schirmling",
+"ateliercrops_peach_parasol.description":"Ein seltsamer rosiger Pilz. Gerüchten zufolge wurden sie einst zur Herstellung pigmentierter Farbstoffe für Kleidung und Kosmetika verwendet.",
+
+//FLOWERS
+
+"ateliercrops_geranium.name": "Engelsgeranie",
+"ateliercrops_geranium.description": "Eine buschige Geraniensorte, die für ihre auffälligen Farben geschätzt wird.",
+
+"ateliercrops_arctic_fox.name": "Polarfuchs",
+"ateliercrops_arctic_fox.description": "Eine seltene Fingerhutsorte. Hochgiftig.",
+
+"ateliercrops_avalune.name": "Avalune",
+"ateliercrops_avalune.description": "Eine atemberaubend lebendige Lupinenblütensorte. Ein tolles Geschenk für Feenvolk.",
+
+"ateliercrops_chiffon.name": "Blauer Chiffon",
+"ateliercrops_chiffon.description": "Eine atemberaubende blaue Pfingstrosensorte.",
+
+"ateliercrops_daisy.name": "Kriechendes Gänseblümchen",
+"ateliercrops_daisy.description": "Obwohl es als gewöhnliche Blume oft übersehen wird, können viele Teile des Gänseblümchens kulinarisch, medizinisch... und magisch verwendet werden.",
+
+"ateliercrops_dawn_lily.name": "Morgendämmerungslilie",
+"ateliercrops_dawn_lily.description": "Obwohl diese Sorte mit der Taglilie verwandt ist, ist sie äußerst selten und blüht nur im Morgengrauen. Gerüchten zufolge gedeiht sie nur an Orten mit starker spiritueller Energie.",
+
+"ateliercrops_dusk_lily.name": "Abenddämmerungslilie",
+"ateliercrops_dusk_lily.description": "Obwohl diese Sorte mit der Taglilie verwandt ist, ist sie äußerst selten und blüht nur in der Abenddämmerung. Gerüchten zufolge gedeiht sie nur an Orten mit starker spiritueller Energie.",
+
+"ateliercrops_puffball.name": "Feen-Puffball",
+"ateliercrops_puffball.description": "Diese Blume ist so weich wie eine Wolke; Vielleicht wird sie deshalb oft mit dem Feenvolk und seiner ätherischen Magie in Verbindung gebracht.",
+
+"ateliercrops_violet.name": "Wiesenveilchen",
+"ateliercrops_violet.description": "Ein kriechendes Veilchen, das sich schnell ausbreitet und ganze Wiesen in tiefviolette Farbtöne taucht.",
+
+"ateliercrops_maiden.name": "Mondmädchen",
+"ateliercrops_maiden.description": "Es heißt, diese zarte Blume sei ein Geschenk freundlicher Wichtel an die Menschen zur Begrüßung des Frühlings.",
+
+"ateliercrops_pixies_breath.name": "Elfen-Atem",
+"ateliercrops_pixies_breath.description": "Es ist wie Babyatem, nur ein bisschen magischer.",
+
+"ateliercrops_primrose.name": "Quarzprimel",
+"ateliercrops_primrose.description": "Eine Zwergrosensorte, die gut an Gittern wächst. Die Blüten werden sowohl wegen ihrer Farbe als auch wegen ihres Dufts geschätzt und erinnern an einen Rosenquarz-Edelstein.",
+
+"ateliercrops_cake_blossom.name":"Torten-Blüte",
+"ateliercrops_cake_blossom.description":"Eine seltsam süß duftende goldene Blume. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert dich an eine Geburtstagstorte.",
+
+"ateliercrops_caramel_blossom.name":"Karamell-Blüte",
+"ateliercrops_caramel_blossom.description":"Ein seltsam süß duftendes Blumentrio. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert an braunen Zucker.",
+
+"ateliercrops_creamsicle_blossom.name":"Cremesicle-Blüte",
+"ateliercrops_creamsicle_blossom.description":"Eine seltsam süß duftende Orangenblüte. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert dich an eine Geburtstagstorte im Sommer.",
+
+"ateliercrops_custard_blossom.name":"Custard-Blüte",
+"ateliercrops_custard_blossom.description":"Eine seltsam süß duftende weiße Blume. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert an Vanilleschoten.",
+
+"ateliercrops_gumdrop_blossom.name":"Gummibärchen-Blüte",
+"ateliercrops_gumdrop_blossom.description":"Ein seltsam süß duftendes Blumentrio. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert an Süßigkeiten mit Fruchtgeschmack.",
+
+"ateliercrops_macaron_blossom.name":"Macaron-Blüte",
+"ateliercrops_macaron_blossom.description":"Eine seltsam süß duftende Veilchenblume. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert an ein Lavendel-Macaron.",
+
+"ateliercrops_pie_blossom.name":"Kuchen-Blüte",
+"ateliercrops_pie_blossom.description":"Eine seltsam süß duftende blaue Blume. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert an Blaubeerkuchen.",
+
+"ateliercrops_shortcake_blossom.name":"Shortcake-Blüte",
+"ateliercrops_shortcake_blossom.description":"Eine seltsam süß duftende rosa Blume. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert an süße Sommererdbeeren.",
+
+"ateliercrops_sprinkle_blossom.name":"Streusel-Blüte",
+"ateliercrops_sprinkle_blossom.description":"Eine seltsam süß duftende rosa Blume. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert an Regenbogenstreusel.",
+
+"ateliercrops_sugar_blossom.name":"Zucker-Blüte",
+"ateliercrops_sugar_blossom.description":"Eine seltsam süß duftende rosa Blume. Von den Elfen wegen ihres Geschmacks geschätzt; es erinnert dich an eine Geburtstagstorte aus der Kindheit.",
+
+"ateliercrops_mysteria.name":"Mysteria",
+"ateliercrops_mysteria.description":"Eine seltene und hochgeschätzte Glyziniensorte. Hochgiftig, aber von vielen wegen ihres Duftes und seiner angeblich magischen Eigenschaften geliebt.",
+
+//FRUITS
+
+"ateliercrops_amber_moondrop.name": "Bernstein-Mondtropfen",
+"ateliercrops_amber_moondrop.description": "Eine wunderschöne und seltene goldene Rebsorte, die angeblich ursprünglich vom Feenvolk der Ferngill-Republik angebaut wurde.",
+
+"ateliercrops_apple.name": "Ambrosia-Apfel",
+"ateliercrops_apple.description": "Ein leuchtend grüner Apfel, so süß, dass er nach dem Nektar der Götter benannt ist.",
+
+"ateliercrops_orange.name": "Blutorange",
+"ateliercrops_orange.description": "Eine seltene Zitrusfruchtsorte.",
+
+"ateliercrops_pomegranate.name": "Immersüßer Granatapfel",
+"ateliercrops_pomegranate.description": "Ein Granatapfel in leuchtenden Farben, der voller Geheimnisse steckt. Gerüchten zufolge ist diese Frucht immer saftig und süß, unabhängig davon, wann sie gepflückt wird.",
+
+"ateliercrops_jade_moondrop.name": "Jade-Mondtropfen",
+"ateliercrops_jade_moondrop.description": "Eine wunderschöne und seltene grüne Rebsorte, die angeblich ursprünglich vom Feenvolk der Ferngill-Republik angebaut wurde.",
+
+"ateliercrops_banana.name": "Lady-Finger-Banane",
+"ateliercrops_banana.description": "Eine lange und zarte Bananensorte, die viel süßer sein soll als herkömmliche Bananen.",
+
+"ateliercrops_lapis_moondrop.name": "Lapis-Mondtropfen",
+"ateliercrops_lapis_moondrop.description": "Eine wunderschöne und seltene blaue Rebsorte, die angeblich ursprünglich vom Feenvolk der Ferngill-Republik angebaut wurde.",
+
+"ateliercrops_apricot.name": "Mondgold-Aprikose",
+"ateliercrops_apricot.description": "Eine blasse Aprikose mit goldenem Fruchtfleisch, die angeblich die Lieblingsfrucht der Mondgottheiten ist.",
+
+"ateliercrops_pearl_moondrop.name": "Perlen-Mondtropfen",
+"ateliercrops_pearl_moondrop.description": "Eine wunderschöne und seltene weiße Rebsorte, die angeblich ursprünglich vom Feenvolk der Ferngill-Republik angebaut wurde.",
+
+"ateliercrops_peach.name": "Schneeschönheit-Pfirsich",
+"ateliercrops_peach.description": "Ein seltener und zarter Pfirsich; In der antiken Folklore soll es sich um die Lieblingsfrucht einer bestimmten Prinzessin handeln.",
+
+"ateliercrops_cherry.name": "Meteor-Sauerkirsche",
+"ateliercrops_cherry.description": "Obwohl diese Sorte wie eine gewöhnliche Kirsche aussieht, schmeckt sie seltsamerweise eher nach saurer Süßigkeit als nach Frucht.",
+
+"ateliercrops_mango.name": "Sonnenuntergang-Mango",
+"ateliercrops_mango.description": "Eine zarte Mango, die unter der untergehenden Sonne gereift ist.",
+
+//HERBS
+
+"ateliercrops_rose_flax.name":"Rosaner Flachs",
+"ateliercrops_rose_flax.description":"Ein wunderschön rosafarbenes Korn. Beim Mahlen entsteht ein wertvolles Spezialmehl.",
+
+"ateliercrops_mugwort.name": "Beifuß",
+"ateliercrops_mugwort.description": "Diese Pflanze gehört zur Familie der Korbblütler und wird von Hexen wegen ihrer träumenden und wahrsagenden Eigenschaften kultiviert.",
+
+"ateliercrops_violet_flax.name":"Violetter Flachs",
+"ateliercrops_violet_flax.description":"Ein wunderschön violettfarbenes Korn. Beim Mahlen entsteht ein wertvolles Spezialmehl.",
+
+"ateliercrops_thistle.name": "Distel",
+"ateliercrops_thistle.description": "Eine weit verbreitete Blütenpflanze, die von Menschen oft als Unkraut angesehen wird, von Hexen jedoch wegen ihrer spirituellen Heilwirkung geschätzt wird.",
+
+"ateliercrops_valerian.name": "Baldrian",
+"ateliercrops_valerian.description": "Ein Kraut, das häufig zur Herstellung von schlaffördernden Tees verwendet wird, kann aber auch zur Abwehr von Blitzen und Überschwemmungen eingesetzt werden.",
+
+"ateliercrops_yarrow.name":"Schafgarbe",
+"ateliercrops_yarrow.description":"Schafgarbe, auch Teufelsnessel genannt, wird seit Jahrhunderten von weisen Hexen und Sammlern zur Linderung von Magenkrämpfen verwendet.",
+
+//FEATHERS
+
+"ateliercrops_bluebird_feather.name": "Bergdrossel-Feder",
+"ateliercrops_bluebird_feather.description": "Die helle, azurblaue Feder der heimischen Bergdrossel.",
+
+"ateliercrops_crow_feather.name": "Krähen-Feder",
+"ateliercrops_crow_feather.description": "Diese Feder ist so schwarz wie der Nachthimmel.",
+
+"ateliercrops_lovebird_feather.name": "Liebesvogel-Feder",
+"ateliercrops_lovebird_feather.description": "Die vielfarbige Feder eines Liebesvogels.",
+
+"ateliercrops_owl_feather.name": "Schneeeulen-Feder",
+"ateliercrops_owl_feather.description": "Eine majestätische weiße Feder einer großen Schneeeule.",
+
+"ateliercrops_phoenix_feather.name": "Phönix-Feder",
+"ateliercrops_phoenix_feather.description": "Eine atemberaubende, purpurrote Feder eines Phönix, die höchstwahrscheinlich während seiner Verwandlung verloren gegangen ist.",
+
+"ateliercrops_raven_feather.name": "Raben-Feder",
+"ateliercrops_raven_feather.description": "TDie tiefviolettschwarze Feder eines Raben, ein toller Fund für Alchemisten oder Heckenhexen.",
+
+"ateliercrops_rosefinch_feather.name": "Rosenfink-Feder",
+"ateliercrops_rosefinch_feather.description": "Eine leuchtend rosa Feder von einem Rosenfink.",
+
+"ateliercrops_starling_feather.name": "Violetter Star-Feder",
+"ateliercrops_starling_feather.description": "Stare mit violettem Rücken haben fast die gleiche Farbe wie Iridiumerz und daher sind ihre Federn bei Sammlern ein geschätzter Schatz.",
+
+//FORAGE
+
+"ateliercrops_fire_dragon_scale.name": "Feuerdrachenschuppe",
+"ateliercrops_fire_dragon_scale.description": "Eine schimmernde Drachenschuppe, die von einem mythischen Feuerdrachen abgefallen ist",
+
+"ateliercrops_clover.name": "Verborgenes Glück",
+"ateliercrops_clover.description": "Ein seltenes vierblättriges Kleeblatt.",
+
+"ateliercrops_mandrake.name": "Alraunen-Wurzel",
+"ateliercrops_mandrake.description": "Eine seltsame Wurzel, die fast empfindungsfähig aussieht? Der Legende nach schreit es, wenn es aus dem Boden gezogen wird. Deshalb tragen weise Hexen beim Sammeln Ohrstöpsel.",
+
+"ateliercrops_ice_dragon_scale.name": "Nebeldrachenschuppe",
+"ateliercrops_ice_dragon_scale.description": "Eine schimmernde Drachenschuppe, die von einem mythischen Seedrachen abgefallen ist",
+
+"ateliercrops_shooting_star.name": "Sternschnuppe",
+"ateliercrops_shooting_star.description": "Ein gefallener Stern! Ein wirklich seltener und prachtvoller Fund für die sammelnde Hexe oder den Zauberer.",
+
+"ateliercrops_unicorn_horn.name": "Einhornhorn",
+"ateliercrops_unicorn_horn.description": "Ein Horn, das von einem jungen Einhorn abgeworfen wurde; ein seltener und geschätzter Fund für jede Hexe oder jeden Zauberer.",
+
+//TREE SAPLINGS
+
+"ateliercrops_chiffon_sapling.name": "Blauer Chiffon-Starter",
+"ateliercrops_chiffon_sapling.description": "Wächst in 28 Tagen an einem Gitter zu einem reifen Blauer Chiffon heran. Kann im Herbst geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_daisy_sapling.name": "Kriechendes Gänseblümchen-Starter",
+"ateliercrops_daisy_sapling.description": "Wächst in 28 Tagen an einem Gitter zu einem reifen Kriechenden Gänseblümchen heran. Kann im Frühling geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_dawn_sapling.name": "Morgendämmerungslilie-Starter",
+"ateliercrops_dawn_sapling.description": "Wächst in 28 Tagen an einem Gitter zu einer reifen Morgendämmerungslilie heran. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_dusk_sapling.name": "Abenddämmerungslilie-Starter",
+"ateliercrops_dusk_sapling.description": "Wächst in 28 Tagen an einem Gitter zu einer reifen Abenddämmerungslilie heran. Kann im Sommer geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_geranium_sapling.name": "Engelsgeranie-Starter",
+"ateliercrops_geranium_sapling.description": "TWächst in 28 Tagen an einem Gitter zu einer reifen Engelsgeranie heran. Kann im Herbst geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_primrose_sapling.name": "Quarzprimel-Starter",
+"ateliercrops_primrose_sapling.description": "Wächst in 28 Tagen an einem Gitter zu einer reifen Quarzprimel heran. Kann im Herbst geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_violet_sapling.name": "Wiesenveilchen-Starter",
+"ateliercrops_violet_sapling.description": "Wächst in 28 Tagen an einem Gitter zu einem reifen Wiesenveilchen heran. Kann im Frühling geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_mysteria_sapling.name": "Mysteria-Starter",
+"ateliercrops_mysteria_sapling.description": "Wächst in 28 Tagen an einem Gitter zu einer reifen Mysteria heran. Kann im Frühling geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+
+//SWEET TREE SAPLINGS
+
+"ateliercrops_pavlova_sapling.name": "Pavlova-Setzling",
+"ateliercrops_pavlova_sapling.description": "Wächst in 28 Tagen zu einem reifen Pavlovabaum heran. Kann im Frühling und Sommer geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_gelato_sapling.name": "Gelato-Setzling",
+"ateliercrops_gelato_sapling.description": "Wächst in 28 Tagen zu einem reifen Gelatobaum heran. Kann im Sommer und Winter geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_souffle_sapling.name": "Soufflé-Setzling",
+"ateliercrops_souffle_sapling.description": "Wächst in 28 Tagen zu einem reifen Soufflébaum heran. Kann im Sommer und Herbst geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_brulee_sapling.name": "Brûlée-Setzling",
+"ateliercrops_brulee_sapling.description": "Wächst in 28 Tagen zu einem reifen Brûléebaum heran. Kann im Herbst und Winter geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+"ateliercrops_buttercream_sapling.name": "Buttercream-Setzling",
+"ateliercrops_buttercream_sapling.description": "Wächst in 28 Tagen zu einem reifen Buttercreambaum heran. Kann im Frühling und Sommer geerntet werden. Wächst nur, wenn die 8 umliegenden Felder leer sind.",
+
+//MUSHROOM TREES
+
+"ateliercrops_MysticTrumpet_seeds.name":"Mystische Trompetenpilz-Samen",
+"ateliercrops_MysticTrumpet_seeds.description":"Ein verzauberter Samen, der vielleicht zu einem großen Pilzbaum heranwächst.",
+
+"ateliercrops_StrangeCap_seeds.name":"Seltsamer Tintenpilz-Samen",
+"ateliercrops_StrangeCap_seeds.description":"Ein verzauberter Samen, der vielleicht zu einem großen Pilzbaum heranwächst.",
+
+"ateliercrops_WitchwoodTree_seeds.name":"Hexenwald-Baumpilz-Samen",
+"ateliercrops_WitchwoodTree_seeds.description":"Ein verzauberter Samen, der vielleicht zu einem großen Pilzbaum heranwächst.",
+
+//FLOWER SEEDS
+
+"ateliercrops_arctic_fox_seeds.name": "Frostige Flamme-Saat",
+"ateliercrops_arctic_fox_seeds.description": "Pflanze sie im Frühling oder Sommer. Wächst in 20 Tage heran.",
+
+"ateliercrops_avalune_seeds.name": "Avalune-Saat",
+"ateliercrops_avalune_seeds.description": "Pflanze sie im Frühling oder Sommer. Wächst in 12 Tage heran.",
+
+"ateliercrops_puffball_seeds.name": "Feen-Puffball-Saat",
+"ateliercrops_puffball_seeds.description": "Pflanze sie im Frühling. Wächst in 12 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+
+"ateliercrops_maiden_seeds.name": "Mondmädchen-Saat",
+"ateliercrops_maiden_seeds.description": "Pflanze sie im Frühling. Wächst in 5 Tage heran.",
+
+"ateliercrops_pixies_breath_seeds.name": "Pixies Atem-Saat",
+"ateliercrops_pixies_breath_seeds.description": "Pflanze sie im Herbst. Wächst in 14 Tage heran, kann aber danach alle 3 Tage geerntet werden.",
+
+//FRUIT SEEDS
+
+"ateliercrops_amber_moondrop_seeds.name": "Bernstein-Mondtropfen-Starter",
+"ateliercrops_amber_moondrop_seeds.description": "Pflanze sie im Frühling oder Sommer. Wächst in 21 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+
+"ateliercrops_lapis_moondrop_seeds.name": "Lapis-Mondtropfen-Starter",
+"ateliercrops_lapis_moondrop_seeds.description": "Pflanze sie im Sommer oder Herbst. Wächst in 21 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+
+"ateliercrops_jade_moondrop_seeds.name": "Jade-Mondtropfen-Starter",
+"ateliercrops_jade_moondrop_seeds.description": "Pflanze sie im Sommer oder Herbst. Wächst in 21 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+
+"ateliercrops_pearl_moondrop_seeds.name": "Perlen-Mondtropfen-Starter",
+"ateliercrops_pearl_moondrop_seeds.description": "Pflanze sie im Winter um im Frühling zu ernten. Wächst in 21 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+
+//HERB SEEDS
+
+"ateliercrops_rose_flax_seeds.name": "Rosaner Flachs-Saat",
+"ateliercrops_rose_flax_seeds.description": "Pflanze sie in jeder Jahreszeit. Wächst in 4 Tagen heran und muss mit einer Sense geerntet werden.",
+
+"ateliercrops_mandrake_seeds.name": "Alraunen-Saat",
+"ateliercrops_mandrake_seeds.description": "Pflanze sie im Herbst. Wächst in 4 Tagen zu einer Alraune heran.",
+
+"ateliercrops_mugwort_seeds.name": "Beifuß-Saat",
+"ateliercrops_mugwort_seeds.description": "Pflanze sie im Sommer oder Herbst. Wächst in 12 Tage heran, kann aber danach alle 4 Tage geerntet werden.",
+
+"ateliercrops_violet_flax_seeds.name": "Violetter Flachs-Saat",
+"ateliercrops_violet_flax_seeds.description": "Pflanze sie in jeder Jahreszeit. Wächst in 4 Tagen heran und muss mit einer Sense geerntet werden.",
+
+"ateliercrops_thistle_seeds.name": "Distel-Saat",
+"ateliercrops_thistle_seeds.description": "Pflanze sie im Sommer oder Herbst. Wächst in 10 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+
+"ateliercrops_valerian_seeds.name": "Baldrian-Saat",
+"ateliercrops_valerian_seeds.description": "Pflanze sie im Sommer. Wächst in 13 Tage heran, kann aber danach alle 5 Tage geerntet werden.",
+
+"ateliercrops_yarrow_seeds.name": "Schafgarbe-Saat",
+"ateliercrops_yarrow_seeds.description": "Pflanze sie im Frühling oder Sommer. Wächst in 12 Tage heran."	
+
+
+}

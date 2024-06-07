@@ -1,0 +1,392 @@
+{
+// MARNIE DSV ULTRALIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Marnie Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Marnie", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Marnie.Indoor":
+				{
+					"Id": "{{ModId}}_Marnie_Indoor",
+					"Portrait": "Portraits/Marnie_Indoor",
+					"Sprite": "Characters/Marnie_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Marnie.EggFestival":
+				{
+					"Id": "{{ModId}}_Marnie_EggFestival",
+					"Portrait": "Portraits/Marnie_EggFestival",
+					"Sprite": "Characters/Marnie_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Marnie.FlowerDance":
+				{
+					"Id": "{{ModId}}_Marnie_FlowerDance",
+					"Portrait": "Portraits/Marnie_FlowerDance",
+					"Sprite": "Characters/Marnie_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Marnie.Luau":
+				{
+					"Id": "{{ModId}}_Marnie_Luau",
+					"Portrait": "Portraits/Marnie_Luau",
+					"Sprite": "Characters/Marnie_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Marnie.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Marnie_MoonlightJellies",
+					"Portrait": "Portraits/Marnie_MoonlightJellies",
+					"Sprite": "Characters/Marnie_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Marnie.SVFair":
+				{
+					"Id": "{{ModId}}_Marnie_SVFair",
+					"Portrait": "Portraits/Marnie_SVFair",
+					"Sprite": "Characters/Marnie_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Marnie.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Marnie_SpiritsEve",
+					"Portrait": "Portraits/Marnie_SpiritsEve",
+					"Sprite": "Characters/Marnie_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Marnie.IceFestival":
+				{
+					"Id": "{{ModId}}_Marnie_IceFestival",
+					"Portrait": "Portraits/Marnie_IceFestival",
+					"Sprite": "Characters/Marnie_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Marnie.WinterStar":
+				{
+					"Id": "{{ModId}}_Marnie_WinterStar",
+					"Portrait": "Portraits/Marnie_WinterStar",
+					"Sprite": "Characters/Marnie_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Marnie.Swim":
+				{
+					"Id": "{{ModId}}_Marnie_Swim",
+					"Portrait": "Portraits/Marnie_Swim",
+					"Sprite": "Characters/Marnie_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Marnie.HotClimate":
+				{
+					"Id": "{{ModId}}_Marnie_HotClimate",
+					"Portrait": "Portraits/Marnie_HotClimate",
+					"Sprite": "Characters/Marnie_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Marnie.Aerobics":
+				{
+					"Id": "{{ModId}}_Marnie_Aerobics",
+					"Portrait": "Portraits/Marnie_Aerobics",
+					"Sprite": "Characters/Marnie_Aerobics",
+					"Condition": "ANY \"LOCATION_NAME Target SeedShop, DAY_OF_WEEK Tuesday, !WEATHER Target Rain Storm\" \"IS_EVENT 58\"",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Marnie Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Marnie_Indoor, Characters/Marnie_Indoor",
+			"FromFile": "Art/VanillaNPCs/Marnie/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLMarnie}}/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_Winter_3_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Marnie Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Marnie_EggFestival, Characters/Marnie_EggFestival, Portraits/Marnie_FlowerDance, Characters/Marnie_FlowerDance, Portraits/Marnie_Luau, Characters/Marnie_Luau, Portraits/Marnie_MoonlightJellies, Characters/Marnie_MoonlightJellies, Portraits/Marnie_SVFair, Characters/Marnie_SVFair, Portraits/Marnie_SpiritsEve, Characters/Marnie_SpiritsEve, Portraits/Marnie_IceFestival, Characters/Marnie_IceFestival, Portraits/Marnie_WinterStar, Characters/Marnie_WinterStar, Portraits/Marnie_Swim, Characters/Marnie_Swim, Portraits/Marnie_Aerobics, Characters/Marnie_Aerobics",
+			"FromFile": "Art/VanillaNPCs/Marnie/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLMarnie}}/{{DSV.Core/ConfigValue:MarnieVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Marnie Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Marnie_HotClimate, Characters/Marnie_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Marnie/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLMarnie}}/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Marnie Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie_Indoor, Characters/Marnie_Indoor",
+			"FromFile": "Art/VanillaNPCs/Marnie/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLMarnie}}/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Marnie Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie_HotClimate, Characters/Marnie_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Marnie/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLMarnie}}/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_Summer_3_Sun.png"
+		},
+		{
+			"LogName": "Marnie Flower Dance Outfits Elaho",
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie_FlowerDance, Characters/Marnie_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Marnie/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLMarnie}}/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:MarnieVariant |contains= Vanilla": true
+			}
+		},
+		{
+			"LogName": "Marnie Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie_Beach, Characters/Marnie_Beach",
+			"FromFile": "Art/VanillaNPCs/Marnie/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLMarnie}}/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:BeachStyle |contains= RandomBeachwear": false
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Marnie Cursors Dance",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/DanceCursors/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_{{season}}_{{RandomMarnieToken}}_Base.png",
+			"ToArea": { "X": 558, "Y": 1423, "Width": 60, "Height": 28 }
+		},
+		{
+			"LogName": "Marnie Cursors Dance",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Marnie_winter_dance",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/DanceCursors/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_{{season}}_{{RandomMarnieToken}}_Base.png"
+		},
+		{
+			"LogName": "Marnie Cursors Paintings",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/CursorsPaintings_Marnie.png",
+			"ToArea": { "X": 0, "Y": 1925, "Width": 50, "Height": 47 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Marnie Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/Marnie_Emoji_Modded.png",
+			"ToArea": {"X": 0, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Marnie Secret Notes",
+			"Action": "EditImage",
+			"Target": "Tilesheets/SecretNotesImages",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/SecretNote_Marnie_Modded.png",
+			"ToArea": {"X": 128, "Y": 64, "Width": 64, "Height": 64},
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Marnie Junimo Note",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/Junimo_Marnie_Modded.png",
+			"ToArea": { "X": 480, "Y": 212, "Width": 32, "Height": 32 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Marnie Leah 14-Heart Furniture",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Furniture",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/Leah14Heart_Furniture_Modded.png",
+			"ToArea": { "X": 164, "Y": 900, "Width": 25, "Height": 22 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Marnie Leah 14-Heart Temporary Sprites Paintings",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/Leah14Heart_TemporarySprites1_Modded.png",
+			"ToArea": { "X": 400, "Y": 394, "Width": 101, "Height": 23 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Marnie Soup",
+			"Action": "EditImage",
+			"Target": "Characters/Marnie_Luau",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/Marnie_LuauSoup.png",
+			"ToArea": { "X": 16, "Y": 150, "Width": 48, "Height": 10 },
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= Xiddav.FestivalsRecolored, minervamaga.CP.ATDSV, DaisyNiko.EarthyRecolour, grapeponta.VibrantPastoralRecolor": false
+			}
+		},
+
+// MISCELLANEOUS OVERLAYS
+		{
+			"LogName": "Marnie No Smile Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Marnie_Indoor, Characters/Marnie_EggFestival, Characters/Marnie_FlowerDance, Characters/Marnie_Luau, Characters/Marnie_MoonlightJellies, Characters/Marnie_SVFair, Characters/Marnie_SpiritsEve, Characters/Marnie_IceFestival, Characters/Marnie_WinterStar, Characters/Marnie_Swim, Characters/Marnie_HotClimate, Characters/Marnie_Aerobics",
+			"FromFile": "Art/VanillaNPCs/Marnie/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLMarnie}}/Vanilla/Overlays/Marnie_NoSmileOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieCharacterSmile": "True",
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Vanilla": true
+			}
+		},
+		{
+			"LogName": "Marnie No Smile Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Marnie_Beach",
+			"FromFile": "Art/VanillaNPCs/Marnie/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLMarnie}}/Vanilla/Overlays/Marnie_Beach_NoSmileOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieCharacterSmile": "True",
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Vanilla": true
+			}
+		},
+		
+// COMPATIBILITY
+// Marnie Deserves Better
+		{
+			"LogName": "Marnie Deserves Better Compatibility",
+			"Action": "EditImage",
+			"Target": "Characters/Marnie_Indoor",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/MarnieDeservesBetter/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_{{season}}_{{RandomMarnieToken}}_{{DSV.Core/Weather:Marnie}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 64, "Height": 32},
+			"When":
+			{
+				"HasMod |contains= IMS.CP.MarnieDeservesBetter": true,
+				"DayEvent |contains= wedding": false,
+				"Relationship:Marnie |contains= Married, Engaged": false
+			}
+		},
+		{
+			"LogName": "Marnie Deserves Better Compatibility",
+			"Action": "EditImage",
+			"Target": "Characters/Marnie_CasualIndoor",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/MarnieDeservesBetter/{{DSV.Core/ConfigValue:MarnieVariant}}/Marnie_{{season}}_3_{{DSV.Core/Weather:Marnie}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 64, "Height": 32},
+			"When":
+			{
+				"HasMod |contains= IMS.CP.MarnieDeservesBetter": true,
+				"DayEvent |contains= wedding": false,
+				"Relationship:Marnie |contains= Married, Engaged": false
+			}
+		},
+		
+// Tristan
+		{
+			"LogName": "Marnie Cute Tristan 1",
+			"Action": "EditImage",
+			"Target": "Characters/MarnCute",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Modded": true,
+				"HasMod |contains= Lemurkat.Tristan.CP": true
+			}
+		},
+		{
+			"LogName": "Marnie Cute Tristan 2",
+			"Action": "EditImage",
+			"Target": "Characters/MarnShane",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/{{TargetWithoutPath}}1.png",
+			"ToArea": {"X": 0, "Y": 0, "Width": 17, "Height": 32},
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Modded": true,
+				"HasMod |contains= Lemurkat.Tristan.CP": true
+			}
+		},
+		{
+			"LogName": "Marnie Cute Tristan 3",
+			"Action": "EditImage",
+			"Target": "Characters/MarnShane",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/{{TargetWithoutPath}}2.png",
+			"ToArea": {"X": 36, "Y": 0, "Width": 13, "Height": 16},
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Modded": true,
+				"HasMod |contains= Lemurkat.Tristan.CP": true
+			}
+		},
+
+// Lumisteria Missing Hat Bundles
+		
+		{
+			"LogName": "Marnie Lumisteria Bundles",
+			"Action": "EditImage",
+			"Target": "Mods/Lumisteria.CP.MissingHatsBundles/Marnie",
+			"FromFile": "Art/VanillaNPCs/Marnie/Misc/LumisteriaBundles_Marnie.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant|contains= Vanilla, Off": false,
+				"HasMod |contains= Lumisteria.CP.MissingHatsBundles": true
+			}
+		}
+	]
+}

@@ -1,0 +1,202 @@
+{
+
+	//Kitchen Blender
+	"gourmetpantry_KitchenBlender.name": "キッチンブレンダー",
+	"gourmetpantry_KitchenBlender.description": "ナッツをミルクに、ミルクをクリームにと、さまざまなブレンドができるキッチン家電。",
+
+	//Kitchen Mortar
+	"gourmetpantry_KitchenMortar.name": "すり鉢",
+	"gourmetpantry_KitchenMortar.description": "農作物を粉やスパイスに挽くことができるキッチン用品。",
+
+	// Almond Nut Butter
+    "gourmetpantry_almond_butter.name": "アーモンドナッツバター",
+	"gourmetpantry_almond_butter.description": "アーモンドから作られたクリーミーなバタースプレッド。お菓子作りやトーストなどに最適！",
+	
+	//Almondmilk
+	"gourmetpantry_almond_milk.name": "アーモンドミルク",
+	"gourmetpantry_almond_milk.description": "アーモンドから作られた代替ミルク。乳製品の代わりにお菓子作りやスムージーなどに。",
+	
+	//Bittersweet Bakers Chocolate
+	"gourmetpantry_bittersweet_chocolate.name": "ビタースイート・ベーカーズ・チョコレート",
+	"gourmetpantry_bittersweet_chocolate.description": "お菓子やスイーツに使われる、ほんのり苦い板チョコレート。",
+	
+	//Calico Vanilla Extract
+	"gourmetpantry_vanilla_extract.name": "カリコバニラエッセンス",
+	"gourmetpantry_vanilla_extract.description": "採集したバニラビーンズから蒸留したバニラエッセンス。お菓子作りに使われる。",
+	
+	//Cashew Nut Butter
+	"gourmetpantry_cashew_butter.name": "カシューナッツバター",
+	"gourmetpantry_cashew_butter.description": "カシューナッツから作られたクリーミーなバタースプレッド。お菓子作りやトーストなどに最適！",
+	
+	//Cashewmilk
+	"gourmetpantry_cashew_milk.name": "カシューミルク",
+	"gourmetpantry_cashew_milk.description": "カシューナッツから作られた代替ミルク。乳製品の代わりにお菓子作りやスムージーなどに。",
+	
+	//Chocolate Morsels
+	"gourmetpantry_chocolate_chips.name": "チョコレートチップ",
+	"gourmetpantry_chocolate_chips.description": "クッキーを作るのが好きな人には絶対に欠かせない。",
+	
+	//Coconutmilk
+	"gourmetpantry_coconut_milk.name": "ココナッツミルク",
+	"gourmetpantry_coconut_milk.description": "ココナッツから作られた代替ミルク。乳製品の代わりにお菓子作りやスムージーなどに。",
+	
+	//Confectioners Sugar
+	"gourmetpantry_confectioners_sugar.name": "粉砂糖",
+	"gourmetpantry_confectioners_sugar.description": "細かく砕いた砂糖にコーンスターチを加えて固まりにくくしたもので、焼き菓子のトッピングによく使われる。",
+
+    //Creamy Coconut Butter
+	"gourmetpantry_coconut_butter.name": "ココナッツバター",
+	"gourmetpantry_coconut_butter.description": "ココナッツの脂質から作られたバターの代用品。乳製品を使わないお菓子作りに最適！",
+
+    //Espresso Powder
+	"gourmetpantry_espresso_powder.name": "エスプレッソパウダー",
+	"gourmetpantry_espresso_powder.description": "コーヒーの風味がチョコレート風味の焼き菓子を引き立てる。",
+
+    //Farm Fresh Butter
+	"gourmetpantry_butter.name": "とれたてバター",
+	"gourmetpantry_butter.description": "新鮮な牛のミルクを手作業で撹拌してできた、おいしいバター。",
+
+    //Farm Fresh Buttermilk
+	"gourmetpantry_buttermilk.name": "とれたてバターミルク",
+	"gourmetpantry_buttermilk.description": "ちょっと嫌な匂いがするが、柔らかいコーンブレッドやふわふわのパンケーキを作るのに役立つ。",
+
+    //Farm Fresh Cream
+	"gourmetpantry_cream.name": "とれたてクリーム",
+	"gourmetpantry_cream.description": "地元の牛のミルクから作られるこのクリームは、特定のペストリーを焼いたり、ソフトでふわふわのフロスティングを作るのに欠かせない。",
+
+    //Farm Fresh Cream Cheese
+	"gourmetpantry_cream_cheese.name": "とれたてクリームチーズ",
+	"gourmetpantry_cream_cheese.description": "地元の牛のミルクで作られたこのクリームチーズは、チーズケーキやベーグルに塗るのにうってつけ。",
+
+	//Ghee
+	"ghee.name":"とれたてギー",
+	"ghee.description":"澄ましバターの一種。",
+
+    //Farm Fresh Yogurt
+	"gourmetpantry_yogurt.name": "とれたてヨーグルト",
+	"gourmetpantry_yogurt.description": "地元の牛のミルクで作られたこのヨーグルトには、乳酸菌がたっぷり含まれている。",
+
+	//Farmstead Apple Butter
+	"gourmetpantry_apple_butter.name": "農家のアップルバター",
+	"gourmetpantry_apple_butter.description": "農家秘伝のレシピで作られたバター。温かくて甘く、朝のトーストやマフィンに塗るのに最適。",
+	
+	//Farmstead Honey Butter
+	"gourmetpantry_honey_butter..name": "農家のハニーバター",
+	"gourmetpantry_honey_butter..description": "農家秘伝のレシピと可愛いマルハナバチの助けを借りて作られる。",
+	
+	//Farmstead Maple Butter
+	"gourmetpantry_maple_butter.name": "農家のメープルバター",
+	"gourmetpantry_maple_butter.description": "農家秘伝のレシピと地元産メープルシロップを使って作られる。",
+	
+	//Farmstead Pumpkin Butter
+	"gourmetpantry_pumpkin_butter.name": "農家のパンプキンバター",
+	"gourmetpantry_pumpkin_butter.description": "農家秘伝のレシピで作られたバター。パンプキンスパイス好きにはたまらない。",
+	
+	//Gourmet Lemon Curd
+	"gourmetpantry_lemon_curd.name": "絶品レモンカード",
+	"gourmetpantry_lemon_curd.description": "甘美でクリーミーな舌触りは、幸せな鶏からとれた高品質の卵黄によるもの。",
+	
+	//Gourmet Lime Curd
+	"gourmetpantry_lime_curd.name": "絶品ライムカード",
+	"gourmetpantry_lime_curd.description": "甘美でクリーミーな舌触りは、幸せな鶏からとれた高品質の卵黄によるもの。",
+
+	//Gourmet Orange Curd
+	"gourmetpantry_orange_curd.name": "絶品オレンジカード",
+	"gourmetpantry_orange_curd.description": "甘美でクリーミーな舌触りは、幸せな鶏からとれた高品質の卵黄によるもの。",
+	
+	//Hazelnut Nut Butter
+	"gourmetpantry_hazelnut_butter.name": "ヘーゼルナッツバター",
+	"gourmetpantry_hazelnut_butter.description": "ヘーゼルナッツから作られたクリーミーなバタースプレッド。お菓子作りやトーストなどに最適！",
+	
+	//Hazelnutmilk
+	"gourmetpantry_hazelnut_milk.name": "ヘーゼルナッツミルク",
+	"gourmetpantry_hazelnut_milk.description": "ヘーゼルナッツから作られた代替ミルク。乳製品の代わりにお菓子作りやスムージーなどに。",
+
+    //Pectin
+	"gourmetpantry_pectin.name": "ペクチン",
+	"gourmetpantry_pectin.description": "ジャムやゼリーの保存に欠かせない。",
+	
+	//Pistachio Nut Butter
+	"gourmetpantry_pistachio_butter.name": "ピスタチオナッツバター",
+	"gourmetpantry_pistachio_butter.description": "ピスタチオから作られたクリーミーなバタースプレッド。お菓子作りやトーストなどに最適！",
+	
+	//Pistachiomilk
+	"gourmetpantry_pistachio_milk.name": "ピスタチオミルク",
+	"gourmetpantry_pistachio_milk.description": "ピスタチオから作られた代替ミルク。乳製品の代わりにお菓子作りやスムージーなどに。",
+	
+	//Rainbow Sprinkles
+	"gourmetpantry_rainbow_sprinkles.name": "カラースプレー",
+	"gourmetpantry_rainbow_sprinkles.description": "甘くてカラフルで、何にでも合う完璧なトッピング！",
+	
+	//Ricemilk
+	"rice-milk.name": "ライスミルク",
+	"rice-milk.description": "お米から作られた代替ミルク。乳製品の代わりにお菓子作りやスムージーなどに。",
+	
+	//Semisweet Bakers Chocolate
+    "gourmetpantry_semisweet_chocolate.name": "セミスイート・ベーカーズ・チョコレート",
+	"gourmetpantry_semisweet_chocolate.description": "お菓子やスイーツに使われる、ほんのり甘い板チョコレート。",
+	
+	//Specialty Almond Flour
+	"gourmetpantry_almond_flour.name": "アーモンド粉",
+	"gourmetpantry_almond_flour.description": "アーモンドを挽いた自家製の粉。マカロンに欠かせないだけでなく、グルテンフリーのパン作りにも最適。",
+	
+	//Specialty Bread Flour 
+	"gourmetpantry_bread_flour.name": "強力粉",
+	"gourmetpantry_bread_flour.description": "小麦の中でもより硬質なものから作られる自家製の小麦粉。タンパク質含有量が高く、ほとんどのパン生地に適している。",
+	
+	//Specialty Brown Sugar
+	"gourmetpantry_brown_sugar.name": "特製ブラウンシュガー",
+	"gourmetpantry_brown_sugar.description": "加工時に糖蜜をすべて除去していない砂糖。マフィンや特定のケーキによく合い、豊かな土の香りがする。",
+	
+	//Specialty Cake Flour
+	"gourmetpantry_cake_flour.name": "特製ケーキ用小麦粉",
+	"gourmetpantry_cake_flour.description": "ケーキ作りのために特別に作られた自家製の小麦粉。タンパク質含有量が低いため、心地よい、柔らかい粉末でケーキがふんわり仕上がる。",
+	
+	//Specialty Cocoa Powder
+	"gourmetpantry_cocoa_powder.name": "特製ココアパウダー",
+	"gourmetpantry_cocoa_powder.description": "ココアを乾燥させ、パウダー状にしたもので、焼き菓子に使用される。",
+	
+	//Specialty Coconut Flour
+	"gourmetpantry_coconut_flour.name": "特製ココナッツ粉",
+	"gourmetpantry_coconut_flour.description": "ココナッツをすりつぶした自家製の粉。グルテンフリーのパン作りにも最適。",
+	
+	//Specialty Coconut Oil
+	"coconut-oil.name":"特製ココナッツオイル",
+	"coconut-oil.description": "新鮮なココナッツから作られるオイル。",
+
+	//Specialty Corn Flour
+	"gourmetpantry_corn_flour.name": "特製トウモロコシ粉",
+	"gourmetpantry_corn_flour.description": "とうもろこしを挽いて作る自家製の粉。タマレスやコーンブレッドなどの料理に欠かせない。",
+	
+	//Specialty Olive Oil
+	"gourmetpantry_olive_oil.name": "特製オリーブオイル",
+	"gourmetpantry_olive_oil.description": "コールドプレスされたオリーブは、サラダや新鮮な野菜炒に最適なオリーブオイルとなる。",
+	
+	//Specialty Pastry Flour
+	"gourmetpantry_pastry_flour.name": "特製ペストリー用小麦粉",
+	"gourmetpantry_pastry_flour.description": "ペストリーを作るための自家製の小麦粉。ケーキ用小麦粉のようにタンパク質が少なく、多くのパイやペストリーに欠かせない。",
+	
+	//Specialty Rice Flour
+	"gourmetpantry_rice_flour.name": "特製米粉",
+	"gourmetpantry_rice_flour.description": "米を挽いて作る自家製の粉。団子や餅には欠かせないが、グルテンフリーのパン作りにも最適。",
+	
+	//Walnut Nut Butter
+	"gourmetpantry_walnut_butter.name": "クルミナッツバター",
+	"gourmetpantry_walnut_butter.description": "クルミから作られたクリーミーなバタースプレッド。お菓子作りやトーストなどに最適！",
+	
+	//White Bakers Chocolate
+	"gourmetpantry_white_chocolate.name": "ホワイト・ベーカーズ・チョコレート",
+	"gourmetpantry_white_chocolate.description": "お菓子作りに使われるホワイト板チョコレート。",
+	
+
+
+//MAIL
+
+"gourmetpantry_MortarRecipe.text":"@, ^^ このすり鉢を自分で作れば、特製の小麦粉や砂糖を作ることができますよ！お菓子作りに使うのはもちろん、私に売って利益を得ることも可能です。お店の品揃えを増やせたら嬉しいですね！^^ - ピエール",
+"gourmetpantry_BlenderRecipe.text":"@, ^^ 乳製品不使用のミルクを使ったコーヒーが飲みたいと言われるようになってから、このブレンダーを導入したんだ。輸入品は高すぎるから自分で作ってみたんだが、君もぜひ試してみてくれ。きっとミルクの他にもいろいろ作れると思う。^^ - ガス",
+"gourmetpantry_harvey.text":"@, ^^ 私の患者の一人がピーナッツアレルギーで、彼の母親がどうやって木の実のバターに変えたかを話してくれました。最初は半信半疑でしたが、今ではアーモンドバターの大ファンです！これでピスタチオバターが作れるに違いないと思っています。^^ - ハーヴィー",
+"gourmetpantry_jodi.text":"@, ^^ 誰にも言わないで欲しいんだけど、サムは乳糖不耐症かもしれないのよね。こっそり乳製品不使用のミルクに変えたんだけど、サムはその違いに気づいてないみたい。^^ -ジョディ",
+"gourmetpantry_marnie.text":"@, ^^ ガスがキッチンブレンダーの設計図を共有したの？とてもいいことね！あれを使えば、たくさんの特別な乳製品を作ることができるの。うちの牛から採れたこの生クリームは、あなたがお試しするのに役立つはずだよ。^^ マーニー",
+
+
+}

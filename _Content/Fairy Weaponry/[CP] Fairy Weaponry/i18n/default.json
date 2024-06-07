@@ -1,0 +1,54 @@
+{
+
+//Weapons 
+
+"Dolly.FairyWeaponry_ZephyrName": "Zephyr",
+"Dolly.FairyWeaponry_ZephyrDescription": "The legendary wind blade.",
+
+"Dolly.FairyWeaponry_SkySplitterName": "Sky Splitter",
+"Dolly.FairyWeaponry_SkySplitterDescription": "A forbidden dagger lost in the mortal world.",
+
+"Dolly.FairyWeaponry_FairyTomeName": "Fairy Tome",
+"Dolly.FairyWeaponry_FairyTomeDescription": "The secret of the fairies.",
+
+"Dolly.FairyWeaponry_RadiantStaffName": "Radiant Staff",
+"Dolly.FairyWeaponry_RadiantStaffDescription": "It was forged from the very essence of light.",
+
+"Dolly.FairyWeaponry_FairyStaffName": "Fairy Staff",
+"Dolly.FairyWeaponry_FairyStaffDescription": "The true form of the Radiant Staff.",
+
+"Dolly.FairyWeaponry_WoodlandStaffName": "Woodland Staff",
+"Dolly.FairyWeaponry_WoodlandStaffDescription": "It was made from a tree blessed by a fairy.",
+
+//Objects 
+
+"Dolly.FairyWeaponry_PrismMushroomName": "Prismatic Mushroom",
+"Dolly.FairyWeaponry_PrismMushroomDescription": "This mushroom has a sweet smell and emits a colorful light.",
+
+"Dolly.FairyWeaponry_AncientAcornName": "Ancient Acorn",
+"Dolly.FairyWeaponry_AncientAcornDescription": "It doesn't grow anymore, but there still some magic left.",
+
+"Dolly.FairyWeaponry_PrismBottleName": "Prism in a Bottle",
+"Dolly.FairyWeaponry_PrismBottleDescription": "A rare potion, don't drink too much, or you might grow wings!",
+
+"Dolly.FairyWeaponry_PrismaticPearlName": "Prismatic Pearl",
+"Dolly.FairyWeaponry_PrismaticPearlDescription": "This enchanted treasure is loved by fairies.",
+
+"Dolly.FairyWeaponry_MysteriousNoteName": "Mysterious Note",
+"Dolly.FairyWeaponry_MysteriousNoteDescription": "Fairies?",
+
+//Projectiles 
+
+"Dolly.FairyWeaponry_FairyName": "Fairy",
+"Dolly.FairyWeaponry_FairyDescription": "A mythical creature from another dimension.",
+
+"Dolly.FairyWeaponry_ThornName": "Thorn",
+"Dolly.FairyWeaponry_ThornDescription": "Be careful not to touch it!",
+
+"Dolly.FairyWeaponry_RainbowName": "Rainbow",
+"Dolly.FairyWeaponry_RainbowDescription": "So many colors!",
+
+"Dolly.FairyWeaponry_WindName": "Wind",
+"Dolly.FairyWeaponry_WindDescription": "The calming breeze."
+
+}

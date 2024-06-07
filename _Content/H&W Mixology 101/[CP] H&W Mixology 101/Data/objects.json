@@ -1,0 +1,1227 @@
+{
+    "Changes": [
+
+        {
+            "LogName":"Add Fruit Juice and Soda Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": { 
+                "HXW.Mixology_cranberry_juice": {
+                    "Name": "HXW.Mixology_cranberry_juice",
+                    "DisplayName": "{{i18n:Mixology_cranberry_juice.name}}",
+                    "Description": "{{i18n:Mixology_cranberry_juice.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 150,
+
+                    "ContextTags":
+                    ["hxw_bakery_item",
+                    "baking_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+                    "SpriteIndex": 33
+            },
+                "HXW.Mixology_lemon_juice": {
+                    "Name": "HXW.Mixology_lemon_juice",
+                    "DisplayName": "{{i18n:Mixology_lemon_juice.name}}",
+                    "Description": "{{i18n:Mixology_lemon_juice.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 170,
+
+                    "ContextTags":
+                    ["hxw_bakery_item",
+                    "baking_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+                    "SpriteIndex": 34
+            },
+                "HXW.Mixology_lime_juice": {
+                    "Name": "HXW.Mixology_lime_juice",
+                    "DisplayName": "{{i18n:Mixology_lime_juice.name}}",
+                    "Description": "{{i18n:Mixology_lime_juice.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 170,
+
+                    "ContextTags":
+                    ["hxw_bakery_item",
+                    "baking_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+                    "SpriteIndex": 35
+            },
+                "HXW.Mixology_orange_juice": {
+                    "Name": "HXW.Mixology_orange_juice",
+                    "DisplayName": "{{i18n:Mixology_orange_juice.name}}",
+                    "Description": "{{i18n:Mixology_orange_juice.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 200,
+
+                    "ContextTags":
+                    ["hxw_bakery_item",
+                    "baking_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+                    "SpriteIndex": 36
+            },
+                "HXW.Mixology_pineapple_juice": {
+                    "Name": "HXW.Mixology_pineapple_juice",
+                    "DisplayName": "{{i18n:Mixology_pineapple_juice.name}}",
+                    "Description": "{{i18n:Mixology_pineapple_juice.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 600,
+
+                    "ContextTags":
+                    ["hxw_bakery_item",
+                    "baking_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+                    "SpriteIndex": 37
+            },
+                "HXW.Mixology_club_soda": {
+                    "Name": "HXW.Mixology_club_soda",
+                    "DisplayName": "{{i18n:Mixology_club_soda.name}}",
+                    "Description": "{{i18n:Mixology_club_soda.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["hxw_bakery_item",
+                    "baking_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+                    "SpriteIndex": 32
+            },
+                "HXW.Mixology_tonic_water": {
+                    "Name": "HXW.Mixology_tonic_water",
+                    "DisplayName": "{{i18n:Mixology_tonic_water.name}}",
+                    "Description": "{{i18n:Mixology_tonic_water.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["hxw_bakery_item",
+                    "baking_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+                    "SpriteIndex": 38
+            }
+    }
+},
+
+
+/////////////
+// ALCOHOL //
+/////////////
+
+{
+    "LogName":"HXW Alcoholic Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When":{"Cocktails": true},
+    "Entries": {
+        "HXW.Mixology_berry_mimosa": {
+            "Name": "HXW.Mixology_berry_mimosa",
+            "DisplayName": "{{i18n:Mixology_berry_mimosa.name}}",
+            "Description": "{{i18n:Mixology_berry_mimosa.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1070,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 0
+    }, 
+        "HXW.Mixology_berry_whiskey_sour": {
+            "Name": "HXW.Mixology_berry_whiskey_sour",
+            "DisplayName": "{{i18n:Mixology_berry_whiskey_sour.name}}",
+            "Description": "{{i18n:Mixology_berry_whiskey_sour.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1590,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 1
+    }, 
+        "HXW.Mixology_black_forest_cocktail": {
+            "Name": "HXW.Mixology_black_forest_cocktail",
+            "DisplayName": "{{i18n:Mixology_black_forest_cocktail.name}}",
+            "Description": "{{i18n:Mixology_black_forest_cocktail.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 2400,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 2
+    }, 
+        "HXW.Mixology_blackberry_lemon_smash": {
+            "Name": "HXW.Mixology_blackberry_lemon_smash",
+            "DisplayName": "{{i18n:Mixology_blackberry_lemon_smash.name}}",
+            "Description": "{{i18n:Mixology_blackberry_lemon_smash.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1120,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 3
+    }, 
+        "HXW.Mixology_cake_walk": {
+            "Name": "HXW.Mixology_cake_walk",
+            "DisplayName": "{{i18n:Mixology_cake_walk.name}}",
+            "Description": "{{i18n:Mixology_cake_walk.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 700,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 4
+    }, 
+        "HXW.Mixology_early_sunrise": {
+            "Name": "HXW.Mixology_early_sunrise",
+            "DisplayName": "{{i18n:Mixology_early_sunrise.name}}",
+            "Description": "{{i18n:Mixology_early_sunrise.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1450,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 5
+    }, 
+        "HXW.Mixology_flower_queen": {
+            "Name": "HXW.Mixology_flower_queen",
+            "DisplayName": "{{i18n:Mixology_flower_queen.name}}",
+            "Description": "{{i18n:Mixology_flower_queen.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 700,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 6
+    }, 
+        "HXW.Mixology_frozen_margarita": {
+            "Name": "HXW.Mixology_frozen_margarita",
+            "DisplayName": "{{i18n:Mixology_frozen_margarita.name}}",
+            "Description": "{{i18n:Mixology_frozen_margarita.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1700,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 7
+    }, 
+        "HXW.Mixology_garden_breeze": {
+            "Name": "HXW.Mixology_garden_breeze",
+            "DisplayName": "{{i18n:Mixology_garden_breeze.name}}",
+            "Description": "{{i18n:Mixology_garden_breeze.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 2810,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 8
+    }, 
+        "HXW.Mixology_gin_tonic": {
+            "Name": "HXW.Mixology_gin_tonic",
+            "DisplayName": "{{i18n:Mixology_gin_tonic.name}}",
+            "Description": "{{i18n:Mixology_gin_tonic.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 500,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 9
+    }, 
+        "HXW.Mixology_harvest_hayride": {
+            "Name": "HXW.Mixology_harvest_hayride",
+            "DisplayName": "{{i18n:Mixology_harvest_hayride.name}}",
+            "Description": "{{i18n:Mixology_harvest_hayride.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1540,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 10
+    }, 
+        "HXW.Mixology_lavender_gin_spritz": {
+            "Name": "HXW.Mixology_lavender_gin_spritz",
+            "DisplayName": "{{i18n:Mixology_lavender_gin_spritz.name}}",
+            "Description": "{{i18n:Mixology_lavender_gin_spritz.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 730,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 11
+    }, 
+        "HXW.Mixology_lightning_haze": {
+            "Name": "HXW.Mixology_lightning_haze",
+            "DisplayName": "{{i18n:Mixology_lightning_haze.name}}",
+            "Description": "{{i18n:Mixology_lightning_haze.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1360,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 12
+    }, 
+        "HXW.Mixology_mango_tango": {
+            "Name": "HXW.Mixology_mango_tango",
+            "DisplayName": "{{i18n:Mixology_mango_tango.name}}",
+            "Description": "{{i18n:Mixology_mango_tango.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 2250,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 13
+    }, 
+        "HXW.Mixology_mango_twister": {
+            "Name": "HXW.Mixology_mango_twister",
+            "DisplayName": "{{i18n:Mixology_mango_twister.name}}",
+            "Description": "{{i18n:Mixology_mango_twister.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 3100,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 14
+    }, 
+        "HXW.Mixology_pink_flamingo": {
+            "Name": "HXW.Mixology_pink_flamingo",
+            "DisplayName": "{{i18n:Mixology_pink_flamingo.name}}",
+            "Description": "{{i18n:Mixology_pink_flamingo.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 760,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 15
+    }, 
+        "HXW.Mixology_raspberry_lemon_drop": {
+            "Name": "HXW.Mixology_raspberry_lemon_drop",
+            "DisplayName": "{{i18n:Mixology_raspberry_lemon_drop.name}}",
+            "Description": "{{i18n:Mixology_raspberry_lemon_drop.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 970,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 16
+    }, 
+        "HXW.Mixology_raspberry_stinger": {
+            "Name": "HXW.Mixology_raspberry_stinger",
+            "DisplayName": "{{i18n:Mixology_raspberry_stinger.name}}",
+            "Description": "{{i18n:Mixology_raspberry_stinger.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 770,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 17
+    }, 
+        "HXW.Mixology_sangria": {
+            "Name": "HXW.Mixology_sangria",
+            "DisplayName": "{{i18n:Mixology_sangria.name}}",
+            "Description": "{{i18n:Mixology_sangria.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1400,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 18
+    }, 
+        "HXW.Mixology_spirited_away": {
+            "Name": "HXW.Mixology_spirited_away",
+            "DisplayName": "{{i18n:Mixology_spirited_away.name}}",
+            "Description": "{{i18n:Mixology_spirited_away.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1540,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 19
+    }, 
+        "HXW.Mixology_summer_potluck_punch": {
+            "Name": "HXW.Mixology_summer_potluck_punch",
+            "DisplayName": "{{i18n:Mixology_summer_potluck_punch.name}}",
+            "Description": "{{i18n:Mixology_summer_potluck_punch.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 790,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 20
+    }, 
+        "HXW.Mixology_think_pink": {
+            "Name": "HXW.Mixology_think_pink",
+            "DisplayName": "{{i18n:Mixology_think_pink.name}}",
+            "Description": "{{i18n:Mixology_think_pink.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1500,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 21
+    }, 
+        "HXW.Mixology_winter_star": {
+            "Name": "HXW.Mixology_winter_star",
+            "DisplayName": "{{i18n:Mixology_winter_star.name}}",
+            "Description": "{{i18n:Mixology_winter_star.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 5200,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 22
+    }, 
+        "HXW.Mixology_young_love": {
+            "Name": "HXW.Mixology_young_love",
+            "DisplayName": "{{i18n:Mixology_young_love.name}}",
+            "Description": "{{i18n:Mixology_young_love.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 2340,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 23
+    }, 
+        "HXW.Mixology_brandy": {
+            "Name": "HXW.Mixology_brandy",
+            "DisplayName": "{{i18n:Mixology_brandy.name}}",
+            "Description": "{{i18n:Mixology_brandy.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 100,
+
+            "ContextTags":
+            ["hxw_alcohol_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 49
+    },
+        "HXW.Mixology_gin": {
+            "Name": "HXW.Mixology_gin",
+            "DisplayName": "{{i18n:Mixology_gin.name}}",
+            "Description": "{{i18n:Mixology_gin.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 100,
+
+            "ContextTags":
+            ["hxw_alcohol_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 52
+    },
+        "HXW.Mixology_rum": {
+            "Name": "HXW.Mixology_rum",
+            "DisplayName": "{{i18n:Mixology_rum.name}}",
+            "Description": "{{i18n:Mixology_rum.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 100,
+
+            "ContextTags":
+            ["hxw_alcohol_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 54
+    },
+        "HXW.Mixology_tequila": {
+            "Name": "HXW.Mixology_tequila",
+            "DisplayName": "{{i18n:Mixology_tequila.name}}",
+            "Description": "{{i18n:Mixology_tequila.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 100,
+
+            "ContextTags":
+            ["hxw_alcohol_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 56
+    },
+        "HXW.Mixology_vodka": {
+            "Name": "HXW.Mixology_vodka",
+            "DisplayName": "{{i18n:Mixology_vodka.name}}",
+            "Description": "{{i18n:Mixology_vodka.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 100,
+
+            "ContextTags":
+            ["hxw_alcohol_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 57
+    },
+        "HXW.Mixology_whiskey": {
+            "Name": "HXW.Mixology_whiskey",
+            "DisplayName": "{{i18n:Mixology_whiskey.name}}",
+            "Description": "{{i18n:Mixology_whiskey.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 100,
+
+            "ContextTags":
+            ["hxw_alcohol_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 58
+    }
+}
+},
+
+/////////////
+// BITTERS //
+/////////////
+
+{
+    "LogName":"HXW Bitters Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When":{"Cocktails": true},
+    "Entries": {
+        "HXW.Mixology_aromatic_bitters": {
+            "Name": "HXW.Mixology_aromatic_bitters",
+            "DisplayName": "{{i18n:Mixology_aromatic_bitters.name}}",
+            "Description": "{{i18n:Mixology_aromatic_bitters.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 0,
+            "Price": 55,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 48
+    }, 
+        "HXW.Mixology_citrus_bitters": {
+            "Name": "HXW.Mixology_citrus_bitters",
+            "DisplayName": "{{i18n:Mixology_citrus_bitters.name}}",
+            "Description": "{{i18n:Mixology_citrus_bitters.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 0,
+            "Price": 55,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 50
+    }, 
+        "HXW.Mixology_floral_bitters": {
+            "Name": "HXW.Mixology_floral_bitters",
+            "DisplayName": "{{i18n:Mixology_floral_bitters.name}}",
+            "Description": "{{i18n:Mixology_floral_bitters.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 0,
+            "Price": 55,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 51
+    }, 
+        "HXW.Mixology_pixie_bitters": {
+            "Name": "HXW.Mixology_pixie_bitters",
+            "DisplayName": "{{i18n:Mixology_pixie_bitters.name}}",
+            "Description": "{{i18n:Mixology_pixie_bitters.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 0,
+            "Price": 55,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 53
+    }, 
+        "HXW.Mixology_star_bitters": {
+            "Name": "HXW.Mixology_star_bitters",
+            "DisplayName": "{{i18n:Mixology_star_bitters.name}}",
+            "Description": "{{i18n:Mixology_star_bitters.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 0,
+            "Price": 55,
+
+            "ContextTags":
+            ["hxw_cocktail_item",
+            "alcohol_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Cocktails",
+            "SpriteIndex": 55
+    }, 
+
+}
+},
+
+///////////////
+// MOCKTAILS //
+///////////////
+
+{
+    "LogName":"HXW Non Alcoholic Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When":{"Mocktails": true},
+    "Entries": {
+        "HXW.Mixology_apple_ginger_fizz": {
+            "Name": "HXW.Mixology_apple_ginger_fizz",
+            "DisplayName": "{{i18n:Mixology_apple_ginger_fizz.name}}",
+            "Description": "{{i18n:Mixology_apple_ginger_fizz.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1440,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 0
+    },
+        "HXW.Mixology_apricot_blitz": {
+            "Name": "HXW.Mixology_apricot_blitz",
+            "DisplayName": "{{i18n:Mixology_apricot_blitz.name}}",
+            "Description": "{{i18n:Mixology_apricot_blitz.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1190,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 1
+    },
+        "HXW.Mixology_autumn_nights": {
+            "Name": "HXW.Mixology_autumn_nights",
+            "DisplayName": "{{i18n:Mixology_autumn_nights.name}}",
+            "Description": "{{i18n:Mixology_autumn_nights.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1590,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 2
+    },
+        "HXW.Mixology_berry_breeze": {
+            "Name": "HXW.Mixology_berry_breeze",
+            "DisplayName": "{{i18n:Mixology_berry_breeze.name}}",
+            "Description": "{{i18n:Mixology_berry_breeze.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 990,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 3
+    },
+        "HXW.Mixology_blackberry_mint_refresher": {
+            "Name": "HXW.Mixology_blackberry_mint_refresher",
+            "DisplayName": "{{i18n:Mixology_blackberry_mint_refresher.name}}",
+            "Description": "{{i18n:Mixology_blackberry_mint_refresher.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 700,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 4
+    },
+        "HXW.Mixology_blue_isle_cooler": {
+            "Name": "HXW.Mixology_blue_isle_cooler",
+            "DisplayName": "{{i18n:Mixology_blue_isle_cooler.name}}",
+            "Description": "{{i18n:Mixology_blue_isle_cooler.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 3900,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 5
+    },
+        "HXW.Mixology_citrus_smash": {
+            "Name": "HXW.Mixology_citrus_smash",
+            "DisplayName": "{{i18n:Mixology_citrus_smash.name}}",
+            "Description": "{{i18n:Mixology_citrus_smash.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1900,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 6
+    },
+        "HXW.Mixology_coco_loco": {
+            "Name": "HXW.Mixology_coco_loco",
+            "DisplayName": "{{i18n:Mixology_coco_loco.name}}",
+            "Description": "{{i18n:Mixology_coco_loco.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 775,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 7
+    },
+        "HXW.Mixology_cranberry_lime_spritz": {
+            "Name": "HXW.Mixology_cranberry_lime_spritz",
+            "DisplayName": "{{i18n:Mixology_cranberry_lime_spritz.name}}",
+            "Description": "{{i18n:Mixology_cranberry_lime_spritz.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 3060,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 8
+    },
+        "HXW.Mixology_farmers_punch": {
+            "Name": "HXW.Mixology_farmers_punch",
+            "DisplayName": "{{i18n:Mixology_farmers_punch.name}}",
+            "Description": "{{i18n:Mixology_farmers_punch.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 2080,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 9
+    },
+        "HXW.Mixology_fruity_fresca": {
+            "Name": "HXW.Mixology_fruity_fresca",
+            "DisplayName": "{{i18n:Mixology_fruity_fresca.name}}",
+            "Description": "{{i18n:Mixology_fruity_fresca.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 2440,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 10
+    },
+        "HXW.Mixology_grasshopper": {
+            "Name": "HXW.Mixology_grasshopper",
+            "DisplayName": "{{i18n:Mixology_grasshopper.name}}",
+            "Description": "{{i18n:Mixology_grasshopper.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 940,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 11
+    },
+        "HXW.Mixology_jumping_junimo": {
+            "Name": "HXW.Mixology_jumping_junimo",
+            "DisplayName": "{{i18n:Mixology_jumping_junimo.name}}",
+            "Description": "{{i18n:Mixology_jumping_junimo.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1240,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 12
+    },
+        "HXW.Mixology_lavender_lady": {
+            "Name": "HXW.Mixology_lavender_lady",
+            "DisplayName": "{{i18n:Mixology_lavender_lady.name}}",
+            "Description": "{{i18n:Mixology_lavender_lady.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1410,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 13
+    },
+        "HXW.Mixology_melon_floral_shrub": {
+            "Name": "HXW.Mixology_melon_floral_shrub",
+            "DisplayName": "{{i18n:Mixology_melon_floral_shrub.name}}",
+            "Description": "{{i18n:Mixology_melon_floral_shrub.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1240,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 14
+    },
+        "HXW.Mixology_mermaid_lagoon": {
+            "Name": "HXW.Mixology_mermaid_lagoon",
+            "DisplayName": "{{i18n:Mixology_mermaid_lagoon.name}}",
+            "Description": "{{i18n:Mixology_mermaid_lagoon.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 2180,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 15
+    },
+        "HXW.Mixology_mixed_berry_tonic": {
+            "Name": "HXW.Mixology_mixed_berry_tonic",
+            "DisplayName": "{{i18n:Mixology_mixed_berry_tonic.name}}",
+            "Description": "{{i18n:Mixology_mixed_berry_tonic.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1200,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 16
+    },
+        "HXW.Mixology_passion_punch": {
+            "Name": "HXW.Mixology_passion_punch",
+            "DisplayName": "{{i18n:Mixology_passion_punch.name}}",
+            "Description": "{{i18n:Mixology_passion_punch.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1660,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 17
+    },
+        "HXW.Mixology_picnic_punch": {
+            "Name": "HXW.Mixology_picnic_punch",
+            "DisplayName": "{{i18n:Mixology_picnic_punch.name}}",
+            "Description": "{{i18n:Mixology_picnic_punch.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1340,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 18
+    },
+        "HXW.Mixology_secret_woods_slushie": {
+            "Name": "HXW.Mixology_secret_woods_slushie",
+            "DisplayName": "{{i18n:Mixology_secret_woods_slushie.name}}",
+            "Description": "{{i18n:Mixology_secret_woods_slushie.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 12670,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 19
+    },
+        "HXW.Mixology_spring_breeze": {
+            "Name": "HXW.Mixology_spring_breeze",
+            "DisplayName": "{{i18n:Mixology_spring_breeze.name}}",
+            "Description": "{{i18n:Mixology_spring_breeze.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1100,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 20
+    },
+        "HXW.Mixology_strawberry_fauxito": {
+            "Name": "HXW.Mixology_strawberry_fauxito",
+            "DisplayName": "{{i18n:Mixology_strawberry_fauxito.name}}",
+            "Description": "{{i18n:Mixology_strawberry_fauxito.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1800,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 21
+    },
+        "HXW.Mixology_summer_mock_mule": {
+            "Name": "HXW.Mixology_summer_mock_mule",
+            "DisplayName": "{{i18n:Mixology_summer_mock_mule.name}}",
+            "Description": "{{i18n:Mixology_summer_mock_mule.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 2700,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 22
+    },
+        "HXW.Mixology_sunrise_beach": {
+            "Name": "HXW.Mixology_sunrise_beach",
+            "DisplayName": "{{i18n:Mixology_sunrise_beach.name}}",
+            "Description": "{{i18n:Mixology_sunrise_beach.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 1650,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 23
+    },
+        "HXW.Mixology_sweet_gem_spritzer": {
+            "Name": "HXW.Mixology_sweet_gem_spritzer",
+            "DisplayName": "{{i18n:Mixology_sweet_gem_spritzer.name}}",
+            "Description": "{{i18n:Mixology_sweet_gem_spritzer.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 12560,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 24
+    },
+        "HXW.Mixology_tropical_sunset": {
+            "Name": "HXW.Mixology_tropical_sunset",
+            "DisplayName": "{{i18n:Mixology_tropical_sunset.name}}",
+            "Description": "{{i18n:Mixology_tropical_sunset.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 200,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 25
+    },
+        "HXW.Mixology_wild_mango_cooler": {
+            "Name": "HXW.Mixology_wild_mango_cooler",
+            "DisplayName": "{{i18n:Mixology_wild_mango_cooler.name}}",
+            "Description": "{{i18n:Mixology_wild_mango_cooler.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 20,
+            "Price": 250,
+
+            "ContextTags":
+            ["hxw_mocktail_item",
+            "drink_item",
+            "color_brown"],
+
+            "Texture": "Mods/HXW.Mixology/Objects_Mocktails",
+            "SpriteIndex": 26
+    }
+}
+}
+
+    ]
+}

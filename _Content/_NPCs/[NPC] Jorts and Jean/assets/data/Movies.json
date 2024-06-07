@@ -1,0 +1,400 @@
+{ 
+	"Changes": [
+		
+		{   "LogName": "Movie Theatre Jorts",
+			"Action": "EditData", 
+			"Target": "Data/MoviesReactions",	 
+			"Entries": {
+				
+				//Jorts
+				"JortsCat": {
+				"NPCName": "JortsCat",
+				"Reactions": [
+					{
+						"Tag": "spring_movie_0",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Don't you think animated movies are great? They're so colorful and the stories are often happy.$h",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "message \"Jorts is sitting forward, emotionally invested in the sapling's success.\"",
+								"Text": ""
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "I love animated movies, but I loved that one even more!$h"
+							}
+						},
+						"ID": "reaction_0"
+					},
+					{
+						"Tag": "summer_movie_0",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Isn't this the game in the saloon?  Do we need to press buttons, too?$4",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "message \"Jorts is kneading at the seat, as if he's mashing buttons.\"/emote JortsCat 52",
+								"Text": "C'mon, @! We gotta help him out!"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Yay! We won! I'm so glad we did it together!$h"
+							}
+						},
+						"ID": "reaction_1"
+					},
+					{
+						"Tag": "fall_movie_0",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "I wonder what this movie will be about?$4#$b#I guess that's why it's a mystery!$h",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "emote JortsCat 8",
+								"Text": "I don't get it.$4#$b#But it's fun!$h#$b#But I don't get it.$4"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "I'm still not sure what happened, but maybe Jean can explain it to me. Thanks, @!"
+							}
+						},
+						"ID": "reaction_2"
+					},
+					{
+						"Tag": "winter_movie_0",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Ooh, it looks cold. I hope the actors stayed warm.",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "message \"Jorts pushes against your side and purrs.",
+								"Text": "I'm sure they'll be okay, @."
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Are you okay, @? You can pet me some more if you're still feeling sad."
+							}
+						},
+						"ID": "reaction_3"
+					},
+					{
+						"Tag": "spring_movie_1",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Look at all the color on that poster! I bet this will be fun!",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "message \"Jorts is staring at the birds on screen, starry-eyed.",
+								"Text": "FRIENDS!!!$h"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "What a nice bunch of birds! I wonder if I can meet them someday?"
+							}
+						},
+						"ID": "reaction_4"
+					},
+					{
+						"Tag": "summer_movie_1",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "He looks squishy! I wanna knead him.$h",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Hahaha! Classic Wumbus!$h"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "This one was so funny! I love funny ones."
+							}
+						},
+						"ID": "reaction_5"
+					},
+					{
+						"Tag": "fall_movie_1",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "When it howls, let's howl back, okay?",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "message \"Jorts puts a paw protectively on your leg.\"",
+								"Text": "Don't worry, @, I'll protect you."
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "I was so busy guarding I forgot to howl. I liked it, @, but I don't think Jean would."
+							}
+						},
+						"ID": "reaction_6"
+					},
+					{
+						"Tag": "winter_movie_1",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "showFrame JortsCat 36/message \"Jorts has fallen asleep.\"",
+								"Text": ""
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "That was a really nice movie to nap to. All quiet and soothing.$h"
+							}
+						},
+						"ID": "reaction_7"
+					},
+				],
+				},
+			},
+		},
+		{   "LogName": "Movie Theatre Jorts",
+			"Action": "EditData", 
+			"Target": "Data/MoviesReactions",	 
+			"Entries": {
+				
+				//Jean
+				"JeanCat": {
+				"NPCName": "JeanCat",
+				"Reactions": [
+					{
+						"Tag": "spring_movie_0",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "I've heard this story before, but not in an animated form. This should be interesting.$h",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Oh, Jorts would love this.$h"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Everyone appreciates a good story about rising over adversity, don't you think?$h#$b#Thank you for inviting me."
+							}
+						},
+						"ID": "reaction_0"
+					},
+					{
+						"Tag": "summer_movie_0",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Oh, this is the game Abigail always plays. Hopefully the movie goes easier on us than the game does.$h",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "emote JeanCat 32",
+								"Text": "Pfft, it's pretty predictable, but I appreciate their dedication to the bit.$h"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "It didn't do anything new or surprising, but I'm sure fans of the game will appreciate the familiarity.$h#$b#Thank you for inviting me, @."
+							}
+						},
+						"ID": "reaction_1"
+					},
+					{
+						"Tag": "fall_movie_0",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "I do like a good mystery, but I'm not really a fan of the occult stuff.#$b#Still, no sense in judging a movie by its poster, right?$h",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "emote JeanCat 40",
+								"Text": "I think I get what they're going for, but it's very disorganized. There's no sense of progression.$3"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "I think it could've used some polish, but it was a nice exercise in narrative analysis. Thanks for the invite.$h"
+							}
+						},
+						"ID": "reaction_2"
+					},
+					{
+						"Tag": "winter_movie_0",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "It's the season for all the by-the-book heartwarming movies, isn't it?",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "emote JeanCat 28",
+								"Text": "I know it's not the point, but there's so many ways this scenario could have been avoided.$3"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Well, it was cute for what it was. Thanks for the invite.#$b#I'd still like to see a feel-good ending where they ate the rich instead.$6"
+							}
+						},
+						"ID": "reaction_3"
+					},
+					{
+						"Tag": "spring_movie_1",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Oh, I'm a fan of documentaries. It's always a good time to learn. And it looks like such high quality video.",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "shake JeanCat 3000/pause 500/message \"Jean keeps crouching and swishing her tail...\"",
+								"Text": "Sorry, cat instincts. It's really lifelike, isn't it?$3"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Thanks for the invite, @. I really enjoyed it.#$b#Sorry about pouncing on the screen.$3#$b#...four times....$s"
+							}
+						},
+						"ID": "reaction_4"
+					},
+					{
+						"Tag": "summer_movie_1",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Absurdist comedy, huh? That can be a challenge to pull off.",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "message \"Jean has a paw on her face. You're not sure if she's exasperated or amused.",
+								"Text": ""
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "Well, that was...definitely a movie.$3#$b#You should take Jorts, I'm sure he'd adore it."
+							}
+						},
+						"ID": "reaction_5"
+					},
+					{
+						"Tag": "fall_movie_1",
+						"Response": "dislike",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "A horror film? Well... it's not like it's REAL, so....$3",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "warp JeanCat -999 -999/emote farmer 16/message \"Jean??\"/pause 500/emote farmer 40/message \"She's hiding under the seats....",
+								"Text": "Jorts! Jorts, make the bad thing go away!$4"
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "...Sorry about that, @. I guess this wasn't really my thing.$s"
+							}
+						},
+						"ID": "reaction_6"
+					},
+					{
+						"Tag": "winter_movie_1",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "What do you think makes a classic, @?",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "message \"Jean is watching with rapt attention, her tail swishing contentedly.",
+								"Text": ""
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "That was quite enjoyable, @. I don't know that much about filmography, but it's interesting to see what's different between then and now."
+							}
+						},
+						"ID": "reaction_7"
+					},
+				]
+			},
+			},
+		}
+		
+	]
+}

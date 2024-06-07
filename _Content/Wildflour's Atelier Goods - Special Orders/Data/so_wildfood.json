@@ -1,0 +1,508 @@
+{
+  "Changes": [
+
+///////////////
+// DROPBOXES //
+///////////////
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/LeahHouse",
+      "MapTiles": [
+      {
+       "Position": { "X": 10, "Y": 4},
+       "Layer": "Buildings",
+       "SetProperties": { "Action": "DropBox LeahRoom"}
+      }		
+      ]
+      },
+
+      {
+      "Action": "EditMap",
+      "Target": "Maps/ScienceHouse",
+      "MapTiles": [
+      {
+       "Position": { "X": 20, "Y": 17},
+       "Layer": "Buildings",
+       "SetProperties": { "Action": "DropBox DemetriusLab"}
+      }		
+      ]
+      },
+
+      {
+      "Action": "EditMap",
+      "Target": "Maps/SandyHouse",
+      "MapTiles": [
+      {
+       "Position": { "X": 6, "Y": 7},
+       "Layer": "Buildings",
+       "SetProperties": { "Action": "DropBox SandyRoom"}
+      }		
+      ]
+      },
+
+/////////////////////
+// SPECIAL ORDER 1 //
+/////////////////////
+    {
+    "LogName": "Wild Food Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "wildflour.ateliercrops_SO_1": {
+        "Name": "{{i18n:ateliercrops_SO_1.name}}",
+        "Requester": "Linus",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliercrops_SO_1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:ateliercrops_SO_1.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.ateliercrops_vanilla",
+                "Message": "{{i18n:ateliercrops_SO_1.accept}}",
+                "TargetName": "Linus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "900"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Linus"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+/////////////////////
+// SPECIAL ORDER 2 //
+/////////////////////
+
+    {
+      "LogName": "Wild Food Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.ateliercrops_SO_2": {
+          "Name": "{{i18n:ateliercrops_SO_2.name}}",
+          "Requester": "Leah",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:ateliercrops_SO_2.text}}",
+          "Objectives": [ 
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliercrops_SO_2a.deliver}}",
+                "RequiredCount": "4",
+                "Data": {
+                  "DropBox": "LeahRoom",
+                  "DropBoxGameLocation": "LeahHouse",
+                  "DropBoxIndicatorLocation": "10 4",
+                  "AcceptedContextTags": "item_wildflour.ateliercrops_strawberry"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliercrops_SO_2b.deliver}}",
+                "RequiredCount": "4",
+                "Data": {
+                  "DropBox": "LeahRoom",
+                  "DropBoxGameLocation": "LeahHouse",
+                  "DropBoxIndicatorLocation": "10 4",
+                  "AcceptedContextTags": "item_wildflour.ateliercrops_raspberry"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "1360"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Leah"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.ateliercrops_SO2_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 3 //
+/////////////////////
+
+    {
+      "LogName": "Wild Food Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.ateliercrops_SO_3": {
+          "Name": "{{i18n:ateliercrops_SO_3.name}}",
+          "Requester": "Demetrius",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:ateliercrops_SO_3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliercrops_SO_3.deliver}}",
+                "RequiredCount": "15",
+                "Data": {
+                  "DropBox": "DemetriusLab",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "20 17",
+                  "AcceptedContextTags": "item_wildflour.ateliercrops_meringueshroom/item_wildflour.ateliercrops_honeyfungus/item_wildflour.ateliercrops_milkshroom/item_wildflour.ateliercrops_wheatshroom/item_wildflour.ateliercrops_chickenofthewoods"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5250"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Demetrius"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.ateliercrops_SO3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+/////////////////////
+// SPECIAL ORDER 4 //
+/////////////////////
+
+    {
+      "LogName": "Wild Food Order 4",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+          "wildflour.ateliercrops_SO_4": {
+            "Name": "{{i18n:ateliercrops_SO_4.name}}",
+            "Requester": "Sandy",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:ateliercrops_SO_4.text}}",
+            "Objectives": [
+
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:ateliercrops_SO_4a.deliver}}",
+                  "RequiredCount": "5",
+                  "Data": {
+                    "DropBox": "SandyRoom",
+                    "DropBoxGameLocation": "SandyHouse",
+                    "DropBoxIndicatorLocation": "6 7",
+                    "AcceptedContextTags": "item_wildflour.ateliercrops_lavender"
+                  }
+                },
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:ateliercrops_SO_4b.deliver}}",
+                  "RequiredCount": "5",
+                  "Data": {
+                    "DropBox": "SandyRoom",
+                    "DropBoxGameLocation": "SandyHouse",
+                    "DropBoxIndicatorLocation": "6 7",
+                    "AcceptedContextTags": "item_wildflour.ateliercrops_chamomile"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "1600"
+                }
+              },
+
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Sandy"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.ateliercrops_SO4_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 5 //
+/////////////////////
+
+    {
+      "LogName": "Wild Food Order 5",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+          "wildflour.ateliercrops_SO_5": {
+            "Name": "{{i18n:ateliercrops_SO_5.name}}",
+            "Requester": "Lewis",
+            "Duration": "Month",
+            "Repeatable": "False",
+            "RequiredTags": "mail_wildflour.ateliercrops_SO2_complete, mail_wildflour.ateliercrops_SO3_complete, mail_wildflour.ateliercrops_SO4_complete",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:ateliercrops_SO_5.text}}",
+            "Objectives": [
+                {
+                  "Type": "Ship",
+                  "Text": "{{i18n:ateliercrops_SO_5.ship}}",
+                  "RequiredCount": "100",
+                  "Data": {
+                    "AcceptedContextTags": "faeriegarden_forage/wildflour_forage"
+                  }
+                }
+
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "100000"
+                }
+              },
+
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.ateliercrops_SO5_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 6 //
+/////////////////////
+
+    {
+      "LogName": "Wild Food Order 6",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.ateliercrops_SO_6": {
+          "Name": "{{i18n:ateliercrops_SO_6.name}}",
+          "Requester": "Maru",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:ateliercrops_SO_6.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:ateliercrops_SO_6.deliver}}",
+                "RequiredCount": "5",
+                "Data": {
+                  "AcceptedContextTags": "mushroom_item",
+                  "Message": "{{i18n:ateliercrops_SO_6.accept}}",
+                  "TargetName": "Maru"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "1250"
+                }
+              },
+
+              {
+                "Type": "Friendship",
+                "Data": {}
+                }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 7 //
+/////////////////////
+
+    {
+    "LogName": "Wild Food Order 7",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "wildflour.ateliercrops_SO_7": {
+        "Name": "{{i18n:ateliercrops_SO_7.name}}",
+        "Requester": "Gus",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliercrops_SO_7.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:ateliercrops_SO_7.deliver}}",
+              "RequiredCount": "6",
+              "Data": {
+                "AcceptedContextTags": "wildflour_forage, fruit_item",
+                "Message": "{{i18n:ateliercrops_SO_7.accept}}",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1250"
+              }
+            },
+
+          {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  },
+
+/////////////////////
+// SPECIAL ORDER 8 //
+/////////////////////
+
+    {
+    "LogName": "Wild Food Order 8",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "wildflour.ateliercrops_SO_8": {
+        "Name": "{{i18n:ateliercrops_SO_8.name}}",
+        "Requester": "Evelyn",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliercrops_SO_8.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:ateliercrops_SO_8.deliver}}",
+              "RequiredCount": "8",
+              "Data": {
+                "AcceptedContextTags": "wildflour_forage, herb_item",
+                "Message": "{{i18n:ateliercrops_SO_8.accept}}",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  }
+
+
+  ]
+}
+

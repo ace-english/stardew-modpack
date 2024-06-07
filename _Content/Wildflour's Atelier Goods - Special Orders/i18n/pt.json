@@ -1,0 +1,627 @@
+{
+
+////////////////////
+// ALES MEADS SO  //
+////////////////////
+
+
+"alesxmeads_SO_1.name": "Compartilhar Uma Caneca",
+"alesxmeads_SO_1.text": "Quero surpreender todo mundo no saloon com algumas cervejas especialmente elaboradas! O Gus acha que é uma ótima ideia, mas não sei onde consegui-las.",
+"alesxmeads_SO_1.deliver": "Entregar 5 Stouts de Leite de Coco para a Pam.",
+"alesxmeads_SO_1.accept": "Isso é perfeito! Todo mundo sempre compartilha uma caneca comigo, então estou animada para compartilhar uma caneca com tudo mundo!",
+
+"alesxmeads_SO_2.name": "Vamos Lá",
+"alesxmeads_SO_2.text": "Qual é a da cerveja azeda? Isso parece tão estranho, mas também estou muito curioso para experimentar...",
+"alesxmeads_SO_2.deliver": "Entregar 5 Ale Azeda de Cereja para o Shane.",
+"alesxmeads_SO_2.accept": "Huh, a acidez da cereja realmente corta a doçura da ale. Impressionante. Obrigado por compartilhar comigo.",
+
+"alesxmeads_SO_3.name": "Mais Cervejas para o Saloon",
+"alesxmeads_SO_3.text": "Aparentemente, as pessoas estão realmente interessadas em mais cervejas especiais além de cerveja e pale ale. Você pode me ajudar a melhorar a variedade que temos no saloon?",
+"alesxmeads_SO_3a.deliver": "Entregar 3 Pilsen de Laranja para a geladeira do Gus.",
+"alesxmeads_SO_3b.deliver": "Entregar 3 Stouts de Pêssego para a geladeira do Gus.",
+"alesxmeads_SO_3c.deliver": "Entregar 3 Ale de Mirtilo para a geladeira do Gus.",
+"alesxmeads_SO_3d.deliver": "Entregar 3 Pale Ale de Melão para a geladeira do Gus.",
+
+"alesxmeads_SO_4.name": "Precisando de Hidromel",
+"alesxmeads_SO_4.text": "Quero experimentar algo diferente do meu habitual no saloon. Ouvi dizer que hidromel é bem bom... alguém pode trazer um pouco para eu experimentar?",
+"alesxmeads_SO_4.deliver": "Entregar 3 Hidromel de Damasco para o Shane.",
+"alesxmeads_SO_4.accept": "Feito a partir da fermentação do mel, huh? Selvagem. Bem, certamente parece mais bonito do que meu velho e chato pint de cerveja.",
+
+"alesxmeads_SO_5.name": "Hidromel para Aquecer os Ossos",
+"alesxmeads_SO_5.text": "Adoraria um hidromel para aproveitar enquanto pesco tranquilamente numa tarde fresca de outono.",
+"alesxmeads_SO_5.deliver": "Entregar 3 Hidromel Sempre Doce para o Willy.",
+"alesxmeads_SO_5.accept": "Eu realmente adoro um hidromel; pontos extras para um com um pouco de sabor de frutas frescas como este!",
+
+"alesxmeads_SO_6.name": "Spice Girls",
+"alesxmeads_SO_6.text": "Preciso de hidromel para uma noite das meninas com minhas amigas!",
+"alesxmeads_SO_6a.deliver": "Entregue 3 Hidromeis com Especiarias na Caixa de Entregas na Casa da Leah.",
+"alesxmeads_SO_6b.deliver": "Entregar 3 Hidromeis de Oxicoco Azedo na Caixa de Entrega na Casa da Leah.",
+"alesxmeads_SO_6c.deliver": "Entregar 3 Hidromeis de Amora-Preta na Caixa de Entrega na Casa da Leah.",
+"alesxmeads_SO_6d.deliver": "Entregar 3 Hidromeis de Maçã Crocante na Caixa de Entrega na Casa da Leah.",
+
+"alesxmeads_SO_7.name": "Desafio do Mestre Cervejeiro",
+"alesxmeads_SO_7.text": "É aquela época do ano novamente - as inscrições anuais para o cargo de Mestre Cervejeiro estão abertas! Envie suas melhores cervejas para ver se você pode ganhar o grande prêmio!",
+"alesxmeads_SO_7.ship": "Enviar 100 cervejas de qualidade ouro.",
+
+"alesxmeads_SO_8.name": "Desafio do Mestre Hidromeleiro",
+"alesxmeads_SO_8.text": "É aquela época do ano novamente - as inscrições anuais para o cargo de Mestre Hidromeleiro estão abertas! Envie seus melhores hidroméis para ver se você pode ganhar o grande prêmio!",
+"alesxmeads_SO_8.ship": "Enviar 100 Hidroméis de Qualidade Ouro.",
+
+//REWARDS MAIL
+ 
+"alesxmeads_SO2_reward.title": "Meu Fazendeiro de Cerveja Favorito",
+"alesxmeads_SO2_reward.text": "@,^^^ Hã, a acidez da cereja realmente corta o doce da cerveja. Impressionante. Obrigado por compartilhar, fazendeiro. ^-Shane",
+
+"alesxmeads_SO3_reward.title": "Um Pequeno Sinal de Agradecimento",
+"alesxmeads_SO3_reward.text": "@,^^^ Que seleção! Isso realmente vai ajudar a colocar o Stardrop Saloon no mapa. Aqui está algo para mostrar meu agradecimento e apreço. ^-Emily",
+
+"alesxmeads_SO6_reward.title": "Obrigado!",
+"alesxmeads_SO6_reward.text": "@,^^^ Doce e picante; isso é perfeito para a nossa noite das meninas em casa! Obrigado, fazendeiro. ^-Leah",
+
+"alesxmeads_SO7_reward.title": "Parabéns!",
+"alesxmeads_SO7_reward.text": "Caro @,^^^ Sua dedicação é impressionante. Estamos orgulhosos de oferecer a você o título de Mestre Cervejeiro. Por favor, aceite isso como uma recompensa.",
+
+"alesxmeads_SO8_reward.title": "Parabéns!",
+"alesxmeads_SO8_reward.text": "Caro @,^^^ Sua dedicação é impressionante. Estamos orgulhosos de oferecer a você o título de Mestre Hidromeleiro. Por favor, aceite isso como uma recompensa.",
+
+//////////////////
+// BEVERAGES SO //
+//////////////////
+
+"atelierjuicebar_SO_1.name":"Reforço Matinal.",
+"atelierjuicebar_SO_1.text":"Estou ocupado tentando aumentar minha massa muscular e melhorar meu jogo de gridball; não tenho tempo para fazer café da manhã todos os dias! Alguém pode me ajudar?",
+"atelierjuicebar_SO_1.deliver":"Entregar 5 Smoothies de Couve Verde para Alex.",
+"atelierjuicebar_SO_1.accept":"Então esses smoothies têm proteína E fibra? Incrível! Com certeza vou construir músculos graças a esses.",
+
+"atelierjuicebar_SO_2.name":"Um Novo Tipo de Refrescância.",
+"atelierjuicebar_SO_2.text":"Abigail estava falando sobre bubble tea... o que é isso? É bom? Eu adoraria experimentar se alguém trouxesse para eu provar por mim mesmo.",
+"atelierjuicebar_SO_2a.deliver":"Entregar 2 Chá de Bolhas de Oolong para a cozinha de Caroline.",
+"atelierjuicebar_SO_2b.deliver":"Entregar 2 Chá de Bolhas de Açúcar Mascavo para a cozinha de Caroline.",
+"atelierjuicebar_SO_2c.deliver":"Entregar 2 Chá de Bolhas de Morango para a cozinha de Caroline.",
+
+"atelierjuicebar_SO_3.name":"Limonada Vs Chá Gelado",
+"atelierjuicebar_SO_3.text":"Nada como uma limonada gelada em um dia quente... ou seria chá gelado? Hmm agora não consigo lembrar qual eu gosto mais. Alguém traga ambos para que eu possa decidir!",
+"atelierjuicebar_SO_3a.deliver":"Entregar 2 Limonadas de Chá Verde para a caixa de entrega na cozinha de George.",
+"atelierjuicebar_SO_3b.deliver":"Entregar 2 Limonadas Clássicas para a caixa de entrega na cozinha de George.",
+"atelierjuicebar_SO_3c.deliver":"Entregar 2 Chás Gelados para a caixa de entrega na cozinha de George.",
+"atelierjuicebar_SO_3d.deliver":"Entregar 2 Chás Gelados de Pêssego para a caixa de entrega na cozinha de George.",
+
+"atelierjuicebar_SO_4.name":"Espremido na Hora",
+"atelierjuicebar_SO_4.text":"Estou tentando reduzir o consumo de refrigerante, mas ainda preciso de algo doce para beber. Alguém tem alguma ideia?",
+"atelierjuicebar_SO_4a.deliver":"Entregar 2 Sucos de Uva na caixa de entrega no quarto de Sam.",
+"atelierjuicebar_SO_4b.deliver":"Entregar 2 Sucos de Maçã na caixa de entrega no quarto de Sam.",
+"atelierjuicebar_SO_4c.deliver":"Entregar 2 Sucos de Frutas Vermelhas na caixa de entrega no quarto de Sam.",
+"atelierjuicebar_SO_4d.deliver":"Entregar 2 Sucos de Laranja na caixa de entrega no quarto de Sam.",
+
+"atelierjuicebar_SO_5.name":"Desafio de Bebidas Sensacionais",
+"atelierjuicebar_SO_5.text":"É aquela época do ano novamente - as inscrições anuais para o Desafio de Bebidas Sensacionais estão oficialmente abertas! Envie-nos suas melhores bebidas para ver se você pode ganhar o grande prêmio!",
+"atelierjuicebar_SO_5.ship":"Envie 100 bebidas de qualidade ouro.",
+
+"atelierjuicebar_SO_6.name":"Bubble Tea para Emily",
+"atelierjuicebar_SO_6.text":"Acabei o meu chá de bolhas! SOCORRO, mandem alguns novos para mim, por favor!",
+"atelierjuicebar_SO_6.deliver":"Entregar 4 chá de bolhas para Emily.",
+"atelierjuicebar_SO_6.accept":"Que alívio! Não me sinto eu mesma sem um bom bubble tea. Obrigada!",
+
+"atelierjuicebar_SO_7.name":"Smoothies para Haley",
+"atelierjuicebar_SO_7.text":"Estive tão ocupada na semana passada que não preparei meus próximos smoothies! O que farei agora com os meus cafés da manhã?",
+"atelierjuicebar_SO_7.deliver":"Entregar 4 smoothies para Haley.",
+"atelierjuicebar_SO_7.accept":"Graças a Deus! Minha manhã simplesmente não seria a mesma sem um smoothie. Obrigada novamente.",
+
+"atelierjuicebar_SO_8.name":"Sucos para Shane",
+"atelierjuicebar_SO_8.text":"Eu, talvez, tenha esquecido que era minha vez de pegar suco para Jas e suas amigas. De novo. Alguém pode me ajudar, por favor??",
+"atelierjuicebar_SO_8.deliver":"Entregar 8 sucos para Shane.",
+"atelierjuicebar_SO_8.accept":"Ah, obrigado Yoba. Você realmente salvou a minha pele; obrigado.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierjuicebar_SO2_reward.title": "Obrigada!",
+"atelierjuicebar_SO2_reward.text": "@,^^^ Quem diria que eu me apaixonaria loucamente por bubble tea! Obrigado por compartilhar isso comigo. Aqui está algo para o seu esforço.^^-Caroline",
+
+"atelierjuicebar_SO3_reward.title": "Bebidas Geladas",
+"atelierjuicebar_SO3_reward.text": "@,^^^ Ah, agora eu lembro! Eu gosto dos dois! Obrigado, @. Isso deve ajudar um pouco; apenas não se esqueça de que seu velho amigo George gosta de uma bebida gelada de vez em quando!",
+
+"atelierjuicebar_SO4_reward.title": "Obrigado; Além da Minha Receita Secreta de Refrigerante",
+"atelierjuicebar_SO4_reward.text": "@,^^^ Obrigado novamente pelos sucos de frutas! Estavam deliciosos, mas descobri que não são realmente melhores para mim do que refrigerante, então estou de volta ao ponto de partida. De qualquer forma, eu pensei que isso poderia ajudá-lo a experimentar mais bebidas também!^^-Sam",
+
+"atelierjuicebar_SO5_reward.title": "Parabéns!",
+"atelierjuicebar_SO5_reward.text": "Caro @,^^^ Sua dedicação é impressionante. Estamos orgulhosos de oferecer a você o primeiro prêmio no Concurso de Bebidas Sensacionais. Por favor, aceite isso como uma recompensa.",
+
+///////////////
+// CANDY SOS //
+///////////////
+
+"ateliercandy_SO_1.name": "Chubby Bunny",
+"ateliercandy_SO_1.text": "Eu quero jogar o jogo Chubby Bunny mas marshmallows normais são entediantes! Alguém pode trazer alguns sabores diferentes?",
+"ateliercandy_SO_1a.deliver": "Entregar 3 marshmallows de morango para Jas.",
+"ateliercandy_SO_1b.deliver": "Entregar 3 marshmallows de lavanda para Jas.",
+"ateliercandy_SO_1c.deliver": "Entregar 3 marshmallows de matcha para Jas.",
+"ateliercandy_SO_1d.deliver": "Entregar 3 marshmallows de coco para Jas.",
+"ateliercandy_SO_1.accept": "Yay! Tantas cores bonitas. Agora eu e meus amigos podemos ser Chubby Bunny juntos!",
+
+"ateliercandy_SO_2.name": "Não Esqueça de Fazer Algodão doce!",
+"ateliercandy_SO_2.text": "Algodão doce é tão legal! É tão leve e macio mas também delicioso - eu queria poder experimentar TODOS os sabores do mundo!",
+"ateliercandy_SO_2a.deliver": "Entregar 1 Algodão Doce para a Caixa de Depósito na casa do Vincent.",
+"ateliercandy_SO_2b.deliver": "Entregar 1 Algodão Doce de Lavanda para a Caixa de Depósito na casa do Vincent.",
+"ateliercandy_SO_2c.deliver": "Entregar 1 Algodão Doce de Limão Merengue para a Caixa de Depósito na casa do Vincent.",
+"ateliercandy_SO_2d.deliver": "Entregar 1 Algodão Doce de Sorvete de Laranja para a Caixa de Depósito na casa do Vincent.",
+"ateliercandy_SO_2e.deliver": "Entregar 1 Algodão Doce de Hortelã para a Caixa de Depósito na casa do Vincent.",
+"ateliercandy_SO_2f.deliver": "Entregar 1 Algodão Doce de Torta de Morango para a Caixa de Depósito na casa do Vincent.",
+"ateliercandy_SO_2g.deliver": "Entregar 1 Algodão Doce de Baunilha para a Caixa de Depósito na casa do Vincent.",
+
+"ateliercandy_SO_3.name": "Sabor de Nostalgia",
+"ateliercandy_SO_3.text": "Minha mãe costumava me surpreender com estes pirulitos chiques quando eu era pequena. Eu adoraria ter eles para nós duas agora, mas não sei onde encontrá-los!",
+"ateliercandy_SO_3a.deliver": "Entregar 1 Pirulito Gourmet de Torta de Limão Merengue para a Cozinha da Penny.",
+"ateliercandy_SO_3b.deliver": "Entregar 1 Pirulito Gourmet de Baunilha e Hortelã para a Cozinha da Penny.",
+"ateliercandy_SO_3c.deliver": "Entregar 1 Pirulito Gourmet de Frutas Vermelhas para a Cozinha da Penny.",
+"ateliercandy_SO_3d.deliver": "Entregar 1 Pirulito Gourmet de Torta de Mirtilo para a Cozinha da Penny.",
+
+"ateliercandy_SO_4.name": "Rochas Saborosas",
+"ateliercandy_SO_4.text": "Eu sabia que você podia comer rochas! Agora posso compartilhar minha guloseima favorita com todos, mas onde encontrarei o suficiente para compartilhar?",
+"ateliercandy_SO_4.deliver": "Entregar 5 doces de cristal para a Caixa de Depósito no quarto da Abigail.",
+
+"ateliercandy_SO_5.name": "Desafio do Mestre Confeiteiro",
+"ateliercandy_SO_5.text": "É aquela época do ano novamente - as inscrições anuais para o cargo de Mestre Confeiteiro estão abertas! Envie seus melhores doces para ver se você pode ganhar o grande prêmio!",
+"ateliercandy_SO_5.ship": "Enviar 100 Doces de Qualidade Ouro.",
+
+"ateliercandy_SO_6.name": "Algodão Doce para Emily",
+"ateliercandy_SO_6.text": "Algodão doce é tão mágico, não acha? Eu adoraria se alguém entregasse alguns para mim ",
+"ateliercandy_SO_6.deliver": "Entregar qualquer 3 algodões doces para Emily.",
+"ateliercandy_SO_6.accept": "É quase bonito demais para comer! Obrigado por estes, amigo.",
+
+"ateliercandy_SO_7.name": "Marshmallows para Robin",
+"ateliercandy_SO_7.text": "Preciso de marshmallows para meu chocolate quente.",
+"ateliercandy_SO_7.deliver": "Entregar 5 marshmallows para Robin.",
+"ateliercandy_SO_7.accept": "Depois de um dia difícil na loja, adoro uma boa xícara de chocolate quente para relaxar. Estes são perfeitos, obrigado por trazê-los!",
+
+"ateliercandy_SO_8.name": "Doces para Lewis",
+"ateliercandy_SO_8.text": "Sinto falta dos doces antigos de hortelã. Não consigo encontrá-los em lugar nenhum! Alguém pode me ajudar?",
+"ateliercandy_SO_8.deliver": "Entregar 12 doces de hortelã para Lewis.",
+"ateliercandy_SO_8.accept": "Tenho procurado por esses em todos os lugares! É tão difícil encontrar bons doces nos dias de hoje. Obrigado, amigo.",
+
+//CANDY REWARDS MAIL
+ 
+"ateliercandy_SO2_reward.title": "MUITO OBRIGADO!!",
+"ateliercandy_SO2_reward.text": "@,^^^ Estes parecem tão bons. Se ao menos mamãe me deixasse usar isso para fazer o fio dental em vez daquela corda nojenta...^^-Vincent",
+
+"ateliercandy_SO3_reward.title": "Obrigada",
+"ateliercandy_SO3_reward.text": "@,^^^ Estes são exatamente como os que mamãe costumava trazer para casa após longas viagens de caminhão. Vou aproveitar compartilhando estes com ela. ^^-Penny",
+
+"ateliercandy_SO4_reward.title": "Obrigada",
+"ateliercandy_SO4_reward.text": "@,^^^ Crocantes, doces e bons para comer. Estou indo compartilhar com Seb e Sam; obrigado novamente! ^^-Abigail",
+
+"ateliercandy_SO5_reward.title": "Parabéns!",
+"ateliercandy_SO5_reward.text": "Querido(a) @^^^, Sua dedicação é impressionante. Estamos orgulhosos de oferecer a você o título de Mestre Confeiteiro. Por favor, aceite isso como recompensa.",
+
+////////////////
+// COFFEE SOS //
+////////////////
+
+
+"atelierbarista_CoffeeSO_1.name": "Pausa para Café",
+"atelierbarista_CoffeeSO_1.text": "Estou ficando sem café moído! Alguém pode trazer algumas sacas para que eu possa reabastecer?",
+"atelierbarista_CoffeeSO_1a.deliver": "Entregue 2 Pó de Café de Avelã para Harvey.",
+"atelierbarista_CoffeeSO_1b.deliver": "Entregue 2 Mistura para Café Gelado para Harvey.",
+"atelierbarista_CoffeeSO_1c.deliver": "Entregue 2 Pó de Café de Baunilha para Harvey.",
+"atelierbarista_CoffeeSO_1.accept": "Ah, chegou na hora certa! Acredite em mim, ninguém quer um médico sonolento!",
+
+"atelierbarista_CoffeeSO_2.name": "Desculpe, Estou Atrasada...",
+"atelierbarista_CoffeeSO_2.text": "Eu sempre aperto o botão de soneca do meu alarme e acabo me atrasando para tudo! Alguém pode trazer um café para que eu possa me mover mais rápido e parar de me atrasar?",
+"atelierbarista_CoffeeSO_2.deliver": "Entregue 5 Latte de Coração para Haley.",
+"atelierbarista_CoffeeSO_2.accept": "Talvez eu finalmente consiga chegar na hora para as coisas agora!",
+
+"atelierbarista_CoffeeSO_3.name": "Acordar e Moer",
+"atelierbarista_CoffeeSO_3.text": "Eu nunca fui uma pessoa matinal, mas quero tentar. Se eu for ter sucesso, vou precisar de MUITO café...",
+"atelierbarista_CoffeeSO_3a.deliver": "Entregue 3 Pó de Café Mistura Café da Manhã na Caixa de Entrega no Quarto de Sebastian.",
+"atelierbarista_CoffeeSO_3b.deliver": "Entregue 3 Pó de Café Mocha na Caixa de Entrega no Quarto de Sebastian.",
+"atelierbarista_CoffeeSO_3c.deliver": "Entregue 3 Pó de Café de Coco Torrado na Caixa de Entrega no Quarto de Sebastian.",
+"atelierbarista_CoffeeSO_3d.deliver": "Entregue 3 Pó de Café Donut Shoppe na Caixa de Entrega no Quarto de Sebastian.",
+
+"atelierbarista_CoffeeSO_4.name": "Temporada de PSL",
+"atelierbarista_CoffeeSO_4.text": "Todo mundo está me pedindo para servir Lattes de Abóbora e Especiarias no saloon durante o outono! Eu não sei o que é isso, mas alguém pode me ajudar a entrar nessa moda?",
+"atelierbarista_CoffeeSO_4.deliver": "Entregue 12 Lattes de Abóbora e Especiarias na Geladeira de Gus no Saloon.",
+
+"atelierbarista_CoffeeSO_5.name": "Desafio Mestre Torrefador",
+"atelierbarista_CoffeeSO_5.text": "É aquela época do ano novamente - as inscrições anuais para o cargo de Mestre Torrefador estão abertas! Envie-nos seus melhores cafés para ver se você pode ganhar o grande prêmio!",
+"atelierbarista_CoffeeSO_5.ship": "Envie 100 Produtos de Café de Qualidade Ouro.",
+
+"atelierbarista_CoffeeSO_6.name": "Café Gelado para Sandy",
+"atelierbarista_CoffeeSO_6.text": "Está MUITO quente aqui. Alguém pode trazer um pouco de cold brew??",
+"atelierbarista_CoffeeSO_6.deliver": "Entregue 3 cafés gelados para Sandy.",
+"atelierbarista_CoffeeSO_6.accept": "Tão gelado e refrescante, este cold brew está perfeito! Muito obrigado, querido(a).",
+
+"atelierbarista_CoffeeSO_7.name": "Lattes para Marnie",
+"atelierbarista_CoffeeSO_7.text": "Os animais me mantiveram acordada a noite toda e estou muito cansada. Alguém pode trazer alguns lattes?",
+"atelierbarista_CoffeeSO_7.deliver": "Entregue 4 lattes para Marnie.",
+"atelierbarista_CoffeeSO_7.accept": "Amo meus animais, mas não amo a falta de sono. Pelo menos agora tenho esses lattes adoráveis para me animar! Obrigada mais uma vez.",
+
+"atelierbarista_CoffeeSO_8.name": "Café para Pierre",
+"atelierbarista_CoffeeSO_8.text": "Preciso de ajuda para reabastecer minhas misturas de café na loja.",
+"atelierbarista_CoffeeSO_8.deliver": "Entregue 8 misturas de café para Pierre.",
+"atelierbarista_CoffeeSO_8.accept": "A loja vai ficar ainda melhor graças a isso! Obrigado, amigo(a).",
+
+
+//COFFEE REWARDS MAIL
+ 
+"atelierbarista_CoffeeSO2_reward.title": "Obrigado Novamente!",
+"atelierbarista_CoffeeSO2_reward.text": "@,^^^Talvez eu precise de mais do que APENAS os lattes para ser pontual, mas certamente é um bom começo! ^-Haley",
+
+"atelierbarista_CoffeeSO3_reward.title": "Obrigado pelas misturas.",
+"atelierbarista_CoffeeSO3_reward.text": "@,^^^Eu posso ser uma coruja noturna, mas talvez isso me ajude a acordar antes do meio-dia. Obrigado novamente. ^-Sebastian",
+
+"atelierbarista_CoffeeSO4_reward.title": "Obrigado!",
+"atelierbarista_CoffeeSO4_reward.text": "@,^^^Eu realmente não entendo toda a agitação, mas se isso faz os mais jovens felizes em passar e comprar uma xícara no outono, isso é suficiente para mim! ^-Gus",
+
+"atelierbarista_CoffeeSO5_reward.title": "Parabéns!",
+"atelierbarista_CoffeeSO5_reward.text": "Caro(a) @,^^^ Sua dedicação é impressionante. Estamos orgulhosos de oferecer a você o título de Mestre Torrefador. Por favor, aceite isso como uma recompensa.",
+
+////////////////
+// FROZEN SOS //
+////////////////
+
+"atelierfrozen_SO_1.name":"Milkshake Atrai os Anões",
+"atelierfrozen_SO_1.text":"Você está dizendo que leite... também pode ser transformado em outras bebidas? Isso parece intrigante. Eu estaria disposto a pagar bom ouro para provar algumas dessas estranhas misturas.",
+"atelierfrozen_SO_1a.deliver":"Entregar 1 Milkshake de Baunilha para o Anão.",
+"atelierfrozen_SO_1b.deliver":"Entregar 1 Milkshake de Morango para o Anão.",
+"atelierfrozen_SO_1c.deliver":"Entregar 1 Milkshake de Chocolate para o Anão.",
+"atelierfrozen_SO_1.accept":"Então isso se chama... milkshake? Fascinante. Gelado e doce... vocês humanos são realmente um povo intrigante.",
+
+"atelierfrozen_SO_2.name":"Refletindo sobre Picolés",
+"atelierfrozen_SO_2.text":"Eu vi os pequeninos na cidade segurando palitos com cubos de gelo coloridos presos... Eu adoraria experimentá-los!",
+"atelierfrozen_SO_2.deliver":"Entregar 6 picolés para o Krobus.",
+"atelierfrozen_SO_2.accept":"Obrigado! Estou ansioso para experimentá-los.",
+
+"atelierfrozen_SO_3.name":"Festa de Sorvetes",
+"atelierfrozen_SO_3.text":"Estou organizando uma festa chique de sorvetes e preciso de ajuda para escolher quais sabores devo incluir no cardápio!",
+"atelierfrozen_SO_3a.deliver":"Entregar 3 sorvetes de limão para a caixa de entrega na cozinha da Jodi.",
+"atelierfrozen_SO_3b.deliver":"Entregar 3 frozen iogurte de chocomenta para a caixa de entrega na cozinha da Jodi.",
+"atelierfrozen_SO_3c.deliver":"Entregar 3 sorvete de limão e lavanda para a caixa de entrega na cozinha da Jodi.",
+"atelierfrozen_SO_3d.deliver":"Entregar 3 sorvetes de arroz doce para a caixa de entrega na cozinha da Jodi.",
+
+"atelierfrozen_SO_4.name":"Sanduíches Doces",
+"atelierfrozen_SO_4.text":"Tenho sentido saudades da minha sobremesa favorita da infância: o sanduíche de sorvete. A Maru diz que agora eles vêm em toneladas de sabores diferentes. Alguém pode me trazer alguns para experimentar?",
+"atelierfrozen_SO_4a.deliver":"Entregar 2 sanduíches de sorvete de mocha para a caixa de entrega no Laboratório do Demetrius.",
+"atelierfrozen_SO_4b.deliver":"Entregar 2 sanduíches de sorvete de pistache para a caixa de entrega no Laboratório do Demetrius.",
+"atelierfrozen_SO_4c.deliver":"Entregar 2 sanduíches de sorvete de morango para a caixa de entrega no Laboratório do Demetrius.",
+"atelierfrozen_SO_4d.deliver":"Entregar 2 sanduíches de sorvete de coco mocha para a caixa de entrega no Laboratório do Demetrius.",
+
+"atelierfrozen_SO_5.name":"Desafio do Banquete Congelado",
+"atelierfrozen_SO_5.text":"Chegou aquela época do ano novamente - as inscrições anuais para o Desafio do Banquete Congelado estão oficialmente abertas! Envie-nos suas sobremesas congeladas para ver se você pode ganhar o grande prêmio!",
+"atelierfrozen_SO_5.ship":"Envie 100 sobremesas congeladas de qualidade ouro.",
+
+"atelierfrozen_SO_6.name":"Milkshakes para Kent",
+"atelierfrozen_SO_6.text":"Eu gostaria de surpreender a família com um agrado especial. Talvez milkshakes sejam a solução?",
+"atelierfrozen_SO_6.deliver":"Entregar 4 milkshakes para o Kent.",
+"atelierfrozen_SO_6.accept":"A família vai adorar esses! Muito obrigado, amigo.",
+
+"atelierfrozen_SO_7.name":"Picolés para Elliott",
+"atelierfrozen_SO_7.text":"Estou precisando de picolés para inspiração literária! Por que você pergunta? Eu simplesmente não consigo explicar, mas eu PRECISO de alguns picolés!",
+"atelierfrozen_SO_7.deliver":"Entregar 4 picolés para o Elliott.",
+"atelierfrozen_SO_7.accept":"Perfeição em forma de picolé! Obrigado, agora devo ponderar os picolés em silêncio.",
+
+"atelierfrozen_SO_8.name":"Sorvetes para Gus",
+"atelierfrozen_SO_8.text":"Quero começar a servir sobremesas congeladas no saloon. Alguém pode me ajudar a montar meu cardápio?",
+"atelierfrozen_SO_8.deliver":"Entregar 12 sorvetes para o Gus.",
+"atelierfrozen_SO_8.accept":"Esses vão fazer sucesso com todos no saloon! Muito obrigado!",
+
+//FROZEN REWARDS MAIL
+ 
+"atelierfrozen_SO2_reward.title": "Obrigado!",
+"atelierfrozen_SO2_reward.text": "@,^^^ Picolés. Que maravilhosa invenção. Você terá que me ensinar como fazer um dia. Espero que esses tesouros da mina te ajudem a fazer muitos mais picolés.^^-Krobus",
+
+"atelierfrozen_SO3_reward.title": "Obrigado!",
+"atelierfrozen_SO3_reward.text": "@,^^^ O cardápio está perfeito agora graças a você!!^^-Jodi",
+
+"atelierfrozen_SO4_reward.title": "Obrigado!",
+"atelierfrozen_SO4_reward.text": "@,^^^ Esses sanduíches realmente me levam de volta. Obrigado novamente!^^-Jodi",
+
+"atelierfrozen_SO5_reward.title": "Parabéns!",
+"atelierfrozen_SO5_reward.text": "Querido @,^^^ Sua dedicação é impressionante. Estamos orgulhosos de oferecer-lhe o 1º prêmio no Concurso do Banquete Congelado. Por favor, aceite isso como uma recompensa.",
+   
+////////////////
+// FLORAL SOS //
+////////////////
+
+"atelierfloral_SO_1.name":"Faxina de Primavera",
+"atelierfloral_SO_1.text":"Estou ocupada com a faxina de primavera e quero refrescar todos os armários com um pouco de potpourri; alguém pode me trazer alguns sachês?",
+"atelierfloral_SO_1.deliver":"Entregue 6 sachês de potpourri para Evelyn.",
+"atelierfloral_SO_1.accept":"Esses cheiram maravilhosamente. A casa inteira estará fresca e limpa em pouco tempo agora!",
+
+"atelierfloral_SO_2.name":"Parar para Sentir o Cheiro das Rosas",
+"atelierfloral_SO_2.text":"Eu realmente amo flores frescas, mesmo que às vezes me façam espirrar. Um buquê de rosa-de-fada ficaria ótimo no meu quarto...",
+"atelierfloral_SO_2.deliver":"Entregue 1 Buquê de Rosa-de-Fada para Sam.",
+"atelierfloral_SO_2.accept":"Nossa, esse buquê é tão colorido e cheira MUITO BEM! Talvez eu o coloque no lado oposto do meu quarto para espirrar menos...",
+
+"atelierfloral_SO_3.name":"Aromas Incríveis",
+"atelierfloral_SO_3.text":"Estou sem meu perfume favorito! O QUE VOU FAZER SEM ELE??",
+"atelierfloral_SO_3a.deliver":"Entregue 2 Eau de Toilette de Girassol na casa de Haley.",
+"atelierfloral_SO_3b.deliver":"Entregue 2 Eau de Toilette de Lavanda da Floresta na casa de Haley.",
+"atelierfloral_SO_3c.deliver":"Entregue 2 Eau de Toilette de Rosa-de-Fada na casa de Haley.",
+"atelierfloral_SO_3d.deliver":"Entregue 2 Eau de Toilette de Tulipa na casa de Haley.",
+
+"atelierfloral_SO_4.name":"Opera do Sabão",
+"atelierfloral_SO_4.text":"Estou fazendo experimentos científicos sobre a soda cáustica no sabão e preciso de algumas amostras para comparar com meus sujeitos de teste!",
+"atelierfloral_SO_4.deliver":"Entregue 10 sabonetes na Caixa de Depósito no Laboratório de Maru.",
+
+"atelierfloral_SO_5.name":"Mestre Florista",
+"atelierfloral_SO_5.text":"É aquela época do ano de novo - as inscrições anuais para o cargo de Mestre Florista estão abertas! Envie-nos seus produtos florais de melhor qualidade para ver se você pode ganhar o grande prêmio!",
+"atelierfloral_SO_5.ship":"Envie 100 Produtos florais de Qualidade Ouro.",
+
+"atelierfloral_SO_6.name":"Buquês para Shane",
+"atelierfloral_SO_6.text":"Jas e Marnie são tão pacientes comigo e eu gostaria de dar algo legal a elas...",
+"atelierfloral_SO_6.deliver":"Entregue 2 buquês para Shane.",
+"atelierfloral_SO_6.accept":"Estes são tão bonitos. Eles são perfeitos para Jas e Marnie. Obrigado.",
+
+"atelierfloral_SO_7.name":"Sabonetes para Willy",
+"atelierfloral_SO_7.text":"Pescar é um trabalho árduo e realmente ressecou minha pele! Adoraria alguns sabonetes de alta qualidade para me ajudar a voltar ao normal.",
+"atelierfloral_SO_7.deliver":"Entregue 4 sabonetes para Willy.",
+"atelierfloral_SO_7.accept":"Você pode ter ouvido falar de mãos de lavar louça, mas eu poderia muito bem ter mãos de PEIXE de tão secas que estão. Obrigado pelos sabonetes; tenho certeza de que vão ajudar bastante.",
+
+"atelierfloral_SO_8.name":"Velas para Krobus",
+"atelierfloral_SO_8.text":"Os humanos parecem interessados não apenas em flores, mas também em seus cheiros. Quero fazer os esgotos cheirarem a flores, você pode ajudar?",
+"atelierfloral_SO_8.deliver":"Entregue 8 velas para Krobus.",
+"atelierfloral_SO_8.accept":"Fascinante, as velas cheiram agradavelmente e também adicionam um brilho suave à área. Os humanos são realmente criaturas intrigantes. Obrigado por trazer essas para mim.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+ "atelierfloral_SO2_reward.title": "Obrigado!",
+"atelierfloral_SO2_reward.text": "@,^^^Realmente não consigo agradecer o suficiente pelo buquê, mesmo que faça meu nariz coçar um pouco. ^^-Sam",
+
+"atelierfloral_SO3_reward.title": "Muito obrigado!",
+"atelierfloral_SO3_reward.text": "@,^^^VOCÊ É UM SALVADOR DE VIDAS. Uma garota nunca deve ficar sem seu perfume favorito, sabe.^^-Haley",
+
+"atelierfloral_SO4_reward.title": "Obrigado!",
+"atelierfloral_SO4_reward.text": "@,^^^Estes são perfeitos para meus experimentos! Você sabia que o termo real para fazer sabão é saponificação? Não? Ah, bem, lá vou eu testá-los contra minhas próprias misturas!. ^^-Maru",
+
+"atelierfloral_SO5_reward.title": "Parabéns!",
+"atelierfloral_SO5_reward.text": "Querido(a) @,^^^Sua dedicação é impressionante. Estamos orgulhosos em oferecer a você o título de Mestre Florista. Por favor, aceite isso como recompensa.",
+
+//////////////
+// JAMS SOS //
+//////////////
+
+"jams_SO_1.name": "Mimo de Primavera para Evelyn",
+"jams_SO_1.text": "Evelyn faz tanto por mim; quero dar a ela algo para mostrar o quanto aprecio. Tulipas são suas favoritas, então talvez um pouco de geleia de tulipa para seus bolinhos seja a solução?",
+"jams_SO_1.deliver": "Entregar 5 geleias de tulipa para George.",
+"jams_SO_1.accept": "Ela vai adorar isso - te devo uma.",
+
+"jams_SO_2.name": "Linda em Rosa",
+"jams_SO_2.text": "Jas está em uma fase em que quer que tudo seja rosa, até sua comida! Alguém pode ajudar??",
+"jams_SO_2.deliver": "Entregar 5 geleias de rosa para Marnie.",
+"jams_SO_2.accept": "Ah, graças a Deus! Talvez com isso eu consiga fazê-la tomar café da manhã colocando em um bagel...",
+
+"jams_SO_3.name": "Acompanhamento Perfeito para Panquecas",
+"jams_SO_3.text": "Panquecas são um deleite de domingo em nossa casa, e quero algo para acompanhá-las em vez de simplesmente xarope de bordo. Alguém tem alguma ideia?",
+"jams_SO_3a.deliver": "Entregar 3 geleias de cereja e baunilha para a caixa de entrega na cozinha de Jodi.",
+"jams_SO_3b.deliver": "Entregar 3 conservas de pêssego com mel para a caixa de entrega na cozinha de Jodi.",
+"jams_SO_3c.deliver": "Entregar 3 geleias de morango com ruibarbo para a caixa de entrega na cozinha de Jodi.",
+
+"jams_SO_4.name": "Preciso da Minha Vitamina C",
+"jams_SO_4.text": "Vitaminas são importantes para uma dieta saudável! Tenho certeza de que a vitamina C em alguma marmelada funcionaria da mesma forma. certo? Certo.",
+"jams_SO_4a.deliver": "Entregar 2 marmeladas de três citrus para a caixa de entrega na cozinha de Lewis.",
+"jams_SO_4b.deliver": "Entregar 2 marmeladas de lima doce para a caixa de entrega na cozinha de Lewis.",
+"jams_SO_4c.deliver": "Entregar 2 marmeladas de laranja veranil para a caixa de entrega na cozinha de Lewis.",
+"jams_SO_4d.deliver": "Entregar 2 marmeladas de limão primaveril para a caixa de entrega na cozinha de Lewis.",
+
+	"jams_SO_5.name": "Desafio do Mestre de Conservas",
+"jams_SO_5.text": "É aquela época do ano novamente - as inscrições anuais para o papel de Mestre de Conservas estão abertas! Envie suas melhores geleias e gelatinas para ver se você pode ganhar o grande prêmio!",
+"jams_SO_5.ship": "Enviar 100 geleias especiais.",
+
+"jams_SO_6.name": "Geleias para Linus",
+"jams_SO_6.text": "Adoraria ter algumas frutas em conserva para desfrutar da abundância da natureza quando o inverno chegar...",
+"jams_SO_6.deliver": "Entregar 3 geleias para Linus.",
+"jams_SO_6.accept": "Que maravilha. Agora poderei desfrutar dos presentes da natureza mesmo nas profundezas do inverno. Obrigado, amigo.",
+
+"jams_SO_7.name": "Geleias para Penny",
+"jams_SO_7.text": "Mamãe e eu adoramos uma boa geleia para acompanhar nosso café da manhã. Alguém pode entregar alguns sabores interessantes para nós?",
+"jams_SO_7.deliver": "Entregar 5 geleias para Penny.",
+"jams_SO_7.accept": "Essas vão combinar perfeitamente com nossas panquecas de domingo! Muito obrigada!",
+
+"jams_SO_8.name": "Geleias para Clint",
+"jams_SO_8.text": "Gostaria de abastecer minha despensa com ingredientes mais gourmet. Eu gosto de geléia, talvez seja um bom ponto de partida?",
+"jams_SO_8.deliver": "Entregar 10 geleias para Clint.",
+"jams_SO_8.accept": "O que vou fazer com toda essa geleia? Ainda não sei, mas com certeza fica bonita na minha cozinha. Obrigado.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+	"jams_SO2_reward.title": "Obrigado!",
+"jams_SO2_reward.text": "@,^^^ Obrigado novamente pela geleia. Foi um grande sucesso com a Jas! Aqui está um pouco de pectina caso você queira fazer mais para você mesma. ^^-Marnie",
+
+"jams_SO3_reward.title": "Obrigado novamente!",
+"jams_SO3_reward.text": "@,^^^ Uau! As panquecas acabaram de receber uma atualização séria graças a essas geleias! ^^-Jodi",
+
+"jams_SO4_reward.title": "Obrigado!",
+"jams_SO4_reward.text": "@,^^^ Estas estão ótimas! Agora não preciso mais me preocupar com coisas como o escorbuto.^^-Lewis",
+
+"jams_SO5_reward.title": "Parabéns!",
+"jams_SO5_reward.text": "Caro @,^^^ Sua dedicação é impressionante. Estamos orgulhosos de oferecer a você o título de Mestre de Conservas. Por favor, aceite isto como recompensa.",
+	
+///////////////
+// PANTRY SO //
+///////////////
+
+"gourmetpantry_SO_1.name": "Em um Aperto",
+"gourmetpantry_SO_1.text": "Caroline começou a assar o tempo todo e eu quero dar a ela algo para combinar com suas guloseimas.",
+"gourmetpantry_SO_1a.deliver": "Entregar Coalhada de Limão para Pierre.",
+"gourmetpantry_SO_1b.deliver": "Entregar Manteiga de Abóbora para Pierre.",
+"gourmetpantry_SO_1c.deliver": "Entregar Manteiga de Mel para Pierre.",
+"gourmetpantry_SO_1d.deliver": "Entregar Coalhada de Lima para Pierre.",
+"gourmetpantry_SO_1.accept": "Estes vão complementar perfeitamente seus bolos e biscoitos! Mal posso esperar para surpreendê-la com eles.",
+
+"gourmetpantry_SO_2.name": "Tem Leite?",
+"gourmetpantry_SO_2.text": "Muitos pacientes que vejo são intolerantes à lactose, mas não sei muito sobre leites alternativos. Alguém pode trazer alguns tipos diferentes para eu testar pessoalmente?",
+"gourmetpantry_SO_2a.deliver": "Entregar 2 Leites de Amêndoas na Caixa de Depósito na Clínica de Harvey.",
+"gourmetpantry_SO_2b.deliver": "Entregar 2 Leites de Arroz na Caixa de Depósito na Clínica de Harvey.",
+"gourmetpantry_SO_2c.deliver": "Entregar 2 Leites de Coco na Caixa de Depósito na Clínica de Harvey.",
+"gourmetpantry_SO_2d.deliver": "Entregar 2 Leites de Avelã na Caixa de Depósito na Clínica de Harvey.",
+
+"gourmetpantry_SO_3.name": "Novas Proteínas Necessárias!",
+"gourmetpantry_SO_3.text": "Eu ouvi dizer que nozes são uma boa fonte de proteína, especialmente em smoothies! Eu quero experimentar alguns tipos diferentes em meus shakes matinais de proteína.",
+"gourmetpantry_SO_3.deliver": "Entregar 10 manteigas de nozes artesanais na Caixa de Depósito na casa de Alex.",
+
+	"gourmetpantry_SO_4.name": "Assando sem Parar",
+"gourmetpantry_SO_4.text": "Evelyn está assando tanto que estamos constantemente ficando sem farinha! Talvez ela gostaria de assar com novos tipos de farinha?",
+"gourmetpantry_SO_4.deliver": "Entregar 10 farinhas especiais na Caixa de Depósito na casa de George.",
+
+"gourmetpantry_SO_5.name": "Desafio do Mestre Artesão",
+"gourmetpantry_SO_5.text": "É aquela época do ano novamente - as inscrições anuais para o papel de Mestre Artesão estão abertas! Envie-nos seus ingredientes de maior qualidade para ver se você pode ganhar o grande prêmio!",
+"gourmetpantry_SO_5.ship": "Enviar 100 Itens de Despensa de Qualidade Ouro.",
+
+"gourmetpantry_SO_6.name": "Extrato para Evelyn",
+"gourmetpantry_SO_6.text": "Estou sem extrato de baunilha! Não consigo assar sem ele...",
+"gourmetpantry_SO_6.deliver": "Entregar 3 extratos de baunilha para Evelyn.",
+"gourmetpantry_SO_6.accept": "Você consegue imaginar fazer biscoitos sem baunilha? Absolutamente fora de questão. Obrigada por trazer estes, querida.",
+
+"gourmetpantry_SO_7.name": "Azeite para Abigail",
+"gourmetpantry_SO_7.text": "Quero experimentar algumas novas receitas de culinária, mas preciso de azeite de oliva para isso. Alguém pode ajudar?",
+"gourmetpantry_SO_7.deliver": "Entregar 5 azeites de oliva especiais para Abigail.",
+"gourmetpantry_SO_7.accept": "Obrigada! Li que preciso de muito azeite de oliva para fazer focaccia, então isso me economiza muito tempo e esforço.",
+
+	"gourmetpantry_SO_8.name": "Chocolate para Gus",
+"gourmetpantry_SO_8.text": "Meu fornecedor de chocolate cancelou comigo de última hora! Alguém pode me entregar o que preciso?",
+"gourmetpantry_SO_8.deliver": "Entregar 9 chocolates para cozinhar para Gus.",
+"gourmetpantry_SO_8.accept": "O cardápio do saloon não seria o mesmo sem o Bolo de Chocolate Especial do Gus! Você realmente me ajudou; obrigado.",
+
+//PANTRY REWARDS MAIL
+	
+	"gourmetpantry_SO2_reward.title": "Obrigado!",
+"gourmetpantry_SO2_reward.text": "@,^^^Feitos a partir de coisas como arroz, nozes e até mesmo coco? Esplêndido! Estes devem ser ótimas alternativas para meus pacientes.^-Harvey",
+
+"gourmetpantry_SO3_reward.title": "Muito obrigado!",
+"gourmetpantry_SO3_reward.text": "@,^^^Incrível! Com estes, com certeza conseguirei aumentar ainda mais minha massa muscular! Você é demais! ^-Alex",
+
+"gourmetpantry_SO4_reward.title": "Obrigado novamente.",
+"gourmetpantry_SO4_reward.text": "@,^^^ Talvez com estes nós não fiquemos sem farinha em um dia... Espero. Obrigado pela ajuda, fazendeiro. ^-George",
+
+"gourmetpantry_SO5_reward.title": "Parabéns!",
+"gourmetpantry_SO5_reward.text": "Querido @,^^^ Sua dedicação é impressionante. Estamos orgulhosos de oferecer a você o título de Mestre Artesão. Por favor, aceite isso como uma recompensa.",
+
+////////////////////////
+// SPECIAL ORDERS TEA //
+////////////////////////
+
+"atelierbarista_TeaSO_1.name": "Estoque de Saquinhos de Chá",
+"atelierbarista_TeaSO_1.text": "Estou sem o meu blend de chá caseiro! Alguém pode deixar alguns saquinhos para me ajudar durante a semana?",
+"atelierbarista_TeaSO_1a.deliver": "Entregar 2 saquinhos de chá de Canela ao Caroline.",
+"atelierbarista_TeaSO_1b.deliver": "Entregar 2 saquinhos de chá de Menta Alegre ao Caroline.",
+"atelierbarista_TeaSO_1c.deliver": "Entregar 2 saquinhos de chá Lady Grey ao Caroline.",
+"atelierbarista_TeaSO_1.accept": "Que variedade encantadora de sabores você trouxe! Isso certamente vai animar o horário do chá para mim.",
+
+"atelierbarista_TeaSO_2.name": "Chá da Tarde",
+"atelierbarista_TeaSO_2.text": "Estou convidando algumas amigas para um chá da tarde com scones, mas quero ter uma variedade de sabores para escolher! Alguém pode me ajudar?",
+"atelierbarista_TeaSO_2a.deliver": "Entregar 2 chás de Sakura na caixa de entrega na cozinha da Evelyn.",
+"atelierbarista_TeaSO_2b.deliver": "Entregar 2 chás de Pétalas de Rosa na caixa de entrega na cozinha da Evelyn.",
+"atelierbarista_TeaSO_2c.deliver": "Entregar 2 chás da Manhã Inglês na caixa de entrega na cozinha da Evelyn.",
+
+"atelierjuicebar_TeaSO_3.name": "Kombucha",
+"atelierjuicebar_TeaSO_3.text": "Ouvi Abigail e Sebby falando sobre como o kombucha é bom para você... alguém pode me trazer um pouco para que eu possa experimentar?",
+"atelierjuicebar_TeaSO_3a.deliver": "Entregar 2 kombuchas de Maçã de Outono na caixa de entrega na oficina do Robin.",
+"atelierjuicebar_TeaSO_3b.deliver": "Entregar 2 kombuchas de Framboesa Limão na caixa de entrega na oficina do Robin.",
+"atelierjuicebar_TeaSO_3c.deliver": "Entregar 2 kombuchas de Morango Selvagem na caixa de entrega na oficina do Robin.",
+"atelierjuicebar_TeaSO_3d.deliver": "Entregar 2 kombuchas de Chá Verde com Romã na caixa de entrega na oficina do Robin.",
+
+"atelierbarista_TeaSO_4.name": "Chá Relaxante",
+"atelierbarista_TeaSO_4.text": "Estou exausta e adoraria ter uma boa noite de sono. Alguém pode me trazer alguns chás herbais calmantes para ajudar?",
+"atelierbarista_TeaSO_4a.deliver": "Entregar 3 saquinhos de chá de Camomila Aconchegante na caixa de entrega na cozinha da Jodi.",
+"atelierbarista_TeaSO_4b.deliver": "Entregar 3 saquinhos de chá de Menta Alegre na caixa de entrega na cozinha da Jodi.",
+"atelierbarista_TeaSO_4c.deliver": "Entregar 3 saquinhos de chá Baunilha Calico na caixa de entrega na cozinha da Jodi.",
+"atelierbarista_TeaSO_4d.deliver": "Entregar 3 saquinhos de chá de Limão e Gengibre na caixa de entrega na cozinha da Jodi.",
+
+"atelierbarista_TeaSO_5.name": "Desafio do Mestre Cervejeiro de Chás",
+"atelierbarista_TeaSO_5.text": "É aquela época do ano novamente - as inscrições anuais para o cargo de Mestre Cervejeiro de Chás estão abertas! Envie-nos seus melhores chás para ver se você pode ganhar o grande prêmio!",
+"atelierbarista_TeaSO_5.ship": "Enviar 100 produtos de chá de qualidade Ouro.",
+
+"atelierjuicebar_TeaSO_6.name": "Kombucha para Alex",
+"atelierjuicebar_TeaSO_6.text": "Pierre não vai vender kombucha, não importa o quanto eu peça a ele. Como eu vou conseguir agora?",
+"atelierjuicebar_TeaSO_6.deliver": "Entregar 4 kombuchas para Alex.",
+"atelierjuicebar_TeaSO_6.accept": "VOCÊ TROUXE O BOOCH! Você é demais, obrigado por trazer esses.",
+
+"atelierbarista_TeaSO_7.name": "Chás para Haley",
+"atelierbarista_TeaSO_7.text": "É tão cansativo encomendar meus chás online; como vou saber se são de alta qualidade se nem posso vê-los? Talvez alguém na cidade possa vender chás para mim...",
+"atelierbarista_TeaSO_7.deliver": "Entregar 6 chás para Haley.",
+"atelierbarista_TeaSO_7.accept": "Estes chás parecem absolutamente adoráveis. Eu vou aproveitar estes - obrigada novamente!",
+
+"atelierbarista_TeaSO_8.name": "Saquinhos para Sandy",
+"atelierbarista_TeaSO_8.text": "Eu quero fazer uma grande jarra de chá gelado para me refrescar aqui no deserto. Alguém pode me entregar alguns saquinhos?",
+"atelierbarista_TeaSO_8.deliver": "Entregar 8 saquinhos de chá para Sandy.",
+"atelierbarista_TeaSO_8.accept": "Agora não vou sentir como se estivesse derretendo no calor do deserto! Obrigada.",
+
+//TEA REWARDS MAIL
+ 
+"atelierbarista_TeaSO2_reward.title": "Obrigado; Além de algumas sementes de chá!",
+"atelierbarista_TeaSO2_reward.text": "@,^^^ Bem, não teremos apenas o perfeito Chá Vitoriano com estes!^^-Evelyn",
+
+"atelierbarista_TeaSO3_reward.title": "Obrigado, Além de Alguns Iniciadores de Cogumelos!",
+"atelierbarista_TeaSO3_reward.text": "@,^^^ Ah, está mais efervescente do que eu imaginava! Mas surpreendentemente saboroso.^^-Robin",
+
+"atelierbarista_TeaSO4_reward.title": "Obrigado novamente!",
+"atelierbarista_TeaSO4_reward.text": "@,^^^ Estes cheiram tão reconfortantes que aposto que estarei dormindo antes de encostar no travesseiro hoje à noite!^^-Jodi",
+
+"atelierbarista_TeaSO5_reward.title": "Parabéns!",
+"atelierbarista_TeaSO5_reward.text": "Caro(a) @,^^^ Sua dedicação é impressionante. Estamos orgulhosos de oferecer a você o título de Mestre Cervejeiro de Chás. Por favor, aceite isso como recompensa.",
+
+///////////////////
+// WILD FOOD SOS //
+///////////////////
+
+"ateliercrops_SO_1.name": "Sonhos Calico",
+"ateliercrops_SO_1.text": "Ouvi falar de uma orquídea que só floresce no Deserto Calico durante certas estações. Alguém pode me trazer algumas para eu secar e guardar na minha tenda?",
+"ateliercrops_SO_1.deliver": "Entregue 3 Baunilhas Calico para Linus.",
+"ateliercrops_SO_1.accept": "Ah, como eu adoro o Deserto Calico. Depois de secar estas baunilhas, poderei sempre desfrutar um pouco do deserto aqui em casa.",
+
+"ateliercrops_SO_2.name": "Um Punhado e Um Bocado",
+"ateliercrops_SO_2.text": "Estou sem bagas e desesperadamente quero fazer uma torta de frutas com chocolate. Alguém pode me ajudar?",
+"ateliercrops_SO_2a.deliver": "Entregue 4 morangos selvagens na Caixa de Entrega na casa de Leah.",
+"ateliercrops_SO_2b.deliver": "Entregue 4 amoras selvagens na Caixa de Entrega na casa de Leah.",
+
+"ateliercrops_SO_3.name": "Sabor a Galinha",
+"ateliercrops_SO_3.text": "Cientista precisa de vários cogumelos para descobrir as melhores opções de substituição de carne no Vale.",
+"ateliercrops_SO_3.deliver": "Entregue 15 cogumelos na Caixa de Entrega no Laboratório de Demetrius.",
+
+"ateliercrops_SO_4.name": "Flores do Deserto",
+"ateliercrops_SO_4.text": "O deserto tem sua beleza própria, mas sinto falta de algumas daquelas flores silvestres da floresta que só florescem no Vale! Alguém pode me trazer algumas?",
+"ateliercrops_SO_4a.deliver": "Entregue 5 Lavandas da Floresta na Caixa de Entrega na Loja de Sandy.",
+"ateliercrops_SO_4b.deliver": "Entregue 5 Camomilas da Floresta na Caixa de Entrega na Loja de Sandy.",
+
+"ateliercrops_SO_5.name": "Desafio do Mestre Forrageiro",
+"ateliercrops_SO_5.text": "É aquela época do ano novamente - as inscrições anuais para o papel de Mestre Forrageiro estão abertas! Envie seu melhor forrageio para ver se você pode ganhar o grande prêmio!",
+"ateliercrops_SO_5.ship": "Envie 100 itens de forrageio de qualidade Ouro.",
+
+"ateliercrops_SO_6.name": "Cogumelos para Maru",
+"ateliercrops_SO_6.text": "Preciso de cogumelos frescos para um experimento, mas estou tão ocupada na Clínica. Alguma chance de alguém ter extras para compartilhar?",
+"ateliercrops_SO_6.deliver": "Entregue 5 cogumelos selvagens para Maru.",
+"ateliercrops_SO_6.accept": "Estes estão perfeitos! Muito obrigado, você me poupou muito trabalho procurando por eles.",
+
+	"ateliercrops_SO_7.name": "Frutas para Gus",
+"ateliercrops_SO_7.text": "Minha remessa de frutas frescas nunca chegou e eu preciso fazer coquetéis para o saloon! O que farei agora?",
+"ateliercrops_SO_7.deliver": "Entregue 6 frutas selvagens para Gus.",
+"ateliercrops_SO_7.accept": "Meus coquetéis ficarão incríveis com estas frutas adoráveis! Obrigado novamente.",
+
+"ateliercrops_SO_8.name": "Ervas para Evelyn",
+"ateliercrops_SO_8.text": "Estou sem ervas e preciso delas para cozinhar! Alguém pode ajudar?",
+"ateliercrops_SO_8.deliver": "Entregue 8 ervas selvagens para Evelyn.",
+"ateliercrops_SO_8.accept": "Cozinhar com ervas é essencial! Obrigado por trazê-las.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+"ateliercrops_SO2_reward.title": "Obrigado.",
+"ateliercrops_SO2_reward.text": "Estas frutas são perfeitas para a minha torta! Muito obrigado por encontrá-las para mim.^^-Leah",
+
+"ateliercrops_SO3_reward.title": "Um Agradecimento e Algumas Estacas de Cogumelos!",
+"ateliercrops_SO3_reward.text": "Querido @ ^^ Graças a você, estou um passo mais perto de encontrar a fonte de proteína vegana perfeita! Agradeço muito sua ajuda em forrageá-las para mim.^^-Demetrius",
+
+"ateliercrops_SO4_reward.title": "Um Agradecimento e Mais Estacas de Cogumelos!",
+"ateliercrops_SO4_reward.text": "Estas são exatamente o que eu esperava! Vou pressioná-las no meu diário imediatamente!^^-Sandy",
+
+"ateliercrops_SO5_reward.title": "Parabéns!!",
+"ateliercrops_SO5_reward.text": "Sua dedicação é impressionante. Estamos orgulhosos de oferecer a você o título de Mestre Forrageiro. Por favor, aceite isto como recompensa.",
+
+
+}

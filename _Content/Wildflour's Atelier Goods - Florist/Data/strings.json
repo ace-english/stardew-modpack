@@ -1,0 +1,17 @@
+{
+    "Changes": [
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "wildflour.atelierfloral_dried_flowers": "{{i18n: atelierfloral_dried_flowers}}",
+      "wildflour.atelierfloral_flower_bouquet": "{{i18n: atelierfloral_flower_bouquet}}",
+      "wildflour.atelierfloral_flower_soap": "{{i18n: atelierfloral_flower_soap}}",
+      "wildflour.atelierfloral_flower_candles": "{{i18n: atelierfloral_flower_candles}}",
+      "wildflour.atelierfloral_flower_perfume": "{{i18n: atelierfloral_flower_perfume}}",
+      "wildflour.atelierfloral_flower_incense": "{{i18n: atelierfloral_flower_incense}}",
+    }
+}
+    ]
+}

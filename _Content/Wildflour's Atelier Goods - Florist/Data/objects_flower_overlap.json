@@ -1,0 +1,331 @@
+{
+    "Changes": [
+        
+
+        {
+            "LogName":"Add Atelier Floral Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierfloral_chamomile_bouquet": {
+                    "Name": "wildflour.atelierfloral_chamomile_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_chamomile_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_chamomile_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 6
+            },
+                "wildflour.atelierfloral_jasmine_bouquet": {
+                    "Name": "wildflour.atelierfloral_jasmine_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_jasmine_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_jasmine_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 7
+            },
+                "wildflour.atelierfloral_lavender_bouquet": {
+                    "Name": "wildflour.atelierfloral_lavender_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_lavender_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_lavender_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 8
+            },
+                "wildflour.atelierfloral_chamomile_perfume": {
+                    "Name": "wildflour.atelierfloral_chamomile_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_chamomile_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_chamomile_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 22
+            },
+                "wildflour.atelierfloral_jasmine_perfume": {
+                    "Name": "wildflour.atelierfloral_jasmine_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_jasmine_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_jasmine_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 23
+            },
+                "wildflour.atelierfloral_lavender_perfume": {
+                    "Name": "wildflour.atelierfloral_lavender_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_lavender_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_lavender_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 24
+            },
+                "wildflour.atelierfloral_dried_chamomile": {
+                    "Name": "wildflour.atelierfloral_dried_chamomile",
+                    "DisplayName": "{{i18n:atelierfloral_dried_chamomile.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_chamomile.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 70
+            },
+                "wildflour.atelierfloral_dried_jasmine": {
+                    "Name": "wildflour.atelierfloral_dried_jasmine",
+                    "DisplayName": "{{i18n:atelierfloral_dried_jasmine.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_jasmine.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 71
+            },
+                "wildflour.atelierfloral_dried_lavender": {
+                    "Name": "wildflour.atelierfloral_dried_lavender",
+                    "DisplayName": "{{i18n:atelierfloral_dried_lavender.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_lavender.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 72
+            },
+                "wildflour.atelierfloral_chamomile_incense": {
+                    "Name": "wildflour.atelierfloral_chamomile_incense",
+                    "DisplayName": "{{i18n:atelierfloral_chamomile_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_chamomile_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 100
+            },
+                "wildflour.atelierfloral_jasmine_incense": {
+                    "Name": "wildflour.atelierfloral_jasmine_incense",
+                    "DisplayName": "{{i18n:atelierfloral_jasmine_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_jasmine_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 101
+            },
+                "wildflour.atelierfloral_lavender_incense": {
+                    "Name": "wildflour.atelierfloral_lavender_incense",
+                    "DisplayName": "{{i18n:atelierfloral_lavender_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_lavender_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 102
+            }
+        }
+        },
+
+        {
+            "LogName":"Add Atelier Floral Modded Candles & Soap",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": { "HasMod: |contains=wildflour.honeybees": true },
+            "Entries": { 
+                "wildflour.atelierfloral_chamomile_candles": {
+                    "Name": "wildflour.atelierfloral_chamomile_candles",
+                    "DisplayName": "{{i18n:atelierfloral_chamomile_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_chamomile_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 54
+            },
+                "wildflour.atelierfloral_chamomile_soap": {
+                    "Name": "wildflour.atelierfloral_chamomile_soap",
+                    "DisplayName": "{{i18n:atelierfloral_chamomile_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_chamomile_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 38
+            },
+                "wildflour.atelierfloral_jasmine_candles": {
+                    "Name": "wildflour.atelierfloral_jasmine_candles",
+                    "DisplayName": "{{i18n:atelierfloral_jasmine_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_jasmine_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 55
+            },
+                "wildflour.atelierfloral_jasmine_soap": {
+                    "Name": "wildflour.atelierfloral_jasmine_soap",
+                    "DisplayName": "{{i18n:atelierfloral_jasmine_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_jasmine_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 39
+            },
+                "wildflour.atelierfloral_lavender_candles": {
+                    "Name": "wildflour.atelierfloral_lavender_candles",
+                    "DisplayName": "{{i18n:atelierfloral_lavender_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_lavender_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 56
+            },
+                "wildflour.atelierfloral_lavender_soap": {
+                    "Name": "wildflour.atelierfloral_lavender_soap",
+                    "DisplayName": "{{i18n:atelierfloral_lavender_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_lavender_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 40
+            }
+        }
+        }
+    ]
+}

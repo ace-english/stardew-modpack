@@ -1,0 +1,13 @@
+{ 
+  "Name": "Mountain Farm Map",
+  "Author": "Prongbucks",
+  "Version": "1.0",
+  "Description": "A smaller farm up in the mountains.",
+  "UniqueID": "Mountain.Farm",
+  "UpdateKeys": null,
+  "MinimumAPIVersion": "2.9",
+  "ContentPackFor": 
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

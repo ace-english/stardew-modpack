@@ -1,0 +1,62 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.atelierfloral_FlowerStationRecipe": "{{i18n: atelierfloral_FlowerStationRecipe.text}} %item craftingRecipe wildflour.atelierfloral_FlowerStation %%[#]{{i18n: atelierfloral_FlowerStationRecipe.name}}",
+                    "wildflour.atelierfloral_CandleStationRecipe": "{{i18n: atelierfloral_CandleStationRecipe.text}} %item craftingRecipe wildflour.atelierfloral_CandleStation %%[#]{{i18n: atelierfloral_FlowerStationRecipe.name}}",
+                    "wildflour.atelierfloral_FragranceStationRecipe": "{{i18n: atelierfloral_FragranceStationRecipe.text}} %item craftingRecipe wildflour.atelierfloral_FragranceStation %%[#]{{i18n: atelierfloral_FragranceStationRecipe.name}}",
+                    "wildflour.atelierfloral_jasgift": "{{i18n: atelierfloral_jas_gift.text}} %item id (O)wildflour.ateliercrops_lavender 3 %%[#]{{i18n: atelierfloral_jas_gift.name}}",
+                    "wildflour.atelierfloral_sandygift": "{{i18n: atelierfloral_sandy_gift.text}} %item id (O)wildflour.ateliercrops_jasmine 3 %%[#]{{i18n: atelierfloral_sandy_gift.name}}",
+                    "wildflour.atelierfloral_emilygift": "{{i18n: atelierfloral_emily_gift.text}} %item id (O)425 5 %%[#]{{i18n: atelierfloral_emily_gift.name}}"
+                }
+            },
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {	
+                "wildflour.atelierfloral_emilymail/f Emily 750/G {{HasCraftingRecipe: wildflour.atelierfloral_FlowerStation}}/x wildflour.atelierfloral_emilygift": "null",
+            }
+        },       
+            
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+            "Entries": {	
+                "wildflour.atelierfloral_jasmail/f Jas 1000/G {{HasCraftingRecipe: wildflour.atelierfloral_FlowerStation}}/x wildflour.atelierfloral_jasgift": "null",
+                "wildflour.atelierfloral_sandymail/f Sandy 1000/G {{HasCraftingRecipe: wildflour.atelierfloral_FragranceStation}}/x wildflour.atelierfloral_sandygift": "null",
+            }
+        },
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "wildflour.atelierfloral_flowerstation_mail/f Marnie 750/x wildflour.atelierfloral_FlowerStationRecipe": "null",
+                "wildflour.atelierfloral_fragrancestation_mail/f Haley 750/x wildflour.atelierfloral_FragranceStationRecipe": "null"
+            },
+            "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": "False"}
+        },
+            
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "wildflour.atelierfloral_candlestation_mail/f Evelyn 750/x wildflour.atelierfloral_CandleStationRecipe": "null"
+            },
+            "When": { "Atelier.Cauldron/ConfigValue:EasyRecipes": false, "HasMod |contains=wildflour.honeybees": true}  
+        }
+]
+}

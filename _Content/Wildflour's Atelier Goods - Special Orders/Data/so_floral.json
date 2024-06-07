@@ -1,0 +1,450 @@
+{
+  "Changes": [
+
+
+///////////////
+// DROPBOXES //
+///////////////
+
+    {
+			"Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+			"MapTiles": [
+					{
+					   "Position": { "X": 7, "Y": 15},
+					   "Layer": "Buildings",
+					   "SetProperties": { "Action": "DropBox HaleyRoom"}
+					}		
+			]
+		},
+
+        {
+			"Action": "EditMap",
+            "Target": "Maps/ScienceHouse",
+			"MapTiles": [
+					{
+					   "Position": { "X": 16, "Y": 17},
+					   "Layer": "Buildings",
+					   "SetProperties": { "Action": "DropBox MaruLab"}
+					}		
+			]
+		},
+
+
+/////////////////////
+// SPECIAL ORDERS  //
+/////////////////////
+
+    {
+    "LogName": "Floral Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+        "wildflour.atelierfloral_SO_1": {
+        "Name": "{{i18n:atelierfloral_SO_1.name}}",
+        "Requester": "Evelyn",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierfloral_SO_1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierfloral_SO_1.deliver}}",
+              "RequiredCount": "6",
+              "Data": {
+                "AcceptedContextTags": "dried_flower_item",
+                "Message": "{{i18n:atelierfloral_SO_1.accept}}",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "17000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Evelyn"
+                }
+              }
+          ]
+          
+      },
+        "wildflour.atelierfloral_SO_2": {
+        "Name": "{{i18n:atelierfloral_SO_2.name}}",
+        "Requester": "Sam",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "season_fall, mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierfloral_SO_2.text}}",
+        "Objectives": [
+
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierfloral_SO_2.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.atelierfloral_fairy_bouquet",
+                "Message": "{{i18n:atelierfloral_SO_2.accept}}",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5100"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Sam"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.atelierfloral_SO2_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      },
+        "wildflour.atelierfloral_SO_5": {
+      "Name": "{{i18n:atelierfloral_SO_5.name}}",
+      "Requester": "Lewis",
+      "Duration": "Month",
+      "Repeatable": "False",
+      "RequiredTags": "mail_wildflour.atelierfloral_SO2_complete, mail_wildflour.atelierfloral_SO6_complete",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierfloral_SO_5.text}}",
+      "Objectives": [
+          {
+            "Type": "Ship",
+            "Text": "{{i18n:atelierfloral_SO_5.ship}}",
+            "RequiredCount": "100",
+            "Data": {
+              "AcceptedContextTags": "wildflour_floral_item"
+            }
+          }
+        ],
+      "Rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "100000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+                "MailReceived": "wildflour.atelierfloral_SO5_complete",
+                "NoLetter": "true"
+          }
+        }
+      ]
+      },
+        "wildflour.atelierfloral_SO_6": {
+        "Name": "{{i18n:atelierfloral_SO_6.name}}",
+        "Requester": "Shane",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierfloral_SO_6.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierfloral_SO_6.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "wildflour_bouquet_item",
+                "Message": "{{i18n:atelierfloral_SO_6.accept}}",
+                "TargetName": "Shane"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+  
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  },
+
+///////////////////////////
+// SPECIAL ORDERS WF CMF //
+///////////////////////////
+
+    {
+      "LogName": "Floral Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {
+        "Query: {{Atelier.Cauldron/ConfigValue:CMF}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
+        },
+      "Entries": {
+        "wildflour.atelierfloral_SO_3": {
+          "Name": "{{i18n:atelierfloral_SO_3.name}}",
+          "Requester": "Haley",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_CarolineTea, mail_georgeGifts,mail_emilyStones",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:atelierfloral_SO_3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:atelierfloral_SO_3a.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HaleyRoom",
+                  "DropBoxGameLocation": "HaleyHouse",
+                  "DropBoxIndicatorLocation": "7 15",
+                  "AcceptedContextTags": "item_wildflour.atelierfloral_sunflower_perfume"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:atelierfloral_SO_3b.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HaleyRoom",
+                  "DropBoxGameLocation": "HaleyHouse",
+                  "DropBoxIndicatorLocation": "7 15",
+                  "AcceptedContextTags": "item_wildflour.atelierfloral_lavender_perfume"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:atelierfloral_SO_3c.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HaleyRoom",
+                  "DropBoxGameLocation": "HaleyHouse",
+                  "DropBoxIndicatorLocation": "7 15",
+                  "AcceptedContextTags": "item_wildflour.atelierfloral_fairy_perfume"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:atelierfloral_SO_3d.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HaleyRoom",
+                  "DropBoxGameLocation": "HaleyHouse",
+                  "DropBoxIndicatorLocation": "7 15",
+                  "AcceptedContextTags": "item_wildflour.atelierfloral_tulip_perfume"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "20320"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Haley"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.atelierfloral_SO3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////////
+// SO HONEYBEES ADD ON //
+/////////////////////////
+
+  {
+  "LogName": "Floral Orders Soap",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "When": { "HasMod: |contains=wildflour.honeybees": true },
+  "Entries": {
+    "wildflour.atelierfloral_SO_4": {
+      "Name": "{{i18n:atelierfloral_SO_4.name}}",
+      "Requester": "Maru",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_georgeGifts,mail_emilyStones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierfloral_SO_4.text}}",
+      "Objectives": [
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:atelierfloral_SO_4.deliver}}",
+            "RequiredCount": "10",
+            "Data": {
+              "DropBox": "MaruLab",
+              "DropBoxGameLocation": "ScienceHouse",
+              "DropBoxIndicatorLocation": "16 17",
+              "AcceptedContextTags": "soap_item"
+            }
+          }
+        ],
+      "Rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "10000"
+          }
+        },
+
+        {
+          "Type": "Friendship",
+          "Data": {
+                "Amount": "250",
+                "TargetName": "Maru"
+            }
+          },
+        {
+          "Type": "Mail",
+          "Data": {
+                "MailReceived": "wildflour.atelierfloral_SO4_complete",
+                "NoLetter": "true"
+          }
+        }
+      ]
+    },
+    "wildflour.atelierfloral_SO_7": {
+      "Name": "{{i18n:atelierfloral_SO_7.name}}",
+      "Requester": "Willy",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierfloral_SO_7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierfloral_SO_7.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "soap_item",
+              "Message": "{{i18n:atelierfloral_SO_7.accept}}",
+              "TargetName": "Willy"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "6500"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    },
+    "wildflour.atelierfloral_SO_8": {
+      "Name": "{{i18n:atelierfloral_SO_8.name}}",
+      "Requester": "Krobus",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierfloral_SO_8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierfloral_SO_8.deliver}}",
+            "RequiredCount": "8",
+            "Data": {
+              "AcceptedContextTags": "wildflour_candle_item",
+              "Message": "{{i18n:atelierfloral_SO_8.accept}}",
+              "TargetName": "Krobus"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+}
+
+  ]
+}
+

@@ -1,0 +1,311 @@
+{
+// GEORGE DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "George Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["George", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.George.Indoor":
+				{
+					"Id": "{{ModId}}_George_Indoor",
+					"Portrait": "Portraits/George_Indoor",
+					"Sprite": "Characters/George_Indoor",
+					"Precedence": -110
+				},
+				"DSV.George.Beach":
+				{
+					"Id": "{{ModId}}_George_Beach",
+					"Portrait": "Portraits/George_Beach",
+					"Sprite": "Characters/George_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.George.EggFestival":
+				{
+					"Id": "{{ModId}}_George_EggFestival",
+					"Portrait": "Portraits/George_EggFestival",
+					"Sprite": "Characters/George_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.George.FlowerDance":
+				{
+					"Id": "{{ModId}}_George_FlowerDance",
+					"Portrait": "Portraits/George_FlowerDance",
+					"Sprite": "Characters/George_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.George.Luau":
+				{
+					"Id": "{{ModId}}_George_Luau",
+					"Portrait": "Portraits/George_Luau",
+					"Sprite": "Characters/George_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.George.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_George_MoonlightJellies",
+					"Portrait": "Portraits/George_MoonlightJellies",
+					"Sprite": "Characters/George_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.George.SVFair":
+				{
+					"Id": "{{ModId}}_George_SVFair",
+					"Portrait": "Portraits/George_SVFair",
+					"Sprite": "Characters/George_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.George.SpiritsEve":
+				{
+					"Id": "{{ModId}}_George_SpiritsEve",
+					"Portrait": "Portraits/George_SpiritsEve",
+					"Sprite": "Characters/George_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.George.IceFestival":
+				{
+					"Id": "{{ModId}}_George_IceFestival",
+					"Portrait": "Portraits/George_IceFestival",
+					"Sprite": "Characters/George_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.George.WinterStar":
+				{
+					"Id": "{{ModId}}_George_WinterStar",
+					"Portrait": "Portraits/George_WinterStar",
+					"Sprite": "Characters/George_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.George.Swim":
+				{
+					"Id": "{{ModId}}_George_Swim",
+					"Portrait": "Portraits/George_Swim",
+					"Sprite": "Characters/George_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.George.HotClimate":
+				{
+					"Id": "{{ModId}}_George_HotClimate",
+					"Portrait": "Portraits/George_HotClimate",
+					"Sprite": "Characters/George_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "George Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/George_Indoor, Characters/George_Indoor",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/George_Fall_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "George Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/George_Beach, Characters/George_Beach",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/George_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "George Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/George_EggFestival, Characters/George_EggFestival, Portraits/George_FlowerDance, Characters/George_FlowerDance, Portraits/George_Luau, Characters/George_Luau, Portraits/George_MoonlightJellies, Characters/George_MoonlightJellies, Portraits/George_SVFair, Characters/George_SVFair, Portraits/George_SpiritsEve, Characters/George_SpiritsEve, Portraits/George_IceFestival, Characters/George_IceFestival, Portraits/George_WinterStar, Characters/George_WinterStar, Portraits/George_Swim, Characters/George_Swim",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "George Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/George_HotClimate, Characters/George_HotClimate",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/George_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "George Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/George_Indoor, Characters/George_Indoor",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/George_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "George Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/George_HotClimate, Characters/George_HotClimate",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/George_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "George Elaho Flower Dance",
+			"Action": "EditImage",
+			"Target": "Portraits/George_FlowerDance, Characters/George_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/George_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= true": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "George Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/George/Misc/George_Emoji_{{DSV.Core/ConfigValue:GeorgeVariant}}.png",
+			"ToArea": {"X": 36, "Y": 117, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "George Spirits Eve Position",
+		  	"Action": "EditData",
+		  	"Target": "data/festivals/fall27",
+			"TextOperations": 
+            [
+				{    
+					"Operation": "Append",
+					"Target": 
+                    [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "George 29 74 0",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeEvelynSpiritsEve": "true",
+				"OddYearToken": "1"
+			}
+		},
+		
+//MISCELLANEOUS OVERLAYS
+		{
+			"LogName": "George Beard Overlay Static",
+			"Action": "EditImage",
+			"Target": "Portraits/George_Indoor, Characters/George_Indoor, Portraits/George_Beach, Characters/George_Beach, Portraits/George_HotClimate, Characters/George_HotClimate, Portraits/George_EggFestival, Characters/George_EggFestival, Portraits/George_FlowerDance, Characters/George_FlowerDance, Portraits/George_Luau, Characters/George_Luau, Portraits/George_MoonlightJellies, Characters/George_MoonlightJellies, Portraits/George_SVFair, Characters/George_SVFair, Portraits/George_IceFestival, Characters/George_IceFestival, Portraits/George_WinterStar, Characters/George_WinterStar, Portraits/George_Swim, Characters/George_Swim",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/Overlays/George_Overlay_Beard_Winter.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeBeard |contains= Beard": true
+			}
+		},
+		{
+			"LogName": "George Beard Overlay Dynamic",
+			"Action": "EditImage",
+			"Target": "Portraits/George_Indoor, Characters/George_Indoor, Portraits/George_Beach, Characters/George_Beach, Portraits/George_HotClimate, Characters/George_HotClimate, Portraits/George_SVFair, Characters/George_SVFair, Portraits/George_IceFestival, Characters/George_IceFestival, Portraits/George_WinterStar, Characters/George_WinterStar, Portraits/George_Swim, Characters/George_Swim",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/Overlays/George_Overlay_Beard_{{Season}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Season |contains= fall, winter": true,
+				"DSV.Core/ConfigValue:GeorgeBeard |contains= Dynamic": true
+			}
+		},
+		{
+			"LogName": "George Beard Overlay Spirit's Eve",
+			"Action": "EditImage",
+			"Target": "Portraits/George_SpiritsEve, Characters/George_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/Overlays/George_Overlay_{{DSV.Core/ConfigValue:GeorgeBeard}}_SpiritsEve.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeBeard |contains= NoBeard": false
+			}
+		},
+
+// MERMAID PENDANTS
+		
+		{
+			"LogName": "George Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/George_Indoor",
+			"FromFile": "Art/VanillaNPCs/George/Misc/MermaidPendants/George_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsCanon |contains= True": true
+			}
+		},
+
+// JEWISH GEORGE
+
+		{
+			"LogName": "George Kippot - Saturday",
+			"Action": "EditImage",
+			"Target": "Portraits/George_Indoor, Characters/George_Indoor",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/Overlays/George_Kippah.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DayOfWeek |contains= Saturday": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			}
+		},
+		{
+			"LogName": "George Kippot - Friday Night",
+			"Action": "EditImage",
+			"Target": "Portraits/George_Indoor, Characters/George_Indoor",
+			"FromFile": "Art/VanillaNPCs/George/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GeorgeVariant}}/Overlays/George_Kippah.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DayOfWeek |contains= Friday": true,
+				"Time": "{{Range: 1800, 2600}}",
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+			"Update": "OnLocationChange"
+		}
+	]
+}

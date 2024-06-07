@@ -1,0 +1,120 @@
+{
+
+	"Changes": 
+	[
+
+// PPJA CANNABIS KIT
+		
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - PPJA Cannabis Kit",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Jodi", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Blue Dream}} {{spacechase0.JsonAssets/ObjectId:Cannabis}} {{spacechase0.JsonAssets/ObjectId:CBD Oil}} {{spacechase0.JsonAssets/ObjectId:Dried Tobacco}} {{spacechase0.JsonAssets/ObjectId:Girl Scout Cookies}} {{spacechase0.JsonAssets/ObjectId:Green Crack}} {{spacechase0.JsonAssets/ObjectId:Hemp}} {{spacechase0.JsonAssets/ObjectId:Hemp Butter}} {{spacechase0.JsonAssets/ObjectId:Honey Stick}} {{spacechase0.JsonAssets/ObjectId:Hybrid}} {{spacechase0.JsonAssets/ObjectId:Indica}} {{spacechase0.JsonAssets/ObjectId:Joint}} {{spacechase0.JsonAssets/ObjectId:Northern Lights}} {{spacechase0.JsonAssets/ObjectId:OG Kush}} {{spacechase0.JsonAssets/ObjectId:Pot Brownie}} {{spacechase0.JsonAssets/ObjectId:Sativa}} {{spacechase0.JsonAssets/ObjectId:Shatter}} {{spacechase0.JsonAssets/ObjectId:Snuff}} {{spacechase0.JsonAssets/ObjectId:Sour Diesel}} {{spacechase0.JsonAssets/ObjectId:Strawberry Cough}} {{spacechase0.JsonAssets/ObjectId:Tobacco}} {{spacechase0.JsonAssets/ObjectId:Wax}} {{spacechase0.JsonAssets/ObjectId:Weed-Infused Skooma}} {{spacechase0.JsonAssets/ObjectId:White Widow}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Kent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Blue Dream}} {{spacechase0.JsonAssets/ObjectId:Cannabis}} {{spacechase0.JsonAssets/ObjectId:CBD Oil}} {{spacechase0.JsonAssets/ObjectId:Dried Tobacco}} {{spacechase0.JsonAssets/ObjectId:Girl Scout Cookies}} {{spacechase0.JsonAssets/ObjectId:Green Crack}} {{spacechase0.JsonAssets/ObjectId:Hemp}} {{spacechase0.JsonAssets/ObjectId:Hemp Butter}} {{spacechase0.JsonAssets/ObjectId:Honey Stick}} {{spacechase0.JsonAssets/ObjectId:Hybrid}} {{spacechase0.JsonAssets/ObjectId:Indica}} {{spacechase0.JsonAssets/ObjectId:Joint}} {{spacechase0.JsonAssets/ObjectId:Northern Lights}} {{spacechase0.JsonAssets/ObjectId:OG Kush}} {{spacechase0.JsonAssets/ObjectId:Pot Brownie}} {{spacechase0.JsonAssets/ObjectId:Sativa}} {{spacechase0.JsonAssets/ObjectId:Shatter}} {{spacechase0.JsonAssets/ObjectId:Snuff}} {{spacechase0.JsonAssets/ObjectId:Sour Diesel}} {{spacechase0.JsonAssets/ObjectId:Strawberry Cough}} {{spacechase0.JsonAssets/ObjectId:Tobacco}} {{spacechase0.JsonAssets/ObjectId:Wax}} {{spacechase0.JsonAssets/ObjectId:Weed-Infused Skooma}} {{spacechase0.JsonAssets/ObjectId:White Widow}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sam", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Blue Dream}} {{spacechase0.JsonAssets/ObjectId:Cannabis}} {{spacechase0.JsonAssets/ObjectId:CBD Oil}} {{spacechase0.JsonAssets/ObjectId:Dried Tobacco}} {{spacechase0.JsonAssets/ObjectId:Girl Scout Cookies}} {{spacechase0.JsonAssets/ObjectId:Green Crack}} {{spacechase0.JsonAssets/ObjectId:Hemp}} {{spacechase0.JsonAssets/ObjectId:Hemp Butter}} {{spacechase0.JsonAssets/ObjectId:Honey Stick}} {{spacechase0.JsonAssets/ObjectId:Hybrid}} {{spacechase0.JsonAssets/ObjectId:Indica}} {{spacechase0.JsonAssets/ObjectId:Joint}} {{spacechase0.JsonAssets/ObjectId:Northern Lights}} {{spacechase0.JsonAssets/ObjectId:OG Kush}} {{spacechase0.JsonAssets/ObjectId:Pot Brownie}} {{spacechase0.JsonAssets/ObjectId:Sativa}} {{spacechase0.JsonAssets/ObjectId:Shatter}} {{spacechase0.JsonAssets/ObjectId:Snuff}} {{spacechase0.JsonAssets/ObjectId:Sour Diesel}} {{spacechase0.JsonAssets/ObjectId:Strawberry Cough}} {{spacechase0.JsonAssets/ObjectId:Tobacco}} {{spacechase0.JsonAssets/ObjectId:Wax}} {{spacechase0.JsonAssets/ObjectId:Weed-Infused Skooma}} {{spacechase0.JsonAssets/ObjectId:White Widow}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Vincent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Blue Dream}} {{spacechase0.JsonAssets/ObjectId:Cannabis}} {{spacechase0.JsonAssets/ObjectId:CBD Oil}} {{spacechase0.JsonAssets/ObjectId:Dried Tobacco}} {{spacechase0.JsonAssets/ObjectId:Girl Scout Cookies}} {{spacechase0.JsonAssets/ObjectId:Green Crack}} {{spacechase0.JsonAssets/ObjectId:Hemp}} {{spacechase0.JsonAssets/ObjectId:Hemp Butter}} {{spacechase0.JsonAssets/ObjectId:Honey Stick}} {{spacechase0.JsonAssets/ObjectId:Hybrid}} {{spacechase0.JsonAssets/ObjectId:Indica}} {{spacechase0.JsonAssets/ObjectId:Joint}} {{spacechase0.JsonAssets/ObjectId:Northern Lights}} {{spacechase0.JsonAssets/ObjectId:OG Kush}} {{spacechase0.JsonAssets/ObjectId:Pot Brownie}} {{spacechase0.JsonAssets/ObjectId:Sativa}} {{spacechase0.JsonAssets/ObjectId:Shatter}} {{spacechase0.JsonAssets/ObjectId:Snuff}} {{spacechase0.JsonAssets/ObjectId:Sour Diesel}} {{spacechase0.JsonAssets/ObjectId:Strawberry Cough}} {{spacechase0.JsonAssets/ObjectId:Tobacco}} {{spacechase0.JsonAssets/ObjectId:Wax}} {{spacechase0.JsonAssets/ObjectId:Weed-Infused Skooma}} {{spacechase0.JsonAssets/ObjectId:White Widow}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, PPJA.cannabiskit": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - PPJA Cannabis Kit Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi, Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Blue Dream}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cannabis}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: CBD Oil}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dried Tobacco}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Girl Scout Cookies}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Green Crack}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hemp}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hemp Butter}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Honey Stick}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hybrid}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Indica}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Joint}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Northern Lights}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: OG Kush}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pot Brownie}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sativa}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shatter}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Snuff}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sour Diesel}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Strawberry Cough}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tobacco}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wax}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Weed-Infused Skooma}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: White Widow}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs.{{KentFamilyReligionToken}}}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, PPJA.cannabiskit": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Sam/Vincent Gift Taste Changes - PPJA Cannabis Kit Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam, Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Blue Dream}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cannabis}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: CBD Oil}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dried Tobacco}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Girl Scout Cookies}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Green Crack}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hemp}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hemp Butter}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Honey Stick}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hybrid}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Indica}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Joint}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Northern Lights}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: OG Kush}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pot Brownie}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sativa}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shatter}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Snuff}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sour Diesel}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Strawberry Cough}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tobacco}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wax}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Weed-Infused Skooma}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: White Widow}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Drugs}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, PPJA.cannabiskit": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		}
+	]
+}

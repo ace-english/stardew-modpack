@@ -1,0 +1,21 @@
+{
+// WITCH DSV
+
+	"Changes": 
+	[
+		{
+			"LogName": "Witch Main",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Art/VanillaNPCs/Witch/CursorsWitch.png",
+			"ToArea": { "X": 276, "Y": 1885, "Width": 40, "Height": 59 }
+		},
+		{
+			"LogName": "Witch Gold",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "Art/VanillaNPCs/Witch/CursorsWitchGold.png",
+			"ToArea": { "X": 214, "Y": 261, "Width": 40, "Height": 59 }
+		}
+	]
+}

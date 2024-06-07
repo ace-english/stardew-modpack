@@ -1,0 +1,264 @@
+{
+// MARLON DSV
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Marlon Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Marlon", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Marlon.Seasonal":
+				{
+					"Id": "{{ModId}}_Marlon_Seasonal",
+					"Portrait": "Portraits/Marlon_Seasonal",
+					"Sprite": "Characters/Marlon_Seasonal",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Marlon.Beach":
+				{
+					"Id": "{{ModId}}_Marlon_Beach",
+					"Portrait": "Portraits/Marlon_Beach",
+					"Sprite": "Characters/Marlon_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Marlon.EggFestival":
+				{
+					"Id": "{{ModId}}_Marlon_EggFestival",
+					"Portrait": "Portraits/Marlon_EggFestival",
+					"Sprite": "Characters/Marlon_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Marlon.FlowerDance":
+				{
+					"Id": "{{ModId}}_Marlon_FlowerDance",
+					"Portrait": "Portraits/Marlon_FlowerDance",
+					"Sprite": "Characters/Marlon_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Marlon.Luau":
+				{
+					"Id": "{{ModId}}_Marlon_Luau",
+					"Portrait": "Portraits/Marlon_Luau",
+					"Sprite": "Characters/Marlon_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Marlon.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Marlon_MoonlightJellies",
+					"Portrait": "Portraits/Marlon_MoonlightJellies",
+					"Sprite": "Characters/Marlon_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Marlon.SVFair":
+				{
+					"Id": "{{ModId}}_Marlon_SVFair",
+					"Portrait": "Portraits/Marlon_SVFair",
+					"Sprite": "Characters/Marlon_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Marlon.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Marlon_SpiritsEve",
+					"Portrait": "Portraits/Marlon_SpiritsEve",
+					"Sprite": "Characters/Marlon_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Marlon.IceFestival":
+				{
+					"Id": "{{ModId}}_Marlon_IceFestival",
+					"Portrait": "Portraits/Marlon_IceFestival",
+					"Sprite": "Characters/Marlon_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Marlon.WinterStar":
+				{
+					"Id": "{{ModId}}_Marlon_WinterStar",
+					"Portrait": "Portraits/Marlon_WinterStar",
+					"Sprite": "Characters/Marlon_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Marlon.HotClimate":
+				{
+					"Id": "{{ModId}}_Marlon_HotClimate",
+					"Portrait": "Portraits/Marlon_HotClimate",
+					"Sprite": "Characters/Marlon_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Marlon Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Marlon_Seasonal, Characters/Marlon_Seasonal",
+			"FromFile": "Art/VanillaNPCs/Marlon/{{TargetPathOnly}}/{{MarlonCompatToken}}/{{DSV.Core/ConfigValue:MarlonVariant}}/Marlon_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarlonVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Marlon Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Marlon_Beach, Characters/Marlon_Beach",
+			"FromFile": "Art/VanillaNPCs/Marlon/{{TargetPathOnly}}/{{MarlonCompatToken}}/{{DSV.Core/ConfigValue:MarlonVariant}}/Marlon_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarlonVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Marlon Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Marlon_EggFestival, Characters/Marlon_EggFestival, Portraits/Marlon_FlowerDance, Characters/Marlon_FlowerDance, Portraits/Marlon_Luau, Characters/Marlon_Luau, Portraits/Marlon_MoonlightJellies, Characters/Marlon_MoonlightJellies, Portraits/Marlon_SVFair, Characters/Marlon_SVFair, Portraits/Marlon_SpiritsEve, Characters/Marlon_SpiritsEve, Portraits/Marlon_IceFestival, Characters/Marlon_IceFestival, Portraits/Marlon_WinterStar, Characters/Marlon_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Marlon/{{TargetPathOnly}}/{{MarlonCompatToken}}/{{DSV.Core/ConfigValue:MarlonVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarlonVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Marlon Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Marlon_HotClimate, Characters/Marlon_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Marlon/{{TargetPathOnly}}/{{MarlonCompatToken}}/{{DSV.Core/ConfigValue:MarlonVariant}}/Marlon_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarlonVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+		{
+			"LogName": "Marlon Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Marlon_Seasonal, Characters/Marlon_Seasonal",
+			"FromFile": "Art/VanillaNPCs/Marlon/{{TargetPathOnly}}/{{MarlonCompatToken}}/{{DSV.Core/ConfigValue:MarlonVariant}}/Marlon_{{season}}_1_Base.png"
+		},	
+		{
+			"LogName": "Marlon Elaho Flower Dance",
+			"Action": "EditImage",
+			"Target": "Portraits/Marlon_FlowerDance, Characters/Marlon_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Marlon/{{TargetPathOnly}}/{{MarlonCompatToken}}/{{DSV.Core/ConfigValue:MarlonVariant}}/Marlon_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:MarlonVariant |contains= Vanilla": true
+			}
+		},
+		
+// MAPS
+		{
+			"LogName": "Marlon Movie Theater Sprites",
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Art/VanillaNPCs/Marlon/Misc/TheaterSprites/{{DSV.Core/ConfigValue:MarlonVariant}}/Marlon_{{season}}_1_Base.png",
+			"ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 }
+		},
+		{
+			"LogName": "Marlon Desert Festival Sprite",
+			"Action": "EditImage",
+			"Target": "Maps/desert_festival_tilesheet",
+			"FromFile": "Art/VanillaNPCs/Marlon/Misc/Marlon_DesertFestival.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 66, "Y": 66, "Width": 14, "Height": 15 },
+			"When": 
+			{
+				"DSV.Core/ConfigValue:MarlonVariant|contains= Vanilla, Off": false
+			}
+		},
+		
+// MERMAID PENDANTS
+		{
+			"LogName": "Marlon Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Marlon_Seasonal",
+			"FromFile": "Art/VanillaNPCs/Marlon/Misc/MermaidPendants/Marlon_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Marlon |contains= Married, Engaged": true,
+				"HasMod |contains= Wolf.Gun": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		
+// EMOJIS
+		{
+			"LogName": "Emoji Marlon",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Marlon/Misc/Marlon_Emoji_Modded.png",
+			"ToArea": {"X": 72, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:MarlonVariant|contains= Vanilla, Off": false
+			}
+		},
+		
+// COMPATIBILITY
+		{
+			"LogName": "Marlon Ranch Expansion Temp",
+			"Action": "EditImage",
+			"Target": "Portraits/Marlon_walking, Characters/Marlon_walking",
+			"FromFile": "Art/VanillaNPCs/Marlon/{{TargetPathOnly}}/RanchExpansion/{{DSV.Core/ConfigValue:MarlonVariant}}/Marlon_{{season}}_1_Base.png",
+			"When":
+			{
+				"HasMod |contains= Lemurkat.MarnieRanchPack.CP": true
+			}
+		},
+		{
+			"LogName": "Marlon Ranch Expansion Main",
+			"Action": "EditImage",
+			"Target": "Portraits/Marlon",
+			"FromFile": "Art/VanillaNPCs/Marlon/{{TargetPathOnly}}/RanchExpansion/{{DSV.Core/ConfigValue:MarlonVariant}}/Marlon_{{season}}_1_Base.png",
+			"When":
+			{
+				"HasMod |contains= Lemurkat.MarnieRanchPack.CP": true,
+				"HasMod |contains= Wolf.Marlon, Ghost.Marlon": false,
+				"MarlonCompatToken |contains= Default": true
+			}
+		},
+		{
+			"LogName": "Marlon Mateo",
+			"Action": "EditImage",
+			"Target": "Portraits/MateoMarlon, Characters/MateoMarlon",
+			"FromFile": "Art/VanillaNPCs/Marlon/{{TargetPathOnly}}/MakeMarlonReal/{{DSV.Core/ConfigValue:MarlonVariant}}/Marlon_{{season}}_1_Base.png",
+			"When":
+			{
+				"HasMod |contains= DestyNova.Mateo.CP, DN.SnS": true
+			}
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+  "Changes": [
+
+ /*   {
+
+	    "LogName": "Add Mixology Machine Recipe",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+			"HXW.Mixology_DrinkBar": "388 50 335 2/Home/HXW.Mixology_DrinkBar/true/default/{{i18n:Mixology_DrinkBar.name}}"
+      }
+    },
+*/
+
+/////////////////////
+// COOKING RECIPES //
+/////////////////////
+
+
+
+    {
+
+      "LogName": "Add Mixology Juice and Soda Recipes",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+      "HXW.Mixology_cranberry_juice": "282 2/25 5/HXW.Mixology_cranberry_juice/default/{{i18n:Mixology_cranberry_juice.name}}",
+      "HXW.Mixology_lemon_juice": "wildflour.ateliercrops_lemon 2/25 5/HXW.Mixology_lemon_juice/default/{{i18n:Mixology_lemon_juice.name}}",
+      "HXW.Mixology_lime_juice": "wildflour.ateliercrops_lime 2/25 5/HXW.Mixology_lime_juice/default/{{i18n:Mixology_lime_juice.name}}",
+      "HXW.Mixology_orange_juice": "635 2/25 5/HXW.Mixology_orange_juice/default/{{i18n:Mixology_orange_juice.name}}",
+      "HXW.Mixology_pineapple_juice": "832 2/25 5/HXW.Mixology_pineapple_juice/default/{{i18n:Mixology_pineapple_juice.name}}"
+      }
+    },
+
+    {
+
+	    "LogName": "Add Mixology Cocktail Recipe",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "When":{"Cocktails": true},
+      "Entries": {
+			"HXW.Mixology_berry_mimosa": "wildflour.gourmetpantry_wild_strawberry_syrup 1 HXW.Mixology_orange_juice 1 HXW.Mixology_vodka 1 wildflour.ateliercrops_mint 1/25 5/HXW.Mixology_berry_mimosa/default/{{i18n:Mixology_berry_mimosa.name}}",
+      "HXW.Mixology_berry_whiskey_sour": "wildflour.gourmetpantry_peach_syrup 1 HXW.Mixology_whiskey 1 HXW.Mixology_citrus_bitters 1 HXW.Mixology_lime_juice 1/25 5/HXW.Mixology_berry_whiskey_sour/default/{{i18n:Mixology_berry_whiskey_sour.name}}",
+      "HXW.Mixology_black_forest_cocktail": "wildflour.gourmetpantry_cherry_syrup 1 HXW.Mixology_brandy 1 wildflour.ateliercrops_cacaopod 1/25 5/HXW.Mixology_black_forest_cocktail/default/{{i18n:Mixology_black_forest_cocktail.name}}",
+      "HXW.Mixology_blackberry_lemon_smash": "410 1 HXW.Mixology_lemon_juice 1 HXW.Mixology_vodka 1 HXW.Mixology_club_soda 1/25 5/HXW.Mixology_blackberry_lemon_smash/default/{{i18n:Mixology_blackberry_lemon_smash.name}}",
+      "HXW.Mixology_cake_walk": "wildflour.gourmetpantry_wild_strawberry_syrup 1 wildflour.gourmetpantry_apricot_syrup 1 HXW.Mixology_gin 1/25 5/HXW.Mixology_cake_walk/default/{{i18n:Mixology_cake_walk.name}}",
+      "HXW.Mixology_early_sunrise": "wildflour.gourmetpantry_orange_syrup 1 HXW.Mixology_lime_juice 1 HXW.Mixology_citrus_bitters 1 HXW.Mixology_tequila 1/25 5/HXW.Mixology_early_sunrise/default/{{i18n:Mixology_early_sunrise.name}}",
+      "HXW.Mixology_flower_queen": "HXW.Mixology_gin 1 HXW.Mixology_floral_bitters 1 HXW.Mixology_lemon_juice 1 wildflour.ateliercrops_mint 1/25 5/HXW.Mixology_flower_queen/default/{{i18n:Mixology_flower_queen.name}}",
+      "HXW.Mixology_frozen_margarita": "wildflour.gourmetpantry_mango_syrup 1 HXW.Mixology_rum 1 HXW.Mixology_star_bitters 1 wildflour.ateliercrops_lime 1/25 5/HXW.Mixology_frozen_margarita/default/{{i18n:Mixology_frozen_margarita.name}}",
+      "HXW.Mixology_garden_breeze": "wildflour.gourmetpantry_peach_syrup 1 HXW.Mixology_brandy 1 HXW.Mixology_floral_bitters 1 638 1/25 5/HXW.Mixology_garden_breeze/default/{{i18n:Mixology_garden_breeze.name}}",
+      "HXW.Mixology_gin_tonic": "HXW.Mixology_gin 1 HXW.Mixology_tonic_water 1/25 5/HXW.Mixology_gin_tonic/default/{{i18n:Mixology_gin_tonic.name}}",
+      "HXW.Mixology_harvest_hayride": "wildflour.gourmetpantry_apple_syrup 1 HXW.Mixology_whiskey 1 HXW.Mixology_lemon_juice 1 HXW.Mixology_cranberry_juice 1/25 5/HXW.Mixology_harvest_hayride/default/{{i18n:Mixology_harvest_hayride.name}}",
+      "HXW.Mixology_lavender_gin_spritz": "HXW.Mixology_gin 1 HXW.Mixology_tonic_water 1 HXW.Mixology_floral_bitters 1 wildflour.ateliercrops_lavender 1/25 5/HXW.Mixology_lavender_gin_spritz/default/{{i18n:Mixology_lavender_gin_spritz.name}}",
+      "HXW.Mixology_lightning_haze": "HXW.Mixology_vodka 1 HXW.Mixology_lime_juice 1 wildflour.gourmetpantry_orange_syrup 1/25 5/HXW.Mixology_lightning_haze/default/{{i18n:Mixology_lightning_haze.name}}",
+      "HXW.Mixology_mango_tango": "wildflour.gourmetpantry_mango_syrup 1 HXW.Mixology_pineapple_juice 1 HXW.Mixology_tequila 1 wildflour.ateliercrops_mint 1/25 5/HXW.Mixology_mango_tango/default/{{i18n:Mixology_mango_tango.name}}",
+      "HXW.Mixology_mango_twister": "wildflour.gourmetpantry_mango_syrup 1 HXW.Mixology_brandy 1 HXW.Mixology_orange_juice 1 638 1/25 5/HXW.Mixology_mango_twister/default/{{i18n:Mixology_mango_twister.name}}",     
+      "HXW.Mixology_pink_flamingo": "wildflour.gourmetpantry_wild_strawberry_syrup 1 HXW.Mixology_tequila 1 HXW.Mixology_aromatic_bitters 1 wildflour.ateliercrops_basil 1/25 5/HXW.Mixology_pink_flamingo/default/{{i18n:Mixology_pink_flamingo.name}}",
+      "HXW.Mixology_raspberry_lemon_drop": "wildflour.gourmetpantry_raspberry_syrup 1 HXW.Mixology_vodka 1 HXW.Mixology_aromatic_bitters 1 HXW.Mixology_lemon_juice 1/25 5/HXW.Mixology_raspberry_lemon_drop/default/{{i18n:Mixology_raspberry_lemon_drop.name}}",
+      "HXW.Mixology_raspberry_stinger": "wildflour.gourmetpantry_raspberry_syrup 1 88 1 HXW.Mixology_rum 1 wildflour.ateliercrops_lemon 1/25 5/HXW.Mixology_raspberry_stinger/default/{{i18n:Mixology_raspberry_stinger.name}}",
+      "HXW.Mixology_sangria": "348 1 613 1 635 1 wildflour.ateliercrops_strawberry 1 HXW.Mixology_citrus_bitters 1/25 5/HXW.Mixology_sangria/default/{{i18n:Mixology_sangria.name}}",
+      "HXW.Mixology_spirited_away": "wildflour.gourmetpantry_grenadine_syrup 1 HXW.Mixology_whiskey 1 HXW.Mixology_orange_juice 1/25 5/HXW.Mixology_spirited_away/default/{{i18n:Mixology_spirited_away.name}}",
+      "HXW.Mixology_summer_potluck_punch": "HXW.Mixology_rum 1 HXW.Mixology_star_bitters 1 258 1/25 5/HXW.Mixology_summer_potluck_punch/default/{{i18n:Mixology_summer_potluck_punch.name}}",
+      "HXW.Mixology_think_pink": "wildflour.gourmetpantry_grenadine_syrup 1 HXW.Mixology_tequila 1 HXW.Mixology_pixie_bitters 1 wildflour.ateliercrops_basil 1/25 5/HXW.Mixology_think_pink/default/{{i18n:Mixology_think_pink.name}}",
+      "HXW.Mixology_winter_star": "wildflour.gourmetpantry_ancient_syrup 1 HXW.Mixology_brandy 1 HXW.Mixology_pixie_bitters 1/25 5/HXW.Mixology_winter_star/default/{{i18n:Mixology_winter_star.name}}",
+      "HXW.Mixology_young_love": "wildflour.gourmetpantry_banana_syrup 1 HXW.Mixology_pineapple_juice 1 HXW.Mixology_whiskey 1/25 5/HXW.Mixology_young_love/default/{{i18n:Mixology_young_love.name}}"
+    }
+    },
+
+    {
+
+	    "LogName": "Add Mixology Bitters Recipes",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "When":{"Cocktails": true},
+      "Entries": {
+			"HXW.Mixology_aromatic_bitters": "wildflour.ateliercrops_wormwood 1 wildflour.ateliercrops_cinnamon 1 wildflour.ateliercrops_thyme 1 wildflour.ateliercrops_rosemary 1/25 5/HXW.Mixology_aromatic_bitters/default/{{i18n:Mixology_aromatic_bitters.name}}",
+      "HXW.Mixology_citrus_bitters": "wildflour.ateliercrops_lemon 1 wildflour.ateliercrops_lime 1 wildflour.ateliercrops_gentianroot 1 wildflour.ateliercrops_basil 1/25 5/HXW.Mixology_citrus_bitters/default/{{i18n:Mixology_citrus_bitters.name}}",
+      "HXW.Mixology_floral_bitters": "wildflour.ateliercrops_gentianroot 1 wildflour.ateliercrops_lavender 1 wildflour.ateliercrops_chamomile 1 wildflour.ateliercrops_mint 1/25 5/HXW.Mixology_floral_bitters/default/{{i18n:Mixology_floral_bitters.name}}",
+      "HXW.Mixology_pixie_bitters": "wildflour.ateliercrops_gentianroot 1 22 1 595 1 wildflour.ateliercrops_basil 1/25 5/HXW.Mixology_pixie_bitters/default/{{i18n:Mixology_pixie_bitters.name}}",
+      "HXW.Mixology_star_bitters": "wildflour.ateliercrops_wormwood 1 wildflour.ateliercrops_sage 1 268 1 396 1/25 5/HXW.Mixology_star_bitters/default/{{i18n:Mixology_star_bitters.name}}"
+    }
+    },
+    
+    {
+
+	    "LogName": "Add Mixology Mocktail Recipes",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "When": {"Mocktails": true},
+      "Entries": {
+			"HXW.Mixology_apple_ginger_fizz": "wildflour.gourmetpantry_apple_syrup 1 903 1 HXW.Mixology_lemon_juice 1/25 5/HXW.Mixology_apple_ginger_fizz/default/{{i18n:Mixology_apple_ginger_fizz.name}}",
+      "HXW.Mixology_apricot_blitz": "wildflour.gourmetpantry_apricot_syrup 1 HXW.Mixology_club_soda 1 wildflour.ateliercrops_thyme 1 HXW.Mixology_lemon_juice 1/25 5/HXW.Mixology_apricot_blitz/default/{{i18n:Mixology_apricot_blitz.name}}",
+      "HXW.Mixology_autumn_nights": "wildflour.gourmetpantry_apple_syrup 1 wildflour.ateliercrops_sage 1 903 1 HXW.Mixology_cranberry_juice 1/25 5/HXW.Mixology_autumn_nights/default/{{i18n:Mixology_autumn_nights.name}}",
+      "HXW.Mixology_berry_breeze": "258 1 HXW.Mixology_lemon_juice 1 HXW.Mixology_tonic_water 1 wildflour.ateliercrops_lemon 1/25 5/HXW.Mixology_berry_breeze/default/{{i18n:Mixology_berry_breeze.name}}",
+      "HXW.Mixology_blackberry_mint_refresher": "410 1 wildflour.ateliercrops_mint 1 167 1 HXW.Mixology_lime_juice 1/25 5/HXW.Mixology_blackberry_mint_refresher/default/{{i18n:Mixology_blackberry_mint_refresher.name}}",
+     
+      "HXW.Mixology_blue_isle_cooler": "wildflour.gourmetpantry_ancient_syrup 1 HXW.Mixology_club_soda 1 wildflour.ateliercrops_mint 1/25 5/HXW.Mixology_blue_isle_cooler/default/{{i18n:Mixology_blue_isle_cooler.name}}",
+      "HXW.Mixology_citrus_smash": "wildflour.gourmetpantry_cherry_syrup 1 wildflour.gourmetpantry_orange_syrup 1 HXW.Mixology_cranberry_juice 1 HXW.Mixology_tonic_water 1/25 5/HXW.Mixology_citrus_smash/default/{{i18n:Mixology_citrus_smash.name}}",
+      "HXW.Mixology_coco_loco": "88 1 wildflour.gourmetpantry_wild_strawberry_syrup 1 HXW.Mixology_club_soda 1 wildflour.ateliercrops_mint 1/25 5/HXW.Mixology_coco_loco/default/{{i18n:Mixology_coco_loco.name}}",
+      "HXW.Mixology_cranberry_lime_spritz": "HXW.Mixology_cranberry_juice 1 HXW.Mixology_lime_juice 1 wildflour.gourmetpantry_grenadine_syrup 1 HXW.Mixology_club_soda 1/25 5/HXW.Mixology_cranberry_lime_spritz/default/{{i18n:Mixology_cranberry_lime_spritz.name}}",
+      "HXW.Mixology_farmers_punch": "wildflour.gourmetpantry_raspberry_syrup 1 HXW.Mixology_pineapple_juice 1 HXW.Mixology_lime_juice 1 HXW.Mixology_tonic_water 1/25 5/HXW.Mixology_farmers_punch/default/{{i18n:Mixology_farmers_punch.name}}",
+      
+      "HXW.Mixology_fruity_fresca": "wildflour.gourmetpantry_grenadine_syrup 1 HXW.Mixology_pineapple_juice 1 638 1 wildflour.ateliercrops_mint 1/25 5/HXW.Mixology_fruity_fresca/default/{{i18n:Mixology_fruity_fresca.name}}",
+      "HXW.Mixology_grasshopper": "wildflour.ateliercrops_mint 1 wildflour.ateliercrops_cacaopod 1 233 1 HXW.Mixology_club_soda 1/25 5/HXW.Mixology_grasshopper/default/{{i18n:Mixology_grasshopper.name}}",
+      "HXW.Mixology_jumping_junimo": "wildflour.gourmetpantry_apricot_syrup 1 258 1 HXW.Mixology_lemon_juice 1 HXW.Mixology_tonic_water 1/25 5/HXW.Mixology_jumping_junimo/default/{{i18n:Mixology_jumping_junimo.name}}",
+      "HXW.Mixology_lavender_lady": "wildflour.gourmetpantry_peach_syrup 1 wildflour.ateliercrops_lavender 1 wildflour.ateliercrops_strawberry 1 HXW.Mixology_club_soda 1/25 5/HXW.Mixology_lavender_lady/default/{{i18n:Mixology_lavender_lady.name}}",
+      "HXW.Mixology_melon_floral_shrub": "wildflour.gourmetpantry_apricot_syrup 1 597 1 HXW.Mixology_club_soda 1 HXW.Mixology_orange_juice 1/25 5/HXW.Mixology_melon_floral_shrub/default/{{i18n:Mixology_melon_floral_shrub.name}}",
+      
+      "HXW.Mixology_mermaid_lagoon": "wildflour.gourmetpantry_mango_syrup 1 258 1 268 1 HXW.Mixology_tonic_water 1/25 5/HXW.Mixology_mermaid_lagoon/default/{{i18n:Mixology_mermaid_lagoon.name}}",
+      "HXW.Mixology_mixed_berry_tonic": "wildflour.gourmetpantry_wild_strawberry_syrup 1 wildflour.gourmetpantry_raspberry_syrup 1 HXW.Mixology_cranberry_juice 1 HXW.Mixology_tonic_water 1 wildflour.ateliercrops_basil 1/25 5/HXW.Mixology_mixed_berry_tonic/default/{{i18n:Mixology_mixed_berry_tonic.name}}",
+      "HXW.Mixology_passion_punch": "wildflour.gourmetpantry_wild_strawberry_syrup 1 wildflour.gourmetpantry_banana_syrup 1 398 1 HXW.Mixology_club_soda 1/25 5/HXW.Mixology_passion_punch/default/{{i18n:Mixology_passion_punch.name}}",
+      "HXW.Mixology_picnic_punch": "HXW.Mixology_lime_juice 1 254 1 HXW.Mixology_club_soda 1 wildflour.ateliercrops_mint 1/25 5/HXW.Mixology_picnic_punch/default/{{i18n:Mixology_picnic_punch.name}}",
+      "HXW.Mixology_secret_woods_slushie": "wildflour.gourmetpantry_gem_syrup 1 wildflour.ateliercrops_lemon 1 HXW.Mixology_club_soda 1 414 1/25 5/HXW.Mixology_secret_woods_slushie/default/{{i18n:Mixology_secret_woods_slushie.name}}",
+      "HXW.Mixology_spring_breeze": "wildflour.gourmetpantry_wild_strawberry_syrup 1 wildflour.ateliercrops_lime 1 HXW.Mixology_lemon_juice 1 HXW.Mixology_tonic_water 1/25 5/HXW.Mixology_spring_breeze/default/{{i18n:Mixology_spring_breeze.name}}",
+      
+      "HXW.Mixology_strawberry_fauxito": "wildflour.gourmetpantry_wild_strawberry_syrup 1 wildflour.gourmetpantry_mango_syrup 1 HXW.Mixology_lemon_juice 1 HXW.Mixology_tonic_water 1/25 5/HXW.Mixology_strawberry_fauxito/default/{{i18n:Mixology_strawberry_fauxito.name}}",
+      "HXW.Mixology_summer_mock_mule": "wildflour.gourmetpantry_mango_syrup 1 258 1 HXW.Mixology_pineapple_juice 1 HXW.Mixology_tonic_water 1/25 5/HXW.Mixology_summer_mock_mule/default/{{i18n:Mixology_summer_mock_mule.name}}",
+      "HXW.Mixology_sunrise_beach": "wildflour.gourmetpantry_raspberry_syrup 1 wildflour.gourmetpantry_mango_syrup 1 903 1 258 1/25 5/HXW.Mixology_sunrise_beach/default/{{i18n:Mixology_sunrise_beach.name}}",
+      "HXW.Mixology_sweet_gem_spritzer": "wildflour.gourmetpantry_gem_syrup 1 HXW.Mixology_orange_juice 1 wildflour.ateliercrops_mint 1/25 5/HXW.Mixology_sweet_gem_spritzer/default/{{i18n:Mixology_sweet_gem_spritzer.name}}",
+      "HXW.Mixology_tropical_sunset": "wildflour.gourmetpantry_grenadine_syrup 1 HXW.Mixology_lime_juice 1 HXW.Mixology_cranberry_juice 1 903 1/25 5/HXW.Mixology_tropical_sunset/default/{{i18n:Mixology_tropical_sunset.name}}",
+      "HXW.Mixology_wild_mango_cooler": "wildflour.gourmetpantry_mango_syrup 1 wildflour.gourmetpantry_raspberry_syrup 1 635 1 HXW.Mixology_club_soda 1/25 5/HXW.Mixology_wild_mango_cooler/default/{{i18n:Mixology_wild_mango_cooler.name}}"
+    }
+    }
+
+  ]
+}

@@ -1,0 +1,705 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"UseModOutfits": {
+			"AllowValues": "true, false",
+			"Default": true
+		},
+		"UseModPortraits": {
+			"AllowValues": "true, false",
+			"Default": true
+		},
+		"SeasonalOutfitsEnabled": {
+			"AllowValues": "true, false",
+			"Default": true
+		},
+		"RaincoatEnabled": {
+			"AllowValues": "true, false",
+			"Default": true
+		},
+		"SeasonalRaincoatsEnabled": {
+			"AllowValues": "true, false",
+			"Default": false
+		},
+		"GreenRaincoatChoice": {
+			"AllowValues": "NoneOption, RegularRaincoatOption, SeasonalRaincoatOption, GreenRaincoatOption",
+			"Default": "RegularRaincoatOption"
+		},
+		"FestivalOutfitsEnabled": {
+			"AllowValues": "true, false",
+			"Default": true
+		},
+		"MiningOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true
+		},
+		"MountainMiningEnabled": {
+			"AllowValues": "true, false",
+			"Default": false
+		},
+		"SeasonalMiningEnabled": {
+			"AllowValues": "true, false",
+			"Default": false
+		},
+		"DesertOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true
+		},
+		"IslandOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true
+		},
+		"IslandRaincoatChoice": {
+			"AllowValues": "None, RegularRaincoatOption, SeasonalRaincoatOption, IslandRaincoatOption",
+			"Default": "None"
+		},
+		"BathOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": false
+		},
+		"IndoorPostfixEnabled": {
+			"AllowValues": "true, false",
+			"Default": false
+		},
+		"MaternityPostfixEnabled": {
+			"AllowValues": "true, false",
+			"Default": false
+		},
+		
+		//pajama controls
+		"PajamasAllDay": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Section": "PajamaControls",
+		},	
+		"MorningPajamas": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "PajamaControls"
+		},
+		"PajamasUntil": {
+			"AllowValues": "6:10,6:20,6:30,7:00,7:30,8:00,8:30,9:00,10:00,11:00,12:00",
+			"Default": "6:10",
+			"Section": "PajamaControls"
+		},
+		"EveningPajamas": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "PajamaControls"
+		},
+		"PajamasFrom": {
+			"AllowValues": "9:00,9:30,10:00,10:30,11:00,11:30,12:00,12:30,1:00,1:30,1:40,1:50",
+			"Default": "10:00",
+			"Section": "PajamaControls"
+		},
+		//outfit names
+		"BaseOutfitName": {
+			"Default": "Base",
+			"Section": "OutfitNames"
+		},
+		"PajamasOutfitName": {
+			"Default": "Pajamas",
+			"Section": "OutfitNames"
+		},
+		"RaincoatOutfitName": {
+			"Default": "Rain",
+			"Section": "OutfitNames"
+		},
+		"GreenRaincoatOutfitName": {
+			"Default": "GreenRain",
+			"Section": "OutfitNames"
+		},
+		"MiningOutfitName": {
+			"Default": "Mining",
+			"Section": "OutfitNames"
+		},
+		"DesertOutfitName": {
+			"Default": "Desert",
+			"Section": "OutfitNames"
+		},
+		"IslandOutfitName": {
+			"Default": "Island",
+			"Section": "OutfitNames"
+		},
+		"IslandRaincoatOutfitName": {
+			"Default": "IslandRain",
+			"Section": "OutfitNames"
+		},
+		"BathOutfitName": {
+			"Default": "Bathrobe",
+			"Section": "OutfitNames"
+		},
+		"IndoorPostfixName": {
+			"Default": "In",
+			"Section": "OutfitNames"
+		},
+		"MaternityPostfixName": {
+			"Default": "Mat",
+			"Section": "OutfitNames"
+		},
+		
+		//festival outfits		
+		"FestiveOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},
+		"FestiveOutfitName": {
+			"Default": "Festive",
+			"Section": "FestivalOutfits"
+		},
+		
+		"WeddingOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},
+		"WeddingOutfitName": {
+			"Default": "Wedding",
+			"Section": "FestivalOutfits"
+		},
+		
+		"EggFestivalOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},
+		"EggFestivalOutfitName": {
+			"Default": "EggFestival",
+			"Section": "FestivalOutfits"
+		},
+		
+		"FlowerDanceOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},
+		"FlowerDanceOutfitName": {
+			"Default": "FlowerDance",
+			"Section": "FestivalOutfits"
+		},		
+		
+		"LuauOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},
+		"LuauOutfitName": {
+			"Default": "Luau",
+			"Section": "FestivalOutfits"
+		},		
+		
+		"MoonlightJelliesOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},
+		"MoonlightJelliesOutfitName": {
+			"Default": "MoonlightJellies",
+			"Section": "FestivalOutfits"
+		},		
+		
+		"FairOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},
+		"FairOutfitName": {
+			"Default": "Fair",
+			"Section": "FestivalOutfits"
+		},	
+		
+		"SpiritsEveOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},	
+		"SpiritsEveOutfitName": {
+			"Default": "SpiritsEve",
+			"Section": "FestivalOutfits"
+		},		
+		
+		"IceFestivalOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},	
+		"IceFestivalOutfitName": {
+			"Default": "IceFestival",
+			"Section": "FestivalOutfits"
+		},	
+		
+		"WinterStarOutfitEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FestivalOutfits"
+		},		
+		"WinterStarOutfitName": {
+			"Default": "WinterStar",
+			"Section": "FestivalOutfits"
+		},
+		//custom festival code sample: copypaste, replace the placeholders and remove the '//' at the start of each line. 'PlaceholderFestival' must match the festival name in the code. Then do the same in the DynamicTokens section if you haven't yet
+		//"PlaceholderFestival outfit enabled": {
+		//	"AllowValues": "true, false",
+		//	"Default": true,
+		//	"Section": "FestivalOutfits",
+		//	"Description": "Has the farmer wear a custom PlaceholderFestival outfit on the day of the corresponding festival, if available"
+		//},	
+		//"PlaceholderFestival outfit": {
+		//	"Default": "Placeholder",
+		//	"Section": "OutfitNames",
+		//	"Description": "The name of the outfit for this custom festival. Not case sensitive"
+		//},		
+		
+		//custom seasonal outfits
+		"SpringOutfitName": {
+			"Default": "Spring",
+			"Section": "SeasonalVariations"
+		},
+		"SummerOutfitName": {
+			"Default": "Summer",
+			"Section": "SeasonalVariations"
+		},
+		"FallOutfitName": {
+			"Default": "Fall",
+			"Section": "SeasonalVariations"
+		},
+		"WinterOutfitName": {
+			"Default": "Winter",
+			"Section": "SeasonalVariations"
+		},
+		
+		//seasonal raincoats
+		"SpringRaincoatOutfitName": {
+			"Default": "SpringRain",
+			"Section": "SeasonalVariations"
+		},
+		"SummerRaincoatOutfitName": {
+			"Default": "SummerRain",
+			"Section": "SeasonalVariations"
+		},
+		"FallRaincoatOutfitName": {
+			"Default": "FallRain",
+			"Section": "SeasonalVariations"
+		},
+		"WinterRaincoatOutfitName": {
+			"Default": "WinterRain",
+			"Section": "SeasonalVariations"
+		},
+		
+		//seasonal mining outfits
+		"SpringMiningOutfitName": {
+			"Default": "SpringMining",
+			"Section": "SeasonalVariations",
+		},
+		"SummerMiningOutfitName": {
+			"Default": "SummerMining",
+			"Section": "SeasonalVariations",
+		},
+		"FallMiningOutfitName": {
+			"Default": "FallMining",
+			"Section": "SeasonalVariations",
+		},
+		"WinterMiningOutfitName": {
+			"Default": "WinterMining",
+			"Section": "SeasonalVariations",
+		}
+	 },
+	 
+	 
+	 "DynamicTokens": [
+	//Pajama time in the morning
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "0600",
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "0610",
+			"When": {
+				"PajamasUntil": "6:20"
+			}
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "0620",
+			"When": {
+				"PajamasUntil": "6:30"
+			}
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "0650",
+			"When": {
+				"PajamasUntil": "7:00"
+			}
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "0720",
+			"When": {
+				"PajamasUntil": "7:30"
+			}
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "0750",
+			"When": {
+				"PajamasUntil": "8:00"
+			}
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "0820",
+			"When": {
+				"PajamasUntil": "8:30"
+			}
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "0850",
+			"When": {
+				"PajamasUntil": "9:00"
+			}
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "0950",
+			"When": {
+				"PajamasUntil": "10:00"
+			}
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "1050",
+			"When": {
+				"PajamasUntil": "11:00"
+			}
+		},
+		{
+			"Name": "PajamaMorningTime",
+			"Value": "1150",
+			"When": {
+				"PajamasUntil": "12:00"
+			}
+		},
+		
+		
+	//Pajama time in the evening
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2100",
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2130",
+			"When": {
+				"PajamasFrom": "9:30"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2200",
+			"When": {
+				"PajamasFrom": "10:00"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2230",
+			"When": {
+				"PajamasFrom": "10:30"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2300",
+			"When": {
+				"PajamasFrom": "11:00"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2330",
+			"When": {
+				"PajamasFrom": "11:30"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2400",
+			"When": {
+				"PajamasFrom": "12:00"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2430",
+			"When": {
+				"PajamasFrom": "12:30"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2500",
+			"When": {
+				"PajamasFrom": "1:00"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2530",
+			"When": {
+				"PajamasFrom": "1:30"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2540",
+			"When": {
+				"PajamasFrom": "1:40"
+			}
+		},
+		{
+			"Name": "PajamaEveningTime",
+			"Value": "2550",
+			"When": {
+				"PajamasFrom": "1:50"
+			}
+		},
+		
+		//festivals
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": false
+		},
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": true,
+			"When": { "DayEvent": "Wedding", "WeddingOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalOutfit",
+			"Value": "{{WeddingOutfitName}}",
+			"When": { "DayEvent": "Wedding", "WeddingOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": true,
+			"When": { "DayEvent": "Egg Festival", "EggFestivalOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalOutfit",
+			"Value": "{{EggFestivalOutfitName}}",
+			"When": { "DayEvent": "Egg Festival", "EggFestivalOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": true,
+			"When": { "DayEvent": "Flower Dance", "FlowerDanceOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalOutfit",
+			"Value": "{{FlowerDanceOutfitName}}",
+			"When": { "DayEvent": "Flower Dance", "FlowerDanceOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": true,
+			"When": { "DayEvent": "Luau", "LuauOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalOutfit",
+			"Value": "{{LuauOutfitName}}",
+			"When": { "DayEvent": "Luau", "LuauOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": true,
+			"When": { "DayEvent": "Dance of the Moonlight Jellies", "MoonlightJelliesOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalOutfit",
+			"Value": "{{MoonlightJelliesOutfitName}}",
+			"When": { "DayEvent": "Dance of the Moonlight Jellies", "MoonlightJelliesOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": true,
+			"When": { "DayEvent": "Stardew Valley Fair", "FairOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalOutfit",
+			"Value": "{{FairOutfitName}}",
+			"When": { "DayEvent": "Stardew Valley Fair", "FairOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": true,
+			"When": { "DayEvent": "Spirit's Eve", "SpiritsEveOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalOutfit",
+			"Value": "{{SpiritsEveOutfitName}}",
+			"When": { "DayEvent": "Spirit's Eve", "SpiritsEveOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": true,
+			"When": { "DayEvent": "Festival of Ice", "IceFestivalOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalOutfit",
+			"Value": "{{IceFestivalOutfitName}}",
+			"When": { "DayEvent": "Festival of Ice", "IceFestivalOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalEnabled",
+			"Value": true,
+			"When": { "DayEvent": "Feast of the Winter Star", "WinterStarOutfitEnabled": true }
+		},
+		{
+			"Name": "TodaysFestivalOutfit",
+			"Value": "{{WinterStarOutfitName}}",
+			"When": { "DayEvent": "Feast of the Winter Star", "WinterStarOutfitEnabled": true }
+		},
+		//custom festival code sample: copypaste, replace the placeholders and remove the '//' at the start of each line. 'PlaceholderFestival' must match the festival name in the code. Then do the same in the ConfigSchema section if you haven't yet
+		//{
+		//	"Name": "TodaysFestivalEnabled",
+		//	"Value": true,
+		//	"When": { "DayEvent": "PlaceholderFestival", "PlaceholderFestival outfit enabled": true }
+		//},
+		//{
+		//	"Name": "TodaysFestivalOutfit",
+		//	"Value": "{{PlaceholderFestival outfit}}",
+		//	"When": { "DayEvent": "PlaceholderFestival", "PlaceholderFestival outfit enabled": true }
+		//},
+		//seasonal tokens
+		
+		{//raincoats
+			"Name": "SeasonalRaincoatName",
+			"Value": "{{SpringRaincoatOutfitName}}",
+			"When": { "Season": "Spring" }
+		},
+		{
+			"Name": "SeasonalRaincoatName",
+			"Value": "{{SummerRaincoatOutfitName}}",
+			"When": { "Season": "Summer" }
+		},
+		{
+			"Name": "SeasonalRaincoatName",
+			"Value": "{{FallRaincoatOutfitName}}",
+			"When": { "Season": "Fall" }
+		},
+		{
+			"Name": "SeasonalRaincoatName",
+			"Value": "{{WinterRaincoatOutfitName}}",
+			"When": { "Season": "Winter" }
+		},
+		{//outfits
+			"Name": "SeasonalOutfitName",
+			"Value": "{{SpringOutfitName}}",
+			"When": { "Season": "Spring" }
+		},
+		{
+			"Name": "SeasonalOutfitName",
+			"Value": "{{SummerOutfitName}}",
+			"When": { "Season": "Summer" }
+		},
+		{
+			"Name": "SeasonalOutfitName",
+			"Value": "{{FallOutfitName}}",
+			"When": { "Season": "Fall" }
+		},
+		{
+			"Name": "SeasonalOutfitName",
+			"Value": "{{WinterOutfitName}}",
+			"When": { "Season": "Winter" }
+		},
+		
+		//seasonal mining
+		{
+			"Name": "CurrentMiningOutfitName",
+			"Value": "{{MiningOutfitName}}"
+		},
+		{
+			"Name": "CurrentMiningOutfitName",
+			"Value": "{{SpringMiningOutfitName}}",
+			"When": { "Season": "Spring", "SeasonalMiningEnabled": true }
+		},
+		{
+			"Name": "CurrentMiningOutfitName",
+			"Value": "{{SummerMiningOutfitName}}",
+			"When": { "Season": "Summer", "SeasonalMiningEnabled": true }
+		},
+		{
+			"Name": "CurrentMiningOutfitName",
+			"Value": "{{FallMiningOutfitName}}",
+			"When": { "Season": "Fall", "SeasonalMiningEnabled": true }
+		},
+		{
+			"Name": "CurrentMiningOutfitName",
+			"Value": "{{WinterMiningOutfitName}}",
+			"When": { "Season": "Winter", "SeasonalMiningEnabled": true }
+		},
+		
+		//modded weather
+		{
+			"Name": "RainyWeatherList",
+			"Value": "Rain, Storm, Kana.WeatherWonders_Deluge" //add custom raincoat weather to this list after a comma
+		},
+		
+		//modded locations
+		{
+			"Name": "ModdedMiningLocations",
+			"Value": "Custom_DTZ_OasisCave, Custom_DTZ_OasisCaveUnder, Custom_DTZ_OasisCaveJungle, Custom_ESDeepDark, Custom_Cape, Custom_SecretBase, Custom_CapeSecretBaseDropArea, Custom_TunnelCape, Custom_CapeCaveLit, Custom_CapeSecretBaseDropAreaScene, Custom_RealSecretBase, Custom_AreaSecretBoss, Custom_AreaSecretBossLvl2, Custom_AreaSecretBossLvl3, Custom_SecretBaseRoom, Custom_SecretBase2, Custom_CapeCaving, Custom_CapeCavingArea2, Custom_CapeCavingArea3, Custom_CapeTreasureRoom, Custom_CapeScene, Custom_DarkCave, Custom_DarkCave2, Custom_DarkCave3, Custom_DarkCave3Unlock, Custom_DarkCave3Unlocktbin, Custom_SeaCaveSecrets, Custom_AreaSecretTrapRoom, ustom_AreaSecretCalibur, Custom_UnlockSecretBase, Custom_CapeSecretBasebroken, Custom_CapeSecretBasePersistent, Custom_ESSmugglerDen" //add custom mining locations to this list. Already included: Downtown Zuzu, East Scarp, Cape Stardew
+		},
+		{
+			"Name": "ModdedDesertLocations",
+			"Value": "Custom_WTDR_GhostTown, Custom_DTZ_ZuzuCityOasis1, Custom_DTZ_SancInt, Custom_Desert_AfforestationArea" //add custom desert locations to this list. Already included: Downtown Zuzu, Walk to Desert Redux, Desert Afforestation Area
+		},
+		{
+			"Name": "BathingLocations",
+			"Value": "BathHouse_Pool, BathHouse_WomensLocker, BathHouse_MensLocker, Custom_Bath_Garden" //add custom bathing locations to this list after a comma
+		},
+		
+		//postfix fuckery
+		{
+			"Name": "CurrentIndoorPostfix",
+			"Value": ""
+		},
+		{
+			"Name": "CurrentIndoorPostfix",
+			"Value": "{{IndoorPostfixName}}",
+			"When": { "IndoorPostfixEnabled": true, "IsOutdoors": false }
+		},
+		{
+			"Name": "CurrentMaternityPostfix",
+			"Value": ""
+		},
+		{
+			"Name": "CurrentMaternityPostfix",
+			"Value": "{{MaternityPostfixName}}",
+			"When": { "MaternityPostfixEnabled": true, "Pregnant": true }
+		},
+		{
+			"Name": "CurrentPostfix",
+			"Value": "{{CurrentIndoorPostfix}}{{CurrentMaternityPostfix}}"
+		}
+	],
+	"Changes": [
+		{//Custom file names option
+			"Action": "Include",
+			"FromFile": "assets/_code/portrait_setup.json",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "UseModPortraits": true, "HasMod |contains=mistyspring.aedenthornFarmerPortraits": true }
+		},
+		
+		{//If the outfits are enabled
+			"Action": "Include",
+			"FromFile": "assets/_code/outfit_setup.json",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "UseModOutfits": true, "HasMod |contains=nihilistzsche.FashionSenseOutfits": true }
+		}
+	]
+}

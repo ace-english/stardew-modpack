@@ -1,0 +1,325 @@
+{
+
+//KETTLE
+
+"atelierbarista_TeaProcessor.name":"티백 기계",
+"atelierbarista_TeaProcessor.description":"다양한 재료를 티백으로 만들 수 있습니다.",
+
+"atelierbarista_TeaKettle.name":"찻주전자",
+"atelierbarista_TeaKettle.description":"특별한 차를 우려보는 건 어떨까요?",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_TeaProcessor_InvalidItem.message": "실행 불가",
+"atelierbarista_TeaProcessor_InvalidCount.message": "찻잎 필요",
+
+"atelierbarista_TeaKettle_InvalidItem.message": "실행 불가",
+"atelierbarista_TeaKettle_InvalidCount.message": "벌꿀 필요",    
+
+////////////////////////////
+// FLAVORED GENERIC ITEMS //
+////////////////////////////
+
+"atelierbarista_flavored_sachet.name":"티백",
+"atelierbarista_flavored_sachet.description":"커스텀 블렌딩으로 독특한 맛을 더한 티백.",
+
+"atelierbarista_flavored_tea.name":"차",
+"atelierbarista_flavored_tea.description":"티백을 우려 만든 신선한 차 한 잔.",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierbarista_flavored_sachet":"{0} 티백",
+"atelierbarista_flavored_tea":"{0} 차",
+
+/////////////////////////
+// MOD SUPPORTED ITEMS //
+/////////////////////////
+
+"atelierbarista_gardenia_sachet.name":"치자꽃 티백",
+"atelierbarista_gardenia_sachet.description":"커스텀 블렌딩으로 독특한 맛을 더한 티백.",
+
+"atelierbarista_hibiscus_sachet.name":"히비스커스 티백",
+"atelierbarista_hibiscus_sachet.description":"커스텀 블렌딩으로 독특한 맛을 더한 티백..",
+
+"atelierbarista_gardenia_tea.name":"치자꽃차",
+"atelierbarista_gardenia_tea.description":"치자꽃으로 맛을 더한 차 한 잔.",
+
+"atelierbarista_hibiscus_tea.name":"히비스커스차",
+"atelierbarista_hibiscus_tea.description":"히비스커스 꽃으로 맛을 더한 차 한 잔.",
+
+"atelierbarista_borage_sachet.name":"보리지 티백",
+"atelierbarista_borage_sachet.description":"커스텀 블렌딩으로 독특한 맛을 더한 티백.",
+
+"atelierbarista_calendula_sachet.name":"금잔화 티백",
+"atelierbarista_calendula_sachet.description":"커스텀 블렌딩으로 독특한 맛을 더한 티백.",
+
+"atelierbarista_borage_tea.name":"보리지차",
+"atelierbarista_borage_tea.description":"보리지로 맛을 더한 차 한 잔.",
+
+"atelierbarista_calendula_tea.name":"금잔화차",
+"atelierbarista_calendula_tea.description":"금잔화로 맛을 더한 차 한 잔.",
+
+"atelierbarista_hollyhock_sachet.name":"접시꽃 티백",
+"atelierbarista_hollyhock_sachet.description":"커스텀 블렌딩으로 독특한 맛을 더한 티백.",
+
+"atelierbarista_springpansy_sachet.name":"팬지 티백",
+"atelierbarista_springpansy_sachet.description":"커스텀 블렌딩으로 독특한 맛을 더한 티백.",
+
+"atelierbarista_hollyhock_tea.name":"접시꽃차",
+"atelierbarista_hollyhock_tea.description":"접시꽃으로 맛을 더한 차 한 잔.",
+
+"atelierbarista_springpansy_tea.name":"봄팬지차",
+"atelierbarista_springpansy_tea.description":"봄팬지로 맛을 더한 차 한 잔.",
+
+"atelierbarista_orangeblossom_sachet.name":"오렌지꽃 티백",
+"atelierbarista_orangeblossom_sachet.description":"커스텀 블렌딩으로 독특한 맛을 더한 티백.",
+
+"atelierbarista_orangeblossom_tea.name":"오렌지꽃차",
+"atelierbarista_orangeblossom_tea.description":"오렌지꽃으로 맛을 더한 차 한 잔.",
+
+
+
+//TEA SACHETS
+
+"atelierbarista_apple_sachet.name": "사과 티백",
+"atelierbarista_apple_sachet.description": "따스한 성질의 향신료와 아삭한 사과가 어우러져 쌀쌀한 가을 오후에 마시기 좋은 찻잎.",
+
+"atelierbarista_vanilla_sachet.name": "바닐라 티백",
+"atelierbarista_vanilla_sachet.description": "이 바닐라가 섞인 찻잎은 심신 안정에 좋습니다.",
+
+"atelierbarista_matcha_sachet.name": "말차 티백",
+"atelierbarista_matcha_sachet.description": "그 해의 첫 수확한 여린잎으로 만든, 거품을 내어 만들기 좋은 말차.",
+
+"atelierbarista_cinnamon_sachet.name": "시나몬 티백",
+"atelierbarista_cinnamon_sachet.description": "찻잎에 잉걸불 수액 시나몬 가루를 섞어 만든 차 블렌드.",
+
+"atelierbarista_chamomile_sachet.name": "캐모마일 티백",
+"atelierbarista_chamomile_sachet.description": "말린 캐모마일 꽃잎을 다른 허브와 혼합해서 만든, 심신안정에 좋은 차 블렌드.",
+
+"atelierbarista_breakfast_sachet.name": "브렉퍼스트 티백",
+"atelierbarista_breakfast_sachet.description": "짙고 묵직한, 기력을 채워주는 차 블렌드.",
+
+"atelierbarista_jasmine_sachet.name": "자스민 티백",
+"atelierbarista_jasmine_sachet.description": "향긋한 자스민 꽃잎을 섞어 만든 차 블렌드.",
+
+"atelierbarista_ginger_sachet.name": "생강복숭아 티백",
+"atelierbarista_ginger_sachet.description": "복숭아의 달콤한 맛과 생강의 알싸한 맛이 어우러진 차 블렌드.",
+
+"atelierbarista_grey_sachet.name": "레이디그레이 티백",
+"atelierbarista_grey_sachet.description": "얼그레이보다 부드럽고 은은한 차로, 레몬과 오렌지 향을 가미했습니다.",
+
+"atelierbarista_lemon_sachet.name": "레몬생강 티백",
+"atelierbarista_lemon_sachet.description": "레몬과 말린 생강의 향을 더해 만든 활기 넘치는 느낌의 차 블렌드.",
+
+"atelierbarista_mint_sachet.name": "박하 티백",
+"atelierbarista_mint_sachet.description": "이 상쾌한 향과 맛의 차는 감기나 독감에 걸린 이들을 위해 사용되기도 합니다.",
+
+"atelierbarista_berry_sachet.name": "믹스베리 티백",
+"atelierbarista_berry_sachet.description": "산뜻한 베리향이 진하고 묵직한 차의 맛과 어우러집니다.",
+
+"atelierbarista_peach_sachet.name": "복숭아망고 티백",
+"atelierbarista_peach_sachet.description": "복숭아와 망고가 조화롭게 어우러졌습니다!",
+
+"atelierbarista_pineapple_sachet.name": "파인애플 티백",
+"atelierbarista_pineapple_sachet.description": "상큼한 파인애플과 부드러운 코코넛이 어우러져 섬으로 여행을 가는 기분이에요!",
+
+"atelierbarista_pomegranate_sachet.name": "석류녹차 티백",
+"atelierbarista_pomegranate_sachet.description": "상큼한 석류로 향을 더한 풋풋하고 생기 넘치는 차.",
+
+"atelierbarista_raspberry_sachet.name": "라즈베리 티백",
+"atelierbarista_raspberry_sachet.description": "산미가 강한 라즈베리 풍미가 특징인, 부드러운 펀길 공화국의 차 블렌드.",
+
+"atelierbarista_rose_sachet.name": "장미티백",
+"atelierbarista_rose_sachet.description": "장미 덤불의 꽃잎과 꽃봉오리를 블렌딩해 만든 차.",
+
+"atelierbarista_sakura_sachet.name": "벚꽃티백",
+"atelierbarista_sakura_sachet.description": "설탕에 조린 벚꽃잎을 더해 만든 차 블렌드.",
+
+"atelierbarista_strawberry_sachet.name": "산딸기 티백",
+"atelierbarista_strawberry_sachet.description": "초여름, 산딸기를 듬뿍 넣어 만든 차 블렌드.",
+
+//TEA
+
+"atelierbarista_apple_tea.name": "가을사과 차",
+"atelierbarista_apple_tea.description": "갓 우려낸 사과차.",
+
+"atelierbarista_vanilla_tea.name": "칼리코바닐라 차",
+"atelierbarista_vanilla_tea.description": "갓 우려낸 바닐라차.",
+
+"atelierbarista_matcha_tea.name": "말차",
+"atelierbarista_matcha_tea.description": "갓 우려낸 말차.",
+
+"atelierbarista_cinnamon_tea.name": "시나몬 스파이스 차",
+"atelierbarista_cinnamon_tea.description": "갓 우려낸 시나몬차.",
+
+"atelierbarista_chamomile_tea.name": "포근한 캐모마일 차",
+"atelierbarista_chamomile_tea.description": "갓 우려낸 캐모마일 차.",
+
+"atelierbarista_breakfast_tea.name": "잉글리시 브렉퍼스트",
+"atelierbarista_breakfast_tea.description": "갓 우려낸 브렉퍼스트 홍차.",
+
+"atelierbarista_jasmine_tea.name": "향기로운 자스민 차",
+"atelierbarista_jasmine_tea.description": "갓 우려낸 자스민차.",
+
+"atelierbarista_ginger_tea.name": "생강복숭아 차",
+"atelierbarista_ginger_tea.description": "갓 우려낸 생강복숭아 차.",
+
+"atelierbarista_grey_tea.name": "레이디 그레이",
+"atelierbarista_grey_tea.description": "갓 우려낸 레이디 그레이.",
+
+"atelierbarista_lemon_tea.name": "레몬생강차",
+"atelierbarista_lemon_tea.description": "갓 우려낸 레몬생강차.",
+
+"atelierbarista_mint_tea.name": "명랑한 박하차",
+"atelierbarista_mint_tea.description": "갓 우려낸 박하차.",
+
+"atelierbarista_berry_tea.name": "믹스베리 차",
+"atelierbarista_berry_tea.description": "갓 우려낸 믹스베리 차.",
+
+"atelierbarista_peach_tea.name": "복숭아차",
+"atelierbarista_peach_tea.description": "갓 우려낸 복숭아차.",
+
+"atelierbarista_pineapple_tea.name": "파인애플 차",
+"atelierbarista_pineapple_tea.description": "갓 우려낸 파인애플 차.",
+
+"atelierbarista_pomegranate_tea.name": "석류녹차",
+"atelierbarista_pomegranate_tea.description": "갓 우려낸 석류녹차.",
+
+"atelierbarista_raspberry_tea.name": "라즈베리 차",
+"atelierbarista_raspberry_tea.description": "갓 우려낸 라즈베리 차.",
+
+"atelierbarista_rose_tea.name": "장미꽃차",
+"atelierbarista_rose_tea.description": "갓 우려낸 장미차.",
+
+"atelierbarista_sakura_tea.name": "벚꽃차",
+"atelierbarista_sakura_tea.description": "갓 우려낸 벚꽃차.",
+
+"atelierbarista_strawberry_tea.name": "산딸기차",
+"atelierbarista_strawberry_tea.description": "갓 우려낸 산딸기차.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierbarista_TeaProcessorRecipe.name":"장인의 티백을 만들 시간!",
+"atelierbarista_TeaProcessorRecipe.text":"@, ^^ 만약 네가 차를 만들고 싶다면, 이 기계를 만들어보는 것도 좋을거야. 티백을 만들 수 있어! 네가 만든 차를 먹어볼 수 있다면 좋겠어.^^ - 엘리엇",
+
+"atelierbarista_TeaKettleRecipe.name":"찻주전자에 물을",
+"atelierbarista_TeaKettleRecipe.text":"@, ^^ 난 네 전용 찻주전자가 있으면 집이 좀 더 아늑해질거라고 생각해. 직접 차를 우릴 수 있는 방법을 여기 첨부할게! 만약 차를 다양하게 마시게 되면, 날 티타임에 초대해주는 거 잊지 마렴.^^ - 캐롤라인",
+
+"atelierbarista_evelyn_gift.name":"당신을 위한 씨앗",
+"atelierbarista_evelyn_gift.text":"@, ^^ 우연히 네가 차를 우리기 시작했다는 걸 들었단다. 굉장히 멋진 모험을 시작하게 됐구나, 아가. 여기, 이것들은 내 정원에서 얻은 캐모마일 씨앗이란다. 수면과 진정에 도움이 되는 허브차를 만들 수 있을게야.^^ - 에블린",
+
+"atelierbarista_leah_gift.name":"너를 위한 차 정원",
+"atelierbarista_leah_gift.text":"@, ^^ 차 만드는 건 잘 되어가? 찻잎이 아무래도 부족해지지 않을까 싶어서 이걸 보내! 튼튼한 차 덤불로 자랄테니, 원하는 모든 종류의 차를 만들 수 있을거야.^^ - 레아",
+
+"atelierbarista_maru_gift.name":"우려낸 차를 우리면?",
+"atelierbarista_maru_gift.text":"@, ^^ 차를 발효시키면 콤부차가 된다는 사실을 알아? 호불호는 좀 갈리긴 하지만-(말장난 미안해!) 나는 이 차가 시원해서 좋아하거든! 발효를 돕기 위한 버섯을 재배하는 데 도움을 주고 싶었어.^^ - 마루",
+
+//////////////////
+// COFFEE BEGIN //
+//////////////////
+
+"atelierbarista_CoffeeGrinder.name":"원두 그라인더",
+"atelierbarista_CoffeeGrinder.description":"원두를 갈아 원하는 맛의 커피 블렌드로 가공할 수 있습니다.",
+
+"atelierbarista_CoffeeBrewer.name":"라떼 기계",
+"atelierbarista_CoffeeBrewer.description":"고급 라떼를 만들기 위한 기계.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_CoffeeGrinder_InvalidItem.message": "실행 불가",
+"atelierbarista_CoffeeGrinder_InvalidCount.message": "커피콩 15개 필요",
+
+"atelierbarista_CoffeeBrewer_InvalidItem.message": "실행 불가",
+"atelierbarista_CoffeeBrewer_InvalidCount.message": "크림 필요",
+
+///////////////////
+// GROUND COFFEE //
+///////////////////
+
+"atelierbarista_breakfast_ground.name":"브렉퍼스트 블렌드",
+"atelierbarista_breakfast_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+"atelierbarista_vanilla_ground.name":"칼리코바닐라 블렌드",
+"atelierbarista_vanilla_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+"atelierbarista_cold_ground.name":"콜드브루 블렌드",
+"atelierbarista_cold_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+"atelierbarista_donut_ground.name":"도넛가게 블렌드",
+"atelierbarista_donut_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+"atelierbarista_hazelnut_ground.name":"헤이즐넛 블렌드",
+"atelierbarista_hazelnut_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+"atelierbarista_holiday_ground.name":"홀리데이 블렌드",
+"atelierbarista_holiday_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+"atelierbarista_mocha_ground.name":"모카 블렌드",
+"atelierbarista_mocha_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+"atelierbarista_pumpkin_ground.name":"호박 블렌드",
+"atelierbarista_pumpkin_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+"atelierbarista_sweetheart_ground.name":"스윗하트 블렌드",
+"atelierbarista_sweetheart_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+"atelierbarista_coconut_ground.name":"코코넛 블렌드",
+"atelierbarista_coconut_ground.description":"갓 갈아낸 원두를 포장했습니다. 맛있는 커피로 변신할 준비가 됐어요!",
+
+////////////
+// DRINKS //
+////////////
+
+"atelierbarista_breakfast_latte.name": "브렉퍼스트 라떼",
+"atelierbarista_breakfast_latte.description": "막 우려낸 커피. 아늑하군요!",
+
+"atelierbarista_vanilla_latte.name":"바닐라 라떼",
+"atelierbarista_vanilla_latte.description":"막 우려낸 커피. 아늑하군요!",
+
+"atelierbarista_cold_latte.name":"콜드브루",
+"atelierbarista_cold_latte.description":"막 우려낸 커피. 아늑하군요!",
+
+"atelierbarista_donut_latte.name":"도넛 라떼",
+"atelierbarista_donut_latte.description":"막 우려낸 커피. 아늑하군요!",
+
+"atelierbarista_hazelnut_latte.name":"헤이즐넛 라떼",
+"atelierbarista_hazelnut_latte.description":"막 우려낸 커피. 아늑하군요!",
+
+"atelierbarista_holiday_latte.name":"홀리데이 라떼",
+"atelierbarista_holiday_latte.description":"막 우려낸 커피. 아늑하군요!",
+
+"atelierbarista_mocha_latte.name":"리치모카 라떼",
+"atelierbarista_mocha_latte.description":"막 우려낸 커피. 아늑하군요!",
+
+"atelierbarista_pumpkin_latte.name":"호박라떼",
+"atelierbarista_pumpkin_latte.description":"막 우려낸 커피. 아늑하군요!",
+
+"atelierbarista_sweetheart_latte.name":"스윗하트 라떼",
+"atelierbarista_sweetheart_latte.description":"막 우려낸 커피. 아늑하군요!",
+
+"atelierbarista_coconut_latte.name":"코코넛 라떼",
+"atelierbarista_coconut_latte.description":"막 우려낸 커피. 아늑하군요!",
+
+
+////////////
+/// MAIL ///
+////////////
+
+"atelierbarista_BrewerRecipe.text":"@, ^^ 음... 늦게 일어났을 때 부엌에 들어가는 게 귀찮을 때가 있지 않아? 그럴 땔 위한 개인 커피기계가 있어도 좋겠다 싶어서. ...아, 부모님을 깨울 걱정은 없겠구나. 음... 난 이미 이 편지를 쓰기 시작했으니까, 뭐. 자, 여기.^^ - 세바스찬",
+"atelierbarista_GrinderRecipe.text":"@, ^^ 커피를 사먹는 것보다, 원두를 직접 갈아서 만드는 쪽이 커피의 향을 더 풍부하게 즐길 수 있다는 걸 알고 있나요? 개인적으로 입맛에 맞게 만들 수 있을테고요. 그래서 원두 그라인더의 청사진을 공유하려고 해요. 카페인은 과다섭취하면 심장에 무리가 갈 수 있으니, 적당히 마시는 것 잊지 마세요!^^ - 하비",
+"atelierbarista_haley.text":"@, ^^ 이 동네에 제대로 된 카페가 없지만, 그래도 네가 만드는 라떼는 카페보다 더 좋은 것 같아. 다음에 놀러가면 모카라떼를 마실 수 있을까?^^ - 헤일리",
+"atelierbarista_george.text":"@, ^^ 에블린은 꽤 많은 종류의 차를 만들곤 하지만, 내게는 늘 한 잔만 허락한다네. 예전에 내게 바닐라 라떼를 만들어준 적이 있었는데... 꽤 좋았지. 어쨌거나 이 바닐라빈을 쓰면 만들 수 있을거네.^^ - 조지",
+"atelierbarista_sebastian.text":"@, ^^ 콜드브루 만들어본 적 있어? 쓴맛은 덜하고 카페인과 향이 다 녹아내리기 때문에 추천해주고 싶어서. 자, 제대로 사용하면 콜드브루 블렌드를 만드는 데 도움이 될 거야.^^ - 세바스찬",
+
+
+}

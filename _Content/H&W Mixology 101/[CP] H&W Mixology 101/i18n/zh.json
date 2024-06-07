@@ -1,0 +1,228 @@
+{
+
+//MACHINES
+
+	"Mixology_DrinkBar.name": "调酒吧台",
+	"Mixology_DrinkBar.description": "制作调酒的小吧台。",
+
+//BITTERS
+
+	"Mixology_aromatic_bitters.name": "芳香苦精",
+	"Mixology_aromatic_bitters.description": "混合多种香料、根茎与草药的食用酒精。经常加入调酒以增添苦涩或苦甜风味。",
+
+	"Mixology_citrus_bitters.name": "柑橘苦精",
+	"Mixology_citrus_bitters.description": "混合多种香料、根茎与草药的食用酒精。经常加入调酒以增添苦涩或苦甜风味。",
+
+	"Mixology_floral_bitters.name": "花卉苦精",
+	"Mixology_floral_bitters.description": "混合多种香料、根茎与草药的食用酒精。经常加入调酒以增添苦涩或苦甜风味。",
+
+	"Mixology_pixie_bitters.name": "妖精苦精",
+	"Mixology_pixie_bitters.description": "混合多种香料、根茎与草药的食用酒精。经常加入调酒以增添苦涩或苦甜风味。",
+
+	"Mixology_star_bitters.name": "星辰苦精",
+	"Mixology_star_bitters.description": "混合多种香料、根茎与草药的食用酒精。经常加入调酒以增添苦涩或苦甜风味。",
+
+//JUICES
+		
+	"Mixology_cranberry_juice.name": "蔓越莓汁",
+	"Mixology_cranberry_juice.description": "使用新鲜蔓越莓制成的果汁。用于制作美味饮品。",
+
+	"Mixology_lemon_juice.name": "柠檬汁",
+	"Mixology_lemon_juice.description": "使用新鲜柠檬制成的果汁。用于制作美味饮品。",
+
+	"Mixology_lime_juice.name": "莱姆汁",
+	"Mixology_lime_juice.description": "使用新鲜莱姆制成的果汁。用于制作美味饮品。",
+
+	"Mixology_orange_juice.name": "橙子汁",
+	"Mixology_orange_juice.description": "使用新鲜橙子制成的果汁。用于制作美味饮品。",
+
+	"Mixology_pineapple_juice.name": "菠萝汁",
+	"Mixology_pineapple_juice.description": "使用新鲜菠萝制成的果汁。用于制作美味饮品。",
+
+
+//MISC
+
+	"Mixology_club_soda.name": "苏打水",
+	"Mixology_club_soda.description": "无味的碳酸饮料。用于制作美味饮品。",
+
+	"Mixology_tonic_water.name": "通宁水",
+	"Mixology_tonic_water.description": "带有苦味的碳酸饮料。用于制作美味饮品。",
+
+//ALCOHOLS
+
+	"Mixology_brandy.name": "白兰地",
+	"Mixology_brandy.description": "蒸馏葡萄酒制成的酒，用于调酒。",
+	
+	"Mixology_gin.name": "琴酒",
+	"Mixology_gin.description": "蒸馏小麦制成的酒，用于调酒。",
+
+	"Mixology_rum.name": "兰姆酒",
+	"Mixology_rum.description": "蒸馏甘蔗制成的酒，用于调酒。",
+
+	"Mixology_tequila.name": "龙舌兰酒",
+	"Mixology_tequila.description": "蒸馏蓝色龙舌兰制成的酒，用于调酒。",
+	
+	"Mixology_vodka.name": "伏特加",
+	"Mixology_vodka.description": "蒸馏土豆制成的酒，用于调酒。",
+
+	"Mixology_whiskey.name": "威士忌",
+	"Mixology_whiskey.description": "蒸馏玉米制成的酒，用于调酒。",
+
+//COCKTAILS
+
+	"Mixology_raspberry_lemon_drop.name": "覆盆莓柠檬糖",
+	"Mixology_raspberry_lemon_drop.description": "野生覆盆莓为这款经典柠檬调酒带来有趣新风味。",
+
+	"Mixology_berry_mimosa.name": "莓果气泡",
+	"Mixology_berry_mimosa.description": "充满气泡的莓果调酒，早午餐完美选择。",
+
+	"Mixology_berry_whiskey_sour.name": "莓果威士忌沙瓦",
+	"Mixology_berry_whiskey_sour.description": "韵味复杂的水果调酒，带有令人心旷神怡的酸味。",
+
+	"Mixology_blackberry_lemon_smash.name": "果漾柠檬斯玛旭",
+	"Mixology_blackberry_lemon_smash.description": "酸涩柠檬与甜蜜水果完美融合于这款优雅调酒。",
+
+	"Mixology_black_forest_cocktail.name": "黑森林",
+	"Mixology_black_forest_cocktail.description": "以黑森林蛋糕为名，巧克力和樱桃使这调酒甜到你心房。",
+
+	"Mixology_cake_walk.name": "蛋糕舞步",
+	"Mixology_cake_walk.description": "非常甜的调酒，可以直接当成甜点享用！",
+
+	"Mixology_raspberry_stinger.name": "覆盆莓毒刺",
+	"Mixology_raspberry_stinger.description": "最适合搭配现摘莓果享用的覆盆莓调酒！",
+
+	"Mixology_early_sunrise.name": "日出",
+	"Mixology_early_sunrise.description": "这调酒的颜色使你想起破晓晨曦。",
+
+	"Mixology_flower_queen.name": "花舞女王",
+	"Mixology_flower_queen.description": "用于庆祝春日花舞节的花卉风味轻巧调酒。",
+
+	"Mixology_frozen_margarita.name": "月光水母",
+	"Mixology_frozen_margarita.description": "用于庆祝月光水母起舞的清凉夏日调酒。",
+
+	"Mixology_garden_breeze.name": "花园微风",
+	"Mixology_garden_breeze.description": "清新的花卉调酒，最适合在花园享用。",
+
+	"Mixology_gin_tonic.name": "上流得体",
+	"Mixology_gin_tonic.description": "适合那些想在吧台点酒时显得高尚的人的经典调酒。",
+
+	"Mixology_harvest_hayride.name": "丰收行车",
+	"Mixology_harvest_hayride.description": "爽朗的秋日调酒。",
+
+	"Mixology_lavender_gin_spritz.name": "薰衣草气泡酒",
+	"Mixology_lavender_gin_spritz.description": "薰衣草的花香使这调酒成为各地园丁的最爱。",
+
+	"Mixology_lightning_haze.name": "雷霾",
+	"Mixology_lightning_haze.description": "以夏日雷暴后产生的烟雾取名的烈性调酒。",
+	
+	"Mixology_mango_tango.name": "芒果探戈",
+	"Mixology_mango_tango.description": "这款夏日调酒会使你忍不住起舞！",
+
+	"Mixology_mango_twister.name": "芒果旋风",
+	"Mixology_mango_twister.description": "让你在炎热季节保持凉爽的浓郁夏日调酒。",
+
+	"Mixology_pink_flamingo.name": "粉鹤",
+	"Mixology_pink_flamingo.description": "最适合夏日派对的节庆调酒。",
+
+	"Mixology_summer_potluck_punch.name": "盛夏百乐潘趣酒",
+	"Mixology_summer_potluck_punch.description": "充满夏日盛产水果的美味调酒。",
+
+	"Mixology_sangria.name": "果漾桑格丽雅",
+	"Mixology_sangria.description": "水果和葡萄酒，你怎么可能不爱它？",
+
+	"Mixology_spirited_away.name": "恶灵退散",
+	"Mixology_spirited_away.description": "秋末的季节性调酒，常用于庆祝万灵节。",
+
+	"Mixology_think_pink.name": "粉红世界",
+	"Mixology_think_pink.description": "充满新鲜水果风味的粉红调酒。",
+
+	"Mixology_winter_star.name": "冬日星",
+	"Mixology_winter_star.description": "用于在节日庆祝的经典调酒。",
+
+	"Mixology_young_love.name": "青涩爱恋",
+	"Mixology_young_love.description": "如同初恋般，口感与风味丰富的清爽调酒。",
+
+//MOCKTAILS
+	
+	"Mixology_apple_ginger_fizz.name": "苹果姜汁气泡饮",
+	"Mixology_apple_ginger_fizz.description": "让你想起漫步于苹果园的清爽宜人秋日饮品。",
+
+	"Mixology_apricot_blitz.name": "杏子突袭",
+	"Mixology_apricot_blitz.description": "最适合在农场忙碌一天后饮用的春日饮品。",
+
+	"Mixology_autumn_nights.name": "秋夜",
+	"Mixology_autumn_nights.description": "让你在凉爽秋夜暖身的饮品。",
+
+	"Mixology_berry_breeze.name": "莓果微风",
+	"Mixology_berry_breeze.description": "柠檬的酸味在这饮品中完美衬托莓果风味。",
+
+	"Mixology_blackberry_mint_refresher.name": "黑莓薄荷爽口饮",
+	"Mixology_blackberry_mint_refresher.description": "终于有方法能完善利用长得花园里到处都是的薄荷了！",
+
+	"Mixology_blue_isle_cooler.name": "湛蓝岛屿酷乐",
+	"Mixology_blue_isle_cooler.description": "无人知晓这食谱的起源，但是它在山谷中代代相传。",
+
+	"Mixology_citrus_smash.name": "柑橘斯玛旭",
+	"Mixology_citrus_smash.description": "最佳柑橘齐聚，让你一次享受极致的感官体验。",
+
+	"Mixology_coco_loco.name": "疯狂椰巧",
+	"Mixology_coco_loco.description": "谁在面对巧克力和椰子的组合时能不疯狂呢？",
+
+	"Mixology_cranberry_lime_spritz.name": "蔓越莓莱姆气泡饮",
+	"Mixology_cranberry_lime_spritz.description": "冬季假日的热门饮品！",
+
+	"Mixology_farmers_punch.name": "农民潘趣酒",
+	"Mixology_farmers_punch.description": "以你那在农场工作时研发出这美好饮品的爷爷命名。",
+
+	"Mixology_fruity_fresca.name": "果漾汽水",
+	"Mixology_fruity_fresca.description": "只有加入现摘水果才能使其更美味。",
+
+	"Mixology_grasshopper.name": "绿色蚱蜢",
+	"Mixology_grasshopper.description": "老少皆爱的巧克力薄荷甜饮。",
+
+	"Mixology_jumping_junimo.name": "雀跃祝尼魔",
+	"Mixology_jumping_junimo.description": "这清爽饮品将会立刻为你带来活力。",
+
+	"Mixology_lavender_lady.name": "薰衣草淑女",
+	"Mixology_lavender_lady.description": "现摘春日薰衣草使这饮品雅如其名。",
+
+	"Mixology_melon_floral_shrub.name": "甜瓜花卉酸饮",
+	"Mixology_melon_floral_shrub.description": "炎炎夏日外出后在阴凉处享用这清凉花卉饮。",
+
+	"Mixology_mermaid_lagoon.name": "美人鱼珊瑚礁",
+	"Mixology_mermaid_lagoon.description": "这饮品取名自宝石海与传闻中住在海底的美人鱼。",
+
+	"Mixology_mixed_berry_tonic.name": "综合莓果通宁",
+	"Mixology_mixed_berry_tonic.description": "莓果与通宁水的组合使这饮品清爽提神。",
+
+	"Mixology_passion_punch.name": "热情潘趣酒",
+	"Mixology_passion_punch.description": "在夕阳下与特别之人共享的美味饮品。",
+
+	"Mixology_picnic_punch.name": "野餐潘趣酒",
+	"Mixology_picnic_punch.description": "在春季森林野餐中享用的美味甜瓜饮！",
+
+	"Mixology_secret_woods_slushie.name": "秘密森林雪泥",
+	"Mixology_secret_woods_slushie.description": "传说是老卡诺里大师最爱的饮品。",
+
+	"Mixology_spring_breeze.name": "春日微风",
+	"Mixology_spring_breeze.description": "当你在花园中为下个季节做准备时享用的清爽饮品。",
+
+	"Mixology_strawberry_fauxito.name": "草莓伪希托",
+	"Mixology_strawberry_fauxito.description": "当然，某些人不喜欢假的莫希托，但无论怎么说它，它的确很美味。",
+
+	"Mixology_summer_mock_mule.name": "嗤笑骡子",
+	"Mixology_summer_mock_mule.description": "经典鸡尾酒的有趣变体，它可能无酒精但这可不代表它无味！",
+
+	"Mixology_sunrise_beach.name": "海滩日出",
+	"Mixology_sunrise_beach.description": "看着太阳从海平面升起时享用的清爽饮品。",
+
+	"Mixology_sweet_gem_spritzer.name": "宝石甜莓气泡饮",
+	"Mixology_sweet_gem_spritzer.description": "只用于最特别的场合的饮品，毕竟它使用最稀有的莓果。",
+
+	"Mixology_tropical_sunset.name": "热带日落",
+	"Mixology_tropical_sunset.description": "让你在姜岛那阳光明媚的海岸上放松的水果饮品。",
+
+	"Mixology_wild_mango_cooler.name": "狂野芒果酷乐",
+	"Mixology_wild_mango_cooler.description": "杯中盛夏。"
+
+}

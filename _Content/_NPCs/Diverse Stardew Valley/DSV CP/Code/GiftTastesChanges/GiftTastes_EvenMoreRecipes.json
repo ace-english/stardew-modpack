@@ -1,0 +1,137 @@
+{
+
+	"Changes": 
+	[
+		
+// EVEN MORE RECIPES
+// GIFT TASTES CHANGES
+		
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - Even More Recipes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Alex", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Crab in Oyster Sauce}} {{spacechase0.JsonAssets/ObjectId:Shrimp on Rice}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "George", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Crab in Oyster Sauce}} {{spacechase0.JsonAssets/ObjectId:Shrimp on Rice}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Evelyn", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Crab in Oyster Sauce}} {{spacechase0.JsonAssets/ObjectId:Shrimp on Rice}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.evenmorerecipes": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},	
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - Even More Recipes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Elliott", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Crab in Oyster Sauce}} {{spacechase0.JsonAssets/ObjectId:Shrimp on Rice}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.evenmorerecipes": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},		
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - Even More Recipes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Harvey", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Crab in Oyster Sauce}} {{spacechase0.JsonAssets/ObjectId:Shrimp on Rice}} {{spacechase0.JsonAssets/ObjectId:Bonito Flakes}} {{spacechase0.JsonAssets/ObjectId:Dashi Stock}} {{spacechase0.JsonAssets/ObjectId:Meuniere}} {{spacechase0.JsonAssets/ObjectId:Miso Soup}} {{spacechase0.JsonAssets/ObjectId:Salmon Fillet}} {{spacechase0.JsonAssets/ObjectId:Steckerlfisch}} {{spacechase0.JsonAssets/ObjectId:Surimi}} {{spacechase0.JsonAssets/ObjectId:Tendon}} {{spacechase0.JsonAssets/ObjectId:Tiradito}} {{spacechase0.JsonAssets/ObjectId:Tuna Mayo Onigiri}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.evenmorerecipes": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},
+
+// GIFT REJECTIONS
+
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - Even More Recipes Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex, Characters/Dialogue/George, Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Crab in Oyster Sauce}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shrimp on Rice}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.evenmorerecipes": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - Even More Recipes Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Crab in Oyster Sauce}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shrimp on Rice}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.evenmorerecipes": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - Even More Recipes Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Crab in Oyster Sauce}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shrimp on Rice}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bonito Flakes}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dashi Stock}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Meuniere}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Miso Soup}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Salmon Fillet}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Steckerlfisch}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Surimi}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tendon}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tiradito}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tuna Mayo Onigiri}}": "{{i18n:DSV.GiftTastes.Harvey.CGD.Vegetarian}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.evenmorerecipes": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		}
+	]
+}

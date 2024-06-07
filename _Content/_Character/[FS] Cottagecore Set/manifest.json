@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Cottagecore Set",
+	"Author": "plurffle",
+	"Version": "1.0.5",
+	"Description": "Adds cottagecore aesthetic clothing items for the Fashion Sense framework.",
+	"UniqueID": "SmolHooman.CottagecoreSet",
+	"UpdateKeys": [ "Nexus:15417" ],	
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.FashionSense",
+		"MinimumVersion": "2.2.0"
+  }
+}

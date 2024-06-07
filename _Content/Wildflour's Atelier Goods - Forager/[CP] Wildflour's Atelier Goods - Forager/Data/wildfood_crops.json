@@ -1,0 +1,364 @@
+{
+    "Changes": [
+        
+
+//////////////////
+// FLOWER CROPS //
+//////////////////
+
+{
+    "LogName":"Wild Food Flower Crops",
+    "Action": "EditData",
+    "Target": "Data/Crops",
+    "Entries": {
+        "wildflour.ateliercrops_vanillaseeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [2, 2, 2, 4, 4],
+            "RegrowDays": 5,
+            "IsRaised":true,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,        
+            "HarvestItemId": "wildflour.ateliercrops_vanilla",
+
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 1
+    },
+        "wildflour.ateliercrops_chamomileseeds": {
+            "Seasons": [ "spring","summer" ],
+            "DaysInPhase": [ 1, 1, 2, 1 ],
+            "RegrowDays": -1,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_chamomile",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 3
+    },
+        "wildflour.ateliercrops_lavenderseeds": {
+            "Seasons": [ "spring","summer","fall" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 4,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_lavender",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 5
+    },
+        "wildflour.ateliercrops_jasmineseeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 5,
+            "IsRaised":true,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_jasmine",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 7
+    },
+        "wildflour.ateliercrops_mallowseeds": {
+            "Seasons": [ "spring","summer" ],
+            "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+            "RegrowDays": 4,
+            "IsRaised":true,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_mallow",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 8
+    }
+}
+},
+
+//////////////////
+// VEGGIE CROPS //
+//////////////////
+
+{
+    "LogName":"Add Wild Food Herb Crops",
+    "Action": "EditData",
+    "Target": "Data/Crops",
+    "Entries": {
+        "wildflour.ateliercrops_basilseeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_basil",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 12
+    },
+        "wildflour.ateliercrops_cilantroseeds": {
+            "Seasons": [ "spring" ],
+            "DaysInPhase": [ 2, 1, 1, 1, 2 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_cilantro",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 0
+    },
+        "wildflour.ateliercrops_sageseeds": {
+            "Seasons": [ "fall" ],
+            "DaysInPhase": [ 2, 3, 2, 3, 2 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_sage",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 2
+    },
+        "wildflour.ateliercrops_thymeseeds": {
+            "Seasons": [ "spring","summer" ],
+            "DaysInPhase": [ 2, 3, 3, 2, 2 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_thyme",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 6
+    },
+        "wildflour.ateliercrops_rosemaryseeds": {
+            "Seasons": [ "spring","fall" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 4,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_rosemary",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 9
+    },
+        "wildflour.ateliercrops_mintseeds": {
+            "Seasons": [ "spring","summer" ],
+            "DaysInPhase": [ 2, 2, 2, 3, 3 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_mint",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 10
+    },
+        "wildflour.ateliercrops_wormwoodseeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [ 1, 2, 3, 3, 1 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_wormwood",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 4
+    },      
+        "wildflour.ateliercrops_redonionseeds": {
+            "Seasons": [ "spring","fall" ],
+            "DaysInPhase": [ 2, 2, 2, 1 ],
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_redonion",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 11
+    }
+}
+},
+
+
+//////////////////
+// SHROOM CROPS //
+//////////////////
+
+{
+    "LogName":"Add Wild Food Mushroom Crops",
+    "Action": "EditData",
+    "Target": "Data/Crops",
+    "Entries": {
+        "wildflour.ateliercrops_chickenwoodsseeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [ 3, 2, 3, 3, 3 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_chickenwoods",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 14
+    },
+        "wildflour.ateliercrops_honeyfungusseeds": {
+            "Seasons": [ "spring" ],
+            "DaysInPhase": [ 4, 4, 4, 4, 5 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_honeyfungus",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 17
+    },
+        "wildflour.ateliercrops_meringueshroomseeds": {
+            "Seasons": [ "fall" ],
+            "DaysInPhase": [ 4, 3, 3, 3, 3 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_meringueshroom",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 15
+    },
+        "wildflour.ateliercrops_milkshroomseeds": {
+            "Seasons": [ "summer","fall" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_milkshroom",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 13
+    },
+        "wildflour.ateliercrops_wheatshroomseeds": {
+            "Seasons": [ "spring" ],
+            "DaysInPhase": [ 3, 2, 3, 3, 1 ],
+            "RegrowDays": 4,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "wildflour.ateliercrops_wheatshroom",
+            "Texture": "Mods/wildflour.ateliercrops/CropsWF",
+            "SpriteIndex": 16
+    }
+
+}
+},
+
+//////////////////
+// GIANT CROPS ///
+//////////////////
+
+{
+    "LogName":"Add Wild Food Giant Crops",
+    "Action": "EditData",
+    "Target": "Data/GiantCrops",
+    "Entries": {
+       "wildflour.ateliercrops_giantcarrot": {
+            "FromItemId":"CarrotSeeds",
+            "Seasons": [ "spring" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Carrot",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/wildflour.ateliercrops/GiantCropsWF",
+            "TexturePosition": {
+                "X": 144,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "wildflour.ateliercrops_giantstrawberry": {
+            "FromItemId":"745",
+            "Seasons": [ "spring" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"400",
+                "MinStack":"9",
+                "MaxStack":"21"
+            },
+            {
+                "ItemId":"wildflour.ateliercrops_strawberry",
+                "MinStack":"9",
+                "MaxStack":"21"
+            },
+        ],
+            "Texture": "Mods/wildflour.ateliercrops/GiantCropsWF",
+            "TexturePosition": {
+                "X": 192,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "wildflour.ateliercrops_giantlavender": {
+            "FromItemId":"wildflour.ateliercrops_lavenderseeds",
+            "Seasons": [ "spring","summer","fall" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"wildflour.ateliercrops_lavender",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/wildflour.ateliercrops/GiantCropsWF",
+            "TexturePosition": {
+                "X": 48,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "wildflour.ateliercrops_giantmint": {
+            "FromItemId":"wildflour.ateliercrops_mintseeds",
+            "Seasons": [ "spring","summer","fall" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"wildflour.ateliercrops_mint",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/wildflour.ateliercrops/GiantCropsWF",
+            "TexturePosition": {
+                "X": 96,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    }
+}
+}
+
+    ]
+}

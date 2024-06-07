@@ -1,0 +1,392 @@
+{
+	"Name": "Diverse Stardew Valley [CP]",
+	"Author": "DSV Team",
+	"Version": "5.1.2",
+	"Description": "Adds ethnic, cultural, and body type diversity to Pelican Town, with complete seasonal outfits.",
+	"UniqueID": "DSVTeam.DiverseStardewValley",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:17059" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.19.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "DSV.Core",
+			"IsRequired": true,
+		},
+		{
+			"UniqueID": "spacechase0.GenericModConfigMenu",
+			"IsRequired": false,
+		},
+// COMPATIBILITY
+		{
+			"UniqueID": "Amaranthacyan.PlatonicPartnersandFriendships",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Amaranthacyan.PPAFSMAPI",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "PPAF.Core",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Rafseazz.RidgesideVillage",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Rafseazz.RSVCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Rafseazz.RSVSeasonalOutfits",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "FuzzyMittens.Toshinori",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Lumisteria.BetterClaraPortrait",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "BURAKMESE.SKE",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "foggy.LfL",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "mush.loveydovey",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Poltergeister.SeasonalCuteCharacters",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "IMS.CP.MarnieDeservesBetter",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "PaperNautilus.Isla",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Wolf.RomRas",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ZoeDoll.NPCAlecto",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Lemurkat.MarnieRanchPack.CP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Wolf.Marlon",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Ghost.Marlon",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "andril11.charlie",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Wolf.Gun",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Yoshimax.BefriendMarlon",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "DestyNova.Mateo.CP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "DN.SnS",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "balverines.Denver",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "supert.adventureguildexpanded",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "lillifer.SeasonalOutfitsAGE",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "brin.SSRivalHeartEvents",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Sqbr.KentDoesTheDishes",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ZoeDoll.RSVSeasonalAlissa",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ZoeDoll.GingerIslandNPCTweaks",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Ran.ShanesNewJob",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Lemurkat.Tristan.CP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "LemurKat.Mr.Ginger.NPC",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Lemurkat.JasRanchPack.CP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Arknir27.Lavril",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Himetarts.ARV.CP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Greenmtvince.SocialHaley",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "BURAKMESE.socialgeorge",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "piper.holychurros",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "atravita.SleepInWedding",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "violetlizabet.CP.SandyBeach",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "beyondrecovery.immersivesandy",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Inmognito.wizrobe",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "tiakall.jortsandjean",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "sarahleia.TheyThemAbigail",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "uglynt.town.interiors",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "pilzkopfi.prettier.interior",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "gwenynnefydd.queerdialogueexpansion",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Fellowclown.Lyell",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Airyn.CPSolsticeWinterStar",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "baguettemagiqu7.NPCParkJaemin",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "sb.skealt",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "SoftPandaBoi.ClintReforged",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "PurrplingCat.NpcAdventure.Content",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Lumisteria.CP.MissingHatsBundles",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Miihau.MiihausMoreHaleyHeartEvents",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "cptnmatruz.HaleysPregnancy",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "bigeyedkitteh.moreweddingvenues",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Hitme.SpousePortraitsReworked",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "SYS.mike",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "KaileyAllen.PinkWednesday",
+			"IsRequired": false
+		},
+// ELAHO MODS
+		{
+			"UniqueID": "Elaho.AlexJewishWeddingSuit",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.HarveyHungarianWeddingSuit",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.ElliottScottishWeddingKilt",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.LeahPolishWeddingOutfits",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.PennyIrishWeddingDress",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.SamNorwegianWeddingSuit",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.ShaneGeorgianWeddingSuit",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.ElliottScottishFestivalRegalia",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.ElliottImmersiveWeddingCP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.SebastianImmersiveWeddingCP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Elaho.ElahosCulturalFlowerDanceVanilla",
+			"IsRequired": false,
+		},
+// DIALOGUE & GIFT TASTES MODS
+		{
+			"UniqueID": "gizzymo.canonfriendlyexpansion",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "tangeriney.FestivalDialogue",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "PurrplingCat.CustomGiftDialogue",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Lemurkat.UniqueGiftReactions",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "mothbeanie.GiftsRedone",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Swift.EveryoneLikesFruit",
+			"IsRequired": false,
+		},
+// INTERFACE MODS
+		{
+			"UniqueID": "Maraluna.OvergrownFloweryInterface",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ManaKirel.VintageInterface2",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ManaKirel.VMI",
+			"IsRequired": false,
+		},
+// RECOLOUR MODS
+		{
+			"UniqueID": "Lita.StarblueValley",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "grapeponta.VibrantPastoralRecolor",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "grapeponta.VanillaInteriors",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "DaisyNiko.EarthyInteriors",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "colling.towninterior",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Hesper.RusticCountrysideTownInterior",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "narianka.toneddowntowninteriors",
+			"IsRequired": false,
+		}
+	]
+}

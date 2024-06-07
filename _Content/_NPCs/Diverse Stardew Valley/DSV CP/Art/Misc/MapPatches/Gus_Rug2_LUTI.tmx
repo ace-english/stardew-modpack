@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="10" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="28">
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="550" duration="250"/>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="582" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1378">
+   <animation>
+    <frame tileid="1378" duration="120"/>
+    <frame tileid="1381" duration="120"/>
+    <frame tileid="1384" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1379">
+   <animation>
+    <frame tileid="1379" duration="120"/>
+    <frame tileid="1382" duration="120"/>
+    <frame tileid="1385" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1380">
+   <animation>
+    <frame tileid="1380" duration="120"/>
+    <frame tileid="1383" duration="120"/>
+    <frame tileid="1386" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1410">
+   <animation>
+    <frame tileid="1410" duration="250"/>
+    <frame tileid="1474" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1411">
+   <animation>
+    <frame tileid="1411" duration="500"/>
+    <frame tileid="1475" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source="townInterior_2" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="2305" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2341" name="z_springobjects" tilewidth="16" tileheight="16" tilecount="936" columns="24">
+  <image source="springobjects.png" width="384" height="624"/>
+ </tileset>
+ <tileset firstgid="3277" name="zzzDSV_HouseEdits_Tilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="30">
+  <image source="DSV_HouseEdits_Tilesheet.png" width="480" height="256"/>
+ </tileset>
+ <layer id="1" name="Back" width="10" height="2">
+  <data encoding="csv">
+3717,3718,3718,3718,3718,3718,3718,3718,3719,608,
+3747,3748,3748,3748,3748,3748,3748,3748,3749,640
+</data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="10" name="Back2" width="10" height="2">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Buildings" width="10" height="2">
+  <data encoding="csv">
+0,0,0,0,887,0,0,321,322,746,
+0,352,0,0,0,0,0,0,0,535
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings" visible="0">
+  <object id="1" name="TileData" x="64" y="-16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Saloon.1&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="16" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Saloon.2&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="48" y="-16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Gus6&quot;"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="144" y="-16" width="16" height="32">
+   <properties>
+    <property name="Action" value="Letter &quot;Renciel.Gus7&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="10" height="2">
+  <data encoding="csv">
+0,320,0,0,0,0,0,0,0,503,
+166,166,166,166,163,0,164,166,166,167
+</data>
+ </layer>
+ <objectgroup id="6" name="Front" visible="0"/>
+ <layer id="9" name="Front2" width="10" height="2">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="Paths" width="10" height="2" visible="0">
+  <data encoding="csv">
+0,0,0,2312,0,2306,2308,0,0,0,
+0,0,0,2305,2310,2309,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

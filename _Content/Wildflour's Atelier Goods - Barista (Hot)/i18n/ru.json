@@ -1,0 +1,325 @@
+{
+
+//KETTLE
+
+"atelierbarista_TeaProcessor.name":"Чайный аппарат",
+"atelierbarista_TeaProcessor.description":"Позволяет создавать пакетированный чай из различных ингредиентов.",
+
+"atelierbarista_TeaKettle.name":"Чайник",
+"atelierbarista_TeaKettle.description":"Заваривает особые чаи.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_TeaProcessor_InvalidItem.message": "Это невозможно обработать",
+"atelierbarista_TeaProcessor_InvalidCount.message": "Требуются чайные листья",
+
+"atelierbarista_TeaKettle_InvalidItem.message": "Это невозможно обработать",
+"atelierbarista_TeaKettle_InvalidCount.message": "Требуется мёд",    
+
+////////////////////////////
+// FLAVORED GENERIC ITEMS //
+////////////////////////////
+
+"atelierbarista_flavored_sachet.name":"Чайный пакетик",
+"atelierbarista_flavored_sachet.description":"Смесь уникальных вкусов, собранная в чайный пакетик.",
+
+"atelierbarista_flavored_tea.name":"Чай",
+"atelierbarista_flavored_tea.description":"Чашка свежего чая, заваренная чайным пакетиком ручной работы.",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierbarista_flavored_sachet":"{0} Чайный пакетик",
+"atelierbarista_flavored_tea":"{0} Чай",
+
+/////////////////////////
+// MOD SUPPORTED ITEMS //
+/////////////////////////
+
+"atelierbarista_gardenia_sachet.name":"Пакетик чая с гарденией",
+"atelierbarista_gardenia_sachet.description":"Смесь уникальных вкусов, собранная в чайный пакетик.",
+
+"atelierbarista_hibiscus_sachet.name":"Пакетик чая каркаде",
+"atelierbarista_hibiscus_sachet.description":"Смесь уникальных вкусов, собранная в чайный пакетик.",
+
+"atelierbarista_gardenia_tea.name":"Чай с гарденией",
+"atelierbarista_gardenia_tea.description":"Чашка свежего чая со вкусом цветов гардении.",
+
+"atelierbarista_hibiscus_tea.name":"Чай каркаде",
+"atelierbarista_hibiscus_tea.description":"Чашка свежего чая со вкусом цветов гибискуса.",
+
+"atelierbarista_borage_sachet.name":"Пакетик чая с бурачником",
+"atelierbarista_borage_sachet.description":"Смесь уникальных вкусов, собранная в чайный пакетик.",
+
+"atelierbarista_calendula_sachet.name":"Пакетик чая с календулой",
+"atelierbarista_calendula_sachet.description":"Смесь уникальных вкусов, собранная в чайный пакетик.",
+
+"atelierbarista_borage_tea.name":"Чай с бурачником",
+"atelierbarista_borage_tea.description":"Чашка свежего чая со вкусом цветов бурачника.",
+
+"atelierbarista_calendula_tea.name":"Чай с календулой",
+"atelierbarista_calendula_tea.description":"Чашка свежего чая со вкусом цветов календулы.",
+
+"atelierbarista_hollyhock_sachet.name":"Пакетик чая с мальвой",
+"atelierbarista_hollyhock_sachet.description":"Смесь уникальных вкусов, собранная в чайный пакетик.",
+
+"atelierbarista_springpansy_sachet.name":"Пакетик фиалкового чая",
+"atelierbarista_springpansy_sachet.description":"Смесь уникальных вкусов, собранная в чайный пакетик.",
+
+"atelierbarista_hollyhock_tea.name":"Чай с мальвой",
+"atelierbarista_hollyhock_tea.description":"Чашка свежего чая со вкусом цветов мальвы.",
+
+"atelierbarista_springpansy_tea.name":"Фиалковый чай",
+"atelierbarista_springpansy_tea.description":"Чашка свежего чая со вкусом анютиных глазок.",
+
+"atelierbarista_orangeblossom_sachet.name":"Пакетик чая с цветками апельсина",
+"atelierbarista_orangeblossom_sachet.description":"Смесь уникальных вкусов, собранная в чайный пакетик.",
+
+"atelierbarista_orangeblossom_tea.name":"Чай с цветками апельсина",
+"atelierbarista_orangeblossom_tea.description":"Чашка свежего чая со вкусом цветов апельсина.",
+
+
+
+//TEA SACHETS
+
+"ateliertea_apple_sachet.name": "Пакетик осеннего яблочного чая",
+"ateliertea_apple_sachet.description": "Согревающие специи смешиваются с хрустящим яблоком, что делает эту чайную смесь идеальной для прохладного осеннего дня.",
+
+"ateliertea_vanilla_sachet.name": "Пакетик ванильного чая",
+"ateliertea_vanilla_sachet.description": "Эта смесь ванильного чая идеально подходит для успокоения ума и тела.",
+
+"ateliertea_matcha_sachet.name": "Пакетик Церемониальной матчи",
+"ateliertea_matcha_sachet.description": "Чайная смесь церемониального сорта, приготовленная из листьев первого урожая.",
+
+"ateliertea_cinnamon_sachet.name": "Пакетик чая с корицей",
+"ateliertea_cinnamon_sachet.description": "Смесь чайных листьев и молотой корицы Синдерсэпа, идеально подходящая для заваривания.",
+
+"ateliertea_chamomile_sachet.name": "Пакетик уютного ромашкового чая",
+"ateliertea_chamomile_sachet.description": "Высушенные цветки ромашки, смешанные с другими успокаивающими травами, образуют расслабляющую чайную смесь.",
+
+"ateliertea_breakfast_sachet.name": "Пакетик английского чая",
+"ateliertea_breakfast_sachet.description": "Насыщенная, крепкая чайная смесь.",
+
+"ateliertea_jasmine_sachet.name": "Пакетик ароматного жасминового чая",
+"ateliertea_jasmine_sachet.description": "Смесь чайных листьев и ароматных лепестков жасмина, идеально подходящая для заваривания.",
+
+"ateliertea_ginger_sachet.name": "Пакетик имбирно-персикового чая",
+"ateliertea_ginger_sachet.description": "Чайная смесь, в которой сладкая фруктовость персиков сочетается с теплой пряностью имбиря.",
+
+"ateliertea_grey_sachet.name": "Пакетик чая Леди Грей",
+"ateliertea_grey_sachet.description": "Более мягкая и нежная смесь, чем Эрл Грей, с оттенками лимона и апельсина.",
+
+"ateliertea_lemon_sachet.name": "Пакетик лимонно-имбирного чая",
+"ateliertea_lemon_sachet.description": "Бодрящая чайная смесь, приготовленная из цедры мини-лимонов и сушеного имбиря.",
+
+"ateliertea_mint_sachet.name": "Пакетик мятного чая",
+"ateliertea_mint_sachet.description": "Освежающая чайная смесь, которую часто заваривают для облегчения симптомов простуды и гриппа.",
+
+"ateliertea_berry_sachet.name": "Пакетик ягодного чая",
+"ateliertea_berry_sachet.description": "Насыщенная чайная смесь с ароматом свежих ягод.",
+
+"ateliertea_peach_sachet.name": "Пакетик чая с персиком и манго",
+"ateliertea_peach_sachet.description": "Восхитительная смесь вкуса персика и манго!",
+
+"ateliertea_pineapple_sachet.name": "Пакетик чая с ананасом и кокосом",
+"ateliertea_pineapple_sachet.description": "Сладкая смесь ананаса и освежающего кокоса мгновенно перенесет вас на Имбирный остров.",
+
+"ateliertea_pomegranate_sachet.name": "Пакетик зеленого чая с гранатом",
+"ateliertea_pomegranate_sachet.description": "Травянистая и яркая чайная смесь с яркими нотами граната.",
+
+"ateliertea_raspberry_sachet.name": "Пакетик малинового чая",
+"ateliertea_raspberry_sachet.description": "Нежная смесь чая Фернгилла со вкусом терпкой малины.",
+
+"ateliertea_rose_sachet.name": "Пакетик чая с лепестками роз",
+"ateliertea_rose_sachet.description": "Чайная смесь, приготовленная из лепестков и бутонов розового куста.",
+
+"ateliertea_sakura_sachet.name": "Пакетик чая с сакурой",
+"ateliertea_sakura_sachet.description": "Чайная смесь из законсервированных цветков вишни.",
+
+"ateliertea_strawberry_sachet.name": "Пакетик чая из дикой клубники",
+"ateliertea_strawberry_sachet.description": "Сладкая чайная смесь с дикой летней клубникой.",
+
+//TEA
+
+"ateliertea_apple_tea.name": "Осенний яблочный чай",
+"ateliertea_apple_tea.description": "Свежезаваренный яблочный чай.",
+
+"ateliertea_vanilla_tea.name": "Ванильный чай",
+"ateliertea_vanilla_tea.description": "Свежезаваренный ванильный чай.",
+
+"ateliertea_matcha_tea.name": "Церемониальная матча",
+"ateliertea_matcha_tea.description": "Свежезаваренная матча.",
+
+"ateliertea_cinnamon_tea.name": "Чай с корицей",
+"ateliertea_cinnamon_tea.description": "Свежезаваренный чай с корицей.",
+
+"ateliertea_chamomile_tea.name": "Уютный ромашковый чай",
+"ateliertea_chamomile_tea.description": "Свежезаваренный ромашковый чай.",
+
+"ateliertea_breakfast_tea.name": "Английский чай",
+"ateliertea_breakfast_tea.description": "Свежезаваренный английский чай.",
+
+"ateliertea_jasmine_tea.name": "Ароматный жасминовый чай",
+"ateliertea_jasmine_tea.description": "Свежезаваренный жасминовый чай.",
+
+"ateliertea_ginger_tea.name": "Имбирно-персиковый чай",
+"ateliertea_ginger_tea.description": "Свежезаваренный имбирно-персиковый чай.",
+
+"ateliertea_grey_tea.name": "Чай Леди Грей",
+"ateliertea_grey_tea.description": "Свежезаваренный чай Леди Грей.",
+
+"ateliertea_lemon_tea.name": "Лимонный имбирный чай",
+"ateliertea_lemon_tea.description": "Свежезаваренный лимонно-имбирный чай.",
+
+"ateliertea_mint_tea.name": "Мятный чай",
+"ateliertea_mint_tea.description": "Свежезаваренный мятный чай.",
+
+"ateliertea_berry_tea.name": "Ягодный чай",
+"ateliertea_berry_tea.description": "Свежезаваренный ягодный чай.",
+
+"ateliertea_peach_tea.name": "Чай с персиком и манго",
+"ateliertea_peach_tea.description": "Свежезаваренный чай с персиком и манго.",
+
+"ateliertea_pineapple_tea.name": "Ананасово-кокосовый чай",
+"ateliertea_pineapple_tea.description": "Свежезаваренный ананасово-кокосовый чай.",
+
+"ateliertea_pomegranate_tea.name": "Зеленый чай с гранатом",
+"ateliertea_pomegranate_tea.description": "Свежезаваренный зеленый чай с гранатом.",
+
+"ateliertea_raspberry_tea.name": "Малиновый чай",
+"ateliertea_raspberry_tea.description": "Свежезаваренный малиновый чай.",
+
+"ateliertea_rose_tea.name": "Чай с лепестками роз",
+"ateliertea_rose_tea.description": "Свежезаваренный чай с лепестками роз.",
+
+"ateliertea_sakura_tea.name": "Чай с сакурой",
+"ateliertea_sakura_tea.description": "Свежезаваренный чай с сакурой.",
+
+"ateliertea_strawberry_tea.name": "Чай из дикой клубники",
+"ateliertea_strawberry_tea.description": "Свежезаваренный клубничный чай.",
+
+
+//////////
+// MAIL //
+//////////
+
+"ateliertea_TeaProcessorRecipe.name":"Время создавать чайные пакетики своими руками!",
+"ateliertea_TeaProcessorRecipe.text":"@, ^^ Если ты действительно хочешь заняться завариванием чая, попробуй сделать один из этих аппаратов. В него встроен способ изготовления чайных пакетиков! Я бы с удовольствием попробовал любой чай, который ты создашь.^^ - Эллиот",
+
+"ateliertea_TeaKettleRecipe.name":"Поставьте чайник",
+"ateliertea_TeaKettleRecipe.text":"@, ^^ Я думаю, что чайник действительно добавит уюта в твой дом; Ты можешь сделать его самостоятельно! Только не забудь пригласить меня на чаепитие. ^^ - Кэролайн",
+
+"ateliertea_evelyn_gift.name":"Семена для тебя",
+"ateliertea_evelyn_gift.text":"@, ^^ Я слышала, ты узнаешь больше о заваривании чая! Ты в начале интересного приключения. Это семена ромашки из моего сада. Из цветов получается успокаивающий травяной чай, который помогает заснуть.^^ - Эвелин",
+
+"ateliertea_leah_gift.name":"Для твоего чайного сада",
+"ateliertea_leah_gift.text":"@, ^^ Как продвигается заваривание чая? Если у тебя возникли проблемы с добычей чайных листьев, я буду рада поделиться с тобой семенами! Из них получаются крепкие чайные кусты, и ты сможешь заварить столько чая, сколько захочешь.^^ - Лея",
+
+"ateliertea_maru_gift.name":"Приготовление комбучи",
+"ateliertea_maru_gift.text":"@, ^^ Ты знаешь, что комбучу можно ферментировать из чая? Эта чашка чая не для всех (извини за каламбур), но для меня, она шипучая и вкусная! Тебе это пригодится для приготовления комбучи.^^ - Мару",
+
+//////////////////
+// COFFEE BEGIN //
+//////////////////
+
+"ateliercoffee_CoffeeGrinder.name":"Кофемолка",
+"ateliercoffee_CoffeeGrinder.description":"Мельница для перемалывания зерен и ингредиентов в кофейные смеси по индивидуальным рецептам.",
+
+"atelierbarista_CoffeeBrewer.name":"Кофеварка",
+"atelierbarista_CoffeeBrewer.description":"Устройство для приготовления изысканного латте.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"ateliercoffee_CoffeeGrinder_InvalidItem.message": "Это невозможно обработать",
+"ateliercoffee_CoffeeGrinder_InvalidCount.message": "Требуется 15 кофейных зерен",
+
+"atelierbarista_CoffeeBrewer_InvalidItem.message": "Это невозможно обработать",
+"atelierbarista_CoffeeBrewer_InvalidCount.message": "Требуется крем",
+
+///////////////////
+// GROUND COFFEE //
+///////////////////
+
+"ateliercoffee_breakfast_ground.name":"Молотый кофе для завтрака",
+"ateliercoffee_breakfast_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+"ateliercoffee_vanilla_ground.name":"Молотый ванильный кофе",
+"ateliercoffee_vanilla_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+"ateliercoffee_cold_ground.name":"Смесь для Колд брю",
+"ateliercoffee_cold_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+"ateliercoffee_donut_ground.name":"Молотый кофе со вкусом пончиков",
+"ateliercoffee_donut_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+"ateliercoffee_hazelnut_ground.name":"Молотый кофе с фундуком",
+"ateliercoffee_hazelnut_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+"ateliercoffee_holiday_ground.name":"Праздничный молотый кофе",
+"ateliercoffee_holiday_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+"ateliercoffee_mocha_ground.name":"Молотый кофе Мокко",
+"ateliercoffee_mocha_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+"ateliercoffee_pumpkin_ground.name":"Молотый кофе с тыквенными специями",
+"ateliercoffee_pumpkin_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+"ateliercoffee_sweetheart_ground.name":"Молотый кофе для сладкоежек",
+"ateliercoffee_sweetheart_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+"ateliercoffee_coconut_ground.name":"Молотый кофе с обжаренным кокосом",
+"ateliercoffee_coconut_ground.description":"Свежемолотые кофейные зерна, упакованы и готовы превратиться в восхитительный кофе!",
+
+////////////
+// DRINKS //
+////////////
+
+"ateliercoffee_breakfast_latte.name": "Латте на завтрак",
+"ateliercoffee_breakfast_latte.description": "Свежесваренный кофе. Так уютно!",
+
+"ateliercoffee_vanilla_latte.name":"Ванильный латте",
+"ateliercoffee_vanilla_latte.description":"Свежесваренный кофе. Так уютно!",
+
+"ateliercoffee_cold_latte.name":"Классический Колд брю",
+"ateliercoffee_cold_latte.description":"Свежесваренный кофе. Так уютно!",
+
+"ateliercoffee_donut_latte.name":"Латте со вкусом пончиков",
+"ateliercoffee_donut_latte.description":"Свежесваренный кофе. Так уютно!",
+
+"ateliercoffee_hazelnut_latte.name":"Латте с фундуком",
+"ateliercoffee_hazelnut_latte.description":"Свежесваренный кофе. Так уютно!",
+
+"ateliercoffee_holiday_latte.name":"Праздничный латте",
+"ateliercoffee_holiday_latte.description":"Свежезаваренный кофе. Так уютно!",
+
+"ateliercoffee_mocha_latte.name":"Насыщенный Мокко-Латте",
+"ateliercoffee_mocha_latte.description":"Свежесваренный кофе. Так уютно!",
+
+"ateliercoffee_pumpkin_latte.name":"Уютный тыквенный латте со специями",
+"ateliercoffee_pumpkin_latte.description":"Свежесваренный кофе. Так уютно!",
+
+"ateliercoffee_sweetheart_latte.name":"Сладкий латте",
+"ateliercoffee_sweetheart_latte.description":"Свежесваренный кофе. Так уютно!",
+
+"ateliercoffee_coconut_latte.name":"Латте с обжаренным кокосом",
+"ateliercoffee_coconut_latte.description":"Свежесваренный кофе. Так уютно!",
+
+
+////////////
+/// MAIL ///
+////////////
+
+"atelierbarista_BrewerRecipe.text":"@, ^^ Иногда нужна собственная кофеварка, если ты поздно ложишься и не хочешь красться на кухню. Ой, верно, тебе ведь не нужно беспокоиться о том, чтобы не разбудить родителей. Ну, я уже начал это писать, так что... вот.^^ - Себастиан",
+"atelierbarista_GrinderRecipe.text":"@, ^^ Я считаю, что из свежего помола кофейных зерен можно приготовить превосходную чашку кофе, поэтому я решил поделиться с тобой чертежами моей любимой кофемолки. Просто помните: слишком много кофеина может вызвать нервозность, поэтому всё в меру!^^ - Харви",
+"ateliercoffee_haley.text":"@, ^^ Жаль, что у нас в городе нет симпатичной маленькой кофейни, но, по крайней мере, теперь я могу зайти к тебе и выпить хороший латте. Может, приготовишь мне мокко-латте в следующий раз, когда я приду?^^ - Хэйли",
+"ateliercoffee_george.text":"@, ^^ Эвелин пьет чай, но я никогда не откажусь от чашки крепкого кофе. Хотя однажды она приготовила мне ванильный латте... думаю, это было довольно вкусно. Во всяком случае, возможно, ты сможешь сделать его из этих стручков ванили.^^ - Джордж",
+"ateliercoffee_sebastian.text":"@, ^^ Тебе стоит приготовить Колд брю. В нем по-прежнему присутствует кофеин и вкус, но нет горечи, поэтому я определенно его рекомендую. Это может помочь создать смесь для Колд брю, если ты правильно ими воспользуешься.^^ - Себастиан",
+
+
+}

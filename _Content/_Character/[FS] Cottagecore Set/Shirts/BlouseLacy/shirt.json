@@ -1,0 +1,84 @@
+{
+  "Name": "Blouse (Lacy)",
+  // FRONT
+  "FrontShirt": {
+    "SleeveColors": [
+      [ 81, 81, 81 ],
+      [ 217, 217, 217 ],
+      [ 254, 254, 254 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  //RIGHT
+  },
+  "RightShirt": {
+    "SleeveColors": [
+      [ 81, 81, 81 ],
+      [ 217, 217, 217 ],
+      [ 254, 254, 254 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 8
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  //LEFT
+  },
+  "LeftShirt": {
+    "Flipped": true,
+    "SleeveColors": [
+      [ 81, 81, 81 ],
+      [ 217, 217, 217 ],
+      [ 254, 254, 254 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 8
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+	//BACK
+  },
+  "BackShirt": {
+    "SleeveColors": [
+      [ 81, 81, 81 ],
+      [ 217, 217, 217 ],
+      [ 254, 254, 254 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  }
+}

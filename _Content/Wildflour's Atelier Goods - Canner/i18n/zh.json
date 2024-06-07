@@ -1,0 +1,102 @@
+{
+
+    "jams_banana_maple_jam.name": "枫糖香蕉果酱",
+	"jams_banana_maple_jam.description": "使用成熟香蕉泥和在地枫糖浆制作的果酱。",
+
+	"jams_banana_split_jam.name": "香蕉船果酱",
+	"jams_banana_split_jam.description": "香蕉、草莓再加上一颗樱桃！",
+
+	"jams_blackberry_mint_jelly.name": "黑莓薄荷果酱",
+	"jams_blackberry_mint_jelly.description": "用觅食的黑莓和自家栽培薄荷制作的甜蜜果酱。",
+
+	"jams_blueberry_lavender_jelly.name": "蓝莓薰衣草果酱",
+	"jams_blueberry_lavender_jelly.description": "用新鲜蓝莓和觅食的薰衣草制作的甜蜜果酱。",
+	
+	"jams_blue_jazz_jelly.name": "蓝爵花酱",
+	"jams_blue_jazz_jelly.description": "用蓝爵花瓣制作的鲜花酱。",
+
+	"jams_chamomile_jelly.name":"洋甘菊花酱",
+	"jams_chamomile_jelly.description":"用觅食的洋甘菊花瓣制作的鲜花酱。",
+	
+	"jams_cherry_vanilla_jam.name": "香草樱桃果酱",
+	"jams_cherry_vanilla_jam.description": "用现摘樱桃和香草籽制作的果酱。",
+	
+	"jams_cinnamon_apple_preserves.name": "肉桂苹果果酱",
+	"jams_cinnamon_apple_preserves.description": "鲜甜清脆的苹果加上辛香肉桂——这些果酱很适合加进任何食物增添满满的秋日风味。",
+
+	"jams_cranberry_chutney.name": "蔓越莓甜酸酱",
+	"jams_cranberry_chutney.description": "蔓越莓果酱都过誉——在你说之前有先吃过这种灿烂的柑橘甜酸酱吗？",
+
+	"jams_crocus_jelly.name": "番红花酱",
+	"jams_crocus_jelly.description": "用野生番红花制作的鲜花酱；尝起来有点像香草还带点辣味。",
+
+	"jams_dandelion_jelly.name": "蒲公英花酱",
+	"jams_dandelion_jelly.description": "用觅食的蒲公英制作的鲜花酱；味道又甜又柔和。",
+
+	"jams_honey_apricot_preserves.name": "蜂蜜杏子果酱",
+	"jams_honey_apricot_preserves.description": "用在地蜂蜜及现摘杏子制作的果酱。",
+
+	"jams_honey_peach_preserves.name": "蜂蜜蜜桃果酱",
+	"jams_honey_peach_preserves.description": "用在地蜂蜜及现摘桃子制作的果酱。",
+
+	"jams_mango_chutney.name": "芒果甜酸酱",
+	"jams_mango_chutney.description": "这充满夏日风情的甜酸酱最适合搭配现捕现烤的鱼。",
+	
+	"jams_mixed_berry_preserves.name": "综合莓果果酱",
+	"jams_mixed_berry_preserves.description": "用三种新鲜莓果制作的果酱。",
+
+	"jams_peach_blossom_jelly.name":"樱花蜜桃果酱",
+	"jams_peach_blossom_jelly.description":"樱花瓣和现摘桃子炖煮成这美味又芳香的果酱。",
+	
+	"jams_peach_ginger_preserves.name": "蜜桃姜香果酱",
+	"jams_peach_ginger_preserves.description": "用桃子制作的果酱，还有加入一点来自姜岛的姜来增添风味。",
+	
+	"jams_rose_petal_jelly.name":"玫瑰花酱",
+	"jams_rose_petal_jelly.description":"用玫瑰花瓣制作的鲜花酱。",
+	
+	"jams_flower_dance_jelly.name": "特制花舞酱",
+	"jams_flower_dance_jelly.description": "为了庆祝鵜鹕镇一年一度的花舞节而调制的鲜花酱！",
+	
+	"jams_luau_jam.name": "特制夏威夷果酱",
+	"jams_luau_jam.description": "为了庆祝鵜鹕镇一年一度的夏威夷宴会而调制的果酱！",
+	
+	"jams_spirits_eve_jam.name": "特制万灵果酱",
+	"jams_spirits_eve_jam.description": "为了庆祝鵜鹕镇一年一度的万灵节而调制的果酱！",
+	
+	"jams_winter_star_jelly.name": "特制冬日星果酱",
+	"jams_winter_star_jelly.description": "为了庆祝鵜鹕镇一年一度的冬日星盛宴而调制的果酱！",
+	
+	"jams_lemon_marmalade.name": "春日柠檬柑橘酱",
+	"jams_lemon_marmalade.description": "清新浓郁的柠檬风味都要归功于一整颗的柠檬皮！",
+	
+	"jams_strawberry_rhubarb_jam.name": "草莓大黄果酱",
+	"jams_strawberry_rhubarb_jam.description": "甜蜜莓果跟酸大黄搭配而成的果酱。",
+
+	"jams_strawberry_rose_jelly.name":"玫瑰草莓果酱",
+	"jams_strawberry_rose_jelly.description": "现摘野生草莓和玫瑰花瓣炖煮成这美味芳香的果酱。",
+	
+	"jams_spangle_jelly.name": "夏季亮片花酱",
+	"jams_spangle_jelly.description": "用最好的夏季亮片制作的鲜花酱，味道就像一罐朝阳。",
+	
+	"jams_orange_marmalade.name": "盛夏橙子柑橘酱",
+	"jams_orange_marmalade.description": "清新浓郁的橙子风味都要归功于一整颗的橙子皮！",
+	
+	"jams_sunflower_jelly.name": "向日葵花酱",
+	"jams_sunflower_jelly.description": "用向日葵花瓣制作的鲜花酱，有股淡雅的坚果味。",	
+
+	"jams_lime_marmalade.name": "甜蜜莱姆柑橘酱",
+	"jams_lime_marmalade.description": "酸酸甜甜的莱姆风味都要归功于一整颗的莱姆皮！",
+
+	"jams_jasmine_jelly.name": "甜蜜茉莉花酱",
+	"jams_jasmine_jelly.description": "用现摘茉莉花制作的鲜花酱，新鲜又充满花卉风味。",
+
+	"jams_citrus_marmalade.name": "三重奏柑橘酱",
+	"jams_citrus_marmalade.description": "柠檬、莱姆和橙子的组合造就了满溢的柑橘味。",
+
+	"jams_tulip_jelly.name": "郁金香花酱",
+	"jams_tulip_jelly.description": "用现摘郁金香制作的鲜花酱，新鲜又充满花卉风味。",
+
+	"jams_vanilla_raspberry_preserves.name": "香草覆盆莓果酱",
+	"jams_vanilla_raspberry_preserves.description": "香草跟覆盆莓是最佳拍档——把这种果酱抹在吐司上或加进蛋糕里来享受这甜到你心底的佳肴！",
+
+}

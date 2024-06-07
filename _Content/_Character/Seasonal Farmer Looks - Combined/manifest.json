@@ -1,0 +1,17 @@
+{
+   "Name": "(CP) Farmer Seasonal - Outfits And Portraits",
+   "Author": "Liliet",
+   "Version": "2.0.0",
+   "Description": "Automatically change portraits and Fashion Sense outfits depending on context",
+   "UniqueID": "Liliet.SeasonalFarmerLooks",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": [ "Nexus:19503" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.0.0"
+   },
+   "Dependencies": [
+	{ "UniqueID": "nihilistzsche.FashionSenseOutfits", "IsRequired": false },
+	{ "UniqueID": "mistyspring.aedenthornFarmerPortraits", "IsRequired": false }
+  ]
+}

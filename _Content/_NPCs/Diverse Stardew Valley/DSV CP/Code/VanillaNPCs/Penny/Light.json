@@ -1,0 +1,340 @@
+{
+// PENNY DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Penny Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Penny", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Penny.Indoor":
+				{
+					"Id": "{{ModId}}_Penny_Indoor",
+					"Portrait": "Portraits/Penny_Indoor",
+					"Sprite": "Characters/Penny_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Penny.EggFestival":
+				{
+					"Id": "{{ModId}}_Penny_EggFestival",
+					"Portrait": "Portraits/Penny_EggFestival",
+					"Sprite": "Characters/Penny_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Penny.FlowerDance":
+				{
+					"Id": "{{ModId}}_Penny_FlowerDance",
+					"Portrait": "Portraits/Penny_FlowerDance",
+					"Sprite": "Characters/Penny_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Penny.Luau":
+				{
+					"Id": "{{ModId}}_Penny_Luau",
+					"Portrait": "Portraits/Penny_Luau",
+					"Sprite": "Characters/Penny_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Penny.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Penny_MoonlightJellies",
+					"Portrait": "Portraits/Penny_MoonlightJellies",
+					"Sprite": "Characters/Penny_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Penny.SVFair":
+				{
+					"Id": "{{ModId}}_Penny_SVFair",
+					"Portrait": "Portraits/Penny_SVFair",
+					"Sprite": "Characters/Penny_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Penny.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Penny_SpiritsEve",
+					"Portrait": "Portraits/Penny_SpiritsEve",
+					"Sprite": "Characters/Penny_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Penny.IceFestival":
+				{
+					"Id": "{{ModId}}_Penny_IceFestival",
+					"Portrait": "Portraits/Penny_IceFestival",
+					"Sprite": "Characters/Penny_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Penny.WinterStar":
+				{
+					"Id": "{{ModId}}_Penny_WinterStar",
+					"Portrait": "Portraits/Penny_WinterStar",
+					"Sprite": "Characters/Penny_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Penny.Swim":
+				{
+					"Id": "{{ModId}}_Penny_Swim",
+					"Portrait": "Portraits/Penny_Swim",
+					"Sprite": "Characters/Penny_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Penny.HotClimate":
+				{
+					"Id": "{{ModId}}_Penny_HotClimate",
+					"Portrait": "Portraits/Penny_HotClimate",
+					"Sprite": "Characters/Penny_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Penny Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Penny_Indoor, Characters/Penny_Indoor",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Penny_Fall_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PennyVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Penny Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Penny_EggFestival, Characters/Penny_EggFestival, Portraits/Penny_FlowerDance, Characters/Penny_FlowerDance, Portraits/Penny_Luau, Characters/Penny_Luau, Portraits/Penny_MoonlightJellies, Characters/Penny_MoonlightJellies, Portraits/Penny_SVFair, Characters/Penny_SVFair, Portraits/Penny_SpiritsEve, Characters/Penny_SpiritsEve, Portraits/Penny_IceFestival, Characters/Penny_IceFestival, Portraits/Penny_WinterStar, Characters/Penny_WinterStar, Portraits/Penny_Swim, Characters/Penny_Swim",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PennyVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Penny Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Penny_HotClimate, Characters/Penny_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Penny_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PennyVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Penny Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Indoor, Characters/Penny_Indoor",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Penny_{{Season}}_{{RandomPennyToken}}_Base.png"
+		},
+		{
+			"LogName": "Penny Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_HotClimate, Characters/Penny_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Penny_Summer_{{RandomPennyToken}}_Sun.png"
+		},
+		{
+			"LogName": "Penny Random Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_SpiritsEve, Characters/Penny_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Penny_SpiritsEve_{{RandomSpiritsEveThreeToken}}.png"
+		},
+		{
+			"LogName": "Penny Flower Queen Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_FlowerDance, Characters/Penny_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Penny_FlowerDance_1{{PennyFlowerDanceToken}}.png",
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Penny Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Beach, Characters/Penny_Beach",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Penny_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Penny Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Penny_Indoor",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Penny_Wedding_{{PennySeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+
+// COMPATIBILITY
+// PPAF
+		{
+			"LogName": "PPaF Compat - Penny No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Indoor, Portraits/Penny_EggFestival, Portraits/Penny_FlowerDance, Portraits/Penny_Luau, Portraits/Penny_MoonlightJellies, Portraits/Penny_SVFair, Portraits/Penny_IceFestival, Portraits/Penny_WinterStar, Portraits/Penny_Swim, Portraits/Penny_HotClimate, Portraits/Penny_Pyjamas",
+			"FromFile": "Art/VanillaNPCs/Penny/Portraits/{{DSV.Core/ConfigValue:PennyVariant}}/Overlays/Penny_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Penny": true
+			}
+		},
+		{
+			"LogName": "PPaF Compat - Penny No Sob",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Indoor, Portraits/Penny_Swim",
+			"FromFile": "Art/VanillaNPCs/Penny/Portraits/{{DSV.Core/ConfigValue:PennyVariant}}/Overlays/Penny_Sad.png",
+			"ToArea": { "X": 9, "Y": 320, "Width": 64, "Height": 64 },
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Penny": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains= FullyPlatonic, SexWithoutRomance": true,
+				"DSV.Core/ConfigValue:PennyVariant|contains= Vanilla, Mixed": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Penny Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Penny/Misc/Penny_Emoji_{{DSV.Core/ConfigValue:PennyVariant}}.png",
+			"ToArea": {"X": 9, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:PennyVariant |contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Penny Freckles",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Indoor, Portraits/Penny_HotClimate, Portraits/Penny_EggFestival, Portraits/Penny_FlowerDance, Portraits/Penny_MoonlightJellies, Portraits/Penny_SVFair, Portraits/Penny_SpiritsEve, Portraits/Penny_IceFestival, Portraits/Penny_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Overlays/Penny_Freckles.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:PennyFreckles |contains= True": true,
+				"DSV.Core/ConfigValue:PennyVariant |contains= Vanilla, Mixed": true
+			}
+		},
+		{
+			"LogName": "Penny Freckles - Sleeveless",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Swim, Portraits/Penny_Beach, Portraits/Penny_Luau",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Overlays/Penny_Freckles_Sleeveless.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:PennyFreckles |contains= True": true,
+				"DSV.Core/ConfigValue:PennyVariant |contains= Vanilla, Mixed": true
+			}
+		},
+		{
+			"LogName": "Penny Freckles - PPAF Compat",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Indoor, Portraits/Penny_Swim",
+			"FromFile": "Art/VanillaNPCs/Penny/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:PennyVariant}}/Overlays/Penny_Freckles_{{PennyPPAFFrecklesToken}}.png",
+			"ToArea": { "X": 9, "Y": 320, "Width": 64, "Height": 64 },
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:PennyFreckles |contains= True": true,
+				"DSV.Core/ConfigValue:PennyVariant |contains= Vanilla, Mixed": true
+			}
+		},
+		{
+			"LogName": "Penny Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Penny/Misc/Penny_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:PennyVariant}}.png",
+			"ToArea": {"X": 128, "Y": 272, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:PennyVariant|contains= Vanilla, Off": false
+			}
+		},
+		
+// MERMAID PENDANTS
+		{
+			"LogName": "Penny Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Indoor, Portraits/Penny_EggFestival, Portraits/Penny_FlowerDance, Portraits/Penny_Luau, Portraits/Penny_MoonlightJellies, Portraits/Penny_SVFair",
+			"FromFile": "Art/VanillaNPCs/Penny/Misc/MermaidPendants/Penny_Pendant_{{DSV.Core/ConfigValue:PennyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Penny |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Penny Pendants - Beach & Winter Star",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Beach, Portraits/Penny_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Penny/Misc/MermaidPendants/Penny_Pendant_{{DSV.Core/ConfigValue:PennyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Penny |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Penny Pendants - Life Cycle Penny/Sam Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Indoor, Portraits/Penny_EggFestival, Portraits/Penny_FlowerDance, Portraits/Penny_Luau, Portraits/Penny_MoonlightJellies, Portraits/Penny_SVFair",
+			"FromFile": "Art/VanillaNPCs/Penny/Misc/MermaidPendants/Penny_Pendant_{{DSV.Core/ConfigValue:PennyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Penny |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCyclePennySam": true,
+				"HasSeenEvent |contains= 59020025": true
+			}
+		},
+		{
+			"LogName": "Penny Pendants - Beach & Winter Star - Life Cycle Penny/Sam Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Beach, Portraits/Penny_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Penny/Misc/MermaidPendants/Penny_Pendant_{{DSV.Core/ConfigValue:PennyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Penny |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCyclePennySam": true,
+				"HasSeenEvent |contains= 59020025": true
+			}
+		}
+	]
+}

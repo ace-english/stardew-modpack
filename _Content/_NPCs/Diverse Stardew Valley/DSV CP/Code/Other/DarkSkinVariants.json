@@ -1,0 +1,261 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Modded Alex IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Alex": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:AlexVariant |contains= Samoan, Mexican}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.SnuffpotAlex}}' = 'true'": true
+            }
+        },
+        {
+            "LogName": "Modded Elliott IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Elliott": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:ElliottVariant |contains= Modded": true
+            }
+        },
+        {
+            "LogName": "Modded Emily IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Emily": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:EmilyVariant |contains= Black, Romani": true
+            }
+        },
+        {
+            "LogName": "Modded Gunther IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Gunther": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:GuntherVariant |contains= Modded": true
+            }
+        },
+        {
+            "LogName": "Modded Gus IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Gus": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true
+            }
+        },
+        {
+            "LogName": "Modded Haley IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Haley": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Black, Romani}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true
+            }
+        },
+        {
+            "LogName": "Modded Harvey IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Harvey": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh, ModdedNonSikh": true
+            }
+        },
+        {
+            "LogName": "Modded Leah IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Leah": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:LeahVariant |contains= Butch": true
+            }
+        },
+        {
+            "LogName": "Modded Lewis IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Lewis": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:LewisVariant |contains= Modded": true
+            }
+        },
+        {
+            "LogName": "Modded Marlon IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Marlon": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:MarlonVariant |contains= Modded": true
+            }
+        },
+        {
+            "LogName": "Modded Marnie IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Marnie": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:MarnieVariant |contains= Modded": true
+            }
+        },
+        {
+            "LogName": "Modded Penny IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Penny": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:PennyVariant |contains= Mixed": true
+            }
+        },
+        {
+            "LogName": "Modded Sam IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Sam": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:SamVariant |contains= ModdedDarker}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.OenimoSam}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.OyoshiSam}}' = 'true'": true
+            }
+        },
+        {
+            "LogName": "Modded Sandy IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Sandy": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:SandyVariant |contains= Modded": true
+            }
+        },
+        {
+            "LogName": "Modded Shane IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Shane": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:ShaneVariant |contains= Modded": true
+            }
+        },
+        {
+            "LogName": "Modded Willy IsDarkSkinned Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Willy": 
+                {
+                    "IsDarkSkinned": true
+                }
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:WillyVariant |contains= Tongan, TonganDisabled}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynWilly}}' = 'true'": true
+            }
+        }
+    ]
+}

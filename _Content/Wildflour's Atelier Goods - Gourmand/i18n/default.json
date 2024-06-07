@@ -1,0 +1,454 @@
+{
+	//////////////
+	// MACHINES //
+	//////////////
+	
+	"gourmetpantry_KitchenBlender.name": "Kitchen Blender",
+	"gourmetpantry_KitchenBlender.description": "A kitchen appliance that can blend nuts into milks, milks into cream, and more!",
+
+	"gourmetpantry_KitchenMortar.name": "Kitchen Mortar",
+	"gourmetpantry_KitchenMortar.description": "A kitchen appliance that can grind crops into flours and spice blends.",
+
+	"gourmetpantry_YogurtBowl.name": "Yogurt Bowl",
+	"gourmetpantry_YogurtBowl.description": "This can create creamy, flavored yogurts.",
+
+	"gourmetpantry_SyrupMaker.name": "Distilling Counter",
+	"gourmetpantry_SyrupMaker.description": "A kitchen station for distilling flavored syrups and other liquid concoctions.",
+
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"gourmetpantry_KitchenBlender_InvalidItem.message": "Cannot Process This",
+	"gourmetpantry_KitchenBlender_InvalidCount.message": "Requires More Ingredients",
+
+	"gourmetpantry_KitchenMortar_InvalidItem.message": "Cannot Process This",
+	"gourmetpantry_KitchenMortar_InvalidCount.message": "Requires More Ingredients",
+
+	"gourmetpantry_YogurtBowl_InvalidItem.message": "Cannot Process This",
+	"gourmetpantry_YogurtBowl_InvalidCount.message": "Requires More Ingredients",
+
+	"gourmetpantry_SyrupMaker_InvalidItem.message": "Cannot Process This",
+	"gourmetpantry_SyrupMaker_InvalidCount.message": "Requires More Ingredients",
+
+/////////////
+// STRINGS //
+/////////////
+
+	"gourmetpantry_flavored_syrup":"{0} Syrup",
+	"gourmetpantry_flavored_yogurt":"{0} Yogurt",
+
+	/////////////////////
+	//GENERIC ITEMS NEW//
+	/////////////////////
+
+	"gourmetpantry_flavored_syrup.name":"Syrup",
+	"gourmetpantry_flavored_syrup.description":"A simple syrup flavored with fruits or flowers. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_flavored_yogurt.name":"Yogurt",
+	"gourmetpantry_flavored_yogurt.description":"Made with milk from local cows, this yogurt is full of probiotics!",
+
+
+	/////////////////////////
+	// NUT & FRUIT BUTTERS //
+	/////////////////////////
+
+    "gourmetpantry_almond_butter.name": "Almond Nut Butter",
+	"gourmetpantry_almond_butter.description": "A creamy, butter-like spread made from almonds. Perfect for baking, spreading on toast and more!",
+	
+	"gourmetpantry_cashew_butter.name": "Cashew Nut Butter",
+	"gourmetpantry_cashew_butter.description": "A creamy, butter-like spread made from cashews. Perfect for baking, spreading on toast and more!",
+	
+	"gourmetpantry_coconut_butter.name": "Coconut Butter",
+	"gourmetpantry_coconut_butter.description": "A butter substitute made from the fat of the coconut. Perfect for baking dairy-free treats!",
+
+	"gourmetpantry_apple_butter.name": "Apple Butter",
+	"gourmetpantry_apple_butter.description": "Made with the farmer's secret family recipe - warm and sweet and perfect for morning toast or slathered on the side of a muffin",
+	
+	"gourmetpantry_honey_butter.name": "Honey Butter",
+	"gourmetpantry_honey_butter.description": "Made with the farmer's secret family recipe and the help of some lovely bumblebees.",
+	
+	"gourmetpantry_maple_butter.name": "Maple Butter",
+	"gourmetpantry_maple_butter.description": "Made with the farmer's secret family recipe and locally sourced maple syrup.",
+	
+	"gourmetpantry_pumpkin_butter.name": "Pumpkin Butter",
+	"gourmetpantry_pumpkin_butter.description": "Made with the farmer's secret family recipe - perfect for the pumpkin spice lover in all of us.",
+	
+	"gourmetpantry_lemon_curd.name": "Lemon Curd",
+	"gourmetpantry_lemon_curd.description": "Its luscious, creamy texture is due to high quality egg yolks from very happy chickens.",
+	
+	"gourmetpantry_lime_curd.name": "Lime Curd",
+	"gourmetpantry_lime_curd.description": "Its luscious, creamy texture is due to high quality egg yolks from very happy chickens.",
+
+	"gourmetpantry_orange_curd.name": "Orange Curd",
+	"gourmetpantry_orange_curd.description": "Its luscious, creamy texture is due to high quality egg yolks from very happy chickens.",
+	
+	"gourmetpantry_hazelnut_butter.name": "Hazelnut Nut Butter",
+	"gourmetpantry_hazelnut_butter.description": "A creamy, butter-like spread made from hazelnuts. Perfect for baking, spreading on toast and more!",
+	
+	"gourmetpantry_pistachio_butter.name": "Pistachio Nut Butter",
+	"gourmetpantry_pistachio_butter.description": "A creamy, butter-like spread made from Pistachio. Perfect for baking, spreading on toast and more",
+	
+	"gourmetpantry_walnut_butter.name": "Walnut Nut Butter",
+	"gourmetpantry_walnut_butter.description": "A creamy, butter-like spread made from walnuts. Perfect for baking, spreading on toast and more!",
+	
+	///////////
+	// MILKS //
+	///////////
+
+	"gourmetpantry_almond_milk.name": "Almond Milk",
+	"gourmetpantry_almond_milk.description": "An alterative milk made from almonds. A great substitute for dairy in baking, smoothies and more!",
+	
+	"gourmetpantry_cashew_milk.name": "Cashew Milk",
+	"gourmetpantry_cashew_milk.description": "An alterative milk made from cashews. A great substitute for dairy in baking, smoothies and more!",
+	
+	"gourmetpantry_coconut_milk.name": "Coconut Milk",
+	"gourmetpantry_coconut_milk.description": "An alterative milk made from coconuts. A great substitute for dairy in baking, smoothies and more!",
+	
+	"gourmetpantry_hazelnut_milk.name": "Hazelnut Milk",
+	"gourmetpantry_hazelnut_milk.description": "An alterative milk made from hazelnuts. A great substitute for dairy in baking, smoothies and more!",
+
+	"gourmetpantry_pistachio_milk.name": "Pistachio Milk",
+	"gourmetpantry_pistachio_milk.description": "An alterative milk made from pistachios. A great substitute for dairy in baking, smoothies and more!",
+
+	"gourmetpantry_rice_milk.name": "Rice Milk",
+	"gourmetpantry_rice_milk.description": "An alterative milk made from rice. A great substitute for dairy in baking, smoothies and more!",
+
+	///////////////
+	// CHOCOLATE //
+	///////////////
+
+	"gourmetpantry_bittersweet_chocolate.name": "Bittersweet Chocolate",
+	"gourmetpantry_bittersweet_chocolate.description": "Dark chocolate bar used in making sweets and treats.",
+	
+	"gourmetpantry_chocolate_chips.name": "Chocolate Morsels",
+	"gourmetpantry_chocolate_chips.description": "Also known as chocolate chips, an absolute MUST for anyone who loves to make cookies.",
+	
+    "gourmetpantry_semisweet_chocolate.name": "Semisweet Chocolate",
+	"gourmetpantry_semisweet_chocolate.description": "Slightly sweet chocolate bar used in making sweets and treats",
+
+	"gourmetpantry_white_chocolate.name": "White Chocolate",
+	"gourmetpantry_white_chocolate.description": "White chocolate bar used in making sweets and treats",
+
+	/////////////////
+	// INGREDIENTS //
+	/////////////////
+
+	"gourmetpantry_vanilla_extract.name": "Vanilla Extract",
+	"gourmetpantry_vanilla_extract.description": "Vanilla essence distilled from foraged vanilla beans. Used in baking sweet treats!",
+	
+	"gourmetpantry_confectioners_sugar.name": "Confectioner's Sugar",
+	"gourmetpantry_confectioners_sugar.description": "Also known as powdered sugar; this finely ground sugar has a bit of cornstarch added to keep it from clumping and it is often used to top baked goods",
+
+	"gourmetpantry_espresso_powder.name": "Espresso Powder",
+	"gourmetpantry_espresso_powder.description": "The kick of coffee flavor complements chocolatey baked goods nicely.",
+
+	"gourmetpantry_pectin.name": "Pectin",
+	"gourmetpantry_pectin.description": "a jelling agent made from fruits; essential to preserving jams and jellies.",
+	
+	"gourmetpantry_rainbow_sprinkles.name": "Rainbow Sprinkles",
+	"gourmetpantry_rainbow_sprinkles.description": "Also known as jimmies; whatever you call them, they are sweet and colorful and a perfect topping for almost anything!",
+
+	"gourmetpantry_brown_sugar.name": "Brown Sugar",
+	"gourmetpantry_brown_sugar.description": "Sugar that has not had all of the molasses removed from it in processing, resulting in a richer, earthier flavor that does well in muffins and certain cakes.",
+	
+	"gourmetpantry_cocoa_powder.name": "Cocoa Powder",
+	"gourmetpantry_cocoa_powder.description": "Cocoa that has been dried and transformed into a powder to be used in baked goods.",
+	
+	"gourmetpantry_olive_oil.name": "Olive Oil",
+	"gourmetpantry_olive_oil.description": "Cold-pressed olives means a superior olive oil for using on salads or sauteeing fresh veggies!",
+	
+
+	///////////
+	// DAIRY //
+	///////////
+
+	"gourmetpantry_butter.name": "Butter",
+	"gourmetpantry_butter.description": "Fresh cow's milk churned by hand into glorious butter.",
+
+	"gourmetpantry_buttermilk.name": "Buttermilk",
+	"gourmetpantry_buttermilk.description": "Although it smells a bit unpleasant, this ingredient helps create tender cornbread and fluffy pancakes.",
+
+	"gourmetpantry_cream.name": "Cream",
+	"gourmetpantry_cream.description": "Made from milk of local cows, this cream is essential to baking certain pastries and whipping up soft, fluffy frostings!",
+
+	"gourmetpantry_cream_cheese.name": "Cream Cheese",
+	"gourmetpantry_cream_cheese.description": "Made with milk from local cows, this cream cheese is perfect for cheesecake or just smearing on a bagel.",
+
+	////////////
+	// YOGURT //
+	////////////
+
+	"gourmetpantry_plain_yogurt.name": "Plain Yogurt",
+	"gourmetpantry_plain_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_ambrosia_yogurt.name": "Ambrosia Yogurt",
+	"gourmetpantry_ambrosia_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_ancient_yogurt.name": "Ancient Yogurt",
+	"gourmetpantry_ancient_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_apple_yogurt.name": "Apple Yogurt",
+	"gourmetpantry_apple_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_apricot_yogurt.name": "Apricot Yogurt",
+	"gourmetpantry_apricot_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_banana_yogurt.name": "Banana Yogurt",
+	"gourmetpantry_banana_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_blood_orange_yogurt.name": "Blood Orange Yogurt",
+	"gourmetpantry_blood_orange_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_blueberry_yogurt.name": "Blueberry Yogurt",
+	"gourmetpantry_blueberry_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_chocolate_yogurt.name": "Chocolate Yogurt",
+	"gourmetpantry_chocolate_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_cheesecake_yogurt.name": "Cheesecake Yogurt",
+	"gourmetpantry_cheesecake_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_vanilla_yogurt.name": "vanilla Yogurt",
+	"gourmetpantry_vanilla_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_caramel_yogurt.name": "Caramel Yogurt",
+	"gourmetpantry_caramel_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_cherry_yogurt.name": "Cherry Yogurt",
+	"gourmetpantry_cherry_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_coconut_yogurt.name": "Coconut Yogurt",
+	"gourmetpantry_coconut_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_coffee_yogurt.name": "Coffee Yogurt",
+	"gourmetpantry_coffee_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_creamsicle_yogurt.name": "Creamsicle Yogurt",
+	"gourmetpantry_creamsicle_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_custard_yogurt.name": "Custard Yogurt",
+	"gourmetpantry_custard_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_eversweet_yogurt.name": "Eversweet Yogurt",
+	"gourmetpantry_eversweet_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_candy_yogurt.name": "Candy Yogurt",
+	"gourmetpantry_candy_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_tiramisu_yogurt.name": "Tiramisu Yogurt",
+	"gourmetpantry_tiramisu_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_macaron_yogurt.name": "Macaron Yogurt",
+	"gourmetpantry_macaron_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_mango_yogurt.name": "Mango Yogurt",
+	"gourmetpantry_mango_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_melon_yogurt.name": "Melon Yogurt",
+	"gourmetpantry_melon_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_galaxy_yogurt.name": "Galaxy Yogurt",
+	"gourmetpantry_galaxy_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_moongold_yogurt.name": "Moongold Yogurt",
+	"gourmetpantry_moongold_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_orange_yogurt.name": "Orange Yogurt",
+	"gourmetpantry_orange_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_peach_yogurt.name": "Peach Yogurt",
+	"gourmetpantry_peach_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_mint_yogurt.name": "Mint Yogurt",
+	"gourmetpantry_mint_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_lemon_yogurt.name": "Lemon Yogurt",
+	"gourmetpantry_lemon_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_lime_yogurt.name": "Lime Yogurt",
+	"gourmetpantry_lime_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_pie_yogurt.name": "Pie Yogurt",
+	"gourmetpantry_pie_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_pineapple_yogurt.name": "Pineapple Yogurt",
+	"gourmetpantry_pineapple_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_pomegranate_yogurt.name": "Pomegranate Yogurt",
+	"gourmetpantry_pomegranate_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_pumpkin_yogurt.name": "Pumpkin Yogurt",
+	"gourmetpantry_pumpkin_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_shortcake_yogurt.name": "Shortcake Yogurt",
+	"gourmetpantry_shortcake_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_snow_yogurt.name": "Snow Yogurt",
+	"gourmetpantry_snow_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_sprinkle_yogurt.name": "Sprinkle Yogurt",
+	"gourmetpantry_sprinkle_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_starfruit_yogurt.name": "Starfruit Yogurt",
+	"gourmetpantry_starfruit_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_sugar_yogurt.name": "Sugar Blossom Yogurt",
+	"gourmetpantry_sugar_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_sunset_yogurt.name": "Sunset Mango Yogurt",
+	"gourmetpantry_sunset_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_gem_yogurt.name": "Sweet Gem Yogurt",
+	"gourmetpantry_gem_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_raspberry_yogurt.name": "Wild Raspberry Yogurt",
+	"gourmetpantry_raspberry_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	"gourmetpantry_strawberry_yogurt.name": "Wild Strawberry Yogurt",
+	"gourmetpantry_strawberry_yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+    
+	////////////
+	// SYRUPS //
+	////////////
+
+	"gourmetpantry_ancient_syrup.name": "Ancient Syrup",
+	"gourmetpantry_ancient_syrup.description": "A simple syrup flavored with ancient fruits. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_apple_syrup.name": "Apple Syrup",
+	"gourmetpantry_apple_syrup.description": "A simple syrup flavored with apples. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_apricot_syrup.name": "Apricot Syrup",
+	"gourmetpantry_apricot_syrup.description": "A simple syrup flavored with fapricots. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_banana_syrup.name": "Banana Syrup",
+	"gourmetpantry_banana_syrup.description": "A simple syrup flavored with bananas. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_blueberry_syrup.name": "Blueberry Syrup",
+	"gourmetpantry_blueberry_syrup.description": "A simple syrup flavored with fresh blueberries. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_caramel_syrup.name": "Caramel Syrup",
+	"gourmetpantry_caramel_syrup.description": "A simple syrup flavored with caramel. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_chai_syrup.name": "Chai Syrup",
+	"gourmetpantry_chai_syrup.description": "A simple syrup flavored with chai spices. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_cherry_syrup.name": "Cherry Syrup",
+	"gourmetpantry_cherry_syrup.description": "A simple syrup flavored with cherries. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_chocolate_syrup.name": "Chocolate Syrup",
+	"gourmetpantry_chocolate_syrup.description": "A simple syrup flavored with cocoa. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_cinnamon_syrup.name": "Cinnamon Syrup",
+	"gourmetpantry_cinnamon_syrup.description": "A simple syrup flavored with cinnamon. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_elderberry_syrup.name": "Elderberry Syrup",
+	"gourmetpantry_elderberry_syrup.description": "A simple syrup flavored with fresh elderberries. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_grenadine_syrup.name": "Grenadine Syrup",
+	"gourmetpantry_grenadine_syrup.description": "A simple syrup flavored with pomegranates. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_lavender_syrup.name": "Lavender Syrup",
+	"gourmetpantry_lavender_syrup.description": "A simple syrup flavored with fresh lavender. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_lemon_syrup.name": "Lemon Syrup",
+	"gourmetpantry_lemon_syrup.description": "A simple syrup flavored with fresh lemons. Perfect for making custom drinks and other gourmet goodies!",
+	
+	"gourmetpantry_lime_syrup.name": "Lime Syrup",
+	"gourmetpantry_lime_syrup.description": "A simple syrup flavored with fresh limes. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_mango_syrup.name": "Mango Syrup",
+	"gourmetpantry_mango_syrup.description": "A simple syrup flavored with fresh mangoes. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_matcha_syrup.name": "Matcha Syrup",
+	"gourmetpantry_matcha_syrup.description": "A simple syrup flavored with green tea. Perfect for making custom drinks and other gourmet goodies!",
+    
+
+	"gourmetpantry_marshmallow_syrup.name": "Marshmallow Syrup",
+	"gourmetpantry_marshmallow_syrup.description": "A simple syrup flavored with fresh marsh mallows. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_mint_syrup.name": "Mint Syrup",
+	"gourmetpantry_mint_syrup.description": "A simple syrup flavored with fresh mint. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_orange_syrup.name": "Orange Syrup",
+	"gourmetpantry_orange_syrup.description": "A simple syrup flavored with oranges. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_peach_syrup.name": "Peach Syrup",
+	"gourmetpantry_peach_syrup.description": "A simple syrup flavored with peaches. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_pineapple_syrup.name": "Pineapple Syrup",
+	"gourmetpantry_pineapple_syrup.description": "A simple syrup flavored with pineapples. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_pumpkin_syrup.name": "Pumpkin Spice Syrup",
+	"gourmetpantry_pumpkin_syrup.description": "A simple syrup flavored with pumpkin. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_gem_syrup.name": "Gem Syrup",
+	"gourmetpantry_gem_syrup.description": "A simple syrup flavored with sweet gem berries. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_raspberry_syrup.name": "Raspberry Syrup",
+	"gourmetpantry_raspberry_syrup.description": "A simple syrup flavored with wild raspberries. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_rose_syrup.name": "Rose Syrup",
+	"gourmetpantry_rose_syrup.description": "A simple syrup flavored with fresh rose. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_sakura_syrup.name": "Sakura Syrup",
+	"gourmetpantry_sakura_syrup.description": "A simple syrup flavored with fresh cherry blossoms. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_simple_syrup.name": "Simple Syrup",
+	"gourmetpantry_simple_syrup.description": "A simple syrup made from sugar and water. Perfect for making custom drinks and other gourmet goodies!",
+    
+	"gourmetpantry_vanilla_syrup.name": "Vanilla Syrup",
+	"gourmetpantry_vanilla_syrup.description": "A simple syrup flavored with fresh vanilla bean. Perfect for making custom drinks and other gourmet goodies!",
+
+	"gourmetpantry_wild_strawberry_syrup.name": "Strawberry Syrup",
+	"gourmetpantry_wild_strawberry_syrup.description": "A simple syrup flavored with strawberries. Perfect for making custom drinks and other gourmet goodies!",
+    
+	////////////
+	// FLOURS //
+	////////////
+
+	"gourmetpantry_almond_flour.name": "Almond Flour",
+	"gourmetpantry_almond_flour.description": "An artisanal flour made from ground almonds. Essential for macarons, but also great for gluten-free baking!",
+	
+	"gourmetpantry_bread_flour.name": "Bread Flour ",
+	"gourmetpantry_bread_flour.description": "An artisanal flour made from a heartier type of wheat. Its higher protein content lends itself well to most bread doughs.",
+	
+	"gourmetpantry_cake_flour.name": "Cake Flour",
+	"gourmetpantry_cake_flour.description": "An artisanal flour made especially for baking cakes. Its lower protein content means your cakes come out softer with a pleasant, tender crumb.",
+
+	"gourmetpantry_coconut_flour.name": "Coconut Flour",
+	"gourmetpantry_coconut_flour.description": "An artisanal flour made from ground coconut. Used in making certain dumplings, it is also great for gluten-free baking!",
+	
+	"gourmetpantry_corn_flour.name": "Corn Flour",
+	"gourmetpantry_corn_flour.description": "An artisanal flour made from ground corn. Essential for dishes like tamales or corn bread.",
+	
+	"gourmetpantry_pastry_flour.name": "Pastry Flour",
+	"gourmetpantry_pastry_flour.description": "An artisanal flour for making pastries. Lower in protein like cake flour, this ingredient is an essential for many pies and pastries.",
+	
+	"gourmetpantry_rice_flour.name": "Rice Flour",
+	"gourmetpantry_rice_flour.description": "An artisanal flour made from ground rice. Essential for dumplings and mochi, but also great for gluten-free baking!",
+	
+
+//////////
+// MAIL //
+//////////
+
+	"gourmetpantry_MortarRecipe.name":"A Kitchen Mortar for Your Home!",
+    "gourmetpantry_MortarRecipe.text":"@, ^^ If you craft yourself one of these kitchen mortars, you can start making specialty flours and sugars! They are great for baking with, but you can also sell them to me for a nice profit. It'd be nice to expand the shop's offerings!^^ - Pierre",
+    
+	"gourmetpantry_BlenderRecipe.name":"Let's Get Blending!",
+	"gourmetpantry_BlenderRecipe.text":"@, ^^ I invested in one of these kitchen blenders once people started asking me for coffee with dairy free milks. Those are too expensive to import, so now I make my own, but you should try it too. I think it can make other things too, so see what you can find out!^^ - Gus",
+    
+	"gourmetpantry_YogurtBowlRecipe.name":"Probiotics Power!",
+	"gourmetpantry_YogurtBowlRecipe.text":"@, ^^ Yogurt is full of live, active cultures which are essential to a healthy gut biome! It also happens to taste delicious when flavored with fresh crops from your farm. Enjoy! ^^ - Harvey",
+    
+	"gourmetpantry_harvey.name":"No Peanuts for Me!",
+	"gourmetpantry_harvey.text":"@, ^^ One of my patients was allergic to peanuts and his mother told me how she swapped to tree nut butters. I was skeptical at first, but now I am a huge fan of almond butter! I bet you could make pistachio butter with these.^^ - Harvey",
+    
+	"gourmetpantry_jodi.name":"Dairy Free at Last",
+	"gourmetpantry_jodi.text":"@, ^^ Don't tell anyone, but I have a feeling Sam might be lactose intolerant. I secretly switched to dairy free milk and he hasn't noticed the difference but I sure have...^^ -Jodi",
+    
+	"gourmetpantry_marnie.name":"A Gift from My Cows",
+	"gourmetpantry_marnie.text":"@, ^^ So Gus shared the blueprints for a Kitchen Blender? That's fantastic! You can make a lot of specialty dairy products with that. This fresh cream from my cows should help you get started.^^ -Marnie",
+	
+}

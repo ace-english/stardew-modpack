@@ -1,0 +1,1046 @@
+{
+    "Changes": [
+
+{
+    "LogName": "Add Faerie Garden Seeds to Seed Maker",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)25", "OutputRules"],
+    "Entries": {
+        "wildflour.ateliercrops_seedmaker_geranium": {
+            "Id": "wildflour.ateliercrops_seedmaker_geranium",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_geranium",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_geranium_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_geranium_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_daisy": {
+            "Id": "wildflour.ateliercrops_seedmaker_daisy",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_daisy",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_daisy_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_daisy_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_primrose": {
+            "Id": "wildflour.ateliercrops_seedmaker_primrose",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_primrose",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_primrose_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_primrose_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_chiffon": {
+            "Id": "wildflour.ateliercrops_seedmaker_chiffon",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_chiffon",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_chiffon_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_chiffon_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },  
+
+        "wildflour.ateliercrops_seedmaker_violet": {
+            "Id": "wildflour.ateliercrops_seedmaker_violet",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_violet",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_violet_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_violet_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_dawn_lily": {
+            "Id": "wildflour.ateliercrops_seedmaker_dawn_lily",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_dawn_lily",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_dawn_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_dawn_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_dusk_lily": {
+            "Id": "wildflour.ateliercrops_seedmaker_dusk_lily",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_dusk_lily",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_dusk_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_dusk_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        }
+
+    },
+    "MoveEntries": [
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_geranium",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_daisy",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_primrose",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_chiffon",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_violet",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_dawn_lily",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_dusk_lily",
+            "BeforeId": "Default"
+        }
+    ]
+},
+
+// bushes
+
+//Add Machines to Big Craftables
+
+{
+    "LogName": "Add Berry Bush Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "wildflour.ateliercrops_ThistleBush": {
+            "Name": "wildflour.ateliercrops_ThistleBush",
+            "DisplayName": "{{i18n: ateliercrops_ThistleBush.name}}",
+            "Description": "{{i18n: ateliercrops_ThistleBush.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliercrops\\FaerieBushes_{{Season}}",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+        },
+        "wildflour.ateliercrops_MugwortBush": {
+            "Name": "wildflour.ateliercrops_MugwortBush",
+            "DisplayName": "{{i18n: ateliercrops_MugwortBush.name}}",
+            "Description": "{{i18n: ateliercrops_MugwortBush.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliercrops\\FaerieBushes_{{Season}}",
+            "SpriteIndex": 1,
+            "CustomFields": {}
+        },
+        "wildflour.ateliercrops_ValerianBush": {
+        "Name": "wildflour.ateliercrops_ValerianBush",
+        "DisplayName": "{{i18n: ateliercrops_ValerianBush.name}}",
+        "Description": "{{i18n: ateliercrops_ValerianBush.description}}",
+        "Price": 50,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\wildflour.ateliercrops\\FaerieBushes_{{Season}}",
+        "SpriteIndex": 2,
+        "CustomFields": {}
+        },
+        "wildflour.ateliercrops_RoseFlaxBush": {
+            "Name": "wildflour.ateliercrops_RoseFlaxBush",
+            "DisplayName": "{{i18n: ateliercrops_RoseFlaxBush.name}}",
+            "Description": "{{i18n: ateliercrops_RoseFlaxBush.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliercrops\\FaerieBushes_{{Season}}",
+            "SpriteIndex": 3,
+            "CustomFields": {}
+        },
+        "wildflour.ateliercrops_VioletFlaxBush": {
+            "Name": "wildflour.ateliercrops_VioletFlaxBush",
+            "DisplayName": "{{i18n: ateliercrops_VioletFlaxBush.name}}",
+            "Description": "{{i18n: ateliercrops_VioletFlaxBush.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliercrops\\FaerieBushes_{{Season}}",
+            "SpriteIndex": 4,
+            "CustomFields": {}
+        },
+        "wildflour.ateliercrops_AmberBush": {
+            "Name": "wildflour.ateliercrops_AmberBush",
+            "DisplayName": "{{i18n: ateliercrops_AmberBush.name}}",
+            "Description": "{{i18n: ateliercrops_AmberBush.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliercrops\\FaerieBushes_{{Season}}",
+            "SpriteIndex": 5,
+            "CustomFields": {}
+        },
+        "wildflour.ateliercrops_JadeBush": {
+            "Name": "wildflour.ateliercrops_JadeBush",
+            "DisplayName": "{{i18n: ateliercrops_JadeBush.name}}",
+            "Description": "{{i18n: ateliercrops_JadeBush.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliercrops\\FaerieBushes_{{Season}}",
+            "SpriteIndex": 6,
+            "CustomFields": {}
+        },
+        "wildflour.ateliercrops_LapisBush": {
+            "Name": "wildflour.ateliercrops_LapisBush",
+            "DisplayName": "{{i18n: ateliercrops_LapisBush.name}}",
+            "Description": "{{i18n: ateliercrops_LapisBush.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliercrops\\FaerieBushes_{{Season}}",
+            "SpriteIndex": 7,
+            "CustomFields": {}
+        },
+        "wildflour.ateliercrops_PearlBush": {
+            "Name": "wildflour.ateliercrops_PearlBush",
+            "DisplayName": "{{i18n: ateliercrops_PearlBush.name}}",
+            "Description": "{{i18n: ateliercrops_PearlBush.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliercrops\\FaerieBushes_{{Season}}",
+            "SpriteIndex": 8,
+            "CustomFields": {}
+        },
+
+    }
+},
+
+{
+    "LogName": "Add Faerie Bush Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+            "(BC)wildflour.ateliercrops_ThistleBush": {
+            "HasInput": false,
+            "HasOutput": false,
+            "InteractMethod": null,
+            "OutputRules": [
+                {
+                  "Id": "Default Thistle",
+                  "Triggers": [
+                    {
+                        "Id": "OutputCollected",
+                        "Trigger": "OutputCollected",
+                        "RequiredItemId": null,
+                        "RequiredTags": null,
+                        "RequiredCount": 1,
+                        "Condition": null
+                    },
+                    {
+                      "Id": "DayUpdate",
+                      "Trigger": "DayUpdate",
+                      "RequiredItemId": null,
+                      "RequiredTags": null,
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": true,
+                  "OutputItem": [
+                    {
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": "SEASON Summer Fall",
+                      "Id": "wildflour.ateliercrops_thistle",
+                      "ItemId": "(O)wildflour.ateliercrops_thistle",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "QualityModifiers": null,
+                      "QualityModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null
+                    }
+                  ],
+                  "MinutesUntilReady": -1,
+                  "DaysUntilReady": 3,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+            ],
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "PreventTimePass": ["Rain"],
+            "ReadyTimeModifierMode": "Stack"
+          },
+            "(BC)wildflour.ateliercrops_MugwortBush": {
+            "HasInput": false,
+            "HasOutput": false,
+            "InteractMethod": null,
+            "OutputRules": [
+                {
+                  "Id": "Default Mugwort",
+                  "Triggers": [
+                    {
+                        "Id": "OutputCollected",
+                        "Trigger": "OutputCollected",
+                        "RequiredItemId": null,
+                        "RequiredTags": null,
+                        "RequiredCount": 1,
+                        "Condition": null
+                    },
+                    {
+                      "Id": "DayUpdate",
+                      "Trigger": "DayUpdate",
+                      "RequiredItemId": null,
+                      "RequiredTags": null,
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": true,
+                  "OutputItem": [
+                    {
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": "SEASON Summer Fall",
+                      "Id": "wildflour.ateliercrops_mugwort",
+                      "ItemId": "(O)wildflour.ateliercrops_mugwort",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "QualityModifiers": null,
+                      "QualityModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null
+                    }
+                  ],
+                  "MinutesUntilReady": -1,
+                  "DaysUntilReady": 3,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+            ],
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "PreventTimePass": ["Rain"],
+            "ReadyTimeModifierMode": "Stack"
+          },
+            "(BC)wildflour.ateliercrops_ValerianBush": {
+            "HasInput": false,
+            "HasOutput": false,
+            "InteractMethod": null,
+            "OutputRules": [
+                {
+                  "Id": "Default Valerian",
+                  "Triggers": [
+                    {
+                        "Id": "OutputCollected",
+                        "Trigger": "OutputCollected",
+                        "RequiredItemId": null,
+                        "RequiredTags": null,
+                        "RequiredCount": 1,
+                        "Condition": null
+                    },
+                    {
+                      "Id": "DayUpdate",
+                      "Trigger": "DayUpdate",
+                      "RequiredItemId": null,
+                      "RequiredTags": null,
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": true,
+                  "OutputItem": [
+                    {
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": "SEASON Summer",
+                      "Id": "wildflour.ateliercrops_valerian",
+                      "ItemId": "(O)wildflour.ateliercrops_valerian",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "QualityModifiers": null,
+                      "QualityModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null
+                    }
+                  ],
+                  "MinutesUntilReady": -1,
+                  "DaysUntilReady": 2,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+            ],
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "PreventTimePass": ["Rain"],
+            "ReadyTimeModifierMode": "Stack"
+          },
+            "(BC)wildflour.ateliercrops_RoseFlaxBush": {
+            "HasInput": false,
+            "HasOutput": false,
+            "InteractMethod": null,
+            "OutputRules": [
+                {
+                  "Id": "Default Rose Flax",
+                  "Triggers": [
+                    {
+                        "Id": "OutputCollected",
+                        "Trigger": "OutputCollected",
+                        "RequiredItemId": null,
+                        "RequiredTags": null,
+                        "RequiredCount": 1,
+                        "Condition": null
+                    },
+                    {
+                      "Id": "DayUpdate",
+                      "Trigger": "DayUpdate",
+                      "RequiredItemId": null,
+                      "RequiredTags": null,
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": true,
+                  "OutputItem": [
+                    {
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": "SEASON Spring Summer Fall",
+                      "Id": "wildflour.ateliercrops_rose_flax",
+                      "ItemId": "(O)wildflour.ateliercrops_rose_flax",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "QualityModifiers": null,
+                      "QualityModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null
+                    }
+                  ],
+                  "MinutesUntilReady": -1,
+                  "DaysUntilReady": 5,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+            ],
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "PreventTimePass": ["Rain"],
+            "ReadyTimeModifierMode": "Stack"
+          },
+            "(BC)wildflour.ateliercrops_VioletFlaxBush": {
+            "HasInput": false,
+            "HasOutput": false,
+            "InteractMethod": null,
+            "OutputRules": [
+                {
+                  "Id": "Default Violet Flax",
+                  "Triggers": [
+                    {
+                        "Id": "OutputCollected",
+                        "Trigger": "OutputCollected",
+                        "RequiredItemId": null,
+                        "RequiredTags": null,
+                        "RequiredCount": 1,
+                        "Condition": null
+                    },
+                    {
+                      "Id": "DayUpdate",
+                      "Trigger": "DayUpdate",
+                      "RequiredItemId": null,
+                      "RequiredTags": null,
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": true,
+                  "OutputItem": [
+                    {
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": "SEASON Spring Summer Fall",
+                      "Id": "wildflour.ateliercrops_violet_flax",
+                      "ItemId": "(O)wildflour.ateliercrops_violet_flax",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "QualityModifiers": null,
+                      "QualityModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null
+                    }
+                  ],
+                  "MinutesUntilReady": -1,
+                  "DaysUntilReady": 5,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+            ],
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "PreventTimePass": ["Rain"],
+            "ReadyTimeModifierMode": "Stack"
+          },
+            "(BC)wildflour.ateliercrops_AmberBush": {
+            "HasInput": false,
+            "HasOutput": false,
+            "InteractMethod": null,
+            "OutputRules": [
+                {
+                  "Id": "Default Amber Moondrop",
+                  "Triggers": [
+                    {
+                        "Id": "OutputCollected",
+                        "Trigger": "OutputCollected",
+                        "RequiredItemId": null,
+                        "RequiredTags": null,
+                        "RequiredCount": 1,
+                        "Condition": null
+                    },
+                    {
+                      "Id": "DayUpdate",
+                      "Trigger": "DayUpdate",
+                      "RequiredItemId": null,
+                      "RequiredTags": null,
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": true,
+                  "OutputItem": [
+                    {
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": "SEASON Summer, WEATHER Here Storm",
+                      "Id": "wildflour.ateliercrops_amber_moondrop",
+                      "ItemId": "(O)wildflour.ateliercrops_amber_moondrop",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "QualityModifiers": null,
+                      "QualityModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null
+                    }
+                  ],
+                  "MinutesUntilReady": -1,
+                  "DaysUntilReady": 1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+            ],
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "PreventTimePass": ["Sun"],
+            "ReadyTimeModifierMode": "Stack"
+          },
+            "(BC)wildflour.ateliercrops_JadeBush": {
+            "HasInput": false,
+            "HasOutput": false,
+            "InteractMethod": null,
+            "OutputRules": [
+                {
+                  "Id": "Default Jade Moondrop",
+                  "Triggers": [
+                    {
+                        "Id": "OutputCollected",
+                        "Trigger": "OutputCollected",
+                        "RequiredItemId": null,
+                        "RequiredTags": null,
+                        "RequiredCount": 1,
+                        "Condition": null
+                    },
+                    {
+                      "Id": "DayUpdate",
+                      "Trigger": "DayUpdate",
+                      "RequiredItemId": null,
+                      "RequiredTags": null,
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": true,
+                  "OutputItem": [
+                    {
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": "SEASON Fall WEATHER Here Rain",
+                      "Id": "wildflour.ateliercrops_jade_moondrop",
+                      "ItemId": "(O)wildflour.ateliercrops_jade_moondrop",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "QualityModifiers": null,
+                      "QualityModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null
+                    }
+                  ],
+                  "MinutesUntilReady": -1,
+                  "DaysUntilReady": 1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+            ],
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "PreventTimePass": ["Sun"],
+            "ReadyTimeModifierMode": "Stack"
+          },
+            "(BC)wildflour.ateliercrops_LapisBush": {
+            "HasInput": false,
+            "HasOutput": false,
+            "InteractMethod": null,
+            "OutputRules": [
+                {
+                  "Id": "Default Lapis Moondrop",
+                  "Triggers": [
+                    {
+                        "Id": "OutputCollected",
+                        "Trigger": "OutputCollected",
+                        "RequiredItemId": null,
+                        "RequiredTags": null,
+                        "RequiredCount": 1,
+                        "Condition": null
+                    },
+                    {
+                      "Id": "DayUpdate",
+                      "Trigger": "DayUpdate",
+                      "RequiredItemId": null,
+                      "RequiredTags": null,
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": true,
+                  "OutputItem": [
+                    {
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": "SEASON Spring, WEATHER Here Rain",
+                      "Id": "wildflour.ateliercrops_lapis_moondrop",
+                      "ItemId": "(O)wildflour.ateliercrops_lapis_moondrop",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "QualityModifiers": null,
+                      "QualityModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null
+                    }
+                  ],
+                  "MinutesUntilReady": -1,
+                  "DaysUntilReady": 1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+            ],
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "PreventTimePass": ["Sun"],
+            "ReadyTimeModifierMode": "Stack"
+          },
+            "(BC)wildflour.ateliercrops_PearlBush": {
+            "HasInput": false,
+            "HasOutput": false,
+            "InteractMethod": null,
+            "OutputRules": [
+                {
+                  "Id": "Default Pearl Moondrop",
+                  "Triggers": [
+                    {
+                        "Id": "OutputCollected",
+                        "Trigger": "OutputCollected",
+                        "RequiredItemId": null,
+                        "RequiredTags": null,
+                        "RequiredCount": 1,
+                        "Condition": null
+                    },
+                    {
+                      "Id": "DayUpdate",
+                      "Trigger": "DayUpdate",
+                      "RequiredItemId": null,
+                      "RequiredTags": null,
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": true,
+                  "OutputItem": [
+                    {
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": "SEASON Winter",
+                      "Id": "wildflour.ateliercrops_pearl_moondrop",
+                      "ItemId": "(O)wildflour.ateliercrops_pearl_moondrop",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "QualityModifiers": null,
+                      "QualityModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null
+                    }
+                  ],
+                  "MinutesUntilReady": -1,
+                  "DaysUntilReady": 1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+            ],
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "ReadyTimeModifierMode": "Stack"
+          }
+    }
+}
+
+]
+}

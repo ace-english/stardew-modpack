@@ -1,0 +1,97 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Specialty Jams Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [               
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Sandy", 1],
+                    "Value": "wildflour.jams_blueberry_lavender_jelly",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Marnie", 1],
+                    "Value": "wildflour.jams_mixed_berry_preserves",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Robin", 1],
+                    "Value": "wildflour.jams_honey_peach_preserves",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Demetrius", 1],
+                    "Value": "wildflour.jams_strawberry_rhubarb_jam",
+                    "Delimiter": " "
+                },
+
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Haley", 1],
+                    "Value": "wildflour.jams_pumpkin_latte wildflour.jams_sweetheart_latte",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Harvey", 1],
+                    "Value": "wildflour_jam_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Lewis", 1],
+                    "Value": "wildflour.jams_lemon_marmalade",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Penny", 1],
+                    "Value": "wildflour.jams_peach_blossom_jelly",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Evelyn", 1],
+                    "Value": "wildflour.jams_rose_petal_jelly",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jas", 1],
+                    "Value": "wildflour.jams_rose_petal_jelly",
+                    "Delimiter": " "
+                },
+
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Sebastian", 7],
+                    "Value": "wildflour_jam_item",
+                    "Delimiter": " "
+                },
+
+            
+         
+
+
+            ]
+            }
+
+]
+}

@@ -1,0 +1,52 @@
+{
+    "Format": "2.0.0",
+
+    "Changes": [
+      
+        //Include Objects
+
+        {
+            "LogName": "Vanilla Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_vanilla.json"
+        },
+
+        {
+            "LogName": "Wild Food Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_wildfood.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"}
+        },
+
+        //Include Cooking Recipes
+
+        {
+            "LogName": "Cooking Recipes",
+            "Action": "Include",
+            "FromFile": "Data/recipes_vanilla.json"
+        },
+
+        {
+            "LogName": "Cooking Recipes",
+            "Action": "Include",
+            "FromFile": "Data/recipes_wildfood.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"}
+        },
+
+        //Include Gift Tastes
+
+        {
+            "LogName": "Jam Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/gifttastes.json"
+        },
+        
+        //Include Textures
+
+        {
+            "LogName": "Jam Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Trans Sam Pregnancy Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Sam": 
+                {
+                    "SpouseAdopts": "TRUE"
+                }
+            },
+            "When":
+            {
+				"HasMod |contains= kdau.PregnancyRole": false,
+				"HasMod |contains= Hana.PregnancyChoice": false,
+				"HasMod |contains= Rubecula.ParrotParents": false,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true,
+                "Query: '{{DSV.Core/ConfigValue:SamVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.OyoshiSam}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.OenimoSam}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynSam}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.ChesSam}}' = 'true'": true
+            }
+        },
+        {
+            "LogName": "Trans Penny Pregnancy Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Penny": 
+                {
+                    "SpouseAdopts": "TRUE"
+                }
+            },
+            "When":
+            {
+				"HasMod |contains= kdau.PregnancyRole": false,
+				"HasMod |contains= Hana.PregnancyChoice": false,
+				"HasMod |contains= Rubecula.ParrotParents": false,
+				"DSV.Core/ConfigValue:TransPenny |contains= true": true,
+                "Query: '{{DSV.Core/ConfigValue:PennyVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.BittybeePenny}}' = 'true'": true
+            }
+        },
+        {
+            "LogName": "Butch Leah Pregnancy Edit",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+            "Fields":
+            {
+                "Leah": 
+                {
+                    "SpouseAdopts": "TRUE"
+                }
+            },
+            "When":
+            {
+				"HasMod |contains= kdau.PregnancyRole": false,
+				"HasMod |contains= Hana.PregnancyChoice": false,
+				"HasMod |contains= Rubecula.ParrotParents": false,
+                "Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Butch}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AshbrassLeah}}' = 'true'": true
+            }
+        }
+    ]
+}

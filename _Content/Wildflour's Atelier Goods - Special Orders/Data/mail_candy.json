@@ -1,0 +1,37 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.ateliercandy_SO2_reward": "{{i18n: ateliercandy_SO2_reward.text}} %item id (O)245 25 %%[#]{{i18n: ateliercandy_SO2_reward.name}}", 
+                    "wildflour.ateliercandy_SO3_reward": "{{i18n: ateliercandy_SO3_reward.text}} %item id (O)wildflour.ateliercrops_vanillaseeds 5 %%[#]{{i18n: ateliercandy_SO3_reward.name}}", 
+                    "wildflour.ateliercandy_SO4_reward": "{{i18n: ateliercandy_SO4_reward.text}} %item id (O)749 15 %%[#]{{i18n: ateliercandy_SO4_reward.name}}", 
+                    "wildflour.ateliercandy_SO5_reward": "{{i18n: ateliercandy_SO5_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: ateliercandy_SO5_reward.name}}", 
+                     
+                }
+            },
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.ateliercandy_SO2mail/n wildflour.ateliercandy_SO2_complete/x wildflour.ateliercandy_SO2_reward": "null",
+                "wildflour.ateliercandy_SO3mail/n wildflour.ateliercandy_SO3_complete/x wildflour.ateliercandy_SO3_reward": "null",
+                "wildflour.ateliercandy_SO4mail/n wildflour.ateliercandy_SO4_complete/x wildflour.ateliercandy_SO4_reward": "null",			
+                "wildflour.ateliercandy_SO5mail/n wildflour.ateliercandy_SO5_complete/x wildflour.ateliercandy_SO5_reward": "null"	
+            }
+            },            
+
+]
+}

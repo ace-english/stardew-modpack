@@ -1,0 +1,126 @@
+{
+    "Changes": [
+        
+
+        {
+            "LogName":"Add Atelier Floral Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierfloral_vanilla_bouquet": {
+                    "Name": "wildflour.atelierfloral_vanilla_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_vanilla_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_vanilla_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 11
+            },
+                "wildflour.atelierfloral_vanilla_perfume": {
+                    "Name": "wildflour.atelierfloral_vanilla_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_vanilla_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_vanilla_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 27
+            },   
+                "wildflour.atelierfloral_dried_vanilla": {
+                    "Name": "wildflour.atelierfloral_dried_vanilla",
+                    "DisplayName": "{{i18n:atelierfloral_dried_vanilla.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_vanilla.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 75
+            },
+                "wildflour.atelierfloral_vanilla_incense": {
+                    "Name": "wildflour.atelierfloral_vanilla_incense",
+                    "DisplayName": "{{i18n:atelierfloral_vanilla_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_vanilla_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 100
+            }
+        }
+        },
+
+        {
+            "LogName":"Add Atelier Floral Modded Crops Candles & Soap",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": { "HasMod: |contains=wildflour.honeybees": true },
+            "Entries": {
+                "wildflour.atelierfloral_vanilla_candles": {
+                    "Name": "wildflour.atelierfloral_vanilla_candles",
+                    "DisplayName": "{{i18n:atelierfloral_vanilla_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_vanilla_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 59
+            },
+                "wildflour.atelierfloral_vanilla_soap": {
+                    "Name": "wildflour.atelierfloral_vanilla_soap",
+                    "DisplayName": "{{i18n:atelierfloral_vanilla_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_vanilla_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 43
+            }
+        }
+        }
+
+    ]
+}

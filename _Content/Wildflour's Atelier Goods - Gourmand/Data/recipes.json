@@ -1,0 +1,22 @@
+{
+  "Changes": [
+    
+//////////////////////
+// CRAFTING RECIPES //
+//////////////////////
+
+    {
+	    "LogName": "GP Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+			"wildflour.gourmetpantry_KitchenMortar": "335 2 388 50 80 2/Home/wildflour.gourmetpantry_KitchenMortar/true/{{RecipeConfig}}/{{i18n: gourmetpantry_KitchenMortar.name}}",
+			"wildflour.gourmetpantry_KitchenBlender": "335 2 388 50 330 10/Home/wildflour.gourmetpantry_KitchenBlender/true/{{RecipeConfig}}/{{i18n: gourmetpantry_KitchenBlender.name}}",
+      "wildflour.gourmetpantry_YogurtBowl": "388 50 186 2 419 1/Home/wildflour.gourmetpantry_YogurtBowl/true/{{RecipeConfig}}/{{i18n: gourmetpantry_YogurtBowl.name}}",
+      "wildflour.gourmetpantry_SyrupMaker": "335 2 388 50 245 10/Home/wildflour.gourmetpantry_SyrupMaker/true/default/{{i18n: gourmetpantry_SyrupMaker.name}}"
+			
+      }
+    }
+
+  ]
+}

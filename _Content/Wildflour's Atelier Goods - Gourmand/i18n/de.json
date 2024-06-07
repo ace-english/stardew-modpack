@@ -1,0 +1,436 @@
+{
+	//////////////
+	// MACHINES //
+	//////////////
+	
+	"gourmetpantry_KitchenBlender.name": "Küchenmixer",
+	"gourmetpantry_KitchenBlender.description": "Ein Küchengerät, das Nüsse zu Milch, Milch zu Sahne und mehr mixen kann!",
+
+	"gourmetpantry_KitchenMortar.name": "Küchenmörser",
+	"gourmetpantry_KitchenMortar.description": "Ein Küchengerät, das Gewürzmischungen und Getreide zu Mehl mahlen kann.",
+
+	"gourmetpantry_YogurtBowl.name": "Joghurtschüssel",
+	"gourmetpantry_YogurtBowl.description": "Mit dieser Schüssel lassen sich cremige, aromatisierte Joghurts herstellen.",
+
+	"gourmetpantry_SyrupMaker.name": "Destillierungstresen",
+	"gourmetpantry_SyrupMaker.description": "Eine Küchenstation zum Destillieren von aromatisierten Sirupen und anderen flüssigen Zubereitungen.",
+
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"gourmetpantry_KitchenBlender_InvalidItem.message": "Dies kann nicht verarbeitet werden",
+	"gourmetpantry_KitchenBlender_InvalidCount.message": "Benötigt mehr der Zutat",
+
+	"gourmetpantry_KitchenMortar_InvalidItem.message": "Dies kann nicht verarbeitet werden",
+	"gourmetpantry_KitchenMortar_InvalidCount.message": "Benötigt mehr der Zutat",
+
+	"gourmetpantry_YogurtBowl_InvalidItem.message": "Dies kann nicht verarbeitet werden",
+	"gourmetpantry_YogurtBowl_InvalidCount.message": "Benötigt mehr der Zutat",
+
+	"gourmetpantry_SyrupMaker_InvalidItem.message": "Dies kann nicht verarbeitet werden",
+	"gourmetpantry_SyrupMaker_InvalidCount.message": "Benötigt mehr der Zutat",
+
+	/////////////
+	// STRINGS //
+	/////////////
+
+	"gourmetpantry_flavored_syrup":"{0} Sirup",
+	"gourmetpantry_flavored_yogurt":"{0} Joghurt",
+
+	/////////////////////////
+	// NUT & FRUIT BUTTERS //
+	/////////////////////////
+
+    "gourmetpantry_almond_butter.name": "Mandelnuss-Butter",
+	"gourmetpantry_almond_butter.description": "Ein cremiger, butterartiger Aufstrich aus Mandeln. Perfekt zum Backen, auf Toast und mehr!",
+	
+	"gourmetpantry_cashew_butter.name": "Cashewnuss-Butter",
+	"gourmetpantry_cashew_butter.description": "Ein cremiger, butterartiger Aufstrich aus Cashewnüssen. Perfekt zum Backen, auf Toast und mehr!",
+	
+	"gourmetpantry_coconut_butter.name": "Kokosnuss-Butter",
+	"gourmetpantry_coconut_butter.description": "Ein cremiger, butterartiger Aufstrich aus Kokosnuss. Perfekt zum Backen, auf Toast und mehr!",
+
+	"gourmetpantry_apple_butter.name": "Apfel-Butter",
+	"gourmetpantry_apple_butter.description": "Hergestellt nach dem geheimen Familienrezept des Bauern – warm und süß und perfekt für den Morgentoast oder auf die Seite eines Muffins gestrichen.",
+	
+	"gourmetpantry_honey_butter.name": "Honig-Butter",
+	"gourmetpantry_honey_butter.description": "Hergestellt nach dem geheimen Familienrezept des Bauern und der Hilfe einiger netter Hummeln.",
+	
+	"gourmetpantry_maple_butter.name": "Ahorn-Butter",
+	"gourmetpantry_maple_butter.description": "Hergestellt nach dem geheimen Familienrezept des Bauern und Ahornsirup aus der Region.",
+	
+	"gourmetpantry_pumpkin_butter.name": "Kürbis-Butter",
+	"gourmetpantry_pumpkin_butter.description": "Hergestellt nach dem geheimen Familienrezept des Bauern – perfekt für alle Kürbisgewürzfans.",
+	
+	"gourmetpantry_lemon_curd.name": "Zitronen-Quark",
+	"gourmetpantry_lemon_curd.description": "Seine köstliche, cremige Konsistenz verdankt es dem hochwertigen Eigelb von sehr glücklichen Hühnern.",
+	
+	"gourmetpantry_lime_curd.name": "Limetten-Quark",
+	"gourmetpantry_lime_curd.description": "Seine köstliche, cremige Konsistenz verdankt es dem hochwertigen Eigelb von sehr glücklichen Hühnern.",
+
+	"gourmetpantry_orange_curd.name": "Orange-Quark",
+	"gourmetpantry_orange_curd.description": "Seine köstliche, cremige Konsistenz verdankt es dem hochwertigen Eigelb von sehr glücklichen Hühnern.",
+	
+	"gourmetpantry_hazelnut_butter.name": "Haselnuss-Butter",
+	"gourmetpantry_hazelnut_butter.description": "Ein cremiger, butterartiger Aufstrich aus Haselnüssen. Perfekt zum Backen, auf Toast und mehr!",
+	
+	"gourmetpantry_pistachio_butter.name": "Pistaziennuss-Butter",
+	"gourmetpantry_pistachio_butter.description": "Ein cremiger, butterartiger Aufstrich aus Pistazien. Perfekt zum Backen, auf Toast und mehr!",
+	
+	"gourmetpantry_walnut_butter.name": "Walnuss-Butter",
+	"gourmetpantry_walnut_butter.description": "Ein cremiger, butterartiger Aufstrich aus Walnüssen. Perfekt zum Backen, auf Toast und mehr!",
+	
+	///////////
+	// MILKS //
+	///////////
+
+	"gourmetpantry_almond_milk.name": "Mandel-Milch",
+	"gourmetpantry_almond_milk.description": "Ein Milchersatz aus Mandeln. Eine großartige Alternative für Milchprodukte beim Backen, in Smoothies und vielem mehr!",
+	
+	"gourmetpantry_cashew_milk.name": "Cashew-Milch",
+	"gourmetpantry_cashew_milk.description": "Ein Milchersatz aus Cashewnüssen. Eine großartige Alternative für Milchprodukte beim Backen, in Smoothies und vielem mehr!",
+	
+	"gourmetpantry_coconut_milk.name": "Kokusnuss-Milch",
+	"gourmetpantry_coconut_milk.description": "Ein Milchersatz aus Kokosnüssen. Eine großartige Alternative für Milchprodukte beim Backen, in Smoothies und vielem mehr!",
+	
+	"gourmetpantry_hazelnut_milk.name": "Haselnuss-Milch",
+	"gourmetpantry_hazelnut_milk.description": "Ein Milchersatz aus Haselnüssen. Eine großartige Alternative für Milchprodukte beim Backen, in Smoothies und vielem mehr!",
+
+	"gourmetpantry_pistachio_milk.name": "Pistazien-Milch",
+	"gourmetpantry_pistachio_milk.description": "Ein Milchersatz aus Pistazien. Eine großartige Alternative für Milchprodukte beim Backen, in Smoothies und vielem mehr!",
+
+	"gourmetpantry_rice_milk.name": "Reis-Milch",
+	"gourmetpantry_rice_milk.description": "Ein Milchersatz aus Reis. Eine großartige Alternative für Milchprodukte beim Backen, in Smoothies und vielem mehr!",
+
+	///////////////
+	// CHOCOLATE //
+	///////////////
+
+	"gourmetpantry_bittersweet_chocolate.name": "Zartbitter-Schokolade",
+	"gourmetpantry_bittersweet_chocolate.description": "Dunkler Schokoladenriegel, der zur Herstellung von Süßigkeiten und Leckereien verwendet wird.",
+	
+	"gourmetpantry_chocolate_chips.name": "Schokoladen-Bissen",
+	"gourmetpantry_chocolate_chips.description": "Auch bekannt als Schokoladenchips, ein absolutes MUSS für alle, die gerne Kekse backen.",
+	
+    "gourmetpantry_semisweet_chocolate.name": "Vollmilch-Schokolade",
+	"gourmetpantry_semisweet_chocolate.description": "Leicht süßer Schokoladenriegel, der zur Herstellung von Süßigkeiten und Leckereien verwendet wird.",
+
+	"gourmetpantry_white_chocolate.name": "Weiße Schokolade",
+	"gourmetpantry_white_chocolate.description": "Weißer Schokoladenriegel zur Herstellung von Süßigkeiten und Leckereien.",
+
+	/////////////////
+	// INGREDIENTS //
+	/////////////////
+
+	"gourmetpantry_vanilla_extract.name": "Vanille-Extrakt",
+	"gourmetpantry_vanilla_extract.description": "Vanilleessenz destilliert aus gesammelten Vanilleschoten. Wird beim Backen von süßen Leckereien genutzt!",
+	
+	"gourmetpantry_confectioners_sugar.name": "Konditorei-Zucker",
+	"gourmetpantry_confectioners_sugar.description": "Auch als Puderzucker bekannt; Diesem fein gemahlenen Zucker wird etwas Maisstärke zugesetzt, damit er nicht verklumpt, und er wird oft als Belag für Backwaren verwendet.",
+
+	"gourmetpantry_espresso_powder.name": "Espresso-Puder",
+	"gourmetpantry_espresso_powder.description": "Der Kaffeegeschmack passt hervorragend zu schokoladigen Backwaren.",
+
+	"gourmetpantry_pectin.name": "Pektine",
+	"gourmetpantry_pectin.description": "Ein Geliermittel aus Früchten; Unverzichtbar für die Konservierung von Marmeladen und Gelees.",
+	
+	"gourmetpantry_rainbow_sprinkles.name": "Regenbogenstreusel",
+	"gourmetpantry_rainbow_sprinkles.description": "Auch als Jimmys bekannt; Wie auch immer du sie nennst, sie sind süß und farbenfroh und ein perfektes Topping für fast alles!",
+
+	"gourmetpantry_brown_sugar.name": "Brauner Zucker",
+	"gourmetpantry_brown_sugar.description": "Zucker, dem bei der Verarbeitung nicht die gesamte Melasse entzogen wurde, was zu einem reichhaltigeren, erdigeren Geschmack führt, der sich gut für Muffins und bestimmte Kuchen eignet.",
+	
+	"gourmetpantry_cocoa_powder.name": "Kakao-Puder",
+	"gourmetpantry_cocoa_powder.description": "Kakao, der getrocknet und in ein Pulver für die Verwendung in Backwaren umgewandelt wurde.",
+	
+	"gourmetpantry_olive_oil.name": "Olivenöl",
+	"gourmetpantry_olive_oil.description": "Kalt gepresste Oliven bedeuten ein hochklassiges Olivenöl für Salate oder zum Sautieren von frischem Gemüse!",
+	
+
+	///////////
+	// DAIRY //
+	///////////
+
+	"gourmetpantry_butter.name": "Butter",
+	"gourmetpantry_butter.description": "Frische Kuhmilch, von Hand zu herrlicher Butter verarbeitet.",
+
+	"gourmetpantry_buttermilk.name": "Buttermilch",
+	"gourmetpantry_buttermilk.description": "Obwohl es etwas unangenehm riecht, hilft diese Zutat dabei, zartes Maisbrot und lockere Pfannkuchen zuzubereiten.",
+
+	"gourmetpantry_cream.name": "Sahne",
+	"gourmetpantry_cream.description": "Diese aus Milch einheimischer Kühe hergestellte Sahne ist zum Backen bestimmter Backwaren und zum Zubereiten weicher, lockerer Glasuren unerlässlich!",
+
+	"gourmetpantry_cream_cheese.name": "Frischkäse",
+	"gourmetpantry_cream_cheese.description": "Dieser Frischkäse wird aus Milch von regionalen Kühen hergestellt und eignet sich perfekt für Käsekuchen oder einfach zum Bestreichen eines Bagels.",
+
+	////////////
+	// YOGURT //
+	////////////
+
+	"gourmetpantry_plain_yogurt.name": "Einfacher Joghurt",
+	"gourmetpantry_plain_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_ambrosia_yogurt.name": "Ambrosia-Joghurt",
+	"gourmetpantry_ambrosia_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_ancient_yogurt.name": "Uralter Joghurt",
+	"gourmetpantry_ancient_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_apple_yogurt.name": "Apfel-Joghurt",
+	"gourmetpantry_apple_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_apricot_yogurt.name": "Aprikosen-Joghurt",
+	"gourmetpantry_apricot_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_banana_yogurt.name": "Bananen-Joghurt",
+	"gourmetpantry_banana_yogurt.description": "Hergestellt aus der Milch regionaler Kühe, ist dieser Joghurt voller Probiotika!",
+    
+	"gourmetpantry_blood_orange_yogurt.name": "Blutorangen-Joghurt",
+	"gourmetpantry_blood_orange_yogurt.description": "Hergestellt aus der Milch regionaler Kühe, ist dieser Joghurt voller Probiotika!",
+    
+	"gourmetpantry_blueberry_yogurt.name": "Blaubeeren-Joghurt",
+	"gourmetpantry_blueberry_yogurt.description": "Hergestellt aus der Milch regionaler Kühe, ist dieser Joghurt voller Probiotika!",
+    
+	"gourmetpantry_chocolate_yogurt.name": "Chocolate-Joghurt",
+	"gourmetpantry_chocolate_yogurt.description": "Hergestellt aus der Milch regionaler Kühe, ist dieser Joghurt voller Probiotika!",
+    
+	"gourmetpantry_cheesecake_yogurt.name": "Käsekuchen-Joghurt",
+	"gourmetpantry_cheesecake_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_vanilla_yogurt.name": "Vanille-Joghurt",
+	"gourmetpantry_vanilla_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_caramel_yogurt.name": "Karamell-Joghurt",
+	"gourmetpantry_caramel_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_cherry_yogurt.name": "Kirsch-Joghurt",
+	"gourmetpantry_cherry_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_coconut_yogurt.name": "Kokosnuss-Joghurt",
+	"gourmetpantry_coconut_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_coffee_yogurt.name": "Kaffee-Joghurt",
+	"gourmetpantry_coffee_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_creamsicle_yogurt.name": "Creamsicle-Joghurt",
+	"gourmetpantry_creamsicle_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_custard_yogurt.name": "Custard-Joghurt",
+	"gourmetpantry_custard_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_eversweet_yogurt.name": "Immersüß-Joghurt",
+	"gourmetpantry_eversweet_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_candy_yogurt.name": "Süßigkeiten-Joghurt",
+	"gourmetpantry_candy_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_tiramisu_yogurt.name": "Tiramisu-Joghurt",
+	"gourmetpantry_tiramisu_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_macaron_yogurt.name": "Macaron-Joghurt",
+	"gourmetpantry_macaron_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_mango_yogurt.name": "Mango-Joghurt",
+	"gourmetpantry_mango_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_melon_yogurt.name": "Melonen-Joghurt",
+	"gourmetpantry_melon_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_galaxy_yogurt.name": "Galaxien-Joghurt",
+	"gourmetpantry_galaxy_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_moongold_yogurt.name": "Moongold-Joghurt",
+	"gourmetpantry_moongold_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_orange_yogurt.name": "Orangen-Joghurt",
+	"gourmetpantry_orange_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_peach_yogurt.name": "Pfirsich-Joghurt",
+	"gourmetpantry_peach_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_mint_yogurt.name": "Minz-Joghurt",
+	"gourmetpantry_mint_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_lemon_yogurt.name": "Zitronen-Joghurt",
+	"gourmetpantry_lemon_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_lime_yogurt.name": "Limetten-Joghurt",
+	"gourmetpantry_lime_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_pie_yogurt.name": "Kuchen-Joghurt",
+	"gourmetpantry_pie_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_pineapple_yogurt.name": "Ananas-Joghurt",
+	"gourmetpantry_pineapple_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_pomegranate_yogurt.name": "Granatapfel-Joghurt",
+	"gourmetpantry_pomegranate_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_pumpkin_yogurt.name": "Kürbis-Joghurt",
+	"gourmetpantry_pumpkin_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_shortcake_yogurt.name": "Shortcake-Joghurt",
+	"gourmetpantry_shortcake_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_snow_yogurt.name": "Schnee-Joghurt",
+	"gourmetpantry_snow_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_sprinkle_yogurt.name": "Joghurt mit Streuseln",
+	"gourmetpantry_sprinkle_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_starfruit_yogurt.name": "Sternfrucht-Joghurt",
+	"gourmetpantry_starfruit_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_sugar_yogurt.name": "Zucker Blossom-Joghurt",
+	"gourmetpantry_sugar_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_sunset_yogurt.name": "Sunset Mango-Joghurt",
+	"gourmetpantry_sunset_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_gem_yogurt.name": "Süßer Edelstein-Joghurt",
+	"gourmetpantry_gem_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_raspberry_yogurt.name": "Wilde Himbeere-Joghurt",
+	"gourmetpantry_raspberry_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	"gourmetpantry_strawberry_yogurt.name": "Wilde Erdbeere-Joghurt",
+	"gourmetpantry_strawberry_yogurt.description": "Dieser Joghurt wird aus Milch von regionalen Kühen hergestellt und ist voller Probiotika!",
+    
+	////////////
+	// SYRUPS //
+	////////////
+
+	"gourmetpantry_ancient_syrup.name": "Uralter Sirup",
+	"gourmetpantry_ancient_syrup.description": "Ein einfacher Sirup mit dem Geschmack der Uralten Frucht. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_apple_syrup.name": "Apfel-Sirup",
+	"gourmetpantry_apple_syrup.description": "Ein einfacher Sirup mit Apfel-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_apricot_syrup.name": "Aprikosen-Sirup",
+	"gourmetpantry_apricot_syrup.description": "Ein einfacher Sirup mit Aprikosen-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_banana_syrup.name": "Bananen-Sirup",
+	"gourmetpantry_banana_syrup.description": "Ein einfacher Sirup mit Bananen-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_blueberry_syrup.name": "Blaubeeren-Sirup",
+	"gourmetpantry_blueberry_syrup.description": "Ein einfacher Sirup mit dem Geschmack frischer Blaubeeren. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_caramel_syrup.name": "Karamell-Sirup",
+	"gourmetpantry_caramel_syrup.description": "Ein einfacher Sirup mit Karamell-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_chai_syrup.name": "Chai-Sirup",
+	"gourmetpantry_chai_syrup.description": "Ein einfacher Sirup mit Chai-Gewürzen. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_cherry_syrup.name": "Kirsch-Sirup",
+	"gourmetpantry_cherry_syrup.description": "Ein einfacher Sirup mit Kirschen-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_chocolate_syrup.name": "Schokoladen-Sirup",
+	"gourmetpantry_chocolate_syrup.description": "Ein einfacher Sirup mit Kakao-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_elderberry_syrup.name": "Holunder-Sirup",
+	"gourmetpantry_elderberry_syrup.description": "Ein einfacher Sirup mit dem Geschmack von frischem Holunder. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_grenadine_syrup.name": "Grenadine",
+	"gourmetpantry_grenadine_syrup.description": "Ein einfacher Sirup mit Granatapfel-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_lavender_syrup.name": "Lavendel-Sirup",
+	"gourmetpantry_lavender_syrup.description": "Ein einfacher Sirup mit dem Geschmack von frischem Lavendel. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_lemon_syrup.name": "Zitronen-Sirup",
+	"gourmetpantry_lemon_syrup.description": "Ein einfacher Sirup mit dem Geschmack frischer Zitronen. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+	
+	"gourmetpantry_lime_syrup.name": "Limetten-Sirup",
+	"gourmetpantry_lime_syrup.description": "Ein einfacher Sirup mit dem Geschmack frischer Limetten. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_mango_syrup.name": "Mango-Sirup",
+	"gourmetpantry_mango_syrup.description": "Ein einfacher Sirup mit dem Geschmack frischer Mangos. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_marshmallow_syrup.name": "Marshmallow-Sirup",
+	"gourmetpantry_marshmallow_syrup.description": "Ein einfacher Sirup mit dem Geschmack von frischen Marshmallows. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_mint_syrup.name": "Minz-Sirup",
+	"gourmetpantry_mint_syrup.description": "Ein einfacher Sirup mit dem Geschmack von frischer Minze. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_orange_syrup.name": "Orangen-Sirup",
+	"gourmetpantry_orange_syrup.description": "Ein einfacher Sirup mit Orangen-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_peach_syrup.name": "Pfirsich-Sirup",
+	"gourmetpantry_peach_syrup.description": "Ein einfacher Sirup mit Pfirsich-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_pineapple_syrup.name": "Ananas-Sirup",
+	"gourmetpantry_pineapple_syrup.description": "Ein einfacher Sirup mit Ananas-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_pumpkin_syrup.name": "Kürbisgewürz-Sirup",
+	"gourmetpantry_pumpkin_syrup.description": "Ein einfacher Sirup mit Kürbis-Geschmack. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_gem_syrup.name": "Edelstein-Sirup",
+	"gourmetpantry_gem_syrup.description": "Ein einfacher Sirup mit dem Geschmack der Süßen Edelsteinbeere. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_raspberry_syrup.name": "Wilde Himbeeren-Sirup",
+	"gourmetpantry_raspberry_syrup.description": "Ein einfacher Sirup mit dem Geschmack von Wilden Himbeeren. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_rose_syrup.name": "Rosen-Sirup",
+	"gourmetpantry_rose_syrup.description": "Ein einfacher Sirup mit dem Geschmack von frischen Rosen. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_sakura_syrup.name": "Sakura-Sirup",
+	"gourmetpantry_sakura_syrup.description": "Ein einfacher Sirup mit dem Geschmack von frischen Kirsch-Blüten. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_simple_syrup.name": "Einfacher Sirup",
+	"gourmetpantry_simple_syrup.description": "Ein einfacher Sirup aus Zucker und Wasser. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	"gourmetpantry_vanilla_syrup.name": "Vanille-Sirup",
+	"gourmetpantry_vanilla_syrup.description": "Ein einfacher Sirup mit dem Geschmack von frischen Vanille. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+
+	"gourmetpantry_wild_strawberry_syrup.name": "Wilde Erdbeeren-Sirup",
+	"gourmetpantry_wild_strawberry_syrup.description": "Ein einfacher Sirup mit dem Geschmack von Wilden Erdbeeren. Perfekt für die Herstellung von maßgeschneiderten Getränken und anderen Gourmet-Genialitäten!",
+    
+	////////////
+	// FLOURS //
+	////////////
+
+	"gourmetpantry_almond_flour.name": "Mandel-Mehl",
+	"gourmetpantry_almond_flour.description": "Ein handwerklich hergestelltes Mehl aus gemahlenen Mandeln. Unverzichtbar für Macarons, aber auch ideal zum glutenfreien Backen!",
+	
+	"gourmetpantry_bread_flour.name": "Brotmehl",
+	"gourmetpantry_bread_flour.description": "Ein handwerklich hergestelltes Mehl aus einer herzhafteren Weizensorte. Sein höherer Proteingehalt eignet sich gut für die meisten Brotteige.",
+	
+	"gourmetpantry_cake_flour.name": "Kuchenmehl",
+	"gourmetpantry_cake_flour.description": "Ein handwerklich Mehl, speziell zum Backen von Kuchen hergestellt. Durch den geringeren Proteingehalt werden deine Kuchen weicher und haben eine angenehm zarte Krume.",
+
+	"gourmetpantry_coconut_flour.name": "Kokusnuss-Mehl",
+	"gourmetpantry_coconut_flour.description": "Ein handwerklich hergestelltes Mehl aus gemahleneen Kokosnüssen. Es wird zur Herstellung bestimmter Dumplings verwendet und eignet sich auch hervorragend zum glutenfreien Backen!",
+	
+	"gourmetpantry_corn_flour.name": "Mais-Mehl",
+	"gourmetpantry_corn_flour.description": "Ein handwerklich hergestelltes Mehl aus gemahlenem Mais. Unverzichtbar für Gerichte wie Tamales oder Maisbrot.",
+	
+	"gourmetpantry_pastry_flour.name": "Gebäckmehl",
+	"gourmetpantry_pastry_flour.description": "Ein handwerklich hergestelltes Mehl zur Herstellung von Gebäck. Diese Zutat hat einen geringeren Proteingehalt als Kuchenmehl und ist für viele Pies und Backwaren unverzichtbar.",
+	
+	"gourmetpantry_rice_flour.name": "Reis-Mehl",
+	"gourmetpantry_rice_flour.description": "Ein handwerklich hergestelltes Mehl aus gemahlenem Reis. Unverzichtbar für Dumplings und Mochi, aber auch ideal zum glutenfreien Backen!",
+	
+
+//////////
+// MAIL //
+//////////
+
+	"gourmetpantry_MortarRecipe.name":"Ein Küchenmörser für dein Zuhause!",
+    "gourmetpantry_MortarRecipe.text":"@, ^^ Wenn du einen dieser Küchenmörser selbst herstellst, kannst du mit der Herstellung von Spezialmehlen und Zucker beginnen! Sie eignen sich hervorragend zum Backen, aber du kannst sie mir auch mit gutem Gewinn verkaufen. Es wäre schön, das Angebot des Ladens zu erweitern!^^ - Pierre",
+    
+	"gourmetpantry_BlenderRecipe.name":"Lass uns mixen!",
+	"gourmetpantry_BlenderRecipe.text":"@, ^^ Ich habe in einen dieser Küchenmixer investiert, als mich Leute nach Kaffee mit milchfreier Milch fragten. Diese sind zu teuer für den Import, deshalb mache ich jetzt meine eigenen, aber du solltest es auch versuchen. Ich denke, es kann auch andere Dinge herstellen, also probier, was du herausfinden kannst!^^ - Gus",
+    
+	"gourmetpantry_YogurtBowlRecipe.name":"Probiotische Kraft!",
+	"gourmetpantry_YogurtBowlRecipe.text":"@, ^^ Joghurt ist voller lebender, aktiver Kulturen, die für ein gesundes Darmbiom unerlässlich sind! Es schmeckt auch köstlich, wenn es mit frischen Feldfrüchten von deinem Hof verfeinert wird. Genieße sie!^^ - Harvey",
+    
+	"gourmetpantry_harvey.name":"Keine Erdnüsse für mich!",
+	"gourmetpantry_harvey.text":"@, ^^ Einer meiner Patienten war allergisch gegen Erdnüsse und seine Mutter erzählte mir, wie sie auf Baumnussbutter umstieg. Anfangs war ich skeptisch, aber mittlerweile bin ich ein großer Fan von Mandel-Butter! Ich wette, damit kannst du auch Pistazien-Butter herstellen.^^ - Harvey",
+    
+	"gourmetpantry_jodi.name":"Endlich milchfrei",
+	"gourmetpantry_jodi.text":"@, ^^ Erzähl es niemandem, aber ich habe das Gefühl, dass Sam möglicherweise eine Laktoseintoleranz hat. Ich bin heimlich auf milchfreie Milch umgestiegen und er hat den Unterschied nicht bemerkt, aber ich habe es auf jeden Fall getan ...^^ -Jodi",
+    
+	"gourmetpantry_marnie.name":"Ein Geschenk von meinen Kühen",
+	"gourmetpantry_marnie.text":"@, ^^ Also hat Gus die Blaupause für Küchenmixer geteilt? Das ist fantastisch! Damit lassen sich viele spezielle Milchprodukte herstellen. Diese frische Sahne von meinen Kühen sollte dir den Einstieg erleichtern.^^ -Marnie",
+	
+}

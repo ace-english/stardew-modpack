@@ -1,0 +1,439 @@
+{
+	//////////////
+	// MACHINES //
+	//////////////
+	
+	"gourmetpantry_KitchenBlender.name": "블렌더",
+	"gourmetpantry_KitchenBlender.description": "견과류는 우유로, 우유로는 크림을 포함해 더 많은 유제품을 만들 수 있습니다!",
+
+	"gourmetpantry_KitchenMortar.name": "막자사발",
+	"gourmetpantry_KitchenMortar.description": "다양한 농작물을 가루로 분쇄하여 분말이나 향신료로 쓸 수 있는 주방도구.",
+
+	"gourmetpantry_YogurtBowl.name": "요거트볼",
+	"gourmetpantry_YogurtBowl.description": "크림처럼 부드럽고 맛있는 요거트를 만들 수 있습니다.",
+
+	"gourmetpantry_SyrupMaker.name": "증류기",
+	"gourmetpantry_SyrupMaker.description": "다양한 맛의 시럽과 음료를 증류하기 위한 기계입니다.",
+
+	/////////////
+	// STRINGS //
+	/////////////
+
+	"gourmetpantry_flavored_syrup":"{0} 시럽",
+	"gourmetpantry_flavored_yogurt":"{0} 요거트",
+
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"gourmetpantry_KitchenBlender_InvalidItem.message": "실행 불가",
+	"gourmetpantry_KitchenBlender_InvalidCount.message": "재료가 없음",
+
+	"gourmetpantry_KitchenMortar_InvalidItem.message": "실행 불가",
+	"gourmetpantry_KitchenMortar_InvalidCount.message": "재료가 없음",
+
+	"gourmetpantry_YogurtBowl_InvalidItem.message": "실행 불가",
+	"gourmetpantry_YogurtBowl_InvalidCount.message": "재료가 없음",
+
+	"gourmetpantry_SyrupMaker_InvalidItem.message": "실행 불가",
+	"gourmetpantry_SyrupMaker_InvalidCount.message": "재료가 없음",
+
+
+	/////////////////////////
+	// NUT & FRUIT BUTTERS //
+	/////////////////////////
+
+
+    "gourmetpantry_almond_butter.name": "아몬드 버터",
+	"gourmetpantry_almond_butter.description": "아몬드로 만든 크림처럼 부드럽고, 버터 같은 스프레드. 제빵, 토스트 등 다양한 요리에 사용할 수 있습니다.",
+	
+	"gourmetpantry_cashew_butter.name": "캐슈넛 버터",
+	"gourmetpantry_cashew_butter.description": "캐슈넛으로 만든 크림처럼 부드럽고, 버터 같은 스프레드. 제빵, 토스트 등 다양한 요리에 사용할 수 있습니다.",
+	
+	"gourmetpantry_coconut_butter.name": "코코넛 버터",
+	"gourmetpantry_coconut_butter.description": "코코넛의 지방으로 만든 버터 대용품입니다. 유제품을 넣지 않고 간식을 만들 수 있어요.",
+
+	"gourmetpantry_apple_butter.name": "사과 버터",
+	"gourmetpantry_apple_butter.description": "농부의 비밀스러운 전통 레시피로 제작했습니다. 따뜻하고, 달콤하며 아침 식사나 머핀에 곁들이기 좋습니다.",
+	
+	"gourmetpantry_honey_butter.name": "허니 버터",
+	"gourmetpantry_honey_butter.description": "농부의 비밀스러운 전통 레시피-그리고 사랑스러운 호박벌의 도움으로 만들었습니다.",
+	
+	"gourmetpantry_maple_butter.name": "메이플 버터",
+	"gourmetpantry_maple_butter.description": "농부의 비밀스러운 전통 레시피-그리고 현지에서 얻은 신선한 메이플 시럽으로 만들었습니다.",
+	
+	"gourmetpantry_pumpkin_butter.name": "호박 버터",
+	"gourmetpantry_pumpkin_butter.description": "농부의 비밀스러운 전통 레시피로 만들었습니다. 호박의 맛과 향을 좋아하는 사람에게 완벽한 간식이에요.",
+	
+	"gourmetpantry_lemon_curd.name": "레몬 커드",
+	"gourmetpantry_lemon_curd.description": "크림처럼 부드러운 질감은 행복한 닭에게서 얻은 금별등급의 달걀 노른자를 쓴 덕분이겠죠.",
+	
+	"gourmetpantry_lime_curd.name": "라임 커드",
+	"gourmetpantry_lime_curd.description": "크림처럼 부드러운 질감은 행복한 닭에게서 얻은 금별등급의 달걀 노른자를 쓴 덕분이겠죠.",
+
+	"gourmetpantry_orange_curd.name": "오렌지 커드",
+	"gourmetpantry_orange_curd.description": "크림처럼 부드러운 질감은 행복한 닭에게서 얻은 금별등급의 달걀 노른자를 쓴 덕분이겠죠.",
+	
+	"gourmetpantry_hazelnut_butter.name": "헤이즐넛 버터",
+	"gourmetpantry_hazelnut_butter.description": "헤이즐넛으로 만든 크림처럼 부드럽고, 버터 같은 스프레드. 제빵, 토스트 등 다양한 요리에 사용할 수 있습니다.",
+	
+	"gourmetpantry_pistachio_butter.name": "피스타치오 버터",
+	"gourmetpantry_pistachio_butter.description": "피스타치오로 만든 크림처럼 부드럽고, 버터 같은 스프레드. 제빵, 토스트 등 다양한 요리에 사용할 수 있습니다.",
+	
+	"gourmetpantry_walnut_butter.name": "호두 버터",
+	"gourmetpantry_walnut_butter.description": "호두로 만든 크림처럼 부드럽고, 버터 같은 스프레드. 제빵, 토스트 등 다양한 요리에 사용할 수 있습니다.",
+	
+	///////////
+	// MILKS //
+	///////////
+
+	"gourmetpantry_almond_milk.name": "아몬드 우유",
+	"gourmetpantry_almond_milk.description": "아몬드로 만든 우유 대체품. 베이킹부터 스무디 등 다양한 요리에 사용할 수 있습니다.",
+	
+	"gourmetpantry_cashew_milk.name": "캐슈넛 우유",
+	"gourmetpantry_cashew_milk.description": "캐슈넛으로 만든 우유 대체품. 베이킹부터 스무디 등 다양한 요리에 사용할 수 있습니다.",
+	
+	"gourmetpantry_coconut_milk.name": "코코넛 우유",
+	"gourmetpantry_coconut_milk.description": "코코넛으로 만든 우유 대체품. 베이킹부터 스무디 등 다양한 요리에 사용할 수 있습니다.",
+	
+	"gourmetpantry_hazelnut_milk.name": "헤이즐넛 우유",
+	"gourmetpantry_hazelnut_milk.description": "헤이즐넛으로 만든 우유 대체품. 베이킹부터 스무디 등 다양한 요리에 사용할 수 있습니다.",
+
+	"gourmetpantry_pistachio_milk.name": "피스타치오 우유",
+	"gourmetpantry_pistachio_milk.description": "피스타치오로 만든 우유 대체품. 베이킹부터 스무디 등 다양한 요리에 사용할 수 있습니다.",
+
+	"gourmetpantry_rice_milk.name": "쌀우유",
+	"gourmetpantry_rice_milk.description": "쌀로 만든 우유 대체품. 베이킹부터 스무디 등 다양한 요리에 사용할 수 있습니다.",
+
+	///////////////
+	// CHOCOLATE //
+	///////////////
+
+	"gourmetpantry_bittersweet_chocolate.name": "비터스윗 초콜릿",
+	"gourmetpantry_bittersweet_chocolate.description": "제과와 간식을 만들 때 쓰는 다크 초콜릿 바.",
+	
+	"gourmetpantry_chocolate_chips.name": "초콜릿칩",
+	"gourmetpantry_chocolate_chips.description": "초콜릿 모셀이라는 이름으로도 불립니다. 쿠키를 만들 때 많이 사용되는 필수적인 재료 중 하나입니다.",
+	
+    "gourmetpantry_semisweet_chocolate.name": "세미스윗 초콜릿",
+	"gourmetpantry_semisweet_chocolate.description": "제과와 간식을 만들 때 사용되는 달콤한 맛의 초콜릿 바.",
+
+	"gourmetpantry_white_chocolate.name": "화이트 초콜릿",
+	"gourmetpantry_white_chocolate.description": "제과와 간식을 만들 때 사용되는 화이트 초콜릿 바.",
+
+	/////////////////
+	// INGREDIENTS //
+	/////////////////
+
+	"gourmetpantry_vanilla_extract.name": "바닐라 익스트랙",
+	"gourmetpantry_vanilla_extract.description": "바닐라빈을 증류해서 만든 에센스. 제과제빵에 흔하게 쓰입니다.",
+	
+	"gourmetpantry_confectioners_sugar.name": "제과용 설탕",
+	"gourmetpantry_confectioners_sugar.description": "슈가 파우더라고도 불립니다. 곱게 갈려진 이 설탕은 옥수수 전분이 첨가되어 뭉치지 않고, 구운 과자나 케이크에 곁들이기 좋습니다.",
+
+	"gourmetpantry_espresso_powder.name": "에스프레소 분말",
+	"gourmetpantry_espresso_powder.description": "강렬한 커피맛은 초콜릿 계통과 잘 어울립니다.",
+
+	"gourmetpantry_pectin.name": "펙틴",
+	"gourmetpantry_pectin.description": "잼, 혹은 젤리를 보존하거나 만들 때 필수적으로 쓰이는 과일로 만든 젤라틴과 유사한 물질.",
+	
+	"gourmetpantry_rainbow_sprinkles.name": "레인보우 스프링클",
+	"gourmetpantry_rainbow_sprinkles.description": "지미라고 불리기도 하는 이 제품은 달콤하고 다채로운 색으로 대부분의 과자에 완벽하게 어울리는 토핑입니다.",
+
+	"gourmetpantry_brown_sugar.name": "황설탕",
+	"gourmetpantry_brown_sugar.description": "당밀을 전부 제거하지 않고 남겨놓은 설탕은 머핀을 포함한 일부 케이크에 어울립니다. 좀 더 풍부하고, 거친 식감과 맛을 자랑합니다.",
+	
+	"gourmetpantry_cocoa_powder.name": "코코아 가루",
+	"gourmetpantry_cocoa_powder.description": "건조한 뒤 분말로 갈아내어 제과용으로 사용되는 코코아 가루.",
+	
+	"gourmetpantry_olive_oil.name": "올리브유",
+	"gourmetpantry_olive_oil.description": "저온 압착 올리브유는 샐러드나 신선한 채소를 볶을 때 쓸 수 있는 고품질의 올리브유를 의미합니다.",
+	
+
+	///////////
+	// DAIRY //
+	///////////
+
+	"gourmetpantry_butter.name": "버터",
+	"gourmetpantry_butter.description": "신선한 우유를 직접 손으로 저어가며 만든, 훌륭한 품질의 버터.",
+
+	"gourmetpantry_buttermilk.name": "버터밀크",
+	"gourmetpantry_buttermilk.description": "이 재료 고유의 독특한 냄새는 호불호가 크게 달리지만, 이 재료는 부드러운 옥수수 빵부터 폭신폭신한 팬케이크를 만들 때 도움이 됩니다.",
+
+	"gourmetpantry_cream.name": "크림",
+	"gourmetpantry_cream.description": "현지의 젖소에게서 얻은 신선한 우유로 만들어졌습니다. 특정 종류의 제과, 혹은 부드러운 프로스팅을 만들 때 필수적입니다.",
+
+	"gourmetpantry_cream_cheese.name": "크림치즈",
+	"gourmetpantry_cream_cheese.description": "현지의 젖소에게서 얻은 신선한 우유로 만들었습니다. 치즈케이부터 베이글에 곁들이기까지, 다양하게 사용할 수 있습니다.",
+
+	////////////
+	// YOGURT //
+	////////////
+
+	"gourmetpantry_plain_yogurt.name": "플레인 요거트",
+	"gourmetpantry_plain_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_ambrosia_yogurt.name": "암브로시아 요거트",
+	"gourmetpantry_ambrosia_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_ancient_yogurt.name": "고대과일 요거트",
+	"gourmetpantry_ancient_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_apple_yogurt.name": "사과 요거트",
+	"gourmetpantry_apple_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_apricot_yogurt.name": "살구 요거트",
+	"gourmetpantry_apricot_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_banana_yogurt.name": "바나나 요거트",
+	"gourmetpantry_banana_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_blood_orange_yogurt.name": "블러드오렌지 요거트",
+	"gourmetpantry_blood_orange_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_blueberry_yogurt.name": "블루베리 요거트",
+	"gourmetpantry_blueberry_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_chocolate_yogurt.name": "초콜릿 요거트",
+	"gourmetpantry_chocolate_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_cheesecake_yogurt.name": "치즈케이크 요거트",
+	"gourmetpantry_cheesecake_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_vanilla_yogurt.name": "바닐라 요거트",
+	"gourmetpantry_vanilla_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_caramel_yogurt.name": "카라멜 요거트",
+	"gourmetpantry_caramel_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_cherry_yogurt.name": "체리 요거트",
+	"gourmetpantry_cherry_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_coconut_yogurt.name": "코코넛 요거트",
+	"gourmetpantry_coconut_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_coffee_yogurt.name": "커피 요거트",
+	"gourmetpantry_coffee_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_creamsicle_yogurt.name": "크림시클 요거트",
+	"gourmetpantry_creamsicle_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_custard_yogurt.name": "커스터드 요거트",
+	"gourmetpantry_custard_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_eversweet_yogurt.name": "에버스윗 요거트",
+	"gourmetpantry_eversweet_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_candy_yogurt.name": "사탕 요거트",
+	"gourmetpantry_candy_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_tiramisu_yogurt.name": "티라미수 요거트",
+	"gourmetpantry_tiramisu_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_macaron_yogurt.name": "마카롱 요거트",
+	"gourmetpantry_macaron_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_mango_yogurt.name": "망고 요거트",
+	"gourmetpantry_mango_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_melon_yogurt.name": "멜론 요거트",
+	"gourmetpantry_melon_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_galaxy_yogurt.name": "유성산 요거트",
+	"gourmetpantry_galaxy_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_moongold_yogurt.name": "황금달 요거트",
+	"gourmetpantry_moongold_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_orange_yogurt.name": "오렌지 요거트",
+	"gourmetpantry_orange_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_peach_yogurt.name": "복숭아 요거트",
+	"gourmetpantry_peach_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_mint_yogurt.name": "박하 요거트",
+	"gourmetpantry_mint_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_lemon_yogurt.name": "레몬 요거트",
+	"gourmetpantry_lemon_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_lime_yogurt.name": "라임 요거트",
+	"gourmetpantry_lime_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_pie_yogurt.name": "파이 요거트",
+	"gourmetpantry_pie_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_pineapple_yogurt.name": "파인애플 요거트",
+	"gourmetpantry_pineapple_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_pomegranate_yogurt.name": "석류 요거트",
+	"gourmetpantry_pomegranate_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_pumpkin_yogurt.name": "호박 요거트",
+	"gourmetpantry_pumpkin_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_shortcake_yogurt.name": "쇼트케이크 요거트",
+	"gourmetpantry_shortcake_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_snow_yogurt.name": "설미려 요거트",
+	"gourmetpantry_snow_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_sprinkle_yogurt.name": "스프링클 요거트t",
+	"gourmetpantry_sprinkle_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_starfruit_yogurt.name": "스타후르츠 요거트",
+	"gourmetpantry_starfruit_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_sugar_yogurt.name": "설탕꽃 요거트",
+	"gourmetpantry_sugar_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_sunset_yogurt.name": "저녁놀 요거트",
+	"gourmetpantry_sunset_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_gem_yogurt.name": "달콤보석 요거트",
+	"gourmetpantry_gem_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_raspberry_yogurt.name": "라즈베리 요거트",
+	"gourmetpantry_raspberry_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	"gourmetpantry_strawberry_yogurt.name": "산딸기 요거트",
+	"gourmetpantry_strawberry_yogurt.description": "현지의 우유를 듬뿍 사용한 이 요거트는 프로바이오틱스로 가득합니다.",
+    
+	////////////
+	// SYRUPS //
+	////////////
+
+	"gourmetpantry_ancient_syrup.name": "고대과일 시럽",
+	"gourmetpantry_ancient_syrup.description": "고대 과일로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_apple_syrup.name": "사과 시럽",
+	"gourmetpantry_apple_syrup.description": "사과로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_apricot_syrup.name": "살구 시럽",
+	"gourmetpantry_apricot_syrup.description": "살구로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_banana_syrup.name": "바나나 시럽",
+	"gourmetpantry_banana_syrup.description": "바나나로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_blueberry_syrup.name": "블루베리 시럽",
+	"gourmetpantry_blueberry_syrup.description": "블루베리로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+
+	"gourmetpantry_caramel_syrup.name": "카라멜 시럽",
+	"gourmetpantry_caramel_syrup.description": "카라멜로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+
+	"gourmetpantry_chai_syrup.name": "차이 시럽",
+	"gourmetpantry_chai_syrup.description": "차이 향신료로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_cherry_syrup.name": "체리 시럽",
+	"gourmetpantry_cherry_syrup.description": "체리로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_chocolate_syrup.name": "초콜릿 시럽",
+	"gourmetpantry_chocolate_syrup.description": "초콜릿으로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+
+	"gourmetpantry_elderberry_syrup.name": "엘더베리 시럽",
+	"gourmetpantry_elderberry_syrup.description": "엘더베리로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+
+	"gourmetpantry_grenadine_syrup.name": "석류 시럽",
+	"gourmetpantry_grenadine_syrup.description": "석류로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_lavender_syrup.name": "라벤더 시럽",
+	"gourmetpantry_lavender_syrup.description": "라벤더로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+
+	"gourmetpantry_lemon_syrup.name": "레몬 시럽",
+	"gourmetpantry_lemon_syrup.description": "레몬으로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+	
+	"gourmetpantry_lime_syrup.name": "라임 시럽",
+	"gourmetpantry_lime_syrup.description": "라임으로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+
+	"gourmetpantry_mango_syrup.name": "망고 시럽",
+	"gourmetpantry_mango_syrup.description": "망고로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_marshmallow_syrup.name": "마시멜로 시럽",
+	"gourmetpantry_marshmallow_syrup.description": "신선한 마시멜로로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+
+	"gourmetpantry_mint_syrup.name": "박하 시럽",
+	"gourmetpantry_mint_syrup.description": "박하로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_orange_syrup.name": "오렌지 시럽",
+	"gourmetpantry_orange_syrup.description": "오렌지로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_peach_syrup.name": "복숭아 시럽",
+	"gourmetpantry_peach_syrup.description": "복숭아로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_pineapple_syrup.name": "파인애플 시럽",
+	"gourmetpantry_pineapple_syrup.description": "파인애플로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다!",
+
+	"gourmetpantry_pumpkin_syrup.name": "호박시럽",
+	"gourmetpantry_pumpkin_syrup.description": "호박으로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다!",
+
+	"gourmetpantry_gem_syrup.name": "보석베리 시럽",
+	"gourmetpantry_gem_syrup.description": "달콤보석베리로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_raspberry_syrup.name": "라즈베리 시럽",
+	"gourmetpantry_raspberry_syrup.description": "라즈베리로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_rose_syrup.name": "장미 시럽",
+	"gourmetpantry_rose_syrup.description": "장미꽃으로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+
+	"gourmetpantry_sakura_syrup.name": "벚꽃 시럽",
+	"gourmetpantry_sakura_syrup.description": "벚꽃으로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_simple_syrup.name": "라이트 시럽",
+	"gourmetpantry_simple_syrup.description": "오직 설탕과 물만으로 만든 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	"gourmetpantry_vanilla_syrup.name": "바닐라 시럽",
+	"gourmetpantry_vanilla_syrup.description": "바닐라로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+
+	"gourmetpantry_wild_strawberry_syrup.name": "산딸기 시럽",
+	"gourmetpantry_wild_strawberry_syrup.description": "야생딸기로 맛을 낸 간단한 시럽. 다양한 음료나 고급 간식을 만들기에 좋습니다.",
+    
+	////////////
+	// FLOURS //
+	////////////
+
+	"gourmetpantry_almond_flour.name": "아몬드 가루",
+	"gourmetpantry_almond_flour.description": "아몬드를 갈아서 만든 제과용 분말입니다. 마카롱에 필수적이지만, 글루텐이 필요없는 제과에도 다양하게 쓰입니다.",
+	
+	"gourmetpantry_bread_flour.name": "강력분",
+	"gourmetpantry_bread_flour.description": "단단한 경질맥 계통의 밀로 만든 밀가루입니다. 단백질 함량이 높기 때문에 대부분의 제빵에 사용됩니다.",
+	
+	"gourmetpantry_cake_flour.name": "박력분",
+	"gourmetpantry_cake_flour.description": "연질맥 계통의 밀로 만든 밀가루입니다. 단백질 함량이 낮기 때문에 대부분의 케이크 요리에 적합합니다. 제과요리에 필수적입니다.",
+
+	"gourmetpantry_coconut_flour.name": "코코넛 가루",
+	"gourmetpantry_coconut_flour.description": "코코넛 과육을 갈아 만들어낸 분말입니다. 특정한 종류의 만두에도 사용되지만, 글루텐이 필요하지 않은 제과에도 쓰입니다.",
+	
+	"gourmetpantry_corn_flour.name": "옥수수 가루",
+	"gourmetpantry_corn_flour.description": "옥수수를 갈아 만든 분말입니다. 타말레, 옥수수빵과 같은 다양한 요리에 필수적인 재료 중 하나입니다.",
+	
+	"gourmetpantry_pastry_flour.name": "제과용 밀가루",
+	"gourmetpantry_pastry_flour.description": "페이스트리를 만들기 위한 전용 밀가루입니다. 박력분과 마찬가지로 단백질이 낮은 종류로, 파이와 페이스트리 제작에 필수적입니다.",
+	
+	"gourmetpantry_rice_flour.name": "쌀가루",
+	"gourmetpantry_rice_flour.description": "쌀을 갈아 만들어낸 분말입니다. 만두, 떡에 필수적일 뿐 아니라 글루텐이 필요치 않은 제과에도 사용됩니다.",
+	
+
+//////////
+// MAIL //
+//////////
+
+
+	"gourmetpantry_MortarRecipe.name":"당신의 집을 위한 막자사발.",
+    "gourmetpantry_MortarRecipe.text":"@, ^^ 만약 네가 이 주방 도구를 직접 만든다면, 다양한 종류의 밀가루와 설탕을 직접 만들 수 있을거야. 직접 요리에 쓸 수도 있고, 아니면 내게 팔아도 괜찮고. 가게의 품목을 늘리는 건 좋은 일이니까!^^ - 피에르",
+    
+	"gourmetpantry_BlenderRecipe.name":"블렌딩을 시작하자!",
+	"gourmetpantry_BlenderRecipe.text":"@, ^^ 가게의 손님들이 우유 대체품과 함께 커피를 달라고 요청했던 적이 있어. 그 때 이 주방용 블렌더에 투자했었지. 수입하기엔 꽤 비싼 편이라 직접 만들었는데, 네가 시도해보는 것도 괜찮을 것 같네. 다른 것도 만들 수 있다고 하니, 어떤 게 가능한지 찾아보는 것도 좋을거야.^^ - 거스",
+    
+	"gourmetpantry_YogurtBowlRecipe.name":"유산균의 힘!",
+	"gourmetpantry_YogurtBowlRecipe.text":"@, ^^ 요거트는 건강에 좋고 필수적인, 살아있는 유산균으로 가득하죠! 당신의 농장에서 나온 신선한 농작물로 맛을 더할 수 있을거에요. 마음껏 즐기세요! ^^ - 하비",
+    
+	"gourmetpantry_harvey.name":"땅콩은 제게 주지 마세요.",
+	"gourmetpantry_harvey.text":"@, ^^ 환자 중 한 분이 심각한 땅콩 알러지인데, 그의 보호자가 땅콩 대신 먹을 대체제를 알려줬어요. 처음엔 좀 회의적이었지만, 지금 제가 제일 좋아하는 건 아몬드 버터랍니다. 아마, 피스타치오도로도 버터를 만들 수 있지 않을까 싶어요.^^ - 하비",
+    
+	"gourmetpantry_jodi.name":"유제품 없이 보내는 일상",
+	"gourmetpantry_jodi.text":"@, ^^ 다른 사람들에겐 비밀로 해주겠니? 샘이 유당불내증이 있다는 생각이 들어. 애들에게 말하지 않고 우유 대신 대체제를 사용했는데, 샘은 그 차이를 모르더라고. 물론 내게는 차이가 꽤 크게 느껴졌지...^^ -조디",
+    
+	"gourmetpantry_marnie.name":"내 소가 주는 선물",
+	"gourmetpantry_marnie.text":"@, ^^ 거스가 네게 블렌더의 제작법을 알려주었다면서? 아주 멋져! 그게 있으면 다양한 유제품을 만들 수 있을거야. 우리 집 젖소의 우유로 만든 신선한 크림이 네게 도움이 되길 바라.^^ -마니",
+	
+}

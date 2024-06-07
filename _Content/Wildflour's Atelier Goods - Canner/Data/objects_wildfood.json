@@ -1,0 +1,194 @@
+{
+    "Changes": [
+
+        {
+            "LogName":"Add Specialty Jams Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": { 
+                "wildflour.jams_blackberry_mint_jelly": {
+                    "Name": "wildflour.jams_blackberry_mint_jelly",
+                    "DisplayName": "{{i18n:jams_blackberry_mint_jelly.name}}",
+                    "Description": "{{i18n:jams_blackberry_mint_jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 1050,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 2
+            },
+                "wildflour.jams_blueberry_lavender_jelly": {
+                    "Name": "wildflour.jams_blueberry_lavender_jelly",
+                    "DisplayName": "{{i18n:jams_blueberry_lavender_jelly.name}}",
+                    "Description": "{{i18n:jams_blueberry_lavender_jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 390,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 4
+            },
+                "wildflour.jams_chamomile_jelly": {
+                    "Name": "wildflour.jams_chamomile_jelly",
+                    "DisplayName": "{{i18n:jams_chamomile_jelly.name}}",
+                    "Description": "{{i18n:jams_chamomile_jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 240,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_sand"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 5
+            },
+                "wildflour.jams_cherry_vanilla_jam": {
+                    "Name": "wildflour.jams_cherry_vanilla_jam",
+                    "DisplayName": "{{i18n:jams_cherry_vanilla_jam.name}}",
+                    "Description": "{{i18n:jams_cherry_vanilla_jam.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 1000,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 6
+            },
+                "wildflour.jams_cinnamon_apple_preserves": {
+                    "Name": "wildflour.jams_cinnamon_apple_preserves",
+                    "DisplayName": "{{i18n:jams_cinnamon_apple_preserves.name}}",
+                    "Description": "{{i18n:jams_cinnamon_apple_preserves.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 895,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 7
+            },
+                "wildflour.jams_peach_blossom_jelly": {
+                    "Name": "wildflour.jams_peach_blossom_jelly",
+                    "DisplayName": "{{i18n:jams_peach_blossom_jelly.name}}",
+                    "Description": "{{i18n:jams_peach_blossom_jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 1125,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 16
+            },
+                "wildflour.jams_lemon_marmalade": {
+                    "Name": "wildflour.jams_lemon_marmalade",
+                    "DisplayName": "{{i18n:jams_lemon_marmalade.name}}",
+                    "Description": "{{i18n:jams_lemon_marmalade.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 550,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 22
+            },
+                "wildflour.jams_lime_marmalade": {
+                    "Name": "wildflour.jams_lime_marmalade",
+                    "DisplayName": "{{i18n:jams_lime_marmalade.name}}",
+                    "Description": "{{i18n:jams_lime_marmalade.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 565,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_lime"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 23
+            },
+                "wildflour.jams_jasmine_jelly": {
+                    "Name": "wildflour.jams_jasmine_jelly",
+                    "DisplayName": "{{i18n:jams_jasmine_jelly.name}}",
+                    "Description": "{{i18n:jams_jasmine_jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 400,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_sand"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 27
+            },
+                "wildflour.jams_vanilla_raspberry_preserves": {
+                    "Name": "wildflour.jams_vanilla_raspberry_preserves",
+                    "DisplayName": "{{i18n:jams_vanilla_raspberry_preserves.name}}",
+                    "Description": "{{i18n:jams_vanilla_raspberry_preserves.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 900,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.jams/Objects",
+                    "SpriteIndex": 29
+            }
+
+        }
+        }
+
+    ]
+}

@@ -1,0 +1,490 @@
+{
+// SHANE DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Shane Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Shane", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Shane.Indoor":
+				{
+					"Id": "{{ModId}}_Shane_Indoor",
+					"Portrait": "Portraits/Shane_Indoor",
+					"Sprite": "Characters/Shane_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Shane.Outdoor":
+				{
+					"Id": "{{ModId}}_Shane_Outdoor",
+					"Portrait": "Portraits/Shane_Outdoor",
+					"Sprite": "Characters/Shane_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Shane.EggFestival":
+				{
+					"Id": "{{ModId}}_Shane_EggFestival",
+					"Portrait": "Portraits/Shane_EggFestival",
+					"Sprite": "Characters/Shane_EggFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_spring13\"",
+					"Precedence": -200
+				},
+				"DSV.Shane.FlowerDance":
+				{
+					"Id": "{{ModId}}_Shane_FlowerDance",
+					"Portrait": "Portraits/Shane_FlowerDance",
+					"Sprite": "Characters/Shane_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Shane.Luau":
+				{
+					"Id": "{{ModId}}_Shane_Luau",
+					"Portrait": "Portraits/Shane_Luau",
+					"Sprite": "Characters/Shane_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Shane.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Shane_MoonlightJellies",
+					"Portrait": "Portraits/Shane_MoonlightJellies",
+					"Sprite": "Characters/Shane_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Shane.SVFair":
+				{
+					"Id": "{{ModId}}_Shane_SVFair",
+					"Portrait": "Portraits/Shane_SVFair",
+					"Sprite": "Characters/Shane_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Shane.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Shane_SpiritsEve",
+					"Portrait": "Portraits/Shane_SpiritsEve",
+					"Sprite": "Characters/Shane_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Shane.IceFestival":
+				{
+					"Id": "{{ModId}}_Shane_IceFestival",
+					"Portrait": "Portraits/Shane_IceFestival",
+					"Sprite": "Characters/Shane_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Shane.WinterStar":
+				{
+					"Id": "{{ModId}}_Shane_WinterStar",
+					"Portrait": "Portraits/Shane_WinterStar",
+					"Sprite": "Characters/Shane_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Shane.Swim":
+				{
+					"Id": "{{ModId}}_Shane_Swim",
+					"Portrait": "Portraits/Shane_Swim",
+					"Sprite": "Characters/Shane_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\" \"LOCATION_NAME Target Beach, WEATHER Target Sun Wind, SEASON Summer\"",
+					"Precedence": -150
+				},
+				"DSV.Shane.Pyjamas":
+				{
+					"Id": "{{ModId}}_Shane_Pyjamas",
+					"Portrait": "Portraits/Shane_Pyjamas",
+					"Sprite": "Characters/Shane_Pyjamas",
+					"Condition": "ANY \"LOCATION_NAME Target AnimalShop, !TIME 0700 2200, {{DSV.Core/ConfigValue:Pyjamas |contains= On}}\" \"LOCATION_NAME Target Farmhouse, !TIME 0700 2200, !{{DSV.Core/ConfigValue:Pyjamas |contains= Off}}, PLAYER_NPC_RELATIONSHIP Current Shane Married Roommate\"",
+					"Precedence": -150
+				},
+				"DSV.Shane.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Shane_WeddingGuest",
+					"Sprite": "Characters/Shane_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Shane.HotClimate":
+				{
+					"Id": "{{ModId}}_Shane_HotClimate",
+					"Portrait": "Portraits/Shane_HotClimate",
+					"Sprite": "Characters/Shane_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Shane.JojaMart":
+				{
+					"Id": "{{ModId}}_Shane_JojaMart",
+					"Portrait": "Portraits/Shane_JojaMart",
+					"Sprite": "Characters/Shane_JojaMart",
+					"Condition": "ANY \"LOCATION_NAME Target JojaMart\" \"IS_EVENT 963070001, {{HasMod |contains= tiakall.jortsandjean}}\" \"IS_EVENT 963070002, {{HasMod |contains= tiakall.jortsandjean}}\"",
+					"Precedence": -1150
+				},
+				"DSV.Shane.Tunnelers":
+				{
+					"Id": "{{ModId}}_Shane_Tunnelers",
+					"Portrait": "Portraits/Shane_Tunnelers",
+					"Sprite": "Characters/Shane_Tunnelers",
+					"Condition": "IS_EVENT 9581348",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Shane Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Shane_Indoor, Characters/Shane_Indoor, Portraits/Shane_Outdoor, Characters/Shane_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Messy/Shane_Spring_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Shane Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Shane_EggFestival, Characters/Shane_EggFestival, Portraits/Shane_FlowerDance, Characters/Shane_FlowerDance, Portraits/Shane_Luau, Characters/Shane_Luau, Portraits/Shane_MoonlightJellies, Characters/Shane_MoonlightJellies, Portraits/Shane_SVFair, Characters/Shane_SVFair, Portraits/Shane_SpiritsEve, Characters/Shane_SpiritsEve, Portraits/Shane_WinterStar, Characters/Shane_WinterStar, Portraits/Shane_Pyjamas, Characters/Shane_Pyjamas, Characters/Shane_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Other/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Shane Load - Festival of Ice",
+			"Action": "Load",
+			"Target": "Portraits/Shane_IceFestival, Characters/Shane_IceFestival",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Messy/Shane_IceFestival_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Shane Load - Swim",
+			"Action": "Load",
+			"Target": "Portraits/Shane_Swim, Characters/Shane_Swim",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Messy/Shane_Spring_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Shane Load - JojaMart",
+			"Action": "Load",
+			"Target": "Portraits/Shane_JojaMart, Characters/Shane_JojaMart",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Other/Shane_JojaMart_{{ShaneJojaToken}}.png",
+			"Priority": "High",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Shane Load - Tunnelers",
+			"Action": "Load",
+			"Target": "Portraits/Shane_Tunnelers, Characters/Shane_Tunnelers",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Neat/Shane_Spring_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Shane Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Shane_HotClimate, Characters/Shane_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Messy/Shane_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Shane Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Indoor, Characters/Shane_Indoor",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_{{Season}}_{{RandomShaneToken}}_Base.png"
+		},
+		{
+			"LogName": "Shane Outdoor Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Outdoor, Characters/Shane_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_{{Season}}_{{RandomShaneToken}}_{{DSV.Core/Weather:Shane}}.png"
+		},	
+		{
+			"LogName": "Shane Festival of Ice Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_IceFestival, Characters/Shane_IceFestival",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_IceFestival_1.png"
+		},
+		{
+			"LogName": "Shane Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_HotClimate, Characters/Shane_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_Summer_{{RandomShaneToken}}_Sun.png"
+		},
+		{
+			"LogName": "Shane Flower Dance Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_FlowerDance, Characters/Shane_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Other/Shane_FlowerDance_1{{ShaneFlowerDanceToken}}.png",
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Shane Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Beach, Characters/Shane_Beach",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Shane Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Shane_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Other/Shane_Wedding_{{ShaneSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 384, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Shane Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/Shane_Emoji_Modded.png",
+			"ToArea": {"X": 63, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Shane Clothes Therapy Characters",
+			"Action": "EditImage",
+			"Target": "Characters/ClothesTherapyCharacters",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/ClothesTherapy_Shane_Modded.png",
+			"ToArea": {"X": 0, "Y": 0, "Width": 64, "Height": 32},
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Shane Drunk Cursors Base",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/DrunkCursors/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_{{season}}_{{RandomShaneToken}}_Base.png",
+			"ToArea": { "X": 533, "Y": 1864, "Width": 20, "Height": 28 }
+		},
+		{
+			"LogName": "Shane Drunk Cursors Weather",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/DrunkCursors/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_{{season}}_{{RandomShaneToken}}_{{DSV.Core/Weather:Shane}}.png",
+			"ToArea": { "X": 533, "Y": 1864, "Width": 20, "Height": 28 },
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"IsOutdoors": true
+		  	},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Shane Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/Shane_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}.png",
+			"ToArea": {"X": 64, "Y": 304, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Vanilla, Off": false
+			}
+		},
+		
+//MERMAID PENDANTS
+		{
+			"LogName": "Shane Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Indoor, Portraits/Shane_Pyjamas, Portraits/Shane_EggFestival, Portraits/Shane_FlowerDance, Portraits/Shane_Luau, Portraits/Shane_MoonlightJellies, Portraits/Shane_SVFair",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/MermaidPendants/Shane_Pendant_{{DSV.Core/ConfigValue:ShaneVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Shane |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Shane Pendants - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Beach, Portraits/Shane_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/MermaidPendants/Shane_Pendant_{{DSV.Core/ConfigValue:ShaneVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Shane |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		
+// COMPATIBILITY
+// Shane's New Job
+		{
+			"LogName": "Shane's New Job Compat",
+			"Action": "EditImage",
+			"Target": "Characters/Shane_Indoor",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/ShanesNewJob/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_{{season}}_{{RandomShaneToken}}_Base.png",
+			"ToArea": { "X":0, "Y":288, "Width":64, "Height":64 },
+			"When":
+			{
+				"HasMod |contains= Ran.ShanesNewJob": true
+			}
+		},
+		
+// Mr Ginger
+		{
+			"LogName": "Mr Ginger Compat",
+			"Action": "EditImage",
+			"Target": "Characters/Shane_Indoor",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/ShaneBook/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_{{season}}_{{RandomShaneToken}}_Base.png",
+			"ToArea":   { "X": 0, "Y": 416, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasMod |contains= LemurKat.Mr.Ginger.NPC": true
+			}
+		},
+		
+// Tristan
+		{
+			"LogName": "Shane Tristan Compat",
+			"Action": "EditImage",
+			"Target": "Characters/MarnShane",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/{{TargetWithoutPath}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Vanilla": false,
+				"HasMod |contains= Lemurkat.Tristan.CP": true
+			}
+		},
+		
+// Always Raining in the Valley
+		{
+			"LogName": "Shane ARV Compat",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_HappyDrunk",
+			"FromFile": "Art/VanillaNPCs/Shane/Misc/ARVDrunk/{{DSV.Core/ConfigValue:ShaneVariant}}/{{ShaneDynamicToken}}/Shane_{{season}}_{{RandomShaneToken}}_Base.png",
+			"When":
+			{
+				"HasMod |contains= Himetarts.ARV.CP": true
+			}
+		},
+		
+// PPAF
+		{
+			"LogName": "PPaF Compat - Shane No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Indoor, Portraits/Shane_EggFestival, Portraits/Shane_FlowerDance, Portraits/Shane_Luau, Portraits/Shane_MoonlightJellies, Portraits/Shane_SVFair, Portraits/Shane_IceFestival, Portraits/Shane_WinterStar, Portraits/Shane_Swim, Portraits/Shane_HotClimate, Portraits/Shane_JojaMart, Portraits/Shane_Pyjamas, Portraits/Shane_Tunnelers",
+			"FromFile": "Art/VanillaNPCs/Shane/Portraits/{{DSV.Core/ConfigValue:ShaneVariant}}/Overlays/Shane_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Shane": true
+			}
+		},
+		
+//MISCELLANEOUS OVERLAYS
+		{
+			"LogName": "Shane Alcohol Flush Overlays",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Indoor",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Overlays/Shane_DrinkFlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasSeenEvent |contains= 2118991": false,
+				"LocationName |contains= Saloon": true,
+				"Query: '{{HasMod |contains=Ran.ShanesNewJob}}' = 'false' OR ('{{HasMod |contains=Ran.ShanesNewJob}}' = 'true' AND '{{IsCommunityCenterComplete}}' = 'false')" : true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Shane Post-Clothes Therapy Eyeliner Overlays",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Indoor, Portraits/Shane_Outdoor, Portraits/Shane_Beach, Portraits/Shane_EggFestival, Portraits/Shane_FlowerDance, Portraits/Shane_Luau, Portraits/Shane_MoonlightJellies, Portraits/Shane_SVFair, Portraits/Shane_IceFestival, Portraits/Shane_WinterStar, Portraits/Shane_HotClimate, Portraits/Shane_Swim, Portraits/Shane_JojaMart, Portraits/Shane_Tunnelers",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Overlays/{{TargetWithoutPath}}_{{Random: Eyeliner, x, x, x|key=ShaneEyeliner}}Overlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"HasSeenEvent |contains= 2118991": true,
+				"HasSeenEvent |contains= 2123243": true,
+				"DSV.Core/ConfigValue:ShanePunkAccessories |contains= true": true
+			}
+		},
+		{
+			"LogName": "Shane Post-Clothes Therapy Earrings Overlays",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Indoor, Portraits/Shane_Outdoor, Portraits/Shane_Beach, Portraits/Shane_EggFestival, Portraits/Shane_FlowerDance, Portraits/Shane_Luau, Portraits/Shane_MoonlightJellies, Portraits/Shane_SVFair, Portraits/Shane_IceFestival, Portraits/Shane_WinterStar, Portraits/Shane_HotClimate, Portraits/Shane_Swim, Portraits/Shane_JojaMart, Portraits/Shane_Tunnelers",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Overlays/{{TargetWithoutPath}}_{{Random: RightEarring, BothEarrings, BothEarrings, x, x, x|key=ShaneEarrings}}Overlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"HasSeenEvent |contains= 2118991": true,
+				"HasSeenEvent |contains= 2123243": true,
+				"DSV.Core/ConfigValue:ShanePunkAccessories |contains= true": true
+			}
+		},
+		{
+			"LogName": "Shane Post-Clothes Therapy Wristband Overlays",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Indoor, Portraits/Shane_Outdoor, Portraits/Shane_EggFestival, Portraits/Shane_FlowerDance, Portraits/Shane_Luau, Portraits/Shane_MoonlightJellies, Portraits/Shane_SVFair, Portraits/Shane_IceFestival, Portraits/Shane_WinterStar, Portraits/Shane_HotClimate, Portraits/Shane_Swim, Portraits/Shane_JojaMart, Portraits/Shane_Tunnelers",
+			"FromFile": "Art/VanillaNPCs/Shane/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:ShaneVariant}}/Overlays/{{TargetWithoutPath}}_{{Random: Wristband, x, x|key=ShaneWristbands}}Overlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"HasSeenEvent |contains= 2118991": true,
+				"HasSeenEvent |contains= 2123243": true,
+				"DSV.Core/ConfigValue:ShanePunkAccessories |contains= true": true
+			}
+		}
+	]
+}

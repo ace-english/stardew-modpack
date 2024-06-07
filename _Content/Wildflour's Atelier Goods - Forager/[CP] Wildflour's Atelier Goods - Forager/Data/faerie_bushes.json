@@ -1,0 +1,238 @@
+﻿{
+	"Changes": [
+
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"Entries": {
+				"wildflour.ateliercrops/summer_amber_moondrop": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_amber_moondrop",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndSeason": "summer",
+					"EndDay": 28,
+					"Chance": 0.2,
+					"Locations": [ "Forest" ],
+					"Weather": [ "Storm"  ],
+					"ExcludeWeather": [ "Sun" ]	
+				},
+				"wildflour.ateliercrops/fall_jade_moondrop": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_jade_moondrop",
+					"StartSeason": "fall",
+					"StartDay": 1,
+					"EndSeason": "fall",
+					"EndDay": 28,
+					"Chance": 0.2,
+					"Locations": [ "Forest" ],
+					"Weather": [ "Rain"  ],
+					"ExcludeWeather": [ "Sun" ]			
+				},
+				"wildflour.ateliercrops/spring_lapis_moondrop": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_lapis_moondrop",
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 28,
+					"Chance": 0.2,
+					"Locations": [ "Forest" ],
+					"Weather": [ "Rain"  ],
+					"ExcludeWeather": [ "Sun" ]			
+				},
+				"wildflour.ateliercrops/winter_pearl_moondrop": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_pearl_moondrop",
+					"StartSeason": "winter",
+					"StartDay": 1,
+					"EndSeason": "winter",
+					"EndDay": 28,
+					"Chance": 0.2,
+					"Locations": [ "Forest" ],
+					"Weather": [ "Snow"  ],
+					"ExcludeWeather": [ "Sun" ]			
+				},
+				"wildflour.ateliercrops/spring_cake_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_cake_blossom",
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 1,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				},
+				"wildflour.ateliercrops/spring_macaron_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_macaron_blossom",
+					"StartSeason": "spring",
+					"StartDay": 14,
+					"EndSeason": "spring",
+					"EndDay": 14,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				},
+				"wildflour.ateliercrops/fall_caramel_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_caramel_blossom",
+					"StartSeason": "fall",
+					"StartDay": 1,
+					"EndSeason": "fall",
+					"EndDay": 1,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				},
+				"wildflour.ateliercrops/fall_pie_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_pie_blossom",
+					"StartSeason": "fall",
+					"StartDay": 14,
+					"EndSeason": "fall",
+					"EndDay": 14,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				},
+				"wildflour.ateliercrops/summer_creamsicle_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_creamsicle_blossom",
+					"StartSeason": "summer",
+					"StartDay": 28,
+					"EndSeason": "summer",
+					"EndDay": 28,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				},
+				"wildflour.ateliercrops/summer_custard_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_custard_blossom",
+					"StartSeason": "summer",
+					"StartDay": 14,
+					"EndSeason": "summer",
+					"EndDay": 14,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				},
+				"wildflour.ateliercrops/spring_sprinkle_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_sprinkle_blossom",
+					"StartSeason": "spring",
+					"StartDay": 28,
+					"EndSeason": "spring",
+					"EndDay": 28,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				},
+				"wildflour.ateliercrops/summer_shortcake_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_shortcake_blossom",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndSeason": "summer",
+					"EndDay": 1,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				},
+				"wildflour.ateliercrops/winter_gumdrop_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_gumdrop_blossom",
+					"StartSeason": "winter",
+					"StartDay": 14,
+					"EndSeason": "winter",
+					"EndDay": 14,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				},
+				"wildflour.ateliercrops/winter_sugar_blossom": {
+					"Enabled": true,
+					"ShakeOff": "wildflour.ateliercrops_sugar_blossom",
+					"StartSeason": "winter",
+					"StartDay": 1,
+					"EndSeason": "winter",
+					"EndDay": 1,
+					"Chance": 0.5,
+					"Locations": [ "Woods" ]
+				}
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/summer_amber_moondrop",
+			"FromFile": "assets/amber.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/fall_jade_moondrop",
+			"FromFile": "assets/jade.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/spring_lapis_moondrop",
+			"FromFile": "assets/lapis.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/winter_pearl_moondrop",
+			"FromFile": "assets/pearl.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/spring_cake_blossom",
+			"FromFile": "assets/cake.png"
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/spring_macaron_blossom",
+			"FromFile": "assets/macaron.png"
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/fall_caramel_blossom",
+			"FromFile": "assets/caramel.png"
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/fall_pie_blossom",
+			"FromFile": "assets/pie.png"
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/summer_creamsicle_blossom",
+			"FromFile": "assets/creamsicle.png"
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/summer_custard_blossom",
+			"FromFile": "assets/custard.png"
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/spring_sprinkle_blossom",
+			"FromFile": "assets/sprinkle.png"
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/summer_shortcake_blossom",
+			"FromFile": "assets/shortcake.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/winter_gumdrop_blossom",
+			"FromFile": "assets/gumdrop.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/wildflour.ateliercrops/winter_sugar_blossom",
+			"FromFile": "assets/sugar.png"
+		},
+
+	]
+}

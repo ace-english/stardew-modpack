@@ -1,0 +1,713 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+    "atelierfloral_FlowerStation.name": "Цветочный верстак",
+    "atelierfloral_FlowerStation.description": "Собирает пять цветов в букет",
+
+    "atelierfloral_FragranceStation.name":"Арома-станция",
+    "atelierfloral_FragranceStation.description":"Создает духи из цветов и превращает сухоцветы в благовония",
+
+    "atelierfloral_CandleStation.name": "Восковой котел",
+    "atelierfloral_CandleStation.description": "Создает мыло из цветов и превращает сухоцветы в свечи. Для создания мыла и свечей необходимы соты.",
+
+///////////////////////
+// GENERIC ITEMS NEW //
+///////////////////////
+
+    "atelierfloral_dried_flowers.name": "Сухоцветы",
+     "atelierfloral_dried_flowers.description": "Засушенные цветы прекрасно сохранились.",
+
+     "atelierfloral_flower_bouquet.name": "Букет",
+     "atelierfloral_flower_bouquet.description": "Букет свежих цветов.",
+
+     "atelierfloral_flower_perfume.name": "Духи",
+     "atelierfloral_flower_perfume.description": "Духи из свежих цветов.",
+
+     "atelierfloral_flower_soap.name": "Мыло",
+     "atelierfloral_flower_soap.description": "Мыло из сот и свежих цветов.",
+
+     "atelierfloral_flower_candles.name": "Свечи",
+     "atelierfloral_flower_candles.description": "Свечи, изготовленные вручную, с ароматом сухоцветов.",
+
+     "atelierfloral_flower_incense.name": "Благовония",
+     "atelierfloral_flower_incense.description": "Из сухоцветов делают благовония.",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierfloral_dried_flowers": "Сушеный {0}",
+"atelierfloral_flower_bouquet": "{0} Букет",
+"atelierfloral_flower_perfume": "{0} Духи",
+"atelierfloral_flower_soap": "{0} Мыло",
+"atelierfloral_flower_candles": "{0} Свечи",
+"atelierfloral_flower_incense": "{0} Благовония",
+
+//////////////////////////////
+// MODDED SUPPORT ITEMS NEW //
+//////////////////////////////
+
+"atelierfloral_dried_gardenias.name": "Сушеная гардения",
+"atelierfloral_dried_gardenias.description": "Высушенная гардения отлично сохраняется.",
+
+"atelierfloral_gardenia_bouquet.name": "Букет гардений",
+"atelierfloral_gardenia_bouquet.description": "Букет из свежесобранных гардений.",
+
+"atelierfloral_gardenia_perfume.name": "Духи Гардения",
+"atelierfloral_gardenia_perfume.description": "Духи сделаны из свежих гардений.",
+
+"atelierfloral_gardenia_soap.name": "Мыло с ароматом гардении",
+"atelierfloral_gardenia_soap.description": "Мыло из сот и свежих гардений.",
+
+"atelierfloral_gardenia_candles.name": "Свечи с ароматом гардении",
+"atelierfloral_gardenia_candles.description": "Свечи ручной работы, сделанные из высушенных гардений.",
+
+"atelierfloral_gardenia_incense.name": "Благовония Гардения",
+"atelierfloral_gardenia_incense.description": "Из высушенных гардений делают ароматные благовония.",
+
+"atelierfloral_dried_hibiscus.name": "Сушеный гибискус",
+"atelierfloral_dried_hibiscus.description": "Высушенный гибискус отлично сохраняется.",
+
+"atelierfloral_hibiscus_bouquet.name": "Букет гибискусов",
+"atelierfloral_hibiscus_bouquet.description": "Букет из свежесобранных гибискусов.",
+
+"atelierfloral_hibiscus_perfume.name": "Духи Гибискус",
+"atelierfloral_hibiscus_perfume.description": "Духи сделаны из свежих гибискусов.",
+
+"atelierfloral_hibiscus_soap.name": "Мыло с ароматом гибискуса",
+"atelierfloral_hibiscus_soap.description": "Мыло из сот и свежих гибискусов.",
+
+"atelierfloral_hibiscus_candles.name": "Свечи с ароматом гибискуса",
+"atelierfloral_hibiscus_candles.description": "Свечи ручной работы, сделанные из высушенных гибискусов.",
+
+"atelierfloral_hibiscus_incense.name": "Благовония Гибискус",
+"atelierfloral_hibiscus_incense.description": "Из высушенных гибискусов делают ароматные благовония.",
+
+"atelierfloral_dried_freesia.name": "Сушеная фрезия",
+"atelierfloral_dried_freesia.description": "Высушенная фрезия отлично сохраняется.",
+
+"atelierfloral_freesia_bouquet.name": "Букет фрезий",
+"atelierfloral_freesia_bouquet.description": "Букет из свежесобранных фрезий.",
+
+"atelierfloral_freesia_perfume.name": "Духи Фрезия",
+"atelierfloral_freesia_perfume.description": "Духи сделаны из свежих фрезий.",
+
+"atelierfloral_freesia_soap.name": "Мыло с ароматом фрезии",
+"atelierfloral_freesia_soap.description": "Мыло из сот и свежих фрезий.",
+
+"atelierfloral_freesia_candles.name": "Свечи с ароматом фрезии",
+"atelierfloral_freesia_candles.description": "Свечи ручной работы, сделанные из высушенных фрезий.",
+
+"atelierfloral_freesia_incense.name": "Благовония Фрезия",
+"atelierfloral_freesia_incense.description": "Из высушенных фрезий делают ароматные благовония.",
+
+"atelierfloral_dried_peony.name": "Сушеный пион",
+"atelierfloral_dried_peony.description": "Высушенный пион отлично сохраняется.",
+
+"atelierfloral_peony_bouquet.name": "Букет пионов",
+"atelierfloral_peony_bouquet.description": "Букет из свежесобранных пионов.",
+
+"atelierfloral_peony_perfume.name": "Духи Пион",
+"atelierfloral_peony_perfume.description": "Духи сделаны из свежих пионов.",
+
+"atelierfloral_peony_soap.name": "Мыло с ароматом пиона",
+"atelierfloral_peony_soap.description": "Мыло из сот и свежих пионов.",
+
+"atelierfloral_peony_candles.name": "Свечи с ароматом пиона",
+"atelierfloral_peony_candles.description": "Свечи ручной работы, сделанные из высушенных пионов.",
+
+"atelierfloral_peony_incense.name": "Благовония Пион",
+"atelierfloral_peony_incense.description": "Из высушенных пионов делают ароматные благовония.",
+
+"atelierfloral_dried_snapdragon.name": "Сушеный львиный зев",
+"atelierfloral_dried_snapdragon.description": "Высушенный львиный зев отлично сохраняется.",
+
+"atelierfloral_snapdragon_bouquet.name": "Букет львиного зева",
+"atelierfloral_snapdragon_bouquet.description": "Букет из свежесобранного львиного зева.",
+
+"atelierfloral_snapdragon_perfume.name": "Духи Львиный Зев",
+"atelierfloral_snapdragon_perfume.description": "Духи сделаны из свежего львиного зева.",
+
+"atelierfloral_snapdragon_soap.name": "Мыло с ароматом львиного зева",
+"atelierfloral_snapdragon_soap.description": "Мыло из сот и свежего львиного зева.",
+
+"atelierfloral_snapdragon_candles.name": "Свечи с ароматом львиного зева",
+"atelierfloral_snapdragon_candles.description": "Свечи ручной работы, сделанные из высушенного львиного зева.",
+
+"atelierfloral_snapdragon_incense.name": "Благовония Львиный Зев",
+"atelierfloral_snapdragon_incense.description": "Из высушенного львиного зева делают ароматные благовония.",
+
+"atelierfloral_dried_calendula.name": "Сушеная календула",
+"atelierfloral_dried_calendula.description": "Высушенная календула отлично сохраняется.",
+
+"atelierfloral_calendula_bouquet.name": "Букет календулы",
+"atelierfloral_calendula_bouquet.description": "Букет из свежесобранной календулы.",
+
+"atelierfloral_calendula_perfume.name": "Духи Календула",
+"atelierfloral_calendula_perfume.description": "Духи сделаны из свежей календулы.",
+
+"atelierfloral_calendula_soap.name": "Мыло с ароматом календулы",
+"atelierfloral_calendula_soap.description": "Мыло из сот и свежей календулы.",
+
+"atelierfloral_calendula_candles.name": "Свечи с ароматом календулы",
+"atelierfloral_calendula_candles.description": "Свечи ручной работы, сделанные из высушенной календулы.",
+
+"atelierfloral_calendula_incense.name": "Благовония Календула",
+"atelierfloral_calendula_incense.description": "Из высушенной календулы делают ароматные благовония.",
+
+"atelierfloral_dried_hollyhock.name": "Сушеная мальва",
+"atelierfloral_dried_hollyhock.description": "Высушенная мальва отлично сохраняется.",
+
+"atelierfloral_hollyhock_bouquet.name": "Букет мальвы",
+"atelierfloral_hollyhock_bouquet.description": "Букет из свежесобранной мальвы.",
+
+"atelierfloral_hollyhock_perfume.name": "Духи Мальва",
+"atelierfloral_hollyhock_perfume.description": "Духи сделаны из свежей мальвы.",
+
+"atelierfloral_hollyhock_soap.name": "Мыло с ароматом мальвы",
+"atelierfloral_hollyhock_soap.description": "Мыло из сот и свежей мальвы.",
+
+"atelierfloral_hollyhock_candles.name": "Свечи с ароматом мальвы",
+"atelierfloral_hollyhock_candles.description": "Свечи ручной работы, сделанные из высушенной мальвы.",
+
+"atelierfloral_hollyhock_incense.name": "Благовония Мальва",
+"atelierfloral_hollyhock_incense.description": "Из высушенной мальвы делают ароматные благовония.",
+
+"atelierfloral_dried_springpansy.name": "Сушеные анютины глазки",
+"atelierfloral_dried_springpansy.description": "Высушенные колокольчик отлично сохраняются.",
+
+"atelierfloral_springpansy_bouquet.name": "Букет анютиных глазок",
+"atelierfloral_springpansy_bouquet.description": "Букет из свежесобранных анютиных глазок.",
+
+"atelierfloral_springpansy_perfume.name": "Духи Анютины Глазки",
+"atelierfloral_springpansy_perfume.description": "Духи сделаны из свежих анютиных глазок.",
+
+"atelierfloral_springpansy_soap.name": "Мыло с ароматом анютиных глазок",
+"atelierfloral_springpansy_soap.description": "Мыло из сот и свежих анютиных глазок.",
+
+"atelierfloral_springpansy_candles.name": "Свечи с ароматом анютиных глазок",
+"atelierfloral_springpansy_candles.description": "Свечи ручной работы, сделанные из высушенных анютиных глазок.",
+
+"atelierfloral_springpansy_incense.name": "Благовония Анютины Глазки",
+"atelierfloral_springpansy_incense.description": "Из высушенных анютиных глазок делают ароматные благовония.",
+
+"atelierfloral_dried_cornflower.name": "Сушеный василек",
+"atelierfloral_dried_cornflower.description": "Высушенный василек отлично сохраняется.",
+
+"atelierfloral_cornflower_bouquet.name": "Букет васильков",
+"atelierfloral_cornflower_bouquet.description": "Букет из свежесобранных васильков.",
+
+"atelierfloral_cornflower_perfume.name": "Духи Василек",
+"atelierfloral_cornflower_perfume.description": "Духи сделаны из свежих васильков.",
+
+"atelierfloral_cornflower_soap.name": "Мыло с ароматом васильков",
+"atelierfloral_cornflower_soap.description": "Мыло из сот и свежих васильков.",
+
+"atelierfloral_cornflower_candles.name": "Свечи с ароматом васильков",
+"atelierfloral_cornflower_candles.description": "Свечи ручной работы, сделанные из высушенных васильков.",
+
+"atelierfloral_cornflower_incense.name": "Благовония Василек",
+"atelierfloral_cornflower_incense.description": "Из высушенных васильков делают ароматные благовония.",
+
+"atelierfloral_dried_iris.name": "Сушеный ирис",
+"atelierfloral_dried_iris.description": "Высушенный ирис отлично сохраняется.",
+
+"atelierfloral_iris_bouquet.name": "Букет ирисов",
+"atelierfloral_iris_bouquet.description": "Букет из свежесобранных ирисов.",
+
+"atelierfloral_iris_perfume.name": "Духи Ирис",
+"atelierfloral_iris_perfume.description": "Духи сделаны из свежих ирисов.",
+
+"atelierfloral_iris_soap.name": "Мыло с ароматом ириса",
+"atelierfloral_iris_soap.description": "Мыло из сот и свежих ирисов.",
+
+"atelierfloral_iris_candles.name": "Свечи с ароматом ириса",
+"atelierfloral_iris_candles.description": "Свечи ручной работы, сделанные из высушенных ирисов.",
+
+"atelierfloral_iris_incense.name": "Благовония Ирис",
+"atelierfloral_iris_incense.description": "Из высушенных ирисов делают ароматные благовония.",
+
+"atelierfloral_dried_cosmos.name": "Сушеная космея",
+"atelierfloral_dried_cosmos.description": "Высушенная космея отлично сохраняется.",
+
+"atelierfloral_cosmos_bouquet.name": "Букет космей",
+"atelierfloral_cosmos_bouquet.description": "Букет из свежесобранных космей.",
+
+"atelierfloral_cosmos_perfume.name": "Духи Космея",
+"atelierfloral_cosmos_perfume.description": "Духи сделаны из свежих космей.",
+
+"atelierfloral_cosmos_soap.name": "Мыло с ароматом космеи",
+"atelierfloral_cosmos_soap.description": "Мыло из сот и свежих космей.",
+
+"atelierfloral_cosmos_candles.name": "Свечи с ароматом космеи",
+"atelierfloral_cosmos_candles.description": "Свечи ручной работы, сделанные из высушенных космей.",
+
+"atelierfloral_cosmos_incense.name": "Благовония Космея",
+"atelierfloral_cosmos_incense.description": "Из высушенных космей делают ароматные благовония.",
+
+"atelierfloral_dried_primrose.name": "Сушеный первоцвет",
+"atelierfloral_dried_primrose.description": "Высушенный первоцвет отлично сохраняется.",
+
+"atelierfloral_primrose_bouquet.name": "Букет первоцветов",
+"atelierfloral_primrose_bouquet.description": "Букет из свежесобранных первоцветов.",
+
+"atelierfloral_primrose_perfume.name": "Духи Первоцвет",
+"atelierfloral_primrose_perfume.description": "Духи сделаны из свежих первоцветов.",
+
+"atelierfloral_primrose_soap.name": "Мыло с ароматом первоцвета",
+"atelierfloral_primrose_soap.description": "Мыло из сот и свежих первоцветов.",
+
+"atelierfloral_primrose_candles.name": "Свечи с ароматом первоцвета",
+"atelierfloral_primrose_candles.description": "Свечи ручной работы, сделанные из высушенных первоцветов.",
+
+"atelierfloral_primrose_incense.name": "Благовония Первоцвет",
+"atelierfloral_primrose_incense.description": "Из высушенных первоцветов делают ароматные благовония.",
+
+"atelierfloral_dried_pixiebell.name": "Сушеный колокольчик",
+"atelierfloral_dried_pixiebell.description": "Высушенный колокольчик отлично сохраняется.",
+
+"atelierfloral_pixiebell_bouquet.name": "Букет колокольчиков",
+"atelierfloral_pixiebell_bouquet.description": "Букет из свежесобранных колокольчиков.",
+
+"atelierfloral_pixiebell_perfume.name": "Духи Колокольчик",
+"atelierfloral_pixiebell_perfume.description": "Духи сделаны из свежих колокольчиков.",
+
+"atelierfloral_pixiebell_soap.name": "Мыло с ароматом колокольчиков",
+"atelierfloral_pixiebell_soap.description": "Мыло из сот и свежих колокольчиков.",
+
+"atelierfloral_pixiebell_candles.name": "Свечи с ароматом колокольчиков",
+"atelierfloral_pixiebell_candles.description": "Свечи ручной работы, сделанные из высушенных колокольчиков.",
+
+"atelierfloral_pixiebell_incense.name": "Благовония Колокольчик",
+"atelierfloral_pixiebell_incense.description": "Из высушенных колокольчиков делают ароматные благовония.",
+
+"atelierfloral_dried_pinkmorningglory.name": "Сушеная розовая ипомея",
+"atelierfloral_dried_pinkmorningglory.description": "Высушенная розовая ипомея отлично сохраняется.",
+
+"atelierfloral_pinkmorningglory_bouquet.name": "Букет розовых ипомей",
+"atelierfloral_pinkmorningglory_bouquet.description": "Букет из свежесобранных розовых ипомей.",
+
+"atelierfloral_pinkmorningglory_perfume.name": "Духи Розовая Ипомея",
+"atelierfloral_pinkmorningglory_perfume.description": "Духи сделаны из свежей розовой ипомеи.",
+
+"atelierfloral_pinkmorningglory_soap.name": "Мыло с ароматом розовой ипомеи",
+"atelierfloral_pinkmorningglory_soap.description": "Мыло из сот и свежей розовой ипомеи.",
+
+"atelierfloral_pinkmorningglory_candles.name": "Свечи с ароматом розовой ипомеи",
+"atelierfloral_pinkmorningglory_candles.description": "Свечи ручной работы, сделанные из высушенной розовой ипомеи.",
+
+"atelierfloral_pinkmorningglory_incense.name": "Благовония Розовая Ипомея",
+"atelierfloral_pinkmorningglory_incense.description": "Из высушенной розовой ипомеи делают ароматные благовония.",
+
+"atelierfloral_dried_sweetpea.name": "Сушеный душистый горошек",
+"atelierfloral_dried_sweetpea.description": "Высушенный душистый горошек отлично сохраняется.",
+
+"atelierfloral_sweetpea_bouquet.name": "Букет душистого горошка",
+"atelierfloral_sweetpea_bouquet.description": "Букет из свежесобранного душистого горошка",
+
+"atelierfloral_sweetpea_perfume.name": "Туалетная вода Душистый Горошек",
+"atelierfloral_sweetpea_perfume.description": "Духи сделаны из свежего душистого горошка.",
+
+"atelierfloral_sweetpea_soap.name": "Мыло с ароматом душистого горошка",
+"atelierfloral_sweetpea_soap.description": "Мыло из сот и свежего душистого горошка.",
+
+"atelierfloral_sweetpea_candles.name": "Свечи с ароматом душистого горошка",
+"atelierfloral_sweetpea_candles.description": "Свечи ручной работы, сделанные из высушенного душистого горошка.",
+
+"atelierfloral_sweetpea_incense.name": "Благовония Душистый Горошек",
+"atelierfloral_sweetpea_incense.description": "Из высушенного душистого горошка делают ароматные благовония.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfloral_FlowerStation_InvalidItem.message": "Это невозможно обработать",
+"atelierfloral_FlowerStation_InvalidCount.message": "Требуется 5 цветов",
+
+"atelierfloral_FragranceStation_InvalidItem.message": "Это невозможно обработать",
+"atelierfloral_FragranceStation_InvalidCount.message": "Требуется больше цветов",    
+
+"atelierfloral_CandleStation_InvalidItem.message": "Это невозможно обработать",
+"atelierfloral_CandleStation_InvalidCount.message": "Требуются соты",    
+
+	
+//INCENSE
+
+"atelierbotanicals_autumn_incense.name":"Осенние благовония",
+"atelierbotanicals_autumn_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из осенних цветов, приветствующих смену времен года.",
+
+"atelierbotanicals_chamomile_incense.name":"Благовония счастья",
+"atelierbotanicals_chamomile_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из лесной ромашки, которая ассоциируются с гармонией и миром.",
+	
+"atelierbotanicals_chiffon_incense.name":"Благовония гармонии",
+"atelierbotanicals_chiffon_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из синей пеларгонии, которая ассоциируются с гармонией и миром.",
+
+"atelierbotanicals_daisy_incense.name":"Благовония надежды",
+"atelierbotanicals_daisy_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из ползучей маргаритки, поскольку она ассоциируется с надеждой и защитой.",
+
+"atelierbotanicals_jasmine_incense.name":"Благовония для медитации",
+"atelierbotanicals_jasmine_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из жасмина, который ассоциируется с гармонией и духовностью",
+
+"atelierbotanicals_lavender_incense.name":"Благовония для релаксации",
+"atelierbotanicals_lavender_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из лаванды для успокаивающего эффекта.",
+
+"atelierbotanicals_lily_incense.name":"Защитные благовония",
+"atelierbotanicals_lily_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из лилии, поскольку она способствуют защите от порчи.",
+
+"atelierbotanicals_mugwort_incense.name":"Благовония прорицателя",
+"atelierbotanicals_mugwort_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из полыни из-за ее магических свойств.",
+
+"atelierbotanicals_pixie_incense.name":"Благовония пикси",
+"atelierbotanicals_pixie_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из Дыхания Пикси, поскольку оно ассоциируется с творчеством.",
+
+"atelierbotanicals_primrose_incense.name":"Целебные благовония",
+"atelierbotanicals_primrose_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из кварцевого первоцвета, который ассоциируется с положительной энергией.",
+
+"atelierbotanicals_mysteria_incense.name":"Секретные благовония",
+"atelierbotanicals_mysteria_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из неуловимой мистерии, которая ассоциируется с процветанием.",
+
+"atelierbotanicals_spring_incense.name":"Весенние благовония",
+"atelierbotanicals_spring_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из весенних цветов встречающих новый год.",
+
+"atelierbotanicals_summer_incense.name":"Летние благовония",
+"atelierbotanicals_summer_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из летних цветов, приветствующих смену времен года.",
+
+"atelierbotanicals_thistle_incense.name":"Великолепные благовония",
+"atelierbotanicals_thistle_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из чертополоха, поскольку он ассоциируется с защитой и процветанием.",
+
+"atelierbotanicals_valerian_incense.name":"Благовония сладких снов",
+"atelierbotanicals_valerian_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из валерианы для успокаивающего эффекта.",
+
+"atelierbotanicals_vanilla_incense.name":"Домашние благовония",
+"atelierbotanicals_vanilla_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из ванили для успокаивающего эффекта",
+
+"atelierbotanicals_violet_incense.name":"Любовные благовония",
+"atelierbotanicals_violet_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из луговой фиалки, поскольку она ассоциируются с любовью, плодородием и изобилием.",
+
+"atelierbotanicals_winter_incense.name":"Зимние благовония",
+"atelierbotanicals_winter_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из дикого зимнего крокуса, приветствующего конец года.",
+
+"atelierbotanicals_yarrow_incense.name":"Мужественные благовония",
+"atelierbotanicals_yarrow_incense.description":"Палочки, сжигаемые при ароматерапии или медитации; они состоят из тысячелистника, поскольку он ассоциируется с храбростью и любовью.",
+
+
+
+//DRIED ITEMS
+
+"atelierbotanicals_dried_geranium.name": "Сушеная ангельская герань",
+"atelierbotanicals_dried_geranium.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierbotanicals_dried_arcticfox.name": "Сушеная лисья наперстянка",
+"atelierbotanicals_dried_arcticfox.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierbotanicals_dried_avalune.name": "Сушеный авалун",
+"atelierbotanicals_dried_avalune.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_chiffon.name": "Сушеная пеларгония",
+"atelierfloral_dried_chiffon.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierbotanicals_dried_chamomile.name": "Сушеная лесная ромашка",
+"atelierbotanicals_dried_chamomile.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierbotanicals_dried_daisy.name": "Сушеная ползучая маргаритка",
+"atelierbotanicals_dried_daisy.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierbotanicals_dried_dawn_lily.name": "Сушеная рассветная лилия",
+"atelierbotanicals_dried_dawn_lily.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierbotanicals_dried_dusk_lily.name": "Сушеная сумеречная лилия",
+"atelierbotanicals_dried_dusk_lily.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_crocus.name": "Сушеный крокус",
+"atelierfloral_dried_crocus.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_fairy_rose.name": "Сушеная сказочная роза",
+"atelierfloral_dried_fairy_rose.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_jazz.name": "Сушеный яркоцвет",
+"atelierfloral_dried_jazz.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_mallow.name": "Сушеный алтей",
+"atelierfloral_dried_mallow.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierbotanicals_dried_puffball.name": "Сушеный волшебный одуванчик",
+"atelierbotanicals_dried_puffball.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierbotanicals_dried_jasmine.name": "Сушеный жасмин Фернских островов",
+"atelierbotanicals_dried_jasmine.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_lavender.name": "Сушеная лесная лаванда",
+"atelierfloral_dried_lavender.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_mysteria.name": "Сушеные цветы мистерии",
+"atelierfloral_dried_mysteria.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_violet.name": "Сушеная луговая фиалка",
+"atelierfloral_dried_violet.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_moon_maiden.name": "Сушеный лунный Мэйден",
+"atelierfloral_dried_moon_maiden.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_mugwort.name": "Сушеная полынь",
+"atelierfloral_dried_mugwort.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_pixiesbreath.name": "Сушеное Дыхание пикси",
+"atelierfloral_dried_pixiesbreath.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_primrose_quartz.name": "Сушеный кварцевый первоцвет",
+"atelierfloral_dried_primrose_quartz.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_poppy.name": "Сушеный мак",
+"atelierfloral_dried_poppy.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_sakura.name": "Сушеные лепестки сакуры",
+"atelierfloral_dried_sakura.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_spangle.name": "Сушеный летний блестник",
+"atelierfloral_dried_spangle.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_sunflower.name": "Сушеный подсолнух",
+"atelierfloral_dried_sunflower.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_thistle.name": "Сушеный чертополох",
+"atelierfloral_dried_thistle.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_tulip.name": "Сушеный тюльпан",
+"atelierfloral_dried_tulip.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_valerian.name": "Сушеная валериана",
+"atelierfloral_dried_valerian.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_vanilla.name": "Сушеная ванильная орхидея",
+"atelierfloral_dried_vanilla.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+"atelierfloral_dried_yarrow.name": "Сушеный тысячелистник",
+"atelierfloral_dried_yarrow.description": "Пучок сухоцветов. В таком состоянии цветы можно хранить месяцы или даже годы.",
+
+
+//////////////
+// BOUQUETS //
+//////////////
+
+    "atelierfloral_jazz_bouquet.name": "Букет синих яркоцветов",
+     "atelierfloral_jazz_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_vanilla_bouquet.name": "Букет ванили",
+     "atelierfloral_vanilla_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_fairy_bouquet.name": "Букет сказочных роз",
+     "atelierfloral_fairy_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_chamomile_bouquet.name": "Букет лесных ромашек",
+     "atelierfloral_chamomile_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_lavender_bouquet.name": "Букет лесной лаванды",
+     "atelierfloral_lavender_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_jasmine_bouquet.name": "Букет жасмина Фернских островов",
+     "atelierfloral_jasmine_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_mallow_bouquet.name": "Букет алтеев",
+     "atelierfloral_mallow_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_poppy_bouquet.name": "Букет маков",
+     "atelierfloral_poppy_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_sakura_bouquet.name": "Букет сакуры",
+     "atelierfloral_sakura_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_spangle_bouquet.name": "Букет блестника",
+     "atelierfloral_spangle_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+     "atelierfloral_sunflower_bouquet.name": "Букет подсолнухов",
+     "atelierfloral_sunflower_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+    
+     "atelierfloral_tulip_bouquet.name": "Букет тюльпанов",
+     "atelierfloral_tulip_bouquet.description": "Великолепный букет цветов станет прекрасным подарком!",
+
+/////////////
+// PERFUME //
+/////////////
+
+    "atelierfloral_jazz_perfume.name": "Туалетная вода Яркоцвет",
+     "atelierfloral_jazz_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+     "atelierfloral_vanilla_perfume.name": "Туалетная вода Ваниль Калико",
+     "atelierfloral_vanilla_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+     "atelierfloral_fairy_perfume.name": "Туалетная вода Сказочная Роза",
+     "atelierfloral_fairy_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+     "atelierfloral_chamomile_perfume.name": "Туалетная вода Лесная Ромашка",
+     "atelierfloral_chamomile_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+     "atelierfloral_lavender_perfume.name": "Туалетная вода Лаванда",
+     "atelierfloral_lavender_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+     "atelierfloral_jasmine_perfume.name": "Туалетная вода Жасмин Фернских островов",
+     "atelierfloral_jasmine_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+     "atelierfloral_mallow_perfume.name": "Туалетная вода Алтей",
+     "atelierfloral_mallow_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+     "atelierfloral_poppy_perfume.name": "Туалетная вода Мак",
+     "atelierfloral_poppy_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+    
+     "atelierfloral_sakura_perfume.name": "Туалетная вода Сакура",
+     "atelierfloral_sakura_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+    
+     "atelierfloral_spangle_perfume.name": "Туалетная вода Блестник",
+     "atelierfloral_spangle_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+     "atelierfloral_sunflower_perfume.name": "Туалетная вода Подсолнух",
+     "atelierfloral_sunflower_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+     "atelierfloral_tulip_perfume.name": "Туалетная вода Тюльпан",
+     "atelierfloral_tulip_perfume.description": "Духи с нежным ароматом, изготовленные на основе дистиллированной цветочной эссенции.",
+
+//////////
+// SOAP //
+//////////
+
+     "atelierfloral_jazz_soap.name": "Роскошное мыло с яркоцветом",
+     "atelierfloral_jazz_soap.description": "Кусок ароматного роскошного мыла — как это шикарно!",
+
+     "atelierfloral_vanilla_soap.name": "Роскошное мыло с ванилью Калико",
+     "atelierfloral_vanilla_soap.description": "Кусок ароматного роскошного мыла — как это шикарно!",
+
+     "atelierfloral_fairy_soap.name": "Роскошное мыло со сказочной розой",
+     "atelierfloral_fairy_soap.description": "Кусочек ароматного роскошного мыла — как шикарно!",
+
+     "atelierfloral_chamomile_soap.name": "Роскошное мыло с лесной ромашкой",
+     "atelierfloral_chamomile_soap.description": "Кусок ароматного роскошного мыла — как шикарно!",
+
+     "atelierfloral_lavender_soap.name": "Роскошное мыло с лесной лавандой",
+     "atelierfloral_lavender_soap.description": "Кусок ароматного роскошного мыла — как это шикарно!",
+
+     "atelierfloral_jasmine_soap.name": "Роскошное мыло с жасмином Фернских островов",
+     "atelierfloral_jasmine_soap.description": "Кусочек ароматного роскошного мыла — как здорово!",
+
+     "atelierfloral_mallow_soap.name": "Роскошное мыло с алтеем",
+     "atelierfloral_mallow_soap.description": "Кусочек ароматного роскошного мыла — как это шикарно!",
+
+     "atelierfloral_poppy_soap.name": "Роскошное мыло с маком",
+     "atelierfloral_poppy_soap.description": "Кусок ароматного роскошного мыла — как шикарно!",
+
+     "atelierfloral_sakura_soap.name": "Роскошное мыло с сакурой",
+     "atelierfloral_sakura_soap.description": "Кусочек ароматного роскошного мыла — как шикарно!",
+
+     "atelierfloral_spangle_soap.name": "Роскошное мыло с блестником",
+     "atelierfloral_spangle_soap.description": "Кусочек ароматного роскошного мыла — как это шикарно!",
+
+     "atelierfloral_sunflower_soap.name": "Роскошное мыло с подсолнечником",
+     "atelierfloral_sunflower_soap.description": "Кусок ароматного роскошного мыла — как это шикарно!",
+
+     "atelierfloral_tulip_soap.name": "Роскошное мыло с тюльпаном",
+     "atelierfloral_tulip_soap.description": "Кусочек ароматного роскошного мыла — как это шикарно!",
+
+
+///////////////
+// POTPOURRI //
+///////////////
+
+        "atelierfloral_jazz_potpourri.name": "Пакетик попурри яркоцвета",
+    "atelierfloral_jazz_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке – идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_vanilla_potpourri.name": "Пакетик ванильного попурри",
+     "atelierfloral_vanilla_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке – идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_fairy_potpourri.name": "Пакетик попурри сказочной розы",
+     "atelierfloral_fairy_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке – идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_chamomile_potpourri.name": "Пакетик ромашкового попурри",
+     "atelierfloral_chamomile_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке — идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_lavender_potpourri.name": "Пакетик лавандового попурри",
+     "atelierfloral_lavender_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке — идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_jasmine_potpourri.name": "Пакетик жасминового попурри",
+     "atelierfloral_jasmine_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке — идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_mallow_potpourri.name": "Пакетик попурри алтея",
+     "atelierfloral_mallow_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке – идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_poppy_potpourri.name": "Пакетик макового попурри",
+     "atelierfloral_poppy_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке — идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_sakura_potpourri.name": "Пакетик попурри сакуры",
+     "atelierfloral_sakura_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке – идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_spangle_potpourri.name": "Пакетик попурри блестника",
+     "atelierfloral_spangle_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке – идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_sunflower_potpourri.name": "Пакетик подсолнечного попурри",
+     "atelierfloral_sunflower_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке – идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+     "atelierfloral_tulip_potpourri.name": "Пакетик тюльпанового попурри",
+     "atelierfloral_tulip_potpourri.description": "Сушеные лепестки цветов в муслиновом мешочке – идеальное решение для поддержания приятного запаха в шкафу или ящиках комода.",
+
+/////////////
+// CANDLES //
+/////////////
+
+     "atelierfloral_jazz_candles.name": "Свечи с ароматом яркоцвета",
+     "atelierfloral_jazz_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_vanilla_candles.name": "Свечи с ароматом ванили",
+     "atelierfloral_vanilla_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_fairy_candles.name": "Свечи с ароматом сказочной розы",
+     "atelierfloral_fairy_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_chamomile_candles.name": "Свечи с ароматом ромашки",
+     "atelierfloral_chamomile_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_lavender_candles.name": "Свечи с ароматом лаванды",
+     "atelierfloral_lavender_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_jasmine_candles.name": "Свечи с ароматом жасмина",
+     "atelierfloral_jasmine_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_mallow_candles.name": "Свечи с ароматом алтея",
+     "atelierfloral_mallow_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_poppy_candles.name": "Свечи с ароматом мака",
+     "atelierfloral_poppy_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_sakura_candles.name": "Свечи с ароматом сакуры",
+     "atelierfloral_sakura_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_spangle_candles.name": "Свечи с ароматом блестника",
+     "atelierfloral_spangle_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_sunflower_candles.name": "Свечи с ароматом подсолнечника",
+     "atelierfloral_sunflower_candles.description": "Трио из симпатичных ароматических свечей.",
+
+     "atelierfloral_tulip_candles.name": "Свечи с ароматом тюльпана",
+     "atelierfloral_tulip_candles.description": "Трио из симпатичных ароматических свечей.",
+
+
+//////////
+// MAIL //
+//////////
+
+     "atelierfloral_FlowerStationRecipe.name":"Для начинающего флориста",
+     "atelierfloral_FlowerStationRecipe.text":"@, ^^ Ты знаешь, что из цветов можно сделать ароматические свечи и мыло? Мне нравится делать это с цветами, которые Джас приносит домой, но ты, вероятно, сможешь неплохо заработать на этом!^^ - Марни",
+
+     "atelierfloral_FragranceStationRecipe.name":"Цветочные эссенции",
+     "atelierfloral_FragranceStationRecipe.text":"@, ^^ Я вырезала это из одного из своих журналов. Делать эссенции своими руками сейчас так модно! Может быть, ты сможешь попробовать создать их из цветов с фермы?^^ - Хэйли",
+
+    "atelierfloral_jas_gift.name":"Цветы для фермера",
+    "atelierfloral_jas_gift.text":"@, ^^ Тетя Марни писала тебе о цветах, и я захотела тоже тебе написать! Мы вместе нашли эти приятно пахнущие цветы в лесу, и она сказала, что они тебе понравятся, так что вот они!^^ - Джас",
+
+    "atelierfloral_sandy_gift.name":"Цветок другу",
+     "atelierfloral_sandy_gift.text":"@, ^^ Как продвигается цветоводство? Мне бы хотелось, чтобы в пустыне было больше цветов, но здесь так жарко. Один из моих друзей с Фернских островов прислал мне несколько, и я подумала, может, ты вырастишь их в своей теплице...^^ - Сэнди",
+
+    "atelierfloral_emily_gift.name":"Немного букетного вдохновения",
+    "atelierfloral_emily_gift.text":"@, ^^ Эвелин рассказывала о твоих новых цветочных проектах, и мне захотелось помочь! Думаю, из сказочных роз получится потрясающий осенний букет, да?^^ - Эмили" ,
+
+}

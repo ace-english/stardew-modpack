@@ -1,0 +1,230 @@
+{
+
+//MACHINES
+
+	"Mixology_DrinkBar.name": "Bar de cócteles",
+	"Mixology_DrinkBar.description": "Un pequeño bar para preparar cócteles.",
+
+//BITTERS
+
+	"Mixology_aromatic_bitters.name": "Bitter aromático",
+	"Mixology_aromatic_bitters.description": "Un alcohol neutro infusionado con diversas especias, raíces y hierbas. A menudo se añade a los cócteles para darles un sabor amargo o agridulce.",
+
+	"Mixology_citrus_bitters.name": "Bitter cítrico",
+	"Mixology_citrus_bitters.description": "Un alcohol neutro infusionado con diversas especias, raíces y hierbas. A menudo se añade a los cócteles para darles un sabor amargo o agridulce.",
+
+	"Mixology_floral_bitters.name": "Bitter floral",
+	"Mixology_floral_bitters.description": "Un alcohol neutro infusionado con diversas especias, raíces y hierbas. A menudo se añade a los cócteles para darles un sabor amargo o agridulce.",
+
+	"Mixology_pixie_bitters.name": "Bitter feérico",
+	"Mixology_pixie_bitters.description": "Un alcohol neutro infusionado con diversas especias, raíces y hierbas. A menudo se añade a los cócteles para darles un sabor amargo o agridulce.",
+
+	"Mixology_star_bitters.name": "Bitter estrella",
+	"Mixology_star_bitters.description": "Un alcohol neutro infusionado con diversas especias, raíces y hierbas. A menudo se añade a los cócteles para darles un sabor amargo o agridulce.",
+
+//JUICES
+		
+	"Mixology_cranberry_juice.name": "Zumo de arándanos",
+	"Mixology_cranberry_juice.description": "Zumo de fruta elaborado con arándanos frescos. Se utiliza en la elaboración de deliciosas bebidas.",
+
+	"Mixology_lemon_juice.name": "Zumo de limón",
+	"Mixology_lemon_juice.description": "Zumo de fruta elaborado con limones frescos. Se utiliza en la elaboración de deliciosas bebidas.",
+
+	"Mixology_lime_juice.name": "Zumo de lima",
+	"Mixology_lime_juice.description": "Zumo de fruta elaborado con limas frescas. Se utiliza para elaborar deliciosas bebidas.",
+
+	"Mixology_orange_juice.name": "Zumo de naranja",
+	"Mixology_orange_juice.description": "Zumo de fruta elaborado con naranjas frescas. Se utiliza para elaborar deliciosas bebidas.",
+
+	"Mixology_pineapple_juice.name": "Zumo de piña",
+	"Mixology_pineapple_juice.description": "Zumo de fruta elaborado a partir de piñas frescas. Se utiliza para elaborar deliciosas bebidas.",
+
+
+//MISC
+
+	"Mixology_club_soda.name": "Agua carbonatada",
+	"Mixology_club_soda.description": "Una suave bebida carbonatada neutra. Se utiliza para elaborar deliciosas bebidas.",
+
+	"Mixology_tonic_water.name": "Agua tónica",
+	"Mixology_tonic_water.description": "Una suave bebida carbonatada amarga. Se utiliza para elaborar deliciosas bebidas.",
+
+//ALCOHOLS
+
+	"Mixology_brandy.name": "Brandy",
+	"Mixology_brandy.description": "Un alcohol obtenido de vino destilado, utilizado para la elaboración de cócteles.",
+	
+	"Mixology_gin.name": "Gin",
+	"Mixology_gin.description": "Un alcohol obtenido de trigo destilado, utilizado para elaborar cócteles.",
+
+	"Mixology_rum.name": "Rum",
+	"Mixology_rum.description": "Un alcohol obtenido de caña de azúcar destilada, utilizado para elaborar cócteles.",
+
+	"Mixology_tequila.name": "Tequila",
+	"Mixology_tequila.description": "Un alcohol obtenido de cactus agave destilado, utilizado para elaborar cócteles.",
+	
+	"Mixology_vodka.name": "Vodka",
+	"Mixology_vodka.description": "Un alcohol obtenido de patatas destiladas, utilizado para elaborar cócteles.",
+
+	"Mixology_whiskey.name": "Whiskey",
+	"Mixology_whiskey.description": "Un alcohol obtenido de maíz destilado, utilizado para elaborar cócteles.",
+
+//COCKTAILS
+
+	"Mixology_raspberry_lemon_drop.name": "Lemondrop de frambuesa",
+	"Mixology_raspberry_lemon_drop.description": "Las frambuesas silvestres aportan un toque divertido a este cóctel clásico de limón.",
+
+	"Mixology_berry_mimosa.name": "Bayas burbujeantes",
+	"Mixology_berry_mimosa.description": "Un cóctel burbujeante de bayas perfecto para el brunch.",
+
+	"Mixology_berry_whiskey_sour.name": "Bayas ácidas",
+	"Mixology_berry_whiskey_sour.description": "Un cóctel complejo y afrutado con un agradable toque ácido.",
+
+	"Mixology_blackberry_lemon_smash.name": "Smash de limón afrutado",
+	"Mixology_blackberry_lemon_smash.description": "El limón ácido corta espléndidamente a travéz de la fruta dulce en este elegante cóctel.",
+
+	"Mixology_black_forest_cocktail.name": "Bosque Negro",
+	"Mixology_black_forest_cocktail.description": "Llamado así por la tarta Bosque Negro, la combinación de chocolate y cereza hace que este cóctel sea agradablemente dulce.",
+
+	"Mixology_cake_walk.name": "Paseo de tarta",
+	"Mixology_cake_walk.description": "¡Un cóctel muy dulce, que a menudo se disfruta como un postre por sí mismo!",
+
+	"Mixology_raspberry_stinger.name": "Stinger de frambuesa",
+	"Mixology_raspberry_stinger.description": "Un cóctel de frambuesa ácida que se disfruta mejor con bayas recién recolectadas.",
+
+	"Mixology_early_sunrise.name": "Temprano Amanecer",
+	"Mixology_early_sunrise.description": "Los colores de este delicioso cóctel recuerdan al sol cuando irrumpe en el cielo al amanecer.",
+
+	"Mixology_flower_queen.name": "Reina de las flores",
+	"Mixology_flower_queen.description": "Un cóctel ligero y floral creado para celebrar la Danza Floral de Primavera.",
+
+	"Mixology_frozen_margarita.name": "Medusas a la luz de la luna",
+	"Mixology_frozen_margarita.description": "Un cóctel helado de verano creado para celebrar la Danza de las Medusas Lunares.",
+
+	"Mixology_garden_breeze.name": "Brisa de jardín",
+	"Mixology_garden_breeze.description": "Un cóctel fresco y floral, perfecto para disfrutar en el jardín.",
+
+	"Mixology_gin_tonic.name": "Correcto y Propio",
+	"Mixology_gin_tonic.description": "Un cóctel clásico, perfecto para los que desean lucirse al pedirlo en el bar.",
+
+	"Mixology_harvest_hayride.name": "Paseo de la cosecha",
+	"Mixology_harvest_hayride.description": "Un cóctel fresco y otoñal.",
+
+	"Mixology_lavender_gin_spritz.name": "Spritz de lavanda",
+	"Mixology_lavender_gin_spritz.description": "Las notas florales de la lavanda hacen de este cóctel uno de los favoritos de los jardineros de todo el mundo..",
+
+	"Mixology_lightning_haze.name": "Niebla de relámpagos",
+	"Mixology_lightning_haze.description": "Un cóctel fuerte que toma su nombre de la niebla que suele acompañar a una tormenta de verano.",
+	
+	"Mixology_mango_tango.name": "Tango de Mango",
+	"Mixology_mango_tango.description": "¡Este cóctel veraniego te hará bailar en un santiamén!",
+
+	"Mixology_mango_twister.name": "Torbellino de mango",
+	"Mixology_mango_twister.description": "Un cóctel atrevido y veraniego para mantenerse fresco en los meses calurosos.",
+
+	"Mixology_pink_flamingo.name": "Flamingo Rosa",
+	"Mixology_pink_flamingo.description": "Un cóctel festivo perfecto para las fiestas de verano.",
+
+	"Mixology_summer_potluck_punch.name": "Ponche de verano",
+	"Mixology_summer_potluck_punch.description": "Un delicioso cóctel lleno de las mejores frutas del verano.",
+
+	"Mixology_sangria.name": "Sangría afrutada",
+	"Mixology_sangria.description": "Fruta y vino, ¿qué más se puede pedir?",
+
+	"Mixology_spirited_away.name": "Spirited Away",
+	"Mixology_spirited_away.description": "Un cóctel de temporada que se toma al final del otoño, a menudo para celebrar la fiesta de la Víspera de los Espíritus.",
+
+	"Mixology_think_pink.name": "Piensa en Rosa",
+	"Mixology_think_pink.description": "Un cóctel rosa repleto de sabor a fruta fresca.",
+
+	"Mixology_winter_star.name": "Estrella de Invierno",
+	"Mixology_winter_star.description": "Un cóctel clásico que se disfruta durante las fiestas navideñas.",
+
+	"Mixology_young_love.name": "Amor joven",
+	"Mixology_young_love.description": "Un cóctel brillante y sabroso lleno de vida, como enamorarse por primera vez.",
+
+    //MOCKTAILS
+        
+    "Mixology_apple_ginger_fizz.name": "Fizz de manzana y jengibre",
+    "Mixology_apple_ginger_fizz.description": "Una bebida otoñal deliciosamente crujiente que recuerda a los paseos por un manzanar.",
+
+    "Mixology_apricot_blitz.name": "Blitz de albaricoque",
+    "Mixology_apricot_blitz.description": "El refresco primaveral perfecto para disfrutar después de un largo día en la granja.",
+
+    "Mixology_autumn_nights.name": "Noches de otoño",
+    "Mixology_autumn_nights.description": "Una bebida para entrar en calor en una tarde fría de otoño.",
+
+    "Mixology_berry_breeze.name": "Brisa de bayas",
+    "Mixology_berry_breeze.description": "La acidez del limón ayuda a que el sabor de las bayas destaque en esta bebida.",
+
+    "Mixology_blackberry_mint_refresher.name": "Refresco de menta y mora",
+    "Mixology_blackberry_mint_refresher.description": "¡Por fin una forma de aprovechar toda la menta que se está apoderando del jardín!",
+
+    "Mixology_blue_isle_cooler.name": "Cooler isla azul",
+    "Mixology_blue_isle_cooler.description": "Nadie conoce el origen de la receta de esta bebida, pero se ha transmitido durante generaciones en el pueblo.",
+
+    "Mixology_citrus_smash.name": "Smash de cítricos",
+    "Mixology_citrus_smash.description": "Los mejores cítricos reunidos en una sensacional experiencia de sorbo.",
+
+    "Mixology_coco_loco.name": "Coco Loco",
+    "Mixology_coco_loco.description": "¿Quién no se vuelve un poco loco por la combinación de chocolate y coco?",
+
+    "Mixology_cranberry_lime_spritz.name": "Spritz de arándanos y lima",
+    "Mixology_cranberry_lime_spritz.description": "¡Es un refresco muy popular durante las vacaciones de invierno!",
+
+    "Mixology_farmers_punch.name": "Ponche del granjero",
+    "Mixology_farmers_punch.description": "Llamado así por tu abuelo, que perfeccionó esta deliciosa bebida mientras trabajaba en la granja.",
+
+    "Mixology_fruity_fresca.name": "Fresca afrutada",
+    "Mixology_fruity_fresca.description": "Más delicioso aún si se le añaden frutas recién recolectadas.",
+
+    "Mixology_grasshopper.name": "Saltamontes",
+    "Mixology_grasshopper.description": "Una bebida chocolatada, mentolada y dulce que gusta a grandes y pequeños.",
+
+    "Mixology_jumping_junimo.name": "Junimo saltarín",
+    "Mixology_jumping_junimo.description": "Esta bebida refrescante te animará en un abrir y cerrar de ojos.",
+
+    "Mixology_lavender_lady.name": "Dama de lavanda",
+    "Mixology_lavender_lady.description": "La lavanda de primavera recién recolectada hace que esta bebida sea tan elegante como su homónima.",
+
+    "Mixology_melon_floral_shrub.name": "Arbusto floral de melón",
+    "Mixology_melon_floral_shrub.description": "Una bebida refrescante y floral para disfrutar a la sombra después de una excursión veraniega.",
+
+    "Mixology_mermaid_lagoon.name": "Laguna de las sirenas",
+    "Mixology_mermaid_lagoon.description": "Esta bebida debe su nombre al Mar de Gema y a las sirenas que se rumorea que viven bajo sus aguas.",
+
+    "Mixology_mixed_berry_tonic.name": "Tónico de bayas mixtas",
+    "Mixology_mixed_berry_tonic.description": "La combinación de bayas y agua tónica la convierten en una bebida refrescante y energizante.",
+
+    "Mixology_passion_punch.name": "Ponche de pasión",
+    "Mixology_passion_punch.description": "Una bebida deliciosa para disfrutar de una velada con alguien especial.",
+
+    "Mixology_picnic_punch.name": "Ponche de picnic",
+    "Mixology_picnic_punch.description": "¡Una deliciosa bebida con sabor a melón para disfrutar de un picnic primaveral en el bosque!",
+
+    "Mixology_secret_woods_slushie.name": "Granizado del bosque secreto",
+    "Mixology_secret_woods_slushie.description": "Se dice que es la bebida favorita del Viejo Maestro Cannoli.",
+
+    "Mixology_spring_breeze.name": "Brisa primaveral",
+    "Mixology_spring_breeze.description": "Una bebida refrescante para disfrutar en el jardín mientras te preparas para la estación que se avecina.",
+
+    "Mixology_strawberry_fauxito.name": "Fauxito de fresa",
+    "Mixology_strawberry_fauxito.description": "Claro, fauxito puede ser un paso en falso para algunos, pero cualquiera que sea el nombre de esta bebida, es seguro que es deliciosa.",
+
+    "Mixology_summer_mock_mule.name": "Mula burlona",
+    "Mixology_summer_mock_mule.description": "Un divertido cambio a un cóctel clásico, esta mula puede carecer de alcohol, ¡pero no de sabor!",
+
+    "Mixology_sunrise_beach.name": "Amanecer en la playa",
+    "Mixology_sunrise_beach.description": "Una bebida refrescante para disfrutar mientras ves el sol asomar por el horizonte oceánico.",
+
+    "Mixology_sweet_gem_spritzer.name": "Spritzer de baya de gema dulce",
+    "Mixology_sweet_gem_spritzer.description": "Una bebida que sólo se prepara para las ocasiones más especiales, ya que requiere las bayas más raras.",
+
+    "Mixology_tropical_sunset.name": "Atardecer tropical",
+    "Mixology_tropical_sunset.description": "Una bebida frutal para relajarse en las soleadas costas de la Isla Jengibre.",
+
+    "Mixology_wild_mango_cooler.name": "Cooler de mango silvestre",
+    "Mixology_wild_mango_cooler.description": "El verano en una copa."
+        
+        
+
+}

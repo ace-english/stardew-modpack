@@ -1,0 +1,43 @@
+{
+
+    "Changes": [
+
+        {
+        "Action": "EditMap",
+        "Target": "Maps/LeahHouse",
+        "MapTiles": [
+        {
+         "Position": { "X": 10, "Y": 4},
+         "Layer": "Buildings",
+         "SetProperties": { "Action": "DropBox LeahRoom"}
+        }		
+        ]
+        },
+
+        {
+        "Action": "EditMap",
+        "Target": "Maps/ScienceHouse",
+        "MapTiles": [
+        {
+         "Position": { "X": 20, "Y": 17},
+         "Layer": "Buildings",
+         "SetProperties": { "Action": "DropBox DemetriusLab"}
+        }		
+        ]
+        },
+
+        {
+        "Action": "EditMap",
+        "Target": "Maps/SandyHouse",
+        "MapTiles": [
+        {
+         "Position": { "X": 6, "Y": 7},
+         "Layer": "Buildings",
+         "SetProperties": { "Action": "DropBox SandyRoom"}
+        }		
+        ]
+        }
+
+        ]
+
+}

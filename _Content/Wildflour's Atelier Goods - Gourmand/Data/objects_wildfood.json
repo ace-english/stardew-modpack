@@ -1,0 +1,86 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"Add Gourmet Pantry Items",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+
+                "wildflour.gourmetpantry_marshmallow_syrup": {
+                    "Name": "wildflour.gourmetpantry_marshmallow_syrup",
+                    "DisplayName": "{{i18n:gourmetpantry_marshmallow_syrup.name}}",
+                    "Description": "{{i18n:gourmetpantry_marshmallow_syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "artisan_item",
+                    "syrup_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 112
+            },
+                "wildflour.gourmetpantry_sakura_syrup": {
+                    "Name": "wildflour.gourmetpantry_sakura_syrup",
+                    "DisplayName": "{{i18n:gourmetpantry_sakura_syrup.name}}",
+                    "Description": "{{i18n:gourmetpantry_sakura_syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "artisan_item",
+                    "syrup_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 118
+            },
+                "wildflour.gourmetpantry_wild_strawberry_syrup": {
+                    "Name": "wildflour.gourmetpantry_wild_strawberry_syrup",
+                    "DisplayName": "{{i18n:gourmetpantry_wild_strawberry_syrup.name}}",
+                    "Description": "{{i18n:gourmetpantry_wild_strawberry_syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "artisan_item",
+                    "syrup_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 121
+            },
+            "wildflour.gourmetpantry_plain_yogurt": {
+                "Name": "wildflour.gourmetpantry_plain_yogurt",
+                "DisplayName": "{{i18n:gourmetpantry_plain_yogurt.name}}",
+                "Description": "{{i18n:gourmetpantry_plain_yogurt.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "ContextTags":
+                ["wildflour_pantry",
+                "yogurt_item",
+                "color_cream"],
+    
+                "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                "SpriteIndex": 70
+        },
+
+        }
+        }
+
+    ]
+}

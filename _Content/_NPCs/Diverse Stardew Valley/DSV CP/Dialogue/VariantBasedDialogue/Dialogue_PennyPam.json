@@ -1,0 +1,222 @@
+{
+    "Changes":
+    [
+		
+//
+///////////// PENNY /////////////
+//
+		
+// MIXED PENNY
+
+		{
+			"LogName": "Penny Variant-Based Dialogue - Mixed (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": 
+			{
+				"fall_Thu4": "{{i18n:DSV.Dialogue.Daily.Penny.Mixed.fall_Thu4}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:PennyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:PennyVariant |contains= Mixed": true
+            }
+		}, 
+		
+// TRANS PENNY
+
+		{
+			"LogName": "Penny Variant-Based Dialogue - Trans (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": 
+			{
+				"Fri8": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.Fri8}}",
+				"summer_Mon6": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.summer_Mon6}}",
+				"summer_Wed6": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.summer_Wed6}}",
+				"Sun8": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.Sun8.NoBus}}",
+				"fall_Sun6": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.fall_Sun6}}",
+				"winter_Mon4": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.winter_Mon4}}",
+				"winter_Thu8": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.winter_Thu8}}",
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:PennyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:TransPenny |contains= true": true
+            }
+		},   
+		{
+			"LogName": "Penny Variant-Based Dialogue - Trans (Daily, Bus Repaired)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": 
+			{
+				"Sun8": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.Sun8.YesBus}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:PennyDialogue |contains= true": true,
+				"HasFlag |contains= ccVault, jojaVault": true,
+				"DSV.Core/ConfigValue:TransPenny |contains= true": true
+            }
+		},    
+		{
+			"LogName": "Penny Variant-Based Dialogue - Trans (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialoguePenny",
+			"Entries": 
+			{
+				"funLeave_Penny": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.Married.funLeave_Penny}}",
+				"Indoor_Night_1": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.Married.Indoor_Night_1}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:PennyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:TransPenny |contains= true": true
+            }
+		},     
+		{
+			"LogName": "Penny Variant-Based Dialogue - Trans (Married, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialoguePenny",
+			"Entries": 
+			{
+				"Indoor_Night_1": "{{i18n:DSV.Dialogue.Daily.Penny.Trans.Married.Indoor_Night_1.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:PennyDialogue |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true,
+				"DSV.Core/ConfigValue:TransPenny |contains= true": true
+            }
+		},   
+		
+// MODDED GEORGE
+
+		{
+			"LogName": "Penny Variant-Based Dialogue - Modded George (Event)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": 
+			{
+				"event_mail2": "{{i18n:DSV.Dialogue.Event.Penny.{{DSV.Core/GeorgeVariant}}George.Event34.event_mail2}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla, Off": false
+            }
+		},  
+		{
+			"LogName": "Penny Variant-Based Dialogue - Modded George (Event)",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": 
+			{
+			"34/f Penny 500/t 900 1400/w sunny": 
+				{
+					19: "{{i18n:DSV.Dialogue.Event.Penny.{{DSV.Core/GeorgeVariant}}George.Event34.19}}",
+					77: "{{i18n:DSV.Dialogue.Event.Penny.{{DSV.Core/GeorgeVariant}}George.Event34.77}}"
+				},
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla, Off": false
+            }
+		},
+		{
+			"LogName": "Penny Variant-Based Dialogue - Modded George (Event, George Dialogue Edits)",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": 
+			{
+			"34/f Penny 500/t 900 1400/w sunny": 
+				{
+					77: "{{i18n:DSV.Dialogue.Event.Penny.{{DSV.Core/GeorgeVariant}}George.Event34.77.GeorgeDialogueEdits}}"
+				},
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla, Off": false,
+				"HasMod |contains= infinity.georgedialogueeditsfull": true
+            }
+		},
+		
+//
+///////////// PAM /////////////
+//
+		
+// MODDED PAM
+
+		{
+			"LogName": "Pam Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": 
+			{
+				"summer_Mon4": "{{i18n:DSV.Dialogue.Daily.Pam.Modded.summer_Mon4}}",
+				"fall_Wed6": "{{i18n:DSV.Dialogue.Daily.Pam.Modded.fall_Wed6}}",
+				"winter_Mon10": "{{i18n:DSV.Dialogue.Daily.Pam.Modded.winter_Mon10}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:PamDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:PamVariant |contains= Modded": true
+            }
+		}, 
+		
+// TRANS PENNY
+
+		{
+			"LogName": "Pam Variant-Based Dialogue - Trans Penny (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": 
+			{
+				"Thu2": "{{i18n:DSV.Dialogue.Daily.Pam.TransPenny.Thu2}}",
+				"fall_Fri6": "{{i18n:DSV.Dialogue.Daily.Pam.TransPenny.fall_Fri6}}",
+				"winter_Mon4": "{{i18n:DSV.Dialogue.Daily.Pam.TransPenny.winter_Mon4}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:PamDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:TransPenny |contains= true": true
+            }
+		},
+		
+// TURKISH GUS
+
+		{
+			"LogName": "Pam Variant-Based Dialogue - Turkish Gus (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": 
+			{
+				"Saloon_Tue": "{{i18n:DSV.Dialogue.Daily.Pam.TurkishGus.Saloon_Tue}}",
+				"Saloon_Fri": "{{i18n:DSV.Dialogue.Daily.Pam.TurkishGus.Saloon_Fri}}",
+				"Sun": "{{i18n:DSV.Dialogue.Daily.Pam.TurkishGus.Sun}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:PamDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true
+            }
+		},
+		
+// MODDED ALEX
+
+		{
+			"LogName": "Pam Variant-Based Dialogue - Modded Alex (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": 
+			{
+				"married_Alex": "{{i18n:DSV.Dialogue.Daily.Pam.{{DSV.Core/ConfigValue:GeorgeVariant}}Alex.married_Alex}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:PamDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla, off": false
+            }
+		}
+    ]
+}

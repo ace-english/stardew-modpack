@@ -1,0 +1,12 @@
+{
+   "Name": "[CP] Make Gunther Real",
+   "Author": "WerewolfMaster",
+   "Version": "1.0.2",
+   "Description": "Makes Gunther real",
+   "UniqueID": "Wolf.Gun",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:7102" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

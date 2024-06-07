@@ -1,0 +1,224 @@
+{
+    "Changes": [
+        {
+            "LogName": "Recipes: Objects",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{MainMod}}_SurvivalFish": "-4 1 388 1/Field/{{MainMod}}_SurvivalFish/false/Fishing 1/[LocalizedText Strings\\Objects:GISurvivalFish_Name]"
+            },
+            "When": {
+                "FirstDayOrFlag": true
+            }
+        },
+        {
+            "LogName": "Fish with farm buff",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{MainMod}}_SurvivalFish": {
+                    "Name": "{{MainMod}}_SurvivalFish",
+                    "DisplayName": "[LocalizedText Strings\\Objects:GISurvivalFish_Name]",
+                    "Description": "[LocalizedText Strings\\Objects:GISurvivalFish_Description]",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods\\{{MainMod}}\\objects",
+                    "SpriteIndex": 0,
+                    "Edibility": 36,
+                    "IsDrink": false,
+                    "Buff": {
+                        "Duration": "{{BuffDuration}}",
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "Effects": {
+                            "FarmingLevel": 1,
+                            "MaxStamina": 20
+                        }
+                    },
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "food_seafood"
+                    ]
+                }
+            },
+            "When": {
+                "RandomBuff": "farm",
+                "FirstDayOrFlag": true
+            }
+        },
+        {
+            "LogName": "Fish with mine buff",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{MainMod}}_SurvivalFish": {
+                    "Name": "{{MainMod}}_SurvivalFish",
+                    "DisplayName": "[LocalizedText Strings\\Objects:GISurvivalFish_Name]",
+                    "Description": "[LocalizedText Strings\\Objects:GISurvivalFish_Description]",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods\\{{MainMod}}\\objects",
+                    "SpriteIndex": 0,
+                    "Edibility": 36,
+                    "IsDrink": false,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": "{{BuffDuration}}",
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 1,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 32,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "food_seafood"
+                    ]
+                }
+            },
+            "When": {
+                "RandomBuff": "mine",
+                "FirstDayOrFlag": true
+            }
+        },
+        {
+            "LogName": "Fish with fishing buff",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{MainMod}}_SurvivalFish": {
+                    "Name": "{{MainMod}}_SurvivalFish",
+                    "DisplayName": "[LocalizedText Strings\\Objects:GISurvivalFish_Name]",
+                    "Description": "[LocalizedText Strings\\Objects:GISurvivalFish_Description]",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods\\{{MainMod}}\\objects",
+                    "SpriteIndex": 0,
+                    "Edibility": 36,
+                    "IsDrink": false,
+                    "Buff": {
+                        "Duration": "{{BuffDuration}}",
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "Effects": {
+                            "FishingLevel": 1
+                        }
+                    },
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "food_seafood"
+                    ]
+                }
+            },
+            "When": {
+                "RandomBuff": "fish",
+                "FirstDayOrFlag": true
+            }
+        },
+        {
+            "LogName": "Fish with forage buff",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{MainMod}}_SurvivalFish": {
+                    "Name": "{{MainMod}}_SurvivalFish",
+                    "DisplayName": "[LocalizedText Strings\\Objects:GISurvivalFish_Name]",
+                    "Description": "[LocalizedText Strings\\Objects:GISurvivalFish_Description]",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods\\{{MainMod}}\\objects",
+                    "SpriteIndex": 0,
+                    "Edibility": 36,
+                    "IsDrink": false,
+                    "Buff": {
+                        "Duration": "{{BuffDuration}}",
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "Effects": {
+                            "ForagingLevel": 1,
+                            "MagneticRadius": 32
+                        }
+                    },
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "food_seafood"
+                    ]
+                }
+            },
+            "When": {
+                "RandomBuff": "forage",
+                "FirstDayOrFlag": true
+            }
+        },
+        {
+            "LogName": "Fish with combat buff",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{MainMod}}_SurvivalFish": {
+                    "Name": "{{MainMod}}_SurvivalFish",
+                    "DisplayName": "[LocalizedText Strings\\Objects:GISurvivalFish_Name]",
+                    "Description": "[LocalizedText Strings\\Objects:GISurvivalFish_Description]",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods\\{{MainMod}}\\objects",
+                    "SpriteIndex": 0,
+                    "Edibility": 36,
+                    "IsDrink": false,
+                    "Buff": {
+                        "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:Buff.cs.468]",
+                        "Duration": "{{BuffDuration}}",
+                        "IconTexture": "TileSheets\\BuffsIcons",
+                        "IconSpriteIndex": 20,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "Effects": {
+                            "Speed": 1,
+                            "Defense": 1,
+                            "Attack": 1
+                        }
+                    },
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "food_seafood"
+                    ]
+                }
+            },
+            "When": {
+                "RandomBuff": "combat",
+                "FirstDayOrFlag": true
+            }
+        }
+    ]
+}

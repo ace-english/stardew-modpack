@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+
+
+{
+    "Action": "Load",
+    "Target": "Mods/wildflour.ateliercrops/CropsFG, Mods/wildflour.ateliercrops/FruitTreesFG, Mods/wildflour.ateliercrops/ObjectsFG, Mods/wildflour.ateliercrops/FaerieBushes_Spring, Mods/wildflour.ateliercrops/FaerieBushes_Summer, Mods/wildflour.ateliercrops/FaerieBushes_Fall, Mods/wildflour.ateliercrops/FaerieBushes_Winter",
+    "FromFile": "assets/{{TargetWithoutPath}}.png"
+},
+
+{
+    "Action": "Load",
+    "Target": "Mods/wildflour.ateliercrops/StrangeCap_spring, Mods/wildflour.ateliercrops/StrangeCap_summer, Mods/wildflour.ateliercrops/StrangeCap_fall, Mods/wildflour.ateliercrops/StrangeCap_winter, Mods/wildflour.ateliercrops/MysticTrumpet_spring, Mods/wildflour.ateliercrops/MysticTrumpet_summer, Mods/wildflour.ateliercrops/MysticTrumpet_fall, Mods/wildflour.ateliercrops/MysticTrumpet_winter, Mods/wildflour.ateliercrops/WitchwoodTree_spring, Mods/wildflour.ateliercrops/WitchwoodTree_summer, Mods/wildflour.ateliercrops/WitchwoodTree_fall, Mods/wildflour.ateliercrops/WitchwoodTree_winter",
+    "FromFile": "assets/{{TargetWithoutPath}}.png"
+},
+
+
+{
+    "LogName": "VT Seed Bags",
+    "Action": "EditImage",
+    "Target": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "FromFile": "assets/ObjectsFG_VT.png",
+    "PatchMode":"Replace",
+    "When": {"Atelier.Cauldron/ConfigValue:VanillaTweaks": true}
+} 
+
+
+
+       
+    ]
+}

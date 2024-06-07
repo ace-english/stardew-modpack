@@ -1,0 +1,160 @@
+{
+
+	"Changes": 
+	[
+		
+// CHAMPAGNE WISHES
+// GIFT TASTES CHANGES
+		
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - Champagne Wishes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Jodi", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Black Velvet Cocktail}} {{spacechase0.JsonAssets/ObjectId:Champagne}} {{spacechase0.JsonAssets/ObjectId:Champagne Cocktail}} {{spacechase0.JsonAssets/ObjectId:Kir Imperial}} {{spacechase0.JsonAssets/ObjectId:Kir Royal}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Kent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Black Velvet Cocktail}} {{spacechase0.JsonAssets/ObjectId:Champagne}} {{spacechase0.JsonAssets/ObjectId:Champagne Cocktail}} {{spacechase0.JsonAssets/ObjectId:Kir Imperial}} {{spacechase0.JsonAssets/ObjectId:Kir Royal}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sam", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Black Velvet Cocktail}} {{spacechase0.JsonAssets/ObjectId:Champagne}} {{spacechase0.JsonAssets/ObjectId:Champagne Cocktail}} {{spacechase0.JsonAssets/ObjectId:Kir Imperial}} {{spacechase0.JsonAssets/ObjectId:Kir Royal}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Vincent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Black Velvet Cocktail}} {{spacechase0.JsonAssets/ObjectId:Champagne}} {{spacechase0.JsonAssets/ObjectId:Champagne Cocktail}} {{spacechase0.JsonAssets/ObjectId:Kir Imperial}} {{spacechase0.JsonAssets/ObjectId:Kir Royal}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, fwippy.champagnewishes": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Gus Gift Taste Changes - Champagne Wishes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Gus", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Black Velvet Cocktail}} {{spacechase0.JsonAssets/ObjectId:Champagne}} {{spacechase0.JsonAssets/ObjectId:Champagne Cocktail}} {{spacechase0.JsonAssets/ObjectId:Kir Imperial}} {{spacechase0.JsonAssets/ObjectId:Kir Royal}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod": "spacechase0.JsonAssets, fwippy.champagnewishes",
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - Champagne Wishes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sandy", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Black Velvet Cocktail}} {{spacechase0.JsonAssets/ObjectId:Champagne}} {{spacechase0.JsonAssets/ObjectId:Champagne Cocktail}} {{spacechase0.JsonAssets/ObjectId:Kir Imperial}} {{spacechase0.JsonAssets/ObjectId:Kir Royal}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, fwippy.champagnewishes": true,
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true
+			}
+		},
+
+// GIFT REJECTIONS
+
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - Champagne Wishes Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi, Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Black Velvet Cocktail}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Champagne}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Champagne Cocktail}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Kir Imperial}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Kir Royal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, fwippy.champagnewishes": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Sam/Vincent Gift Taste Changes - Champagne Wishes Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam, Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Black Velvet Cocktail}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Champagne}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Champagne Cocktail}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Kir Imperial}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Kir Royal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, fwippy.champagnewishes": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Gus Gift Taste Changes - Champagne Wishes Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Black Velvet Cocktail}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Champagne}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Champagne Cocktail}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Kir Imperial}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Kir Royal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, fwippy.champagnewishes": true,
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - Champagne Wishes Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Black Velvet Cocktail}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Champagne}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Champagne Cocktail}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Kir Imperial}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Kir Royal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, fwippy.champagnewishes": true,
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true
+			}
+		}
+	]
+}

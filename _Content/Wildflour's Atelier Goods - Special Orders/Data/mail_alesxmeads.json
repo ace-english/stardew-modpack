@@ -1,0 +1,41 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.alesxmeads_SO2_reward": "{{i18n: alesxmeads_SO2_reward.text}} %item id (BC)117 1 %%[#]{{i18n: alesxmeads_SO2_reward.name}}",     
+                    "wildflour.alesxmeads_SO3_reward": "{{i18n: alesxmeads_SO3_reward.text}} %item id (O)645 2 %%[#]{{i18n: alesxmeads_SO3_reward.name}}", 
+                    "wildflour.alesxmeads_SO6_reward": "{{i18n: alesxmeads_SO6_reward.text}} %item id (O)918 5 %%[#]{{i18n: alesxmeads_SO6_reward.name}}", 
+                    "wildflour.alesxmeads_SO7_reward": "{{i18n: alesxmeads_SO7_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: alesxmeads_SO7_reward.name}}", 
+                    "wildflour.alesxmeads_SO8_reward": "{{i18n: alesxmeads_SO8_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: alesxmeads_SO8_reward.name}}"        
+                }
+            },
+
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.alesxmeads_SO2mail/n wildflour.alesxmeads_SO2_complete/x wildflour.alesxmeads_SO2_reward": "null",
+                "wildflour.alesxmeads_SO3mail/n wildflour.alesxmeads_SO3_complete/x wildflour.alesxmeads_SO3_reward": "null",
+                "wildflour.alesxmeads_SO6mail/n wildflour.alesxmeads_SO6_complete/x wildflour.alesxmeads_SO6_reward": "null",			
+                "wildflour.alesxmeads_SO7mail/n wildflour.alesxmeads_SO7_complete/x wildflour.alesxmeads_SO7_reward": "null",	
+                "wildflour.alesxmeads_SO8mail/n wildflour.alesxmeads_SO8_complete/x wildflour.alesxmeads_SO8_reward": "null",	
+            }
+            },         
+        
+         
+
+]
+}

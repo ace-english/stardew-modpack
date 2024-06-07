@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.atelierbarista/Objects",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.atelierbarista/Machines_Base, Mods/wildflour.atelierbarista/Machines_Black, Mods/wildflour.atelierbarista/Machines_Blue, Mods/wildflour.atelierbarista/Machines_Cream, Mods/wildflour.atelierbarista/Machines_Mocha, Mods/wildflour.atelierbarista/Machines_Mint, Mods/wildflour.atelierbarista/Machines_Pink, Mods/wildflour.atelierbarista/Machines_Purple, Mods/wildflour.atelierbarista/Machines_Coffee",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "Name": "Wildflour's Atelier Goods: Forager",
+    "Author": "wildflourmods",
+    "Version": "1.0.7",
+    "Description": "New crops, forage, trees and items",
+    "UniqueID": "wildflour.ateliercrops",
+    "UpdateKeys": ["Nexus:22728"], 
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "Esca.FarmTypeManager", "IsRequired": true},
+        {"UniqueID": "NCarigon.BushBloomMod", "IsRequired": true},
+        {"UniqueID": "sophie.Calcifer", "IsRequired": false}
+],
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

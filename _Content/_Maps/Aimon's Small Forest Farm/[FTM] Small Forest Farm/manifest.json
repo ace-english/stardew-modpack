@@ -1,0 +1,11 @@
+{
+	"Name": "Aimon's Small Forest Farm FTM",
+	"Author": "Aimon111",
+	"Version": "1.0.1",
+	"UniqueID": "Aimon111.SmallForestFarmFTM",
+	"MinimumApiVersion": "4.0.0",
+	"ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager",
+		"MinimumVersion": "1.10.1"
+	}
+}

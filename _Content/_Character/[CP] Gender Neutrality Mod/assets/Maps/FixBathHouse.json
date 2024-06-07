@@ -1,0 +1,35 @@
+{
+"Changes":
+	[
+		{
+			"Action": "Load",
+			"Target": "Maps/BathHouse_Entry",
+			"FromFile": "assets/Maps/BathHouse_Entry.tmx",
+			"LogName": "Fix Bath House Entry",
+			"When":
+				{
+					"FixBathHouseDoors": true
+				}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/BathHouse_Pool",
+			"FromFile": "assets/Maps/BathHouse_Pool.tmx",
+			"LogName": "Fix Bath House Pool",
+			"When":
+				{
+					"FixBathHouseDoors": true
+				}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/bathhouse_tiles",
+			"FromFile": "assets/Maps/bathhouse_tiles.png",
+			"LogName": "Fix Bath House Tiles",
+			"When":
+				{
+					"FixBathHouseTiles": true
+				}
+		}
+	]
+}

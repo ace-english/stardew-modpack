@@ -1,0 +1,35 @@
+{
+		"Changes": 
+		[
+			{
+				"LogName": "DSV Mike",
+				"Action": "EditImage",
+				"Target": "Portraits/Mike, Characters/Mike, Portraits/Mike_Beach, Characters/Mike_Beach",
+				"FromFile": "Art/Compatibility/MikeCompat/{{Target}}.png"
+			},
+			{
+				"LogName": "DSV Mike - Beach",
+				"Action": "EditImage",
+				"Target": "Portraits/Mike, Characters/Mike",
+				"FromFile": "Art/Compatibility/MikeCompat/{{Target}}_Beach.png",
+				"When":
+				{
+					"LocationName |contains= Temp, Beach": true
+				},
+				"Update": "OnLocationChange"
+			},
+			{
+				"LogName": "DSV Mike - Beach",
+				"Action": "EditImage",
+				"Target": "Portraits/Mike, Characters/Mike",
+				"FromFile": "Art/Compatibility/MikeCompat/{{Target}}_Beach.png",
+				"When":
+				{
+					"LocationName |contains= Temp, Beach": true,
+					"DayEvent |contains= luau, Pelican Town Potluck, Moonshine Barbecue, dance of the moonlight jellies": true
+				},
+				"Update": "OnLocationChange"
+			}
+		]
+	}
+	

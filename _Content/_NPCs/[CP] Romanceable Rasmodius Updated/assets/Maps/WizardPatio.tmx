@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="2">
+ <tileset firstgid="1" name="wizard_patio_tiles" tilewidth="16" tileheight="16" tilecount="8" columns="4">
+  <image source="wizard_patio_tiles.png" width="64" height="32"/>
+ </tileset>
+ <layer id="1" name="Buildings" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,1,2,3,
+0,5,6,7
+</data>
+ </layer>
+ <objectgroup id="3" name="Buildings">
+  <object id="1" name="TileData" x="16" y="32" width="48" height="32">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

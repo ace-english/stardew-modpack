@@ -1,0 +1,39 @@
+{
+"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Strings/UI",
+			"Entries":
+				{
+					"PondQuery_StatusRequestPending_Rude0_Male": "\"Hey, landlubber, you think you could bring us {1} {0}?\"",
+					"PondQuery_StatusRequestPending_Rude1_Male": "\"Oi! How about bringing us {1} {0}, huh?\"",
+					"PondQuery_StatusRequestPending_Rude2_Male": "\"Psst... think you could nab us {1} {0} on the sly?\"",
+					"PondQuery_StatusRequestPending_Rude0_Female": "\"Hey, landlubber, you think you could bring us {1} {0}?\"",
+					"PondQuery_StatusRequestPending_Rude1_Female": "\"Oi! How about bringing us {1} {0}, huh?\"",
+					"PondQuery_StatusRequestPending_Rude2_Female": "\"Psst... think you could nab us {1} {0} on the sly?\"",
+					"Chat_HouseUpgrade": "{0} has requested construction on {{Lowercase: {{Random: {{Hana.GNMTokens/PossessivePronoun}} }} }} home!"
+				},
+			"LogName": "Fix UI - Modded Dialogue + Custom Pronouns - Plural"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/UI",
+			"Entries":
+				{
+					"PondQuery_StatusRequestPending_Rude0_Male": "\"Hey, landlubber, you think you could bring us {1} {0}?\"",
+					"PondQuery_StatusRequestPending_Rude1_Male": "\"Oi! How about bringing us {1} {0}, huh?\"",
+					"PondQuery_StatusRequestPending_Rude2_Male": "\"Psst... think you could nab us {1} {0} on the sly?\"",
+					"PondQuery_StatusRequestPending_Rude0_Female": "\"Hey, landlubber, you think you could bring us {1} {0}?\"",
+					"PondQuery_StatusRequestPending_Rude1_Female": "\"Oi! How about bringing us {1} {0}, huh?\"",
+					"PondQuery_StatusRequestPending_Rude2_Female": "\"Psst... think you could nab us {1} {0} on the sly?\"",
+					"Chat_HouseUpgrade": "{0} has requested construction on {{Lowercase: {{Random: {{Hana.GNMTokens/PossessivePronoun}} }} }} home!"
+				},
+			"LogName": "Fix UI - Modded Dialogue + Custom Pronouns - Singular",
+			"When": 
+				{
+					"Hana.GNMTokens/Singular": true
+				}
+		}
+	]
+}

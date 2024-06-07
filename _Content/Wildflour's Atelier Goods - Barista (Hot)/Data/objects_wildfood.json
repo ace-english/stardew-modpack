@@ -1,0 +1,88 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"Add Atelier Barista Tea Wild Food Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierbarista_sakura_sachet": {
+                    "Name": "wildflour.atelierbarista_sakura_sachet",
+                    "DisplayName": "{{i18n:atelierbarista_sakura_sachet.name}}",
+                    "Description": "{{i18n:atelierbarista_sakura_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 15
+            },
+                "wildflour.atelierbarista_strawberry_sachet": {
+                    "Name": "wildflour.atelierbarista_strawberry_sachet",
+                    "DisplayName": "{{i18n:atelierbarista_strawberry_sachet.name}}",
+                    "Description": "{{i18n:atelierbarista_strawberry_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 17
+            },
+                "wildflour.atelierbarista_sakura_tea": {
+                    "Name": "wildflour.atelierbarista_sakura_tea",
+                    "DisplayName": "{{i18n:atelierbarista_sakura_tea.name}}",
+                    "Description": "{{i18n:atelierbarista_sakura_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 49
+            },
+                "wildflour.atelierbarista_strawberry_tea": {
+                    "Name": "wildflour.atelierbarista_strawberry_tea",
+                    "DisplayName": "{{i18n:atelierbarista_strawberry_tea.name}}",
+                    "Description": "{{i18n:atelierbarista_strawberry_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 49
+            }
+
+        }
+        }
+
+    ]
+}

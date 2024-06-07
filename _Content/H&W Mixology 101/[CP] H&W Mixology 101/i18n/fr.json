@@ -1,0 +1,228 @@
+{
+
+//MACHINES
+
+	"Mixology_drink_bar.name": "Bar à cocktail",
+	"Mixology_drink_bar.description": "Un petit bar avec tout le nécessaire pour faire de beaux cocktails.",
+
+//BITTERS
+
+	"Mixology_aromatic_bitters.name": "Bitter aromatique",
+	"Mixology_aromatic_bitters.description": "De l'alcool où ont infusé des épices et aromates. Ajoute un petit goût amer aux cocktails.",
+
+	"Mixology_citrus_bitters.name": "Bitter acidulé",
+	"Mixology_citrus_bitters.description": "De l'alcool où ont infusé des épices et aromates. Ajoute un petit goût amer aux cocktails.",
+
+	"Mixology_floral_bitters.name": "Bitter floral",
+	"Mixology_floral_bitters.description": "De l'alcool où ont infusé des épices et aromates. Ajoute un petit goût amer aux cocktails.",
+
+	"Mixology_pixie_bitters.name": "Bitter féérique",
+	"Mixology_pixie_bitters.description": "De l'alcool où ont infusé des épices et aromates. Ajoute un petit goût amer aux cocktails.",
+
+	"Mixology_star_bitters.name": "Bitter étoilé",
+	"Mixology_star_bitters.description": "De l'alcool où ont infusé des épices et aromates. Ajoute un petit goût amer aux cocktails.",
+
+//JUICES
+		
+	"Mixology_cranberry_juice.name": "Jus de canneberge",
+	"Mixology_cranberry_juice.description": "Du jus de canneberges fraîches. Entre dans la composition de certains cocktails.",
+
+	"Mixology_lemon_juice.name": "Jus de citron",
+	"Mixology_lemon_juice.description": "Du jus de citron fraîchement pressé. Entre dans la composition de certains cocktails.",
+
+	"Mixology_lime_juice.name": "Jus de lime",
+	"Mixology_lime_juice.description": "Du jus de lime fraîchement pressé. Entre dans la composition de certains cocktails.",
+
+	"Mixology_orange_juice.name": "Jus d'orange",
+	"Mixology_orange_juice.description": "Du jus d'orange fraîchement pressé. Entre dans la composition de certains cocktails.",
+
+	"Mixology_pineapple_juice.name": "Jus d'ananas",
+	"Mixology_pineapple_juice.description": "Du jus d'ananas frais. Entre dans la composition de certains cocktails.",
+
+
+//MISC
+
+	"Mixology_club_soda.name": "Eau gazeuse",
+	"Mixology_club_soda.description": "De l'eau pétillante. Entre dans la composition de certains cocktails.",
+
+	"Mixology_tonic_water.name": "Eau tonique",
+	"Mixology_tonic_water.description": "De l'eau pétillante légèrement amère. Entre dans la composition de certains cocktails.",
+
+//ALCOHOLS
+
+	"Mixology_brandy.name": "Brandy",
+	"Mixology_brandy.description": "Un alcool réalisé en distillant du vin. Entre dans la composition de certains cocktails.",
+	
+	"Mixology_gin.name": "Gin",
+	"Mixology_gin.description": "Un alcool réalisé en distillant du blé. Entre dans la composition de certains cocktails.",
+
+	"Mixology_rum.name": "Rum",
+	"Mixology_rum.description": "Un alcool réalisé en distillant de la canne à sucre. Entre dans la composition de certains cocktails.",
+
+	"Mixology_tequila.name": "Tequila",
+	"Mixology_tequila.description": "Un alcool réalisé en distillant de l'agave. Entre dans la composition de certains cocktails.",
+	
+	"Mixology_vodka.name": "Vodka",
+	"Mixology_vodka.description": "Un alcool réalisé en distillant des pommes de terre. Entre dans la composition de certains cocktails.",
+
+	"Mixology_whiskey.name": "Whiskey",
+	"Mixology_whiskey.description": "Un alcool réalisé en distillant du maïs. Entre dans la composition de certains cocktails.",
+
+//COCKTAILS
+
+	"Mixology_raspberry_lemon_drop.name": "Raspberry Lemondrop",
+	"Mixology_raspberry_lemon_drop.description": "Une variante à la framboise du célèbre cocktail au citron.",
+
+	"Mixology_berry_mimosa.name": "Mimi Mimosa",
+	"Mixology_berry_mimosa.description": "Un cocktail parfait pour trinquer lors d'un brunch.",
+
+	"Mixology_berry_whiskey_sour.name": "Berry Whiskey Sour",
+	"Mixology_berry_whiskey_sour.description": "Les baies fraîches mettent en valeur les arômes complexes et subtils du whiskey.",
+
+	"Mixology_blackberry_lemon_smash.name": "Reine des abeilles",
+	"Mixology_blackberry_lemon_smash.description": "Un élégant équilibre entre le sucre de la mûre et l'acidité du citron.",
+
+	"Mixology_black_forest_cocktail.name": "Black Forest",
+	"Mixology_black_forest_cocktail.description": "Du nom de la forêt noire, le gâteau au chocolat et aux cerises, dont ce cocktail emprunte aussi les ingrédients.",
+
+	"Mixology_cake_walk.name": "Cake Walk",
+	"Mixology_cake_walk.description": "Un cocktail très sucré, qui peut être consommé comme un dessert !",
+
+	"Mixology_raspberry_stinger.name": "Jolie Françoise",
+	"Mixology_raspberry_stinger.description": "À ne préparer qu'avec des framboises ultra fraîches !",
+
+	"Mixology_early_sunrise.name": "Early Sunrise",
+	"Mixology_early_sunrise.description": "Cette boisson a les couleurs que prend le ciel au fur et à mesure que le soleil se lève.",
+
+	"Mixology_flower_queen.name": "Reine des Fleurs",
+	"Mixology_flower_queen.description": "Un cocktail peu alcoolisé et aux riches arômes floraux pour fêter la Danse des Fleurs.",
+
+	"Mixology_frozen_margarita.name": "Méduse de minuit",
+	"Mixology_frozen_margarita.description": "Un cocktail bien glacé créé en l'honneur de la visite annuelle des méduses Clair-de-lune.",
+
+	"Mixology_garden_breeze.name": "Dirty gardénia",
+	"Mixology_garden_breeze.description": "Un grand succès lors des garden parties.",
+
+	"Mixology_gin_tonic.name": "Jean tonique",
+	"Mixology_gin_tonic.description": "Un grand classique qui vous donne l'air distingué lorsque vous passez votre commande au bar.",
+
+	"Mixology_harvest_hayride.name": "Harvest Moon",
+	"Mixology_harvest_hayride.description": "Un délicieux cocktail d'automne à partager avec ses amis.",
+
+	"Mixology_lavender_gin_spritz.name": "Lavender spritz",
+	"Mixology_lavender_gin_spritz.description": "On l'appelle aussi le cocktail des fleuristes.",
+
+	"Mixology_lightning_haze.name": "Coup de foudre",
+	"Mixology_lightning_haze.description": "Inventé lors d'une nuit d'orage, ce cocktail vous montera vite à la tête.",
+	
+	"Mixology_mango_tango.name": "Mango Tango",
+	"Mixology_mango_tango.description": "Un cocktail d'été qui vous fera vous précipiter sur la piste de danse.",
+
+	"Mixology_mango_twister.name": "Mango Cha-cha-cha",
+	"Mixology_mango_twister.description": "Une variante étonnante du cocktail classique Mango Tango.",
+
+	"Mixology_pink_flamingo.name": "Pink Flamingo",
+	"Mixology_pink_flamingo.description": "Un cocktail idéal à siroter en discutant sur la pelouse.",
+
+	"Mixology_potluck_punch.name": "Potluck punch",
+	"Mixology_potluck_punch.description": "Sa recette est bien moins aléatoire que celle de la soupe commune de la fête hawaïenne.",
+
+	"Mixology_sangria.name": "Samba sangria",
+	"Mixology_sangria.description": "Des fruits, du vin et l'envie de faire la fête !",
+
+	"Mixology_spirited_away.name": "Spirited Away",
+	"Mixology_spirited_away.description": "Une boisson créée en l'honneur de la Nuit des Esprits et qui vous donnera des frissons.",
+
+	"Mixology_think_pink.name": "La vie en rose",
+	"Mixology_think_pink.description": "Pour celles et ceux qui ont besoin de se changer les idées - avec modération bien sûr.",
+
+	"Mixology_winter_star.name": "Étoile hivernale",
+	"Mixology_winter_star.description": "Un grand classique des fêtes de fin d'année.",
+
+	"Mixology_young_love.name": "D'amour et d'eau fraîche",
+	"Mixology_young_love.description": "... mais aussi d'alcool, alors buvez-en avec modération !",
+
+//MOCKTAILS
+	
+	"Mixology_apple_ginger_fizz.name": "Pommeraie",
+	"Mixology_apple_ginger_fizz.description": "Une boisson aussi agréable qu'une balade dans un verger en automne.",
+
+	"Mixology_apricot_blitz.name": "Abricot fizz",
+	"Mixology_apricot_blitz.description": "Un mocktail printanier qui vous chatouille les papilles.",
+
+	"Mixology_autumn_nights.name": "Autumn Nights",
+	"Mixology_autumn_nights.description": "Un cocktail à boire chaud. Parfait lorsque les soirées se rafraîchissent.",
+
+	"Mixology_berry_breeze.name": "Baie'xquis original",
+	"Mixology_berry_breeze.description": "Mille fois imité, jamais égalé.",
+
+	"Mixology_blackberry_mint_refresher.name": "Sécateur",
+	"Mixology_blackberry_mint_refresher.description": "Enfin une façon d'utiliser le fruit des espèces envahissantes de votre jardin !",
+
+	"Mixology_blue_isle_cooler.name": "Fern Islands",
+	"Mixology_blue_isle_cooler.description": "Personne ne sait qui a inventé cette recette, mais elle est connue depuis des générations dans Stardew Valley.",
+
+	"Mixology_citrus_smash.name": "Citrus smash",
+	"Mixology_citrus_smash.description": "Avec tous ces agrumes, pas besoin d'alcool pour faire un cocktail coup de poing !",
+
+	"Mixology_coco_loco.name": "Coco Loco",
+	"Mixology_coco_loco.description": "Coco et cacao, ça tu vas aimer, mon coco !",
+
+	"Mixology_cranberry_spritz.name": "Cranberry spritz",
+	"Mixology_cranberry_spritz.description": "Un mocktail de fête de fin d'année au goût agréablement astreigeant.",
+
+	"Mixology_farmers_punch.name": "Punch du fermier",
+	"Mixology_farmers_punch.description": "Une invention de votre grand-père pour se rafraîchir après une longue journée de travail à la ferme.",
+
+	"Mixology_fruity_fresca.name": "Fruity fresca",
+	"Mixology_fruity_fresca.description": "Super gourmand avec tous les fruits de bois qu'on y a rajouté !",
+
+	"Mixology_grasshopper.name": "Sauterelle",
+	"Mixology_grasshopper.description": "Une boisson chocolatée et mentholée appréciée par les petits comme les grands.",
+
+	"Mixology_jumping_junimo.name": "Jumping Junimo",
+	"Mixology_jumping_junimo.description": "Un cocktail sans alcool qui vous donnera du pep's !",
+
+	"Mixology_lavender_lady.name": "Lavender Lady",
+	"Mixology_lavender_lady.description": "La lavande fraîche donne toute son élégance à cette boisson printanière.",
+
+	"Mixology_melon_floral_shrub.name": "Floral frappé",
+	"Mixology_melon_floral_shrub.description": "Un mocktail pour se désaltérer avec élégance après une longue promenade au soleil.",
+
+	"Mixology_mermaid_lagoon.name": "Mermaid Lagoon",
+	"Mixology_mermaid_lagoon.description": "Une recette inspirée par le lagon où se rassembleraient les sirènes de la mer des Gemmes.",
+
+	"Mixology_mixed_berry_tonic.name": "Berry tonic",
+	"Mixology_mixed_berry_tonic.description": "Un mélange d'eau tonique et de jus de baies qui donne un coup de fouet aux papilles.",
+
+	"Mixology_passion_punch.name": "Punch de la passion",
+	"Mixology_passion_punch.description": "Un punch sans alcool à partager avec la personne qui vous fait tourner la tête.",
+
+	"Mixology_picnic_punch.name": "Punch pique-nique",
+	"Mixology_picnic_punch.description": "Un punch sans alcool au délicieux goût de melon.",
+
+	"Mixology_secret_woods_slushie.name": "Granité des bois secrets",
+	"Mixology_secret_woods_slushie.description": "On dit que c'était la boisson préférée du vieux maître Cannoli.",
+
+	"Mixology_spring_breeze.name": "Brise printanière",
+	"Mixology_spring_breeze.description": "Un mocktail à savourer dans son jardin, sans aucune pensée triste.",
+
+	"Mixology_strawberry_fauxito.name": "Virgin fraisito",
+	"Mixology_strawberry_fauxito.description": "Un nom qui mélange trois langues pour une boisson qui promet d'être originale.",
+
+	"Mixology_summer_mock_mule.name": "Mocking Mule",
+	"Mixology_summer_mock_mule.description": "La version mocktail d'un célèbre cocktail !",
+
+	"Mixology_sunrise_beach.name": "Beach Sunrise",
+	"Mixology_sunrise_beach.description": "Un mocktail désaltérant à boire en regardant le soleil émerger de l'océan tôt le matin.",
+
+	"Mixology_sweet_gem_spritzer.name": "Gemme éclatante",
+	"Mixology_sweet_gem_spritzer.description": "Une boisson à ne déguster que lors des occasions exceptionnelles, car elle contient le plus rare des fruits.",
+
+	"Mixology_tropical_sunset.name": "Tropical Sunset",
+	"Mixology_tropical_sunset.description": "Une boisson qui accompagne parfaitement les dernières heures du jour sur l'Île Gingembre.",
+
+	"Mixology_wild_mango_cooler.name": "Vermillon",
+	"Mixology_wild_mango_cooler.description": "Le soleil d'été versé dans un verre."
+
+}

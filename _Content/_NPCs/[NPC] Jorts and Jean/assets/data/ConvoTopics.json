@@ -1,0 +1,510 @@
+{
+"Changes": [
+   
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Abigail",
+		"Entries": {
+						"MeetTheCats": "I love listening to Jean's stories, she's so smart. I have to be careful to wash my clothes when I get home, though. Dad's super-allergic.",
+						"ButteredJorts": "Hahaha, poor Jorts! I bet Jean wasn't pleased at having to clean up after this one.$h",
+						"JortsZoomies": "Sam told me about Jorts and Jean terrorizing Morris.  You love to see a grown man losing to a pair of cats.$h",
+						"OpenAllTheDoors": "I can't believe Joja just...closed, like that. Sam said they didn't even bother clearing out the stock.",
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"Entries": {
+						"MeetTheCats": "Those two neighborhood cats really like visiting my grandparents. Grandma really seems to love them, so they must be good company.",
+						"ButteredJorts": "Grandma put aside some trimmings for Jean, but she refused. I guess she's feeling a little nauseated from cleaning off all that butter from Jorts."
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Caroline",
+		"Entries": {
+						"MeetTheCats": "I see Abigail with a couple of cats every now and then. They seem quite unusual, don't they?",
+						"ButteredJorts": "You know, it's funny. Aside from being fished out of the trash can, Jorts doesn't seem to need us that much, but we do seem to need him.",
+						"OpenAllTheDoors": "I'm very thankful Pierre's store managed to survive the presence of Jojamart. A lot of small shops like his in other towns aren't so lucky.",
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Clint",
+		"Entries": {
+						"MeetTheCats": "I don't know why those cats come around here so much. It's not like I feed them.",
+						"ButteredJorts": "I get Pam was trying to help, but... butter?$s"
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Demetrius",
+		"Entries": {
+						"MeetTheCats": "Talking cats? Ah, I see, you're making a joke.$h#$b#Talking cats just isn't scientifically possible. They don't have adequate vocal cords or tongues to properly enunciate.",
+						"ButteredJorts": "There's no studies to show that certain colors of cats have less intelligence than others.#$b#There is a wealth of anecdotal data, however, which is difficult to dismiss."
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Dwarf",
+		"Entries": {
+						"MeetTheCats": "Sometimes those small furry creatures come to visit me when they're in the mines.#$b#Wish they'd buy something, though.",
+						"ButteredJorts": "The small furry creature seems annoyed lately. Sometihng about bahder?  I think I'll stay clear of them."
+						},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Elliott",
+		"Entries": {
+						"MeetTheCats": "@, do you believe that cats can talk?#$b#It's a fantasy, of course. But a fantasy can be both a thing that isn't real, and a thing you wish for.$h",
+						"ButteredJorts": "I do hope Pam doesn't think we're laughing at her. No harm was done, and we know she means well."
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Emily",
+		"Entries": {
+						"MeetTheCats": "Oh, Jorts and Jean? They're very special cats, aren't they?$h#$b#OF course, all cats are special!",
+						"ButteredJorts": "I tried doing a crystal healing ritual on Jean to help her feel better. She fell asleep, so I guess it worked.",
+						"OpenAllTheDoors": "Nature is healing. May the land that Joja poisoned be quickly reclaimed.$7"
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Evelyn",
+		"Entries": {
+						"MeetTheCats": "Jorts and Jean are such sweet cats. Sometimes I give them a little salami, as a treat. Don't tell George, though.",
+						"ButteredJorts": "No one is mad at Pam for trying to help. On the contrary, I think we all learned that sometimes what we think will help isn't what someone else needs."
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"Entries": {
+						"MeetTheCats": "Those two cats are always trying to sleep on my lap. Haven't the heart to shove 'em off though. Not like I'm getting up, anyway.",
+						"ButteredJorts": "Hmph, it wasn't even *real* butter, just margarine. That'll make a cat sick.",
+						"OpenAllTheDoors": "I heard those kids at the Jojamart were trying to form a union. Good on 'em. That's the proper way workers looked out for each other when I was young.",
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Gil",
+		"Entries": {
+						"MeetTheCats": "They're good cats, @.#$b#*snore*",
+						"ButteredJorts": "Marlon, you're not allowed to butter a coworker.#$b#*snore*"
+		},
+	},
+	
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Gus",
+		"Entries": {
+						"MeetTheCats": "The cats like to slip in for scraps every so often. Jean's even smart enough to open the door on her own.#$b#And Jorts, never saw a cat that liked yams so much!$h",
+						"ButteredJorts": "I guess I was being a little insensitive. Cats still have feelings, same as anyone else.$2#$b#I'll make it up to him with some yams in gravy.",
+						"DumpsterFishing": "I guess I'll have to make my zucchini fritters tonight...#$b#Hm? Oh, it's nothing.$h",
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Haley",
+		"Entries": {
+						"MeetTheCats": "That orange cat is smart enough to get IN to my trash can no matter what I do, but not smart enough to get OUT.$3",
+						"ButteredJorts": "Butter? I don't see the problem. That's not the worst thing Jean has had to lick off him."
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"Entries": {
+						"MeetTheCats": "Talking cats? You could be having auditory hallucinations, @. If you'd like, I can run some tests.",
+						"ButteredJorts": "Hygiene is important, but putting an oily substance on a furry animal is the opposite of hygenic.$s",
+						"RubberCatting": "Hm? Oh, yes, Kent was just in here, though I can't tell you what for. Privacy rules.#$b#Though speaking in generalities, I'm always happy when people come to me for help. Medicine can do amazing things, but the person has to want the help first.$h",
+						"JortsZoomies": "I wonder what prompted such a tear from Jorts? I only know human psychology, not animal.",
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas",
+		"Entries": {
+						"MeetTheCats": "Jorts is so nice! One time I fell and scraped my knee, and Jorts licked it til it felt better.$h#$b#When I told Aunt Marnie, she made me scrub it clean, though.$s",
+						"ButteredJorts": "I wish I could've seen Jorts with butter on him. I bet he was cute!",
+						"JortsZoomies": "I asked Uncle Shane about Jorts running around the Jojamart since he was working, but he won't tell me.$s#$b#He just keeps looking at some paper in his room.",
+						"OpenAllTheDoors": "Uncle Shane seems really down about the Jojamart closing. I wish I had some way of cheering him up.$2",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"Entries": {
+						"MeetTheCats": "I hope those two kitties have a good place to sleep at night.$s#$b#I'd consider letting them inside our house, but I just don't have the time to take care of a pet, too.",
+						"ButteredJorts": "I understand where Pam's coming from...Jorts seems to need a lot of care. I guess that's why he has Jean.",
+						"RubberCatting": "Kent told me he wants to try therapy, @. I never thought that kind of thing, just talking, would help.$s#$b#But if Kent does, I'll trust him. He's my husband, after all.$h",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"Entries": {
+						"MeetTheCats": "Some nights those cats just come and sit with me by the river. Makes me feel at peace.$h",
+						"ButteredJorts": "Haha. I haven't had a story quite this silly since the 'Noodle Incident' in basic training.$h",
+						"RubberCatting": "Hope is an interesting thing, isn't it? Just the chance that something might improve makes things seem better.$h",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Krobus",
+		"Entries": {
+						"MeetTheCats": "Ah, yes, I know the two cats that are always together.#$b#Jean brings me fish to sell and Jorts is always so nice to talk to.$h",
+						"ButteredJorts": "There's been quite a ruckus on the surface today. Did something happen to Jorts?",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Leah",
+		"Entries": {
+						"MeetTheCats": "There's something almost magical about those cats, isn't there? I swear I've heard them talk before.$h",
+						"ButteredJorts": "Aw, I wish I'd seen buttered Jorts, I bet it was cute. Maybe I'll create some art based on the idea.$h",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lewis",
+		"Entries": {
+						"MeetTheCats": "Talking cats? Don't be ridiculous, @. Cats can't talk.#$b#And they certainly can't bully you over passing anti-corporate ordinances.$3",
+						"ButteredJorts": "Is this what Pelican Town has come to? Buttering cats?",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Linus",
+		"Entries": {
+						"MeetTheCats": "Jean comes to fish with me sometimes, while Jorts keeps us company.#$b#She's a good listener and he's a good talker. They work well together.$h",
+						"ButteredJorts": "I know how Jorts feels. People sometimes try to 'fix' me, too.$s",
+						"DumpsterFishing": "Thanks for keeping quiet about me, @. Jorts and I will make sure to be more courteous of the noise we make in the future.$h",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie",
+		"Entries": {
+						"MeetTheCats": "I don't have to worry about rats nearly as much now that Jean visits my farm.$h#$b#And Jorts is a sweetie, Jas adores him.$h",
+						"ButteredJorts": "Oh dear, poor Jorts. I hope this doesn't give the kids any ideas...$s",
+						"JortsZoomies": "I heard Jorts caused a ruckus at Shane's work, but he's been really quiet about it. Did something else happen, I wonder?$3",
+						"OpenAllTheDoors": "I know Shane must be disappointed about the Jojamart closing, but I'm really proud of him. He worked so hard to make that union a reality.$h",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marlon",
+		"Entries": {
+						"MeetTheCats": "Smart cats, those two. They help Gil and me on patrol overnight.#$b#Always seem to know where they're needed in town, too. But maybe that's just because they're cats.",
+						"ButteredJorts": "Shouldn't put butter on someone on the job. It's unprofessional.",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maru",
+		"Entries": {
+						"MeetTheCats": "Talking cats?#$b#Oh, I wonder if I could make them collars with little robotic cat-to-human translators? I bet that'd be fun!$3",
+						"ButteredJorts": "Pam gave it a good try, but cats just aren't trainable like dogs are. They're not evolved to follow orders.$2",
+		},
+	},	
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pam",
+		"Entries": {
+						"MeetTheCats": "Those two cats? I always slip them my leftovers, they're real sweethearts. Sometimes I even think I hear them cheering me on or comforting me.$h",
+						"ButteredJorts": "I guess I should trust that Jorts and Jean know what they need and stop interfering. I'll stick to fishing Jorts out of trash cans.$s#$b#But Gus better apologize to Jorts for what he said!$3",
+						"OpenAllTheDoors": "Times are going to be a little tighter now that the Jojamart's gone. At least Jorts seems in high spirits like always.",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Penny",
+		"Entries": {
+						"MeetTheCats": "Sometimes when my mom's had too much to drink, Jorts and Jean escort her home to make sure she gets here all right.#$b#They're like her guardian angels!$h",
+						"ButteredJorts": "Oh, Mom....$s#$b#Please don't hold this against her, @. I really think she's learned something from this.",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pierre",
+		"Entries": {
+						"MeetTheCats": "The cats?  I--achoo!--get allergies just thinking about them!",
+						"ButteredJorts": "I can't believe Pam put margarine on Jorts!$3#$b#If you're going to apply butter products to a cat, it should be MY high-quality butter, not that cheap Joja imitation!$3",
+						"JortsZoomies": "Serves Morris right, having those cats run around his store like that.$h#$b#...I hope they don't decide to try the same thing here.$s",
+						"OpenAllTheDoors": "I still can't believe Joja's actually gone. I'm in shock that all it took was it standing up to them once. We should have done it years ago.",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin",
+		"Entries": {
+						"MeetTheCats": "Don't tell Demetrius, but Sebby was talking to those two cats the other day. And get this, they were talking back!$h#$b#Demetrius would never believe me, though.$4",
+						"ButteredJorts": "Oh dear. Well, Jorts doesn't seem to hold grudges, so Pam will probably be fine.$h"
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"Entries": {
+						"MeetTheCats": "Oh, the talking cats? I've never heard them, but Seb and Abby have, and I believe them.",
+						"ButteredJorts": "I know I shouldn't laugh, but... pfft!$h",
+						"RubberCatting": "Dad's been looking a bit happier lately, since he started visiting Harvey. Maybe he made a friend?$h",
+						"JortsZoomies": "Vincent got a real kick out of the story of Jorts running around the Jojamart.$h#$b#I, uh, didn't tell him about the flyer thing. I saved one from the trash, but....",
+						"OpenAllTheDoors": "I'm kind of sad to see Jojamart gone. I actually was really looking forward to being in the union.$s#$b#It was kind of cool to be a part of something big, with everyone working for each other, you know?$10",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sandy",
+		"Entries": {
+						"MeetTheCats": "Emily says there's a couple of talking cats in town, but I think she's just teasing me.#$b#The only thing they ever seem to say to me is 'more milk!'$h",
+						"ButteredJorts": "Emily told me back in town they're putting butter on cats? Really, sweeties, what ARE you up to?$s",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+						"MeetTheCats": "Of course Demetrius doesn't know Jean and Jorts talk. He doesn't listen to humans, let alone cats.",
+						"ButteredJorts": "Oh man, if I was Pam, I'd watch my step for a while. Jean can really hold a grudge.$h",
+						"JortsZoomies": "Sam showed me the flyer Jorts was passing out. It's a good idea. I'm a freelancer, so I don't get the same chance to bargain as a union would.",
+						"OpenAllTheDoors": "Lousy Joja rats. They'd rather shut down the store altogether than deal with a union.$5",
+		},
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shane",
+		"Entries": {
+						"MeetTheCats": "Is it just me, or are those cats kind of...weird? I feel like the little one in particular watches me a lot.$a",
+						"ButteredJorts": "Even at my drunkest, I've never thought it was a good idea to put butter on a cat.",
+						"RubberCatting": "Harvey said he's trying to get together a support group for us guys to talk about stuff. Apparently there's a lot of men around here going through stuff.#$b#I don't know about talking about my feelings to a bunch of strangers... but I was willing to give therapy a try, so maybe....",
+						"JortsZoomies": "....$3#$b#What? I'm just... thinking about stuff. I have a lot on my mind, you know.$5",
+						"OpenAllTheDoors": "...I don't know if I made a mistake. Maybe I shouldn't have pushed for it. But I guess there's no undoing it.$3",
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"Entries": {
+						"MeetTheCats": "Jorts and Jean are really cool! Wanna know a secret about them?#$b#Don't tell the adults, but they can talk!$h",
+						"ButteredJorts": "Hee hee, Jorts was telling me about the butter! That's so funny!",
+						"RubberCatting": "Hey @, what's pee-tee-ess-dee? I overheard Mom and Dad talking about it.#$b#When I asked Miss Penny, she said that it was a sickness. Am I gonna get sick?$s",
+						"JortsZoomies": "I asked Jorts if he can show me how fast he can run, and he said he'd do zoomies just for me!$H",
+						
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Willy",
+		"Entries": {
+						"MeetTheCats": "That Jean is one of the smartest cats I've ever seen. Good fishing cat. Jorts... well, he's very gentle.",
+						"ButteredJorts": "Seems everyone's heard about the butter incident.#$b#Well, it'll keep 'em from talking about me crabs for a while.$h"
+		},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Wizard",
+		"Entries": {
+						"MeetTheCats": "Jorts and Jean? They are not arcane creatures. You have nothing to fear from them.#$b#They are cats: ordinary, yet extraordinary. It is best if you do not pry too far into the whys of it.",
+						"ButteredJorts": "No, I will not look into a spell to make Jorts smarter. He is happy as he is.#$b#Intelligence does not equate happiness. Ask me how I know....",
+		},
+	},	
+//Modified vanilla with certain mods installed
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Clint",
+		"When": { "HasMod: |contains=Arknir.Lucikiel": true},
+		"Entries": {
+						"MeetTheCats": "Jean's a nice cat. Always knows what to say to cheer me up.#$b#D-don't tell anyone I said that, though! Especially not Lucikiel!$4",
+						"ButteredJorts": "Don't tell anyone, but Lucikiel is pretty fond of Jean.#$b#I'm glad she wasn't hurt, otherwise Pelican Town might be short one Pam....$4"
+		},
+	},
+	
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"When": { "HasMod: |contains=FuzzyMittens.Toshinori": true},
+		"Entries": {
+						"ButteredJorts": "Haha. I haven't had a story quite this silly since Toshinori managed to knock over an entire tent complex by smacking his forehead into a support beam.$h",
+		},
+	},
+	
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas",
+		"When": { "HasMod: |contains=LemurKat.Mr.Ginger.NPC": true},
+		"Entries": {
+						"MeetTheCats": "Jorts and Jean like to hang out with Mr. Ginger when I play. I'm glad they're such good friends.$h",
+						"ButteredJorts": "I told Mr. Ginger about what happened to Jorts. It almost sounded like he was laughing....",
+		},
+	},	
+	
+		{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shane",
+		"When": { "HasMod: |contains=LemurKat.Mr.Ginger.NPC": true,
+			"HasSeenEvent |contains=5295000": false },
+		"Entries": {
+						"MeetTheCats": "When those two cats get together with Mr. Ginger, I feel like they're gossiping about me.#$b#I guess that's just being paranoid.",
+						"ButteredJorts": "I wonder if I could get away with doing that to Mr. Ginger, haha.$h#$b#Nah, I'd better not try. He'd probably put a dead mouse in my drink.#$b#...again.$2",
+		},
+	},	
+	
+		{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie",
+		"When": { "HasMod: |contains=LemurKat.Mr.Ginger.NPC": true},
+		"Entries": {
+						"MeetTheCats": "With so many cats around, I don't have to worry about rats nearly as much as I used to.$h#$b#Though, if little Jean decides she fancies one of the boys, we may have TOO many cats....",
+						"ButteredJorts": "Oh dear, poor Jorts. I hope Jas doesn't get any ideas with Mr. Ginger... I don't think he'll put up with that."
+		},
+	},	
+	
+//Custom NPCs
+		{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Void",
+		"When": { "HasMod: |contains=Arknir27.Lavril": true},
+		"Entries": {
+						"MeetTheCats": "Well, yes, I petted the kitty, but I had no choice.#$b#I definitely didn't enjoy petting his very soft fur or anything.",
+						"ButteredJorts": "Why would you put butter on a cat? Maybe Pam was trying to eat him?#$b#Not that I care about that big soft fluffball or anything.",
+					},
+		},
+		{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lavril",
+		"When": { "HasMod: |contains=Arknir27.Lavril": true},
+		"Entries": {
+						"MeetTheCats": "The big orange kitty said hi to me and let me pet him!  I wonder if the little one will come see me, too?$13",
+						"ButteredJorts": "Is Mr. Jorts okay? Void said that he'd be fine, but I'm worried.$2",
+					},
+		},
+		{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lucikiel",
+		"When": { "HasMod: |contains=Arknir.Lucikiel": true},
+		"Entries": {
+						"MeetTheCats": "Talking cats, huh? This town is more than it appears to be.$9",
+						"ButteredJorts": "HAHAHA! I can't believe Pam buttered Jorts!$1",
+						"JortsZoomies": "Are we sure Morris doesn't actually like being humiliated? Between myself and a pair of cats, he seems to be excellent at embarrassing losses.$1",
+						"OpenAllTheDoors": "It's a shame I couldn't give Morris one more humiliation for the road.$1#$b#Let's hope his vices continue to 'bless' him in the future.$7",
+					},
+		},
+		
+		
+		//Lasting CT compatibility
+		{
+			"LogName": "Meet the Cats Lasting CT",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"MeetTheCats": "true"
+			},
+			"When": {
+				"HasConversationTopic": "MeetTheCats",
+				"LastingCTs": true,
+			}
+		},
+		
+				{
+			"LogName": "Dumpster Fishing Lasting CT",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"DumpsterFishing": "true"
+			},
+			"When": {
+				"HasConversationTopic": "DumpsterFishing",
+				"LastingCTs": true,
+			}
+		},
+		
+				{
+			"LogName": "Buttered Jorts Lasting CT",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ButteredJorts": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ButteredJorts",
+				"LastingCTs": true,
+			}
+		},
+		
+				{
+			"LogName": "Rubber Catting Lasting CT",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"RubberCatting": "true"
+			},
+			"When": {
+				"HasConversationTopic": "RubberCatting",
+				"LastingCTs": true,
+			}
+		},
+		
+				{
+			"LogName": "Jorts Zoomies Lasting CT",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"JortsZoomies": "true"
+			},
+			"When": {
+				"HasConversationTopic": "JortsZoomies",
+				"LastingCTs": true,
+			}
+		},
+		
+				{
+			"LogName": "Open all the Doors Lasting CT",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"OpenAllTheDoors": "true"
+			},
+			"When": {
+				"HasConversationTopic": "OpenAllTheDoors",
+				"LastingCTs": true,
+			}
+		},
+]
+}

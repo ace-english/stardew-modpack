@@ -1,0 +1,304 @@
+{
+    "Changes":
+    [   
+		
+//
+///////////// HARVEY /////////////
+//
+		
+// MODDED HARVEY
+
+		{
+			"LogName": "Harvey Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{
+				"summer_Mon": "{{i18n:DSV.Dialogue.Daily.Harvey.Modded.summer_Mon}}",
+				"summer_Tue": "{{i18n:DSV.Dialogue.Daily.Harvey.Modded.summer_Tue}}",
+				"summer_Fri": "{{i18n:DSV.Dialogue.Daily.Harvey.Modded.summer_Fri}}",
+				"winter_Sun": "{{i18n:DSV.Dialogue.Daily.Harvey.Modded.winter_Sun}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HarveyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh, ModdedNonSikh": true
+            }
+		},   
+		{
+			"LogName": "Harvey Variant-Based Dialogue - Modded (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+			"Entries": 
+			{
+				"Summer_1": "{{i18n:DSV.Dialogue.Daily.Harvey.Modded.Married.Summer_1}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HarveyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh, ModdedNonSikh": true
+            }
+		},
+		{
+			"LogName": "Harvey Variant-Based Dialogue - Modded (Rainy)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": 
+			{
+				"Harvey": "{{i18n:DSV.Dialogue.Daily.Harvey.Modded.Rain}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HarveyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh, ModdedNonSikh": true
+            }
+		}, 
+		{
+			"LogName": "Harvey Variant-Based Dialogue - Modded (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{
+				"summer_Fri4": "{{i18n:DSV.Dialogue.Daily.Harvey.Modded.summer_Fri4.CanonFriendlyDialogue}}",
+				"fall_Sat8": "{{i18n:DSV.Dialogue.Daily.Harvey.Modded.fall_Sat8.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HarveyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh, ModdedNonSikh": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},  
+		
+// SIKH HARVEY
+
+		{
+			"LogName": "Harvey Variant-Based Dialogue - Sikh (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{
+				"summer_Tue6": "{{i18n:DSV.Dialogue.Daily.Harvey.ModdedSikh.summer_Tue6}}",
+				"AcceptGift_(O)348": null,
+				"AcceptGift_(O)395": "{{i18n:DSV.Dialogue.Daily.Harvey.ModdedSikh.AcceptGift_(O)395}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HarveyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh": true
+            }
+		},   
+		{
+			"LogName": "Harvey Variant-Based Dialogue - Sikh (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+			"Entries": 
+			{
+				"Rainy_Night_4": "{{i18n:DSV.Dialogue.Daily.Harvey.ModdedSikh.Married.Rainy_Night_4}}",
+				"Indoor_Day_1": "{{i18n:DSV.Dialogue.Daily.Harvey.ModdedSikh.Married.Indoor_Day_1}}",
+				"Good_3": "{{i18n:DSV.Dialogue.Daily.Harvey.ModdedSikh.Married.Good_3}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HarveyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh": true
+            }
+		},    
+		{
+			"LogName": "Harvey Variant-Based Dialogue - Sikh (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"Entries": 
+			{
+				"fall_Harvey": "{{i18n:DSV.Dialogue.Daily.Harvey.ModdedSikh.Married.fall_Harvey}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HarveyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh": true
+            }
+		},  
+
+// SIKH HARVEY OR TURKISH GUS
+
+		{
+			"LogName": "Harvey Variant-Based Dialogue - Sikh/Turkish (Festival)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{
+				"Harvey": "{{i18n:DSV.Dialogue.Daily.Harvey.ModdedSikhTurkishGus.fall16}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HarveyDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh}}' = 'true' OR '{{DSV.Core/ConfigValue:GusVariant |contains= Turkish}}' = 'true'": true
+            }
+		}, 
+		
+//
+///////////// GUS /////////////
+//
+		
+// TURKISH GUS 
+
+		{
+			"LogName": "Gus Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Introduction}}",
+				"spring_Sun4": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.spring_Sun4}}",
+				"summer_Mon6": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.summer_Mon6}}",
+				"fall_Thu4": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.fall_Thu4}}",
+				"Mon": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Mon}}",
+				"Saloon_Thu": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Saloon_Thu}}",
+				"Wed": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Wed}}",
+				"Fri4": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Fri4}}",
+				"AcceptGift_(O)StardropTea": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.StardropTea}}" 
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true
+            }
+		},   
+		{
+			"LogName": "Gus Variant-Based Dialogue - Iranian Jodi / Omani Kent (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"spring_Mon6": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.ModdedJodiKent.spring_Mon6.{{KentFamilyReligionToken}}}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+            }
+		}, 
+		{
+			"LogName": "Gus Variant-Based Dialogue - Modded (Rainy)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": 
+			{
+				"Gus": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Rainy}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true
+            }
+		},  
+		{
+			"LogName": "Gus Variant-Based Dialogue - Nonbinary Emily (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"Wed": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.NonbinaryEmily.Wed}}",
+				"dating_Emily_memory_oneweek": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.NonbinaryEmily.dating_Emily_memory_oneweek}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true
+            }
+		},
+		{
+			"LogName": "Gus Variant-Based Dialogue - Modded (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"Mon8": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Mon8.CanonFriendlyDialogue}}",
+				"Wed": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Wed.CanonFriendlyDialogue}}",
+				"Wed_013": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Wed_013.CanonFriendlyDialogue}}",
+				"Thu10": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Thu10.CanonFriendlyDialogue}}",
+				"Fri6": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Fri6.CanonFriendlyDialogue}}",
+				"Sat6": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Sat6.CanonFriendlyDialogue}}",
+				"Sat8": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Sat8.CanonFriendlyDialogue}}",
+				"Sun10": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Sun10.CanonFriendlyDialogue}}",
+				"summer_Sun6": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.summer_Sun6.CanonFriendlyDialogue}}",
+				"winter_Sat": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.winter_Sat.CanonFriendlyDialogue}}",
+				"winter_28": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.winter_28.CanonFriendlyDialogue}}",
+				"winter_28_2": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.winter_28.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},    
+		{
+			"LogName": "Gus Variant-Based Dialogue - Modded (Rainy, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": 
+			{
+				"Gus": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.Rainy.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},  
+		{
+			"LogName": "Gus Variant-Based Dialogue - Nonbinary Emily (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"Wed4": "{{i18n:DSV.Dialogue.Daily.Gus.Turkish.NonbinaryEmily.Wed4.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+
+// AROACE GUS
+
+		{
+			"LogName": "Gus Variant-Based Dialogue - Aro-Ace (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Gus.AroAce.Introduction}}",
+				"Wed8": "{{i18n:DSV.Dialogue.Daily.Gus.AroAce.Wed8}}",
+				"Wed10": "{{i18n:DSV.Dialogue.Daily.Gus.AroAce.Wed8}}",
+				"winter_Thu10": "{{i18n:DSV.Dialogue.Daily.Gus.AroAce.winter_Thu10}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GusDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:AroAceGus |contains= True": true
+            }
+		},
+		{
+			"LogName": "Gus Variant-Based Dialogue - Aro-Ace (LUTI)",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": 
+			{
+				"Renciel.Gus7": "{{i18n:DSV.Dialogue.MapStrings.Gus.AroAce.LUTI}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:AroAceGus |contains= True": true,
+				"HasMod |contains= uglynt.town.interiors": true
+			}
+		}
+    ]
+}

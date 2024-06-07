@@ -1,0 +1,255 @@
+{
+// LEAH DSV ULTRALIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Leah Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Leah", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Leah.Indoor":
+				{
+					"Id": "{{ModId}}_Leah_Indoor",
+					"Portrait": "Portraits/Leah_Indoor",
+					"Sprite": "Characters/Leah_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Leah.EggFestival":
+				{
+					"Id": "{{ModId}}_Leah_EggFestival",
+					"Portrait": "Portraits/Leah_EggFestival",
+					"Sprite": "Characters/Leah_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Leah.FlowerDance":
+				{
+					"Id": "{{ModId}}_Leah_FlowerDance",
+					"Portrait": "Portraits/Leah_FlowerDance",
+					"Sprite": "Characters/Leah_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Leah.Luau":
+				{
+					"Id": "{{ModId}}_Leah_Luau",
+					"Portrait": "Portraits/Leah_Luau",
+					"Sprite": "Characters/Leah_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Leah.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Leah_MoonlightJellies",
+					"Portrait": "Portraits/Leah_MoonlightJellies",
+					"Sprite": "Characters/Leah_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Leah.SVFair":
+				{
+					"Id": "{{ModId}}_Leah_SVFair",
+					"Portrait": "Portraits/Leah_SVFair",
+					"Sprite": "Characters/Leah_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Leah.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Leah_SpiritsEve",
+					"Portrait": "Portraits/Leah_SpiritsEve",
+					"Sprite": "Characters/Leah_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Leah.IceFestival":
+				{
+					"Id": "{{ModId}}_Leah_IceFestival",
+					"Portrait": "Portraits/Leah_IceFestival",
+					"Sprite": "Characters/Leah_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Leah.WinterStar":
+				{
+					"Id": "{{ModId}}_Leah_WinterStar",
+					"Portrait": "Portraits/Leah_WinterStar",
+					"Sprite": "Characters/Leah_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Leah.Swim":
+				{
+					"Id": "{{ModId}}_Leah_Swim",
+					"Portrait": "Portraits/Leah_Swim",
+					"Sprite": "Characters/Leah_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Leah.HotClimate":
+				{
+					"Id": "{{ModId}}_Leah_HotClimate",
+					"Portrait": "Portraits/Leah_HotClimate",
+					"Sprite": "Characters/Leah_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Leah.Aerobics":
+				{
+					"Id": "{{ModId}}_Leah_Aerobics",
+					"Sprite": "Characters/Leah_Aerobics",
+					"Condition": "IS_EVENT 58",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Leah Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Leah_Indoor, Characters/Leah_Indoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Leah Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Leah_EggFestival, Characters/Leah_EggFestival, Portraits/Leah_FlowerDance, Characters/Leah_FlowerDance, Portraits/Leah_Luau, Characters/Leah_Luau, Portraits/Leah_MoonlightJellies, Characters/Leah_MoonlightJellies, Portraits/Leah_SVFair, Characters/Leah_SVFair, Portraits/Leah_SpiritsEve, Characters/Leah_SpiritsEve, Portraits/Leah_IceFestival, Characters/Leah_IceFestival, Portraits/Leah_WinterStar, Characters/Leah_WinterStar, Portraits/Leah_Swim, Characters/Leah_Swim, Characters/Leah_Aerobics",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Leah Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Leah_HotClimate, Characters/Leah_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Leah Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Characters/Leah_Indoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_{{Season}}_1_Base.png"
+		},
+		{
+			"LogName": "Leah Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_HotClimate, Characters/Leah_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Leah Random Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_SpiritsEve, Characters/Leah_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_SpiritsEve_{{RandomSpiritsEveTwoToken}}.png"
+		},
+		{
+			"LogName": "Leah Flower Queen Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_FlowerDance, Characters/Leah_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_FlowerDance_1{{LeahFlowerDanceToken}}.png",
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Leah Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach, Characters/Leah_Beach",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:BeachStyle |contains= RandomBeachwear": false
+			}
+		},
+		{
+			"LogName": "Leah Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Indoor",
+			"FromFile": "Art/VanillaNPCs/Leah/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LeahVariant}}/Leah_Wedding_{{LeahSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Leah Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/Leah_Emoji_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"ToArea": {"X": 27, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Leah 14-Heart Event Temporary Sprites Hands",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/Leah14Heart_TemporarySprites1_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Leah Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Leah/Misc/Leah_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:LeahVariant}}.png",
+			"ToArea": {"X": 48, "Y": 368, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LeahVariant|contains= Vanilla, Off": false
+			}
+		},
+
+// COMPATIBILITY
+// PPAF
+		{
+			"LogName": "PPaF Compat - Leah No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Indoor, Portraits/Leah_EggFestival, Portraits/Leah_FlowerDance, Portraits/Leah_Luau, Portraits/Leah_MoonlightJellies, Portraits/Leah_SVFair, Portraits/Leah_IceFestival, Portraits/Leah_WinterStar, Portraits/Leah_Swim, Portraits/Leah_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Leah/Portraits/{{DSV.Core/ConfigValue:LeahVariant}}/Overlays/Leah_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Leah": true
+			}
+		}
+	]
+}

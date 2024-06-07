@@ -1,0 +1,492 @@
+{
+// MARU DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Maru Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Maru", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Maru.Indoor":
+				{
+					"Id": "{{ModId}}_Maru_Indoor",
+					"Portrait": "Portraits/Maru_Indoor",
+					"Sprite": "Characters/Maru_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Maru.EggFestival":
+				{
+					"Id": "{{ModId}}_Maru_EggFestival",
+					"Portrait": "Portraits/Maru_EggFestival",
+					"Sprite": "Characters/Maru_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Maru.FlowerDance":
+				{
+					"Id": "{{ModId}}_Maru_FlowerDance",
+					"Portrait": "Portraits/Maru_FlowerDance",
+					"Sprite": "Characters/Maru_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Maru.Luau":
+				{
+					"Id": "{{ModId}}_Maru_Luau",
+					"Portrait": "Portraits/Maru_Luau",
+					"Sprite": "Characters/Maru_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Maru.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Maru_MoonlightJellies",
+					"Portrait": "Portraits/Maru_MoonlightJellies",
+					"Sprite": "Characters/Maru_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Maru.SVFair":
+				{
+					"Id": "{{ModId}}_Maru_SVFair",
+					"Portrait": "Portraits/Maru_SVFair",
+					"Sprite": "Characters/Maru_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Maru.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Maru_SpiritsEve",
+					"Portrait": "Portraits/Maru_SpiritsEve",
+					"Sprite": "Characters/Maru_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Maru.IceFestival":
+				{
+					"Id": "{{ModId}}_Maru_IceFestival",
+					"Portrait": "Portraits/Maru_IceFestival",
+					"Sprite": "Characters/Maru_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Maru.WinterStar":
+				{
+					"Id": "{{ModId}}_Maru_WinterStar",
+					"Portrait": "Portraits/Maru_WinterStar",
+					"Sprite": "Characters/Maru_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// MATERNITY
+				"DSV.Maru.Maternity":
+				{
+					"Id": "{{ModId}}_Maru_Maternity",
+					"Portrait": "Portraits/Maru_Maternity",
+					"Sprite": "Characters/Maru_Maternity",
+					"Condition": "{{Pregnant |contains= Maru}}, {{DSV.Core/ConfigValue:MaternitySprites |contains= True}}",
+					"Precedence": -250
+				},
+				"DSV.Maru.MaternityBeach":
+				{
+					"Id": "{{ModId}}_Maru_Beach_Maternity",
+					"Portrait": "Portraits/Maru_Beach_Maternity",
+					"Sprite": "Characters/Maru_Beach_Maternity",
+					"Condition": "{{Pregnant |contains= Maru}}, {{DSV.Core/ConfigValue:MaternitySprites |contains= True}}",
+					"IsIslandAttire": true,
+					"Precedence": -250
+				},
+				"DSV.Maru.MaternityHospital":
+				{
+					"Id": "{{ModId}}_Maru_Hospital_Maternity",
+					"Portrait": "Portraits/Maru_Hospital_Maternity",
+					"Sprite": "Characters/Maru_Hospital_Maternity",
+					"Condition": "LOCATION_NAME Target Hospital, {{Pregnant |contains= Maru}}, {{DSV.Core/ConfigValue:MaternitySprites |contains= True}}",
+					"IsIslandAttire": true,
+					"Precedence": -1250
+				},
+			// OTHER
+				"DSV.Maru.Swim":
+				{
+					"Id": "{{ModId}}_Maru_Swim",
+					"Portrait": "Portraits/Maru_Swim",
+					"Sprite": "Characters/Maru_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Maru.Hospital":
+				{
+					"Id": "{{ModId}}_Maru_Hospital",
+					"Portrait": "Portraits/Maru_Hospital",
+					"Sprite": "Characters/Maru_Hospital",
+					"Condition": "LOCATION_NAME Target Hospital",
+					"Precedence": -1150
+				},
+				"DSV.Maru.HotClimate":
+				{
+					"Id": "{{ModId}}_Maru_HotClimate",
+					"Portrait": "Portraits/Maru_HotClimate",
+					"Sprite": "Characters/Maru_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Maru Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Maru_Indoor, Characters/Maru_Indoor",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/Maru_Fall_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Maru Load - Hospital Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Maru_Hospital, Characters/Maru_Hospital",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/Maru_Hospital_NoScrubs.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Maru Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Maru_EggFestival, Characters/Maru_EggFestival, Portraits/Maru_FlowerDance, Characters/Maru_FlowerDance, Portraits/Maru_Luau, Characters/Maru_Luau, Portraits/Maru_MoonlightJellies, Characters/Maru_MoonlightJellies, Portraits/Maru_SVFair, Characters/Maru_SVFair, Portraits/Maru_SpiritsEve, Characters/Maru_SpiritsEve, Portraits/Maru_IceFestival, Characters/Maru_IceFestival, Portraits/Maru_WinterStar, Characters/Maru_WinterStar, Portraits/Maru_Swim, Characters/Maru_Swim, Portraits/Maru_Maternity, Characters/Maru_Maternity",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Maru Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Maru_HotClimate, Characters/Maru_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/Maru_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Maru Load - Maternity Beach/Hospital Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Maru_Beach_Maternity, Characters/Maru_Beach_Maternity, Portraits/Maru_Hospital_Maternity, Characters/Maru_Hospital_Maternity",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Maru Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Indoor, Characters/Maru_Indoor",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/Maru_{{Season}}_{{RandomThreeToken}}_Base.png"
+		},
+		{
+			"LogName": "Maru Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_HotClimate, Characters/Maru_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/Maru_Summer_{{RandomThreeToken}}_Sun.png"
+		},
+		{
+			"LogName": "Maru Flower Queen Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_FlowerDance, Characters/Maru_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/Maru_FlowerDance_1_FlowerQueen.png",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Maru": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Maru Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Beach, Characters/Maru_Beach",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/Maru_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Maru Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Maru_Indoor",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/Maru_Wedding_{{MaruSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		{
+			"LogName": "Maru Hospital Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Hospital, Characters/Maru_Hospital",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/{{TargetWithoutPath}}_Scrubs{{Random: 1, 2, 3|key=MaruScrubs}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruHospitalScrubs |contains= True": true
+			}
+		},
+
+// MISCELLANEOUS
+		{
+			"LogName": "Maru Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Maru/Misc/Maru_Emoji_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+			"ToArea": {"X": 18, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:MaruVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Maru Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Maru/Misc/Maru_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+			"ToArea": {"X": 96, "Y": 272, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:MaruVariant|contains= Vanilla, Off": false
+			}
+		},
+
+// MERMAID PENDANTS
+		{
+			"LogName": "Maru Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Indoor, Portraits/Maru_EggFestival, Portraits/Maru_FlowerDance, Portraits/Maru_Luau, Portraits/Maru_MoonlightJellies, Portraits/Maru_SVFair, Portraits/Maru_Maternity",
+			"FromFile": "Art/VanillaNPCs/Maru/Misc/MermaidPendants/Maru_Pendant_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Maru |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Maru Pendants - Beach & Winter Star",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Beach, Portraits/Maru_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Maru/Misc/MermaidPendants/Maru_Pendant_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Maru |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Maru Pendants - Life Cycle Harvey/Maru Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Indoor, Portraits/Maru_EggFestival, Portraits/Maru_FlowerDance, Portraits/Maru_Luau, Portraits/Maru_MoonlightJellies, Portraits/Maru_SVFair",
+			"FromFile": "Art/VanillaNPCs/Maru/Misc/MermaidPendants/Maru_Pendant_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Maru |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleHarveyMaru": true,
+				"HasSeenEvent |contains= 59020030": true
+			}
+		},
+		{
+			"LogName": "Maru Pendants - Beach & Winter Star - Life Cycle Harvey/Maru Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Beach, Portraits/Maru_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Maru/Misc/MermaidPendants/Maru_Pendant_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Maru |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleHarveyMaru": true,
+				"HasSeenEvent |contains= 59020030": true
+			}
+		},
+
+// BLACK HAIR OVERLAY
+
+		{
+			"LogName": "Maru Black Hair Overlay - Daily",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Indoor, Characters/Maru_Indoor, Portraits/Maru_HotClimate, Characters/Maru_HotClimate, Portraits/Maru_Maternity, Characters/Maru_Maternity, Portraits/Maru_EggFestival, Characters/Maru_EggFestival, Portraits/Maru_FlowerDance, Characters/Maru_FlowerDance, Portraits/Maru_Luau, Characters/Maru_Luau, Portraits/Maru_MoonlightJellies, Characters/Maru_MoonlightJellies, Portraits/Maru_SVFair, Characters/Maru_SVFair",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/ModdedLavender/BlackHair/Maru_{{MaruBlackHairToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruBlackHair": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedLavender": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Maru Black Hair Overlay - Bandanna",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_WinterStar, Characters/Maru_WinterStar, Portraits/Maru_Swim, Characters/Maru_Swim",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/ModdedLavender/BlackHair/Maru_Bandanna.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruBlackHair": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedLavender": true
+			}
+		},
+		{
+			"LogName": "Maru Black Hair Overlay - Ice Festival",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_IceFestival, Characters/Maru_IceFestival",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/ModdedLavender/BlackHair/Maru_Winter_1.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruBlackHair": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedLavender": true
+			}
+		},
+		{
+			"LogName": "Maru Black Hair Overlay - Spirits' Eve",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_SpiritsEve, Characters/Maru_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/ModdedLavender/BlackHair/Maru_SpiritsEve.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruBlackHair": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedLavender": true
+			}
+		},
+		{
+			"LogName": "Maru Black Hair Overlay - Flower Dance",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_FlowerDance, Characters/Maru_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/ModdedLavender/BlackHair/{{TargetWithoutPath}}_{{MaruBlackHairTokenFlowerDance}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruBlackHair": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedLavender": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Maru Black Hair Overlay - Hospital",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Hospital, Characters/Maru_Hospital, Portraits/Maru_Hospital_Maternity, Characters/Maru_Hospital_Maternity",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/ModdedLavender/BlackHair/{{TargetWithoutPath}}_{{DSV.Core/ConfigValue:MaruHospitalScrubs}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruBlackHair": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedLavender": true
+			}
+		},
+		{
+			"LogName": "Maru Black Hair Overlay - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Beach, Characters/Maru_Beach, Portraits/Maru_Beach_Maternity, Characters/Maru_Beach_Maternity",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/ModdedLavender/BlackHair/{{TargetWithoutPath}}_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruBlackHair": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedLavender": true
+			}
+		},
+		{
+			"LogName": "Maru Black Hair Overlay - Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Maru",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/ModdedLavender/BlackHair/{{TargetWithoutPath}}_Wedding_{{MaruSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 48, "Height": 32},
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= atravita.SleepInWedding": false,
+				"DSV.Core/ConfigValue:MaruBlackHair": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedLavender": true
+			}
+		},
+		
+//MISCELLANEOUS OVERLAYS
+		{
+			"LogName": "Maru Character Glasses Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Maru_Indoor, Characters/Maru_EggFestival, Characters/Maru_FlowerDance, Characters/Maru_Luau, Characters/Maru_MoonlightJellies, Characters/Maru_SVFair, Characters/Maru_SpiritsEve, Characters/Maru_IceFestival, Characters/Maru_WinterStar, Characters/Maru_Swim, Characters/Maru_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Maru/Characters/{{DSV.Core/ConfigValue:MaruVariant}}/Overlays/Maru_GlassesOverlay_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruCharacterGlasses": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedNotsnufffie, Vanilla": true
+			}
+		},
+		{
+			"LogName": "Maru Character Glasses Overlay - Beach",
+			"Action": "EditImage",
+			"Target": "Characters/Maru_Beach, Characters/Maru_Beach_Maternity",
+			"FromFile": "Art/VanillaNPCs/Maru/Characters/{{DSV.Core/ConfigValue:MaruVariant}}/Overlays/Maru_Beach_GlassesOverlay_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruCharacterGlasses": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedNotsnufffie, Vanilla": true
+			}
+		},
+		{
+			"LogName": "Maru Character Glasses Overlay - Hospital",
+			"Action": "EditImage",
+			"Target": "Characters/Maru_Hospital, Characters/Maru_Hospital_Maternity",
+			"FromFile": "Art/VanillaNPCs/Maru/Characters/{{DSV.Core/ConfigValue:MaruVariant}}/Overlays/Maru_Hospital_GlassesOverlay_{{DSV.Core/ConfigValue:MaruVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruCharacterGlasses": "true",
+				"DSV.Core/ConfigValue:MaruVariant|contains= ModdedNotsnufffie, Vanilla": true
+			}
+		},
+		{
+			"LogName": "Maru Bandannas Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Indoor, Characters/Maru_Indoor, Portraits/Maru_HotClimate, Characters/Maru_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Maru/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:MaruVariant}}/Overlays/Maru_Bandanna_{{Random: 0, 0, 0, 1, 2, 3, 4, 5, 6 |key= MaruBandanna}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Season |contains= winter": false
+			}
+		}
+	]
+}

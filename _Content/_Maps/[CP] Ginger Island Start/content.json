@@ -1,0 +1,395 @@
+{
+   "$schema": "https://smapi.io/schemas/content-patcher.json",
+   "Format": "2.0.0",
+   "DynamicTokens": [
+      {
+         "Name": "MainMod",
+         "Value": "mistyspring.GingerIslandStart"
+      },
+      {
+         "Name": "Difficulty",
+         "Value": "{{mistyspring.GingerIslandStart/GeneralDifficulty}}"
+      },
+      {
+         "Name": "Rods",
+         "Value": "{{mistyspring.GingerIslandStart/EnableRodUpgrade}}"
+      },
+      {
+         "Name": "RandomBuff",
+         "Value": "{{Random: farm, mine, fish, forage, combat}}"
+      },
+      {
+         "Name": "BuffDuration",
+         "Value": "600"
+      },
+      {
+         "Name": "BuffDuration",
+         "Value": "400",
+         "When": {
+            "Difficulty": "hard"
+         }
+      },
+      {
+         "Name": "BuffDuration",
+         "Value": "800",
+         "When": {
+            "Difficulty": "easy"
+         }
+      },
+      {
+         "Name": "InverseShopMultiplier",
+         "Value": "1"
+      },
+      {
+         "Name": "InverseShopMultiplier",
+         "Value": "2",
+         "When": {
+            "mistyspring.GingerIslandStart/ShopDifficulty": "easy"
+         }
+      },
+      {
+         "Name": "InverseShopMultiplier",
+         "Value": "0.5",
+         "When": {
+            "mistyspring.GingerIslandStart/ShopDifficulty": "hard"
+         }
+      },
+      {
+         "Name": "WoodForBuilding",
+         "Value": "120"
+      },
+      {
+         "Name": "WoodForBuilding",
+         "Value": "100",
+         "When": {
+            "mistyspring.GingerIslandStart/GeneralDifficulty": "easy"
+         }
+      },
+      {
+         "Name": "WoodForBuilding",
+         "Value": "150",
+         "When": {
+            "mistyspring.GingerIslandStart/GeneralDifficulty": "hard"
+         }
+      },
+      {
+         "Name": "StoneForBuilding",
+         "Value": "75"
+      },
+      {
+         "Name": "StoneForBuilding",
+         "Value": "50",
+         "When": {
+            "mistyspring.GingerIslandStart/GeneralDifficulty": "easy"
+         }
+      },
+      {
+         "Name": "StoneForBuilding",
+         "Value": "120",
+         "When": {
+            "mistyspring.GingerIslandStart/GeneralDifficulty": "hard"
+         }
+      },
+      {
+         "Name": "Amount",
+         "Value": "1"
+      },
+      {
+         "Name": "Amount",
+         "Value": "2",
+         "When": {
+            "Difficulty": "hard"
+         }
+      },
+      {
+         "Name": "FirstDayOrFlag",
+         "Value": "false"
+      },
+      {
+         "Name": "FirstDayOrFlag",
+         "Value": "true",
+         "When": {
+            "Day": "1",
+            "Season": "spring",
+            "Year": "1"
+         }
+      },
+      {
+         "Name": "FirstDayOrFlag",
+         "Value": "true",
+         "When": {
+            "HasFlag|contains=willyBoatFixed": false,
+            "HasFlag": "{{MainMod}}"
+         }
+      }
+   ],
+   "Changes": [
+      /* textures */
+      // weapons
+      {
+         "LogName": "Weapons",
+         "Action": "Load",
+         "Target": "Mods/{{MainMod}}/weapons",
+         "FromFile": "assets/Weapons.png"
+      },
+      //items
+      {
+         "LogName": "items",
+         "Action": "Load",
+         "Target": "Mods/{{MainMod}}/objects",
+         "FromFile": "assets/Objects.png"
+      },
+      // shop portraits
+      {
+         "LogName": "Shop - dwarf",
+         "Action": "Load",
+         "Target": "Mods/{{MainMod}}/Shop_Dwarf",
+         "FromFile": "assets/Trader_Dwarf.png"
+      },
+      {
+         "LogName": "Shop - pirate",
+         "Action": "Load",
+         "Target": "Mods/{{MainMod}}/Shop_Pirate",
+         "FromFile": "assets/Trader_Pirate.png"
+      },
+      //coop
+      {
+         "LogName": "Ostrich's coop",
+         "Action": "Load",
+         "Target": "Mods/{{MainMod}}/Buildings/OstrichCoop",
+         "FromFile": "assets/Custom_Coop.png"
+      },
+      /* new building's data */
+      {
+         "Action": "EditData",
+         "Target": "Data/Buildings",
+         "Entries": {
+            "{{MainMod}}_OstrichBarn": {
+               "Name": "[LocalizedText Strings\\Buildings:Barn_Name]",
+               "Description": "[LocalizedText Strings\\Buildings:Barn_Description]",
+               "Texture": "Mods/{{MainMod}}/Buildings/OstrichCoop",
+               "DrawShadow": true,
+               "Size": {
+                  "X": 4,
+                  "Y": 4
+               },
+               "FadeWhenBehind": true,
+               "SourceRect": {
+                  "X": 0,
+                  "Y": 0,
+                  "Width": 64,
+                  "Height": 80
+               },
+               "Builder": "None",
+               "BuildDays": 0,
+               "BuildMaterials": [
+                  {
+                     "Amount": "{{WoodForBuilding}}",
+                     "ItemId": "(O)388"
+                  },
+                  {
+                     "Amount": "{{StoneForBuilding}}",
+                     "ItemId": "(O)390"
+                  }
+               ],
+               "HumanDoor": {
+                  "X": 1,
+                  "Y": 3
+               },
+               "AnimalDoor": {
+                  "X": 2, //3
+                  "Y": 3,
+                  "Width": 1,
+                  "Height": 1 //2
+               },
+               "AnimalDoorOpenDuration": 0.4,
+               "AnimalDoorOpenSound": "doorCreak",
+               "AnimalDoorCloseDuration": 0.6,
+               "AnimalDoorCloseSound": "doorCreakReverse",
+               "NonInstancedIndoorLocation": null,
+               "IndoorMap": "Coop",
+               "IndoorMapType": "StardewValley.AnimalHouse",
+               "MaxOccupants": 2,
+               "ValidOccupantTypes": [
+                  "Barn"
+               ],
+               "AllowAnimalPregnancy": false,
+               "IndoorItemMoves": null,
+               "IndoorItems": [
+                  {
+                     "Id": "Default_FeedHopper",
+                     "ItemId": "(BC)99",
+                     "Tile": {
+                        "X": 3,
+                        "Y": 3
+                     },
+                     "Indestructible": true
+                  }
+               ],
+               "HayCapacity": 480,
+               "DrawLayers": [
+                  {
+                     "Id": "Default_AnimalDoor",
+                     "Texture": null,
+                     "SourceRect": {
+                        "X": 64,
+                        "Y": 59,
+                        "Width": 16,
+                        "Height": 21
+                     },
+                     "DrawPosition": "34, 59",
+                     "DrawInBackground": false,
+                     "SortTileOffset": 0.02,
+                     "FrameDuration": 90,
+                     "FrameCount": 1,
+                     "FramesPerRow": -1,
+                     "AnimalDoorOffset": {
+                        "X": 0,
+                        "Y": -19
+                     }
+                  },
+                  {
+                     "Id": "Default_AnimalDoor_Open",
+                     "Texture": null,
+                     "SourceRect": {
+                        "X": 82,
+                        "Y": 59,
+                        "Width": 16,
+                        "Height": 21
+                     },
+                     "DrawPosition": "34, 59",
+                     "DrawInBackground": false,
+                     "SortTileOffset": 1.0,
+                     "OnlyDrawIfChestHasContents": null,
+                     "FrameDuration": 90,
+                     "FrameCount": 1,
+                     "FramesPerRow": -1,
+                     "AnimalDoorOffset": {
+                        "X": 0,
+                        "Y": 0
+                     }
+                  }
+               ]
+            }
+         },
+         "When": {
+            "FirstDayOrFlag": true
+         }
+      },
+      /* gedode menu patches */
+      {
+         "LogName": "Change geode menu background",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/PirateOpenGeode.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 140,
+            "Height": 80
+         },
+         "ToArea": {
+            "X": 0,
+            "Y": 512,
+            "Width": 140,
+            "Height": 80
+         },
+         "When": {
+            "FirstDayOrFlag": true,
+            "Day": "2,4,6,8,10,12,14,16,18,20,22,24,26,28",
+            "HasFlag | contains=willyBoatFixed": false,
+            "LocationName": "IslandSouthEastCave"
+         },
+         "Update": "OnLocationChange"
+      },
+      {
+         "LogName": "Change clint to pirate",
+         "Action": "EditImage",
+         "Target": "Characters/Clint",
+         "FromFile": "assets/PirateGeodeAnimate.png",
+         "PatchMode": "Overlay",
+         "When": {
+            "FirstDayOrFlag": true,
+            "Day": "2,4,6,8,10,12,14,16,18,20,22,24,26,28",
+            "HasFlag | contains=willyBoatFixed": false,
+            "LocationName": "IslandSouthEastCave"
+         },
+         "Update": "OnLocationChange"
+      },
+      /* location edits
+       * 
+       * because fossilized tail can only be obtained with the pan, we add it to river's fish-able items
+       * this change only applies as long as player hasn't restored willy's boat
+       */
+      {
+         "LogName": "Make fossilized tail obtainable",
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "TargetField": [
+            "IslandNorth",
+            "Fish"
+         ],
+         "Entries": {
+            "FossilizedTail": {
+               "Chance": 0.15,
+               "Season": null,
+               "FishAreaId": null,
+               "BobberPosition": null,
+               "PlayerPosition": null,
+               "MinFishingLevel": 0,
+               "MinDistanceFromShore": 0,
+               "MaxDistanceFromShore": -1,
+               "ApplyDailyLuck": false,
+               "CuriosityLureBuff": -1.0,
+               "CatchLimit": -1,
+               "IsBossFish": false,
+               "SetFlagOnCatch": null,
+               "RequireMagicBait": false,
+               "Precedence": -30,
+               "IgnoreFishDataRequirements": true,
+               "CanBeInherited": true,
+               "ChanceModifiers": null,
+               "ChanceModifierMode": "Stack",
+               "Condition": "IS_ISLAND_NORTH_BRIDGE_FIXED",
+               "Id": "Fossilized tail - (O)822",
+               "ItemId": "(O)822",
+               "RandomItemId": null,
+               "MaxItems": null,
+               "MinStack": -1,
+               "MaxStack": -1,
+               "Quality": -1,
+               "ObjectInternalName": null,
+               "ObjectDisplayName": null,
+               "ToolUpgradeLevel": -1,
+               "IsRecipe": false,
+               "StackModifiers": null,
+               "StackModifierMode": "Stack",
+               "QualityModifiers": null,
+               "QualityModifierMode": "Stack",
+               "PerItemCondition": null
+            }
+         },
+         "When": {
+            "FirstDayOrFlag": true,
+            "HasFlag | contains=willyBoatFixed": false
+         }
+      },
+      /* include */
+      {
+         "Action": "Include",
+         "FromFile": "assets/Food.json"
+      },
+      {
+         "Action": "Include",
+         "FromFile": "assets/Maps.json"
+      },
+      {
+         "Action": "Include",
+         "FromFile": "assets/Shops.json"
+      },
+      {
+         "Action": "Include",
+         "FromFile": "assets/Resources.json"
+      }
+   ]
+}

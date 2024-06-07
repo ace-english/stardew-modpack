@@ -1,0 +1,16 @@
+{
+    "Fri": "610 Town 79 95 2/800 ArchaeologyHouse 4 8 2/1000 ArchaeologyHouse 19 5 0/1200 ArchaeologyHouse 54 6 0/1400 ArchaeologyHouse 19 5 0/1800 Saloon 40 17 2/2130 Saloon 3 21 0/2400 ArchaeologyHouse 64 4 gunther_sleep",
+	"Sat": "610 Town 79 95 2/800 ArchaeologyHouse 4 8 2/1000 ArchaeologyHouse 28 14 2/1200 ArchaeologyHouse 54 6 0/1400 ArchaeologyHouse 28 14 2/1800 Saloon 10 21 2/2400 ArchaeologyHouse 64 4 gunther_sleep",
+	"winter_Fri" : "610 ArchaeologyHouse 54 6 0/800 ArchaeologyHouse 4 8 2/1000 ArchaeologyHouse 47 7 1/1200 ArchaeologyHouse 54 6 0/1400 ArchaeologyHouse 47 7 1/1800 Saloon 40 17 2/2130 Saloon 3 21 0/2400 ArchaeologyHouse 64 4 gunther_sleep",
+	"winter_Sat" : "610 ArchaeologyHouse 54 6 0/800 ArchaeologyHouse 4 8 2/1000 ArchaeologyHouse 47 7 1/1200 ArchaeologyHouse 54 6 0/1400 ArchaeologyHouse 47 7 1/1800 Saloon 10 21 2/2400 ArchaeologyHouse 64 4 gunther_sleep",
+	"spring": "610 Town 79 95 2/800 ArchaeologyHouse 4 8 2/1800 Beach 35 10 gunther_dig/2400 ArchaeologyHouse 64 4 gunther_sleep",
+    "summer": "610 Town 79 95 2/800 ArchaeologyHouse 4 8 2/1800 Beach 35 10 gunther_dig/2400 ArchaeologyHouse 64 4 gunther_sleep",
+    "fall": "800 ArchaeologyHouse 4 8 2/1800 Mountain 6 33 gunther_dig/2400 ArchaeologyHouse 64 4 gunther_sleep",
+    "winter": "800 ArchaeologyHouse 4 8 2/1800 Saloon 17 20 0/2400 ArchaeologyHouse 64 4 gunther_sleep",
+	"rain": "800 ArchaeologyHouse 4 8 2/1800 Saloon 18 22 2/2400 ArchaeologyHouse 64 4 gunther_sleep",
+	"marriage_Mon":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.000\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.001\"/2000 BusStop -1 23 3",
+	"marriage_Tue":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.002\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.003\"/2000 BusStop -1 23 3",
+	"marriage_Wed":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.004\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.005\"/2000 BusStop -1 23 3",
+	"marriage_Thur":"630 ArchaeologyHouse 33 12 2 \"Strings\\schedules\\Gunther:marriage_teach\"/1200 ArchaeologyHouse 2 10 0 \"Strings\\schedules\\Gunther:marriage.006\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.007\"/2000 BusStop -1 23 3",
+	"marriage_Fri":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.008\"/1800 BusStop -1 23 3",
+}

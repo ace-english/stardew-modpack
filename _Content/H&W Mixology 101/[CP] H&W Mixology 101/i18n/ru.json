@@ -1,0 +1,228 @@
+{
+
+//MACHINES
+
+	"Mixology_DrinkBar.name": "Коктейль-бар",
+	"Mixology_DrinkBar.description": "Небольшой бар для приготовления коктейлей.",
+
+//BITTERS
+
+	"Mixology_aromatic_bitters.name": "Ароматный Биттер",
+	"Mixology_aromatic_bitters.description": "Нейтральный алкоголь, настоянный на различных специях, корнях и травах. Часто добавляют в коктейли для придания горьковатого или горько-сладкого вкуса.",
+
+	"Mixology_citrus_bitters.name": "Цитрусовый Биттер",
+	"Mixology_citrus_bitters.description": "Нейтральный алкоголь, настоянный на различных специях, корнях и травах. Часто добавляют в коктейли для придания горьковатого или горько-сладкого вкуса.",
+
+	"Mixology_floral_bitters.name": "Цветочный Биттер",
+	"Mixology_floral_bitters.description": "Нейтральный алкоголь, настоянный на различных специях, корнях и травах. Часто добавляют в коктейли для придания горьковатого или горько-сладкого вкуса.",
+
+	"Mixology_pixie_bitters.name": "Биттер Пикси",
+	"Mixology_pixie_bitters.description": "Нейтральный алкоголь, настоянный на различных специях, корнях и травах. Часто добавляют в коктейли для придания горьковатого или горько-сладкого вкуса.",
+
+	"Mixology_star_bitters.name": "Звёздный Биттер",
+	"Mixology_star_bitters.description": "Нейтральный алкоголь, настоянный на различных специях, корнях и травах. Часто добавляют в коктейли для придания горьковатого или горько-сладкого вкуса.",
+
+//JUICES
+		
+	"Mixology_cranberry_juice.name": "Клюквенный сок",
+	"Mixology_cranberry_juice.description": "Фруктовый сок, приготовленный из свежей клюквы. Используется для приготовления вкусных напитков.",
+
+	"Mixology_lemon_juice.name": "Лимонный сок",
+	"Mixology_lemon_juice.description": "Фруктовый сок, приготовленный из свежих лимонов. Используется для приготовления вкусных напитков.",
+
+	"Mixology_lime_juice.name": "Лаймовый сок",
+	"Mixology_lime_juice.description": "Фруктовый сок, приготовленный из свежих лаймов. Используется для приготовления вкусных напитков.",
+
+	"Mixology_orange_juice.name": "Апельсиновый сок",
+	"Mixology_orange_juice.description": "Фруктовый сок, приготовленный из свежих апельсинов. Используется для приготовления вкусных напитков.",
+
+	"Mixology_pineapple_juice.name": "Ананасовый сок",
+	"Mixology_pineapple_juice.description": "Фруктовый сок, приготовленный из свежих ананасов. Используется для приготовления вкусных напитков.",
+
+
+//MISC
+
+	"Mixology_club_soda.name": "Клубная сода",
+	"Mixology_club_soda.description": "Нейтральный газированный безалкогольный напиток. Используется для приготовления вкусных напитков.",
+
+	"Mixology_tonic_water.name": "Тоник",
+	"Mixology_tonic_water.description": "Горький газированный безалкогольный напиток. Используется для приготовления вкусных напитков.",
+
+//ALCOHOLS
+
+	"Mixology_brandy.name": "Бренди",
+	"Mixology_brandy.description": "Алкоголь, получаемый из дистиллированного вина, используется для приготовления коктейлей.",
+	
+	"Mixology_gin.name": "Джин",
+	"Mixology_gin.description": "Алкоголь, изготовленный из дистиллированной пшеницы, используется для приготовления коктейлей.",
+
+	"Mixology_rum.name": "Ром",
+	"Mixology_rum.description": "Алкоголь, приготовленный из дистиллированного сахарного тростника, используется для приготовления коктейлей.",
+
+	"Mixology_tequila.name": "Текила",
+	"Mixology_tequila.description": "Алкоголь, приготовленный из дистиллированного сока кактуса агавы, используется для приготовления коктейлей.",
+	
+	"Mixology_vodka.name": "Водка",
+	"Mixology_vodka.description": "Алкоголь, приготовленный из дистиллированного сока картофеля, используется для приготовления коктейлей.",
+
+	"Mixology_whiskey.name": "Виски",
+	"Mixology_whiskey.description": "Алкоголь, приготовленный из дистиллированного сока кукурузы, используется для приготовления коктейлей.",
+
+//COCKTAILS
+
+	"Mixology_raspberry_lemon_drop.name": "Малиново-лимонная капля",
+	"Mixology_raspberry_lemon_drop.description": "Лесная малина привносит весёлую нотку в этот классический лимонный коктейль.",
+
+	"Mixology_berry_mimosa.name": "Игристая ягодка",
+	"Mixology_berry_mimosa.description": "Игристый ягодный коктейль, идеально подходящий для позднего завтрака.",
+
+	"Mixology_berry_whiskey_sour.name": "Кислый ягодный виски",
+	"Mixology_berry_whiskey_sour.description": "Сложный фруктовый коктейль с приятным кисловатым привкусом.",
+
+	"Mixology_blackberry_lemon_smash.name": "Фруктово-лимонный Смэш",
+	"Mixology_blackberry_lemon_smash.description": "Терпкий лимон великолепно сочетается со сладкими фруктами в этом элегантном коктейле.",
+
+	"Mixology_black_forest_cocktail.name": "Чёрный лес",
+	"Mixology_black_forest_cocktail.description": "Коктейль назван в честь торта \"Чёрный лес\", сочетание шоколада и вишни делает его приятно сладким.",
+
+	"Mixology_cake_walk.name": "Сладкая прогулка",
+	"Mixology_cake_walk.description": "Очень сладкий коктейль, который часто подают в качестве десерта!",
+
+	"Mixology_raspberry_stinger.name": "Малиновый Стингер",
+	"Mixology_raspberry_stinger.description": "Терпкий малиновый коктейль, который лучше всего подавать со свежесобранными ягодами.",
+
+	"Mixology_early_sunrise.name": "Ранний восход",
+	"Mixology_early_sunrise.description": "Цвета этого восхитительного коктейля напоминают вам о солнце, поднимающемся в небо на рассвете.",
+
+	"Mixology_flower_queen.name": "Королева цветов",
+	"Mixology_flower_queen.description": "Легкий цветочный коктейль, созданный в честь весенних Цветочных танцев.",
+
+	"Mixology_frozen_margarita.name": "Медузы в Лунном свете",
+	"Mixology_frozen_margarita.description": "Холодный летний коктейль, созданный в честь Танца полуночных медуз.",
+
+	"Mixology_garden_breeze.name": "Садовый Бриз",
+	"Mixology_garden_breeze.description": "Освежающий цветочный коктейль, идеально подходящий для того, чтобы насладиться им в саду.",
+
+	"Mixology_gin_tonic.name": "Чопорный и правильный",
+	"Mixology_gin_tonic.description": "Классический коктейль, идеально подходящий для тех, кто хочет выглядеть модно, заказывая его в баре.",
+
+	"Mixology_harvest_hayride.name": "Сенокос",
+	"Mixology_harvest_hayride.description": "Бодрящий осенний коктейль.",
+
+	"Mixology_lavender_gin_spritz.name": "Лавандовый Шприц",
+	"Mixology_lavender_gin_spritz.description": "Этот коктель полюбился садоводам во всём мире благодаря своим цветочным ноткам лаванды.",
+
+	"Mixology_lightning_haze.name": "Грозовой туман",
+	"Mixology_lightning_haze.description": "Крепкий коктейль, названный так в честь дымка, который часто сопровождает летнюю грозу.",
+	
+	"Mixology_mango_tango.name": "Манговое танго",
+	"Mixology_mango_tango.description": "Этот летний коктейль заставит вас пуститься в пляс в мгновение ока!",
+
+	"Mixology_mango_twister.name": "Манговый твистер",
+	"Mixology_mango_twister.description": "Яркий летний коктейль, который сохранит прохладу в жаркие дни.",
+
+	"Mixology_pink_flamingo.name": "Розовый фламинго",
+	"Mixology_pink_flamingo.description": "Праздничный коктейль, идеально подходящий для летних вечеринок.",
+
+	"Mixology_summer_potluck_punch.name": "Пунш для летней вечеринки",
+	"Mixology_summer_potluck_punch.description": "Прекрасный коктейль, наполненный лучшими летними фруктами.",
+
+	"Mixology_sangria.name": "Фруктовая Сангрия",
+	"Mixology_sangria.description": "Фрукты и вино - что тут может не понравиться?",
+
+	"Mixology_spirited_away.name": "Унесенный призраком",
+	"Mixology_spirited_away.description": "Сезонный коктейль, который пьют в конце осени, часто в канун праздника Дня всех духов.",
+
+	"Mixology_think_pink.name": "Думай о розовом",
+	"Mixology_think_pink.description": "Розовый коктейль со вкусом свежих фруктов.",
+
+	"Mixology_winter_star.name": "Зимняя звезда",
+	"Mixology_winter_star.description": "Классический коктейль, который подают по праздникам.",
+
+	"Mixology_young_love.name": "Юная любовь",
+	"Mixology_young_love.description": "Яркий и ароматный коктейль, полный жизни, как будто влюбляешься в первый раз.",
+
+//MOCKTAILS
+	
+	"Mixology_apple_ginger_fizz.name": "Яблочно-имбирный физз",
+	"Mixology_apple_ginger_fizz.description": "Восхитительно бодрящий осенний напиток, который напоминает вам о прогулке по яблоневому саду.",
+
+	"Mixology_apricot_blitz.name": "Абрикосовый блиц",
+	"Mixology_apricot_blitz.description": "Идеальное весеннее угощение, которым можно насладиться после долгого дня на ферме.",
+
+	"Mixology_autumn_nights.name": "Осенние ночи",
+	"Mixology_autumn_nights.description": "Напиток, который согреет вас прохладным осенним вечером.",
+
+	"Mixology_berry_breeze.name": "Ягодный бриз",
+	"Mixology_berry_breeze.description": "Терпкость лимона помогает вкусу ягод по-настоящему раскрыться в этом напитке.",
+
+	"Mixology_blackberry_mint_refresher.name": "Ежевично-мятный освежитель",
+	"Mixology_blackberry_mint_refresher.description": "Наконец-то можно использовать всю мяту, которая заполонила сад!",
+
+	"Mixology_blue_isle_cooler.name": "Кулер Голубой остров",
+	"Mixology_blue_isle_cooler.description": "Никто не знает происхождения рецепта этого напитка, но в Долине он передавался из поколения в поколение.",
+
+	"Mixology_citrus_smash.name": "Цитрусовый Смэш",
+	"Mixology_citrus_smash.description": "Все лучшие цитрусовые собраны воедино для одного сенсационного напитка.",
+
+	"Mixology_coco_loco.name": "Коко Локо",
+	"Mixology_coco_loco.description": "Кто не в восторге от сочетания шоколада и кокоса?",
+
+	"Mixology_cranberry_lime_spritz.name": "Клюквенно-лаймовый шприц",
+	"Mixology_cranberry_lime_spritz.description": "Это популярное угощение в зимние праздники!",
+
+	"Mixology_farmers_punch.name": "Фермерский пунш",
+	"Mixology_farmers_punch.description": "Назван в честь вашего деда, который усовершенствовал этот восхитительный напиток, работая на ферме.",
+
+	"Mixology_fruity_fresca.name": "Фруктовый фреш",
+	"Mixology_fruity_fresca.description": "Коктейль становится ещё вкуснее благодаря добавлению свежесобранных фруктов.",
+
+	"Mixology_grasshopper.name": "Кузнечик",
+	"Mixology_grasshopper.description": "Шоколадный, мятный, сладкий напиток, который любят как молодые, так и пожилые люди.",
+
+	"Mixology_jumping_junimo.name": "Прыгающий Джунимо",
+	"Mixology_jumping_junimo.description": "Этот освежающий напиток придаст вам бодрости в мгновение ока.",
+
+	"Mixology_lavender_lady.name": "Лавандовая леди",
+	"Mixology_lavender_lady.description": "Свежесобранная весенняя лаванда делает этот напиток таким же элегантным, как и его тёзка.",
+
+	"Mixology_melon_floral_shrub.name": "Шраб с сладкой дыней",
+	"Mixology_melon_floral_shrub.description": "Охлаждающий цветочный напиток, которым можно насладиться в тени после летней прогулки.",
+
+	"Mixology_mermaid_lagoon.name": "Лагуна русалок",
+	"Mixology_mermaid_lagoon.description": "Этот напиток назван в честь Жемчужного моря и русалок, которые, по слухам, живут в его водах.",
+
+	"Mixology_mixed_berry_tonic.name": "Тоник из ягодного микса",
+	"Mixology_mixed_berry_tonic.description": "Сочетание ягод и тонизирующей воды делают этот напиток освежающим и бодрящим.",
+
+	"Mixology_passion_punch.name": "Пунш страсти",
+	"Mixology_passion_punch.description": "Восхитительный напиток, которым можно насладиться вечером с кем-то особенным.",
+
+	"Mixology_picnic_punch.name": "Пунш для пикника",
+	"Mixology_picnic_punch.description": "Прекрасный напиток со вкусом дыни, которым можно насладиться на весеннем пикнике в лесу!",
+
+	"Mixology_secret_woods_slushie.name": "Слякоть из Тайного леса",
+	"Mixology_secret_woods_slushie.description": "Говорят, это любимый напиток старого мастера Канноли.",
+
+	"Mixology_spring_breeze.name": "Весенний бриз",
+	"Mixology_spring_breeze.description": "Освежающий напиток, которым можно насладиться в саду, готовясь к предстоящему сезону.",
+
+	"Mixology_strawberry_fauxito.name": "Клубничная фальшь",
+	"Mixology_strawberry_fauxito.description": "Конечно, для кого-то фальшь это бестактность, но как бы вы ни называли этот напиток, он, несомненно, восхитителен.",
+
+	"Mixology_summer_mock_mule.name": "Насмешливый мул",
+	"Mixology_summer_mock_mule.description": "Забавная альтернатива классическому коктейлю, этому коктейлю может и не хватает алкоголя, но он не лишён вкуса!",
+
+	"Mixology_sunrise_beach.name": "Восход на пляже",
+	"Mixology_sunrise_beach.description": "Освежающий напиток, которым можно наслаждаться, наблюдая за тем, как солнце выглядывает из-за океанского горизонта.",
+
+	"Mixology_sweet_gem_spritzer.name": "Спритцер Сладкий самоцвет",
+	"Mixology_sweet_gem_spritzer.description": "Напиток, приготовленный только для самых особых случаев, так как для его приготовления используются самые редкие ягоды.",
+
+	"Mixology_tropical_sunset.name": "Тропический закат",
+	"Mixology_tropical_sunset.description": "Фруктовый напиток, который можно пить, расслабляясь на залитых солнцем берегах Имбирного острова.",
+
+	"Mixology_wild_mango_cooler.name": "Холодное Дикое манго",
+	"Mixology_wild_mango_cooler.description": "Лето в стакане."
+
+}

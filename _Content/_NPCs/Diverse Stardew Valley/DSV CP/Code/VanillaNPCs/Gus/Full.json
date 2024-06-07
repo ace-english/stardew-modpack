@@ -1,0 +1,298 @@
+{
+// GUS DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Gus Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Gus", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Gus.Indoor":
+				{
+					"Id": "{{ModId}}_",
+					"Portrait": "Portraits/Gus_Indoor",
+					"Sprite": "Characters/Gus_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Gus.Outdoor":
+				{
+					"Id": "{{ModId}}_Gus_Outdoor",
+					"Portrait": "Portraits/Gus_Outdoor",
+					"Sprite": "Characters/Gus_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+				"DSV.Gus.Beach":
+				{
+					"Id": "{{ModId}}_Gus_Beach",
+					"Portrait": "Portraits/Gus_Beach",
+					"Sprite": "Characters/Gus_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Gus.EggFestival":
+				{
+					"Id": "{{ModId}}_Gus_EggFestival",
+					"Portrait": "Portraits/Gus_EggFestival",
+					"Sprite": "Characters/Gus_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Gus.FlowerDance":
+				{
+					"Id": "{{ModId}}_Gus_FlowerDance",
+					"Portrait": "Portraits/Gus_FlowerDance",
+					"Sprite": "Characters/Gus_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Gus.Luau":
+				{
+					"Id": "{{ModId}}_Gus_Luau",
+					"Portrait": "Portraits/Gus_Luau",
+					"Sprite": "Characters/Gus_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Gus.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Gus_MoonlightJellies",
+					"Portrait": "Portraits/Gus_MoonlightJellies",
+					"Sprite": "Characters/Gus_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Gus.SVFair":
+				{
+					"Id": "{{ModId}}_Gus_SVFair",
+					"Portrait": "Portraits/Gus_SVFair",
+					"Sprite": "Characters/Gus_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Gus.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Gus_SpiritsEve",
+					"Portrait": "Portraits/Gus_SpiritsEve",
+					"Sprite": "Characters/Gus_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Gus.IceFestival":
+				{
+					"Id": "{{ModId}}_Gus_IceFestival",
+					"Portrait": "Portraits/Gus_IceFestival",
+					"Sprite": "Characters/Gus_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Gus.WinterStar":
+				{
+					"Id": "{{ModId}}_Gus_WinterStar",
+					"Portrait": "Portraits/Gus_WinterStar",
+					"Sprite": "Characters/Gus_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Gus.Swim":
+				{
+					"Id": "{{ModId}}_Gus_Swim",
+					"Portrait": "Portraits/Gus_Swim",
+					"Sprite": "Characters/Gus_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Gus.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Gus_WeddingGuest",
+					"Sprite": "Characters/Gus_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Gus.HotClimate":
+				{
+					"Id": "{{ModId}}_Gus_HotClimate",
+					"Portrait": "Portraits/Gus_HotClimate",
+					"Sprite": "Characters/Gus_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				/*"DSV.Gus.BarApron":
+				{
+					"Id": "{{ModId}}_Gus_BarApron",
+					"Portrait": "Portraits/Gus_BarApron",
+					"Sprite": "Characters/Gus_BarApron",
+					"Condition": "LOCATION_NAME Target Saloon, TIME 1630 2400",
+					"Precedence": -150
+				}*/
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Gus Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Gus_Indoor, Characters/Gus_Indoor, Portraits/Gus_Outdoor, Characters/Gus_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Gus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLGus}}/{{DSV.Core/ConfigValue:GusVariant}}/Gus_Fall_1_Rain.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GusVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Gus Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Gus_Beach, Characters/Gus_Beach",
+			"FromFile": "Art/VanillaNPCs/Gus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLGus}}/{{DSV.Core/ConfigValue:GusVariant}}/Gus_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GusVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Gus Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Gus_EggFestival, Characters/Gus_EggFestival, Portraits/Gus_FlowerDance, Characters/Gus_FlowerDance, Portraits/Gus_Luau, Characters/Gus_Luau, Portraits/Gus_MoonlightJellies, Characters/Gus_MoonlightJellies, Portraits/Gus_SVFair, Characters/Gus_SVFair, Portraits/Gus_SpiritsEve, Characters/Gus_SpiritsEve, Portraits/Gus_IceFestival, Characters/Gus_IceFestival, Portraits/Gus_WinterStar, Characters/Gus_WinterStar, Portraits/Gus_Swim, Characters/Gus_Swim, Characters/Gus_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Gus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLGus}}/{{DSV.Core/ConfigValue:GusVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GusVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Gus Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Gus_HotClimate, Characters/Gus_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Gus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLGus}}/{{DSV.Core/ConfigValue:GusVariant}}/Gus_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GusVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Gus Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Gus_Indoor, Characters/Gus_Indoor",
+			"FromFile": "Art/VanillaNPCs/Gus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLGus}}/{{DSV.Core/ConfigValue:GusVariant}}/Gus_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Gus Indoor/Outdoor Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Gus_Outdoor, Characters/Gus_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Gus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLGus}}/{{DSV.Core/ConfigValue:GusVariant}}/Gus_{{season}}_1_{{DSV.Core/Weather:Gus}}.png"
+		},
+		/*{
+			"LogName": "Gus Bar Apron Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Gus_BarApron, Characters/Gus_BarApron",
+			"FromFile": "Art/VanillaNPCs/Gus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLGus}}/{{DSV.Core/ConfigValue:GusVariant}}/Gus_{{season}}_1_Sun_Apron.png"
+		},*/
+		{
+			"LogName": "Gus Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Gus_HotClimate, Characters/Gus_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Gus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLGus}}/{{DSV.Core/ConfigValue:GusVariant}}/Gus_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Gus Elaho Flower Dance",
+			"Action": "EditImage",
+			"Target": "Portraits/Gus_FlowerDance, Characters/Gus_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Gus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLGus}}/{{DSV.Core/ConfigValue:GusVariant}}/Gus_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Vanilla": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Gus Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Gus/Misc/Gus_Emoji_Modded.png",
+			"ToArea": {"X": 18, "Y": 117, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:GusVariant |contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Gus Junimo Note",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "Art/VanillaNPCs/Gus/Misc/Junimo_Gus_Modded.png",
+			"ToArea": { "X": 352, "Y": 212, "Width": 32, "Height": 32 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:GusVariant |contains= Vanilla, Off": false
+			}
+		},
+
+// MERMAID PENDANTS
+		{
+			"LogName": "Gus Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Gus_Indoor",
+			"FromFile": "Art/VanillaNPCs/Gus/Misc/MermaidPendants/Gus_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Gus |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Gus Pendants - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Gus_Beach",
+			"FromFile": "Art/VanillaNPCs/Gus/Misc/MermaidPendants/Gus_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Gus |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+
+// COMPATIBILITY
+// Lumisteria Missing Hat Bundles
+		
+		{
+			"LogName": "Gus Lumisteria Bundles",
+			"Action": "EditImage",
+			"Target": "Mods/Lumisteria.CP.MissingHatsBundles/Gus",
+			"FromFile": "Art/VanillaNPCs/Gus/Misc/LumisteriaBundles_Gus.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GusVariant|contains= Vanilla, Off": false,
+				"HasMod |contains= Lumisteria.CP.MissingHatsBundles": true
+			}
+		}		
+	]
+}

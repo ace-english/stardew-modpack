@@ -1,0 +1,280 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Wild Food Clumps",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "WildStrawberryClump": {
+                    "DisplayName":"My custom clump", 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "SpriteIndex": 0,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 20, //every hit removes (UpgradeLevel + 1)*0.75  , e.g iridium would reduce 4HP
+                    "Sound": "hammer",
+                    "BreakingSound": "boulderBreak",
+                    "Debris": "bigstone #CBC3E3", //debris shown on breaking. can be: stone, wood, coins, bigstone. you can specify a color
+                    "ItemDropped": "(O)69",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "ContextTags": ["color_purple"],
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/-999", // from 1 to infinite. (-999 means no limit) 
+                            "SpawnFrequency": 0.1, //10% to spawn
+                            "Type": "All" //on any difficulty
+                        }
+                    ]
+                },
+                "WildRaspberryClump": {
+                    "DisplayName":"My custom clump", 
+                    "Texture": "Mods\\{{ModId}}\\Objects", 
+                    "SpriteIndex": 0, 
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 20, //every hit removes (UpgradeLevel + 1)*0.75  , e.g iridium would reduce 4HP
+                    "Sound": "hammer", 
+                    "BreakingSound": "boulderBreak", 
+                    "Debris": "bigstone #CBC3E3", //debris shown on breaking. can be: stone, wood, coins, bigstone. you can specify a color
+                    "ItemDropped": "(O)69",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "ContextTags": [ "color_purple"],
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/-999", // from 1 to infinite. (-999 means no limit) 
+                            "SpawnFrequency": 0.1, //10% to spawn
+                            "Type": "All" //on any difficulty
+                        }
+                    ]
+                },
+                "WildMintClump": {
+                    "DisplayName":"My custom clump", 
+                    "Texture": "Mods\\{{ModId}}\\Objects", 
+                    "SpriteIndex": 0, 
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 20, //every hit removes (UpgradeLevel + 1)*0.75  , e.g iridium would reduce 4HP
+                    "Sound": "hammer", 
+                    "BreakingSound": "boulderBreak", 
+                    "Debris": "bigstone #CBC3E3", //debris shown on breaking. can be: stone, wood, coins, bigstone. you can specify a color
+                    "ItemDropped": "(O)69",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "ContextTags": ["color_purple"],
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/-999", // from 1 to infinite. (-999 means no limit) 
+                            "SpawnFrequency": 0.1, //10% to spawn
+                            "Type": "All" //on any difficulty
+                        }
+                    ]
+                },
+                "WildBlackberryClump": {
+                    "DisplayName":"My custom clump", 
+                    "Texture": "Mods\\{{ModId}}\\Objects", 
+                    "SpriteIndex": 0, 
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 20, //every hit removes (UpgradeLevel + 1)*0.75  , e.g iridium would reduce 4HP
+                    "Sound": "hammer", 
+                    "BreakingSound": "boulderBreak", 
+                    "Debris": "bigstone #CBC3E3", //debris shown on breaking. can be: stone, wood, coins, bigstone. you can specify a color
+                    "ItemDropped": "(O)69",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "ContextTags": [
+                        "color_purple"
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/-999", // from 1 to infinite. (-999 means no limit) 
+                            "SpawnFrequency": 0.1, //10% to spawn
+                            "Type": "All" //on any difficulty
+                        }
+                    ]
+                },
+                "WildLavenderClump": {
+                    "DisplayName":"My custom clump", 
+                    "Texture": "Mods\\{{ModId}}\\Objects", 
+                    "SpriteIndex": 0, 
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 20, //every hit removes (UpgradeLevel + 1)*0.75  , e.g iridium would reduce 4HP
+                    "Sound": "hammer", 
+                    "BreakingSound": "boulderBreak", 
+                    "Debris": "bigstone #CBC3E3", //debris shown on breaking. can be: stone, wood, coins, bigstone. you can specify a color
+                    "ItemDropped": "(O)69",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "ContextTags": [
+                        "color_purple"
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/-999", // from 1 to infinite. (-999 means no limit) 
+                            "SpawnFrequency": 0.1, //10% to spawn
+                            "Type": "All" //on any difficulty
+                        }
+                    ]
+                },
+            }
+        },
+
+     /*  
+      (optional) this means clumps will only spawn from 1,12 to 22,19
+     "CustomFields": { "mistyspring.ItemExtensions/ClumpSpawnRect": "1 12 22 8"}
+     */   
+
+     {
+        "LogName": "Add custom weeds",
+        "Action": "EditData",
+        "Target": "Mods/mistyspring.ItemExtensions/Resources",
+        "Entries": {
+            "MyCustomWeeds": {
+                "SpriteIndex": 2,
+                "Texture": "Mods\\{{ModId}}\\Objects",
+                "Health": 1, 
+                "Sound": null,
+                "BreakingSound": "cut",
+                "ItemDropped": "(O)771", //this will drop a vanilla fiber, but you can replace it for anything else
+                "Tool": "AnyExceptWateringCan", //anything except watering can will damage it
+                "MinToolLevel": 0,
+                "MinDrops": 1, //minimum of item to drop
+                "MaxDrops": 3, //maximum of item to drop
+                "ExtraItems": [ //optional: extra items to drop
+                    {
+                        "ItemId": "(O)770", //mixed seeds
+                        "Chance": 0.4 //40% of spawn
+                    }
+                ],
+                "Debris": "weeds blue"
+            }
+        }
+    },
+
+    {
+        "LogName": "Add custom logs",
+        "Action": "EditData",
+        "Target": "Mods/mistyspring.ItemExtensions/Resources",
+        "Entries": {
+            "MyCustomLog": {
+                "DisplayName":"My log", //name displayed in menu (e.g., the CJB item spawner menu)
+                "SpriteIndex": 2,
+                "Texture": "Mods\\{{ModId}}\\Objects",
+                "Health": 14, 
+                "Width":2, //width in tiles
+                "Height":2, //height in tiles
+                "Sound": "axe", //axe chop sound
+                "BreakingSound": "treecrack",
+                "ItemDropped": "(O)709", //this will drop vanilla hardwood, but you can replace it for anything else
+                "Tool": "Axe", //only axe damages this resource
+                "MinToolLevel": 3, //e.g, minimum of gold axe to hit
+                "MinDrops": 10, //minimum of item to drop
+                "MaxDrops": 15, //maximum of item to drop
+                "ExtraItems": [ //optional: extra items to drop
+                    {
+                        "ItemId": "(O)292", //mahogany seed
+                        "Chance": 0.8, //80% of spawn
+                        "Condition": "PLAYER_FORAGING_LEVEL Current 2" //must at least have foraging level 2. to see how GSQs work, go here: https://stardewvalleywiki.com/Modding:Game_state_queries
+                    }
+                ],
+                "SecretNotes": false, //item shouldn't drop secret notes
+                "Exp": 5, //5 exp
+                "Skill":"forage", //to forage skill
+                "CountTowards": "Stumps", //ups the "stumps chopped" stat by 1. for other stats you can use, see https://github.com/misty-spring/StardewMods/blob/main/ItemExtensions/docs/CustomResource.md#adding-to-stats
+                "Debris": "bigwood #18a385", //shows log crack animation with slight tint,
+                "MineSpawns": [ //You can spawn logs in the mines too! and specify difficulty or conditions. Just keep in mind clumps aren't very common in the mines
+                    {
+                        "Floors": "1/120", // from 1 to max level in mine. (-999 means no limit) 
+                        "SpawnFrequency": 0.1, //10% to spawn
+                        "Type": "All" //on any difficulty
+                    }
+                    //see the full template for other examples
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName": "Add ore",
+        "Action": "EditData",
+        "Target": "Mods/mistyspring.ItemExtensions/Resources",
+        "Entries": {
+            "MyGemStone": {
+                "SpriteIndex": 1, //index in sprite sheet
+                "Texture": "Mods\\{{ModId}}\\Objects", //sprite sheet path
+                "Health": 10, //every hit reduces (UpgradeLevel + 1) x 0.75 . e.g iridium reduces 4 HP
+                "Sound": "hammer", //sound made when hitting ore
+                "BreakingSound": "stoneCrack", //sound made when breaking ore
+                "ItemDropped": "(O)MyGem", //item dropped. doesn't have to be custom- it can be an existing item (and it accepts all item types (e.g big craftables, shirts, etc))
+                "Tool": "Pickaxe", //tool that damages resource. can be "Any"(tools and weapons), "Tool"(any tool), "Weapon"(any weapon), or a specific type. You can also use "AnyExceptType" (e.g, AnyExceptAxe)
+                "MinToolLevel": 1, //minimum upgrade. e.g: if less than copper, it'll give a "needs upgrade" message
+                "MinDrops": 1, //minimum of item to drop
+                "MaxDrops": 3, //maximum of item to drop
+                "ExtraItems": [ //optional: extra items to drop
+                    {
+                        "ItemId": "(O)382", //drops coal
+                        "Chance": 0.4 //40%
+                    },
+                    //this example is advanced and uses item spawn queries. you can delete it safely
+                    {
+                        "ItemId": "RANDOM_ITEMS (O) 378 386 @requirePrice", //chooses a random ore
+                        "Chance": 0.15, //15%
+                        "PerItemCondition": "ITEM_CONTEXT_TAG Target ore_item", //must have this tag
+                        "MaxItems": 1
+                    }
+                ],
+                "Debris": "stone purple", //debris type and color (that last one is optional)
+                "MineSpawns": [ //You can spawn ores in the mines, and specify difficulty or conditions.
+                    {
+                        "Floors": "1/-999", // from 1 to infinite. (-999 means no limit) 
+                        "SpawnFrequency": 0.1, //10% to spawn
+                        "Type": "All" //on any difficulty
+                    }
+                    //see the full template for other examples
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName": "Add custom wood",
+        "Action": "EditData",
+        "Target": "Mods/mistyspring.ItemExtensions/Resources",
+        "Entries": {
+            "MyCustomWood": {
+                "SpriteIndex": 3,
+                "Texture": "Mods\\{{ModId}}\\Objects",
+                "Health": 2, 
+                "Sound": "axe", //axe chop sound
+                "BreakingSound": null,
+                "ItemDropped": "(O)388", //this will drop vanilla wood, but you can replace it for anything else
+                "Tool": "Axe", //only axe damages this resource
+                "MinToolLevel": 0,
+                "MinDrops": 1, //minimum of item to drop
+                "MaxDrops": 3, //maximum of item to drop
+                "ExtraItems": [ //optional: extra items to drop
+                    {
+                        "ItemId": "(O)770", //mixed seeds
+                        "Chance": 0.4 //40% of spawn
+                    }
+                ],
+                "Debris": "wood green"
+            }
+        }
+    }
+
+    ]
+}

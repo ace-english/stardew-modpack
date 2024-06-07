@@ -1,0 +1,731 @@
+{
+	"Changes": 
+	[
+
+// CHARACTER SETUP
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": 
+		  	{
+			  	"DSVMarigold": 
+			  	{
+					"DisplayName": "{{i18n:DSV.Marigold.CharacterName}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 3,
+					"HomeRegion": "Other",
+					"Gender": "Female",
+					"IsDarkSkinned": false,
+					"CanSocialize": false,
+					"CanBeRomanced": false,
+					"CanGreetNearbyCharacters": false,
+					"Calendar": "AlwaysShown",
+				   	"SocialTab": "HiddenAlways",
+					"SocializeConditions": null,
+					"ExcludeFromIntroductionsQuest": true,
+					"ExcludeFromPerfectionScore": true,
+					"EndSlideShow": "MainGroup",
+					"FriendsAndFamily": { "Linus": "{{i18n:DSV.Marigold.LinusRelationship}}" },
+					"WinterStarParticipant": false,
+					"SpawnIfMissing": true,
+					"Home": 
+				  	[
+					  	{
+							"Id": "Default",
+							"Location": "Tent",
+							"Tile": { "X": 3, "Y": 4 },
+							"Direction": "left"
+					  	}
+					],
+					"Size": { "X": 16, "Y": 32 },
+					"Breather": false,
+					"CustomFields": {}
+			  	}
+			}
+	  	},
+		{
+			"LogName": "Marigold Loads",
+			"Action": "Load",
+			"Target": "Characters/schedules/DSVMarigold, Characters/Dialogue/DSVMarigold, Strings/Schedules/DSVMarigold",
+			"FromFile": "Code/Marigold/blank.json"
+		},
+		{
+			"LogName": "Marigold Sprites",
+			"Action": "Load",
+			"Target": "Portraits/DSVMarigold, Characters/DSVMarigold",
+			"FromFile": "Art/Marigold/{{TargetPathOnly}}/Marigold.png"
+		},
+		{
+			"LogName": "Marigold No Vest Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/DSVMarigold",
+			"FromFile": "Art/Marigold/{{TargetPathOnly}}/Marigold_NoVest.png",
+			"When": 
+			{
+				"DayEvent |contains= MoonlightJellies": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/Schedules/DSVMarigold",
+			"Entries": 
+			{
+				"Nap.000": "{{i18n: DSV.Marigold.Sleep.{{Random: 1, 2{{MarigoldTalkToken}}, 3{{MarigoldTalkToken}}, 4, 5, 6, 7, 8, 9, 10}}}}$3",
+				"DesertFestival": "{{i18n:DSV.Marigold.DesertFestival.{{Random: 1, 2, 3}}{{MarigoldTalkToken}}}}"
+			}
+		},
+		{
+			"LogName": "Marigold Animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries":
+			{
+				"DSVMarigold_forwardsit": "16 17 18 19 20/20/16",
+				"DSVMarigold_forwardtailwag": "16 17 18 19 20/21 22 23/16",
+				"DSVMarigold_rightsit": "24 25 26 27 28/28/24",
+				"DSVMarigold_righttailwag": "24 25 26 27 28/29 30 31/24",
+				"DSVMarigold_leftsit": "32 33 34 35 36/36/32",
+				"DSVMarigold_lefttailwag": "32 33 34 35 36/37 38 39/32",
+				"DSVMarigold_nap": "40/40 40 40 40 41 41 41 41/40"
+			}
+		},
+
+// SCHEDULE
+
+		{
+			"LogName": "Marigold Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/DSVMarigold",
+			"Entries":
+			{
+				"rain": "700 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/930 Mountain 23 7 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/1010 Tent 3 4 0 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/1500 Mountain 16 8 2 {{Random: DSVMarigold_forwardsit, DSVMarigold_forwardtailwag}}/1900 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/2300 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\"",
+				"GreenRain": "610 Mountain 35 15 2 {{Random: DSVMarigold_forwardsit, DSVMarigold_forwardtailwag}}/1200 Mountain 36 6 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/1700 Mountain 28 9 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/2200 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\"",
+				"DesertFestival_2": "610 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/700 Desert 33 7 2 \"Strings\\Schedules\\DSVMarigold:DesertFestival\"/2540 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\"",
+				"winter_15": "1100 Mountain 29 10 0 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/1600 Beach 19 6 0 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/2330 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\"",
+				"summer": "630 Mountain 36 6 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/940 Mountain 43 27 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/1300 Mountain 47 36 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/1600 Mountain 29 10 0 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/2000 Mountain 23 7 1/2020 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/2300 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\"",
+				"fall": "700 Mountain 23 7 1 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/740 Mountain 29 10 0/900 Railroad 23 56 2 {{Random: DSVMarigold_forwardsit, DSVMarigold_forwardtailwag}}/1400 Mountain 43 17 1 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/1800 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/2300 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\"",
+				"winter": "1100 Mountain 29 10 0 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/1400 BathHouse_Entry 8 7 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/1800 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/2300 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\"",
+				"spring": "630 Mountain 23 7 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/700 Mountain 29 10 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/930 Mountain 46 20 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/1400 Mountain 29 10 0 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/1900 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/2300 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\""
+			}
+		},
+		{
+			"LogName": "Marigold Schedule - Juliet & Jessie Compatibility",
+			"Action": "EditData",
+			"Target": "Characters/schedules/DSVMarigold",
+			"Entries":
+			{
+				"summer": "630 Mountain 36 6 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/940 Mountain 43 27 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/1300 Mountain 47 36 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/1600 Mountain 28 8 2 {{Random: DSVMarigold_forwardsit, DSVMarigold_forwardtailwag}}/2000 Mountain 23 7 1/2020 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/2300 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\""
+			},
+			"When":
+			{
+				"HasSeenEvent |contains=191393": true,
+				"HasMod |contains= LemurKat.JulietHouse.NPC, Lemurkat.EastScarpNPCs.CP": true
+			}
+		},
+		{
+			"LogName": "Marigold Schedule - Solarium Spa Compatibility",
+			"Action": "EditData",
+			"Target": "Characters/schedules/DSVMarigold",
+			"Entries":
+			{
+				"fall": "700 Mountain 23 7 1 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/740 Mountain 29 10 0/900 Custom_SolariumSpa 4 13 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/1400 Mountain 43 17 1 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/1800 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/2300 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\"",
+				"winter": "1100 Mountain 29 10 0 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/1400 Custom_SolariumSpa 4 13 1 {{Random: DSVMarigold_rightsit, DSVMarigold_righttailwag}}/1800 Tent 3 4 3 {{Random: DSVMarigold_leftsit, DSVMarigold_lefttailwag}}/2300 Tent 3 4 3 DSVMarigold_nap \"Strings\\Schedules\\DSVMarigold:Nap.000\""
+			},
+			"When":
+			{
+				"HasSeenEvent |contains=10548001": true,
+				"HasMod |contains= BBR.SolariumSpa": true
+			}
+		},
+
+// DIALOGUE
+
+		{
+			"LogName": "Marigold Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DSVMarigold",
+			"Entries": 
+			{
+				"Mon": "{{i18n: DSV.Marigold.Daily.{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Sunny.8, Sunny.9, Sunny.10, Sunny.11}}{{MarigoldTalkToken}}}}#$e#{{i18n: DSV.Marigold.Working}}",
+				"Tues": "{{i18n: DSV.Marigold.Daily.{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Sunny.8, Sunny.9, Sunny.10, Sunny.11}}{{MarigoldTalkToken}}}}#$e#{{i18n: DSV.Marigold.Working}}",
+				"Wed": "{{i18n: DSV.Marigold.Daily.{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Sunny.8, Sunny.9, Sunny.10, Sunny.11}}{{MarigoldTalkToken}}}}#$e#{{i18n: DSV.Marigold.Working}}",
+				"Thurs": "{{i18n: DSV.Marigold.Daily.{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Sunny.8, Sunny.9, Sunny.10, Sunny.11}}{{MarigoldTalkToken}}}}#$e#{{i18n: DSV.Marigold.Working}}",
+				"Fri": "{{i18n: DSV.Marigold.Daily.{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Sunny.8, Sunny.9, Sunny.10, Sunny.11}}{{MarigoldTalkToken}}}}#$e#{{i18n: DSV.Marigold.Working}}",
+				"Sat": "{{i18n: DSV.Marigold.Daily.{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Sunny.8, Sunny.9, Sunny.10, Sunny.11}}{{MarigoldTalkToken}}}}#$e#{{i18n: DSV.Marigold.Working}}",
+				"Sun": "{{i18n: DSV.Marigold.Daily.{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Sunny.8, Sunny.9, Sunny.10, Sunny.11}}{{MarigoldTalkToken}}}}#$e#{{i18n: DSV.Marigold.Working}}",
+				"rain": "{{i18n: DSV.Marigold.Daily.{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Rainy.8, Rainy.9, Rainy.10, Rainy.11, Rainy.12}}{{MarigoldTalkToken}}}}#$e#{{i18n: DSV.Marigold.Working}}",
+				"GreenRain": "{{i18n:DSV.Marigold.ConversationTopic.GreenRain{{MarigoldTalkToken}}}}",
+				"GreenRainFinished": "{{i18n:DSV.Marigold.ConversationTopic.GreenRainFinished{{MarigoldTalkToken}}}}",
+				"GreenRain_2": "{{i18n:DSV.Marigold.ConversationTopic.GreenRain_2{{MarigoldTalkToken}}}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+			"Entries": 
+			{
+				"DSVMarigold": "{{i18n: DSV.Marigold.Festival.{{TargetWithoutPath}}{{MarigoldTalkToken}}}}",
+				"DSVMarigold_y2": "{{i18n: DSV.Marigold.Festival.Y2.{{TargetWithoutPath}}{{MarigoldTalkToken}}}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20, Data/Festivals/winter28",
+			"Entries": 
+			{
+				"DSVMarigold": "{{i18n: DSV.Marigold.Festival.{{TargetWithoutPath}}{{MarigoldTalkToken}}}}"
+			},
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer20",
+			"Entries": 
+			{
+				"DSVMarigold": "{{i18n: DSV.Marigold.Festival.{{TargetWithoutPath}}{{MarigoldTalkToken}}}}"
+			},
+			"When":
+			{
+				"HasMod |contains= violetlizabet.CP.FireworksFestival": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			"Entries": 
+			{
+				"DSVMarigold": "{{i18n: DSV.Marigold.Festival.{{TargetWithoutPath}}{{MarigoldTalkToken}}}}"
+			},
+			"When":
+			{
+				"HasMod |contains= spacechase0.SurfingFestival": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DSVMarigold",
+			"Entries": 
+			{
+				"MeetTheCats": "{{i18n: DSV.Marigold.ConversationTopic.Marigold.MeetTheCats}}",
+				"DumpsterFishing": "{{i18n: DSV.Marigold.ConversationTopic.Marigold.DumpsterFishing}}"
+			},
+			"When":
+			{
+				"HasMod |contains= tiakall.jortsandjean": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/JeanCat",
+			"Entries": 
+			{
+				"DumpsterFishing": "{{i18n: DSV.Marigold.ConversationTopic.Jean.DumpsterFishing}}"
+			},
+			"When":
+			{
+				"HasMod |contains= tiakall.jortsandjean": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": 
+			{
+				"MeetTheCats": "{{i18n: DSV.Marigold.ConversationTopic.Linus.MeetTheCats}}"
+			},
+			"When":
+			{
+				"HasMod |contains= tiakall.jortsandjean": true
+			}
+		},
+		
+// GIFT TASTE CHANGES
+
+		{
+			"LogName": "Linus Gift Taste Changes - Marigold",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+            "TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Linus", "3"],
+					"Value": "424, 579, 580, 583, 584, 585, 119",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"DSV.Core/ConfigValue:GiftTastesChange": "true"
+			}
+		},
+		{
+			"LogName": "Linus Gift Taste Changes - Marigold CGD Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": 
+			{
+				"AcceptGift_(0)424": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Cheese}}", //Cheese
+				"AcceptGift_(0)176": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Egg}}", //Egg
+				"AcceptGift_(0)180": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Egg}}", //Brown Egg
+				"AcceptGift_(0)174": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Egg}}", //Large Egg
+				"AcceptGift_(0)182": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Egg}}", //Large Brown Egg
+				"AcceptGift_(0)928": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Egg}}", //Golden Egg
+				"AcceptGift_(0)289": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.GiantEgg}}", //Ostrich Egg
+				"AcceptGift_(0)107": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.GiantEgg}}", //Dinosaur Egg
+				"AcceptGift_(0)119": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Bones}}", //Bone_Flute
+				"AcceptGift_(0)579": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Bones}}", //Prehistoric_Scapula
+				"AcceptGift_(0)580": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Bones}}", //Prehistoric_Tibia
+				"AcceptGift_(0)583": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Bones}}", //Prehistoric_Rib
+				"AcceptGift_(0)584": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Bones}}", //Prehistoric_Vertebra
+				"AcceptGift_(0)585": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Bones}}" //Skeletal_Tail
+			},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:GiftTastesChange": "true"
+			}
+		},
+		{
+			"LogName": "Linus Gift Taste Changes - Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": 
+			{
+				"RejectItem_820": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.NoBones}}",
+				"RejectItem_822": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.NoBones}}",
+				"RejectItem_823": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.NoBones}}",
+				"RejectItem_824": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.NoBones}}",
+				"RejectItem_825": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.NoBones}}",
+				"RejectItem_826": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.NoBones}}",
+				"RejectItem_581": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.NoBones}}",
+				"RejectItem_582": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.NoBones}}",
+				"RejectItem_305": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.VoidEgg}}"
+			},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:GiftTastesChange": "true"
+			}
+		},
+		
+// EVENTS
+
+		{
+			"LogName": "Marigold Events",
+			"Action": "Include",
+			"FromFile": "Code/Marigold/MarigoldEvents.json",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LinusEventChanges": true
+			}
+		},
+
+// FESTIVALS
+
+		{
+			"LogName": "Marigold Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 28 55 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Egg Festival Y2",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_y2_additionalCharacters"],
+					"Value": "DSVMarigold 51 61 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Egg Festival (RSV Shane Fix)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Fields": 
+			{
+				"set-up":
+				{
+					36: "advancedMove Shane true 4 40000 2 0 0 1 2 35000 0 -1 -2 0"
+				}
+			},
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+		{
+			"LogName": "Marigold Flower Dance Setup",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 25 27 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Flower Dance Setup Y2",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_y2_additionalCharacters"],
+					"Value": "DSVMarigold 25 23 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Flower Dance Main",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "DSVMarigold 21 31 up",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Flower Dance Main Y2",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_y2_additionalCharacters"],
+					"Value": "DSVMarigold 4 22 right",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 50 19 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Luau Y2",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_y2_additionalCharacters"],
+					"Value": "DSVMarigold 47 21 right",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 57 8 right",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Moonlight Jellies Y2",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_y2_additionalCharacters"],
+					"Value": "DSVMarigold 84 40 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold SV Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 69 71 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold SV Fair Y2",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_y2_additionalCharacters"],
+					"Value": "DSVMarigold 31 31 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Spirits Eve",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 28 1 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Spirits Eve Y2",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_y2_additionalCharacters"],
+					"Value": "DSVMarigold 3 24 right",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Spirits Eve",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 21 1 down",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= DaisyNiko.SVR3": true,
+				"HasMod |contains= Rafseazz.RSVCP": false
+			}
+		},
+		{
+			"LogName": "Marigold Ice Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 10 43 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Ice Festival Y2",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_y2_additionalCharacters"],
+					"Value": "DSVMarigold 47 47 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 44 57 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold Winter Star Y2",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_y2_additionalCharacters"],
+					"Value": "DSVMarigold 36 67 up",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Marigold RSV Ridgeside Gathering Setup",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 61 39 right",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+		{
+			"LogName": "Marigold RSV Ridgeside Gathering Main",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "DSVMarigold 64 37 right",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+		{
+			"LogName": "Marigold RSV Ember of Resolutions Setup",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter28",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 45 25 down",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+		{
+			"LogName": "Marigold RSV Ember of Resolutions Main",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter28",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "DSVMarigold 55 47 left",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+		{
+			"LogName": "Marigold Fireworks Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer20",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 56 8 up",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= violetlizabet.CP.FireworksFestival": true
+			}
+		},
+		{
+			"LogName": "Marigold Surfing Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "DSVMarigold 41 7 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "DSVMarigold 41 7 down",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= spacechase0.SurfingFestival": true
+			}
+		}
+	]
+}

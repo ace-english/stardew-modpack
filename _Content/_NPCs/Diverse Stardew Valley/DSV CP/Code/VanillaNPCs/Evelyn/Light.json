@@ -1,0 +1,274 @@
+{
+// EVELYN DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Evelyn Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Evelyn", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Evelyn.Indoor":
+				{
+					"Id": "{{ModId}}_Evelyn_Indoor",
+					"Portrait": "Portraits/Evelyn_Indoor",
+					"Sprite": "Characters/Evelyn_Indoor",
+					"Precedence": -110
+				},
+				"DSV.Evelyn.Beach":
+				{
+					"Id": "{{ModId}}_Evelyn_Beach",
+					"Portrait": "Portraits/Evelyn_Beach",
+					"Sprite": "Characters/Evelyn_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Evelyn.EggFestival":
+				{
+					"Id": "{{ModId}}_Evelyn_EggFestival",
+					"Portrait": "Portraits/Evelyn_EggFestival",
+					"Sprite": "Characters/Evelyn_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Evelyn.FlowerDance":
+				{
+					"Id": "{{ModId}}_Evelyn_FlowerDance",
+					"Portrait": "Portraits/Evelyn_FlowerDance",
+					"Sprite": "Characters/Evelyn_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Evelyn.Luau":
+				{
+					"Id": "{{ModId}}_Evelyn_Luau",
+					"Portrait": "Portraits/Evelyn_Luau",
+					"Sprite": "Characters/Evelyn_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Evelyn.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Evelyn_MoonlightJellies",
+					"Portrait": "Portraits/Evelyn_MoonlightJellies",
+					"Sprite": "Characters/Evelyn_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Evelyn.SVFair":
+				{
+					"Id": "{{ModId}}_Evelyn_SVFair",
+					"Portrait": "Portraits/Evelyn_SVFair",
+					"Sprite": "Characters/Evelyn_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Evelyn.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Evelyn_SpiritsEve",
+					"Portrait": "Portraits/Evelyn_SpiritsEve",
+					"Sprite": "Characters/Evelyn_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Evelyn.IceFestival":
+				{
+					"Id": "{{ModId}}_Evelyn_IceFestival",
+					"Portrait": "Portraits/Evelyn_IceFestival",
+					"Sprite": "Characters/Evelyn_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Evelyn.WinterStar":
+				{
+					"Id": "{{ModId}}_Evelyn_WinterStar",
+					"Portrait": "Portraits/Evelyn_WinterStar",
+					"Sprite": "Characters/Evelyn_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Evelyn.Swim":
+				{
+					"Id": "{{ModId}}_Evelyn_Swim",
+					"Portrait": "Portraits/Evelyn_Swim",
+					"Sprite": "Characters/Evelyn_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Evelyn.HotClimate":
+				{
+					"Id": "{{ModId}}_Evelyn_HotClimate",
+					"Portrait": "Portraits/Evelyn_HotClimate",
+					"Sprite": "Characters/Evelyn_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Evelyn Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Evelyn_Indoor, Characters/Evelyn_Indoor",
+			"FromFile": "Art/VanillaNPCs/Evelyn/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EvelynVariant}}/Evelyn_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EvelynVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Evelyn Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Evelyn_Beach, Characters/Evelyn_Beach",
+			"FromFile": "Art/VanillaNPCs/Evelyn/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EvelynVariant}}/Evelyn_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EvelynVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Evelyn Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Evelyn_EggFestival, Characters/Evelyn_EggFestival, Portraits/Evelyn_FlowerDance, Characters/Evelyn_FlowerDance, Portraits/Evelyn_Luau, Characters/Evelyn_Luau, Portraits/Evelyn_MoonlightJellies, Characters/Evelyn_MoonlightJellies, Portraits/Evelyn_SVFair, Characters/Evelyn_SVFair, Portraits/Evelyn_SpiritsEve, Characters/Evelyn_SpiritsEve, Portraits/Evelyn_IceFestival, Characters/Evelyn_IceFestival, Portraits/Evelyn_WinterStar, Characters/Evelyn_WinterStar, Portraits/Evelyn_Swim, Characters/Evelyn_Swim",
+			"FromFile": "Art/VanillaNPCs/Evelyn/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EvelynVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EvelynVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Evelyn Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Evelyn_HotClimate, Characters/Evelyn_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Evelyn/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EvelynVariant}}/Evelyn_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EvelynVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Evelyn Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Evelyn_Indoor, Characters/Evelyn_Indoor",
+			"FromFile": "Art/VanillaNPCs/Evelyn/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EvelynVariant}}/Evelyn_{{season}}_{{RandomTwoToken}}_Base.png"
+		},
+		{
+			"LogName": "Evelyn Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Evelyn_HotClimate, Characters/Evelyn_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Evelyn/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EvelynVariant}}/Evelyn_Summer_{{RandomTwoToken}}_Sun.png"
+		},
+		{
+			"LogName": "Evelyn Elaho Flower Dance",
+			"Action": "EditImage",
+			"Target": "Portraits/Evelyn_FlowerDance, Characters/Evelyn_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Evelyn/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EvelynVariant}}/Evelyn_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= true": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Evelyn Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Evelyn/Misc/Evelyn_Emoji_{{DSV.Core/ConfigValue:EvelynVariant}}.png",
+			"ToArea": {"X": 117, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:EvelynVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Evelyn Spirits Eve Position",
+		  	"Action": "EditData",
+		  	"Target": "data/festivals/fall27",
+			"TextOperations": 
+            [
+				{    
+					"Operation": "Append",
+					"Target": 
+                    [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "Evelyn 30 74 0",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeEvelynSpiritsEve": "true",
+				"OddYearToken": "1"
+			}
+		},
+
+// MERMAID PENDANTS
+		
+		{
+			"LogName": "Evelyn Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Evelyn_Indoor",
+			"FromFile": "Art/VanillaNPCs/Evelyn/Misc/MermaidPendants/Evelyn_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MermaidPendantsCanon |contains= True": true,
+				"Season |contains= winter": false
+			}
+		},
+
+// JEWISH EVELYN
+
+		{
+			"LogName": "Evelyn Tichel - Saturday",
+			"Action": "EditImage",
+			"Target": "Portraits/Evelyn_Indoor, Characters/Evelyn_Indoor",
+			"FromFile": "Art/VanillaNPCs/Evelyn/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EvelynVariant}}/Overlays/Evelyn_Tichel.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DayOfWeek |contains= Saturday": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			}
+		},
+		{
+			"LogName": "Evelyn Tichel - Friday Night",
+			"Action": "EditImage",
+			"Target": "Portraits/Evelyn_Indoor, Characters/Evelyn_Indoor",
+			"FromFile": "Art/VanillaNPCs/Evelyn/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:EvelynVariant}}/Overlays/Evelyn_Tichel.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DayOfWeek |contains= Friday": true,
+				"Time": "{{Range: 1800, 2600}}",
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+			"Update": "OnLocationChange"
+		}
+	]
+}

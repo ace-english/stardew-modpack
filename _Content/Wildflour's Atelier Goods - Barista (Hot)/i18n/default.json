@@ -1,0 +1,325 @@
+{
+
+//KETTLE
+
+"atelierbarista_TeaProcessor.name":"Tea Processor",
+"atelierbarista_TeaProcessor.description":"Can create packaged tea sachets from various ingredients.",
+
+"atelierbarista_TeaKettle.name":"Tea Kettle",
+"atelierbarista_TeaKettle.description":"Brews specialty teas.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_TeaProcessor_InvalidItem.message": "Cannot Process This",
+"atelierbarista_TeaProcessor_InvalidCount.message": "Requires Tea Leaves",
+
+"atelierbarista_TeaKettle_InvalidItem.message": "Cannot Process This",
+"atelierbarista_TeaKettle_InvalidCount.message": "Requires Honey",    
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierbarista_flavored_sachet":"{0} Tea Sachet",
+"atelierbarista_flavored_tea":"{0} Tea",
+
+///////////////////
+// GENERIC ITEMS //
+///////////////////
+
+"atelierbarista_flavored_sachet.name":"Tea Sachet",
+"atelierbarista_flavored_sachet.description":"A custom blend of unique flavors combined into a tea bag.",
+
+"atelierbarista_flavored_tea.name":"Tea",
+"atelierbarista_flavored_tea.description":"A fresh cup of tea made with an artisanal tea sachet.",
+
+/////////////////////////
+// MOD SUPPORTED ITEMS //
+/////////////////////////
+
+"atelierbarista_gardenia_sachet.name":"Gardenia Tea Sachet",
+"atelierbarista_gardenia_sachet.description":"A custom blend of unique flavors combined into a tea bag.",
+
+"atelierbarista_hibiscus_sachet.name":"Hibiscus Tea Sachet",
+"atelierbarista_hibiscus_sachet.description":"A custom blend of unique flavors combined into a tea bag.",
+
+"atelierbarista_gardenia_tea.name":"Gardenia Tea",
+"atelierbarista_gardenia_tea.description":"A fresh cup of tea flavored with gardenia.",
+
+"atelierbarista_hibiscus_tea.name":"Hibiscus Tea",
+"atelierbarista_hibiscus_tea.description":"A fresh cup of tea flavored with hibiscus.",
+
+"atelierbarista_borage_sachet.name":"Borage Tea Sachet",
+"atelierbarista_borage_sachet.description":"A custom blend of unique flavors combined into a tea bag.",
+
+"atelierbarista_calendula_sachet.name":"Calendula Tea Sachet",
+"atelierbarista_calendula_sachet.description":"A custom blend of unique flavors combined into a tea bag.",
+
+"atelierbarista_borage_tea.name":"Borage Tea",
+"atelierbarista_borage_tea.description":"A fresh cup of tea flavored with borage flowers.",
+
+"atelierbarista_calendula_tea.name":"Calendula Tea",
+"atelierbarista_calendula_tea.description":"A fresh cup of tea flavored with calendula flowers.",
+
+"atelierbarista_hollyhock_sachet.name":"Hollyhock Tea Sachet",
+"atelierbarista_hollyhock_sachet.description":"A custom blend of unique flavors combined into a tea bag.",
+
+"atelierbarista_springpansy_sachet.name":"Pansy Tea Sachet",
+"atelierbarista_springpansy_sachet.description":"A custom blend of unique flavors combined into a tea bag.",
+
+"atelierbarista_hollyhock_tea.name":"Hollyhock Tea",
+"atelierbarista_hollyhock_tea.description":"A fresh cup of tea flavored with hollyhock flowers.",
+
+"atelierbarista_springpansy_tea.name":"Pansy Tea",
+"atelierbarista_springpansy_tea.description":"A fresh cup of tea flavored with pansies.",
+
+"atelierbarista_orangeblossom_sachet.name":"Orange Blossom Tea Sachet",
+"atelierbarista_orangeblossom_sachet.description":"A custom blend of unique flavors combined into a tea bag.",
+
+"atelierbarista_orangeblossom_tea.name":"Orange Blossom Tea",
+"atelierbarista_orangeblossom_tea.description":"A fresh cup of tea flavored with orange blossoms.",
+
+
+
+//TEA SACHETS
+
+"atelierbarista_apple_sachet.name": "Autumn Apple Tea Sachet",
+"atelierbarista_apple_sachet.description": "Warm spices mix with crisp apple, making this tea blend perfect for a chilly Autumn afternoon.",
+
+"atelierbarista_vanilla_sachet.name": "Calico Vanilla Tea Sachet",
+"atelierbarista_vanilla_sachet.description": "This vanilla tea blend is perfect for calming the mind and body.",
+
+"atelierbarista_matcha_sachet.name": "Ceremonial Matcha Tea Sachet",
+"atelierbarista_matcha_sachet.description": "A ceremonial grade tea blend made from first harvest leaves.",
+
+"atelierbarista_cinnamon_sachet.name": "Cinnamon Spice Tea Sachet",
+"atelierbarista_cinnamon_sachet.description": "A mix of tea leaves and ground Cindersap Cinnamon, perfect for brewing tea.",
+
+"atelierbarista_chamomile_sachet.name": "Cozy Chamomile Tea Sachet",
+"atelierbarista_chamomile_sachet.description": "Dried chamomile flowers mixed with other calming herbs to produce a soothing tea blend.",
+
+"atelierbarista_breakfast_sachet.name": "English Breakfast Tea Sachet",
+"atelierbarista_breakfast_sachet.description": "A full-bodied, robust tea blend.",
+
+"atelierbarista_jasmine_sachet.name": "Fragrant Jasmine Tea Sachet",
+"atelierbarista_jasmine_sachet.description": "A mix of tea leaves and fragrant jasmine petals, perfect for brewing tea.",
+
+"atelierbarista_ginger_sachet.name": "Ginger Tea Sachet",
+"atelierbarista_ginger_sachet.description": "A tea blend full of the warm spice of ginger.",
+
+"atelierbarista_grey_sachet.name": "Lady Grey Tea Sachet",
+"atelierbarista_grey_sachet.description": "A softer, more subtle blend than Earl Grey, with hints of lemon and orange.",
+
+"atelierbarista_lemon_sachet.name": "Lemon Tea Sachet",
+"atelierbarista_lemon_sachet.description": "An invigorating tea blend made with the zest of petite lemons.",
+
+"atelierbarista_mint_sachet.name": "Merry Mint Tea Sachet",
+"atelierbarista_mint_sachet.description": "A refreshing tea blend often brewed for relief from cold and flu symptoms.",
+
+"atelierbarista_berry_sachet.name": "Mixed Berry Tea Sachet",
+"atelierbarista_berry_sachet.description": "A full-bodied tea blend with the aroma of fresh berries.",
+
+"atelierbarista_peach_sachet.name": "Peach Tea Sachet",
+"atelierbarista_peach_sachet.description": "A delightful blend of peach flavor!",
+
+"atelierbarista_pineapple_sachet.name": "Pineapple Tea Sachet",
+"atelierbarista_pineapple_sachet.description": "Sweet pineapple takes you instantly on an island getaway.",
+
+"atelierbarista_pomegranate_sachet.name": "Pomegranate Tea Sachet",
+"atelierbarista_pomegranate_sachet.description": "An herbaceous and lively tea blend accented with bright pomegranate.",
+
+"atelierbarista_raspberry_sachet.name": "Raspberry Tea Sachet",
+"atelierbarista_raspberry_sachet.description": "A smooth Ferngill Tea blend that features the flavor of tart raspberries.",
+
+"atelierbarista_rose_sachet.name": "Rose Petal Tea Sachet",
+"atelierbarista_rose_sachet.description": "A tea blend made from the petals and buds of the rose bush.",
+
+"atelierbarista_sakura_sachet.name": "Sakura Tea Sachet",
+"atelierbarista_sakura_sachet.description": "A tea blend made with preserved cherry blossoms.",
+
+"atelierbarista_strawberry_sachet.name": "Wild Strawberry Tea Sachet",
+"atelierbarista_strawberry_sachet.description": "A sweet tea blend made with wild summer strawberries.",
+
+//TEA
+
+"atelierbarista_apple_tea.name": "Autumn Apple Tea",
+"atelierbarista_apple_tea.description": "Freshly brewed apple tea.",
+
+"atelierbarista_vanilla_tea.name": "Calico Vanilla Tea",
+"atelierbarista_vanilla_tea.description": "Freshly brewed vanilla tea.",
+
+"atelierbarista_matcha_tea.name": "Ceremonial Matcha Tea",
+"atelierbarista_matcha_tea.description": "Freshly brewed matcha tea.",
+
+"atelierbarista_cinnamon_tea.name": "Cinnamon Spice Tea",
+"atelierbarista_cinnamon_tea.description": "Freshly brewed cinnamon tea.",
+
+"atelierbarista_chamomile_tea.name": "Cozy Chamomile Tea",
+"atelierbarista_chamomile_tea.description": "Freshly brewed chamomile tea.",
+
+"atelierbarista_breakfast_tea.name": "English Breakfast Tea",
+"atelierbarista_breakfast_tea.description": "Freshly brewed English Breakfast tea.",
+
+"atelierbarista_jasmine_tea.name": "Fragrant Jasmine Tea",
+"atelierbarista_jasmine_tea.description": "Freshly brewed jasmine tea.",
+
+"atelierbarista_ginger_tea.name": "Ginger Tea",
+"atelierbarista_ginger_tea.description": "Freshly brewed ginger tea.",
+
+"atelierbarista_grey_tea.name": "Lady Grey Tea",
+"atelierbarista_grey_tea.description": "Freshly brewed Lady Grey tea.",
+
+"atelierbarista_lemon_tea.name": "Lemon  Tea",
+"atelierbarista_lemon_tea.description": "Freshly brewed lemon tea.",
+
+"atelierbarista_mint_tea.name": "Merry Mint Tea",
+"atelierbarista_mint_tea.description": "Freshly brewed mint tea.",
+
+"atelierbarista_berry_tea.name": "Mixed Berry Tea",
+"atelierbarista_berry_tea.description": "Freshly brewed mixed berry tea.",
+
+"atelierbarista_peach_tea.name": "Peach Tea",
+"atelierbarista_peach_tea.description": "Freshly brewed peach tea.",
+
+"atelierbarista_pineapple_tea.name": "Pineapple Tea",
+"atelierbarista_pineapple_tea.description": "Freshly brewed pineapple tea.",
+
+"atelierbarista_pomegranate_tea.name": "Pomegranate Tea",
+"atelierbarista_pomegranate_tea.description": "Freshly brewed pomegranate tea.",
+
+"atelierbarista_raspberry_tea.name": "Raspberry Tea",
+"atelierbarista_raspberry_tea.description": "Freshly brewed raspberry tea.",
+
+"atelierbarista_rose_tea.name": "Rose Petal Tea",
+"atelierbarista_rose_tea.description": "Freshly brewed rose petal tea.",
+
+"atelierbarista_sakura_tea.name": "Sakura Tea",
+"atelierbarista_sakura_tea.description": "Freshly brewed sakura tea.",
+
+"atelierbarista_strawberry_tea.name": "Wild Strawberry Tea",
+"atelierbarista_strawberry_tea.description": "Freshly brewed wild strawberry tea.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierbarista_TeaProcessorRecipe.name":"Time to Craft Artisanal Tea Bags!",
+"atelierbarista_TeaProcessorRecipe.text":"@, ^^ If you really want to get into tea brewing, you should try making one of these processors. It has a built in way to make tea sachets too! I would love to try any new teas you create.^^ - Elliott",
+
+"atelierbarista_TeaKettleRecipe.name":"Put the Kettle On",
+"atelierbarista_TeaKettleRecipe.text":"@, ^^ I think your own personal tea kettle would really bring some coziness into your home; here's how you can craft one yourself! Just don't forget to invite me over for teatime once you do.^^ - Caroline",
+
+"atelierbarista_evelyn_gift.name":"Seeds for You",
+"atelierbarista_evelyn_gift.text":"@, ^^ I heard you are learning more about brewing tea! What a wonderful adventure you are about to begin. Here: these are some chamomile seeds from my garden. The flowers make a soothing herbal tea that helps you sleep.^^ - Evelyn",
+
+"atelierbarista_leah_gift.name":"For your Tea Garden",
+"atelierbarista_leah_gift.text":"@, ^^ How is the tea brewing going? If you are having trouble foraging enough tea leaves, I would be happy to share some seeds with you! These will make for some sturdy tea bushes so you can make all the tea you want.^^ - Leah",
+
+"atelierbarista_maru_gift.name":"Brewing the Booch",
+"atelierbarista_maru_gift.text":"@, ^^ Did you know you can ferment tea into kombucha? It's not everybody's cup of tea (sorry for the pun) but I find it to be fizzy and delicious! You will want to start growing some of these mushrooms though to help with the fermentation.^^ - Maru",
+
+//////////////////
+// COFFEE BEGIN //
+//////////////////
+
+"atelierbarista_CoffeeGrinder.name":"Coffee Grinder",
+"atelierbarista_CoffeeGrinder.description":"A grinder for processing beans and ingredients into custom coffee blends.",
+
+"atelierbarista_CoffeeBrewer.name":"Coffee Brewer",
+"atelierbarista_CoffeeBrewer.description":"A pot for brewing gourmet lattes.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_CoffeeGrinder_InvalidItem.message": "Cannot Process This",
+"atelierbarista_CoffeeGrinder_InvalidCount.message": "Requires 15 Coffee Beans",
+
+"atelierbarista_CoffeeBrewer_InvalidItem.message": "Cannot Process This",
+"atelierbarista_CoffeeBrewer_InvalidCount.message": "Requires Cream",
+
+///////////////////
+// GROUND COFFEE //
+///////////////////
+
+"atelierbarista_breakfast_ground.name":"Breakfast Blend Ground Coffee",
+"atelierbarista_breakfast_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"atelierbarista_vanilla_ground.name":"Calico Vanilla Ground Coffee",
+"atelierbarista_vanilla_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"atelierbarista_cold_ground.name":"Cold Brew Blend",
+"atelierbarista_cold_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"atelierbarista_donut_ground.name":"Donut Shoppe Ground Coffee",
+"atelierbarista_donut_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"atelierbarista_hazelnut_ground.name":"Hazelnut Ground Coffee",
+"atelierbarista_hazelnut_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"atelierbarista_holiday_ground.name":"Holiday Blend Ground Coffee",
+"atelierbarista_holiday_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"atelierbarista_mocha_ground.name":"Mocha Ground Coffee",
+"atelierbarista_mocha_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"atelierbarista_pumpkin_ground.name":"Pumpkin Spice Ground Coffee",
+"atelierbarista_pumpkin_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"atelierbarista_sweetheart_ground.name":"Sweetheart Blend Ground Coffee",
+"atelierbarista_sweetheart_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"atelierbarista_coconut_ground.name":"Toasted Coconut Ground Coffee",
+"atelierbarista_coconut_ground.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+////////////
+// DRINKS //
+////////////
+
+"atelierbarista_breakfast_latte.name": "Breakfast Latte",
+"atelierbarista_breakfast_latte.description": "Freshly brewed coffee. So cozy!",
+
+"atelierbarista_vanilla_latte.name":"Calico Vanilla Latte",
+"atelierbarista_vanilla_latte.description":"Freshly brewed coffee. So cozy!",
+
+"atelierbarista_cold_latte.name":"Classic Cold Brew",
+"atelierbarista_cold_latte.description":"Freshly brewed coffee. So cozy!",
+
+"atelierbarista_donut_latte.name":"Donut Shoppe Latte",
+"atelierbarista_donut_latte.description":"Freshly brewed coffee. So cozy!",
+
+"atelierbarista_hazelnut_latte.name":"Hazelnut Latte",
+"atelierbarista_hazelnut_latte.description":"Freshly brewed coffee. So cozy!",
+
+"atelierbarista_holiday_latte.name":"Holiday Blend Latte",
+"atelierbarista_holiday_latte.description":"Freshly brewed coffee. So cozy!",
+
+"atelierbarista_mocha_latte.name":"Rich Mocha Latte",
+"atelierbarista_mocha_latte.description":"Freshly brewed coffee. So cozy!",
+
+"atelierbarista_pumpkin_latte.name":"Cozy Pumpkin Spice Latte",
+"atelierbarista_pumpkin_latte.description":"Freshly brewed coffee. So cozy!",
+
+"atelierbarista_sweetheart_latte.name":"Sweetheart Latte",
+"atelierbarista_sweetheart_latte.description":"Freshly brewed coffee. So cozy!",
+
+"atelierbarista_coconut_latte.name":"Toasted Coconut Latte",
+"atelierbarista_coconut_latte.description":"Freshly brewed coffee. So cozy!",
+
+
+////////////
+/// MAIL ///
+////////////
+
+"atelierbarista_BrewerRecipe.text":"@, ^^ Sometimes you need your own personal coffee brewer for when you're up late and don't feel like creeping into the kitchen. Oh, that's right. I guess you don't have to worry about waking up your parents. Well, I already started writing this so...here you go.^^ - Sebastian",
+"atelierbarista_GrinderRecipe.text":"@, ^^ I find grinding my own coffee beans makes for a superior cup of coffee, and so I thought I'd share the blueprints for my favorite coffee grinder with you. Just remember, too much caffeine can make you jittery so everything in moderation!^^ - Harvey",
+"atelierbarista_haley.text":"@, ^^ It stinks we don't have a cute little coffee shop in this town, but at least now I can visit you for a good latte. Maybe make me mocha latte the next time I visit?^^ - Haley",
+"atelierbarista_george.text":"@, ^^ Evelyn has her teas but give me a good strong cup of joe any day. She did make me this vanilla latte once though...that was pretty good I guess. Anyway maybe you can make one with these vanilla beans.^^ - George",
+"atelierbarista_sebastian.text":"@, ^^ Have you tried making cold brew yet? It's still got all the caffeine and flavor without any of the bitterness so I would definitely recommend it. Here. these might help you come up with a cold brew blend if you use them right.^^ - Sebastian",
+
+
+}

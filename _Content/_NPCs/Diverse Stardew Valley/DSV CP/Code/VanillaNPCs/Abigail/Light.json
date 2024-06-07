@@ -1,0 +1,389 @@
+{
+// ABIGAIL DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Abigail Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Abigail", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Abigail.Indoor":
+				{
+					"Id": "{{ModId}}_Abigail_Indoor",
+					"Portrait": "Portraits/Abigail_Indoor",
+					"Sprite": "Characters/Abigail_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Abigail.EggFestival":
+				{
+					"Id": "{{ModId}}_Abigail_EggFestival",
+					"Portrait": "Portraits/Abigail_EggFestival",
+					"Sprite": "Characters/Abigail_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Abigail.FlowerDance":
+				{
+					"Id": "{{ModId}}_Abigail_FlowerDance",
+					"Portrait": "Portraits/Abigail_FlowerDance",
+					"Sprite": "Characters/Abigail_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Abigail.Luau":
+				{
+					"Id": "{{ModId}}_Abigail_Luau",
+					"Portrait": "Portraits/Abigail_Luau",
+					"Sprite": "Characters/Abigail_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Abigail.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Abigail_MoonlightJellies",
+					"Portrait": "Portraits/Abigail_MoonlightJellies",
+					"Sprite": "Characters/Abigail_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Abigail.SVFair":
+				{
+					"Id": "{{ModId}}_Abigail_SVFair",
+					"Portrait": "Portraits/Abigail_SVFair",
+					"Sprite": "Characters/Abigail_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Abigail.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Abigail_SpiritsEve",
+					"Portrait": "Portraits/Abigail_SpiritsEve",
+					"Sprite": "Characters/Abigail_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Abigail.IceFestival":
+				{
+					"Id": "{{ModId}}_Abigail_IceFestival",
+					"Portrait": "Portraits/Abigail_IceFestival",
+					"Sprite": "Characters/Abigail_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Abigail.WinterStar":
+				{
+					"Id": "{{ModId}}_Abigail_WinterStar",
+					"Portrait": "Portraits/Abigail_WinterStar",
+					"Sprite": "Characters/Abigail_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// MATERNITY
+				"DSV.Abigail.Maternity":
+				{
+					"Id": "{{ModId}}_Abigail_Maternity",
+					"Portrait": "Portraits/Abigail_Maternity",
+					"Sprite": "Characters/Abigail_Maternity",
+					"Condition": "{{Pregnant |contains= Abigail}}, {{DSV.Core/ConfigValue:MaternitySprites |contains= True}}",
+					"Precedence": -250
+				},
+				"DSV.Abigail.MaternityBeach":
+				{
+					"Id": "{{ModId}}_Abigail_Beach_Maternity",
+					"Portrait": "Portraits/Abigail_Beach_Maternity",
+					"Sprite": "Characters/Abigail_Beach_Maternity",
+					"Condition": "{{Pregnant |contains= Abigail}}, {{DSV.Core/ConfigValue:MaternitySprites |contains= True}}",
+					"IsIslandAttire": true,
+					"Precedence": -250
+				},
+			// OTHER
+				"DSV.Abigail.Swim":
+				{
+					"Id": "{{ModId}}_Abigail_Swim",
+					"Portrait": "Portraits/Abigail_Swim",
+					"Sprite": "Characters/Abigail_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Abigail.HotClimate":
+				{
+					"Id": "{{ModId}}_Abigail_HotClimate",
+					"Portrait": "Portraits/Abigail_HotClimate",
+					"Sprite": "Characters/Abigail_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				/*"DSV.Abigail.AdventureGear":
+				{
+					"Id": "{{ModId}}_Abigail_AdventureGear",
+					"Portrait": "Portraits/Abigail_AdventureGear",
+					"Sprite": "Characters/Abigail_AdventureGear",
+					"Condition": "LOCATION_IS_MINES Target",
+					"Precedence": -150
+				}*/
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Abigail Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Abigail_Indoor, Characters/Abigail_Indoor",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Abigail_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AbigailVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Abigail Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Abigail_EggFestival, Characters/Abigail_EggFestival, Portraits/Abigail_FlowerDance, Characters/Abigail_FlowerDance, Portraits/Abigail_Luau, Characters/Abigail_Luau, Portraits/Abigail_MoonlightJellies, Characters/Abigail_MoonlightJellies, Portraits/Abigail_SVFair, Characters/Abigail_SVFair, Portraits/Abigail_SpiritsEve, Characters/Abigail_SpiritsEve, Portraits/Abigail_IceFestival, Characters/Abigail_IceFestival, Portraits/Abigail_WinterStar, Characters/Abigail_WinterStar, Portraits/Abigail_Swim, Characters/Abigail_Swim, Portraits/Abigail_Maternity, Characters/Abigail_Maternity",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AbigailVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Abigail Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Abigail_HotClimate, Characters/Abigail_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Abigail_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AbigailVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Abigail Load - Maternity Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Abigail_Beach_Maternity, Characters/Abigail_Beach_Maternity",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AbigailVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Abigail Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Indoor, Characters/Abigail_Indoor",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Abigail_{{season}}_{{RandomThreeToken}}_Base.png"
+		},
+		{
+			"LogName": "Abigail Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_HotClimate, Characters/Abigail_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Abigail_Summer_{{RandomThreeToken}}_Sun.png"
+		},
+		{
+			"LogName": "Abigail Random Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_SpiritsEve, Characters/Abigail_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Abigail_SpiritsEve_{{RandomSpiritsEveTwoToken}}.png"
+		},
+		{
+			"LogName": "Abigail Flower Queen Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_FlowerDance, Characters/Abigail_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Abigail_FlowerDance_1_FlowerQueen.png",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Abigail": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Abigail Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Beach, Characters/Abigail_Beach",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Abigail_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Abigail Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Abigail_Indoor",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Abigail_Wedding_{{AbigailSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Abigail Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Abigail/Misc/Abigail_Emoji_{{DSV.Core/ConfigValue:AbigailVariant}}.png",
+			"ToArea": {"X": 0, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:AbigailVariant|contains= VanillaStraightSize": false
+			}
+		},
+		{
+			"LogName": "Clothes Therapy Characters - Abigail",
+			"Action": "EditImage",
+			"Target": "Characters/ClothesTherapyCharacters",
+			"FromFile": "Art/VanillaNPCs/Abigail/Misc/ClothesTherapy_Abigail_{{DSV.Core/ConfigValue:AbigailVariant}}.png",
+			"ToArea": {"X": 0, "Y": 160, "Width": 16, "Height": 32},
+			"When":
+			{
+				"DSV.Core/ConfigValue:AbigailVariant|contains= ModdedPlusSize, ModdedStraightSize": true
+			}
+		},
+		{
+			"LogName": "Abigail Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Abigail/Misc/Abigail_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:AbigailVariant}}.png",
+			"ToArea": {"X": 0, "Y": 272, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:AbigailVariant|contains= VanillaStraightSize, Off": false
+			}
+		},
+		
+// MERMAID PENDANTS
+		{
+			"LogName": "Abigail Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Indoor, Portraits/Abigail_EggFestival, Portraits/Abigail_FlowerDance, Portraits/Abigail_Luau, Portraits/Abigail_MoonlightJellies, Portraits/Abigail_SVFair, Portraits/Abigail_Maternity",
+			"FromFile": "Art/VanillaNPCs/Abigail/Misc/MermaidPendants/Abigail_Pendant_{{DSV.Core/ConfigValue:AbigailVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Abigail |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Abigail Pendants - Beach & Winter Star",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Beach, Portraits/Abigail_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Abigail/Misc/MermaidPendants/Abigail_Pendant_{{DSV.Core/ConfigValue:AbigailVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Abigail |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Abigail Pendants - Life Cycle Abigail/Sebastian Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Indoor, Portraits/Abigail_EggFestival, Portraits/Abigail_FlowerDance, Portraits/Abigail_Luau, Portraits/Abigail_MoonlightJellies, Portraits/Abigail_SVFair",
+			"FromFile": "Art/VanillaNPCs/Abigail/Misc/MermaidPendants/Abigail_Pendant_{{DSV.Core/ConfigValue:AbigailVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Abigail |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleAbigailSebastian": true,
+				"HasSeenEvent |contains= 59020048": true
+			}
+		},
+		{
+			"LogName": "Abigail Pendants - Beach & Winter Star - Life Cycle Abigail/Sebastian Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Beach, Portraits/Abigail_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Abigail/Misc/MermaidPendants/Abigail_Pendant_{{DSV.Core/ConfigValue:AbigailVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Abigail |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleAbigailSebastian": true,
+				"HasSeenEvent |contains= 59020048": true
+			}
+		},
+
+// COMPATIBILITY
+// PPAF
+		{
+			"LogName": "PPaF Compat - Abigail No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Indoor, Portraits/Abigail_EggFestival, Portraits/Abigail_FlowerDance, Portraits/Abigail_Luau, Portraits/Abigail_MoonlightJellies, Portraits/Abigail_SVFair, Portraits/Abigail_IceFestival, Portraits/Abigail_WinterStar, Portraits/Abigail_Swim, Portraits/Abigail_HotClimate, Portraits/Abigail_Maternity",
+			"FromFile": "Art/VanillaNPCs/Abigail/Portraits/{{DSV.Core/ConfigValue:AbigailVariant}}/Overlays/Abigail_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Abigail": true
+			}
+		},
+
+// SBV RSV Nonbinary Abigail
+		{
+			"LogName": "Abigail Ridgeside Gathering SBV Nonbinary Stall Setup",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "Abigail 128 55 left",
+					"Delimiter": "/"
+				}
+			],
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true,
+				"HasMod |contains= skellady.SBVCP": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail": "True"
+			}
+		},
+
+// MISC OVERLAYS
+		{
+			"LogName": "Abigail Goth Makeup Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Indoor, Portraits/Abigail_Beach",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Overlays/Abigail_MakeupOverlay_FullGoth.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:AbigailGothMakeup |contains= Always": false
+			}
+		},
+		{
+			"LogName": "Abigail Nonbinary Pin Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Indoor",
+			"FromFile": "Art/VanillaNPCs/Abigail/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AbigailVariant}}/Overlays/Abigail_{{Random: NonbinaryPin, x, x |key=AbigailPin}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail": "true",
+				"DSV.Core/Weather:Abigail |contains= rain": false
+			}
+		}
+	]
+}

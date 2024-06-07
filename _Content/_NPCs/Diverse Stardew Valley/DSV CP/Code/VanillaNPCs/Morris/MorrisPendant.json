@@ -1,0 +1,18 @@
+{
+// MORRIS DSV
+
+	"Changes": [
+		{
+			"LogName": "Morris Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Morris",
+			"FromFile": "Art/VanillaNPCs/Morris/Misc/MermaidPendants/{{TargetWithoutPath}}_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Morris |contains= Married, Engaged": true,
+				"Season |contains= winter": false
+			}
+		}
+	]
+}

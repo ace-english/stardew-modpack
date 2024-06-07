@@ -1,0 +1,161 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"Add Atelier Barista Tea Serene Meadow Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierbarista_borage_sachet": {
+                    "Name": "wildflour.atelierbarista_borage_sachet",
+                    "DisplayName": "{{i18n:atelierbarista_borage_sachet.name}}",
+                    "Description": "{{i18n:atelierbarista_borage_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 66
+            },
+                "wildflour.atelierbarista_borage_tea": {
+                    "Name": "wildflour.atelierbarista_borage_tea",
+                    "DisplayName": "{{i18n:atelierbarista_borage_tea.name}}",
+                    "Description": "{{i18n:atelierbarista_borage_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 82
+            },
+                "wildflour.atelierbarista_calendula_sachet": {
+                    "Name": "wildflour.atelierbarista_calendula_sachet",
+                    "DisplayName": "{{i18n:atelierbarista_calendula_sachet.name}}",
+                    "Description": "{{i18n:atelierbarista_calendula_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 67
+            },
+                "wildflour.atelierbarista_calendula_tea": {
+                    "Name": "wildflour.atelierbarista_calendula_tea",
+                    "DisplayName": "{{i18n:atelierbarista_calendula_tea.name}}",
+                    "Description": "{{i18n:atelierbarista_calendula_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 83
+            },
+                "wildflour.atelierbarista_hollyhock_sachet": {
+                    "Name": "wildflour.atelierbarista_hollyhock_sachet",
+                    "DisplayName": "{{i18n:atelierbarista_hollyhock_sachet.name}}",
+                    "Description": "{{i18n:atelierbarista_hollyhock_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 68
+            },
+                "wildflour.atelierbarista_hollyhock_tea": {
+                    "Name": "wildflour.atelierbarista_hollyhock_tea",
+                    "DisplayName": "{{i18n:atelierbarista_hollyhock_tea.name}}",
+                    "Description": "{{i18n:atelierbarista_hollyhock_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 84
+            },
+                "wildflour.atelierbarista_springpansy_sachet": {
+                    "Name": "wildflour.atelierbarista_springpansy_sachet",
+                    "DisplayName": "{{i18n:atelierbarista_springpansy_sachet.name}}",
+                    "Description": "{{i18n:atelierbarista_springpansy_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 69
+            },
+                "wildflour.atelierbarista_springpansy_tea": {
+                    "Name": "wildflour.atelierbarista_springpansy_tea",
+                    "DisplayName": "{{i18n:atelierbarista_springpansy_tea.name}}",
+                    "Description": "{{i18n:atelierbarista_springpansy_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,       
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbarista/Objects",
+                    "SpriteIndex": 85
+            }
+        }
+        }
+
+    ]
+}

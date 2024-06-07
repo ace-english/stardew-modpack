@@ -1,0 +1,180 @@
+ {
+"Changes": 
+    [
+ 
+		{
+            "LogName": "Jean Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/JeanCat",
+			"Entries": {
+
+//Conversation Topics
+	//Vanilla
+	"cc_Begin": "You're interested in that old building? Hmmmm, I wonder why?$6",
+	"cc_Boulder": "I heard strange noises near the mines last night, and now that boulder's gone.#$b#I hope no monsters take advantage of that.$4",
+	"cc_Bridge": "The quarry's mostly depleted thanks to Joja's prior activity, but you might still find it useful, @.#$b#Just be careful around that cave near there. It has a terrible smell.$4",
+	"cc_Bus": "I recognize that the bus being up and running is an improvement, especially for Pam, but I don't really like the noise it makes.$s",
+	"cc_Greenhouse": "That's a lovely new structure you have on your farm. And it's free of rats now, so feel free to plant away.$6",
+	"cc_Minecart": "Jorts, they're called a MINE cart for a reason.$4",
+	"cc_Complete": "Very impressive, @. You and your many 'friends' should be proud.$6",
+	"movieTheater": "Well, time to go see if our new theater employees are interested in a collective.",
+	"willyCrabs": "Jorts and I went to help Willy with his crab problem. Feisty, but they're tastier that way.$h",
+	"pamHouseUpgrade": "@, that was very generous of you. You understand what it means to be in a community. When one is better, we're all better.$h",
+	"pamHouseUpgradeAnonymous": "The person who funded Pam's house, who surely must be a mystery, @, is quite the generous person.$6",
+	//Vanilla+ (CFD, Mobile Phone, More CTs)
+	"Characters_MovieInvite_Invited": "A movie invite? Thank you. I'm not sure how they feel about cats, so I'll slip in after you enter.$h",
+	"ExtraDialogue_Town_DumpsterDiveComment_Adult": "Recycling, @? I'm not going to judge.#$b#Well, no more than I do normally.$6",
+	"NPC.cs.4275": "Cats don't make a big deal out of birthdays, but I'm honored to be included.$h",
+	"NPC.cs.4277": "@, your memory for birthdays is outdone only by your taste in gifts. Thank you very much.$h",
+	"NPC.cs.4279": "It's... not really my thing, but thank you, I suppose.$s/...I'll remember this, @. Watch your shoes for return 'gifts'.$a",
+	"NPC.cs.4281": "I suppose Jorts must have told you when my birthday is? Thank you./I suppose Jorts must have told you when my birthday is? Thank you.",
+	"MobilePhoneGreeting": "{{Random: Gil here. Oh, it's you, {0}. I suppose you know I'm not Gil, then. && Hi, {0}. I've been meaning to ask, {0}, how did you get Gil's number, anyway? && Hello, {0}. It's always a pleasure to receive a call from you. && Good day to you, {0}. ...Why do we have Gil's cell phone? Well, you don't think he uses it, do you? && Marlon? Oh, {0}. Sorry, he's usually the one that calls this number. &&  Hello, {0}, how can I help you? |inputSeparator=&&}}",
+	"MobilePhoneReminisce": "What's on your mind, @?",
+	"MobilePhoneInvite": "You want to do something together?",
+	"MobilePhoneGoodBye": "{{Random: Goodbye, @. Stay well. && All right, feel free to call anytime. && Goodbye, @. Let me know if you actually need to reach Gil sometime. && Bye now, @. |inputSeparator=&&}}",
+	"railroadEarthquake": "Joja caused the landslide blocking the railroad, and now an earthquake's fixed it. Nature does sometimes have a way of correcting man's mistakes.",
+	"islandResortUnlocked": "This island of yours sounds quite interesting.#$b#I wouldn't dare let Jorts go unsupervised, though.$3",
+	"jojaMartStruckByLightning": "That lightning was too close for comfort last night. I hope it doesn't mean someone... or someTHING is angry...$4",
+	"babyBoy": "Congratulations on your new family member, @. Make sure you raise them to be a fine human you and they can both be proud of.",
+	"babyGirl": "Congratulations on your new family member, @. Make sure you raise them to be a fine human you and they can both be proud of.",
+	"wedding": "A celebration of friends to welcome a happy occasion is always a reason to throw a party, don't you think?$h",
+	"event_postweddingreception": "Cats don't really understand the concept of romance that much, but we do know partnership and family. I hope you and %spouse grow an even stronger bond.",
+	"luauBest": "Jorts and I snuck some soup while Lewis was kissing up to the Governor. Even by cat standards, it was quite good.$h",
+	"luauShorts": "If I wanted to experience the unique taste of cleaning Lewis, I would do so directly.$5",
+	"luauPoisoned": "I did expect humans have some knowledge of at least what they cannot eat, but that may have been expecting too much.$s",
+	//Alecto
+	"AlectoIntroduction": "Alecto's companion Titania and I get along quite well. We have some things in common, despite her being a bird.#$b#No, I don't pounce on her. It's unprofessional to bother a fellow working animal.",
+	"AlectoWizardTower": "I need to go find Titania and talk with her sometime soon. She's never going to believe what Jorts did now.$h",
+	//JulietJessie
+	"JulietGremlin": "JORTS that is a DOG it is NOT a friend.$4",
+	//Juna
+	"JunaBeachBallet": "Juna's ballet form is lovely, but there's something rather melancholy to her dance. Perhaps that's why she prefers dancing in the rain?",
+	"JunaJunimos": "I found a gold statue of Lewis while scouting the woods with Jorts.#$b#The Mayor and I are going to have a... TALK about this.$a",
+	"JunaGone": "Juna left on the bus this morning. She had a determined look in her eyes.#$b#I hope whatever it is she's trying to accomplish, she's successful.$h",
+	//Lavril
+	"LavrilUnlocked": "There's something off about those two... I can't place my finger on it, but they're no ordinary child and talking rabbit doll. Makes my fur tingle.$4",
+	//Lucikiel
+	"LucikielArrives": "That demon seems very, very dangerous. Be careful, @.$4#$b#On the other hand, he did turn a manager into a pig, so maybe he's not all bad. I wonder how he feels about worker's rights?",
+	"ReputationIncreased": "Clint's been advocating for Lucikiel for a while. It's good to see people noticing.#$b#I think the relationship has been good for both of them.$h",
+	//RSV
+	"RSV_GH1": "Jorts and I will go up to see the new greenhouse sometime soon. I'm sure there will be some stubborn rodents that need evicting.$6",
+	"keahi_prank": "Ah... I see you've met Keahi, @.$s#$b#He has quite the reputation even in Pelican Town.$6",
+	"Lidens_Return": "I'd heard from Lenny that Alissa's parents have been gone a long time. It must have been important to keep them away.",
+	"Naomi_Return": "It's good that Naomi was able to return to Ridgeside. Those boys can't raise themselves, they need a parent present for the adult things.",
+	//Leilani
+	"LeilaniArrives": "I'm sure it's difficult for Leilani to be away from her family, but I'm also proud of her for not neglecting herself and her own pursuits.",
+	//Prank the Jojamart
+	"PTJ03": "A poetically appropriate mishap for a 'crabby' miser like Morris.$h",
+	//Pumpkin Spice
+	"pumpkin_spice_madness": "Pumpkin spice smells lovely, but please don't give Jorts any. It's really not good for us cats.",
+	//Toshinori
+	"TalkingAboutToshinori": "Toshinori is a very kindhearted person who's lived in service of others.#$b#The downside to that is that such people often have a hard time being kind to themselves...$6",
+	"ToshisSon": "I can see why Izuki and Toshinori are so close. They have similar personalities.",
+	//Jorts and Jean (lol)
+	"MeetTheCats": "Some of the townsfolk are quite comfortable with conversing. Others don't listen very well.#$b#And others who are certainly not named Lewis are just in denial.$h",
+	"ButteredJorts": "Please don't develop a drinking habit, @. As you might have heard, it leads to foolish decisions.$s",
+	"DumpsterFishing": "There's nothing wrong with using things others have discarded. I just wish they were a little more accessible for Jorts.",
+	"RubberCatting": "@, make sure you take care of your mind as well as your body. Mental health is important, too.",
+	"JortsZoomies": "Where did we get the flyers from? That's a secret.$6",
+	"OpenAllTheDoors": "Closing the store was clear retaliation for unionizing. It's illegal, but they can get away with it.#$b#I hope all those in the union still realize what they gained from this.",
+	//Other
+	"Shane_Starts_Selling": "I hope Shane does well with his new clearance bin. After all the nonsense he put up with from Morris, he deserves to make a little money at their expense.",
+	"platonic_LetterCS2CT": "Cats may seem fickle, but we're very loyal to those who earn our trust. I hope it's the same for you and your friend.$h",
+	"JeanandJorts_funstring": "Thank you again for fulfilling this request, @. It's wonderful thread and should last a long time.$h",
+	"RestauranteerMod-Loved-1": "This is just what I need to give me energy for my midnight concerts. Well done, @.$h",
+	"RestauranteerMod-Loved-2": "Perfectly cooked and seasoned to my palette. You have a deft hand in the kitchen, @.$h",
+	"RestauranteerMod-Loved-3": "Even Gil isn't this skilled at cooking for a cat. You have my respect.$h",
+	"RestauranteerMod-Liked-1": "Almost as good as hunting it myself. Thank you, @.$h",
+	"RestauranteerMod-Liked-2": "It looks delicious. Do you mind if I play with it a bit first?$h",
+	"RestauranteerMod-Liked-3": "%Jean is daintily sticking a paw in the food, and then licking her paw.",
+	"EliIntro": "Eli's ventures into the mines worry me.  It's dangerous down there.$s",
+	"EliSaloon": "We don't mind sharing space with Eli on Fridays. It gets pretty crowded in here, and Jorts thinks his feet are quite comfortable.",
+	//ES
+	"SterlingTrash": "Well, it's good that Sterling didn't make a mess all over the place, but...$3#$b#Jorts and I use those trash cans sometimes, you know.",
+	"SterlingTrain": "Jorts, no. We do not play with trains.",
+	"SterlingDrugs": "Sterling....#$b#I think he might be making a mistake. But I don't think he'll listen if I say that. Sometimes we just have to make mistakes to learn.$6",
+	"SterlingRelapse": "I'm not sure if Sterling is up for hugs at the moment, so I'll just sit near him and purr and let him make the first move. No pressure that way.",
+	"SterlingApology": "It's good that Sterling and Pierre made up. Pierre's a good influence on Sterling, but Sterling is also good for Pierre.$h",
+	"WrenFliesIn": "That plumber stood outside the Carpenters' home for several minutes before she finally entered.  I wonder if she has social anxiety or if she was nervous for some other reason.",
+	"OnTheSheShore": "Cats don't really understand pronouns, but we do understand referring to others as they're most comfortable. You don't have to understand to have respect.$h",
+	"WatchingIsForTheBirds": "Why would you want to watch birds when you could just eat them?",
+	//"ALongQueerRoad": "",
+	//"CertifiedPlumberAccountant": "",
+	//"NoticeAbbySenpai": "",
+	"ThyMet": "No, I haven't pounced Michelle. She and I get along quite well, I think.$6#$b#...I may have accidentally pounced Trevor a time or two.$3",
+	"ThyLampsOut": "Turning the lights out at night once most humans have gone to bed is a good idea. It's respectful to the natural nocturnal creatures that share this space.",
+	"ThysaniaExposed": "I don't blame Thy for being nervous about humans knowing of her existence.$2#$b#But the folks in Sunberry seem like they could be understanding and thoughtful about it.$h",
+
+
+	
+
+	// GENERIC DIALOGUE
+    "Mon": "Good day, @. Do let us know if you have any pest problems on the farm. I do enjoy a good mouse lunch.$6", 
+    "Tue": "Greetings, @. I hope you're integrating well into this community.",
+    "Wed": "Hello, @. We're usually somewhere around the town if you need us. We try to visit as many as we can.",
+    "Thu": "Don't forget to ask for help if you need it, @. You are never so strong that you don't need help.",
+    "Fri": "Hello, @. If you have need of our help, let us know.#$b#Though keep in mind that we are cats, and lack things like opposable thumbs.$h",
+    "Sat": "*yawn* Hello, @. Could you let Jorts know if it's a problem?",
+    "Sun": "@, are you feeling you have the hang of agriculture yet? If not, why not talk with some of your fellow gardeners and growers? I'm sure you could learn something.",
+
+    "Mon2": "One thing to remember, @: this isn't a big city like Zuzu. We are all dependent on each other.#$b#Big city tactics--like Joja's approach--will not work here.", 
+    "Tue2": "Morris is a greedy scumbag, but he's also a very typical greedy scumbag, unfortunately. There's thousands like him in the city.",
+    "Wed2": "I hope you're not having a problem sourcing things you need out here. Try to shop local if you can.",
+    "Thu2": "It's good to get out and enjoy nature sometimes, isn't it?$h",
+    "Fri2": "Yes, you may pet me, but only when I consent to it.$6",
+    "Sat2": "Whether or not you have children, I think it's every adult's duty to make the world better than when you were a child, for the sake of future children.",
+    "Sun2": "Best to let Jorts rest today. He had a long night dashing around the Guildhall.",
+
+    "Mon4": "Morris had the nerve to try and throw water on me! Talking about unions is a federally protected activity, you know!$a", 
+    "Tue4": "I asked Gunther if I could have a book deal. I knocked books off the shelf and he had to deal with it.$6",
+    "Wed4": "Jorts isn't smart?#$b#Well, I suppose if you expected a fish to climb a tree, you'd think it wasn't smart, either.",
+    "Thu4": "We were once city cats, but I find it's easier to be heard in a smaller place like this.",
+    "Fri4": "It's funny how even in a small town where a Monday to Friday schedule isn't the norm, everyone looks forward to Friday evenings.$h",
+    "Sat4": "I have made my scratching preferences clear to Marlon. If he chooses not to accomodate them, the bear rug is right there.$6",
+    "Sun4": "I don't mind cleaning Jorts, even when he gets into trash. I like caring for others.#$b#Though I suppose that's no great surprise, given that it is my job.$h",
+
+    "Mon6": "People are all deserving of proper pay and safe working conditions! And if someone doesn't get that, I'll claw their legs.$a",
+    "Tue6": "I hope you won't try and put a collar on me, or Yoba forbid, a *hat*. Please respect my autonomy.",
+    "Wed6": "Some people act like they hit a home run when they were born on third base.$a",
+    "Thu6": "Things might seem unreasonably unfair, @. But once you can name an unfairness, you can take steps to address it.",
+    "Fri6": "%Jean is talking to herself.#$b#Okay, Jean, it's a lot of noise but you can always hide under the counter and let Jorts take over.",
+    "Sat6": "I normally don't mind cleaning Jorts, but slime is, uh... let's just say it's not good for cats.",
+    "Sun6": "Jorts always knows when I need to take a break. He can handle any human, no matter how loud they are.#$b#He cleans up nicely, too.$h",
+
+
+    "Mon8": "I suppose I *could* just drink water from the river, but it's tastier when I dip my paw into your glass and lick that instead.$6",
+    "Tue8": "If someone doesn't like cats, can you really trust them? Truly?$6",
+    "Wed8": "@, if you're struggling, try and imagine I'm sitting next to you and purring. I don't have a loud purr, but you can feel it.",
+    "Thu8": "The way Jorts walks ahead of me with his tail in the air, completely confident... it's quite adorable.$h",
+    "Fri8": "Do you feel like you're part of the community now, @? Remember there are people here that support you like you support them.",
+    "Sat8": "I don't care if they are scary, the next monster I find investigating my litterbox is going to get it.$a",
+    "Sun8": "@, you look like you've had a rough day. If you'd like, sit down and I'll clean you up a little.",
+
+    "Mon10": "Sometimes, deciding *not* to do something is braver than doing it.",
+    "Tue10": "Make sure you're taking time to rest, @. You don't have to be productive all the time.#$b#If it was something you enjoyed, it's not wasted time.$h",
+    "Wed10": "@, when people compliment you, I hope you take it to heart and don't downplay it.#$b#It might be embarrassing but I bet it still feels better than brushing it off and insulting yourself.$h",
+    "Thu10": "You know, no one 'invented' the car by themselves. It was a bunch of little inventions from all sorts of people that make the cars you know now.#$b#Your accomplishments are built on the work and knowledge of others. But so are the ones of the supposed 'geniuses' out there.",
+    "Fri10": "I'm giving lots of advice lately? Well, I suppose that's true.#$b#I care about you, so I want to make sure you hear the thing you need to hear.",
+    "Sat10": "Here, @. I had a good fishing day and I'd like to share. [149 151 698 704 707 715]",
+    "Sun10": "Occasionally I'm afraid to ask a question because I don't want to look silly, but then Jorts asks it for me.#$b#It's good to ask 'silly' questions in case others need to hear the answer, too.$h",   
+   
+   "rain":  "{{Random: I don't like rain. It's wet and cold and gets everywhere.$s && Ugh, I HATE thunder....$s && Today seems like a good day to stay inside and clean oneself. Without water.$6 && We're taking the day off today. We don't dry as easily as humans do. && I might get in the water while fishing, yes, but that's completely different from RAIN.$s |inputSeparator=&&}}",	
+
+	// SPECIFIC DAY DIALOGUE
+	"spring_1": "I hope you were able to get some rest during winter, @. Now the cycle begins again.",
+	"summer_1": "Stardew is not only hot during the summer, but the ocean and lakes make it quite humid. It's even more important to stay cool and hydrated, @.",
+	"fall_1": "Do you think summer or fall is busier for you, @? Lots of crops need the warmer weather, but it's *too* warm for some.",
+	"winter_1": "Are you staying warm, @? Humans don't have enough fur for this sort of weather.",
+	"spring_12": "Even if you're not fond of chicken eggs, there should be something you'll like at the festival tomorrow. Gus is pretty thoughtful about vegetarian options.", // Day before the Egg Festival
+	"spring_23": "There isn't really much for cats at the Flower Dance, but that's okay. Not everything has to cater to a specific person.", // Day before the Flower Dance
+	"summer_10": "Honestly, there's no way the soup should come together well, but yet it always does.#$b#As long as you bring something high quality, I'm sure it will be fine.", // Day before the Luau
+	"summer_27": "I hope you'll go out to see the jellies tomorrow, @.#$b#Even if you're surrounded by it, it's good to be reminded how majestic nature can be.$h", // Day before the Midnight Jellies
+	"fall_9": "Did you know it's my birthday today? I don't need any gifts other than your support for workers.#$b#Though a ball of string will also be accepted with gratitude.$h",
+	"fall_15": "Why does Jorts want to knock everything off the display tables? A simple zest for life, I'd say.$6", // Day before the Stardew Fair
+	"fall_26": "Spirit's Eve is a festival that is designed to placate restless, angry spirits.#$b#And believe me, they DO need placated.$4", // Day before Spirit's Eve
+	"winter_7": "I'll need to figure out the best time to grab a few fish from the competition. It's a waste to put them all back, if you ask me.", // Day before the Ice Festival
+	"winter_24": "Don't stress too much about the gift exchange, @. The best presents are the ones that have thought put into them.$h", // Day before Winter Star
+			}
+        }
+    ]
+}

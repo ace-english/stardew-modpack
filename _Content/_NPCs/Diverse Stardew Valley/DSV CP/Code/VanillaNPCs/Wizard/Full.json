@@ -1,0 +1,259 @@
+{
+// WIZARD DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Wizard Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Wizard", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Wizard.Indoor":
+				{
+					"Id": "{{ModId}}_Wizard_Indoor",
+					"Portrait": "Portraits/Wizard_Indoor",
+					"Sprite": "Characters/Wizard_Indoor",
+					"Indoors": true,
+					//"Outdoors": false,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				/*"DSV.Wizard.EggFestival":
+				{
+					"Id": "{{ModId}}_Wizard_EggFestival",
+					"Portrait": "Portraits/Wizard_EggFestival",
+					"Sprite": "Characters/Wizard_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Wizard.FlowerDance":
+				{
+					"Id": "{{ModId}}_Wizard_FlowerDance",
+					"Portrait": "Portraits/Wizard_FlowerDance",
+					"Sprite": "Characters/Wizard_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Wizard.Luau":
+				{
+					"Id": "{{ModId}}_Wizard_Luau",
+					"Portrait": "Portraits/Wizard_Luau",
+					"Sprite": "Characters/Wizard_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Wizard.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Wizard_MoonlightJellies",
+					"Portrait": "Portraits/Wizard_MoonlightJellies",
+					"Sprite": "Characters/Wizard_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Wizard.SVFair":
+				{
+					"Id": "{{ModId}}_Wizard_SVFair",
+					"Portrait": "Portraits/Wizard_SVFair",
+					"Sprite": "Characters/Wizard_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Wizard.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Wizard_SpiritsEve",
+					"Portrait": "Portraits/Wizard_SpiritsEve",
+					"Sprite": "Characters/Wizard_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Wizard.IceFestival":
+				{
+					"Id": "{{ModId}}_Wizard_IceFestival",
+					"Portrait": "Portraits/Wizard_IceFestival",
+					"Sprite": "Characters/Wizard_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Wizard.WinterStar":
+				{
+					"Id": "{{ModId}}_Wizard_WinterStar",
+					"Portrait": "Portraits/Wizard_WinterStar",
+					"Sprite": "Characters/Wizard_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},*/
+			// OTHER
+				"DSV.Wizard.NewRobes":
+				{
+					"Id": "{{ModId}}_Wizard_NewRobe",
+					"Portrait": "Portraits/Wizard_NewRobe",
+					"Sprite": "Characters/Wizard_NewRobe",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT 123001, {{HasMod |contains= Inmognito.wizrobe}}\" \"PLAYER_HAS_SEEN_EVENT Current 123001, TIME 0600 1000, {{HasMod |contains= Inmognito.wizrobe}}\" \"PLAYER_HAS_SEEN_EVENT Current 123001, !TIME 0600 1000, RANDOM 0.2, {{HasMod |contains= Inmognito.wizrobe}}\"",
+					"Precedence": -150
+				},
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Wizard Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Wizard_Indoor, Characters/Wizard_Indoor",
+			"FromFile": "Art/VanillaNPCs/Wizard/{{TargetPathOnly}}/{{WizardMarriageToken}}/{{DSV.Core/ConfigValue:WizardVariant}}/Wizard_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WizardVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Wizard Load - New Robes",
+			"Action": "Load",
+			"Target": "Portraits/Wizard_NewRobe, Characters/Wizard_NewRobe",
+			"FromFile": "Art/VanillaNPCs/Wizard/{{TargetPathOnly}}/{{WizardMarriageToken}}/{{DSV.Core/ConfigValue:WizardVariant}}/Wizard_Spring_NewRobe.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WizardVariant|contains= Off": false
+			}
+		},
+		/*{
+			"LogName": "Wizard Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Wizard_EggFestival, Characters/Wizard_EggFestival, Portraits/Wizard_FlowerDance, Characters/Wizard_FlowerDance, Portraits/Wizard_Luau, Characters/Wizard_Luau, Portraits/Wizard_MoonlightJellies, Characters/Wizard_MoonlightJellies, Portraits/Wizard_SVFair, Characters/Wizard_SVFair, Portraits/Wizard_SpiritsEve, Characters/Wizard_SpiritsEve, Portraits/Wizard_IceFestival, Characters/Wizard_IceFestival, Portraits/Wizard_WinterStar, Characters/Wizard_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Wizard/{{TargetPathOnly}}/{{WizardMarriageToken}}/{{DSV.Core/ConfigValue:WizardVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WizardVariant|contains= Off": false
+			}
+		},*/
+
+	// EDITS
+
+		{
+			"LogName": "Wizard Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard_Indoor, Characters/Wizard_Indoor",
+			"FromFile": "Art/VanillaNPCs/Wizard/{{TargetPathOnly}}/{{WizardMarriageToken}}/{{DSV.Core/ConfigValue:WizardVariant}}/Wizard_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Wizard New Robe",
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard_NewRobe, Characters/Wizard_NewRobe",
+			"FromFile": "Art/VanillaNPCs/Wizard/{{TargetPathOnly}}/{{WizardMarriageToken}}/{{DSV.Core/ConfigValue:WizardVariant}}/Wizard_{{season}}_NewRobe.png"
+		},
+		{
+			"LogName": "Wizard Krobus Raven",
+			"Action": "EditImage",
+			"Target": "Characters/KrobusRaven",
+			"FromFile": "Art/VanillaNPCs/Wizard/Characters/{{WizardMarriageToken}}/{{DSV.Core/ConfigValue:WizardVariant}}/KrobusRaven_{{season}}_1.png",
+			"PatchMode": "Overlay"
+		},
+		
+// MISC
+		{
+			"LogName": "Wizard Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Wizard/Misc/Wizard_Emoji_{{DSV.Core/ConfigValue:WizardVariant}}.png",
+			"ToArea": {"X": 90, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:WizardVariant|contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Wizard Junimo Note",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "Art/VanillaNPCs/Wizard/Misc/Junimo_Wizard_Modded.png",
+			"ToArea": { "X": 416, "Y": 212, "Width": 32, "Height": 32 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:WizardVariant|contains= Vanilla": false
+			}
+		},
+		
+// COMPATIBILITY
+		{
+			"LogName": "Wizard Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard_Indoor",
+			"FromFile": "Art/VanillaNPCs/Wizard/Misc/MermaidPendants/Wizard_Pendant_{{DSV.Core/ConfigValue:WizardVariant}}_{{WizardMarriageToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"Relationship:Wizard |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Mods/Wolf.RomRas/Rasmodius_Portrait",
+			"FromFile": "Art/VanillaNPCs/Wizard/Misc/Wizard_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}{{WizardPortraitToken}}.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+			  	"HasMod |contains=Wolf.RomRas": true,
+				"DSV.Core/ConfigValue:WizardVariant|contains= Vanilla": false
+			}
+		},
+		
+// FAMILIAR OVERLAYS
+		{
+			"LogName": "Wizard Familiars - Hat Junimos",
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard_Indoor",
+			"FromFile": "Art/VanillaNPCs/{{TargetWithoutPath}}/{{TargetPathOnly}}/{{WizardMarriageToken}}/{{DSV.Core/ConfigValue:WizardVariant}}/Overlays/HatJunimos/Hat_Junimo_{{Random: x, x, x, x, x, x, x, x, x, x, x, x, Blue, Cyan, Green, Orange, Pink, Purple, Red, Yellow |key=WizardHatJunimo}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:WizardFamiliarsHatJunimo": true,
+				"Hearts:Wizard": "{{Range: 2, 14}}"
+			}
+		},
+		{
+			"LogName": "Wizard Familiars - Shoulder Junimos",
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard_Indoor",
+			"FromFile": "Art/VanillaNPCs/{{TargetWithoutPath}}/{{TargetPathOnly}}/{{WizardMarriageToken}}/{{DSV.Core/ConfigValue:WizardVariant}}/Overlays/ShoulderJunimos/{{Random: x, x, x, x, x, Shoulder |key=WizardShoulderJunimo}}_Junimo_{{Season}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:WizardFamiliarsShoulderJunimo": true,
+				"Relationship:Wizard |contains= Unmet": false,
+				"Hearts:Wizard": "{{Range: 4, 14}}"
+			}
+		},
+		{
+			"LogName": "Wizard Familiars - Spirit Creatures",
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard_Indoor",
+			"FromFile": "Art/VanillaNPCs/{{TargetWithoutPath}}/{{TargetPathOnly}}/{{WizardMarriageToken}}/{{DSV.Core/ConfigValue:WizardVariant}}/Overlays/SpiritCreatures/Spirit_Creature_{{Random: x, x, x, x, x, x, x, x, x, Bird, Butterfly, Dragon, Dragonfly, Flower, Frog, Ice, Solar, Void |key=WizardSpiritCreature}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:WizardFamiliarsSpirit": true,
+				"Relationship:Wizard |contains= Unmet": false
+			}
+		}
+	]
+}

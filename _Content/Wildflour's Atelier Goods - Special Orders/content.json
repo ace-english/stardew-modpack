@@ -1,0 +1,138 @@
+{
+    "Format": "2.0.0",
+
+    "DynamicTokens": [],
+
+    "Changes": [
+      
+         //SPECIAL ORDERS MAIL
+
+         {
+            "LogName": "Ales Meads Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail_alesxmeads.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOAlesMeads": "True"}
+        },
+
+        {
+            "LogName": "Beverages Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail_beverages.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOBeverages": "True"}
+        },
+
+        {
+            "LogName": "Candy Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail_candy.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOCandy": "True"}
+        },
+
+        {
+            "LogName": "Barista Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail_barista.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOBarista": "True"}
+        },
+
+        {
+            "LogName": "Floral Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail_floral.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOFloral": "True"}
+        },
+
+        {
+            "LogName": "Frozen Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail_frozen.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOFrozen": "True"}
+        },
+
+        {
+            "LogName": "Jams Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail_jams.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOJams": "True"}
+        },
+
+        {
+            "LogName": "Pantry Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail_pantry.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOPantry": "True"}
+        },
+
+        {
+            "LogName": "Wild Food Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail_wildfood.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOWildFood": "True"}
+        },
+
+        //SPECIAL ORDERS
+
+        {
+            "LogName": "Ales and Meads Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/so_alesxmeads.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOAlesMeads": "True"}
+        },
+
+        {
+            "LogName": "Beverage Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/so_beverages.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOBeverages": "True"}
+        },
+
+        {
+            "LogName": "Candy Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/so_candy.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOCandy": "True"}
+        },
+
+        {
+            "LogName": "Barista Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/so_barista.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOBarista": "True"}
+        },
+
+        {
+            "LogName": "Floral Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/so_floral.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOFloral": "True"}
+        },
+
+        {
+            "LogName": "Frozen Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/so_frozen.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOFrozen": "True"}
+        },
+
+        {
+            "LogName": "Jams Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/so_jams.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOJams": "True"}
+        },
+
+        {
+            "LogName": "Pantry Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/so_pantry.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SOPantry": "True"}
+        },
+        
+        {
+            "LogName": "Wild Food Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/so_wildfood.json",
+            "When": {"Atelier.Cauldron/ConfigValue:SOWildFood": true}
+        }
+    ]
+}

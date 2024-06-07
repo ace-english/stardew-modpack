@@ -1,0 +1,326 @@
+{
+
+//KETTLE
+
+"atelierbarista_TeaProcessor.name": "Processador de Chá",
+"atelierbarista_TeaProcessor.description": "Pode criar saquinhos de chá embalados a partir de vários ingredientes.",
+
+"atelierbarista_TeaKettle.name": "Chaleira de Chá",
+"atelierbarista_TeaKettle.description": "Prepara chás especiais.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_TeaProcessor_InvalidItem.message": "Não é possível processar isso",
+"atelierbarista_TeaProcessor_InvalidCount.message": "Requer Folhas de Chá",
+
+"atelierbarista_TeaKettle_InvalidItem.message": "Não é possível processar isso",
+"atelierbarista_TeaKettle_InvalidCount.message": "Requer Mel",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierbarista_flavored_sachet":"{0} Sachê de chá",
+"atelierbarista_flavored_tea":"{0} Chá",
+
+
+////////////////////////////////
+// NEW FLAVORED GENERIC ITEMS //
+////////////////////////////////
+
+"atelierbarista_flavored_sachet.name":"Sachê de chá",
+"atelierbarista_flavored_sachet.description":"Uma mistura personalizada de sabores únicos combinados em um sachê de chá.",
+
+"atelierbarista_flavored_tea.name":"Chá",
+"atelierbarista_flavored_tea.description":"Uma xícara de chá fresco feita com um sachê de chá artesanal.",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"atelierbarista_gardenia_sachet.name": "Sachê de Chá de Gardenia",
+"atelierbarista_gardenia_sachet.description": "Uma mistura personalizada de sabores únicos combinados em um sachê de chá.",
+
+"atelierbarista_hibiscus_sachet.name": "Sachê de Chá de Hibisco",
+"atelierbarista_hibiscus_sachet.description": "Uma mistura personalizada de sabores únicos combinados em um sachê de chá.",
+
+"atelierbarista_gardenia_tea.name": "Chá de Gardenia",
+"atelierbarista_gardenia_tea.description": "Uma xícara de chá fresco com sabor de gardenia.",
+
+"atelierbarista_hibiscus_tea.name": "Chá de Hibisco",
+"atelierbarista_hibiscus_tea.description": "Uma xícara de chá fresco com sabor de hibisco.",
+
+"atelierbarista_borage_sachet.name": "Sachê de Chá de Borragem",
+"atelierbarista_borage_sachet.description": "Uma mistura personalizada de sabores únicos combinados em um sachê de chá.",
+
+"atelierbarista_calendula_sachet.name": "Sachê de Chá de Calêndula",
+"atelierbarista_calendula_sachet.description": "Uma mistura personalizada de sabores únicos combinados em um sachê de chá.",
+
+"atelierbarista_borage_tea.name": "Chá de Borragem",
+"atelierbarista_borage_tea.description": "Uma xícara de chá fresco com sabor de flores de borragem.",
+
+"atelierbarista_calendula_tea.name": "Chá de Calêndula",
+"atelierbarista_calendula_tea.description": "Uma xícara de chá fresco com sabor de flores de calêndula.",
+
+"atelierbarista_hollyhock_sachet.name": "Sachê de Chá de Malva",
+"atelierbarista_hollyhock_sachet.description": "Uma mistura personalizada de sabores únicos combinados em um sachê de chá.",
+
+"atelierbarista_springpansy_sachet.name": "Sachê de Chá de Amor-Perfeito",
+"atelierbarista_springpansy_sachet.description": "Uma mistura personalizada de sabores únicos combinados em um sachê de chá.",
+
+"atelierbarista_hollyhock_tea.name": "Chá de Malva",
+"atelierbarista_hollyhock_tea.description": "Uma xícara de chá fresco com sabor de flores de malva.",
+
+"atelierbarista_springpansy_tea.name": "Chá de Amor-Perfeito",
+"atelierbarista_springpansy_tea.description": "Uma xícara de chá fresco com sabor de pansies.",
+
+"atelierbarista_orangeblossom_sachet.name": "Sachê de Chá de Flor de Laranjeira",
+"atelierbarista_orangeblossom_sachet.description": "Uma mistura personalizada de sabores únicos combinados em um sachê de chá.",
+
+"atelierbarista_orangeblossom_tea.name": "Chá de Flor de Laranjeira",
+"atelierbarista_orangeblossom_tea.description": "Uma xícara de chá fresco com sabor de flores de laranjeira.",
+
+
+
+//TEA SACHETS
+
+"atelierbarista_apple_sachet.name": "Saquinho de Chá de Maçã de Outono",
+"atelierbarista_apple_sachet.description": "Especiarias quentes se misturam com maçãs crocantes, tornando esta mistura de chá perfeita para uma tarde de outono fria.",
+
+"atelierbarista_vanilla_sachet.name": "Saquinho de Chá de Baunilha Calico",
+"atelierbarista_vanilla_sachet.description": "Esta mistura de chá de baunilha é perfeita para acalmar a mente e o corpo.",
+
+"atelierbarista_matcha_sachet.name": "Saquinho de Chá Matcha Cerimonial",
+"atelierbarista_matcha_sachet.description": "Uma mistura de chá de grau cerimonial feita a partir das primeiras folhas da colheita.",
+
+"atelierbarista_cinnamon_sachet.name": "Saquinho de Chá de Especiarias de Canela",
+"atelierbarista_cinnamon_sachet.description": "Uma mistura de folhas de chá e canela em pó Cindersap, perfeita para fazer chá.",
+
+"atelierbarista_chamomile_sachet.name": "Saquinho de Chá de Camomila Aconchegante",
+"atelierbarista_chamomile_sachet.description": "Flores de camomila secas misturadas com outras ervas calmantes para produzir uma mistura de chá relaxante.",
+
+"atelierbarista_breakfast_sachet.name": "Saquinho de Chá da Manhã Inglês",
+"atelierbarista_breakfast_sachet.description": "Uma mistura de chá robusta e encorpada.",
+
+"atelierbarista_jasmine_sachet.name": "Saquinho de Chá de Jasmim Fragrante",
+"atelierbarista_jasmine_sachet.description": "Uma mistura de folhas de chá e pétalas de jasmim perfumadas, perfeita para fazer chá.",
+
+"atelierbarista_ginger_sachet.name": "Saquinho de Chá de Pêssego com Gengibre",
+"atelierbarista_ginger_sachet.description": "Uma mistura de chá que combina a doçura frutada dos pêssegos com o calor picante do gengibre.",
+
+"atelierbarista_grey_sachet.name": "Saquinho de Chá Lady Grey",
+"atelierbarista_grey_sachet.description": "Uma mistura mais suave e sutil do que o Earl Grey, com toques de limão e laranja.",
+
+"atelierbarista_lemon_sachet.name": "Saquinho de Chá de Limão com Gengibre",
+"atelierbarista_lemon_sachet.description": "Uma mistura de chá revigorante feita com o zest de limões pequenos e gengibre seco.",
+
+"atelierbarista_mint_sachet.name": "Saquinho de Chá de Menta Alegre",
+"atelierbarista_mint_sachet.description": "Uma mistura de chá refrescante frequentemente preparada para aliviar sintomas de resfriados e gripes.",
+
+"atelierbarista_berry_sachet.name": "Saquinho de Chá de Frutos Silvestres",
+"atelierbarista_berry_sachet.description": "Uma mistura de chá encorpada com aroma de frutas vermelhas frescas.",
+
+"atelierbarista_peach_sachet.name": "Peach Mango Tea Sachet",
+"atelierbarista_peach_sachet.description": "A delightful blend of peach and mango flavor!",
+
+"atelierbarista_pineapple_sachet.name": "Pineapple Coconut Tea Sachet",
+"atelierbarista_pineapple_sachet.description": "Sweet pineapple and refreshing coconut blend to instantly take you on an island getaway.",
+
+"atelierbarista_pomegranate_sachet.name": "Saquinho de Chá de Verde com Romã",
+"atelierbarista_pomegranate_sachet.description": "Uma mistura de chá herbácea e animada com destaque para a romã brilhante.",
+
+"atelierbarista_raspberry_sachet.name": "Saquinho de Chá de Framboesa",
+"atelierbarista_raspberry_sachet.description": "Uma suave mistura de chá Ferngill que apresenta o sabor de framboesas ácidas.",
+
+"atelierbarista_rose_sachet.name": "Saquinho de Chá de Pétalas de Rosa",
+"atelierbarista_rose_sachet.description": "Uma mistura de chá feita com as pétalas e botões da roseira.",
+
+"atelierbarista_sakura_sachet.name": "Saquinho de Chá de Sakura",
+"atelierbarista_sakura_sachet.description": "Uma mistura de chá feita com flores de cerejeira preservadas.",
+
+"atelierbarista_strawberry_sachet.name": "Saquinho de Chá de Morango Selvagem",
+"atelierbarista_strawberry_sachet.description": "Uma doce mistura de chá feita com morangos silvestres de verão.",
+
+//TEA
+
+"atelierbarista_apple_tea.name": "Chá de Maçã de Outono",
+"atelierbarista_apple_tea.description": "Chá de maçã fresco e recém-preparado.",
+
+"atelierbarista_vanilla_tea.name": "Chá de Baunilha Calico",
+"atelierbarista_vanilla_tea.description": "Chá de baunilha fresco e recém-preparado.",
+
+"atelierbarista_matcha_tea.name": "Chá de Matcha Cerimonial",
+"atelierbarista_matcha_tea.description": "Chá de matcha fresco e recém-preparado.",
+
+"atelierbarista_cinnamon_tea.name": "Chá de Especiarias de Canela",
+"atelierbarista_cinnamon_tea.description": "Chá de canela fresco e recém-preparado.",
+
+"atelierbarista_chamomile_tea.name": "Chá de Camomila Aconchegante",
+"atelierbarista_chamomile_tea.description": "Chá de camomila fresco e recém-preparado.",
+
+"atelierbarista_breakfast_tea.name": "Chá da Manhã Inglês",
+"atelierbarista_breakfast_tea.description": "Chá da manhã inglês fresco e recém-preparado.",
+
+"atelierbarista_jasmine_tea.name": "Chá de Jasmim Perfumado",
+"atelierbarista_jasmine_tea.description": "Chá de jasmim fresco e recém-preparado.",
+
+"atelierbarista_ginger_tea.name": "Chá de Pêssego e Gengibre",
+"atelierbarista_ginger_tea.description": "Chá de pêssego e gengibre fresco e recém-preparado.",
+
+"atelierbarista_grey_tea.name": "Chá Lady Grey",
+"atelierbarista_grey_tea.description": "Chá Lady Grey fresco e recém-preparado.",
+
+"atelierbarista_lemon_tea.name": "Chá de Limão e Gengibre",
+"atelierbarista_lemon_tea.description": "Chá de limão e gengibre fresco e recém-preparado.",
+
+"atelierbarista_mint_tea.name": "Chá de Menta Refrescante",
+"atelierbarista_mint_tea.description": "Chá de hortelã fresco e recém-preparado.",
+
+"atelierbarista_berry_tea.name": "Chá de Frutas Silvestres",
+"atelierbarista_berry_tea.description": "Chá de frutas silvestres fresco e recém-preparado.",
+
+"atelierbarista_peach_tea.name": "Chá de Pêssego e Manga",
+"atelierbarista_peach_tea.description": "Chá de pêssego e manga fresco e recém-preparado.",
+
+"atelierbarista_pineapple_tea.name": "Chá de Abacaxi e Coco",
+"atelierbarista_pineapple_tea.description": "Chá de abacaxi e coco fresco e recém-preparado.",
+
+"atelierbarista_pomegranate_tea.name": "Chá Verde com Romã",
+"atelierbarista_pomegranate_tea.description": "Chá verde de romã fresco e recém-preparado.",
+
+"atelierbarista_raspberry_tea.name": "Chá de Framboesa",
+"atelierbarista_raspberry_tea.description": "Chá de framboesa fresco e recém-preparado.",
+
+"atelierbarista_rose_tea.name": "Chá de Pétalas de Rosa",
+"atelierbarista_rose_tea.description": "Chá de pétalas de rosa fresco e recém-preparado.",
+
+"atelierbarista_sakura_tea.name": "Chá de Sakura",
+"atelierbarista_sakura_tea.description": "Chá de sakura fresco e recém-preparado.",
+
+"atelierbarista_strawberry_tea.name": "Chá de Morango Selvagem",
+"atelierbarista_strawberry_tea.description": "Chá de morango silvestre fresco e recém-preparado.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierbarista_TeaProcessorRecipe.name": "Hora de Produzir Saquinhos de Chá Artesanais!",
+"atelierbarista_TeaProcessorRecipe.text": "@, ^^ Se você realmente quer se aprofundar na preparação de chá, deveria tentar fazer um desses processadores. Ele tem uma maneira integrada de fazer saquinhos de chá também! Adoraria experimentar quaisquer novos chás que você criar.^^ - Elliott",
+
+"atelierbarista_TeaKettleRecipe.name": "Coloque a Chaleira para Ferver",
+"atelierbarista_TeaKettleRecipe.text": "@, ^^ Acho que uma chaleira de chá pessoal realmente traria aconchego para sua casa; aqui está como você pode criar uma você mesmo! Só não se esqueça de me convidar para o chá da tarde quando fizer isso.^^ - Caroline",
+
+"atelierbarista_evelyn_gift.name": "Sementes para Você",
+"atelierbarista_evelyn_gift.text": "@, ^^ Ouvi dizer que você está aprendendo mais sobre a preparação de chá! Que aventura maravilhosa você está prestes a começar. Aqui estão algumas sementes de camomila do meu jardim. As flores fazem um chá herbal calmante que ajuda a dormir.^^ - Evelyn",
+
+"atelierbarista_leah_gift.name": "Para Seu Jardim de Chá",
+"atelierbarista_leah_gift.text": "@, ^^ Como está indo a preparação de chá? Se você estiver com dificuldades para colher folhas de chá suficientes, ficarei feliz em compartilhar algumas sementes com você! Elas vão criar arbustos de chá resistentes para que você possa fazer todo o chá que desejar.^^ - Leah",
+
+"atelierbarista_maru_gift.name": "Fermentando o Chá",
+"atelierbarista_maru_gift.text": "@, ^^ Você sabia que pode fermentar chá para fazer kombucha? Não é para todos os gostos, mas eu acho que é borbulhante e delicioso! Você vai querer começar a cultivar alguns desses cogumelos para ajudar na fermentação.^^ - Maru",
+
+//////////////////
+// COFFEE BEGIN //
+//////////////////
+
+"atelierbarista_CoffeeGrinder.name": "Moedor de Café",
+"atelierbarista_CoffeeGrinder.description": "Um moedor para processar grãos e ingredientes em blends de café personalizados.",
+
+"atelierbarista_CoffeeBrewer.name": "Cafeteira",
+"atelierbarista_CoffeeBrewer.description": "Um bule para preparar lattes gourmet.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_CoffeeGrinder_InvalidItem.message": "Não é possível processar isso",
+"atelierbarista_CoffeeGrinder_InvalidCount.message": "Requer 15 grãos de café",
+
+"atelierbarista_CoffeeBrewer_InvalidItem.message": "Não é possível processar isso",
+"atelierbarista_CoffeeBrewer_InvalidCount.message": "Requer Leite", 
+
+///////////////////
+// GROUND COFFEE //
+///////////////////
+
+"atelierbarista_breakfast_ground.name":"Mistura de Pó de Café para Café da Manhã",
+"atelierbarista_breakfast_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+"atelierbarista_vanilla_ground.name":"Pó de Café de Baunilha",
+"atelierbarista_vanilla_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+"atelierbarista_cold_ground.name":"Pó de Café para Café Gelado",
+"atelierbarista_cold_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+"atelierbarista_donut_ground.name":"Pó de Café Donut Shoppe",
+"atelierbarista_donut_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+"atelierbarista_hazelnut_ground.name":"Pó de Café de Avelã",
+"atelierbarista_hazelnut_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+"atelierbarista_holiday_ground.name":"Pó de Café com Mistura de Férias",
+"atelierbarista_holiday_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+"atelierbarista_mocha_ground.name":"Pó de Café de Mocha",
+"atelierbarista_mocha_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+"atelierbarista_pumpkin_ground.name":"Pó de Café de Abóbora e Especiarias",
+"atelierbarista_pumpkin_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+"atelierbarista_sweetheart_ground.name":"Pó de Café para Mistura de Coração",
+"atelierbarista_sweetheart_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+"atelierbarista_coconut_ground.name":"Pó de Café de Coco Tostado",
+"atelierbarista_coconut_ground.description":"Grãos de café moídos frescos, embalados e prontos para serem transformados em café delicioso!",
+
+////////////
+// DRINKS //
+////////////
+
+"atelierbarista_breakfast_latte.name": "Latte Café da Manhã",
+"atelierbarista_breakfast_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+"atelierbarista_vanilla_latte.name": "Latte de Baunilha",
+"atelierbarista_vanilla_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+"atelierbarista_cold_latte.name": "Café Gelado Clássico",
+"atelierbarista_cold_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+"atelierbarista_donut_latte.name": "Latte Donut Shoppe",
+"atelierbarista_donut_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+"atelierbarista_hazelnut_latte.name": "Latte de Avelã",
+"atelierbarista_hazelnut_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+"atelierbarista_holiday_latte.name": "Latte Mistura de Férias",
+"atelierbarista_holiday_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+"atelierbarista_mocha_latte.name": "Latte de Mocha Rico",
+"atelierbarista_mocha_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+"atelierbarista_pumpkin_latte.name": "Latte Aconchegante de Abóbora e Especiarias",
+"atelierbarista_pumpkin_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+"atelierbarista_sweetheart_latte.name": "Latte de Coração",
+"atelierbarista_sweetheart_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+"atelierbarista_coconut_latte.name": "Latte de Coco Tostado",
+"atelierbarista_coconut_latte.description": "Café fresco recém-coado. Tão aconchegante!",
+
+
+////////////
+/// MAIL ///
+////////////
+
+"atelierbarista_BrewerRecipe.text": "@, ^^ Às vezes você precisa da sua própria cafeteira pessoal para quando está acordado até tarde e não tem vontade de ir até a cozinha. Ah, é verdade. Acho que você não precisa se preocupar em acordar seus pais. Bom, eu já comecei a escrever isso então... aqui está. ^^ - Sebastian",
+"atelierbarista_GrinderRecipe.text": "@, ^^ Moer meus próprios grãos de café resulta em uma xícara de café superior, e por isso decidi compartilhar os planos do meu moedor de café favorito com você. Apenas lembre-se, muito café pode te deixar agitado, então tudo com moderação!^^ - Harvey",
+"atelierbarista_haley.text": "@, ^^ É uma pena que não tenhamos uma cafeteria fofa nesta cidade, mas pelo menos agora posso te visitar para tomar um bom latte. Talvez faça um mocha latte para mim na próxima vez que eu visitar?^^ - Haley",
+"atelierbarista_george.text": "@, ^^ Evelyn tem seus chás, mas para mim, uma boa xícara de café forte é sempre bem-vinda. Ela até me fez um latte de baunilha uma vez... isso foi bastante bom, eu acho. De qualquer forma, talvez você possa fazer um com essas vagens de baunilha.^^ - George",
+"atelierbarista_sebastian.text": "@, ^^ Já tentou fazer cold brew? Ainda tem toda a cafeína e sabor sem qualquer amargor, então eu definitivamente recomendaria. Aqui, esses ingredientes podem te ajudar a criar uma mistura para cold brew se usá-los corretamente.^^ - Sebastian",
+
+
+}

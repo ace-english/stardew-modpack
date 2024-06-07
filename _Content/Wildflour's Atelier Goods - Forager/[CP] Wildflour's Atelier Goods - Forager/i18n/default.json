@@ -1,0 +1,590 @@
+{
+
+//NEW CATEGORIES
+
+"ateliercrops_nut.category":"Nut",
+"ateliercrops_herb.category":"Herb",
+"ateliercrops_mushroom.category":"Mushroom",
+"ateliercrops_root.category":"Root",
+"ateliercrops_feather.category":"Feather",
+"ateliercrops_magic.category":"Magickal Item",
+"ateliercrops_magic_fruit.category":"Magical Fruit",
+"ateliercrops_magic_flower.category":"Magical Flower",
+
+//NEW BUSHES
+
+	"ateliercrops_StrawberryBush.name":"Wild Strawberry Bush",
+	"ateliercrops_StrawberryBush.description":"A bush that grows wild strawberries in spring.",
+
+	"ateliercrops_RaspberryBush.name":"Wild Raspberry Bush",
+	"ateliercrops_RaspberryBush.description":"A bush that grows wild raspberries in summer.",
+
+	"ateliercrops_ValerianBush.name":"Valerian Bush",
+	"ateliercrops_ValerianBush.description":"A bush that grows valerian in spring.",
+
+	"ateliercrops_MugwortBush.name":"Mugwort Bush",
+	"ateliercrops_MugwortBush.description":"A bush that grows mugwort in summer and fall",
+
+	"ateliercrops_ThistleBush.name":"Thistle Bush",
+	"ateliercrops_ThistleBush.description":"A bush that grows thistle in summer.",
+
+	"ateliercrops_RoseFlaxBush.name":"Rose Flax Bush",
+	"ateliercrops_RoseFlaxBush.description":"A bush that grows Rose Flax in spring, summer, and fall.",
+
+	"ateliercrops_VioletFlaxBush.name":"Violet Flax Bush",
+	"ateliercrops_VioletFlaxBush.description":"A bush that grows Violet Flax in in spring, summer, and fall.",
+
+	"ateliercrops_AmberBush.name":"Amber MoonDrop Bush",
+	"ateliercrops_AmberBush.description":"A bush that grows amber moondrops in spring and summer.",
+
+	"ateliercrops_LapisBush.name":"Lapis MoonDrop Bush",
+	"ateliercrops_LapisBush.description":"A bush that grows lapis moondrops in spring.",
+
+	"ateliercrops_JadeBush.name":"Jade MoonDrop Bush",
+	"ateliercrops_JadeBush.description":"A bush that grows jade moondrops in summer and fall.",
+
+	"ateliercrops_PearlBush.name":"Pearl MoonDrop Bush",
+	"ateliercrops_PearlBush.description":"A bush that grows pearl moondrops in winter and spring.",
+	
+	//SEEDS
+
+	"ateliercrops_vanillaseeds.name": "Calico Vanilla Starter",
+	"ateliercrops_vanillaseeds.description": "Plant in summer. Takes 14 days to grow, then can be harvested every 5 days",
+
+	"ateliercrops_chamomileseeds.name": "Forest Chamomile Seeds",
+	"ateliercrops_chamomileseeds.description": "Plant in spring or summer. Takes 5 days to grow.",
+
+	"ateliercrops_lavenderseeds.name": "Forest Lavender Seeds",
+	"ateliercrops_lavenderseeds.description": "Plant in spring, summer, or fall. Takes 14 days to grow and can be harvested every 4 days after.",
+
+	"ateliercrops_jasmineseeds.name": "Gem Isle Jasmine Seeds",
+	"ateliercrops_jasmineseeds.description": "Plant in summer. Takes 14 days to grow and can be harvested every 5 days after.",
+
+	"ateliercrops_mallowseeds.name": "Marsh Mallow Seeds",
+	"ateliercrops_mallowseeds.description": "Plant in Spring or Summer. Takes 8 days to mature and can be harvested every 4 days after.",
+
+	"ateliercrops_mintseeds.name": "Pelican Mint Seeds",
+	"ateliercrops_mintseeds.description": "Plant in spring or summer. Takes 12 days to grow and can be harvested every 3 days after.",
+
+	"ateliercrops_redonionseeds.name": "Wild Red Onion Seeds",
+	"ateliercrops_redonionseeds.description": "Plant in spring or fall. Takes 7 days to grow.",
+
+	"ateliercrops_strawberryseeds.name": "Wild Strawberry Bush",
+	"ateliercrops_strawberryseeds.description": "Plant in spring. Takes 12 days to grow and can be harvested every 3 days after",
+
+	"ateliercrops_raspberryseeds.name": "Wild Raspberry Bush",
+	"ateliercrops_raspberryseeds.description": "Plant in summer. Takes 10 days to grow and can be harvested every 4 days after",
+
+	"ateliercrops_wormwoodseeds.name": "Wormwood Seeds",
+	"ateliercrops_wormwoodseeds.description": "Plant in summer. Takes 10 days to grow and can be harvested every 3 days after.",
+
+	//HERB SEEDS
+
+	"ateliercrops_basilseeds.name": "Sweet Basil Seeds",
+	"ateliercrops_basilseeds.description": "Plant in summer. Takes 14 days to grow and can be harvested every 3 days after.",
+	
+	"ateliercrops_cilantroseeds.name": "Cindersap Cilantro Seeds",
+	"ateliercrops_cilantroseeds.description": "Plant in spring. Takes 7 days to grow and can be harvested every 5 days after.",
+	
+	"ateliercrops_rosemaryseeds.name": "Hardy Rosemary Seeds",
+	"ateliercrops_rosemaryseeds.description": "Plant in spring or fall. Takes 14 days to grow and can be harvested every 4 days after.",
+	
+	"ateliercrops_sageseeds.name": "Cindersap Sage Seeds",
+	"ateliercrops_sageseeds.description": "Plant in fall. Takes 12 days to grow and can be harvested every 5 days after.",
+	
+	"ateliercrops_thymeseeds.name": "Lemon Thyme Seeds",
+	"ateliercrops_thymeseeds.description": "Plant in spring or summer. Takes 12 days to grow and can be harvested every 5 days after.",
+
+	"ateliercrops_gentianroot.name": "Gentian Root",
+	"ateliercrops_gentianroot.description": "A root that grows in alpine terrains and is often used as a flavoring in bitters and other beverages.",
+
+	"ateliercrops_wormwood.name": "Wormwood",
+	"ateliercrops_wormwood.description": "Often known for being one of the main ingredients in absinthe, this herb has a wide variety of uses.",
+
+	// MUSHROOM STARTERS
+
+    "ateliercrops_chickenwoodsseeds.name":"Chicken of the Woods Starter",
+    "ateliercrops_chickenwoodsseeds.description":"Plant in Summer. Takes 14 days to reach maturity and then can be harvested every 5 days after.",
+
+    "ateliercrops_honeyfungusseeds.name":"Honey Fungus Mushroom Starter",
+    "ateliercrops_honeyfungusseeds.description":"Plant in Spring. Takes 21 days to reach maturity and then can be harvested every 3 days after.",
+
+    "ateliercrops_meringueshroomseeds.name":"Meringue Mushroom Starter",
+    "ateliercrops_meringueshroomseeds.description":"Plant in Fall. Takes 16 days to reach maturity and then can be harvested every 3 days after.",
+
+    "ateliercrops_milkshroomseeds.name":"Milky White Mushroom Starter",
+    "ateliercrops_milkshroomseeds.description":"Plant in Summer or Fall. Takes 14 days to reach maturity and then can be harvested every 5 days after.",
+
+    "ateliercrops_wheatshroomseeds.name":"Wheatberry Mushroom Starter",
+    "ateliercrops_wheatshroomseeds.description":"Plant in Spring. Takes 12 days to reach maturity and then can be harvested every 4 days after.",
+	
+	//HERBS
+	
+	"ateliercrops_basil.name": "Sweet Basil",
+	"ateliercrops_basil.description": "A sweeter variety of the popular herb, used in various culinary traditions for both its color and flavor.",
+	
+	"ateliercrops_cilantro.name": "Cindersap Cilantro",
+	"ateliercrops_cilantro.description": "A wild variety of cilantro (also known as coriander) that is often used in spicy dishes or salsas.",
+	
+	"ateliercrops_sage.name": "Cindersap Sage",
+	"ateliercrops_sage.description": "A delicate herb with floral notes, used to cut through the rich flavor of many autumn dishes.",
+	
+	"ateliercrops_rosemary.name": "Hardy Rosemary",
+	"ateliercrops_rosemary.description": "A strong and sturdy herb that thrives almost anywhere; it almost resembles a small pine tree.",
+	
+	"ateliercrops_thyme.name": "Lemon Thyme",
+	"ateliercrops_thyme.description": "A popular herb that grows quickly in any garden; the lemon variety is prized for its herby, citrus flavor.",
+
+	"ateliercrops_anise.name": "Star Anise",
+	"ateliercrops_anise.description": "Though a common herb in many traditional kitchens, star anise also has many magical properties and can be used to bring about prophetic visions.",
+
+	
+	//TREES NEW
+
+	"ateliercrops_lemonsapling.name":"Petite Lemon Sapling",
+	"ateliercrops_lemonsapling.description":"Takes 28 days to produce a mature Petite Lemon tree. Bears fruit in the Spring.",
+	
+	"ateliercrops_limesapling.name":"Petite Lime Sapling",
+	"ateliercrops_limesapling.description":"Takes 28 days to produce a mature Petite Lime tree. Bears fruit in the Spring.",
+
+	"ateliercrops_anise_sapling.name": "Star Anise Sapling",
+	"ateliercrops_anise_sapling.description": "Takes 28 days to produce a mature Star Anise tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+	"ateliercrops_elder_sapling.name": "Elder Sapling",
+	"ateliercrops_elder_sapling.description": "Takes 28 days to produce a mature Elder tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+	//TREES
+
+	"ateliercrops_pistachiosapling.name": "Calico Pistachio Sapling",
+	"ateliercrops_pistachiosapling.description": "Takes 28 days to produce a mature Calico Pistachio tree. Bears fruit in the summer and fall.",
+
+	"ateliercrops_cinnamonsapling.name": "Cindersap Cinnamon Sapling",
+	"ateliercrops_cinnamonsapling.description": "Takes 28 days to produce a mature Cindersap Cinnamon Tree. Harvest bark in the winter",
+
+	"ateliercrops_olivesapling.name": "Fern Isle Olive Sapling",
+	"ateliercrops_olivesapling.description": "Takes 28 days to produce a mature Fern Isle Olive Tree. Bears fruit in the summer.",
+
+	"ateliercrops_cashewsapling.name": "Gem Sea Cashew Sapling",
+	"ateliercrops_cashewsapling.description": "Takes 28 days to produce a mature Gem Sea Cashew Tree. Bears fruit in the fall.",
+
+	"ateliercrops_walnutsapling.name": "Grampleton Walnut Sapling",
+	"ateliercrops_walnutsapling.description": "Takes 28 days to produce a mature Grampleton Walnut Tree. Bears fruit in the Fall.",
+
+	"ateliercrops_almondsapling.name": "St Cannoli Almond Sapling",
+	"ateliercrops_almondsapling.description": "Takes 28 days to produce a mature St Cannoli Almond tree. Bears fruit in the Summer.",
+
+	"ateliercrops_cacaopodsapling.name": "Wild Cacao Sapling",
+	"ateliercrops_cacaopodsapling.description": "Takes 28 days to produce a mature Cacao tree. Bears fruit in the Fall.",
+
+	//OBJECTS
+
+	"ateliercrops_pistachio.name":"Calico Pistachio",
+	"ateliercrops_pistachio.description":"A unique pistachio nut found only by foraging in the Calico Desert.",
+
+	"ateliercrops_vanilla.name": "Calico Vanilla",
+	"ateliercrops_vanilla.description": "A unique vanilla found only by foraging in the Calico Desert.",
+
+	"ateliercrops_cherryblossoms.name": "Cherry Blossom Petals",
+	"ateliercrops_cherryblossoms.description": "Fresh petals from blooming cherry trees",
+
+	"ateliercrops_chickenwoods.name": "Chicken of the Woods",
+	"ateliercrops_chickenwoods.description": "This strangely named mushroom is found all over the world and some argue it does indeed taste just like chicken!",
+	
+	"ateliercrops_cinnamon.name": "Cindersap Cinnamon",
+	"ateliercrops_cinnamon.description": "A rare cinnamon bark that can only be found in Cindersap Forest in the winter.",
+	
+	"ateliercrops_olive.name": "Fern Isle Olive",
+	"ateliercrops_olive.description": "A rare type of olive found on tropical islands, found by skilled foragers on beaches in the Ferngill Republic.",
+	
+	"ateliercrops_chamomile.name": "Forest Chamomile",
+	"ateliercrops_chamomile.description": "A delicate flower found deep in the forest; perfect for making into tea.",
+	
+	"ateliercrops_lavender.name": "Forest Lavender",
+	"ateliercrops_lavender.description": "A fragrant, bushy flower found deep in the forest.",
+
+	"ateliercrops_jasmine.name": "Gem Isle Jasmine",
+	"ateliercrops_jasmine.description": "A beautifully fragrant flower found only by foraging on Ginger Island.",
+	
+	"ateliercrops_cashew.name": "Gem Sea Cashew",
+	"ateliercrops_cashew.description": "The nut from the tropical Cashew Apple fruit, found only on islands in the Gem Sea",
+	
+	"ateliercrops_walnut.name": "Grampleton Walnut",
+	"ateliercrops_walnut.description": "A cultivar of walnut found to grow locally in Grampleton, and apparently now in Pelican Town!",
+
+	"ateliercrops_honeyfungus.name": "Honey Fungus Mushroom",
+	"ateliercrops_honeyfungus.description": "Though dangerous to consume raw, these mushrooms have a rich, nutty taste when cooked properly.",	
+	
+	"ateliercrops_mallow.name": "Marsh Mallow",
+	"ateliercrops_mallow.description": "Marsh Mallow flowers. Primarily used in sweet making.",
+
+	"ateliercrops_meringueshroom.name": "Meringue Mushroom",
+	"ateliercrops_meringueshroom.description": "A strangely sweet mushroom found only by the best foragers in the valley, its color and shape seem almost candylike.",
+	
+	"ateliercrops_milkshroom.name": "Milky White Mushrooms",
+	"ateliercrops_milkshroom.description": "These mushrooms are bright white and have a creamy texture.",
+
+	"ateliercrops_mint.name": "Pelican Mint",
+	"ateliercrops_mint.description": "A type of mint that grows all around Pelican Town, no matter how much the villagers try to get rid of it.",
+	
+	"ateliercrops_lemon.name": "Petite Lemon",
+	"ateliercrops_lemon.description": "A tiny, but flavorful lemon found out in the wild by skilled foragers.",
+
+	"ateliercrops_lime.name": "Petite Lime",
+	"ateliercrops_lime.description": "A tiny, but flavorful lime found out in the wild by skilled foragers.",
+	
+    "ateliercrops_almond.name": "St Cannoli Almond",
+	"ateliercrops_almond.description": "A forager's dream come true! The rarest of almonds, said to be grown by Old Master Cannoli himself.",
+	
+	"ateliercrops_wheatshroom.name": "Wheatberry Mushroom",
+	"ateliercrops_wheatshroom.description": "An ordinary looking mushroom to the amateur forager, masters know this fungus can be transformed into a key culinary ingredient.",
+
+	"ateliercrops_cacaopod.name": "Wild Cacao Pod",
+	"ateliercrops_cacaopod.description": "Fruity, fleshy pod of the cacao tree. Used in making cocoa and exotic foods.",
+	
+	"ateliercrops_raspberry.name": "Wild Raspberry",
+	"ateliercrops_raspberry.description": "A small, sweet berry that grows wild in forests all over Ferngill.",
+	
+	"ateliercrops_redonion.name": "Wild Red Onion",
+	"ateliercrops_redonion.description": "Much like the wild carrot, be wary of this onion or it will make you cry!",
+	
+	"ateliercrops_strawberry.name": "Wild Strawberry",
+	"ateliercrops_strawberry.description": "A smaller variety of strawberry that grows wild in forests all over Ferngill.",
+
+	
+	"ateliercrops_elderberries.name": "Elderberry Blossoms",
+	"ateliercrops_elderberries.description": "A cluster of elderberries and their flowers; these make for a great tea or cordial.",
+
+///////////////////////////////
+// FAERIE GARDEN TRANSLATION //
+///////////////////////////////
+
+//MUSHROOMS
+
+"ateliercrops_dawn_trumpet.name":"Dawn's Trumpet",
+"ateliercrops_dawn_trumpet.description":"A mysterious cluster of mushrooms that grows in the hours around dawn.",
+
+"ateliercrops_dusk_cap.name":"Dusk Cap",
+"ateliercrops_dusk_cap.description":"An ominous, oozing mushroom that appears only after the sun has set.",
+
+"ateliercrops_giant_amanita.name":"Giant Amanita",
+"ateliercrops_giant_amanita.description":"An unusually large poisonous mushroom.",
+
+"ateliercrops_amanita_cluster.name":"Amanita Cluster",
+"ateliercrops_amanita_cluster.description":"Poisonous mushrooms growing in a small cluster. Useful in brewing certain potions but deadly if ingested directly.",
+
+"ateliercrops_golden_aura.name":"Golden Aura",
+"ateliercrops_golden_aura.description":"A stunning golden mushroom, used often in magical concoctions.",
+
+"ateliercrops_moon_mushroom.name":"Moonshroom",
+"ateliercrops_moon_mushroom.description":"A puffball variety of mushroom that seems to look eerily like the full moon.",
+
+"ateliercrops_gloomy_blewit.name":"Gloomy Blewit",
+"ateliercrops_gloomy_blewit.description":"A dark, strange mushroom that spawns during rainstorms.",
+
+"ateliercrops_tiny_angels.name":"Tiny Angels",
+"ateliercrops_tiny_angels.description":"Unlike their distant cousin, the destroying angel, these little mushrooms are edible and go well in salads!",
+
+"ateliercrops_verdigris_agaric.name":"Verdigris Agaric",
+"ateliercrops_verdigris_agaric.description":"A stunning teal mushroom, often ingested for its hallucinogenic properties. Can be poisonous in large doses.",
+
+"ateliercrops_faerie_helmets.name":"Faerie Helmets",
+"ateliercrops_faerie_helmets.description":"Because of their tiny size and hat-like shape, these are also known as fairy bonnets!",
+
+"ateliercrops_blush_cap.name":"Blushing Slime Cap",
+"ateliercrops_blush_cap.description":"A highly poisonous mushroom that should only be picked by extremely skilled witches or foragers!",
+
+"ateliercrops_peach_parasol.name":"Peach Parasol",
+"ateliercrops_peach_parasol.description":"A strange rosy mushroom. Rumor has it that they were once used to make pigmented dyes for clothing and cosmetics.",
+
+//FLOWERS
+
+"ateliercrops_geranium.name": "Angel Geranium",
+"ateliercrops_geranium.description": "A bushy variety of geranium prized for its striking colors.",
+
+"ateliercrops_arctic_fox.name": "Arctic Fox",
+"ateliercrops_arctic_fox.description": "A rare variety of foxglove. Highly poisonous.",
+
+"ateliercrops_avalune.name": "Avalune",
+"ateliercrops_avalune.description": "A stunningly vibrant variety of lupine flower. Makes a great gift for fae folk.",
+
+"ateliercrops_chiffon.name": "Blue Chiffon",
+"ateliercrops_chiffon.description": "A stunning blue peony variety.",
+
+"ateliercrops_daisy.name": "Creeping Daisy",
+"ateliercrops_daisy.description": "Though often overlooked as a common flower, many parts of the common daisy can be used culinarily, medicinally...and magically.",
+
+"ateliercrops_dawn_lily.name": "Dawn Lily",
+"ateliercrops_dawn_lily.description": "Though related to the day lily, this cultivar is extremely rare and only blooms at dawn. It is rumored to only thrive in places with strong spiritual energy.",
+
+"ateliercrops_dusk_lily.name": "Dusk Lily",
+"ateliercrops_dusk_lily.description": "Though related to the day lily, this cultivar is extremely rare and only blooms at dusk. It is rumored to only thrive in places with strong spiritual energy.",
+
+"ateliercrops_puffball.name": "Faerie Puffball",
+"ateliercrops_puffball.description": "This flower is as soft as a cloud; perhaps that is why it is often associated with fae folk and their ethereal magicks.",
+
+"ateliercrops_violet.name": "Meadow Violet",
+"ateliercrops_violet.description": "A creeping violet that spreads quickly to cover entire meadows in deep purple hues.",
+
+"ateliercrops_maiden.name": "Moon Maiden",
+"ateliercrops_maiden.description": "This delicate flower is rumored to be a gift for humans from kind pixies to welcome the spring season.",
+
+"ateliercrops_pixies_breath.name": "Pixie's Breath",
+"ateliercrops_pixies_breath.description": "It's like Baby's Breath, but just a tad more magical.",
+
+"ateliercrops_primrose.name": "Primrose Quartz",
+"ateliercrops_primrose.description": "A dwarf rose variety that grows well on a trellis. Prized for both its color and fragrance, the flowers remind you of a rose quartz gem.",
+
+"ateliercrops_cake_blossom.name":"Cake Blossom",
+"ateliercrops_cake_blossom.description":"A strangely sweet-scented golden flower. Prized by pixies for its flavor; it reminds you of birthday cake.",
+
+"ateliercrops_caramel_blossom.name":"Caramel Blossom",
+"ateliercrops_caramel_blossom.description":"A strangely sweet-scented trio of flowers. Prized by pixies for its flavor; it reminds you of brown sugar.",
+
+"ateliercrops_creamsicle_blossom.name":"Creamsicle Blossom",
+"ateliercrops_creamsicle_blossom.description":"A strangely sweet-scented orange flower. Prized by pixies for its flavor; it reminds you of birthday cake.",
+
+"ateliercrops_custard_blossom.name":"Custard Blossom",
+"ateliercrops_custard_blossom.description":"A strangely sweet-scented white flower. Prized by pixies for its flavor; it reminds you of vanilla beans.",
+
+"ateliercrops_gumdrop_blossom.name":"Gumdrop Blossom",
+"ateliercrops_gumdrop_blossom.description":"A strangely sweet-scented trio of flowers. Prized by pixies for its flavor; it reminds you of fruit-flavored candy.",
+
+"ateliercrops_macaron_blossom.name":"Macaron Blossom",
+"ateliercrops_macaron_blossom.description":"A strangely sweet-scented violet flower. Prized by pixies for its flavor; it reminds you of a lavender macaron.",
+
+"ateliercrops_pie_blossom.name":"Pie Blossom",
+"ateliercrops_pie_blossom.description":"A strangely sweet-scented blue flower. Prized by pixies for its flavor; it reminds you of blueberry pie.",
+
+"ateliercrops_shortcake_blossom.name":"Shortcake Blossom",
+"ateliercrops_shortcake_blossom.description":"A strangely sweet-scented pink flower. Prized by pixies for its flavor; it reminds you of sweet summer strawberries.",
+
+"ateliercrops_sprinkle_blossom.name":"Sprinkle Blossom",
+"ateliercrops_sprinkle_blossom.description":"A strangely sweet-scented pink flower. Prized by pixies for its flavor; it reminds you of rainbow sprinkles.",
+
+"ateliercrops_sugar_blossom.name":"Sugar Blossom",
+"ateliercrops_sugar_blossom.description":"A strangely sweet-scented pink flower. Prized by pixies for its flavor; it reminds you of birthday cake.",
+
+"ateliercrops_mysteria.name":"Mysteria",
+"ateliercrops_mysteria.description":"A rare and highly prized cultivar of wisteria. Highly poisonous, but loved by many for its fragrance and supposed magickal properties.",
+
+//FRUITS
+
+"ateliercrops_rose_cacao.name": "Rose Cacao Pod",
+"ateliercrops_rose_cacao.description": "A strange cacao pod with a rich, brown-magenta hue.",
+
+"ateliercrops_sugar_plum.name": "Sugar Plum",
+"ateliercrops_sugar_plum.description": "A plum, but something seems...strange about it. Why does it smell so sweet?",
+
+"ateliercrops_amber_moondrop.name": "Amber MoonDrop",
+"ateliercrops_amber_moondrop.description": "A beautiful and rare golden grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"ateliercrops_apple.name": "Ambrosia Apple",
+"ateliercrops_apple.description": "A bright green apple so sweet it is named after the nectar of the gods.",
+
+"ateliercrops_orange.name": "Blood Orange",
+"ateliercrops_orange.description": "A rare variety of citrus fruit.",
+
+"ateliercrops_pomegranate.name": "Eversweet Pomegranate",
+"ateliercrops_pomegranate.description": "A vibrantly-hued pomegranate that is shrouded in mystery. Rumor has it that this fruit is always juicy and sweet, regardless of when it is picked.",
+
+"ateliercrops_jade_moondrop.name": "Jade MoonDrop",
+"ateliercrops_jade_moondrop.description": "A beautiful and rare green grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"ateliercrops_banana.name": "Lady Finger Banana",
+"ateliercrops_banana.description": "A long and delicate banana variety, said to be far sweeter than traditional bananas.",
+
+"ateliercrops_lapis_moondrop.name": "Lapis MoonDrop",
+"ateliercrops_lapis_moondrop.description": "A beautiful and rare blue grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"ateliercrops_apricot.name": "Moongold Apricot",
+"ateliercrops_apricot.description": "A pale apricot with golden flesh, this is said to be the favorite fruit of moon deities.",
+
+"ateliercrops_pearl_moondrop.name": "Pearl MoonDrop",
+"ateliercrops_pearl_moondrop.description": "A beautiful and rare white grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"ateliercrops_peach.name": "Snow Beauty Peach",
+"ateliercrops_peach.description": "A rare and delicate peach; said to be the favorite fruit of a certain princess from ancient folklore.",
+
+"ateliercrops_cherry.name": "Meteor Sour Cherry",
+"ateliercrops_cherry.description": "Though seeming like an ordinary cherry, this cultivar tastes strangely like sour candy more than fruit.",
+
+"ateliercrops_mango.name": "Sunset Mango",
+"ateliercrops_mango.description": "A delicate mango ripened under the setting sun.",
+
+//HERBS
+
+"ateliercrops_rose_flax.name":"Rose Flax",
+"ateliercrops_rose_flax.description":"A beautifully pink-colored grain. It yields a prized specialty flour when milled.",
+
+"ateliercrops_mugwort.name": "Mugwort",
+"ateliercrops_mugwort.description": "A member of the daisy family, this plant is cultivated by witches for its dreaming and divination properties.",
+
+"ateliercrops_violet_flax.name":"Violet Flax",
+"ateliercrops_violet_flax.description":"A beautifully violet-colored grain. It yields a prized specialty flour when milled.",
+
+"ateliercrops_thistle.name": "Thistle",
+"ateliercrops_thistle.description": "A common flowering plant, often seen as a weed by humans, but cherished by witches for its spiritual healing properties.",
+
+"ateliercrops_valerian.name": "Valerian",
+"ateliercrops_valerian.description": "An herb often used in making sleep-inducing teas, it can also be used to ward off lightning and floods.",
+
+"ateliercrops_yarrow.name":"Yarrow",
+"ateliercrops_yarrow.description":"Also known as Devil's Nettle, yarrow has been used by wise witches and foragers to relieve stomach cramping for centuries.",
+
+//FEATHERS
+
+"ateliercrops_bluebird_feather.name": "Mountain Bluebird Feather",
+"ateliercrops_bluebird_feather.description": "The bright, azure feather of the local Mountain Bluebird.",
+
+"ateliercrops_crow_feather.name": "Crow Feather",
+"ateliercrops_crow_feather.description": "This feather is as black as the night sky.",
+
+"ateliercrops_lovebird_feather.name": "Lovebird Feather",
+"ateliercrops_lovebird_feather.description": "The multi-hued feather of a lovebird.",
+
+"ateliercrops_owl_feather.name": "Snowy Owl Feather",
+"ateliercrops_owl_feather.description": "A majestic white feather from a large snowy barn owl.",
+
+"ateliercrops_phoenix_feather.name": "Phoenix Feather",
+"ateliercrops_phoenix_feather.description": "A stunning, crimson feather from a phoenix, most likely lost during its transformation.",
+
+"ateliercrops_raven_feather.name": "Raven Feather",
+"ateliercrops_raven_feather.description": "The deep violet black feather of a raven, a great find for an alchemist or hedge witch.",
+
+"ateliercrops_rosefinch_feather.name": "Rosefinch Feather",
+"ateliercrops_rosefinch_feather.description": "A bright pink feather from a rose finch.",
+
+"ateliercrops_starling_feather.name": "Violet Starling Feather",
+"ateliercrops_starling_feather.description": "Violet-Backed Starlings are almost the same color as iridium ore, and as such their feathers are prized treasures amongst foragers.",
+
+//FORAGE
+
+"ateliercrops_fire_dragon_scale.name": "Fiery Dragon's Scale",
+"ateliercrops_fire_dragon_scale.description": "A shimmering dragon scale that has fallen off of a mythical fire dragon.",
+
+"ateliercrops_clover.name": "Hidden Luck",
+"ateliercrops_clover.description": "A rare four leaf clover.",
+
+"ateliercrops_mandrake.name": "Mandrake Root",
+"ateliercrops_mandrake.description": "A strange root that looks almost, sentient? Legend has it that it will shriek when pulled from the ground, so wise witches wear earplugs when foraging for them.",
+
+"ateliercrops_ice_dragon_scale.name": "Misty Dragon's Scale",
+"ateliercrops_ice_dragon_scale.description": "A shimmering dragon scale that has fallen off of a mythical sea dragon.",
+
+"ateliercrops_shooting_star.name": "Shooting Star",
+"ateliercrops_shooting_star.description": "A fallen star! A truly rare and glorious find for the foraging witch or wizard.",
+
+"ateliercrops_unicorn_horn.name": "Unicorn Horn",
+"ateliercrops_unicorn_horn.description": "A horn shed from a young unicorn; a rare and treasured find for any witch or wizard.",
+
+//TREE SAPLINGS
+
+"ateliercrops_chiffon_sapling.name": "Blue Chiffon Starter",
+"ateliercrops_chiffon_sapling.description": "Takes 28 days to produce a mature Blue Chiffon Trellis. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"ateliercrops_daisy_sapling.name": "Creeping Daisy Starter",
+"ateliercrops_daisy_sapling.description": "Takes 28 days to produce a mature Creeping Daisy Trellis. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+"ateliercrops_dawn_sapling.name": "Dawn Lily Starter",
+"ateliercrops_dawn_sapling.description": "Takes 28 days to produce a mature Dawn Lily Trellis. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"ateliercrops_dusk_sapling.name": "Dusk Lily Starter",
+"ateliercrops_dusk_sapling.description": "Takes 28 days to produce a mature Dusk Lily Trellis. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"ateliercrops_geranium_sapling.name": "Angel Geranium Starter",
+"ateliercrops_geranium_sapling.description": "Takes 28 days to produce a mature Angel Geranium Trellis. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"ateliercrops_primrose_sapling.name": "Quartz Primrose Starter",
+"ateliercrops_primrose_sapling.description": "Takes 28 days to produce a mature Quartz Primrose Trellis. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"ateliercrops_violet_sapling.name": "Meadow Violet Starter",
+"ateliercrops_violet_sapling.description": "Takes 28 days to produce a mature Meadow Violet Trellis. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty",
+
+"ateliercrops_mysteria_sapling.name": "Mysteria Starter",
+"ateliercrops_mysteria_sapling.description": "Takes 28 days to produce a mature Mysteria Trellis. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty",
+
+
+//SWEET TREE SAPLINGS
+
+"ateliercrops_pavlova_sapling.name": "Pavlova Sapling",
+"ateliercrops_pavlova_sapling.description": "Takes 28 days to produce a mature Pavlova Tree. Ready to harvest in the spring and summer. Only grows if the 8 surrounding tiles are empty",
+
+"ateliercrops_gelato_sapling.name": "Gelato Sapling",
+"ateliercrops_gelato_sapling.description": "Takes 28 days to produce a mature Gelato Tree. Ready to harvest in the summer and winter. Only grows if the 8 surrounding tiles are empty",
+
+"ateliercrops_souffle_sapling.name": "Soufflé Sapling",
+"ateliercrops_souffle_sapling.description": "Takes 28 days to produce a mature Soufflé Tree. Ready to harvest in the summer and fall. Only grows if the 8 surrounding tiles are empty",
+
+"ateliercrops_brulee_sapling.name": "Brûlée Sapling",
+"ateliercrops_brulee_sapling.description": "Takes 28 days to produce a mature Brûlée Tree. Ready to harvest in the fall and winter. Only grows if the 8 surrounding tiles are empty",
+
+"ateliercrops_buttercream_sapling.name": "Buttercream Sapling",
+"ateliercrops_buttercream_sapling.description": "Takes 28 days to produce a mature Buttercream Tree. Ready to harvest in the spring and summer. Only grows if the 8 surrounding tiles are empty",
+
+//MUSHROOM TREES
+
+"ateliercrops_MysticTrumpet_seeds.name":"Mystic Trumpet Seed",
+"ateliercrops_MysticTrumpet_seeds.description":"An enchanted seed that might grow into a large mushroom tree.",
+
+"ateliercrops_StrangeCap_seeds.name":"Strange Ink Cap Seed",
+"ateliercrops_StrangeCap_seeds.description":"An enchanted seed that might grow into a large mushroom tree.",
+
+"ateliercrops_WitchwoodTree_seeds.name":"Witchwood Tree Seed",
+"ateliercrops_WitchwoodTree_seeds.description":"An enchanted seed that might grow into a large mushroom tree.",
+
+//FLOWER SEEDS
+
+"ateliercrops_arctic_fox_seeds.name": "Frosted Flame Seeds",
+"ateliercrops_arctic_fox_seeds.description": "Plant in spring or summer. Takes 20 days to grow.",
+
+"ateliercrops_avalune_seeds.name": "Avalune Seeds",
+"ateliercrops_avalune_seeds.description": "Plant in spring or summer. Takes 12 days to grow.",
+
+"ateliercrops_puffball_seeds.name": "Faerie Puffball Seeds",
+"ateliercrops_puffball_seeds.description": "Plant in spring. Takes 12 days to grow into a faerie puffball and then can be harvested ever 5 days after.",
+
+"ateliercrops_maiden_seeds.name": "Moon Maiden Seeds",
+"ateliercrops_maiden_seeds.description": "Plant in spring. Takes 5 days to grow.",
+
+"ateliercrops_pixies_breath_seeds.name": "Pixie's Breath Seeds",
+"ateliercrops_pixies_breath_seeds.description": "Plant in fall. Takes 14 days to grow into pixie's breath that can be harvested every 3 days after.",
+
+//FRUIT SEEDS
+
+"ateliercrops_amber_moondrop_seeds.name": "Amber MoonDrop Starter",
+"ateliercrops_amber_moondrop_seeds.description": "Plant in spring or summer. Takes 21 days to grow, then can be harvested every 4 days.",
+
+"ateliercrops_lapis_moondrop_seeds.name": "Lapis MoonDrop Starter",
+"ateliercrops_lapis_moondrop_seeds.description": "Plant in summer or fall. Takes 21 days to grow, then can be harvested every 4 days.",
+
+"ateliercrops_jade_moondrop_seeds.name": "Jade MoonDrop Starter",
+"ateliercrops_jade_moondrop_seeds.description": "Plant in summer or fall. Takes 21 days to grow, then can be harvested every 4 days.",
+
+"ateliercrops_pearl_moondrop_seeds.name": "Pearl MoonDrop Starter",
+"ateliercrops_pearl_moondrop_seeds.description": "Plant in winter to harvest in spring. Takes 21 days to grow, then can be harvested every 4 days.",
+
+//HERB SEEDS
+
+"ateliercrops_rose_flax_seeds.name": "Rose Flax Seeds",
+"ateliercrops_rose_flax_seeds.description": "Plant in any season. Takes 4 days to grow and must be harvested with a scythe.",
+
+"ateliercrops_mandrake_seeds.name": "Mandrake Seeds",
+"ateliercrops_mandrake_seeds.description": "Plant in fall. Takes 10 days to grow a mature mandrake root.",
+
+"ateliercrops_mugwort_seeds.name": "Mugwort Seeds",
+"ateliercrops_mugwort_seeds.description": "Plant in summer or fall. Takes 12 days to grow into mugwort and can be harvested every 4 days after.",
+
+"ateliercrops_violet_flax_seeds.name": "Violet Flax Seeds",
+"ateliercrops_violet_flax_seeds.description": "Plant in any season. Takes 4 days to grow and must be harvested with a scythe.",
+
+"ateliercrops_thistle_seeds.name": "Thistle Seeds",
+"ateliercrops_thistle_seeds.description": "Plant in summer or fall. Takes 10 days to grow into thistle and can be harvested every 5 days after.",
+
+"ateliercrops_valerian_seeds.name": "Valerian Seeds",
+"ateliercrops_valerian_seeds.description": "Plant in summer. Takes 13 days to grow into valerian and can be harvested every 5 days after.",
+
+"ateliercrops_yarrow_seeds.name": "Yarrow Seeds",
+"ateliercrops_yarrow_seeds.description": "Plant in spring or summer. Takes 12 days to grow."	
+
+
+}

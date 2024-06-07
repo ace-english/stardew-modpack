@@ -1,0 +1,616 @@
+{
+//NEW CATEGORIES
+
+"ateliercrops_nut.category": "Yemiş",
+"ateliercrops_herb.category": "Bitki",
+"ateliercrops_mushroom.category": "Mantar",
+"ateliercrops_root.category": "Kök",
+"ateliercrops_feather.category": "Kuş Tüyü",
+"ateliercrops_magic.category": "Büyülü Nesne",
+"ateliercrops_magic_fruit.category": "Büyülü Meyve",
+"ateliercrops_magic_flower.category": "Büyülü Çiçek",
+
+//NEW BUSHES
+
+	"ateliercrops_StrawberryBush.name": "Yabani Çilek Çalısı",
+	"ateliercrops_StrawberryBush.description": "Baharda yabani çilek veren bir çalı.",
+
+	"ateliercrops_RaspberryBush.name": "Yabani Ahududu Çalısı",
+	"ateliercrops_RaspberryBush.description": "Yazın yabani ahududu veren bir çalı.",
+
+	"ateliercrops_ValerianBush.name": "Valeryan Çalısı",
+	"ateliercrops_ValerianBush.description": "Baharda valeryan veren bir çalı.",
+
+	"ateliercrops_MugwortBush.name": "Miskotu Çalısı",
+	"ateliercrops_MugwortBush.description": "Yazın ve güzde miskotu veren bir çalı",
+
+	"ateliercrops_ThistleBush.name": "Devedikeni Çalısı",
+	"ateliercrops_ThistleBush.description": "Yazın devedikeni veren bir çalı.",
+
+	"ateliercrops_RoseFlaxBush.name": "Gül Keteni Çalısı",
+	"ateliercrops_RoseFlaxBush.description": "Baharda, yazın ve güzde gül keteni veren bir çalı.",
+
+	"ateliercrops_VioletFlaxBush.name": "Menekşe Keteni Çalısı",
+	"ateliercrops_VioletFlaxBush.description": "Baharda, yazın ve güzde menekşe keteni veren bir çalı.",
+
+	"ateliercrops_AmberBush.name": "Kehribar Aydamlası Çalısı",
+	"ateliercrops_AmberBush.description": "Baharda ve yazın kehribar aydamlası veren bir çalı.",
+
+	"ateliercrops_LapisBush.name": "Lapis Aydamlası Çalısı",
+	"ateliercrops_LapisBush.description": "Yazın ve güzde lapis aydamlası veren bir çalı.",
+
+	"ateliercrops_JadeBush.name": "Yeşim Aydamlası Çalısı",
+	"ateliercrops_JadeBush.description": "Yazın ve güzde yeşim aydamlası veren bir çalı.",
+
+	"ateliercrops_PearlBush.name": "İnci Aydamlası Çalısı",
+	"ateliercrops_PearlBush.description": "Baharda ve kışın inci aydamlası veren bir çalı.",
+
+	//SEEDS
+
+	"ateliercrops_vanillaseeds.name": "Patisko Vanilyası Yetiştirici",
+	"ateliercrops_vanillaseeds.description": "Yazın ekilir. 14 günde yetişir, ilk hasattan sonra 5 günde bir yeniden hasat edilebilir.",
+
+	"ateliercrops_chamomileseeds.name": "Orman Papatyası Tohumu",
+	"ateliercrops_chamomileseeds.description": "Yazın ekilir. 5 günde hasat edilebilir.",
+
+	"ateliercrops_lavenderseeds.name": "Orman Lavantası Tohumu",
+	"ateliercrops_lavenderseeds.description": "Baharda, yazın veya güzde ekilir. 14 günde yetişir, ilk hasattan sonra 4 günde bir yeniden hasat edilebilir.",
+
+	"ateliercrops_jasmineseeds.name": "Mücevher Adası Yasemini Tohumu",
+	"ateliercrops_jasmineseeds.description": "Yazın ekilir. 14 günde yetişir, ilk hasattan sonra 5 günde bir yeniden hasat edilebilir.",
+
+	"ateliercrops_mallowseeds.name": "Hatmi Tohumu",
+	"ateliercrops_mallowseeds.description": "Baharda veya yazın ekilir. 8 günde yetişir, ilk hasattan sonra 4 günde bir yeniden hasat edilebilir.",
+
+	"ateliercrops_mintseeds.name": "Pelikan Nanesi Tohumu",
+	"ateliercrops_mintseeds.description": "Baharda veya yazın ekilir. 12 günde yetişir, ilk hasattan sonra 3 günde bir yeniden hasat edilebilir.",
+
+	"ateliercrops_redonionseeds.name": "Yabani Kırmızı Soğan Tohumu",
+	"ateliercrops_redonionseeds.description": "Baharda veya güzde ekilir. 7 günde yetişir.",
+
+	"ateliercrops_strawberryseeds.name": "Yabani Çilek Çalısı",
+	"ateliercrops_strawberryseeds.description": "Baharda ekilir. 12 günde yetişir, ilk hasattan sonra 3 günde bir yeniden hasat edilebilir.",
+
+	"ateliercrops_raspberryseeds.name": "Yabani Ahududu Çalısı",
+	"ateliercrops_raspberryseeds.description": "Yazın ekilir. 10 günde yetişir, ilk hasattan sonra 4 günde bir yeniden hasat edilebilir",
+
+	"ateliercrops_wormwoodseeds.name": "Pelinotu Tohumu",
+	"ateliercrops_wormwoodseeds.description": "Yazın ekilir. 10 günde yetişir, ilk hasattan sonra 3 günde bir yeniden hasat edilebilir.",
+	///------------------------------
+
+	//HERB SEEDS
+
+	"ateliercrops_basilseeds.name": "Tatlı Fesleğen Tohumu",
+	"ateliercrops_basilseeds.description": "Yazın ekilir. 14 günde yetişir, ilk hasattan sonra 3 günde bir yeniden hasat edilebilir.",
+	
+	"ateliercrops_cilantroseeds.name": "Kömürözü Kişnişi Tohumu",
+	"ateliercrops_cilantroseeds.description": "Baharda ekilir. 7 günde yetişir, ilk hasattan sonra 5 günde bir yeniden hasat edilebilir.",
+	
+	"ateliercrops_rosemaryseeds.name": "Dayanıklı Biberiye Tohumu",
+	"ateliercrops_rosemaryseeds.description": "Baharda veya güzde ekilir. 14 günde yetişir, ilk hasattan sonra 4 günde bir yeniden hasat edilebilir.",
+	
+	"ateliercrops_sageseeds.name": "Kömürözü Adaçayı Tohumu",
+	"ateliercrops_sageseeds.description": "Güzde ekilir. 12 günde yetişir, ilk hasattan sonra 5 günde bir yeniden hasat edilebilir.",
+	
+	"ateliercrops_thymeseeds.name": "Limonlu Kekik Tohumu",
+	"ateliercrops_thymeseeds.description": "Baharda veya yazın ekilir. 12 günde yetişir, ilk hasattan sonra 5 günde bir yeniden hasat edilebilir.",
+
+	"ateliercrops_gentianroot.name": "Gentiyan Kökü",
+	"ateliercrops_gentianroot.description": "Dağlık alanlarda yetişen ve genelde acı tadı için içeceklerde kullanılan bir kök.",
+
+	"ateliercrops_wormwood.name": "Pelinotu",
+	"ateliercrops_wormwood.description": "Genelde absint için kullanılan ana malzemelerden biri olmasıyla bilinse de bu bitkinin çeşitli kullanım alanları vardır.",
+
+	// MUSHROOM STARTERS
+
+    "ateliercrops_chickenwoodsseeds.name": "Tavuk Mantarı Yetiştirici",
+    "ateliercrops_chickenwoodsseeds.description": "Yazın ekilir. 14 günde yetişir, ilk hasattan sonra 5 günde bir yeniden hasat edilebilir.",
+
+    "ateliercrops_honeyfungusseeds.name": "Bal Mantarı Yetiştirici",
+    "ateliercrops_honeyfungusseeds.description": "Baharda ekilir. 21 günde yetişir, ilk hasattan sonra 3 günde bir yeniden hasat edilebilir.",
+
+    "ateliercrops_meringueshroomseeds.name": "Meze Mantarı Yetiştirici",
+    "ateliercrops_meringueshroomseeds.description": "Güzde ekilir. 16 günde yetişir, ilk hasattan sonra 3 günde bir yeniden hasat edilebilir.",
+
+    "ateliercrops_milkshroomseeds.name": "Süt Beyazı Mantar Yetiştirici",
+    "ateliercrops_milkshroomseeds.description": "Yazın veya güzde ekilir. 14 günde yetişir, ilk hasattan sonra 5 günde bir yeniden hasat edilebilir.",
+
+    "ateliercrops_wheatshroomseeds.name": "Buğdaytanesi Mantarı Yetiştirici",
+    "ateliercrops_wheatshroomseeds.description": "Güzde ekilir. 12 günde yetişir, ilk hasattan sonra 4 günde bir yeniden hasat edilebilir.",
+	
+	//HERBS
+	
+	"ateliercrops_basil.name": "Tatlı Fesleğen",
+	"ateliercrops_basil.description": "Meşhur bitkinin daha tatlı bir çeşidi, hem rengi hem tadı için birçok mutfak geleneğinde yer bulur.",
+	
+	"ateliercrops_cilantro.name": "Kömürözü Kişnişi",
+	"ateliercrops_cilantro.description": "Kişnişin yabani bir çeşidi, (aşotu olarak da bilinir) acılı yemekler ve salsalarda sık kullanılır.",
+	
+	"ateliercrops_sage.name": "Kömürözü Adaçayı",
+	"ateliercrops_sage.description": "Çiçeksi bir havası olan narin bir bitki, birçok güz yemeğinin zengin tadını dengelemek için kullanılır.",
+	
+	"ateliercrops_rosemary.name": "Dayanıklı Biberiye",
+	"ateliercrops_rosemary.description": "Hemen hemen her yerde yaşayabilen sağlam bir bitki, neredeyse küçük bir çam ağacını andırıyor.",
+	
+	"ateliercrops_thyme.name": "Limonlu Kekik",
+	"ateliercrops_thyme.description": "Her bahçede çabuk büyüyen popüler bir bitki, limonluğu sitrik tadı için sevilir.",
+
+	"ateliercrops_anise.name": "Yıldız Anason",
+	"ateliercrops_anise.description": "Birçok geleneksel mutfakta sık kullanılan bir birki olsa da, yıldız anasonun birçok büyüsel özelliği de vardır ve kahince öngörüleri ortaya çıkarmak için de kullanılabilir.",
+	
+	//TREES NEW
+
+	"ateliercrops_lemonsapling.name": "Küçük Limon Fidanı",
+	"ateliercrops_lemonsapling.description": "28 günde olgun bir Küçük Limon Ağacına dönüşür. Baharda meyve verir.",
+	
+	"ateliercrops_limesapling.name": "Küçük Lime Fidanı",
+	"ateliercrops_limesapling.description": "28 günde olgun bir Küçük Lime Ağacına dönüşür. Baharda meyve verir.",
+
+	"ateliercrops_anise_sapling.name": "Yıldız Anason Fidanı",
+	"ateliercrops_anise_sapling.description": "28 günde olgun bir Yıldız Anason Ağacına dönüşür. Baharda meyve verir. Yalnızca çevreleyen 8 kare boşsa yetişebilir.",
+
+	"ateliercrops_elder_sapling.name": "Mürver Fidanı",
+	"ateliercrops_elder_sapling.description": "28 günde olgun bir Mürver Ağacına dönüşür. Yazın meyve verir. Yalnızca çevreleyen 8 kare boşsa yetişebilir.",
+
+	//TREES
+
+	"ateliercrops_pistachiosapling.name": "Patisko Antep Fıstığı Fidanı",
+	"ateliercrops_pistachiosapling.description": "28 günde olgun bir Patisko Antep Fıstığı Ağacına dönüşür. Yazın ve güzde meyve verir.",
+
+	"ateliercrops_cinnamonsapling.name": "Kömürözü Tarçını Fidanı",
+	"ateliercrops_cinnamonsapling.description": "28 günde olgun bir Kömürözü Tarçını Ağacına dönüşür Tree. Kışın meyve verir.",
+
+	"ateliercrops_olivesapling.name": "Eğreltiotu Zeytini Fidanı",
+	"ateliercrops_olivesapling.description": "28 günde olgun bir Eğreltiotu Zeytini Ağacına dönüşür. Yazın meyve verir.",
+
+	"ateliercrops_cashewsapling.name": "Mücevher Denizi Kajusu Fidanı",
+	"ateliercrops_cashewsapling.description": "28 günde olgun bir Mücevher Denizi Kajusu Ağacına dönüşür. Güzde meyve verir.",
+
+	"ateliercrops_walnutsapling.name": "Grampleton Cevizi Fidanı",
+	"ateliercrops_walnutsapling.description": "28 günde olgun bir Grampleton Cevizi Ağacına dönüşür. Güzde meyve verir.",
+
+	"ateliercrops_almondsapling.name": "Cannoli Bademi Fidanı",
+	"ateliercrops_almondsapling.description": "28 günde olgun bir Cannoli Bademi Ağacına dönüşür. Baharda ve yazın meyve verir.",
+
+	"ateliercrops_cacaopodsapling.name": "Yabani Kakao Fidanı",
+	"ateliercrops_cacaopodsapling.description": "28 günde olgun bir Yabani Kakao Ağacına dönüşür. Güzde meyve verir.",
+
+	//OBJECTS
+
+	//Calico Pistachio
+	"ateliercrops_pistachio.name": "Patisko Antep Fıstığı",
+	"ateliercrops_pistachio.description": "Sadece Patisko Çölü'nde toplanabilen özel bir fıstık türü.",
+
+
+	"ateliercrops_vanilla.name": "Patisko Vanilyası",
+	"ateliercrops_vanilla.description": "Sadece Patisko Çölü'nde toplanabilen özel bir vanilya türü.",
+
+
+	"ateliercrops_cherryblossoms.name": "Kiraz Çiçeği Yaprağı",
+	"ateliercrops_cherryblossoms.description": "Çiçek açmış kiraz ağaçlarından gelen taze taç yapraklar.",
+
+
+	"ateliercrops_chickenwoods.name": "Tavukmantarı",
+	"ateliercrops_chickenwoods.description": "Tuhaf bir ismi olan bu mantar dünyanın her yerinde bulunur ve bazıları tadının tıpkı tavuk eti gibi olduğunu iddia eder!",
+	
+
+	"ateliercrops_cinnamon.name": "Kömürözü Tarçını",
+	"ateliercrops_cinnamon.description": "Yalnızca Kömürözü Ormanı'nda kışın bulunabilen ender bir tarçın çubuk.",
+	
+
+	"ateliercrops_olive.name": "Eğreltiotu Zeytini",
+	"ateliercrops_olive.description": "Tropikal adalarda bulunan nadir bir zeytin çeşidi, Ferngill Cumhuriyeti'nin yetenekli toplayıcıları tarafından sahillerde bulunur.",
+	
+
+	"ateliercrops_chamomile.name": "Orman Papatyası",
+	"ateliercrops_chamomile.description": "Ormanın derinliklerinde bulunan narin bir çiçek; çay yapımı için mükemmel.",
+	
+	
+	"ateliercrops_lavender.name": "Orman Lavantası",
+	"ateliercrops_lavender.description": "Ormanın derinliklerinde bulunan kokulu, çalı gibi bir çiçek.",
+
+
+	"ateliercrops_jasmine.name": "Mücevher Adası Yasemini",
+	"ateliercrops_jasmine.description": "Yalnızca Zencefil Adası'ndan toplanabilecek güzel kokulu bir çiçek.",
+
+	
+	"ateliercrops_cashew.name": "Mücevher Denizi Kajusu",
+	"ateliercrops_cashew.description": "Yalnızca Mücevher Denizi'nin adalarında bulunabilen tropikal Kaju Ağacı meyvesinden gelen bir yemiş.",
+	
+	
+	"ateliercrops_walnut.name": "Grampleton Cevizi",
+	"ateliercrops_walnut.description": "Grampleton'da yerel olarak yetiştirilmiş ve şimdi de Pelikan Kasabası'nda da yetişen özel bir ceviz!",
+
+
+	"ateliercrops_honeyfungus.name": "Balmantarı",
+	"ateliercrops_honeyfungus.description": "Çiğ yemek tehlikeli olsa da, bu mantarlar düzgün pişirildiği zaman tadı oldukça zenginleşir.",
+	
+	
+	"ateliercrops_mallow.name": "Hatmi",
+	"ateliercrops_mallow.description": "Hatmi çiçeği. Tatlı yapımında kullanılır.",
+	
+
+	"ateliercrops_meringueshroom.name": "Mezemantarı",
+	"ateliercrops_meringueshroom.description": "Vadinin sadece en iyi toplayıcıları tarafından bulunabilen tuhaf bir şekilde tatlı olan bir mantar, tadı ve rengi resmen şekere benziyor.",
+	
+	
+	"ateliercrops_milkshroom.name": "Süt Beyazı Mantar",
+	"ateliercrops_milkshroom.description": "Bu mantarlar açık beyaz ve kremsi bir hissi var.",
+	
+
+	"ateliercrops_mint.name": "Pelikan Nanesi",
+	"ateliercrops_mint.description": "Kasabalı kurtulmayı ne kadar denerse denesin, Pelikan Kasabası'nın her yerinde yetişen bir nane türü.",
+	
+	
+	"ateliercrops_lemon.name": "Küçük Limon",
+	"ateliercrops_lemon.description": "Yetenekli toplayıcılar tarafından bulunabilen küçük ama tadı keskin bir limon.",
+
+
+	"ateliercrops_lime.name": "Küçük Lime",
+	"ateliercrops_lime.description": "Yetenekli toplayıcılar tarafından bulunabilen küçük ama tadı keskin bir lime.",
+
+	
+    "ateliercrops_almond.name": "Cannoli Bademi",
+	"ateliercrops_almond.description": "Bir toplayıcının en büyük hayali! Bademlerin en nadiri, Yaşlı Üstat Cannoli'nin kendi yetiştirdiği rivayet edilir.",
+	
+	
+	"ateliercrops_wheatshroom.name": "Buğdaytanesi Mantarı",
+	"ateliercrops_wheatshroom.description": "Yeni yetme toplayıcılara basit görünen bir mantar, ustalar ise onun nasıl elzem bir mutfak malzemesine dönüştüreceğini bilir.",
+	
+
+	"ateliercrops_cacaopod.name": "Yabani Kakao Zarfı",
+	"ateliercrops_cacaopod.description": "Kakao ağacının taze ve meyvemsi zarfı. Kakao için ve egzotik yemeklerin yapımında kullanılır.",
+
+	
+	"ateliercrops_raspberry.name": "Yabani Ahududu",
+	"ateliercrops_raspberry.description": "Ferngill'in her yerindeki ormanlarda yabani olarak yetişen küçük, tatlı bir meyve.",
+	
+	
+	"ateliercrops_redonion.name": "Yabani Kırmızı Soğan",
+	"ateliercrops_redonion.description": "Aynı yabani havuç gibi, bu soğana dikkat edin yoksa sizi ağlatır!",
+	
+	
+	"ateliercrops_strawberry.name": "Yabani Çilek",
+	"ateliercrops_strawberry.description": "Ferngill'in her yerindeki ormanlarda yabani olarak yetişen, çileğin daha küçük bir türü.",
+
+	
+	"ateliercrops_elderberries.name": "Mürver Çiçeği",
+	"ateliercrops_elderberries.description": "Bir avuç mürver meyvesi ve çiçekleri, çay veya şerbet yapmak için mükemmel.",
+
+
+//
+// FAERIE GARDEN TRANSLATION //
+//////////////////////////////
+
+//MUSHROOMS
+
+"ateliercrops_dawn_trumpet.name": "Şafakborusu",
+"ateliercrops_dawn_trumpet.description": "Şafak saatlerinde büyüyen gizemli bir mantar yığını.",
+
+"ateliercrops_dusk_cap.name": "Karaşapkalı",
+"ateliercrops_dusk_cap.description": "Yalnızca güneş battıktan sonra beliren uğursuz, yavaşça sızdıran balona benzeyen bir mantar.",
+
+"ateliercrops_giant_amanita.name": "Büyük Amanita",
+"ateliercrops_giant_amanita.description": "Anormal bir şekilde büyük olan zehirli bir mantar.",
+
+"ateliercrops_amanita_cluster.name": "Amanita Yığını",
+"ateliercrops_amanita_cluster.description": "Küçük bir yığın içinde büyüyen zehirli mantarlar. Belirli iksirlerin yapımında kullanışlıdır ancak direkt tüketilirse zehirlidir.",
+
+"ateliercrops_golden_aura.name": "Altın Aura",
+"ateliercrops_golden_aura.description": "Büyülü karışımlarda sık kullanılan; göz alıcı, altın bir mantar.",
+
+"ateliercrops_moon_mushroom.name": "Aymantarı",
+"ateliercrops_moon_mushroom.description": "Mantarın ürkütücü bir biçimde dolunaya benzeyen pofuduk bir çeşidi.",
+
+"ateliercrops_gloomy_blewit.name": "Karamsar Cincile",
+"ateliercrops_gloomy_blewit.description": "Fırtına esnasında ortaya çıkan, koyu, tuhaf bir mantar.",
+
+"ateliercrops_tiny_angels.name": "Ufak Melek",
+"ateliercrops_tiny_angels.description": "Köygöçüren isimli uzaktan kuzeninin aksine, bu küçük mantar yenilebilir ve salataya da yakışır!",
+
+"ateliercrops_verdigris_agaric.name": "Bakır Yeşili Katranköpüğü",
+"ateliercrops_verdigris_agaric.description": "Genelde halüsinojenik özellikleri için tüketilen, göz alıcı turkuaz bir mantar. Aşırı tüketilirse zehirleyebilir.",
+
+"ateliercrops_faerie_helmets.name": "Perişapkası",
+"ateliercrops_faerie_helmets.description": "İsmini küçük boyutu ve şapkaya benzeyen şeklinden alır.",
+
+"ateliercrops_blush_cap.name": "Kızaran Balçıkça Mantarı",
+"ateliercrops_blush_cap.description": "Yalnızca çok yetenekli büyücü veya toplayıcıların dokunması gereken çok zehirli bir mantar!",
+
+"ateliercrops_peach_parasol.name": "Şeftali Şemsiye",
+"ateliercrops_peach_parasol.description": "Tuhaf pembe bir mantar. Söylentiye göre eskiden kıyafet ve kozmetik ürünlerine kullanmak için boya yapımında kullanılırmış.",
+
+//FLOWERS
+
+"ateliercrops_flutter.name": "Kanatçırpan",
+"ateliercrops_flutter.description": "Uçan bir kelebeğe benzeyen ender bir çiçek.",
+
+"ateliercrops_geranium.name": "Ak Itır",
+"ateliercrops_geranium.description": "Itırın parlak renkleri için beğenilen ve daha çalımsı bir türü.",
+
+"ateliercrops_snapdragon.name": "Donmuş Alev",
+"ateliercrops_snapdragon.description": "Aslanağzı çiçeğinin hoş bir çeşidi.",
+
+"ateliercrops_avalune.name": "Avalune", 
+"ateliercrops_avalune.description": "Acıbakla çiçeğinin gülpembesi bir çeşidi. Peri halkına vermek için harika bir hediye.",
+
+"ateliercrops_chiffon.name": "Mavi Şifon",
+"ateliercrops_chiffon.description": "Mavi şakayığın göz alıcı bir çeşidi.",
+
+"ateliercrops_daisy.name": "Yayılan Papatya",
+"ateliercrops_daisy.description": "Sık bulunan bir çiçek olduğu için dikkate alınmasa da, yaygın olan papatyanın mutfakta, tıpta ve büyüde çeşitli kullanım alanları vardır.",
+
+"ateliercrops_dawn_lily.name": "Şafakgüzeli",
+"ateliercrops_dawn_lily.description": "Güngüzelinin akrabası olsa da, bu tür oldukça nadirdir ve sadece şafak vaktinde çiçek açar. Sadece yüksek ruhani enerjisi olan yerlerde yetiştiği söylenir.",
+
+"ateliercrops_dusk_lily.name": "Gecegüzeli",
+"ateliercrops_dusk_lily.description": "Güngüzelinin akrabası olsa da, bu tür oldukça nadirdir ve sadece alacakaranlıkta çiçek açar. Sadece yüksek ruhani enerjisi olan yerlerde yetiştiği söylenir.",
+
+"ateliercrops_puffball.name": "Peri Ponponu",
+"ateliercrops_puffball.description": "Bu çiçek bir bulut kadar hafif; muhtemelen bu yüzden peri haklı ve ruhani büyüleriyle ilişkilendirilir.",
+
+"ateliercrops_violet.name": "Kır Menekşesi",
+"ateliercrops_violet.description": "Koyu mor tonlarıyla kocaman kırları çabucak örtebilmek için çabuk yayılan bir menekşe.",
+
+"ateliercrops_maiden.name": "Aygüzeli",
+"ateliercrops_maiden.description": "Bu zarif çiçeğin nazik pixielerden insanlara baharı karşılamak için hediye olarak verildiği söylenir.",
+
+"ateliercrops_pixies_breath.name": "Pixie Çöveni",
+"ateliercrops_pixies_breath.description": "Sade çöven gibi, ama bir tık daha büyülü.",
+
+"ateliercrops_primrose.name": "Kuvars Gecesefası",
+"ateliercrops_primrose.description": "Sarmaşık şeklinde büyüyen bir cüce gül türü. Rengi ve kokusu için sevilir, çiçekler sana gül kuvarsı hatırlatıyor.",
+
+"ateliercrops_cake_blossom.name": "Pasta Çiçeği",
+"ateliercrops_cake_blossom.description": "Garip, tatlı kokulu altın sarısı bir çiçek. Pixieler tarafından tadı için sevilir; sana doğumgünü pastasını anımsatıyor.",
+
+"ateliercrops_caramel_blossom.name": "Karamel Çiçeği",
+"ateliercrops_caramel_blossom.description": "Garip, tatlı kokulu üç çiçek. Pixieler tarafından tadı için sevilir; sana esmer şekeri anımsatıyor.",
+
+"ateliercrops_creamsicle_blossom.name": "Creamsicle Çiçeği",
+"ateliercrops_creamsicle_blossom.description": "Garip, tatlı kokulu turuncu bir çiçek. Pixieler tarafından tadı için sevilir; sana doğumgünü pastasını anımsatıyor.",
+
+"ateliercrops_custard_blossom.name": "Ezme Çiçeği",
+"ateliercrops_custard_blossom.description": "A strangely sweet-scented white flower. Pixieler tarafından tadı için sevilir; sana vanilya çekirdeklerini anımsatıyor.",
+
+"ateliercrops_gumdrop_blossom.name": "Damla Sakızı Çiçeği",
+"ateliercrops_gumdrop_blossom.description": "Garip, tatlı kokulu üç çiçek. Pixieler tarafından tadı için sevilir; sana meyve aromalı şekeri anımsatıyor.",
+
+"ateliercrops_macaron_blossom.name": "Makaron Çiçeği",
+"ateliercrops_macaron_blossom.description": "Garip, tatlı kokulu mor bir çiçek. Pixieler tarafından tadı için sevilir; sana lavantalı makaronu anımsatıyor.",
+
+"ateliercrops_pie_blossom.name": "Turta Çiçeği",
+"ateliercrops_pie_blossom.description": "Garip, tatlı kokulu mavi bir çiçek. Pixieler tarafından tadı için sevilir; sana yabanmersinli turtayı anımsatıyor.",
+
+"ateliercrops_shortcake_blossom.name": "Shortcake Çiçeği",
+"ateliercrops_shortcake_blossom.description": "Garip, tatlı kokulu pembe bir çiçek. Pixieler tarafından tadı için sevilir; sana tatlı yaz çileklerini anımsatıyor.",
+
+"ateliercrops_sprinkle_blossom.name": "Süs Şekerleme Çiçeği",
+"ateliercrops_sprinkle_blossom.description": "Garip, tatlı kokulu pembe bir çiçek. Pixieler tarafından tadı için sevilir; sana rengarenk süslemeleri anımsatıyor.",
+
+"ateliercrops_sugar_blossom.name": "Şeker Çiçeği",
+"ateliercrops_sugar_blossom.description": "Garip, tatlı kokulu pembe bir çiçek. Pixieler tarafından tadı için sevilir; sana doğumgünü pastasını anımsatıyor.",
+
+//FRUITS
+
+"ateliercrops_rose_cacao.name": "Gül Kakao Kesesi",
+"ateliercrops_rose_cacao.description": "Yoğun bir kahve-magenta tonunda görünen tuhaf bir kakao kesesi.",
+
+"ateliercrops_sugar_plum.name": "Şeker Eriği",
+"ateliercrops_sugar_plum.description": "Bir erik, ama çok tuhaf bir yanı var. Niye kokusu bu kadar tatlı?",
+
+"ateliercrops_amber_moondrop.name": "Kehribar Aydamlası",
+"ateliercrops_amber_moondrop.description": "Güzel ve ender altın sarısı bir üzüm çeşidi, ilk olarak Ferngill Cumhuriyeti'nin perileri tarafından yetiştirildiği söylenir.",
+
+"ateliercrops_apple.name": "Tanrıyemeği Elması",
+"ateliercrops_apple.description": "İsmini tanrıların nektarından alan açık yeşil bir elma.",
+
+"ateliercrops_orange.name": "Kan Portakalı",
+"ateliercrops_orange.description": "Ender bir turunçgil.",
+
+"ateliercrops_pomegranate.name": "Ballı Nar",
+"ateliercrops_pomegranate.description": "Gizem içindeki parlak renkli bir nar. Söylentiye göre meyvesi ne zaman toplanırsa toplansın, her zaman sulu ve tatlıdır.",
+
+"ateliercrops_jade_moondrop.name": "Yeşim Aydamlası",
+"ateliercrops_jade_moondrop.description": "Güzel ve ender yeşil bir üzüm çeşidi, ilk olarak Ferngill Cumhuriyeti'nin perileri tarafından yetiştirildiği söylenir.",
+
+"ateliercrops_banana.name": "Kedi Dili Muzu",
+"ateliercrops_banana.description": "Uzun ve hoş bir muz türü, geleneksel muzlardan çok daha tatlı olduğu söylenir.",
+
+"ateliercrops_lapis_moondrop.name": "Lapis Aydamlası",
+"ateliercrops_lapis_moondrop.description": "Güzel ve ender mavi bir üzüm çeşidi, ilk olarak Ferngill Cumhuriyeti'nin perileri tarafından yetiştirildiği söylenir.",
+
+"ateliercrops_apricot.name": "Ayaltını Kayısı",
+"ateliercrops_apricot.description": "Altın etli soluk bir kayısı, ay tanrılarının en sevdikleri meyve olduğu söylenir.",
+
+"ateliercrops_pearl_moondrop.name": "İnci Aydamlası",
+"ateliercrops_pearl_moondrop.description": "Güzel ve ender beyaz bir üzüm çeşidi, ilk olarak Ferngill Cumhuriyeti'nin perileri tarafından yetiştirildiği söylenir.",
+
+"ateliercrops_peach.name": "Kargüzeli Şeftali",
+"ateliercrops_peach.description": "Ender ve hoş bir şeftali; eski halk hikayelerindeki bir prensesin en sevdiği meyve olduğu söylenir.",
+
+"ateliercrops_cherry.name": "Meteor Ekşisi Vişne",
+"ateliercrops_cherry.description": "Sıradan bir vişne gibi görünsede, bu türü nasıl oluyorsa meyveden çok ekşi bir şeker tadı veriyor.",
+
+"ateliercrops_mango.name": "Şafak Mangosu",
+"ateliercrops_mango.description": "Doğan güneşin altında olgunlaşmış hoş bir mango.",
+
+//HERBS
+
+"ateliercrops_rose_flax.name": "Gül Keteni",
+"ateliercrops_rose_flax.description": "Güzel pembe bir tahıl. Değirmenden geçirildikten sonra özel bir un çıkar.",
+
+"ateliercrops_mugwort.name": "Miskotu",
+"ateliercrops_mugwort.description": "Papatya ailesinin bir ferdi, bu bitki cadılar tarafından rüya ve kahinlik özellikleri için yetiştirilir.",
+
+"ateliercrops_violet_flax.name": "Menekşe Keteni",
+"ateliercrops_violet_flax.description": "Güzel mor bir tahıl. Değirmenden geçirildikten sonra özel bir un çıkar.",
+
+"ateliercrops_thistle.name": "Devedikeni",
+"ateliercrops_thistle.description": "Sık çiçek açan bir bitki, insanlar genelde zararlı ot olarak görse de, cadılar tarafından ruhani iyileştirici özellikleri için sevilir.",
+
+"ateliercrops_valerian.name": "Kediotu",
+"ateliercrops_valerian.description": "Uyku çayları yapımında sık kullanılan bir ot, aynı zamanda yıldırımlar ve selleri önlemek için de kullanılabilir.",
+
+"ateliercrops_yarrow.name": "Civanperçemi",
+"ateliercrops_yarrow.description": "Bilge cadılar ve toplayıcılar tarafından yüzyıllardır karın kramplarını iyileştirmek için kullanılıyor.",
+
+//FEATHERS
+
+"ateliercrops_bluebird_feather.name": "Mavi Dağlık Kuşu Tüyü",
+"ateliercrops_bluebird_feather.description": "Yerel Mavi Dağlık Kuşu'nun parlak gökmavisi tüyü.",
+
+"ateliercrops_crow_feather.name": "Karga Tüyü",
+"ateliercrops_crow_feather.description": "Bu tüy gece gökyüzüsü gibi kapkara.",
+
+"ateliercrops_lovebird_feather.name": "Kumru Tüyü",
+"ateliercrops_lovebird_feather.description": "Bir kumrunun çeşitli tonları olan bir tüyü.",
+
+"ateliercrops_owl_feather.name": "Kar Baykuşu Tüyü",
+"ateliercrops_owl_feather.description": "Kocaman bir peçeli kar baykuşundan gelen muhteşem beyaz bir tüy.",
+
+"ateliercrops_phoenix_feather.name": "Anka Tüyü",
+"ateliercrops_phoenix_feather.description": "Bir ankanın; büyük ihtimalle dönüşürken düşürdüğü göz alıcı, kızıl bir tüyü.",
+
+"ateliercrops_raven_feather.name": "Kuzgun Tüyü",
+"ateliercrops_raven_feather.description": "Bir kuzgunun koyu mor bir tüyü, bir simyacı veya cadı için çok kıymetlidir.",
+
+"ateliercrops_rosefinch_feather.name": "Gül Çütresi Tüyü",
+"ateliercrops_rosefinch_feather.description": "Bir gül çütresinin açık pembe bir tüyü.",
+
+"ateliercrops_starling_feather.name": "Ak Karınlı Sığırcık Tüyü",
+"ateliercrops_starling_feather.description": "Ak Karınlı Sığırcıklar neredeyse iridyum cevheriyle aynı renktir, ve tüyleri de toplayıcılar arasında çok meşhurdur.",
+
+//FORAGE
+
+"ateliercrops_fire_dragon_scale.name": "Kıvılcım Ejderhası Pulu",
+"ateliercrops_fire_dragon_scale.description": "Efsanevi bir ateş ejderhasından düşmüş, göz alıcı bir ejder pulu.",
+
+"ateliercrops_clover.name": "Gizli Şans",
+"ateliercrops_clover.description": "Nadir dört yapraklı bir yonca.",
+
+"ateliercrops_mandrake.name": "Adamotu Kökü",
+"ateliercrops_mandrake.description": "Öyle tuhaf bir kök ki sanki.. bir aklı var? Efsaneye göre yerden çekildiğinde korkunç bir çığlık atar, bu yüzden akıllı cadı ve büyücüler onları ararken kulaklarını da tıkar.",
+
+"ateliercrops_ice_dragon_scale.name": "Sis Ejderhası Pulu",
+"ateliercrops_ice_dragon_scale.description": "Efsanevi bir deniz ejderhasından düşmüş, göz alıcı bir ejder pulu.",
+
+"ateliercrops_shooting_star.name": "Kuyrukluyıldız",
+"ateliercrops_shooting_star.description": "Düşmüş bir yıldız! Toplayıcı bir büyücü veya cadı için oldukça ender ve muhteşem bir nesne.",
+
+"ateliercrops_unicorn_horn.name": "Tekboynuzlu At Boynuzu",
+"ateliercrops_unicorn_horn.description": "Genç bir tekboynuzdan alınmış bir boynuz; her cadı veya büyücü için ender ve değerli bir nesne.",
+
+"ateliercrops_witchwood.name": "Cadı Odunu",
+"ateliercrops_witchwood.description": "Doğru cadı tarafından kullanıldığında mistik güçle dolu olan, ormanın derinliklerinden bulunmiş odun.",
+
+//TREE SAPLINGS
+
+"ateliercrops_chiffon_sapling.name": "Mavi Şifon Yetiştirici",
+"ateliercrops_chiffon_sapling.description": "28 günde olgun bir Mavi Şifon Sırığı olur. Güzde hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir.",
+
+"ateliercrops_daisy_sapling.name": "Yayılan Papatya Yetiştirici",
+"ateliercrops_daisy_sapling.description": "28 günde olgun bir Yayılan Papatya Sırığı olur. Baharda hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir.",
+
+"ateliercrops_dawn_sapling.name": "Şafakgüzeli Yetiştirici",
+"ateliercrops_dawn_sapling.description": "28 günde olgun bir Şafakgüzeli Sırığı olur. Yazın hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir.",
+
+"ateliercrops_dusk_sapling.name": "Gecegüzeli Yetiştirici",
+"ateliercrops_dusk_sapling.description": "28 günde olgun bir Gecegüzeli Sırığı olur. Yazın hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir.",
+
+"ateliercrops_geranium_sapling.name": "Ak Itır Yetiştirici",
+"ateliercrops_geranium_sapling.description": "28 günde olgun bir Ak Itır Sırığı olur. Güzde hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir.",
+
+"ateliercrops_primrose_sapling.name": "Kuvars Gecesefası Yetiştirici",
+"ateliercrops_primrose_sapling.description": "28 günde olgun bir Kuvars Gecesefası Sırığı olur. Güzde hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir.",
+
+"ateliercrops_violet_sapling.name": "Kır Menekşesi Yetiştirici",
+"ateliercrops_violet_sapling.description": "28 günde olgun bir Kır Menekşesi Sırığı olur. Baharda hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir",
+
+//SWEET TREES 
+
+"ateliercrops_pavlova_sapling.name": "Pavlova Fidanı",
+"ateliercrops_pavlova_sapling.description": "28 günde olgun bir Pavlova Ağacı olur. Baharda ve yazın hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir",
+
+"ateliercrops_gelato_sapling.name": "Gelato Fidanı",
+"ateliercrops_gelato_sapling.description": "28 günde olgun bir Gelato Ağacı olur. Yazın ve kışın hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir",
+
+"ateliercrops_souffle_sapling.name": "Sufle Fidanı",
+"ateliercrops_souffle_sapling.description": "28 günde olgun bir Sufle Ağacı olur. Yazın ve güzde hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir",
+
+"ateliercrops_brulee_sapling.name": "Brüle Fidanı",
+"ateliercrops_brulee_sapling.description": "28 günde olgun bir Brüle Ağacı olur. Güzde ve kışın hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir",
+
+"ateliercrops_buttercream_sapling.name": "Buttercream Fidanı",
+"ateliercrops_buttercream_sapling.description": "28 günde olgun bir Buttercream Ağacı olur. Baharda ve yazın hasat edilir. Yalnızca çevreleyen 8 kare boşsa yetişebilir",
+
+//MUSHROOM TREES
+
+"ateliercrops_MysticTrumpet_seeds.name": "Mystic Trumpet Tohumu",
+"ateliercrops_MysticTrumpet_seeds.description": "Büyüdüğünde dev bir mantar ağacı olabilecek büyülü bir tohum.",
+
+"ateliercrops_StrangeCap_seeds.name": "Tuhaf Pösteki Mantarı Tohumu",
+"ateliercrops_StrangeCap_seeds.description": "Büyüdüğünde dev bir mantar ağacı olabilecek büyülü bir tohum.",
+
+"ateliercrops_WitchwoodTree_seeds.name": "Cadı Ağacı Tohumu",
+"ateliercrops_WitchwoodTree_seeds.description": "Büyüdüğünde dev bir mantar ağacı olabilecek büyülü bir tohum.",
+
+//FLOWER SEEDS
+
+"ateliercrops_snapdragon_seeds.name": "Donmuş Alev Tohumu",
+"ateliercrops_snapdragon_seeds.description": "Donmuş Alev Aslanağzı Çiçekleri yetiştirmek için ekin. Baharda veya yazın ekilir. 20 günde yetişir.",
+
+"ateliercrops_avalune_seeds.name": "Avalune Tohumu",
+"ateliercrops_avalune_seeds.description": "Baharda veya yazın ekilir. 14 günde yetişir.",
+
+"ateliercrops_puffball_seeds.name": "Peri Ponponu Tohumu",
+"ateliercrops_puffball_seeds.description": "Baharda ekilir. 14 günde yetişir ve sonrasında 3 günde bir hasat edilir.",
+
+"ateliercrops_maiden_seeds.name": "Aygüzeli Tohumu",
+"ateliercrops_maiden_seeds.description": "Baharda ekilir. 7 günde yetişir ve sonrasında 5 günde bir hasat edilir.",
+
+"ateliercrops_pixies_breath_seeds.name": "Pixie Çöveni Tohumu",
+"ateliercrops_pixies_breath_seeds.description": "Güzde ekilir. 14 günde yetişir ve sonrasında 3 günde bir hasat edilir.",
+
+"ateliercrops_flutter_seeds.name": "Kanatçırpan Tohumu",
+"ateliercrops_flutter_seeds.description": "Güzde ekilir. 9 günde yetişir ve sonrasında 5 günde bir hasat edilir",
+
+//FRUIT SEEDS
+
+"ateliercrops_amber_moondrop_seeds.name": "Kehribar Aydamlası Yetiştirici",
+"ateliercrops_amber_moondrop_seeds.description": "Baharda veya yazın ekilir. 13 günde yetişir, sonrasında 4 günde bir hasat edilir.",
+
+"ateliercrops_lapis_moondrop_seeds.name": "Lapis Aydamlası Yetiştirici",
+"ateliercrops_lapis_moondrop_seeds.description": "Yazın veya güzde ekilir. 13 günde yetişir, sonrasında 4 günde bir hasat edilir.",
+
+"ateliercrops_jade_moondrop_seeds.name": "Yeşim Aydamlası Yetiştirici",
+"ateliercrops_jade_moondrop_seeds.description": "Yazın veya güzde ekilir. 13 günde yetişir, sonrasında 4 günde bir hasat edilir.",
+
+"ateliercrops_pearl_moondrop_seeds.name": "İnci Aydamlası Yetiştirici",
+"ateliercrops_pearl_moondrop_seeds.description": "Kışın ekilir ve baharda hasat edilir. 20 günde yetişir, sonrasında 4 günde bir hasat edilir.",
+
+//HERB SEEDS
+
+"ateliercrops_rose_flax_seeds.name": "Gül Keteni Tohumu",
+"ateliercrops_rose_flax_seeds.description": "Herhangi bir mevsimde ekilir. 4 günde yetişir ve hasat için tırpan gerektirir.",
+
+"ateliercrops_mandrake_seeds.name": "Adamkökü Tohumu",
+"ateliercrops_mandrake_seeds.description": "Güzde ekilir. 10 günde yetişir.",
+
+"ateliercrops_mugwort_seeds.name": "Miskotu Tohumu",
+"ateliercrops_mugwort_seeds.description": "Yazın veya güzde ekilir. 12 günde yetişir ilk hasattan sonra 4 günde bir yeniden yetişir.",
+
+"ateliercrops_violet_flax_seeds.name": "Menekşe Keteni Tohumu",
+"ateliercrops_violet_flax_seeds.description": "Herhangi bir mevsimde ekilir. 4 günde yetişir ve hasat için tırpan gerektirir.",
+
+"ateliercrops_thistle_seeds.name": "Devedikeni Tohumu",
+"ateliercrops_thistle_seeds.description": "Yazın veya güzde ekilir. 12 günde yetişir ve ilk hasattan sonra 5 günde bir yeniden yetişir.",
+
+"ateliercrops_valerian_seeds.name": "Kediotu Tohumu",
+"ateliercrops_valerian_seeds.description": "Yazın ekilir. 10 günde yetişir ve ilk hasattan sonra 5 günde bir yeniden yetişir.",
+
+"ateliercrops_yarrow_seeds.name": "Civanperçemi Tohumu",
+"ateliercrops_yarrow_seeds.description": "Baharda veya yazın ekilir. 12 günde yetişir."	
+
+
+}

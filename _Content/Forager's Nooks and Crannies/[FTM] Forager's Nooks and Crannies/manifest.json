@@ -1,0 +1,8 @@
+{
+	"Name": "[FTM] Forager's Nooks and Crannies",
+	"Author": "wildflourmods",
+	"Description": "Generates Forage Items for Forager's Nooks and Crannies",
+	"Version": "1.0",
+	"UniqueID": "foragelocations.FTM",
+		"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"}
+}

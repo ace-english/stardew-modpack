@@ -1,0 +1,259 @@
+{
+    "Changes":
+    [ 
+        
+// SCHEDULE EDITS
+
+		{
+			"LogName": "Jewish George Schedule Changes",
+			"Action": "EditData",
+            "Target": "Characters/schedules/George",
+            "Entries": 
+            {
+                "Sat": "630 JoshHouse 16 22 0/1000 SeedShop 36 22 0 \"Strings\\schedules\\George:Sat.000\"/1400 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep",
+                "Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/630 JoshHouse 16 22 0/1100 Saloon 36 7 0 \"Strings\\schedules\\George:Sun.001\"/1500 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep",
+                "Sun_normal": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1500 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep"
+            },
+			"When":
+			{
+				"DSV.Core/ConfigValue:JewishMullnersScheduleEdit": "true"
+			}
+		},
+		{
+			"LogName": "Jewish Evelyn Schedule Changes",
+			"Action": "EditData",
+            "Target": "Characters/schedules/Evelyn",
+            "Entries": 
+            {
+                "Sat": "800 JoshHouse 3 17 0 square_3_1_0/1000 SeedShop 37 22 0 \"Strings\\schedules\\Evelyn:Sat.000\"/1400 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+                "Sun": "GOTO Thu"
+            },
+			"When":
+			{
+				"DSV.Core/ConfigValue:JewishMullnersScheduleEdit": "true"
+			}
+		},
+
+// DIALOGUE EDITS
+
+// GEORGE
+
+        {
+            "LogName": "Religion NMW Dialogue Edit - Strings George Sunday Visit",
+            "Action": "EditData",
+            "Target": "Strings/schedules/George",
+            "Entries": 
+            {
+                "Sun.001": "{{i18n:DSV.OtherEdits.George.Religion.Strings.Sun.001}}"
+            },
+            "When":
+            {
+                "AltarEditsToken": "True",
+                "DSV.Core/ConfigValue:JewishMullnersScheduleEdit": "false"
+            }
+        },
+        {
+            "LogName": "Religion NMW Dialogue Edit - Strings George Saturday Visit",
+            "Action": "EditData",
+            "Target": "Strings/schedules/George",
+            "Entries": 
+            {
+                "Sat.000": "{{i18n:DSV.OtherEdits.George.Religion.Strings.Sat.000}}",
+                "Sun.001": "{{i18n:DSV.OtherEdits.George.Religion.Strings.Sat.001}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:JewishMullnersScheduleEdit": "true"
+            }
+        },	
+		{
+			"LogName": "Religion Dialogue Edit - George Canon-Friendly Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+			"Entries": 
+			{
+				"fall_Sat10": "{{i18n:DSV.OtherEdits.George.Dialogue.CanonFriendlyDialogue.fall_Sat10}}"
+			},
+            "When":
+            {
+                "AltarEditsToken": "True",
+                "HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+
+// EVELYN
+
+		{
+			"LogName": "Religion Dialogue Edit - Evelyn Canon-Friendly Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"Fri4": "{{i18n:DSV.OtherEdits.Evelyn.Dialogue.CanonFriendlyDialogue.Fri4}}"
+			},
+            "When":
+            {
+                "AltarEditsToken": "True",
+                "HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+        {
+            "LogName": "Religion NMW Dialogue Edit - Strings Evelyn Saturday Visit",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Evelyn",
+            "Entries": 
+            {
+                "Sat.000": "{{i18n:DSV.OtherEdits.Evelyn.Religion.Strings.Sat.000}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:JewishMullnersScheduleEdit": "true"
+            }
+        },
+
+// CAROLINE
+
+		{
+			"LogName": "Religion Dialogue Edit - Strings Caroline",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Caroline",
+			"Entries": 
+			{
+				"Sun.000": "{{i18n:DSV.OtherEdits.Caroline.Religion.Strings.Sun.000}}"
+			},
+            "When":
+            {
+                "AltarEditsToken": "True"
+            }
+		},	
+		{
+			"LogName": "Religion Dialogue Edit - Caroline Canon-Friendly Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": 
+			{
+				"Sun2": "{{i18n:DSV.OtherEdits.Caroline.Dialogue.CanonFriendlyDialogue.Sun2}}"
+			},
+            "When":
+            {
+                "AltarEditsToken": "True",
+                "HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+
+// PAM
+	
+        {
+            "LogName": "Religion Dialogue Edit - Pam Canon-Friendly Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": 
+            {
+                "winter_Thu10": "{{i18n:DSV.OtherEdits.Pam.Dialogue.CanonFriendlyDialogue.winter_Thu10}}"
+            },
+            "When":
+            {
+                "AltarEditsToken": "True",
+                "HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+        },
+
+// JODI
+	
+        {
+            "LogName": "Religion Dialogue Edit - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": 
+            {
+                "Mon2": "{{i18n:DSV.OtherEdits.Jodi.Dialogue.Mon2}}"
+            },
+            "When":
+            {
+                "AltarEditsToken": "True"
+            }
+        },	
+        {
+            "LogName": "Religion Dialogue Edit - Jodi Canon-Friendly Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": 
+            {
+                "Mon2": "{{i18n:DSV.OtherEdits.Jodi.Dialogue.CanonFriendlyDialogue.Mon2}}"
+            },
+            "When":
+            {
+                "AltarEditsToken": "True",
+                "HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+        },
+        
+// STRINGS
+
+		{
+			"LogName": "Religion Dialogue Edit - Strings Altar",
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			"Entries": 
+			{
+				"SeedShop_Yoba": "{{i18n:DSV.OtherEdits.Altar.Religion.Strings.SeedShop}}"
+			},
+            "When":
+            {
+                "AltarEditsToken": "True"
+            }
+		},
+        {
+            "LogName": "Jewish Clara Letter Change",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries":
+            {
+                "JoshHouse.1": "{{i18n:DSV.OtherEdits.Clara.Religion.MapStrings.JoshHouse.1}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:JewishMullners": "true"
+            }
+        },
+
+// MAP EDITS
+		{
+			"LogName": "Yoba Poster Replacement - LUTI Compat",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "Art/Misc/PosterEdit_Star.png",
+			"ToArea": {"X": 370, "Y": 80, "Width": 13, "Height": 16},
+			"When": 
+			{
+                "DSV.Core/ConfigValue:JewishMullners": "true",
+				"LocationName |contains= JoshHouse": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Altar Visual Edit - Vanilla No Yoba",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "Art/Misc/AltarEdit_NoYoba.png",
+			"ToArea": {"X": 259, "Y": 375, "Width": 42, "Height": 40},
+			"When": 
+			{
+				"HasMod |contains= Undare.AltarOfYobaRedux, sb.AltarYoba": false,
+                "AltarEditsToken": "True"
+			}
+		},
+		{
+			"LogName": "Altar Visual Edit - Vanilla No Columns",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "Art/Misc/AltarEdit_Plants.png",
+			"ToArea": {"X": 304, "Y": 368, "Width": 16, "Height": 48},
+			"When": 
+			{
+				"HasMod |contains= Undare.AltarOfYobaRedux, sb.AltarYoba": false,
+                "AltarEditsToken": "True"
+			}
+		}
+    ]
+}

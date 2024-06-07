@@ -1,0 +1,200 @@
+{
+    "Changes":
+    [     
+		
+//
+///////////// LEAH /////////////
+//
+		
+// NATIVE LEAH
+
+		{
+			"LogName": "Leah Variant-Based Dialogue - Native (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": 
+			{
+				"summer_Wed6": "{{i18n:DSV.Dialogue.Daily.Leah.Native.summer_Wed6}}",
+				"fall_Fri8": "{{i18n:DSV.Dialogue.Daily.Leah.Native.fall_Fri8}}",
+				"summer10": "{{i18n:DSV.Dialogue.Daily.Leah.Native.summer10}}",
+				"Fri6": "{{i18n:DSV.Dialogue.Daily.Leah.Native.Fri6}}",
+				"Resort_Bar": "{{i18n:DSV.Dialogue.Daily.Leah.Native.Resort_Bar}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LeahDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
+            }
+		},
+		{
+			"LogName": "Leah Variant-Based Dialogue - Native (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueLeah",
+			"Entries": 
+			{
+				"winter_28": "{{i18n:DSV.Dialogue.Daily.Leah.Native.Married.winter_28}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LeahDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
+            }
+		},
+		{
+			"LogName": "Leah Variant-Based Dialogue - Native (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"Entries": 
+			{
+				"summer_Leah": "{{i18n:DSV.Dialogue.Daily.Leah.Native.Married.summer_Leah}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LeahDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
+            }
+		},
+		{
+			"LogName": "Leah Variant-Based Dialogue - Native (Married, Festival)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{
+				"Leah_spouse_y2": "{{i18n:DSV.Dialogue.Daily.Leah.Native.Married.Leah_spouse_y2}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LeahDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
+            }
+		},
+		{
+			"LogName": "Leah Variant-Based Dialogue - Native (Daily, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": 
+			{
+				"Mon4": "{{i18n:DSV.Dialogue.Daily.Leah.Native.Mon4.CanonFriendlyDialogue}}",
+				"summer_Wed8": "{{i18n:DSV.Dialogue.Daily.Leah.Native.summer_Wed8.CanonFriendlyDialogue}}",
+				"fall_Fri4": "{{i18n:DSV.Dialogue.Daily.Leah.Native.fall_Fri4.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LeahDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+		
+// BUTCH LEAH
+
+		{
+			"LogName": "Leah Variant-Based Dialogue - Butch (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": 
+			{
+				"summer_Wed2": "{{i18n:DSV.Dialogue.Daily.Leah.Butch.summer_Wed2}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:LeahDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Butch}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AshbrassLeah}}' = 'true'": true
+            }
+		},          
+		
+//
+///////////// ELLIOTT /////////////
+//
+		
+// BLACK ELLIOTT
+
+		{
+			"LogName": "Elliott Variant-Based Dialogue - Black (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{
+				"Mon8": "{{i18n:DSV.Dialogue.Daily.Elliott.Black.Mon8}}",
+				"fall_Tue6": "{{i18n:DSV.Dialogue.Daily.Elliott.Black.fall_Tue6}}",
+				"winter_Sat8": "{{i18n:DSV.Dialogue.Daily.Elliott.Black.winter_Sat8}}",
+				"Summer_Sat": "{{i18n:DSV.Dialogue.Daily.Elliott.Black.Summer_Sat}}",
+				"Winter_Fri": "{{i18n:DSV.Dialogue.Daily.Elliott.Black.Winter_Fri}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:ElliottDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:ElliottVariant |contains= Modded": true
+            }
+		},  
+		{
+			"LogName": "Elliott Variant-Based Dialogue - Black (Married, Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueElliott",
+			"Entries": 
+			{
+				"Rainy_Day_3": "{{i18n:DSV.Dialogue.Daily.Elliott.Black.Married.Rainy_Day_3}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:ElliottDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:ElliottVariant |contains= Modded": true
+            }
+		}, 
+		{
+			"LogName": "Elliott Variant-Based Dialogue - Black (Married, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueElliott",
+			"Entries": 
+			{
+				"Rainy_Day_3": "{{i18n:DSV.Dialogue.Daily.Elliott.Black.Married.Rainy_Day_3.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:ElliottDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:ElliottVariant |contains= Modded": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},  
+		{
+			"LogName": "Elliott Variant-Based Dialogue - Black (14H Event)",
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Fields": 
+			{
+			"3912125/f Elliott 3500/O Elliott/t 500 1500/p Elliott/U 8": 
+				{
+					47: "end dialogue Elliott \"{{i18n:DSV.Dialogue.Daily.Elliott.Black.Married.14Heart}}\""
+				}
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:ElliottDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:ElliottVariant |contains= Modded": true,
+				"HasMod |contains= AirynNicole.FourteenHearts": false
+			}
+		}, 
+		
+// JEWISH ELLIOTT
+
+		{
+			"LogName": "Elliott Variant-Based Dialogue - Jewish (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{
+				"spring_Wed6": "{{i18n:DSV.Dialogue.Daily.Elliott.Jewish.spring_Wed6}}",
+				"summer_Mon2": "{{i18n:DSV.Dialogue.Daily.Elliott.Jewish.summer_Mon2}}",
+				"winter_Thu4": "{{i18n:DSV.Dialogue.Daily.Elliott.Jewish.winter_Thu4}}",
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Elliott.Jewish.Introduction}}",
+				"event_toast1": "{{i18n:DSV.Dialogue.Daily.Elliott.Jewish.event_toast1}}",
+				"event_toast2": "{{i18n:DSV.Dialogue.Daily.Elliott.Jewish.event_toast2}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:ElliottDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:JewishElliott |contains= True": true
+            }
+		}     
+    ]
+}

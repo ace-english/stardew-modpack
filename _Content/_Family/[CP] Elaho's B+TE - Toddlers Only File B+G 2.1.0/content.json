@@ -1,0 +1,6229 @@
+{
+  "Format": "2.0.0",
+  
+  "ConfigSchema": {
+
+//Skin Tone
+
+    "Female Toddler Skin Colour": {"AllowValues": "Lighter, Default, Darker",
+	"Default": "Default"},
+    "Male Toddler Skin Colour": {"AllowValues": "Lighter, Default, Darker",
+	"Default": "Default"},
+	
+//Toddler Hair
+
+    "Female Toddler Hairstyle": {"AllowValues": "Smooth, Frizzy",
+	"Default": "Smooth"},
+    "Male Toddler Hairstyle": {"AllowValues": "Combed, Messy",
+	"Default": "Messy"},
+	
+//Religious Hats	
+
+	"Kippah": {"AllowValues": "True, False",
+	"Default": "False"},
+	"Kippah Colour Scheme": {"AllowValues": "Blonde, Ginger, DarkBrown, Alex",
+	"Default": "Alex"},
+	
+	"Sikh Male Toddler": {"AllowValues": "True, False",
+	"Default": "False"},
+	"Sikh Male Colour Scheme": {"AllowValues": "Lighter, Default, Darker, Harvey",
+	"Default": "Default"},
+	
+//Toddler Colour Scheme
+
+    "Female Toddler Colour Scheme": {"AllowValues": "Abigail, Caroline, Claire, Emily, Gotoro, Haley, Leah, Maru, Penny, Pam, Sophia, Alex, Elliott, BlackElliott, Harvey, Lance, Sam, Sebastian, Shane, Victor, Wizard, EurasianAlbino, Asian, BlackAlbino, DarkBlack, Indigenous",
+	"Default": "Abigail"},
+    "Male Toddler Colour Scheme": {"AllowValues": "Abigail, Claire, Emily, Gotoro, Haley, Jodi, Leah, Maru, Marnie, Penny, Sophia, Alex, Elliott, BlackElliott, Harvey, Lance, Sam, Sebastian, Shane, Victor, Wizard, EurasianAlbino, Asian, BlackAlbino, DarkBlack, Indigenous",
+	"Default": "Abigail"},
+//Joja Male Toddlers
+
+	"Joja Male Toddler": {"AllowValues": "True, False",
+	"Default": "False"},
+    "Joja Male Toddler Colour Scheme": {"AllowValues": "Black1, Black2, Asian1, Asian2, Asian3, Blonde, Ginger, Brunette, JetBlack, SouthAsian, Native,",
+	"Default": "Black1"},
+	
+//Joja Female Toddlers
+
+	"Joja Female Toddler": {"AllowValues": "True, False",
+	"Default": "False"},
+    "Joja Female Toddler Colour Scheme": {"AllowValues": "Black1, Black2, Asian1, Asian2, Asian3, Blonde, Ginger, Brunette, JetBlack, SouthAsian, Native,",
+	"Default": "Black1"},
+	
+//Joja Hairstyles
+
+	"Joja Female Hairstyle": {"AllowValues": "Smooth, Frizzy",
+	"Default": "Smooth"},
+    "Joja Male Hairstyle": {"AllowValues": "Combed, Messy",
+	"Default": "Messy"},
+	
+	},
+
+"Changes": [
+
+//Abigail Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/abigailsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/abigailsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/abigailsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/abigailsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/abigailfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/abigailfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/abigailfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/abigailfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Abigail",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/abigailcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/abigailcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/abigailcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/abigailcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/abigailmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/abigailmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/abigailmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/abigailmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Abigail",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+
+//Alex Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/alexsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Alex",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/alexsmoothfair.png",
+      "When": {
+	"Female Toddler Colour Scheme": "Alex",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/alexsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Alex",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/alexsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Alex",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/alexfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Alex",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/alexfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Alex",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/alexfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Alex",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/alexfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Alex",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/alexcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/alexcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/alexcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/alexcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/alexmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/alexmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/alexmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/alexmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+//Alex Kippah
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/alexcombedfairkippah.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Colour": "Default",
+        "Joja Male Toddler": "False",
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Alex"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/alexcombedfairkippah.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Colour": "Default",
+        "Joja Male Toddler": "False",
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Alex"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/alexcombeddarkkippah.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Colour": "Darker",
+        "Joja Male Toddler": "False",
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Alex"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/alexcombeddarkkippah.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Colour": "Darker",
+        "Joja Male Toddler": "False",
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Alex"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/alexmessyfairkippah.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Colour": "Default",
+        "Joja Male Toddler": "False",
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Alex"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/alexmessyfairkippah.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Colour": "Default",
+        "Joja Male Toddler": "False",
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Alex"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/alexmessydarkkippah.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Colour": "Darker",
+        "Joja Male Toddler": "False",
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Alex"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/alexmessydarkkippah.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Alex",
+        "Male Toddler Hairstyle": "Messy",
+        "Male Toddler Skin Colour": "Darker",
+        "Joja Male Toddler": "False",
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Alex"
+      }
+    },
+
+//Claire Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/clairesmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Claire",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/clairesmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Claire",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/clairesmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Claire",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/clairesmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Claire",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/clairefrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Claire",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/clairefrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Claire",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/clairefrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Claire",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/clairefrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Claire",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/clairecombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Claire",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/clairecombedfair.png",
+      "When": {
+		"Male Toddler Colour Scheme": "Claire",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/clairecombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Claire",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/clairecombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Claire",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/clairemessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Claire",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/clairemessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Claire",
+        "Male Toddler Hairstyle": "Messy",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/clairemessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Claire",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/clairemessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Claire",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+
+//Elliott Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/elliottsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/elliottsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/elliottsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/elliottsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/elliottfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/elliottfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/elliottfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/elliottfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Elliott",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/elliottcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/elliottcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/elliottcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/elliottcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/elliottmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/elliottmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/elliottmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/elliottmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Elliott",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Emily Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/emilysmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Emily",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/emilysmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Emily",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/emilysmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Emily",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/emilysmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Emily",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/emilyfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Emily",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/emilyfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Emily",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/emilyfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Emily",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/emilyfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Emily",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/emilycombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Emily",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/emilycombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Emily",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/emilycombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Emily",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/emilycombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Emily",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/emilymessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Emily",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/emilymessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Emily",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/emilymessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Emily",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/emilymessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Emily",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Gotoro Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/gotorosmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Gotoro",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/gotorosmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Gotoro",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/gotorosmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Gotoro",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/gotorosmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Gotoro",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/gotorofrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Gotoro",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/gotorofrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Gotoro",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/gotorofrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Gotoro",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/gotorofrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Gotoro",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/gotorocombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Gotoro",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/gotorocombedfair.png",
+      "When": {
+		"Male Toddler Colour Scheme": "Gotoro",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/gotorocombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Gotoro",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/gotorocombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Gotoro",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/gotoromessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Gotoro",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/gotoromessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Gotoro",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/gotoromessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Gotoro",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/gotoromessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Gotoro",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Haley Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/haleysmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Haley",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/haleysmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Haley",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/haleysmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Haley",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/haleysmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Haley",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/haleyfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Haley",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/haleyfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Haley",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/haleyfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Haley",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/haleyfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Haley",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/haleycombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Haley",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/haleycombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Haley",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/haleycombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Haley",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/haleycombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Haley",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/haleymessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Haley",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/haleymessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Haley",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/haleymessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Haley",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/haleymessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Haley",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+
+//Harvey Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/harveysmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/harveysmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/harveysmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/harveysmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/harveyfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/harveyfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/harveyfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/harveyfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Harvey",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/harveycombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/harveycombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/harveycombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/harveycombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/harveymessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/harveymessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/harveymessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/harveymessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Harvey Sikh Toddlers
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/turbanharveydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Colour": "Default",
+		"Sikh Male Toddler": "True",
+		"Kippah": "False",
+		"Sikh Male Colour Scheme": "Harvey",
+		"Joja Male Toddler": "False",
+
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/turbanharveydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Colour": "Default",
+		"Kippah": "False",
+		"Sikh Male Toddler": "True",
+		"Sikh Male Colour Scheme": "Harvey",
+		"Joja Male Toddler": "False",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/turbanharveydarker.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Colour": "Darker",
+		"Kippah": "False",
+		"Sikh Male Toddler": "True",
+		"Sikh Male Colour Scheme": "Harvey",
+		"Joja Male Toddler": "False",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/turbanharveydarker.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Harvey",
+        "Male Toddler Hairstyle": "Combed",
+        "Male Toddler Skin Colour": "Darker",
+		"Sikh Male Toddler": "True",
+		"Kippah": "False",
+		"Sikh Male Colour Scheme": "Harvey",
+		"Joja Male Toddler": "False",
+      }
+//Sikh Toddlers
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/turbansikh1.png",
+      "When": {
+		"Sikh Male Toddler": "True",
+        "Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Colour Scheme": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/turbansikh1.png",
+      "When": {
+		"Sikh Male Toddler": "True",
+        "Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Colour Scheme": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/turbansikh2.png",
+      "When": {
+		"Sikh Male Toddler": "True",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Colour Scheme": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/turbansikh2.png",
+      "When": {
+		"Sikh Male Toddler": "True",
+        "Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Colour Scheme": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/turbansikh3.png",
+      "When": {
+		"Sikh Male Toddler": "True",
+        "Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Colour Scheme": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/turbansikh3.png",
+      "When": {
+		"Sikh Male Toddler": "True",
+        "Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Colour Scheme": "Darker"
+      }
+    },
+	
+//Joja Toddlers - Jet Black + Asian 3
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothdefault.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "JetBlack",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothdefault.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "JetBlack",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothlighter.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian3",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothlighter.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian3",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzydefault.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "JetBlack",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzydefault.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "JetBlack",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzylighter.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian3",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzylighter.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian3",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombeddefault.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "JetBlack",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombeddefault.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "JetBlack",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedlighter.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian3",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedlighter.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian3",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessydefault.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "JetBlack",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessydefault.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "JetBlack",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessylighter.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian3",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessylighter.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian3",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+	
+//Joja Toddlers - Blonde
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothfemaleblonde.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Blonde",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothfemaleblonde.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Blonde",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzyfemaleblonde.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Blonde",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzyfemaleblonde.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Blonde",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedmaleblonde.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Blonde",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedmaleblonde.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Blonde",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessymaleblonde.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Blonde",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessymaleblonde.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Blonde",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+
+//Joja Toddlers - Black 1 + Black 2
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothfemaleblack1.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Black1",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothfemaleblack1.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Black1",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzyfemaleblack1.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Black1",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzyfemaleblack1.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Black1",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedmaleblack1.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Black1",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedmaleblack1.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Black1",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessymaleblack1.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Black1",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessymaleblack1.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Black1",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothfemaleblack2.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Black2",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothfemaleblack2.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Black2",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzyfemaleblack2.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Black2",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzyfemaleblack2.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Black2",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedmaleblack2.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Black2",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedmaleblack2.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Black2",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessymaleblack2.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Black2",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessymaleblack2.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Black2",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+	
+//Joja Toddlers - Asian 1 + Asian 2 
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothfemaleasian1.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian1",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothfemaleasian1.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian1",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzyfemaleasian1.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian1",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzyfemaleasian1.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian1",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedmaleasian1.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian1",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedmaleasian1.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian1",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessymaleasian1.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian1",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessymaleasian1.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian1",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothfemaleasian2.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian2",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothfemaleasian2.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian2",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzyfemaleasian2.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian2",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzyfemaleasian2.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Asian2",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedmaleasian2.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian2",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedmaleasian2.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian2",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessymaleasian2.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian2",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessymaleasian2.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Asian2",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+
+//Joja Toddlers - Ginger 
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothfemaleginger.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Ginger",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothfemaleginger.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Ginger",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzyfemaleginger.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Ginger",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzyfemaleginger.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Ginger",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedmaleginger.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Ginger",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedmaleginger.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Ginger",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessymaleginger.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Ginger",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessymaleginger.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Ginger",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+//Joja Toddlers - Brunette
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothfemalebrunette.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Brunette",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothfemalebrunette.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Brunette",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzyfemalebrunette.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Brunette",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzyfemalebrunette.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Brunette",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedmalebrunette.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Brunette",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedmalebrunette.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Brunette",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessymalebrunette.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Brunette",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessymalebrunette.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Brunette",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+	
+//Joja Toddlers - South Asian
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothfemalesouthasian.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "SouthAsian",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothfemalesouthasian.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "SouthAsian",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzyfemalesouthasian.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "SouthAsian",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzyfemalesouthasian.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "SouthAsian",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedmalesouthasian.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "SouthAsian",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedmalesouthasian.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "SouthAsian",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessymalesouthasian.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "SouthAsian",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessymalesouthasian.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "SouthAsian",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+//Joja Toddlers - Native
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojasmoothfemalenative.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Native",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojasmoothfemalenative.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Native",
+		"Joja Female Hairstyle": "Smooth",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/jojafrizzyfemalenative.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Native",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/jojafrizzyfemalenative.png",
+      "When": {
+		"Joja Female Toddler": "True",
+		"Joja Female Toddler Colour Scheme": "Native",
+		"Joja Female Hairstyle": "Frizzy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojacombedmalenative.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Native",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojacombedmalenative.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Native",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Combed",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jojamessymalenative.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Native",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jojamessymalenative.png",
+      "When": {
+		"Joja Male Toddler": "True",
+		"Joja Male Toddler Colour Scheme": "Native",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+		"Joja Male Hairstyle": "Messy",
+      }
+    },
+	
+//Lance Toddlers 
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/lancesmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/lancesmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/lancesmoothdarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/lancesmoothdarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/lancesmoothlighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/lancesmoothlighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/lancefrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/lancefrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/lancefrizzydarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/lancefrizzydarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+			{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/lancefrizzylighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/lancefrizzylighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Lance",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/lancecombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/lancecombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/lancecombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/lancecombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+			{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/lancecombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/lancecombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/lancemessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/lancemessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/lancemessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/lancemessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/lancemessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/lancemessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Lance",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+//Leah Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/leahsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Leah",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/leahsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Leah",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/leahsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Leah",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/leahsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Leah",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/leahfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Leah",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/leahfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Leah",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/leahfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Leah",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/leahfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Leah",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/leahcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Leah",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/leahcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Leah",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/leahcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Leah",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/leahcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Leah",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/leahmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Leah",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/leahmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Leah",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/leahmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Leah",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/leahmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Leah",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Maru Toddlers
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/marusmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/marusmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/marusmoothdarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/marusmoothdarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/marusmoothlighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/marusmoothlighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/marufrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/marufrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/marufrizzydarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/marufrizzydarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+			{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/marufrizzylighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/marufrizzylighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Maru",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/marucombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/marucombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/marucombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/marucombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+			{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/marucombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/marucombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/marumessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/marumessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/marumessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/marumessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/marumessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/marumessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Maru",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+	
+//Penny Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/pennysmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Penny",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/pennysmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Penny",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/pennysmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Penny",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/pennysmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Penny",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/pennyfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Penny",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/pennyfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Penny",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/pennyfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Penny",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/pennyfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Penny",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/pennycombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Penny",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/pennycombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Penny",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/pennycombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Penny",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/pennycombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Penny",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/pennymessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Penny",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/pennymessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Penny",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/pennymessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Penny",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/pennymessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Penny",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Sam Toddlers
+	{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/samsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sam",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/samsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sam",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/samsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sam",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/samsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sam",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/samfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sam",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/samfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sam",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/samfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sam",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/samfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sam",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/samcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sam",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/samcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sam",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/samcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sam",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/samcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sam",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sammessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sam",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sammessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sam",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sammessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sam",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sammessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sam",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Sebastian Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/sebastiansmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/sebastiansmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/sebastiansmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/sebastiansmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/sebastianfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/sebastianfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/sebastianfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/sebastianfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sebastian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sebastiancombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sebastiancombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sebastiancombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sebastiancombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sebastianmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sebastianmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sebastianmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sebastianmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sebastian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+//Shane Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/shanesmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Shane",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/shanesmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Shane",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/shanesmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Shane",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/shanesmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Shane",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/shanefrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Shane",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/shanefrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Shane",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/shanefrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Shane",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/shanefrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Shane",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/shanecombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Shane",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/shanecombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Shane",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/shanecombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Shane",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/shanecombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Shane",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/shanemessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Shane",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/shanemessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Shane",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/shanemessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Shane",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/shanemessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Shane",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+//Sophia Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/sophiasmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/sophiasmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/sophiasmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/sophiasmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/sophiafrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/sophiafrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/sophiafrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/sophiafrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Sophia",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sophiacombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sophiacombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sophiacombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sophiacombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sophiamessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sophiamessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/sophiamessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/sophiamessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Sophia",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+//Victor Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/victorsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Victor",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/victorsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Victor",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/victorsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Victor",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/victorsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Victor",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/victorfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Victor",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/victorfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Victor",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/victorfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Victor",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/victorfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Victor",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/victorcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Victor",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/victorcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Victor",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/victorcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Victor",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/victorcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Victor",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/victormessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Victor",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/victormessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Victor",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/victormessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Victor",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/victormessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Victor",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Wizard Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/wizardsmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Wizard",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/wizardsmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Wizard",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/wizardsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Wizard",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/wizardsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Wizard",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/wizardfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Wizard",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/wizardfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Wizard",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/wizardfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Wizard",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/wizardfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Wizard",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/wizardcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Wizard",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/wizardcombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Wizard",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/wizardcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Wizard",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/wizardcombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Wizard",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/wizardmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Wizard",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/wizardmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Wizard",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/wizardmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Wizard",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/wizardmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Wizard",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Caroline Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/carolinefrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Caroline",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/carolinefrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Caroline",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/carolinefrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Caroline",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/carolinefrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Caroline",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+//Jodi Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jodicombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Jodi",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jodicombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Jodi",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/jodicombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Jodi",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/jodicombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Jodi",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+//Marnie Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/shanemessymarniefair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Marnie",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/shanemessymarniefair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Marnie",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/shanemessymarniedark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Marnie",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/shanemessymarniedark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Marnie",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+//Pam Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/pamsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Pam",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/pamsmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Pam",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/pamsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Pam",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/pamsmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Pam",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+	
+//Black Elliott Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/blackelliottsmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "BlackElliott",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/blackelliottsmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "BlackElliott",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/blackelliottfrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "BlackElliott",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/blackelliottfrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "BlackElliott",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/blackelliottcombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "BlackElliott",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/blackelliottcombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "BlackElliott",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/blackelliottmessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "BlackElliott",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/blackelliottmessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "BlackElliott",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+//Eurasian Albino Toddlers
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/albinosmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "EurasianAlbino",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/albinosmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "EurasianAlbino",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/albinofrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "EurasianAlbino",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/albinofrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "EurasianAlbino",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/albinocombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "EurasianAlbino",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/albinocombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "EurasianAlbino",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/albinomessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "EurasianAlbino",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/albinomessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "EurasianAlbino",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+//Asian Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/asiansmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/asiansmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/asianfrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/asianfrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/asiancombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/asiancombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/asianmessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/asianmessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/asiansmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/asiansmoothdark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/asianfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/asianfrizzydark.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/asiancombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/asiancombeddark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/asianmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/asianmessydark.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/asiansmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/asiansmoothfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/asianfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/asianfrizzyfair.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Asian",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/asiancombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/asiancombedfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/asianmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/asianmessyfair.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Asian",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+//Black Albino Toddlers
+
+{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/blackalbinosmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "BlackAlbino",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/blackalbinosmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "BlackAlbino",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/blackalbinofrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "BlackAlbino",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/blackalbinofrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "BlackAlbino",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/blackalbinocombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "BlackAlbino",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/blackalbinocombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "BlackAlbino",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/blackalbinomessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "BlackAlbino",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/blackalbinomessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "BlackAlbino",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+//Dark Black Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/darkblackfemalesmooth.png",
+      "When": {
+        "Female Toddler Colour Scheme": "DarkBlack",
+		"Joja Female Toddler": "False",
+        "Female Toddler Hairstyle": "Smooth",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/darkblackfemalesmooth.png",
+      "When": {
+        "Female Toddler Colour Scheme": "DarkBlack",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/darkblackfemalefrizzy.png",
+      "When": {
+        "Female Toddler Colour Scheme": "DarkBlack",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/darkblackfemalefrizzy.png",
+      "When": {
+        "Female Toddler Colour Scheme": "DarkBlack",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/darkblackmalecombed.png",
+      "When": {
+        "Male Toddler Colour Scheme": "DarkBlack",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/darkblackmalecombed.png",
+      "When": {
+        "Male Toddler Colour Scheme": "DarkBlack",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/darkblackmalemessy.png",
+      "When": {
+        "Male Toddler Colour Scheme": "DarkBlack",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/darkblackmalemessy.png",
+      "When": {
+        "Male Toddler Colour Scheme": "DarkBlack",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+//Kippah Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/blondecombedkippah.png",
+      "When": {
+		"Kippah": "True",
+		"Joja Male Toddler": "False",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Blonde"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/blondcombedkippah.png",
+      "When": {
+		"Kippah": "True",
+		"Joja Male Toddler": "False",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Blonde"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/gingercombedkippah.png",
+      "When": {
+		"Kippah": "True",
+		"Joja Male Toddler": "False",
+		"Sikh Male Toddler": "False",
+		"Kippah Colour Scheme": "Ginger"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/gingercombedkippah.png",
+	  "When": {
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Joja Male Toddler": "False",
+		"Kippah Colour Scheme": "Ginger"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/darkbrowncombedkippah.png",
+	  "When": {
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Joja Male Toddler": "False",
+		"Kippah Colour Scheme": "DarkBrown"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/darkbrowncombedkippah.png",
+	  "When": {
+		"Kippah": "True",
+		"Sikh Male Toddler": "False",
+		"Joja Male Toddler": "False",
+		"Kippah Colour Scheme": "DarkBrown"
+      }
+    },
+//Native Toddlers
+
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/nativesmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/nativesmoothdefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/nativefrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/nativefrizzydefault.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/nativecombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/nativecombeddefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/nativemessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/nativemessydefault.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Default"
+      }
+    },
+			{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/nativesmoothlighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/nativesmoothlighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/nativefrizzylighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/nativefrizzylighter.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/nativecombedlighter.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/nativecombedlighter.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/nativemessylighter.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/nativemessylighter.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Lighter"
+      }
+    },
+			{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/nativesmoothdarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/nativesmoothdarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Smooth",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Girl/nativefrizzydarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Girl/nativefrizzydarker.png",
+      "When": {
+        "Female Toddler Colour Scheme": "Indigenous",
+        "Female Toddler Hairstyle": "Frizzy",
+		"Joja Female Toddler": "False",
+        "Female Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/nativecombeddarker.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/nativecombeddarker.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Combed",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Boy/nativemessydarker.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+      }
+    },
+		{
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Boy/nativemessydarker.png",
+      "When": {
+        "Male Toddler Colour Scheme": "Indigenous",
+        "Male Toddler Hairstyle": "Messy",
+		"Joja Male Toddler": "False",
+		"Kippah": "False",
+		"Sikh Male Toddler": "False",
+        "Male Toddler Skin Colour": "Darker"
+		},
+	}	
+  ]
+}
+

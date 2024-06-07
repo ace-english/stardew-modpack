@@ -1,0 +1,252 @@
+{
+// LINUS DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Linus Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Linus", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Linus.Indoor":
+				{
+					"Id": "{{ModId}}_Linus_Indoor",
+					"Portrait": "Portraits/Linus_Indoor",
+					"Sprite": "Characters/Linus_Indoor",
+					"Precedence": -110
+				},
+				"DSV.Linus.Beach":
+				{
+					"Id": "{{ModId}}_Linus_Beach",
+					"Portrait": "Portraits/Linus_Beach",
+					"Sprite": "Characters/Linus_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Linus.EggFestival":
+				{
+					"Id": "{{ModId}}_Linus_EggFestival",
+					"Portrait": "Portraits/Linus_EggFestival",
+					"Sprite": "Characters/Linus_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Linus.FlowerDance":
+				{
+					"Id": "{{ModId}}_Linus_FlowerDance",
+					"Portrait": "Portraits/Linus_FlowerDance",
+					"Sprite": "Characters/Linus_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Linus.Luau":
+				{
+					"Id": "{{ModId}}_Linus_Luau",
+					"Portrait": "Portraits/Linus_Luau",
+					"Sprite": "Characters/Linus_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Linus.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Linus_MoonlightJellies",
+					"Portrait": "Portraits/Linus_MoonlightJellies",
+					"Sprite": "Characters/Linus_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Linus.SVFair":
+				{
+					"Id": "{{ModId}}_Linus_SVFair",
+					"Portrait": "Portraits/Linus_SVFair",
+					"Sprite": "Characters/Linus_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Linus.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Linus_SpiritsEve",
+					"Portrait": "Portraits/Linus_SpiritsEve",
+					"Sprite": "Characters/Linus_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Linus.IceFestival":
+				{
+					"Id": "{{ModId}}_Linus_IceFestival",
+					"Portrait": "Portraits/Linus_IceFestival",
+					"Sprite": "Characters/Linus_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Linus.WinterStar":
+				{
+					"Id": "{{ModId}}_Linus_WinterStar",
+					"Portrait": "Portraits/Linus_WinterStar",
+					"Sprite": "Characters/Linus_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Linus.Swim":
+				{
+					"Id": "{{ModId}}_Linus_Swim",
+					"Portrait": "Portraits/Linus_Swim",
+					"Sprite": "Characters/Linus_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Linus.HotClimate":
+				{
+					"Id": "{{ModId}}_Linus_HotClimate",
+					"Portrait": "Portraits/Linus_HotClimate",
+					"Sprite": "Characters/Linus_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Linus Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Linus_Indoor, Characters/Linus_Indoor",
+			"FromFile": "Art/VanillaNPCs/Linus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLinus}}/Linus_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LinusVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Linus Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Linus_Beach, Characters/Linus_Beach",
+			"FromFile": "Art/VanillaNPCs/Linus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLinus}}/Linus_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LinusVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Linus Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Linus_EggFestival, Characters/Linus_EggFestival, Portraits/Linus_FlowerDance, Characters/Linus_FlowerDance, Portraits/Linus_Luau, Characters/Linus_Luau, Portraits/Linus_MoonlightJellies, Characters/Linus_MoonlightJellies, Portraits/Linus_SVFair, Characters/Linus_SVFair, Portraits/Linus_SpiritsEve, Characters/Linus_SpiritsEve, Portraits/Linus_IceFestival, Characters/Linus_IceFestival, Portraits/Linus_WinterStar, Characters/Linus_WinterStar, Portraits/Linus_Swim, Characters/Linus_Swim",
+			"FromFile": "Art/VanillaNPCs/Linus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLinus}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LinusVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Linus Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Linus_HotClimate, Characters/Linus_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Linus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLinus}}/Linus_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LinusVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Linus Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Linus_Indoor, Characters/Linus_Indoor",
+			"FromFile": "Art/VanillaNPCs/Linus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLinus}}/Linus_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Linus Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Linus_HotClimate, Characters/Linus_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Linus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLinus}}/Linus_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Linus Sleep Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Linus_Indoor",
+			"FromFile": "Art/VanillaNPCs/Linus/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLinus}}/Linus_SleepSprite.png",
+			"ToArea": { "X": 48, "Y": 160, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"LocationName |contains= Tent": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Linus Bundle Sprite",
+			"Action": "EditImage",
+			"Target": "LooseSprites/BundleSprites",
+			"FromFile": "Art/VanillaNPCs/Linus/Misc/BundleSprites_Linus.png",
+			"ToArea": { "X": 160, "Y": 0, "Width": 32, "Height": 32 }
+		},
+		{
+			"LogName": "Linus Wash Clothes",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "Art/VanillaNPCs/Linus/Misc/WashClothes/Linus_{{season}}_1.png",
+			"ToArea": { "X": 129, "Y": 241, "Width": 14, "Height": 15 }
+		},
+		
+// MERMAID PENDANTS	
+		{
+			"LogName": "Linus Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Linus_Indoor, Portraits/Linus_EggFestival, Portraits/Linus_FlowerDance, Portraits/Linus_Luau, Portraits/Linus_MoonlightJellies, Portraits/Linus_SVFair",
+			"FromFile": "Art/VanillaNPCs/Linus/Misc/MermaidPendants/Linus_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Linus |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Linus Pendants - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Linus_Beach, Portraits/Linus_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Linus/Misc/MermaidPendants/Linus_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Linus |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+
+// COMPATIBILITY
+// Lumisteria Missing Hat Bundles
+		
+		{
+			"LogName": "Linus Lumisteria Bundles",
+			"Action": "EditImage",
+			"Target": "Mods/Lumisteria.CP.MissingHatsBundles/Linus",
+			"FromFile": "Art/VanillaNPCs/Linus/Misc/LumisteriaBundles_Linus.png",
+			"When":
+			{
+				"HasMod |contains= Lumisteria.CP.MissingHatsBundles": true
+			}
+		}
+	]
+}

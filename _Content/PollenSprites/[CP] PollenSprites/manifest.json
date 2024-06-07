@@ -1,0 +1,13 @@
+{
+   "Name": "[CP] Pollen Sprites",
+   "Author": "Esca",
+   "Version": "2.0.0",
+   "Description": "Loads the custom spritesheet used by the Pollen Sprite monster type.",
+   "UniqueID": "Esca.PollenSpritesCP",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": ["Nexus:6149", "GitHub:Esca-MMC/PollenSprites", "ModDrop:790268"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.0.0"
+   }
+}

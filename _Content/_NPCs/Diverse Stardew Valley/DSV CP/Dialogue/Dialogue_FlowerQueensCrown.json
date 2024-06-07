@@ -1,0 +1,357 @@
+{
+	"Changes": [
+
+// ABIGAIL QUEEN
+
+		{
+			"LogName": "Abigail FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Abigail{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.AbigailQueen.Abigail}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Abigail": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// ALEX QUEEN
+		{
+			"LogName": "Alex FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Alex{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.AlexQueen.Alex.{{DSV.Core/ConfigValue:EvelynVariant}}}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Alex": true,
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Off": false
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"LogName": "Alex FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Alex{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.AlexQueen.Alex.Jewish}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Alex": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true,
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Vanilla": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// EMILY QUEEN
+		{
+			"LogName": "Emily FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Emily{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.EmilyQueen.Emily}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Emily": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// ELLIOTT QUEEN
+		{
+			"LogName": "Elliott FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Elliott{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.ElliottQueen.Elliott}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Elliott": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// HALEY NOT QUEEN
+		{
+			"LogName": "Haley FQC Not Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Haley": "{{i18n: DSV.Dialogue.FQC.NotHaleyQueen.Haley}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Haley": false
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"LogName": "Haley FQC Not Queen Dialogue - IFD Haley 6-10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Haley{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.NotHaleyQueen.Haley.IFD.6-10}}"
+			},
+			"When": 
+			{
+				"DSV.Core/FlowerQueen |contains= Haley": false,
+				"Hearts:Haley": "6, 7, 8, 9, 10",
+				"HasMod |contains= tangeriney.FestivalDialogue": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},		
+		{
+			"LogName": "Haley FQC Not Queen Dialogue - IFD Haley Dating",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Haley{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.NotHaleyQueen.Haley.IFD.Dating}}"
+			},
+			"When": 
+			{
+				"DSV.Core/FlowerQueen |contains= Haley": false,
+				"Relationship:Haley |contains= Dating": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},		
+		{
+			"LogName": "Haley FQC Not Queen Dialogue - IFD Haley Married",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Haley{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.NotHaleyQueen.Haley.IFD.Married}}"
+			},
+			"When": 
+			{
+				"DSV.Core/FlowerQueen |contains= Haley": false,
+				"Relationship:Haley |contains= Married": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},		
+		{
+			"LogName": "Haley FQC Not Queen Dialogue - IFD Haley Married",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Emily{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.NotHaleyQueen.Emily.IFD.Dating}}"
+			},
+			"When": 
+			{
+				"DSV.Core/FlowerQueen |contains= Haley": false,
+				"Relationship:Emily |contains= Dating": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// HALEY QUEEN
+		{
+			"LogName": "Haley FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Haley{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.HaleyQueen.Haley}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Haley": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// HARVEY QUEEN
+		{
+			"LogName": "Harvey FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Harvey{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.HarveyQueen.Harvey}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Harvey": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// JAS QUEEN
+		{
+			"LogName": "Jas FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Jas{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.JasQueen.Jas}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Jas": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// LEAH QUEEN
+		{
+			"LogName": "Leah FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Leah{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.LeahQueen.Leah}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Leah": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// MARU QUEEN
+		{
+			"LogName": "Maru FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Maru{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.MaruQueen.Maru}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Maru": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// PENNY QUEEN
+		{
+			"LogName": "Penny FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Penny{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.PennyQueen.Penny}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Penny": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// SAM QUEEN
+		{
+			"LogName": "Sam FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Sam{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.SamQueen.Sam}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Sam": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// SEBASTIAN QUEEN
+		{
+			"LogName": "Sebastian FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Sebastian{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.SebastianQueen.Sebastian}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Sebastian": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// SHANE QUEEN
+		{
+			"LogName": "Shane FQC Pre-6-Heart Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Shane{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.ShaneQueen.Shane.Pre6}}"
+			},
+			"When":
+			{
+				"HasSeenEvent |contains= 2118991": false,
+				"DSV.Core/FlowerQueen |contains= Shane": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"LogName": "Shane FQC Post-6-Heart Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Shane{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.ShaneQueen.Shane.Post6}}"
+			},
+			"When":
+			{
+				"HasSeenEvent |contains= 2118991": true,
+				"DSV.Core/FlowerQueen |contains= Shane": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+// VINCENT QUEEN
+		{
+			"LogName": "Vincent FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Vincent{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.VincentQueen.Vincent}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Vincent": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"LogName": "Vincent FQC Queen Dialogue - RSV Sean",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+            "Entries":
+            {
+				"Sean{{FlowerDanceYearDialogueToken}}": "{{i18n: DSV.Dialogue.FQC.VincentQueen.Sean}}"
+			},
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Vincent": true,
+				"HasMod |contains= Rafseazz.RSVCP": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		}
+	]
+}

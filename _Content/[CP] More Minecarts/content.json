@@ -1,0 +1,605 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Format": "2.0.0",
+	"ConfigSchema": {
+		"Enable Farm Minecart": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable a minecart at the farm",
+            "Section": "Enable Minecart",
+		},
+        "Enable Desert Minecart": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable a minecart at the Desert",
+            "Section": "Enable Minecart",
+		},
+        "Enable Forest Minecart": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable a minecart at the Cindersap Forest",
+            "Section": "Enable Minecart",
+		},
+        "Enable Woods Minecart": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable a minecart at the Secret Woods",
+            "Section": "Enable Minecart",
+		},
+        "Enable Railroad Minecart": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable a minecart at the Bathhouse",
+            "Section": "Enable Minecart",
+		},
+        "Enable Beach Minecart": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable a minecart at the Beach",
+            "Section": "Enable Minecart",
+		},
+        "Enable Island Minecart": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable a minecart at Ginger Island",
+            "Section": "Enable Minecart",
+		},
+        "Custom Farm Minecart": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Description": "Override the included coordinates for the farm minecart",
+            "Section": "Farm Location Override",
+		},
+        "Custom Minecart X": {
+			"Default": 77,
+			"Description": "X Coordinate for override",
+            "Section": "Farm Location Override",
+        },
+        "Custom Minecart Y": {
+			"Default": 12,
+			"Description": "Y Coordinate for override",
+            "Section": "Farm Location Override",
+		},
+        "Custom Farm Map Name": {
+			"Default": "",
+            "AllowBlank": true,
+			"Description": "ADVANCED OPTION! Enter a custom Farm map file here. Leave blank if unsure",
+            "Section": "Farm Location Override",
+        }
+	},
+
+    "DynamicTokens":[
+		{
+			"Name":"ActiveFarmMap",
+			"Value":"Farm",
+			"When":{"Farmtype":"Standard"}
+		},
+        {
+			"Name":"ActiveFarmMap",
+			"Value":"Farm_Fishing",
+			"When":{"FarmType":"Riverland"}
+        },
+        {
+			"Name":"ActiveFarmMap",
+			"Value":"Farm_Foraging",
+			"When":{"FarmType":"Forest"}
+		},
+        {
+			"Name":"ActiveFarmMap",
+			"Value":"Farm_Mining",
+			"When":{"FarmType":"Hilltop"}
+		},
+		{
+			"Name":"ActiveFarmMap",
+			"Value":"Farm_Combat",
+			"When":{"FarmType":"Wilderness"}
+		},
+		{
+			"Name":"ActiveFarmMap",
+			"Value":"Farm_FourCorners",
+			"When":{"FarmType":"FourCorners"}
+		},
+        {
+			"Name":"ActiveFarmMap",
+			"Value":"Farm_Island",
+			"When":{"FarmType":"Beach"}
+		},
+		{
+			"Name":"ActiveFarmMap",
+			"Value":"Farm_Ranching",
+			"When":{"FarmType":"MeadowlandsFarm"}
+		},
+        {
+			"Name":"ActiveFarmMap",
+			"Value":"{{FarmType}}",
+			"When":{
+                "Query: '{{FarmType}}' NOT IN ('Standard', 'Riverland', 'Forest', 'Hilltop', 'Wilderness', 'FourCorners', 'Beach', 'MeadowlandsFarm')": true,
+                "Query: '{{Custom Farm Map Name}}'=''": true,
+            }
+		},
+        {
+			"Name":"ActiveFarmMap",
+			"Value":"{{Custom Farm Map Name}}",
+			"When":{
+                "Query: '{{Custom Farm Map Name}}'=''": false,
+            }
+		},
+    ],
+
+
+    "Changes": [
+        //* Standard farm minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Farm": {
+                    "Id": "StandardFarmMinecart",
+                    "DisplayName": "Farm",
+                    "TargetLocation": "Farm",
+                    "TargetTile": { "X": 77, "Y": 14 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Standard"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 77, "Y": 12, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Standard"
+		    }
+        },
+        
+
+        //* Riverland farm minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Farm": {
+                    "Id": "RiverlandFarmMinecart",
+                    "DisplayName": "Farm",
+                    "TargetLocation": "Farm",
+                    "TargetTile": { "X": 77, "Y": 14 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Riverland"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Fishing",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 77, "Y": 12, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Riverland"
+		    }
+        },
+
+
+        //* Forest farm minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Farm": {
+                    "Id": "ForestFarmMinecart",
+                    "DisplayName": "Farm",
+                    "TargetLocation": "Farm",
+                    "TargetTile": { "X": 77, "Y": 14 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Forest"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Foraging",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 77, "Y": 12, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Forest"
+		    }
+        },
+        
+        
+        //* Hilltop farm minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Farm": {
+                    "Id": "HilltopFarmMinecart",
+                    "DisplayName": "Farm",
+                    "TargetLocation": "Farm",
+                    "TargetTile": { "X": 77, "Y": 14 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Hilltop"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Mining",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 77, "Y": 12, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Hilltop"
+		    }
+        },
+        
+        
+        //* Wilderness farm minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Farm": {
+                    "Id": "WildernessFarmMinecart",
+                    "DisplayName": "Farm",
+                    "TargetLocation": "Farm",
+                    "TargetTile": { "X": 77, "Y": 14 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Wilderness"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Combat",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 77, "Y": 12, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Wilderness"
+		    }
+        },
+
+
+        //* FourCorners farm minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Farm": {
+                    "Id": "FourCornersFarmMinecart",
+                    "DisplayName": "Farm",
+                    "TargetLocation": "Farm",
+                    "TargetTile": { "X": 77, "Y": 14 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "FourCorners"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_FourCorners",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 77, "Y": 12, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "FourCorners"
+		    }
+        },
+
+
+        //* Beach farm minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Farm": {
+                    "Id": "BeachFarmMinecart",
+                    "DisplayName": "Farm",
+                    "TargetLocation": "Farm",
+                    "TargetTile": { "X": 79, "Y": 15 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Beach"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Island",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 79, "Y": 13, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "Beach"
+		    }
+        },
+
+
+        //* Meadow farm minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Farm": {
+                    "Id": "MeadowFarmMinecart",
+                    "DisplayName": "Farm",
+                    "TargetLocation": "Farm",
+                    "TargetTile": { "X": 92, "Y": 19 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+                "Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "MeadowlandsFarm"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_Ranching",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 92, "Y": 17, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": false,
+				"FarmType": "MeadowlandsFarm"
+		    }
+        },
+
+
+        //* Custom Farm Minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Farm": {
+                    "Id": "CustomFarmMinecart",
+                    "DisplayName": "Farm",
+                    "TargetLocation": "Farm",
+                    "TargetTile": { "X": "{{Query:{{Custom Minecart X}}}}", "Y": "{{Query:{{Custom Minecart Y}}+2}}" },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+                "Enable Farm Minecart": true,
+                "Custom Farm Minecart": true,
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ActiveFarmMap}}",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": "{{Query:{{Custom Minecart X}}}}", "Y": "{{Query:{{Custom Minecart Y}}}}", "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Farm Minecart": true,
+                "Custom Farm Minecart": true,
+		    }
+        },
+
+
+        //* Desert minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Desert": {
+                    "Id": "DesertMinecart",
+                    "DisplayName": "Desert",
+                    "TargetLocation": "Desert",
+                    "TargetTile": { "X": 20, "Y": 9 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Desert Minecart": true,
+                "HasFlag: hostPlayer |contains=ccVault": "true"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Desert",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 21, "Y": 8, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Desert Minecart": true
+		    }
+        },
+
+
+        //* Forest minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Forest": {
+                    "Id": "ForestMinecart",
+                    "DisplayName": "Cindersap Forest",
+                    "TargetLocation": "Forest",
+                    "TargetTile": { "X": 13, "Y": 40 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Forest Minecart": true	
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 14, "Y": 40, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Forest Minecart": true	
+		    }
+        },
+
+
+        //* Woods minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Woods": {
+                    "Id": "WoodsMinecart",
+                    "DisplayName": "Secret Woods",
+                    "TargetLocation": "Woods",
+                    "TargetTile": { "X": 47, "Y": 4 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Woods Minecart": true,
+                "HasFlag: hostPlayer |contains=beenToWoods": "true"
+		    }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 48, "Y": 3, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Woods Minecart": true
+		    }
+        },
+
+
+        //* Railroad minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Railroad": {
+                    "Id": "RailroadMinecart",
+                    "DisplayName": "Railroad",
+                    "TargetLocation": "Railroad",
+                    "TargetTile": { "X": 22, "Y": 57 },
+                    "TargetDirection": "down",
+                    "Condition": "LOCATION_ACCESSIBLE Railroad",
+                }
+            },
+			"When": {
+				"Enable Railroad Minecart": true
+			}
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Railroad",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 22, "Y": 55, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Railroad Minecart": true
+			}
+        },
+
+
+        //* Beach minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Beach": {
+                    "Id": "BeachMinecart",
+                    "DisplayName": "Beach",
+                    "TargetLocation": "Beach",
+                    "TargetTile": { "X": 26, "Y": 4 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Beach Minecart": true
+			}
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 26, "Y": 2, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Beach Minecart": true
+			}
+        },
+
+
+        //* Island minecart
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "Island": {
+                    "Id": "IslandMinecart",
+                    "DisplayName": "Ginger Island",
+                    "TargetLocation": "IslandWest",
+                    "TargetTile": { "X": 96, "Y": 35 },
+                    "TargetDirection": "down",
+                }
+            },
+			"When": {
+				"Enable Island Minecart": true,
+                "HasFlag: hostPlayer |contains=Island_Turtle": "true"
+			}
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_W",
+            "FromFile": "assets/Minecart.tmx",
+            "ToArea": { "X": 97, "Y": 34, "Width": 1, "Height": 2 },
+			"When": {
+				"Enable Island Minecart": true
+			}
+        }
+
+
+    ]
+}

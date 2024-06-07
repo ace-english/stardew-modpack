@@ -1,0 +1,17 @@
+{
+	"Mon": "610 ArchaeologyHouse 66 15 1/800 ArchaeologyHouse 52 8 2/900 ScienceHouse 22 21 1/1400 ArchaeologyHouse 56 6 0/1800 ArchaeologyHouse 52 8 2/2100 ArcharologyHouse 66 15 cecily_sleep",
+	"summer_Mon":"610 ArchaeologyHouse 66 15 1/1000 ArchaeologyHouse 56 6 0/1200 Beach 10 13 3/1800 ArchaeologyHouse ArchaeologyHouse 52 8 2/2300 ArchaeologyHouse 66 15 cecily_sleep",
+	"fall_Mon": "610 ArchaeologyHouse 66 15 1/800 ArchaeologyHouse 52 8 2/1000 Mountain 44 9 1/1400 ArchaeologyHouse 56 6 0/1800 ArchaeologyHouse 52 8 2/2100 ArcharologyHouse 66 15 cecily_sleep",
+	"Tue": "610 ArchaeologyHouse 66 15 1/800 ArchaeologyHouse 52 8 2/1000 ArchaeologyHouse 18 12 cecily_study/1400 ArchaeologyHouse 56 6 0/1800 ArchaeologyHouse 52 8 2/2100 ArcharologyHouse 66 15 cecily_sleep",
+	"summer_Tue":"610 ArchaeologyHouse 66 15 1/1000 ArchaeologyHouse 56 6 0/1200 Beach 10 13 3/1800 ArchaeologyHouse ArchaeologyHouse 52 8 2/2300 ArchaeologyHouse 66 15 cecily_sleep",
+	"Wed": "610 ArchaeologyHouse 66 15 1/800 ArchaeologyHouse 52 8 2/1000 ArchaeologyHouse 18 12 cecily_study/1400 ArchaeologyHouse 56 6 0/1800 ArchaeologyHouse 52 8 2/2100 ArcharologyHouse 66 15 cecily_sleep",
+	"summer_Wed":"610 ArchaeologyHouse 66 15 1/1000 ArchaeologyHouse 56 6 0/1200 Beach 10 13 3/1800 ArchaeologyHouse ArchaeologyHouse 52 8 2/2300 ArchaeologyHouse 66 15 cecily_sleep",
+	"Thu":"610 ArchaeologyHouse 66 15 1/700 ArchaeologyHouse 52 6 1/800 ArchaeologyHouse 32 12 2/1400 ArchaeologyHouse 4 8 2/1800 ArchaeologyHouse 52 8 2/2100 ArcharologyHouse 66 15 cecily_sleep",
+	"Fri": "610 ArchaeologyHouse 66 15 1/800 ArchaeologyHouse 52 8 2/1000 ArchaeologyHouse 18 12 cecily_study/1400 ArchaeologyHouse 56 6 0/1500 Saloon 39 19 2/2100 ArchaeologyHouse 66 15 cecily_sleep",
+	"summer_Fri":"610 ArchaeologyHouse 66 15 1/1000 ArchaeologyHouse 56 6 0/1200 Beach 10 13 3/1500 Saloon 39 19 2/2100 ArchaeologyHouse 61 16 2/2300 ArchaeologyHouse 66 15 cecily_sleep",
+	"Sat":"610 ArchaeologyHouse 66 15 1/1000 ArchaeologyHouse 56 6 0/1200 ArchaeologyHouse 67 17 1/1800 Beach 37 24 2/2200 ArchaeologyHouse 66 15 cecily_sleep",
+	"winter_Sat":"610 ArchaeologyHouse 66 15 1/1000 ArchaeologyHouse 56 6 0/1200 ArchaeologyHouse 67 17 1/1800 ArchaeologyHouse 52 8 2/2100 ArchaeologyHouse 66 15 cecily_sleep",
+	"Sun":"610 ArchaeologyHouse 66 15 1/1000 ArchaeologyHouse 56 6 0/1200 ArchaeologyHouse 66 15 1/1800 Mountain 7 32 2/2200 ArchaeologyHouse 66 15 cecily_sleep",
+	"winter_Sun":"610 ArchaeologyHouse 66 15 1/1000 ArchaeologyHouse 56 6 0/1200 ArchaeologyHouse 66 15 1/1800 ArchaeologyHouse 52 8 2/2100 ArchaeologyHouse 66 15 cecily_sleep",
+	"rain": "610 ArchaeologyHouse 66 15 1/800 ArchaeologyHouse 52 8 2/1000 ArchaeologyHouse 15 9 0/1800 ArchaeologyHouse 52 8 2/2100 ArchaeologyHouse 66 15 cecily_sleep",
+}

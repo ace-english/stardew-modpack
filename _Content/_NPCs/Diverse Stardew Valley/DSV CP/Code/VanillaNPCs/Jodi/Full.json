@@ -1,0 +1,293 @@
+{
+// JODI DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Jodi Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Jodi", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Jodi.Indoor":
+				{
+					"Id": "{{ModId}}_Jodi_Indoor",
+					"Portrait": "Portraits/Jodi_Indoor",
+					"Sprite": "Characters/Jodi_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Jodi.Outdoor":
+				{
+					"Id": "{{ModId}}_Jodi_Outdoor",
+					"Portrait": "Portraits/Jodi_Outdoor",
+					"Sprite": "Characters/Jodi_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Jodi.EggFestival":
+				{
+					"Id": "{{ModId}}_Jodi_EggFestival",
+					"Portrait": "Portraits/Jodi_EggFestival",
+					"Sprite": "Characters/Jodi_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Jodi.FlowerDance":
+				{
+					"Id": "{{ModId}}_Jodi_FlowerDance",
+					"Portrait": "Portraits/Jodi_FlowerDance",
+					"Sprite": "Characters/Jodi_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Jodi.Luau":
+				{
+					"Id": "{{ModId}}_Jodi_Luau",
+					"Portrait": "Portraits/Jodi_Luau",
+					"Sprite": "Characters/Jodi_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Jodi.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Jodi_MoonlightJellies",
+					"Portrait": "Portraits/Jodi_MoonlightJellies",
+					"Sprite": "Characters/Jodi_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Jodi.SVFair":
+				{
+					"Id": "{{ModId}}_Jodi_SVFair",
+					"Portrait": "Portraits/Jodi_SVFair",
+					"Sprite": "Characters/Jodi_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Jodi.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Jodi_SpiritsEve",
+					"Portrait": "Portraits/Jodi_SpiritsEve",
+					"Sprite": "Characters/Jodi_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Jodi.IceFestival":
+				{
+					"Id": "{{ModId}}_Jodi_IceFestival",
+					"Portrait": "Portraits/Jodi_IceFestival",
+					"Sprite": "Characters/Jodi_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Jodi.WinterStar":
+				{
+					"Id": "{{ModId}}_Jodi_WinterStar",
+					"Portrait": "Portraits/Jodi_WinterStar",
+					"Sprite": "Characters/Jodi_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Jodi.Swim":
+				{
+					"Id": "{{ModId}}_Jodi_Swim",
+					"Portrait": "Portraits/Jodi_Swim",
+					"Sprite": "Characters/Jodi_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Jodi.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Jodi_WeddingGuest",
+					"Sprite": "Characters/Jodi_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Jodi.HotClimate":
+				{
+					"Id": "{{ModId}}_Jodi_HotClimate",
+					"Portrait": "Portraits/Jodi_HotClimate",
+					"Sprite": "Characters/Jodi_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Jodi.Aerobics":
+				{
+					"Id": "{{ModId}}_Jodi_Aerobics",
+					"Portrait": "Portraits/Jodi_Aerobics",
+					"Sprite": "Characters/Jodi_Aerobics",
+					"Condition": "ANY \"LOCATION_NAME Target SeedShop, DAY_OF_WEEK Tuesday, !WEATHER Target Rain Storm, TIME 1230 1800\" \"IS_EVENT 58\"",
+					"Precedence": -150
+				},
+				"DSV.Jodi.Cleaning":
+				{
+					"Id": "{{ModId}}_Jodi_Cleaning",
+					"Portrait": "Portraits/Jodi_Cleaning",
+					"Sprite": "Characters/Jodi_Cleaning",
+					"Condition": "LOCATION_NAME Target SamHouse, TIME 0800 1130",
+					"Precedence": -120
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Jodi Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Jodi_Indoor, Characters/Jodi_Indoor, Portraits/Jodi_Outdoor, Characters/Jodi_Outdoor, Portraits/Jodi_Cleaning, Characters/Jodi_Cleaning",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Jodi_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JodiVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Jodi Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Jodi_EggFestival, Characters/Jodi_EggFestival, Portraits/Jodi_FlowerDance, Characters/Jodi_FlowerDance, Portraits/Jodi_Luau, Characters/Jodi_Luau, Portraits/Jodi_MoonlightJellies, Characters/Jodi_MoonlightJellies, Portraits/Jodi_SVFair, Characters/Jodi_SVFair, Portraits/Jodi_SpiritsEve, Characters/Jodi_SpiritsEve, Portraits/Jodi_IceFestival, Characters/Jodi_IceFestival, Portraits/Jodi_WinterStar, Characters/Jodi_WinterStar, Portraits/Jodi_Swim, Characters/Jodi_Swim, Portraits/Jodi_Aerobics, Characters/Jodi_Aerobics, Characters/Jodi_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JodiVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Jodi Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Jodi_HotClimate, Characters/Jodi_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Jodi_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JodiVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Jodi Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi_Indoor, Characters/Jodi_Indoor",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Jodi_{{season}}_{{RandomTwoToken}}_Base.png"
+		},
+		{
+			"LogName": "Jodi Indoor/Outdoor Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi_Outdoor, Characters/Jodi_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Jodi_{{season}}_{{RandomTwoToken}}_{{DSV.Core/Weather:Jodi}}.png"
+		},
+		{
+			"LogName": "Jodi Base Cleaning Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi_Cleaning, Characters/Jodi_Cleaning",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Jodi_{{season}}_{{RandomTwoToken}}_Base_Cleaning.png"
+		},
+		{
+			"LogName": "Jodi Flower Dance Outfits Elaho",
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi_FlowerDance, Characters/Jodi_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Jodi_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:JodiVariant |contains= Vanilla": true
+			}
+		},
+		{
+			"LogName": "Jodi Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi_HotClimate, Characters/Jodi_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Jodi_Summer_{{RandomTwoToken}}_Sun.png"
+		},
+		{
+			"LogName": "Jodi Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi_Beach, Characters/Jodi_Beach",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Jodi_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		
+// OVERLAYS
+
+		{
+			"LogName": "Jodi Joja Tote Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Jodi_Indoor",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Overlays/Jodi_JojaTote.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"LocationName |contains= JojaMart": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Jodi Socks Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Jodi_Indoor",
+			"FromFile": "Art/VanillaNPCs/Jodi/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:JodiVariant}}/Overlays/Jodi_Socks_{{season}}_{{RandomTwoToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"LocationName |contains= SamHouse": true,
+				"DSV.Core/ConfigValue:JodiVariant |contains= Modded": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Jodi Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Jodi/Misc/Jodi_Emoji_Modded.png",
+			"ToArea": {"X": 45, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:JodiVariant |contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jodi Bundle Sprite",
+			"Action": "EditImage",
+			"Target": "LooseSprites/BundleSprites",
+			"FromFile": "Art/VanillaNPCs/Jodi/Misc/BundleSprites_Jodi.png",
+			"ToArea": { "X": 192, "Y": 0, "Width": 32, "Height": 32 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:JodiVariant |contains= Modded": true
+			}
+		},
+
+// MERMAID PENDANTS
+		
+		{
+			"LogName": "Jodi Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi_Indoor",
+			"FromFile": "Art/VanillaNPCs/Jodi/Misc/MermaidPendants/Jodi_Pendant_{{DSV.Core/ConfigValue:JodiVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsCanon |contains= True": true
+			}
+		}
+	]
+}

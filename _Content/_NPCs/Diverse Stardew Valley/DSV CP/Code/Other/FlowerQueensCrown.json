@@ -1,0 +1,215 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Add Abigail as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Abigail": "true"
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:AbigailVariant|contains= Off": false,
+				"DSV.Core/ConfigValue:AbigailLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Alex as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Alex": "true"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:AlexVariant|contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.SnuffpotAlex}}' = 'true'": true,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Elliott as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Elliott": "true"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:ElliottVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.EemieElliott}}' = 'true'": true,
+				"DSV.Core/ConfigValue:ElliottLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Emily as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Emily": "true"
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:EmilyVariant|contains= Off": false,
+				"DSV.Core/ConfigValue:EmilyLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Haley as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Haley": "true"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"DSV.Core/ConfigValue:HaleyLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= Haley, MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Harvey as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Harvey": "true"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HarveyVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.MedinaquirinPinzolHarvey}}' = 'true'": true,
+				"DSV.Core/ConfigValue:HarveyLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Jas as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Jas": "true"
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:JasVariant|contains= Off": false,
+				"DSV.Core/ConfigValue:JasLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Leah as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Leah": "true"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AshbrassLeah}}' = 'true'": true,
+				"DSV.Core/ConfigValue:LeahLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Maru as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Maru": "true"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:MaruVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.RubyquesterMaru}}' = 'true'": true,
+				"DSV.Core/ConfigValue:MaruLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Penny as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Penny": "true"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:PennyVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.BittybeePenny}}' = 'true'": true,
+				"DSV.Core/ConfigValue:PennyLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Sam as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Sam": "true"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:SamVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.OyoshiSam}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.OenimoSam}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynSam}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.ChesSam}}' = 'true'": true,
+				"DSV.Core/ConfigValue:SamLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Sebastian as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Sebastian": "true"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:SebastianVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.ZoeDollSebastian}}' = 'true'": true,
+				"DSV.Core/ConfigValue:SebastianLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Shane as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Shane": "true"
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:ShaneVariant|contains= Off": false,
+				"DSV.Core/ConfigValue:ShaneLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+            "LogName": "Add Vincent as Flower Queen",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "Vincent": "true"
+            },
+            "When":
+            {
+				"DSV.Core/ConfigValue:VincentVariant|contains= Off": false,
+				"DSV.Core/ConfigValue:VincentLightweightConfig |contains= Ultralight": false,
+				"DSV.Core/FQCImmersion |contains= Anyone": true
+            }
+        }
+    ]
+}

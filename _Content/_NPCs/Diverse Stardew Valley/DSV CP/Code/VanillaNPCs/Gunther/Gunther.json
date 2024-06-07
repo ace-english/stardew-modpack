@@ -1,0 +1,281 @@
+{
+// GUNTHER DSV
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Gunther Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Gunther", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Gunther.Seasonal":
+				{
+					"Id": "{{ModId}}_Gunther_Seasonal",
+					"Portrait": "Portraits/Gunther_Seasonal",
+					"Sprite": "Characters/Gunther_Seasonal",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Gunther.Beach":
+				{
+					"Id": "{{ModId}}_Gunther_Beach",
+					"Portrait": "Portraits/Gunther_Beach",
+					"Sprite": "Characters/Gunther_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Gunther.EggFestival":
+				{
+					"Id": "{{ModId}}_Gunther_EggFestival",
+					"Portrait": "Portraits/Gunther_EggFestival",
+					"Sprite": "Characters/Gunther_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Gunther.FlowerDance":
+				{
+					"Id": "{{ModId}}_Gunther_FlowerDance",
+					"Portrait": "Portraits/Gunther_FlowerDance",
+					"Sprite": "Characters/Gunther_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Gunther.Luau":
+				{
+					"Id": "{{ModId}}_Gunther_Luau",
+					"Portrait": "Portraits/Gunther_Luau",
+					"Sprite": "Characters/Gunther_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Gunther.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Gunther_MoonlightJellies",
+					"Portrait": "Portraits/Gunther_MoonlightJellies",
+					"Sprite": "Characters/Gunther_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Gunther.SVFair":
+				{
+					"Id": "{{ModId}}_Gunther_SVFair",
+					"Portrait": "Portraits/Gunther_SVFair",
+					"Sprite": "Characters/Gunther_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Gunther.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Gunther_SpiritsEve",
+					"Portrait": "Portraits/Gunther_SpiritsEve",
+					"Sprite": "Characters/Gunther_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Gunther.IceFestival":
+				{
+					"Id": "{{ModId}}_Gunther_IceFestival",
+					"Portrait": "Portraits/Gunther_IceFestival",
+					"Sprite": "Characters/Gunther_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Gunther.WinterStar":
+				{
+					"Id": "{{ModId}}_Gunther_WinterStar",
+					"Portrait": "Portraits/Gunther_WinterStar",
+					"Sprite": "Characters/Gunther_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Gunther.HotClimate":
+				{
+					"Id": "{{ModId}}_Gunther_HotClimate",
+					"Portrait": "Portraits/Gunther_HotClimate",
+					"Sprite": "Characters/Gunther_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Gunther Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Gunther_Seasonal, Characters/Gunther_Seasonal",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/{{GuntherCompatToken}}/{{DSV.Core/ConfigValue:GuntherVariant}}/Gunther_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GuntherVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Gunther Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Gunther_Beach, Characters/Gunther_Beach",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/{{GuntherCompatToken}}/{{DSV.Core/ConfigValue:GuntherVariant}}/Gunther_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GuntherVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Gunther Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Gunther_EggFestival, Characters/Gunther_EggFestival, Portraits/Gunther_FlowerDance, Characters/Gunther_FlowerDance, Portraits/Gunther_Luau, Characters/Gunther_Luau, Portraits/Gunther_MoonlightJellies, Characters/Gunther_MoonlightJellies, Portraits/Gunther_SVFair, Characters/Gunther_SVFair, Portraits/Gunther_SpiritsEve, Characters/Gunther_SpiritsEve, Portraits/Gunther_IceFestival, Characters/Gunther_IceFestival, Portraits/Gunther_WinterStar, Characters/Gunther_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/{{GuntherCompatToken}}/{{DSV.Core/ConfigValue:GuntherVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GuntherVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Gunther Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Gunther_HotClimate, Characters/Gunther_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/{{GuntherCompatToken}}/{{DSV.Core/ConfigValue:GuntherVariant}}/Gunther_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GuntherVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+		{
+			"LogName": "Gunther Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Gunther, Characters/Gunther, Portraits/Gunther_Seasonal, Characters/Gunther_Seasonal",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/{{GuntherCompatToken}}/{{DSV.Core/ConfigValue:GuntherVariant}}/Gunther_{{season}}_1_Base{{GuntherMuseumExpansionToken}}.png"
+		},
+		{
+			"LogName": "Gunther Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Gunther, Characters/Gunther",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/{{GuntherCompatToken}}/{{DSV.Core/ConfigValue:GuntherVariant}}/Gunther_{{season}}_1_Base_shop.png",
+			"When":
+			{
+				"HasMod |contains= andril11.charlie": true,
+				"HasMod |contains= Wolf.Gun, Yoshimax.BefriendMarlon": false,
+				"DSV.Core/ConfigValue:GuntherVariant |contains= Off": false
+			}
+		},
+		{
+			"LogName": "GuntherMuseumExpansionToken Museum Expansion",
+			"Action": "EditImage",
+			"Target": "Portraits/GuntherMuseumExpansionToken, Characters/GuntherMuseumExpansionToken",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/MuseumExpansion/{{DSV.Core/ConfigValue:GuntherVariant}}/Gunther_{{season}}_1_Base.png",
+			"When":
+			{
+				"HasMod |contains= andril11.charlie": true
+			}
+		},
+		
+// MAPS
+		{
+			"LogName": "Gunther Movie Theater Sprites",
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Art/VanillaNPCs/Gunther/Misc/TheaterSprites/{{DSV.Core/ConfigValue:GuntherVariant}}/Gunther_{{season}}_1_Base.png",
+			"ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 }
+		},
+		
+// MERMAID PENDANTS
+		{
+			"LogName": "Gunther Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Gunther_Seasonal",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/MakeGuntherReal/{{DSV.Core/ConfigValue:GuntherVariant}}/Overlays/Gunther_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Gunther |contains= Married, Engaged": true,
+				"HasMod |contains= Wolf.Gun": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		
+// EMOJIS
+		{
+			"LogName": "Emoji Gunther",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Gunther/Misc/Gunther_Emoji_{{DSV.Core/ConfigValue:GuntherVariant}}.png",
+			"ToArea": {"X": 27, "Y": 117, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:GuntherVariant |contains= vanilla, off": false
+			}
+		},
+		
+// CECILY
+		{
+			"LogName": "Cecily DSV",
+			"Action": "EditImage",
+			"Target": "Portraits/Cecily, Characters/Cecily",
+			"FromFile": "Art/Compatibility/MGRCompat/Cecily/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:GuntherVariant}}/Cecily.png",
+			"When":
+			{
+				"HasMod |contains= Wolf.Gun": true,
+				"DSV.Core/ConfigValue:AlternateCecily": "true"
+			}
+		},
+		
+// COMPATIBILITY
+// Mateo
+		{
+			"LogName": "Gunther Mateo Compat",
+			"Action": "EditImage",
+			"Target": "Portraits/MateoGunther, Characters/MateoGunther",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/MakeGuntherReal/{{DSV.Core/ConfigValue:GuntherVariant}}/Gunther_{{season}}_1_Base.png",
+			"When":
+			{
+				"HasMod |contains= DestyNova.Mateo.CP, DN.SnS": true
+			}
+		},
+
+// Lumisteria Missing Hat Bundles
+		
+		{
+			"LogName": "Gunther Lumisteria Bundles",
+			"Action": "EditImage",
+			"Target": "Mods/Lumisteria.CP.MissingHatsBundles/Gunther",
+			"FromFile": "Art/VanillaNPCs/Gunther/Misc/LumisteriaBundles_Gunther.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GuntherVariant|contains= Vanilla, Off": false,
+				"HasMod |contains= Lumisteria.CP.MissingHatsBundles": true
+			}
+		},
+
+// Museum Expansion
+		{
+			"LogName": "GuntherWoods Museum Expansion",
+			"Action": "EditImage",
+			"Target": "Portraits/GuntherWoods, Characters/GuntherWoods",
+			"FromFile": "Art/VanillaNPCs/Gunther/{{TargetPathOnly}}/MuseumExpansion/{{DSV.Core/ConfigValue:GuntherVariant}}/Gunther_{{season}}_1_Base.png",
+			"When":
+			{
+				"HasMod |contains= andril11.charlie": true
+			}
+		}
+	]
+}

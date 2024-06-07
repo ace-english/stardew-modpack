@@ -1,0 +1,18 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{FestiveOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "FestiveOutfitEnabled": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{TodaysFestivalOutfit}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "TodaysFestivalEnabled": true }
+		},
+	]
+}

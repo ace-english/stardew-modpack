@@ -1,0 +1,264 @@
+{
+    "Changes": [
+
+    {
+        "LogName": "Wild Food Gift Tastes",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Dwarf", 1],
+                "Value": "wildflour.ateliercrops_meringueshroom wildflour.ateliercrops_wormwood",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Demetrius", 1],
+                "Value": "wildflour.ateliercrops_honeyfungus",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Elliott", 1],
+                "Value": "wildflour.ateliercrops_mint",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Emily", 1],
+                "Value": "wildflour.ateliercrops_chamomile",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Evelyn", 1],
+                "Value": "wildflour.ateliercrops_lavender",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Gus", 1],
+                "Value": "wildflour.ateliercrops_cinnamon",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Haley", 1],
+                "Value": "wildflour.ateliercrops_vanilla",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Jas", 1],
+                "Value": "wildflour.ateliercrops_strawberry",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Krobus", 1],
+                "Value": "wildflour.ateliercrops_wheatshroom",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Leah", 1],
+                "Value": "wildflour.ateliercrops_mallow wildflour.ateliercrops_sage",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Lewis", 1],
+                "Value": "wildflour.ateliercrops_lemon",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Linus", 1],
+                "Value": "wildflour.ateliercrops_vanilla wildflour.ateliercrops_chickenwoods wildflour.ateliercrops_rosemary",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Maru", 1],
+                "Value": "wildflour.ateliercrops_milkshroom",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Sam", 1],
+                "Value": "wildflour.ateliercrops_jasmine",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Sandy", 1],
+                "Value": "wildflour.ateliercrops_chamomile wildflour.ateliercrops_jasmine",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Vincent", 1],
+                "Value": "wildflour.ateliercrops_raspberry",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Wizard", 1],
+                "Value": "wildflour.ateliercrops_wormwood wildflour.ateliercrops_meringueshroom",
+                "Delimiter": " "
+            },
+        ]
+        },
+
+    {
+        "LogName": "Faerie Garden Gift Tastes",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Caroline", 1],
+                "Value": "wildflour.ateliercrops_violet",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Dwarf", 1],
+                "Value": "wildflour.ateliercrops_mandrake",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Demetrius", 1],
+                "Value": "wildflour.ateliercrops_bluebird_feather",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Elliott", 1],
+                "Value": "wildflour.ateliercrops_pomegranate",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Emily", 1],
+                "Value": "wildflour.ateliercrops_flutter",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Evelyn", 1],
+                "Value": "wildflour.ateliercrops_primrose",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Gus", 1],
+                "Value": "wildflour.ateliercrops_orange",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Haley", 1],
+                "Value": "wildflour.ateliercrops_clover",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Jas", 1],
+                "Value": "wildflour.ateliercrops_daisy",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Krobus", 1],
+                "Value": "wildflour.ateliercrops_giant_amanita",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Leah", 1],
+                "Value": "wildflour.ateliercrops_valerian",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Lewis", 1],
+                "Value": "wildflour.ateliercrops_elderberries",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Linus", 1],
+                "Value": "wildflour.ateliercrops_golden_aura",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Maru", 1],
+                "Value": "wildflour.ateliercrops_peach_parasol",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Robin", 1],
+                "Value": "wildflour.ateliercrops_peach",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Sandy", 1],
+                "Value": "wildflour.ateliercrops_chiffon",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Vincent", 1],
+                "Value": "wildflour.ateliercrops_cherry",
+                "Delimiter": " "
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Fields","Wizard", 1],
+                "Value": "wildflour.ateliercrops_shooting_star",
+                "Delimiter": " "
+            },
+        ]
+        }
+
+]
+}

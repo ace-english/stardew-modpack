@@ -1,0 +1,40 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.atelierfloral_SO2_reward": "{{i18n: atelierfloral_SO2_reward.text}} %item id (O)MixedFlowerSeeds 10 %%[#]{{i18n: atelierfloral_SO2_reward.name}}",     
+                    "wildflour.atelierfloral_SO3_reward": "{{i18n: atelierfloral_SO3_reward.text}} %item id wildflour.ateliercrops_jasmineseeds 5 %%[#]{{i18n: atelierfloral_SO3_reward.name}}", 
+                    "wildflour.atelierfloral_SO4_reward": "{{i18n: atelierfloral_SO4_reward.text}} %item id wildflour.ateliercrops_milkshroomseeds 5 %%[#]{{i18n: atelierfloral_SO4_reward.name}}", 
+                    "wildflour.atelierfloral_SO5_reward": "{{i18n: atelierfloral_SO5_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: atelierfloral_SO5_reward.name}}" 
+                     
+                }
+            },
+
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.atelierfloral_SO2mail/n wildflour.atelierfloral_SO2_complete/x wildflour.atelierfloral_SO2_reward": "null",
+                "wildflour.atelierfloral_SO3mail/n wildflour.atelierfloral_SO3_complete/x wildflour.atelierfloral_SO3_reward": "null",
+                "wildflour.atelierfloral_SO4mail/n wildflour.atelierfloral_SO4_complete/x wildflour.atelierfloral_SO4_reward": "null",			
+                "wildflour.atelierfloral_SO5mail/n wildflour.atelierfloral_SO5_complete/x wildflour.atelierfloral_SO5_reward": "null"		
+            
+            }
+            },         
+           
+
+]
+}

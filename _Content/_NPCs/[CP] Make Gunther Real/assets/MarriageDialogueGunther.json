@@ -1,0 +1,14 @@
+{
+    "Rainy_Day_Gunther": "Are you still planning to work in this weather?#$b#I suppose the animals need tending no matter what...#$e#Try to keep dry!",
+    "Rainy_Night_Gunther": "@! You're drenched and covered in mud!#$b#We'd better get you out of those wet clothes and into a hot bath.#$e#I'll e you some tea.$l",
+    "Indoor_Day_Gunther": "I was just thinking about the little historical mysteries of the Valley.#$b#Archaeology is a little like a jigsaw puzzle, you know. Except someone buried all the pieces five hundred years ago and you’ll never find them all because half have rotted away or been eaten or...#$b#But what would be the fun in having all the pieces? It would be much too simple!$h",
+    "Indoor_Night_Gunther": "I made dinner for you. [235 231 244] $l#$b#You've been working hard all day. I thought you could use a break.",
+    "Outdoor_Gunther": "I wonder what secrets lie buried beneath your farm.#$b#In all your soil tilling, you must have found some interesting things!",
+    "spring_Gunther": "Beautiful weather and a bright new year ahead of us!#$b#I can't wait to see what adventures we get up to.",
+    "summer_Gunther": "I always feel rejuvenated in the summer.#$b#It must be all those long days spent on digs in the sweltering heat, ha ha!$h",
+    "fall_Gunther": "What do you suppose the people of the future will think of us when they unearth whatever strange artifacts we leave behind?#$e#In two thousand years, what will people make of hair dryers?$h",
+    "winter_Gunther": "You know winter has always been my least favorite season.#$b#But it does give us an excuse to stay in together where it's warm, and I can't help but be grateful for that.$l",
+    "spouseRoom_Gunther": "Do you suppose we could fit a library in the farmhouse?",
+    "patio_Gunther": "It's a fact: most boys never grow out of playing in the dirt.",
+	"funReturn_Gunther": "Ah, @! have you had a good day?#$b#Cecily is doing extraordinarily well on her own! I really shouldn't be surprised though.$h",
+}

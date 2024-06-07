@@ -1,0 +1,13 @@
+{
+  "Name": "[CP] Polyamory Sweet!",
+  "Author": "ApryllForever",
+  "Description": "Polyamory Stuff!",
+  "Version": "1.1.8",
+  "UniqueID": "ApryllForever.CPPolyamorySweet",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus: 20599"
+  ]
+}

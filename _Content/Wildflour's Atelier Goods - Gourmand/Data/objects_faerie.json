@@ -1,0 +1,236 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"Add Faerie Pantry Items",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+             
+                "wildflour.gourmetpantry_cheesecake_yogurt": {
+                    "Name": "wildflour.gourmetpantry_cheesecake_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_cheesecake_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_cheesecake_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_cream"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 56
+            },
+                "wildflour.gourmetpantry_caramel_yogurt": {
+                    "Name": "wildflour.gourmetpantry_caramel_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_caramel_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_caramel_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_cream"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 57
+            },
+                "wildflour.gourmetpantry_creamsicle_yogurt": {
+                    "Name": "wildflour.gourmetpantry_creamsicle_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_creamsicle_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_creamsicle_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_cream"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 62
+            },
+                "wildflour.gourmetpantry_custard_yogurt": {
+                    "Name": "wildflour.gourmetpantry_custard_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_custard_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_custard_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_cream"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 62
+            },
+                "wildflour.gourmetpantry_candy_yogurt": {
+                    "Name": "wildflour.gourmetpantry_candy_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_candy_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_candy_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_cream"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 66
+            },
+                "wildflour.gourmetpantry_tiramisu_yogurt": {
+                    "Name": "wildflour.gourmetpantry_tiramisu_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_tiramisu_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_tiramisu_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_cream"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 60
+            },
+                "wildflour.gourmetpantry_macaron_yogurt": {
+                    "Name": "wildflour.gourmetpantry_macaron_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_macaron_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_macaron_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_pink"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 68
+            },
+                "wildflour.gourmetpantry_galaxy_yogurt": {
+                    "Name": "wildflour.gourmetpantry_galaxy_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_galaxy_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_galaxy_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_red"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 69
+            },
+                "wildflour.gourmetpantry_pie_yogurt": {
+                    "Name": "wildflour.gourmetpantry_pie_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_pie_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_pie_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_blue"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 77
+            },
+                "wildflour.gourmetpantry_shortcake_yogurt": {
+                    "Name": "wildflour.gourmetpantry_shortcake_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_shortcake_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_shortcake_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_pink"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 83
+            },
+                "wildflour.gourmetpantry_sprinkle_yogurt": {
+                    "Name": "wildflour.gourmetpantry_sprinkle_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_sprinkle_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_sprinkle_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_iridium"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 83
+            },
+                "wildflour.gourmetpantry_sugar_yogurt": {
+                    "Name": "wildflour.gourmetpantry_sugar_yogurt",
+                    "DisplayName": "{{i18n:gourmetpantry_sugar_yogurt.name}}",
+                    "Description": "{{i18n:gourmetpantry_sugar_yogurt.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "yogurt_item",
+                    "color_cream"],
+        
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 85
+            },
+              
+                "wildflour.gourmetpantry_caramel_syrup": {
+                    "Name": "wildflour.gourmetpantry_caramel_syrup",
+                    "DisplayName": "{{i18n:gourmetpantry_caramel_syrup.name}}",
+                    "Description": "{{i18n:gourmetpantry_caramel_syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "syrup_item",
+                    "color_tan"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 101
+            }    
+        }
+        }
+
+    ]
+}

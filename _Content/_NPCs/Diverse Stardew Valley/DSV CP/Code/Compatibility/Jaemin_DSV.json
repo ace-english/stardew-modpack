@@ -1,0 +1,333 @@
+{
+	"Changes": 
+	[
+
+// ART EDITS
+
+		{
+			"LogName": "Jaemin Compatibility - Alex Art Edits Full/Light",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Alex/Alex_{{season}}_{{RandomTwoToken}}_Base.png",
+			"ToArea": { "X": 0, "Y": 416, "Width": 64, "Height": 96 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full, Light": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex Art Edits Ultralight",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Alex/Alex_{{season}}_1_Base.png",
+			"ToArea": { "X": 0, "Y": 416, "Width": 64, "Height": 96 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full, Light": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex Art Edits Full Outdoor",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Alex/Alex_{{season}}_{{RandomTwoToken}}_Sun.png",
+			"ToArea": { "X": 0, "Y": 416, "Width": 64, "Height": 96 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": true,
+				"DSV.Core/Weather:Alex |contains= Sun": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex Art Edits Swim",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Swim",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Alex/Alex_Swim_1.png",
+			"ToArea": { "X": 0, "Y": 416, "Width": 64, "Height": 96 }
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex Art Edits Tattoos - Indoor",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Tattoo_JaeminCompat.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 0, "Y": 416, "Width": 64, "Height": 96 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Samoan": true,
+				"DSV.Core/ConfigValue:AlexTattoos|contains= True": true,
+				"Season |contains= Summer": true,
+				"Query: '{{RandomTwoToken}}' = '1' OR '{{SummerSwimToken}}' = 'Swim'": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex Art Edits Tattoos - Summer",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Tattoo_JaeminCompat.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 0, "Y": 416, "Width": 64, "Height": 96 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": true,
+				"DSV.Core/ConfigValue:AlexVariant|contains= Samoan": true,
+				"DSV.Core/ConfigValue:AlexTattoos|contains= True": true,
+				"Season |contains= Summer": true,
+				"RandomTwoToken |contains= 1": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex Art Edits Tattoos - Summer",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Swim",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Tattoo_JaeminCompat.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 0, "Y": 416, "Width": 64, "Height": 96 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Samoan": true,
+				"DSV.Core/ConfigValue:AlexTattoos|contains= True": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Jaemin Art Edits Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Jaemin",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Jaemin/Alex_JaeminOverlay.png",
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Jaemin Compatibility - Jaemin Art Edits HoldHands",
+			"Action": "EditImage",
+			"Target": "Characters/Jaemin",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Jaemin/Alex_JaeminHoldHands_Summer_1.png",
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Jaemin Compatibility - Jaemin Art Edits Full/Light",
+			"Action": "EditImage",
+			"Target": "Characters/Jaemin",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Jaemin/Alex_JaeminHoldHands_Summer_2.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full, Light": true,
+				"RandomTwoToken |contains= 2": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex Wedding Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Wedding_2.png",
+			"ToArea": {"X": 0, "Y": 384, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasSeenEvent |contains= 375300006": false,
+				"HasSeenEvent |contains= 375300010": true,
+				"LocationName |contains= Town, temp": true,
+				"Hearts:Jaemin": "{{Range: 8,10}}",
+				"Hearts:Alex": "{{Range: 8,10}}",
+				"Time": "{{Range: 0900, 1400}}",
+				"Season |contains= Winter": false,
+				"Day |contains= 7, 14, 21, 28": true,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex Wedding Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Wedding_2.png",
+			"ToArea": {"X": 0, "Y": 384, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasSeenEvent |contains= 375300006": false,
+				"HasSeenEvent |contains= 375300010": true,
+				"LocationName |contains= Town, temp": true,
+				"Hearts:Jaemin": "{{Range: 8,10}}",
+				"Hearts:Alex": "{{Range: 8,10}}",
+				"Time": "{{Range: 0900, 1400}}",
+				"Season |contains= Winter": false,
+				"Day |contains= 7, 14, 21, 28": true,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": false
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex Wedding Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Wedding",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/JaeminCompat/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Wedding.png"
+		},
+
+// ALEX DIALOGUE EDITS
+
+		{
+			"LogName": "Jaemin Compatibility - Alex GIMA Dialogue Modded",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":
+			{
+				"Resort_Left_JoshHouse_GeorgeFamily": "{{i18n: DSV.Dialogue.Daily.Alex.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.Resort_Left_JoshHouse_GeorgeFamily}}"
+			},
+			"When":
+			{
+				"HasSeenEvent |contains= 375300006": true,
+				"HasMod |contains= atravita.GingerIslandMainlandAdjustments": true,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Alex GIMA Dialogue Jewish",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":
+			{
+				"Resort_Left_JoshHouse_GeorgeFamily": "{{i18n: DSV.Dialogue.Daily.Alex.Jaemin.VanillaJewish.Resort_Left_JoshHouse_GeorgeFamily}}"
+			},
+			"When":
+			{
+				"HasSeenEvent |contains= 375300006": true,
+				"HasMod |contains= atravita.GingerIslandMainlandAdjustments": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": false,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla": true
+			}
+		},
+
+// JAEMIN DIALOGUE EDITS
+
+		{
+			"LogName": "Jaemin Compatibility - Modded Mullners (Regular)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jaemin",
+			"Entries":
+			{
+				"fall_Sun2": "{{i18n: DSV.Dialogue.Daily.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.fall_Sun2.Regular}}",
+				"fall_23": "{{i18n: DSV.Dialogue.Daily.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.fall_23.Regular}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Modded Mullners (Avoiding)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jaemin",
+			"Entries":
+			{
+				"fall_Sun2": "{{i18n: DSV.Dialogue.Daily.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.fall_Sun2.Avoiding}}",
+				"fall_23": "{{i18n: DSV.Dialogue.Daily.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.fall_23.Avoiding}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true,
+				"HasSeenEvent |contains=375300001": "true",
+				"HasSeenEvent |contains=375300004": "false",
+				"Hearts:Jaemin": "{{Range: 3,10}}"
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Modded Mullners (Confessed)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jaemin",
+			"Entries":
+			{
+				"fall_23": "{{i18n: DSV.Dialogue.Daily.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.fall_23.Avoiding}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true,
+				"HasSeenEvent |contains=375300004": "true",
+				"HasSeenEvent |contains=375300005": "false"
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Modded Mullners (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jaemin",
+			"Entries":
+			{
+				"spring_Sun10": "{{i18n: DSV.Dialogue.Daily.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.spring_Sun10.Married}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true,
+				"HasSeenEvent |contains=375300006": "true"
+			}
+		},
+
+// MAIL EDITS
+
+		{
+			"LogName": "Jaemin Compatibility - Mail Edits (Shopping Letter)",
+			"Action": "EditData",
+			"Target": "Data/mail",
+            "Entries":
+            {
+				"Alex": "Hey @,^^We went shopping in {{Random:Pine Mesa City++Grampleton++Zuzu City++Castle Village++Minister Valley++Point Drake++Chestervale++Tanker Grove++Fort Josa|inputSeparator=++}} the other day and saw this. We immediately thought of you! Hope you like it.^^- {{i18n: DSV.Mail.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.ShoppingLetter}} %item furniture 1676 1748 1228 1294%%[#]A Gift From Jaemin and Alex"
+			},
+			"When":
+			{
+				"HasSeenEvent |contains= 375300006": true,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility - Mail Edits (Wedding Invitation)",
+			"Action": "EditData",
+			"Target": "Data/mail",
+            "Entries":
+            {
+				"jaelexInvite": "Dear @,^^We're getting married! You've been such a good friend to us, and we'd really love it if you could come. The ceremony will be on Sunday in the town square between 9 AM and 2 PM. Hope to see you there!^^- {{i18n: DSV.Mail.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.WeddingInvitation}}[#]Jaemin and Alex's Wedding Invitation"
+			},
+			"When":
+			{
+				"HasSeenEvent |contains= 375300010": true,
+				"HasSeenEvent |contains= 375300006": false,
+				"Season |contains=Winter": "false",
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true
+			}
+		},
+
+// EVENT EDITS
+
+		{
+			"LogName": "Jaemin Compatibility - Event Edits",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+            "Fields":
+            {
+			"375300006/F/e 375300010/f Alex 2000 Jaemin 2000/t 900 1400/z winter/u 7 14 21 28":
+				{
+					19: "{{i18n: DSV.Events.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.WeddingCeremony.JaeminVows}}",
+					22: "{{i18n: DSV.Events.Jaemin.{{DSV.Core/ConfigValue:GeorgeVariant}}George.WeddingCeremony.AlexVows}}"
+				}
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true
+			}
+		},
+
+// EVELYN SCHEDULE EDIT
+    
+		{
+			"LogName": "Jewish Evelyn Schedule Changes - Jaemin Compatibility",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Evelyn",
+			"Entries": 
+			{
+				"Sun": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 CommunityCenter 18 25 3 evelyn_sit_left \"Strings\\schedules\\Evelyn:Thu.000\"/1630 JoshHouse 5 22 3 evelyn_sit_left \"Strings\\schedules\\Evelyn:break.000\"/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:JewishMullnersScheduleEdit": "true",
+				"DSV.Core/ConfigValue:EvelynVariant|contains= Off": false,
+				"HasSeenEvent |contains= 375300006": true
+			}
+		}
+	]
+}

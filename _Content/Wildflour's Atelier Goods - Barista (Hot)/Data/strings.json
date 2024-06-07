@@ -1,0 +1,13 @@
+{
+    "Changes": [
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "wildflour.atelierbarista_flavored_tea": "{{i18n: atelierbarista_flavored_tea}}",
+      "wildflour.atelierbarista_flavored_sachet": "{{i18n: atelierbarista_flavored_sachet}}"
+    }
+}
+    ]
+}

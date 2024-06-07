@@ -1,0 +1,461 @@
+{
+// SAM DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Sam Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Sam", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Sam.Indoor":
+				{
+					"Id": "{{ModId}}_",
+					"Portrait": "Portraits/Sam_Indoor",
+					"Sprite": "Characters/Sam_Indoor",
+					"Precedence": -1100
+				},
+			// FESTIVALS
+				"DSV.Sam.EggFestival":
+				{
+					"Id": "{{ModId}}_Sam_EggFestival",
+					"Portrait": "Portraits/Sam_EggFestival",
+					"Sprite": "Characters/Sam_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Sam.FlowerDance":
+				{
+					"Id": "{{ModId}}_Sam_FlowerDance",
+					"Portrait": "Portraits/Sam_FlowerDance",
+					"Sprite": "Characters/Sam_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Sam.Luau":
+				{
+					"Id": "{{ModId}}_Sam_Luau",
+					"Portrait": "Portraits/Sam_Luau",
+					"Sprite": "Characters/Sam_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Sam.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Sam_MoonlightJellies",
+					"Portrait": "Portraits/Sam_MoonlightJellies",
+					"Sprite": "Characters/Sam_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Sam.SVFair":
+				{
+					"Id": "{{ModId}}_Sam_SVFair",
+					"Portrait": "Portraits/Sam_SVFair",
+					"Sprite": "Characters/Sam_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Sam.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Sam_SpiritsEve",
+					"Portrait": "Portraits/Sam_SpiritsEve",
+					"Sprite": "Characters/Sam_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Sam.IceFestival":
+				{
+					"Id": "{{ModId}}_Sam_IceFestival",
+					"Portrait": "Portraits/Sam_IceFestival",
+					"Sprite": "Characters/Sam_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Sam.WinterStar":
+				{
+					"Id": "{{ModId}}_Sam_WinterStar",
+					"Portrait": "Portraits/Sam_WinterStar",
+					"Sprite": "Characters/Sam_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Sam.Swim":
+				{
+					"Id": "{{ModId}}_Sam_Swim",
+					"Portrait": "Portraits/Sam_Swim",
+					"Sprite": "Characters/Sam_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\" \"LOCATION_NAME Target Beach, WEATHER Target Sun Wind, SEASON Summer\"",
+					"Precedence": -150
+				},
+				"DSV.Sam.HotClimate":
+				{
+					"Id": "{{ModId}}_Sam_HotClimate",
+					"Portrait": "Portraits/Sam_HotClimate",
+					"Sprite": "Characters/Sam_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Sam.JojaMart":
+				{
+					"Id": "{{ModId}}_Sam_JojaMart",
+					"Portrait": "Portraits/Sam_JojaMart",
+					"Sprite": "Characters/Sam_JojaMart",
+					"Condition": "ANY \"LOCATION_NAME Target JojaMart\" \"LOCATION_NAME Target ArchaeologyHouse, IS_COMMUNITY_CENTER_COMPLETE True\" \"IS_EVENT 963070001, {{HasMod |contains= tiakall.jortsandjean}}\" \"IS_EVENT 963070002, {{HasMod |contains= tiakall.jortsandjean}}\"",
+					"Precedence": -1500
+				},
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Sam Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sam_Indoor, Characters/Sam_Indoor, Portraits/Sam_JojaMart, Characters/Sam_JojaMart",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_Spring_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Sam Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sam_EggFestival, Characters/Sam_EggFestival, Portraits/Sam_FlowerDance, Characters/Sam_FlowerDance, Portraits/Sam_SVFair, Characters/Sam_SVFair, Portraits/Sam_SpiritsEve, Characters/Sam_SpiritsEve, Portraits/Sam_IceFestival, Characters/Sam_IceFestival, Portraits/Sam_WinterStar, Characters/Sam_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Sam Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sam_Luau, Characters/Sam_Luau, Portraits/Sam_MoonlightJellies, Characters/Sam_MoonlightJellies, Portraits/Sam_Swim, Characters/Sam_Swim",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/{{TargetWithoutPath}}_NoBinder_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Sam Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Sam_HotClimate, Characters/Sam_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Sam Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Indoor, Characters/Sam_Indoor, Portraits/Sam_JojaMart, Characters/Sam_JojaMart",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_{{Season}}_{{RandomTwoToken}}_Base.png"
+		},
+		{
+			"LogName": "Sam Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_HotClimate, Characters/Sam_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_Summer_{{RandomTwoToken}}_Sun.png"
+		},
+		{
+			"LogName": "Sam Random Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_SpiritsEve, Characters/Sam_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_SpiritsEve_{{RandomSpiritsEveTwoToken}}.png"
+		},
+		{
+			"LogName": "Sam Flower Dance Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_FlowerDance, Characters/Sam_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_FlowerDance_1{{SamFlowerDanceToken}}.png",
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sam Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_Beach_{{SamBinderToken}}_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Sam Binder Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Swim, Characters/Sam_Swim, Portraits/Sam_Luau, Characters/Sam_Luau, Portraits/Sam_MoonlightJellies, Characters/Sam_MoonlightJellies, ",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/{{TargetWithoutPath}}_{{SamBinderToken}}_1.png"
+		},
+		{
+			"LogName": "Sam Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Sam_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_Wedding_{{SamSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 384, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		{
+			"LogName": "Sam Sleep Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Sam_Indoor",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_SleepSprite.png",
+			"ToArea": { "X": 32, "Y": 416, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"LocationName |contains= SamHouse": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Sam Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Sam/Misc/Sam_Emoji_{{DSV.Core/ConfigValue:SamVariant}}.png",
+			"ToArea": {"X": 81, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SamVariant |contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Sam Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Sam/Misc/Sam_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:SamVariant}}.png",
+			"ToArea": {"X": 80, "Y": 368, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SamVariant|contains= Vanilla, Off": false
+			}
+		},
+
+// COMPATIBILITY
+// PPAF
+		{
+			"LogName": "PPaF Compat - Sam No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Indoor, Portraits/Sam_EggFestival, Portraits/Sam_FlowerDance, Portraits/Sam_Luau, Portraits/Sam_MoonlightJellies, Portraits/Sam_SVFair, Portraits/Sam_IceFestival, Portraits/Sam_WinterStar, Portraits/Sam_Swim, Portraits/Sam_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sam/Portraits/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Sam": true
+			}
+		},
+		
+// MERMAID PENDANTS
+		{
+			"LogName": "Sam Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Indoor, Portraits/Sam_EggFestival, Portraits/Sam_FlowerDance, Portraits/Sam_Luau, Portraits/Sam_MoonlightJellies, Portraits/Sam_SVFair, Portraits/Sam_IceFestival, Portraits/Sam_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Sam/Misc/MermaidPendants/Sam_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sam |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Sam Pendants - Beach & Winter Star",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Portraits/Sam_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Sam/Misc/MermaidPendants/Sam_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sam |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Sam Pendants - Life Cycle Penny/Sam Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Indoor, Portraits/Sam_EggFestival, Portraits/Sam_FlowerDance, Portraits/Sam_Luau, Portraits/Sam_MoonlightJellies, Portraits/Sam_SVFair",
+			"FromFile": "Art/VanillaNPCs/Sam/Misc/MermaidPendants/Sam_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sam |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCyclePennySam": true,
+				"HasSeenEvent |contains= 59020025": true
+			}
+		},
+		{
+			"LogName": "Sam Pendants - Life Cycle Penny/Sam Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Portraits/Sam_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Sam/Misc/MermaidPendants/{{TargetWithoutPath}}_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sam |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCyclePennySam": true,
+				"HasSeenEvent |contains= 59020025": true
+			}
+		},
+		{
+			"LogName": "Sam Pendants - RSV Rival Hearts Sam/Alissa Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Indoor, Portraits/Sam_EggFestival, Portraits/Sam_FlowerDance, Portraits/Sam_Luau, Portraits/Sam_MoonlightJellies, Portraits/Sam_SVFair",
+			"FromFile": "Art/VanillaNPCs/Sam/Misc/MermaidPendants/Sam_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sam |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts": true,
+				"HasSeenEvent |contains= 902207": true
+			}
+		},
+		{
+			"LogName": "Sam Pendants - RSV Rival Hearts Sam/Alissa Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Portraits/Sam_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Sam/Misc/MermaidPendants/Sam_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sam |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts": true,
+				"HasSeenEvent |contains= 902207": true
+			}
+		},
+		{
+			"LogName": "Sam Pendants - RSV Rival Hearts Sam/Alissa Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Alissa, Portraits/Alissa_Beach",
+			"FromFile": "Art/VanillaNPCs/Sam/Misc/MermaidPendants/{{TargetWithoutPath}}_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Sam |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts": true,
+				"HasSeenEvent |contains= 902207": true
+			}
+		},
+		
+// SAM EXTRAS OVERLAYS
+		{
+			"LogName": "Sam Extras Overlay Eyes",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Indoor, Characters/Sam_Indoor, Portraits/Sam_EggFestival, Characters/Sam_EggFestival, Portraits/Sam_FlowerDance, Characters/Sam_FlowerDance, Portraits/Sam_Luau, Characters/Sam_Luau, Portraits/Sam_MoonlightJellies, Characters/Sam_MoonlightJellies, Portraits/Sam_SVFair, Characters/Sam_SVFair, Portraits/Sam_SpiritsEve, Characters/Sam_SpiritsEve, Portraits/Sam_IceFestival, Characters/Sam_IceFestival, Portraits/Sam_WinterStar, Characters/Sam_WinterStar, Portraits/Sam_Swim, Characters/Sam_Swim, Portraits/Sam_HotClimate, Characters/Sam_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_{{DSV.Core/ConfigValue:SamEyes}}_EyesOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamEyes |contains= default": false
+			}
+		},
+		{
+			"LogName": "Sam Extras Overlay Eyes - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_{{DSV.Core/ConfigValue:SamEyes}}_EyesOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamEyes |contains= default": false
+			}
+		},
+		{
+			"LogName": "Sam Extras Overlay Piercings",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Indoor, Portraits/Sam_Beach, Portraits/Sam_EggFestival, Portraits/Sam_FlowerDance, Portraits/Sam_Luau, Portraits/Sam_MoonlightJellies, Portraits/Sam_SVFair, Portraits/Sam_SpiritsEve, Portraits/Sam_IceFestival, Portraits/Sam_WinterStar, Portraits/Sam_Swim, Portraits/Sam_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sam/{{Target}}_PiercingsOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamPiercings": "true"
+			}
+		},
+		{
+			"LogName": "Sam Extras Overlay Stubble",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Indoor, Characters/Sam_Indoor, Portraits/Sam_EggFestival, Characters/Sam_EggFestival, Portraits/Sam_FlowerDance, Characters/Sam_FlowerDance, Portraits/Sam_Luau, Characters/Sam_Luau, Portraits/Sam_MoonlightJellies, Characters/Sam_MoonlightJellies, Portraits/Sam_SVFair, Characters/Sam_SVFair, Portraits/Sam_SpiritsEve, Characters/Sam_SpiritsEve, Portraits/Sam_IceFestival, Characters/Sam_IceFestival, Portraits/Sam_WinterStar, Characters/Sam_WinterStar, Portraits/Sam_Swim, Characters/Sam_Swim, Portraits/Sam_HotClimate, Characters/Sam_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_StubbleOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamStubble": "true"
+			}
+		},
+		{
+			"LogName": "Sam Extras Overlay Stubble - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_StubbleOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamStubble": "true"
+			}
+		},
+		{
+			"LogName": "Sam Extras Overlay Beard",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Indoor, Characters/Sam_Indoor, Portraits/Sam_EggFestival, Characters/Sam_EggFestival, Portraits/Sam_FlowerDance, Characters/Sam_FlowerDance, Portraits/Sam_Luau, Characters/Sam_Luau, Portraits/Sam_MoonlightJellies, Characters/Sam_MoonlightJellies, Portraits/Sam_SVFair, Characters/Sam_SVFair, Portraits/Sam_SpiritsEve, Characters/Sam_SpiritsEve, Portraits/Sam_IceFestival, Characters/Sam_IceFestival, Portraits/Sam_WinterStar, Characters/Sam_WinterStar, Portraits/Sam_Swim, Characters/Sam_Swim, Portraits/Sam_HotClimate, Characters/Sam_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_BeardOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamBeard": "true"
+			}
+		},
+		{
+			"LogName": "Sam Extras Overlay Beard - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+			"FromFile": "Art/VanillaNPCs/Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Overlays/Sam_BeardOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamBeard": "true"
+			}
+		},
+
+// COMPATIBILITY
+// Rival Events Sam/Seb
+		{
+			"LogName": "Sam Rival Events Compatibility Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Shirtless, Characters/Sam_Shirtless",
+			"FromFile": "Sam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:SamVariant}}/Sam_Swim_{{SamBinderToken}}_1.png",
+			"When":
+			{
+				"HasMod |contains= brin.SSRivalHeartEvents": true,
+				"HasSeenEvent |contains= 1918822": false
+			}
+		}
+	]
+}

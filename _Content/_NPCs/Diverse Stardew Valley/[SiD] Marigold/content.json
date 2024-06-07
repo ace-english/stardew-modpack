@@ -1,0 +1,19 @@
+{
+	"Sprites": 
+	[
+		{
+			"Target": "Characters/DSVMarigold",
+			"FromFile": "assets/Marigold_SiD.png",
+			"BreathType" : "None",
+		},
+		{
+			"Target": "Characters/DSVMarigold",
+			"FromFile": "assets/Marigold_SiD_NoVest.png",
+			"BreathType" : "None",
+			"When":
+			{
+				"DayEvent |contains= dance of the moonlight jellies": true
+			}
+		}
+	]
+}

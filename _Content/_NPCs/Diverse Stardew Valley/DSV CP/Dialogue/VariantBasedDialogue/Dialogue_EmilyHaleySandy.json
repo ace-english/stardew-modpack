@@ -1,0 +1,472 @@
+{
+    "Changes":
+    [         
+
+//
+///////////// EMILY /////////////
+// 
+			
+// MODDED EMILY
+
+		{
+			"LogName": "Emily Variant-Based Dialogue - Modded",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": 
+			{
+				"fall_Thu6": "{{i18n:DSV.Dialogue.Daily.Emily.{{DSV.Core/ConfigValue:EmilyVariant}}.fall_Thu6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:EmilyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:EmilyVariant |contains= Vanilla, Off": false
+            }
+		},
+			
+// NONBINARY EMILY
+
+		{
+			"LogName": "Emily Variant-Based Dialogue - Nonbinary",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": 
+			{
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Emily.Nonbinary.Introduction}}",
+				"Sun8": "{{i18n:DSV.Dialogue.Daily.Emily.Nonbinary.Sun8}}",
+				"summer_Wed6": "{{i18n:DSV.Dialogue.Daily.Emily.Nonbinary.summer_Wed6}}",
+				"fall_Wed4": "{{i18n:DSV.Dialogue.Daily.Emily.Nonbinary.fall_Wed4}}",
+				"winter_Mon6": "{{i18n:DSV.Dialogue.Daily.Emily.Nonbinary.winter_Mon6}}",
+				"dating_Emily": "{{i18n:DSV.Dialogue.Daily.Emily.Nonbinary.dating_Emily}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:EmilyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true
+            }
+		},
+		{
+			"LogName": "Emily Variant-Based Dialogue - Nonbinary (SpiritsEve, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{
+				"Emily": "{{i18n:DSV.Dialogue.Daily.Emily.Nonbinary.SpiritsEve.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:EmilyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Hearts:Emily": "2, 3"
+            }
+		}, 
+		{
+			"LogName": "Emily Variant-Based Dialogue - Nonbinary (RSV-SBV Nonbinary Stall)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"Entries": 
+			{
+				"Emily": "{{i18n: DSV.Dialogue.Daily.Emily.Nonbinary.RSVSBVStall}}"
+			},
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true,
+				"HasMod |contains= skellady.SBVCP": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily": "True"
+			}
+		},  
+			
+// HARD OF HEARING HALEY
+
+		{
+			"LogName": "Emily Variant-Based Dialogue - Nonbinary",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": 
+			{
+				"summer_Mon2": "{{i18n:DSV.Dialogue.Daily.Emily.HoHHaley.summer_Mon2}}",
+				"fall_Tue6": "{{i18n:DSV.Dialogue.Daily.Emily.HoHHaley.fall_Tue6}}",
+				"winter_Sun4": "{{i18n:DSV.Dialogue.Daily.Emily.HoHHaley.winter_Sun4}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:EmilyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HoHHaley |contains= true": true
+            }
+		},  
+			
+// TURKISH GUS
+
+		{
+			"LogName": "Emily Variant-Based Dialogue - Turkish Gus",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{
+				"Emily": "{{i18n:DSV.Dialogue.Daily.Emily.TurkishGus.SpiritsEve.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:EmilyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Hearts:Emily": "6, 7, 8, 9, 10"
+            }
+		},      
+
+//
+///////////// HALEY /////////////
+// 
+			
+// MODDED HALEY
+
+		{
+			"LogName": "Haley Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": 
+			{
+				"Mon2": "{{i18n:DSV.Dialogue.Daily.Haley.Modded.Mon2}}",
+				"Resort_Towel": "{{i18n:DSV.Dialogue.Daily.Haley.Modded.Resort_Towel}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Vanilla, off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Black (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"Entries": 
+			{
+				"Rainy_Day_3": "{{i18n:DSV.Dialogue.Daily.Haley.Black.Married.Rainy_Day_3}}",
+				"Summer_3": "{{i18n:DSV.Dialogue.Daily.Haley.Black.Married.Summer_3}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Black}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true'": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Modded (Married, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"Entries": 
+			{
+				"Rainy_Day_4": "{{i18n:DSV.Dialogue.Daily.Haley.Modded.Married.Rainy_Day_4.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Vanilla, off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Black (Married, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"Entries": 
+			{
+				"Rainy_Day_3": "{{i18n:DSV.Dialogue.Daily.Haley.Black.Married.Rainy_Day_3.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Black}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true'": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Modded (Event, More Haley Heart Events)",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Fields": 
+			{
+			"17674007/F/f Haley 1750/t 1400 2200/w rainy/e 17674006": 
+				{
+					40: "speak Haley \"{{i18n:DSV.Dialogue.Event.Haley.Modded.Event34.40.MoreHaleyHeartEvents}}\""
+				}
+			},
+            "When":
+            {
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Vanilla, off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"HasMod |contains= Miihau.MiihausMoreHaleyHeartEvents": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Modded (Event, Haley's Pregnancy)",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": 
+			{
+			"17206014/O Haley/n BabyShowerReadyLetter/w sunny/t 1400 1850/F":
+				{
+					380: "message \"{{i18n:DSV.Dialogue.Event.Haley.Modded.Event17206014.380.HaleysPregnancy}}\"",
+					381: "speak Penny \"{{i18n:DSV.Dialogue.Event.Haley.Modded.Event17206014.381.HaleysPregnancy}}\""
+				}
+			},
+            "When":
+            {
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Vanilla, off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true,
+				"HasMod |contains= cptnmatruz.HaleysPregnancy": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Modded (Event, Haley's Pregnancy)",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": 
+			{
+			"17206014/O Haley/n BabyShowerReadyLetter/w sunny/t 1400 1850/F":
+				{
+					329: "speak Haley \"{{i18n:DSV.Dialogue.Event.Haley.Modded.Event17206014.329.HaleysPregnancy.{{DSV.Core/ConfigValue:GeorgeVariant}}Evelyn}}\""
+				}
+			},
+            "When":
+            {
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Vanilla, off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true,
+				"HasMod |contains= cptnmatruz.HaleysPregnancy": true
+            }
+		},
+
+// NONBINARY EMILY
+
+		{
+			"LogName": "Haley Variant-Based Dialogue - Nonbinary Emily (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": 
+			{
+				"Tue8": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.Tue8}}",
+				"summer_Sat8": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.summer_Sat8}}",
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.Introduction}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Nonbinary Emily (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": 
+			{
+				"Sun8_inlaw_Emily": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.Sun8_inlaw_Emily.CanonFriendlyDialogue}}",
+				"summer_Sun8_inlaw_Emily": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.summer_Sun8_inlaw_Emily.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Nonbinary Emily (Married, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"Entries": 
+			{
+				"Rainy_Night_2": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.Married.Rainy_Night_2.CanonFriendlyDialogue}}",
+				"summer_12": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.Married.summer_12.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Nonbinary Emily (SVFair, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{
+				"Haley": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.SVFair.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Hearts:Haley": "8, 9, 10"
+            }
+		},		
+		{
+			"LogName": "Haley Variant-Based Dialogue - Nonbinary Emily (SpiritsEve, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{
+				"Haley": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.SpiritsEve.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Relationship:Haley |contains= Dating": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - Nonbinary Emily (Luau, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{
+				"Haley_spouse": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.Luau.ImmersiveFestivalDialogue}}",
+				"Haley": "{{i18n:DSV.Dialogue.Daily.Haley.NonbinaryEmily.Luau.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,
+				"Relationship:Haley |contains= Engaged": true
+            }
+		},
+
+// HARD OF HEARING HALEY
+
+		{
+			"LogName": "Haley Variant-Based Dialogue - HoH (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": 
+			{
+				"Fri": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.Fri}}",
+				"Sun2": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.Sun2}}",
+				"Fri4": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.Fri4}}",
+				"Wed6": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.Wed6}}",
+				"Mon8": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.Mon8}}",
+				"summer_Sat2": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.summer_Sat2}}",
+				"summer_Tue6": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.summer_Tue6}}",
+				"summer_Mon8": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.summer_Mon8}}",
+				"fall_Fri2": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Fri2}}",
+				"fall_Wed4": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Wed4}}",
+				"fall_Sat4": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Sat4}}",
+				"fall_Sun6": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Sun6}}",
+				"fall_Wed8": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Wed8}}",
+				"winter_Tue": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Tue}}",
+				"winter_Mon2": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Mon2}}",
+				"winter_Fri4": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Fri4}}",
+				"winter_Sun6": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Sun6}}",
+				"winter_Tue8": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.winter_Tue8}}",
+				"fall_Fri10": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Fri10.Platonic}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HoHHaley |contains= true": true
+            }
+		},
+		{
+			"LogName": "Haley Variant-Based Dialogue - HoH (Daily, Dating)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": 
+			{
+				"fall_Fri10": "{{i18n:DSV.Dialogue.Daily.Haley.HardOfHearing.fall_Fri10.Romantic}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:HaleyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HoHHaley |contains= true": true,
+				"Relationship:Haley |contains= Dating, Engaged, Married": true
+            }
+		},
+		
+// OTHER
+
+		{
+			"LogName": "Haley Variant-Based Dialogue - Modded Evelyn (CT, Jeric/Alex)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": 
+			{
+				"AlexJericMarried": "{{i18n:DSV.Dialogue.Daily.Haley.{{DSV.Core/ConfigValue:GeorgeVariant}}Evelyn.AlexJericMarried}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true
+            }
+		},
+
+//
+///////////// SANDY /////////////
+// 
+			
+// MODDED SANDY
+
+		{
+			"LogName": "Sandy Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": 
+			{
+				"Sun": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.Sun}}",
+				"Wed4": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.Wed4}}",
+				"spring_Wed8": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.spring_Wed8}}",
+				"summer_Sat2": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.summer_Sat2}}",
+				"summer_Sun4": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.summer_Sun4}}",
+				"summer_Wed6": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.summer_Wed6}}",
+				"fall_Thu2": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.fall_Thu2}}",
+				"fall_Tue4": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.fall_Tue4}}",
+				"fall_Mon6": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.fall_Mon6}}",
+				"winter_Thu2": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.winter_Thu2}}",
+				"winter_Mon4": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.winter_Mon4}}",
+				"winter_Tue6": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.winter_Tue6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SandyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:SandyVariant |contains= Modded": true
+            }
+		},
+		{
+			"LogName": "Sandy Variant-Based Dialogue - Modded (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": 
+			{
+				"summer_Mon10": "{{i18n:DSV.Dialogue.Daily.Sandy.Modded.summer_Mon10.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SandyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:SandyVariant |contains= Modded": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+			
+// NONBINARY EMILY
+
+		{
+			"LogName": "Sandy Variant-Based Dialogue - Nonbinary Emily (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": 
+			{
+				"Mon6": "{{i18n:DSV.Dialogue.Daily.Sandy.NonbinaryEmily.Mon6.CanonFriendlyDialogue}}",
+				"Mon8": "{{i18n:DSV.Dialogue.Daily.Sandy.NonbinaryEmily.Mon8.CanonFriendlyDialogue}}",
+				"summer_Thu10": "{{i18n:DSV.Dialogue.Daily.Sandy.NonbinaryEmily.summer_Thu10.CanonFriendlyDialogue}}",
+				"winter_Wed10": "{{i18n:DSV.Dialogue.Daily.Sandy.NonbinaryEmily.winter_Wed10.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SandyDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		}
+    ]
+}

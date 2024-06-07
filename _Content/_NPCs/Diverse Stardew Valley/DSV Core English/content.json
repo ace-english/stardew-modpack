@@ -1,0 +1,648 @@
+{
+    "Format": "2.0.0",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "DSV.Core/Translations",
+			"Entries":
+			{
+				"en":
+				{
+					"GMCM.PageTitle.0": "Global Options",
+					"GMCM.PageTitle.1": "Compatibility",
+					"GMCM.PageTitle.2": "Dialogue",
+					"GMCM.PageTitle.3": "Abigail, Caroline & Pierre",
+					"GMCM.PageTitle.4": "Alex, Evelyn & George",
+					"GMCM.PageTitle.5": "Emily, Haley & Sandy",
+					"GMCM.PageTitle.6": "Harvey, Gus & Lewis",
+					"GMCM.PageTitle.7": "Leah & Elliott",
+					"GMCM.PageTitle.8": "Krobus, Wizard, Mermaids & Witch",
+					"GMCM.PageTitle.9": "Marlon, Gunther & Morris",
+					"GMCM.PageTitle.10": "Penny & Pam",
+					"GMCM.PageTitle.11": "Sam, Vincent, Jodi & Kent",
+					"GMCM.PageTitle.12": "Seb, Maru, Robin & Demetrius",
+					"GMCM.PageTitle.13": "Shane, Jas & Marnie",
+					"GMCM.PageTitle.14": "Willy, Clint & Linus",
+					"GMCM.PageTitle.15": "Additional Packs", //&&New!
+
+					//------------------------------------------------	
+
+					"GMCM.PageToolTip.0": "Options that affect many or all at once.",
+					"GMCM.PageToolTip.1": "DSV options for compatibility.",
+					"GMCM.PageToolTip.2": "DSV options for dialogue.",
+					"GMCM.PageToolTip.3": "Options for Abigail, Caroline & Pierre.",
+					"GMCM.PageToolTip.4": "Options for Alex, Evelyn & George.",
+					"GMCM.PageToolTip.5": "Options for Emily, Haley & Sandy.",
+					"GMCM.PageToolTip.6": "Options for Harvey, Gus & Lewis.",
+					"GMCM.PageToolTip.7": "Options for Leah & Elliott.",
+					"GMCM.PageToolTip.8": "Options for Krobus, Wizard, Mermaids & Witch.",
+					"GMCM.PageToolTip.9": "Options for Marlon, Gunther & Morris.",
+					"GMCM.PageToolTip.10": "Options for Penny & Pam.",
+					"GMCM.PageToolTip.11": "Options for Sam, Vincent, Jodi & Kent.",
+					"GMCM.PageToolTip.12": "Options for Seb, Maru, Robin & Demetrius.",
+					"GMCM.PageToolTip.13": "Options for Shane, Jas & Marnie.",
+					"GMCM.PageToolTip.14": "Options for Willy, Clint & Linus.",
+					"GMCM.PageToolTip.15": "Options for DSV's additional character packs.", //&&New!
+
+					//------------------------------------------------
+
+					"GMCM.Options.Variants.ToolTip": "Choose which version of {name} you would like to use. 'Vanilla' is the default version from the original game. Select 'off' if you do not want DSV to affect this character in any way. Check the website for more info.",
+					"GMCM.Options.SingleVariant.ToolTip": "Choose whether you would like to use seasonal outfits and other DSV features for {name}. Select 'off' if you do not want DSV to affect this character in any way. Check the website for more info.",
+					"GMCM.Options.Lightweights.ToolTip": "Toggles whether {name} will have the full range of Diverse Stardew Valley's features, a lightweight selection to reduce lag, or an ultra-lightweight selection. Check the website for more info.",
+					"GMCM.Options.WeddingOutfits.ToolTip": "Selects which wedding outfit {name} will wear when getting married. 1 is the default outfit from previous versions of DSV. Check the website for more info. Can't be used if a character's LightweightConfig option is set to 'ultralight'.",
+					"GMCM.Options.MapEdits.ToolTip": "Selects whether characters will have immersive cultural edits made to their houses to match their modded variants. Most options do nothing if a character's vanilla variant is selected.",
+					"GMCM.Options.Dialogue.ToolTip": "Toggles whether characters will have new and edited dialogue related to {name}'s DSV variant(s).",
+	
+					"GMCM.Options.Vanilla.Name": "Vanilla",
+					"GMCM.Options.Modded.Name": "Modded",
+					"GMCM.Options.Off.Name": "Off",
+					"GMCM.Options.Full.Name": "Full",
+					"GMCM.Options.Light.Name": "Light",
+					"GMCM.Options.Ultralight.Name": "Ultralight",
+					"GMCM.Options.Always.Name": "Always", 
+					
+					//------------------------------------------------
+
+					"GMCM.Options.MermaidPendantsSpouse.Name": "Mermaid Pendants - Spouses",
+					"GMCM.Options.MermaidPendantsSpouse.ToolTip": "Toggles whether or not your fiance/spouse will wear a mermaid pendant after getting engaged or married. Can't be used if a character's LightweightConfig option is set to 'ultralight'.",
+
+					"GMCM.Options.MermaidPendantsRivals.Name": "Mermaid Pendants - Rival Hearts",
+					"GMCM.Options.MermaidPendantsRivals.ToolTip": "Toggles whether or not rival heart couples (mod-added relationships between NPCs) will wear a mermaid pendant after getting married. Can't be used if a character's LightweightConfig option is set to 'ultralight'.",
+
+					"GMCM.Options.MermaidPendantsCanon.Name": "Mermaid Pendants - Canon Couples",
+					"GMCM.Options.MermaidPendantsCanon.ToolTip": "Toggles whether or not canon married couples such as George and Evelyn will wear mermaid pendants. Can't be used if a character's LightweightConfig option is set to 'ultralight'.",
+
+					/*"GMCM.Options.TownRamps.Name": "Town Ramps",
+					"GMCM.Options.TownRamps.ToolTip": "Changes several sets of stairs in Pelican Town to ramps for better wheelchair accessibility.",*/
+
+					"GMCM.Options.MaternitySprites.Name": "Maternity Sprites",
+					"GMCM.Options.MaternitySprites.ToolTip": "Enables maternity outfits for your wife while she is pregnant. If set to 'true', the sprites will automatically change. Can't be used if a character's LightweightConfig option is set to 'ultralight'. Doesn't affect Penny or Leah's Butch variant.",
+
+					"GMCM.Options.GiftTastesChange.Name": "Gift Tastes Change",
+					"GMCM.Options.GiftTastesChange.ToolTip": "Changes gift tastes for modded Sandy, Gus, and Jodi, Omani Kent, Sikh Harvey, and Jewish Elliott, Alex, Evelyn, and George to dislike food items that conflict with their dietary requirements. Sam, Vincent, and vanilla Kent or Jodi will also have changes if modded Jodi or Omani Kent is enabled. Doesn't affect their vanilla variants except for Sam, Vincent, Jodi and/or Kent. This option is on by default but can be disabled for compatibility with other mods.",
+
+					"GMCM.Options.Pyjamas.Name": "Pyjamas",
+					"GMCM.Options.Pyjamas.ToolTip": "Toggles whether or not marriage candidates will wear pyjamas in the morning and evening. If 'Marriage Only' is selected, they will only wear them in the farmhouse once married. Can only be used if a character's LightweightConfig option is set to 'full'.",
+					"GMCM.Options.On.Name": "On",
+					"GMCM.Options.Marriage.Name": "Marriage Only",
+	
+					"GMCM.Options.FlowerQueensCrown.Name": "Flower Queen's Crown",
+					"GMCM.Options.FlowerQueensCrown.ToolTip": "Enables the Flower Queen's Crown feature, which gives other NPCs besides Haley a chance to be Flower Queen during the Flower Dance. Any characters set to 'ultralight' or 'off' will not be added as potential Flower Queen candidates. Check the website for more info.",
+	
+					"GMCM.Options.FlowerQueensCrownImmersionMode.Name": "FQC - Immersion Mode",
+					"GMCM.Options.FlowerQueensCrownImmersionMode.ToolTip": "Toggles whether the Flower Queen's Crown feature will initially restrict who can become the Flower Queen and expand over time, or whether any eligible candidates can be selected as Flower Queen from Year 1. Check the website for more info.",
+
+					"GMCM.Options.BeachStyle.Name": "Vanilla Beach Style",
+					"GMCM.Options.BeachStyle.ToolTip": "Changes Ginger Island swimwear to use the vanilla design, a new design by DSV, or randomly select between both. RandomBeachwear can't be used if a character's LightweightConfig option is set to 'ultralight'.",
+
+					"GMCM.Options.DSVStyle.Name": "DSV Style",
+					"GMCM.Options.VanillaStyle.Name": "Vanilla Style",
+					"GMCM.Options.RandomBeachwear.Name": "Random Beachwear",
+
+					//------------------------------------------------ 
+	
+					"GMCM.Title.RidgesideVillage.Name": "Ridgeside Village (RSV)",
+	
+					"GMCM.Options.RSVBert.Name": "Bert",
+					"GMCM.Options.RSVBert.ToolTip": "Adds compatible portraits and sprites for Ridgeside Village's Bert, so that he is Filipino to match his cousin Caroline's modded DSV variant.",
+
+					"GMCM.Options.RSVTrinnie.Name": "Trinnie",
+					"GMCM.Options.RSVTrinnie.ToolTip": "Adds compatible portraits and sprites for Ridgeside Village's Trinnie, so that she is mixed Filipino-German to match her aunt Caroline's modded DSV variant. A black-haired or green-haired version is available.",
+					"GMCM.Options.ModdedGreen.Name": "Modded Green",
+					"GMCM.Options.ModdedDark.Name": "Modded Dark",
+
+					"GMCM.Options.RSVLenny.Name": "Lenny",
+					"GMCM.Options.RSVLenny.ToolTip": "Adds compatible portraits and sprites for Ridgeside Village's Lenny, so that she is Black to match her brother Lewis's modded DSV variant.",
+
+					"GMCM.Title.StardewKidsExpansion.Name": "Stardew Kids Expansion (SKE)",
+					"GMCM.Title.StardewKidsExpansion.ToolTip": "Adds compatible portraits and sprites for Stardew Kids Expansion's James, Vanessa, Adrian, Douglas, and Tina, so that they match the modded variants of their family members. Two different artstyles by Medisun or Camtherata are available; check the website for more info.",	
+
+					"GMCM.Options.SKEJames.Name": "James",
+					"GMCM.Options.SKEVanessa.Name": "Vanessa",
+					"GMCM.Options.SKEAdrian.Name": "Adrian",
+					"GMCM.Options.SKEDouglas.Name": "Douglas",
+					"GMCM.Options.SKETina.Name": "Tina",
+
+					"GMCM.Title.LessUglyTownInteriors.Name": "Less Ugly Town Interiors (LUTI)",
+					"GMCM.Title.LessUglyTownInteriors.ToolTip": "Adds DSV's variant-specific map edits to LUTI's custom rooms for Sandy and Willy.",
+					"GMCM.Options.LUTIWilly.Name": "Willy",
+					"GMCM.Options.LUTISandy.Name": "Sandy",
+
+					"GMCM.Title.LookingForLove.Name": "Looking For Love (LFL)",
+					"GMCM.Title.LookingForLove.ToolTip": "Adds compatibility with foggywizard's Looking For Love so that LfL's dateable characters will match DSV's variants and have seasonal outfits. Only check a character's option if you also have them set to dateable in LfL's configuration options.",
+	
+					"GMCM.Options.LookingForLove.Name": "LookingForLove",
+	
+					"GMCM.Options.LFLPam.Name": "Pam",
+					"GMCM.Options.LFLWilly.Name": "Willy",
+					"GMCM.Options.LFLGus.Name": "Gus",
+					"GMCM.Options.LFLWizard.Name": "Wizard",
+					"GMCM.Options.LFLLinus.Name": "Linus", 
+					"GMCM.Options.LFLLewis.Name": "Lewis",
+					"GMCM.Options.LFLSandy.Name": "Sandy",
+					"GMCM.Options.LFLMarnie.Name": "Marnie",
+					"GMCM.Options.LFLClint.Name": "Clint",
+
+					"GMCM.Options.ModdedCamtherata.Name": "Modded Camtherata",
+					"GMCM.Options.ModdedMedisun.Name": "Modded Medisun",
+
+					"GMCM.Title.MGR.Name": "Make Gunther Real",
+
+					"GMCM.Options.AlternateCecily.Name": "Alternate Cecily",
+					"GMCM.Options.AlternateCecily.ToolTip": "Toggles whether or not Gunther's daughter Cecily will use alternate sprites & portraits by Airyn that match DSV's Gunther. Set to false if you prefer Cecily's original art. Only applicable if using Make Gunther Real.",
+
+					"GMCM.Title.Mike.Name": "College Boy Mike", //&&New!
+
+					"GMCM.Options.TurkishMike.Name": "Turkish Mike", //&&New!
+					"GMCM.Options.TurkishMike.ToolTip": "Toggles whether or not Gus's nephew Mike will use alternate sprites & portraits by Airyn that match DSV's Gus. Requires GusVariant to be set to 'Modded'. Set to false if you prefer Mike's original art. Only applicable if using College Boy Mike.", //&&New!
+
+					"GMCM.Title.Jaemin.Name": "NPC Park Jaemin",
+
+					"GMCM.Options.JaeminSamFamilyDialogue.Name": "Jaemin - Sam's Family Dialogue",
+					"GMCM.Options.JaeminSamFamilyDialogue.ToolTip": "Toggles whether or not Jaemin will add dialogue for Sam and his family related to Jaemin being from Gotoro. Match this setting to the equivalent option in Jaemin's config.",
+
+					"GMCM.Title.AGECompatibility.Name": "Adventurers Guild Expanded (AGE)",
+					"GMCM.Title.AGECompatibility.ToolTip": "Adds compatible portraits and sprites for Adventurers Guild Expanded's Daisy, Gabriel and/or Zinnia, so that they are Mongolian to match Marlon's modded DSV variant.",
+					"GMCM.Options.AGEGabriel.Name": "Gabriel",
+					"GMCM.Options.AGEZinnia.Name": "Zinnia",
+					"GMCM.Options.AGEDaisy.Name": "Daisy",
+
+					/*"GMCM.Options.MarlonCompatibility.Name": "Marlon Compatibility",
+					"GMCM.Options.MarlonCompatibility.ToolTip": "Toggles which mod will edit Marlon's portraits and sprites. The default 'Automatic' should automatically match the appropriate mod, but if this is not working, this option allows for a manual selection.",
+					"GMCM.Options.Automatic.Name": "Automatic",
+					"GMCM.Options.BefriendMarlonAndGunther.Name": "BefriendMarlonAndGunther",
+					"GMCM.Options.MakeMarlonReal.Name": "MakeMarlonReal",
+					//"GMCM.Options.Denver.Name": "Denver",*/
+
+					"GMCM.Title.SpousePortraitsReworked.Name": "Spouse Portraits Reworked", //&&New!
+
+					"GMCM.Options.TonedDown.Name": "Toned-Down Portraits", //&&New!
+					"GMCM.Options.TonedDown.ToolTip": "Toggles whether spouse portraits will have a toned-down color scheme, matching the PortraitRecolor option from the original mod.", //&&New!
+
+					"GMCM.Options.EmilyPortrait.Name": "Emily Spouse Portrait", //&&New!
+					"GMCM.Options.EmilyPortrait.ToolTip": "Chooses whether to use option 1 or option 2 for Emily's spouse portrait. Check the website for more info.", //&&New!
+
+					"GMCM.Options.WizardPortrait.Name": "Wizard Spouse Portrait", //&&New!
+					"GMCM.Options.WizardPortrait.ToolTip": "Chooses whether to use option 1 or option 2 for Rasmodius's spouse portrait. Requires Romanceable Rasmodius - Updated. Check the website for more info.", //&&New!
+
+					//------------------------------------------------ 
+	
+					"GMCM.Options.EnableVariantBasedDialogue.Name": "Enable Variant-Based Dialogue",
+					"GMCM.Options.EnableVariantBasedDialogue.ToolTip": "Selects whether or not DSV will include additional daily dialogue lines related to a character's modded variant. If false, this option will disable daily dialogue for all characters except for dialogue connected to the No More War Dialogue Edits config option.",
+
+					"GMCM.Options.NoMoreWarDialogueEdits.Name": "No More War Dialogue Edits",
+					"GMCM.Options.NoMoreWarDialogueEdits.ToolTip": "Changes dialogue about Kent's profession and the war as an expansion of ShotFromGun's No More War - Kent as Journalist. This content automatically applies and cannot be turned off if using Kent's Omani or OmaniDisabled variants. It can be used with no mod requirement if using Jodi's modded variant or requires ShotFromGun's mod if using Jodi's vanilla variant. Check the website for more info.",
+
+					"GMCM.Title.NPCDialogue.Name": "Individual NPC Dialogue Toggles",
+
+					"GMCM.Options.AbigailDialogue.Name": "Abigail", 
+					"GMCM.Options.AlexDialogue.Name": "Alex",
+					"GMCM.Options.CarolineDialogue.Name": "Caroline",
+					"GMCM.Options.ClintDialogue.Name": "Clint",
+					"GMCM.Options.DemetriusDialogue.Name": "Demetrius",
+					"GMCM.Options.ElliottDialogue.Name": "Elliott", 
+					"GMCM.Options.EmilyDialogue.Name": "Emily",
+					"GMCM.Options.EvelynDialogue.Name": "Evelyn",
+					"GMCM.Options.GeorgeDialogue.Name": "George",
+					"GMCM.Options.GusDialogue.Name": "Gus",
+					"GMCM.Options.HaleyDialogue.Name": "Haley",
+					"GMCM.Options.HarveyDialogue.Name": "Harvey", 
+					"GMCM.Options.JasDialogue.Name": "Jas",
+					"GMCM.Options.JodiDialogue.Name": "Jodi",
+					"GMCM.Options.KentDialogue.Name": "Kent",
+					"GMCM.Options.LeahDialogue.Name": "Leah",
+					"GMCM.Options.LewisDialogue.Name": "Lewis", 
+					"GMCM.Options.LinusDialogue.Name": "Linus",
+					"GMCM.Options.MarnieDialogue.Name": "Marnie",
+					"GMCM.Options.MaruDialogue.Name": "Maru",
+					"GMCM.Options.PamDialogue.Name": "Pam",
+					"GMCM.Options.PennyDialogue.Name": "Penny",
+					"GMCM.Options.PierreDialogue.Name": "Pierre",
+					"GMCM.Options.RobinDialogue.Name": "Robin",
+					"GMCM.Options.SamDialogue.Name": "Sam",
+					"GMCM.Options.SandyDialogue.Name": "Sandy", 
+					"GMCM.Options.SebastianDialogue.Name": "Sebastian",
+					"GMCM.Options.ShaneDialogue.Name": "Shane",
+					"GMCM.Options.VincentDialogue.Name": "Vincent",
+					"GMCM.Options.WillyDialogue.Name": "Willy",
+					"GMCM.Options.WizardDialogue.Name": "Wizard",
+
+					//------------------------------------------------
+
+					"GMCM.Title.AbigailMainOptions.Name": "Main Options",
+
+					"GMCM.Options.AbigailVariant.Name": "Abigail Variant",
+					"GMCM.Options.AbigailVariant.ToolTip": "Choose which version of Abigail you would like to use. 'VanillaStraightSize' is the default version from the original game. Select 'off' if you do not want DSV to affect this character in any way. Check the website for more info.",
+					
+					"GMCM.Options.ModdedPlusSize.Name": "Modded Plus Size",
+					"GMCM.Options.ModdedStraightSize.Name": "Modded Straight Size",
+					"GMCM.Options.VanillaPlusSize.Name": "Vanilla Plus Size",
+					"GMCM.Options.VanillaStraightSize.Name": "Vanilla Straight Size",
+					"GMCM.Options.AbigailLightweightConfig.Name": "Abigail Lightweight Config",
+
+					"GMCM.Options.CarolineVariant.Name": "Caroline Variant",
+					"GMCM.Options.CarolineLightweightConfig.Name": "Caroline Lightweight Config",
+
+					"GMCM.Options.PierreVariant.Name": "Pierre Variant",
+					"GMCM.Options.PierreLightweightConfig.Name": "Pierre Lightweight Config",
+
+					"GMCM.Title.AbigailAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.AbigailWeddingOutfit.Name": "Abigail Wedding Outfit",
+	
+					"GMCM.Options.SeedShopEdits.Name": "Pierre's Shop Edits",
+
+					"GMCM.Options.NonbinaryAbigail.Name": "Nonbinary Abigail",
+					"GMCM.Options.NonbinaryAbigail.ToolTip": "Selects whether or not DSV will include additional dialogue lines for Abigail discussing a nonbinary gender identity.",
+					
+					"GMCM.Options.AbigailGothMakeup.Name": "Abigail Goth Makeup",
+					"GMCM.Options.AbigailGothMakeup.ToolTip": "Chooses whether Abigail will always wear goth makeup, will never wear makeup, or will dynamically wear goth makeup, regular makeup, or no makeup depending on the day. Can only be used if AbigailLightweightConfig is not set to 'ultralight', and only 'Always' is available if AbigailLightweightConfig is set to 'light'.",
+					
+					//------------------------------------------------
+
+					"GMCM.Title.AlexMainOptions.Name": "Main Options",
+
+					"GMCM.Options.AlexVariant.Name": "Alex Variant",
+					"GMCM.Options.Mexican.Name": "Mexican",
+					"GMCM.Options.Samoan.Name": "Samoan",
+					"GMCM.Options.AlexLightweightConfig.Name": "Alex Lightweight Config",
+
+					"GMCM.Options.EvelynVariant.Name": "Evelyn Variant",
+					"GMCM.Options.EvelynLightweightConfig.Name": "Evelyn Lightweight Config",
+
+					"GMCM.Options.GeorgeVariant.Name": "George Variant",
+					"GMCM.Options.GeorgeLightweightConfig.Name": "George Lightweight Config",
+					
+					"GMCM.Title.AlexAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.AlexWeddingOutfit.Name": "Alex Wedding Outfit",
+
+					"GMCM.Options.AlexTattoos.Name": "Alex Tattoos",
+					"GMCM.Options.AlexTattoos.ToolTip": "Chooses whether or not Alex's Samoan variant has traditional chest and shoulder tattoos.",
+
+					"GMCM.Options.GeorgeBeard.Name": "George Beard",
+					"GMCM.Options.GeorgeBeard.ToolTip": "Chooses whether George is bearded or clean-shaven. The dynamic option makes him bearded during fall and winter. Can only be used if GeorgeLightweightConfig is not set to 'ultralight'.",
+					"GMCM.Options.Beard.Name": "Beard",
+					"GMCM.Options.NoBeard.Name": "No Beard",
+					"GMCM.Options.Dynamic.Name": "Dynamic",
+
+					"GMCM.Options.GeorgeEvelynSpiritsEve.Name": "George & Evelyn At Spirit's Eve",
+					"GMCM.Options.GeorgeEvelynSpiritsEve.ToolTip": "Chooses whether or not George & Evelyn will attend the Spirit's Eve festival, as they do not attend in vanilla.",
+	
+					"GMCM.Options.JoshHouseEdits.Name": "Alex's House Edits",
+	
+					"GMCM.Options.JewishMullners.Name": "Jewish Mullners",
+					"GMCM.Options.JewishMullners.ToolTip": "Chooses whether the Mullner family are Jewish, in addition to their character variant. This option adds dialogue and visual edits.",
+
+					"GMCM.Options.JewishMullnersScheduleEdit.Name": "Jewish Mullners - Schedule Edits",
+					"GMCM.Options.JewishMullnersScheduleEdit.ToolTip": "Chooses whether the Mullner family are Jewish, in addition to their character variant. This option adds schedule edits.",
+
+					//------------------------------------------------
+					
+					"GMCM.Title.EmilyMainOptions.Name": "Main Options",
+
+					"GMCM.Options.EmilyVariant.Name": "Emily Variant",
+					"GMCM.Options.Black.Name": "Black",
+					"GMCM.Options.Romani.Name": "Romani",
+					"GMCM.Options.EmilyLightweightConfig.Name": "Emily Lightweight Config",
+
+					"GMCM.Options.HaleyVariant.Name": "Haley Variant",
+					"GMCM.Options.HaleyLightweightConfig.Name": "Haley Lightweight Config",
+
+					"GMCM.Options.SandyVariant.Name": "Sandy Variant",
+					"GMCM.Options.SandyLightweightConfig.Name": "Sandy Lightweight Config",
+					
+					"GMCM.Title.EmilyAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.HoHHaley.Name": "Hard-of-Hearing Haley",
+					"GMCM.Options.HoHHaley.ToolTip": "Selects whether or not Haley is partially deaf. If this option is enabled, Haley will wear hearing aids, sometimes use sign language, and have additional dialogue related to her disability.",
+
+					"GMCM.Options.NonbinaryEmily.Name": "Nonbinary Emily",
+					"GMCM.Options.NonbinaryEmily.ToolTip": "Selects whether or not DSV will include additional dialogue lines for Emily discussing a nonbinary gender identity.",
+
+					"GMCM.Options.EmilyTattoos.Name": "Emily Tattoos",
+					"GMCM.Options.EmilyTattoos.ToolTip": "Chooses whether or not Emily has colorful tattoos. Can only be used if EmilyLightweightConfig is set to 'full'.",
+
+					"GMCM.Options.HaleyCamera.Name": "Haley Camera",
+					"GMCM.Options.HaleyCamera.ToolTip": "Changes Haley's camera from brown to black. Can't be used if HaleyLightweightConfig is set to 'ultralight'.",
+
+					"GMCM.Options.HaleyPiercings.Name": "Haley Piercings",
+					"GMCM.Options.HaleyPiercings.ToolTip": "Chooses whether or not Haley has nose and eyebrow piercings. Can't be used if HaleyLightweightConfig is set to 'ultralight'.",
+
+					"GMCM.Options.HaleyCuffs.Name": "Haley Cuffs",
+					"GMCM.Options.HaleyCuffs.ToolTip": "Chooses whether or not Haley's Black variant has hair cuffs in her braids. This option does not affect Vanilla or Romani Haley.",
+
+					"GMCM.Options.EmilyWeddingOutfit.Name": "Emily Wedding Outfit",
+					"GMCM.Options.HaleyWeddingOutfit.Name": "Haley Wedding Outfit",
+	
+					"GMCM.Options.HaleyHouseEdits.Name": "Haley & Emily's House Edits",
+					
+					//------------------------------------------------
+
+					"GMCM.Title.HarveyMainOptions.Name": "Main Options",
+
+					"GMCM.Options.HarveyVariant.Name": "Harvey Variant",
+					"GMCM.Options.ModdedNonSikh.Name": "Modded Non-Sikh",
+					"GMCM.Options.ModdedSikh.Name": "Modded Sikh",
+					"GMCM.Options.HarveyLightweightConfig.Name": "Harvey Lightweight Config",
+
+					"GMCM.Options.LewisVariant.Name": "Lewis Variant",
+					"GMCM.Options.LewisLightweightConfig.Name": "Lewis Lightweight Config",
+
+					"GMCM.Options.GusVariant.Name": "Gus Variant",
+					"GMCM.Options.GusLightweightConfig.Name": "Gus Lightweight Config",
+					
+					"GMCM.Title.HarveyAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.AroAceGus.Name": "Aro-Ace Gus",
+					"GMCM.Options.AroAceGus.ToolTip": "Selects whether or not DSV will include additional dialogue lines for Gus discussing being aromantic-asexual.",
+
+					"GMCM.Options.HarveyCharacterMoustache.Name": "Harvey Character Moustache",
+					"GMCM.Options.HarveyCharacterMoustache.ToolTip": "Gives Harvey's character/overworld sprite a moustache to match his portraits. Only affects his Vanilla variant.",
+
+					"GMCM.Options.HarveyWeddingOutfit.Name": "Harvey Wedding Outfit",
+	
+					"GMCM.Options.HarveyRoomEdits.Name": "Harvey's Room Edits",
+					"GMCM.Options.SaloonEdits.Name": "Stardrop Saloon Edits",
+					// "GMCM.Options.ManorHouseEdits.Name": "Lewis' Manor Edits",
+
+					//------------------------------------------------
+
+					"GMCM.Title.LeahMainOptions.Name": "Main Options",
+					
+					"GMCM.Options.LeahVariant.Name": "Leah Variant",
+					"GMCM.Options.Native.Name": "Native American",
+					"GMCM.Options.Butch.Name": "Butch",
+					"GMCM.Options.LeahLightweightConfig.Name": "Leah Lightweight Config",
+
+					"GMCM.Options.ElliottVariant.Name": "Elliott Variant",
+					"GMCM.Options.ElliottLightweightConfig.Name": "Elliott Lightweight Config",
+					
+					"GMCM.Title.LeahAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.LeahWeddingOutfit.Name": "Leah Wedding Outfit",
+					"GMCM.Options.ElliottWeddingOutfit.Name": "Elliott Wedding Outfit", 
+
+					"GMCM.Options.ElliottHouseEdits.Name": "Elliott's House Edits",
+					"GMCM.Options.LeahHouseEdits.Name": "Leah's House Edits",
+	
+					"GMCM.Options.JewishElliott.Name": "Jewish Elliott",
+					"GMCM.Options.JewishElliott.ToolTip": "Chooses whether Elliott is Jewish, in addition to his character variant.",
+	
+					"GMCM.Options.ElliottHelixPiercing.Name": "Elliott Accessories - Helix Piercing",
+					"GMCM.Options.ElliottHelixPiercing.ToolTip": "Chooses whether Elliott has a helix piercing in his ear. Can't be used if ElliottLightweightConfig option is set to 'ultralight'.",
+	
+					"GMCM.Options.ElliottEarring.Name": "Elliott Accessories - Earring",
+					"GMCM.Options.ElliottEarring.ToolTip": "Chooses whether Elliott wears a small hoop earring. Can't be used if ElliottLightweightConfig option is set to 'ultralight'.",
+
+					//------------------------------------------------
+
+					"GMCM.Title.KrobusMainOptions.Name": "Main Options",
+					
+					"GMCM.Options.KrobusVariant.Name": "Krobus Variant",
+					"GMCM.Options.KrobusLightweightConfig.Name": "Krobus Lightweight Config",
+
+					"GMCM.Options.WizardVariant.Name": "Wizard Variant",
+					"GMCM.Options.WizardLightweightConfig.Name": "Wizard Lightweight Config",
+
+					"GMCM.Options.WitchVariant.Name": "Witch Variant",
+
+					"GMCM.Options.Mermaids.Name": "Mermaids",
+					"GMCM.Options.Mermaids.ToolTip": "Randomizes the appearance of the mermaids who appear in the game. The 'Light Mix' option will change the mermaids to a pre-selected mix. See the website for more details",
+					"GMCM.Options.RandomUpper.Name": "Random Upper",
+					"GMCM.Options.RandomLower.Name": "Random Lower",
+					"GMCM.Options.RandomBoth.Name": "Random Both",
+					"GMCM.Options.LightMix.Name": "Light Mix",
+					
+					"GMCM.Title.KrobusAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.WizardFamiliarsHatJunimo.Name": "Familiars - Hat Junimo",
+					"GMCM.Options.WizardFamiliarsHatJunimo.ToolTip": "Gives the Wizard some spirit familiars who hang around him. Can't be used if WizardLightweightConfig option is set to 'light'.",
+
+					"GMCM.Options.WizardFamiliarsShoulderJunimo.Name": "Familiars - Shoulder Junimo",
+					"GMCM.Options.WizardFamiliarsShoulderJunimo.ToolTip": "Gives the Wizard some spirit familiars who hang around him. Can't be used if WizardLightweightConfig option is set to 'light'.",
+
+					"GMCM.Options.WizardFamiliarsSpirit.Name": "Familiars - Spirit Creature",
+					"GMCM.Options.WizardFamiliarsSpirit.ToolTip": "Gives the Wizard some spirit familiars who hang around him. Can't be used if WizardLightweightConfig option is set to 'light'.",
+
+					//------------------------------------------------
+
+					"GMCM.Options.MarlonVariant.Name": "Marlon Variant",
+					"GMCM.Options.GuntherVariant.Name": "Gunther Variant",
+					"GMCM.Options.MorrisVariant.Name": "Morris Variant",
+
+					//------------------------------------------------
+
+					"GMCM.Title.PennyMainOptions.Name": "Main Options",
+					
+					"GMCM.Options.PennyVariant.Name": "Penny Variant",
+					"GMCM.Options.Mixed.Name": "Mixed",
+					"GMCM.Options.ModdedAirynNotSnufffieSmall.Name": "Modded-Airyn&NotSnufffie Small",
+					"GMCM.Options.ModdedAirynNotSnufffieLarge.Name": "Modded-Airyn&NotSnufffie Large",
+					"GMCM.Options.PennyLightweightConfig.Name": "Penny Lightweight Config",
+
+					"GMCM.Options.PamVariant.Name": "Pam Variant",
+					"GMCM.Options.PamLightweightConfig.Name": "Pam Lightweight Config",
+					
+					"GMCM.Title.PennyAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.PennyWeddingOutfit.Name": "Penny Wedding Outfit",
+					
+					"GMCM.Options.PennyPamDynamicOutfits.Name": "Penny & Pam Dynamic Outfits",
+					"GMCM.Options.PennyPamDynamicOutfits.ToolTip": "Toggles whether Penny & Pam will start with their full wardrobe or start with a limited selection and gain more outfits after story events. If Penny or Pam's LightweightConfig option is set to 'ultralight', this option will not affect that character. Check the website for more info.",
+
+					"GMCM.Options.PennyFreckles.Name": "Penny Freckles",
+                    "GMCM.Options.PennyFreckles.ToolTip": "Chooses whether or not Penny's vanilla or mixed variants have freckles, as her ModdedAirynNotsnufffie variants have freckles by default. Can't be used if PennyLightweightConfig is set to 'ultralight'.",
+
+					"GMCM.Options.TrailerEdits.Name": "Penny's House Edits",
+
+					//------------------------------------------------
+
+					"GMCM.Title.SamMainOptions.Name": "Main Options",
+					
+					"GMCM.Options.SamVariant.Name": "Sam Variant",
+					"GMCM.Options.ModdedLighter.Name": "Modded Lighter",
+					"GMCM.Options.ModdedDarker.Name": "Modded Darker",
+					"GMCM.Options.SamLightweightConfig.Name": "Sam Lightweight Config",
+
+					"GMCM.Options.VincentVariant.Name": "Vincent Variant",
+					"GMCM.Options.VincentLightweightConfig.Name": "Vincent Lightweight Config",
+
+					"GMCM.Options.JodiVariant.Name": "Jodi Variant",
+					"GMCM.Options.JodiLightweightConfig.Name": "Jodi Lightweight Config",
+
+					"GMCM.Options.KentVariant.Name": "Kent Variant",
+					"GMCM.Options.Omani.Name": "Omani",
+					"GMCM.Options.OmaniDisabled.Name": "Omani Disabled",
+					"GMCM.Options.VanillaDisabled.Name": "Vanilla Disabled",
+					"GMCM.Options.KentLightweightConfig.Name": "Kent Lightweight Config",
+					
+					"GMCM.Title.SamAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.SamWeddingOutfit.Name": "Sam Wedding Outfit",
+
+					"GMCM.Options.KentNoBombsInMail.Name": "Kent No Bombs In Mail",
+					"GMCM.Options.KentNoBombsInMail.ToolTip": "Changes Kent's letters so that he does not post bombs to the player and will instead send other more appropriate items. Automatically applied and cannot be turned off if Kent's Omani or OmaniDisabled variants are enabled, and automatically disabled if Replace Bombs Kent Mail by LiziAnne is installed",
+
+					"GMCM.Options.TransSam.Name": "Trans Sam",
+
+					"GMCM.Options.SamBeard.Name": "Sam Beard",
+					"GMCM.Options.SamBeard.ToolTip": "Gives Sam a light beard. This option can be layered with SamStubble. Can't be used if SamLightweightConfig is set to 'ultralight'.",
+
+					"GMCM.Options.SamStubble.Name": "Sam Stubble",
+					"GMCM.Options.SamStubble.ToolTip": "Gives Sam heavy stubble. This option can be layered with SamBeard. Can't be used if SamLightweightConfig is set to 'ultralight'.",
+
+					"GMCM.Options.SamPiercings.Name": "Sam Piercings",
+					"GMCM.Options.SamPiercings.ToolTip": "Gives Sam lip and eyebrow piercings. Can't be used if SamLightweightConfig is set to 'ultralight'.",
+
+					"GMCM.Options.SamEyes.Name": "Sam Eyes",
+					"GMCM.Options.SamEyes.ToolTip": "Keeps Sam's default eye color, changes it to an alternate color, or gives him heterochromia with one eye of each color. Can't be used if SamLightweightConfig is set to 'ultralight'.",
+					"GMCM.Options.Default.Name": "Default",
+					"GMCM.Options.Alternate.Name": "Alternate",
+					"GMCM.Options.Heterochromia.Name": "Heterochromia",
+
+					"GMCM.Options.SamBinder.Name": "Sam Binder",
+					"GMCM.Options.SamBinder.ToolTip": "Gives Sam a tanktop-style binder which is visible when he goes swimming and during some festivals. If disabled, Sam will instead have top surgery scars visible when shirtless.",
+	
+					"GMCM.Options.SamHouseEdits.Name": "Sam's House Edits",
+
+					//------------------------------------------------
+
+					"GMCM.Title.SebastianMainOptions.Name": "Main Options",
+					
+					"GMCM.Options.SebastianVariant.Name": "Sebastian Variant",
+					"GMCM.Options.ModdedBlack.Name": "Modded Black",
+					"GMCM.Options.ModdedPurple.Name": "Modded Purple",
+					"GMCM.Options.SebastianLightweightConfig.Name": "Sebastian Lightweight Config",
+
+					"GMCM.Options.MaruVariant.Name": "Maru Variant",
+					"GMCM.Options.ModdedNotSnufffie.Name": "Modded NotSnufffie",
+					"GMCM.Options.ModdedLavender.Name": "Modded Lavender",
+					"GMCM.Options.MaruLightweightConfig.Name": "Maru Lightweight Config",
+
+					"GMCM.Options.RobinVariant.Name": "Robin Variant",
+					"GMCM.Options.RobinLightweightConfig.Name": "Robin Lightweight Config",
+
+					"GMCM.Options.DemetriusVariant.Name": "Demetrius Variant",
+					"GMCM.Options.ModdedDarkSkin.Name": "Modded Dark Skin",
+					"GMCM.Options.ModdedAlbino.Name": "Modded Albino",
+					"GMCM.Options.DemetriusLightweightConfig.Name": "Demetrius Lightweight Config",
+					
+					"GMCM.Title.SebastianAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.SebastianWeddingOutfit.Name": "Sebastian Wedding Outfit",
+					"GMCM.Options.MaruWeddingOutfit.Name": "Maru Wedding Outfit",
+
+					"GMCM.Options.MaruHospitalScrubs.Name": "Maru Hospital Scrubs",
+					"GMCM.Options.MaruHospitalScrubs.ToolTip": "Toggles whether Maru wears scrubs when she's working at the clinic or keeps her vanilla nurse's dress.",
+
+					"GMCM.Options.MaruCharacterGlasses.Name": "Maru Character Glasses",
+					"GMCM.Options.MaruCharacterGlasses.ToolTip": "Gives Maru's character/overworld sprite glasses to match her portraits. Only affects the Vanilla and ModdedNotsnufffie variants.",
+
+					"GMCM.Options.MaruBlackHair.Name": "Maru Black Hair",
+					"GMCM.Options.MaruBlackHair.ToolTip": "Makes Maru's ModdedLavender variant have black undyed hair instead of a pink ombre dye. Doesn't affect the Vanilla and ModdedNotsnufffie variants.",
+
+					"GMCM.Options.SebPiercings.Name": "Seb Piercings",
+					"GMCM.Options.SebPiercings.ToolTip": "Gives Sebastian lip and ear piercings. Can't be used if Sebastian's LightweightConfig option is set to 'ultralight'.",
+
+					"GMCM.Options.SebGlasses.Name": "Seb Glasses",
+					"GMCM.Options.SebGlasses.ToolTip": "Gives Sebastian glasses. If 'dynamic' is selected, he will only wear them in private. Can't be used if Sebastian's LightweightConfig option is set to 'ultralight'.",
+
+					"GMCM.Options.ScienceHouseEdits.Name": "Robin's House Edits",
+
+					"GMCM.Options.NonbinarySebastian.Name": "Nonbinary Sebastian",
+					"GMCM.Options.NonbinarySebastian.ToolTip": "Selects whether or not DSV will include additional dialogue lines for Sebastian discussing a nonbinary gender identity.",
+
+					//------------------------------------------------
+
+					"GMCM.Title.ShaneMainOptions.Name": "Main Options",
+					
+					"GMCM.Options.ShaneVariant.Name": "Shane Variant",
+					"GMCM.Options.ShaneLightweightConfig.Name": "Shane Lightweight Config",
+
+					"GMCM.Options.MarnieVariant.Name": "Marnie Variant",
+					"GMCM.Options.MarnieLightweightConfig.Name": "Marnie Lightweight Config",
+
+					"GMCM.Options.JasVariant.Name": "Jas Variant",
+					"GMCM.Options.JasLightweightConfig.Name": "Jas Lightweight Config",
+					
+					"GMCM.Title.ShaneAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.ShaneSelfCare.Name": "Shane Self-Care",
+					"GMCM.Options.ShaneSelfCare.ToolTip": "Chooses whether Shane dresses neatly, messily, or if his appearance changes dynamically as his story progresses. The 'dynamic' option can't be used if ShaneLightweightConfig is set to 'ultralight'.",
+					"GMCM.Options.Messy.Name": "Messy",
+					"GMCM.Options.Neat.Name": "Neat",
+
+					"GMCM.Options.ShanePunkAccessories.Name": "Shane Punk Accessories",
+					"GMCM.Options.ShanePunkAccessories.ToolTip": "Chooses whether Shane will sometimes have minor punk accessories such as earrings, wristbands, and eyeliner after seeing Emily's clothing therapy event. Can only be used if Shane's LightweightConfig option is set to 'full'.",
+
+					"GMCM.Options.MarnieDynamicOutfits.Name": "Marnie Dynamic Outfits",
+					"GMCM.Options.MarnieDynamicOutfits.ToolTip": "Toggles whether Marnie will use her full wardrobe or wear different outfit styles depending on her schedule. Can't be used if Marnie's LightweightConfig option is set to 'ultralight'. Check the website for more info.",
+
+					"GMCM.Options.MarnieCharacterSmile.Name": "Marnie Character Smile",
+					"GMCM.Options.MarnieCharacterSmile.ToolTip": "Chooses whether the character/overworld sprites for Marnie's vanilla variant will have a visible smile visible like the default game or if her sprites will be blank-faced like the other character sprites.",
+
+					"GMCM.Options.ShaneWeddingOutfit.Name": "Shane Wedding Outfit",
+
+					"GMCM.Options.AnimalShopEdits.Name": "Shane's House Edits",
+
+					//------------------------------------------------
+
+					"GMCM.Title.WillyMainOptions.Name": "Main Options",
+					
+					"GMCM.Options.WillyVariant.Name": "Willy Variant",
+					"GMCM.Options.Tongan.Name": "Tongan",
+					"GMCM.Options.TonganDisabled.Name": "Tongan Disabled",
+					"GMCM.Options.Disabled.Name": "Vanilla Disabled",
+					"GMCM.Options.WillyLightweightConfig.Name": "Willy Lightweight Config",
+
+					"GMCM.Options.ClintVariant.Name": "Clint Variant",
+					"GMCM.Options.ClintLightweightConfig.Name": "Clint Lightweight Config",
+
+					"GMCM.Options.LinusVariant.Name": "Linus Variant",
+					"GMCM.Options.LinusLightweightConfig.Name": "Linus Lightweight Config",
+					
+					"GMCM.Title.WillyAdditionalOptions.Name": "Additional Options",
+
+					"GMCM.Options.WillySpiritsEve.Name": "Willy At Spirit's Eve",
+					"GMCM.Options.WillySpiritsEve.ToolTip": "Chooses whether or not Willy will attend the Spirit's Eve festival, as he does not attend in vanilla.",
+
+					"GMCM.Options.ClintScar.Name": "Clint Scar",
+					"GMCM.Options.ClintScar.ToolTip": "Chooses whether or not Clint's Modded variant has facial scars. Does not affect his Vanilla variant.",
+					
+					"GMCM.Options.ClintBeard.Name": "Clint Beard",
+                    "GMCM.Options.ClintBeard.ToolTip": "Chooses whether or not Clint has a beard. Can't be used if ClintLightweightConfig is set to 'ultralight'.",
+
+					"GMCM.Options.LinusEventChanges.Name": "Linus Event Changes",
+					"GMCM.Options.LinusEventChanges.ToolTip": "Chooses whether or not events with Linus are edited to also include Marigold. Does not affect his Vanilla variant.",
+
+					//------------------------------------------------
+					
+					"GMCM.Title.MedinaquirinPinzolHarvey.Name": "No Mustache Vanilla Harvey", //New!
+
+					"GMCM.Options.AddonHarveyGlasses.Name": "Harvey Glasses", //New!
+					"GMCM.Options.AddonHarveyGlasses.ToolTip": "Chooses whether or not Harvey will wear glasses.", //New!
+					
+					"GMCM.Title.AirynJodi.Name": "Brunette or Strawberry Blonde Vanilla Jodi", //New!
+
+					"GMCM.Options.AddonJodiHair.Name": "Jodi Hair Color", //New!
+					"GMCM.Options.AddonJodiHair.ToolTip": "Chooses whether Jodi has brunette hair, matching her vanilla portrait, or strawberry blonde hair, matching her vanilla sprite.", //New!
+					"GMCM.Options.Brunette.Name": "Brunette", //New!
+					"GMCM.Options.StrawberryBlonde.Name": "Strawberry Blonde", //New!
+					
+					"GMCM.Title.BittybeePenny.Name": "Brunette Penny", //New!
+
+					"GMCM.Options.AddonPennyEyes.Name": "Penny Eye Color", //New!
+					"GMCM.Options.AddonPennyEyes.ToolTip": "Chooses whether Penny has brown or green eyes.", //New!
+					"GMCM.Options.Brown.Name": "Brown", //New!
+					"GMCM.Options.Green.Name": "Green", //New!
+					
+					"GMCM.Title.AirynWizard.Name": "Handsome Mature Wizard", //New!
+
+					"GMCM.Options.AddonWizardVariant.Name": "Handsome Mature Wizard Variant", //New!
+					"GMCM.Options.AddonWizardVariant.ToolTip": "Choose which version of Airyn's Handsome Mature Wizard you would like to use. 'Vanilla' matches the default version from the original game, while 'Modded' matches DSV's Modded variant. Check the website for more info.", //New!
+				}
+			}
+		}
+   ]
+}

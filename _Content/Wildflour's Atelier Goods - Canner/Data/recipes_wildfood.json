@@ -1,0 +1,28 @@
+{
+  "Changes": [
+
+
+/////////////////////
+// COOKING RECIPES //
+/////////////////////
+
+{
+  "LogName": "Jam and Jelly Recipes",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "Entries": {
+  "wildflour.jams_blackberry_mint_jelly": "410 3 wildflour.ateliercrops_mint 1 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_blackberry_mint_jelly/default/{{i18n: jams_blackberry_mint_jelly.name}}",
+  "wildflour.jams_blueberry_lavender_jelly": "258 2 wildflour.ateliercrops_lavender 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_blueberry_lavender_jelly/default/{{i18n: jams_blueberry_lavender_jelly.name}}",
+  "wildflour.jams_chamomile_jelly": "wildflour.ateliercrops_chamomile 2 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_chamomile_jelly/default/{{i18n: jams_chamomile_jelly.name}}",
+  "wildflour.jams_cherry_vanilla_jam": "638 2 wildflour.ateliercrops_vanilla 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_cherry_vanilla_jam/default/{{i18n: jams_cherry_vanilla_jam.name}}",
+  "wildflour.jams_cinnamon_apple_preserves": "wildflour.ateliercrops_cinnamon 2 613 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_cinnamon_apple_preserves/default/{{i18n: jams_cinnamon_apple_preserves.name}}",
+  "wildflour.jams_peach_blossom_jelly": "wildflour.ateliercrops_cherryblossoms 1 636 3 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_peach_blossom_jelly/default/{{i18n: jams_peach_blossom_jelly.name}}",
+  "wildflour.jams_lemon_marmalade": "wildflour.ateliercrops_lemon 5 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_lemon_marmalade/default/{{i18n: jams_lemon_marmalade.name}}",
+  "wildflour.jams_jasmine_jelly": "wildflour.ateliercrops_jasmine 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_jasmine_jelly/default/{{i18n: jams_jasmine_jelly.name}}",
+  "wildflour.jams_lime_marmalade": "wildflour.ateliercrops_lime 5 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_lime_marmalade/default/{{i18n: jams_lime_marmalade.name}}",
+  "wildflour.jams_vanilla_raspberry_preserves": "wildflour.ateliercrops_vanilla 1 wildflour.ateliercrops_raspberry 3 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_vanilla_raspberry_preserves/default/{{i18n: jams_vanilla_raspberry_preserves.name}}",
+  }
+}
+
+  ]
+}

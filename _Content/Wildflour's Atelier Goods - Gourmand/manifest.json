@@ -1,0 +1,16 @@
+{
+    "Name": "Wildflour's Atelier Goods - Gourmand",
+    "Author": "wildflourmods",
+    "Version": "1.0.5",
+    "Description": "This mod adds new items and machines centered around gourmet pantry ingredients.",
+    "UniqueID": "wildflour.gourmetpantry",
+    "UpdateKeys": ["Nexus:22730"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "wildflour.ateliercrops", "IsRequired": false}
+    ],
+}

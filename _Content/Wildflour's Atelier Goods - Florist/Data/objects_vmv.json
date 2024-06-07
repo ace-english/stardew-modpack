@@ -1,0 +1,431 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"Add Atelier Floral VMV Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierfloral_pinkmorningglory_bouquet": {
+                    "Name": "wildflour.atelierfloral_pinkmorningglory_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_pinkmorningglory_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_pinkmorningglory_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 140
+            },
+                "wildflour.atelierfloral_pinkmorningglory_perfume": {
+                    "Name": "wildflour.atelierfloral_pinkmorningglory_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_pinkmorningglory_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_pinkmorningglory_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 156
+            },
+                "wildflour.atelierfloral_dried_pinkmorningglory": {
+                    "Name": "wildflour.atelierfloral_dried_pinkmorningglory",
+                    "DisplayName": "{{i18n:atelierfloral_dried_pinkmorningglory.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_pinkmorningglory.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 204
+            },
+                "wildflour.atelierfloral_pinkmorningglory_incense": {
+                    "Name": "wildflour.atelierfloral_pinkmorningglory_incense",
+                    "DisplayName": "{{i18n:atelierfloral_pinkmorningglory_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_pinkmorningglory_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 220
+            },
+                "wildflour.atelierfloral_primrose_bouquet": {
+                    "Name": "wildflour.atelierfloral_primrose_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_primrose_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_primrose_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 141
+            },        
+                "wildflour.atelierfloral_primrose_perfume": {
+                    "Name": "wildflour.atelierfloral_primrose_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_primrose_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_primrose_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 157
+            },
+                "wildflour.atelierfloral_dried_primrose": {
+                    "Name": "wildflour.atelierfloral_dried_primrose",
+                    "DisplayName": "{{i18n:atelierfloral_dried_primrose.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_primrose.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 205
+            },
+                "wildflour.atelierfloral_primrose_incense": {
+                    "Name": "wildflour.atelierfloral_primrose_incense",
+                    "DisplayName": "{{i18n:atelierfloral_primrose_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_primrose_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 221
+            },
+                "wildflour.atelierfloral_cosmos_bouquet": {
+                    "Name": "wildflour.atelierfloral_cosmos_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_cosmos_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_cosmos_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 142
+            },
+                "wildflour.atelierfloral_cosmos_perfume": {
+                    "Name": "wildflour.atelierfloral_cosmos_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_cosmos_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_cosmos_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 158
+            },
+                "wildflour.atelierfloral_dried_cosmos": {
+                    "Name": "wildflour.atelierfloral_dried_cosmos",
+                    "DisplayName": "{{i18n:atelierfloral_dried_cosmos.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_cosmos.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 206
+            },
+                "wildflour.atelierfloral_cosmos_incense": {
+                    "Name": "wildflour.atelierfloral_cosmos_incense",
+                    "DisplayName": "{{i18n:atelierfloral_cosmos_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_cosmos_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 222
+            },
+                "wildflour.atelierfloral_pixiebell_bouquet": {
+                    "Name": "wildflour.atelierfloral_pixiebell_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_pixiebell_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_pixiebell_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 143
+            },
+                "wildflour.atelierfloral_pixiebell_perfume": {
+                    "Name": "wildflour.atelierfloral_pixiebell_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_pixiebell_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_pixiebell_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 159
+            },
+                "wildflour.atelierfloral_dried_pixiebell": {
+                    "Name": "wildflour.atelierfloral_dried_pixiebell",
+                    "DisplayName": "{{i18n:atelierfloral_dried_pixiebell.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_pixiebell.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 207
+            },
+                "wildflour.atelierfloral_pixiebell_incense": {
+                    "Name": "wildflour.atelierfloral_pixiebell_incense",
+                    "DisplayName": "{{i18n:atelierfloral_pixiebell_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_pixiebell_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 223
+            }
+        }
+        },
+
+        {
+            "LogName":"Add Atelier Floral VMV Candles & Soap",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": { "HasMod: |contains=wildflour.honeybees": true },
+            "Entries": {
+                "wildflour.atelierfloral_pinkmorningglory_candles": {
+                    "Name": "wildflour.atelierfloral_pinkmorningglory_candles",
+                    "DisplayName": "{{i18n:atelierfloral_pinkmorningglory_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_pinkmorningglory_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "candle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 188
+            },
+                "wildflour.atelierfloral_pinkmorningglory_soap": {
+                    "Name": "wildflour.atelierfloral_pinkmorningglory_soap",
+                    "DisplayName": "{{i18n:atelierfloral_pinkmorningglory_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_pinkmorningglory_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 172
+            },
+                "wildflour.atelierfloral_primrose_candles": {
+                    "Name": "wildflour.atelierfloral_primrose_candles",
+                    "DisplayName": "{{i18n:atelierfloral_primrose_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_primrose_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "candle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 189
+            },
+                "wildflour.atelierfloral_primrose_soap": {
+                    "Name": "wildflour.atelierfloral_primrose_soap",
+                    "DisplayName": "{{i18n:atelierfloral_primrose_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_primrose_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 173
+            },
+                "wildflour.atelierfloral_cosmos_candles": {
+                    "Name": "wildflour.atelierfloral_cosmos_candles",
+                    "DisplayName": "{{i18n:atelierfloral_cosmos_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_cosmos_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "candle_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 190
+            },
+                "wildflour.atelierfloral_cosmos_soap": {
+                    "Name": "wildflour.atelierfloral_cosmos_soap",
+                    "DisplayName": "{{i18n:atelierfloral_cosmos_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_cosmos_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 174
+            },
+                "wildflour.atelierfloral_pixiebell_candles": {
+                    "Name": "wildflour.atelierfloral_pixiebell_candles",
+                    "DisplayName": "{{i18n:atelierfloral_pixiebell_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_pixiebell_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "candle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 191
+            },
+                "wildflour.atelierfloral_pixiebell_soap": {
+                    "Name": "wildflour.atelierfloral_pixiebell_soap",
+                    "DisplayName": "{{i18n:atelierfloral_pixiebell_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_pixiebell_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 175
+            }
+        }
+        }
+
+    ]
+}

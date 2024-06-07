@@ -1,0 +1,1360 @@
+{
+    "Changes":
+    [
+
+// ELLIOTT
+
+        {
+            "LogName": "Jewish Elliott Mezuzah",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "FromFile": "Art/Misc/MapPatches/Elliott_Mezuzah.tmx",
+            "ToArea":
+            {
+                "X": 50,
+                "Y": 9,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:JewishElliott": "true",
+                "DSV.Core/ConfigValue:ElliottHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Jewish Elliott Mezuzah Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.JewishElliott.Mezuzah": "{{i18n:DSV.MapPatchStrings.JewishElliott.Mezuzah}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:JewishElliott": "true",
+                "DSV.Core/ConfigValue:ElliottHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Vanilla/Modded Elliott Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/ElliottHouse",
+            "FromFile": "Art/Misc/MapPatches/Elliott_Shoerack{{LUTIToken}}{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 2,
+                "Y": 7,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:ElliottHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Vanilla/Modded Elliott Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.Elliott.Shoerack": "{{i18n:DSV.MapPatchStrings.Elliott.Shoerack}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:ElliottHouseEdits": "true"
+            }
+        },
+
+// ALEX, EVELYN & GEORGE
+
+        {
+            "LogName": "Jewish Mullners Mezuzah Exterior",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "Art/Misc/MapPatches/Mullners_Mezuzah_Exterior.tmx",
+            "ToArea":
+            {
+                "X": 58,
+                "Y": 62,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:JewishMullners": "true",
+                "DSV.Core/ConfigValue:JoshHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Jewish Mullners Mezuzah Interior 1",
+            "Action": "EditMap",
+            "Target": "Maps/JoshHouse",
+            "FromFile": "Art/Misc/MapPatches/Mullners_Mezuzah_Interior.tmx",
+            "ToArea":
+            {
+                "X": 7,
+                "Y": 17,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:JewishMullners": "true",
+                "DSV.Core/ConfigValue:JoshHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Jewish Mullners Mezuzah Interior 2",
+            "Action": "EditMap",
+            "Target": "Maps/JoshHouse",
+            "FromFile": "Art/Misc/MapPatches/Mullners_Mezuzah_Interior.tmx",
+            "ToArea":
+            {
+                "X": 6,
+                "Y": 8,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:JewishMullners": "true",
+                "DSV.Core/ConfigValue:JoshHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Jewish Mullners Mezuzah Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.JewishMullners.Mezuzah": "{{i18n:DSV.MapPatchStrings.JewishMullners.Mezuzah}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:JewishMullners": "true",
+                "DSV.Core/ConfigValue:JoshHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Samoan/Mexican Mullners Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/JoshHouse",
+            "FromFile": "Art/Misc/MapPatches/Mullners_Shoerack.tmx",
+            "ToArea":
+            {
+                "X": 11,
+                "Y": 20,
+                "Width": 1,
+                "Height": 4
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:EvelynVariant |contains= Off, vanilla}}' = 'false' OR '{{DSV.Core/ConfigValue:GeorgeVariant |contains= Off, vanilla}}' = 'false'": "true",
+                "DSV.Core/ConfigValue:JoshHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Samoan/Mexican Mullners Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedMullners.Shoerack1": "{{i18n:DSV.MapPatchStrings.ModdedMullners.Shoerack1}}",
+                "DSV.ModdedMullners.Shoerack2": "{{i18n:DSV.MapPatchStrings.ModdedMullners.Shoerack2}}",
+                "DSV.ModdedMullners.Shoerack3": "{{i18n:DSV.MapPatchStrings.ModdedMullners.Shoerack3}}"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:EvelynVariant |contains= Off, vanilla}}' = 'false' OR '{{DSV.Core/ConfigValue:GeorgeVariant |contains= Off, vanilla}}' = 'false'": "true",
+                "DSV.Core/ConfigValue:JoshHouseEdits": "true"
+            }
+        },
+
+// HALEY & EMILY
+
+        {
+            "LogName": "Black/Romani Haley & Emily Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+            "FromFile": "Art/Misc/MapPatches/HaleyEmily_Shoerack.tmx",
+            "ToArea":
+            {
+                "X": 1,
+                "Y": 19,
+                "Width": 1,
+                "Height": 5
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Off, vanilla}}' = 'false' OR '{{DSV.Core/ConfigValue:EmilyVariant |contains= Off, vanilla}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Black/Romani Haley & Emily Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedHaleyEmily.Shoerack1": "{{i18n:DSV.MapPatchStrings.ModdedHaleyEmily.Shoerack1}}",
+                "DSV.ModdedHaleyEmily.Shoerack2": "{{i18n:DSV.MapPatchStrings.ModdedHaleyEmily.Shoerack2}}"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Off, vanilla}}' = 'false' OR '{{DSV.Core/ConfigValue:EmilyVariant |contains= Off, vanilla}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Romani Haley & Emily Wall Hanging",
+            "Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+            "FromFile": "Art/Misc/MapPatches/HaleyEmily_Romani_Wallhanging.tmx",
+            "ToArea":
+            {
+                "X": 10,
+                "Y": 16,
+                "Width": 2,
+                "Height": 3
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant}}' = 'Romani' OR '{{DSV.Core/ConfigValue:EmilyVariant}}' = 'Romani' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true",
+				"HasMod |contains= uglynt.town.interiors": false
+            }
+        },
+        {
+            "LogName": "Romani Haley & Emily Wall Hanging LUTI",
+            "Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+            "FromFile": "Art/Misc/MapPatches/HaleyEmily_Romani_Wallhanging_LUTI.tmx",
+            "ToArea":
+            {
+                "X": 8,
+                "Y": 12,
+                "Width": 2,
+                "Height": 4
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant}}' = 'Romani' OR '{{DSV.Core/ConfigValue:EmilyVariant}}' = 'Romani' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true",
+				"HasMod |contains= uglynt.town.interiors": true
+            }
+        },
+        {
+            "LogName": "Romani Haley & Emily Wall Hanging Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.RomaniEmilyHaley.WallHanging": "{{i18n:DSV.MapPatchStrings.RomaniEmilyHaley.WallHanging}}"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant}}' = 'Romani' OR '{{DSV.Core/ConfigValue:EmilyVariant}}' = 'Romani' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Romani Haley Wall Hanging",
+            "Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+            "FromFile": "Art/Misc/MapPatches/Haley_Romani_Wallhanging.tmx",
+            "ToArea":
+            {
+                "X": 2,
+                "Y": 1,
+                "Width": 1,
+                "Height": 4
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant}}' = 'Romani' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true",
+				"HasMod |contains= pilzkopfi.prettier.interior, uglynt.town.interiors": false
+            }
+        },
+        {
+            "LogName": "Romani Haley Wall Hanging LUTI, Prettier",
+            "Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+            "FromFile": "Art/Misc/MapPatches/Haley_Romani_Wallhanging{{LUTIToken}}{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 3,
+                "Y": 1,
+                "Width": 1,
+                "Height": 4
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant}}' = 'Romani' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true",
+				"HasMod |contains= pilzkopfi.prettier.interior, uglynt.town.interiors": true
+            }
+        },
+        {
+            "LogName": "Romani Haley Wall Hanging Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.RomaniHaley.WallHanging": "{{i18n:DSV.MapPatchStrings.RomaniHaley.WallHanging}}"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:HaleyVariant}}' = 'Romani' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Romani Emily Wall Hanging",
+            "Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+            "FromFile": "Art/Misc/MapPatches/Emily_Romani_Wallhanging{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 19,
+                "Y": 1,
+                "Width": 3,
+                "Height": 3
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:EmilyVariant |contains= Romani": true,
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true",
+				"HasMod |contains= uglynt.town.interiors": false
+            }
+        },
+        {
+            "LogName": "Romani Emily Wall Hanging LUTI",
+            "Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+            "FromFile": "Art/Misc/MapPatches/Emily_Romani_Wallhanging_LUTI.tmx",
+            "ToArea":
+            {
+                "X": 15,
+                "Y": 1,
+                "Width": 3,
+                "Height": 3
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:EmilyVariant |contains= Romani": true,
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true",
+				"HasMod |contains= uglynt.town.interiors": true
+            }
+        },
+        {
+            "LogName": "Romani Emily Wall Hanging Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.RomaniEmily.WallHanging": "{{i18n:DSV.MapPatchStrings.RomaniEmily.WallHanging}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:EmilyVariant |contains= Romani": true,
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Emily Nonbinary Pennant",
+            "Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+            "FromFile": "Art/Misc/MapPatches/Emily_NonbinaryPennant{{PrettierInteriorsToken}}.tmx",
+            "PatchMode": "Overlay",
+            "ToArea":
+            {
+                "X": 17,
+                "Y": 1,
+                "Width": 1,
+                "Height": 3
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true",
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= uglynt.town.interiors": false
+            }
+        },
+        {
+            "LogName": "Emily Nonbinary Pennant LUTI",
+            "Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+            "FromFile": "Art/Misc/MapPatches/Emily_NonbinaryPennant_LUTI.tmx",
+            "PatchMode": "Overlay",
+            "ToArea":
+            {
+                "X": 20,
+                "Y": 1,
+                "Width": 1,
+                "Height": 3
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true",
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true,
+				"HasMod |contains= uglynt.town.interiors": true
+            }
+        },
+        {
+            "LogName": "Emily Nonbinary Pennant Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.NonbinaryEmily.Pennant": "{{i18n:DSV.MapPatchStrings.NonbinaryEmily.Pennant}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:HaleyHouseEdits": "true",
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= true": true
+            }
+        },
+
+// SAM, VINCENT, JODI & KENT
+
+        {
+            "LogName": "Modded Jodi Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/SamHouse",
+            "FromFile": "Art/Misc/MapPatches/Jodi_Modded_Shoerack{{LUTIToken}}{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 5,
+                "Y": 17,
+                "Width": 1,
+                "Height": 5
+            },
+            "When":
+            {
+                "KentFamilyReligionToken |contains= Vanilla": false,
+                "DSV.Core/ConfigValue:SamHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Jodi Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedJodi.Shoerack1": "{{i18n:DSV.MapPatchStrings.ModdedJodi.Shoerack1}}",
+                "DSV.ModdedJodi.Shoerack2": "{{i18n:DSV.MapPatchStrings.ModdedJodi.Shoerack2}}",
+                "DSV.ModdedJodi.Shoerack3": "{{i18n:DSV.MapPatchStrings.ModdedJodi.Shoerack3}}"
+            },
+            "When":
+            {
+                "KentFamilyReligionToken |contains= Vanilla": false,
+                "DSV.Core/ConfigValue:SamHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Jodi Shoerack Text Year 2+",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedJodi.Shoerack1": "{{i18n:DSV.MapPatchStrings.ModdedJodi.Shoerack1.Kent}}"
+            },
+            "When":
+            {
+                "KentFamilyReligionToken |contains= Vanilla": false,
+                "DSV.Core/ConfigValue:SamHouseEdits": "true",
+                "Year |contains= 1": false
+            }
+        },
+        {
+            "LogName": "Modded Jodi Prayer Mat",
+            "Action": "EditMap",
+            "Target": "Maps/SamHouse",
+            "FromFile": "Art/Misc/MapPatches/Jodi_Modded_PrayerMat{{LUTIToken}}.tmx",
+            "ToArea":
+            {
+                "X": 19,
+                "Y": 6,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "KentFamilyReligionToken |contains= Vanilla": false,
+				"HasMod |contains= pilzkopfi.prettier.interior": false,
+                "DSV.Core/ConfigValue:SamHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Jodi Prayer Mat - Prettier Interiors",
+            "Action": "EditMap",
+            "Target": "Maps/SamHouse",
+            "FromFile": "Art/Misc/MapPatches/Jodi_Modded_PrayerMat_Prettier.tmx",
+            "ToArea":
+            {
+                "X": 19,
+                "Y": 5,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "KentFamilyReligionToken |contains= Vanilla": false,
+				"HasMod |contains= pilzkopfi.prettier.interior": true,
+                "DSV.Core/ConfigValue:SamHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Jodi Prayer Mat Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedJodi.PrayerMat": "{{i18n:DSV.MapPatchStrings.ModdedJodi.PrayerMat.{{KentFamilyReligionToken}}}}"
+            },
+            "When":
+            {
+                "KentFamilyReligionToken |contains= Vanilla": false,
+                "DSV.Core/ConfigValue:SamHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Sam Prayer Mat",
+            "Action": "EditMap",
+            "Target": "Maps/SamHouse",
+            "FromFile": "Art/Misc/MapPatches/Sam_Modded_PrayerMat{{LUTIToken}}.tmx",
+            "ToArea":
+            {
+                "X": 23,
+                "Y": 13,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "KentFamilyReligionToken |contains= Vanilla": false,
+                "DSV.Core/ConfigValue:SamHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Sam Prayer Mat Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedSam.PrayerMat": "{{i18n:DSV.MapPatchStrings.ModdedSam.PrayerMat}}"
+            },
+            "When":
+            {
+                "KentFamilyReligionToken |contains= Vanilla": false,
+                "DSV.Core/ConfigValue:SamHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Sam Trans Flag",
+            "Action": "EditMap",
+            "Target": "Maps/SamHouse",
+            "FromFile": "Art/Misc/MapPatches/Sam_TransFlag.tmx",
+            "ToArea":
+            {
+                "X": 13,
+                "Y": 9,
+                "Width": 1,
+                "Height": 3
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:SamHouseEdits": "true",
+				"HasMod |contains= uglynt.town.interiors": false,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+        },
+        {
+            "LogName": "Sam Trans Flag LUTI",
+            "Action": "EditMap",
+            "Target": "Maps/SamHouse",
+            "FromFile": "Art/Misc/MapPatches/Sam_TransFlag_LUTI.tmx",
+            "ToArea":
+            {
+                "X": 16,
+                "Y": 10,
+                "Width": 1,
+                "Height": 3
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:SamHouseEdits": "true",
+				"HasMod |contains= uglynt.town.interiors": true,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+        },
+        {
+            "LogName": "Sam Blahaj",
+            "Action": "EditMap",
+            "Target": "Maps/SamHouse",
+            "FromFile": "Art/Misc/MapPatches/Sam_Blahaj.tmx",
+            "ToArea":
+            {
+                "X": 21,
+                "Y": 12,
+                "Width": 2,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:SamHouseEdits": "true",
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+        },
+        {
+            "LogName": "Sam Blahaj Event Tweak",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Fields": 
+            {
+            "233104/f Sam 2500/t 2000 2400/w sunny/n samMessage": 
+                {
+                    4: "ignoreCollisions farmer/skippable"
+                }
+            },
+            "When":
+            {
+                "HasMod |contains= PPAF.Core": true,
+                "DSV.Core/ConfigValue:SamHouseEdits": "true",
+                "DSV.Core/ConfigValue:TransSam |contains= true": true,
+                "PPAF.Core/ConfigValue:SamRelationshipType |contains= FullyPlatonic, SexWithoutRomance": false
+            }
+        },
+        {
+            "LogName": "Vincent Baby Blahaj",
+            "Action": "EditMap",
+            "Target": "Maps/SamHouse",
+            "FromFile": "Art/Misc/MapPatches/Vincent_Blahaj.tmx",
+            "ToArea":
+            {
+                "X": 12,
+                "Y": 23,
+                "Width": 1,
+                "Height": 1
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:SamHouseEdits": "true",
+				"HasMod |contains= pilzkopfi.prettier.interior": false,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+        },
+        {
+            "LogName": "Vincent Baby Blahaj - Prettier Interiors",
+            "Action": "EditMap",
+            "Target": "Maps/SamHouse",
+            "FromFile": "Art/Misc/MapPatches/Vincent_Blahaj_Prettier.tmx",
+            "ToArea":
+            {
+                "X": 10,
+                "Y": 24,
+                "Width": 1,
+                "Height": 1
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:SamHouseEdits": "true",
+				"HasMod |contains= pilzkopfi.prettier.interior": true,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+        },
+        {
+            "LogName": "Sam Trans Merch Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.TransSam.TransFlag": "{{i18n:DSV.MapPatchStrings.TransSam.TransFlag}}",
+                "DSV.TransSam.Blahaj": "{{i18n:DSV.MapPatchStrings.TransSam.Blahaj}}",
+                "DSV.TransSam.VincentBlahaj": "{{i18n:DSV.MapPatchStrings.TransSam.VincentBlahaj}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:SamHouseEdits": "true",
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+        },
+		{
+			"LogName": "Sam Blahaj Event Tweak",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": 
+			{
+			"233104/f Sam 2500/t 2000 2400/w sunny/n samMessage": 
+				{
+					4: "ignoreCollisions farmer/skippable"
+				}
+			},
+            "When":
+            {
+                "DSV.Core/ConfigValue:SamHouseEdits": "true",
+				"DSV.Core/ConfigValue:TransSam |contains= true": true,
+                "HasMod |contains= Amaranthacyan.PlatonicPartnersandFriendships": false
+            }
+		},
+
+// SEBASTIAN, MARU, ROBIN & DEMETRIUS
+
+        {
+            "LogName": "Robin & Demetrius Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/ScienceHouse",
+            "FromFile": "Art/Misc/MapPatches/RobinDemetrius_Shoerack.tmx",
+            "ToArea":
+            {
+                "X": 12,
+                "Y": 15,
+                "Width": 1,
+                "Height": 5
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:ScienceHouseEdits": "true",
+				"HasMod |contains= uglynt.town.interiors": false
+            }
+        },
+        {
+            "LogName": "Robin & Demetrius Shoerack LUTI",
+            "Action": "EditMap",
+            "Target": "Maps/ScienceHouse",
+            "FromFile": "Art/Misc/MapPatches/RobinDemetrius_Shoerack_LUTI.tmx",
+            "ToArea":
+            {
+                "X": 12,
+                "Y": 13,
+                "Width": 2,
+                "Height": 6
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:ScienceHouseEdits": "true",
+				"HasMod |contains= uglynt.town.interiors": true
+            }
+        },
+        {
+            "LogName": "Robin & Demetrius Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.RobinDemetrius.Shoerack1": "{{i18n:DSV.MapPatchStrings.RobinDemetrius.Shoerack1}}",
+                "DSV.RobinDemetrius.Shoerack2": "{{i18n:DSV.MapPatchStrings.RobinDemetrius.Shoerack2}}",
+                "DSV.RobinDemetrius.Shoerack3": "{{i18n:DSV.MapPatchStrings.RobinDemetrius.Shoerack3}}",
+                "DSV.RobinDemetrius.Shoerack4": "{{i18n:DSV.MapPatchStrings.RobinDemetrius.Shoerack4}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:ScienceHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Sebastian Nonbinary Flag",
+            "Action": "EditMap",
+            "Target": "Maps/SebastianRoom",
+            "FromFile": "Art/Misc/MapPatches/Sebastian_NonbinaryFlag.tmx",
+            "ToArea":
+            {
+                "X": 2,
+                "Y": 1,
+                "Width": 1,
+                "Height": 3
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:NonbinarySebastian": true,
+                "DSV.Core/ConfigValue:ScienceHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Sebastian Nonbinary Flag Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.Sebastian.NonbinaryFlag": "{{i18n:DSV.MapPatchStrings.Sebastian.NonbinaryFlag}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:NonbinarySebastian": true,
+                "DSV.Core/ConfigValue:ScienceHouseEdits": "true"
+            }
+        },
+
+// ABIGAIL, CAROLINE & PIERRE
+
+        {
+            "LogName": "Modded Caroline & Pierre Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "FromFile": "Art/Misc/MapPatches/CarolinePierre_Shoerack{{LUTIToken}}{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 19,
+                "Y": 13,
+                "Width": 1,
+                "Height": 3
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:PierreVariant |contains= Modded}}' = 'true' OR '{{DSV.Core/ConfigValue:CarolineVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AlkantheCaroline}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:SeedShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Caroline & Pierre Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedCarolinePierre.Shoerack1": "{{i18n:DSV.MapPatchStrings.ModdedCarolinePierre.Shoerack1}}",
+                "DSV.ModdedCarolinePierre.Shoerack2": "{{i18n:DSV.MapPatchStrings.ModdedCarolinePierre.Shoerack2}}",
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:PierreVariant |contains= Modded}}' = 'true' OR '{{DSV.Core/ConfigValue:CarolineVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AlkantheCaroline}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:SeedShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Abigail Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "FromFile": "Art/Misc/MapPatches/Abigail_Shoerack.tmx",
+            "ToArea":
+            {
+                "X": 12,
+                "Y": 11,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:PierreVariant |contains= Modded}}' = 'true' OR '{{DSV.Core/ConfigValue:CarolineVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AlkantheCaroline}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:SeedShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Abigail Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedAbigail.Shoerack": "{{i18n:DSV.MapPatchStrings.ModdedAbigail.Shoerack}}"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:PierreVariant |contains= Modded}}' = 'true' OR '{{DSV.Core/ConfigValue:CarolineVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AlkantheCaroline}}' = 'true'": "true",
+                "DSV.Core/ConfigValue:SeedShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Abigail Nonbinary Flag",
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "FromFile": "Art/Misc/MapPatches/Abigail_NonbinaryFlag{{LUTIToken}}.tmx",
+            "ToArea":
+            {
+                "X": 5,
+                "Y": 1,
+                "Width": 1,
+                "Height": 3
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:NonbinaryAbigail": "true",
+				"HasMod |contains= pilzkopfi.prettier.interior": false,
+                "DSV.Core/ConfigValue:SeedShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Abigail Nonbinary Flag - Prettier Interiors",
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "FromFile": "Art/Misc/MapPatches/Abigail_NonbinaryFlag_Prettier.tmx",
+            "ToArea":
+            {
+                "X": 6,
+                "Y": 1,
+                "Width": 1,
+                "Height": 4
+            },
+            "When":
+            {                
+                "DSV.Core/ConfigValue:NonbinaryAbigail": "true",
+				"HasMod |contains= pilzkopfi.prettier.interior": true,
+                "DSV.Core/ConfigValue:SeedShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Abigail Nonbinary Flag Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.Abigail.NonbinaryFlag": "{{i18n:DSV.MapPatchStrings.Abigail.NonbinaryFlag}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:NonbinaryAbigail": "true",
+                "DSV.Core/ConfigValue:SeedShopEdits": "true"
+            }
+        },
+
+// HARVEY
+
+        {
+            "LogName": "Modded Harvey Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/HarveyRoom",
+            "FromFile": "Art/Misc/MapPatches/Harvey_Shoerack{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 5,
+                "Y": 10,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh, ModdedNonSikh": true,
+                "DSV.Core/ConfigValue:HarveyRoomEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Harvey Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedHarvey.Shoerack": "{{i18n:DSV.MapPatchStrings.ModdedHarvey.Shoerack}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh, ModdedNonSikh": true,
+                "DSV.Core/ConfigValue:HarveyRoomEdits": "true"
+            }
+        },
+
+// GUS
+
+        {
+            "LogName": "Modded Gus Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "FromFile": "Art/Misc/MapPatches/Gus_Shoerack.tmx",
+            "ToArea":
+            {
+                "X": 22,
+                "Y": 10,
+                "Width": 2,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:SaloonEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Gus Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedGus.Shoerack": "{{i18n:DSV.MapPatchStrings.ModdedGus.Shoerack}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:SaloonEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Gus Rug 1",
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "FromFile": "Art/Misc/MapPatches/Gus_Rug1{{LUTIToken}}.tmx",
+            "ToArea":
+            {
+                "X": 5,
+                "Y": 4,
+                "Width": 5,
+                "Height": 4
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+				"HasMod |contains= pilzkopfi.prettier.interior": false,
+                "DSV.Core/ConfigValue:SaloonEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Gus Rug 1 - Prettier Interiors",
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "FromFile": "Art/Misc/MapPatches/Gus_Rug1_Prettier.tmx",
+            "ToArea":
+            {
+                "X": 5,
+                "Y": 4,
+                "Width": 5,
+                "Height": 3
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+				"HasMod |contains= pilzkopfi.prettier.interior": true,
+                "DSV.Core/ConfigValue:SaloonEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Gus Rug 2",
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "FromFile": "Art/Misc/MapPatches/Gus_Rug2{{LUTIToken}}{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 15,
+                "Y": 5,
+                "Width": 10,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:SaloonEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Gus Nazar Bead",
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "FromFile": "Art/Misc/MapPatches/Gus_NazarBead.tmx",
+            "ToArea":
+            {
+                "X": 18,
+                "Y": 14,
+                "Width": 1,
+                "Height": 1
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:SaloonEdits": "true"
+            }
+        },
+
+// LEAH
+
+        {
+            "LogName": "Modded Leah Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/LeahHouse",
+            "FromFile": "Art/Misc/MapPatches/Leah_Shoerack{{LUTIToken}}.tmx",
+            "ToArea":
+            {
+                "X": 6,
+                "Y": 7,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native, Butch}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true,
+                "DSV.Core/ConfigValue:LeahHouseEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Leah Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedLeah.Shoerack": "{{i18n:DSV.MapPatchStrings.ModdedLeah.Shoerack}}"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native, Butch}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true,
+                "DSV.Core/ConfigValue:LeahHouseEdits": "true"
+            }
+        },
+
+// PENNY
+
+        {
+            "LogName": "Penny Trans Sticky Notes",
+            "Action": "EditMap",
+            "Target": "Maps/Trailer, Maps/Trailer_big",
+            "FromFile": "Art/Misc/MapPatches/Penny_Trans_StickyNotes.tmx",
+            "ToArea":
+            {
+                "X": 2,
+                "Y": 3,
+                "Width": 2,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:TrailerEdits": "true"
+            }
+        },
+        {
+            "LogName": "Penny Trans Sticky Notes Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.TransPenny.StickyNotes": "{{i18n:DSV.MapPatchStrings.TransPenny.StickyNotes}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:TrailerEdits": "true"
+            }
+        },
+        {
+            "LogName": "Penny Trans Flowers",
+            "Action": "EditMap",
+            "Target": "Maps/Trailer_big",
+            "FromFile": "Art/Misc/MapPatches/Penny_Trans_Flowers.tmx",
+            "ToArea":
+            {
+                "X": 6,
+                "Y": 7,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:TrailerEdits": "true"
+            }
+        },
+        {
+            "LogName": "Penny Trans Flowers Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.TransPenny.Flowers": "{{i18n:DSV.MapPatchStrings.TransPenny.Flowers}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:TrailerEdits": "true"
+            }
+        },
+        {
+            "LogName": "Penny Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/Trailer_big",
+            "FromFile": "Art/Misc/MapPatches/Penny_Shoerack.tmx",
+            "ToArea":
+            {
+                "X": 3,
+                "Y": 14,
+                "Width": 1,
+                "Height": 1
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:TrailerEdits": "true"
+            }
+        },
+        {
+            "LogName": "Penny Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.Penny.Shoerack": "{{i18n:DSV.MapPatchStrings.Penny.Shoerack}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:TrailerEdits": "true"
+            }
+        },
+
+// SHANE, JAS & MARNIE
+
+        {
+            "LogName": "Modded Marnie Shoerack 1",
+            "Action": "EditMap",
+            "Target": "Maps/AnimalShop",
+            "FromFile": "Art/Misc/MapPatches/Marnie_Shoerack1{{LUTIToken}}{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 8,
+                "Y": 15,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:MarnieVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:AnimalShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Marnie Shoerack 2",
+            "Action": "EditMap",
+            "Target": "Maps/AnimalShop",
+            "FromFile": "Art/Misc/MapPatches/Marnie_Shoerack2{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 14,
+                "Y": 7,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:MarnieVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:AnimalShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Marnie Shoerack 3",
+            "Action": "EditMap",
+            "Target": "Maps/AnimalShop",
+            "FromFile": "Art/Misc/MapPatches/Marnie_Shoerack3{{LUTIToken}}{{PrettierInteriorsToken}}.tmx",
+            "ToArea":
+            {
+                "X": 20,
+                "Y": 16,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:MarnieVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:AnimalShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Marnie Shoeracks Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedMarnie.Shoerack1": "{{i18n:DSV.MapPatchStrings.ModdedMarnie.Shoerack1}}",
+                "DSV.ModdedMarnie.Shoerack2": "{{i18n:DSV.MapPatchStrings.ModdedMarnie.Shoerack2}}",
+                "DSV.ModdedMarnie.Shoerack3": "{{i18n:DSV.MapPatchStrings.ModdedMarnie.Shoerack3}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:MarnieVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:AnimalShopEdits": "true"
+            }
+        },
+        {
+            "LogName": "Modded Marnie Shoeracks Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedMarnie.Shoerack1": "{{i18n:DSV.MapPatchStrings.ModdedMarnie.Shoerack1.BunnyJewelSlippers}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:MarnieVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:AnimalShopEdits": "true",
+                "HasSeenEvent |contains= 3910974": true
+            }
+        },
+
+// WILLY
+
+        {
+            "LogName": "Willy Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Willy_Room",
+            "FromFile": "Art/Misc/MapPatches/Willy_Shoerack.tmx",
+            "ToArea":
+            {
+                "X": 5,
+                "Y": 3,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:WillyVariant |contains= Tongan, TonganDisabled, Disabled}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynWilly}}' = 'true'": true,
+                "DSV.Core/ConfigValue:LUTIWilly |contains= true": true,
+                "HasMod |contains= uglynt.town.interiors": true
+            }
+        },
+        {
+            "LogName": "Modded Willy Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.Willy.Shoerack": "{{i18n:DSV.MapPatchStrings.TonganWilly.Shoerack}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:WillyVariant |contains= Tongan": true,
+                "DSV.Core/ConfigValue:LUTIWilly |contains= true": true,
+                "HasMod |contains= uglynt.town.interiors": true
+            }
+        },
+        {
+            "LogName": "Modded Willy Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.Willy.Shoerack": "{{i18n:DSV.MapPatchStrings.DisabledWilly.Shoerack}}"
+            },
+            "When":
+            {
+                "Query: '{{DSV.Core/ConfigValue:WillyVariant |contains= TonganDisabled, Disabled}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynWilly}}' = 'true'": true,
+                "DSV.Core/ConfigValue:LUTIWilly |contains= true": true,
+                "HasMod |contains= uglynt.town.interiors": true
+            }
+        },
+
+// SANDY
+
+        {
+            "LogName": "Modded Sandy Shoerack",
+            "Action": "EditMap",
+            "Target": "Maps/SandyHouse",
+            "FromFile": "Art/Misc/MapPatches/Sandy_Shoerack.tmx",
+            "ToArea":
+            {
+                "X": 13,
+                "Y": 9,
+                "Width": 1,
+                "Height": 2
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:SandyVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:LUTISandy |contains= true": true,
+                "HasMod |contains= uglynt.town.interiors": true
+            }
+        },
+        {
+            "LogName": "Modded Sandy Shoerack Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "DSV.ModdedSandy.Shoerack": "{{i18n:DSV.MapPatchStrings.ModdedSandy.Shoerack}}"
+            },
+            "When":
+            {
+                "DSV.Core/ConfigValue:SandyVariant |contains= Modded": true,
+                "DSV.Core/ConfigValue:LUTISandy |contains= true": true,
+                "HasMod |contains= uglynt.town.interiors": true
+            }
+        }
+    ]
+}

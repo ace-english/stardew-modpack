@@ -1,0 +1,589 @@
+{
+
+	//NEW CATEGORIES
+
+	"ateliercrops_nut.category": "坚果",
+	"ateliercrops_herb.category": "草药",
+	"ateliercrops_mushroom.category": "蘑菇",
+	"ateliercrops_root.category": "根茎",
+	"ateliercrops_feather.category": "羽毛",
+	"ateliercrops_magic.category": "魔法物品",
+	"ateliercrops_magic_fruit.category": "魔法水果",
+	"ateliercrops_magic_flower.category": "魔法花卉",
+
+	//NEW BUSHES
+
+	"ateliercrops_StrawberryBush.name": "野生草莓丛",
+	"ateliercrops_StrawberryBush.description": "在春天长出野生草莓的灌木丛。",
+
+	"ateliercrops_RaspberryBush.name": "野生覆盆莓丛",
+	"ateliercrops_RaspberryBush.description": "在夏天长出野生覆盆莓的灌木丛。",
+
+	"ateliercrops_ValerianBush.name": "欧缅草丛",
+	"ateliercrops_ValerianBush.description": "在春天长出欧缅草的灌木丛。",
+
+	"ateliercrops_MugwortBush.name": "北艾丛",
+	"ateliercrops_MugwortBush.description": "在夏天和秋天长出北艾的灌木丛。",
+
+	"ateliercrops_ThistleBush.name": "蓟丛",
+	"ateliercrops_ThistleBush.description": "在夏天长出蓟的灌木丛。",
+
+	"ateliercrops_RoseFlaxBush.name": "玫瑰亚麻丛",
+	"ateliercrops_RoseFlaxBush.description": "在春天、夏天和秋天长出玫瑰亚麻的灌木丛。",
+
+	"ateliercrops_VioletFlaxBush.name": "紫罗兰亚麻丛",
+	"ateliercrops_VioletFlaxBush.description": "在春天、夏天和秋天长出紫罗兰亚麻的灌木丛。",
+
+	"ateliercrops_AmberBush.name": "琥珀月泪丛",
+	"ateliercrops_AmberBush.description": "在春天和夏天长出琥珀月泪的灌木丛。",
+
+	"ateliercrops_LapisBush.name": "琉璃月泪丛",
+	"ateliercrops_LapisBush.description": "在夏天和秋天长出琉璃月泪的灌木丛。",
+
+	"ateliercrops_JadeBush.name": "翡翠月泪丛",
+	"ateliercrops_JadeBush.description": "在夏天和秋天长出翡翠月泪的灌木丛。",
+
+	"ateliercrops_PearlBush.name": "珍珠月泪丛",
+	"ateliercrops_PearlBush.description": "在冬天和春天长出珍珠月泪的灌木丛。",
+
+	//SEEDS
+
+	"ateliercrops_vanillaseeds.name": "卡利科香草种子",
+	"ateliercrops_vanillaseeds.description": "夏天种植。14 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_chamomileseeds.name": "森林洋甘菊种子",
+	"ateliercrops_chamomileseeds.description": "春天和夏天种植，5 天成熟。",
+
+	"ateliercrops_lavenderseeds.name": "森林薰衣草种子",
+	"ateliercrops_lavenderseeds.description": "春天、夏天和秋天种植。14 天成熟，之后每 4 天收获一次。",
+
+	"ateliercrops_jasmineseeds.name": "宝石岛茉莉种子",
+	"ateliercrops_jasmineseeds.description": "夏天种植。14 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_mallowseeds.name": "棉花糖花种子",
+	"ateliercrops_mallowseeds.description": "春天和夏天种植。8 天成熟，之后每 4 天收获一次。",
+
+	"ateliercrops_mintseeds.name": "鹈鹕镇薄荷种子",
+	"ateliercrops_mintseeds.description": "春天和夏天种植。12 天成熟，之后每 3 天收获一次。",
+
+	"ateliercrops_redonionseeds.name": "野生紫洋葱种子",
+	"ateliercrops_redonionseeds.description": "春天和秋天种植。7 天成熟。",
+
+	"ateliercrops_strawberryseeds.name": "野生草莓丛种子",
+	"ateliercrops_strawberryseeds.description": "春天种植。12 天成熟，之后每 3 天收获一次。",
+
+	"ateliercrops_raspberryseeds.name": "野生覆盆莓丛种子",
+	"ateliercrops_raspberryseeds.description": "夏天种植。10 天成熟，之后每 4 天收获一次。",
+
+	"ateliercrops_wormwoodseeds.name": "苦艾种子",
+	"ateliercrops_wormwoodseeds.description": "夏天种植。10 天成熟，之后每 3 天收获一次。",
+
+	//HERB SEEDS
+
+	"ateliercrops_basilseeds.name": "清甜香芹种子",
+	"ateliercrops_basilseeds.description": "夏天种植。14 天成熟，之后每 3 天收获一次。",
+
+	"ateliercrops_cilantroseeds.name": "煤炭芫荽种子",
+	"ateliercrops_cilantroseeds.description": "春天种植。7 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_rosemaryseeds.name": "耐寒迷迭香种子",
+	"ateliercrops_rosemaryseeds.description": "春天和秋天种植。14 天成熟，之后每 4 天收获一次。",
+
+	"ateliercrops_sageseeds.name": "煤炭鼠尾草种子",
+	"ateliercrops_sageseeds.description": "秋天种植。12 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_thymeseeds.name": "柠檬百里香种子",
+	"ateliercrops_thymeseeds.description": "春天和夏天种植。12 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_gentianroot.name": "龙胆根",
+	"ateliercrops_gentianroot.description": "生长在高山地区的根茎，经常用于苦精及为其他饮品调味。",
+
+	"ateliercrops_wormwood.name": "苦艾",
+	"ateliercrops_wormwood.description": "以作为艾碧斯的主要原料而闻名，不过这种草药有广泛的用途。",
+
+	// MUSHROOM STARTERS
+
+	"ateliercrops_chickenwoodsseeds.name": "硫磺菌原木",
+	"ateliercrops_chickenwoodsseeds.description": "夏天种植。14 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_honeyfungusseeds.name": "蜜环菌原木",
+	"ateliercrops_honeyfungusseeds.description": "春天种植。21 天成熟，之后每 3 天收获一次。",
+
+	"ateliercrops_meringueshroomseeds.name": "蛋白霜蘑菇原木",
+	"ateliercrops_meringueshroomseeds.description": "秋天种植。16 天成熟，之后每 3 天收获一次。",
+
+	"ateliercrops_milkshroomseeds.name": "印度丽蘑原木",
+	"ateliercrops_milkshroomseeds.description": "夏天和秋天种植。14 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_wheatshroomseeds.name": "麦仁菌原木",
+	"ateliercrops_wheatshroomseeds.description": "秋天种植。12 天成熟，之后每 4 天收获一次。",
+
+	//HERBS
+
+	"ateliercrops_basil.name": "清甜香芹",
+	"ateliercrops_basil.description": "比一般品种更甜的受欢迎草药，因色彩与香味而常被用在各式传统菜肴。",
+
+	"ateliercrops_cilantro.name": "煤炭芫荽",
+	"ateliercrops_cilantro.description": "一种野生的芫荽（也被称为香菜），常被用在香料料理或是莎莎酱。",
+
+	"ateliercrops_sage.name": "煤炭鼠尾草",
+	"ateliercrops_sage.description": "拥有花香的娇嫩草药，常被用来为秋日菜肴增添浓郁风味。",
+
+	"ateliercrops_rosemary.name": "耐寒迷迭香",
+	"ateliercrops_rosemary.description": "几乎在何处都能蓬勃生长的强壮结实草药；它看起来就像一棵小松树。",
+
+	"ateliercrops_thyme.name": "柠檬百里香",
+	"ateliercrops_thyme.description": "在所有花园都能快速生长的受欢迎草药；柠檬品种因其草药及柑橘风味而广受喜爱。",
+
+	"ateliercrops_anise.name": "八角",
+	"ateliercrops_anise.description": "虽然是许多传统厨房中的常见草药，不过八角还有许多魔法特性，可以引发预知幻视。",
+
+
+	//TREES NEW
+
+	"ateliercrops_lemonsapling.name": "小柠檬树苗",
+	"ateliercrops_lemonsapling.description": "28 天后成熟为小柠檬树。春天结果。",
+
+	"ateliercrops_limesapling.name": "小莱姆树苗",
+	"ateliercrops_limesapling.description": "28 天后成熟为小莱姆树。春天结果。",
+
+	"ateliercrops_anise_sapling.name": "八角树苗",
+	"ateliercrops_anise_sapling.description": "28 天后成熟为八角树。春天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_elder_sapling.name": "接骨木树苗",
+	"ateliercrops_elder_sapling.description": "28 天后成熟为接骨木树。夏天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	//TREES
+
+	"ateliercrops_pistachiosapling.name": "卡利科开心果树苗",
+	"ateliercrops_pistachiosapling.description": "28 天后成熟为卡利科开心果树。夏天和秋天结果。",
+
+	"ateliercrops_cinnamonsapling.name": "煤炭肉桂树苗",
+	"ateliercrops_cinnamonsapling.description": "28 天后成熟为煤炭肉桂树。冬天结果。",
+
+	"ateliercrops_olivesapling.name": "芬恩岛橄榄树苗",
+	"ateliercrops_olivesapling.description": "28 天后成熟为芬恩岛橄榄树。夏天结果。",
+
+	"ateliercrops_cashewsapling.name": "宝石海腰果树苗",
+	"ateliercrops_cashewsapling.description": "28 天后成熟为宝石海腰果树。秋天结果。",
+
+	"ateliercrops_walnutsapling.name": "格兰普立顿核桃树苗",
+	"ateliercrops_walnutsapling.description": "28 天后成熟为格兰普立顿核桃树。秋天结果。",
+
+	"ateliercrops_almondsapling.name": "圣卡诺里杏仁树苗",
+	"ateliercrops_almondsapling.description": "28 天后成熟为圣卡诺里杏仁树。春天和夏天结果。",
+
+	"ateliercrops_cacaopodsapling.name": "可可树苗",
+	"ateliercrops_cacaopodsapling.description": "28 天后成熟为可可树。秋天结果。",
+
+	//OBJECTS
+
+	"ateliercrops_pistachio.name": "卡利科开心果",
+	"ateliercrops_pistachio.description": "只能透过在卡利科沙漠觅食获得的独特开心果。",
+
+	"ateliercrops_vanilla.name": "卡利科香草",
+	"ateliercrops_vanilla.description": "只能透过在卡利科沙漠觅食获得的独特香草。",
+
+	"ateliercrops_cherryblossoms.name": "樱花瓣",
+	"ateliercrops_cherryblossoms.description": "盛放的樱花树落下的新鲜花瓣。",
+
+	"ateliercrops_chickenwoods.name": "硫磺菌",
+	"ateliercrops_chickenwoods.description": "这种蘑菇遍布世界各地，一些人认为它的味道跟鸡肉差不多，而给它「林中鸡」这个奇特的名字！",
+
+	"ateliercrops_cinnamon.name": "煤炭肉桂",
+	"ateliercrops_cinnamon.description": "只能在冬天的煤炭森林找到的稀有肉桂。",
+
+	"ateliercrops_olive.name": "芬恩岛橄榄",
+	"ateliercrops_olive.description": "可以在热带岛屿找到的稀有橄榄，被熟练的觅食者在芬吉尔共和国的沙滩上找到。",
+
+	"ateliercrops_chamomile.name": "森林洋甘菊",
+	"ateliercrops_chamomile.description": "森林深处中发现的娇嫩花朵；非常适合用来泡茶。",
+
+	"ateliercrops_lavender.name": "森林薰衣草",
+	"ateliercrops_lavender.description": "在森林深处中发现的芳香花簇。",
+
+	"ateliercrops_jasmine.name": "宝石岛茉莉",
+	"ateliercrops_jasmine.description": "只有在姜岛觅食才能找到的美丽芬芳。",
+
+	"ateliercrops_cashew.name": "宝石海腰果",
+	"ateliercrops_cashew.description": "热带地区中腰果花托上的小坚果，只能在宝石海上的小岛找到。",
+
+	"ateliercrops_walnut.name": "格兰普立顿核桃",
+	"ateliercrops_walnut.description": "被发现于生长在格兰普立顿的核桃品种，很显然它现在也生长在鹈鹕镇了！",
+
+	"ateliercrops_honeyfungus.name": "蜜环菌",
+	"ateliercrops_honeyfungus.description": "虽然生吃很危险，但这些蘑菇在适当烹调后会有浓郁的坚果味。",
+
+	"ateliercrops_mallow.name": "棉花糖花",
+	"ateliercrops_mallow.description": "主要用于制作甜点。",
+
+	"ateliercrops_meringueshroom.name": "蛋白霜蘑菇",
+	"ateliercrops_meringueshroom.description": "只有山谷中最好的觅食者才能找到的甜美蘑菇，颜色和形状几乎跟糖果一样。",
+
+	"ateliercrops_milkshroom.name": "印度丽蘑",
+	"ateliercrops_milkshroom.description": "这些蘑菇呈亮白色，拥有奶油状的质地。",
+
+	"ateliercrops_mint.name": "鹈鹕镇薄荷",
+	"ateliercrops_mint.description": "生长在鹈鹕镇周围，无论镇民们再怎么努力也除不掉的薄荷。",
+
+	"ateliercrops_lemon.name": "小柠檬",
+	"ateliercrops_lemon.description": "熟练的觅食者在野外发现的娇小但味道鲜美的柠檬。",
+
+	"ateliercrops_lime.name": "小莱姆",
+	"ateliercrops_lime.description": "熟练的觅食者在野外发现的娇小但味道鲜美的莱姆。",
+
+	"ateliercrops_almond.name": "圣卡诺里杏仁",
+	"ateliercrops_almond.description": "觅食者的美梦成真了！这是最稀有的杏仁，听说是老卡诺里大师亲自栽种的。",
+
+	"ateliercrops_wheatshroom.name": "麦仁菌",
+	"ateliercrops_wheatshroom.description": "在业余觅食者眼中平凡无奇的蘑菇，但大师们知道这种蘑菇可以成为重要的烹饪食材。",
+
+	"ateliercrops_cacaopod.name": "可可豆",
+	"ateliercrops_cacaopod.description": "可可树结出的豆荚，用于制作可可和其他充满异国情调的佳肴。",
+
+	"ateliercrops_raspberry.name": "野生覆盆莓",
+	"ateliercrops_raspberry.description": "又小又甜的莓果，生长在芬吉尔各地的森林中。",
+
+	"ateliercrops_redonion.name": "野生紫洋葱",
+	"ateliercrops_redonion.description": "就像野生胡萝卜，最好小心这个洋葱，不然它可会让你哭出来！",
+
+	"ateliercrops_strawberry.name": "野生草莓",
+	"ateliercrops_strawberry.description": "较小的草莓品种，生长在芬吉尔各地的森林中。",
+
+	"ateliercrops_elderberries.name": "接骨木花",
+	"ateliercrops_elderberries.description": "一簇接骨木果与花；可以做成好茶或是甜酒。",
+
+	///////////////////////////////
+	// FAERIE GARDEN TRANSLATION //
+	///////////////////////////////
+
+	//MUSHROOMS
+
+	"ateliercrops_dawn_trumpet.name": "晨曦杏鲍菇",
+	"ateliercrops_dawn_trumpet.description": "生长于黎明时分附近的奇特蘑菇。",
+
+	"ateliercrops_dusk_cap.name": "薄暮鹅膏菌",
+	"ateliercrops_dusk_cap.description": "只在黄昏时分附近出现的不祥蘑菇。",
+
+	"ateliercrops_giant_amanita.name": "巨型毒蝇伞",
+	"ateliercrops_giant_amanita.description": "大得不寻常的有毒蘑菇。",
+
+	"ateliercrops_amanita_cluster.name": "毒蝇伞簇",
+	"ateliercrops_amanita_cluster.description": "有毒蘑菇长成一簇。酿造特定药水时很有用，但直接食用会致死。",
+
+	"ateliercrops_golden_aura.name": "黄金光环",
+	"ateliercrops_golden_aura.description": "令人叹为观止的金色蘑菇，常用于魔法制程。",
+
+	"ateliercrops_moon_mushroom.name": "月亮菇",
+	"ateliercrops_moon_mushroom.description": "球状的蘑菇，外型奇特地像满月。",
+
+	"ateliercrops_gloomy_blewit.name": "幽暗丁香菇",
+	"ateliercrops_gloomy_blewit.description": "在暴雨中生长的奇特暗色蘑菇。",
+
+	"ateliercrops_tiny_angels.name": "小天使",
+	"ateliercrops_tiny_angels.description": "不像它们的远亲毁灭天使，这些小蘑菇可食用而且很适合沙拉！",
+
+	"ateliercrops_verdigris_agaric.name": "铜绿伞菌",
+	"ateliercrops_verdigris_agaric.description": "令人惊讶的潮绿色蘑菇，常因为致幻的特性被食用。大量摄取可能会中毒。",
+
+	"ateliercrops_faerie_helmets.name": "小鬼伞",
+	"ateliercrops_faerie_helmets.description": "因为体积小以及外观像帽子，所以它们又被称为仙女帽！",
+
+	"ateliercrops_blush_cap.name": "潮红松树伞",
+	"ateliercrops_blush_cap.description": "一种只应由技巧高超的女巫或觅食者觅食的剧毒蘑菇！",
+
+	"ateliercrops_peach_parasol.name": "蜜桃雨伞菇",
+	"ateliercrops_peach_parasol.description": "诡异的玫瑰色蘑菇。传闻曾是衣服与化妆品染料的成分。",
+
+	//FLOWERS
+
+	"ateliercrops_geranium.name": "天使天竺葵",
+	"ateliercrops_geranium.description": "因注目色彩而备受喜爱的丛生天竺葵。",
+
+	"ateliercrops_arctic_fox.name": "北极狐",
+	"ateliercrops_arctic_fox.description": "稀有的指顶花品种，拥有剧毒。",
+
+	"ateliercrops_avalune.name": "羽扇豆",
+	"ateliercrops_avalune.description": "令人叹为观止的鲜艳鲁冰花。是送礼给妖精时的良好选择。",
+
+	"ateliercrops_chiffon.name": "蓝雪纺",
+	"ateliercrops_chiffon.description": "令人叹为观止的蓝色木槿。",
+
+	"ateliercrops_daisy.name": "白晶菊",
+	"ateliercrops_daisy.description": "尽管常被视为普通花朵而被忽略，但许多普通的雏菊能用于烹饪用、药用……还有魔法用。",
+
+	"ateliercrops_dawn_lily.name": "晨曦百合",
+	"ateliercrops_dawn_lily.description": "跟全日开百合相比起来，这品种极其稀有且只开在黎明时分。传闻说它们只生长于拥有强烈灵力的地方。",
+
+	"ateliercrops_dusk_lily.name": "薄暮百合",
+	"ateliercrops_dusk_lily.description": "跟全日开百合相比起来，这品种极其稀有且只开在黄昏时分。传闻说它们只生长于拥有强烈灵力的地方。",
+
+	"ateliercrops_puffball.name": "仙子蒲公英",
+	"ateliercrops_puffball.description": "这种花如云般柔软；或许这就是它经常被认为与妖精和它们的空灵魔法有关的原因。",
+
+	"ateliercrops_violet.name": "草甸紫罗兰",
+	"ateliercrops_violet.description": "快速蔓延，用深紫色调覆盖草甸的紫罗兰。",
+
+	"ateliercrops_maiden.name": "月下美人",
+	"ateliercrops_maiden.description": "传闻中这精美的花是善良精灵送给人类以迎接春天到来的赠礼。",
+
+	"ateliercrops_pixies_breath.name": "满天精灵",
+	"ateliercrops_pixies_breath.description": "就像是满天星，不过再更魔幻一点。",
+
+	"ateliercrops_primrose.name": "粉晶樱草",
+	"ateliercrops_primrose.description": "适合生长在棚组上的木玫瑰。无论是颜色还是香味都备受喜爱，这些花使你想起玫瑰石英。",
+
+	"ateliercrops_cake_blossom.name": "蛋糕花",
+	"ateliercrops_cake_blossom.description": "具有神秘甜香的金黄花朵。因香味备受精灵喜爱；让你想起生日蛋糕。",
+
+	"ateliercrops_caramel_blossom.name": "焦糖花",
+	"ateliercrops_caramel_blossom.description": "具有神秘甜香的三朵花。因香味备受精灵喜爱；让你想起黑糖。",
+
+	"ateliercrops_creamsicle_blossom.name": "奶油冰棍花",
+	"ateliercrops_creamsicle_blossom.description": "具有神秘甜香的橙黄花朵。因香味备受精灵喜爱；让你想起橙子奶油冰棍。",
+
+	"ateliercrops_custard_blossom.name": "卡士达花",
+	"ateliercrops_custard_blossom.description": "具有神秘甜香的纯白花朵。因香味备受精灵喜爱；让你想起香草荚。",
+
+	"ateliercrops_gumdrop_blossom.name": "软糖花",
+	"ateliercrops_gumdrop_blossom.description": "具有神秘甜香的三朵花。因香味备受精灵喜爱；让你想起水果糖。",
+
+	"ateliercrops_macaron_blossom.name": "马卡龙花",
+	"ateliercrops_macaron_blossom.description": "具有神秘甜香的堇紫花朵。因香味备受精灵喜爱；让你想起薰衣草马卡龙。",
+
+	"ateliercrops_pie_blossom.name": "派花",
+	"ateliercrops_pie_blossom.description": "具有神秘甜香的湛蓝花朵。因香味备受精灵喜爱；让你想起蓝莓派。",
+
+	"ateliercrops_shortcake_blossom.name": "奶油蛋糕花",
+	"ateliercrops_shortcake_blossom.description": "具有神秘甜香的粉红花朵。因香味备受精灵喜爱；让你想起夏日甜草莓。",
+
+	"ateliercrops_sprinkle_blossom.name": "彩针糖花",
+	"ateliercrops_sprinkle_blossom.description": "具有神秘甜香的粉红花朵。因香味备受精灵喜爱；让你想起彩针糖。",
+
+	"ateliercrops_sugar_blossom.name": "砂糖花",
+	"ateliercrops_sugar_blossom.description": "具有神秘甜香的粉红花朵。因香味备受精灵喜爱；让你想起生日蛋糕。",
+
+	"ateliercrops_mysteria.name": "谜藤花",
+	"ateliercrops_mysteria.description": "珍贵的稀有紫藤品种，虽然有剧毒但因为芳香与传闻中的魔法特性备受喜爱。",
+
+	//FRUITS
+
+	"ateliercrops_rose_cacao.name": "玫瑰可可豆荚",
+	"ateliercrops_rose_cacao.description": "一个带有丰富棕红色色泽的奇异可可豆荚。",
+
+	"ateliercrops_sugar_plum.name": "甜蜜李子",
+	"ateliercrops_sugar_plum.description": "一种李子，但似乎有些...奇怪。为什么这么甜？",
+
+	"ateliercrops_amber_moondrop.name": "琥珀月泪",
+	"ateliercrops_amber_moondrop.description": "美丽又稀有的金黄葡萄，传闻最初是由芬吉尔共和国的小妖精培育出的。",
+
+	"ateliercrops_apple.name": "圣芳苹果",
+	"ateliercrops_apple.description": "因为太甜而被以仙馔蜜酒命名的明亮绿苹果。",
+
+	"ateliercrops_orange.name": "血橙",
+	"ateliercrops_orange.description": "稀有的柑橘水果。",
+
+	"ateliercrops_pomegranate.name": "永甜石榴",
+	"ateliercrops_pomegranate.description": "充满谜团的鲜艳石榴。传闻中这种水果无论何时采收都多汁甜美。",
+
+	"ateliercrops_jade_moondrop.name": "翡翠月泪",
+	"ateliercrops_jade_moondrop.description": "美丽又稀有的翠绿葡萄，传闻最初是由芬吉尔共和国的小妖精培育出的。",
+
+	"ateliercrops_banana.name": "拇指芭蕉",
+	"ateliercrops_banana.description": "细长娇嫩的芭蕉，传闻比传统香蕉甜许多。",
+
+	"ateliercrops_lapis_moondrop.name": "琉璃月泪",
+	"ateliercrops_lapis_moondrop.description": "美丽又稀有的湛蓝葡萄，传闻最初是由芬吉尔共和国的小妖精培育出的。",
+
+	"ateliercrops_apricot.name": "月金杏子",
+	"ateliercrops_apricot.description": "金色果肉的淡色杏子，传闻是月神最爱的水果。",
+
+	"ateliercrops_pearl_moondrop.name": "珍珠月泪",
+	"ateliercrops_pearl_moondrop.description": "美丽又稀有的纯白葡萄，传闻最初是由芬吉尔共和国的小妖精培育出的。",
+
+	"ateliercrops_peach.name": "雪中美人白桃",
+	"ateliercrops_peach.description": "稀有娇嫩的桃子，在古老的民间传说中是某位公主最爱的水果。",
+
+	"ateliercrops_cherry.name": "陨星酸樱桃",
+	"ateliercrops_cherry.description": "虽然看起来像普通樱桃，但这品种味道奇特到比起水果更像是酸糖果。",
+
+	"ateliercrops_mango.name": "余晖芒果",
+	"ateliercrops_mango.description": "在落日下成熟的精美芒果。",
+
+	//HERBS
+
+	"ateliercrops_rose_flax.name": "玫瑰亚麻",
+	"ateliercrops_rose_flax.description": "美丽的粉红谷物。研磨后可以获得珍贵的特殊粉末。",
+
+	"ateliercrops_mugwort.name": "北艾",
+	"ateliercrops_mugwort.description": "菊科家族的一员，女巫们为了其做梦与占卜的特性而培育它。",
+
+	"ateliercrops_violet_flax.name": "紫罗兰亚麻",
+	"ateliercrops_violet_flax.description": "美丽的堇紫谷物。研磨后可以获得珍贵的特殊粉末。",
+
+	"ateliercrops_thistle.name": "蓟",
+	"ateliercrops_thistle.description": "普通的开花植物，常被人们视为杂草，不过因疗愈灵魂的特性备受女巫们喜爱。",
+
+	"ateliercrops_valerian.name": "欧缅草",
+	"ateliercrops_valerian.description": "常被制作成助眠茶的草药，也可以用来驱除闪电及洪水。",
+
+	"ateliercrops_yarrow.name": "洋蓍草",
+	"ateliercrops_yarrow.description": "又被称为锯齿草，已经被睿智的女巫与觅食者们用来舒缓胃痉挛好几个世纪了。",
+
+	//FEATHERS
+
+	"ateliercrops_bluebird_feather.name": "山蓝知更鸟羽毛",
+	"ateliercrops_bluebird_feather.description": "在地山蓝知更鸟的明亮蔚蓝羽毛。",
+
+	"ateliercrops_crow_feather.name": "乌鸦羽毛",
+	"ateliercrops_crow_feather.description": "这羽毛黑如夜空。",
+
+	"ateliercrops_lovebird_feather.name": "相思鸟羽毛",
+	"ateliercrops_lovebird_feather.description": "相思鸟的缤纷羽毛。",
+
+	"ateliercrops_owl_feather.name": "雪猫头鹰羽毛",
+	"ateliercrops_owl_feather.description": "大型雪地谷仓猫头鹰的壮丽纯白羽毛。",
+
+	"ateliercrops_phoenix_feather.name": "凤凰羽毛",
+	"ateliercrops_phoenix_feather.description": "来自凤凰，令人叹为观止的绯红羽毛，可能是在变身时掉下的。",
+
+	"ateliercrops_raven_feather.name": "渡鸦羽毛",
+	"ateliercrops_raven_feather.description": "渡鸦深紫黑色的羽毛，对炼金术师或是树林女巫而言是很棒的发现。",
+
+	"ateliercrops_rosefinch_feather.name": "朱雀羽毛",
+	"ateliercrops_rosefinch_feather.description": "朱雀的亮粉羽毛。",
+
+	"ateliercrops_starling_feather.name": "白腹紫椋鸟羽毛",
+	"ateliercrops_starling_feather.description": "白腹紫椋鸟几乎和铱矿拥有相同的颜色，它们的羽毛因此在采集者眼中价值连城。",
+
+	//FORAGE
+
+	"ateliercrops_fire_dragon_scale.name": "炽炎龙鳞",
+	"ateliercrops_fire_dragon_scale.description": "神话火龙掉落的闪烁鳞片。",
+
+	"ateliercrops_clover.name": "秘密幸运草",
+	"ateliercrops_clover.description": "稀有的四叶草。",
+
+	"ateliercrops_mandrake.name": "曼德拉草",
+	"ateliercrops_mandrake.description": "奇怪的根茎，看起来像有知觉一样？传说中它在被从地底拉出时会尖叫，所以聪明的女巫们在觅食时会戴耳塞。",
+
+	"ateliercrops_ice_dragon_scale.name": "迷雾龙麟",
+	"ateliercrops_ice_dragon_scale.description": "神话海龙掉落的闪烁鳞片。",
+
+	"ateliercrops_shooting_star.name": "流星",
+	"ateliercrops_shooting_star.description": "一颗坠落的星星！这对觅食的女巫或法师而言是稀有且光荣的发现。",
+
+	"ateliercrops_unicorn_horn.name": "独角兽的角",
+	"ateliercrops_unicorn_horn.description": "从年轻独角兽身上脱落的角；对任何女巫或法师而言都是稀有珍贵的发现。",
+
+	//TREE SAPLINGS
+
+	"ateliercrops_chiffon_sapling.name": "蓝雪纺棚组",
+	"ateliercrops_chiffon_sapling.description": "28 天后成熟为蓝雪纺棚架。秋天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_daisy_sapling.name": "白晶菊棚组",
+	"ateliercrops_daisy_sapling.description": "28 天后成熟为白晶菊棚架。春天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_dawn_sapling.name": "晨曦百合棚组",
+	"ateliercrops_dawn_sapling.description": "28 天后成熟为晨曦百合棚架。夏天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_dusk_sapling.name": "薄暮百合棚组",
+	"ateliercrops_dusk_sapling.description": "28 天后成熟为薄暮百合棚架。夏天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_geranium_sapling.name": "天使天竺葵棚组",
+	"ateliercrops_geranium_sapling.description": "28 天后成熟为天使天竺葵棚架。秋天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_primrose_sapling.name": "粉晶樱草棚组",
+	"ateliercrops_primrose_sapling.description": "28 天后成熟为粉晶樱草棚架。秋天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_violet_sapling.name": "草甸紫罗兰棚组",
+	"ateliercrops_violet_sapling.description": "28 天后成熟为草甸紫罗兰棚架。春天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_mysteria_sapling.name": "谜藤花棚组",
+	"ateliercrops_mysteria_sapling.description": "28 天后成熟为谜藤花棚架。春天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+
+	//SWEET TREE SAPLINGS
+
+	"ateliercrops_pavlova_sapling.name": "帕芙洛娃树苗",
+	"ateliercrops_pavlova_sapling.description": "28 天后成熟为帕芙洛娃树。春天和夏天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_gelato_sapling.name": "吉拉朵树苗",
+	"ateliercrops_gelato_sapling.description": "28 天后成熟为吉拉朵树。夏天和冬天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_souffle_sapling.name": "舒芙蕾树苗",
+	"ateliercrops_souffle_sapling.description": "28 天后成熟为舒芙蕾树。夏天和秋天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_brulee_sapling.name": "布蕾树苗",
+	"ateliercrops_brulee_sapling.description": "28 天后成熟为布蕾树。秋天和冬天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	"ateliercrops_buttercream_sapling.name": "奶油霜树苗",
+	"ateliercrops_buttercream_sapling.description": "28 天后成熟为奶油霜树。春天和夏天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+	//MUSHROOM TREES
+
+	"ateliercrops_MysticTrumpet_seeds.name": "谜样杏鲍菇种子",
+	"ateliercrops_MysticTrumpet_seeds.description": "可能长成巨型蘑菇树的魔幻种子",
+
+	"ateliercrops_StrangeCap_seeds.name": "奇异墨汁鬼伞种子",
+	"ateliercrops_StrangeCap_seeds.description": "可能长成巨型蘑菇树的魔幻种子",
+
+	"ateliercrops_WitchwoodTree_seeds.name": "巫木树种子",
+	"ateliercrops_WitchwoodTree_seeds.description": "可能长成巨型蘑菇树的魔幻种子",
+
+	//FLOWER SEEDS
+
+	"ateliercrops_arctic_fox_seeds.name": "北极狐种子",
+	"ateliercrops_arctic_fox_seeds.description": "春天和夏天种植，20 天成熟。",
+
+	"ateliercrops_avalune_seeds.name": "羽扇豆种子",
+	"ateliercrops_avalune_seeds.description": "春天和夏天种植，12 天成熟。",
+
+	"ateliercrops_puffball_seeds.name": "仙子蒲公英种子",
+	"ateliercrops_puffball_seeds.description": "春天种植。12 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_maiden_seeds.name": "月下美人种子",
+	"ateliercrops_maiden_seeds.description": "春天种植，5 天成熟。",
+
+	"ateliercrops_pixies_breath_seeds.name": "满天精灵种子",
+	"ateliercrops_pixies_breath_seeds.description": "秋天种植。14 天成熟，之后每 3 天收获一次。",
+
+	//FRUIT SEEDS
+
+	"ateliercrops_amber_moondrop_seeds.name": "琥珀月泪棚架",
+	"ateliercrops_amber_moondrop_seeds.description": "春天和夏天种植。21 天成熟，之后每 4 天收获一次。",
+
+	"ateliercrops_lapis_moondrop_seeds.name": "琉璃月泪棚架",
+	"ateliercrops_lapis_moondrop_seeds.description": "夏天和秋天种植。21 天成熟，之后每 4 天收获一次。",
+
+	"ateliercrops_jade_moondrop_seeds.name": "翡翠月泪棚架",
+	"ateliercrops_jade_moondrop_seeds.description": "夏天和秋天种植。21 天成熟，之后每 4 天收获一次。",
+
+	"ateliercrops_pearl_moondrop_seeds.name": "珍珠月泪棚架",
+	"ateliercrops_pearl_moondrop_seeds.description": "冬天种植，春天收获。21 天成熟，之后每 4 天收获一次。",
+
+	//HERB SEEDS
+
+	"ateliercrops_rose_flax_seeds.name": "玫瑰亚麻种子",
+	"ateliercrops_rose_flax_seeds.description": "全年种植。4 天成熟。用镰刀收获。",
+
+	"ateliercrops_mandrake_seeds.name": "曼德拉草种子",
+	"ateliercrops_mandrake_seeds.description": "秋天种植，10 天成熟。",
+
+	"ateliercrops_mugwort_seeds.name": "北艾种子",
+	"ateliercrops_mugwort_seeds.description": "夏天和秋天种植。12 天成熟，之后每 4 天收获一次。",
+
+	"ateliercrops_violet_flax_seeds.name": "紫罗兰亚麻种子",
+	"ateliercrops_violet_flax_seeds.description": "全年种植。4 天成熟。用镰刀收获。",
+
+	"ateliercrops_thistle_seeds.name": "蓟种子",
+	"ateliercrops_thistle_seeds.description": "夏天和秋天种植。10 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_valerian_seeds.name": "欧缅草种子",
+	"ateliercrops_valerian_seeds.description": "夏天种植。13 天成熟，之后每 5 天收获一次。",
+
+	"ateliercrops_yarrow_seeds.name": "洋蓍草种子",
+	"ateliercrops_yarrow_seeds.description": "春天和夏天种植，12 天成熟。"
+
+
+}

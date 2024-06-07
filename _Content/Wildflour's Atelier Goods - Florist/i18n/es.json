@@ -1,0 +1,714 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+    "atelierfloral_FlowerStation.name": "Puesto de flores",
+	"atelierfloral_FlowerStation.description": "Convierte 5 flores en un buqué.",
+
+    "atelierfloral_FragranceStation.name":"Puesto de fragancias",
+    "atelierfloral_FragranceStation.description":"Convierte las flores en perfume o las flores secas en incienso.",
+
+    "atelierfloral_CandleStation.name": "Caldero de cera",
+	"atelierfloral_CandleStation.description": "Convierte flores en jabón o flores secas en velas. Requiere panal de abeja para funcionar.",
+
+///////////////////////
+// GENERIC ITEMS NEW //
+///////////////////////
+
+    "atelierfloral_dried_flowers.name": "Flores secas",
+    "atelierfloral_dried_flowers.description": "Flores secas, perfectamente conservadas.",
+
+    "atelierfloral_flower_bouquet.name": "Buqué",
+    "atelierfloral_flower_bouquet.description": "Un buqué de flores recién arreglado.",
+
+    "atelierfloral_flower_perfume.name": "Perfume",
+    "atelierfloral_flower_perfume.description": "Perfume hecho con flores frescas.",
+
+    "atelierfloral_flower_soap.name": "Jabón",
+    "atelierfloral_flower_soap.description": "Jabón hecho con panal de abeja y flores frescas.",
+
+    "atelierfloral_flower_candles.name": "Velas",
+    "atelierfloral_flower_candles.description": "Velas sumergidas a mano perfumadas con flores secas.",
+
+    "atelierfloral_flower_incense.name": "Incienso",
+    "atelierfloral_flower_incense.description": "Flores secas convertidas en incienso para quemar.",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierfloral_dried_flowers": "Secas {0}",
+"atelierfloral_flower_bouquet": "{0} Buqué",
+"atelierfloral_flower_perfume": "{0} Perfume",
+"atelierfloral_flower_soap": "{0} Jabón",
+"atelierfloral_flower_candles": "{0} Velas",
+"atelierfloral_flower_incense": "{0} Incienso",
+
+//////////////////////////////
+// MODDED SUPPORT ITEMS NEW //
+//////////////////////////////
+
+"atelierfloral_dried_gardenias.name": "Gardenias secas",
+"atelierfloral_dried_gardenias.description": "Gardenias secas, perfectamente conservadas.",
+
+"atelierfloral_gardenia_bouquet.name": "Buqué de gardenias",
+"atelierfloral_gardenia_bouquet.description": "Un buqué de gardenias recién arreglado.",
+
+"atelierfloral_gardenia_perfume.name": "Perfume de gardenias",
+"atelierfloral_gardenia_perfume.description": "Perfume hecho con gardenias frescas.",
+
+"atelierfloral_gardenia_soap.name": "Jabón de gardenias",
+"atelierfloral_gardenia_soap.description": "Jabón hecho con panal de abeja y gardenias frescas.",
+
+"atelierfloral_gardenia_candles.name": "Velas de gardenias",
+"atelierfloral_gardenia_candles.description": "Velas sumergidas a mano perfumadas con gardenias secas.",
+
+"atelierfloral_gardenia_incense.name": "Incienso de gardenias",
+"atelierfloral_gardenia_incense.description": "Gardenias secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_hibiscus.name": "Hibiscos secos",
+"atelierfloral_dried_hibiscus.description": "Hibiscos secos, perfectamente conservados.",
+
+"atelierfloral_hibiscus_bouquet.name": "Buqué de hibiscos",
+"atelierfloral_hibiscus_bouquet.description": "Un buqué de hibiscos recién arreglado.",
+
+"atelierfloral_hibiscus_perfume.name": "Perfume de hibiscos",
+"atelierfloral_hibiscus_perfume.description": "Perfume hecho con hibiscos frescos.",
+
+"atelierfloral_hibiscus_soap.name": "Jabón de hibiscos",
+"atelierfloral_hibiscus_soap.description": "Jabón hecho con panal de abeja e hibiscos frescos.",
+
+"atelierfloral_hibiscus_candles.name": "Velas de hibiscos",
+"atelierfloral_hibiscus_candles.description": "Velas sumergidas a mano perfumadas con hibiscos secos.",
+
+"atelierfloral_hibiscus_incense.name": "Incienso de hibiscos",
+"atelierfloral_hibiscus_incense.description": "Hibiscos secos convertidos en incienso para quemar.",
+
+"atelierfloral_dried_freesia.name": "Freesias secas",
+"atelierfloral_dried_freesia.description": "Freesias secas, perfectamente conservadas.",
+
+"atelierfloral_freesia_bouquet.name": "Buqué de freesias",
+"atelierfloral_freesia_bouquet.description": "Un buqué de freesias recién arreglado.",
+
+"atelierfloral_freesia_perfume.name": "Perfume de freesias",
+"atelierfloral_freesia_perfume.description": "Perfume hecho con freesias frescas.",
+
+"atelierfloral_freesia_soap.name": "Jabón de freesias",
+"atelierfloral_freesia_soap.description": "Jabón hecho con panal de abeja y freesias secas.",
+
+"atelierfloral_freesia_candles.name": "Velas de freesias",
+"atelierfloral_freesia_candles.description": "Velas sumergidas a mano perfumadas con freesias secas.",
+
+"atelierfloral_freesia_incense.name": "Incienso de freesias",
+"atelierfloral_freesia_incense.description": "Freesias secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_peony.name": "Peonías secas",
+"atelierfloral_dried_peony.description": "Peonías secas, perfectamente conservadas.",
+
+"atelierfloral_peony_bouquet.name": "Buqué de peonías",
+"atelierfloral_peony_bouquet.description": "Un buqué de peonías recién arreglado.",
+
+"atelierfloral_peony_perfume.name": "Perfume de peonías",
+"atelierfloral_peony_perfume.description": "Perfume hecho con peonías frescas.",
+
+"atelierfloral_peony_soap.name": "Jabón de peonías",
+"atelierfloral_peony_soap.description": "Jabón hecho con panal de abeja y peonías secas.",
+
+"atelierfloral_peony_candles.name": "Velas de peonías",
+"atelierfloral_peony_candles.description": "Velas sumergidas a mano perfumadas con peonías secas.",
+
+"atelierfloral_peony_incense.name": "Incienso de peonías",
+"atelierfloral_peony_incense.description": "Peonías secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_snapdragon.name": "Bocas de dragón secas",
+"atelierfloral_dried_snapdragon.description": "Bocas de dragón secas, perfectamente conservadas.",
+
+"atelierfloral_snapdragon_bouquet.name": "Buqué de bocas de dragón",
+"atelierfloral_snapdragon_bouquet.description": "Un buqué de bocas de dragón recién arreglado.",
+
+"atelierfloral_snapdragon_perfume.name": "Perfume de bocas de dragón",
+"atelierfloral_snapdragon_perfume.description": "Perfume hecho con bocas de dragón frescas.",
+
+"atelierfloral_snapdragon_soap.name": "Jabón de bocas de dragón",
+"atelierfloral_snapdragon_soap.description": "Jabón hecho con panal de abeja y bocas de dragón secas.",
+
+"atelierfloral_snapdragon_candles.name": "Velas de bocas de dragón",
+"atelierfloral_snapdragon_candles.description": "Velas sumergidas a mano perfumadas con bocas de dragón secas.",
+
+"atelierfloral_snapdragon_incense.name": "Incienso de bocas de dragón",
+"atelierfloral_snapdragon_incense.description": "Bocas de dragón secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_calendula.name": "Caléndulas secas",
+"atelierfloral_dried_calendula.description": "Caléndulas secas, perfectamente conservadas.",
+
+"atelierfloral_calendula_bouquet.name": "Buqué de caléndulas",
+"atelierfloral_calendula_bouquet.description": "Un buqué de caléndulas recién arreglado.",
+
+"atelierfloral_calendula_perfume.name": "Perfume de caléndulas",
+"atelierfloral_calendula_perfume.description": "Perfume hecho con caléndulas frescas.",
+
+"atelierfloral_calendula_soap.name": "Jabón de caléndulas",
+"atelierfloral_calendula_soap.description": "Jabón hecho con panal de abeja y caléndulas secas.",
+
+"atelierfloral_calendula_candles.name": "Velas de caléndulas",
+"atelierfloral_calendula_candles.description": "Velas sumergidas a mano perfumadas con caléndulas secas.",
+
+"atelierfloral_calendula_incense.name": "Incienso de caléndulas",
+"atelierfloral_calendula_incense.description": "Caléndulas secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_hollyhock.name": "Alceas secas",
+"atelierfloral_dried_hollyhock.description": "Alceas secas, perfectamente conservadas.",
+
+"atelierfloral_hollyhock_bouquet.name": "Buqué de alceas",
+"atelierfloral_hollyhock_bouquet.description": "Un buqué de alceas recién arreglado.",
+
+"atelierfloral_hollyhock_perfume.name": "Perfume de alceas",
+"atelierfloral_hollyhock_perfume.description": "Perfume hecho con alceas frescas.",
+
+"atelierfloral_hollyhock_soap.name": "Jabón de alceas",
+"atelierfloral_hollyhock_soap.description": "Jabón hecho con panal de abeja y alceas secas.",
+
+"atelierfloral_hollyhock_candles.name": "Velas de alceas",
+"atelierfloral_hollyhock_candles.description": "Velas sumergidas a mano perfumadas con alceas secas.",
+
+"atelierfloral_hollyhock_incense.name": "Incienso de alceas",
+"atelierfloral_hollyhock_incense.description": "Alaceas secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_springpansy.name": "Violas secas",
+"atelierfloral_dried_springpansy.description": "Violas secas, perfectamente conservadas.",
+
+"atelierfloral_springpansy_bouquet.name": "Buqué de violas primaverales",
+"atelierfloral_springpansy_bouquet.description": "Un buqué de violas primaverales recién arreglado.",
+
+"atelierfloral_springpansy_perfume.name": "Perfume de violas primaverales",
+"atelierfloral_springpansy_perfume.description": "Perfume hecho con violas primaverales frescas.",
+
+"atelierfloral_springpansy_soap.name": "Jabón de violas primaverales",
+"atelierfloral_springpansy_soap.description": "Jabón hecho con panal de abeja y violas primaverales secas.",
+
+"atelierfloral_springpansy_candles.name": "Velas de violas primaverales",
+"atelierfloral_springpansy_candles.description": "Velas sumergidas a mano perfumadas con violas primaverales secas.",
+
+"atelierfloral_springpansy_incense.name": "Incienso de violas primaverales",
+"atelierfloral_springpansy_incense.description": "Violas primaverales secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_cornflower.name": "Acianos secos",
+"atelierfloral_dried_cornflower.description": "Acianos secos, perfectamente conservados.",
+
+"atelierfloral_cornflower_bouquet.name": "Buqué de acianos",
+"atelierfloral_cornflower_bouquet.description": "Un buqué de acianos recién arreglado.",
+
+"atelierfloral_cornflower_perfume.name": "Perfume de acianos",
+"atelierfloral_cornflower_perfume.description": "Perfume hecho con acianos frescos.",
+
+"atelierfloral_cornflower_soap.name": "Jabón de acianos",
+"atelierfloral_cornflower_soap.description": "Jabón hecho con panal de abeja y acianos secos.",
+
+"atelierfloral_cornflower_candles.name": "Velas de acianos",
+"atelierfloral_cornflower_candles.description": "Velas sumergidas a mano perfumadas con acianos secos.",
+
+"atelierfloral_cornflower_incense.name": "Incienso de acianos",
+"atelierfloral_cornflower_incense.description": "Acianos secos convertidos en incienso para quemar.",
+
+"atelierfloral_dried_iris.name": "Iris secas",
+"atelierfloral_dried_iris.description": "Iris secos, perfectamente conservados.",
+
+"atelierfloral_iris_bouquet.name": "Buqué de iris",
+"atelierfloral_iris_bouquet.description": "Un buqué de iris recién arreglado.",
+
+"atelierfloral_iris_perfume.name": "Perfume de iris",
+"atelierfloral_iris_perfume.description": "Perfume hecho con iris frescos.",
+
+"atelierfloral_iris_soap.name": "Jabón de iris",
+"atelierfloral_iris_soap.description": "Jabón hecho con panal de abeja e iris secos.",
+
+"atelierfloral_iris_candles.name": "Velas de iris",
+"atelierfloral_iris_candles.description": "Velas sumergidas a mano perfumadas con iris secos.",
+
+"atelierfloral_iris_incense.name": "Incienso de iris",
+"atelierfloral_iris_incense.description": "Iris secos convertidos en incienso para quemar.",
+
+"atelierfloral_dried_cosmos.name": "Cosmos secos",
+"atelierfloral_dried_cosmos.description": "Cosmos secos, perfectamente conservados.",
+
+"atelierfloral_cosmos_bouquet.name": "Buqué de cosmos",
+"atelierfloral_cosmos_bouquet.description": "Un buqué de cosmos recién arreglado.",
+
+"atelierfloral_cosmos_perfume.name": "Perfume de cosmos",
+"atelierfloral_cosmos_perfume.description": "Perfume hecho con cosmos frescos.",
+
+"atelierfloral_cosmos_soap.name": "Jabón de cosmos",
+"atelierfloral_cosmos_soap.description": "Jabón hecho con panal de abeja y cosmos secos.",
+
+"atelierfloral_cosmos_candles.name": "Velas de cosmos",
+"atelierfloral_cosmos_candles.description": "Velas sumergidas a mano perfumadas con cosmos secos.",
+
+"atelierfloral_cosmos_incense.name": "Incienso de cosmos",
+"atelierfloral_cosmos_incense.description": "Cosmos secos convertidos en incienso para quemar.",
+
+"atelierfloral_dried_primrose.name": "Prímulas secas",
+"atelierfloral_dried_primrose.description": "Prímulas secas, perfectamente conservadas.",
+
+"atelierfloral_primrose_bouquet.name": "Buqué de prímulas",
+"atelierfloral_primrose_bouquet.description": "Un buqué de prímulas recién arreglado.",
+
+"atelierfloral_primrose_perfume.name": "Perfume de prímulas",
+"atelierfloral_primrose_perfume.description": "Perfume hecho con prímulas frescas.",
+
+"atelierfloral_primrose_soap.name": "Jabón de prímulas",
+"atelierfloral_primrose_soap.description": "Jabón hecho con panal de abeja y prímulas secas.",
+
+"atelierfloral_primrose_candles.name": "Velas de prímulas",
+"atelierfloral_primrose_candles.description": "Velas sumergidas a mano perfumadas con prímulas secas.",
+
+"atelierfloral_primrose_incense.name": "Incienso de prímulas",
+"atelierfloral_primrose_incense.description": "Prímulas secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_pixiebell.name": "Campanillas secas",
+"atelierfloral_dried_pixiebell.description": "Campanillas secas, perfectamente conservadas.",
+
+"atelierfloral_pixiebell_bouquet.name": "Buqué de campanillas",
+"atelierfloral_pixiebell_bouquet.description": "Un buqué de campanillas recién arreglado.",
+
+"atelierfloral_pixiebell_perfume.name": "Perfume de campanillas",
+"atelierfloral_pixiebell_perfume.description": "Perfume hecho con campanillas frescas.",
+
+"atelierfloral_pixiebell_soap.name": "Jabón de campanillas",
+"atelierfloral_pixiebell_soap.description": "Jabón hecho con panal de abeja y campanillas secas.",
+
+"atelierfloral_pixiebell_candles.name": "Velas de campanillas",
+"atelierfloral_pixiebell_candles.description": "Velas sumergidas a mano perfumadas con campanillas secas.",
+
+"atelierfloral_pixiebell_incense.name": "Incienso de campanillas",
+"atelierfloral_pixiebell_incense.description": "Campanillas secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_pinkmorningglory.name": "Glorias de la mañana rosadas secas",
+"atelierfloral_dried_pinkmorningglory.description": "Glorias de la mañana rosadas secas, perfectamente conservadas.",
+
+"atelierfloral_pinkmorningglory_bouquet.name": "Buqué de glorias de la mañana rosadas",
+"atelierfloral_pinkmorningglory_bouquet.description": "Un buqué de glorias de la mañana rosadas recién arreglado.",
+
+"atelierfloral_pinkmorningglory_perfume.name": "Perfume de glorias de la mañana rosadas",
+"atelierfloral_pinkmorningglory_perfume.description": "Perfume hecho con glorias de la mañana rosadas frescas.",
+
+"atelierfloral_pinkmorningglory_soap.name": "Jabón de glorias de la mañana rosadas",
+"atelierfloral_pinkmorningglory_soap.description": "Jabón hecho con panal de abeja y glorias de la mañana rosadas secas.",
+
+"atelierfloral_pinkmorningglory_candles.name": "Velas de glorias de la mañana rosadas",
+"atelierfloral_pinkmorningglory_candles.description": "Velas sumergidas a mano perfumadas con glorias de la mañana rosadas secas.",
+
+"atelierfloral_pinkmorningglory_incense.name": "Incienso de glorias de la mañana rosadas",
+"atelierfloral_pinkmorningglory_incense.description": "Glorias de la mañana rosadas secas convertidas en incienso para quemar.",
+
+"atelierfloral_dried_sweetpea.name": "Guisantes dulces secos",
+"atelierfloral_dried_sweetpea.description": "Guisantes dulces secos, perfectamente conservados.",
+
+"atelierfloral_sweetpea_bouquet.name": "Buqué de guisantes dulces",
+"atelierfloral_sweetpea_bouquet.description": "Un buqué de guisantes dulces recién arreglado.",
+
+"atelierfloral_sweetpea_perfume.name": "Perfume de guisantes dulces",
+"atelierfloral_sweetpea_perfume.description": "Perfume hecho con guisantes dulces frescos.",
+
+"atelierfloral_sweetpea_soap.name": "Jabón de guisantes dulces",
+"atelierfloral_sweetpea_soap.description": "Jabón hecho con panal de abeja y guisantes dulces secos.",
+
+"atelierfloral_sweetpea_candles.name": "Velas de guisantes dulces",
+"atelierfloral_sweetpea_candles.description": "Velas sumergidas a mano perfumadas con guisantes dulces secos.",
+
+"atelierfloral_sweetpea_incense.name": "Incienso de guisantes dulces",
+"atelierfloral_sweetpea_incense.description": "Guisantes dulces secos convertidos en incienso para quemar.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfloral_FlowerStation_InvalidItem.message": "No se puede procesar.",
+"atelierfloral_FlowerStation_InvalidCount.message": "Requiere 5 flores.",
+
+"atelierfloral_FragranceStation_InvalidItem.message": "No se puede procesar.",
+"atelierfloral_FragranceStation_InvalidCount.message": "Requiere más ítems",    
+
+"atelierfloral_CandleStation_InvalidItem.message": "No se puede procesar.",
+"atelierfloral_CandleStation_InvalidCount.message": "Requiere panal de abeja.",    
+
+	
+//INCENSE
+
+"atelierfloral_autumn_incense.name":"Incienso de otoño",
+"atelierfloral_autumn_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con flores de otoño para dar la bienvenida al cambio de estación.",
+
+"atelierfloral_chamomile_incense.name":"Incienso 'Felicidad'",
+"atelierfloral_chamomile_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con manzanilla por su asociación con la paz y la armonía.",
+
+"atelierfloral_chiffon_incense.name":"Incienso 'Armonía'",
+"atelierfloral_chiffon_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con hibiscos azules por su asociación con la armonía y la paz.",
+
+"atelierfloral_daisy_incense.name":"Incienso 'Esperanza'",
+"atelierfloral_daisy_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con geranios por su asociación con la esperanza y la protección.",
+
+"atelierfloral_jasmine_incense.name":"Incienso de meditación",
+"atelierfloral_jasmine_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con jazmín por su asociación con la armonía y la espiritualidad.",
+
+"atelierfloral_lavender_incense.name":"Incienso de relajación",
+"atelierfloral_lavender_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con lavanda para un efecto relajante.",
+
+"atelierfloral_lily_incense.name":"Incienso de protección",
+"atelierfloral_lily_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con lirios por su asociación con la protección contra los maleficios.",
+
+"atelierfloral_mugwort_incense.name":"Incienso de adivino",
+"atelierfloral_mugwort_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con artemisa por sus propiedades mágicas.",
+
+"atelierfloral_pixie_incense.name":"Incienso de hada",
+"atelierfloral_pixie_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con aliento de hada, por su asociación con la creatividad.",
+
+"atelierfloral_primrose_quartz_incense.name":"Incienso curativo",
+"atelierfloral_primrose_quartz_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con prímula de cuarzo, por su asociación con las energías positivas.",
+
+"atelierfloral_mysteria_incense.name":"Incienso secreto",
+"atelierfloral_mysteria_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con la escurridiza flor mysteria, por su asociación con la prosperidad.",
+
+"atelierfloral_spring_incense.name":"Incienso de primavera",
+"atelierfloral_spring_incense.description":"Una sustancia quemada para aromaterapia o meditación; ésta está infusionada con flores de primavera para dar la bienvenida al nuevo año.",
+
+"atelierfloral_summer_incense.name":"Incienso de verano",
+"atelierfloral_summer_incense.description":"Una sustancia quemada para aromaterapia o meditación; ésta está infusionada con flores de verano para dar la bienvenida al cambio de estación.",
+
+"atelierfloral_thistle_incense.name":"Incienso esplendoroso",
+"atelierfloral_thistle_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con cardo por su asociación con la protección y la prosperidad.",
+
+"atelierfloral_valerian_incense.name":"Incienso 'Dulces Sueños'",
+"atelierfloral_valerian_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con valeriana para un efecto calmante.",
+
+"atelierfloral_vanilla_incense.name":"Incienso 'Hogar, dulce hogar'",
+"atelierfloral_vanilla_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con vainilla por su efecto calmante.",
+
+"atelierfloral_violet_incense.name":"Incienso encantador",
+"atelierfloral_violet_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con violetas por su asociación con el amor, la fertilidad y la abundancia.",
+
+"atelierfloral_winter_incense.name":"Incienso de invierno",
+"atelierfloral_winter_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con azafrán de invierno silvestre para dar la bienvenida al final de otro año.",
+
+"atelierfloral_yarrow_incense.name":"Incienso valiente",
+"atelierfloral_yarrow_incense.description":"Una sustancia que se quema para aromaterapia o meditación; ésta está infusionada con milenrama por su asociación con la valentía y el amor.",
+
+
+//DRIED ITEMS
+
+"atelierfloral_dried_geranium.name": "Geranios secos",
+"atelierfloral_dried_geranium.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_arcticfox.name": "'Zorros árticos' secos",
+"atelierfloral_dried_arcticfox.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_avalune.name": "Lupinos secos",
+"atelierfloral_dried_avalune.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_chiffon.name": "Peonías secas",
+"atelierfloral_dried_chiffon.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_chamomile.name": "Manzanillas secas",
+"atelierfloral_dried_chamomile.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_daisy.name": "Margaritas secas",
+"atelierfloral_dried_daisy.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_dawn_lily.name": "Lirios de la mañana secos",
+"atelierfloral_dried_dawn_lily.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_dusk_lily.name": "Lirios del atardecer seco",
+"atelierfloral_dried_dusk_lily.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_crocus.name": "Azafranes secos",
+"atelierfloral_dried_crocus.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_fairy_rose.name": "Rosas de hadas secas",
+"atelierfloral_dried_fairy_rose.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_jazz.name": "Alliums azules secos",
+"atelierfloral_dried_jazz.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_mallow.name": "Bismalvas secas",
+"atelierfloral_dried_mallow.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_puffball.name": "Pelucitas de hada secas",
+"atelierfloral_dried_puffball.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_jasmine.name": "Jazmines secos",
+"atelierfloral_dried_jasmine.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_lavender.name": "Lavandas secas",
+"atelierfloral_dried_lavender.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_mysteria.name": "Mysterias secas",
+"atelierfloral_dried_mysteria.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_violet.name": "Violetas secas",
+"atelierfloral_dried_violet.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_moon_maiden.name": "Damas de luna secas",
+"atelierfloral_dried_moon_maiden.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_mugwort.name": "Artemisas secas",
+"atelierfloral_dried_mugwort.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_pixiesbreath.name": "Alientos de pixie secos",
+"atelierfloral_dried_pixiesbreath.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_primrose_quartz.name": "Prímulas de cuarzo secas",
+"atelierfloral_dried_primrose_quartz.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_poppy.name": "Amapolas secas",
+"atelierfloral_dried_poppy.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_sakura.name": "Pétalos de cerezo secos",
+"atelierfloral_dried_sakura.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_spangle.name": "Lentejuelas de verano secas",
+"atelierfloral_dried_spangle.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_sunflower.name": "Girasoles secos",
+"atelierfloral_dried_sunflower.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_thistle.name": "Cardos secos",
+"atelierfloral_dried_thistle.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_tulip.name": "Tulipanes secos",
+"atelierfloral_dried_tulip.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_valerian.name": "Valerianas secas",
+"atelierfloral_dried_valerian.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_vanilla.name": "Orquídeas de vainilla secas",
+"atelierfloral_dried_vanilla.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+"atelierfloral_dried_yarrow.name": "Milenramas secas",
+"atelierfloral_dried_yarrow.description": "Un manojo de flores secas. Se mantendrá durante meses o incluso años en este estado.",
+
+
+//////////////
+// BOUQUETS //
+//////////////
+
+    "atelierfloral_jazz_bouquet.name": "Buqué de illiums azules",
+    "atelierfloral_jazz_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_vanilla_bouquet.name": "Buqué de vainilla de calico",
+    "atelierfloral_vanilla_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_fairy_bouquet.name": "Buqué de rosas hadas",
+    "atelierfloral_fairy_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_chamomile_bouquet.name": "Buqué de camomilas del bosque",
+    "atelierfloral_chamomile_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_lavender_bouquet.name": "Buqué de lavandas del bosque",
+    "atelierfloral_lavender_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_jasmine_bouquet.name": "Buqué de jazmines de Isla Gema",
+    "atelierfloral_jasmine_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_mallow_bouquet.name": "Buqué de bismalvas",
+    "atelierfloral_mallow_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_poppy_bouquet.name": "Buqué de amapolas",
+    "atelierfloral_poppy_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_sakura_bouquet.name": "Buqué de pétalos de cerezo",
+    "atelierfloral_sakura_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_spangle_bouquet.name": "Buqué de lentejuelas de verano",
+    "atelierfloral_spangle_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+    "atelierfloral_sunflower_bouquet.name": "Buqué de girasoles",
+    "atelierfloral_sunflower_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+    
+    "atelierfloral_tulip_bouquet.name": "Buqué de tulipanes",
+    "atelierfloral_tulip_bouquet.description": "¡Un precioso buqué de flores que resulta en un regalo encantador!",
+
+/////////////
+// PERFUME //
+/////////////
+
+    "atelierfloral_jazz_perfume.name": "Eau de Toilette de alliums azules",
+    "atelierfloral_jazz_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+    "atelierfloral_vanilla_perfume.name": "Eau de Toilette de vainillas de calico",
+    "atelierfloral_vanilla_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+    "atelierfloral_fairy_perfume.name": "Eau de Toilette de rosas hadas",
+    "atelierfloral_fairy_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+    "atelierfloral_chamomile_perfume.name": "Eau de Toilette de camomilas del bosque",
+    "atelierfloral_chamomile_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+    "atelierfloral_lavender_perfume.name": "Eau de Toilette de lavandas del bosque",
+    "atelierfloral_lavender_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+    "atelierfloral_jasmine_perfume.name": "Eau de Toilette de jazmines de Isla Gema",
+    "atelierfloral_jasmine_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+    "atelierfloral_mallow_perfume.name": "Eau de Toilette de bismalvas",
+    "atelierfloral_mallow_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+    "atelierfloral_poppy_perfume.name": "Eau de Toilette de amapolas",
+    "atelierfloral_poppy_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+    
+    "atelierfloral_sakura_perfume.name": "Eau de Toilette de pétalos de cerezo",
+    "atelierfloral_sakura_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+    
+    "atelierfloral_spangle_perfume.name": "Eau de Toilette de lentejuelas de verano",
+    "atelierfloral_spangle_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+    "atelierfloral_sunflower_perfume.name": "Eau de Toilette de girasoles",
+    "atelierfloral_sunflower_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+    "atelierfloral_tulip_perfume.name": "Eau de Toilette de tulipanes",
+    "atelierfloral_tulip_perfume.description": "Un tipo de perfume delicadamente aromatizado elaborado a partir de flores destiladas.",
+
+//////////
+// SOAP //
+//////////
+
+    "atelierfloral_jazz_soap.name": "Jabón lujoso de illiums azules",
+    "atelierfloral_jazz_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_vanilla_soap.name": "Jabón lujoso de vainillas de calico",
+    "atelierfloral_vanilla_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_fairy_soap.name": "Jabón lujoso de rosas hadas",
+    "atelierfloral_fairy_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_chamomile_soap.name": "Jabón lujoso de camomilas del bosque",
+    "atelierfloral_chamomile_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_lavender_soap.name": "Jabón lujoso de lavandas del bosque",
+    "atelierfloral_lavender_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_jasmine_soap.name": "Jabón lujoso de jazmines de Isla Gema",
+    "atelierfloral_jasmine_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_mallow_soap.name": "Jabón lujoso de bismalvas",
+    "atelierfloral_mallow_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_poppy_soap.name": "Jabón lujoso de amapolas",
+    "atelierfloral_poppy_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_sakura_soap.name": "Jabón lujoso de pétalos de cerezo",
+    "atelierfloral_sakura_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_spangle_soap.name": "Jabón lujoso de lentejuelas de verano",
+    "atelierfloral_spangle_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_sunflower_soap.name": "Jabón lujoso de girasoles",
+    "atelierfloral_sunflower_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+    "atelierfloral_tulip_soap.name": "Jabón lujoso de tulipanes",
+    "atelierfloral_tulip_soap.description": "Una barra de jabón lujoso perfumado - ¡qué elegante!",
+
+///////////////
+// POTPOURRI //
+///////////////
+
+    "atelierfloral_jazz_potpourri.name": "Bolsita de popurrí de illiums",
+    "atelierfloral_jazz_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_vanilla_potpourri.name": "Bolsita de popurrí de vainilla",
+    "atelierfloral_vanilla_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_fairy_potpourri.name": "Bolsita de popurrí de rosas hadas",
+    "atelierfloral_fairy_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_chamomile_potpourri.name": "Bolsita de popurrí de camomilas",
+    "atelierfloral_chamomile_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_lavender_potpourri.name": "Bolsita de popurrí de lavanda",
+    "atelierfloral_lavender_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_jasmine_potpourri.name": "Bolsita de popurrí de jazmines",
+    "atelierfloral_jasmine_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_mallow_potpourri.name": "Bolsita de popurrí de bismalva",
+    "atelierfloral_mallow_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_poppy_potpourri.name": "Bolsita de popurrí de amapolas",
+    "atelierfloral_poppy_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_sakura_potpourri.name": "Bolsita de popurrí de pétalos de cerezo",
+    "atelierfloral_sakura_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_spangle_potpourri.name": "Bolsita de popurrí de lentejuelas de verano",
+    "atelierfloral_spangle_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_sunflower_potpourri.name": "Bolsita de popurrí de girasoles",
+    "atelierfloral_sunflower_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+    "atelierfloral_tulip_potpourri.name": "Bolsita de popurrí de tulipanes",
+    "atelierfloral_tulip_potpourri.description": "Pétalos de flores secas en una bolsita de muselina - ¡perfectos para que el armario o los cajones de la cómoda huelan bien!.",
+
+/////////////
+// CANDLES //
+/////////////
+
+    "atelierfloral_jazz_candles.name": "Velas aromáticas de illiums",
+    "atelierfloral_jazz_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_vanilla_candles.name": "Velas aromáticas de vainilla",
+    "atelierfloral_vanilla_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_fairy_candles.name": "Velas aromáticas de rosas hadas",
+    "atelierfloral_fairy_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_chamomile_candles.name": "Velas aromáticas de camomilas",
+    "atelierfloral_chamomile_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_lavender_candles.name": "Velas aromáticas de lavandas",
+    "atelierfloral_lavender_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_jasmine_candles.name": "Velas aromáticas de jazmines",
+    "atelierfloral_jasmine_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_mallow_candles.name": "Velas aromáticas de bismalvas",
+    "atelierfloral_mallow_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_poppy_candles.name": "Velas aromáticas de amapolas",
+    "atelierfloral_poppy_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_sakura_candles.name": "Velas aromáticas de pétalos de cerezo",
+    "atelierfloral_sakura_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_spangle_candles.name": "Velas aromáticas de lentejuelas de verano",
+    "atelierfloral_spangle_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_sunflower_candles.name": "Velas aromáticas de girasoles",
+    "atelierfloral_sunflower_candles.description": "Un trío de preciosas velas aromáticas.",
+
+    "atelierfloral_tulip_candles.name": "Velas aromáticas de tulipanes",
+    "atelierfloral_tulip_candles.description": "Un trío de preciosas velas aromáticas.",
+
+
+//////////
+// MAIL //
+//////////
+
+    "atelierfloral_FlowerStationRecipe.name":"Para el florista principiante",
+    "atelierfloral_FlowerStationRecipe.text":"@, ^^ ¿Sabías que puedes transformar las flores en velas aromáticas y jabones? A mí me gusta hacerlo con las flores que Jas trae a casa, ¡pero con tus flores probablemente podrías ganar bastante trabajando con una máquina como ésta!^^ - Marnie",
+
+    "atelierfloral_FragranceStationRecipe.name":"Esencias florales",
+    "atelierfloral_FragranceStationRecipe.text":"@, ^^ Recorté esto de una de mis revistas. ¡Hacer tus propias esencias está muy de moda! ¿Tal vez puedas probarlo con flores de tu granja?^^ - Haley",
+
+    "atelierfloral_BouquetStationRecipe.name":"Buqués hechos a mano",
+    "atelierfloral_BouquetStationRecipe.text":"@, ^^ Ya me has visto cuidar de los lechos de flores del pueblo, pero también me gusta incursionar en la elaboración de buqués y popurrí en casa. Con la receta para un arreglo de flores silvestres serás un florista de primera en un santiamén.^^ - Evelyn",
+
+    "atelierfloral_jas_gift.name":"Flores para el granjero",
+    "atelierfloral_jas_gift.text":"@, ^^ La tía Marnie te envió una carta sobre flores, ¡así que yo también quería escribirte una! Encontramos estas flores tan bonitas en el bosque y me dijo que te gustarían, ¡así que aquí tienes!^^ - Jas",
+
+    "atelierfloral_sandy_gift.name":"Una flor para un amigo",
+    "atelierfloral_sandy_gift.text":"@, ^^ ¿Cómo va el cultivo de flores? Ojalá el desierto pudiera albergar más flores, pero es que aquí hace mucho calor. Sin embargo, uno de mis amigos de las Islas Gema me envió estas y pensé que tal vez podrías tenerlas en tu invernadero...^^ - Sandy",
+
+    "atelierfloral_emily_gift.name":"Algo de inspiración para buqués",
+    "atelierfloral_emily_gift.text":"@, ^^ Evelyn ha estado hablando de tus nuevos proyectos florales, ¡así que quería ayudarte! Creo que las rosas de hadas harían un buqué de otoño bastante impresionante, ¿no te parece?^^ - Emily",
+
+}

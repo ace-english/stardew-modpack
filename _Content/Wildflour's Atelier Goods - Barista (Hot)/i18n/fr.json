@@ -1,0 +1,325 @@
+{
+
+//KETTLE
+
+"atelierbarista_TeaProcessor.name":"Ensacheur de thé",
+"atelierbarista_TeaProcessor.description":"Pour préparer des sachets de thé aromatisé.",
+
+"atelierbarista_TeaKettle.name":"Théière",
+"atelierbarista_TeaKettle.description":"Infuse les sachets de thé.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_TeaProcessor_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierbarista_TeaProcessor_InvalidCount.message": "Nécessite des feuilles de thé",
+
+"atelierbarista_TeaKettle_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierbarista_TeaKettle_InvalidCount.message": "Nécessite 1 miel",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierbarista_flavored_sachet":"{0} Sachet de thé",
+"atelierbarista_flavored_tea":"{0} Thé",
+
+////////////////////////////
+// FLAVORED GENERIC ITEMS //
+////////////////////////////
+
+"atelierbarista_flavored_sachet.name":"Sachet de thé",
+"atelierbarista_flavored_sachet.description":"Un mélange de thé parfumé à faire infuser.",
+
+"atelierbarista_flavored_tea.name":"Thé",
+"atelierbarista_flavored_tea.description":"Une tasse de thé tout juste infusé.",
+
+/////////////////////////
+// MOD SUPPORTED ITEMS //
+/////////////////////////
+
+"atelierbarista_gardenia_sachet.name":"Sachet de thé au gardénia",
+"atelierbarista_gardenia_sachet.description":"Un mélange fleuri de thé et de pétales de gardénia.",
+
+"atelierbarista_hibiscus_sachet.name":"Sachet de thé à l'hibiscus",
+"atelierbarista_hibiscus_sachet.description":"Un mélange fleuri de thé et de pétales d'hibiscus.",
+
+"atelierbarista_gardenia_tea.name":"Thé au gardénia",
+"atelierbarista_gardenia_tea.description":"Une tasse de thé tout juste infusé.",
+
+"atelierbarista_hibiscus_tea.name":"Thé à l'hibiscus",
+"atelierbarista_hibiscus_tea.description":"Une tasse de thé tout juste infusé.",
+
+"atelierbarista_borage_sachet.name":"Sachet de thé à la bourrache",
+"atelierbarista_borage_sachet.description":"Un mélange délicat de thé et de fleurs de bourrache.",
+
+"atelierbarista_calendula_sachet.name":"Sachet de thé aux pétales de souci",
+"atelierbarista_calendula_sachet.description":"Un mélange fleuri de thé et de pétales de souci.",
+
+"atelierbarista_borage_tea.name":"Thé à la bourrache",
+"atelierbarista_borage_tea.description":"Une tasse de thé tout juste infusé.",
+
+"atelierbarista_calendula_tea.name":"Thé aux pétales de souci",
+"atelierbarista_calendula_tea.description":"Une tasse de thé tout juste infusé.",
+
+"atelierbarista_hollyhock_sachet.name":"Sachet de thé à la passerose",
+"atelierbarista_hollyhock_sachet.description":"Un mélange délicat de thé et de fleurs de passerose.",
+
+"atelierbarista_springpansy_sachet.name":"Sachet de thé aux pensées printanières",
+"atelierbarista_springpansy_sachet.description":"Un mélange fleuri de thé et de pétales de pensée printanière.",
+
+"atelierbarista_hollyhock_tea.name":"Thé à la passerose",
+"atelierbarista_hollyhock_tea.description":"Une tasse de thé tout juste infusé.",
+
+"atelierbarista_springpansy_tea.name":"Thé aux pensées printanières",
+"atelierbarista_springpansy_tea.description":"Une tasse de thé tout juste infusé.",
+
+"atelierbarista_orangeblossom_sachet.name":"Sachet de thé à la fleur d'oranger",
+"atelierbarista_orangeblossom_sachet.description":"Un mélange délicat de thé et de fleurs d'oranger.",
+
+"atelierbarista_orangeblossom_tea.name":"Thé à la fleur d'oranger",
+"atelierbarista_orangeblossom_tea.description":"Une tasse de thé tout juste infusé.",
+
+
+
+//TEA SACHETS
+
+"atelierbarista_apple_sachet.name": "Sachet de thé aux pommes d'automne",
+"atelierbarista_apple_sachet.description": "Un mélange de thé, d'épices et de morceaux de pomme séchés, parfait pour un après-midi d'automne.",
+
+"atelierbarista_vanilla_sachet.name": "Sachet de thé à la vanille de Calico",
+"atelierbarista_vanilla_sachet.description": "Un thé parfumé à la vanille, parfait pour calmer l'esprit et le corps.",
+
+"atelierbarista_matcha_sachet.name": "Sachet de thé matcha de cérémonie",
+"atelierbarista_matcha_sachet.description": "Un thé de très haute qualité réalisé avec la première récolte de l'année.",
+
+"atelierbarista_cinnamon_sachet.name": "Sachet de thé à la cannelle",
+"atelierbarista_cinnamon_sachet.description": "Un thé parfumé aux épices et à la cannelle Sève-cendreuse.",
+
+"atelierbarista_chamomile_sachet.name": "Sachet de thé à la camomille",
+"atelierbarista_chamomile_sachet.description": "Un mélange de thé et de fleurs de camomille apaisant.",
+
+"atelierbarista_breakfast_sachet.name": "Sachet de thé English Breakfast",
+"atelierbarista_breakfast_sachet.description": "Un mélange de thé corsé à boire le matin.",
+
+"atelierbarista_jasmine_sachet.name": "Sachet de thé au jasmin des Gemmes",
+"atelierbarista_jasmine_sachet.description": "Un mélange fleuri de feuilles de thé et de pétales de jasmin.",
+
+"atelierbarista_ginger_sachet.name": "Sachet de thé pêche-gingembre",
+"atelierbarista_ginger_sachet.description": "Un mélange fruité de feuilles de thé et de morceaux de pêche et de gingembre séchés.",
+
+"atelierbarista_grey_sachet.name": "Sachet de thé Lady Grey",
+"atelierbarista_grey_sachet.description": "Un mélange plus subtil que l'Earl Grey, avec des notes de citron et d'orange.",
+
+"atelierbarista_lemon_sachet.name": "Sachet de thé citron-gingembre",
+"atelierbarista_lemon_sachet.description": "Un mélange fruité de feuilles de thé et de zeste de citron avec du gingembre.",
+
+"atelierbarista_mint_sachet.name": "Sachet de thé à la menthe Pélican",
+"atelierbarista_mint_sachet.description": "Un mélange de thé et de menthe qui sert aussi à soulager les maux de rhume.",
+
+"atelierbarista_berry_sachet.name": "Sachet de thé aux fruits des bois",
+"atelierbarista_berry_sachet.description": "Un mélange corsé de feuilles de thé noir et de baies sauvages.",
+
+"atelierbarista_peach_sachet.name": "Sachet de thé pêche-mangue",
+"atelierbarista_peach_sachet.description": "Un mélange fruité de feuilles de thé et de morceaux de pêche et de mangue séchés.",
+
+"atelierbarista_pineapple_sachet.name": "Sachet de thé ananas-coco",
+"atelierbarista_pineapple_sachet.description": "Un mélange de thé et de fruits séchés pour vous donner l'impression d'être à la plage même en hiver.",
+
+"atelierbarista_pomegranate_sachet.name": "Sachet de thé à la grenade",
+"atelierbarista_pomegranate_sachet.description": "Un mélange de feuilles de thé vert et de grains de grenade séchés.",
+
+"atelierbarista_raspberry_sachet.name": "Sachet de thé citron-framboise",
+"atelierbarista_raspberry_sachet.description": "Un mélange revigorant de feuilles de thé, de zeste de citron et de framboises séchées.",
+
+"atelierbarista_rose_sachet.name": "Sachet de thé à la rose",
+"atelierbarista_rose_sachet.description": "Un mélange délicat de feuilles de thé et de pétales et bourgeons de rose séchés.",
+
+"atelierbarista_sakura_sachet.name": "Sachet de thé Sakura",
+"atelierbarista_sakura_sachet.description": "Un mélange délicat de feuilles de thé et de pétales de fleurs de cerisier séchés.",
+
+"atelierbarista_strawberry_sachet.name": "Sachet de thé à la fraise des bois",
+"atelierbarista_strawberry_sachet.description": "Un mélange fruité de feuilles de thé et de fraises des bois séchées.",
+
+//TEA
+
+"atelierbarista_apple_tea.name": "Thé aux pommes d'automne",
+"atelierbarista_apple_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_vanilla_tea.name": "Thé à la vanille de Calico",
+"atelierbarista_vanilla_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_matcha_tea.name": "Thé matcha de cérémonie",
+"atelierbarista_matcha_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_cinnamon_tea.name": "Thé à la cannelle épicée",
+"atelierbarista_cinnamon_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_chamomile_tea.name": "Thé à la camomille forestière",
+"atelierbarista_chamomile_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_breakfast_tea.name": "Thé English Breakfast",
+"atelierbarista_breakfast_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_jasmine_tea.name": "Thé au jasmin des Gemmes",
+"atelierbarista_jasmine_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_ginger_tea.name": "Thé pêche-gingembre",
+"atelierbarista_ginger_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_grey_tea.name": "Thé Lady Grey",
+"atelierbarista_grey_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_lemon_tea.name": "Thé citron-gingembre",
+"atelierbarista_lemon_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_mint_tea.name": "Thé à la menthe Pélican",
+"atelierbarista_mint_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_berry_tea.name": "Thé aux fruits des bois",
+"atelierbarista_berry_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_peach_tea.name": "Thé pêche-mangue",
+"atelierbarista_peach_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_pineapple_tea.name": "Thé ananas-coco",
+"atelierbarista_pineapple_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_pomegranate_tea.name": "Thé vert à la grenade",
+"atelierbarista_pomegranate_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_raspberry_tea.name": "Thé à la framboise",
+"atelierbarista_raspberry_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_rose_tea.name": "Thé aux pétales de rose",
+"atelierbarista_rose_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_sakura_tea.name": "Thé Sakura",
+"atelierbarista_sakura_tea.description": "Une tasse de thé tout juste infusé.",
+
+"atelierbarista_strawberry_tea.name": "Thé à la fraise des bois",
+"atelierbarista_strawberry_tea.description": "Une tasse de thé tout juste infusé.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierbarista_TeaProcessorRecipe.name":"Du thé en sachet pour chaque instant",
+"atelierbarista_TeaProcessorRecipe.text":"Salutations, @, ^^ Si tu veux en découvrir plus sur l'art du thé, il te faut un XXXXXXXXXXXXXXX. Il te permet d'emballer le thé en sachets individuels. N'hésite pas à me faire goûter tes mélanges !^^ - Elliott",
+
+"atelierbarista_TeaKettleRecipe.name":"Allume la bouilloire",
+"atelierbarista_TeaKettleRecipe.text":"@, ^^ Si tu aimes le thé, tu as besoin d'une théière de qualité pour pouvoir contrôler la température de l'eau. Voici un plan pour en fabriquer une ! N'oublie pas de m'inviter à prendre le thé à l'occasion.^^ - Caroline",
+
+"atelierbarista_evelyn_gift.name":"Quelques graines pour toi",
+"atelierbarista_evelyn_gift.text":"Bonjour mon petit, ^^ J'ai entendu dire que tu en apprenais plus sur la préparation du thé ! Tu te lances dans une merveilleuse aventure. Voilà des graines de camomille de mon jardin. En tisane, cette plante aide à dormir.^^ - Evelyn",
+
+"atelierbarista_leah_gift.name":"Pour ton jardin de thé",
+"atelierbarista_leah_gift.text":"Salut @,^^ Comment se passe la préparation du thé ? Ce n'est pas toujours facile d'en trouver, alors voilà quelques graines. C'est une variété locale très résistante qui pousse en buisson. Prends-en soin !^^ - Leah",
+
+"atelierbarista_maru_gift.name":"Du thé qui pétille !",
+"atelierbarista_maru_gift.text":"Hello @, ^^ Sais-tu que tu peux transformer le thé en kombucha ? Ce n'est pas la tasse de thé de tout le monde (désolée pour le jeu de mots) mais je trouve que c'est délicieux ! Voilà quelques champignons à cultiver pour en faire fermenter.^^ - Maru",
+
+//////////////////
+// COFFEE BEGIN //
+//////////////////
+
+"atelierbarista_CoffeeGrinder.name":"Moulin à café",
+"atelierbarista_CoffeeGrinder.description":"Moud les grains de café avec d'autres ingrédients.",
+
+"atelierbarista_CoffeeBrewer.name":"Cafetière",
+"atelierbarista_CoffeeBrewer.description":"Pour infuser le café moulu et réaliser des cafés au lait.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_CoffeeGrinder_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierbarista_CoffeeGrinder_InvalidCount.message": "Nécessite 15 grains de café",
+
+"atelierbarista_CoffeeBrewer_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierbarista_CoffeeBrewer_InvalidCount.message": "Nécessite de la crème",    
+
+///////////////////
+// GROUND COFFEE //
+///////////////////
+
+"atelierbarista_breakfast_ground.name":"Café moulu p'tit déj'",
+"atelierbarista_breakfast_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+"atelierbarista_vanilla_ground.name":"Café moulu à la vanille de Calico",
+"atelierbarista_vanilla_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+"atelierbarista_cold_ground.name":"Café moulu pour infusion à froid",
+"atelierbarista_cold_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+"atelierbarista_donut_ground.name":"Café moulu biscuité",
+"atelierbarista_donut_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+"atelierbarista_hazelnut_ground.name":"Café moulu goût noisette",
+"atelierbarista_hazelnut_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+"atelierbarista_holiday_ground.name":"Café moulu mélange des Fêtes",
+"atelierbarista_holiday_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+"atelierbarista_mocha_ground.name":"Café moulu pour mocaccino",
+"atelierbarista_mocha_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+"atelierbarista_pumpkin_ground.name":"Café moulu Pumpkin Spice",
+"atelierbarista_pumpkin_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+"atelierbarista_sweetheart_ground.name":"Café moulu mélange des amoureux",
+"atelierbarista_sweetheart_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+"atelierbarista_coconut_ground.name":"Café moulu à la noix de coco grillée",
+"atelierbarista_coconut_ground.description":"Des grains de café fraîchement moulus et emballés pour conserver toutes les saveurs !",
+
+////////////
+// DRINKS //
+////////////
+
+"atelierbarista_breakfast_latte.name": "Café au lait p'tit déj'",
+"atelierbarista_breakfast_latte.description": "Du bon café agrémenté de lait chaud. C'est si réconfortant !",
+
+"atelierbarista_vanilla_latte.name":"Café au lait à la vanille de Calico",
+"atelierbarista_vanilla_latte.description":"Du bon café agrémenté de lait chaud. C'est si réconfortant !",
+
+"atelierbarista_cold_latte.name":"Café infusé à froid",
+"atelierbarista_cold_latte.description":"Du bon café longuement infusé. C'est si réconfortant !",
+
+"atelierbarista_donut_latte.name":"Café au lait biscuité",
+"atelierbarista_donut_latte.description":"Du bon café agrémenté de lait chaud. C'est si réconfortant !",
+
+"atelierbarista_hazelnut_latte.name":"Café au lait goût noisette",
+"atelierbarista_hazelnut_latte.description":"Du bon café agrémenté de lait chaud. C'est si réconfortant !",
+
+"atelierbarista_holiday_latte.name":"Café au lait mélange des Fêtes",
+"atelierbarista_holiday_latte.description":"Du bon café agrémenté de lait chaud. C'est si réconfortant !",
+
+"atelierbarista_mocha_latte.name":"Mocaccino",
+"atelierbarista_mocha_latte.description":"Du bon café agrémenté de lait chaud. Delizioso !",
+
+"atelierbarista_pumpkin_latte.name":"Pumpkin Spice Latte",
+"atelierbarista_pumpkin_latte.description":"Du bon café agrémenté de lait chaud. On se sent super branché quand on le boit !",
+
+"atelierbarista_sweetheart_latte.name":"Café au lait des amoureux",
+"atelierbarista_sweetheart_latte.description":"Du bon café agrémenté de lait chaud. C'est si réconfortant !",
+
+"atelierbarista_coconut_latte.name":"Café au lait noix de coco grillée",
+"atelierbarista_coconut_latte.description":"Du bon café agrémenté de lait chaud. C'est si réconfortant !",
+
+
+////////////
+/// MAIL ///
+////////////
+
+"atelierbarista_BrewerRecipe.text":"@, ^^ Des fois, c'est pratique d'avoir un moulin à café personnel quand tu travailles tard la nuit - Ah, c'est vrai, tu n'as pas besoin de craindre de réveiller tes parents en allant dans la cuisine. Bref, cette lettre est pratiquement finie, alors autant que je l'envoie.^^       - Sebastian",
+"atelierbarista_GrinderRecipe.text":"Bonjour @, ^^ Un des moments les plus relaxants de ma journée, c'est quand je prépare mon café. Je t'envoie les plans de mon percolateur pour que tu puisses en faire toi même. Mais bois-en avec modération, trop de caféine, c'est mauvais pour la santé !^^ Bien à toi,^       - Harvey",
+"atelierbarista_haley.text":"Salut @, ^^ Ça manque terriblement de petits cafés sympas ici, mais au moins maintenant je peux te rendre visite pour boire des lattes. Tu pourras peut-être me faire un mocaccino lors de ma prochaine visite ?^^       - Haley",
+"atelierbarista_george.text":"@, ^^ Evelyn ne jure que par le thé, alors que rien ne vaut une bonne tasse de café corsé, d'après moi. Mais une fois, elle m'a préparé un café au lait à la vanille... C'était pas mauvais.^ Je t'envoie ça pour te faire ta propre opinion.^^     - George",
+"atelierbarista_sebastian.text":"@, ^^ Tu as déjà bu du café infusé à froid ? Cette technique permet de conserver tous les arômes et la caféine sans l'amertume. Je te la recommande sans hésiter. Je te joins de quoi essayer.^^     - Sebastian",
+
+
+}

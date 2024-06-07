@@ -1,0 +1,69 @@
+  {
+    "Format": "2.0.0",
+    "DynamicTokens": [
+        {
+            "Name": "WeddingToken",
+            "Value": "",
+        },
+        {
+            "Name": "WeddingToken",
+            "Value": "Wedding_Spring",
+            "When":
+            {
+                "DayEvent": "wedding",
+                "LocationName": "town, temp",
+				"Season": "spring",
+            }
+        },
+        {
+            "Name": "WeddingToken",
+            "Value": "Wedding_Summer",
+            "When":
+            {
+                "DayEvent": "wedding",
+                "LocationName": "town, temp",
+                "Season": "summer",
+            }
+        },
+        {
+            "Name": "WeddingToken",
+            "Value": "Wedding_Fall",
+            "When":
+            {
+                "DayEvent": "wedding",
+                "LocationName": "town, temp",
+                "Season": "fall",
+            }
+        },
+        {
+            "Name": "WeddingToken",
+            "Value": "Wedding_Winter",
+            "When":
+            {
+                "DayEvent": "wedding",
+                "LocationName": "town, temp",
+                "Season": "winter",
+            }
+        },
+    ],
+     "Changes": [
+	{
+            "LogName": "Wedding Sprite Alex",
+            "Action": "EditImage",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/{{Target}}/Alex_{{WeddingToken}}.png",
+	    "When":
+		{
+		"HasFile:{{FromFile}}": true,
+		},
+            "Update": "OnLocationChange",  
+			"ToArea":
+            {
+                "X": 0,
+                "Y": 384,
+                "Width": 48,
+                "Height": 32
+            },
+        }
+    ]
+}

@@ -1,0 +1,631 @@
+{
+	"weapons": 
+	[
+		{
+			"id":"Dolly.FairyWeaponry_WoodlandStaff",
+			"cooldown":"3000",
+			"frames":  
+			[
+				{
+					"frameTicks": 20,
+					"action": 2,
+					"relativeFacingDirection": 0,
+					"sound": "shwip",
+					"projectiles":
+					[
+						{
+							"damage": 50,
+							"bouncesTillDestruct": 0,
+							"tailLength": 3,
+							"rotationVelocity": 0,
+							"xVelocity": 2,
+							"yVelocity": 10,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "leafrustle",
+							"firingSound": "leafrustle",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Thorn",
+							"config": {
+								"damage": "Woodland Staff Projectile 1 Damage"
+							}
+						},
+						{
+							"damage": 50,
+							"bouncesTillDestruct": 0,
+							"tailLength": 3,
+							"rotationVelocity": 0,
+							"xVelocity": 0,
+							"yVelocity": 10,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "leafrustle",
+							"firingSound": "leafrustle",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Thorn",
+							"config": {
+								"damage": "Woodland Staff Projectile 2 Damage"
+							}
+						},
+						{
+							"damage": 50,
+							"bouncesTillDestruct": 0,
+							"tailLength": 3,
+							"rotationVelocity": 0,
+							"xVelocity": -2,
+							"yVelocity": 10,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "leafrustle",
+							"firingSound": "leafrustle",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Thorn",
+							"config": {
+								"damage": "Woodland Staff Projectile 3 Damage"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id":"Dolly.FairyWeaponry_FairyTome",
+			"enchantments": [
+			  {
+				"name": "Dolly.AMFFairyWeaponry/crusader",
+				"type": "crusader"
+			  }
+			],
+			"cooldown":"3000",
+			"frames": 
+			[
+				{
+					"frameTicks": 20,
+					"action": 2,
+					"relativeFacingDirection": 0,
+					"projectiles":
+					[
+						{
+							"damage": 65,
+							"bouncesTillDestruct": 3,
+							"tailLength": 2,
+							"rotationVelocity": 0,
+							"xVelocity": 1,
+							"yVelocity": 26,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "yoba",
+							"firingSound": "",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Fairy",
+							"config": {
+								"damage": "Fairy Tome Projectile 1 Damage"
+							}
+						},
+						{
+							"damage": 65,
+							"bouncesTillDestruct": 3,
+							"tailLength": 2,
+							"rotationVelocity": 0,
+							"xVelocity": 0,
+							"yVelocity": 26,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "yoba",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Fairy",
+							"config": {
+								"damage": "Fairy Tome Projectile 2 Damage"
+							}
+						},
+						{
+							"damage": 65,
+							"bouncesTillDestruct": 3,
+							"tailLength": 2,
+							"rotationVelocity": 0,
+							"xVelocity": -1,
+							"yVelocity": 26,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "yoba",
+							"firingSound": "",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Fairy",
+							"config": {
+								"damage": "Fairy Tome Projectile 3 Damage"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id":"Dolly.FairyWeaponry_RadiantStaff",
+			"enchantments": [
+			  {
+				"name": "Dolly.AMFFairyWeaponry/crusader",
+				"type": "crusader"
+			  }
+			],
+			"cooldown":"3500",
+			"frames": 
+			[
+				{
+					"frameTicks": 20,
+					"action": 2,
+					"relativeFacingDirection": 0,
+					"projectiles":
+					[
+						{
+							"damage": 80,
+							"bouncesTillDestruct": 0,
+							"tailLength": 15,
+							"rotationVelocity": 0,
+							"xVelocity": 1,
+							"yVelocity": 50,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Radiant Staff Projectile 1 Damage"
+							}
+						},
+						{
+							"damage": 95,
+							"bouncesTillDestruct": 0,
+							"tailLength": 15,
+							"rotationVelocity": 0,
+							"xVelocity": 0,
+							"yVelocity": 50,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "Dolly.FairyWeaponry_MagicImpact",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Radiant Staff Projectile 2 Damage"
+							}
+						},
+						{
+							"damage": 80,
+							"bouncesTillDestruct": 0,
+							"tailLength": 10,
+							"rotationVelocity": 0,
+							"xVelocity": -1,
+							"yVelocity": 52,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Radiant Staff Projectile 3 Damage"
+							}
+						}				
+					]
+				}
+			]
+		},
+		{
+			"id":"Dolly.FairyWeaponry_Zephyr",
+			"enchantments": [
+			  {
+				"name": "Dolly.AMFFairyWeaponry/crusader",
+				"type": "crusader"
+			  }
+			],
+			"cooldown":"3500",
+			"frames":  
+			[
+				{
+					"frameTicks": 5,
+					"action": 1,
+					"relativeFacingDirection": 0,
+					"sound":"swordswipe",
+					"projectiles":
+					[
+						{
+							"damage": 75,
+							"bouncesTillDestruct": 0,
+							"tailLength": 4,
+							"rotationVelocity": 1,
+							"xVelocity": 0,
+							"yVelocity": 20,
+							"startingPositionX": 0,
+							"startingPositionY": 80,
+							"collisionSound": "swordswipe",
+							"firingSound": "daggerswipe",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Wind",
+							"config": {
+								"damage": "Zephyr Projectile 1 Damage"
+							}
+						},
+						{
+							"damage": 75,
+							"parentSheetIndex": 742,
+							"bouncesTillDestruct": 0,
+							"tailLength": 2,
+							"rotationVelocity": 1,
+							"xVelocity": -14,
+							"yVelocity": 14,
+							"startingPositionX": 0,
+							"startingPositionY": 80,
+							"collisionSound": "swordswipe",
+							"firingSound": "leafrustle",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Wind",
+							"config": {
+								"damage": "Zephyr Projectile 2 Damage"
+							}
+						}
+					]
+				},
+				{
+					"frameTicks": 5,
+					"action": 1,
+					"relativeFacingDirection": 1,
+					"projectiles":
+					[
+						{
+							"damage": 75,
+							"bouncesTillDestruct": 0,
+							"tailLength": 4,
+							"rotationVelocity": 1,
+							"xVelocity": 0,
+							"yVelocity": 20,
+							"startingPositionX": 0,
+							"startingPositionY": 80,
+							"collisionSound": "swordswipe",
+							"firingSound": "daggerswipe",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Wind",
+							"config": {
+								"damage": "Zephyr Projectile 3 Damage"
+							}
+						},
+						{
+							"damage": 75,
+							"bouncesTillDestruct": 0,
+							"tailLength": 4,
+							"rotationVelocity": 1,
+							"xVelocity": -14,
+							"yVelocity": 14,
+							"startingPositionX": 0,
+							"startingPositionY": 80,
+							"collisionSound": "swordswipe",
+							"firingSound": "leafrustle",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Wind",
+							"config": {
+								"damage": "Zephyr Projectile 4 Damage"
+							}
+						}
+					]
+				},
+				{
+					"frameTicks": 5,
+					"action": 1,
+					"relativeFacingDirection": 2,
+					"projectiles":
+					[
+						{
+							"damage": 75,
+							"bouncesTillDestruct": 0,
+							"tailLength": 4,
+							"rotationVelocity": 1,
+							"xVelocity": 0,
+							"yVelocity": 20,
+							"startingPositionX": 0,
+							"startingPositionY": 80,
+							"collisionSound": "swordswipe",
+							"firingSound": "daggerswipe",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Wind",
+							"config": {
+								"damage": "Zephyr Projectile 5 Damage"
+							}
+						},
+						{
+							"damage": 75,
+							"bouncesTillDestruct": 0,
+							"tailLength": 4,
+							"rotationVelocity": 1,
+							"xVelocity": -14,
+							"yVelocity": 14,
+							"startingPositionX": 0,
+							"startingPositionY": 80,
+							"collisionSound": "swordswipe",
+							"firingSound": "leafrustle",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Wind",
+							"config": {
+								"damage": "Zephyr Projectile 6 Damage"
+							}
+						}
+					]
+				},
+				{
+					"frameTicks": 5,
+					"action": 1,
+					"relativeFacingDirection": 3,
+					"projectiles":
+					[
+						{
+							"damage": 75,
+							"bouncesTillDestruct": 0,
+							"tailLength": 4,
+							"rotationVelocity": 1,
+							"xVelocity": 0,
+							"yVelocity": 20,
+							"startingPositionX": 0,
+							"startingPositionY": 80,
+							"collisionSound": "swordswipe",
+							"firingSound": "daggerswipe",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Wind",
+							"config": {
+								"damage": "Zephyr Projectile 7 Damage"
+							}
+						},
+						{
+							"damage": 75,
+							"bouncesTillDestruct": 0,
+							"tailLength": 4,
+							"rotationVelocity": 1,
+							"xVelocity": -14,
+							"yVelocity": 14,
+							"startingPositionX": 0,
+							"startingPositionY": 80,
+							"collisionSound": "swordswipe",
+							"firingSound": "leafrustle",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Wind",
+							"config": {
+								"damage": "Zephyr Projectile 8 Damage"
+							}
+						}
+					]
+				},
+				{
+					"frameTicks": 5,
+					"action": 1,
+					"relativeFacingDirection": 0,
+				}
+			]
+		},
+		{
+			"id":"Dolly.FairyWeaponry_FairyStaff",
+			"enchantments": [
+			  {
+				"name": "Dolly.AMFFairyWeaponry/crusader",
+				"type": "crusader"
+			  }
+			],
+			"cooldown":"3500",
+			"frames":  
+			[
+				{
+					"frameTicks": 20,
+					"action": 2,
+					"relativeFacingDirection": 0,
+					"sound": "yoba",
+					"projectiles":
+					[
+						{
+							"damage": 90,
+							"bouncesTillDestruct": 0,
+							"tailLength": 15,
+							"rotationVelocity": 0,
+							"xVelocity": 4,
+							"yVelocity": 50,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Fairy Staff Projectile 1 Damage"
+							}
+						},
+						{
+							"damage": 90,
+							"bouncesTillDestruct": 0,
+							"tailLength": 15,
+							"rotationVelocity": 0,
+							"xVelocity": 3,
+							"yVelocity": 50,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Fairy Staff Projectile 2 Damage"
+							}
+						},
+						{
+							"damage": 90,
+							"bouncesTillDestruct": 0,
+							"tailLength": 15,
+							"rotationVelocity": 0,
+							"xVelocity": 2,
+							"yVelocity": 50,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Fairy Staff Projectile 3 Damage"
+							}
+						},
+						{
+							"damage": 100,
+							"bouncesTillDestruct": 0,
+							"tailLength": 15,
+							"rotationVelocity": 0,
+							"xVelocity": 1,
+							"yVelocity": 50,
+							"startingPositionX": 1,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Fairy Staff Projectile 4 Damage"
+							}
+						},
+						{
+							"damage": 100,
+							"bouncesTillDestruct": 0,
+							"tailLength": 15,
+							"rotationVelocity": 0,
+							"xVelocity": 0,
+							"yVelocity": 50,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Fairy Staff Projectile 5 Damage"
+							}
+						},
+						{
+							"damage": 100,
+							"bouncesTillDestruct": 0,
+							"tailLength": 15,
+							"rotationVelocity": 0,
+							"xVelocity": -1,
+							"yVelocity": 50,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Fairy Staff Projectile 6 Damage"
+							}
+						},
+						{
+							"damage": 90,
+							"bouncesTillDestruct": 0,
+							"tailLength": 10,
+							"rotationVelocity": 0,
+							"xVelocity": -2,
+							"yVelocity": 52,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Fairy Staff Projectile 7 Damage"
+							}
+						},
+						{
+							"damage": 90,
+							"bouncesTillDestruct": 0,
+							"tailLength": 10,
+							"rotationVelocity": 0,
+							"xVelocity": -3,
+							"yVelocity": 52,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Fairy Staff Projectile 8 Damage"
+							}
+						},
+						{
+							"damage": 90,
+							"bouncesTillDestruct": 0,
+							"tailLength": 10,
+							"rotationVelocity": 0,
+							"xVelocity": -4,
+							"yVelocity": 52,
+							"startingPositionX": 0,
+							"startingPositionY": 30,
+							"collisionSound": "",
+							"firingSound": "yoba",
+							"explode": false,
+							"damagesMonsters": true,
+							"shotItemId": "(O)Dolly.FairyWeaponry_Rainbow",
+							"config": {
+								"damage": "Fairy Staff Projectile 9 Damage"
+							}
+						}		
+					]
+				}
+			]
+		},
+		{
+			"id":"Dolly.FairyWeaponry_SkySplitter",
+			"enchantments": [
+			  {
+				"name": "Dolly.AMFFairyWeaponry/crusader",
+				"type": "crusader"
+			  }
+			],
+			"cooldown":"4000",
+			"frames": 
+			[
+				{
+					"frameTicks": 10,
+					"action": 1,
+					"trajectoryX": 0,
+					"trajectoryY": 90,
+					"relativeFacingDirection": 0,
+					"sound": "leafrustle",
+				},
+				{
+					"frameTicks": 60,
+					"action": 2,
+					"relativeFacingDirection": 0
+				}
+			]
+		}
+	]
+}

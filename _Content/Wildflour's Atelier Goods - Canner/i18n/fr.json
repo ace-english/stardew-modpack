@@ -1,0 +1,102 @@
+{
+
+    "jams_banana_maple_jam.name": "Confiture de banane à l'érable",
+	"jams_banana_maple_jam.description": "Faite avec de la purée de bananes mûres et du sirop d'érable local.",
+
+	"jams_banana_split_jam.name": "Confiture goût banana split",
+	"jams_banana_split_jam.description": "Des bananes, des fraises et une cerise sur le dessus !",
+
+	"jams_blackberry_mint_jelly.name": "Gelée de mûre à la menthe",
+	"jams_blackberry_mint_jelly.description": "Faite avec des mûres sauvages et de la menthe du jardin.",
+
+	"jams_blueberry_lavender_jelly.name": "Gelée de myrtille à la lavande",
+	"jams_blueberry_lavender_jelly.description": "Faite avec des bleuets et de la lavande de la forêt.",
+
+	"jams_blue_jazz_jelly.name": "Gelée de zinnia bleue",
+	"jams_blue_jazz_jelly.description": "Parfumée avec des pétales de zinnia bleue.",
+
+	"jams_chamomile_jelly.name":"Gelée de camomille",
+	"jams_chamomile_jelly.description":"Parfumée avec des pétales de camomille sylvestre.",
+
+	"jams_cherry_vanilla_jam.name": "Confiture de cerise à la vanille",
+	"jams_cherry_vanilla_jam.description": "Faite avec des cerises fraîchement cueillies et une gousse de vanille.",
+
+	"jams_cinnamon_apple_preserves.name": "Compote de pomme à la cannelle",
+	"jams_cinnamon_apple_preserves.description": "À manger seule ou en accompagnement pour une explosion de saveurs d'automne.",
+
+	"jams_cranberry_chutney.name": "Chutney de canneberge",
+	"jams_cranberry_chutney.description": "Tout le monde ne jure que par la sauce aux canneberges, mais vous changerez d'avis après avoir goûté ce chutney.",
+
+	"jams_crocus_jelly.name": "Gelée de crocus",
+	"jams_crocus_jelly.description": "Faite avec des fleurs de crocus sauvages. Son goût rappelle la vanille et les épices.",
+
+	"jams_dandelion_jelly.name": "Gelée de pissenlit",
+	"jams_dandelion_jelly.description": "Parfumée avec des fleurs de pissenlit. Elle a un goût délicat.",
+
+	"jams_honey_apricot_preserves.name": "Abricots au sirop de miel",
+	"jams_honey_apricot_preserves.description": "Des abricots mûrs conservés dans du miel local.",
+
+	"jams_honey_peach_preserves.name": "Pêches au sirop de miel",
+	"jams_honey_peach_preserves.description": "Des pêches mûres conservées dans du miel local.",
+
+	"jams_mango_chutney.name": "Chutney de mangue",
+	"jams_mango_chutney.description": "Parfait sur du poisson fraîchement pêché et grillé.",
+
+	"jams_mixed_berry_preserves.name": "Fruits des bois au sirop",
+	"jams_mixed_berry_preserves.description": "Un mélange de baies conservé dans du sirop de sucre.",
+
+	"jams_peach_blossom_jelly.name":"Gelée de pêche aux fleurs de cerisier",
+	"jams_peach_blossom_jelly.description":"Faite avec des pêches mûres et parfumée aux pétales de fleur de cerisier.",
+
+	"jams_peach_ginger_preserves.name": "Pêches au sirop au gingembre",
+	"jams_peach_ginger_preserves.description": "Des pêches mûres conservées dans du sirop de sucre parfumé au gingembre.",
+
+	"jams_rose_petal_jelly.name":"Gelée de rose",
+	"jams_rose_petal_jelly.description":"Parfumée avec des pétales de rose.",
+
+	"jams_flower_dance_jelly.name": "Gelée de la Reine des Fleurs",
+	"jams_flower_dance_jelly.description": "Une édition spéciale pour célébrer la Danse des Fleurs de Pélican Ville !",
+
+	"jams_luau_jam.name": "Confiture de la Fête hawaïenne",
+	"jams_luau_jam.description": "Une édition spéciale pour célébrer la Fête hawaïenne de Pélican Ville !",
+	
+	"jams_spirits_eve_jam.name": "Confiture de la Nuit des Esprits",
+	"jams_spirits_eve_jam.description": "Une édition spéciale pour célébrer la venue des Esprits dans notre monde !",
+
+	"jams_winter_star_jelly.name": "Gelée de l'Étoile hivernale",
+	"jams_winter_star_jelly.description": "Une édition spéciale pour célébrer la fin de l'année !",
+
+	"jams_lemon_marmalade.name": "Marmelade de citron printanière",
+	"jams_lemon_marmalade.description": "Avec de gros morceaux de zeste de citron confit.",
+
+	"jams_strawberry_rhubarb_jam.name": "Confiture fraise-rhubarbe",
+	"jams_strawberry_rhubarb_jam.description": "Un équilibre parfait entre la douceur des fraises et l'acidité de la rhubarbe.",
+
+	"jams_strawberry_rose_jelly.name":"Gelée de fraise des bois à la rose",
+	"jams_strawberry_rose_jelly.description": "Une délicate gelée de fraise parfumée à la rose féérique.",
+
+	"jams_spangle_jelly.name": "Gelée de fleur tropicale",
+	"jams_spangle_jelly.description": "Faite à partir des meilleures fleurs de l'été. Le soleil en bocal !",
+
+	"jams_orange_marmalade.name": "Marmelade d'orange estivale",
+	"jams_orange_marmalade.description": "Avec de gros morceaux de zeste d'orange confit.",
+
+	"jams_sunflower_jelly.name": "Gelée de tournesol",
+	"jams_sunflower_jelly.description": "Parfumée aux pétales de tournesol. Elle a un léger goût de noisette.",
+
+	"jams_lime_marmalade.name": "Marmelade de lime douce",
+	"jams_lime_marmalade.description": "Avec de gros morceaux de zeste de citron vert confit.",
+
+	"jams_jasmine_jelly.name": "Gelée de jasmin",
+	"jams_jasmine_jelly.description": "Faite avec des fleurs de jasmin fraîchement cueillies. Elle a un goût frais et floral.",
+
+	"jams_citrus_marmalade.name": "Marmelade aux trois agrumes",
+	"jams_citrus_marmalade.description": "L'alliance ultime du citron, de la lime et de l'orange.",
+
+	"jams_tulip_jelly.name": "Gelée de tulipe",
+	"jams_tulip_jelly.description": "Parfumée avec des pétales de tulipe. Elle a un goût frais et floral.",
+
+	"jams_vanilla_raspberry_preserves.name": "Compote framboise-vanille",
+	"jams_vanilla_raspberry_preserves.description": "L'accord parfait. À tartiner sur du pain grillé ou à utiliser en pâtisserie.",
+
+}

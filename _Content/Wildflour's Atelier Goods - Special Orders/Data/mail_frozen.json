@@ -1,0 +1,39 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.atelierfrozen_SO2_reward": "{{i18n: atelierfrozen_SO2_reward.text}} %item id (O)PowdermelonSeeds 5 %%[#]{{i18n: atelierfrozen_SO2_reward.name}}",     
+                    "wildflour.atelierfrozen_SO3_reward": "{{i18n: atelierfrozen_SO3_reward.text}} %item id (BC)wildflour.atelierfrozen_TreatMaker 2 %%[#]{{i18n: atelierfrozen_SO3_reward.name}}", 
+                    "wildflour.atelierfrozen_SO4_reward": "{{i18n: atelierfrozen_SO4_reward.text}} %item id (BC)wildflour.atelierfrozen_BlastChiller 2 %%[#]{{i18n: atelierfrozen_SO4_reward.name}}", 
+                    "wildflour.atelierfrozen_SO5_reward": "{{i18n: atelierfrozen_SO5_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: atelierfrozen_SO5_reward.name}}" 
+                     
+                }
+            },
+
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.atelierfrozen_SO2mail/n wildflour.atelierfrozen_SO2_complete/x wildflour.atelierfrozen_SO2_reward": "null",
+                "wildflour.atelierfrozen_SO3mail/n wildflour.atelierfrozen_SO3_complete/x wildflour.atelierfrozen_SO3_reward": "null",
+                "wildflour.atelierfrozen_SO4mail/n wildflour.atelierfrozen_SO4_complete/x wildflour.atelierfrozen_SO4_reward": "null",			
+                "wildflour.atelierfrozen_SO5mail/n wildflour.atelierfrozen_SO5_complete/x wildflour.atelierfrozen_SO5_reward": "null"		
+            }
+            },         
+          
+
+]
+}

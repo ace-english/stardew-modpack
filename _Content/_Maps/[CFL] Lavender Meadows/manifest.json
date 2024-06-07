@@ -1,0 +1,17 @@
+{
+    "Name": "Lavender Meadows",
+    "Author": "DaisyNiko",
+    "Version": "1.0.5",
+    "UniqueID": "DaisyNiko.LavenderMeadows",
+    "MinimumApiVersion": "2.11.2",
+    "UpdateKeys": [ "Nexus:14539" ],
+    "ContentPackFor": {
+        "UniqueID": "DeLiXx.Custom_Farm_Loader"
+    },
+    "Dependencies":[
+        {
+            "UniqueID":"DaisyNiko.TileSheets",
+            "IsRequied":"true"
+        }
+    ]
+}

@@ -1,0 +1,501 @@
+{
+    "Changes":
+    [    
+		
+//
+///////////// SAM /////////////
+//
+		
+// TRANS SAM
+
+		{
+			"LogName": "Sam Variant-Based Dialogue - Trans (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"Wed2": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.Wed2}}",
+				"Wed4": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.Wed4}}",
+				"Mon6": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.Mon6}}",
+				"summer_Mon4": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.summer_Mon4}}",
+				"summer_Sat4": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.summer_Sat4.NoBinder}}",
+				"summer_Thu8": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.summer_Thu8}}",
+				"fall_Tue2": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.fall_Tue2}}",
+				"fall_Fri4": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.fall_Fri4}}",
+				"fall_Mon8": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.fall_Mon8}}",
+				"winter_Wed4": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.winter_Wed4}}",
+				"winter_Mon6": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.winter_Mon6}}",
+				"winter_Thu8": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.winter_Thu8.NoBinder}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+		}, 
+		{
+			"LogName": "Sam Variant-Based Dialogue - Trans (Daily, Binder)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"summer_Sat4": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.summer_Sat4.Binder}}",
+				"winter_Thu8": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.winter_Thu8.Binder}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:SamBinder |contains= true": true,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+
+            }
+		},
+		{
+			"LogName": "Sam Variant-Based Dialogue - Trans (Married)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Entries": 
+			{
+				"Fall_10": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.Fall_10}}",
+				"OneKid_1": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.OneKid_1}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+		}, 
+		{
+			"LogName": "Sam Variant-Based Dialogue - Trans (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"winter_Tue8": "{{i18n:DSV.Dialogue.Daily.Sam.Trans.winter_Tue8.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+		},  
+		
+// IRANIAN SAM
+
+		{
+			"LogName": "Sam Variant-Based Dialogue - Iranian (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"spring_Fri6": "{{i18n:DSV.Dialogue.Daily.Sam.Iranian.spring_Fri6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:SamVariant |contains= ModdedDarker}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.OyoshiSam}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.OenimoSam}}' = 'true'": true
+            }
+		}, 
+		{
+			"LogName": "Sam Variant-Based Dialogue - Iranian (Daily, Nonbinary Abigail)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"spring_Fri6": "{{i18n:DSV.Dialogue.Daily.Sam.Iranian.NonbinaryAbigail.spring_Fri6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:SamVariant |contains= ModdedDarker}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.OyoshiSam}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.OenimoSam}}' = 'true'": true,
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= true": true
+            }
+		},   
+		
+// NONBINARY SEBASTIAN
+
+		{
+			"LogName": "Sam Variant-Based Dialogue - Nonbinary Sebastian (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"Wed6": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinarySebastian.Wed6}}",
+				"winter_Tue6": "{{i18n:DSV.Dialogue.Daily.Sam.TwoFriends.winter_Tue6}}",
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinaryFriends.Introduction}}",
+				"dating_Sebastian": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinarySebastian.dating_Sebastian}}",
+				"married_Sebastian": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinarySebastian.married_Sebastian}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,				
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= true": true
+            }
+		},   
+		{
+			"LogName": "Sam Variant-Based Dialogue - Nonbinary Sebastian (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"summer_Thu4": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinarySebastian.summer_Thu4.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,				
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},    
+		{
+			"LogName": "Sam Variant-Based Dialogue - Nonbinary Sebastian (Married, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Entries": 
+			{
+				"Rainy_Day_1": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinarySebastian.Rainy_Day_1.CanonFriendlyDialogue}}",
+				"spring_8": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinarySebastian.spring_8.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,				
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},     
+		{
+			"LogName": "Sam Variant-Based Dialogue - Nonbinary Sebastian (IceFest, IFD)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{
+				"Sam": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinarySebastian.IceFestival.ImmersiveFestivalDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,				
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= true": true,
+				"HasMod |contains= tangeriney.FestivalDialogue": true,				
+				"Hearts:Sam": "4, 5"
+            }
+		},
+		
+// NONBINARY ABIGAIL
+
+		{
+			"LogName": "Sam Variant-Based Dialogue - Nonbinary Sebastian (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"winter_Tue6": "{{i18n:DSV.Dialogue.Daily.Sam.TwoFriends.winter_Tue6}}",
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinaryFriends.Introduction}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,				
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= true": true
+			}
+		},   
+		{
+			"LogName": "Sam Variant-Based Dialogue - Nonbinary Abigail (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"Sat6": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinaryAbigail.Sat6.CanonFriendlyDialogue}}",
+				"Sat8_1": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinaryAbigail.Sat8_1.CanonFriendlyDialogue}}",
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,				
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},   
+		{
+			"LogName": "Sam Variant-Based Dialogue - Nonbinary Abigail (Married, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Entries": 
+			{
+				"fall_4": "{{i18n:DSV.Dialogue.Daily.Sam.NonbinaryAbigail.fall_4.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,				
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= true": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		}, 
+		{
+			"LogName": "Sam Variant-Based Dialogue - Nonbinary Abigail & Sebastian (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"winter_Tue6": "{{i18n:DSV.Dialogue.Daily.Sam.ThreeFriends.winter_Tue6}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,				
+				"DSV.Core/ConfigValue:NonbinaryAbigail |contains= true": true,		
+				"DSV.Core/ConfigValue:NonbinarySebastian |contains= true": true
+			}
+		},
+		
+// MODDED KENT
+
+		{
+			"LogName": "Sam Variant-Based Dialogue - Disabled Kent (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+				"fall_Sun4": "{{i18n:DSV.Dialogue.Daily.Sam.DisabledKent.fall_Sun4}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:SamDialogue |contains= true": true,				
+				"DSV.Core/ConfigValue:KentVariant |contains= VanillaDisabled, OmaniDisabled": true
+            }
+		},   
+		
+//
+///////////// VINCENT /////////////
+//
+		
+// VINCENT CLOTHES
+
+		{
+			"LogName": "Vincent Variant-Based Dialogue - Clothes (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"spring_Wed2": "{{i18n:DSV.Dialogue.Daily.Vincent.spring_Wed2}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:VincentDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:VincentVariant |contains= Off": false
+			}
+		}, 
+		
+// MODDED KENT
+
+		{
+			"LogName": "Vincent Variant-Based Dialogue - Disabled Kent (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"summer_Fri2": "{{i18n:DSV.Dialogue.Daily.Vincent.DisabledKent.summer_Fri2}}",
+				"fall_Wed8": "{{i18n:DSV.Dialogue.Daily.Vincent.DisabledKent.fall_Wed8}}",
+				"winter_Thu6": "{{i18n:DSV.Dialogue.Daily.Vincent.DisabledKent.winter_Thu6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:VincentDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:KentVariant |contains= VanillaDisabled, OmaniDisabled": true
+            }
+		},  
+		
+// TRANS SAM
+
+		{
+			"LogName": "Vincent Variant-Based Dialogue - Trans Sam (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"spring_Mon6": "{{i18n:DSV.Dialogue.Daily.Vincent.TransSam.spring_Mon6}}",
+				"summer_Mon6": "{{i18n:DSV.Dialogue.Daily.Vincent.TransSam.summer_Mon6}}",
+				"fall_Fri6": "{{i18n:DSV.Dialogue.Daily.Vincent.TransSam.fall_Fri6}}",
+				"winter_Thu2": "{{i18n:DSV.Dialogue.Daily.Vincent.TransSam.winter_Thu2}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:VincentDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+            }
+		},   
+		
+// HARD-OF-HEARING HALEY
+
+		{
+			"LogName": "Vincent Variant-Based Dialogue - HoH Haley (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"fall_Sat4": "{{i18n:DSV.Dialogue.Daily.Vincent.DisabledKent.HoHHaley.fall_Sat4}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:VincentDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:HoHHaley |contains= True": true
+            }
+		}, 
+		
+// NONBINARY EMILY
+
+		{
+			"LogName": "Vincent Variant-Based Dialogue - Nonbinary Emily (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"summer_Mon4": "{{i18n:DSV.Dialogue.Daily.Vincent.NonbinaryEmily.summer_Mon4}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:VincentDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:NonbinaryEmily |contains= True": true
+            }
+		},   
+		
+//
+///////////// JODI /////////////
+//
+		
+// IRANIAN JODI
+
+		{
+			"LogName": "Jodi Variant-Based Dialogue - Iranian (Flower Dance)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Jodi_y2": "{{i18n:DSV.Dialogue.Daily.Jodi.Modded.spring24.Y2}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:JodiDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true'": true
+			}
+		}, 
+		{
+			"LogName": "Jodi Variant-Based Dialogue - Iranian (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": 
+			{
+				"winter_28": "{{i18n:DSV.DialogueEdit.Jodi.Modded.winter_28.CanonFriendlyDialogue}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:JodiDialogue |contains= true": true,
+				"Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true'": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+			}
+		}, 
+		{
+			"LogName": "Jodi Variant-Based Dialogue - Iranian (Daily, Turkish Gus)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": 
+			{
+				"spring_Mon4": "{{i18n:DSV.Dialogue.Daily.Jodi.Modded.ModdedGus.spring_Mon4.{{KentFamilyReligionToken}}}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:JodiDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": false,
+				"KentFamilyReligionToken |contains= JustJodi, Both": true
+			}
+		}, 
+
+// DISABLED KENT
+
+		{
+			"LogName": "Jodi Variant-Based Dialogue - Disabled Kent (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": 
+			{
+				"fall_Tue6": "{{i18n:DSV.Dialogue.Daily.Jodi.DisabledKent.fall_Tue6}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:JodiDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:KentVariant |contains= VanillaDisabled, OmaniDisabled": true
+			}
+		},  
+		
+//
+///////////// KENT /////////////
+//
+		
+// MODDED KENT
+
+		{
+			"LogName": "Kent Variant-Based Dialogue - Disabled (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"Fri2": "{{i18n:DSV.Dialogue.Daily.Kent.Disabled.Fri2}}",
+				"fall_Sat6": "{{i18n:DSV.Dialogue.Daily.Kent.Disabled.fall_Sat6}}",
+				"summer_Tue8": "{{i18n:DSV.Dialogue.Daily.Kent.Disabled.summer_Tue8}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:KentVariant |contains= VanillaDisabled, OmaniDisabled": true
+			}
+		}, 
+		{
+			"LogName": "Kent Variant-Based Dialogue - Modded (Rain)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": 
+			{
+				"Kent": "{{i18n:DSV.Dialogue.Daily.Kent.Disabled.Rain}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:KentVariant |contains= VanillaDisabled, OmaniDisabled": true
+			}
+		}, 
+		
+// OMANI KENT
+
+		{
+			"LogName": "Kent Variant-Based Dialogue - Omani (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"summer_Sat4": "{{i18n:DSV.Dialogue.Daily.Kent.Omani.summer_Sat4}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": true
+			}
+		},
+		
+// TRANS SAM
+
+		{
+			"LogName": "Kent Variant-Based Dialogue - Trans Sam (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"fall_Tue8": "{{i18n:DSV.Dialogue.Daily.Kent.TransSam.fall_Tue8}}",
+				"summer_Wed6": "{{i18n:DSV.Dialogue.Daily.Kent.TransSam.summer_Wed6}}",
+				"fall_Thu4": "{{i18n:DSV.Dialogue.Daily.Kent.TransSam.fall_Thu4}}",
+				"winter_Tue8": "{{i18n:DSV.Dialogue.Daily.Kent.TransSam.winter_Tue8}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:TransSam |contains= true": true
+			}
+		}
+    ]
+}

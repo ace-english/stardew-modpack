@@ -1,0 +1,268 @@
+{
+// PAM DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Pam Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Pam", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Pam.Indoor":
+				{
+					"Id": "{{ModId}}_Pam_Indoor",
+					"Portrait": "Portraits/Pam_Indoor",
+					"Sprite": "Characters/Pam_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Pam.EggFestival":
+				{
+					"Id": "{{ModId}}_Pam_EggFestival",
+					"Portrait": "Portraits/Pam_EggFestival",
+					"Sprite": "Characters/Pam_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Pam.FlowerDance":
+				{
+					"Id": "{{ModId}}_Pam_FlowerDance",
+					"Portrait": "Portraits/Pam_FlowerDance",
+					"Sprite": "Characters/Pam_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Pam.Luau":
+				{
+					"Id": "{{ModId}}_Pam_Luau",
+					"Portrait": "Portraits/Pam_Luau",
+					"Sprite": "Characters/Pam_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Pam.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Pam_MoonlightJellies",
+					"Portrait": "Portraits/Pam_MoonlightJellies",
+					"Sprite": "Characters/Pam_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Pam.SVFair":
+				{
+					"Id": "{{ModId}}_Pam_SVFair",
+					"Portrait": "Portraits/Pam_SVFair",
+					"Sprite": "Characters/Pam_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Pam.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Pam_SpiritsEve",
+					"Portrait": "Portraits/Pam_SpiritsEve",
+					"Sprite": "Characters/Pam_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Pam.IceFestival":
+				{
+					"Id": "{{ModId}}_Pam_IceFestival",
+					"Portrait": "Portraits/Pam_IceFestival",
+					"Sprite": "Characters/Pam_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Pam.WinterStar":
+				{
+					"Id": "{{ModId}}_Pam_WinterStar",
+					"Portrait": "Portraits/Pam_WinterStar",
+					"Sprite": "Characters/Pam_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Pam.Swim":
+				{
+					"Id": "{{ModId}}_Pam_Swim",
+					"Portrait": "Portraits/Pam_Swim",
+					"Sprite": "Characters/Pam_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Pam.HotClimate":
+				{
+					"Id": "{{ModId}}_Pam_HotClimate",
+					"Portrait": "Portraits/Pam_HotClimate",
+					"Sprite": "Characters/Pam_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Pam.Aerobics":
+				{
+					"Id": "{{ModId}}_Pam_Aerobics",
+					"Sprite": "Characters/Pam_Aerobics",
+					"Condition": "IS_EVENT 58",
+					"Precedence": -150
+				},
+				"DSV.Pam.Bus":
+				{
+					"Id": "{{ModId}}_Pam_Bus",
+					"Portrait": "Portraits/Pam_Bus",
+					"Sprite": "Characters/Pam_Bus",
+					"Condition": "ANY \"LOCATION_NAME Target BusStop Desert, PLAYER_HAS_MAIL Current ccVault\" \"LOCATION_NAME Target BusStop Desert, PLAYER_HAS_MAIL Current jojaVault\"",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Pam Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Pam_Indoor, Characters/Pam_Indoor, Portraits/Pam_Bus, Characters/Pam_Bus",
+			"FromFile": "Art/VanillaNPCs/Pam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLPam}}/{{DSV.Core/ConfigValue:PamVariant}}/Pam_Fall_1_Rain.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PamVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Pam Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Pam_EggFestival, Characters/Pam_EggFestival, Portraits/Pam_FlowerDance, Characters/Pam_FlowerDance, Portraits/Pam_Luau, Characters/Pam_Luau, Portraits/Pam_MoonlightJellies, Characters/Pam_MoonlightJellies, Portraits/Pam_SVFair, Characters/Pam_SVFair, Portraits/Pam_SpiritsEve, Characters/Pam_SpiritsEve, Portraits/Pam_IceFestival, Characters/Pam_IceFestival, Portraits/Pam_WinterStar, Characters/Pam_WinterStar, Portraits/Pam_Swim, Characters/Pam_Swim, Characters/Pam_Aerobics",
+			"FromFile": "Art/VanillaNPCs/Pam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLPam}}/{{DSV.Core/ConfigValue:PamVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PamVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Pam Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Pam_HotClimate, Characters/Pam_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Pam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLPam}}/{{DSV.Core/ConfigValue:PamVariant}}/Pam_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PamVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Pam Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Pam_Indoor, Characters/Pam_Indoor",
+			"FromFile": "Art/VanillaNPCs/Pam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLPam}}/{{DSV.Core/ConfigValue:PamVariant}}/Pam_{{season}}_{{RandomPamToken}}_Base.png"
+		},
+		{
+			"LogName": "Pam Bus Uniform",
+			"Action": "EditImage",
+			"Target": "Portraits/Pam_Bus, Characters/Pam_Bus",
+			"FromFile": "Art/VanillaNPCs/Pam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLPam}}/{{DSV.Core/ConfigValue:PamVariant}}/Pam_{{season}}_{{RandomPamToken}}_Rain_Bus.png"
+		},
+		{
+			"LogName": "Pam Flower Dance Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Pam_FlowerDance, Characters/Pam_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Pam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLPam}}/{{DSV.Core/ConfigValue:PamVariant}}/Pam_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true
+			}
+		},	
+		{
+			"LogName": "Pam Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Pam_HotClimate, Characters/Pam_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Pam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLPam}}/{{DSV.Core/ConfigValue:PamVariant}}/Pam_Summer_{{RandomPamToken}}_Sun.png"
+		},
+		{
+			"LogName": "Pam Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Pam_Beach, Characters/Pam_Beach",
+			"FromFile": "Art/VanillaNPCs/Pam/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLPam}}/{{DSV.Core/ConfigValue:PamVariant}}/Pam_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Pam Hug Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Penny, Characters/Penny_Indoor",
+			"FromFile": "Art/VanillaNPCs/Pam/{{TargetPathOnly}}/HugOverlay/{{DSV.Core/ConfigValue:PamVariant}}/Pam_{{season}}_{{RandomPamToken}}_Base_Overlay.png",
+			"PatchMode": "Overlay"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Pam Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Pam/Misc/Pam_Emoji_Modded.png",
+			"ToArea": {"X": 36, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:PamVariant|contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Pam Bus Cursors",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Art/VanillaNPCs/Pam/Misc/BusDrive/{{DSV.Core/ConfigValue:PamVariant}}/Pam_{{season}}_{{RandomPamToken}}_Base.png",
+			"ToArea": { "X": 384, "Y": 1311, "Width": 15, "Height": 19 }
+	   },
+	   
+// MISCELLANEOUS OVERLAYS
+	
+		{
+			"LogName": "Pam Alcohol Flush Overlays",
+			"Action": "EditImage",
+			"Target": "Portraits/Pam_Indoor",
+			"FromFile": "Art/VanillaNPCs/{{TargetWithoutPath}}/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLPam}}/Pam_{{PamDrinkToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+
+// MERMAID PENDANTS
+		{
+			"LogName": "Pam Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Pam_Indoor, Portraits/Pam_EggFestival, Portraits/Pam_FlowerDance, Portraits/Pam_Luau, Portraits/Pam_MoonlightJellies, Portraits/Pam_SVFair",
+			"FromFile": "Art/VanillaNPCs/Pam/Misc/MermaidPendants/Pam_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Pam |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Pam Pendants - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Pam_Beach, Portraits/Pam_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Pam/Misc/MermaidPendants/Pam_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Pam |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+	]
+}

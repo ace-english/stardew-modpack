@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] Undercut Hairstyles galore!",
+  "Author": "Inmognito",
+  "Version": "1.1.0
+  "Description": "Modifies a number of vanilla hairstyles to add undercuts to them",
+  "UniqueID": "Inmognito.Undercut",
+  "UpdateKeys": [ "Nexus:11480" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

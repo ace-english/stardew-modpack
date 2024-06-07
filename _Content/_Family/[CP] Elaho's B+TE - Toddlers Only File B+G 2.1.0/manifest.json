@@ -1,0 +1,12 @@
+{
+   "Name": "Elaho's Toddlers Expanded: Brother and Sister",
+   "Author": "Elaho",
+   "Version": "2.1.0",
+   "Description": "Changes toddler sprites based on player config choices, including race, genetics, and spouse/player personality.",
+   "UniqueID": "Elaho.ToddlersExpandedBrotherandSister",
+   "MinimumApiVersion": "2.8",
+   "UpdateKeys": [ "Nexus:10411" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

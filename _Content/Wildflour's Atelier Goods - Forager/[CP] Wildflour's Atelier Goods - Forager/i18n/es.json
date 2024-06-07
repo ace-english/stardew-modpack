@@ -1,0 +1,598 @@
+{
+
+	//SEEDS
+
+	"ateliercrops_vanillaseeds.name": "Kit de Vainilla de Calico",
+	"ateliercrops_vanillaseeds.description": "Plántalo en verano. Tarda 14 días en crecer y siguen produciendo tras la primera cosecha cada 5 días",
+
+	"ateliercrops_chamomileseeds.name": "Semillas de Camomila del bosque",
+	"ateliercrops_chamomileseeds.description": "Plántalas en primavera o verano. Tarda 5 días en crecer.",
+
+	"ateliercrops_lavenderseeds.name": "Semillas de Lavanda del bosque",
+	"ateliercrops_lavenderseeds.description": "Plántalas en primavera, verano u otoño. Tarda 14 días en crecer y siguen produciendo tras la primera cosecha cada 4 días.",
+
+	"ateliercrops_jasmineseeds.name": "Semillas de Jazmín de Isla Gema",
+	"ateliercrops_jasmineseeds.description": "Plántalas en verano. Tarda 14 días en crecer y siguen produciendo tras la primera cosecha cada 5 días.",
+
+	"ateliercrops_mallowseeds.name": "Semillas de Bismalvas",
+	"ateliercrops_mallowseeds.description": "Plántalas en primavera o verano. Tarda 8 días en madurar y siguen produciendo tras la primera cosecha cada 4 días.",
+
+	"ateliercrops_mintseeds.name": "Semillas de Menta peliquense",
+	"ateliercrops_mintseeds.description": "Plántalas en primavera o verano. Tarda 12 días en crecer y siguen produciendo tras la primera cosecha cada 3 días.",
+
+	"ateliercrops_redonionseeds.name": "Semillas de Cebolla roja silvestre",
+	"ateliercrops_redonionseeds.description": "Plántalas en primavera u otoño. Tarda 7 días en crecer.",
+
+	"ateliercrops_strawberryseeds.name": "Kit de Arbusto de fresas silvestres",
+	"ateliercrops_strawberryseeds.description": "Plántalo en primavera. Tarda 12 días en crecer y siguen produciendo tras la primera cosecha cada 3 días.",
+
+	"ateliercrops_raspberryseeds.name": "Kit de Arbusto de frambuesas silvestres",
+	"ateliercrops_raspberryseeds.description": "Plántalo en verano. Tarda 10 días en crecer y siguen produciendo tras la primera cosecha cada 4 días.",
+
+	"ateliercrops_wormwoodseeds.name": "Semillas de Ajenjo",
+	"ateliercrops_wormwoodseeds.description": "Plántalas en verano. Tarda 10 días en crecer y siguen produciendo tras la primera cosecha cada 3 días.",
+
+	//HERB SEEDS
+
+	"ateliercrops_basilseeds.name": "Semillas de Albahaca dulce",
+	"ateliercrops_basilseeds.description": "Plántalas en verano. Tarda 14 días en crecer y siguen produciendo tras la primera cosecha cada 3 días.",
+	
+	"ateliercrops_cilantroseeds.name": "Semillas de Cilantro del Bosque Tizón",
+	"ateliercrops_cilantroseeds.description": "Plántalas en primavera. Tarda 7 días en crecer y siguen produciendo tras la primera cosecha cada 5 días.",
+	
+	"ateliercrops_rosemaryseeds.name": "Semillas de Romero rastrero",
+	"ateliercrops_rosemaryseeds.description": "Plántalas en primavera u otoño. Tardan 14 días en madurar, y siguen produciendo tras la primera cosecha cada 4 días.",
+	
+	"ateliercrops_sageseeds.name": "Semillas de Salvia del Bosque Tizón",
+	"ateliercrops_sageseeds.description": "Plántalas en otoño. Tardan 12 días en madurar, y siguen produciendo tras la primera cosecha cada 5 días.",
+	
+	"ateliercrops_thymeseeds.name": "Semillas de Tomillo limonero",
+	"ateliercrops_thymeseeds.description": "Plántalas en primavera o verano. Tardan 12 días en madurar, y siguen produciendo tras la primera cosecha cada 5 días.",
+
+	"ateliercrops_gentianroot.name": "Raíz de genciana",
+	"ateliercrops_gentianroot.description": "Una raíz que crece en terrenos alpinos y se utiliza a menudo como saborizante en bitters y otras bebidas.",
+
+	"ateliercrops_wormwood.name": "Ajenjo",
+	"ateliercrops_wormwood.description": "Conocido a menudo por ser uno de los ingredientes principales de la absenta, esta hierba tiene una gran variedad de usos.",
+
+	// MUSHROOM STARTERS
+
+    "ateliercrops_chickenwoodsseeds.name":"Kit de Pollo del bosque",
+    "ateliercrops_chickenwoodsseeds.description":"Plántalo en verano. Tarda 14 días en madurar, y sigue produciendo tras la primera cosecha cada 5 días.",
+
+    "ateliercrops_honeyfungusseeds.name":"Kit de Hongos de miel",
+    "ateliercrops_honeyfungusseeds.description":"Plántalo en primavera. Tarda 21 días en madurar, y sigue produciendo tras la primera cosecha cada 3 días.",
+
+    "ateliercrops_meringueshroomseeds.name":"Kit de Champiñón de merengue",
+    "ateliercrops_meringueshroomseeds.description":"Plántalo en otoño. Tarda 16 días en madurar, y sigue produciendo tras la primera cosecha cada 3 días.",
+
+    "ateliercrops_milkshroomseeds.name":"Kit de Champiñones blancos",
+    "ateliercrops_milkshroomseeds.description":"Plántalo en verano u otoño. Tarda 14 días en madurar, y sigue produciendo tras la primera cosecha cada 5 días.",
+
+    "ateliercrops_wheatshroomseeds.name":"Kit de Champiñón integral",
+    "ateliercrops_wheatshroomseeds.description":"Plántalo en otoño. Tarda 12 días en madurar, y sigue produciendo tras la primera cosecha cada 4 días.",
+	
+	//HERBS
+	
+	"ateliercrops_basil.name": "Albahaca dulce",
+	"ateliercrops_basil.description": "Una variedad dulce de la tan popular hierba aromática. Muy usada en la cocina tradicional por su color y sabor.",
+	
+	"ateliercrops_cilantro.name": "Cilantro del Bosque Tizón",
+	"ateliercrops_cilantro.description": "Una variedad silvestre de cilantro (también conocido como 'coriandro') que suele usarse en platos picantes o salsas.",
+	
+	"ateliercrops_sage.name": "Salvia del Bosque Tizón",
+	"ateliercrops_sage.description": "Una delicada hierba aromática con notas florales utilizada para acentuar el sabor de muchos platos otoñales.",
+	
+	"ateliercrops_rosemary.name": "Romero rastrero",
+	"ateliercrops_rosemary.description": "Esta hierba aromática es tan resistente que sobrevive en casi cualquier sitio. Parece un pino en miniatura.",
+	
+	"ateliercrops_thyme.name": "Tomillo limonero",
+	"ateliercrops_thyme.description": "Una conocida hierba aromática que crece rápidamente en cualquier jardín. La variedad limonera es apreciada por su sabor cítrico y herbáceo.",
+
+	"ateliercrops_anise.name": "Anís estrellado",
+	"ateliercrops_anise.description": "Aunque es una hierba común en muchas cocinas tradicionales, el anís estrellado también tiene muchas propiedades mágicas y puede utilizarse para conseguir visiones proféticas.",
+
+	
+	//TREES NEW
+
+	"ateliercrops_lemonsapling.name":"Brote de Minilimonero",
+	"ateliercrops_lemonsapling.description":"Tarda 28 días en producir un minilimonero maduro. Da frutos en primavera.",
+	
+	"ateliercrops_limesapling.name":"Brote de Árbol de minilima",
+	"ateliercrops_limesapling.description":"Tarda 28 días en producir un árbol de minilima maduro. Da frutos en primavera.",
+
+	"ateliercrops_anise_sapling.name": "Brote de Anís estrellado",
+	"ateliercrops_anise_sapling.description": "Tarda 28 días en producir un árbol de anís estrellado maduro. Listo para cosechar en primavera. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+	"ateliercrops_elder_sapling.name": "Brote de saúco",
+	"ateliercrops_elder_sapling.description": "Tarda 28 días en producir un saúco maduro. Listo para cosechar en verano. Sólo crece si las 8 casillas alrededor están vacías.",
+
+	//TREES
+
+	"ateliercrops_pistachiosapling.name": "Brote de pistachero de Calico",
+	"ateliercrops_pistachiosapling.description": "Tarda 28 días en producir un pistachero de Calico adulto. Da frutos en verano y otoño.",
+
+	"ateliercrops_cinnamonsapling.name": "Brote de canelo del Bosque Tizón",
+	"ateliercrops_cinnamonsapling.description": "Tarda 28 días en producir un canelo del Bosque Tizón adulto. Puede cosecharse su corteza en invierno.",
+
+	"ateliercrops_olivesapling.name": "Brote de Oliva de Islas Helecho",
+	"ateliercrops_olivesapling.description": "Tarda 28 días en producir un olivo de las Islas Helecho adulto. Da frutos en verano.",
+
+	"ateliercrops_cashewsapling.name": "Brote de Anacardo del Mar de Gema",
+	"ateliercrops_cashewsapling.description": "Tarda 28 días en producir un anacardo del Mar de Gema adulto. Da frutos en otoño.",
+
+	"ateliercrops_walnutsapling.name": "Brote de Nuez de Grampleton",
+	"ateliercrops_walnutsapling.description": "Tarda 28 días en producir un nogal de Grampleton adulto. Da frutos en otoño.",
+
+	"ateliercrops_almondsapling.name": "Brote de Almendra de San Cannoli",
+	"ateliercrops_almondsapling.description": "Tarda 28 días en producir un almendro de San Cannoli adulto. Da frutos en primavera y otoño.",
+
+	"ateliercrops_cacaopodsapling.name": "Brote de Cacao silvestre",
+	"ateliercrops_cacaopodsapling.description": "Tarda 28 días en producir un árbol de cacao adulto. Da frutos en otoño.",
+
+	//OBJECTS
+
+	"ateliercrops_pistachio.name":"Pistacho de Calico",
+	"ateliercrops_pistachio.description":"Una variedad de pistacho única que solo encuentra en el Desierto de Calico.",
+
+	"ateliercrops_vanilla.name": "Vainilla de Calico",
+	"ateliercrops_vanilla.description": "Una variedad de vainilla única que solo encuentra en el Desierto de Calico.",
+
+	"ateliercrops_cherryblossoms.name": "Pétalos de cerezo",
+	"ateliercrops_cherryblossoms.description": "Petalos recién caídos de los cerezos",
+
+	"ateliercrops_chickenwoods.name": "Pollo del bosque",
+	"ateliercrops_chickenwoods.description": "Este champiñón de nombre tan extraño se encuentra por todo el mundo, ¡y algunas personas dicen que, como su nombre indica, sabe a pollo!",
+	
+	"ateliercrops_cinnamon.name": "Canela del Bosque Tizón",
+	"ateliercrops_cinnamon.description": "Inusual canela en rama que solo puede encontrarse en el Bosque Tizón en invierno.",
+	
+	"ateliercrops_olive.name": "Oliva de Islas Helecho",
+	"ateliercrops_olive.description": "Un tipo de oliva bastante particular encontrada por profesionales en las playas de las islas tropicales de la República de Ferngill.",
+	
+	"ateliercrops_chamomile.name": "Camomila forestal",
+	"ateliercrops_chamomile.description": "Una delicada flor que se encuentra en las profundidades del bosque. Perfecta para hacer infusiones.",
+	
+	"ateliercrops_lavender.name": "Lavanda forestal",
+	"ateliercrops_lavender.description": "Una fragante y exuberante flor que se encuentra en las profundidades del bosque.",
+
+	"ateliercrops_jasmine.name": "Jazmín de Isla Gema",
+	"ateliercrops_jasmine.description": "Una hermosa y aromática flor que solo encuentra en Isla Jengibre.",
+	
+	"ateliercrops_cashew.name": "Anacardo del Mar de Gema",
+	"ateliercrops_cashew.description": "El fruto del anacardo, un árbol tropical. Solo se encuentra en las islas del Mar de Gema.",
+	
+	"ateliercrops_walnut.name": "Nuez de Grampleton",
+	"ateliercrops_walnut.description": "Una variedad de nuez que es autóctona de Grampleton, ¡y parece que ahora también de Pueblo Pelícano!",
+
+	"ateliercrops_honeyfungus.name": "Hongos de miel",
+	"ateliercrops_honeyfungus.description": "Es peligroso comerse estos hongos crudos, pero al cocinarlos debidamente adquieren un intenso sabor a nuez.",	
+	
+	"ateliercrops_mallow.name": "Bismalvas",
+	"ateliercrops_mallow.description": "También se las conoce como 'malvaviscos'. Suelen utilizarse en la elaboración de golosinas.",
+
+	"ateliercrops_meringueshroom.name": "Champiñón de merengue",
+	"ateliercrops_meringueshroom.description": "Un champiñón que curiosamente tiene un sabor dulce, y cuyo color y forma hacen que parezca un caramelo. Solo quienes tengan bastante experiencia podrán encontrarlo.",
+	
+	"ateliercrops_milkshroom.name": "Champiñones blancos",
+	"ateliercrops_milkshroom.description": "Estos champiñones son de un intenso color blanco y tienen una textura cremosa.",
+
+	"ateliercrops_mint.name": "Menta peliquense",
+	"ateliercrops_mint.description": "Un tipo de menta que crece por todo Pueblo Pelícano, sin importar los múltiples intentos de deshacerse de ella.",
+	
+	"ateliercrops_lemon.name": "Minilimón",
+	"ateliercrops_lemon.description": "Un limón pequeño pero lleno de sabor que solo puede ser encontrado por profesionales en parajes agrestes.",
+
+	"ateliercrops_lime.name": "Minilima",
+	"ateliercrops_lime.description": "Una lima pequeña pero llena de sabor que solo puede ser encontrada por profesionales en parajes agrestes.",
+	
+    "ateliercrops_almond.name": "Almendra de San Cannoli",
+	"ateliercrops_almond.description": "¡Un sueño hecho realidad! La más rara de las variedades de almendra que existen. Se dice que el propio viejo maestro Cannoli las cultivaba.",
+	
+	"ateliercrops_wheatshroom.name": "Champiñón integral",
+	"ateliercrops_wheatshroom.description": "Un champiñón de aspecto ordinario para quienes no tienen experiencia en la materia. Sin embargo, este hongo puede llegar a ser el ingrediente clave de muchas recetas.",
+
+	"ateliercrops_cacaopod.name": "Vaina de cacao silvestre",
+	"ateliercrops_cacaopod.description": "La carnosa y afrutada vaina que produce el árbol del cacao. Se utiliza en la elaboración de cacao y como ingrediente en platos exóticos.",
+	
+	"ateliercrops_raspberry.name": "Frambuesa silvestre",
+	"ateliercrops_raspberry.description": "Una pequeña y dulce baya silvestre que crece en los bosques de Ferngill.",
+	
+	"ateliercrops_redonion.name": "Cebolla roja silvestre",
+	"ateliercrops_redonion.description": "Al igual que con las zanahorias silvestres, ten cuidado con esta variedad de cebolla, ¡o te hará llorar!",
+	
+	"ateliercrops_strawberry.name": "Fresa silvestre",
+	"ateliercrops_strawberry.description": "Una variedad de fresa más pequeña de lo normal y silvestre que crece en los bosques de Ferngill.",
+
+	
+	"ateliercrops_elderberries.name": "Flores de saúco",
+	"ateliercrops_elderberries.description": "Un racimo de bayas de saúco y sus flores; con ellas se hace un té o un brebaje estupendo.",
+
+	
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+	"ateliercrops_SO_1.name":"Sueños de Calico",
+	"ateliercrops_SO_1.text":"He oído hablar de una orquídea que sólo florece en el Desierto de Calico durante ciertas estaciones. ¿Alguien puede traerme unas cuantas para que las seque y las guarde en mi tienda de campaña?",
+	"ateliercrops_SO_1.deliver":"Entrega 3 Vainillas de Calico a Linus.",
+	"ateliercrops_SO_1.accept":"Oh, cómo adoro el Desierto de Calico. Después de secar estas orquídeas, siempre podré disfrutar de un pedacito del desierto aquí mismo en casa.",
+
+	"ateliercrops_SO_2.name":"Una fanega y un cuarto",
+	"ateliercrops_SO_2.text":"Me he quedado sin bayas y quiero hacer desesperadamente una tarta de chocolate y bayas. ¿Alguien puede ayudarme?",
+	"ateliercrops_SO_2a.deliver":"Deposita 4 fresas silvestres en el buzón de la cabaña de Leah.",
+	"ateliercrops_SO_2b.deliver":"Deposita 4 frambuesas silvestres en el buzón de la cabaña de Leah.",
+
+	"ateliercrops_SO_3.name":"Sabor a pollo",
+	"ateliercrops_SO_3.text":"Científico necesitado de varios champiñones para averiguar las mejores opciones para reemplazar la carne en el valle.",
+	"ateliercrops_SO_3.deliver":"Deposita 15 champiñones en el buzón del laboratorio de Demetrius.",
+
+	"ateliercrops_SO_4.name":"Florecer en el desierto",
+	"ateliercrops_SO_4.text":"El desierto es bonito a su manera, pero echo de menos algunas de esas flores silvestres del bosque que sólo florecen en el valle. ¿Puede alguien traerme algunas?",
+	"ateliercrops_SO_4a.deliver":"Deposita 5 lavandas forestales en el buzón de la tienda de Sandy.",
+	"ateliercrops_SO_4b.deliver":"Deposita 5 camomilas forestales en el buzón de la tienda de Sandy.",
+
+	"ateliercrops_SO_5.name":"Desafío del Maestro Recolector",
+	"ateliercrops_SO_5.text":"Es esa época del año otra vez, ¡Las solicitudes anuales para el puesto de Maestro Recolector están abiertas! Envíanos tu mejor recolección y averigua si puedes ganar el gran premio.",
+	"ateliercrops_SO_5.ship":"Envía 100 forrajes de calidad oro.",
+
+	"ateliercrops_SO_6.name":"Champiñones para Maru",
+	"ateliercrops_SO_6.text":"Necesito champiñones frescos para un experimento, pero estoy muy ocupada en la clínica. ¿De casualidad alguien tiene de sobra que me pueda compartir?",
+	"ateliercrops_SO_6.deliver":"Entrega 5 champiñones silvestres a Maru.",
+	"ateliercrops_SO_6.accept":"¡Son perfectos! Muchas gracias, me has ahorrado mucho trabajo buscándolos.",
+
+	"ateliercrops_SO_7.name":"Frutas para Gus",
+	"ateliercrops_SO_7.text":"Mi cargamento de fruta fresca no ha llegado y tengo que preparar cócteles para el salón. ¿Qué voy a hacer ahora?",
+	"ateliercrops_SO_7.deliver":"Entrega 6 frutas silvestres a Gus.",
+	"ateliercrops_SO_7.accept":"¡Mis cócteles quedarán fuera de este mundo con estas encantadoras frutas! Gracias de nuevo.",
+
+	"ateliercrops_SO_8.name":"Hierbas para Evelyn",
+	"ateliercrops_SO_8.text":"¡Me he quedado sin hierbas y las necesito para cocinar! ¿Alguien me puede ayudar?",
+	"ateliercrops_SO_8.deliver":"Entrega 8 hierbas silvestres a Evelyn.",
+	"ateliercrops_SO_8.accept":"¡Cocinar con hierbas es esencial! Gracias por traerme éstas.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+	"ateliercrops_SO2_reward.title": "Gracias",
+	"ateliercrops_SO2_reward.text": "¡Estas bayas son perfectas para mi tarta! Muchas gracias por encontrarlas por mí.^^-Leah",
+	
+	"ateliercrops_SO3_reward.title": "¡Una nota de agradecimiento y algunos kits de champiñones!",
+	"ateliercrops_SO3_reward.text": "Querido/a @ ^^ Gracias a ti, ¡estoy un paso más cerca de encontrar la fuente de proteína vegana perfecta! Realmente aprecio tu ayuda con la búsqueda de estos para mí.^^-Demetrius",
+	
+	"ateliercrops_SO4_reward.title": "¡Una nota de agradecimiento y MÁS kits de champiñones!",
+	"ateliercrops_SO4_reward.text": "Son justo lo que estaba buscando. ¡Voy a plancharlos en mi diario ahora mismo!^^-Sandy",
+	
+	"ateliercrops_SO5_reward.title": "¡¡Felicidades!!",
+	"ateliercrops_SO5_reward.text": "Tu dedicación es impresionante. Estamos orgullosos de ofrecerte el título de Maestro Recolector. Por favor, toma esto como recompensa.",
+
+
+///////////////////////////////
+// FAERIE GARDEN TRANSLATION //
+///////////////////////////////
+
+//MUSHROOMS
+
+"ateliercrops_dawn_trumpet.name":"Trompeta del alba",
+"ateliercrops_dawn_trumpet.description":"Un misterioso cúmulo de champiñones que crece en las horas próximas al amanecer.",
+
+"ateliercrops_dusk_cap.name":"sombrero crepuscular",
+"ateliercrops_dusk_cap.description":"Un champiñón ominoso y viscoso que sólo aparece cuando se pone el sol.",
+
+"ateliercrops_giant_amanita.name":"Amanita gigante",
+"ateliercrops_giant_amanita.description":"Un champiñón venenoso inusualmente grande.",
+
+"ateliercrops_amanita_cluster.name":"Cúmulo de Amanitas",
+"ateliercrops_amanita_cluster.description":"Champiñones venenosos que crecen en pequeños cúmulos. Útiles para elaborar ciertas pociones, pero mortales si se ingieren directamente.",
+
+"ateliercrops_golden_aura.name":"Aura dorada",
+"ateliercrops_golden_aura.description":"Una impresionante champiñon dorado, utilizado a menudo en brebajes mágicos.",
+
+"ateliercrops_moon_mushroom.name":"Champiluna",
+"ateliercrops_moon_mushroom.description":"Una variedad de champiñón en forma de globo que se parece inquietantemente a la luna llena.",
+
+"ateliercrops_gloomy_blewit.name":"Blewit sombrío",
+"ateliercrops_gloomy_blewit.description":"Un champiñón oscuro y extraño que aparece durante tormentas.",
+
+"ateliercrops_tiny_angels.name":"Angelitos",
+"ateliercrops_tiny_angels.description":"A diferencia de su primo lejano, el ángel destructor, ¡estos pequeños champiñones son comestibles y van bien en ensaladas!",
+
+"ateliercrops_verdigris_agaric.name":"Verdigris Agaric",
+"ateliercrops_verdigris_agaric.description":"Impresionante champiñón verde azulado, a menudo ingerido por sus propiedades alucinógenas. Puede ser venenoso en grandes cantidades.",
+
+"ateliercrops_faerie_helmets.name":"Cascos de hada",
+"ateliercrops_faerie_helmets.description":"Debido a su diminuto tamaño y a su forma de sombrero, ¡también se conocen como 'bonetes de hadas'!",
+
+"ateliercrops_blush_cap.name":"Sombrero de baba ruborizada",
+"ateliercrops_blush_cap.description":"Un champiñón muy venenoso, ¡sólo debe ser recogido por brujas o recolectores extremadamente hábiles!",
+
+"ateliercrops_peach_parasol.name":"Sombrilla de melocotón",
+"ateliercrops_peach_parasol.description":"Un extraño champiñón rosado. Se rumorea que alguna vez se usaron para hacer tintes pigmentados para ropa y cosméticos.",
+
+//FLOWERS
+
+"ateliercrops_geranium.name": "Geranio ángel",
+"ateliercrops_geranium.description": "Una variedad frondosa de geranio, reconocida por sus colores deslumbrantes.",
+
+"ateliercrops_arctic_fox.name": "Zorro ártico",
+"ateliercrops_arctic_fox.description": "Una variedad poco común de la dedalera. Es altamente venenosa.",
+
+"ateliercrops_avalune.name": "Avaluna",
+"ateliercrops_avalune.description": "Una variedad increíblemente vibrante de flor de lupina. Es un buen regalo para las hadas.",
+
+"ateliercrops_chiffon.name": "Chifón azul",
+"ateliercrops_chiffon.description": "Una variedad muy azul de peonía.",
+
+"ateliercrops_daisy.name": "Margarita enredadera",
+"ateliercrops_daisy.description": "Aunque a menudo se pasa por alto como una flor común, muchas partes de la margarita común pueden utilizarse en la cocina, en la medicina... y en la magia.",
+
+"ateliercrops_dawn_lily.name": "Lirio de amanecer",
+"ateliercrops_dawn_lily.description": "De la misma familia del 'lirio de día', este cultivo es muy poco común y solo florece cuando amanece. Se dice que solo prospera en lugares con gran concentración de energía espiritual.",
+
+"ateliercrops_dusk_lily.name": "Lirio de atardecer",
+"ateliercrops_dusk_lily.description": "De la misma familia del 'lirio de día', este cultivo es muy poco común y solo florece cuando se oculta el sol. Se dice que solo prospera en lugares con gran concentración de energía espiritual.",
+
+"ateliercrops_puffball.name": "Pelusita de hada",
+"ateliercrops_puffball.description": "Esta flor es tan suave como una nube; quizás por eso se asocia con las hadas y sus magias etéreas.",
+
+"ateliercrops_violet.name": "Violeta de pradera",
+"ateliercrops_violet.description": "Una violeta tipo enredadera que se propaga rápidamente, cubriendo praderas enteras en tonos violáceos.",
+
+"ateliercrops_maiden.name": "Dama de luna",
+"ateliercrops_maiden.description": "Se rumorea que esta delicada flor fue un regalo para los humanos de las hadas buenas para recibir la primavera.",
+
+"ateliercrops_pixies_breath.name": "Aliento de pixie",
+"ateliercrops_pixies_breath.description": "Como el aliento de bebé, pero un poquitito más mágico.",
+
+"ateliercrops_primrose.name": "Prímula de cuarzo",
+"ateliercrops_primrose.description": "Una variedad de rosa enana que crece bien en un enrejado. Apreciadas tanto por su color como por su fragancia, las flores te recuerdan a una gema de cuarzo rosa.",
+
+"ateliercrops_cake_blossom.name":"Flor de pastel",
+"ateliercrops_cake_blossom.description":"Una flor dorada con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a un pastel de cumpleaños.",
+
+"ateliercrops_caramel_blossom.name":"Flor de caramelo",
+"ateliercrops_caramel_blossom.description":"Un trío de flores con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a la azúcar morena.",
+
+"ateliercrops_creamsicle_blossom.name":"Flor cremosa",
+"ateliercrops_creamsicle_blossom.description":"Una flor anaranjada con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a un pastel de cumpleaños.",
+
+"ateliercrops_custard_blossom.name":"Flor de natilla",
+"ateliercrops_custard_blossom.description":"Una flor blanca con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a granos de vainilla.",
+
+"ateliercrops_gumdrop_blossom.name":"Flor de gominola",
+"ateliercrops_gumdrop_blossom.description":"Un trío de flores con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a caramelos con sabor a fruta.",
+
+"ateliercrops_macaron_blossom.name":"Flor de macarrón",
+"ateliercrops_macaron_blossom.description":"Una flor violeta con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a macarrón de lavanda.",
+
+"ateliercrops_pie_blossom.name":"Flor de pie",
+"ateliercrops_pie_blossom.description":"Una flor azul con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a un pie de arándanos.",
+
+"ateliercrops_shortcake_blossom.name":"Flor de tarta de fresa",
+"ateliercrops_shortcake_blossom.description":"Una flor rosa con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a dulces fresas veraniegas.",
+
+"ateliercrops_sprinkle_blossom.name":"Flor de chispitas",
+"ateliercrops_sprinkle_blossom.description":"Una flor rosa con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a chispitas arcoíris.",
+
+"ateliercrops_sugar_blossom.name":"Flor de azúcar",
+"ateliercrops_sugar_blossom.description":"Una flor rosa con un aroma extrañamente dulce. Apreciada por los pixies por su sabor; te recuerda a un pastel de cumpleaños.",
+
+"ateliercrops_mysteria.name":"Mysteria",
+"ateliercrops_mysteria.description":"Una variedad rara y muy apreciada de glicina. Altamente venenosa, pero amada por muchos por su fragancia y supuestas propiedades mágicas.",
+
+//FRUITS
+
+"ateliercrops_amber_moondrop.name": "Gota de luna ámbar",
+"ateliercrops_amber_moondrop.description": "Una hermosa y rara variedad de uva dorada, que se dice que fue cultivada originalmente por las hadas de la República de Ferngill.",
+
+"ateliercrops_apple.name": "Manzana ambrosía",
+"ateliercrops_apple.description": "Una manzana verde brillante, tan dulce que lleva el nombre del néctar de los dioses.",
+
+"ateliercrops_orange.name": "Naranja roja",
+"ateliercrops_orange.description": "Una rara variedad de fruta cítrica.",
+
+"ateliercrops_pomegranate.name": "Granada siempre-dulce",
+"ateliercrops_pomegranate.description": "Una granada de tonos vibrantes envuelta en misterio. Se rumorea que esta fruta siempre es jugosa y dulce, independientemente de cuándo se recoja.",
+
+"ateliercrops_jade_moondrop.name": "Gota de luna jade",
+"ateliercrops_jade_moondrop.description": "Una hermosa y rara variedad de uva verde, que se dice que fue cultivada originalmente por las hadas de la República de Ferngill.",
+
+"ateliercrops_banana.name": "Plátano dedo de dama",
+"ateliercrops_banana.description": "Una variedad de plátano larga y delicada, que se dice que es mucho más dulce que los plátanos tradicionales.",
+
+"ateliercrops_lapis_moondrop.name": "Gota de luna lapislázuli",
+"ateliercrops_lapis_moondrop.description": "Una hermosa y rara variedad de uva azul, que se dice que fue cultivada originalmente por las hadas de la República de Ferngill.",
+
+"ateliercrops_apricot.name": "Albaricoque dorado lunar",
+"ateliercrops_apricot.description": "Un albaricoque pálido con pulpa dorada, se dice que es la fruta favorita de las deidades lunares.",
+
+"ateliercrops_pearl_moondrop.name": "Gota de luna perlada",
+"ateliercrops_pearl_moondrop.description": "Una hermosa y rara variedad de uva blanca, que se dice que fue cultivada originalmente por las hadas de la República de Ferngill.",
+
+"ateliercrops_peach.name": "Snow Beauty Peach",
+"ateliercrops_peach.description": "A rare and delicate peach; said to be the favorite fruit of a certain princess from ancient folklore.",
+
+"ateliercrops_cherry.name": "Cereza meteoro-agrío",
+"ateliercrops_cherry.description": "Aunque parece una cereza común, esta variedad sabe extrañamente más a caramelo agrío que a fruta.",
+
+"ateliercrops_mango.name": "Mango al atardecer",
+"ateliercrops_mango.description": "Un delicado mango madurado bajo el sol poniente.",
+
+//HERBS
+
+"ateliercrops_rose_flax.name":"Lino rosa",
+"ateliercrops_rose_flax.description":"Un grano de hermoso color rosado. Produce una preciada harina especial cuando se muele.",
+
+"ateliercrops_mugwort.name": "Artemisa",
+"ateliercrops_mugwort.description": "Miembro de la familia de las margaritas, esta planta es cultivada por brujas por sus propiedades de ensueño y adivinación.",
+
+"ateliercrops_violet_flax.name":"Lino violeta",
+"ateliercrops_violet_flax.description":"Un hermoso grano de color violeta. Produce una preciada harina especial cuando se muele.",
+
+"ateliercrops_thistle.name": "Cardo",
+"ateliercrops_thistle.description": "Planta común con flores, a menudo considerada una mala hierba por los humanos, pero apreciada por las brujas por sus propiedades curativas espirituales.",
+
+"ateliercrops_valerian.name": "Valeriana",
+"ateliercrops_valerian.description": "Una hierba que se usa a menudo para hacer tés que inducen el sueño, también se puede usar para protegerse de los rayos y las inundaciones.",
+
+"ateliercrops_yarrow.name":"Milenrama",
+"ateliercrops_yarrow.description":"También conocida como Ortiga del Diablo, la milenrama ha sido utilizada por brujas sabias y recolectores para aliviar los calambres estomacales durante siglos.",
+
+//FEATHERS
+
+"ateliercrops_bluebird_feather.name": "Pluma de azulejo de montaña",
+"ateliercrops_bluebird_feather.description": "La brillante pluma azul de un azulejo de la montaña local.",
+
+"ateliercrops_crow_feather.name": "Pluma de corneja",
+"ateliercrops_crow_feather.description": "Esta pluma es tan negra como el cielo nocturno.",
+
+"ateliercrops_lovebird_feather.name": "Pluma de pájaro del amor",
+"ateliercrops_lovebird_feather.description": "La pluma multicolor de un agapornis.",
+
+"ateliercrops_owl_feather.name": "Pluma de búho nival",
+"ateliercrops_owl_feather.description": "Una majestuosa pluma blanca de un gran búho nival.",
+
+"ateliercrops_phoenix_feather.name": "Pluma de fénix",
+"ateliercrops_phoenix_feather.description": "Una impresionante pluma carmesí de un fénix, que probablemente perdió durante su transformación.",
+
+"ateliercrops_raven_feather.name": "Pluma de cuervo",
+"ateliercrops_raven_feather.description": "La oscura pluma negra-violeta de un cuervo, un gran hallazgo para un alquimista o brujo de seto.",
+
+"ateliercrops_rosefinch_feather.name": "Pluma de pinzón rosa",
+"ateliercrops_rosefinch_feather.description": "Una pluma rosa brillante de un pinzón rosa.",
+
+"ateliercrops_starling_feather.name": "Pluma de estornino violeta",
+"ateliercrops_starling_feather.description": "Los estorninos de lomo violeta son casi del mismo color que el iridio y, como tales, sus plumas son tesoros preciados entre los recolectores.",
+
+//FORAGE
+
+"ateliercrops_fire_dragon_scale.name": "Escama de dragón ardiente",
+"ateliercrops_fire_dragon_scale.description": "Una brillante escama de dragón que se ha desprendido de un mítico dragón de fuego.",
+
+"ateliercrops_clover.name": "Suerte oculta",
+"ateliercrops_clover.description": "Un raro trébol de cuatro hojas.",
+
+"ateliercrops_mandrake.name": "Raíz de mandrágora",
+"ateliercrops_mandrake.description": "¿Una extraña raíz que parece casi sintiente? La leyenda dice que chilla cuando se arranca de la tierra, así que las brujas sabias llevan tapones para los oídos cuando las buscan..",
+
+"ateliercrops_ice_dragon_scale.name": "Escama de dragón brumoso",
+"ateliercrops_ice_dragon_scale.description": "Una brillante escama de dragón que se ha desprendido de un mítico dragón marino.",
+
+"ateliercrops_shooting_star.name": "Estrella fugaz",
+"ateliercrops_shooting_star.description": "¡Una estrella caída! Un hallazgo verdaderamente raro y glorioso para una bruja o mago recolector.",
+
+"ateliercrops_unicorn_horn.name": "Cuerno de Unicornio",
+"ateliercrops_unicorn_horn.description": "Un cuerno desprendido de un unicornio joven; un hallazgo raro y preciado para cualquier bruja o mago..",
+
+//TREE SAPLINGS
+
+"ateliercrops_chiffon_sapling.name": "Kit de Chifón azul",
+"ateliercrops_chiffon_sapling.description": "Tarda 28 días en producir un enrejado de chifón azul maduro. Listo para cosechar en otoño. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_daisy_sapling.name": "Kit de Margarita enredadera",
+"ateliercrops_daisy_sapling.description": "Tarda 28 días en producir un enrejado de margarita enredadera maduro. Listo para cosechar en primavera. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_dawn_sapling.name": "Kit de Lirio de amanecer",
+"ateliercrops_dawn_sapling.description": "Tarda 28 días en producir un enrejado de lirio de amanecer maduro. Listo para cosechar en verano. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_dusk_sapling.name": "Kit de Lirio de atardecer",
+"ateliercrops_dusk_sapling.description": "Tarda 28 días en producir un enrejado de lirio de atardecer maduro. Listo para cosechar en verano. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_geranium_sapling.name": "Kit de Geranio ángel",
+"ateliercrops_geranium_sapling.description": "Tarda 28 días en producir un enrejado de geranio ángel maduro. Listo para cosechar en otoño. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_primrose_sapling.name": "Kit de Prímula de cuarzo",
+"ateliercrops_primrose_sapling.description": "Tarda 28 días en producir un enrejado de p maduro. Listo para cosechar en otoño. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_violet_sapling.name": "Violeta de pradera",
+"ateliercrops_violet_sapling.description": "Tarda 28 días en producir un enrejado de violeta de pradera maduro. Listo para cosechar en primavera. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_mysteria_sapling.name": "Kit de Mysteria",
+"ateliercrops_mysteria_sapling.description": "Tarda 28 días en producir un enrejado de mysteria maduro. Listo para cosechar en primavera. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+
+//SWEET TREE SAPLINGS
+
+"ateliercrops_pavlova_sapling.name": "Brote de Pavlova",
+"ateliercrops_pavlova_sapling.description": "Tarda 28 días en producir un árbol de pavlova maduro. Listo para cosechar en primavera y verano. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_gelato_sapling.name": "Brote de Gelato",
+"ateliercrops_gelato_sapling.description": "Tarda 28 días en producir un árbol de gelato maduro. Listo para cosechar en verano e invierno. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_souffle_sapling.name": "Brote de Suflé",
+"ateliercrops_souffle_sapling.description": "Tarda 28 días en producir un árbol de suflé maduro. Listo para cosechar en verano y otoño. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_brulee_sapling.name": "Brote de Brûlée",
+"ateliercrops_brulee_sapling.description": "Tarda 28 días en producir un árbol de Brûlée maduro. Listo para cosechar en otoño e invierno. Sólo crece si las 8 casillas de alrededor están vacías.",
+
+"ateliercrops_buttercream_sapling.name": "Brote de Crema de mantequilla",
+"ateliercrops_buttercream_sapling.description": "Tarda 28 días en producir un árbol de crema de mantequilla maduro. Listo para cosechar en primavera y verano. Sólo crece si las 8 casillas de alrededor están vacías",
+
+//MUSHROOM TREES
+
+"ateliercrops_MysticTrumpet_seeds.name":"Semilla de Trompeta mística",
+"ateliercrops_MysticTrumpet_seeds.description":"Una semilla encantada que podría convertirse en una gran árbol de champiñón.",
+
+"ateliercrops_StrangeCap_seeds.name":"Semilla de Sombrero de tinta extraña",
+"ateliercrops_StrangeCap_seeds.description":"Una semilla encantada que podría convertirse en una gran árbol de champiñón.",
+
+"ateliercrops_WitchwoodTree_seeds.name":"Semilla de Árbol de bosque embrujado",
+"ateliercrops_WitchwoodTree_seeds.description":"Una semilla encantada que podría convertirse en una gran árbol de champiñón.",
+
+//FLOWER SEEDS
+
+"ateliercrops_arctic_fox_seeds.name": "Semillas de Llama escarchada",
+"ateliercrops_arctic_fox_seeds.description": "Plántalas en primavera o verano. Tarda 20 días en crecer.",
+
+"ateliercrops_avalune_seeds.name": "Semillas de Avaluna",
+"ateliercrops_avalune_seeds.description": "Plántalas en primavera o verano. Tarda 12 días en crecer.",
+
+"ateliercrops_puffball_seeds.name": "Semillas de Pelusita de hada",
+"ateliercrops_puffball_seeds.description": "Plántalas en primavera. Tarda 12 días en convertirse en una pelusita de hada y siguen produciendo tras la primera cosecha cada 5 días.",
+
+"ateliercrops_maiden_seeds.name": "Semillas de Dama de luna",
+"ateliercrops_maiden_seeds.description": "Plántalas en primavera. Tarda 5 días en crecer.",
+
+"ateliercrops_pixies_breath_seeds.name": "Semillas de Aliento de pixie",
+"ateliercrops_pixies_breath_seeds.description": "Plántalas en otoño. Tarda 14 días en convertirse en aliento de pixie y siguen produciendo tras la primera cosecha cada 3 días.",
+
+//FRUIT SEEDS
+
+"ateliercrops_amber_moondrop_seeds.name": "Kit de Gota de luna ámbar",
+"ateliercrops_amber_moondrop_seeds.description": "Plántalo en primavera o verano. Tarda 21 días en crecer, siguen produciendo tras la primera cosecha cada 4 días.",
+
+"ateliercrops_lapis_moondrop_seeds.name": "Kit de Gota de luna lapislázuli",
+"ateliercrops_lapis_moondrop_seeds.description": "Plántalo en verano u otoño. Tarda 21 días en crecer, siguen produciendo tras la primera cosecha cada 4 días.",
+
+"ateliercrops_jade_moondrop_seeds.name": "Kit de Gota de luna jade",
+"ateliercrops_jade_moondrop_seeds.description": "Plántalo en verano u otoño. Tarda 21 días en crecer, siguen produciendo tras la primera cosecha cada 4 días.",
+
+"ateliercrops_pearl_moondrop_seeds.name": "Kit de Gota de luna perlada",
+"ateliercrops_pearl_moondrop_seeds.description": "Plántalo en invierno para cosecharla en primavera. Tarda 21 días en crecer, siguen produciendo tras la primera cosecha cada 4 días.",
+
+//HERB SEEDS
+
+"ateliercrops_rose_flax_seeds.name": "Semillas de Lino rosa",
+"ateliercrops_rose_flax_seeds.description": "Plántalas en cualquier estación. Tardan 4 días en crecer y debe cosecharse con guadaña.",
+
+"ateliercrops_mandrake_seeds.name": "Semillas de Raíz de mandrágora",
+"ateliercrops_mandrake_seeds.description": "Plántalas en otoño. Toman 10 días para que crezca una raíz de mandrágora madura.",
+
+"ateliercrops_mugwort_seeds.name": "Semillas de Artemisa",
+"ateliercrops_mugwort_seeds.description": "Plántalas en verano u otoño. Tardan 12 días en convertirse en una artemisa y siguen produciendo tras la primera cosecha cada 4 días.",
+
+"ateliercrops_violet_flax_seeds.name": "Lino violeta",
+"ateliercrops_violet_flax_seeds.description": "Plántalas en cualquier estación. Tardan 4 días en crecer y debe cosecharse con guadaña.",
+
+"ateliercrops_thistle_seeds.name": "Semillas de Cardo",
+"ateliercrops_thistle_seeds.description": "Plántalas en verano u otoño. Tardan 10 días en convertirse en un cardo y siguen produciendo tras la primera cosecha cada 5 días.",
+
+"ateliercrops_valerian_seeds.name": "Semillas de Valeriana",
+"ateliercrops_valerian_seeds.description": "Plántalas en verano. Tardan 13 días en convertirse en una valeriana y siguen produciendo tras la primera cosecha cada 5 días.",
+
+"ateliercrops_yarrow_seeds.name": "Semillas de Milenrama",
+"ateliercrops_yarrow_seeds.description": "Plántalas en primavera o verano. Tardan 12 días en crecer."	
+
+
+}

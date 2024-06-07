@@ -1,0 +1,409 @@
+{
+
+// DIALOGUE EDITS
+
+// NO MORE WAR DIALOGUE - JODI
+
+	"Changes": [
+		
+		{
+			"LogName": "NMW Dialogue - Jodi Vanilla",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": 
+			{
+                "2_1": "{{i18n:DSV.DialogueEdit.Jodi.ReligionNMW.Vanilla.2_1}}",
+                "winter_Thu8": "{{i18n:DSV.DialogueEdit.Jodi.ReligionNMW.Vanilla.winter_Thu8}}",
+                "reject_864": "{{i18n:DSV.DialogueEdit.Jodi.ReligionNMW.Vanilla.reject_864}}"
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Jodi Canon-Friendly Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": 
+			{
+                "2_1": "{{i18n:DSV.DialogueEdit.Jodi.ReligionNMW.CanonFriendlyDialogue.2_1}}",
+                "Sun4_2": "{{i18n:DSV.DialogueEdit.Jodi.ReligionNMW.CanonFriendlyDialogue.Sun4_2}}",
+                "summer_Mon4": "{{i18n:DSV.DialogueEdit.Jodi.ReligionNMW.CanonFriendlyDialogue.summer_Mon4}}",
+                "summer_Wed8": "{{i18n:DSV.DialogueEdit.Jodi.ReligionNMW.CanonFriendlyDialogue.summer_Wed8}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+			}
+		},
+		
+// NO MORE WAR DIALOGUE - KENT
+		
+		{
+			"LogName": "NMW Dialogue - Kent Vanilla",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"Wed6": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.Wed6}}",
+				"Sun": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.Sun}}",
+				"Resort": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.Resort}}",
+				"accept_864": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.accept_864}}",
+				"AcceptGift_(O)Book_Bombs": null,
+				"AcceptGift_(O)Book_Crabbing": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.accept_Book_Crabbing}}"
+			}
+		},	
+		{
+			"LogName": "NMW Dialogue - Kent Vanilla",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{
+				"Kent": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.Vanilla.FlowerDance}}"
+			}
+		},	
+		{
+			"LogName": "NMW Dialogue - Kent Cola Shop",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"Sun2": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.ColaShop.Sun2}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= CopperSun.SamVincentShopCP": true
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Kent Canon-Friendly Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": 
+			{
+			"Tue_019": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Tue_019}}",
+			"Wed10": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Wed10}}",
+			"Thu8": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Thu8}}",
+			"Fri10": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Fri10}}",
+			"Sat4": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Sat4}}",
+			"Sat6": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.Sat6}}",
+			"fall_Sun8": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.CanonFriendlyDialogue.fall_Sun8}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+			}
+		},
+		
+// NO MORE WAR DIALOGUE - SAM
+		
+		{
+			"LogName": "NMW Dialogue - Sam Vanilla",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+                "Thu2": "{{i18n:DSV.DialogueEdit.Sam.ReligionNMW.Vanilla.Thu2}}",
+                "summer_Thu": "{{i18n:DSV.DialogueEdit.Sam.ReligionNMW.Vanilla.summer_Thu}}",
+                "winter_Thu": "{{i18n:DSV.DialogueEdit.Sam.ReligionNMW.Vanilla.winter_Thu}}"
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Sam Canon-Friendly Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": 
+			{
+                "summer_Thu": "{{i18n:DSV.DialogueEdit.Sam.ReligionNMW.CanonFriendlyDialogue.summer_Thu}}",
+                "fall_Tue6": "{{i18n:DSV.DialogueEdit.Sam.ReligionNMW.CanonFriendlyDialogue.fall_Tue6}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+			}
+		},
+		
+// NO MORE WAR DIALOGUE - VINCENT
+		
+		{
+			"LogName": "NMW Dialogue - Vincent Canon-Friendly Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": 
+			{			
+			    "Sat2": "{{i18n:DSV.DialogueEdit.Vincent.ReligionNMW.CanonFriendlyDialogue.Sat2}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+			}
+		},
+		
+// NO MORE WAR DIALOGUE - RSV EZEKIEL
+		
+		{
+			"LogName": "NMW RSV Dialogue - Ezekiel",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Ezekiel",
+			"Entries": 
+			{
+			    "Fri4_1": "{{i18n:DSV.DialogueEdit.Ezekiel.ReligionNMW.RSV.Fri4_1}}",
+			    "Fri4_2": "{{i18n:DSV.DialogueEdit.Ezekiel.ReligionNMW.RSV.Fri4_2}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+
+// NO MORE WAR DIALOGUE - RSV PAULA
+		
+		{
+			"LogName": "NMW RSV Dialogue - Paula",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Paula",
+			"Entries": 
+			{
+			    "Fri2": "{{i18n:DSV.DialogueEdit.Paula.ReligionNMW.RSV.Fri2}}",
+			    "Mon6": "{{i18n:DSV.DialogueEdit.Paula.ReligionNMW.RSV.Mon6}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+
+// NO MORE WAR DIALOGUE - ES ELOISE
+		
+		{
+			"LogName": "NMW ES Dialogue - Eloise",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Eloise",
+			"Entries": 
+			{
+			    "Tue10": "{{i18n:DSV.DialogueEdit.Eloise.ReligionNMW.ES.Tue10}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= Lemurkat.EastScarpNPCs.CP": true
+			}
+		},
+
+// NO MORE WAR DIALOGUE - ES ELOISE
+		
+		{
+			"LogName": "NMW ES Dialogue - Rosa",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Rosa",
+			"Entries": 
+			{
+			    "Tue": "{{i18n:DSV.DialogueEdit.Rosa.ReligionNMW.ES.Tue}}",
+			    "summer_Fri8": "{{i18n:DSV.DialogueEdit.Rosa.ReligionNMW.ES.summer_Fri8}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= Lemurkat.EastScarpNPCs.CP": true
+			}
+		},
+
+// NO MORE WAR EVENTS - VANILLA 
+	
+		{
+			"LogName": "NMW Dialogue - Events Beach Vanilla",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Fields": 
+			{
+			"733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": 
+				{
+					33: "speak Vincent \"{{i18n:DSV.EventEdit.NMW.Vanilla.733330.33}}\"",
+					38: "speak Sam \"{{i18n:DSV.EventEdit.NMW.Vanilla.733330.38}}\"",
+					55: "speak Sam \"{{i18n:DSV.EventEdit.NMW.Vanilla.733330.55}}\""
+				}
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Events SamHouse Vanilla",
+			"Action": "EditData",
+			"Target": "Data/Events/SamHouse",
+			"Fields": 
+			{
+			"100/f Kent 750/p Kent/p Jodi": 
+				{
+					70: "speak Kent \"{{i18n:DSV.EventEdit.NMW.Vanilla.100.70}}\"",
+					85: "speak Kent \"{{i18n:DSV.EventEdit.NMW.Vanilla.100.85}}\""
+				}
+			},
+			"When": 
+			{
+				"HasMod |contains= Airyn.KentGetsTherapy": false
+			}
+		},
+
+// NO MORE WAR EVENTS - RSV
+	
+		{
+			"LogName": "NMW RSV Dialogue - Ezekiel 6 Heart",
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_Ridgeside_EzekielHouse",
+			"Fields": 
+			{
+			"75160072/f Ezekiel 1500/t 800 1300/e 75160071": 
+				{
+					23: "speak Ezekiel \"{{i18n:DSV.EventEdit.NMW.RSV.75160072.23}}\""
+				}
+			},
+			"When": 
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+		{
+			"LogName": "NMW RSV Dialogue - Ezekiel & Kent",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Fields": 
+			{
+			"75160413/t 800 1400/e 63/e 75160072/w sunny/z winter": 
+				{
+					8: "speak Ezekiel \"{{i18n:DSV.EventEdit.NMW.RSV.75160413.8}}\"",
+					12: "speak Kent \"{{i18n:DSV.EventEdit.NMW.RSV.75160413.12}}\"",
+					23: "speak Ezekiel \"{{i18n:DSV.EventEdit.NMW.RSV.75160413.23}}\"",
+					28: "speak Ezekiel \"{{i18n:DSV.EventEdit.NMW.RSV.75160413.28}}\""
+				}
+			},
+			"When": 
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+		{
+			"LogName": "NMW RSV Dialogue - Zayne 4 Heart",
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_Ridgeside_PurpleMansion",
+			"Fields": 
+			{
+			"75160437/e 75160436/f Zayne 1000": 
+				{
+					15: "speak Maive \"{{i18n:DSV.EventEdit.NMW.RSV.75160437.15}}\""
+				}
+			},
+			"When": 
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+
+// NO MORE WAR GIFT TASTES
+	
+		{
+			"LogName": "NMW Dialogue - Gift Tastes Vanilla",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Fields": 
+			{
+			"Kent": 
+				{
+					6: "{{i18n:DSV.GiftTastes.Kent.Vanilla.Hate}}"
+				}
+			}
+		},
+        {
+            "LogName": "NMW Dialogue - Gift Tastes Custom Gift Responses",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": 
+            {
+                "GiftReaction_Rabbit's_Foot": "{{i18n:DSV.GiftTastes.Kent.CGRGiftTastes.RabbitFoot}}"
+            },
+			"When": 
+			{
+				"HasMod |contains= Lemurkat.UniqueGiftReactions": true
+			}
+        },
+
+// NO MORE WAR QUESTS
+	
+		{
+			"LogName": "NMW Dialogue - Quests Vanilla",
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"Fields": 
+			{
+			"119": 
+				{
+					1: "{{i18n:DSV.OtherEdits.NMW.Quests.Vanilla.119}}"
+				}
+			},
+		},
+
+// NO MORE WAR STRINGS
+	
+		{
+			"LogName": "NMW Dialogue - Strings Remember My Birthday",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Kent",
+			"Entries": 
+			{
+				"spring.004": "{{i18n:DSV.OtherEdits.Kent.ReligionNMW.RememberMyBirthday.spring.004}}"
+			},
+			"When": 
+			{
+				"Year |contains=1": false,
+				"HasMod |contains= nraittanna.RememberMyBirthday": true
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Strings Cola Shop",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Kent",
+			"Entries": 
+			{
+				"colashop.000": "{{i18n:DSV.OtherEdits.Kent.ReligionNMW.ColaShop.000}}"
+			},
+			"When": 
+			{
+				"Season": "summer",
+				"HasMod |contains= CopperSun.SamVincentShopCP": true
+			}
+		},
+
+// NO MORE WAR LYELL
+	
+        {
+			"LogName": "NMW Dialogue - Secret Notes Lyell",
+            "Action": "EditData",
+            "Target": "Data/SecretNotes",
+            "Entries": 
+            {
+                "982": "{{i18n:DSV.OtherEdits.SecretNote.ReligionNMW.Lyell.982}}"
+            },
+			"When": 
+			{
+				"Season": "summer",
+				"HasMod |contains= Fellowclown.Lyell": true
+			}
+        },
+
+// NO MORE WAR TOSHINORI
+
+		{
+			"LogName": "NMW Dialogue - Toshinori",
+			"Action": "Include",
+			"FromFile": "Dialogue/Dialogue_NoMoreWarToshinori.json",
+			"When":
+			{
+				"HasMod |contains=FuzzyMittens.Toshinori": true
+			}
+		},
+
+// NO MORE WAR JAEMIN
+
+		{
+			"LogName": "NMW Dialogue - Jaemin",
+			"Action": "Include",
+			"FromFile": "Dialogue/Dialogue_NoMoreWarJaemin.json",
+			"When":
+			{
+				"HasMod |contains=baguettemagiqu7.NPCParkJaemin": true
+			}
+		}
+	]
+}

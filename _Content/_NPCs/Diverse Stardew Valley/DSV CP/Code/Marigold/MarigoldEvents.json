@@ -1,0 +1,126 @@
+{
+	"Changes": [
+		{
+			"LogName": "Marigold Bus Stop Events",
+			"Action": "EditData",
+			"Target": "Data/Events/BusStop",
+			"Fields": 
+			{
+				"4081148/e 47/t 1600 1900": 
+				{
+					2: "farmer 23 22 0 Sam 24 10 2 Sebastian 25 11 3 Emily 20 11 3 Maru 19 10 2 Shane 22 15 0 Elliott 27 14 1 Leah 28 14 3 Abigail 23 11 1 Penny 28 10 3 Harvey 18 11 1 Linus 31 5 2 DSVMarigold 30 5 2 Jodi 18 15 2 Vincent 18 16 0",
+					58: "faceDirection Linus 0 true/warp DSVMarigold 32 14/faceDirection DSVMarigold 0 true"
+				}
+			}
+		},
+		{
+			"LogName": "Marigold Mountain Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": 
+			{
+				"26/f Linus 1000/w sunny/t 2000 2400": 
+					"nightTime/-1000 -1000/farmer 18 8 1 Linus 29 8 2 DSVMarigold 29 10 0/skippable/specificTemporarySprite linusCampfire/viewport 29 7 clamp true/move farmer 8 0 1/faceDirection Linus 3/emote Linus 32/speak Linus \"{{i18n:DSV.Marigold.Event.26.01}}\"/pause 400/move farmer 2 0 2/move farmer 0 1 1/move Linus 1 0 2/move Linus 0 1 3/pause 1500/speak Linus \"{{i18n:DSV.Marigold.Event.26.02}}\"/pause 500/emote Linus 28/pause 500/faceDirection Linus 2/pause 500/showFrame Linus 19/pause 500/speak Linus \"{{i18n:DSV.Marigold.Event.26.03}}\"/pause 500/showFrame Linus 0/faceDirection Linus 3/speak Linus \"{{i18n:DSV.Marigold.Event.26.04}}\"/pause 500/faceDirection Linus 3/emote farmer 32/pause 1000/faceDirection Linus 3/move Linus 0 -1 3/move Linus -1 0 0/speak Linus \"{{i18n:DSV.Marigold.Event.26.05}}\"/move farmer 0 -1 1/move Linus 0 -1 0/playSound grassyStep/warp Linus -10 -10/move farmer 1 0 0/move farmer 0 -1 0/playSound grassyStep/warp farmer -10 -10/move DSVMarigold 1 0 0/move DSVMarigold 0 -2 2 true/playMusic none/pause 1500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 800/playSound dirtyHit/pause 1200/playSound slimeHit/pause 300/playSound slimeHit/pause 300/playSound slimeHit/pause 300/playSound slimeHit/pause 600/playSound slimedead/pause 1000/speak Linus \"{{i18n:DSV.Marigold.Event.26.06}}\"/pause 500/playSound coin/pause 500/faceDirection farmer 2/warp farmer 29 7/playSound grassyStep/move farmer 0 1 2/faceDirection DSVMarigold 3/pause 1000/showFrame 84/playSound reward/addCraftingRecipe Wild Bait/message \"{{i18n:DSV.Marigold.Event.26.07}}\"/pause 900/end",
+				"371652/f Linus 2000/w sunny/t 600 1700/a 12 26":
+					"sweet/18 32/farmer -1000 -1000 2 Robin -1000 -1000 2 Linus 23 33 1 DSVMarigold 22 34 1/skippable/animate Linus false true 250 20 21/pause 3000/doAction 24 33/pause 500/doAction 24 33/pause 800/doAction 24 33/pause 1000/stopAnimation Linus/move Linus -1 0 0/faceDirection DSVMarigold 0 true/move Linus -1 0 0/advancedMove DSVMarigold false 0 -1/move Linus 0 -1 1/animate Linus false true 250 20 21/pause 500/doAction 22 32/pause 900/doAction 22 32/pause 200/doAction 22 32/pause 1200/stopAnimation Linus/advancedMove DSVMarigold false -6 0 0 -5 -2 0/move Linus -6 0 0/viewport move 0 -1 4000/move Linus 0 -5 0/move Linus -2 0 3/stopAdvancedMoves/move DSVMarigold 0 -1 3 true/warp Robin 12 26/playSound doorClose/pause 400/showFrame Robin 19/textAboveHead Robin \"{{i18n:DSV.Marigold.Event.371652.01}}\"/shake Robin 500/pause 500/faceDirection Linus 0/showFrame Robin 0/pause 1 500/warp farmer 11 26/playSound doorClose/faceDirection Linus 3/pause 500/move farmer 0 1 1/pause 1000/speak Robin \"{{i18n:DSV.Marigold.Event.371652.02}}\"/emote Robin 40/speak Robin \"{{i18n:DSV.Marigold.Event.371652.03}}\"/pause 500/speak Linus \"{{i18n:DSV.Marigold.Event.371652.04}}\"/pause 1000/speak Robin \"{{i18n:DSV.Marigold.Event.371652.05}}\"/pause 500/faceDirection Robin 3/pause 500/speak Robin \"{{i18n:DSV.Marigold.Event.371652.06}}\"/pause 500/question fork0 \"#I'm just pleased that Linus is doing well...#I'd like to invite Linus to live on the farm with me...\"/pause 100/fork linusWell/faceDirection Robin 2 true/textAboveHead Robin \"{{i18n:DSV.Marigold.Event.371652.07}}\"/showFrame Linus 22/jump Linus/pause 2000/showFrame Linus 0/pause 1000/showFrame Linus 0/faceDirection Robin 2/speak Robin \"{{i18n:DSV.Marigold.Event.371652.08}}\"/move Robin 0 1 1/speak Robin \"{{i18n:DSV.Marigold.Event.371652.09}}\"/playMusic spring_day_ambient/pause 1000/showFrame Linus 19/pause 1000/speak Linus \"{{i18n:DSV.Marigold.Event.371652.10}}\"/playSound thudStep/showFrame Robin 19/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/playSound woodWhack/textAboveHead Robin \"{{i18n:DSV.Marigold.Event.371652.11}}\"/pause 1000/emote farmer 8/emote Linus 28/playMusic echos/speak Linus \"{{i18n:DSV.Marigold.Event.371652.12}}\"/pause 500/showFrame Linus 0/move Linus 0 1 2/faceDirection DSVMarigold 2/pause 500/speak Linus \"{{i18n:DSV.Marigold.Event.371652.13}}\"/showFrame Linus 0/pause 500/move Linus 0 -1 3/faceDirection Linus 3 true/faceDirection DSVMarigold 3/showFrame Robin 0/pause 1000/speak Robin \"{{i18n:DSV.Marigold.Event.371652.14}}\"/move Linus 0 1 3/advancedMove DSVMarigold false 0 1 -2 0/move Linus -2 0 0/faceDirection farmer 2/playMusic spring_day_ambient/speak Linus \"{{i18n:DSV.Marigold.Event.371652.15}}\"/advancedMove DSVMarigold false -2 0/move Linus -2 0 3/stopAdvancedMoves/faceDirection farmer 3/faceDirection Robin 3/emote farmer 60/speak Linus \"{{i18n:DSV.Marigold.Event.371652.16}}\"/speed DSVMarigold 4/advancedMove DSVMarigold false 0 -1 -6 0/jump Linus/speed Linus 4/move Linus -4 0 3/pause 200/stopAdvancedMoves/advancedMove DSVMarigold false 0 -10/move Linus 0 -10 0 true/fade/viewport -2000 -2000/pause 2000/end",
+				"linusWell":
+					"pause 100/friendship Linus 250/move Linus 0 1 3/advancedMove DSVMarigold false 0 1 -2 0/move Linus -2 0 0/faceDirection farmer 2/faceDirection Robin 2/playMusic spring_day_ambient/speak Linus \"{{i18n:DSV.Marigold.Event.371652.linusWell.01}}\"/advancedMove Linus false -2 0/move DSVMarigold -2 0 3/faceDirection farmer 3/faceDirection Robin 3/emote farmer 32/speak Linus \"{{i18n:DSV.Marigold.Event.371652.linusWell.02}}\"/speed DSVMarigold 4/advancedMove DSVMarigold false -5 0/jump Linus/speed Linus 4/move Linus -4 0 3/pause 200/stopAdvancedMoves/advancedMove Linus false 0 -10/move DSVMarigold 0 -10 0 true/fade/viewport -2000 -2000/pause 500/speak Robin \"{{i18n:DSV.Marigold.Event.371652.linusWell.03}}\"/pause 1000/end",
+				"8357109/w sunny/t 600 1900/n linusTrashCleanup":
+					"spring_day_ambient/-1000 -1000/farmer -100 -100 2 Linus 63 21 2 DSVMarigold 62 21 0/skippable/hideShadow Linus true/showFrame Linus 24/specificTemporarySprite staticSprite LooseSprites\\\\Cursors2 129 241 14 15 60 20/viewport 63 21 true/jump DSVMarigold/pause 5000/speak Linus \"{{i18n:DSV.Marigold.Event.8357109.01}}\"/pause 1000/speak Linus \"{{i18n:DSV.Marigold.Event.8357109.02}}\"/pause 2000/speak Linus \"{{i18n:DSV.Marigold.Event.8357109.03}}\"/pause 3000/end"
+			},
+			"Fields": 
+			{
+				"8959199/w sunny/t 600 1900/e 6497428/f Leo 2250/F": 
+				{
+					2: "farmer -100 -100 2 Linus 30 9 3 DSVMarigold 29 10 0 Leo 28 9 1 Penny -100 -100 2 Jas -100 -100 3 Vincent -100 -100 1",
+					19: "warp Linus -100 -100/warp DSVMarigold -100 -100"
+				}
+			}
+		},
+		{
+			"LogName": "Marigold Town Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": 
+			{
+				"502969/w sunny/f Linus 50/j 7/t 2000 2400":
+					"nightTime/-1000 -1000/farmer 72 64 1 Linus 51 58 2 DSVMarigold 50 57 2 George -100 -100 2 Gus -100 -100 2/skippable/specificTemporarySprite linusLights/pause 800/viewport 55 64 true/pause 1000/advancedMove DSVMarigold false 0 5/move Linus 0 5 1/pause 1000/animate Linus false true 500 20 21/pause 500/playSound trashcanlid/pause 1000/playSound dirtyHit/pause 1000/playSound slimeHit/pause 1000/playSound dirtyHit/pause 1600/warp George 57 64/playSound doorClose/pause 600/stopAnimation Linus/showFrame Linus 22/jump Linus/jump DSVMarigold/shake Linus 1000/pause 1000/speed DSVMarigold 4/advancedMove DSVMarigold false 0 -1 3 0/speed Linus 4/move Linus 0 -1 1/speed Linus 4/move Linus 2 0 3/faceDirection DSVMarigold 2/faceDirection George 3/pause 500/emote George 12/move farmer -14 0 3 true/speak George \"{{i18n:DSV.Marigold.Event.502969.01}}\"/faceDirection George 1/pause 600/speak George \"{{i18n:DSV.Marigold.Event.502969.02}}\"/faceDirection George 0/playSound doorClose/warp George -100 -100/pause 500/move farmer -5 0 3 false/faceDirection Linus 2/faceDirection farmer 0/playMusic echos/pause 1000/showFrame Linus 19/pause 600/emote Linus 28/speak Linus \"{{i18n:DSV.Marigold.Event.502969.03}}\"/pause 500/showFrame Linus 0/pause 800/move Linus -1 0 2/pause 800/showFrame Linus 19/pause 800/speak Linus \"{{i18n:DSV.Marigold.Event.502969.04}}\"/pause 500/move Linus -1 0 2/speed DSVMarigold 2/advancedMove DSVMarigold false -2 0 0 2/move Linus 0 2 1/faceDirection farmer 3/speak Linus \"{{i18n:DSV.Marigold.Event.502969.05}}\"/playMusic nightTime/pause 800/faceDirection Linus 3/pause 800/faceDirection Linus 1/speak Linus \"{{i18n:DSV.Marigold.Event.502969.06}}\"/advancedMove Linus false -3 0 0 6/viewport move -1 1 5000/pause 1000/advancedMove DSVMarigold false 0 1 -2 0 0 6/move farmer -8 0 3/move farmer 0 1 3/move farmer -2 0 3/faceDirection Linus 3/pause 600/animate Linus true true 500 20 21/pause 1000/playSound slimeHit/pause 1000/playSound slimeHit/pause 800/warp Gus 45 71/playSound doorClose/advancedMove Gus false 0 1 3 0 0 -1/stopAnimation Linus/showFrame Linus 22/jump Linus/jump DSVMarigold/pause 1000/advancedMove DSVMarigold false 0 -2/advancedMove Linus false 0 -2/proceedPosition Gus 48 71/playMusic none/speak Gus \"{{i18n:DSV.Marigold.Event.502969.07}}\"/faceDirection Gus 0/shake Linus 2000/pause 1000/faceDirection Linus 2/faceDirection DSVMarigold 2/pause 800/showFrame Linus 19/move Gus 0 -2 0 false/speak Gus \"{{i18n:DSV.Marigold.Event.502969.08}}\"/pause 500/emote Gus 40/pause 500/speak Gus \"{{i18n:DSV.Marigold.Event.502969.09}}\"/pause 1000/showFrame Linus 0/pause 1000/speak Gus \"{{i18n:DSV.Marigold.Event.502969.10}}\"/pause 1000/showFrame Linus 19/pause 600/globalFade/viewport -3000 -3000/end"
+			},
+			"When": 
+			{ 
+				"HasMod |contains= tiakall.jortsandjean": false
+			}
+		},
+		{
+			"LogName": "Marigold Town Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": 
+			{
+				"53/e 55/t 1500 1700": 
+				{
+					2: "farmer 28 57 1 Evelyn 37 58 3 Gus 30 56 2 Pam 31 56 2 Vincent 27 55 2 Jas 26 55 2 George 37 59 3 Leah 32 61 1 Shane 34 61 3 Robin 27 61 1 Demetrius 28 61 3 Emily 30 58 2 Clint 31 59 3 Harvey 34 57 2 Lewis 35 59 3 Marnie 35 58 3 Elliott 31 63 3 Maru 33 57 2 Sebastian 35 62 1 Abigail 35 63 1 Sam 36 61 2 Penny 37 62 3 Pierre 32 65 1 Caroline 33 65 3 Linus 28 64 1 DSVMarigold 27 65 0 Haley 28 59 1 Alex 28 58 1"
+				}
+			}
+		},
+		{
+			"LogName": "Marigold Island Events",
+			"Action": "EditData",
+			"Target": "Data/Events/IslandSouth",
+			"Fields": 
+			{
+				"6497428/e 6497423/f Leo 1500/w sunny/t 600 1800/Hl leoMoved": 
+				{
+					2: "farmer 20 31 2 Leo 21 31 2 Willy -100 -100 1 Linus -100 -100 1 DSVMarigold -100 -100 1",
+					15: "warp Linus 16 43/warp DSVMarigold 16 43",
+					19: "move Linus 4 0 0/move DSVMarigold 3 0 0",
+					31: "move Linus 0 -1 0/move DSVMarigold 1 0 0",
+					89: "speak Linus \"{{i18n:DSV.Marigold.Event.6497428.01}}\"",
+					91: "speak Willy \"{{i18n:DSV.Marigold.Event.6497428.02}}\""
+				}
+			},
+			"When":
+			{
+				"HasMod |contains= ZoeDoll.GingerIslandNPCTweaks, gwenynnefydd.diversegingerisland": false
+			}
+		},
+
+// GINGER ISLAND NPC OVERHAUL COMPATIBILITY
+
+		{
+			"LogName": "Marigold Island Events - GINO",
+			"Action": "EditData",
+			"Target": "Data/Events/IslandSouth",
+			"Fields": 
+			{
+				"6497428/e 6497423/f Leo 1500/w sunny/t 600 1800/Hl leoMoved": 
+				{
+					2: "farmer 20 31 2 Leo 21 31 2 Willy -100 -100 1 Linus -100 -100 1 DSVMarigold -100 -100 1 Birdie -100 -100 1",
+					10: "warp Linus 21 25/warp DSVMarigold 20 25",
+					14: "move Linus 0 8 2 true/move DSVMarigold 0 8 2 true",
+					30: "speak Birdie \"{{i18n:DSV.Marigold.Event.6497428.GINO.01}}\"",
+					36: "speak Willy \"{{i18n:DSV.Marigold.Event.6497428.GINO.02}}\""
+				}
+			},
+			"When":
+			{
+				"HasMod |contains= ZoeDoll.GingerIslandNPCTweaks": true
+			}
+		},
+
+// JORTS & JEAN COMPATIBILITY
+
+		{
+			"LogName": "Marigold Town Events - Jorts & Jean",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+				"502969/w sunny/f Linus 50/j 7/t 2000 2400": "nightTime/-1000 -1000/farmer 72 64 1 Linus 49 58 2 DSVMarigold 48 57 2 George -100 -100 2 Gus -100 -100 2 JortsCat -101 -101 1/skippable/specificTemporarySprite linusLights/pause 800/viewport 55 64 true/advancedMove DSVMarigold false 0 4 4 0 0 1/move Linus 0 4 1/move Linus 4 0 2/move Linus 0 1 3/pause 1250/animate Linus true true 500 20 21/pause 500/playSound trashcanlid/warp JortsCat 52 62 true/positionOffset JortsCat -6 72 true/animate JortsCat false true 100 16 17 18 19 20 21 22 23 16/stopAnimation Linus/emote Linus 16/pause 1000/speak JortsCat \"{{i18n:DSV.Marigold.Event.502969.Jorts.01}}\"/pause 1600/warp George 57 64/playSound doorClose/pause 600/stopAnimation Linus/showFrame Linus 22/jump Linus/jump DSVMarigold/shake Linus 1000/pause 1000/speed DSVMarigold 4/advancedMove DSVMarigold false 0 -1 1 0/speed Linus 4/move Linus 0 -1 1/faceDirection DSVMarigold 2/faceDirection George 3/pause 500/emote George 12/move farmer -14 0 3 true/speak George \"{{i18n:DSV.Marigold.Event.502969.Jorts.02}}\"/faceDirection George 1/pause 500/speak George \"{{i18n:DSV.Marigold.Event.502969.Jorts.03}}\"/faceDirection George 0/playSound doorClose/warp George -100 -100/pause 500/move farmer -5 0 3 false/faceDirection Linus 2/faceDirection farmer 0/playMusic echos/pause 1000/stopAnimation JortsCat/positionOffset JortsCat 2 -68/pause 600/speak JortsCat \"{{i18n:DSV.Marigold.Event.502969.Jorts.04}}\"/showFrame Linus 19/pause 600/emote Linus 28/speak Linus \"{{i18n:DSV.Marigold.Event.502969.Jorts.05}}\"/pause 500/showFrame Linus 0/pause 800/move JortsCat 0 -1 2/move Linus -1 0 2/pause 800/showFrame Linus 19/pause 800/speak Linus \"{{i18n:DSV.Marigold.Event.502969.Jorts.06}}\"/speak JortsCat \"{{i18n:DSV.Marigold.Event.502969.Jorts.07}}\"/pause 650/move Linus -2 0 1/faceDirection farmer 3/move Linus 0 2 1/move Linus 1 0 1/speak Linus \"{{i18n:DSV.Marigold.Event.502969.Jorts.08}}\"/playMusic nightTime/pause 800/faceDirection Linus 3/pause 800/faceDirection Linus 1/speak Linus \"{{i18n:DSV.Marigold.Event.502969.Jorts.09}}\"/speak JortsCat \"{{i18n:DSV.Marigold.Event.502969.Jorts.10}}\"/advancedMove Linus false -3 0 0 6/advancedMove DSVMarigold false 0 1 -3 0 0 2 -1 0 0 6/viewport move -1 1 5000/move JortsCat -13 0 3 true/move farmer -9 0 3 false/warp farmer -100 -100/faceDirection Linus 3/pause 600/animate Linus true true 500 20 21/pause 1000/playSound slimeHit/pause 1000/playSound slimeHit/pause 800/warp Gus 45 71/playSound doorClose/advancedMove Gus false 0 1 3 0 0 -1/stopAnimation Linus/showFrame Linus 22/jump Linus/jump DSVMarigold/pause 1000/advancedMove Linus false 0 -2/advancedMove DSVMarigold false 0 -2/proceedPosition Gus 48 71/playMusic none/speak Gus \"{{i18n:DSV.Marigold.Event.502969.Jorts.11}}\"/faceDirection Gus 0/shake Linus 2000/pause 1000/faceDirection Linus 2/faceDirection DSVMarigold 2/pause 800/showFrame Linus 19/move Gus 0 -2 0 false/speak Gus \"{{i18n:DSV.Marigold.Event.502969.Jorts.12}}\"/pause 500/emote Gus 40/pause 500/speak Gus \"{{i18n:DSV.Marigold.Event.502969.Jorts.13}}\"/pause 1000/showFrame Linus 0/pause 1000/speak Gus \"{{i18n:DSV.Marigold.Event.502969.Jorts.14}}\"/pause 1000/showFrame Linus 19/pause 600/globalFade/viewport -3000 -3000/addConversationTopic DumpsterFishing/end" 
+			},
+			"When": 
+			{ 
+				"HasMod |contains= tiakall.jortsandjean": true
+			}
+		}
+	]
+}

@@ -1,0 +1,125 @@
+{
+	"Changes": [
+	
+		//Removes Resort from NPC Exclusions
+		{
+			"LogName": "Jorts and Jean NPC exclusions",
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+                "JortsCat": "ShopDialog WinterStar ItemDelivery MovieInvite",
+                "JeanCat": "ShopDialog WinterStar ItemDelivery MovieInvite",
+			},
+		},
+		
+	
+		//Adds Jorts/Jean group to GIMA
+		{
+			"Action": "EditData",
+			"LogName": "Cats GI group",
+			"Target": "Mods/atravita_Ginger_Island_Adjustments_groups",
+			"Entries": {
+				"HelperCats": "JortsCat, JeanCat"
+			}
+		},
+		
+		//Cats will still escort Pam home
+		{
+			"Action": "EditData",
+			"LogName": "Jorts GIRemainder",
+			"Target": "Characters/schedules/JortsCat",
+			"Entries": {
+				"GIRemainder": "1800 Town 51 71 1 JortsCat_cleaning/a2400 Town 44 73 0/2410 Town 72 70 0/2440 AdventureGuild 9 12 1 JortsCat_catnap"
+			}
+		},
+		{
+			"Action": "EditData",
+			"LogName": "Jean GIRemainder",
+			"Target": "Characters/schedules/JeanCat",
+			"Entries": {
+				"GIRemainder": "1800 Town 52 71 3 JeanCat_cleaning/a2400 Town 43 73 0/2410 Town 71 70 0/2440 AdventureGuild 10 12 3 JeanCat_catnap"
+			}
+		},
+		
+		//Jorts cannot be left unattended
+		{
+			"Action": "EditData",
+			"LogName": "Cats GI Exclusions",
+			"Target": "Mods/atravita_Ginger_Island_Adjustments_exclusions",
+			"Entries": {
+				"JortsCat": "neveralone",
+				"JeanCat": "neveralone",
+			}
+		},
+
+		//Cats can explore
+		{
+        "LogName": "Kitty GI Explorers",
+        "Action": "EditData",
+        "Target": "Mods/atravita_Ginger_Island_Adjustments_explorers", 
+        "Entries": {
+            "HelperCats": "JortsCat, JeanCat",
+			}
+		},
+		
+		//Cats resort dialogue
+		{
+        "LogName": "Jorts GI dialogue",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/JortsCat", 
+        "Entries": {
+				//vanilla
+            	"Resort_Entering": "{{Random: The sand's moving all up and down, just like the ocean!#$b$%Jorts stumbles and faceplants. Apparently he doesn't have his land legs back yet. && Oh boy, oh boy, oh boy!$h && It's time to have some fun! I am going to have fun VERY seriously. |inputSeparator=&&}}",
+				"Resort_Leaving": "{{Random: Oh boy, we get to go up and down again! && I'm going to go lay on Jean for a while. I don't think she likes boats much. && I'm on a boat, mister farmer!$h^I'm on a boat, sister farmer!$h |inputSeparator=&&}}",
+				"Resort_Shore": "{{Random: They always say 'I can see my house from here!'#$b#I thought my eyes were really good, but I don't see it.$4 && Look, @, I'm leaving pawprints! You can follow my trail like a detective! && Ocean water is good-scrungy, but the taste is not so good. |inputSeparator=&&}}",
+				"Resort_Chair": "{{Random: This chair is all warm from the sun... I'm just gonna... rest my eyes a little bit.... && Did you want to share a seat, @? I'm sure I could fit on your lap!$h && Hm, I fits, so I guess I'll sits!$h |inputSeparator=&&}}",
+				"Resort_Bar": "{{Random: Are you really going to drink that, @? It smells like the stuff Pierre uses to clean his windows.$4 && Can I have some milk? Jean said a little is okay! && I like it best when someone stands on the other side of the bar. Everyone always looks so happy when they do! |inputSeparator=&&}}",
+				"Resort": "{{Random: I'VE GOT THE ZOOMIES!$h && This is scrungy! And that is scrungy! Everything's scrungy!$h && So much sand! I could bury my poop ANYWHERE! && I'm so excited, I'm going to rub my face on EVERYTHING.$h && Sorry about that sand castle. It was in my frolicking path! |inputSeparator=&&}}",
+				//GIMA
+				"Resort_IslandNorth": "{{Random: Look, @, monkeys! The big one reminds me of you!$h && I wonder if anyone here needs a cat to purr on their lap?#$b#No, no, Jorts, you're supposed to rest! && Biiiiiiirds! Birds, come be my friend! I promise I won't let Jean eat you! |inputSeparator=&&}}", 
+				"Resort_Adventure": "{{Random: Ooh, I wonder what's over HERE? && We're off on an adventure, @! && C'mon, Jean, I wanna go sniff this thing, too! |inputSeparator=&&}}", 
+				"Resort_Volcano": "{{Random: Wow, that's really big. I wonder how long it took to make? && One of Jean's professor friends mentioned dwarves might live here!#$b#So what's a dwarf, is it like a bird? && I wanted to take a look inside too, but Jean said the floor is lava. I thought that was a game?$4 |inputSeparator=&&}}", 
+				"Resort_Tent": "{{Random: Does anyone else smell mushrooms?$4 && Look at all the cool toys on their table! Think they'll share? && Jean said the person using this tent is smart. I don't think they can be as smart as Jean, but that's okay. && Hello, boney friend!$h |inputSeparator=&&}}",
+				"Resort_Left": "{{Random: We had a great adventure! Tomorrow will be a different adventure in town! && We just got back from a tropical island, @. What did you do today? && I still smell like the island all over. Here, take a sniff of me! |inputSeparator=&&}}",
+				"Resort_Approach": "{{Random: Jean said we can take a vacation today, so we get to ride on a boat!$h && We're going exploring today, @! Maybe you want to come too? && Jean said we're taking a rest day, and that means I can sit anywhere I want!#$b#Well, almost anywhere. Sea urchins are STILL off limits.  |inputSeparator=&&}}", 
+				
+			}
+		},		
+		
+		{
+        "LogName": "Jean GI dialogue",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/JeanCat", 
+        "Entries": {
+				//vanilla
+            	"Resort_Entering": "{{Random: Did you know cats can get motion sickness, @? Though it's usually exacerbated by stress.#$b#*sigh* Ask me how I know....$s && I saw a lot of interesting fish on the way over. I can't wait to see what I can catch.$h && It's interesting how the smell of the sea breeze changes as we come south, isn't it?#$b#Well, maybe your human nose couldn't tell.$h |inputSeparator=&&}}",
+				"Resort_Leaving": "{{Random: %Jean is muttering to herself.#$b#It's only a short boat ride. Don't get stressed out, just keep the fish in your stomach. && I imagine we'll see you back in town? Don't stay out too late by yourself, @. |inputSeparator=&&}}",
+				"Resort_Shore": "{{Random: I'm being careful about getting in the water. If I have to lick too much salt off myself and Jorts, I'll get dehydrated. && Hm... Maybe I'll try fishing here. && Have you taken a look at the vistas around here, @? Sometimes it's important to just admire the art for a bit.$h |inputSeparator=&&}}",
+				"Resort_Chair": "{{Random: This is my chair. I claim it now.$6 && %Jean is sleeping in a contorted position that doesn't seem possible to be comfortable in. && The cat you are trying to reach cannot be found, try again later.$6 |inputSeparator=&&}}",
+				"Resort_Bar": "{{Random: Alcohol? When you come to the beach, it has to be seafood, right? && Would you care to slice me a little bit of fresh pineapple, @?#$b#It's quite tasty if you grate a little bit of ginger over it, too.$h && Please don't give me curry. I have a cat's tongue.$s |inputSeparator=&&}}",
+				"Resort": "{{Random: It smells like there's a lot more variety in living creatures here than I thought.#$b#Hopefully none of them are dangerous.$3 && The sand is hot? No, it's just the right tempature on my toe beans.$h && I'll let Jorts be the one that has the zoomies. Though maybe I'll climb a tree later.#$b#Don't worry, I'm plenty capable of getting down, too. |inputSeparator=&&}}",
+				//GIMA
+				"Resort_IslandNorth": "{{Random: It's a little cooler away from the shore thanks to all the tree cover. Less humid, too. && Isn't it impressive, the changes that happen in flora and fauna even though we're only a little bit away from the shore. && Those parrots seem quite smart. That just means catching one is a challenge. |inputSeparator=&&}}", 
+				"Resort_Adventure": "{{Random: Jorts, don't wander too far off. We need to make sure we have time to get back to the boat later...$s && Jorts. Jorts, no. Jorts, NO.$s && Jorts, don't leave me behind!$4 |inputSeparator=&&}}", 
+				"Resort_Volcano": "{{Random: It's not every day you see a volcano up close. The heat is astounding, even from here. && If I could sweat, I think I'd probably drown just by standing here....$s && I keep hearing things. Are there...THINGS actually living in there?$4 && Someone HAS checked the geological activity to make sure there's not any eruptions predicted in the near future, right?$3|inputSeparator=&&}}", 
+				"Resort_Tent": "{{Random: I hear there's a scholar studying here. I wonder if they'd be willing to talk with me? && Ecological study is important, but I hope the professor isn't planning on just shipping all of this over the sea to sit in a Ferngill museum. && Seeing some of the bones in there, I'm very glad those creatures are extinct.#$b#...I hope.$4 |inputSeparator=&&}}",
+				"Resort_Fishing": "{{Random: These tuna look amazing... and soon, one will be MINE.$h && Here, @, you can have this one. I probably shouldn't eat it. [837] && I haven't caught anything yet, but that's fine. Fishing is a matter of patience. && If I don't catch anything, that's okay. I'll just give Willy sad eyes until he gives me some crab.$h |inputSeparator=&&}}",
+				"Resort_Left": "{{Random: Hm, I think we still have a little time to do some rounds while the humans are awake. No sense in wasting daylight. && That was a nice bit of rest.$h#$b#It's a lovely island, but it's just as important to give yourself permission to not work. && Okay, Jorts, let's get all the sand off you. |inputSeparator=&&}}",
+				"Resort_Approach": "{{Random: We're on break today, but if you've got something you need help with, be sure to let us know tomorrow.$h && Jorts can be a bit of a workaholic, because he doesn't see it as work. Sometimes I have to make him take a break.$h && Today's our rest day. Rest is important, @.#$b#And remember, you don't have to 'earn' it. It's needed as much as food and shelter. && We're going to visit an island resort today.#$b#I hear you had something to do with its creation? I hope that means you enjoy it every now and then.$h |inputSeparator=&&}}",
+				
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	]
+}

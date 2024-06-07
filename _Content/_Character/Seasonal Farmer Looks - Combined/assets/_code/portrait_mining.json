@@ -1,0 +1,46 @@
+{
+	"Changes": [
+		{//the mine, the quarry cave and the Skull Cavern
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_{{CurrentMiningOutfitName}}{{CurrentPostfix}}.png",
+			"Update": "OnLocationChange",
+			"When": { "HasFile:{{FromFile}}": true, "LocationName": "Mine, SkullCave" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_{{CurrentMiningOutfitName}}{{CurrentPostfix}}.png",
+			"Update": "OnLocationChange",
+			"When": { "HasFile:{{FromFile}}": true, "Query: '{{LocationName}}' LIKE 'UnderGroundMine*'": true }
+		},
+		{//the volcano
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_{{CurrentMiningOutfitName}}{{CurrentPostfix}}.png",
+			"Update": "OnLocationChange",
+			"When": { "HasFile:{{FromFile}}": true, "LocationName": "Caldera" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_{{CurrentMiningOutfitName}}{{CurrentPostfix}}.png",
+			"Update": "OnLocationChange",
+			"When": { "HasFile:{{FromFile}}": true, "Query: '{{LocationName}}' LIKE 'VolcanoDungeon*'": true }
+		},
+		{//the mountains
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_{{CurrentMiningOutfitName}}{{CurrentPostfix}}.png",
+			"Update": "OnLocationChange",
+			"When": { "MountainMiningEnabled": true, "HasFile:{{FromFile}}": true, "LocationName": "Mountain" }
+		},
+		{//custom locations: East Scarp, Downtown Zuzu, Cape Stardew
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_{{CurrentMiningOutfitName}}{{CurrentPostfix}}.png",
+			"Update": "OnLocationChange",
+			"When": { "HasFile:{{FromFile}}": true, "LocationName": "{{ModdedMiningLocations}}" }
+		},
+	]
+}

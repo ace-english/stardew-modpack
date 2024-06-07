@@ -1,0 +1,96 @@
+{
+	"Changes": [
+
+	// APPEARANCES
+	
+		{
+			"LogName": "Krobus Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Krobus", "Appearance"],
+			"Entries":
+			{
+				// WEATHER Target
+					"DSV.Krobus.Sun":
+					{
+						"Id": "{{ModId}}_Krobus_Sun",
+						"Portrait": "Portraits/Krobus_Sun",
+						"Sprite": "Characters/Krobus_Sun",
+						"Condition": "WEATHER Target Sun Wind",
+						"Precedence": -110
+					},
+					"DSV.Krobus.Rain":
+					{
+						"Id": "{{ModId}}_Krobus_Rain",
+						"Portrait": "Portraits/Krobus_Rain",
+						"Sprite": "Characters/Krobus_Rain",
+						"Condition": "SEASON Spring Summer Fall, WEATHER Target Rain Storm Snow",
+						"Precedence": -110
+					},
+					"DSV.Krobus.Snow":
+					{
+						"Id": "{{ModId}}_Krobus_Snow",
+						"Portrait": "Portraits/Krobus_Snow",
+						"Sprite": "Characters/Krobus_Snow",
+						"Condition": "SEASON Winter, WEATHER Target Rain Storm Snow",
+						"Precedence": -110
+					},
+					"DSV.Krobus.PinkWednesday":
+					{
+						"Id": "{{ModId}}_Krobus_PinkWednesday",
+						"Portrait": "Portraits/Krobus_PinkWednesday",
+						"Sprite": "Characters/Krobus_PinkWednesday",
+						"Condition": "DAY_OF_WEEK Wednesday, {{HasMod |contains= KaileyAllen.PinkWednesday}}",
+						"Precedence": -150
+					}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Krobus Load - Weather Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Krobus_Sun, Characters/Krobus_Sun, Portraits/Krobus_Rain, Characters/Krobus_Rain, Portraits/Krobus_Snow, Characters/Krobus_Snow, Portraits/Krobus_PinkWednesday, Characters/Krobus_PinkWednesday",
+			"FromFile": "Art/VanillaNPCs/Krobus/{{TargetPathOnly}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KrobusVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Krobus Weather Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Krobus_Sun, Characters/Krobus_Sun, Portraits/Krobus_Rain, Characters/Krobus_Rain, Portraits/Krobus_Snow, Characters/Krobus_Snow",
+			"FromFile": "Art/VanillaNPCs/Krobus/{{TargetPathOnly}}/{{TargetWithoutPath}}_{{RandomFourToken}}.png",
+			"When":
+			{	
+				"DSV.Core/ConfigValue:KrobusLightweightConfig|contains= Full": true
+			}
+		},
+		{
+			"LogName": "Krobus Trenchcoat",
+			"Action": "EditImage",
+			"Target": "Portraits/Krobus_Trenchcoat, Characters/Krobus_Trenchcoat",
+			"FromFile": "Art/VanillaNPCs/Krobus/{{TargetPathOnly}}/{{TargetWithoutPath}}_{{RandomThreeToken}}.png",
+			"When":
+			{	
+				"DSV.Core/ConfigValue:KrobusLightweightConfig|contains= Full": true
+			}
+		},
+		{
+			"LogName": "Krobus Trenchcoat",
+			"Action": "EditImage",
+			"Target": "Portraits/Krobus_Trenchcoat, Characters/Krobus_Trenchcoat",
+			"FromFile": "Art/VanillaNPCs/Krobus/{{TargetPathOnly}}/{{TargetWithoutPath}}_PinkWednesday.png",
+			"When":
+			{	
+				"DayOfWeek": "Wednesday",
+				"HasMod |contains= KaileyAllen.PinkWednesday": true
+			}
+		}
+	]
+}

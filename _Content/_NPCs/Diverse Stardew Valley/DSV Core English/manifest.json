@@ -1,0 +1,20 @@
+{
+    "Name": "[CP] DSV English Translation Pack",
+	"Author": "DSV Team",
+	"Version": "5.1.2",
+	"Description": "Adds DSV Core English translation.",
+	"MinimumApiVersion": "3.6.0",
+	"UniqueID": "DSVTeam.DSVEnglish.CP",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": 
+    [
+    {
+		"UniqueID": "DSV.Core",
+		"IsRequired": true,
+    }
+    ]
+}

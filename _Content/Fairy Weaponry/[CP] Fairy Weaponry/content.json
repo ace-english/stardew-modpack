@@ -1,0 +1,419 @@
+{
+  "Format": "2.1.0",
+  "Changes": [
+    /*Weapons */
+    {
+      "LogName": "Fairy Weaponry Weapons",
+      "Action": "EditData",
+      "Target": "Data/Weapons",
+      "Entries": {
+        "Dolly.FairyWeaponry_Zephyr": {
+          "Name": "Dolly.FairyWeaponry_Zephyr",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_ZephyrName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_ZephyrDescription}}",
+          "Type": "3",
+          "Category": -98,
+          "MinDamage": 80,
+          "MaxDamage": 90,
+          "Knockback": 1.0,
+          "Speed": 8,
+          "Precision": 0,
+          "Defense": 2,
+          "AreaOfEffect": 0,
+          "CritChance": 0.02,
+          "CritMultiplier": 3.0,
+          "CanBeLostOnDeath": false,
+          "MineBaseLevel": -1,
+          "MineMinLevel": -1,
+          "Texture": "Mods/Dolly.FairyWeaponry/weapons",
+          "SpriteIndex": 1
+        },
+        "Dolly.FairyWeaponry_SkySplitter": {
+          "Name": "Dolly.FairyWeaponry_SkySplitter",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_SkySplitterName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_SkySplitterDescription}}",
+          "Type": "1",
+          "Category": -98,
+          "MinDamage": 45,
+          "MaxDamage": 65,
+          "Knockback": 1.0,
+          "Speed": 3,
+          "Precision": 0,
+          "Defense": 0,
+          "AreaOfEffect": 0,
+          "CritChance": 0.06,
+          "CritMultiplier": 4.0,
+          "CanBeLostOnDeath": false,
+          "MineBaseLevel": -1,
+          "MineMinLevel": -1,
+          "Texture": "Mods/Dolly.FairyWeaponry/weapons",
+          "SpriteIndex": 0
+        },
+        "Dolly.FairyWeaponry_FairyTome": {
+          "Name": "Dolly.FairyWeaponry_FairyTome",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_FairyTomeName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_FairyTomeDescription}}",
+          "Type": "3",
+          "Category": -98,
+          "MinDamage": 42,
+          "MaxDamage": 55,
+          "Knockback": 1.2,
+          "Speed": 0,
+          "Precision": 0,
+          "Defense": 4,
+          "AreaOfEffect": 0,
+          "CritChance": 0.02,
+          "CritMultiplier": 3.0,
+          "CanBeLostOnDeath": false,
+          "MineBaseLevel": -1,
+          "MineMinLevel": -1,
+          "Texture": "Mods/Dolly.FairyWeaponry/weapons",
+          "SpriteIndex": 3
+        },
+        "Dolly.FairyWeaponry_RadiantStaff": {
+          "Name": "Dolly.FairyWeaponry_RadiantStaff",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_RadiantStaffName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_RadiantStaffDescription}}",
+          "Type": "3",
+          "Category": -98,
+          "MinDamage": 55,
+          "MaxDamage": 75,
+          "Knockback": 1.0,
+          "Speed": 4,
+          "Precision": 0,
+          "Defense": 2,
+          "AreaOfEffect": 0,
+          "CritChance": 0.02,
+          "CritMultiplier": 3.0,
+          "CanBeLostOnDeath": false,
+          "MineBaseLevel": -1,
+          "MineMinLevel": -1,
+          "Texture": "Mods/Dolly.FairyWeaponry/weapons",
+          "SpriteIndex": 4
+        },
+        "Dolly.FairyWeaponry_FairyStaff": {
+          "Name": "Dolly.FairyWeaponry_FairyStaff",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_FairyStaffName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_FairyStaffDescription}}",
+          "Type": "3",
+          "Category": -98,
+          "MinDamage": 65,
+          "MaxDamage": 90,
+          "Knockback": 1.0,
+          "Speed": 8,
+          "Precision": 0,
+          "Defense": 4,
+          "AreaOfEffect": 0,
+          "CritChance": 0.02,
+          "CritMultiplier": 3.0,
+          "CanBeLostOnDeath": false,
+          "MineBaseLevel": -1,
+          "MineMinLevel": -1,
+          "Texture": "Mods/Dolly.FairyWeaponry/weapons",
+          "SpriteIndex": 5
+        },
+        "Dolly.FairyWeaponry_WoodlandStaff": {
+          "Name": "Dolly.FairyWeaponry_WoodlandStaff",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_WoodlandStaffName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_WoodlandStaffDescription}}",
+          "Type": "2",
+          "Category": -98,
+          "MinDamage": 25,
+          "MaxDamage": 40,
+          "Knockback": 1.3,
+          "Speed": -4,
+          "Precision": 0,
+          "Defense": 0,
+          "AreaOfEffect": 0,
+          "CritChance": 0.02,
+          "CritMultiplier": 3.0,
+          "CanBeLostOnDeath": false,
+          "MineBaseLevel": -1,
+          "MineMinLevel": -1,
+          "Texture": "Mods/Dolly.FairyWeaponry/weapons",
+          "SpriteIndex": 2
+        }
+      }
+    }
+    /*Projectiles and Objects */,
+    {
+      "LogName": "Fairy Weaponry Projectiles and Objects",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Dolly.FairyWeaponry_Thorn": {
+          "Name": "Dolly.FairyWeaponry_Thorn",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_ThornName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_ThornDescription}}",
+          "Edibility": "-300",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1000,
+          "Texture": "Mods/Dolly.FairyWeaponry/projectiles",
+          "SpriteIndex": 2,
+          "ExcludeFromShippingCollection": "true"
+        },
+        "Dolly.FairyWeaponry_Fairy": {
+          "Name": "Dolly.FairyWeaponry_Fairy",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_FairyName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_FairyDescription}}",
+          "Edibility": "-300",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 0,
+          "Texture": "Mods/Dolly.FairyWeaponry/projectiles",
+          "SpriteIndex": 0,
+          "ExcludeFromShippingCollection": "true"
+        },
+        "Dolly.FairyWeaponry_Rainbow": {
+          "Name": "Dolly.FairyWeaponry_Rainbow",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_RainbowName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_RainbowDescription}}",
+          "Edibility": "-300",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 0,
+          "Texture": "Mods/Dolly.FairyWeaponry/projectiles",
+          "SpriteIndex": 1,
+          "ExcludeFromShippingCollection": "true"
+        },
+        "Dolly.FairyWeaponry_Wind": {
+          "Name": "Dolly.FairyWeaponry_Wind",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_WindName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_WindDescription}}",
+          "Edibility": "-300",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 0,
+          "Texture": "Mods/Dolly.FairyWeaponry/projectiles",
+          "SpriteIndex": 3,
+          "ExcludeFromShippingCollection": "true"
+        },
+        "Dolly.FairyWeaponry_PrismMushroom": {
+          "Name": "Dolly.FairyWeaponry_PrismMushroom",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_PrismMushroomName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_PrismMushroomDescription}}",
+          "Edibility": "50",
+          "Type": "Forage",
+          "Category": -81,
+          "Price": 275,
+          "Texture": "Mods/Dolly.FairyWeaponry/objects",
+          "SpriteIndex": 0,
+          "ExcludeFromShippingCollection": "true"
+        },
+        "Dolly.FairyWeaponry_AncientAcorn": {
+          "Name": "Dolly.FairyWeaponry_AncientAcorn",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_AncientAcornName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_AncientAcornDescription}}",
+          "Edibility": "-300",
+          "Type": "Forage",
+          "Category": -81,
+          "Price": 175,
+          "Texture": "Mods/Dolly.FairyWeaponry/objects",
+          "SpriteIndex": 1,
+          "ExcludeFromShippingCollection": "true"
+        },
+        "Dolly.FairyWeaponry_PrismBottle": {
+          "Name": "Dolly.FairyWeaponry_PrismBottle",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_PrismBottleName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_PrismBottleDescription}}",
+          "Edibility": "80",
+          "IsDrink": "true",
+          "Type": "Crafting",
+          "Category": -8,
+          "Price": 1000,
+          "Texture": "Mods/Dolly.FairyWeaponry/objects",
+          "SpriteIndex": 2,
+          "Buffs": [
+            {
+              "Id": "Dolly.FairyWeaponry_PrismaticBuff",
+              "BuffId": null,
+              "IsDebuff": false,
+              "IconTexture": null,
+              "SpriteIndex": 0,
+              "Duration": 400,
+              "GlowColor": "255 255 0",
+              "CustomAttributes": {
+                "FarmingLevel": 3.0,
+                "Speed": 2.5
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": "true"
+        },
+        "Dolly.FairyWeaponry_PrismaticPearl": {
+          "Name": "Dolly.FairyWeaponry_PrismaticPearl",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_PrismaticPearlName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_PrismaticPearlDescription}}",
+          "Edibility": "-300",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 2000,
+          "Texture": "Mods/Dolly.FairyWeaponry/objects",
+          "SpriteIndex": 3,
+          "ExcludeFromShippingCollection": "true"
+        },
+        "Dolly.FairyWeaponry_MysteriousNote": {
+          "Name": "Dolly.FairyWeaponry_MysteriousNote",
+          "DisplayName": "{{i18n: Dolly.FairyWeaponry_MysteriousNoteName}}",
+          "Description": "{{i18n: Dolly.FairyWeaponry_MysteriousNoteDescription}}",
+          "Edibility": "-300",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 200,
+          "Texture": "Mods/Dolly.FairyWeaponry/objects",
+          "SpriteIndex": 4,
+          "ExcludeFromShippingCollection": "true"
+        }
+      }
+    }
+    /*Item Extensibility */,
+    {
+      "Action": "EditData",
+      "Target": "Mods/mistyspring.ItemExtensions/Data",
+      "Entries": {
+        "(O)Dolly.FairyWeaponry_PrismMushroom": {
+          "Light": {
+            "R": 1,
+            "G": 1,
+            "B": 1,
+            "Transparency": 0.9,
+            "Hex": null,
+            "Size": 0.6
+          }
+        },
+        "(O)Dolly.FairyWeaponry_PrismBottle": {
+          "Light": {
+            "R": 1,
+            "G": 1,
+            "B": 1,
+            "Transparency": 0.9,
+            "Hex": null,
+            "Size": 0.7
+          }
+        },
+        "(O)Dolly.FairyWeaponry_PrismaticPearl": {
+          "Light": {
+            "R": 1,
+            "G": 1,
+            "B": 1,
+            "Transparency": 0.9,
+            "Hex": null,
+            "Size": 0.7
+          }
+        }
+      }
+    }
+    /*Bottle Crafting Recipe */,
+    {
+      "LogName": "Fairy Weaponry Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Dolly.FairyWeaponry_BottleRecipe": "(O)Dolly.FairyWeaponry_PrismMushroom 2 768 10/Field/Dolly.FairyWeaponry_PrismBottle/false/Farming 5/{{i18n: Dolly.FairyWeaponry_PrismBottleName}}"
+      }
+    }
+    /*Shops */,
+    {
+      "LogName": "Trader Shop",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "IslandTrade",
+        "Items"
+      ],
+      "Entries": {
+        "Dolly.FairyWeaponry_TraderShop.PrismaticPearl": {
+          "Id": "Dolly.FairyWeaponry_TraderShop.PrismaticPearl",
+          "ItemId": "(O)Dolly.FairyWeaponry_PrismaticPearl",
+          "TradeItemId": "(O)74",
+          "TradeItemAmount": 1
+        }
+      }
+    },
+    {
+      "LogName": "Dwarf Shop",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Dwarf",
+        "Items"
+      ],
+      "Entries": {
+        "Dolly.FairyWeaponry_DwarfShop.WoodlandStaff": {
+          "Id": "Dolly.FairyWeaponry_DwarfShop.WoodlandStaff",
+          "ItemId": "(W)Dolly.FairyWeaponry_WoodlandStaff",
+          "Price": 12000,
+          "TradeItemId": "(O)Dolly.FairyWeaponry_AncientAcorn",
+          "TradeItemAmount": 3,
+          "CustomFields": {
+            "mistyspring.ItemExtensions/ExtraTrades": "(O)Dolly.FairyWeaponry_PrismBottle 1, (O)768 5"
+          },
+          "Condition": "mistyspring.ItemExtensions_InInventory Current (O)Dolly.FairyWeaponry_PrismBottle 1"
+        },
+        "Dolly.FairyWeaponry_DwarfShop.Zephyr": {
+          "Id": "Dolly.FairyWeaponry_DwarfShop.Zephyr",
+          "ItemId": "(W)Dolly.FairyWeaponry_Zephyr",
+          "Price": 35000,
+          "TradeItemId": "(O)Dolly.FairyWeaponry_AncientAcorn",
+          "TradeItemAmount": 7,
+          "CustomFields": {
+            "mistyspring.ItemExtensions/ExtraTrades": "(O)541 10, (O)Dolly.FairyWeaponry_PrismBottle 1"
+          },
+          "Condition": "mistyspring.ItemExtensions_InInventory Current (O)Dolly.FairyWeaponry_PrismBottle 1"
+        },
+        "Dolly.FairyWeaponry_DwarfShop.SkySplitter": {
+          "Id": "Dolly.FairyWeaponry_DwarfShop.SkySplitter",
+          "ItemId": "(W)Dolly.FairyWeaponry_SkySplitter",
+          "Price": 28000,
+          "TradeItemId": "(O)Dolly.FairyWeaponry_AncientAcorn",
+          "TradeItemAmount": 5,
+          "CustomFields": {
+            "mistyspring.ItemExtensions/ExtraTrades": "(O)558 2, (O)541 2, (O)Dolly.FairyWeaponry_PrismBottle 1"
+          },
+          "Condition": "mistyspring.ItemExtensions_InInventory Current (O)Dolly.FairyWeaponry_PrismBottle 1"
+        },
+        "Dolly.FairyWeaponry_DwarfShop.RadiantStaff": {
+          "Id": "Dolly.FairyWeaponry_DwarfShop.RadiantStaff",
+          "ItemId": "(W)Dolly.FairyWeaponry_RadiantStaff",
+          "Price": 28000,
+          "TradeItemId": "(O)Dolly.FairyWeaponry_PrismBottle",
+          "TradeItemAmount": 3,
+          "CustomFields": {
+            "mistyspring.ItemExtensions/ExtraTrades": "(O)Dolly.FairyWeaponry_AncientAcorn 3, (O)577 2, (O)768 10"
+          },
+          "Condition": "mistyspring.ItemExtensions_InInventory Current (O)Dolly.FairyWeaponry_PrismBottle 1"
+        },
+        "Dolly.FairyWeaponry_DwarfShop.FairyStaff": {
+          "Id": "Dolly.FairyWeaponry_DwarfShop.FairyStaff",
+          "ItemId": "(W)Dolly.FairyWeaponry_FairyStaff",
+          "Price": 35000,
+          "TradeItemId": "(W)Dolly.FairyWeaponry_RadiantStaff",
+          "TradeItemAmount": 1,
+          "CustomFields": {
+            "mistyspring.ItemExtensions/ExtraTrades": "(O)Dolly.FairyWeaponry_PrismaticPearl 1, (O)768 10"
+          },
+          "Condition": "mistyspring.ItemExtensions_InInventory Current (O)Dolly.FairyWeaponry_PrismBottle 1"
+        },
+        "Dolly.FairyWeaponry_DwarfShop.FairyTome": {
+          "Id": "Dolly.FairyWeaponry_DwarfShop.FairyTome",
+          "ItemId": "(W)Dolly.FairyWeaponry_FairyTome",
+          "Price": 15000,
+          "TradeItemId": "(O)Dolly.FairyWeaponry_MysteriousNote",
+          "TradeItemAmount": 5,
+          "CustomFields": {
+            "mistyspring.ItemExtensions/ExtraTrades": "(O)Dolly.FairyWeaponry_PrismBottle 2, (O)768 10"
+          },
+          "Condition": "mistyspring.ItemExtensions_InInventory Current (O)Dolly.FairyWeaponry_PrismBottle 1"
+        }
+      }
+    }
+    /*Load Assets */,
+    {
+      "LogName": "Fairy Weaponry Load Assets",
+      "Action": "Load",
+      "Target": "Mods/Dolly.FairyWeaponry/weapons, Mods/Dolly.FairyWeaponry/projectiles, Mods/Dolly.FairyWeaponry/objects",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+  ]
+}

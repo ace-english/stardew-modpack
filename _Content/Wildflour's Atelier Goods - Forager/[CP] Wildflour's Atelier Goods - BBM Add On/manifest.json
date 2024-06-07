@@ -1,0 +1,15 @@
+﻿{
+	"Name": "[CP] Wildflour's Forager Pack Bush Bloom Add On",
+	"Author": "wildflourmods",
+    "Version": "1.0.3",
+	"Description": "Bush Bloom add on for Wildflour's Forager Pack",
+	"UniqueID": "wildflour.ateliercropsBBM",
+	"MinimumApiVersion": "4.0.0",
+	"Dependencies": [
+		{"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+		{"UniqueID": "wildflour.ateliercrops", "IsRequired": true}
+	  ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

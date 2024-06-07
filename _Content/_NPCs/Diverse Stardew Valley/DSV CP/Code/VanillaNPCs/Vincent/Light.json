@@ -1,0 +1,251 @@
+{
+// VINCENT DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Vincent Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Vincent", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Vincent.Indoor":
+				{
+					"Id": "{{ModId}}_Vincent_Indoor",
+					"Portrait": "Portraits/Vincent_Indoor",
+					"Sprite": "Characters/Vincent_Indoor",
+					"Precedence": -110
+				},
+				"DSV.Vincent.Beach":
+				{
+					"Id": "{{ModId}}_Vincent_Beach",
+					"Portrait": "Portraits/Vincent_Beach",
+					"Sprite": "Characters/Vincent_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Vincent.EggFestival":
+				{
+					"Id": "{{ModId}}_Vincent_EggFestival",
+					"Portrait": "Portraits/Vincent_EggFestival",
+					"Sprite": "Characters/Vincent_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Vincent.FlowerDance":
+				{
+					"Id": "{{ModId}}_Vincent_FlowerDance",
+					"Portrait": "Portraits/Vincent_FlowerDance",
+					"Sprite": "Characters/Vincent_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Vincent.Luau":
+				{
+					"Id": "{{ModId}}_Vincent_Luau",
+					"Portrait": "Portraits/Vincent_Luau",
+					"Sprite": "Characters/Vincent_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Vincent.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Vincent_MoonlightJellies",
+					"Portrait": "Portraits/Vincent_MoonlightJellies",
+					"Sprite": "Characters/Vincent_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Vincent.SVFair":
+				{
+					"Id": "{{ModId}}_Vincent_SVFair",
+					"Portrait": "Portraits/Vincent_SVFair",
+					"Sprite": "Characters/Vincent_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Vincent.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Vincent_SpiritsEve",
+					"Portrait": "Portraits/Vincent_SpiritsEve",
+					"Sprite": "Characters/Vincent_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Vincent.IceFestival":
+				{
+					"Id": "{{ModId}}_Vincent_IceFestival",
+					"Portrait": "Portraits/Vincent_IceFestival",
+					"Sprite": "Characters/Vincent_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Vincent.WinterStar":
+				{
+					"Id": "{{ModId}}_Vincent_WinterStar",
+					"Portrait": "Portraits/Vincent_WinterStar",
+					"Sprite": "Characters/Vincent_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Vincent.Swim":
+				{
+					"Id": "{{ModId}}_Vincent_Swim",
+					"Portrait": "Portraits/Vincent_Swim",
+					"Sprite": "Characters/Vincent_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\" \"LOCATION_NAME Target Beach, WEATHER Target Sun Wind, SEASON Summer\"",
+					"Precedence": -150
+				},
+				"DSV.Vincent.HotClimate":
+				{
+					"Id": "{{ModId}}_Vincent_HotClimate",
+					"Portrait": "Portraits/Vincent_HotClimate",
+					"Sprite": "Characters/Vincent_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Vincent Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Vincent_Indoor, Characters/Vincent_Indoor",
+			"FromFile": "Art/VanillaNPCs/Vincent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:VincentVariant}}/Vincent_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:VincentVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Vincent Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Vincent_Beach, Characters/Vincent_Beach",
+			"FromFile": "Art/VanillaNPCs/Vincent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:VincentVariant}}/Vincent_Beach.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:VincentVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Vincent Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Vincent_EggFestival, Characters/Vincent_EggFestival, Portraits/Vincent_FlowerDance, Characters/Vincent_FlowerDance, Portraits/Vincent_Luau, Characters/Vincent_Luau, Portraits/Vincent_MoonlightJellies, Characters/Vincent_MoonlightJellies, Portraits/Vincent_SVFair, Characters/Vincent_SVFair, Portraits/Vincent_SpiritsEve, Characters/Vincent_SpiritsEve, Portraits/Vincent_IceFestival, Characters/Vincent_IceFestival, Portraits/Vincent_WinterStar, Characters/Vincent_WinterStar, Portraits/Vincent_Swim, Characters/Vincent_Swim",
+			"FromFile": "Art/VanillaNPCs/Vincent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:VincentVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:VincentVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Vincent Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Vincent_Indoor, Characters/Vincent_Indoor",
+			"FromFile": "Art/VanillaNPCs/Vincent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:VincentVariant}}/Vincent_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Vincent Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Vincent_HotClimate, Characters/Vincent_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Vincent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:VincentVariant}}/Vincent_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Vincent Flower Dance Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Vincent_FlowerDance, Characters/Vincent_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Vincent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:VincentVariant}}/{{TargetWithoutPath}}_{{VincentFlowerDanceToken}}.png",
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Vincent Random Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Vincent_SpiritsEve, Characters/Vincent_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Vincent/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:VincentVariant}}/{{TargetWithoutPath}}_{{RandomSpiritsEveTwoToken}}.png"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Vincent Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Vincent/Misc/Vincent_Emoji_Modded.png",
+			"ToArea": {"X": 117, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:VincentVariant|contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Vincent Bundle Sprite",
+			"Action": "EditImage",
+			"Target": "LooseSprites/BundleSprites",
+			"FromFile": "Art/VanillaNPCs/Vincent/Misc/BundleSprites_Vincent.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"DSV.Core/ConfigValue:VincentVariant|contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Vincent Temporary Sprite",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Vincent/Misc/TemporarySprites1_Vincent_Modded.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:VincentVariant|contains= Vanilla": false
+			}
+		},
+
+// COMPATIBILITY
+// Lumisteria Missing Hat Bundles
+		
+		{
+			"LogName": "Vincent Lumisteria Bundles",
+			"Action": "EditImage",
+			"Target": "Mods/Lumisteria.CP.MissingHatsBundles/Vincent",
+			"FromFile": "Art/VanillaNPCs/Vincent/Misc/LumisteriaBundles_Vincent.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:VincentVariant|contains= Vanilla, Off": false,
+				"HasMod |contains= Lumisteria.CP.MissingHatsBundles": true
+			}
+		},
+
+// Lavril
+		
+		{
+			"LogName": "Vincent Lavril CG",
+			"Action": "EditMap",
+			"Target": "Maps/VincentMirror, Maps/Vincent_CG",
+			"FromFile": "Art/VanillaNPCs/Vincent/Misc/Vincent_CG.tmx",
+			"PatchMode": "Replace",
+			"When":
+			{
+				"DSV.Core/ConfigValue:VincentVariant|contains= Vanilla, Off": false,
+				"HasMod |contains= Arknir27.Lavril": true
+			}
+		}
+	]
+}

@@ -1,0 +1,465 @@
+{
+// ALEX DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Alex Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Alex", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Alex.Indoor":
+				{
+					"Id": "{{ModId}}_",
+					"Portrait": "Portraits/Alex_Indoor",
+					"Sprite": "Characters/Alex_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Alex.EggFestival":
+				{
+					"Id": "{{ModId}}_Alex_EggFestival",
+					"Portrait": "Portraits/Alex_EggFestival",
+					"Sprite": "Characters/Alex_EggFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_spring13\" \"IS_EVENT 911526\" \"IS_EVENT 955806, {{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}\"",
+					"Precedence": -200
+				},
+				"DSV.Alex.FlowerDance":
+				{
+					"Id": "{{ModId}}_Alex_FlowerDance",
+					"Portrait": "Portraits/Alex_FlowerDance",
+					"Sprite": "Characters/Alex_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Alex.Luau":
+				{
+					"Id": "{{ModId}}_Alex_Luau",
+					"Portrait": "Portraits/Alex_Luau",
+					"Sprite": "Characters/Alex_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Alex.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Alex_MoonlightJellies",
+					"Portrait": "Portraits/Alex_MoonlightJellies",
+					"Sprite": "Characters/Alex_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Alex.SVFair":
+				{
+					"Id": "{{ModId}}_Alex_SVFair",
+					"Portrait": "Portraits/Alex_SVFair",
+					"Sprite": "Characters/Alex_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Alex.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Alex_SpiritsEve",
+					"Portrait": "Portraits/Alex_SpiritsEve",
+					"Sprite": "Characters/Alex_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Alex.IceFestival":
+				{
+					"Id": "{{ModId}}_Alex_IceFestival",
+					"Portrait": "Portraits/Alex_IceFestival",
+					"Sprite": "Characters/Alex_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Alex.WinterStar":
+				{
+					"Id": "{{ModId}}_Alex_WinterStar",
+					"Portrait": "Portraits/Alex_WinterStar",
+					"Sprite": "Characters/Alex_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Alex.Swim":
+				{
+					"Id": "{{ModId}}_Alex_Swim",
+					"Portrait": "Portraits/Alex_Swim",
+					"Sprite": "Characters/Alex_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\" \"LOCATION_NAME Target Beach, WEATHER Target Sun Wind, SEASON Summer\"",
+					"Precedence": -150
+				},
+				"DSV.Alex.HotClimate":
+				{
+					"Id": "{{ModId}}_Alex_HotClimate",
+					"Portrait": "Portraits/Alex_HotClimate",
+					"Sprite": "Characters/Alex_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Alex Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Alex_Indoor, Characters/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Spring_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Alex Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Alex_EggFestival, Characters/Alex_EggFestival, Portraits/Alex_FlowerDance, Characters/Alex_FlowerDance, Portraits/Alex_Luau, Characters/Alex_Luau, Portraits/Alex_MoonlightJellies, Characters/Alex_MoonlightJellies, Portraits/Alex_SVFair, Characters/Alex_SVFair, Portraits/Alex_SpiritsEve, Characters/Alex_SpiritsEve, Portraits/Alex_IceFestival, Characters/Alex_IceFestival, Portraits/Alex_WinterStar, Characters/Alex_WinterStar, Portraits/Alex_Swim, Characters/Alex_Swim",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Alex Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Alex_HotClimate, Characters/Alex_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Alex Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Indoor, Characters/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_{{Season}}_{{RandomTwoToken}}_Base.png"
+		},
+		{
+			"LogName": "Alex Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_HotClimate, Characters/Alex_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Summer_{{RandomTwoToken}}_Sun.png"
+		},
+		{
+			"LogName": "Alex Random Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_SpiritsEve, Characters/Alex_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_SpiritsEve_{{RandomSpiritsEveTwoToken}}.png"
+		},
+		{
+			"LogName": "Alex Flower Dance Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_FlowerDance, Characters/Alex_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_FlowerDance_1{{AlexFlowerDanceToken}}.png",
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Alex Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Beach, Characters/Alex_Beach",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Alex Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Alex_Wedding_{{AlexSeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 384, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Alex Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/Alex_Emoji_{{DSV.Core/ConfigValue:AlexVariant}}.png",
+			"ToArea": {"X": 54, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Alex Mom Portrait",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/CursorsAlex.png",
+			"ToArea": { "X": 416, "Y": 1936, "Width": 115, "Height": 60 },
+			"When":
+		  	{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Vanilla, Off": false,
+				"HasMod |contains= Lumisteria.BetterClaraPortrait": false
+			}
+		},
+		{
+			"LogName": "Alex Mom Portrait - Lumisteria Alternate Clara Portrait Compatibility",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/CursorsAlex_Lumisteria.png",
+			"ToArea": { "X": 416, "Y": 1936, "Width": 115, "Height": 60 },
+			"When":
+		  	{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Vanilla, Off": false,
+				"HasMod |contains= Lumisteria.BetterClaraPortrait": true
+			}
+		},
+		{
+			"LogName": "Alex Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/Alex_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}.png",
+			"ToArea": { "X": "32", "Y": "304", "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Vanilla, Off": false
+			}
+		},
+		
+// SAMOAN ALEX TATTOOS
+	
+		{
+			"LogName": "Alex Samoan Tattoos - Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Indoor, Characters/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/TattooOverlays/Alex_{{season}}_{{RandomTwoToken}}_Base.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Samoan": true,
+				"DSV.Core/ConfigValue:AlexTattoos |contains= True": true
+			}
+		},
+		{
+			"LogName": "Alex Samoan Tattoos - Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_HotClimate, Characters/Alex_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/TattooOverlays/Alex_Summer_{{RandomTwoToken}}_Sun.png",
+			"PatchMode": "Overlay",
+			"When":
+			{	
+				"DSV.Core/ConfigValue:AlexVariant|contains= Samoan": true,
+				"DSV.Core/ConfigValue:AlexTattoos |contains= True": true
+			}
+		},
+		{
+			"LogName": "Alex Samoan Tattoos - Festival & Special Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Luau, Characters/Alex_Luau, Portraits/Alex_Swim, Characters/Alex_Swim",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/TattooOverlays/{{TargetWithoutPath}}_1.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Samoan": true,
+				"DSV.Core/ConfigValue:AlexTattoos |contains= True": true
+			}
+		},	
+		{
+			"LogName": "Alex Samoan Tattoos - Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_SpiritsEve, Characters/Alex_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/TattooOverlays/Alex_SpiritsEve_{{RandomSpiritsEveTwoToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant|contains= Samoan": true,
+				"DSV.Core/ConfigValue:AlexTattoos |contains= True": true
+			}
+		},
+		{
+			"LogName": "Alex Samoan Tattoos Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Beach, Characters/Alex_Beach",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/TattooOverlays/Alex_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant |contains= Samoan": true,
+				"DSV.Core/ConfigValue:AlexTattoos |contains= True": true
+			}
+		},
+
+// JEWISH ALEX
+		{
+			"LogName": "Alex Star of David Pendant Regular",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/StarOfDavid/Alex_StarOfDavid_{{AlexStarofDavidToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Alex Star of David Pendant Shirtless",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Swim, Portraits/Alex_Luau, Portraits/Alex_Beach",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/StarOfDavid/Alex_StarOfDavid_Shirtless.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			}
+		},
+		{
+			"LogName": "Alex Kippah",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Indoor, Characters/Alex_Indoor",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Overlays/Alex_{{JewishAlexKippahToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// MERMAID PENDANTS
+		{
+			"LogName": "Alex Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Indoor, Portraits/Alex_EggFestival, Portraits/Alex_FlowerDance, Portraits/Alex_Luau, Portraits/Alex_MoonlightJellies, Portraits/Alex_SVFair",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/MermaidPendants/Alex_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Alex |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Alex Pendants - Beach & Winter Star",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Beach, Portraits/Alex_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/MermaidPendants/Alex_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Alex |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Alex Pendants - RSV Rival Hearts Alex/Jeric Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Indoor, Portraits/Alex_EggFestival, Portraits/Alex_FlowerDance, Portraits/Alex_Luau, Portraits/Alex_MoonlightJellies, Portraits/Alex_SVFair",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/MermaidPendants/Alex_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Alex |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= ZoeDoll.JericAlexRivalHearts": true,
+				"HasSeenEvent |contains= 955807": true
+			}
+		},
+		{
+			"LogName": "Alex Pendants - RSV Rival Hearts Alex/Jeric Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Beach, Portraits/Alex_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/MermaidPendants/Alex_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Alex |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= ZoeDoll.JericAlexRivalHearts": true,
+				"HasSeenEvent |contains= 955807": true
+			}
+		},
+		{
+			"LogName": "Alex Pendants - RSV Rival Hearts Alex/Jeric Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Jeric, Portraits/Jeric_Beach",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/MermaidPendants/{{TargetWithoutPath}}_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Alex |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= ZoeDoll.JericAlexRivalHearts": true,
+				"HasSeenEvent |contains= 955807": true
+			}
+		},
+		{
+			"LogName": "Alex Pendants - Jaemin Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Indoor, Portraits/Alex_EggFestival, Portraits/Alex_FlowerDance, Portraits/Alex_Luau, Portraits/Alex_MoonlightJellies, Portraits/Alex_SVFair",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/MermaidPendants/Alex_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Alex |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= baguettemagiqu7.NPCParkJaemin": true,
+				"HasSeenEvent |contains= 375300006": true
+			}
+		},
+		{
+			"LogName": "Alex Pendants - Jaemin Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Beach, Portraits/Alex_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Alex/Misc/MermaidPendants/Alex_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Alex |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= baguettemagiqu7.NPCParkJaemin": true,
+				"HasSeenEvent |contains= 375300006": true
+			}
+		},
+
+// COMPATIBILITY
+// PPAF
+		{
+			"LogName": "PPaF Compat - Alex No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Indoor, Portraits/Alex_EggFestival, Portraits/Alex_FlowerDance, Portraits/Alex_Luau, Portraits/Alex_MoonlightJellies, Portraits/Alex_SVFair, Portraits/Alex_IceFestival, Portraits/Alex_WinterStar, Portraits/Alex_Swim, Portraits/Alex_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Alex/Portraits/{{DSV.Core/ConfigValue:AlexVariant}}/Overlays/Alex_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Alex": true
+			}
+		},
+		
+// MISCELLANEOUS OVERLAYS
+		{
+			"LogName": "Alex Sunglasses Overlay Luau",
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Luau, Characters/Alex_Luau",
+			"FromFile": "Art/VanillaNPCs/Alex/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:AlexVariant}}/Overlays/Alex_SunglassesOverlay.png",
+			"PatchMode": "Overlay"
+		}
+	]
+}

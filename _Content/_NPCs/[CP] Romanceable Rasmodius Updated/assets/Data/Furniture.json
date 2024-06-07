@@ -1,0 +1,44 @@
+{
+    "Changes": [
+
+        // Portrait Furniture
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Rasmodius_Portrait",
+            "FromFile": "assets/Furniture/Rasmodius_Portrait.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "{{ModId}}_RasmodiusPortrait": "RasmodiusPortrait/painting/2 2/2 2/1/999/-1/{{i18n:RasmodiusPortrait}}/0/Mods\\{{ModId}}\\Rasmodius_Portrait/true"
+            }
+        },
+
+        // Shop
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "Entries": {
+                "{{ModId}}_RasmodiusPortrait":{
+                    "Price": 30000,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": "PLAYER_HEARTS Current Wizard 14",
+                    "Id": "(F){{ModId}}_RasmodiusPortrait",
+                    "ItemId": "(F){{ModId}}_RasmodiusPortrait",
+                    "IsRecipe": false,
+                    "StackModifierMode": "Stack",
+                    "QualityModifierMode": "Stack"
+                }
+            }
+        }
+    ]
+}

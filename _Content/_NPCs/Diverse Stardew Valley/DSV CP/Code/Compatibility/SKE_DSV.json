@@ -1,0 +1,56 @@
+{
+		"Changes": 
+		[
+			{
+				"LogName": "DSV Tina",
+				"Action": "EditImage",
+				"Target": "Portraits/Tina, Characters/Tina",
+				"FromFile": "Art/Compatibility/SKECompat/{{Target}}_{{DSV.Core/ConfigValue:SKETina}}.png",
+				"When":
+				{
+					"DSV.Core/ConfigValue:SKETina |contains= Off": false
+				}
+			},
+			{
+				"LogName": "DSV James",
+				"Action": "EditImage",
+				"Target": "Portraits/James, Characters/James",
+				"FromFile": "Art/Compatibility/SKECompat/{{Target}}_{{DSV.Core/ConfigValue:SKEJames}}.png",
+				"When":
+				{
+					"DSV.Core/ConfigValue:SKEJames |contains= Off": false
+				}
+			},
+			{
+				"LogName": "DSV Adrian",
+				"Action": "EditImage",
+				"Target": "Portraits/Adrian, Characters/Adrian",
+				"FromFile": "Art/Compatibility/SKECompat/{{Target}}_{{DSV.Core/ConfigValue:SKEAdrian}}.png",
+				"When":
+				{
+					"DSV.Core/ConfigValue:SKEAdrian |contains= Off": false
+				}
+			},
+			{
+				"LogName": "DSV Vanessa",
+				"Action": "EditImage",
+				"Target": "Portraits/Vanessa, Characters/Vanessa",
+				"FromFile": "Art/Compatibility/SKECompat/{{Target}}_{{DSV.Core/ConfigValue:SKEVanessa}}.png",
+				"When":
+				{
+					"DSV.Core/ConfigValue:SKEVanessa |contains= Off": false
+				}
+			},
+			{
+				"LogName": "DSV Douglas",
+				"Action": "EditImage",
+				"Target": "Portraits/Douglas, Characters/Douglas",
+				"FromFile": "Art/Compatibility/SKECompat/{{Target}}_{{DSV.Core/ConfigValue:SKEDouglas}}.png",
+				"When":
+				{
+					"DSV.Core/ConfigValue:SKEDouglas |contains= Off": false
+				}
+			}
+		]
+	}
+	

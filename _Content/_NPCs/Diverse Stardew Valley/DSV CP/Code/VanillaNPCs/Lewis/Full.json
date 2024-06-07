@@ -1,0 +1,365 @@
+{
+// LEWIS DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Lewis Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Lewis", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Lewis.Indoor":
+				{
+					"Id": "{{ModId}}_Lewis_Indoor",
+					"Portrait": "Portraits/Lewis_Indoor",
+					"Sprite": "Characters/Lewis_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Lewis.Outdoor":
+				{
+					"Id": "{{ModId}}_Lewis_Outdoor",
+					"Portrait": "Portraits/Lewis_Outdoor",
+					"Sprite": "Characters/Lewis_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+				"DSV.Lewis.Beach":
+				{
+					"Id": "{{ModId}}_Lewis_Beach",
+					"Portrait": "Portraits/Lewis_Beach",
+					"Indoors": false,
+					"Outdoors": true,
+					"IsIslandAttire": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Lewis.EggFestival":
+				{
+					"Id": "{{ModId}}_Lewis_EggFestival",
+					"Portrait": "Portraits/Lewis_EggFestival",
+					"Sprite": "Characters/Lewis_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Lewis.FlowerDance":
+				{
+					"Id": "{{ModId}}_Lewis_FlowerDance",
+					"Portrait": "Portraits/Lewis_FlowerDance",
+					"Sprite": "Characters/Lewis_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Lewis.Luau":
+				{
+					"Id": "{{ModId}}_Lewis_Luau",
+					"Portrait": "Portraits/Lewis_Luau",
+					"Sprite": "Characters/Lewis_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Lewis.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Lewis_MoonlightJellies",
+					"Portrait": "Portraits/Lewis_MoonlightJellies",
+					"Sprite": "Characters/Lewis_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Lewis.SVFair":
+				{
+					"Id": "{{ModId}}_Lewis_SVFair",
+					"Portrait": "Portraits/Lewis_SVFair",
+					"Sprite": "Characters/Lewis_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Lewis.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Lewis_SpiritsEve",
+					"Portrait": "Portraits/Lewis_SpiritsEve",
+					"Sprite": "Characters/Lewis_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Lewis.IceFestival":
+				{
+					"Id": "{{ModId}}_Lewis_IceFestival",
+					"Portrait": "Portraits/Lewis_IceFestival",
+					"Sprite": "Characters/Lewis_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Lewis.WinterStar":
+				{
+					"Id": "{{ModId}}_Lewis_WinterStar",
+					"Portrait": "Portraits/Lewis_WinterStar",
+					"Sprite": "Characters/Lewis_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Lewis.Swim":
+				{
+					"Id": "{{ModId}}_Lewis_Swim",
+					"Portrait": "Portraits/Lewis_Swim",
+					"Sprite": "Characters/Lewis_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Lewis.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Lewis_WeddingGuest",
+					"Portrait": "Portraits/Lewis_WeddingGuest",
+					"Sprite": "Characters/Lewis_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Lewis.HotClimate":
+				{
+					"Id": "{{ModId}}_Lewis_HotClimate",
+					"Portrait": "Portraits/Lewis_HotClimate",
+					"Sprite": "Characters/Lewis_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert",
+					"Precedence": -150
+				},
+				"DSV.Lewis.Island":
+				{
+					"Id": "{{ModId}}_Lewis_Island",
+					"Portrait": "Portraits/Lewis_Island",
+					"Sprite": "Characters/Lewis_Island",
+					"Condition": "LOCATION_CONTEXT Target Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Lewis Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Lewis_Indoor, Characters/Lewis_Indoor, Portraits/Lewis_Outdoor, Characters/Lewis_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_Spring_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LewisVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Lewis Load - Beach Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Lewis_Beach, Portraits/Lewis_Island, Characters/Lewis_Island",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_Beach_DSVStyle.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LewisVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Lewis Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Lewis_EggFestival, Characters/Lewis_EggFestival, Portraits/Lewis_FlowerDance, Characters/Lewis_FlowerDance, Portraits/Lewis_Luau, Characters/Lewis_Luau, Portraits/Lewis_MoonlightJellies, Characters/Lewis_MoonlightJellies, Portraits/Lewis_SVFair, Characters/Lewis_SVFair, Portraits/Lewis_SpiritsEve, Characters/Lewis_SpiritsEve, Portraits/Lewis_IceFestival, Characters/Lewis_IceFestival, Portraits/Lewis_WinterStar, Characters/Lewis_WinterStar, Portraits/Lewis_Swim, Characters/Lewis_Swim, Portraits/Lewis_WeddingGuest, Characters/Lewis_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LewisVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Lewis Load - Desert Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Lewis_HotClimate, Characters/Lewis_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LewisVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Lewis Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis_Indoor, Characters/Lewis_Indoor",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Lewis Indoor/Outdoor Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis_Outdoor, Characters/Lewis_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_{{season}}_1_{{DSV.Core/Weather:Lewis}}.png"
+		},
+		{
+			"LogName": "Lewis Flower Dance Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis_FlowerDance, Characters/Lewis_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_FlowerDance_1_Elaho.png",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true
+			}
+		},
+		{
+			"LogName": "Lewis Desert Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis_HotClimate, Characters/Lewis_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Lewis Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis_Beach, Characters/Lewis_Beach, Portraits/Lewis_Island, Characters/Lewis_Island",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Lewis Beach Outfit - Purple Shorts",
+			"Action": "EditImage",
+			"Target": "Characters/Lewis_Beach, Characters/Lewis_Island",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/{{TargetWithoutPath}}_DSVStyle_PurpleShorts.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:BeachStyle |contains= DSVStyle": true,
+				"HasConversationTopic |contains=lucky_pants_lewis": "true"
+			}
+		},
+		{
+			"LogName": "Lewis Prologue",
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis, Characters/Lewis",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_Spring_1_Sun.png",
+			"When":
+			{
+				"HasSeenEvent |contains= 60367": false
+			}
+		},
+		{
+			"LogName": "Lewis Sleep Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Lewis_Indoor",
+			"FromFile": "Art/VanillaNPCs/Lewis/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:LFLLewis}}/{{DSV.Core/ConfigValue:LewisVariant}}/Lewis_SleepSprite.png",
+			"ToArea": { "X": 48, "Y": 192, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"LocationName |contains= ManorHouse, AnimalShop": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Lewis Emoji 1",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Lewis/Misc/Lewis_Emoji_Modded.png",
+			"ToArea": {"X": 54, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LewisVariant|contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Lewis Emoji 2",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Lewis/Misc/Lewis_Emoji_Modded_1.png",
+			"ToArea": {"X": 90, "Y": 117, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LewisVariant|contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Emoji Lewis 3",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Lewis/Misc/Lewis_Emoji_Modded_2.png",
+			"ToArea": {"X": 108, "Y": 117, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LewisVariant|contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Lewis Clothes Therapy",
+			"Action": "EditImage",
+			"Target": "Characters/ClothesTherapyCharacters",
+			"FromFile": "Art/VanillaNPCs/Lewis/Misc/ClothesTherapy_Lewis_Modded.png",
+			"ToArea": {"X": 0, "Y": 64, "Width": 64, "Height": 32},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LewisVariant|contains= Vanilla": false
+			}
+		},
+
+// MERMAID PENDANTS
+		{
+			"LogName": "Lewis Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis_Indoor, Portraits/Lewis_EggFestival, Portraits/Lewis_FlowerDance, Portraits/Lewis_Luau, Portraits/Lewis_MoonlightJellies, Portraits/Lewis_SVFair",
+			"FromFile": "Art/VanillaNPCs/Lewis/Misc/MermaidPendants/Lewis_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Lewis |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Lewis Pendants - Beach & Winter Star",
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis_Beach, Portraits/Lewis_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Lewis/Misc/MermaidPendants/Lewis_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Lewis |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Lewis Pendants - Lewis/Marnie",
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis_Indoor",
+			"FromFile": "Art/VanillaNPCs/Lewis/Misc/MermaidPendants/Lewis_Pendant.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Lewis |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsCanon |contains= True": true,
+				"HasSeenEvent |contains= 48450002": true
+			}
+		},
+		
+// COMPATIBILITY
+// Marnie Deserves Better
+		{
+			"LogName": "Lewis - Marnie Deserves Better Compatibility",
+			"Action": "EditImage",
+			"Target": "Characters/Lewis_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Lewis/Misc/MarnieDeservesBetter/{{DSV.Core/ConfigValue:LewisVariant}}/{{TargetWithoutPath}}_{{season}}_1_{{DSV.Core/Weather:Lewis}}.png",
+			"ToArea": {"X": 16, "Y": 224, "Width":16, "Height":32},
+			"When":
+			{
+				"HasMod |contains= IMS.CP.MarnieDeservesBetter": true
+			}
+		}
+	]
+}

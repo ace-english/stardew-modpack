@@ -1,0 +1,193 @@
+{
+  "Name": "Desert Bloom",
+  "Author": "DeLiXx",
+  "Description": "A unique Desert Farm, where the arid landscape holds secrets and surprises. Harvest exotic coconuts and cactus fruits, complete engaging quests, and witness the mesmerizing transformation of a dynamically developing map.",
+  "MapFile" : "assets/Desert_Bloom.tmx",
+  "Icon": "assets/Icon.png",
+  "Preview": "assets/Preview.png",
+  "WorldMapOverlay": "Hills",
+  
+  "Warps": {
+		"Bus Stop": "95, 18",
+		"Forest": "64, 73",
+		"Backwoods": "90, 1",
+		"Farm Cave": "100, 43",
+		"Warp Totem": "62, 9"
+  },
+  "Locations": {
+  		"Farm House": "69, 26",
+		"Greenhouse": "26, 17",
+		"Spouse Area": "65, 6",
+		//"Mailbox": "75, 26",
+		"Pet Bowl": "63, 9",
+		"Shipping Bin": "59, 25",
+		"Grandpa Shrine": "119, 17"
+  },
+  
+  "Properties": {
+	  "SpawnMonstersAtNight": false,
+	  "FishSplashing": true
+	},
+
+  "StartFurniture": [
+		{ "Type": "Wallpaper", "ID":"34" },
+		{ "Type": "Floor", "ID":"2" },
+		{ /*Breakfast Chair*/ "ID": 21, "Position": "10, 4" },
+		{ /*Breakfast Chair*/ "ID": 21, "Position": "9, 7", "Rotations": 2 },
+		{ /*House Plant*/ "ID": 1387, "Position": "1, 10", },
+		{ /*Metal Window*/ "ID": 1749, "Position": "8, 1", },
+		{ /*Metal Window*/ "ID": 1749, "Position": "3, 1", },
+		{ /*Ceiling Leaves*/ "ID": 1817, "Position": "2, 1", },
+		{ /*Box Lamp*/ "ID": 1445, "Position": "1, 4", },
+		{ /*Floor TV*/ "ID": 1680, "Position": "4, 4", },
+		{ /*House Plant*/ "ID": 1383, "Position": "7, 4", },
+		{ /*House Plant*/ "ID": 1384, "Position": "2, 4", },
+		{ /*Grandmother End Table*/ "ID": 1400, "Position": "1, 6", "HeldObject": { "ID": "Model Ship" } },
+		{ /*Blue Couch*/ "ID": 416, "Position": "4, 7", "Rotations": 2 },
+		{ /*'Sun #44'*/ "ID": 1557, "Position": "5, 1", },
+		{ /*Green Cottage Rug*/ "ID": 1623, "Position": "2, 9" },
+		{ /*Light Green Rug*/ "ID": 2488, "Position": "7, 8", "Rotations": 1 },
+		{ /*Light Green Rug*/ "ID": 2488, "Position": "7, 4", "Rotations": 1 },
+		{ /*Ceiling Leaves*/ "ID": 1819, "Position": "9, 1", },
+		{ /*Oak Tea-Table*/ "ID": 1216, "Position": "9, 5", "HeldObject": { "Type": "Item", "ID": "612" /*Cranberry Candy*/ } },
+		{ "Type": "Giftbox", "Position": "4,8", "Items": [ { "ID": "Parsnip Seeds", "Amount": 15 } ] },
+		{ "Type": "Purple Giftbox", "Position": "5,8", "Items": [ { "ID": "195" /*Omelet*/ } ] },
+	],
+  
+  "DailyUpdates": [
+  //Mine
+	{ "Type": "SpawnQuarryRocks", "Attempts": 8, "Chance": 0.3, "Backgrounds": [ "Stone" ], "AreaInclude": [ "3,44; 13,65", "14,50; 14,64" ], "AreaExclude": [ "5, 56" ],
+		"When": { "DLX.Bundles/Purchased": "DLX.Desert_Bloom.Mining_Area_2" } },
+		
+  //Cactus Fruit
+    { "Type": "SpawnItemDrops", "Attempts": 3, "Chance": 0.3, "Backgrounds": [ "Stone" ], "AreaExclude": [ "107,13; 136,42" ], "Items": [ "Cactus Fruit" ] },
+	
+  //Cactus Crop
+    { "Type": "SpawnWildCrops", "Attempts": 1, "Chance": 0.15, "Backgrounds": [ "Stone" ], "AreaExclude": [ "107,13; 136,42" ], "Name": "Cactus", "Seasons": [ "Spring", "Summer" ] },
+	{ "Type": "SpawnWildCrops", "Attempts": 2, "Backgrounds": [ "Stone" ], "AreaExclude": [ "107,13; 136,42" ], "Name": "Cactus", "BeforeDay": 2 },
+  ],
+
+  
+  "FishingRules": [
+  
+  //Base
+	{ "AreaExclude": [ "107,13; 136,42" ], "Fish": [
+		{ "ID": "Desert", "Type": "Location", "Chance": 0.75 },
+		],
+	},
+  
+  
+  //Oasis Tier 0
+	{ "Area": "107,13; 136,42", "Fish": [
+		{ "ID": 169, "Type": "Item", "Chance": 0.8 }, //Drifwood
+		],
+		"When": { "DLX.Bundles/Purchased |contains=DLX.Desert_Bloom.Oasis_1": "false" }
+	},
+  
+  /* * */
+  //Desert
+  //Profit per attempt: ~60,4g - 82,6g 
+  //Total Chance: ~70% - 90%
+  
+  //River Spring Rain
+  //Profit per attempt: ~ 80,1g - 96,1g
+  //Total Chance: ~78% - 93,6%
+  
+  //Mountain Lake Spring
+  //Profit per attempt: ~54,3g - 60,7g
+  //Total Chance: 88,2% - 97,7%
+  
+  //Oasis Tier 1
+  //Profit per attempt: ~58,3g - 73,2g
+  //Total Chance: ~60,7% - 74,1%
+	{ "Area": "107,13; 136,42", "Fish": [
+		{ "ID": 140, "Chance": 0.12  }, //Walleye 40%
+		{ "ID": 143, "Chance": 0.12  }, //Catfish 40%
+		{ "ID": 141, "Chance": 0.135 }, //Perch 45%
+		{ "ID": 702, "Chance": 0.135 }, //Chub 45%
+		{ "ID": 144, "Chance": 0.12  }, //Pike 40%
+		{ "ID": 164, "Chance": 0.195 }, //Sandfish 65%
+		{ "ID": 165, "Chance": 0.045 }, //Scorpion Carp 15%
+		],
+		"ForAll": {
+			"Type": "Item",
+			"OptimalDepth": 0,
+			"ChancePerLevel": 0.005,
+			"Seasons": [],
+			"Weather": [],
+			"Time": "06:00 - 26:00",
+		},
+		"When": { "DLX.Bundles/Purchased |contains=DLX.Desert_Bloom.Oasis_2": "false",
+				  "DLX.Bundles/Purchased |contains=DLX.Desert_Bloom.Oasis_1": "true" }
+	},
+	
+  //Oasis Tier 2
+  //Profit per attempt: ~76,6g - 83,5g
+  //Total Chance: ~76,7% - 85,1%
+	{ "Area": "107,13; 136,42", "Fish": [
+		{ "ID": 140, "Chance": 0.18   }, //Walleye
+		{ "ID": 143, "Chance": 0.18   }, //Catfish
+		{ "ID": 141, "Chance": 0.2025 }, //Perch
+		{ "ID": 702, "Chance": 0.2025 }, //Chub
+		{ "ID": 144, "Chance": 0.18   }, //Pike
+		{ "ID": 164, "Chance": 0.2925 }, //Sandfish
+		{ "ID": 165, "Chance": 0.0675 }, //Scorpion Carp 
+		],
+		"ForAll": {
+			"Type": "Item",
+			"OptimalDepth": 0,
+			"ChancePerLevel": 0.005,
+			"Seasons": [],
+			"Weather": [],
+			"Time": "06:00 - 26:00",
+		},
+		"When": { "DLX.Bundles/Purchased |contains=DLX.Desert_Bloom.Oasis_3": "false",
+				  "DLX.Bundles/Purchased |contains=DLX.Desert_Bloom.Oasis_2": "true" }
+	},
+  
+  
+  //Oasis Tier 3
+  //Profit per attempt: ~97g - 120g
+  //Total Chance: ~77% - 85,7%
+	{ "Area": "107,13; 136,42", "Fish": [
+		{ "ID": 140, "Chance": 0.18   }, //Walleye
+		{ "ID": 143, "Chance": 0.18   }, //Catfish
+		{ "ID": 141, "Chance": 0.2025 }, //Perch
+		{ "ID": 702, "Chance": 0.2025 }, //Chub
+		{ "ID": 144, "Chance": 0.18   }, //Pike
+		{ "ID": 164, "Chance": 0.2925 }, //Sandfish
+		{ "ID": 165, "Chance": 0.0675 }, //Scorpion Carp 
+		
+		//At Max Fishing LvL that's 1.5% chance weight per legendary fish.
+		{ "ID": 160, "Type": "Item", "Chance": 0.005, "ChancePerLevel": 0.0015 }, //Angler
+		{ "ID": 159, "Type": "Item", "Chance": 0.005, "ChancePerLevel": 0.0015 }, //Crimsonfish
+		{ "ID": 775, "Type": "Item", "Chance": 0.005, "ChancePerLevel": 0.0015 }, //Glacierfish
+		{ "ID": 163, "Type": "Item", "Chance": 0.005, "ChancePerLevel": 0.0015 }, //Legend Fish
+		{ "ID": 682, "Type": "Item", "Chance": 0.005, "ChancePerLevel": 0.0015 }, //Mutant Carp
+		],
+		"ForAll": {
+			"Type": "Item",
+			"OptimalDepth": 0,
+			"ChancePerLevel": 0.005,
+			"Seasons": [],
+			"Weather": [],
+			"Time": "06:00 - 26:00",
+		},
+		"When": { "DLX.Bundles/Purchased |contains=DLX.Desert_Bloom.Oasis_3": "true" }
+	},
+  ],
+  
+  "DescriptionTranslations": {
+	"zh": "一个独特的沙漠农场，干旱的地貌蕴藏着秘密和惊喜。收获异国情调的椰子和仙人掌果实，完成引人入胜的任务，并见证动态发展的地图所带来的迷人变化。",
+	"fr": "Une ferme du désert unique en son genre, où le paysage aride recèle des secrets et des surprises. Récoltez des noix de coco exotiques et des fruits de cactus, accomplissez des quêtes passionnantes et assistez à la transformation fascinante d'une carte qui se développe de façon dynamique.",
+	"de": "Eine einzigartige Wüstenfarm, in der die trockene Landschaft Geheimnisse und Überraschungen birgt. Ernte exotische Kokosnüsse und Kaktusfrüchte, erfülle fesselnde Aufträge und werde Zeuge der faszinierenden Verwandlung einer sich dynamisch entwickelnden Karte.",
+	"hu": "Egy egyedülálló sivatagi farm, ahol a száraz táj titkokat és meglepetéseket rejt. Szüretelj egzotikus kókuszdiót és kaktuszgyümölcsöket, teljesíts magával ragadó küldetéseket, és legyél tanúja a dinamikusan fejlődő térkép lenyűgöző átalakulásának.",
+	"it": "Una fattoria del deserto unica nel suo genere, dove l'arido paesaggio nasconde segreti e sorprese. Raccogliete noci di cocco esotiche e frutti di cactus, completate missioni avvincenti e assistete alla trasformazione ipnotica di una mappa che si sviluppa in modo dinamico.",
+	"ja": "乾燥した風景に秘密と驚きが隠されている、ユニークなデザートファームです。ココナッツやサボテンの実を収穫し、魅力的なクエストをこなし、ダイナミックに展開するマップの魅惑的な変化を目撃してください。",
+	"ko": "건조한 풍경에 비밀과 놀라움이 숨어 있는 독특한 사막 농장. 이국적인 코코넛과 선인장 열매를 수확하고, 흥미진진한 퀘스트를 완료하고, 역동적으로 발전하는 맵의 매혹적인 변화를 목격하세요.",
+	"pt": "Uma Quinta no Deserto única, onde a paisagem árida guarda segredos e surpresas. Colhe cocos exóticos e frutos de cactos, completa missões interessantes e assiste à transformação hipnotizante de um mapa que se desenvolve dinamicamente.",
+	"ru": "Уникальная ферма в пустыне, где засушливый ландшафт таит в себе секреты и сюрпризы. Собирайте урожай экзотических кокосов и плодов кактуса, выполняйте увлекательные задания и наблюдайте за завораживающими преобразованиями динамично развивающейся карты.",
+	"es": "Una isla tranquila y acogedora, perfecta para pasar la jubilación. Si alguna vez te has preguntado adónde fue a parar el dinero de tu abuelo, ahora ya lo sabes.",
+	"tr": "Emekliliğinizi geçirmek için mükemmel şekilde uygun sakin, rahat bir ada. Büyükbabanızın parasının nereye gittiğini merak ettiyseniz, artık biliyorsunuz.",
+  }
+}

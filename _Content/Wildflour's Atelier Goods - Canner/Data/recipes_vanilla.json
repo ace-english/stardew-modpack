@@ -1,0 +1,37 @@
+{
+  "Changes": [
+
+
+/////////////////////
+// COOKING RECIPES //
+/////////////////////
+
+{
+  "LogName": "Jam and Jelly Base Game Recipes",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "Entries": {
+    "wildflour.jams_banana_maple_jam": "91 3 724 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_banana_maple_jam/default/{{i18n: jams_banana_maple_jam.name}}",
+    "wildflour.jams_banana_split_jam": "91 1 400 1 638 1 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_banana_split_jam/default/{{i18n: jams_banana_split_jam.name}}",
+    "wildflour.jams_blue_jazz_jelly": "597 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_blue_jazz_jelly/default/{{i18n: jams_blue_jazz_jelly.name}}",
+    "wildflour.jams_cranberry_chutney": "282 3 635 1 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_cranberry_chutney/default/{{i18n: jams_cranberry_chutney.name}}",
+    "wildflour.jams_crocus_jelly": "418 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_crocus_jelly/default/{{i18n: jams_crocus_jelly.name}}",
+    "wildflour.jams_dandelion_jelly": "22 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_dandelion_jelly/default/{{i18n: jams_dandelion_jelly.name}}",
+    "wildflour.jams_honey_apricot_preserves": "634 3 340 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_honey_apricot_preserves/default/{{i18n: jams_honey_apricot_preserves.name}}",
+    "wildflour.jams_honey_peach_preserves": "636 3 340 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_honey_peach_preserves/default/{{i18n: jams_honey_peach_preserves.name}}",
+    "wildflour.jams_mango_chutney": "834 3 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_mango_chutney/default/{{i18n: jams_mango_chutney.name}}",
+    "wildflour.jams_mixed_berry_preserves": "258 1 410 1 638 1 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_mixed_berry_preserves/default/{{i18n: jams_mixed_berry_preserves.name}}",
+    "wildflour.jams_rose_petal_jelly": "595 3 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_rose_petal_jelly/default/{{i18n: jams_rose_petal_jelly.name}}",
+    "wildflour.jams_flower_dance_jelly": "22 2 591 2 597 2 340 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_flower_dance_jelly/default/{{i18n: jams_flower_dance_jelly.name}}",
+    "wildflour.jams_luau_jam": "258 3 254 2 268 1 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_luau_jam/default/{{i18n: jams_luau_jam.name}}",
+    "wildflour.jams_spirits_eve_jam": "276 1 280 2 282 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_spirits_eve_jam/default/{{i18n: jams_spirits_eve_jam.name}}",
+    "wildflour.jams_winter_star_jelly": "414 3 418 3 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_winter_star_jelly/default/{{i18n: jams_winter_star_jelly.name}}",
+    "wildflour.jams_strawberry_rhubarb_jam": "400 2 252 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_strawberry_rhubarb_jam/default/{{i18n: jams_strawberry_rhubarb_jam.name}}",
+    "wildflour.jams_spangle_jelly": "593 2 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_spangle_jelly/default/{{i18n: jams_spangle_jelly.name}}",
+    "wildflour.jams_orange_marmalade": "635 5 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_orange_marmalade/default/{{i18n: jams_orange_marmalade.name}}",
+    "wildflour.jams_tulip_jelly": "591 2 245 1 wildflour.gourmetpantry_pectin 1/25 5/wildflour.jams_tulip_jelly/default/{{i18n: jams_tulip_jelly.name}}",
+  }
+}
+
+  ]
+}

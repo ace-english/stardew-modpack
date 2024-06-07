@@ -1,0 +1,102 @@
+{
+
+    "jams_banana_maple_jam.name": "Banana Maple Jam",
+	"jams_banana_maple_jam.description": "Jam made from mashed ripe bananas and locally sourced maple syrup.",
+
+	"jams_banana_split_jam.name": "Banana Split Jam",
+	"jams_banana_split_jam.description": "Bananas, strawberries and a cherry on top!",
+
+	"jams_blackberry_mint_jelly.name": "Blackberry Mint Jelly",
+	"jams_blackberry_mint_jelly.description": "A sweet jelly made from foraged blackberries and homegrown mint.",
+
+	"jams_blueberry_lavender_jelly.name": "Blueberry Lavender Jelly",
+	"jams_blueberry_lavender_jelly.description": "A sweet jelly made with fresh blueberries and foraged lavender.",
+	
+	"jams_blue_jazz_jelly.name": "Blue Jazz Jelly",
+	"jams_blue_jazz_jelly.description": "Floral jelly made from the petals of blue jazz flowers.",
+
+	"jams_chamomile_jelly.name":"Chamomile Jelly",
+	"jams_chamomile_jelly.description":"Floral jelly made from the petals of foraged chamomile flowers.",
+	
+	"jams_cherry_vanilla_jam.name": "Cherry Vanilla Jam",
+	"jams_cherry_vanilla_jam.description": "Jam made with freshly picked cherries and floral vanilla bean.",
+	
+	"jams_cinnamon_apple_preserves.name": "Cinnamon Apple Preserves",
+	"jams_cinnamon_apple_preserves.description": "Fresh, crisp apples and spicy cinnamon - add these preserves to pretty much anything for a blast of Autumn flavor.",
+
+	"jams_cranberry_chutney.name": "Cranberry Chutney",
+	"jams_cranberry_chutney.description": "Cranberry sauce is so overrated - have you tried this bright and citrusy chutney instead?",
+
+	"jams_crocus_jelly.name": "Crocus Jelly",
+	"jams_crocus_jelly.description": "Jelly made from wild crocus blossoms; its flavor is a bit like vanilla and spice.",
+
+	"jams_dandelion_jelly.name": "Dandelion Jelly",
+	"jams_dandelion_jelly.description": "Jelly made from foraged dandelions; it tastes delicate and sweet.",
+
+	"jams_honey_apricot_preserves.name": "Honey Apricot Preserves",
+	"jams_honey_apricot_preserves.description": "Preserves made with local honey and freshly picked apricots",
+
+	"jams_honey_peach_preserves.name": "Honey Peach Preserves",
+	"jams_honey_peach_preserves.description": "Preserves made with local honey and freshly-picked peaches.",
+
+	"jams_mango_chutney.name": "Mango Chutney",
+	"jams_mango_chutney.description": "This summery chutney is perfect over a freshly caught and roasted fish.",
+	
+	"jams_mixed_berry_preserves.name": "Mixed Berry Preserves",
+	"jams_mixed_berry_preserves.description": "Preserves made with three kinds of fresh berries.",
+
+	"jams_peach_blossom_jelly.name":"Sakura Peach Jelly",
+	"jams_peach_blossom_jelly.description":"Cherry blossom petals and freshly-picked peaches cooked down into a deliciously fragrant jelly.",
+	
+	"jams_peach_ginger_preserves.name": "Peach Ginger Preserves",
+	"jams_peach_ginger_preserves.description": "Preserves made with peaches and a bit of Ginger Island ginger for an added kick of flavor.",
+	
+	"jams_rose_petal_jelly.name":"Rose Petal Jelly",
+	"jams_rose_petal_jelly.description":"Floral jelly made from rose petals.",
+	
+	"jams_flower_dance_jelly.name": "Special Edition Flower Dance Jelly",
+	"jams_flower_dance_jelly.description": "Small batch jelly made in celebration of Pelican Town's Annual Flower Dance!",
+	
+	"jams_luau_jam.name": "Special Edition Luau Jam",
+	"jams_luau_jam.description": "Small batch jam made to celebrate Pelican Town's Annual Luau!",
+	
+	"jams_spirits_eve_jam.name": "Special Edition Spirits Eve Jam",
+	"jams_spirits_eve_jam.description": "Small batch jam made to celebrate Spirits' Eve!",
+	
+	"jams_winter_star_jelly.name": "Special Edition Winter Star Jelly",
+	"jams_winter_star_jelly.description": "Small batch jelly made in celebration of the Feast of the Winter Star!",
+	
+	"jams_lemon_marmalade.name": "Spring Lemon Marmalade",
+	"jams_lemon_marmalade.description": "Thanks to the bits of whole lemon zest, the bright, bold flavor of the lemons really comes through!",
+	
+	"jams_strawberry_rhubarb_jam.name": "Strawberry Rhubarb Jam",
+	"jams_strawberry_rhubarb_jam.description": "Jam made by combining sweet strawberries with tart rhubarb.",
+
+	"jams_strawberry_rose_jelly.name":"Strawberry Rose Jelly",
+	"jams_strawberry_rose_jelly.description": "Freshly foraged wild strawberries and rose petals cooked together to make a fragrant, sweet jelly.",
+	
+	"jams_spangle_jelly.name": "Summer Spangle Jelly",
+	"jams_spangle_jelly.description": "Jelly made from summer's best spangle blossoms, it tastes like sunshine in a jar.",
+	
+	"jams_orange_marmalade.name": "Summery Orange Marmalade",
+	"jams_orange_marmalade.description": "Thanks to the bits of whole orange zest, the bright, bold flavor of the oranges really comes through!",
+	
+	"jams_sunflower_jelly.name": "Sunflower Jelly",
+	"jams_sunflower_jelly.description": "Jelly made from sunflower petals, it tastes faintly nutty.",	
+
+	"jams_lime_marmalade.name": "Sweet Lime Marmalade",
+	"jams_lime_marmalade.description": "Thanks to the bits of whole lime zest, the tart yet sweet flavor of the lime really comes through!",
+
+	"jams_jasmine_jelly.name": "Sweet Jasmine Jelly",
+	"jams_jasmine_jelly.description": "Jelly made from freshly picked jasmine, it tastes fresh and floral.",
+
+	"jams_citrus_marmalade.name": "Triple Citrus Marmalade",
+	"jams_citrus_marmalade.description": "Lemons, limes and oranges come together for a burst of citrusy flavor.",
+
+	"jams_tulip_jelly.name": "Tulip Jelly",
+	"jams_tulip_jelly.description": "Jelly made from freshly picked tulips, it tastes fresh and floral.",
+
+	"jams_vanilla_raspberry_preserves.name": "Vanilla Raspberry Preserves",
+	"jams_vanilla_raspberry_preserves.description": "Vanilla and Raspberry are the perfect pairing - spread these preserves on toast or use as a filling in cake for a truly sweet treat!",
+
+}

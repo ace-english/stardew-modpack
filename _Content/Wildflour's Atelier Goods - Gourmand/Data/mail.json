@@ -1,0 +1,48 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.gourmetpantry_MortarRecipe": "{{i18n: gourmetpantry_MortarRecipe.text}} %item craftingRecipe wildflour.gourmetpantry_KitchenMortar %%[#]{{i18n: gourmetpantry_MortarRecipe.name}}",
+                    "wildflour.gourmetpantry_BlenderRecipe": "{{i18n: gourmetpantry_BlenderRecipe.text}} %item craftingRecipe wildflour.gourmetpantry_KitchenBlender %%[#]{{i18n: gourmetpantry_BlenderRecipe.name}}",
+                    "wildflour.gourmetpantry_YogurtBowlRecipe": "{{i18n: gourmetpantry_YogurtBowlRecipe.text}} %item craftingRecipe wildflour.gourmetpantry_YogurtBowl %%[#]{{i18n: gourmetpantry_YogurtBowlRecipe.name}}",
+                    "wildflour.gourmetpantry_harveygift": "{{i18n: gourmetpantry_harvey.text}} %item id (O)wildflour.ateliercrops_pistachio 3 %%[#]{{i18n: gourmetpantry_harvey.name}}",
+                    "wildflour.gourmetpantry_jodigift": "{{i18n: gourmetpantry_jodi.text}} %item id (O)wildflour.ateliercrops_almond 3 %%[#]{{i18n: gourmetpantry_jodi.name}}",
+                    "wildflour.gourmetpantry_marniegift": "{{i18n: gourmetpantry_marnie.text}} %item id (O)wildflour.gourmetpantry_cream 3 %%[#]{{i18n: gourmetpantry_marnie.name}}",
+                }
+            },
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+            "Entries": {	
+                "wildflour.gourmetpantry_harveymail/f Harvey 1000/G {{HasCraftingRecipe: wildflour.gourmetpantry_KitchenBlender}}/x wildflour.gourmetpantry_harveygift": "null",
+                "wildflour.gourmetpantry_jodimail/f Jodi 1000/G {{HasCraftingRecipe: wildflour.gourmetpantry_KitchenMortar}}/x wildflour.gourmetpantry_jodigift": "null",
+                "wildflour.gourmetpantry_marniemail/f Marnie 1000/G {{HasCraftingRecipe: wildflour.gourmetpantry_KitchenBlender}}/x wildflour.gourmetpantry_marniegift": "null",
+        }
+        },         
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": "False"},
+            "Entries": {
+                "wildflour.gourmetpantry_MortarRecipe/f Pierre 500/x wildflour.gourmetpantry_MortarRecipe": "null",
+                "wildflour.gourmetpantry_BlenderRecipe/f Gus 500/x wildflour.gourmetpantry_BlenderRecipe": "null",
+                "wildflour.gourmetpantry_YogurtBowlRecipe/f Harvey 500/x wildflour.gourmetpantry_YogurtBowlRecipe": "null",				
+        },
+        }       
+
+]
+}

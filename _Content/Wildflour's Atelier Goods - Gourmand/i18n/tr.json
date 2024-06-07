@@ -1,0 +1,438 @@
+{
+	//////////////
+	// MACHINES //
+	//////////////
+	
+	"gourmetpantry_KitchenBlender.name": "Mutfak Mikseri",
+	"gourmetpantry_KitchenBlender.description": "Kuruyemişlerin sütünü, sütten krema ve dahasını yapabilecek bir mutfak aleti!",
+
+	"gourmetpantry_KitchenMortar.name": "Mutfak Havanı",
+	"gourmetpantry_KitchenMortar.description": "Ekinlerden baharat ve un yapabilecek bir mutfak aleti.",
+
+	"gourmetpantry_YogurtBowl.name": "Yoğurt Kasesi",
+	"gourmetpantry_YogurtBowl.description": "Kremsi, aromalı yoğurtlar yapabilir.",
+
+	"gourmetpantry_SyrupMaker.name": "Distilling Counter",
+	"gourmetpantry_SyrupMaker.description": "A kitchen station for distilling flavored syrups and other liquid concoctions.",
+	
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"gourmetpantry_KitchenBlender_InvalidItem.message": "Bunu işleyemez.",
+	"gourmetpantry_KitchenBlender_InvalidCount.message": "Daha çok malzeme gerek.",
+
+	"gourmetpantry_KitchenMortar_InvalidItem.message": "Bunu işleyemez.",
+	"gourmetpantry_KitchenMortar_InvalidCount.message": "Daha çok malzeme gerek.",
+	
+	"gourmetpantry_YogurtBowl_InvalidItem.message": "Bunu işleyemez",
+	"gourmetpantry_YogurtBowl_InvalidCount.message": "Daha çok malzeme gerek.",
+
+	"gourmetpantry_SyrupMaker_InvalidItem.message": "Bunu işleyemez",
+	"gourmetpantry_SyrupMaker_InvalidCount.message": "Daha çok malzeme gerek.",
+
+	/////////////////////////
+	// NUT & FRUIT BUTTERS //
+	/////////////////////////
+
+    "gourmetpantry_almond_butter.name": "Badem Ezmesi",
+	"gourmetpantry_almond_butter.description": "Bademden yapılan sürülebilir, tereyağımsı ve kıvamlı bir şey. Pastalarda kullanmak, tostun üstüne sürmek ve dahası için mükemmel!",
+	
+	"gourmetpantry_cashew_butter.name": "Kaju Ezmesi",
+	"gourmetpantry_cashew_butter.description": "Kajudan yapılan sürülebilir, tereyağımsı ve kıvamlı bir şey. Pastalarda kullanmak, tostun üstüne sürmek ve dahası için mükemmel!",
+	
+	"gourmetpantry_coconut_butter.name": "Yumuşak Hindistan Cevizi Yağı",
+	"gourmetpantry_coconut_butter.description": "Tereyağının yerine kullanılan ve hindistan cevizinin yağından yapılan bir yağ. Hayvansal ürün kullanmadan bir şey pişirmek için mükemmel!",
+
+	"gourmetpantry_apple_butter.name": "Elma Ezmesi",
+	"gourmetpantry_apple_butter.description": "Çiftçinin gizli aile tarifiyle yapılmıştır - ılık, tatlı ve sabah tostu veya bir muffinin yanına sürmek için mükemmel.",
+	
+	"gourmetpantry_honey_butter.name": "Ballı Ezme",
+	"gourmetpantry_honey_butter.description": "Çiftçinin gizli aile tarifiyle ve sevimli bal arılarının yardımıyla yapılmıştır.",
+	
+	"gourmetpantry_maple_butter.name": "Akçaağaç Ezmesi",
+	"gourmetpantry_maple_butter.description": "Çiftçinin gizli aile tarifiyle ve yerel akçaağaç özüyle yapılmıştır.",
+	
+	"gourmetpantry_pumpkin_butter.name": "Kabak Ezmesi",
+	"gourmetpantry_pumpkin_butter.description": "Çiftçinin gizli aile tarifiyle yapılmıştır - hepimizin içindeki kabak hayranı için mükemmel.",
+	
+	"gourmetpantry_lemon_curd.name": "Limon Ezmesi",
+	"gourmetpantry_lemon_curd.description": "Hoş kremsi kıvamı, mutlu tavukların iyi kalite yumurtalarının sarılarından gelir.",
+	
+	"gourmetpantry_lime_curd.name": "Yeşil Limon Ezmesi",
+	"gourmetpantry_lime_curd.description": "Hoş kremsi kıvamı, mutlu tavukların iyi kalite yumurtalarının sarılarından gelir.",
+
+	"gourmetpantry_orange_curd.name": "Portakal Ezmesi",
+	"gourmetpantry_orange_curd.description": "Hoş kremsi kıvamı, mutlu tavukların iyi kalite yumurtalarının sarılarından gelir.",
+	
+	"gourmetpantry_hazelnut_butter.name": "Fındık Ezmesi",
+	"gourmetpantry_hazelnut_butter.description": "Fındıktan yapılan sürülebilir, tereyağımsı ve kıvamlı bir şey. Pastalarda kullanmak, tostun üstüne sürmek ve dahası için mükemmel!",
+	
+	"gourmetpantry_pistachio_butter.name": "Antep Fıstığı Ezmesi",
+	"gourmetpantry_pistachio_butter.description": "Antep fıstığından yapılan sürülebilir, tereyağımsı ve kıvamlı bir şey. Pastalarda kullanmak, tostun üstüne sürmek ve dahası için mükemmel!",
+	
+	"gourmetpantry_walnut_butter.name": "Ceviz Ezmesi",
+	"gourmetpantry_walnut_butter.description": "Cevizden yapılan sürülebilir, tereyağımsı ve kıvamlı bir şey. Pastalarda kullanmak, tostun üstüne sürmek ve dahası için mükemmel!",
+	
+	///////////
+	// MILKS //
+	///////////
+
+	"gourmetpantry_almond_milk.name": "Badem Sütü",
+	"gourmetpantry_almond_milk.description": "Bademden yapılan alternatif bir süt. Pasta ve smoothielerde hayvansal gıdanın yerini alması için harika!",
+	
+	"gourmetpantry_cashew_milk.name": "Kaju Sütü",
+	"gourmetpantry_cashew_milk.description": "Kajudan yapılan alternatif bir süt. Pasta ve smoothielerde hayvansal gıdanın yerini alması için harika!",
+	
+	"gourmetpantry_coconut_milk.name": "Hindistan Cevizi Sütü",
+	"gourmetpantry_coconut_milk.description": "Hindistan cevizinden yapılan alternatif bir süt. Pasta ve smoothielerde hayvansal gıdanın yerini alması için harika!",
+	
+	"gourmetpantry_hazelnut_milk.name": "Fındık Sütü",
+	"gourmetpantry_hazelnut_milk.description": "Fındıktan yapılan alternatif bir süt. Pasta ve smoothielerde hayvansal gıdanın yerini alması için harika!",
+
+	"gourmetpantry_pistachio_milk.name": "Antep Fıstığı Sütü",
+	"gourmetpantry_pistachio_milk.description": "Antep fıstığından yapılan alternatif bir süt. Pasta ve smoothielerde hayvansal gıdanın yerini alması için harika!",
+
+	"gourmetpantry_rice_milk.name": "Pirinç Sütü",
+	"gourmetpantry_rice_milk.description": "Pirinçten yapılan alternatif bir süt. Pasta ve smoothielerde hayvansal gıdanın yerini alması için harika!",
+	
+	"gourmetpantry_walnut_milk.name": "Ceviz Sütü",
+	"gourmetpantry_walnut_milk.description": "Cevizden yapılan alternatif bir süt. Pasta ve smoothielerde hayvansal gıdanın yerini alması için harika!",
+
+	///////////////
+	// CHOCOLATE //
+	///////////////
+
+	"gourmetpantry_bittersweet_chocolate.name": "Bitter Pastacı Çikolatası",
+	"gourmetpantry_bittersweet_chocolate.description": "Tatlıların yapımında kullanılmak üzere koyu tablet çikolata.",
+	
+	"gourmetpantry_chocolate_chips.name": "Damla Çikolata",
+	"gourmetpantry_chocolate_chips.description": "Çikolata parçaları olarak da bilinir, kurabiye yapmayı seven herkes için bir İHTİYAÇ.",
+	
+    "gourmetpantry_semisweet_chocolate.name": "Yarı Tatlı Pastacı Çikolatası",
+	"gourmetpantry_semisweet_chocolate.description": "Tatlı yapımında kullanmak için biraz şekerli çikolata.",
+
+	"gourmetpantry_white_chocolate.name": "Beyaz Çikolata",
+	"gourmetpantry_white_chocolate.description": "Tatlı yapımında kullanmak için beyaz tablet çikolata.",
+
+	/////////////////
+	// INGREDIENTS //
+	/////////////////
+
+	"gourmetpantry_vanilla_extract.name": "Vanilya Özü",
+	"gourmetpantry_vanilla_extract.description": "Toplanmış vanilya tohumlarından çıkarılan öz. Tatlı pişirmede kullanılır!",
+	
+	"gourmetpantry_confectioners_sugar.name": "Pudra Şekeri",
+	"gourmetpantry_confectioners_sugar.description": "Bu güzelce ezilmiş şekerin içinde topaklanmayı önlemek için bir miktar mısır nişastası var ve genelde pişirilen yemeklerin üstüne serpilir.",
+
+	"gourmetpantry_espresso_powder.name": "Espresso Tozu",
+	"gourmetpantry_espresso_powder.description": "Bu kahve tadı çikolatalı şeylerle çok iyi gider.",
+
+	"gourmetpantry_pectin.name": "Pektin",
+	"gourmetpantry_pectin.description": "Meyvelerden yapılan bir pelteleştiricidir; reçelleri saklamak için elzemdir.",
+	
+	"gourmetpantry_rainbow_sprinkles.name": "Renkli Pasta Süsü",
+	"gourmetpantry_rainbow_sprinkles.description": "Şekerli, renkli ve hemen hemen her şey için mükemmel bir süstür!",
+
+	"gourmetpantry_brown_sugar.name": "Esmer Şeker",
+	"gourmetpantry_brown_sugar.description": "İşlenme esnasında bütün melası ayırılmamış şeker. Belirli kekler ve muffinlerin içinde iyi giden besleyicidir ve güzel tat verir.",
+	
+	"gourmetpantry_cocoa_powder.name": "Kakao Tozu",
+	"gourmetpantry_cocoa_powder.description": "Pişirmede kullanım için kurutulmuş ve toza çevrilmiş kakao.",
+	
+	"gourmetpantry_olive_oil.name": "Zeytinyağı",
+	"gourmetpantry_olive_oil.description": "Soğuk preslenmiş zeytinler demek salata veya sebze sotelerinde kullanmak için daha iyi bir yağ demek!",
+
+	///////////
+	// DAIRY //
+	///////////
+
+	"gourmetpantry_butter.name": "Tereyağı",
+	"gourmetpantry_butter.description": "Taze inek sütü elle çalkalanarak muhteşem bir tereyağı olmuş.",
+
+	"gourmetpantry_buttermilk.name": "Yayık Altı Suyu",
+	"gourmetpantry_buttermilk.description": "Kokusu bir tık rahatsız etse de, bu malzeme pofuduk pankekler ve yumuşacık mısır ekmeği yapmaya yardımcı olur.",
+
+	"gourmetpantry_cream.name": "Krema",
+	"gourmetpantry_cream.description": "Yerel ineklerin sütünden yapılmış bu krema, belirli hamur işlerini yapmak ve yumuşacık buzlamalar için elzemdir!",
+
+	"gourmetpantry_cream_cheese.name": "Krem Peynir",
+	"gourmetpantry_cream_cheese.description": "Yerel ineklerin sütünden yapılmış bu peynir, cheesecake yapmak veya sadece simitin üstüne sürmek için mükemmel.",
+
+	////////////
+	// YOGURT //
+	////////////
+
+	"gourmetpantry_plain_yogurt.name": "Sade Yoğurt",
+	"gourmetpantry_plain_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_ambrosia_yogurt.name": "Ambrosia Yogurt",
+	"gourmetpantry_ambrosia_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_ancient_yogurt.name": "Eski Yogurt",
+	"gourmetpantry_ancient_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_apple_yogurt.name": "Elmalı Yogurt",
+	"gourmetpantry_apple_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_apricot_yogurt.name": "Kayısılı Yogurt",
+	"gourmetpantry_apricot_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_banana_yogurt.name": "Muzlu Yogurt",
+	"gourmetpantry_banana_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_blood_orange_yogurt.name": "Kan Portakallı Yogurt",
+	"gourmetpantry_blood_orange_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_blueberry_yogurt.name": "Yabanmersinli Yogurt",
+	"gourmetpantry_blueberry_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_chocolate_yogurt.name": "Çikolatalı Yogurt",
+	"gourmetpantry_chocolate_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_cheesecake_yogurt.name": "Cheesecake Yogurt",
+	"gourmetpantry_cheesecake_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_vanilla_yogurt.name": "Vanilyalı Yogurt",
+	"gourmetpantry_vanilla_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_caramel_yogurt.name": "Karamelli Yogurt",
+	"gourmetpantry_caramel_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_cherry_yogurt.name": "Kirazlı Yogurt",
+	"gourmetpantry_cherry_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_coconut_yogurt.name": "Hindistan Cevizli Yogurt",
+	"gourmetpantry_coconut_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_coffee_yogurt.name": "Kahveli Yogurt",
+	"gourmetpantry_coffee_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_creamsicle_yogurt.name": "Creamsicle Yogurt",
+	"gourmetpantry_creamsicle_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_custard_yogurt.name": "Kremalı Yogurt",
+	"gourmetpantry_custard_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_eversweet_yogurt.name": "Heptatlı Yogurt",
+	"gourmetpantry_eversweet_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_candy_yogurt.name": "Şekerli Yogurt",
+	"gourmetpantry_candy_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_tiramisu_yogurt.name": "Tiramisulu Yogurt",
+	"gourmetpantry_tiramisu_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_macaron_yogurt.name": "Makaronlu Yogurt",
+	"gourmetpantry_macaron_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_mango_yogurt.name": "Mangolu Yogurt",
+	"gourmetpantry_mango_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_melon_yogurt.name": "Kavunlu Yogurt",
+	"gourmetpantry_melon_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_galaxy_yogurt.name": "Galaksi Yogurt",
+	"gourmetpantry_galaxy_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_moongold_yogurt.name": "Ayaltını Yogurt",
+	"gourmetpantry_moongold_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_orange_yogurt.name": "Portakallı Yogurt",
+	"gourmetpantry_orange_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_peach_yogurt.name": "Şeftalili Yogurt",
+	"gourmetpantry_peach_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_mint_yogurt.name": "Naneli Yogurt",
+	"gourmetpantry_mint_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_lemon_yogurt.name": "Limonlu Yogurt",
+	"gourmetpantry_lemon_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_lime_yogurt.name": "Lime Yogurt",
+	"gourmetpantry_lime_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_pie_yogurt.name": "Turtalı Yogurt",
+	"gourmetpantry_pie_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_pineapple_yogurt.name": "Ananaslı Yogurt",
+	"gourmetpantry_pineapple_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_pomegranate_yogurt.name": "Narlı Yogurt",
+	"gourmetpantry_pomegranate_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_pumpkin_yogurt.name": "Kabaklı Yogurt",
+	"gourmetpantry_pumpkin_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_shortcake_yogurt.name": "Shortcake Yogurt",
+	"gourmetpantry_shortcake_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_snow_yogurt.name": "Karlı Yogurt",
+	"gourmetpantry_snow_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_sprinkle_yogurt.name": "Şekerlemeli Yogurt",
+	"gourmetpantry_sprinkle_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_starfruit_yogurt.name": "Starfruit Yogurt",
+	"gourmetpantry_starfruit_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_sugar_yogurt.name": "Sugar Blossom Yogurt",
+	"gourmetpantry_sugar_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_sunset_yogurt.name": "Sunset Mango Yogurt",
+	"gourmetpantry_sunset_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_gem_yogurt.name": "Sweet Gem Yogurt",
+	"gourmetpantry_gem_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_raspberry_yogurt.name": "Wild Raspberry Yogurt",
+	"gourmetpantry_raspberry_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+    
+	"gourmetpantry_strawberry_yogurt.name": "Wild Strawberry Yogurt",
+	"gourmetpantry_strawberry_yogurt.description": "Yerel ineklerin sütünden yapılmış bu yoğurt probiyotik dolu!",
+	
+	/////////////////////////
+	// SYRUPS 4 NEW AT TOP //
+	/////////////////////////
+
+	"gourmetpantry_cinnamon_syrup.name": "Tarçın Şurubu",
+	"gourmetpantry_cinnamon_syrup.description": "Tarçın ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+	
+	"gourmetpantry_matcha_syrup.name": "Matcha Şurubu",
+	"gourmetpantry_matcha_syrup.description": "Matcha ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_pineapple_syrup.name": "Ananas Şurubu",
+	"gourmetpantry_pineapple_syrup.description": "Ananas ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_grape_syrup.name": "Üzüm Şurubu",
+	"gourmetpantry_grape_syrup.description": "Üzüm ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_ancient_syrup.name": "Eski Meyve Şurubu",
+	"gourmetpantry_ancient_syrup.description": "Eski Meyve ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_apple_syrup.name": "Elma Şurubu",
+	"gourmetpantry_apple_syrup.description": "Elma ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_apricot_syrup.name": "Kayısı Şurubu",
+	"gourmetpantry_apricot_syrup.description": "Kayısı ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_banana_syrup.name": "Muz Şurubu",
+	"gourmetpantry_banana_syrup.description": "Muz ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_blueberry_syrup.name": "Yabanmersini Şurubu",
+	"gourmetpantry_blueberry_syrup.description": "Yabanmersini ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_caramel_syrup.name": "Karamel Şurubu",
+	"gourmetpantry_caramel_syrup.description": "Karamel ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_chai_syrup.name": "Chai Şurubu",
+	"gourmetpantry_chai_syrup.description": "Chai ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_cherry_syrup.name": "Kiraz Şurubu",
+	"gourmetpantry_cherry_syrup.description": "Kiraz ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_chocolate_syrup.name": "Çikolata Şurubu",
+	"gourmetpantry_chocolate_syrup.description": "Kakao ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_elderberry_syrup.name": "Mürver Şurubu",
+	"gourmetpantry_elderberry_syrup.description": "Mürver ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_grenadine_syrup.name": "Nar Şurubu",
+	"gourmetpantry_grenadine_syrup.description": "Nar ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_lavender_syrup.name": "Lavanta Şurubu",
+	"gourmetpantry_lavender_syrup.description": "Lavanta ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_lemon_syrup.name": "Limon Şurubu",
+	"gourmetpantry_lemon_syrup.description": "Limon ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+	
+	"gourmetpantry_lime_syrup.name": "Lime Şurubu",
+	"gourmetpantry_lime_syrup.description": "Lime ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_mango_syrup.name": "Mango Şurubu",
+	"gourmetpantry_mango_syrup.description": "Mango ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_marshmallow_syrup.name": "Marşmelov Şurubu",
+	"gourmetpantry_marshmallow_syrup.description": "Marşmelov ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_mint_syrup.name": "Nane Şurubu",
+	"gourmetpantry_mint_syrup.description": "Nane ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_orange_syrup.name": "Portakal Şurubu",
+	"gourmetpantry_orange_syrup.description": "Portakal ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_peach_syrup.name": "Şeftali Şurubu",
+	"gourmetpantry_peach_syrup.description": "Şeftali ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_pumpkin_syrup.name": "Kabak Şurubu",
+	"gourmetpantry_pumpkin_syrup.description": "Balkabağı ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_gem_syrup.name": "Tatlıtaş Şurubu",
+	"gourmetpantry_gem_syrup.description": "Tatlıtaş Meyvesi ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_raspberry_syrup.name": "Ahududu Şurubu",
+	"gourmetpantry_raspberry_syrup.description": "Ahududu ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_rose_syrup.name": "Gül Şurubu",
+	"gourmetpantry_rose_syrup.description": "Taze gül ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_sakura_syrup.name": "Sakura Şurubu",
+	"gourmetpantry_sakura_syrup.description": "Kiraz çiçekleri ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_simple_syrup.name": "Basit Şurup",
+	"gourmetpantry_simple_syrup.description": "Şeker ve su ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	"gourmetpantry_vanilla_syrup.name": "Vanilya Şurubu",
+	"gourmetpantry_vanilla_syrup.description": "Vanilya ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+
+	"gourmetpantry_wild_strawberry_syrup.name": "Çilek Şurubu",
+	"gourmetpantry_wild_strawberry_syrup.description": "Çilek ile tatlandırılmış sade bir şurup. Özel içecekler ve diğer gurme yiyecekler için mükemmel!",
+    
+	
+	////////////
+	// FLOURS //
+	////////////
+
+	"gourmetpantry_almond_flour.name": "Badem Unu",
+	"gourmetpantry_almond_flour.description": "Badem ezerek yapılmış bir zanaat unu. Makaron için elzem, ama glutensiz yemekler için de harika!",
+	
+	"gourmetpantry_bread_flour.name": "Ekmeklik Un",
+	"gourmetpantry_bread_flour.description": "Buğdayın daha besleyici bir türünden yapılmış bir zanaat unu, Proteinin daha yüksek olması ekmek hamuru yapımında kullanışlı.",
+	
+	"gourmetpantry_cake_flour.name": "Pastalık Un",
+	"gourmetpantry_cake_flour.description": "Pasta veya kek yapımı için yapılmış bir zanaat unu. Daha az protein demek, daha yumuşak ve hoş kekler demek.",
+
+	"gourmetpantry_coconut_flour.name": "Hindistan Cevizi Unu",
+	"gourmetpantry_coconut_flour.description": "Hindistan cevizinin içinden yapılmış bir zanaat unu. Belirli çörekler için kullanılır, ama glutensiz yemekler için de harika!",
+	
+	"gourmetpantry_corn_flour.name": "Mısır Unu",
+	"gourmetpantry_corn_flour.description": "Mısır ezerek yapılmış bir zanaat unu. Tamale veya mısır ekmeği gibi yemekler için elzem",
+	
+	"gourmetpantry_pastry_flour.name": "Hamurluk Un",
+	"gourmetpantry_pastry_flour.description": "Hamur işleri için özel yapılmış bir zanaat unu. Pasta unu gibi proteini azdır ve börek gibi hamur işleri için elzemdir.",
+	
+	"gourmetpantry_rice_flour.name": "Pirinç Unu",
+	"gourmetpantry_rice_flour.description": "Pirinç ezerek yapılmış bir zanaat unu. Çörekler ve mochi için elzemdir, ama glutensiz yemekler için de harika!",
+	
+
+//////////
+// MAIL //
+//////////
+
+	"gourmetpantry_MortarRecipe.name": "Evin için Mutfak Havanı!",
+    "gourmetpantry_MortarRecipe.text":"@, ^^ Eğer kendine bu mutfak havanlarından bir tane yaparsan, özel un ve şekerler yapmaya başlayabilirsin! Fırınlama için mükemmeller, ama bana kâr için de satabilirsin. Dükkandaki çeşitliliği arttırmak güzel olur!^^ - Pierre",
+    
+	"gourmetpantry_BlenderRecipe.name": "Hadi Karıştıralım!",
+	"gourmetpantry_BlenderRecipe.text":"@, ^^ Kasabalı benden hayvansal süt olmayan kahveler istemeye başlayınca ben de bu mikserlerden elime aldım. İthal olursa çok pahalı oluyor, o yüzden ben de kendim yaptım ancak sen de denemelisin. Sanıyorum başka şeyler de yapabilir, ne bulabileceğine bir bak bence!^^ - Gus",
+    
+	"gourmetpantry_harvey.name": "Bana Fıstık Verme!",
+	"gourmetpantry_harvey.text":"@, ^^ Hastalarımdan birinin fıstığa alerjisi vardı ve annesi ağaç yemişi ezmelerine nasıl geçtiğini anlattı, başta şüpheciydim ancak şimdi badem ezmesine bayılıyorum! Bahse girerim bununla sen de antep fıstığı ezmesi yapabilirsin.^^ - Harvey",
+    
+	"gourmetpantry_jodi.name": "Nihayet Hayvansal Değil",
+	"gourmetpantry_jodi.text":"@, ^^ Kimseye söyleme, ancak Sam'in laktoza karşı intoleransı olduğuna dair bir hissim var. Hayvansal olmayan sütlere geçiş yaptım ve farkı anlamadı ancak ben kesinlikle görüyorum...^^ -Jodi",
+    
+	"gourmetpantry_marnie.name":"İneklerimden Bir Armağan",
+	"gourmetpantry_marnie.text":"@, ^^ Gus sana mutfak mikseri için tarif mi verdi? Harika! Onunla bir sürü özel hayvansal ürün yapabilirsin. İneklerimden gelen bu taze krema başlamana yardımcı olacaktır.^^ -Marnie",
+	
+}

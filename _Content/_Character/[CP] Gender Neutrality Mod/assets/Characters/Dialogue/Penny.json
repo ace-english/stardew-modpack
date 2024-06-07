@@ -1,0 +1,27 @@
+{
+"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries":
+				{
+					"event_pool4": "...Oh, @. I thought you did, but I wasn't sure.$6#$b#...I'll always remember this night.$6"
+				},
+			"LogName": "Fix Penny - Modded Dialogue + Custom Pronouns - Plural"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries":
+				{
+					"event_pool4": "...Oh, @. I thought you did, but I wasn't sure.$6#$b#...I'll always remember this night.$6"
+				},
+			"LogName": "Fix Penny - Modded Dialogue + Custom Pronouns - Singular",
+			"When": 
+				{
+					"Hana.GNMTokens/Singular": true
+				}
+		}
+	]
+}

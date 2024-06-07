@@ -1,0 +1,29 @@
+{
+"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":
+				{
+					"Tue6": "I like your new boots!$h#$e#Do you want to hang out for a while?",
+					"event_garage3": "There's no need to worry... I'll make sure you're safe.$8"
+				},
+			"LogName": "Fix Sebastian - Modded Dialogue + Custom Pronouns - Plural"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":
+				{
+					"Tue6": "I like your new boots!$h#$e#Do you want to hang out for a while?",
+					"event_garage3": "There's no need to worry... I'll make sure you're safe.$8"
+				},
+			"LogName": "Fix Sebastian - Modded Dialogue + Custom Pronouns - Singular",
+			"When": 
+				{
+					"Hana.GNMTokens/Singular": true
+				}
+		}
+	]
+}

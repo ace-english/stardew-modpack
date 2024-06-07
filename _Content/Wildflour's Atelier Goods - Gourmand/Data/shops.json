@@ -1,0 +1,100 @@
+{
+   
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Saloon", "Items" ],
+            "Entries": {
+                "wildflour.gourmetpantry_almond_flour": {
+                    "Id": "wildflour.gourmetpantry_almond_flour",
+                    "ItemId": "(O)wildflour.gourmetpantry_almond_flour",
+                    "Price": 200
+                },
+                "wildflour.gourmetpantry_cake_flour": {
+                    "Id": "wildflour.gourmetpantry_cake_flour",
+                    "ItemId": "(O)wildflour.gourmetpantry_cake_flour",
+                    "Price": 200
+                },
+                "wildflour.gourmetpantry_bread_flour": {
+                    "Id": "wildflour.gourmetpantry_bread_flour",
+                    "ItemId": "(O)wildflour.gourmetpantry_bread_flour",
+                    "Price": 200
+                },
+                "wildflour.gourmetpantry_corn_flour": {
+                    "Id": "wildflour.gourmetpantry_corn_flour",
+                    "ItemId": "(O)wildflour.gourmetpantry_corn_flour",
+                    "Price": 200
+                },
+                "wildflour.gourmetpantry_pastry_flour": {
+                    "Id": "wildflour.gourmetpantry_pastry_flour",
+                    "ItemId": "(O)wildflour.gourmetpantry_pastry_flour",
+                    "Price": 200
+                },
+                "wildflour.gourmetpantry_rice_flour": {
+                    "Id": "wildflour.gourmetpantry_rice_flour",
+                    "ItemId": "(O)wildflour.gourmetpantry_rice_flour",
+                    "Price": 200
+                },
+                "wildflour.gourmetpantry_coconut_flour": {
+                    "Id": "wildflour.gourmetpantry_coconut_flour",
+                    "ItemId": "(O)wildflour.gourmetpantry_coconut_flour",
+                    "Price": 200
+                },
+                "wildflour.gourmetpantry_butter": {
+                    "Id": "wildflour.gourmetpantry_butter",
+                    "ItemId": "(O)wildflour.gourmetpantry_butter",
+                    "Price": 185
+                },
+                "wildflour.gourmetpantry_buttermilk": {
+                    "Id": "wildflour.gourmetpantry_buttermilk",
+                    "ItemId": "(O)wildflour.gourmetpantry_buttermilk",
+                    "Price": 275
+                },
+                "wildflour.gourmetpantry_cream": {
+                    "Id": "wildflour.gourmetpantry_cream_cheese",
+                    "ItemId": "(O)wildflour.gourmetpantry_cream_cheese",
+                    "Price": 195
+                },
+                "wildflour.gourmetpantry_cream_cheese": {
+                    "Id": "wildflour.gourmetpantry_cream_cheese",
+                    "ItemId": "(O)wildflour.gourmetpantry_cream_cheese",
+                    "Price": 175
+                },
+                "wildflour.gourmetpantry_chocolate_chips": {
+                    "Id": "wildflour.gourmetpantry_chocolate_chips",
+                    "ItemId": "(O)wildflour.gourmetpantry_chocolate_chips",
+                    "Price": 165
+                },
+                "wildflour.gourmetpantry_rainbow_sprinkles": {
+                    "Id": "wildflour.gourmetpantry_rainbow_sprinkles",
+                    "ItemId": "(O)wildflour.gourmetpantry_rainbow_sprinkles",
+                    "Price": 210
+                },
+                "wildflour.gourmetpantry_brown_sugar": {
+                    "Id": "wildflour.gourmetpantry_brown_sugar",
+                    "ItemId": "(O)wildflour.gourmetpantry_brown_sugar",
+                    "Price": 145
+                },
+                "wildflour.gourmetpantry_confectioners_sugar": {
+                    "Id": "wildflour.gourmetpantry_confectioners_sugar",
+                    "ItemId": "(O)wildflour.gourmetpantry_confectioners_sugar",
+                    "Price": 140
+                },
+                "wildflour.gourmetpantry_pectin": {
+                    "Id": "wildflour.gourmetpantry_pectin",
+                    "ItemId": "(O)wildflour.gourmetpantry_pectin",
+                    "Price": 20
+                },
+                "wildflour.gourmetpantry_vanilla_extract": {
+                    "Id": "wildflour.gourmetpantry_vanilla_extract",
+                    "ItemId": "(O)wildflour.gourmetpantry_vanilla_extract",
+                    "Price": 325
+                },
+
+            }
+        
+
+        }
+    ]
+}

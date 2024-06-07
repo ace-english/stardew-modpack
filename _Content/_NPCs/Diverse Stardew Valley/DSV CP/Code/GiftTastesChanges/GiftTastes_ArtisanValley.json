@@ -1,0 +1,352 @@
+{
+
+	"Changes": 
+	[
+		
+// PPJA ARTISAN VALLEY
+// GIFT TASTE CHANGES
+
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - PPJA Artisan Valley",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Jodi", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Absinthe}} {{spacechase0.JsonAssets/ObjectId:Amaretto}} {{spacechase0.JsonAssets/ObjectId:Apple Schnapps}} {{spacechase0.JsonAssets/ObjectId:Bourbon}} {{spacechase0.JsonAssets/ObjectId:Brandy}} {{spacechase0.JsonAssets/ObjectId:Campari}} {{spacechase0.JsonAssets/ObjectId:Chambord}} {{spacechase0.JsonAssets/ObjectId:Cauim}} {{spacechase0.JsonAssets/ObjectId:Cointreau}} {{spacechase0.JsonAssets/ObjectId:Creme de Cacao}} {{spacechase0.JsonAssets/ObjectId:Dark Ale}} {{spacechase0.JsonAssets/ObjectId:Framboise Lambic}} {{spacechase0.JsonAssets/ObjectId:Frangelico}} {{spacechase0.JsonAssets/ObjectId:Gin}} {{spacechase0.JsonAssets/ObjectId:Hard Apple Cider}} {{spacechase0.JsonAssets/ObjectId:Mezcal}} {{spacechase0.JsonAssets/ObjectId:Mint Schnapps}} {{spacechase0.JsonAssets/ObjectId:Moonshine}} {{spacechase0.JsonAssets/ObjectId:Peach Schnapps}} {{spacechase0.JsonAssets/ObjectId:Porter}} {{spacechase0.JsonAssets/ObjectId:Pulque}} {{spacechase0.JsonAssets/ObjectId:Rum}} {{spacechase0.JsonAssets/ObjectId:Sake}} {{spacechase0.JsonAssets/ObjectId:Schnapps}} {{spacechase0.JsonAssets/ObjectId:Scotch}} {{spacechase0.JsonAssets/ObjectId:Shochu}} {{spacechase0.JsonAssets/ObjectId:Stout}} {{spacechase0.JsonAssets/ObjectId:Whiskey}} {{spacechase0.JsonAssets/ObjectId:Vodka}} {{spacechase0.JsonAssets/ObjectId:Vermouth}} {{spacechase0.JsonAssets/ObjectId:Tequila}} {{spacechase0.JsonAssets/ObjectId:Wine Yeast}} {{spacechase0.JsonAssets/ObjectId:Sparkling Wine}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Kent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Absinthe}} {{spacechase0.JsonAssets/ObjectId:Amaretto}} {{spacechase0.JsonAssets/ObjectId:Apple Schnapps}} {{spacechase0.JsonAssets/ObjectId:Bourbon}} {{spacechase0.JsonAssets/ObjectId:Brandy}} {{spacechase0.JsonAssets/ObjectId:Campari}} {{spacechase0.JsonAssets/ObjectId:Chambord}} {{spacechase0.JsonAssets/ObjectId:Cauim}} {{spacechase0.JsonAssets/ObjectId:Cointreau}} {{spacechase0.JsonAssets/ObjectId:Creme de Cacao}} {{spacechase0.JsonAssets/ObjectId:Dark Ale}} {{spacechase0.JsonAssets/ObjectId:Framboise Lambic}} {{spacechase0.JsonAssets/ObjectId:Frangelico}} {{spacechase0.JsonAssets/ObjectId:Gin}} {{spacechase0.JsonAssets/ObjectId:Hard Apple Cider}} {{spacechase0.JsonAssets/ObjectId:Mezcal}} {{spacechase0.JsonAssets/ObjectId:Mint Schnapps}} {{spacechase0.JsonAssets/ObjectId:Moonshine}} {{spacechase0.JsonAssets/ObjectId:Peach Schnapps}} {{spacechase0.JsonAssets/ObjectId:Porter}} {{spacechase0.JsonAssets/ObjectId:Pulque}} {{spacechase0.JsonAssets/ObjectId:Rum}} {{spacechase0.JsonAssets/ObjectId:Sake}} {{spacechase0.JsonAssets/ObjectId:Schnapps}} {{spacechase0.JsonAssets/ObjectId:Scotch}} {{spacechase0.JsonAssets/ObjectId:Shochu}} {{spacechase0.JsonAssets/ObjectId:Stout}} {{spacechase0.JsonAssets/ObjectId:Whiskey}} {{spacechase0.JsonAssets/ObjectId:Vodka}} {{spacechase0.JsonAssets/ObjectId:Vermouth}} {{spacechase0.JsonAssets/ObjectId:Tequila}} {{spacechase0.JsonAssets/ObjectId:Wine Yeast}} {{spacechase0.JsonAssets/ObjectId:Sparkling Wine}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sam", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Absinthe}} {{spacechase0.JsonAssets/ObjectId:Amaretto}} {{spacechase0.JsonAssets/ObjectId:Apple Schnapps}} {{spacechase0.JsonAssets/ObjectId:Bourbon}} {{spacechase0.JsonAssets/ObjectId:Brandy}} {{spacechase0.JsonAssets/ObjectId:Campari}} {{spacechase0.JsonAssets/ObjectId:Chambord}} {{spacechase0.JsonAssets/ObjectId:Cauim}} {{spacechase0.JsonAssets/ObjectId:Cointreau}} {{spacechase0.JsonAssets/ObjectId:Creme de Cacao}} {{spacechase0.JsonAssets/ObjectId:Dark Ale}} {{spacechase0.JsonAssets/ObjectId:Framboise Lambic}} {{spacechase0.JsonAssets/ObjectId:Frangelico}} {{spacechase0.JsonAssets/ObjectId:Gin}} {{spacechase0.JsonAssets/ObjectId:Hard Apple Cider}} {{spacechase0.JsonAssets/ObjectId:Mezcal}} {{spacechase0.JsonAssets/ObjectId:Mint Schnapps}} {{spacechase0.JsonAssets/ObjectId:Moonshine}} {{spacechase0.JsonAssets/ObjectId:Peach Schnapps}} {{spacechase0.JsonAssets/ObjectId:Porter}} {{spacechase0.JsonAssets/ObjectId:Pulque}} {{spacechase0.JsonAssets/ObjectId:Rum}} {{spacechase0.JsonAssets/ObjectId:Sake}} {{spacechase0.JsonAssets/ObjectId:Schnapps}} {{spacechase0.JsonAssets/ObjectId:Scotch}} {{spacechase0.JsonAssets/ObjectId:Shochu}} {{spacechase0.JsonAssets/ObjectId:Stout}} {{spacechase0.JsonAssets/ObjectId:Whiskey}} {{spacechase0.JsonAssets/ObjectId:Vodka}} {{spacechase0.JsonAssets/ObjectId:Vermouth}} {{spacechase0.JsonAssets/ObjectId:Tequila}} {{spacechase0.JsonAssets/ObjectId:Wine Yeast}} {{spacechase0.JsonAssets/ObjectId:Sparkling Wine}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Vincent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Absinthe}} {{spacechase0.JsonAssets/ObjectId:Amaretto}} {{spacechase0.JsonAssets/ObjectId:Apple Schnapps}} {{spacechase0.JsonAssets/ObjectId:Bourbon}} {{spacechase0.JsonAssets/ObjectId:Brandy}} {{spacechase0.JsonAssets/ObjectId:Campari}} {{spacechase0.JsonAssets/ObjectId:Chambord}} {{spacechase0.JsonAssets/ObjectId:Cauim}} {{spacechase0.JsonAssets/ObjectId:Cointreau}} {{spacechase0.JsonAssets/ObjectId:Creme de Cacao}} {{spacechase0.JsonAssets/ObjectId:Dark Ale}} {{spacechase0.JsonAssets/ObjectId:Framboise Lambic}} {{spacechase0.JsonAssets/ObjectId:Frangelico}} {{spacechase0.JsonAssets/ObjectId:Gin}} {{spacechase0.JsonAssets/ObjectId:Hard Apple Cider}} {{spacechase0.JsonAssets/ObjectId:Mezcal}} {{spacechase0.JsonAssets/ObjectId:Mint Schnapps}} {{spacechase0.JsonAssets/ObjectId:Moonshine}} {{spacechase0.JsonAssets/ObjectId:Peach Schnapps}} {{spacechase0.JsonAssets/ObjectId:Porter}} {{spacechase0.JsonAssets/ObjectId:Pulque}} {{spacechase0.JsonAssets/ObjectId:Rum}} {{spacechase0.JsonAssets/ObjectId:Sake}} {{spacechase0.JsonAssets/ObjectId:Schnapps}} {{spacechase0.JsonAssets/ObjectId:Scotch}} {{spacechase0.JsonAssets/ObjectId:Shochu}} {{spacechase0.JsonAssets/ObjectId:Stout}} {{spacechase0.JsonAssets/ObjectId:Whiskey}} {{spacechase0.JsonAssets/ObjectId:Vodka}} {{spacechase0.JsonAssets/ObjectId:Vermouth}} {{spacechase0.JsonAssets/ObjectId:Tequila}} {{spacechase0.JsonAssets/ObjectId:Wine Yeast}} {{spacechase0.JsonAssets/ObjectId:Sparkling Wine}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Gus Gift Taste Changes - PPJA Artisan Valley",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Gus", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Absinthe}} {{spacechase0.JsonAssets/ObjectId:Amaretto}} {{spacechase0.JsonAssets/ObjectId:Apple Schnapps}} {{spacechase0.JsonAssets/ObjectId:Bourbon}} {{spacechase0.JsonAssets/ObjectId:Brandy}} {{spacechase0.JsonAssets/ObjectId:Campari}} {{spacechase0.JsonAssets/ObjectId:Chambord}} {{spacechase0.JsonAssets/ObjectId:Cauim}} {{spacechase0.JsonAssets/ObjectId:Cointreau}} {{spacechase0.JsonAssets/ObjectId:Creme de Cacao}} {{spacechase0.JsonAssets/ObjectId:Dark Ale}} {{spacechase0.JsonAssets/ObjectId:Framboise Lambic}} {{spacechase0.JsonAssets/ObjectId:Frangelico}} {{spacechase0.JsonAssets/ObjectId:Gin}} {{spacechase0.JsonAssets/ObjectId:Hard Apple Cider}} {{spacechase0.JsonAssets/ObjectId:Mezcal}} {{spacechase0.JsonAssets/ObjectId:Mint Schnapps}} {{spacechase0.JsonAssets/ObjectId:Moonshine}} {{spacechase0.JsonAssets/ObjectId:Peach Schnapps}} {{spacechase0.JsonAssets/ObjectId:Porter}} {{spacechase0.JsonAssets/ObjectId:Pulque}} {{spacechase0.JsonAssets/ObjectId:Rum}} {{spacechase0.JsonAssets/ObjectId:Sake}} {{spacechase0.JsonAssets/ObjectId:Schnapps}} {{spacechase0.JsonAssets/ObjectId:Scotch}} {{spacechase0.JsonAssets/ObjectId:Shochu}} {{spacechase0.JsonAssets/ObjectId:Stout}} {{spacechase0.JsonAssets/ObjectId:Whiskey}} {{spacechase0.JsonAssets/ObjectId:Vodka}} {{spacechase0.JsonAssets/ObjectId:Vermouth}} {{spacechase0.JsonAssets/ObjectId:Tequila}} {{spacechase0.JsonAssets/ObjectId:Wine Yeast}} {{spacechase0.JsonAssets/ObjectId:Sparkling Wine}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - PPJA Artisan Valley",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sandy", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Absinthe}} {{spacechase0.JsonAssets/ObjectId:Amaretto}} {{spacechase0.JsonAssets/ObjectId:Apple Schnapps}} {{spacechase0.JsonAssets/ObjectId:Bourbon}} {{spacechase0.JsonAssets/ObjectId:Brandy}} {{spacechase0.JsonAssets/ObjectId:Campari}} {{spacechase0.JsonAssets/ObjectId:Chambord}} {{spacechase0.JsonAssets/ObjectId:Cauim}} {{spacechase0.JsonAssets/ObjectId:Cointreau}} {{spacechase0.JsonAssets/ObjectId:Creme de Cacao}} {{spacechase0.JsonAssets/ObjectId:Dark Ale}} {{spacechase0.JsonAssets/ObjectId:Framboise Lambic}} {{spacechase0.JsonAssets/ObjectId:Frangelico}} {{spacechase0.JsonAssets/ObjectId:Gin}} {{spacechase0.JsonAssets/ObjectId:Hard Apple Cider}} {{spacechase0.JsonAssets/ObjectId:Mezcal}} {{spacechase0.JsonAssets/ObjectId:Mint Schnapps}} {{spacechase0.JsonAssets/ObjectId:Moonshine}} {{spacechase0.JsonAssets/ObjectId:Peach Schnapps}} {{spacechase0.JsonAssets/ObjectId:Porter}} {{spacechase0.JsonAssets/ObjectId:Pulque}} {{spacechase0.JsonAssets/ObjectId:Rum}} {{spacechase0.JsonAssets/ObjectId:Sake}} {{spacechase0.JsonAssets/ObjectId:Schnapps}} {{spacechase0.JsonAssets/ObjectId:Scotch}} {{spacechase0.JsonAssets/ObjectId:Shochu}} {{spacechase0.JsonAssets/ObjectId:Stout}} {{spacechase0.JsonAssets/ObjectId:Whiskey}} {{spacechase0.JsonAssets/ObjectId:Vodka}} {{spacechase0.JsonAssets/ObjectId:Vermouth}} {{spacechase0.JsonAssets/ObjectId:Tequila}} {{spacechase0.JsonAssets/ObjectId:Wine Yeast}} {{spacechase0.JsonAssets/ObjectId:Sparkling Wine}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - PPJA Artisan Valley",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Alex", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Handbattered Ebi Tempura}} {{spacechase0.JsonAssets/ObjectId:Oyster Sauce}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "George", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Handbattered Ebi Tempura}} {{spacechase0.JsonAssets/ObjectId:Oyster Sauce}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Evelyn", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Handbattered Ebi Tempura}} {{spacechase0.JsonAssets/ObjectId:Oyster Sauce}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - PPJA Artisan Valley",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": 
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Elliott", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Handbattered Ebi Tempura}} {{spacechase0.JsonAssets/ObjectId:Oyster Sauce}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},
+
+// GIFT REJECTION
+
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - PPJA Artisan Valley Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi, Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Absinthe}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Amaretto}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Apple Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bourbon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Brandy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Campari}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chambord}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cauim}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cointreau}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Creme de Cacao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dark Ale}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Framboise Lambic}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Frangelico}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Gin}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hard Apple Cider}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mezcal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mint Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Moonshine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Peach_Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Porter}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pulque}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Rum}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sake}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Scotch}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shochu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Stout}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Whiskey}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Vodka}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Vermouth}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tequila}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wine Yeast}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sparkling Wine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol.{{KentFamilyReligionToken}}}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Sam/Vincent Gift Taste Changes - PPJA Artisan Valley Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam, Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Absinthe}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Amaretto}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Apple Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bourbon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Brandy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Campari}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chambord}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cauim}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cointreau}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Creme de Cacao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dark Ale}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Framboise Lambic}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Frangelico}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Gin}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hard Apple Cider}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mezcal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mint Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Moonshine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Peach_Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Porter}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pulque}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Rum}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sake}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Scotch}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shochu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Stout}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Whiskey}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Vodka}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Vermouth}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tequila}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wine Yeast}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sparkling Wine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Gus Gift Taste Changes - PPJA Artisan Valley Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Absinthe}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Amaretto}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Apple Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bourbon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Brandy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Campari}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chambord}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cauim}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cointreau}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Creme de Cacao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dark Ale}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Framboise Lambic}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Frangelico}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Gin}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hard Apple Cider}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mezcal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mint Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Moonshine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Peach_Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Porter}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pulque}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Rum}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sake}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Scotch}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shochu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Stout}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Whiskey}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Vodka}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Vermouth}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tequila}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wine Yeast}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sparkling Wine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - PPJA Artisan Valley Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Absinthe}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Amaretto}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Apple Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bourbon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Brandy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Campari}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chambord}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cauim}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cointreau}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Creme de Cacao}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dark Ale}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Framboise Lambic}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Frangelico}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Gin}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hard Apple Cider}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mezcal}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mint Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Moonshine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Peach_Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Porter}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pulque}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Rum}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sake}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnapps}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Scotch}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shochu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Stout}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Whiskey}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Vodka}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Vermouth}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tequila}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wine Yeast}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sparkling Wine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Alcohol}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - PPJA Artisan Valley Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex, Characters/Dialogue/George, Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Handbattered Ebi Tempura}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Oyster Sauce}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - PPJA Artisan Valley Gift Rejections",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Handbattered Ebi Tempura}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Oyster Sauce}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, ppja.artisanvalleymachinegoods": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		}
+	]
+}

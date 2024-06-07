@@ -1,0 +1,20 @@
+{
+  "Name": "DSV Marigold [SiD]",
+  "Author": "DSV Team",
+  "Version": "5.0.2",
+  "MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:???" ],
+  "Description": "Higher resolution sprites for Diverse Stardew Valley's Marigold.",
+  "UniqueID": "DSVTeam.DiverseStardewValley.Marigold",
+  "ContentPackFor": 
+  {
+    "UniqueID": "BleakCodex.SpritesInDetail"
+	},
+  "Dependencies": 
+  [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.22.0"
+    },
+  ]
+}

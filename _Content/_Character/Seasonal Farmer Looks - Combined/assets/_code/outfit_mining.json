@@ -1,0 +1,46 @@
+{
+	"Changes": [
+		{//the mine, the quarry cave and the Skull Cavern
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{CurrentMiningOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnLocationChange, OnTimeChange",
+			"When": { "LocationName": "Mine, SkullCave" }
+		},
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{CurrentMiningOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnLocationChange, OnTimeChange",
+			"When": { "Query: '{{LocationName}}' LIKE 'UnderGroundMine*'": true }
+		},
+		{//the volcano
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{CurrentMiningOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnLocationChange, OnTimeChange",
+			"When": { "LocationName": "Caldera" }
+		},
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{CurrentMiningOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnLocationChange, OnTimeChange",
+			"When": { "Query: '{{LocationName}}' LIKE 'VolcanoDungeon*'": true }
+		},
+		{//the mountains
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{CurrentMiningOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnLocationChange, OnTimeChange",
+			"When": { "MountainMiningEnabled": true, "LocationName": "Mountain" }
+		},
+		{//custom locations
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{CurrentMiningOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnLocationChange, OnTimeChange",
+			"When": { "LocationName": "{{ModdedMiningLocations}}" }
+		},
+	]
+}

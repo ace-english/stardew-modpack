@@ -1,0 +1,44 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.atelierbarista_CoffeeSO2_reward": "{{i18n: atelierbarista_CoffeeSO2_reward.text}} %item id (O)860 1 %%[#]{{i18n: atelierbarista_CoffeeSO2_reward.name}}",     
+                    "wildflour.atelierbarista_CoffeeSO3_reward": "{{i18n: atelierbarista_CoffeeSO3_reward.text}} %item id (O)253 10 %%[#]{{i18n: atelierbarista_CoffeeSO3_reward.name}}", 
+                    "wildflour.atelierbarista_CoffeeSO4_reward": "{{i18n: atelierbarista_CoffeeSO4_reward.text}} %item id (O)wildflour.ateliercrops_pistachiosapling 2 %%[#]{{i18n: atelierbarista_CoffeeSO4_reward.name}}", 
+                    "wildflour.atelierbarista_CoffeeSO5_reward": "{{i18n: atelierbarista_CoffeeSO5_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: atelierbarista_CoffeeSO5_reward.name}}",
+                    "wildflour.atelierbarista_TeaSO2_reward": "{{i18n: atelierbarista_TeaSO2_reward.text}} %item id (O)251 5 %%[#]{{i18n: atelierbarista_TeaSO2_reward.name}}",     
+                    "wildflour.atelierbarista_TeaSO3_reward": "{{i18n: atelierbarista_TeaSO3_reward.text}} %item id (O)wildflour.ateliercrops_cacaopodsapling 3 %%[#]{{i18n: atelierbarista_TeaSO3_reward.name}}", 
+                    "wildflour.atelierbarista_TeaSO4_reward": "{{i18n: atelierbarista_TeaSO4_reward.text}} %item id (O)835 1 %%[#]{{i18n: atelierbarista_TeaSO4_reward.name}}", 
+                    "wildflour.atelierbarista_TeaSO5_reward": "{{i18n: atelierbarista_TeaSO5_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: atelierbarista_TeaSO5_reward.name}}" 
+                }
+            },
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.atelierbarista_CoffeeSO2mail/n wildflour.atelierbarista_CoffeeSO2_complete/x wildflour.atelierbarista_CoffeeSO2_reward": "null",
+                "wildflour.atelierbarista_CoffeeSO3mail/n wildflour.atelierbarista_CoffeeSO3_complete/x wildflour.atelierbarista_CoffeeSO3_reward": "null",
+                "wildflour.atelierbarista_CoffeeSO4mail/n wildflour.atelierbarista_CoffeeSO4_complete/x wildflour.atelierbarista_CoffeeSO4_reward": "null",			
+                "wildflour.atelierbarista_CoffeeSO5mail/n wildflour.atelierbarista_CoffeeSO5_complete/x wildflour.atelierbarista_CoffeeSO5_reward": "null",
+                "wildflour.atelierbarista_TeaSO2mail/n wildflour.atelierbarista_TeaSO2_complete/x wildflour.atelierbarista_TeaSO2_reward": "null",
+                "wildflour.atelierbarista_TeaSO3mail/n wildflour.atelierbarista_TeaSO3_complete/x wildflour.atelierbarista_TeaSO3_reward": "null",
+                "wildflour.atelierbarista_TeaSO4mail/n wildflour.atelierbarista_TeaSO4_complete/x wildflour.atelierbarista_TeaSO4_reward": "null",			
+                "wildflour.atelierbarista_TeaSO5mail/n wildflour.atelierbarista_TeaSO5_complete/x wildflour.atelierbarista_TeaSO5_reward": "null"		
+            }
+            }
+
+]
+}

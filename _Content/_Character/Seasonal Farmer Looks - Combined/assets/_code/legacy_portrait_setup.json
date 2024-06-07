@@ -1,0 +1,105 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.FarmerPortraits/background",
+			"FromFile": "assets/background.png"
+		},
+		
+		
+		{//Default portrait
+			"Action": "Load",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait.png"
+		},
+		
+		{//Seasonal portrait
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_{{Season}}.png",
+			"When": { "Seasonal outfits": true, "HasFile:{{FromFile}}": true }
+		},
+		
+		{//Raincoat
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_rain.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Raincoat enabled": true, "Weather": "Rain, Storm", "HasFile:{{FromFile}}": true }
+		},		
+		{//Seasonal raincoat
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_rain_{{Season}}.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Raincoat enabled": true, "Weather": "Rain, Storm", "Seasonal raincoats": true, "HasFile:{{FromFile}}": true }
+		},
+		
+		{//Festival Outfits
+			"Action": "Include",
+			"FromFile": "assets/_code/legacy_portrait_festival.json",
+			"Update": "OnDayStart",
+			"When": { "Festival outfits": true, "HasValue:{{DayEvent}}": true }
+		},
+		
+		{//Island
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_island.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Island outfit enabled": true, "LocationContext": "Island", "HasFile:{{FromFile}}": true }
+		},
+		
+		{//Island raincoat
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_island_rain.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Raincoat enabled": true, "Island raincoat option": "Island raincoat", "LocationContext": "Island", "Weather: island": "Rain, Storm", "HasFile:{{FromFile}}": true }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_rain.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Raincoat enabled": true, "Island raincoat option": "Regular raincoat", "LocationContext": "Island", "Weather: island": "Rain, Storm", "HasFile:{{FromFile}}": true }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_rain_{{Season}}.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Raincoat enabled": true, "Island raincoat option": "Seasonal raincoat", "LocationContext": "Island", "Weather: island": "Rain, Storm", "HasFile:{{FromFile}}": true }
+		},
+		
+		{//Desert
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_desert.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Desert outfit enabled": true, "LocationName": "Desert, SandyHouse, Club, {{ModdedDesertLocations}}", "HasFile:{{FromFile}}": true }
+		},
+		
+		{//Mining
+			"Action": "Include",
+			"FromFile": "assets/_code/portrait_mining.json",
+			"Update": "OnTimeChange, OnLocationChange",
+			"When": { "Mining outfit enabled": true }
+		},
+		
+		{//Pajamas
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_pajamas.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Morning pajamas": true, "Time": "{{Range: 0600, {{PajamaMorningTime}}}}", "LocationName": "Farmhouse, IslandFarmHouse", "HasFile:{{FromFile}}": true }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_pajamas.png",
+			"Update": "OnDayStart, OnLocationChange,OnTimeChange",
+			"When": { "Evening pajamas": true, "Time": "{{Range: {{PajamaEveningTime}}, 2600}}", "LocationName": "Farmhouse, IslandFarmHouse", "HasFile:{{FromFile}}": true } 
+		}
+	]
+}

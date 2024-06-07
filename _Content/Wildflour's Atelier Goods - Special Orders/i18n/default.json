@@ -1,0 +1,625 @@
+{
+
+////////////////////
+// ALES MEADS SO  //
+////////////////////
+
+"alesxmeads_SO_1.name":"Share A Pint",
+"alesxmeads_SO_1.text":"I want to surprise everyone at the saloon with some specially crafted ales! Gus thinks its a great idea but I don't know where to get them.  ",
+"alesxmeads_SO_1.deliver":"Deliver 5 Coconut Milk Stouts to Pam.",
+"alesxmeads_SO_1.accept":"This is perfect! Everyone always shares a pint with me, so I'm excited to share a pint with them too!",
+
+"alesxmeads_SO_2.name":"Hop To It",
+"alesxmeads_SO_2.text":"What's the deal with sour ales? That sounds so weird, but I also am very curious to try it for myself...",
+"alesxmeads_SO_2.deliver":"Deliver 5 Cherry Sour Ales to Shane.",
+"alesxmeads_SO_2.accept":"Huh, the sourness of the cherry really bites through the sweetness of the ale. Impressive. Thanks for sharing with me.",
+
+"alesxmeads_SO_3.name":"More Ales for the Saloon",
+"alesxmeads_SO_3.text":"It turns out people are really interested in more specialty ales besides beer and pale ale. Can you help me improve the variety we have at the saloon?",
+"alesxmeads_SO_3a.deliver":"Deliver 3 Orange Pilsners to Gus's fridge.",
+"alesxmeads_SO_3b.deliver":"Deliver 3 Peach Stouts to Gus's fridge.",
+"alesxmeads_SO_3c.deliver":"Deliver 3 Blueberry Ales to Gus's fridge.",
+"alesxmeads_SO_3d.deliver":"Deliver 3 Melon Pale Ales to Gus's fridge.",
+
+"alesxmeads_SO_4.name":"In Need of Mead",
+"alesxmeads_SO_4.text":"I want to try something different than my usual beer at the saloon. Heard mead is pretty good...can someone bring me some to try?",
+"alesxmeads_SO_4.deliver":"Deliver 3 Apricot Meads to Shane.",
+"alesxmeads_SO_4.accept":"Made from fermenting honey, huh? Wild. Well, it certainly looks nicer than my boring old pint of beer.",
+
+"alesxmeads_SO_5.name":"Mead to Warm the Bones",
+"alesxmeads_SO_5.text":"I would love some mead to enjoy while quietly fishing in the cool autumn afternoon. ",
+"alesxmeads_SO_5.deliver":"Deliver 3 Pomegranate Meads to Willy.",
+"alesxmeads_SO_5.accept":"I do love me some mead; bonus points for one with a bit of fresh fruit flavor like this one!",
+
+"alesxmeads_SO_6.name":"Spice Girls",
+"alesxmeads_SO_6.text":"In need of mead for a girls' night in with my friends!",
+"alesxmeads_SO_6a.deliver":"Deliver 3 Spiced Meads to the Drop Box in Leah's House.",
+"alesxmeads_SO_6b.deliver":"Deliver 3 Tart Cranberry Meads to the Drop Box in Leah's House.",
+"alesxmeads_SO_6c.deliver":"Deliver 3 Blackberry Bushel Meads to the Drop Box in Leah's House.",
+"alesxmeads_SO_6d.deliver":"Deliver 3 Crisp Apple Meads to the Drop Box in Leah's House.",
+
+"alesxmeads_SO_7.name":"Master Brewer Challenge",
+"alesxmeads_SO_7.text":"It's that time of year again - annual applications for the role of Master Brewer are open! Send us your best ales to see if you can earn the grand prize!",
+"alesxmeads_SO_7.ship":"Ship 100 gold quality ales.",
+
+"alesxmeads_SO_8.name":"Master Mead Brewer Challenge",
+"alesxmeads_SO_8.text":"It's that time of year again - annual applications for the role of Master Mead Brewer are open! Send us your best meads to see if you can earn the grand prize!",
+"alesxmeads_SO_8.ship":"Ship 100 Gold Quality Meads.",
+
+//REWARDS MAIL
+ 
+"alesxmeads_SO2_reward.title": "My Favorite Ale Farmer",
+"alesxmeads_SO2_reward.text":"@,^^^ Huh, the sourness of the cherry really bites through the sweetness of the ale. Impressive. Thanks for sharing, farmer. ^-Shane",
+
+"alesxmeads_SO3_reward.title": "A Small Token of Thanks",
+"alesxmeads_SO3_reward.text": "@,^^^ What a selection! This will really help put Stardrop Saloon on the map. Here's a little something to show my thanks and appreciation.^-Emily",
+
+"alesxmeads_SO6_reward.title": "Thanks!",
+"alesxmeads_SO6_reward.text": "@,^^^ Sweet and spicy; this is perfect for our girls' night in! Thanks, farmer.^-Leah",
+
+"alesxmeads_SO7_reward.title": "Congratulations!",
+"alesxmeads_SO7_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Brewer. Please take this as a reward.",
+ 
+"alesxmeads_SO8_reward.title": "Congratulations!",
+"alesxmeads_SO8_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Mead Brewer. Please take this as a reward.",
+
+//////////////////
+// BEVERAGE SOS //
+//////////////////
+
+"atelierjuicebar_SO_1.name":"Breakfast Bulk Up.",
+"atelierjuicebar_SO_1.text":"I'm busy trying to bulk up and improve my gridball game; I don't have time to make breakfast every day! Can someone help?",
+"atelierjuicebar_SO_1.deliver":"Deliver 5 Green Kale Smoothies to Alex.",
+"atelierjuicebar_SO_1.accept":"So these smoothies have protein AND fiber? Awesome! I'll totally build up some muscle thanks to these.",
+
+"atelierjuicebar_SO_2.name":"A New Kind of Bubbly.",
+"atelierjuicebar_SO_2.text":"Abigail was talking about bubble tea...what is it ? Is it good? I would love it if someone brought me some to try for myself.",
+"atelierjuicebar_SO_2a.deliver":"Deliver 2 Oolong Bubble Teas to Caroline's kitchen.",
+"atelierjuicebar_SO_2b.deliver":"Deliver 2 Brown Sugar Bubble Teas to Caroline's kitchen.",
+"atelierjuicebar_SO_2c.deliver":"Deliver 2 Strawberry Bubble Teas to Caroline's kitchen.",
+
+"atelierjuicebar_SO_3.name":"Lemonade Vs Iced Tea",
+"atelierjuicebar_SO_3.text":"Nothing beats an ice cold lemonade on a hot day...or was it iced tea? Hmm now I can't seem to recall which one I like better. Someone bring me both so I can decide!",
+"atelierjuicebar_SO_3a.deliver":"Deliver 2 Green Tea Lemonades to the drop box in George's kitchen.",
+"atelierjuicebar_SO_3b.deliver":"Deliver 2 Classic Lemonades to the drop box in George's kitchen.",
+"atelierjuicebar_SO_3c.deliver":"Deliver 2 Iced Teas to the drop box in George's kitchen.",
+"atelierjuicebar_SO_3d.deliver":"Deliver 2 Peach Iced Teas to the drop box in George's kitchen.",
+
+"atelierjuicebar_SO_4.name":"Freshly Squeezed",
+"atelierjuicebar_SO_4.text":"I'm trying to cut back on soda but I still need something sweet to sip on. Anyone have any ideas?",
+"atelierjuicebar_SO_4a.deliver":"Deliver 2 Grape Juices the dropbox in Sam's room.",
+"atelierjuicebar_SO_4b.deliver":"Deliver 2 Apple Juices the dropbox in Sam's room.",
+"atelierjuicebar_SO_4c.deliver":"Deliver 2 Berry Juices the dropbox in Sam's room.",
+"atelierjuicebar_SO_4d.deliver":"Deliver 2 Orange Juices the dropbox in Sam's room.",
+
+"atelierjuicebar_SO_5.name":"Sensational Sips Challenge",
+"atelierjuicebar_SO_5.text":"It's that time of year again - annual applications for the Sensational Sips Challenge are officially open! Send us your best beverages to see if you can earn the grand prize!",
+"atelierjuicebar_SO_5.ship":"Ship 100 gold quality beverages.",
+
+"atelierjuicebar_SO_6.name":"Bubble Tea for Emily",
+"atelierjuicebar_SO_6.text":"I ran out of bubble tea! HELP send some new ones my way please!",
+"atelierjuicebar_SO_6.deliver":"Deliver 4 bubble teas to Emily.",
+"atelierjuicebar_SO_6.accept":"What a relief! I don't feel like myself without a nice bubble tea. Thanks!",
+
+"atelierjuicebar_SO_7.name":"Smoothies for Haley",
+"atelierjuicebar_SO_7.text":"I was so busy last week I didn't meal prep my next set of smoothies! What will I do about my breakfasts now?",
+"atelierjuicebar_SO_7.deliver":"Deliver 4 smoothies to Haley.",
+"atelierjuicebar_SO_7.accept":"Thank goodness! My morning just wouldn't be the same without a smoothie. Thanks again.",
+
+"atelierjuicebar_SO_8.name":"Juices for Shane",
+"atelierjuicebar_SO_8.text":"I, might have forgotten that it was my turn to pick up juice for Jas and her friends. Again. Can someone help me please??",
+"atelierjuicebar_SO_8.deliver":"Deliver 8 juices to Shane.",
+"atelierjuicebar_SO_8.accept":"Oh thank Yoba. You really saved my behind; thanks.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierjuicebar_SO2_reward.title": "Thanks!",
+"atelierjuicebar_SO2_reward.text": "@,^^^ Who would have guessed I'd fall head over heels in love with bubble tea! Thanks for sharing this with me. Here's a little something for your trouble.^^-Caroline",
+
+"atelierjuicebar_SO3_reward.title": "Ice Cold Drinks",
+"atelierjuicebar_SO3_reward.text": "@,^^^ Ah now I remember! I like 'em both! Thanks, @. This should help you a bit; just don't forget your old buddy George likes an ice cold drink every now and then!",
+
+"atelierjuicebar_SO4_reward.title": "Thank you; Plus My Super Secret Soda Recipe",
+"atelierjuicebar_SO4_reward.text": "@,^^^ Thanks again for the fruit juices! They were delicious, but I learned they aren't really better for me than soda, so it's back to the drawing board for me. Anyways, I figured this might help you try out more drinks too!^^-Sam",
+
+"atelierjuicebar_SO5_reward.title": "Congratulations!",
+"atelierjuicebar_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you 1st prize in the Sensational Sips Contest. Please take this as a reward.",
+
+///////////////
+// CANDY SOS //
+///////////////
+
+"ateliercandy_SO_1.name":"Chubby Bunny",
+"ateliercandy_SO_1.text":"I wanna play the Chubby Bunny game but regular marshmallows are boring! Can someone bring me some flavored ones instead?",
+"ateliercandy_SO_1a.deliver":"Deliver 3 strawberry marshmallows to Jas.",
+"ateliercandy_SO_1b.deliver":"Deliver 3 lavender marshmallows to Jas.",
+"ateliercandy_SO_1c.deliver":"Deliver 3 matcha marshmallows to Jas.",
+"ateliercandy_SO_1d.deliver":"Deliver 3 coconut marshmallows to Jas.",
+"ateliercandy_SO_1.accept":"Yay! So many pretty colors. Now me and my friends can all be chubby bunnies together!",
+
+"ateliercandy_SO_2.name":"Don't Forget to Floss!",
+"ateliercandy_SO_2.text":"Cotton candy is so cool! It's so light and soft but also delicious - I wish I could try EVERY flavor in the world!",
+"ateliercandy_SO_2a.deliver":"Deliver 1 Fairy Floss to the Drop Box in Vincent's home.",
+"ateliercandy_SO_2b.deliver":"Deliver 1 Lavender Fairy Floss to the Drop Box in Vincent's home.",
+"ateliercandy_SO_2c.deliver":"Deliver 1 Lemon Meringue Fairy Floss to the Drop Box in Vincent's home.",
+"ateliercandy_SO_2d.deliver":"Deliver 1 Orange Creamsicle Fairy Floss to the Drop Box in Vincent's home.",
+"ateliercandy_SO_2e.deliver":"Deliver 1 Peppermint Fairy Floss to the Drop Box in Vincent's home.",
+"ateliercandy_SO_2f.deliver":"Deliver 1 Strawberry Fairy Floss to the Drop Box in Vincent's home.",
+"ateliercandy_SO_2g.deliver":"Deliver 1 Vanilla Fairy Floss to the Drop Box in Vincent's home.",
+
+"ateliercandy_SO_3.name":"Taste of Nostalgia",
+"ateliercandy_SO_3.text":"My mom used to surprise me with these fancy lollipops when I was little. I would love to get them for both of us now, but I don't know where to find them!",
+"ateliercandy_SO_3a.deliver":"Deliver 1 Lemon Meringue Gourmet Lollipop to Penny's Kitchen.",
+"ateliercandy_SO_3b.deliver":"Deliver 1 Vanilla Peppermint Gourmet Lollipop to Penny's Kitchen.",
+"ateliercandy_SO_3c.deliver":"Deliver 1 Mixed Berry Gourmet Lollipop to Penny's Kitchen.",
+"ateliercandy_SO_3d.deliver":"Deliver 1 Blueberry Pie Gourmet Lollipop to Penny's Kitchen.",
+
+"ateliercandy_SO_4.name":"Tasty Rocks",
+"ateliercandy_SO_4.text":"I knew you could eat rocks! Now I can share my favorite treat with everyone but where will I find enough to share?",
+"ateliercandy_SO_4.deliver":"Deliver 5 crystal candies to the Drop Box in Abigail's room.",
+
+"ateliercandy_SO_5.name":"Master Confectioner Challenge",
+"ateliercandy_SO_5.text":"It's that time of year again - annual applications for the role of Master Confectioner are open! Send us your best candies to see if you can earn the grand prize!",
+"ateliercandy_SO_5.ship":"Ship 100 Gold Quality Candies.",
+
+"ateliercandy_SO_6.name":"Fairy Floss for Emily",
+"ateliercandy_SO_6.text":"Fairy floss is just so magical, don't you think? I'd love it if someone delivered a few to me ",
+"ateliercandy_SO_6.deliver":"Deliver any 3 fairy floss to Emily.",
+"ateliercandy_SO_6.accept":"It's almost too pretty to eat! Thanks for these, friend.",
+
+"ateliercandy_SO_7.name":"Marshmallows for Robin",
+"ateliercandy_SO_7.text":"In need of marshmallows for my hot cocoa.",
+"ateliercandy_SO_7.deliver":"Deliver 5 marshmallows to Robin.",
+"ateliercandy_SO_7.accept":"After a hard day in the shop, I love a good cup of cocoa to unwind. These are perfect thanks for bringing them!",
+
+"ateliercandy_SO_8.name":"Candy for Lewis",
+"ateliercandy_SO_8.text":"I miss old fashioned hard candies. I can't seem to find them anywhere! Can someone help me ?",
+"ateliercandy_SO_8.deliver":"Deliver 12 hard candies to Lewis.",
+"ateliercandy_SO_8.accept":"I've been looking all over for these! It's so hard to find good candies these days. Thanks, friend.",
+
+//CANDY REWARDS MAIL
+ 
+"ateliercandy_SO2_reward.title": "THANK YOU!!",
+"ateliercandy_SO2_reward.text": "@,^^^ These look so good. If only Mom would let me floss with this instead of that gross string...^^-Vincent",
+
+"ateliercandy_SO3_reward.title": "Thank You",
+"ateliercandy_SO3_reward.text": "@,^^^ These are just like the ones Mom used to bring home after long truck trips. I'm going to enjoy sharing these with her. ^^-Penny",
+
+"ateliercandy_SO4_reward.title": "Thank You",
+"ateliercandy_SO4_reward.text": "@,^^^ Crunchy, sweet and good to eat. I'm off to share with Seb and Sam; thanks again! ^^-Abigail",
+
+"ateliercandy_SO5_reward.title": "Congratulations!",
+"ateliercandy_SO5_reward.text": "Dear @^^^, Your dedication is impressive. We are proud to offer you the title of Master Confectioner. Please take this as a reward.",
+
+////////////////
+// COFFEE SOS //
+////////////////
+
+"atelierbarista_CoffeeSO_1.name":"Coffee Break",
+"atelierbarista_CoffeeSO_1.text":"I'm running low on ground coffee! Can someone bring me some bags so I can stock up?",
+"atelierbarista_CoffeeSO_1a.deliver":"Deliver 2 Hazelnut Ground Coffees to Harvey.",
+"atelierbarista_CoffeeSO_1b.deliver":"Deliver 2 Cold Brew Blends to Harvey.",
+"atelierbarista_CoffeeSO_1c.deliver":"Deliver 2 Calico Vanilla Ground Coffees to Harvey.",
+"atelierbarista_CoffeeSO_1.accept":"Ah, just in time! Trust me, no one wants a sleepy doctor!",
+
+"atelierbarista_CoffeeSO_2.name":"Sorry I'm Latte...",
+"atelierbarista_CoffeeSO_2.text":"I'm always hitting snooze on my alarm and I end up late to everything! Can someone bring me some coffee so I can get moving faster and stop being late?",
+"atelierbarista_CoffeeSO_2.deliver":"Deliver 5 Sweetheart Lattes to Haley.",
+"atelierbarista_CoffeeSO_2.accept":"Maybe I can finally be on time to things now!",
+
+"atelierbarista_CoffeeSO_3.name":"Rise and Grind",
+"atelierbarista_CoffeeSO_3.text":"I've never been a morning person but I want to try. If I'm going to succeed I'm going to need a LOT of coffee though...",
+"atelierbarista_CoffeeSO_3a.deliver":"Deliver 3 Breakfast Blend Ground Coffees to the Drop Box in Sebastian's Room.",
+"atelierbarista_CoffeeSO_3b.deliver":"Deliver 3 Mocha Ground Coffees to the Drop Box in Sebastian's Room.",
+"atelierbarista_CoffeeSO_3c.deliver":"Deliver 3 Toasted Coconut Ground Coffees to the Drop Box in Sebastian's Room.",
+"atelierbarista_CoffeeSO_3d.deliver":"Deliver 3 Donut Shop Ground Coffees to the Drop Box in Sebastian's Room.",
+
+"atelierbarista_CoffeeSO_4.name":"PSL Season",
+"atelierbarista_CoffeeSO_4.text":"Everyone is asking me to serve Pumpkin Spice Lattes at the saloon during autumn! I don't know what this is, but can someone help me get in on this craze?",
+"atelierbarista_CoffeeSO_4.deliver":"Deliver 12 Pumpkin Spice Lattes to Gus's Fridge in the Saloon.",
+
+"atelierbarista_CoffeeSO_5.name":"Master Roaster Challenge",
+"atelierbarista_CoffeeSO_5.text":"It's that time of year again - annual applications for the role of Master Roaster are open! Send us your best coffees to see if you can earn the grand prize!",
+"atelierbarista_CoffeeSO_5.ship":"Ship 100 Gold Quality Coffee Products.",
+
+"atelierbarista_CoffeeSO_6.name":"Cold Brew for Sandy",
+"atelierbarista_CoffeeSO_6.text":"It's SO hot here. Can someone drop off some cold brew??",
+"atelierbarista_CoffeeSO_6.deliver":"Deliver 3 cold brews to Sandy.",
+"atelierbarista_CoffeeSO_6.accept":"So cold and refreshing, this cold brew is perfect! Thanks so much, sweetie.",
+
+"atelierbarista_CoffeeSO_7.name":"Lattes for Marnie",
+"atelierbarista_CoffeeSO_7.text":"The animals have kept me up at all hours of the night and I'm so tired. Can someone drop off some lattes?",
+"atelierbarista_CoffeeSO_7.deliver":"Deliver 4 lattes to Marnie.",
+"atelierbarista_CoffeeSO_7.accept":"I love my animals, but I do not love the lack of sleep. At least now I have these lovely lattes to perk me up! Thanks again.",
+
+"atelierbarista_CoffeeSO_8.name":"Coffee for Pierre",
+"atelierbarista_CoffeeSO_8.text":"Need helping restocking my coffee blends at the shop.",
+"atelierbarista_CoffeeSO_8.deliver":"Deliver 8 coffee blends to Pierre.",
+"atelierbarista_CoffeeSO_8.accept":"The shop will look even better thanks to these! Thanks, friend.",
+
+
+//COFFEE REWARDS MAIL
+ 
+"atelierbarista_CoffeeSO2_reward.title": "Thanks Again!",
+"atelierbarista_CoffeeSO2_reward.text": "@,^^^Maybe I need more than JUST the lattes to be on time, but it's certainly a good way to start! ^-Haley",
+
+"atelierbarista_CoffeeSO3_reward.title": "Thanks for the brews.",
+"atelierbarista_CoffeeSO3_reward.text": "@,^^^I may be a night owl, but perhaps this will help me wake up before noon. Thanks again. ^-Sebastian",
+
+"atelierbarista_CoffeeSO4_reward.title": "Thank you!",
+"atelierbarista_CoffeeSO4_reward.text": "@,^^^I don't really understand what all the fuss is about, but if makes the young'uns happy to stop by and buy a cup in the fall, that's enough for me! ^-Gus",
+
+"atelierbarista_CoffeeSO5_reward.title": "Congratulations!",
+"atelierbarista_CoffeeSO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Roaster. Please take this as a reward.",
+
+////////////////
+// FROZEN SOS //
+////////////////
+
+"atelierfrozen_SO_1.name":"Milkshake Brings Dwarves to the Yard",
+"atelierfrozen_SO_1.text":"You're saying milk...can also be turned into other drinks? That sounds intriguing. I'd be willing to pay good gold to sample some of these strange concoctions.",
+"atelierfrozen_SO_1a.deliver":"Deliver 1 Vanilla Milkshake to the Dwarf.",
+"atelierfrozen_SO_1b.deliver":"Deliver 1 Strawberry Milkshake to the Dwarf.",
+"atelierfrozen_SO_1c.deliver":"Deliver 1 Chocolate Milkshake to the Dwarf.",
+"atelierfrozen_SO_1.accept":"So it's called a...milkshake? Fascinating. Cold and sweet...you humans are truly an intriguing people.",
+
+"atelierfrozen_SO_2.name":"Pensive about Popsicles",
+"atelierfrozen_SO_2.text":"I've seen the little ones in town holding sticks with colorful ice cubes attached...I would very much like to try them!",
+"atelierfrozen_SO_2.deliver":"Deliver 6 popsicles to Krobus.",
+"atelierfrozen_SO_2.accept":"Thank you! I am most eager to try these.",
+
+"atelierfrozen_SO_3.name":"Ice Cream Party",
+"atelierfrozen_SO_3.text":"I'm throwing a fancy ice cream party and I need help picking out which flavors I should include on the menu!",
+"atelierfrozen_SO_3a.deliver":"Deliver 3 lemon sherbets to the drop box in Jodi's kitchen.",
+"atelierfrozen_SO_3b.deliver":"Deliver 3 mint chocolate cones to the drop box in Jodi's kitchen.",
+"atelierfrozen_SO_3c.deliver":"Deliver 3 lemon lavender ice creams to the drop box in Jodi's kitchen.",
+"atelierfrozen_SO_3d.deliver":"Deliver 3 horchata ice creams to the drop box in Jodi's kitchen.",
+
+"atelierfrozen_SO_4.name":"Sweet Sandwiches",
+"atelierfrozen_SO_4.text":"I've been feeling nostalgic for my favorite childhood treat: the ice cream sandwich. Maru says they come in tons of different flavors now. Can someone bring me a few to try?",
+"atelierfrozen_SO_4a.deliver":"Deliver 2 mocha ice cream sandwiches to the dropbox in Demetrius's Lab.",
+"atelierfrozen_SO_4b.deliver":"Deliver 2 pistachio ice cream sandwiches to the dropbox in Demetrius's Lab.",
+"atelierfrozen_SO_4c.deliver":"Deliver 2 strawberry ice cream sandwiches to the dropbox in Demetrius's Lab.",
+"atelierfrozen_SO_4d.deliver":"Deliver 2 mocha coconut ice cream sandwiches to the dropbox in Demetrius's Lab.",
+
+"atelierfrozen_SO_5.name":"Frozen Feast Challenge",
+"atelierfrozen_SO_5.text":"It's that time of year again - annual applications for the Frozen Feast Challenge are officially open! Send us your frozen treats to see if you can earn the grand prize!",
+"atelierfrozen_SO_5.ship":"Ship 100 gold quality frozen treats.",
+
+"atelierfrozen_SO_6.name":"Milkshakes for Kent",
+"atelierfrozen_SO_6.text":"I'd like to surprise the family with a special treat. Maybe milkshakes would do the trick?",
+"atelierfrozen_SO_6.deliver":"Deliver 4 milkshakes to Kent.",
+"atelierfrozen_SO_6.accept":"The family is going to love these! Thanks a bunch, friend.",
+
+"atelierfrozen_SO_7.name":"Popsicles for Elliott",
+"atelierfrozen_SO_7.text":"I am in need of popsicles for literary inspiration! Why you ask? I cannot possibly explain but I simply MUST have some popsicles!",
+"atelierfrozen_SO_7.deliver":"Deliver 4 popsicles to Elliott.",
+"atelierfrozen_SO_7.accept":"Popsicle perfection! Thank you, now I must ponder the popsicles in silence.",
+
+"atelierfrozen_SO_8.name":"Ice Cream for Gus",
+"atelierfrozen_SO_8.text":"I want to start serving frozen desserts at the saloon. Can anyone help me set up my menu?",
+"atelierfrozen_SO_8.deliver":"Deliver 12 ice creams to Gus.",
+"atelierfrozen_SO_8.accept":"These are going to go over well with everybody at the saloon! Thanks so much!",
+
+//FROZEN REWARDS MAIL
+ 
+"atelierfrozen_SO2_reward.title": "Thanks!",
+"atelierfrozen_SO2_reward.text": "@,^^^ Popsicles. What a wonderful invention. You'll have to teach me how to make them one day. I hope these treasures from the mine help you make many more popsicles.^^-Krobus",
+
+"atelierfrozen_SO3_reward.title": "Thank you!",
+"atelierfrozen_SO3_reward.text": "@,^^^ The menu is perfect now thanks to you!!^^-Jodi",
+
+"atelierfrozen_SO4_reward.title": "Thank you!",
+"atelierfrozen_SO4_reward.text": "@,^^^ These sandwiches really take me back. Thanks again!^^-Jodi",
+
+"atelierfrozen_SO5_reward.title": "Congratulations!",
+"atelierfrozen_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you 1st prize in the Frozen Feast Contest. Please take this as a reward.",
+   
+////////////////
+// FLORAL SOS //
+////////////////
+
+"atelierfloral_SO_1.name":"Spring Cleaning",
+"atelierfloral_SO_1.text":"I'm busy with spring cleaning and I want to refresh all the closets with some dried flowers; can anyone bring me some sachets?",
+"atelierfloral_SO_1.deliver":"Deliver 6 dried flowers to Evelyn.",
+"atelierfloral_SO_1.accept":"These smell lovely. The whole house will be fresh and clean in no time now!",
+
+"atelierfloral_SO_2.name":"Stop and Smell the Roses",
+"atelierfloral_SO_2.text":"I really do love fresh flowers, even if they make me sneeze sometimes. A bouquet of fairy roses would sure look nice in my room...",
+"atelierfloral_SO_2.deliver":"Deliver 1 Fairy Rose Bouquet to Sam.",
+"atelierfloral_SO_2.accept":"Wow that bouquet is so colorful and it smells GREAT! Maybe I'll put it on the far side of my room so I sneeze less...",
+
+"atelierfloral_SO_3.name":"Scents-ational",
+"atelierfloral_SO_3.text":"I'm all out of my favorite perfume! WHAT WILL I DO WITHOUT IT??",
+"atelierfloral_SO_3a.deliver":"Deliver 2 Sunflower Eau de Toilette to Haley's house.",
+"atelierfloral_SO_3b.deliver":"Deliver 2 Forest Lavender Eau de Toilette to Haley's house.",
+"atelierfloral_SO_3c.deliver":"Deliver 2 Fairy Rose Eau de Toilette to Haley's house.",
+"atelierfloral_SO_3d.deliver":"Deliver 2 Tulip Eau de Toilette to Haley's house.",
+
+"atelierfloral_SO_4.name":"Soap Opera",
+"atelierfloral_SO_4.text":"I'm doing scientific experiments on the lye in soap and I need some samples to compare with my test subjects!",
+"atelierfloral_SO_4.deliver":"Deliver 10 soaps to the Drop Box in Maru's Lab.",
+
+"atelierfloral_SO_5.name":"Master Florist",
+"atelierfloral_SO_5.text":"It's that time of year again - annual applications for the role of Master Florist are open! Send us your highest quality floral wares to see if you can earn the grand prize!",
+"atelierfloral_SO_5.ship":"Ship 100 Gold Quality Floral Goods.",
+
+"atelierfloral_SO_6.name":"Bouquets for Shane",
+"atelierfloral_SO_6.text":"Jas and Marnie are so patient with me and I'd like to get them something nice...",
+"atelierfloral_SO_6.deliver":"Deliver 2 bouquets to Shane.",
+"atelierfloral_SO_6.accept":"These are so beautiful. They are perfect for Jas and Marnie. Thanks, friend.",
+
+"atelierfloral_SO_7.name":"Soap for Willy",
+"atelierfloral_SO_7.text":"Fishing is hard work and it's really dried out my skin! Would love some high quality soaps to help me feel back to normal.",
+"atelierfloral_SO_7.deliver":"Deliver 4 soaps to Willy.",
+"atelierfloral_SO_7.accept":"You may have heard of dish pan hands, but I may as well have FISH pan hands they are so dry. Thanks for the soaps; I'm sure they'll help quite bit.",
+
+"atelierfloral_SO_8.name":"Candles for Krobus",
+"atelierfloral_SO_8.text":"Humans seem interested not only in flowers, but also in their smells. I want to make the sewers smell like flowers, can you help?",
+"atelierfloral_SO_8.deliver":"Deliver 8 candles to Krobus.",
+"atelierfloral_SO_8.accept":"Fascinating, the candles smell fragrant and also add a soothing glow to the area. Humans are truly intriguing creatures. Thank you for bringing these to me.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierfloral_SO2_reward.title": "Thank you!",
+"atelierfloral_SO2_reward.text": "@,^^^I really can't thank you enough for the bouquet, even if it does make my nose sniffle a little. ^^-Sam",
+
+"atelierfloral_SO3_reward.title": "Thanks so much!",
+"atelierfloral_SO3_reward.text": "@,^^^YOU ARE A LIFESAVER. A girl should never be without her favorite perfume, you know.^^-Haley",
+
+"atelierfloral_SO4_reward.title": "Thank you!",
+"atelierfloral_SO4_reward.text": "@,^^^These are perfect for my experiments! Did you know the actual term for making soap is soaponification? No? Oh well, off I go to test these against my own concoctions!. ^^-Maru",
+
+"atelierfloral_SO5_reward.title": "Congratulations!",
+"atelierfloral_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Florist. Please take this as a reward.",
+
+//////////////
+// JAMS SOS //
+//////////////
+
+"jams_SO_1.name":"Springtime Treat for Evelyn",
+"jams_SO_1.text":"Evelyn does so much for me; I want to give her something to show her how much I appreciate her. Tulips are her favorite, so maybe some tulip jelly for her scones would do the trick?",
+"jams_SO_1.deliver":"Deliver 5 Tulip Jelly to George.",
+"jams_SO_1.accept":"She's going to love this - I owe you one.",
+
+"jams_SO_2.name":"Pretty in Pink",
+"jams_SO_2.text":"Jas is in a phase where she wants everything to be pink, even her food! Can someone help??",
+"jams_SO_2.deliver":"Deliver 5 Rose Petal Jelly to Marnie.",
+"jams_SO_2.accept":"Oh thank goodness! Maybe with this I can get her to eat breakfast by putting it on a bagel...",
+
+"jams_SO_3.name":"The Perfect Pancake Topper",
+"jams_SO_3.text":"Pancakes are a Sunday treat in our house, and I want something to top them with instead of plain old maple syrup. Anyone have any ideas?",
+"jams_SO_3a.deliver":"Deliver 3 Cherry Vanilla Jams to the Drop Box in Jodi's kitchen.",
+"jams_SO_3b.deliver":"Deliver 3 Honey Peach Preserves to the Drop Box in Jodi's kitchen.",
+"jams_SO_3c.deliver":"Deliver 3 Strawberry Rhubarb Jellies to the Drop Box in Jodi's kitchen.",
+
+"jams_SO_4.name":"Gotta Have My Vitamin C",
+"jams_SO_4.text":"Vitamins are important to a healthy diet! I'm sure the vitamin c in some marmalade would work the same way. right? Right.",
+"jams_SO_4a.deliver":"Deliver 2 Triple Citrus Marmalades to the Drop Box in Lewis's kitchen.",
+"jams_SO_4b.deliver":"Deliver 2 Sweet Lime Marmalades to the Drop Box in Lewis's kitchen.",
+"jams_SO_4c.deliver":"Deliver 2 Summery Orange Marmalades to the Drop Box in Lewis's kitchen.",
+"jams_SO_4d.deliver":"Deliver 2 Spring Lemon Marmalades to the Drop Box in Lewis's kitchen.",
+
+"jams_SO_5.name":"Master Canner Challenge",
+"jams_SO_5.text":"It's that time of year again - annual applications for the role of Master Canner are open! Send us your best  jams and jellies to see if you can earn the grand prize!",
+"jams_SO_5.ship":"Ship 100 specialty jams.",
+
+"jams_SO_6.name":"Jams for Linus",
+"jams_SO_6.text":"I would love to have some preserved fruit to enjoy nature's bounty once winter arrives...",
+"jams_SO_6.deliver":"Deliver 3 jams to Linus.",
+"jams_SO_6.accept":"How lovely. Now I'll be able to enjoy nature's gifts even in the depths of winter. Thank you, friend.",
+
+"jams_SO_7.name":"Jams for Penny",
+"jams_SO_7.text":"Mom and I love a good jam to have with our breakfast. Can someone deliver a few interesting flavors to us?",
+"jams_SO_7.deliver":"Deliver 5 jams to Penny.",
+"jams_SO_7.accept":"These will go perfect with our Sunday pancakes! Thanks a bunch!",
+
+"jams_SO_8.name":"Jams for Clint",
+"jams_SO_8.text":"I'd like to stock up my pantry with more gourmet ingredients. I like jelly, maybe that's a good place to start?",
+"jams_SO_8.deliver":"Deliver 10 jams to Clint.",
+"jams_SO_8.accept":"What am I going to do with all this jam? I don't know yet, but it sure looks nice in my kitchen. Thanks.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+"jams_SO2_reward.title": "Thank you!",
+"jams_SO2_reward.text": "@,^^^ Thanks again for the jam. It was a huge hit with Jas! Here's some pectin in case you feel like making more for yourself. ^^-Marnie",
+
+"jams_SO3_reward.title": "Thanks again!",
+"jams_SO3_reward.text": "@,^^^ Wow! Pancakes just got a serious upgrade thanks to these! ^^-Jodi",
+
+"jams_SO4_reward.title": "Thank you!",
+"jams_SO4_reward.text": "@,^^^ These are great! Now I don't have to worry about things like scurvy ever again.^^-Lewis",
+
+"jams_SO5_reward.title": "Congratulations!",
+"jams_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Canner. Please take this as a reward.",
+
+
+///////////////
+// PANTRY SO //
+///////////////
+
+"gourmetpantry_SO_1.name":"In a Jam",
+"gourmetpantry_SO_1.text":"Caroline has started baking all the time and I want to get her something to go with her treats.",
+"gourmetpantry_SO_1a.deliver":"Deliver Gourmet Lemon Curd to Pierre.",
+"gourmetpantry_SO_1b.deliver":"Deliver Farmstead Pumpkin Butter to Pierre.",
+"gourmetpantry_SO_1c.deliver":"Deliver Farmstead Honey Butter to Pierre.",
+"gourmetpantry_SO_1d.deliver":"Deliver Gourmet Lime Curd to Pierre.",
+"gourmetpantry_SO_1.accept":"These will complement her cakes and biscuits perfectly! I can't wait to surprise her with them.",
+
+"gourmetpantry_SO_2.name":"Got Milk?",
+"gourmetpantry_SO_2.text":"Many patients I see are lactose intolerant but I don't know much about alternative milks. Can someone bring me a few different kinds so I can taste test them myself?",
+"gourmetpantry_SO_2a.deliver":"Deliver 2 Almond Milk to the Drop Box in Harvey's Clinic.",
+"gourmetpantry_SO_2b.deliver":"Deliver 2 Rice Milk to the Drop Box in Harvey's Clinic.",
+"gourmetpantry_SO_2c.deliver":"Deliver 2 Coconut Milk to the Drop Box in Harvey's Clinic.",
+"gourmetpantry_SO_2d.deliver":"Deliver 2 Hazelnut Milk to the Drop Box in Harvey's Clinic.",
+
+"gourmetpantry_SO_3.name":"New Proteins Needed!",
+"gourmetpantry_SO_3.text":"I've heard nuts are a good source of protein, especially in smoothies! I want to try out a few different kinds in my morning protein shakes.",
+"gourmetpantry_SO_3.deliver": "Deliver 10 artisanal nut butters to the Drop Box in Alex's home.",
+
+"gourmetpantry_SO_4.name":"Baking Up a Storm",
+"gourmetpantry_SO_4.text":"Evelyn is baking so much we are constantly running out of flour! Maybe she would enjoy baking with new kinds of flours?",
+"gourmetpantry_SO_4.deliver":"Deliver 10 specialty flours to the Drop Box in George's home.",
+
+"gourmetpantry_SO_5.name":"Master Artisan Challenge",
+"gourmetpantry_SO_5.text":"It's that time of year again - annual applications for the role of Master Artisan are open! Send us your most high quality ingredients to see if you can earn the grand prize!",
+"gourmetpantry_SO_5.ship":"Ship 100 Gold Quality Pantry Goods.",
+
+"gourmetpantry_SO_6.name":"Extract for Evelyn",
+"gourmetpantry_SO_6.text":"I'm all out of vanilla extract! I can't bake without it ...",
+"gourmetpantry_SO_6.deliver":"Deliver 3 vanilla extracts to Evelyn.",
+"gourmetpantry_SO_6.accept":"Could you imagine making cookies without vanilla? Absolutely out of the question. Thanks for bringing these over, sweetie.",
+
+"gourmetpantry_SO_7.name":"Olive Oil for Abigail",
+"gourmetpantry_SO_7.text":"I want to try out some new cooking recipes, but I need olive oil to do so. Can someone help?",
+"gourmetpantry_SO_7.deliver":"Deliver 5 specialty olive oils to Abigail.",
+"gourmetpantry_SO_7.accept":"Thanks! I read that I need a lot of olive oil to make focaccia, so this saves me so much time and effort.",
+
+"gourmetpantry_SO_8.name":"Chocolate for Gus",
+"gourmetpantry_SO_8.text":"My chocolate supplier cancelled on me last minute! Can someone deliver me what I need?",
+"gourmetpantry_SO_8.deliver":"Deliver 9 baking chocolate to Gus.",
+"gourmetpantry_SO_8.accept":"The saloon menu just wouldn't be the same without Gus's Special Chocolate Cake! You really came through for me; thank you.",
+
+//PANTRY REWARDS MAIL
+
+"gourmetpantry_SO2_reward.title": "Thank you!",
+"gourmetpantry_SO2_reward.text": "@,^^^Made from things like rice, nuts and even coconuts? Splendid! These should be great alternatives for my patients.^-Harvey",
+
+"gourmetpantry_SO3_reward.title": "Thanks so much!",
+"gourmetpantry_SO3_reward.text": "@,^^^Awesome! With these I'll definitely be able to bulk up even better than before! You rock! ^-Alex",
+
+"gourmetpantry_SO4_reward.title": "Thanks again.",
+"gourmetpantry_SO4_reward.text": "@,^^^ Maybe with these we won't run out of flour in a day...I hope. Thanks for the help, farmer. ^-George",
+
+"gourmetpantry_SO5_reward.title": "Congratulations!",
+"gourmetpantry_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Artisan. Please take this as a reward.",
+
+////////////////////////
+// SPECIAL ORDERS TEA //
+////////////////////////
+
+"atelierbarista_TeaSO_1.name":"Sachet Stock Up",
+"atelierbarista_TeaSO_1.text":"I'm all out of my homemade tea blend! Can someone drop off some sachets to get me through the week?",
+"atelierbarista_TeaSO_1a.deliver":"Deliver 2 Cinnamon Spice Tea Sachets to Caroline.",
+"atelierbarista_TeaSO_1b.deliver":"Deliver 2 Merry Mint Tea Sachets to Caroline.",
+"atelierbarista_TeaSO_1c.deliver":"Deliver 2 Lady Grey Tea Sachets to Caroline.",
+"atelierbarista_TeaSO_1.accept":"What a lovely variety of flavors you brought! This will certainly spice up tea time for me.",
+
+"atelierbarista_TeaSO_2.name":"Tea Party",
+"atelierbarista_TeaSO_2.text":"I'm having some of the ladies over for tea and scones, but I want to have a variety of flavors to choose from! Can anyone help me?",
+"atelierbarista_TeaSO_2a.deliver":"Deliver 2 Sakura Teas to the Drop Box in Evelyn's kitchen.",
+"atelierbarista_TeaSO_2b.deliver":"Deliver 2 Rose Petal Teas to the Drop Box in Evelyn's kitchen.",
+"atelierbarista_TeaSO_2c.deliver":"Deliver 2 English Breakfast Teas to the Drop Box in Evelyn's kitchen.",
+
+"atelierjuicebar_TeaSO_3.name":"Bring on the Booch",
+"atelierjuicebar_TeaSO_3.text":"I heard Abigail and Sebby talking about how good kombucha is for you...can someone bring me some so I can see for myself?",
+"atelierjuicebar_TeaSO_3a.deliver":"Deliver 2 Autumn Apple Kombuchas to the Drop Box in Robin's workshop.",
+"atelierjuicebar_TeaSO_3b.deliver":"Deliver 2 Raspberry Lemon Kombuchas to the Drop Box in Robin's workshop.",
+"atelierjuicebar_TeaSO_3c.deliver":"Deliver 2 Wild Strawberry Kombuchas to the Drop Box in Robin's workshop.",
+"atelierjuicebar_TeaSO_3d.deliver":"Deliver 2 Pomegranate Green Kombuchas to the Drop Box in Robin's workshop.",
+
+"atelierbarista_TeaSO_4.name":"Sleepytime Tea",
+"atelierbarista_TeaSO_4.text":"I'm exhausted and would love to get a good night's sleep. Can anyone bring me some soothing herbal teas to help?",
+"atelierbarista_TeaSO_4a.deliver":"Deliver 3 Cozy Chamomile Tea Sachets to the Drop Box in Jodi's kitchen.",
+"atelierbarista_TeaSO_4b.deliver":"Deliver 3 Merry Mint Tea Sachets to the Drop Box in Jodi's kitchen.",
+"atelierbarista_TeaSO_4c.deliver":"Deliver 3 Calico Vanilla Tea Sachets to the Drop Box in Jodi's kitchen.",
+"atelierbarista_TeaSO_4d.deliver":"Deliver 3 Lemon Ginger Tea Sachets to the Drop Box in Jodi's kitchen.",
+
+"atelierbarista_TeaSO_5.name":"Master Tea Brewer Challenge",
+"atelierbarista_TeaSO_5.text":"It's that time of year again - annual applications for the role of Master Tea Brewer are open! Send us your best teas to see if you can earn the grand prize!",
+"atelierbarista_TeaSO_5.ship":"Ship 100 Gold Quality Tea Products.",
+
+"atelierjuicebar_TeaSO_6.name":"Kombucha for Alex",
+"atelierjuicebar_TeaSO_6.text":"Pierre won't carry kombucha no matter how much I ask him. How will I get it now?",
+"atelierjuicebar_TeaSO_6.deliver":"Deliver 4 kombucha to Alex.",
+"atelierjuicebar_TeaSO_6.accept":"YOU BROUGHT THE BOOCH! You rock thanks for dropping these off.",
+
+"atelierbarista_TeaSO_7.name":"Tea for Haley",
+"atelierbarista_TeaSO_7.text":"It's so tiring to order my tea online; how do I know its high quality if I can't even see it? Maybe someone in town would be able to sell me teas instead...",
+"atelierbarista_TeaSO_7.deliver":"Deliver 6 teas to Haley.",
+"atelierbarista_TeaSO_7.accept":"These teas look absolutely lovely. I'm going to enjoy these - thanks again!",
+
+"atelierbarista_TeaSO_8.name":"Sachets for Sandy",
+"atelierbarista_TeaSO_8.text":"I want to make a big pitcher of iced tea to keep cool out here in the desert. Can someone deliver me some sachets?",
+"atelierbarista_TeaSO_8.deliver":"Deliver 8 sachets to Sandy.",
+"atelierbarista_TeaSO_8.accept":"Now I won't feel like I'm melting away in the desert heat! Thanks, friend.",
+
+//TEA REWARDS MAIL
+ 
+"atelierbarista_TeaSO2_reward.title": "Thank you; Plus Some Tea Seeds!",
+"atelierbarista_TeaSO2_reward.text": "@,^^^ Well won't we just have the perfect Victorian Tea Party with these!^^-Evelyn",
+
+"atelierbarista_TeaSO3_reward.title": "Thank you, Plus Some Mushroom Starters!",
+"atelierbarista_TeaSO3_reward.text": "@,^^^ Oh it's fizzier than I imagined! But surprisingly tasty.^^-Robin",
+
+"atelierbarista_TeaSO4_reward.title": "Thanks again!",
+"atelierbarista_TeaSO4_reward.text": "@,^^^ These smell so soothing I bet I'll be asleep before I hit the pillow tonight!^^-Jodi",
+
+"atelierbarista_TeaSO5_reward.title": "Congratulations!",
+"atelierbarista_TeaSO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Tea Brewer. Please take this as a reward.",
+
+///////////////////
+// WILD FOOD SOS //
+///////////////////
+
+"ateliercrops_SO_1.name":"Calico Dreams",
+"ateliercrops_SO_1.text":"I've heard of an orchid that only blooms in Calico Desert during certain seasons. Can anyone bring me a few so I can dry them and keep them in my tent?",
+"ateliercrops_SO_1.deliver":"Deliver 3 calico vanilla to Linus.",
+"ateliercrops_SO_1.accept":"Oh how I do adore the Calico Desert. After drying these orchids, I'll always be able to enjoy a little bit of the desert right here at home.",
+
+"ateliercrops_SO_2.name":"A Bushel and A Peck",
+"ateliercrops_SO_2.text":"I'm all out of berries and I desperately want to make a chocolate berry tart. Can anyone help me out?",
+"ateliercrops_SO_2a.deliver":"Deliver 4 wild strawberries to the Drop Box in Leah's home.",
+"ateliercrops_SO_2b.deliver":"Deliver 4 wild raspberries to the Drop Box in Leah's home.",
+
+"ateliercrops_SO_3.name":"Tastes Like Chicken",
+"ateliercrops_SO_3.text":"Scientist in need of various mushrooms to figure out the best meat-replacement options in the Valley.",
+"ateliercrops_SO_3.deliver":"Deliver 15 mushrooms to the Drop Box in Demetrius's Lab.",
+
+"ateliercrops_SO_4.name":"Desert Blooms",
+"ateliercrops_SO_4.text":"The desert is pretty in its own way, but I miss some of those forest wildflowers that only bloom in the Valley! Can someone bring me some?",
+"ateliercrops_SO_4a.deliver":"Deliver 5 Forest Lavender to the Drop Box in Sandy's Shop.",
+"ateliercrops_SO_4b.deliver":"Deliver 5 Forest Chamomile to the Drop Box in Sandy's Shop.",
+
+"ateliercrops_SO_5.name":"Master Forager Challenge",
+"ateliercrops_SO_5.text":"It's that time of year again - annual applications for the role of Master Forager are open! Send us your best forage to see if you can earn the grand prize!",
+"ateliercrops_SO_5.ship":"Ship 100 Gold Quality Forage items.",
+
+"ateliercrops_SO_6.name":"Mushrooms for Maru",
+"ateliercrops_SO_6.text":"I need fresh mushrooms for an experiment but I'm so busy at the Clinic. Any chance someone has extra they can share?",
+"ateliercrops_SO_6.deliver":"Deliver 5 wild mushrooms to Maru.",
+"ateliercrops_SO_6.accept":"These look perfect! Thank you so much you saved me so much work looking for these.",
+
+"ateliercrops_SO_7.name":"Fruit for Gus",
+"ateliercrops_SO_7.text":"My shipment of fresh fruits never arrived and I need to make cocktails for the saloon! What will I do now?",
+"ateliercrops_SO_7.deliver":"Deliver 6 wild fruit to Gus.",
+"ateliercrops_SO_7.accept":"My cocktails will be out of this world with these lovely fruits! Thanks again.",
+
+"ateliercrops_SO_8.name":"Herbs for Evelyn",
+"ateliercrops_SO_8.text":"I'm all out of herbs and I need them for my cooking! Can someone help?",
+"ateliercrops_SO_8.deliver":"Deliver 8 wild herbs to Evelyn.",
+"ateliercrops_SO_8.accept":"Cooking with herbs is essential! Thank you for dropping these off.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+"ateliercrops_SO2_reward.title": "Thank you.",
+"ateliercrops_SO2_reward.text": "These berries are perfect for my tart! Thank you so much for finding them for me.^^-Leah",
+
+"ateliercrops_SO3_reward.title": "A Thank You Note and Some Mushroom Starters!",
+"ateliercrops_SO3_reward.text": "Dear @ ^^ Thanks to you, I am one step closer to finding the perfect vegan protein source! I really appreciate your assistance with foraging these for me.^^-Demetrius",
+
+"ateliercrops_SO4_reward.title": "A Thank You Note and Some MORE Mushroom Starters!",
+"ateliercrops_SO4_reward.text": "These are just what I was hoping for! I'm going to press them into my journal right away!^^-Sandy",
+
+"ateliercrops_SO5_reward.title": "Congratulations!!",
+"ateliercrops_SO5_reward.text": "Your dedication is impressive. We are proud to offer you the title of Master Forager. Please take this as a reward.",
+
+}

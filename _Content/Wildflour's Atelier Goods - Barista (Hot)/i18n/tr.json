@@ -1,0 +1,253 @@
+{
+
+//KETTLE
+
+"atelierbarista_TeaProcessor.name": "Çay İşleyici",
+"atelierbarista_TeaProcessor.description": "Çeşitli malzemelerden çay poşeti paketleyebilir.",
+
+"atelierbarista_TeaKettle.name": "Çay Kettle",
+"atelierbarista_TeaKettle.description": "Özel çaylar yapar.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_TeaProcessor_InvalidItem.message": "Bunu işleyemez.",
+"atelierbarista_TeaProcessor_InvalidCount.message": "Çay Yaprağı Gerektirir.",
+
+"atelierbarista_TeaKettle_InvalidItem.message": "Bunu işleyemez.",
+"atelierbarista_TeaKettle_InvalidCount.message": "Bal Gerektirir.",    
+
+
+//TEA SACHETS
+
+"atelierbarista_apple_sachet.name": "Güz Elması Çay Poşeti",
+"atelierbarista_apple_sachet.description": "İç ısıtan bitkiler kıtır elmayla harmanlanmış, haliyle soğuk bir güz öğleni için mükemmel oluyor.",
+
+"atelierbarista_vanilla_sachet.name": "Patisko Vanilyası Çay Poşeti",
+"atelierbarista_vanilla_sachet.description": "Zihin ve bedeni sakinleştirmek için bu vanilyalı çay karışımı mükemmel.",
+
+"atelierbarista_matcha_sachet.name": "Geleneksel Matcha Çay Poşeti",
+"atelierbarista_matcha_sachet.description": "İlk hasat yapraklarından yapılan geleneksel bir çay.",
+
+"atelierbarista_cinnamon_sachet.name": "Tarçınlı Çay Poşeti",
+"atelierbarista_cinnamon_sachet.description": "Çay yaprakları ve Kömürözü Tarçını tozunun harmanı, çay için mükemmel.",
+
+"atelierbarista_chamomile_sachet.name": "Sıcak Papatya Çay Poşeti",
+"atelierbarista_chamomile_sachet.description": "Kurutulmuş papatyalar başka sakinleştirici bitkilerle harmanlanıp rahatlatıcı bir çay karışımı olmuş.",
+
+"atelierbarista_breakfast_sachet.name": "İngiliz Kahvaltısı Çay Poşeti",
+"atelierbarista_breakfast_sachet.description": "Kuvvetli bir çay harmanı.",
+
+"atelierbarista_jasmine_sachet.name": "Kokulu Yasemin Çay Poşeti",
+"atelierbarista_jasmine_sachet.description": "Çay ve kokulu yasemin yapraklarının harmanı, çay için mükemmel.",
+
+"atelierbarista_ginger_sachet.name": "Zencefil-Şeftali Çay Poşeti",
+"atelierbarista_ginger_sachet.description": "Şeftalinin tatlılığıyla zencefilin hafif acısını birleştiren bir çay harmanı.",
+
+"atelierbarista_grey_sachet.name": "Lady Grey Çay Poşeti",
+"atelierbarista_grey_sachet.description": "Earl Grey'den daha yumuşak bir harman, hafif limon ve portakalı var.",
+
+"atelierbarista_lemon_sachet.name": "Limon-Zencefil Çay Poşeti",
+"atelierbarista_lemon_sachet.description": "Kurutulmuş zencefil ve ince limonun tadıyla yapılmış arındırıcı bir çay harmanı.",
+
+"atelierbarista_mint_sachet.name": "Naneli Çay Poşeti",
+"atelierbarista_mint_sachet.description": "Genelde soğuk algınlığı ve nezle semptomlarını gidermek için kaynatılan bir çay karışımı.",
+
+"atelierbarista_berry_sachet.name": "Karışık Meyve Çay Poşeti",
+"atelierbarista_berry_sachet.description": "Taze yemişlerin aroması bulunan kuvvetli bir çay harmanı.",
+
+"atelierbarista_peach_sachet.name": "Şeftali-Mango Çay Poşeti",
+"atelierbarista_peach_sachet.description": "Şeftali ve mango tatlarının hoş bir harmanı!",
+
+"atelierbarista_pineapple_sachet.name": "Ananas-Hindistan Cevizi Çay Poşeti",
+"atelierbarista_pineapple_sachet.description": "Tatlı ananas ve tazeleyici hindistan cevizi seni anında bir ada tatiline çıkarmak için harmanlanmış.",
+
+"atelierbarista_pomegranate_sachet.name": "Narlı Yeşil Çay Poşeti",
+"atelierbarista_pomegranate_sachet.description": "Narla süslenmiş capcanlı bir çay harmanı.",
+
+"atelierbarista_raspberry_sachet.name": "Ahududu Çay Poşeti",
+"atelierbarista_raspberry_sachet.description": "Mayhoş ahududu tadını öne çıkaran yumuşak bir Ferngill çay harmanı.",
+
+"atelierbarista_rose_sachet.name": "Gül Yaprağı Çay Poşeti",
+"atelierbarista_rose_sachet.description": "Gül çalısının taç yaprak ve tomurcuklarından yapılmış bir çay harmanı.",
+
+"atelierbarista_sakura_sachet.name": "Kiraz Çiçeği Çay Poşeti",
+"atelierbarista_sakura_sachet.description": "Saklanmış kiraz çiçekleriyle yapılmış bir çay harmanı.",
+
+"atelierbarista_strawberry_sachet.name": "Yabani Çilek Çay Poşeti",
+"atelierbarista_strawberry_sachet.description": "Yabani yaz çilekleriyle yapılmış tatlı bir çay harmanı.",
+
+//TEA
+
+"atelierbarista_apple_tea.name": "Güz Elması Çayı",
+"atelierbarista_apple_tea.description": "Taze kaynamış elma çayı.",
+
+"atelierbarista_vanilla_tea.name": "Patisko Vanilyası Çayı",
+"atelierbarista_vanilla_tea.description": "Taze kaynamış vanilya çayı.",
+
+"atelierbarista_matcha_tea.name": "Geleneksel Matcha Çayı",
+"atelierbarista_matcha_tea.description": "Taze kaynamış matcha çayı.",
+
+"atelierbarista_cinnamon_tea.name": "Tarçınlı Çay",
+"atelierbarista_cinnamon_tea.description": "Taze kaynamış tarçın çayı.",
+
+"atelierbarista_chamomile_tea.name": "Sıcak Papatya Çayı",
+"atelierbarista_chamomile_tea.description": "Taze kaynamış papatya çayı.",
+
+"atelierbarista_breakfast_tea.name": "İngiliz Kahvaltısı Çayı",
+"atelierbarista_breakfast_tea.description": "Taze kaynamış İngiliz Kahvaltısı çayı.",
+
+"atelierbarista_jasmine_tea.name": "Kokulu Yasemin Çayı",
+"atelierbarista_jasmine_tea.description": "Taze kaynamış yasemin çayı.",
+
+"atelierbarista_ginger_tea.name": "Zencefil-Şeftali Çayı",
+"atelierbarista_ginger_tea.description": "Taze kaynamış zencefil-şeftali çayı.",
+
+"atelierbarista_grey_tea.name": "Lady Grey Çayı",
+"atelierbarista_grey_tea.description": "Taze kaynamış Lady Grey çayı.",
+
+"atelierbarista_lemon_tea.name": "Limon-Zencefil Çayı",
+"atelierbarista_lemon_tea.description": "Taze kaynamış limon-zencefil çayı.",
+
+"atelierbarista_mint_tea.name": "Naneli Çay",
+"atelierbarista_mint_tea.description": "Taze kaynamış nane çayı.",
+
+"atelierbarista_berry_tea.name": "Karışık Meyve Çayı",
+"atelierbarista_berry_tea.description": "Taze kaynamış karışık meyve çayı.",
+
+"atelierbarista_peach_tea.name": "Şeftali-Mango Çayı",
+"atelierbarista_peach_tea.description": "Taze kaynamış şeftali-mango çayı.",
+
+"atelierbarista_pineapple_tea.name": "Ananas-Hindistan Cevizi Çayı",
+"atelierbarista_pineapple_tea.description": "Taze kaynamış ananas-hindistan cevizi çayı.",
+
+"atelierbarista_pomegranate_tea.name": "Narlı Yeşil Çay",
+"atelierbarista_pomegranate_tea.description": "Taze kaynamış narlı yeşil çay.",
+
+"atelierbarista_raspberry_tea.name": "Ahududu Çayı",
+"atelierbarista_raspberry_tea.description": "Taze kaynamış ahududu çayı.",
+
+"atelierbarista_rose_tea.name": "Gül Yaprağı Çayı",
+"atelierbarista_rose_tea.description": "Taze kaynamış gül yaprağı çayı.",
+
+"atelierbarista_sakura_tea.name": "Kiraz Çiçeği Çayı",
+"atelierbarista_sakura_tea.description": "Taze kaynamış kiraz çiçeği çayı.",
+
+"atelierbarista_strawberry_tea.name": "Yabani Çilek Çayı",
+"atelierbarista_strawberry_tea.description": "Taze kaynamış yabani çilek çayı.",
+
+//////////
+// MAIL //
+//////////
+
+"atelierbarista_TeaProcessorRecipe.name": "Çay Poşeti Yapma Vakti!",
+"atelierbarista_TeaProcessorRecipe.text":"@, ^^ Eğer çay işine gerçekten girmek istiyorsun, bu işleyicilerden birini yapmayı denemelisin. Çay poşeti yapmak için bir ayarı bile var! Yaptığın yeni çayları da denemeyi çok isterim.^^ - Elliott",
+
+"atelierbarista_TeaKettleRecipe.name": "Aç Kettle'ı Aç!",
+"atelierbarista_TeaKettleRecipe.text":"@, ^^ Bence kişisel bir kettleının olması evine biraz sıcaklık katar; işte kendin nasıl yapacağın burada! Sadece beni çay saatine çağırmayı unutma.^^ - Caroline",
+
+"atelierbarista_evelyn_gift.name": "Tohumlar Sana",
+"atelierbarista_evelyn_gift.text":"@, ^^ Çay yapımı hakkında daha çok şey öğrendiğini duydum! Çok güzel bir yola çıkıyorsun. İşte: bunlar kendi bahçemden papatya tohumları. Çiçeklerinden uyku veren rahatlatıcı bir çay yapılıyor.^^ - Evelyn",
+
+"atelierbarista_leah_gift.name": "Çay Bahçene",
+"atelierbarista_leah_gift.text":"@, ^^ Çay işi nasıl gidiyor? Eğer çay yaprağı bulmakta sorun yaşıyorsan, sana tohum vermekten mutlu olurum! Bunlardan sağlam çay bitkileri çıkar, sen de istediğin her çayı yaparsın.^^ - Leah",
+
+"atelierbarista_maru_gift.name": "Kombucha Yapımı",
+"atelierbarista_maru_gift.text": "@, ^^ Çayı fermente edip kombucha yapabileceğini biliyor muydun? Herkesin ağız tadına uymayabilir ama bence köpüklü ve leziz! Yine de fermantasyonu kolaylaştırmak için bu mantarlardan biraz yetiştirmeye başlamalısın.^^ - Maru",
+
+
+//////////////
+// COFFEE BEGIN //
+//////////////
+
+"atelierbarista_CoffeeGrinder.name": "Kahve Öğütücü",
+"atelierbarista_CoffeeGrinder.description": "Çekirdek ve malzemeleri özelleşmiş kahve harmanlarına dönüştürmek için bir öğütücü.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierbarista_CoffeeGrinder_InvalidItem.message": "Bunu işleyemez.",
+"atelierbarista_CoffeeGrinder_InvalidCount.message": "15 Kahve Çekirdeği gerektirir.",
+
+///////////////////
+// GROUND COFFEE //
+///////////////////
+
+"atelierbarista_breakfast_ground.name": "Kahvaltılık Öğütülmüş Kahve",
+"atelierbarista_breakfast_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+"atelierbarista_vanilla_ground.name": "Patisko Vanilyalı Öğütülmüş Kahve",
+"atelierbarista_vanilla_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+"atelierbarista_cold_ground.name": "Soğuk Harman",
+"atelierbarista_cold_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+"atelierbarista_donut_ground.name": "Donut Shoppe Öğütülmüş Kahve",
+"atelierbarista_donut_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+"atelierbarista_hazelnut_ground.name": "Fındıklı Öğütülmüş Kahve",
+"atelierbarista_hazelnut_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+"atelierbarista_holiday_ground.name": "Mocha Öğütülmüş Kahve",
+"atelierbarista_holiday_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+"atelierbarista_mocha_ground.name": "Mocha Öğütülmüş Kahve",
+"atelierbarista_mocha_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+"atelierbarista_pumpkin_ground.name": "Kabaklı Öğütülmüş Kahve",
+"atelierbarista_pumpkin_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+"atelierbarista_sweetheart_ground.name": "Sweetheart Harman Öğütülmüş Kahve",
+"atelierbarista_sweetheart_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+"atelierbarista_coconut_ground.name": "Kızarmış Hindistan Cevizli Öğütülmüş Kahve",
+"atelierbarista_coconut_ground.description": "Taze öğütülmüş kahve çekirdekleri, paketlenmiş ve enfes kahveye dönüşmek için hazır!",
+
+////////////
+// DRINKS //
+////////////
+
+"atelierbarista_breakfast_latte.name": "Kahvaltılık Latte",
+"atelierbarista_breakfast_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+"atelierbarista_vanilla_latte.name": "Patisko Vanilyalı Latte",
+"atelierbarista_vanilla_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+"atelierbarista_cold_latte.name": "Klasik Soğuk Kahve",
+"atelierbarista_cold_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+"atelierbarista_donut_latte.name": "Donut Shoppe Latte",
+"atelierbarista_donut_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+"atelierbarista_hazelnut_latte.name": "Fındıklı Latte",
+"atelierbarista_hazelnut_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+"atelierbarista_holiday_latte.name": "Bayram Harmanlı Latte",
+"atelierbarista_holiday_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+"atelierbarista_mocha_latte.name": "Kıvamlı Mocha Latte",
+"atelierbarista_mocha_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+"atelierbarista_pumpkin_latte.name": "Kabaklı Sıcak Latte",
+"atelierbarista_pumpkin_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+"atelierbarista_sweetheart_latte.name": "Sweetheart Latte",
+"atelierbarista_sweetheart_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+"atelierbarista_coconut_latte.name": "Kızarmış Hindistan Cevizli Latte",
+"atelierbarista_coconut_latte.description": "Taze pişmiş kahve. Sımsıcak!",
+
+
+////////////
+/// MAIL ///
+////////////
+
+"atelierbarista_GrinderRecipe.text": "@, ^^ Çekirdeklerini kendin öğütüp yaptığın kahve bana göre daha güzel oluyor, ve ben de en sevdiğim kahve öğütücü tarifini seninle paylaşayım dedim. Sadece unutma, fazla kafein titremeye neden olabilir, o yüzden her şey kararında!^^ - Harvey",
+"atelierbarista_haley.text": "@, ^^ Bu kasabada küçük sevimli bir kahve dükkanımız olmaması kötü, ama en azından artık sana iyi bir latte içmeye gelirim. Belki sonraki gelişimde bana mocha latte yaparsın?^^ - Haley",
+"atelierbarista_george.text": "@, ^^ Evelyn'in kendi çayları var ama bir kupa kahveye de bayılırım. Bir keresinde bir vanilyalı latte yaptı... çok güzeldi herhalde. Neyse, bu vanilya çekirdekleriyle belki sen de yapabilirsin.^^ - George",
+"atelierbarista_sebastian.text": "@, ^^ Soğuk harman yapmayı henüz denedin mi? Acılığı olmadan kafein ve tadı tamamen kalıyor, o yüzden kesinlikle öneririm. İşte, bunlar doğru kullanırsan soğuk harman elde etmene yardımcı olur.^^ - Sebastian",
+
+
+}

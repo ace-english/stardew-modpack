@@ -1,0 +1,419 @@
+{
+// HARVEY DSV FULL
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Harvey Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Harvey", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Harvey.Indoor":
+				{
+					"Id": "{{ModId}}_Harvey_Indoor",
+					"Portrait": "Portraits/Harvey_Indoor",
+					"Sprite": "Characters/Harvey_Indoor",
+					"Indoors": true,
+					"Outdoors": false,
+					"Precedence": -110
+				},
+				"DSV.Harvey.Outdoor":
+				{
+					"Id": "{{ModId}}_Harvey_Outdoor",
+					"Portrait": "Portraits/Harvey_Outdoor",
+					"Sprite": "Characters/Harvey_Outdoor",
+					"Indoors": false,
+					"Outdoors": true,
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Harvey.EggFestival":
+				{
+					"Id": "{{ModId}}_Harvey_EggFestival",
+					"Portrait": "Portraits/Harvey_EggFestival",
+					"Sprite": "Characters/Harvey_EggFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_spring13\"",
+					"Precedence": -200
+				},
+				"DSV.Harvey.FlowerDance":
+				{
+					"Id": "{{ModId}}_Harvey_FlowerDance",
+					"Portrait": "Portraits/Harvey_FlowerDance",
+					"Sprite": "Characters/Harvey_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Harvey.Luau":
+				{
+					"Id": "{{ModId}}_Harvey_Luau",
+					"Portrait": "Portraits/Harvey_Luau",
+					"Sprite": "Characters/Harvey_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Harvey.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Harvey_MoonlightJellies",
+					"Portrait": "Portraits/Harvey_MoonlightJellies",
+					"Sprite": "Characters/Harvey_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Harvey.SVFair":
+				{
+					"Id": "{{ModId}}_Harvey_SVFair",
+					"Portrait": "Portraits/Harvey_SVFair",
+					"Sprite": "Characters/Harvey_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\" \"IS_EVENT 528052\"",
+					"Precedence": -200
+				},
+				"DSV.Harvey.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Harvey_SpiritsEve",
+					"Portrait": "Portraits/Harvey_SpiritsEve",
+					"Sprite": "Characters/Harvey_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Harvey.IceFestival":
+				{
+					"Id": "{{ModId}}_Harvey_IceFestival",
+					"Portrait": "Portraits/Harvey_IceFestival",
+					"Sprite": "Characters/Harvey_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Harvey.WinterStar":
+				{
+					"Id": "{{ModId}}_Harvey_WinterStar",
+					"Portrait": "Portraits/Harvey_WinterStar",
+					"Sprite": "Characters/Harvey_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Harvey.Swim":
+				{
+					"Id": "{{ModId}}_Harvey_Swim",
+					"Portrait": "Portraits/Harvey_Swim",
+					"Sprite": "Characters/Harvey_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Harvey.Pyjamas":
+				{
+					"Id": "{{ModId}}_Harvey_Pyjamas",
+					"Portrait": "Portraits/Harvey_Pyjamas",
+					"Sprite": "Characters/Harvey_Pyjamas",
+					"Condition": "ANY \"LOCATION_NAME Target HarveyRoom, !TIME 0650 2220, {{DSV.Core/ConfigValue:Pyjamas |contains= On}}\" \"LOCATION_NAME Target Farmhouse, !TIME 0650 2220, !{{DSV.Core/ConfigValue:Pyjamas |contains= Off}}, PLAYER_NPC_RELATIONSHIP Current Harvey Married Roommate\"",
+					"Precedence": -150
+				},
+				"DSV.Harvey.WeddingGuest":
+				{
+					"Id": "{{ModId}}_Harvey_WeddingGuest",
+					"Sprite": "Characters/Harvey_WeddingGuest",
+					"Condition": "ANY \"IS_EVENT -2\" \"{{DayEvent |contains= wedding}}, {{HasMod |contains= Rafseazz.RSCVP}}, LOCATION_NAME Target Custom_Ridgeside_LogCabinEventHall_WeddingReception Custom_Ridgeside_LogCabinEventHall_WeddingReception_Temp\" \"{{HasMod |contains= bigeyedkitteh.moreweddingvenues}}, LOCATION_NAME Target Custom_weddingvenuebeach Custom_weddingvenuegarden Custom_weddingvenuechapel\" \"{{HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts}}, IS_EVENT 902207\" \"{{HasMod |contains= ZoeDoll.JericAlexRivalHearts}}, IS_EVENT 955807\" \"{{HasMod |contains= Nraittanna.LifeCycleAbigailSebastian}}, IS_EVENT 59020048\" \"{{HasMod |contains= Nraittanna.LifeCycleHaleyLeah}}, IS_EVENT 59020035\" \"{{HasMod |contains= Nraittanna.LifeCycleMaruHarvey}}, IS_EVENT 59020030\" \"{{HasMod |contains= Nraittanna.LifeCyclePennySam}}, IS_EVENT 59020025\" \"{{HasMod |contains= baguettemagiqu7.NPCParkJaemin}}, IS_EVENT 375300006\"",
+					"Precedence": -500
+				},
+				"DSV.Harvey.HotClimate":
+				{
+					"Id": "{{ModId}}_Harvey_HotClimate",
+					"Portrait": "Portraits/Harvey_HotClimate",
+					"Sprite": "Characters/Harvey_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Harvey.Clinic":
+				{
+					"Id": "{{ModId}}_Harvey_Clinic",
+					"Portrait": "Portraits/Harvey_Clinic",
+					"Sprite": "Characters/Harvey_Clinic",
+					"Condition": "LOCATION_NAME Target Hospital",
+					"Precedence": -150
+				},
+				"DSV.Harvey.Aerobics":
+				{
+					"Id": "{{ModId}}_Harvey_Aerobics",
+					"Portrait": "Portraits/Harvey_Aerobics",
+					"Sprite": "Characters/Harvey_Aerobics",
+					"Condition": "IS_EVENT 58",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Harvey Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Harvey_Indoor, Characters/Harvey_Indoor, Portraits/Harvey_Outdoor, Characters/Harvey_Outdoor, Portraits/Harvey_Clinic, Characters/Harvey_Clinic",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_Spring_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Harvey Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Harvey_EggFestival, Characters/Harvey_EggFestival, Portraits/Harvey_FlowerDance, Characters/Harvey_FlowerDance, Portraits/Harvey_Luau, Characters/Harvey_Luau, Portraits/Harvey_MoonlightJellies, Characters/Harvey_MoonlightJellies, Portraits/Harvey_SVFair, Characters/Harvey_SVFair, Portraits/Harvey_SpiritsEve, Characters/Harvey_SpiritsEve, Portraits/Harvey_IceFestival, Characters/Harvey_IceFestival, Portraits/Harvey_WinterStar, Characters/Harvey_WinterStar, Portraits/Harvey_Swim, Characters/Harvey_Swim, Portraits/Harvey_Pyjamas, Characters/Harvey_Pyjamas, Portraits/Harvey_Aerobics, Characters/Harvey_Aerobics, Characters/Harvey_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Harvey Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Harvey_HotClimate, Characters/Harvey_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Harvey Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Indoor, Characters/Harvey_Indoor",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_{{Season}}_{{RandomHarveyToken}}_Base.png"
+		},
+		{
+			"LogName": "Harvey Clinic Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Clinic, Characters/Harvey_Clinic",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_{{Season}}_{{RandomHarveyToken}}_Base_Clinic.png"
+		},
+		{
+			"LogName": "Harvey Outdoor Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Outdoor, Characters/Harvey_Outdoor",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_{{Season}}_{{RandomHarveyToken}}_{{DSV.Core/Weather:Harvey}}.png"
+		},
+		{
+			"LogName": "Harvey Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_HotClimate, Characters/Harvey_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_Summer_{{RandomTwoToken}}_Sun.png"
+		},
+		{
+			"LogName": "Harvey Flower Dance Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_FlowerDance, Characters/Harvey_FlowerDance",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_FlowerDance_1{{HarveyFlowerDanceToken}}.png",
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Harvey Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Beach, Characters/Harvey_Beach",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png"
+		},
+		{
+			"LogName": "Harvey Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Harvey_WeddingGuest",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_Wedding_{{HarveySeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 384, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		{
+			"LogName": "Harvey Sleep Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Harvey",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HarveyVariant}}/Harvey_SleepSprite.png",
+			"ToArea": { "X": 32, "Y": 416, "Width": 16, "Height": 32 },
+			"When":
+			{
+				"LocationName |contains= HarveyRoom": true
+			},
+			"Update": "OnLocationChange"
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Harvey Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Harvey/Misc/Harvey_Emoji_{{DSV.Core/ConfigValue:HarveyVariant}}.png",
+			"ToArea": {"X": 90, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Clinic Yoba Poster Art Replacement",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "Art/Misc/PosterEdit_Cat.png",
+			"ToArea": {"X": 370, "Y": 80, "Width": 13, "Height": 16},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Vanilla, Off": false,
+				"LocationName |contains= Hospital": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Clinic Yoba Poster Text Replacement",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+            "Entries":
+            {
+                "Hospital.1": "{{i18n:DSV.OtherEdits.Altar.Religion.Strings.Hospital}}"
+            },
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Vanilla, Off": false,
+				"LocationName |contains= Hospital": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Clinic Yoba Poster Text Replacement - Jorts & Jean",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+            "Entries":
+            {
+                "Hospital.1": "{{i18n:DSV.OtherEdits.Altar.Religion.Strings.Hospital.Jorts}}"
+            },
+			"When":
+			{
+				"HasMod |contains= tiakall.jortsandjean": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Vanilla, Off": false,
+				"LocationName |contains= Hospital": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Harvey Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Harvey/Misc/Harvey_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:HarveyVariant}}.png",
+			"ToArea": {"X": 0, "Y": 304, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Vanilla, Off": false
+			}
+		},
+		
+//MERMAID PENDANTS
+		{
+			"LogName": "Harvey Pendants",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Indoor, Portraits/Harvey_Pyjamas, Portraits/Harvey_EggFestival, Portraits/Harvey_FlowerDance, Portraits/Harvey_Luau, Portraits/Harvey_MoonlightJellies, Portraits/Harvey_SVFair",
+			"FromFile": "Art/VanillaNPCs/Harvey/Misc/MermaidPendants/Harvey_Pendant_{{DSV.Core/ConfigValue:HarveyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Harvey |contains= Married, Engaged": true,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Harvey Pendants - Beach & Winter Star",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Beach, Portraits/Harvey_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Harvey/Misc/MermaidPendants/Harvey_Pendant_{{DSV.Core/ConfigValue:HarveyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Harvey |contains= Married, Engaged": true,
+				"DSV.Core/ConfigValue:MermaidPendantsSpouse |contains= True": true
+			}
+		},
+		{
+			"LogName": "Harvey Pendants - Life Cycle Harvey/Maru Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Indoor, Portraits/Harvey_Pyjamas, Portraits/Harvey_EggFestival, Portraits/Harvey_FlowerDance, Portraits/Harvey_Luau, Portraits/Harvey_MoonlightJellies, Portraits/Harvey_SVFair",
+			"FromFile": "Art/VanillaNPCs/Harvey/Misc/MermaidPendants/Harvey_Pendant_{{DSV.Core/ConfigValue:HarveyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Harvey |contains= Married, Engaged": false,
+				"Season |contains= winter": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleHarveyMaru": true,
+				"HasSeenEvent |contains= 59020030": true
+			}
+		},
+		{
+			"LogName": "Harvey Pendants - Beach & Winter Star - Life Cycle Harvey/Maru Compatibility",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Beach, Portraits/Harvey_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Harvey/Misc/MermaidPendants/Harvey_Pendant_{{DSV.Core/ConfigValue:HarveyVariant}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"Relationship:Harvey |contains= Married, Engaged": false,
+				"DSV.Core/ConfigValue:MermaidPendantsRivals |contains= True": true,
+				"HasMod |contains= nraittanna.LifeCycleHarveyMaru": true,
+				"HasSeenEvent |contains= 59020030": true
+			}
+		},
+		
+//MISCELLANEOUS OVERLAYS
+		{
+			"LogName": "Harvey Character Mustache Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Harvey_Indoor, Characters/Harvey_Outdoor, Characters/Harvey_Clinic, Characters/Harvey_EggFestival, Characters/Harvey_FlowerDance, Characters/Harvey_Luau, Characters/Harvey_MoonlightJellies, Characters/Harvey_SVFair, Characters/Harvey_SpiritsEve, Characters/Harvey_IceFestival, Characters/Harvey_WinterStar, Characters/Harvey_Swim, Characters/Harvey_Pyjamas, Characters/Harvey_Aerobics, Characters/Harvey_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/Harvey_MustacheOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Vanilla": true,
+				"DSV.Core/ConfigValue:HarveyCharacterMoustache": true
+			}
+		},
+		{
+			"LogName": "Harvey Character Mustache Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Harvey_Beach",
+			"FromFile": "Art/VanillaNPCs/Harvey/{{TargetPathOnly}}/Harvey_Beach_MustacheOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HarveyVariant|contains= Vanilla": true,
+				"DSV.Core/ConfigValue:HarveyCharacterMoustache": true
+			}
+		},
+
+// COMPATIBILITY
+// PPAF
+		{
+			"LogName": "PPaF Compat - Harvey No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Indoor, Portraits/Harvey_EggFestival, Portraits/Harvey_FlowerDance, Portraits/Harvey_Luau, Portraits/Harvey_MoonlightJellies, Portraits/Harvey_SVFair, Portraits/Harvey_IceFestival, Portraits/Harvey_WinterStar, Portraits/Harvey_Swim, Portraits/Harvey_HotClimate, Portraits/Harvey_Clinic, Portraits/Harvey_Pyjamas",
+			"FromFile": "Art/VanillaNPCs/Harvey/Portraits/{{DSV.Core/ConfigValue:HarveyVariant}}/Overlays/Harvey_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Harvey": true
+			}
+		}
+	]
+}

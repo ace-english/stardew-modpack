@@ -1,0 +1,1092 @@
+{
+    "Changes": [
+        
+//////////////
+// SAPLINGS //
+//////////////
+
+        {
+            "LogName":"Add Wild Food Saplings",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.ateliercrops_pistachiosapling": {
+                    "Name": "wildflour.ateliercrops_pistachiosapling",
+                    "DisplayName": "{{i18n:ateliercrops_pistachiosapling.name}}",
+                    "Description": "{{i18n:ateliercrops_pistachiosapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 1
+            },
+                "wildflour.ateliercrops_olivesapling": {
+                    "Name": "wildflour.ateliercrops_olivesapling",
+                    "DisplayName": "{{i18n:ateliercrops_olivesapling.name}}",
+                    "Description": "{{i18n:ateliercrops_olivesapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 14
+            },
+                "wildflour.ateliercrops_cashewsapling": {
+                    "Name": "wildflour.ateliercrops_cashewsapling",
+                    "DisplayName": "{{i18n:ateliercrops_cashewsapling.name}}",
+                    "Description": "{{i18n:ateliercrops_cashewsapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 24
+            },
+                "wildflour.ateliercrops_walnutsapling": {
+                    "Name": "wildflour.ateliercrops_walnutsapling",
+                    "DisplayName": "{{i18n:ateliercrops_walnutsapling.name}}",
+                    "Description": "{{i18n:ateliercrops_walnutsapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 27
+            },
+                "wildflour.ateliercrops_lemonsapling": {
+                        "Name": "wildflour.ateliercrops_lemonsapling",
+                        "DisplayName": "{{i18n:ateliercrops_lemonsapling.name}}",
+                        "Description": "{{i18n:ateliercrops_lemonsapling.description}}",
+                        "Type": "Basic",
+                        "Category": -74,
+                        "Price": 1,
+                        "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                        "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                        "SpriteIndex": 43
+            },
+                "wildflour.ateliercrops_limesapling": {
+                    "Name": "wildflour.ateliercrops_limesapling",
+                    "DisplayName": "{{i18n:ateliercrops_limesapling.name}}",
+                    "Description": "{{i18n:ateliercrops_limesapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 45
+            },
+                "wildflour.ateliercrops_almondsapling": {
+                    "Name": "wildflour.ateliercrops_almondsapling",
+                    "DisplayName": "{{i18n:ateliercrops_almondsapling.name}}",
+                    "Description": "{{i18n:ateliercrops_almondsapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 47
+            },
+                "wildflour.ateliercrops_cacaopodsapling": {
+                    "Name": "wildflour.ateliercrops_cacaopodsapling",
+                    "DisplayName": "{{i18n:ateliercrops_cacaopodsapling.name}}",
+                    "Description": "{{i18n:ateliercrops_cacaopodsapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 53
+            },
+                "wildflour.ateliercrops_anise_sapling": {
+                    "Name": "wildflour.ateliercrops_anise_sapling",
+                    "DisplayName": "{{i18n:ateliercrops_anise_sapling.name}}",
+                    "Description": "{{i18n:ateliercrops_anise_sapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 65
+            },
+                "wildflour.ateliercrops_elder_sapling": {
+                    "Name": "wildflour.ateliercrops_elder_sapling",
+                    "DisplayName": "{{i18n:ateliercrops_elder_sapling.name}}",
+                    "Description": "{{i18n:ateliercrops_elder_sapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 16
+            }
+        }
+        },
+
+/////////////
+// SEEDS ////
+/////////////
+
+        {
+            "LogName":"Add Wild Food Seeds",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.ateliercrops_cilantroseeds": {
+                    "Name": "wildflour.ateliercrops_cilantroseeds",
+                    "DisplayName": "{{i18n:ateliercrops_cilantroseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_cilantroseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 8
+            },
+                "wildflour.ateliercrops_vanillaseeds": {
+                    "Name": "wildflour.ateliercrops_vanillaseeds",
+                    "DisplayName": "{{i18n:ateliercrops_vanillaseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_vanillaseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 3
+            },
+                "wildflour.ateliercrops_sageseeds": {
+                    "Name": "wildflour.ateliercrops_sageseeds",
+                    "DisplayName": "{{i18n:ateliercrops_sageseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_sageseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 12
+            },
+                "wildflour.ateliercrops_chamomileseeds": {
+                    "Name": "wildflour.ateliercrops_chamomileseeds",
+                    "DisplayName": "{{i18n:ateliercrops_chamomileseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_chamomileseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 18
+            },
+                "wildflour.ateliercrops_lavenderseeds": {
+                    "Name": "wildflour.ateliercrops_lavenderseeds",
+                    "DisplayName": "{{i18n:ateliercrops_lavenderseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_lavenderseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 20
+            },
+                "wildflour.ateliercrops_thymeseeds": {
+                    "Name": "wildflour.ateliercrops_thymeseeds",
+                    "DisplayName": "{{i18n:ateliercrops_thymeseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_thymeseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 33
+            },
+                "wildflour.ateliercrops_jasmineseeds": {
+                    "Name": "wildflour.ateliercrops_jasmineseeds",
+                    "DisplayName": "{{i18n:ateliercrops_jasmineseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_jasmineseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 22
+            },
+                "wildflour.ateliercrops_mallowseeds": {
+                    "Name": "wildflour.ateliercrops_mallowseeds",
+                    "DisplayName": "{{i18n:ateliercrops_mallowseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_mallowseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 35
+            },
+                "wildflour.ateliercrops_rosemaryseeds": {
+                    "Name": "wildflour.ateliercrops_rosemaryseeds",
+                    "DisplayName": "{{i18n:ateliercrops_rosemaryseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_rosemaryseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 29
+            },
+                "wildflour.ateliercrops_mintseeds": {
+                    "Name": "wildflour.ateliercrops_mintseeds",
+                    "DisplayName": "{{i18n:ateliercrops_mintseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_mintseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 41
+            },
+                "wildflour.ateliercrops_redonionseeds": {
+                    "Name": "wildflour.ateliercrops_redonionseeds",
+                    "DisplayName": "{{i18n:ateliercrops_redonionseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_redonionseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 59
+            },
+                "wildflour.ateliercrops_basilseeds": {
+                    "Name": "wildflour.ateliercrops_basilseeds",
+                    "DisplayName": "{{i18n:ateliercrops_basilseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_basilseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 49
+            },
+                "wildflour.ateliercrops_wormwoodseeds": {
+                    "Name": "wildflour.ateliercrops_wormwoodseeds",
+                    "DisplayName": "{{i18n:ateliercrops_wormwoodseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_wormwoodseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 63
+            },
+                "wildflour.ateliercrops_milkshroomseeds": {
+                    "Name": "wildflour.ateliercrops_milkshroomseeds",
+                    "DisplayName": "{{i18n:ateliercrops_milkshroomseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_milkshroomseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 39
+            },
+                "wildflour.ateliercrops_wheatshroomseeds": {
+                    "Name": "wildflour.ateliercrops_wheatshroomseeds",
+                    "DisplayName": "{{i18n:ateliercrops_wheatshroomseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_wheatshroomseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 51
+            },
+                "wildflour.ateliercrops_meringueshroomseeds": {
+                    "Name": "wildflour.ateliercrops_meringueshroomseeds",
+                    "DisplayName": "{{i18n:ateliercrops_meringueshroomseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_meringueshroomseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 37
+            },
+                "wildflour.ateliercrops_chickenwoodsseeds": {
+                    "Name": "wildflour.ateliercrops_chickenwoodsseeds",
+                    "DisplayName": "{{i18n:ateliercrops_chickenwoodsseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_chickenwoodsseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 6
+            },
+                "wildflour.ateliercrops_honeyfungusseeds": {
+                    "Name": "wildflour.ateliercrops_honeyfungusseeds",
+                    "DisplayName": "{{i18n:ateliercrops_honeyfungusseeds.name}}",
+                    "Description": "{{i18n:ateliercrops_honeyfungusseeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 1,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 31
+            }
+
+        }
+        },
+
+////////////////////////
+// FRUIT AND FLOWERS ///
+////////////////////////
+
+        {
+            "LogName":"Add Wild Food Fruit and Flowers",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.ateliercrops_lemon": {
+                    "Name": "wildflour.ateliercrops_lemon",
+                    "DisplayName": "{{i18n:ateliercrops_lemon.name}}",
+                    "Description": "{{i18n:ateliercrops_lemon.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 8,
+                    "Price": 70,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "citrus_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 42
+            },
+                "wildflour.ateliercrops_lime": {
+                    "Name": "wildflour.ateliercrops_lime",
+                    "DisplayName": "{{i18n:ateliercrops_lime.name}}",
+                    "Description": "{{i18n:ateliercrops_lime.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 8,
+                    "Price": 70,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "citrus_item",
+                    "color_lime"],
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 44
+            },
+                "wildflour.ateliercrops_olive": {
+                    "Name": "wildflour.ateliercrops_olive",
+                    "DisplayName": "{{i18n:ateliercrops_olive.name}}",
+                    "Description": "{{i18n:ateliercrops_olive.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 11,
+                    "Price": 120,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "color_pale_green"],
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 13
+            },
+                "wildflour.ateliercrops_cacaopod": {
+                    "Name": "wildflour.ateliercrops_cacaopod",
+                    "DisplayName": "{{i18n:ateliercrops_cacaopod.name}}",
+                    "Description": "{{i18n:ateliercrops_cacaopod.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 0,
+                    "Price": 115,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "chocolate_item",
+                    "color_dark_brown"],
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 52
+            },
+                "wildflour.ateliercrops_raspberry": {
+                    "Name": "wildflour.ateliercrops_raspberry",
+                    "DisplayName": "{{i18n:ateliercrops_raspberry.name}}",
+                    "Description": "{{i18n:ateliercrops_raspberry.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Edibility": 8,
+                    "Price": 20,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "berry_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 56
+            },
+                "wildflour.ateliercrops_strawberry": {
+                    "Name": "wildflour.ateliercrops_strawberry",
+                    "DisplayName": "{{i18n:ateliercrops_strawberry.name}}",
+                    "Description": "{{i18n:ateliercrops_strawberry.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Edibility": 6,
+                    "Price": 25,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "berry_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 60
+            },
+                "wildflour.ateliercrops_elderberries": {
+                    "Name": "wildflour.ateliercrops_elderberries",
+                    "DisplayName": "{{i18n:ateliercrops_elderberries.name}}",
+                    "Description": "{{i18n:ateliercrops_elderberries.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 4,
+                    "Price": 170,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["ateliercrops_forage",
+                    "berry_item",
+                    "color_dark_blue"],
+
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 15
+            },
+                "wildflour.ateliercrops_vanilla": {
+                    "Name": "wildflour.ateliercrops_vanilla",
+                    "DisplayName": "{{i18n:ateliercrops_vanilla.name}}",
+                    "Description": "{{i18n:ateliercrops_vanilla.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Edibility": 5,
+                    "Price": 135,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "edible_flower_item",
+                    "color_sand"],
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 2
+            },
+                "wildflour.ateliercrops_cherryblossoms": {
+                    "Name": "wildflour.ateliercrops_cherryblossoms",
+                    "DisplayName": "{{i18n:ateliercrops_cherryblossoms.name}}",
+                    "Description": "{{i18n:ateliercrops_cherryblossoms.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Edibility": 0,
+                    "Price": 15,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "edible_flower_item",
+                    "color_light_pink"],
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 4
+            },
+                "wildflour.ateliercrops_chamomile": {
+                    "Name": "wildflour.ateliercrops_chamomile",
+                    "DisplayName": "{{i18n:ateliercrops_chamomile.name}}",
+                    "Description": "{{i18n:ateliercrops_chamomile.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Edibility": 8,
+                    "Price": 45,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "edible_flower_item",
+                    "color_sand"],
+                
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 17
+            },
+                "wildflour.ateliercrops_lavender": {
+                    "Name": "wildflour.ateliercrops_lavender",
+                    "DisplayName": "{{i18n:ateliercrops_lavender.name}}",
+                    "Description": "{{i18n:ateliercrops_lavender.description}}",
+                    "Type": "Flower",          
+                    "Category": -80,
+                    "Edibility": 9,
+                    "Price": 55,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "edible_flower_item",
+                    "color_pale_violet"],
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 19
+            },
+                "wildflour.ateliercrops_jasmine": {
+                    "Name": "wildflour.ateliercrops_jasmine",
+                    "DisplayName": "{{i18n:ateliercrops_jasmine.name}}",
+                    "Description": "{{i18n:ateliercrops_jasmine.description}}",
+                    "Type": "Flower",          
+                    "Category": -80,
+                    "Edibility": 12,
+                    "Price": 70,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "edible_flower_item",
+                    "color_white"],
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 21
+            },
+                "wildflour.ateliercrops_mallow": {
+                    "Name": "wildflour.ateliercrops_mallow",
+                    "DisplayName": "{{i18n:ateliercrops_mallow.name}}",
+                    "Description": "{{i18n:ateliercrops_mallow.description}}",
+                    "Type": "Flower",          
+                    "Category": -80,
+                    "Edibility": 13,
+                    "Price": 25,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "edible_flower_item",
+                    "color_light_pink"],
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 34
+            },
+                "wildflour.ateliercrops_anise": {
+                    "Name": "wildflour.ateliercrops_anise",
+                    "DisplayName": "{{i18n:ateliercrops_anise.name}}",
+                    "Description": "{{i18n:ateliercrops_anise.description}}",
+                    "Type": "Greens",          
+                    "Category": -81,
+                    "Edibility": 0,
+                    "Price": 110,
+                    "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "herb_item",
+                    "color_green"],
+        
+                    "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+                    "SpriteIndex": 64
+            }
+        }
+        },
+
+//////////////////////
+// NUTS & MUSHROOMS //
+//////////////////////
+
+{
+    "LogName":"Add Wild Food Nuts and Mushrooms",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "wildflour.ateliercrops_pistachio": {
+            "Name": "wildflour.ateliercrops_pistachio",
+            "DisplayName": "{{i18n:ateliercrops_pistachio.name}}",
+            "Description": "{{i18n:ateliercrops_pistachio.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 105,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "nut_item",
+            "color_red"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 0
+    },
+        "wildflour.ateliercrops_cinnamon": {
+            "Name": "wildflour.ateliercrops_cinnamon",
+            "DisplayName": "{{i18n:ateliercrops_cinnamon.name}}",
+            "Description": "{{i18n:ateliercrops_cinnamon.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 0,
+            "Price": 125,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "nut_item",
+            "color_dark_red"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 9
+    },
+        "wildflour.ateliercrops_cashew": {
+            "Name": "wildflour.ateliercrops_cashew",
+            "DisplayName": "{{i18n:ateliercrops_cashew.name}}",
+            "Description": "{{i18n:ateliercrops_cashew.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 20,
+            "Price": 135,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "nut_item",
+            "color_pale_red"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 23
+    },
+        "wildflour.ateliercrops_walnut": {
+            "Name": "wildflour.ateliercrops_walnut",
+            "DisplayName": "{{i18n:ateliercrops_walnut.name}}",
+            "Description": "{{i18n:ateliercrops_walnut.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 14,
+            "Price": 125,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "nut_item",
+            "color_pale_green"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 26
+    },
+        "wildflour.ateliercrops_almond": {
+            "Name": "wildflour.ateliercrops_almond",
+            "DisplayName": "{{i18n:ateliercrops_almond.name}}",
+            "Description": "{{i18n:ateliercrops_almond.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 19,
+            "Price": 115,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "nut_item",
+            "color_pale_green"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 46
+    },
+        "wildflour.ateliercrops_chickenwoods": {
+            "Name": "wildflour.ateliercrops_chickenwoods",
+            "DisplayName": "{{i18n:ateliercrops_chickenwoods.name}}",
+            "Description": "{{i18n:ateliercrops_chickenwoods.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 14,
+            "Price": 95,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_mushroom_item",
+            "color_gold"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 5
+    },
+        "wildflour.ateliercrops_gentianroot": {
+            "Name": "wildflour.ateliercrops_gentianroot",
+            "DisplayName": "{{i18n:ateliercrops_gentianroot.name}}",
+            "Description": "{{i18n:ateliercrops_gentianroot.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 0,
+            "Price": 25,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "herb_item",
+            "color_green"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 25
+    },
+        "wildflour.ateliercrops_honeyfungus": {
+            "Name": "wildflour.ateliercrops_honeyfungus",
+            "DisplayName": "{{i18n:ateliercrops_honeyfungus.name}}",
+            "Description": "{{i18n:ateliercrops_honeyfungus.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 18,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_mushroom_item",
+            "color_light_brown"],
+        
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 30
+    },
+        "wildflour.ateliercrops_meringueshroom": {
+            "Name": "wildflour.ateliercrops_meringueshroom",
+            "DisplayName": "{{i18n:ateliercrops_meringueshroom.name}}",
+            "Description": "{{i18n:ateliercrops_meringueshroom.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 10,
+            "Price": 70,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_mushroom_item",
+            "color_pink"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 36
+    },
+        "wildflour.ateliercrops_milkshroom": {
+            "Name": "wildflour.ateliercrops_milkshroom",
+            "DisplayName": "{{i18n:ateliercrops_milkshroom.name}}",
+            "Description": "{{i18n:ateliercrops_milkshroom.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 16,
+            "Price": 125,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_mushroom_item",
+            "color_white"],
+        
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 38
+    },
+        "wildflour.ateliercrops_wheatshroom": {
+            "Name": "wildflour.ateliercrops_wheatshroom",
+            "DisplayName": "{{i18n:ateliercrops_wheatshroom.name}}",
+            "Description": "{{i18n:ateliercrops_wheatshroom.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 18,
+            "Price": 70,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_mushroom_item",
+            "color_sand"],
+        
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 50
+    }
+}
+},
+
+///////////////////
+// HERBS & VEG ////
+///////////////////
+
+
+{
+    "LogName":"Add Wild Food Herbs and Veg",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "wildflour.ateliercrops_cilantro": {
+            "Name": "wildflour.ateliercrops_cilantro",
+            "DisplayName": "{{i18n:ateliercrops_cilantro.name}}",
+            "Description": "{{i18n:ateliercrops_cilantro.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 10,
+	        "Price": 45,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "herb_item",
+            "color_light_green"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 7
+    },
+        "wildflour.ateliercrops_sage": {
+            "Name": "wildflour.ateliercrops_sage",
+            "DisplayName": "{{i18n:ateliercrops_sage.name}}",
+            "Description": "{{i18n:ateliercrops_sage.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 10,
+            "Price": 55,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "herb_item",
+            "color_jade"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 11
+    },  
+        "wildflour.ateliercrops_rosemary": {
+            "Name": "wildflour.ateliercrops_rosemary",
+            "DisplayName": "{{i18n:ateliercrops_rosemary.name}}",
+            "Description": "{{i18n:ateliercrops_rosemary.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 7,
+            "Price": 75,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "herb_item",
+            "color_dark_green"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 28
+    },
+        "wildflour.ateliercrops_thyme": {
+            "Name": "wildflour.ateliercrops_thyme",
+            "DisplayName": "{{i18n:ateliercrops_thyme.name}}",
+            "Description": "{{i18n:ateliercrops_thyme.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 4,
+            "Price": 50,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "herb_item",
+            "color_green"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 32
+    },
+        "wildflour.ateliercrops_mint": {
+            "Name": "wildflour.ateliercrops_mint",
+            "DisplayName": "{{i18n:ateliercrops_mint.name}}",
+            "Description": "{{i18n:ateliercrops_mint.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 10,
+            "Price": 16,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "herb_item",
+            "color_mint"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 40
+    },
+        "wildflour.ateliercrops_basil": {
+            "Name": "wildflour.ateliercrops_basil",
+            "DisplayName": "{{i18n:ateliercrops_basil.name}}",
+            "Description": "{{i18n:ateliercrops_basil.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 12,
+            "Price": 65,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "herb_item",
+            "color_green"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 48
+    },
+        "wildflour.ateliercrops_wormwood": {
+            "Name": "wildflour.ateliercrops_wormwood",
+            "DisplayName": "{{i18n:ateliercrops_wormwood.name}}",
+            "Description": "{{i18n:ateliercrops_wormwood.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": -300,
+            "Price": 15,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "herb_item",
+            "color_green"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 62
+    },
+        "wildflour.ateliercrops_redonion": {
+            "Name": "wildflour.ateliercrops_redonion",
+            "DisplayName": "{{i18n:ateliercrops_redonion.name}}",
+            "Description": "{{i18n:ateliercrops_redonion.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 11,
+            "Price": 20,
+            "ExcludeFromShippingCollection": "{{WFShippingConfig}}",
+            
+            "ContextTags":
+            ["wildflour_forage",
+            "forage_item",
+            "color_red"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsWF",
+            "SpriteIndex": 58
+    }
+}
+},
+
+////////////////////////
+// CATEGORY OVERRIDES //
+////////////////////////
+
+{
+    "LogName": "Category Display Name Override Wild Food",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When":{"Atelier.Cauldron/ConfigValue:CategoryOverride": "True"},
+    "Fields": {
+        "wildflour.ateliercrops_pistachio": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_magic_fruit.category}}"
+            }
+        },
+        "wildflour.ateliercrops_cashew": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_magic_fruit.category}}"
+            }
+        },
+        "wildflour.ateliercrops_almond": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_magic_fruit.category}}"
+            }
+        },
+        "wildflour.ateliercrops_walnut": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_magic_fruit.category}}"
+            }
+        },
+        "wildflour.ateliercrops_chickenwoods": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_mushroom.category}}"
+            }
+        },
+        "wildflour.ateliercrops_honeyfungus": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_mushroom.category}}"
+            }
+        },
+        "wildflour.ateliercrops_meringueshroom": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_mushroom.category}}"
+            }
+        },
+        "wildflour.ateliercrops_milkshroom": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_mushroom.category}}"
+            }
+        },
+        "wildflour.ateliercrops_wheatshroom": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_mushroom.category}}"
+            }
+        },
+        "wildflour.ateliercrops_basil": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_herb.category}}"
+            }
+        },
+        "wildflour.ateliercrops_cilantro": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_herb.category}}"
+            }
+        },
+        "wildflour.ateliercrops_mint": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_herb.category}}"
+            }
+        },
+        "wildflour.ateliercrops_rosemary": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_herb.category}}"
+            }
+        },
+        "wildflour.ateliercrops_sage": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_herb.category}}"
+            }
+        },
+        "wildflour.ateliercrops_thyme": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_herb.category}}"
+            }
+        },
+        "wildflour.ateliercrops_wormwood": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_herb.category}}"
+            }
+        },
+        "wildflour.ateliercrops_gentianroot": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:ateliercrops_root.category}}"
+            }
+        },
+    }
+},
+
+    ]
+}

@@ -1,0 +1,200 @@
+{
+// NO MORE WAR DIALOGUE - JODI
+
+	"Changes": [
+		
+		
+		{
+			"LogName": "NMW Dialogue - Jodi Toshinori",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": 
+			{
+				"ToshisPTSD": "{{i18n:DSV.DialogueEdit.Jodi.ReligionNMW.Toshinori.ToshisPTSD}}"
+			}
+		},
+		
+// NO MORE WAR DIALOGUE - KENT
+		
+		{
+			"LogName": "NMW Dialogue - Kent Toshinori",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"winter_27_2": "{{i18n:DSV.DialogueEdit.Kent.ReligionNMW.Toshinori.winter_27_2}}"
+			},
+			"When": 
+			{
+				"HasSeenEvent |contains= 66170035": true
+			}
+		},
+		
+// NO MORE WAR DIALOGUE - TOSHINORI
+		
+		{
+			"LogName": "NMW Dialogue - Toshinori Year 2",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Toshinori",
+			"Entries": 
+			{
+				"Fri8": "{{i18n:DSV.DialogueEdit.Toshinori.ReligionNMW.Toshinori.Fri8}}",
+				"Fri8_2": "{{i18n:DSV.DialogueEdit.Toshinori.ReligionNMW.Toshinori.Fri8}}",
+				"summer_Tue8": "{{i18n:DSV.DialogueEdit.Toshinori.ReligionNMW.Toshinori.summer_Tue8}}"
+			},
+			"When": 
+			{
+				"HasSeenEvent |contains= 661712000": true
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Toshinori Year 3",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Toshinori",
+			"Entries": 
+			{
+				"summer_Tue8": "{{i18n:DSV.DialogueEdit.Toshinori.ReligionNMW.Toshinori.summer_Tue8}}"
+			},
+			"When": 
+			{
+				"HasSeenEvent |contains= 66170035": true
+			}
+		},
+		
+// NO MORE WAR DIALOGUE - IZUKU
+
+		{
+			"LogName": "NMW Dialogue - Izuku",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Izuku",
+			"Entries": 
+			{
+				"fall_10_2": "{{i18n:DSV.DialogueEdit.Izuku.ReligionNMW.Toshinori.fall_10_2}}"
+			}
+		},
+		
+// NO MORE WAR EVENTS - TOSHINORI 
+		
+		{
+			"LogName": "NMW Dialogue - Events Toshinori SamHouse Friends",
+			"Action": "EditData",
+			"Target": "Data/Events/SamHouse",
+			"Fields": 
+			{
+			"66170024/k 66170025/f Toshinori 1750/f Kent 1750/t 900 1500": 
+				{
+					21: "speak Toshinori \"{{i18n:DSV.EventEdit.NMW.Toshinori.66170024.20}}\""
+				}
+			},
+			"When": 
+			{
+				"Relationship:Toshinori |contains= Friendly": true
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Events Toshinori SamHouse Married",
+			"Action": "EditData",
+			"Target": "Data/Events/SamHouse",
+			"Fields": 
+			{
+			"66170025/k 66170024/f Toshinori 1750/f Kent 1750/t 900 1500":
+				{
+					21: "speak Toshinori \"{{i18n:DSV.EventEdit.NMW.Toshinori.66170024.20}}\""
+				}
+			},
+			"When": 
+			{
+				"Relationship:Toshinori |contains= Dating, Engaged, Married": true
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Events Toshinori Museum",
+			"Action": "EditData",
+			"Target": "Data/Events/ArchaeologyHouse",
+			"Fields": 
+			{
+			"approvequestionToshi": 
+				{
+					7: "speak Toshinori \"{{i18n:DSV.EventEdit.NMW.Toshinori.approvequestionToshi.20}}\""
+				},
+			"sadToshi": 
+				{
+					4: "speak Toshinori \"{{i18n:DSV.EventEdit.NMW.Toshinori.sadToshi.4}}\"",
+					5: "speak Toshinori \"{{i18n:DSV.EventEdit.NMW.Toshinori.sadToshi.5}}\""
+				},
+			"66170001/f Toshinori 250/f Penny 250/t 800 1600":
+				{
+					48: "speak Vincent \"{{i18n:DSV.EventEdit.NMW.Toshinori.66170001.48}}\""
+				}
+			},
+			"When": 
+			{
+				"HasSeenEvent |contains=661716000, 661715000": "false"
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Events Toshinori Town",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": 
+			{
+			"66170003/f Toshinori 1000/w sunny/t 800 1600":
+				{
+					26: "speak Toshinori \"{{i18n:DSV.EventEdit.NMW.Toshinori.66170003.26}}\""
+				}
+			},
+			"When": 
+			{
+				"HasSeenEvent |contains=661716000, 661715000": "false"
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Events Toshinori Farmhouse Friends",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Fields": 
+			{
+			"66170031/k 66170032/e 661711400/A toshinoriGetsPainfullyAnxious": 
+				{
+					20: "speak Kent \"{{i18n:DSV.EventEdit.NMW.Toshinori.66170031.20}}\""
+				}
+			},
+			"When": 
+			{
+				"Relationship:Toshinori |contains= Friendly": true
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Events Toshinori Farmhouse Married",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Fields": 
+			{
+			"66170032/A toshinoriGetsPainfullyAnxious/e 661711400/k 66170031": 
+				{
+					20: "speak Kent \"{{i18n:DSV.EventEdit.NMW.Toshinori.66170032.20}}\""
+				}
+			},
+			"When": 
+			{
+				"Relationship:Toshinori |contains= Dating, Engaged, Married": true
+			}
+		},
+		{
+			"LogName": "NMW Dialogue - Events Toshinori Player Helps Toshi",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"Fields": 
+			{
+			"66170033/n HelpToshiGetTherapy/t 900 2200": 
+				{
+					30: "speak Toshinori \"{{i18n:DSV.EventEdit.NMW.Toshinori.66170033.30}}\""
+				}
+			},
+			"When": 
+			{
+				"Relationship:Toshinori |contains= Unmet": false
+			}
+		}
+	]
+}

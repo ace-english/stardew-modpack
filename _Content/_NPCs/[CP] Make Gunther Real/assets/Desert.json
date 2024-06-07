@@ -1,0 +1,3 @@
+{
+	"RejectGunther": "pause 1000/speak Gunther \"I see.$s\"/pause 1000/speak Gunther \"Well. I suppose that is bound to happen sometimes...$s\"/pause 1000/speak Gunther \"I hope you enjoyed the fossil.$s#$b#We'd better be heading back then.$s\"pause 2000/globalFade/viewport -1000 -1000/changeLocation BusStop/end",
+}

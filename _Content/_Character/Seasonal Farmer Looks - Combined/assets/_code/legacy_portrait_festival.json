@@ -1,0 +1,18 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_festive.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Single festive outfit": true, "HasFile:{{FromFile}}": true }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "aedenthorn.FarmerPortraits/portrait",
+			"FromFile": "assets/{{PlayerName}}/portrait_{{DayEvent}}.png",
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "TodaysFestivalEnabled": true, "HasFile:{{FromFile}}": true }
+		}
+	]
+}

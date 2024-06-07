@@ -1,0 +1,480 @@
+{
+// HALEY DSV ULTRALIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Haley Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Haley", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Haley.Indoor":
+				{
+					"Id": "{{ModId}}_Haley_Indoor",
+					"Portrait": "Portraits/Haley_Indoor",
+					"Sprite": "Characters/Haley_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Haley.EggFestival":
+				{
+					"Id": "{{ModId}}_Haley_EggFestival",
+					"Portrait": "Portraits/Haley_EggFestival",
+					"Sprite": "Characters/Haley_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Haley.FlowerDance":
+				{
+					"Id": "{{ModId}}_Haley_FlowerDance",
+					"Portrait": "Portraits/Haley_FlowerDance",
+					"Sprite": "Characters/Haley_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Haley.Luau":
+				{
+					"Id": "{{ModId}}_Haley_Luau",
+					"Portrait": "Portraits/Haley_Luau",
+					"Sprite": "Characters/Haley_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Haley.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Haley_MoonlightJellies",
+					"Portrait": "Portraits/Haley_MoonlightJellies",
+					"Sprite": "Characters/Haley_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Haley.SVFair":
+				{
+					"Id": "{{ModId}}_Haley_SVFair",
+					"Portrait": "Portraits/Haley_SVFair",
+					"Sprite": "Characters/Haley_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Haley.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Haley_SpiritsEve",
+					"Portrait": "Portraits/Haley_SpiritsEve",
+					"Sprite": "Characters/Haley_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Haley.IceFestival":
+				{
+					"Id": "{{ModId}}_Haley_IceFestival",
+					"Portrait": "Portraits/Haley_IceFestival",
+					"Sprite": "Characters/Haley_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Haley.WinterStar":
+				{
+					"Id": "{{ModId}}_Haley_WinterStar",
+					"Portrait": "Portraits/Haley_WinterStar",
+					"Sprite": "Characters/Haley_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Haley.Swim":
+				{
+					"Id": "{{ModId}}_Haley_Swim",
+					"Portrait": "Portraits/Haley_Swim",
+					"Sprite": "Characters/Haley_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Haley.HotClimate":
+				{
+					"Id": "{{ModId}}_Haley_HotClimate",
+					"Portrait": "Portraits/Haley_HotClimate",
+					"Sprite": "Characters/Haley_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Haley Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Haley_Indoor, Characters/Haley_Indoor",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Haley_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HaleyVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Haley Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Haley_EggFestival, Characters/Haley_EggFestival, Portraits/Haley_FlowerDance, Characters/Haley_FlowerDance, Portraits/Haley_Luau, Characters/Haley_Luau, Portraits/Haley_MoonlightJellies, Characters/Haley_MoonlightJellies, Portraits/Haley_SVFair, Characters/Haley_SVFair, Portraits/Haley_SpiritsEve, Characters/Haley_SpiritsEve, Portraits/Haley_IceFestival, Characters/Haley_IceFestival, Portraits/Haley_WinterStar, Characters/Haley_WinterStar, Portraits/Haley_Swim, Characters/Haley_Swim",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HaleyVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Haley Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Haley_HotClimate, Characters/Haley_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Haley_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HaleyVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+	
+		{
+			"LogName": "Haley Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Indoor, Characters/Haley_Indoor",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Haley_{{Season}}_1_Base.png"
+		},
+		{
+			"LogName": "Haley Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_HotClimate, Characters/Haley_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Haley_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Haley Random Spirits' Eve Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_SpiritsEve, Characters/Haley_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Haley_SpiritsEve_1.png"
+		},
+		{
+			"LogName": "Haley Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Beach, Characters/Haley_Beach",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Haley_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:BeachStyle |contains= RandomBeachwear": false
+			}
+		},
+		{
+			"LogName": "Haley Wedding",
+			"Action": "EditImage",
+			"Target": "Characters/Haley_Indoor",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Haley_Wedding_{{HaleySeasonalWeddingToken}}.png",
+			"ToArea": {"X": 0, "Y": 288, "Width": 48, "Height": 32},
+			"When":
+			{
+				"HasFile:{{FromFile}}": true
+			}
+		},
+
+// COMPATIBILITY
+// NPC Adventures
+
+		{
+			"LogName": "Haley Compatibility - NPC Adventures Scared Indoor",
+			"Action": "EditImage",
+			"Target": "Characters/Haley_Indoor",
+			"FromFile": "Art/VanillaNPCs/Haley/Misc/HaleyScared/{{DSV.Core/ConfigValue:HaleyVariant}}/Haley_{{season}}_1_Base.png",
+			"ToArea": 
+			{
+				"X": 48,
+				"Y": 256,
+				"Width": 16,
+				"Height": 32
+			},
+			"When":
+			{
+				"HasMod |contains= PurrplingCat.NpcAdventure.Content": true
+			}
+		},
+		{
+			"LogName": "Haley Compatibility - NPC Adventures Scared Cuffs Overlay",
+			"Action": "EditImage",
+			"Target": "Characters/Haley_Indoor",
+			"FromFile": "Art/VanillaNPCs/Haley/Misc/HaleyScared/{{DSV.Core/ConfigValue:HaleyVariant}}/Haley_CuffsOverlay.png",
+			"PatchMode": "Overlay",
+			"Update": "OnLocationChange",
+			"ToArea": 
+			{
+				"X": 48,
+				"Y": 256,
+				"Width": 16,
+				"Height": 32
+			},
+			"When":
+			{
+				"HasMod |contains= PurrplingCat.NpcAdventure.Content": true
+			}
+		},
+		
+// PPAF
+		{
+			"LogName": "PPaF Compat - Haley No Blush",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Indoor, Portraits/Haley_EggFestival, Portraits/Haley_FlowerDance, Portraits/Haley_Luau, Portraits/Haley_MoonlightJellies, Portraits/Haley_SVFair, Portraits/Haley_IceFestival, Portraits/Haley_WinterStar, Portraits/Haley_Swim, Portraits/Haley_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Haley/Portraits/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_NoBlushOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Haley": true
+			}
+		},
+
+// MORE HALEY EVENTS
+
+		{
+			"LogName": "Haley Compatibility - More Haley Events",
+			"Action": "EditImage",
+			"Target": "Characters/Haley_Outfit1, Portraits/Haley_Outfit1, Characters/Haley_Outfit2, Portraits/Haley_Outfit2, Characters/Haley_Outfit3, Portraits/Haley_Outfit3, Characters/Haley_Outfit4, Portraits/Haley_Outfit4",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/MoreHaleyEvents/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Haley Compatibility - More Haley Events Hair Cuffs",
+			"Action": "EditImage",
+			"Target": "Characters/Haley_Outfit1, Portraits/Haley_Outfit1, Characters/Haley_Outfit2, Portraits/Haley_Outfit2, Characters/Haley_Outfit3, Portraits/Haley_Outfit3, Characters/Haley_Outfit4, Portraits/Haley_Outfit4",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/MoreHaleyEvents/{{TargetWithoutPath}}_Cuffs.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HaleyVariant |contains= Black": true,
+				"DSV.Core/ConfigValue:HaleyCuffs": "true"
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Emoji Haley",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Haley/Misc/Haley_Emoji_{{DSV.Core/ConfigValue:HaleyVariant}}.png",
+			"ToArea": {"X": 36, "Y": 99, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HaleyVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Haley Junimo Painting",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+			"FromFile": "Art/VanillaNPCs/Haley/Misc/Haley_{{SpousePortraitsToken}}{{TonedDownPortraitToken}}_{{DSV.Core/ConfigValue:HaleyVariant}}.png",
+			"ToArea": {"X": 32, "Y": 272, "Width": 32, "Height": 32},
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:HaleyVariant|contains= Vanilla, Off": false
+			}
+		},
+		{
+			"LogName": "Haley Makeup Overlay",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Indoor, Portraits/Haley_HotClimate, Portraits/Haley_EggFestival, Portraits/Haley_Luau, Portraits/Haley_IceFestival, Portraits/Haley_Outfit1, Portraits/Haley_Outfit2, Portraits/Haley_Outfit3, Portraits/Haley_Outfit4",
+			"FromFile": "Art/VanillaNPCs/{{TargetWithoutPath}}/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/{{TargetWithoutPath}}_MakeupOverlay_Winter_2.png",
+			"PatchMode": "Overlay"
+		},
+		
+// BLACK HALEY HAIR CUFFS
+		{
+			"LogName": "Haley Cuffs Overlay Base",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Indoor, Characters/Haley_Indoor",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/Black/CuffsOverlays/Haley_{{season}}_1_Base.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HaleyVariant |contains= Black": true,
+				"DSV.Core/ConfigValue:HaleyCuffs": "true"
+			}
+		},
+		{
+			"LogName": "Haley Cuffs Overlay Festival/Special",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_EggFestival, Characters/Haley_EggFestival, Portraits/Haley_FlowerDance, Characters/Haley_FlowerDance, Portraits/Haley_Luau, Characters/Haley_Luau, Portraits/Haley_MoonlightJellies, Characters/Haley_MoonlightJellies, Portraits/Haley_SVFair, Characters/Haley_SVFair, Portraits/Haley_IceFestival, Characters/Haley_IceFestival, Portraits/Haley_WinterStar, Characters/Haley_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/Black/{{TargetWithoutPath}}_1.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HaleyVariant |contains= Black": true,
+				"DSV.Core/ConfigValue:HaleyCuffs": "true"
+			}
+		},
+		{
+			"LogName": "Haley Cuffs Overlay Spirits' Eve",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_SpiritsEve, Characters/Haley_SpiritsEve,",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/Black/{{TargetWithoutPath}}_{{RandomSpiritsEveTwoToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HaleyVariant |contains= Black": true,
+				"DSV.Core/ConfigValue:HaleyCuffs": "true"
+			}
+		},
+		
+// HOH HALEY OVERLAYS
+		{
+			"LogName": "Haley Hearing Aid Overlays",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Indoor, Portraits/Haley_HotClimate, Portraits/Haley_Outfit1, Portraits/Haley_Outfit2, Portraits/Haley_Outfit3, Portraits/Haley_Outfit4",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_HearingAidOverlay_{{HaleyHearingAidToken}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:HoHHaley": "true"
+			}
+		},
+		{
+			"LogName": "Haley Hearing Aid Overlays - Festivals 1",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Luau, Portraits/Haley_MoonlightJellies",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_HearingAidOverlay_One.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HoHHaley": "true"
+			}
+		},
+		{
+			"LogName": "Haley Hearing Aid Overlays - Festivals 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_SVFair, Portraits/Haley_Swim",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_HearingAidOverlay_Both.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HoHHaley": "true",
+				"DSV.Core/ConfigValue:HaleyVariant |contains= Black": true
+			}
+		},
+		{
+			"LogName": "Haley Hearing Aid Overlays - Festivals 3",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_EggFestival, Portraits/Haley_FlowerDance, Portraits/Haley_IceFestival, Portraits/Haley_WinterStar",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_HearingAidOverlay_Regular.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:HoHHaley": "true",
+				"DSV.Core/ConfigValue:HaleyVariant |contains= Vanilla, Romani": true
+			}
+		},
+		{
+			"LogName": "Haley Hearing Aid Overlays - Spirits Eve",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_SpiritsEve",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_HearingAidOverlay_{{HaleyHearingAidTokenSpiritsEve}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:HoHHaley": "true"
+			}
+		},
+		{
+			"LogName": "Haley Hearing Aid Overlays Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Beach",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/Overlays/Haley_Beach_HearingAidOverlay.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HaleyHearingAidTokenBeach |contains= true": true,
+				"DSV.Core/ConfigValue:HoHHaley": "true"
+			}
+		},
+		{
+			"LogName": "Haley Left Hand Overlays",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Indoor, Portraits/Haley_HotClimate, Portraits/Haley_Swim, Portraits/Haley_HotClimate, Portraits/Haley_EggFestival, Portraits/Haley_FlowerDance, Portraits/Haley_Luau, Portraits/Haley_MoonlightJellies, Portraits/Haley_SVFair, Portraits/Haley_SpiritsEve, Portraits/Haley_IceFestival, Portraits/Haley_WinterStar, Portraits/Haley_Outfit1, Portraits/Haley_Outfit2, Portraits/Haley_Outfit3, Portraits/Haley_Outfit4",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/HandOverlays/Haley_HandsOverlay_Left_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, x, x, x, x, x, x}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:HoHHaley": "true"
+			}
+		},
+		{
+			"LogName": "Haley Left Hand Overlays - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Beach",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/HandOverlays/Haley_Beach_HandsOverlay_Left_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, x, x, x, x, x, x}}.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:HoHHaley": "true"
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Haley Right Hand Overlays",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Indoor, Portraits/Haley_HotClimate, Portraits/Haley_Swim, Portraits/Haley_HotClimate, Portraits/Haley_EggFestival, Portraits/Haley_FlowerDance, Portraits/Haley_Luau, Portraits/Haley_MoonlightJellies, Portraits/Haley_SVFair, Portraits/Haley_SpiritsEve, Portraits/Haley_IceFestival, Portraits/Haley_WinterStar, Portraits/Haley_Outfit1, Portraits/Haley_Outfit2, Portraits/Haley_Outfit3, Portraits/Haley_Outfit4",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/HandOverlays/Haley_HandsOverlay_Right_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, x, x, x, x, x, x}}.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:HoHHaley": "true"
+			}
+		},
+		{
+			"LogName": "Haley Right Hand Overlays - Beach",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Beach",
+			"FromFile": "Art/VanillaNPCs/Haley/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:HaleyVariant}}/HandOverlays/Haley_Beach_HandsOverlay_Right_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, x, x, x, x, x, x}}.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"DSV.Core/ConfigValue:HoHHaley": "true"
+			}
+		},
+		
+// COW PHOTOS
+		{
+			"LogName": "Cow Photos Seasonal",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cowPhotos, LooseSprites/cowPhotosWinter",
+			"FromFile": "Art/VanillaNPCs/Haley/Characters/CowPhotos/{{DSV.Core/ConfigValue:HaleyVariant}}/cowPhotos_{{season}}_1_Sun.png"
+		},
+		{
+			"LogName": "Cow Photos Cuffs Overlay",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cowPhotos, LooseSprites/cowPhotosWinter",
+			"FromFile": "Art/VanillaNPCs/Haley/Characters/CowPhotos/{{DSV.Core/ConfigValue:HaleyVariant}}/cowPhotos_{{season}}_1_cuffs.png",
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HaleyVariant |contains= Black": true,
+				"DSV.Core/ConfigValue:HaleyCuffs": "true"
+			}
+		}
+	]
+}

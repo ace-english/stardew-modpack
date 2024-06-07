@@ -1,0 +1,298 @@
+{
+    "Changes":
+    [     
+		
+//
+///////////// ALEX /////////////
+//
+		
+// MODDED ALEX
+
+		{
+			"LogName": "Alex Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": 
+			{
+				"Fall_Mon": "{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:EvelynVariant}}Evelyn.Fall_Mon}}",
+				"Fri4": "{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:EvelynVariant}}Evelyn.Part1.Fri4}}{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:GeorgeVariant}}George.Part2.Fri4}}",
+				"Fall_26": "{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:GeorgeVariant}}George.Fall_26}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AlexDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Off": false,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Off": false
+            }
+		},
+		{
+			"LogName": "Alex Variant-Based Dialogue - Modded (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": 
+			{
+				"Sat4": "{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:EvelynVariant}}Evelyn.Sat4.CanonFriendlyDialogue}}",
+				"fall_Mon4": "{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:EvelynVariant}}Evelyn.fall_Mon4.CanonFriendlyDialogue}}",
+				"fall_Sun6": "{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:GeorgeVariant}}George.fall_Sun6.CanonFriendlyDialogue}}",
+				"winter_Wed10": "{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:GeorgeVariant}}George.winter_Wed10.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AlexDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Off": false,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Off": false,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+		{
+			"LogName": "Alex Variant-Based Dialogue - Married Modded (Married, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAlex",
+			"Entries": 
+			{
+				"funLeave_Alex": "{{i18n:DSV.Dialogue.Daily.Alex.Married.{{DSV.Core/ConfigValue:EvelynVariant}}Evelyn.Part1.funLeave_Alex.CanonFriendlyDialogue}}{{i18n:DSV.Dialogue.Daily.Alex.Married.{{DSV.Core/ConfigValue:GeorgeVariant}}George.Part2.funLeave_Alex.CanonFriendlyDialogue}}",
+				"spring_15": "{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:GeorgeVariant}}George.spring_15.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AlexDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Off": false,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Off": false,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+		{
+			"LogName": "Alex Variant-Based Dialogue - Jeric (Married, Jeric/Alex)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jeric",
+			"Entries": 
+			{
+				"Thu8": "{{Random:{{i18n:DSV.Dialogue.Daily.Alex.JericRSV.Part1.Thu8}}++{{i18n:DSV.Dialogue.Daily.Alex.{{DSV.Core/ConfigValue:GeorgeVariant}}Evelyn.JericRSV.Part2.Thu8}}|inputSeparator=++}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Mexican, Samoan": true,
+				"HasSeenEvent |contains= 902207": true,
+				"HasMod |contains= ZoeDoll.JericAlexRivalHearts": true
+            }
+		},
+		
+// JEWISH ALEX
+
+		{
+			"LogName": "Alex Variant-Based Dialogue - Jewish (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": 
+			{
+				"fall_Fri4": "{{i18n:DSV.Dialogue.Daily.Alex.Jewish.fall_Fri4}}",
+				"summer_Fri8": "{{i18n:DSV.Dialogue.Daily.Alex.Jewish.summer_Fri8}}",
+				"fall_Sun2": "{{i18n:DSV.Dialogue.Daily.Alex.Jewish.fall_Sun2}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AlexDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+            }
+		},  
+		{
+			"LogName": "Alex Variant-Based Dialogue - Vanilla Jewish (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": 
+			{
+				"Fall_Mon": "{{i18n:DSV.Dialogue.Daily.Alex.VanillaJewish.Fall_Mon}}",
+				"Fri4": "{{i18n:DSV.Dialogue.Daily.Alex.VanillaJewish.Fri4}}",
+				"Fall_26": "{{i18n:DSV.Dialogue.Daily.Alex.VanillaJewish.Fall_26}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AlexDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true,
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Vanilla": true,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla": true
+            }
+		}, 
+		{
+			"LogName": "Alex Variant-Based Dialogue - Jewish (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": 
+			{
+				"Sat4": "{{i18n:DSV.Dialogue.Daily.Alex.VanillaJewish.Sat4.CanonFriendlyDialogue}}",
+				"fall_Mon4": "{{i18n:DSV.Dialogue.Daily.Alex.VanillaJewish.fall_Mon4.CanonFriendlyDialogue}}",
+				"fall_Sun6": "{{i18n:DSV.Dialogue.Daily.Alex.VanillaJewish.fall_Sun6.CanonFriendlyDialogue}}",
+				"winter_Wed10": "{{i18n:DSV.Dialogue.Daily.Alex.VanillaJewish.winter_Wed10.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AlexDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},  
+		{
+			"LogName": "Alex Variant-Based Dialogue - Vanilla Jewish (Married, CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAlex",
+			"Entries": 
+			{
+				"funLeave_Alex": "{{i18n:DSV.Dialogue.Daily.Alex.Married.VanillaJewish.funLeave_Alex.CanonFriendlyDialogue}}",
+				"spring_15": "{{i18n:DSV.Dialogue.Daily.Alex.VanillaJewish.spring_15.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:AlexDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true,
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Vanilla": true,
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		}, 
+		
+//
+///////////// EVELYN /////////////
+//
+		
+// MODDED EVELYN
+
+		{
+			"LogName": "Evelyn Variant-Based Dialogue - Modded (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"Introduction": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:EvelynVariant}}.Introduction}}",
+				"spring_Thu": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:EvelynVariant}}.spring_Thu}}",
+				"summer_Thu": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:EvelynVariant}}.summer_Thu}}",
+				"fall_Thu": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:EvelynVariant}}.fall_Thu}}",
+				"winter_Thu": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:EvelynVariant}}.winter_Thu}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:EvelynDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Vanilla, Off": false
+            }
+		},
+		{
+			"LogName": "Evelyn Variant-Based Dialogue - Modded (RSV)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Faye",
+			"Entries": 
+			{
+				"Fri6": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:GeorgeVariant}}.FayeRSV.Fri6}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla, Off": false,
+				"HasMod |contains= Rafseazz.RSVCP": true
+            }
+		},
+		{
+			"LogName": "Evelyn Variant-Based Dialogue - Modded (Secret Note)",
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": 
+			{
+				"5": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:GeorgeVariant}}.SecretNote5}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla, Off": false
+            }
+		},
+		{
+			"LogName": "Evelyn Variant-Based Dialogue - Modded (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"spring_Thu4": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:EvelynVariant}}.spring_Thu4.CanonFriendlyDialogue}}",
+				"summer_Thu4": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:EvelynVariant}}.summer_Thu4.CanonFriendlyDialogue}}",
+				"fall_Thu4": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:EvelynVariant}}.fall_Thu4.CanonFriendlyDialogue}}",
+				"winter_Thu4": "{{i18n:DSV.Dialogue.Daily.Evelyn.{{DSV.Core/ConfigValue:EvelynVariant}}.winter_Thu4.CanonFriendlyDialogue}}",
+				"Thu8": "{{i18n:DSV.Dialogue.Daily.Evelyn.Modded.Thu8.CanonFriendlyDialogue}}",
+				"summer_Thu6": "{{i18n:DSV.Dialogue.Daily.Evelyn.Modded.summer_Thu6.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:EvelynDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Vanilla, Off": false,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+
+// JEWISH EVELYN
+
+		{
+			"LogName": "Evelyn Variant-Based Dialogue - Jewish (Daily)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"summer_Fri2": "{{i18n:DSV.Dialogue.Daily.Evelyn.Jewish.summer_Fri2}}",
+				"winter_Wed4": "{{i18n:DSV.Dialogue.Daily.Evelyn.Jewish.winter_Wed4}}",
+				"summer_Sat6": "{{i18n:DSV.Dialogue.Daily.Evelyn.Jewish.summer_Sat6}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:EvelynDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			}
+		},
+		{
+			"LogName": "Evelyn Variant-Based Dialogue - Jewish (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"Fri4": "{{i18n:DSV.Dialogue.Daily.Evelyn.Jewish.Fri4.CanonFriendlyDialogue}}"
+			},
+			"When":
+			{
+				"DSV.Core/ConfigValue:EvelynDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+			}
+		},
+		
+//
+///////////// GEORGE /////////////
+//
+
+// MODDED GEORGE
+
+		{
+			"LogName": "George Variant-Based Dialogue - Modded (Secret Note)",
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": 
+			{
+				"12": "{{i18n:DSV.Dialogue.Daily.George.{{DSV.Core/ConfigValue:GeorgeVariant}}.SecretNote12}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Vanilla, Off": false
+            }
+		},
+		
+// JEWISH GEORGE
+
+		{
+			"LogName": "George Variant-Based Dialogue - Jewish (CFDE)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+			"Entries": 
+			{
+				"Sun10": "{{i18n:DSV.Dialogue.Daily.George.Jewish.Sun10.CanonFriendlyDialogue}}",
+				"fall_Sat10": "{{i18n:DSV.Dialogue.Daily.George.Jewish.fall_Sat10.CanonFriendlyDialogue}}"
+			},
+            "When":
+            {
+				"DSV.Core/ConfigValue:GeorgeDialogue |contains= true": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true,
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+            }
+		},
+    ]
+}

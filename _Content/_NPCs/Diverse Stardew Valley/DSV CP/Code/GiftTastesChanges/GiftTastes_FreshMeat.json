@@ -1,0 +1,549 @@
+{
+
+	"Changes": 
+	[
+		
+// PPJA FRESH MEAT
+// GIFT TASTES CHANGES
+
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - PPJA Fresh Meat",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Jodi", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Kent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sam", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Vincent", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Gus Gift Taste Changes - PPJA Fresh Meat",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Gus", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - PPJA Fresh Meat",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Sandy", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - PPJA Fresh Meat",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Alex", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}} {{spacechase0.JsonAssets/ObjectId:Beast n' Onion Handpie}} {{spacechase0.JsonAssets/ObjectId:Chippy Curry}} {{spacechase0.JsonAssets/ObjectId:Coconut Curry}} {{spacechase0.JsonAssets/ObjectId:Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Rabbit}} {{spacechase0.JsonAssets/ObjectId:Cooked Rabbit}} {{spacechase0.JsonAssets/ObjectId:Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Lobster Stock}} {{spacechase0.JsonAssets/ObjectId:Meat Skewer}} {{spacechase0.JsonAssets/ObjectId:Meaty Burrito Wrap}} {{spacechase0.JsonAssets/ObjectId:Paella}} {{spacechase0.JsonAssets/ObjectId:Seafood Stock}} {{spacechase0.JsonAssets/ObjectId:Shrimp Stock}} {{spacechase0.JsonAssets/ObjectId:Steak Tartare}} {{spacechase0.JsonAssets/ObjectId:Sweet n' Sour Bites}} {{spacechase0.JsonAssets/ObjectId:Bangers Beans and Mash}} {{spacechase0.JsonAssets/ObjectId:Beef Burrito}} {{spacechase0.JsonAssets/ObjectId:Cheeseburger}} {{spacechase0.JsonAssets/ObjectId:Chicken and Spinach Crepe}} {{spacechase0.JsonAssets/ObjectId:Poutine}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "George", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}} {{spacechase0.JsonAssets/ObjectId:Beast n' Onion Handpie}} {{spacechase0.JsonAssets/ObjectId:Chippy Curry}} {{spacechase0.JsonAssets/ObjectId:Coconut Curry}} {{spacechase0.JsonAssets/ObjectId:Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Rabbit}} {{spacechase0.JsonAssets/ObjectId:Cooked Rabbit}} {{spacechase0.JsonAssets/ObjectId:Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Lobster Stock}} {{spacechase0.JsonAssets/ObjectId:Meat Skewer}} {{spacechase0.JsonAssets/ObjectId:Meaty Burrito Wrap}} {{spacechase0.JsonAssets/ObjectId:Paella}} {{spacechase0.JsonAssets/ObjectId:Seafood Stock}} {{spacechase0.JsonAssets/ObjectId:Shrimp Stock}} {{spacechase0.JsonAssets/ObjectId:Steak Tartare}} {{spacechase0.JsonAssets/ObjectId:Sweet n' Sour Bites}} {{spacechase0.JsonAssets/ObjectId:Bangers Beans and Mash}} {{spacechase0.JsonAssets/ObjectId:Beef Burrito}} {{spacechase0.JsonAssets/ObjectId:Cheeseburger}} {{spacechase0.JsonAssets/ObjectId:Chicken and Spinach Crepe}} {{spacechase0.JsonAssets/ObjectId:Poutine}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Evelyn", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}} {{spacechase0.JsonAssets/ObjectId:Beast n' Onion Handpie}} {{spacechase0.JsonAssets/ObjectId:Chippy Curry}} {{spacechase0.JsonAssets/ObjectId:Coconut Curry}} {{spacechase0.JsonAssets/ObjectId:Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Rabbit}} {{spacechase0.JsonAssets/ObjectId:Cooked Rabbit}} {{spacechase0.JsonAssets/ObjectId:Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Lobster Stock}} {{spacechase0.JsonAssets/ObjectId:Meat Skewer}} {{spacechase0.JsonAssets/ObjectId:Meaty Burrito Wrap}} {{spacechase0.JsonAssets/ObjectId:Paella}} {{spacechase0.JsonAssets/ObjectId:Seafood Stock}} {{spacechase0.JsonAssets/ObjectId:Shrimp Stock}} {{spacechase0.JsonAssets/ObjectId:Steak Tartare}} {{spacechase0.JsonAssets/ObjectId:Sweet n' Sour Bites}} {{spacechase0.JsonAssets/ObjectId:Bangers Beans and Mash}} {{spacechase0.JsonAssets/ObjectId:Beef Burrito}} {{spacechase0.JsonAssets/ObjectId:Cheeseburger}} {{spacechase0.JsonAssets/ObjectId:Chicken and Spinach Crepe}} {{spacechase0.JsonAssets/ObjectId:Poutine}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - PPJA Fresh Meat",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Elliott", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}} {{spacechase0.JsonAssets/ObjectId:Beast n' Onion Handpie}} {{spacechase0.JsonAssets/ObjectId:Chippy Curry}} {{spacechase0.JsonAssets/ObjectId:Coconut Curry}} {{spacechase0.JsonAssets/ObjectId:Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Rabbit}} {{spacechase0.JsonAssets/ObjectId:Cooked Rabbit}} {{spacechase0.JsonAssets/ObjectId:Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Lobster Stock}} {{spacechase0.JsonAssets/ObjectId:Meat Skewer}} {{spacechase0.JsonAssets/ObjectId:Meaty Burrito Wrap}} {{spacechase0.JsonAssets/ObjectId:Paella}} {{spacechase0.JsonAssets/ObjectId:Seafood Stock}} {{spacechase0.JsonAssets/ObjectId:Shrimp Stock}} {{spacechase0.JsonAssets/ObjectId:Steak Tartare}} {{spacechase0.JsonAssets/ObjectId:Sweet n' Sour Bites}} {{spacechase0.JsonAssets/ObjectId:Bangers Beans and Mash}} {{spacechase0.JsonAssets/ObjectId:Beef Burrito}} {{spacechase0.JsonAssets/ObjectId:Cheeseburger}} {{spacechase0.JsonAssets/ObjectId:Chicken and Spinach Crepe}} {{spacechase0.JsonAssets/ObjectId:Poutine}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - PPJA Fresh Meat",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Harvey", "5"], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Pork}} {{spacechase0.JsonAssets/ObjectId:Cooked Boar}} {{spacechase0.JsonAssets/ObjectId:Wild Boar_Meat}} {{spacechase0.JsonAssets/ObjectId:Sweet and Sour Pork with Rice}} {{spacechase0.JsonAssets/ObjectId:Bacon}} {{spacechase0.JsonAssets/ObjectId:Biscuits and Gravy}} {{spacechase0.JsonAssets/ObjectId:Bratwurst}}  {{spacechase0.JsonAssets/ObjectId:Barbecue Sausage}} {{spacechase0.JsonAssets/ObjectId:Bacon Hamburger}} {{spacechase0.JsonAssets/ObjectId:Bacon n Eggs}} {{spacechase0.JsonAssets/ObjectId:Cheese Board}} {{spacechase0.JsonAssets/ObjectId:Dumplings}} {{spacechase0.JsonAssets/ObjectId:Sausage}} {{spacechase0.JsonAssets/ObjectId:Phoenix Au Vin}} {{spacechase0.JsonAssets/ObjectId:Breakfast Sandwich}} {{spacechase0.JsonAssets/ObjectId:Ham}} {{spacechase0.JsonAssets/ObjectId:Pizza Diavolo}} {{spacechase0.JsonAssets/ObjectId:Schnitzel}} {{spacechase0.JsonAssets/ObjectId:Salami}} {{spacechase0.JsonAssets/ObjectId:Spaghetti and Meatballs}} {{spacechase0.JsonAssets/ObjectId:Toast Hawaii}} {{spacechase0.JsonAssets/ObjectId:Toast Williams}} {{spacechase0.JsonAssets/ObjectId:Tonkatsu}} {{spacechase0.JsonAssets/ObjectId:Beast n' Onion Handpie}} {{spacechase0.JsonAssets/ObjectId:Chippy Curry}} {{spacechase0.JsonAssets/ObjectId:Coconut Curry}} {{spacechase0.JsonAssets/ObjectId:Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Alpaca Meat}} {{spacechase0.JsonAssets/ObjectId:Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Beast Meat}} {{spacechase0.JsonAssets/ObjectId:Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Critter Meat}} {{spacechase0.JsonAssets/ObjectId:Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Dragon Meat}} {{spacechase0.JsonAssets/ObjectId:Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Frog Meat}} {{spacechase0.JsonAssets/ObjectId:Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Horse Meat}} {{spacechase0.JsonAssets/ObjectId:Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Phoenix Meat}} {{spacechase0.JsonAssets/ObjectId:Rabbit}} {{spacechase0.JsonAssets/ObjectId:Cooked Rabbit}} {{spacechase0.JsonAssets/ObjectId:Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Reptile Meat}} {{spacechase0.JsonAssets/ObjectId:Lobster Stock}} {{spacechase0.JsonAssets/ObjectId:Meat Skewer}} {{spacechase0.JsonAssets/ObjectId:Meaty Burrito Wrap}} {{spacechase0.JsonAssets/ObjectId:Paella}} {{spacechase0.JsonAssets/ObjectId:Seafood Stock}} {{spacechase0.JsonAssets/ObjectId:Shrimp Stock}} {{spacechase0.JsonAssets/ObjectId:Steak Tartare}} {{spacechase0.JsonAssets/ObjectId:Sweet n' Sour Bites}} {{spacechase0.JsonAssets/ObjectId:Bangers Beans and Mash}} {{spacechase0.JsonAssets/ObjectId:Beef Burrito}} {{spacechase0.JsonAssets/ObjectId:Cheeseburger}} {{spacechase0.JsonAssets/ObjectId:Chicken and Spinach Crepe}} {{spacechase0.JsonAssets/ObjectId:Poutine}} {{spacechase0.JsonAssets/ObjectId:Asam Pedas}} {{spacechase0.JsonAssets/ObjectId:Baked Turkey with Risotto}} {{spacechase0.JsonAssets/ObjectId:Beef Ribs}} {{spacechase0.JsonAssets/ObjectId:Beef Stock}} {{spacechase0.JsonAssets/ObjectId:Brown Gravy}} {{spacechase0.JsonAssets/ObjectId:Bulgogi}} {{spacechase0.JsonAssets/ObjectId:Chicken Nuggets}} {{spacechase0.JsonAssets/ObjectId:Chicken Stock}} {{spacechase0.JsonAssets/ObjectId:Beef}} {{spacechase0.JsonAssets/ObjectId:Cooked Beef}} {{spacechase0.JsonAssets/ObjectId:Bird Meat}} {{spacechase0.JsonAssets/ObjectId:Cooked Bird Meat}} {{spacechase0.JsonAssets/ObjectId:Chevon}} {{spacechase0.JsonAssets/ObjectId:Cooked Chevon}} {{spacechase0.JsonAssets/ObjectId:Chicken}} {{spacechase0.JsonAssets/ObjectId:Cooked Chicken}} {{spacechase0.JsonAssets/ObjectId:Duck}} {{spacechase0.JsonAssets/ObjectId:Cooked Duck}} {{spacechase0.JsonAssets/ObjectId:Fowl}} {{spacechase0.JsonAssets/ObjectId:Cooked Fowl}} {{spacechase0.JsonAssets/ObjectId:Turkey}} {{spacechase0.JsonAssets/ObjectId:Cooked Turkey}} {{spacechase0.JsonAssets/ObjectId:Venison}} {{spacechase0.JsonAssets/ObjectId:Cooked Venison}} {{spacechase0.JsonAssets/ObjectId:Corndog}} {{spacechase0.JsonAssets/ObjectId:Mutton}} {{spacechase0.JsonAssets/ObjectId:Fish and Chips}} {{spacechase0.JsonAssets/ObjectId:Grilled Skewer}} {{spacechase0.JsonAssets/ObjectId:Hamburger Patty}} {{spacechase0.JsonAssets/ObjectId:Hotdog}} {{spacechase0.JsonAssets/ObjectId:Lula Kebab}} {{spacechase0.JsonAssets/ObjectId:Meatloaf}} {{spacechase0.JsonAssets/ObjectId:Mild Curry}} {{spacechase0.JsonAssets/ObjectId:Roasted Fowl}} {{spacechase0.JsonAssets/ObjectId:Sorrel Soup}} {{spacechase0.JsonAssets/ObjectId:Spaghetti Bolognese}} {{spacechase0.JsonAssets/ObjectId:Steak}} {{spacechase0.JsonAssets/ObjectId:Teriyaki}} {{spacechase0.JsonAssets/ObjectId:Venison Handpie}} {{spacechase0.JsonAssets/ObjectId:White Gravy}}",
+					"Delimiter": " "
+				}
+			],
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		},
+
+// GIFT REJECTION
+		
+		{
+			"LogName": "Modded Jodi/Kent Gift Taste Changes - PPJA Fresh Meat Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi, Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Boar}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wild Boar Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet and Sour Pork with Rice}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon Hamburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon n Eggs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Biscuits and Gravy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bratwurst}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Barbecue Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheese Board}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dumplings}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Phoenix Au Vin}}": "{{i18n:Jodi.CGD.Alcohol.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Breakfast Sandwich}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ham}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pizza Diavolo}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnitzel}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Salami}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Spaghetti and Meatballs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Hawaii}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Williams}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tonkatsu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork.{{KentFamilyReligionToken}}}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},		
+		{
+			"LogName": "Modded Sam/Vincent Gift Taste Changes - PPJA Fresh Meat Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam, Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Boar}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wild Boar Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet and Sour Pork with Rice}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon Hamburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon n Eggs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Biscuits and Gravy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bratwurst}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Barbecue Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheese Board}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dumplings}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Phoenix Au Vin}}": "{{i18n:Jodi.CGD.alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Breakfast Sandwich}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ham}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pizza Diavolo}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnitzel}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Salami}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Spaghetti and Meatballs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Hawaii}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Williams}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tonkatsu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"KentFamilyReligionToken |contains= Vanilla": false
+			}
+		},
+		{
+			"LogName": "Modded Gus Gift Taste Changes - PPJA Fresh Meat Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Boar}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wild Boar Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet and Sour Pork with Rice}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon Hamburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon n Eggs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Biscuits and Gravy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bratwurst}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Barbecue Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheese Board}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dumplings}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Phoenix Au Vin}}": "{{i18n:{{TargetWithoutPath}}.CGD.alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Breakfast Sandwich}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ham}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pizza Diavolo}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnitzel}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Salami}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Spaghetti and Meatballs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Hawaii}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Williams}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tonkatsu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"DSV.Core/ConfigValue:GusVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Modded Sandy Gift Taste Changes - PPJA Fresh Meat Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Boar}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wild Boar Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet and Sour Pork with Rice}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon Hamburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon n Eggs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Biscuits and Gravy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bratwurst}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Barbecue Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheese Board}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dumplings}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Phoenix Au Vin}}": "{{i18n:Jodi.CGD.alcohol}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Breakfast Sandwich}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ham}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pizza Diavolo}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnitzel}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Salami}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Spaghetti and Meatballs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Hawaii}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Williams}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tonkatsu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Pork}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"DSV.Core/ConfigValue:SandyVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Jewish Mullners Gift Taste Changes - PPJA Fresh Meat Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex, Characters/Dialogue/George, Characters/Dialogue/Evelyn",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Boar}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wild Boar Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet and Sour Pork with Rice}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon Hamburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon n Eggs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Biscuits and Gravy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bratwurst}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Barbecue Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheese Board}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dumplings}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Breakfast Sandwich}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ham}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pizza Diavolo}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnitzel}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Salami}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Spaghetti and Meatballs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Hawaii}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Williams}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tonkatsu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beast n' Onion Handpie}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chippy Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Coconut Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Alpaca Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Alpaca Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beast Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Beast Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Critter Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Critter Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dragon Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Dragon Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Horse Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Horse Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Frog Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Frog Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Phoenix Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Phoenix Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Rabbit}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Rabbit}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Reptile Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Reptile Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Lobster Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Meat Skewer}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Meaty Burrito Wrap}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Paella}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Seafood Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shrimp Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Steak Tartare}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet n' Sour Bites}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bangers Beans and Mash}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beef Burrito}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheeseburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chicken and Spinach Crepe}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Poutine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"Query: '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullnersScheduleEdit}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "Jewish Elliott Gift Taste Changes - PPJA Fresh Meat Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Boar}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wild Boar Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet and Sour Pork with Rice}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon Hamburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon n Eggs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Biscuits and Gravy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bratwurst}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Barbecue Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheese Board}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dumplings}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Breakfast Sandwich}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ham}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pizza Diavolo}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnitzel}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Salami}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Spaghetti and Meatballs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Hawaii}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Williams}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tonkatsu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beast n' Onion Handpie}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chippy Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Coconut Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Alpaca Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Alpaca Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beast Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Beast Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Critter Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Critter Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dragon Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Dragon Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Horse Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Horse Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Frog Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Frog Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Phoenix Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Phoenix Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Rabbit}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Rabbit}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Reptile Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Reptile Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Lobster Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Meat Skewer}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Meaty Burrito Wrap}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Paella}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Seafood Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shrimp Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Steak Tartare}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet n' Sour Bites}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bangers Beans and Mash}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beef Burrito}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheeseburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chicken and Spinach Crepe}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Poutine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Kosher}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"DSV.Core/ConfigValue:JewishElliott": "true"
+			}
+		},
+		{
+			"LogName": "Sikh Harvey Gift Taste Changes - PPJA Fresh Meat Gift Rejection",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": 
+			{
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Pork}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Boar}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Wild Boar Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet and Sour Pork with Rice}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon Hamburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bacon n Eggs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Biscuits and Gravy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bratwurst}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Barbecue Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheese Board}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dumplings}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sausage}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Breakfast Sandwich}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Ham}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Pizza Diavolo}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Schnitzel}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Salami}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Spaghetti and Meatballs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Hawaii}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Toast Williams}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Tonkatsu}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beast n' Onion Handpie}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chippy Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Coconut Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Alpaca Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Alpaca Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beast Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Beast Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Critter Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Critter Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Dragon Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Dragon Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Horse Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Horse Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Frog Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Frog Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Phoenix Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Phoenix Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Rabbit}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Rabbit}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Reptile Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Reptile Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Lobster Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Meat Skewer}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Meaty Burrito Wrap}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Paella}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Seafood Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Shrimp Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Steak Tartare}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sweet n' Sour Bites}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bangers Beans and Mash}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beef Burrito}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cheeseburger}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chicken and Spinach Crepe}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Poutine}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Asam Pedas}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Baked Turkey with Risotto}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beef Ribs}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beef Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Brown Gravy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bulgogi}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chicken Nuggets}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chicken Stock}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Beef}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Beef}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Bird Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Bird Meat}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chevon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Chevon}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Chicken}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Chicken}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Duck}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Duck}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Fowl}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Fowl}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Turkey}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Turkey}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Venison}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Cooked Venison}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Corndog}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mutton}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Fish and Chips}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Grilled Skewer}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hamburger Patty}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Hotdog}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Lula Kebab}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Meatloaf}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Mild Curry}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Roasted Fowl}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Sorrel Soup}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Spaghetti Bolognese}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Steak}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Teriyaki}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: Venison Handpie}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}",
+				"reject_{{spacechase0.JsonAssets/ObjectId: White Gravy}}": "{{i18n:DSV.GiftTastes.{{TargetWithoutPath}}.CGD.Vegetarian}}"
+			},
+			"When": 
+			{
+				"HasMod |contains= spacechase0.JsonAssets, paradigmnomad.freshmeat": true,
+				"DSV.Core/ConfigValue:HarveyVariant|contains= ModdedSikh": true
+			}
+		}
+	]
+}

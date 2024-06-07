@@ -1,0 +1,625 @@
+{
+
+////////////////////
+// ALES MEADS SO  //
+////////////////////
+
+"alesxmeads_SO_1.name":"Trinque avec moi, coco !",
+"alesxmeads_SO_1.text":"Je veux surprendre les habitués du saloon avec des bières peu connues ! Gus pense que c'est une bonne idée mais je ne sais pas où les trouver.",
+"alesxmeads_SO_1.deliver":"Livrez 5 stouts au lait de coco à Pam.",
+"alesxmeads_SO_1.accept":"C'est parfait ! Pour une fois, ce sera enfin ma tournée !",
+
+"alesxmeads_SO_2.name":"Une bière alambiquée",
+"alesxmeads_SO_2.text":"C'est quoi le problème avec les bières lambic ? Il paraît qu'elles ne sont pas pétillantes. J'aimerais bien me faire ma propre opinion...",
+"alesxmeads_SO_2.deliver":"Livrez 5 lambic à la cerise à Shane.",
+"alesxmeads_SO_2.accept":"Ouah, même si elle ne pétille plus, l'acidité de la cerise est mordante. Impressionnant. Merci de partager cette découverte avec moi.",
+
+"alesxmeads_SO_3.name":"De nouvelles bières pour le saloon",
+"alesxmeads_SO_3.text":"Il s'avère qu'il y a une forte demande en bières originales. Pouvez-vous m'aider à diversifier la carte des boissons alcoolisées du saloon ?",
+"alesxmeads_SO_3a.deliver":"Déposez 3 pils à l'orange dans le frigo de Gus.",
+"alesxmeads_SO_3b.deliver":"Déposez 3 lagers à la pêche dans le frigo de Gus.",
+"alesxmeads_SO_3c.deliver":"Déposez 3 lagers à la myrtille dans le frigo de Gus.",
+"alesxmeads_SO_3d.deliver":"Déposez 3 bières blanches au melon dans le frigo de Gus.",
+
+"alesxmeads_SO_4.name":"L'alcool des abeilles",
+"alesxmeads_SO_4.text":"Je voudrais boire autre chose que de la bière, pour une fois. J'ai entendu parler d'hydromel... quelqu'un peut m'en apporter pour que je me fasse une idée ?",
+"alesxmeads_SO_4.deliver":"Livrez 3 hydromels d'abricot printanier à Shane.",
+"alesxmeads_SO_4.accept":"Fait à partir de miel fermenté, hein ? Cool. Eh bien, ça change de ma pinte de bière habituelle.",
+
+"alesxmeads_SO_5.name":"De l'hydromel pour les vieux os",
+"alesxmeads_SO_5.text":"Je cherche un hydromel spécifique à boire en pêchant tranquillement dans la fraîcheur d'un après-midi d'automne... ",
+"alesxmeads_SO_5.deliver":"Livrez 3 hydromels grenadine à Willy.",
+"alesxmeads_SO_5.accept":"J'aime beaucoup l'hydromel, mais celui-ci surpasse tous les autres !",
+
+"alesxmeads_SO_6.name":"Spice Girls",
+"alesxmeads_SO_6.text":"J'ai besoin d'hydromels bien corsés pour une soirée entre filles !",
+"alesxmeads_SO_6a.deliver":"Déposez 3 hydromels épicés dans la boîte de la cabane de Leah.",
+"alesxmeads_SO_6b.deliver":"Déposez 3 hydromels aux canneberges dans la boîte de la cabane de Leah.",
+"alesxmeads_SO_6c.deliver":"Déposez 3 hydromels aux mûres dans la boîte de la cabane de Leah.",
+"alesxmeads_SO_6d.deliver":"Déposez 3 hydromels aux pommes acides dans la boîte de la cabane de Leah.",
+
+"alesxmeads_SO_7.name":"Concours de l'art du brassage",
+"alesxmeads_SO_7.text":"C'est reparti : le concours des meilleurs brasseurs et brasseuses est ouvert ! Envoyez-nous vos meilleures bières aromatisées et la personne qui en sera la plus digne recevra le grand prix !",
+"alesxmeads_SO_7.ship":"Expédier 100 bières (ales, stouts, etc.), de qualité or.",
+
+"alesxmeads_SO_8.name":"Concours de l'art de l'hydromel",
+"alesxmeads_SO_8.text":"C'est reparti : le concours annuel des meilleurs brasseurs et brasseuses d'hydromel est ouvert ! Envoyez-nous vos meilleurs hydromels pour tenter de gagner le grand prix !",
+"alesxmeads_SO_8.ship":"Expédier 100 hydromels de qualité or.",
+
+//REWARDS MAIL
+
+"alesxmeads_SO2_reward.title": "Une bière sans lambic-uïté",
+"alesxmeads_SO2_reward.text":"Salut @,^^ J'ai goûté cette bière lambic à la cerise. Même si elle ne pétille plus, l'acidité de la cerise est mordante. Impressionnant. Merci de m'avoir fait découvrir cette boisson. ^-Shane",
+
+"alesxmeads_SO3_reward.title": "Un petit cadeau pour te remercier",
+"alesxmeads_SO3_reward.text": "Coucou @,^^ Quelle belle sélection de bière ! Le saloon du Fruit étoilé va devenir célèbre pour sa carte des boissons. Voici un petit quelque chose pour te faire part de ma reconnaissance.^-Emily",
+
+"alesxmeads_SO6_reward.title": "Thanks!",
+"alesxmeads_SO6_reward.text": "Salut @,^^ Ces hydromels que tu m'as livrés sont parfaits pour notre soirée entre filles. Ils vont nous donner envie de chanter et danser, je crois !^-Leah",
+
+"alesxmeads_SO7_reward.title": "Félicitations !",
+"alesxmeads_SO7_reward.text": "À @,^^ Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le titre de Maître de l'art du brassage. Veuillez recevoir ceci comme récompense.",
+
+"alesxmeads_SO8_reward.title": "Félicitations !",
+"alesxmeads_SO8_reward.text": "À @,^^ Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le titre de Maître de l'art du brassage d'hydromel. Veuillez recevoir ceci en récompense.",
+
+//////////////////
+// BEVERAGE SOS //
+//////////////////
+
+"atelierjuicebar_SO_1.name":"Petit déj' de champion",
+"atelierjuicebar_SO_1.text":"Je suis super occupé avec mon entraînement en ce moment et je n'ai pas le temps de préparer le petit-déjeuner tous les jours ! Quelqu'un peut-il m'aider ?",
+"atelierjuicebar_SO_1.deliver":"Livrez 5 smoothies myrtilles et chou frisé à Alex.",
+"atelierjuicebar_SO_1.accept":"Donc ces smoothies contiennent des protéines ET des fibres ? Génial ! Je vais me faire des super muscles.",
+
+"atelierjuicebar_SO_2.name":"Du thé qui bulle ?",
+"atelierjuicebar_SO_2.text":"Abigail me parlait l'autre jour de bouboule ti... non, de beuboule ti... Je ne sais plus trop ! Qu'est-ce que c'est ? C'est bon ? J'adorerais que quelqu'un m'en apporte pour que j'essaie par moi-même.",
+"atelierjuicebar_SO_2a.deliver":"Déposez 2 bubble teas au thé oolong dans la cuisine de Caroline.",
+"atelierjuicebar_SO_2b.deliver":"Déposez 2 bubble teas à la cassonnade dans la cuisine de Caroline.",
+"atelierjuicebar_SO_2c.deliver":"Déposez 2 bubble teas à la fraise dans la cuisine de Caroline.",
+
+"atelierjuicebar_SO_3.name":"Citronnade vs. thé glacé",
+"atelierjuicebar_SO_3.text":"Rien ne vaut une citronnade par une chaude journée... ou était-ce du thé glacé ? Je n'arrive pas à me rappeler lequel je préfère. Que quelqu'un m'apporte les deux pour que je puisse décider !",
+"atelierjuicebar_SO_3a.deliver":"Déposez 2 citronnades au thé vert dans la cuisine de George.",
+"atelierjuicebar_SO_3b.deliver":"Déposez 2 citronnades classiques dans la cuisine de George.",
+"atelierjuicebar_SO_3c.deliver":"Déposez 2 thés glacés dans la cuisine de George.",
+"atelierjuicebar_SO_3d.deliver":"Déposez 2 thés glacés à la pêche dans la cuisine de George.",
+
+"atelierjuicebar_SO_4.name":"Pressé pressé",
+"atelierjuicebar_SO_4.text":"J'essaie de réduire ma consommation de soda et j'aimerais trouver une alternative... Quelqu'un a une idée ?",
+"atelierjuicebar_SO_4a.deliver":"Déposez 2 jus de raisin frais dans la boîte dans la chambre de Sam.",
+"atelierjuicebar_SO_4b.deliver":"Déposez 2 jus pom'pomme dans la boîte dans la chambre de Sam.",
+"atelierjuicebar_SO_4c.deliver":"Déposez 2 jus baie'xquis dans la boîte dans la chambre de Sam.",
+"atelierjuicebar_SO_4d.deliver":"Déposez 2 jus d'orange pour lève-tôt dans la boîte dans la chambre de Sam.",
+
+"atelierjuicebar_SO_5.name":"Défi Désaltérants Délices",
+"atelierjuicebar_SO_5.text":"C'est reparti : le concours annuel Désaltérants Délices est ouvert ! Envoyez-nous vos meilleurs bubble teas, smoothies et autres sodas pour tenter de gagner le grand prix !",
+"atelierjuicebar_SO_5.ship":"Expédiez 100 boissons fraîches de qualité or.",
+
+"atelierjuicebar_SO_6.name": "Du bubble tea pour Emily",
+"atelierjuicebar_SO_6.text":"Je n'ai plus de thé aux perles ! Aidez-moi, s'il vous plaît !",
+"atelierjuicebar_SO_6.deliver":"Livrez 4 bubble teas à Emily.",
+"atelierjuicebar_SO_6.accept":"Quel soulagement ! Je ne me sens pas moi-même sans boire un bon thé aux perles de temps en temps. Merci !",
+
+"atelierjuicebar_SO_7.name":"Des smoothies pour Haley",
+"atelierjuicebar_SO_7.text":"J'étais tellement occupée la semaine dernière que je n'ai pas préparé de smoothies en avance ! Que vais-je manger au petit-déjeuner, maintenant ?",
+"atelierjuicebar_SO_7.deliver":"Livrez 4 smoothies à Haley.",
+"atelierjuicebar_SO_7.accept":"Ouf ! Sans un smoothie bien vitaminé le matin, je suis de mauvaise humeur toute la journée. Merci encore, @.",
+
+"atelierjuicebar_SO_8.name":"Des jus pour Shane",
+"atelierjuicebar_SO_8.text":"J'ai oublié que c'était à mon tour de ramener du jus de fruits pour Jas et ses amis. Encore. Est-ce que quelqu'un peut m'aider, s'il vous plaît ?",
+"atelierjuicebar_SO_8.deliver":"Livrez 8 jus de fruits à Shane.",
+"atelierjuicebar_SO_8.accept":"Merci énormément. Je crois que je me serai fait botter les fesses si j'étais arrivé les mains vides.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierjuicebar_SO2_reward.title": "Merci !",
+"atelierjuicebar_SO2_reward.text": "Qui aurait deviné que je tomberais éperdument amoureuse du bubble tea ! Merci de me l'avoir fait découvrir, @. Voici un petit quelque chose pour te remercier.",
+
+"atelierjuicebar_SO3_reward.title": "Un cocktail sans alcool",
+"atelierjuicebar_SO3_reward.text": "Ah, maintenant, je me souviens ! J'aime autant la limonade que le thé glacé ! À l'époque, j'avais un pote qui jouait au golf et qui mélangeait les deux. J'ai joint la recette au cas où ça t'intéresse.",
+
+"atelierjuicebar_SO4_reward.title": "Ma recette super secrète de soda maison",
+"atelierjuicebar_SO4_reward.text": "Merci encore pour les jus de fruits ! Ils étaient délicieux, mais j'ai appris qu'ils n'étaient pas moins riches en sucre que le soda... Du coup, je te file ma recette super secrète de soda pétillant.",
+
+"atelierjuicebar_SO5_reward.title": "Félicitations !",
+"atelierjuicebar_SO5_reward.text": "Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le premier prix du concours Désaltérants Délices. Veuillez recevoir ceci en récompense.",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"ateliercandy_SO_1.name":"Le jeu du lapin joufflu",
+"ateliercandy_SO_1.text":"Je veux jouer au jeu du Chubby Bunny, où on doit mettre plein de marshmallows dans la bouche et prononcer une phrase après ! Quelqu'un peut m'apporter des guimauves aromatisées ?",
+"ateliercandy_SO_1a.deliver":"Livrez 3 guimauves à la fraise à Jas.",
+"ateliercandy_SO_1b.deliver":"Livrez 3 guimauves à la lavande à Jas.",
+"ateliercandy_SO_1c.deliver":"Livrez 3 guimauves au thé matcha à Jas.",
+"ateliercandy_SO_1d.deliver":"Livrez 3 guimauves à la noix de coco à Jas.",
+"ateliercandy_SO_1.accept":"Ouais ! Ces couleurs sont trop belles ! On va pouvoir jouer au Chubby Bunny. Ne t'inquiète pas, Tante Marnie sera là pour nous surveiller !",
+
+"ateliercandy_SO_2.name":"Pas besoin de se raser pour ça !",
+"ateliercandy_SO_2.text":"J'adore la barbe à papa ! Elle est si légère et sucrée et trop bonne. J'aimerais essayer tous les goûts du monde ENTIER !",
+"ateliercandy_SO_2a.deliver":"Déposez 1 barbe à papa dans la boîte de dépôt de la maison de Vincent.",
+"ateliercandy_SO_2b.deliver":"Déposez 1 barbe à papa à la lavande dans la boîte de dépôt de la maison de Vincent.",
+"ateliercandy_SO_2c.deliver":"Déposez 1 barbe à papa citron meringué dans la boîte de dépôt de la maison de Vincent.",
+"ateliercandy_SO_2d.deliver":"Déposez 1 barbe à papa à l'orange dans la boîte de dépôt de la maison de Vincent.",
+"ateliercandy_SO_2e.deliver":"Déposez 1 barbe à papa à la menthe dans la boîte de dépôt de la maison de Vincent.",
+"ateliercandy_SO_2f.deliver":"Déposez 1 barbe à papa à la fraise dans la boîte de dépôt de la maison de Vincent.",
+"ateliercandy_SO_2g.deliver":"Déposez 1 barbe à papa à la vanille dans la boîte de dépôt de la maison de Vincent.",
+
+"ateliercandy_SO_3.name":"Le goût de la nostalgie",
+"ateliercandy_SO_3.text":"Quand j'étais petite, ma mère me donnait des sucettes fantaisie quand j'étais sage. J'adorerais en manger de nouveau avec elle, mais je ne sais pas où on peut en trouver !",
+"ateliercandy_SO_3a.deliver":"Déposez 1 sucette gourmande tarte au citron meringuée dans la cuisine de Penny.",
+"ateliercandy_SO_3b.deliver":"Déposez 1 sucette gourmande menthe-vanille dans la cuisine de Penny.",
+"ateliercandy_SO_3c.deliver":"Déposez 1 sucette gourmande baie'xquise dans la cuisine de Penny.",
+"ateliercandy_SO_3d.deliver":"Déposez 1 sucette gourmande tarte aux myrtilles dans la cuisine de Penny.",
+
+"ateliercandy_SO_4.name":"Cailloux à croquer",
+"ateliercandy_SO_4.text":"Je savais qu'il existait des cailloux qu'on peut manger !! Je veux désormais faire découvrir ma friandise préférée à tout le monde, mais où en trouverai-je assez ?",
+"ateliercandy_SO_4.deliver":"Déposez 5 bâtonnets de cristal de sucre dans la boîte de la chambre d'Abigail.",
+
+"ateliercandy_SO_5.name":"Défi de l'art de la confiserie",
+"ateliercandy_SO_5.text":"C'est reparti : le concours annuel des meilleurs confiseurs et confiseuses est ouvert ! Envoyez-nous vos meilleurs bonbons pour tenter de gagner le grand prix !",
+"ateliercandy_SO_5.ship":"Expédiez 100 bonbons de qualité or.",
+
+"ateliercandy_SO_6.name":"De la barbe à papa pour Emily",
+"ateliercandy_SO_6.text":"En plus d'être délicieuse, c'est tellement joli la barbe à papa, non ? Si vous en avez, je vous en achète !",
+"ateliercandy_SO_6.deliver":"Livrez 3 barbes à papa à Emily.",
+"ateliercandy_SO_6.accept":"C'est littéralement du bonbon pour les yeux ! Merci, @.",
+
+"ateliercandy_SO_7.name":"Des guimauves pour Robin",
+"ateliercandy_SO_7.text":"Je voudrais des guimauves à tremper dans mon chocolat chaud.",
+"ateliercandy_SO_7.deliver":"Livrez 5 guimauves à Robin.",
+"ateliercandy_SO_7.accept":"Après une dure journée à scier et à percer du bois, j'adore me détendre avec une tasse de chocolat. Ces guimauves vont rendre ce moment parfait !",
+
+"ateliercandy_SO_8.name":"Des bonbons pour Lewis",
+"ateliercandy_SO_8.text":"Les bonbons durs à l'ancienne me manquent. Je n'arrive pas à en trouver ! Quelqu'un peut-il m'aider ?",
+"ateliercandy_SO_8.deliver":"Livrez 12 bonbons à Lewis.",
+"ateliercandy_SO_8.accept":"J'en ai cherché partout, mais impossible d'en trouver ! Merci infiniment, @.",
+
+//CANDY REWARDS MAIL
+
+"ateliercandy_SO2_reward.title": "MERCI !!",
+"ateliercandy_SO2_reward.text": "Bonjour @,^Toutes ces barbes à papa... c'est trop trop bon. Si seulement on pouvait les utiliser comme oreiller... Mais après, j'avais le visage et les cheveux tout collants et Maman n'était pas contente du tout !^^-Vincent",
+
+"ateliercandy_SO3_reward.title": "Merci - plus mon bricolage de canne en sucre décorative !",
+"ateliercandy_SO3_reward.text": "Bonjour @,^Ces sucettes gourmandes ont exactement le même goût que celles que me rapportait Maman quand elle revenait de longues excursions en bus... À elle aussi, elles lui rappelleront beaucoup de souvenirs.^^Merci encore,^-Penny",
+
+"ateliercandy_SO4_reward.title": "Merci - plus ma recette secrète de pomme d'amour !",
+"ateliercandy_SO4_reward.text": "Salut @,^Ces cristaux de sucre sont magnifiques. Je vais tout de suite les faire découvrir à Sam et Seb, mais avant, je t'envoie ma recette secrète de pomme sucrée.^^-Abigail",
+
+"ateliercandy_SO5_reward.title": "Félicitations !",
+"ateliercandy_SO5_reward.text": "Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le titre de Maître de l'art de la confiserie. Veuillez recevoir ceci en récompense.",
+
+////////////////
+// COFFEE SOS //
+////////////////
+
+"atelierbarista_CoffeeSO_1.name":"Pause café",
+"atelierbarista_CoffeeSO_1.text":"Je n'ai plus de café moulu ! Quelqu'un peut-il m'apporter des sacs pour que je puisse faire le plein ?",
+"atelierbarista_CoffeeSO_1a.deliver":"Livrez 2 cafés moulus aux noisettes à Harvey.",
+"atelierbarista_CoffeeSO_1b.deliver":"Livrez 2 mélanges Cold Brew à Harvey.",
+"atelierbarista_CoffeeSO_1c.deliver":"Livrez 2 cafés moulus Calico Vanille à Harvey.",
+"atelierbarista_CoffeeSO_1.accept":"Ah, juste à temps ! Croyez-moi, personne ne veut d'un médecin endormi !",
+
+"atelierbarista_CoffeeSO_2.name":"Désolé, je suis Latte...",
+"atelierbarista_CoffeeSO_2.text":"J'appuie toujours sur mon réveil et je finis en retard pour tout ! Est-ce que quelqu'un peut m'apporter du café pour que je puisse bouger plus vite et ne plus être en retard ?",
+"atelierbarista_CoffeeSO_2.deliver":"Livrez 5 lattes chérie à Haley.",
+"atelierbarista_CoffeeSO_2.accept":"Peut-être que je peux enfin être à l'heure maintenant !",
+
+"atelierbarista_CoffeeSO_3.name":"Se lever et moudre",
+"atelierbarista_CoffeeSO_3.text":"Je n'ai jamais été du matin mais je veux essayer. Si je veux réussir, je vais avoir besoin de BEAUCOUP de café...",
+"atelierbarista_CoffeeSO_3a.deliver":"Livrez 3 cafés moulus pour le petit-déjeuner dans la boîte de dépôt dans la chambre de Sebastian.",
+"atelierbarista_CoffeeSO_3b.deliver":"Livrez 3 cafés moka moulus dans la boîte de dépôt dans la chambre de Sebastian.",
+"atelierbarista_CoffeeSO_3c.deliver":"Livrez 3 cafés moulus à la noix de coco grillés dans la boîte de dépôt dans la chambre de Sebastian.",
+"atelierbarista_CoffeeSO_3d.deliver":"Livrez 3 cafés moulus Donut Shop dans la boîte de dépôt dans la chambre de Sebastian.",
+
+"atelierbarista_CoffeeSO_4.name":"Saison PSL",
+"atelierbarista_CoffeeSO_4.text":"Tout le monde me demande de servir du Pumpkin Spice Lattes au saloon pendant l'automne ! Je ne sais pas ce que c'est, mais quelqu'un peut-il m'aider à participer à cet engouement ?",
+"atelierbarista_CoffeeSO_4.deliver":"Livrez 12 lattes à la citrouille et aux épices au réfrigérateur de Gus dans le saloon.",
+
+"atelierbarista_CoffeeSO_5.name":"Défi du maître torréfacteur",
+"atelierbarista_CoffeeSO_5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le rôle de maître torréfacteur sont ouvertes ! Envoyez-nous vos meilleurs cafés pour voir si vous pouvez gagner le grand prix !",
+"atelierbarista_CoffeeSO_5.ship":"Expédier 100 produits de café de qualité Or.",
+
+"atelierbarista_CoffeeSO_6.name": "Infusion froide pour Sandy",
+"atelierbarista_CoffeeSO_6.text":"Il fait TELLEMENT chaud ici. Quelqu'un peut-il déposer une infusion froide ??",
+"atelierbarista_CoffeeSO_6.deliver":"Livrez 3 bières froides à Sandy.",
+"atelierbarista_CoffeeSO_6.accept":"Si froide et rafraîchissante, cette infusion froide est parfaite ! Merci beaucoup, ma chérie.",
+
+"atelierbarista_CoffeeSO_7.name":"Lattes pour Marnie",
+"atelierbarista_CoffeeSO_7.text":"Les animaux m'ont tenu éveillé à toute heure de la nuit et je suis tellement fatigué. Est-ce que quelqu'un peut déposer des lattes ?",
+"atelierbarista_CoffeeSO_7.deliver":"Livrez 4 lattes à Marnie.",
+"atelierbarista_CoffeeSO_7.accept":"J'aime mes animaux, mais je n'aime pas le manque de sommeil. Au moins maintenant, j'ai ces délicieux lattes pour me remonter le moral ! Merci encore.",
+
+"atelierbarista_CoffeeSO_8.name":"Café pour Pierre",
+"atelierbarista_CoffeeSO_8.text":"J'ai besoin d'aide pour réapprovisionner mes mélanges de café au magasin.",
+"atelierbarista_CoffeeSO_8.deliver":"Livrez 8 mélanges de café à Pierre.",
+"atelierbarista_CoffeeSO_8.accept":"La boutique sera encore plus belle grâce à ça ! Merci, mon ami.",
+
+
+//COFFEE REWARDS MAIL
+
+"atelierbarista_CoffeeSO2_reward.title": "Merci encore !",
+"atelierbarista_CoffeeSO2_reward.text": "Peut-être que j'ai besoin de plus que JUSTE les lattes pour être à l'heure, mais c'est certainement une bonne façon de commencer ! Voici un petit accessoire qui pourrait vous plaire !",
+
+"atelierbarista_CoffeeSO3_reward.title": "Merci pour les bières.",
+"atelierbarista_CoffeeSO3_reward.text": "Je suis peut-être un oiseau de nuit, mais cela m'aidera peut-être à me réveiller avant midi. Voici quelque chose pour vous si vous cherchez à venir me chercher.",
+
+"atelierbarista_CoffeeSO4_reward.title": "Merci, plus ma recette secrète pour Dirty Chai !",
+"atelierbarista_CoffeeSO4_reward.text": "Je ne comprends pas vraiment pourquoi tout ce remue-ménage, mais si les jeunes sont heureux de passer acheter une tasse à l'automne, ça me suffit ! Maintenant, si vous voulez VRAIMENT bonne boisson, essayez ma recette secrète ici...",
+
+"atelierbarista_CoffeeSO5_reward.title": "Félicitations !",
+"atelierbarista_CoffeeSO5_reward.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître Torréfacteur. Veuillez le prendre comme une récompense.",
+
+////////////////
+// FROZEN SOS //
+////////////////
+
+"atelierfrozen_SO_1.name":"Milkshake pour Smoluanu",
+"atelierfrozen_SO_1.text":"On peut transformer le lait... en une autre boisson ? C'est intrigant. Je serais prêt à payer beaucoup d'or pour goûter à ces étranges concoctions.",
+"atelierfrozen_SO_1a.deliver":"Livrez 1 milkshake à la vanille au nain.",
+"atelierfrozen_SO_1b.deliver":"Livrez 1 milk-shake aux fraises au nain.",
+"atelierfrozen_SO_1c.deliver":"Livrez 1 milk-shake au chocolat au nain.",
+"atelierfrozen_SO_1.accept":"Alors ça s'appelle un... milkshake ? Fascinant. C'est froid et sucré... vous les humains n'inventez pas que des choses inutiles, finalement.",
+
+"atelierfrozen_SO_2.name":"Glaçalo",
+"atelierfrozen_SO_2.text":"J'ai vu les petits humains en ville tenir des glaçons colorés sur des bâtons... J'aimerais beaucoup en avoir !",
+"atelierfrozen_SO_2.deliver":"Livrez 6 glaces à l'eau à Krobus.",
+"atelierfrozen_SO_2.accept":"Merci ! J'ai hâte de goûter.",
+
+"atelierfrozen_SO_3.name":"Soirée crème glacée",
+"atelierfrozen_SO_3.text":"J'organise une petite soirée chic et j'ai besoin d'aide pour composer un panaché de glaces pour le dessert.",
+"atelierfrozen_SO_3a.deliver":"Déposez 3 yaourts glacés au citron dans la cuisine de Jodi.",
+"atelierfrozen_SO_3b.deliver":"Déposez 3 yaourts glacés choco-menthe dans la cuisine de Jodi.",
+"atelierfrozen_SO_3c.deliver":"Déposez 3 cornets de glace lavande-citron dans la cuisine de Jodi.",
+"atelierfrozen_SO_3d.deliver":"Déposez 3 cornets de glace à l'horchata dans la cuisine de Jodi.",
+
+"atelierfrozen_SO_4.name":"Des sandwichs sucrés",
+"atelierfrozen_SO_4.text":"Cela fait longtemps que je n'ai pas mangé le dessert préféré de mon enfance : le sandwich à la crème glacée. Maru dit qu'il y en a maintenant de toutes les saveurs. Est-ce que quelqu'un peut m'en apporter quelques-uns pour essayer ?",
+"atelierfrozen_SO_4a.deliver":"Déposez 2 sandwichs glacés au café dans la boîte du laboratoire de Demetrius.",
+"atelierfrozen_SO_4b.deliver":"Déposez 2 sandwichs glacés à la pistache dans la boîte du laboratoire de Demetrius.",
+"atelierfrozen_SO_4c.deliver":"Déposez 2 sandwichs glacés à la fraise dans la boîte du laboratoire de Demetrius.",
+"atelierfrozen_SO_4d.deliver":"Déposez 2 sandwichs glacés café-coco dans la boîte du laboratoire de Demetrius.",
+
+"atelierfrozen_SO_5.name":"Défi de l'art de la crème glacée",
+"atelierfrozen_SO_5.text":"C'est reparti : le concours annuel des meilleures artisanes et artisans glaciers est ouvert ! Envoyez-nous vos yaourts glacés, sandwichs à la crème glacée et autres glaces à l'eau pour tenter de gagner le grand prix !",
+"atelierfrozen_SO_5.ship":"Expédiez 100 desserts glacés de qualité or.",
+
+"atelierfrozen_SO_6.name":"Des milkshakes pour Kent",
+"atelierfrozen_SO_6.text":"J'aimerais faire une surprise gourmande à ma famille. Des milkshakes remporteraient l'adhésion de tous.",
+"atelierfrozen_SO_6.deliver":"Livrez 4 milkshakes à Kent.",
+"atelierfrozen_SO_6.accept":"La petite famille va adorer ça ! Merci beaucoup, @.",
+
+"atelierfrozen_SO_7.name":"Des glaces à l'eau pour Elliott",
+"atelierfrozen_SO_7.text":"J'ai urgemment besoin de glace à l'eau pour nourrir mon inspiration ! Pourquoi, demandez-vous ? Je ne peux expliquer, cette envie me vient du plus profond de mon âme !",
+"atelierfrozen_SO_7.deliver":"Livrez 4 glaces à l'eau à Elliott.",
+"atelierfrozen_SO_7.accept":"Quelle perfection ! Merci. Maintenant, j'ai besoin de silence pour en nourrir mon inspiration.",
+
+"atelierfrozen_SO_8.name":"Des cornets de glace pour Gus",
+"atelierfrozen_SO_8.text":"Je voudrais vendre des cônes de glace au saloon. Quelqu'un peut-il m'en fournir ?",
+"atelierfrozen_SO_8.deliver":"Livrez 12 cornets de glace à Gus.",
+"atelierfrozen_SO_8.accept":"Ça va plaire à tout le monde au saloon ! Merci beaucoup !",
+
+//FROZEN REWARDS MAIL
+
+"atelierfrozen_SO2_reward.title": "Merci !",
+"atelierfrozen_SO2_reward.text": "Bonjour @, ^^ De l'eau glacée avec du sucre... quelle merveilleuse invention. Tu devras m'apprendre à en fabriquer un jour. Peut-être que tu peux en faire aussi avec ces choses des mines.^^ - Krobus",
+
+"atelierfrozen_SO3_reward.title": "Merci énormément !",
+"atelierfrozen_SO3_reward.text": "Bonjour @,^^ Le menu de mon dîner chic est parfait grâce à toi ! J'aime être une hôtesse parfaite... et être complimentée pour ça. C'est mon petit péché de vanité...^^ Merci encore,^ - Jodi",
+
+"atelierfrozen_SO4_reward.title": "Mes remerciements",
+"atelierfrozen_SO4_reward.text": "Ces sandwichs à la crème glacée me rappellent beaucoup de jolis souvenirs. Je te remercie chaleureusement, @.^^ - Demetrius",
+
+"atelierfrozen_SO5_reward.title": "Félicitations !",
+"atelierfrozen_SO5_reward.text": "À @,^^ Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le titre de Maître de l'art de la crème glacée. Veuillez recevoir ceci en récompense.",
+
+////////////////
+// FLORAL SOS //
+////////////////
+
+"atelierfloral_SO_1.name":"Nettoyage de printemps",
+"atelierfloral_SO_1.text":"Je suis en plein ménage de printemps et je veux garder mes draps frais et parfumés dans les placards. Quelqu'un peut-il m'apporter des fleurs séchées ?",
+"atelierfloral_SO_1.deliver":"Livrez 6 bouquets de fleurs séchées à Evelyn.",
+"atelierfloral_SO_1.accept":"Ils sentent si bon... Toute la maison sera fraîche et propre en un rien de temps !",
+
+"atelierfloral_SO_2.name":"Sam 'n Roses",
+"atelierfloral_SO_2.text":"J'aime vraiment les fleurs fraîches, même si elles me font parfois éternuer. Un bouquet de roses féeriques serait très joli dans ma chambre...",
+"atelierfloral_SO_2.deliver":"Livrez 1 bouquet de roses féeriques à Sam.",
+"atelierfloral_SO_2.accept":"Waouh, ce bouquet est tellement élégant et il est si parfumé ! Mais je vais le mettre loin de mon lit pour éviter d'éternuer, je crois...",
+
+"atelierfloral_SO_3.name":"Eau (de toilette) secours !!",
+"atelierfloral_SO_3.text":"Je n'ai plus de mon parfum préféré ! QUE VAIS-JE FAIRE SANS LUI ??",
+"atelierfloral_SO_3a.deliver": "Déposez 2 eaux de toilette au tournesol dans la boîte de la maison de Haley.",
+"atelierfloral_SO_3b.deliver": "Déposez 2 eaux de toilette à la lavande dans la boîte de la maison de Haley.",
+"atelierfloral_SO_3c.deliver": "Déposez 2 eaux de toilette à la rose dans la boîte de la maison de Haley.",
+"atelierfloral_SO_3d.deliver": "Déposez 2 eaux de toilette à la tulipe dans la boîte de la maison de Haley.",
+
+"atelierfloral_SO_4.name":"Passer un savon (ou dix)",
+"atelierfloral_SO_4.text":"Je fais des expériences scientifiques sur la saponine du savon et j'ai besoin d'échantillons !",
+"atelierfloral_SO_4.deliver":"Deliver 10 soaps to the Drop Box in Maru's Lab.",
+
+"atelierfloral_SO_5.name":"Défi de l'art floral",
+"atelierfloral_SO_5.text":"C'est reparti : le concours annuel des meilleurs fleuristes est ouvert ! Envoyez-nous vos bouquets, parfums et autres fleurs séchées de la plus haute qualité pour tenter de gagner le grand prix !",
+"atelierfloral_SO_5.ship":"Expédier 100 produits floraux et parfumés de qualité or.",
+
+"atelierfloral_SO_6.name":"Des bouquets pour Shane",
+"atelierfloral_SO_6.text":"Jas et Marnie sont si gentilles avec moi et j'aimerais leur offrir quelque chose de sympa...",
+"atelierfloral_SO_6.deliver":"Livrez 2 bouquets à Shane.",
+"atelierfloral_SO_6.accept":"Elles sont si belles. Jas et Marnie ne méritent pas moins. Merci, @.",
+
+"atelierfloral_SO_7.name":"Des savons pour Willy",
+"atelierfloral_SO_7.text":"Avec l'eau de mer, ma peau est toute desséchée ! Y a-t-il un petit mousse qui aurait des savons de bonne qualité pour mes vieilles paluches ?",
+"atelierfloral_SO_7.deliver":"Livrez 4 savons à Willy.",
+"atelierfloral_SO_7.accept":"C'est donc toi le petit mousse qui m'apporte des savons qui moussent ! Mille mercis, @.",
+
+"atelierfloral_SO_8.name":"Des bougies pour Krobus",
+"atelierfloral_SO_8.text":"Les humains semblent aimer les fleurs parce qu'elles sont belles, mais aussi parce qu'elles sentent bon. Je veux que les égouts sentent les fleurs, pouvez-vous m'aider ?",
+"atelierfloral_SO_8.deliver":"Livrez 8 bougies à Krobus.",
+"atelierfloral_SO_8.accept":"Quels objets fascinants... Ils émettent à la fois de la lumière et du parfum. Les humains inventent des choses intrigantes. Merci de me les avoir apportés.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierfloral_SO2_reward.title": "Merci !",
+"atelierfloral_SO2_reward.text": "Salut @,^^ Je ne te remercierai jamais assez pour le bouquet, il est grave beau ! Mais il me faisait trop éternuer, alors je l'ai mis dans le salon... Maman l'adore aussi.^^ - Sam",
+
+"atelierfloral_SO3_reward.title": "Mille mercis !!",
+"atelierfloral_SO3_reward.text": " @, TU ME SAUVES LA VIE. Une femme ne devrait jamais être à court de son parfum préféré.^^ - Haley",
+
+"atelierfloral_SO4_reward.title": "Merci de m'avoir passé dix savons !",
+"atelierfloral_SO4_reward.text": "Bonjour @,^^ Ces savons sont parfaits pour mes expériences ! Tu savais que le processus de fabrication de savon s'appelle saponification en chimie ? Eh bien, c'est exactement l'expérience que toi et moi avons faite ! ^^ Merci encore,^ - Maru",
+
+"atelierfloral_SO5_reward.title": "Félicitations !",
+"atelierfloral_SO5_reward.text": "À @, Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le titre de Maître fleuriste. Veuillez recevoir ceci en récompense.",
+
+//////////////
+// JAMS SOS //
+//////////////
+
+"jams_SO_1.name":"Une gâterie pour Evelyn",
+"jams_SO_1.text":"Evelyn fait tellement pour moi. Je veux lui montrer à quel point je l'apprécie. Elle adore les tulipes... Peut-être que de la gelée de tulipe à tartiner sur ses scones lui plairait ?",
+"jams_SO_1.deliver":"Livrez 5 gelées de tulipe à George.",
+"jams_SO_1.accept":"Elle va adorer ça. Je t'en dois une.",
+
+"jams_SO_2.name":"La vie en rose",
+"jams_SO_2.text":"Jas est dans une phase où elle veut que tout soit rose, même sa nourriture ! Quelqu'un peut-il m'aider ?",
+"jams_SO_2.deliver":"Livrez 5 gelées de fraise des bois à la rose à Marnie.",
+"jams_SO_2.accept":"Oh, Yoba merci ! Je vais enfin lui faire prendre son petit-déjeuner en étalant ça sur ses tartines.",
+
+"jams_SO_3.name":"Les pancakes parfaits",
+"jams_SO_3.text":"Le dimanche matin, chez nous, c'est pancakes. Mais je voudrais changer un peu du sirop d'érable... Quelqu'un a des idées ?",
+"jams_SO_3a.deliver":"Déposez 3 confitures de cerise à la vanille dans la boîte de la cuisine de Jodi.",
+"jams_SO_3b.deliver":"Déposez 3 confitures fraise-rhubarbe dans la boîte de la cuisine de Jodi.",
+"jams_SO_3c.deliver":"Déposez 3 bocaux de pêches au sirop de miel dans la boîte de la cuisine de Jodi.",
+
+"jams_SO_4.name":"Vive la vitamine C",
+"jams_SO_4.text":"Les vitamines sont importantes dans une alimentation saine. Je suis sûr que la vitamine C contenue dans la marmelade convient très bien, n'est-ce pas ?",
+"jams_SO_4a.deliver":"Déposez 2 marmelades aux trois agrumes dans la boîte de la cuisine de Lewis.",
+"jams_SO_4b.deliver":"Déposez 2 marmelades de lime douces dans la boîte de la cuisine de Lewis.",
+"jams_SO_4c.deliver":"Déposez 2 marmelades d'orange estivales dans la boîte de la cuisine de Lewis.",
+"jams_SO_4d.deliver":"Déposez 2 marmelades de citron printanières dans la boîte de la cuisine de Lewis.",
+
+"jams_SO_5.name":"Défi de l'art de la confiture",
+"jams_SO_5.text":"C'est reparti : le concours annuel des meilleures confiturières et confituriers est ouvert ! Envoyez-nous vos meilleures confitures, marmelades et autres fruits au sirop pour tenter de gagner le grand prix !",
+"jams_SO_5.ship":"Expédiez 100 conserves de fruits artisanales.",
+
+"jams_SO_6.name":"Des confitures pour Linus",
+"jams_SO_6.text":"J'adorerais avoir des fruits en conserve pour profiter de la générosité de la nature une fois l'hiver arrivé...",
+"jams_SO_6.deliver":"Livrez 3 confitures à Linus.",
+"jams_SO_6.accept":"Qu'elles sont belles... Maintenant, je vais pouvoir profiter des saveurs des fruits même au plus froid de l'hiver. Merci, @.",
+
+"jams_SO_7.name":"Des confitures pour Penny",
+"jams_SO_7.text":"Maman et moi adorons manger de la bonne confiture au petit-déjeuner. Quelqu'un peut-il nous livrer quelques saveurs intéressantes ?",
+"jams_SO_7.deliver":"Livrez 5 confitures à Penny.",
+"jams_SO_7.accept":"Elles iront parfaitement avec nos tartines du matin ! Merci beaucoup !",
+
+"jams_SO_8.name":"Des confitures pour Clint",
+"jams_SO_8.text":"J'aimerais approvisionner mon garde-manger avec des ingrédients plus gourmands. J'aime la gelée et la confiture, c'est peut-être un bon point de départ ?",
+"jams_SO_8.deliver":"Livrez 10 confitures à Clint.",
+"jams_SO_8.accept":"Qu'est-ce que je vais faire de toute cette confiture ? Je ne sais pas, mais ces bocaux feront très jolis dans ma cuisine. Merci.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+"jams_SO2_reward.title": "La vie est rose !",
+"jams_SO2_reward.text": "Bonjour @,^^ Merci merci merci ! Avec cette confiture, Jas mange enfin ses tartines le matin. Voilà de la pectine pour que tu en fasses pour toi aussi.^^ - Marnie",
+
+"jams_SO3_reward.title": "Merci encore !",
+"jams_SO3_reward.text": "@,^^ Quel bel assortiment de confitures ! Ça redonne un coup de fouet à nos traditionnels pancakes du dimanche !^^ Bien à toi,^ - Jodi",
+
+"jams_SO4_reward.title": "Bien le merci !",
+"jams_SO4_reward.text": "Bonjour @,^^ Quelles délicieuses marmelades ! Maintenant, je n'ai plus jamais à m'inquiéter d'avoir le scorbut.^^ - Lewis",
+
+"jams_SO5_reward.title": "Félicitations !",
+"jams_SO5_reward.text": "À @,^^ Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le titre de Maître de l'art de la conserve. Veuillez recevoir ceci en récompense.",
+
+
+///////////////
+// PANTRY SO //
+///////////////
+
+"gourmetpantry_SO_1.name":"Gourmandises",
+"gourmetpantry_SO_1.text":"Caroline a commencé à pâtisser et je veux lui offrir quelque chose pour nourrir son inspiration.",
+"gourmetpantry_SO_1a.deliver":"Livrez de la crème de citron à Pierre.",
+"gourmetpantry_SO_1b.deliver":"Livrez du beurre de citrouille à Pierre.",
+"gourmetpantry_SO_1c.deliver":"Livrez du beurre de miel à Pierre.",
+"gourmetpantry_SO_1d.deliver":"Livrez de la crème de lime à Pierre.",
+"gourmetpantry_SO_1.accept":"Quels produits originaux ! J'ai hâte de la surprendre avec ce cadeau.",
+
+"gourmetpantry_SO_2.name":"Un nuage de lait",
+"gourmetpantry_SO_2.text":"Beaucoup de mes patients sont intolérants au lactose mais je ne connais pas grand-chose aux laits végétaux. Quelqu'un peut-il m'en apporter pour que je puisse les tester moi-même ?",
+"gourmetpantry_SO_2a.deliver":"Déposez 2 laits d'amande dans la boîte de la clinique Harvey.",
+"gourmetpantry_SO_2b.deliver":"Déposez 2 laits de riz à la boîte de la clinique Harvey.",
+"gourmetpantry_SO_2c.deliver":"Déposez 2 laits de coco dans la boîte de la clinique Harvey.",
+"gourmetpantry_SO_2d.deliver":"Déposez 2 laits de noisette dans la boîte de la clinique Harvey.",
+
+"gourmetpantry_SO_3.name":"Nouvelles protéines nécessaires !",
+"gourmetpantry_SO_3.text":"J'ai entendu dire que les fruits à coque sont une bonne source de protéines. Je mettrais bien du beurre d'oléagineux dans mes shakes protéinés du matin.",
+"gourmetpantry_SO_3.deliver": "Déposez 10 beurres d'oléagineux dans la boîte de la maison d'Alex.",
+
+"gourmetpantry_SO_4.name":"Les mains dans la farine",
+"gourmetpantry_SO_4.text":"Evelyn cuisine tellement que nous manquons constamment de farine ! Est-ce que quelqu'un veut bien me livrer quelques paquets de farine de qualité ?",
+"gourmetpantry_SO_4.deliver":"Déposez 10 farines artisanales dans la boîte de la maison de George.",
+
+"gourmetpantry_SO_5.name":"Défi Garde-manger gourmet",
+"gourmetpantry_SO_5.text":"C'est reparti : le concours annuel du Garde-manger gourmet est ouvert ! Envoyez-nous vos ingrédients (farines, beurres et autres laits artisanaux) de haute qualité pour tenter de gagner le grand prix !",
+"gourmetpantry_SO_5.ship":"Expédier 100 produits de garde-manger de qualité or.",
+
+"gourmetpantry_SO_6.name":"De l'extrait de vanille pour Evelyn",
+"gourmetpantry_SO_6.text":"Je n'ai plus d'extrait de vanille ! Je ne peux pas faire de pâtisserie sans...",
+"gourmetpantry_SO_6.deliver":"Livrez 3 extraits de vanille à Evelyn.",
+"gourmetpantry_SO_6.accept":"Imagines-tu faire des cookies sans extrait de vanille ? Hors de question ! Merci de m'en avoir apporté, mon petit.",
+
+"gourmetpantry_SO_7.name":"De l'huile d'olive pour Abigail",
+"gourmetpantry_SO_7.text":"Je veux essayer de nouvelles recettes de cuisine, mais j'ai besoin d'huile d'olive de très bonne qualité. Quelqu'un peut-il m'aider ?",
+"gourmetpantry_SO_7.deliver":"Livrez 5 bouteilles d'huile d'olive à Abigail.",
+"gourmetpantry_SO_7.accept":"Merci ! J'ai hâte de faire une bonne foccacia.",
+
+"gourmetpantry_SO_8.name":"Du chocolat pour Gus",
+"gourmetpantry_SO_8.text":"Mon fournisseur de chocolat m'a laissé tomber au dernier moment ! Quelqu'un peut-il me dépanner ?",
+"gourmetpantry_SO_8.deliver":"Livrez 9 tablettes de chocolat pâtissier à Gus.",
+"gourmetpantry_SO_8.accept":"Sans le gâteau au chocolat façon Gus, le Saloon du Fruit étoilé ne serait pas ce qu'il est ! Tu m'as donné un sacré coup de main.",
+
+//PANTRY REWARDS MAIL
+
+"gourmetpantry_SO2_reward.title": "Je te remercie",
+"gourmetpantry_SO2_reward.text": "Bonjour @,^^ Alors on peut faire du lait avec du riz, des noix ou même de la noix de coco ? Splendide ! C'est une excellente alternative pour mes patients.^^ Merci beaucoup,^ - Harvey",
+
+"gourmetpantry_SO3_reward.title": "Merci !",
+"gourmetpantry_SO3_reward.text": "Hé @,^^ Génial ! Avec ça, je vais pouvoir me muscler encore plus efficacement ! Tu gères ! ^^ - Alex",
+
+"gourmetpantry_SO4_reward.title": "Un grand merci",
+"gourmetpantry_SO4_reward.text": "@,^^ Avec un peu de chance, ce stock nous durera au moins une semaine... j'espère. Merci pour ton aide.^^ - George",
+
+"gourmetpantry_SO5_reward.title": "Félicitations !",
+"gourmetpantry_SO5_reward.text": "À @, Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le premier prix du concours Garde-manger gourmet. Veuillez recevoir ceci en récompense.",
+
+////////////////////////
+// SPECIAL ORDERS TEA //
+////////////////////////
+
+"atelierbarista_TeaSO_1.name":"C'est thé-rrible !",
+"atelierbarista_TeaSO_1.text":"Je n'ai plus de mon mélange de thé habituel en stock ! Quelqu'un peut-il me déposer des sachets pour que je tienne cette semaine ?",
+"atelierbarista_TeaSO_1a.deliver":"Livrez 2 sachets de thé à la cannelle à Caroline.",
+"atelierbarista_TeaSO_1b.deliver":"Livrez 2 sachets de thé à la menthe Pélican à Caroline.",
+"atelierbarista_TeaSO_1c.deliver":"Livrez 2 sachets de thé Lady Grey à Caroline.",
+"atelierbarista_TeaSO_1.accept":"Quel bel assortiment tu m'as apporté ! Il va me permettre de profiter de l'heure du thé pendant une petite semaine.",
+
+"atelierbarista_TeaSO_2.name":"Tea time",
+"atelierbarista_TeaSO_2.text":"IJe reçois des dames pour le thé et je voudrais les surprendre avec des saveurs distinguées. Avez-vous des suggestions ?",
+"atelierbarista_TeaSO_2a.deliver":"Déposez 2 tasses de thé Sakura dans la cuisine d'Evelyn.",
+"atelierbarista_TeaSO_2b.deliver":"Déposez 2 tasses de thé à la rose dans la cuisine d'Evelyn.",
+"atelierbarista_TeaSO_2c.deliver":"Déposez 2 tasses de thé English Breakfast dans la cuisine d'Evelyn.",
+
+"atelierbarista_TeaSO_3.name":"Comme bout d'chat",
+"atelierbarista_TeaSO_3.text":"J'ai entendu Abigail et Sebby parler de kombucha... quelqu'un peut-il m'en apporter pour que je puisse goûter par moi-même ?",
+"atelierbarista_TeaSO_3a.deliver":"Déposez 2 kombuchas aux pommes d'automne dans l'atelier de Robine.",
+"atelierbarista_TeaSO_3b.deliver":"Déposez 2 kombuchas citron-framboise dans l'atelier de Robine.",
+"atelierbarista_TeaSO_3c.deliver":"Déposez 2 kombuchas à la fraise des bois dans l'atelier de Robine.",
+"atelierbarista_TeaSO_3d.deliver":"Déposez 2 kombuchas à la grenade dans l'atelier de Robine.",
+
+"atelierbarista_TeaSO_4.name":"Des infusions pour dormir",
+"atelierbarista_TeaSO_4.text":"Je suis épuisée et j'ai du mal à dormir. Quelqu'un peut-il m'apporter des tisanes ?",
+"atelierbarista_TeaSO_4a.deliver":"Déposez 3 sachets de thé à la camomille dans la cuisine de Jodi.",
+"atelierbarista_TeaSO_4b.deliver":"Déposez 3 sachets de thé à la menthe Pélican dans la cuisine de Jodi.",
+"atelierbarista_TeaSO_4c.deliver":"Déposez 3 sachets de thé à la vanille de Calico dans la cuisine de Jodi.",
+"atelierbarista_TeaSO_4d.deliver":"Déposez 3 sachets de thé citron-gingembre dans la cuisine de Jodi.",
+
+"atelierbarista_TeaSO_5.name":"Défi de l'art du thé",
+"atelierbarista_TeaSO_5.text":"C'est reparti : le concours annuel des meilleurs maîtres et maîtresses de thé est ouvert ! Envoyez-nous vos meilleurs thés pour tenter de gagner le grand prix !",
+"atelierbarista_TeaSO_5.ship":"Expédier 100 produits de thé (sachets, thés et kombuchas) de qualité or.",
+
+"atelierbarista_TeaSO_6.name":"Du kombucha pour Alex",
+"atelierbarista_TeaSO_6.text":"Pierre ne veut pas mettre de kombuchas dans les rayons. Comment je fais pour en boire alors ?",
+"atelierbarista_TeaSO_6.deliver":"Livrez 4 kombuchas à Alex.",
+"atelierbarista_TeaSO_6.accept":"La bibine sans alcool des champions !! Merci beaucoup.",
+
+"atelierbarista_TeaSO_7.name":"Du thé pour Haley",
+"atelierbarista_TeaSO_7.text":"C'est contraignant de commander mon thé en ligne. Comment puis-je savoir qu'il est de haute qualité si je ne peux même pas le voir ?" ,
+"atelierbarista_TeaSO_7.deliver":"Livrez 6 tasses de thé à Haley.",
+"atelierbarista_TeaSO_7.accept":"Ces thés ont une odeur merveilleuse. Je vais en profiter tout de suite. Merci encore !",
+
+"atelierbarista_TeaSO_8.name":"Des sachets de thé pour Sandy",
+"atelierbarista_TeaSO_8.text":"Je veux faire un grand pichet de thé glacé. Quelqu'un peut-il me livrer des sachets ?",
+"atelierbarista_TeaSO_8.deliver":"Livrez 8 sachets de thé à Sandy.",
+"atelierbarista_TeaSO_8.accept":"Enfin, je vais pouvoir me rafraîchir ! Merci mon chou.",
+
+//TEA REWARDS MAIL
+
+"atelierbarista_TeaSO2_reward.title": "Merci - plus quelques plants de thé",
+"atelierbarista_TeaSO2_reward.text": "Bonjour @,^^ Eh bien, avec tout ça, nous allons bientôt pouvoir inviter des rois et des reines à boire le thé chez nous, n'est-ce pas mon petit ?^^ - Evelyn",
+
+"atelierbarista_TeaSO3_reward.title": "Merci, plus quelques champignons !",
+"atelierbarista_TeaSO3_reward.text": "Salut @,^^ Le kombucha est plus pétillant que je ne l'imaginais ! Mais étonnamment savoureux.^^ Merci encore !^ - Robin",
+
+"atelierbarista_TeaSO4_reward.title": "Merci encore !",
+"atelierbarista_TeaSO4_reward.text": "Bonjour @,^^ L'odeur de cette tisane est si apaisante que je parie que je m'endormirai avant même que ma tête touche mon oreiller ce soir !^^ Bonne journée,^ - Jodi",
+
+"atelierbarista_TeaSO5_reward.title": "Félicitations !",
+"atelierbarista_TeaSO5_reward.text": "À @,^^ Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le titre de Maître de l'art du thé. Veuillez recevoir ceci en récompense.",
+
+///////////////////
+// WILD FOOD SOS //
+///////////////////
+
+"ateliercrops_SO_1.name":"Orchidées des sables chauds",
+"ateliercrops_SO_1.text":"J'ai entendu parler d'une orchidée qui ne fleurit dans le désert de Calico qu'à certaines saisons. Quelqu'un peut-il m'en apporter quelques-unes ?",
+"ateliercrops_SO_1.deliver":"Livrez 3 vanilles de Calico à Linus.",
+"ateliercrops_SO_1.accept":"Oh, le désert de Calico est si beau... Après avoir séché ces fleurs et leurs gousses, je pourrai toujours profiter de son souvenir ici, chez moi.",
+
+"ateliercrops_SO_2.name":"À la recherche des fruits des bois",
+"ateliercrops_SO_2.text":"Je n'ai pas le temps de partir en cueillette mais j'ai besoin de baies pour faire une tarte. Quelqu'un peut-il m'aider ?",
+"ateliercrops_SO_2a.deliver":"Déposez 4 fraises des bois dans la boîte de la cabane de Leah.",
+"ateliercrops_SO_2b.deliver":"Déposez 4 framboises sauvages dans la boîte de la cabane de Leah.",
+
+"ateliercrops_SO_3.name":"Ça a le goût du poulet",
+"ateliercrops_SO_3.text":"Scientifique cherche divers champignons pour étudier les ressources locales constitutant des alternatives à la viande.",
+"ateliercrops_SO_3.deliver":"Déposez 15 champignons sauvages dans la boîte du laboratoire de Demetrius.",
+
+"ateliercrops_SO_4.name":"Des fleurs humbles et belles",
+"ateliercrops_SO_4.text":"Le désert est joli à sa manière, mais certaines fleurs qui ne poussent que dans les bois de Stardew Valley me manquent ! Quelqu'un peut-il m'en apporter ?",
+"ateliercrops_SO_4a.deliver":"Déposez 5 lavandes sylvestres dans la boîte de la boutique de Sandy.",
+"ateliercrops_SO_4b.deliver":"Déposez 5 camomilles sylvestres dans la boîte de la boutique de Sandy.",
+
+"ateliercrops_SO_5.name":"Concours de l'art de la cueillette",
+"ateliercrops_SO_5.text":"C'est reparti : le concours annuel des meilleures cueilleuses et cuilleurs est ouvert ! Envoyez-nous vos plus belles trouvailles de la nature pour tenter de gagner le grand prix !",
+"ateliercrops_SO_5.ship":"Expédier 100 fleurs, champignons et fruits de cueillette de qualité Or.",
+
+"ateliercrops_SO_6.name":"Des champignons pour Maru",
+"ateliercrops_SO_6.text":"J'ai besoin de champignons frais pour une expérience mais je suis très occupée à la clinique. Est-ce que quelqu'un est disposé à partager sa cueillette ?",
+"ateliercrops_SO_6.deliver":"Livrez 5 champignons sauvages à Maru.",
+"ateliercrops_SO_6.accept":"Ces champis ont l'air parfaits ! Merci, tu m'as épargné beaucoup de travail.",
+
+"ateliercrops_SO_7.name":"Des fruits des bois pour Gus",
+"ateliercrops_SO_7.text":"Ma cargaison de fruits frais n'est jamais arrivée et je dois faire des cocktails pour le saloon ! Que vais-je faire maintenant ?",
+"ateliercrops_SO_7.deliver":"Livrez 6 fruits des bois à Gus.",
+"ateliercrops_SO_7.accept":"Mes cocktails seront extraordinaires avec ces jolis fruits ! Merci encore.",
+
+"ateliercrops_SO_8.name":"Des aromates pour Evelyn",
+"ateliercrops_SO_8.text":"Je n'ai plus d'herbes aromatiques et j'en ai besoin pour faire la cuisine ! Quelqu'un peut-il m'aider ?",
+"ateliercrops_SO_8.deliver":"Livrez 8 aromates à Evelyn.",
+"ateliercrops_SO_8.accept":"Les aromates sont essentiels pour donner du goût aux plats ! Merci de m'en avoir apporté.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+"ateliercrops_SO2_reward.title": "Merci pour les baies",
+"ateliercrops_SO2_reward.text": "Ces fruits des bois sont parfaits pour ma tarte ! Merci beaucoup de les avoir trouvés pour moi.^^-Leah",
+
+"ateliercrops_SO3_reward.title": "Remerciements et quelques mycéliums",
+"ateliercrops_SO3_reward.text": "Bonjour @,^^ Je suis sur le point de trouver une source de protéines végétales prometteuse ! Merci pour toute ton aide dans leur collecte.^^-Demetrius",
+
+"ateliercrops_SO4_reward.title": "Merci - plus d'autres mycéliums",
+"ateliercrops_SO4_reward.text": "C'est exactement les fleurs auxquelles je pensais ! Je vais en mettre quelques unes à sécher entre les pages d'un livre pour les conserver !^^-Sandy",
+
+"ateliercrops_SO5_reward.title": "Félicitations !",
+"ateliercrops_SO5_reward.text": "À @,^^ Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le titre de Maître de l'art de la cueillette. Veuillez recevoir ceci en récompense.",
+
+}

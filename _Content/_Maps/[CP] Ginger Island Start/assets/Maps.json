@@ -1,0 +1,162 @@
+{
+    "Changes": [
+        // southeastcave pirates
+        {
+            "LogName": "Add weapons pirate",
+            "Action": "EditMap",
+            "Target": "Maps/IslandSouthEastCave_pirates",
+            "FromFile": "assets/Island_WeaponsPirate.tmx",
+            "PatchMode": "Overlay",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 28,
+                "Y": 7,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "FirstDayOrFlag": true
+            }
+        },
+        {
+            "LogName": "Add tools pirate",
+            "Action": "EditMap",
+            "Target": "Maps/IslandSouthEastCave_pirates",
+            "FromFile": "assets/Island_ResourcePirate.tmx",
+            "PatchMode": "Overlay",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 3,
+                "Y": 4,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "FirstDayOrFlag": true
+            }
+        },
+        /*
+     {
+        "Action": "EditMap",
+        "Target": "Maps/IslandSouthEastCave_pirates",
+        "MapTiles": [
+           {
+              "Position": {
+                 "X": 28,
+                 "Y": 8
+              },
+              "Layer": "Buildings",
+              "SetProperties": {
+                 "Action": "{{MainMod}}_Geodes"
+              }
+           }
+        ],
+        "When": {
+           "FirstDayOrFlag": true,
+           "Day": "4,8,12,16,20,24,28", //i could've done a query with % 4 == 0 but this is safer
+           "HasFlag | contains=willyBoatFixed": false
+        }
+     },*/
+        // island south
+        {
+            "LogName": "Add tent",
+            "Action": "EditMap",
+            "Target": "Maps/Island_S",
+            "FromFile": "assets/Island_Tent.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 3,
+                "Height": 5
+            },
+            "ToArea": {
+                "X": 27,
+                "Y": 24,
+                "Width": 3,
+                "Height": 5
+            },
+            "PatchMode": "Overlay",
+            "When": {
+                "FirstDayOrFlag": true,
+                "HasFlag | contains=Island_UpgradeHouse": false
+            }
+        },
+        {
+            "LogName": "Add boat upgrade tiles",
+            "Action": "EditMap",
+            "Target": "Maps/Island_S",
+            "FromFile": "assets/Island_S_boat.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "FirstDayOrFlag": true,
+                "HasFlag | contains=willyBoatFixed": false
+            }
+        },
+        {
+            "LogName": "Add debris blocking",
+            "Action": "EditMap",
+            "Target": "Maps/Island_S",
+            "FromFile": "assets/Island_S_trash.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "FirstDayOrFlag": true,
+                "HasFlag | contains=Saw_Flame_Sprite_South": false
+            }
+        },
+        //  island west
+        {
+            "LogName": "Add builder patch",
+            "Action": "EditMap",
+            "Target": "Maps/Island_W",
+            "FromFile": "assets/Island_W_patch.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 3,
+                "Height": 6
+            },
+            "ToArea": {
+                "X": 95,
+                "Y": 45,
+                "Width": 3,
+                "Height": 6
+            },
+            "When": {
+                "FirstDayOrFlag": true
+            }
+        },
+        {
+            "LogName": "Add building zone",
+            "Action": "EditMap",
+            "Target": "Maps/Island_W",
+            "FromFile": "assets/Island_W_builder.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 4,
+                "Height": 6
+            },
+            "ToArea": {
+                "X": 95,
+                "Y": 45,
+                "Width": 4,
+                "Height": 6
+            },
+            "When": {
+                "HasFlag|contains={{MainMod}}_BuiltCoop": false,
+                "FirstDayOrFlag": true,
+                "HasFlag | contains=willyBoatFixed": false
+            }
+        }
+    ]
+}

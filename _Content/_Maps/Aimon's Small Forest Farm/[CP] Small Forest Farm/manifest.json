@@ -1,0 +1,14 @@
+{
+    "Name": "Aimon's Small Forest Farm",
+    "Author": "Aimon111",
+    "Version": "1.0.1",
+    "UniqueID": "Aimon111.SmallForestFarm",
+    "Description": "Small and cozy farm with respawnable stumps and secret woods entrance.",	
+    "MinimumApiVersion": "4.0.0",
+      "UpdateKeys": [ "Nexus:24680" ],
+    "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+	 "Dependencies": [
+ 
+	
+	]
+}

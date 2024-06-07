@@ -1,0 +1,91 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Gourmet Pantry Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Evelyn", 1],
+                    "Value": "wildflour.gourmetpantry_brown_sugar",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","George", 1],
+                    "Value": "wildflour.gourmetpantry_lemon_curd",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Gus", 1],
+                    "Value": "wildflour.gourmetpantry_cake_flour wildflour.gourmetpantry_pastry_flour",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Harvey", 1],
+                    "Value": "wildflour.gourmetpantry_almond_milk wildflour.gourmetpantry_rice_milk",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jas", 1],
+                    "Value": "wildflour.gourmetpantry_rainbow_sprinkles wildflour.gourmetpantry_chocolate_chips",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Leah", 1],
+                    "Value": "wildflour.gourmetpantry_coconut_milk wildflour.gourmetpantry_cashew_milk",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Marnie", 1],
+                    "Value": "wildflour.gourmetpantry_butter wildflour.gourmetpantry_cream",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Maru", 1],
+                    "Value": "wildflour.gourmetpantry_almond_butter wildflour.gourmetpantry_hazelnut_butter",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Pierre", 1],
+                    "Value": "wildflour.gourmetpantry_maple_butter wildflour.gourmetpantry_honey_butter",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Shane", 1],
+                    "Value": "wildflour.gourmetpantry_butter wildflour.gourmetpantry_cream",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Vincent", 1],
+                    "Value": "wildflour.gourmetpantry_rainbow_sprinkles wildflour.gourmetpantry_chocolate_chips",
+                    "Delimiter": " "
+                }
+     
+            ]
+            }
+
+]
+}

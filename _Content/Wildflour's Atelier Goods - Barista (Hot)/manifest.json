@@ -1,0 +1,16 @@
+{
+    "Name": "Wildflour's Atelier Goods - Barista (Hot)",
+    "Author": "wildflourmods",
+    "Version": "1.0.2",
+    "Description": "This mod focuses on crafting artisanal cafe drinks like hot teas and lattes.",
+    "UniqueID": "wildflour.atelierbarista",
+    "UpdateKeys": ["Nexus:22732"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "wildflour.ateliercrops", "IsRequired": false}
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

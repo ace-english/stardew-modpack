@@ -1,0 +1,637 @@
+{
+  "Changes": [
+
+///////////////
+// DROPBOXES //
+///////////////
+
+{
+  "Action": "EditMap",
+  "Target": "Maps/SeedShop",
+  "MapTiles": [
+          {
+             "Position": { "X": 34, "Y": 4},
+             "Layer": "Buildings",
+             "SetProperties": { "Action": "DropBox CarolineDrinks"}
+          }		
+  ]
+},
+{
+  "Action": "EditMap",
+  "Target": "Maps/JoshHouse",
+  "MapTiles": [
+          {
+             "Position": { "X": 4, "Y": 16},
+             "Layer": "Buildings",
+             "SetProperties": { "Action": "DropBox GeorgeDrinks"}
+          }		
+  ]
+},
+{
+  "Action": "EditMap",
+  "Target": "Maps/SamHouse",
+  "MapTiles": [
+          {
+             "Position": { "X": 14, "Y": 12},
+             "Layer": "Buildings",
+             "SetProperties": { "Action": "DropBox SamDrinks"}
+          }		
+  ]
+},
+{
+  "Action": "EditMap",
+  "Target": "Maps/ScienceHouse",
+  "MapTiles": [
+  {
+   "Position": { "X": 6, "Y": 19},
+   "Layer": "Buildings",
+   "SetProperties": { "Action": "DropBox RobinKombucha"}
+  }		
+  ]
+      },
+
+/////////////////////
+// SPECIAL ORDERS //
+/////////////////////
+
+  {
+    "LogName": "Special Orders Vanilla",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+        "wildflour.atelierjuicebar_SO_1": {
+        "Name": "{{i18n:atelierjuicebar_SO_1.name}}",
+        "Requester": "Alex",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierjuicebar_SO_1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierjuicebar_SO_1.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_berrykale_smoothie",
+                "Message": "{{i18n:atelierjuicebar_SO_1.accept}}",
+                "TargetName": "Alex"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Alex"
+                }
+              }
+          ]
+      },
+        "wildflour.atelierjuicebar_SO_2": {
+        "Name": "{{i18n:atelierjuicebar_SO_2.name}}",
+        "Requester": "Caroline",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierjuicebar_SO_2.text}}",
+        "Objectives": [
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:atelierjuicebar_SO_2a.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "DropBox": "CarolineDrinks",
+              "DropBoxGameLocation": "SeedShop",
+              "DropBoxIndicatorLocation": "34 4",
+              "AcceptedContextTags": "item_wildflour.atelierjuicebar_oolong_boba"
+            }
+          },
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:atelierjuicebar_SO_2b.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "DropBox": "CarolineDrinks",
+              "DropBoxGameLocation": "SeedShop",
+              "DropBoxIndicatorLocation": "34 4",
+              "AcceptedContextTags": "item_wildflour.atelierjuicebar_brownsugar_boba"
+            }
+          },
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:atelierjuicebar_SO_2c.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "DropBox": "CarolineDrinks",
+              "DropBoxGameLocation": "SeedShop",
+              "DropBoxIndicatorLocation": "34 4",
+              "AcceptedContextTags": "item_wildflour.atelierjuicebar_strawberry_boba"
+            }
+          }
+        ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "6000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Caroline"
+                }
+              },
+
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.atelierjuicebar_SO2_complete",
+                      "NoLetter": "true"
+                }
+              }
+          ]
+      },
+        "wildflour.atelierjuicebar_SO_4": {
+        "Name": "{{i18n:atelierjuicebar_SO_4.name}}",
+        "Requester": "Sam",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierjuicebar_SO_4.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_SO_4a.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "SamDrinks",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "14 12",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_grape_juice"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_SO_4b.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "SamDrinks",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "14 12",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_apple_juice"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_SO_4c.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "SamDrinks",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "14 12",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_berry_juice"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_SO_4d.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "SamDrinks",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "14 12",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_orange_juice"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "12720"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Sam"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.atelierjuicebar_SO4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+      },
+        "wildflour.atelierjuicebar_SO_5": {
+          "Name": "{{i18n:atelierjuicebar_SO_5.name}}",
+          "Requester": "Lewis",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "mail_wildflour.atelierjuicebar_SO2_complete, mail_wildflour.atelierjuicebar_SO4_complete",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:atelierjuicebar_SO_5.text}}",
+          "Objectives": [
+              {
+                "Type": "Ship",
+                "Text": "{{i18n:atelierjuicebar_SO_5.ship}}",
+                "RequiredCount": "100",
+                "Data": {
+                  "AcceptedContextTags": "wildflour_beverage_item"
+                }
+              },
+
+              
+            ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "100000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.atelierjuicebar_S05_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      },
+        "wildflour.atelierjuicebar_SO_6": {
+        "Name": "{{i18n:atelierjuicebar_SO_6.name}}",
+        "Requester": "Emily",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierjuicebar_SO_6.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierjuicebar_SO_6.deliver}}",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "wildflour_boba_item",
+                "Message": "{{i18n:atelierjuicebar_SO_6.accept}}",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "6000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+        "wildflour.atelierjuicebar_SO_7": {
+        "Name": "{{i18n:atelierjuicebar_SO_7.name}}",
+        "Requester": "Haley",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierjuicebar_SO_7.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierjuicebar_SO_7.deliver}}",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "wildflour_smoothie_item",
+                "Message": "{{i18n:atelierjuicebar_SO_7.accept}}",
+                "TargetName": "Haley"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "7000"
+              }
+            },
+
+          {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+        "wildflour.atelierjuicebar_SO_8": {
+        "Name": "{{i18n:atelierjuicebar_SO_8.name}}",
+        "Requester": "Shane",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierjuicebar_SO_8.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:atelierjuicebar_SO_8.deliver}}",
+              "RequiredCount": "8",
+              "Data": {
+                "AcceptedContextTags": "wildflour_juice_item",
+                "Message": "{{i18n:atelierjuicebar_SO_8.accept}}",
+                "TargetName": "Shane"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "10000"
+              }
+            },
+    
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+    }
+  },
+
+  {
+    "LogName": "Special Order Lemonade",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When": {
+      "Query: {{Atelier.Cauldron/ConfigValue:CMC}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
+      },
+    "Entries": {
+      "wildflour.atelierjuicebar_SO_3": {
+        "Name": "{{i18n:atelierjuicebar_SO_3.name}}",
+        "Requester": "George",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierjuicebar_SO_3.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_SO_3a.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "GeorgeDrinks",
+                "DropBoxGameLocation": "JoshHouse",
+                "DropBoxIndicatorLocation": "4 16",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_green_lemonade"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_SO_3b.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "GeorgeDrinks",
+                "DropBoxGameLocation": "JoshHouse",
+                "DropBoxIndicatorLocation": "4 16",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_classic_lemonade"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_SO_3c.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "GeorgeDrinks",
+                "DropBoxGameLocation": "JoshHouse",
+                "DropBoxIndicatorLocation": "4 16",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_iced_tea"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_SO_3d.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "GeorgeDrinks",
+                "DropBoxGameLocation": "JoshHouse",
+                "DropBoxIndicatorLocation": "4 16",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_peach_icedtea"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "13464"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "George"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.atelierjuicebar_SO3_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      }
+    }
+  },
+
+  {
+    "LogName": "Special Orders Kombucha",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When": {"Atelier.Cauldron/ConfigValue:SOBarista": "True","Atelier.Cauldron/ConfigValue:WildFood": "True"},
+    "Entries": {
+        "wildflour.atelierjuicebar_TeaSO_3": {
+        "Name": "{{i18n:atelierjuicebar_TeaSO_3.name}}",
+        "Requester": "Robin",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:atelierjuicebar_TeaSO_3.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_TeaSO_3a.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "RobinKombucha",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "6 19",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_apple_kombucha",
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_TeaSO_3b.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "RobinKombucha",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "6 19",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_raspberry_kombucha",
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_TeaSO_3c.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "RobinKombucha",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "6 19",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_strawberry_kombucha",
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:atelierjuicebar_TeaSO_3d.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "RobinKombucha",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "6 19",
+                "AcceptedContextTags": "item_wildflour.atelierjuicebar_pomegranate_kombucha",
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "15000"
+              }
+            },
+      
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Robin"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.atelierjuicebar_TeaSO3_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      },
+        "wildflour.atelierjuicebar_TeaSO_6": {
+      "Name": "{{i18n:atelierjuicebar_TeaSO_6.name}}",
+      "Requester": "Alex",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:atelierjuicebar_TeaSO_6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:atelierjuicebar_TeaSO_6.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "kombucha_item",
+              "Message": "{{i18n:atelierjuicebar_TeaSO_6.accept}}",
+              "TargetName": "Alex"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "5000"
+            }
+          },
+      
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+      }
+    }
+  }
+]
+}
+

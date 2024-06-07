@@ -1,0 +1,24 @@
+{
+    "Name": "Wildflour's Atelier Goods - Special Orders",
+    "Author": "wildflourmods",
+    "Version": "1.0",
+    "Description": "Adds special orders related to Wildflour's Atelier Goods mods",
+    "UniqueID": "wildflour.atelierorders",
+    "UpdateKeys": ["Nexus:22740"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "wildflour.ateliercrops", "IsRequired": false},
+        {"UniqueID": "wildflour.gourmetpantry", "IsRequired": false},
+        {"UniqueID": "wildflour.alesxmeads", "IsRequired": false},
+        {"UniqueID": "wildflour.atelierjuicebar", "IsRequired": false},
+        {"UniqueID": "wildflour.ateliercandy", "IsRequired": false},
+        {"UniqueID": "wildflour.atelierbarista", "IsRequired": false},
+        {"UniqueID": "wildflour.atelierfloral", "IsRequired": false},
+        {"UniqueID": "wildflour.atelierfrozen", "IsRequired": false},
+        {"UniqueID": "wildflour.jams", "IsRequired": false}
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

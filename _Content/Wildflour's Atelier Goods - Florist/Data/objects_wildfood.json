@@ -1,0 +1,213 @@
+{
+    "Changes": [
+        
+
+        {
+            "LogName":"Add Atelier Floral Wild Food Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierfloral_mallow_bouquet": {
+                    "Name": "wildflour.atelierfloral_mallow_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_mallow_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_mallow_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 9
+            },
+                "wildflour.atelierfloral_sakura_bouquet": {
+                    "Name": "wildflour.atelierfloral_sakura_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_sakura_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_sakura_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 10
+            },
+                "wildflour.atelierfloral_mallow_perfume": {
+                    "Name": "wildflour.atelierfloral_mallow_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_mallow_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_mallow_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 25
+            },         
+                "wildflour.atelierfloral_sakura_perfume": {
+                    "Name": "wildflour.atelierfloral_sakura_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_sakura_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_sakura_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 26
+            },       
+                "wildflour.atelierfloral_dried_mallow": {
+                    "Name": "wildflour.atelierfloral_dried_mallow",
+                    "DisplayName": "{{i18n:atelierfloral_dried_mallow.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_mallow.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 73
+            },
+                "wildflour.atelierfloral_dried_sakura": {
+                    "Name": "wildflour.atelierfloral_dried_sakura",
+                    "DisplayName": "{{i18n:atelierfloral_dried_sakura.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_sakura.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 74
+            },
+                "wildflour.atelierfloral_chiffon_incense": {
+                    "Name": "wildflour.atelierfloral_chiffon_incense",
+                    "DisplayName": "{{i18n:atelierfloral_chiffon_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_chiffon_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 103
+            },
+        }
+        },
+
+        {
+            "LogName":"Add Atelier Floral Wild Food Candles and Soap",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": { "HasMod: |contains=wildflour.honeybees": true },
+            "Entries": { 
+                "wildflour.atelierfloral_mallow_candles": {
+                    "Name": "wildflour.atelierfloral_mallow_candles",
+                    "DisplayName": "{{i18n:atelierfloral_mallow_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_mallow_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 57
+            },
+                "wildflour.atelierfloral_mallow_soap": {
+                    "Name": "wildflour.atelierfloral_mallow_soap",
+                    "DisplayName": "{{i18n:atelierfloral_mallow_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_mallow_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 41
+            },  
+                "wildflour.atelierfloral_sakura_candles": {
+                    "Name": "wildflour.atelierfloral_sakura_candles",
+                    "DisplayName": "{{i18n:atelierfloral_sakura_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_sakura_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 58
+            },
+                "wildflour.atelierfloral_sakura_soap": {
+                    "Name": "wildflour.atelierfloral_sakura_soap",
+                    "DisplayName": "{{i18n:atelierfloral_sakura_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_sakura_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 42
+            },
+        }
+        },
+
+
+    ]
+}

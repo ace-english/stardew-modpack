@@ -1,0 +1,112 @@
+{
+  "Name": "Headband (Daisies)",
+
+	// FRONT
+  "FrontHat": {
+    "ColorMasks": [
+      [ 165, 165, 165 ],
+      [ 254, 254, 254 ],
+      [ 217, 217, 217 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      }
+    ]
+  },
+
+	// RIGHT
+  "RightHat": {
+    "ColorMasks": [
+      [ 165, 165, 165 ],
+      [ 254, 254, 254 ],
+      [ 217, 217, 217 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      }
+    ]
+  },
+
+	// LEFT
+  "LeftHat": {
+    "Flipped": true,
+    "ColorMasks": [
+      [ 165, 165, 165 ],
+      [ 254, 254, 254 ],
+      [ 217, 217, 217 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      }
+    ]
+  },
+
+	// BACK
+  "BackHat": {
+    "ColorMasks": [
+      [ 165, 165, 165 ],
+      [ 254, 254, 254 ],
+      [ 217, 217, 217 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 40
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      }
+    ]
+  }
+}

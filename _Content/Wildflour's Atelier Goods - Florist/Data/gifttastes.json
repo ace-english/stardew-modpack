@@ -1,0 +1,50 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Atelier Floral Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+ 
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Caroline", 1],
+                    "Value": "wildflour_candle_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Haley", 1],
+                    "Value": "wildflour_perfume_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Evelyn", 1],
+                    "Value": "wildflour_potpourri_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jas", 1],
+                    "Value": "wildflour_bouquet_item",
+                    "Delimiter": " "
+                },       
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Sam", 1],
+                    "Value": "wildflour.atelierfloral_tulip_bouquet",
+                    "Delimiter": " "
+                }
+
+
+            ]
+            }
+
+]
+}

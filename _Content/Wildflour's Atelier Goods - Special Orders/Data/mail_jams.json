@@ -1,0 +1,48 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.jams_SO2_reward": "{{i18n: jams_SO2_reward.text}} %item id (O)wildflour.gourmetpantry_pectin 20 %%[#]{{i18n: jams_SO2_reward.name}}",     
+                    "wildflour.jams_SO3_reward": "{{i18n: jams_SO3_reward.text}} %item id (BC)wildflour.gourmetpantry_KitchenBlender 1 %%[#]{{i18n: jams_SO3_reward.name}}", 
+                    "wildflour.jams_SO4_reward": "{{i18n: jams_SO4_reward.text}} %item id (O)wildflour.ateliercrops_limesapling 2 %%[#]{{i18n: jams_SO4_reward.name}}", 
+                    "wildflour.jams_SO5_reward": "{{i18n: jams_SO5_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: jams_SO5_reward.name}}" 
+                }
+            },
+
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.jams_SO2mail/n wildflour.jams_SO2_complete/x wildflour.jams_SO2_reward": "null",
+                "wildflour.jams_SO3mail/n wildflour.jams_SO3_complete/x wildflour.jams_SO3_reward": "null",
+                "wildflour.jams_SO4mail/n wildflour.jams_SO4_complete/x wildflour.jams_SO4_reward": "null",			
+                "wildflour.jams_SO5mail/n wildflour.jams_SO5_complete/x wildflour.jams_SO5_reward": "null"		
+            
+            }
+            },         
+        
+       /* {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                		
+            },
+            "When": {"EasyRecipes": false}
+            }       
+*/
+
+]
+}

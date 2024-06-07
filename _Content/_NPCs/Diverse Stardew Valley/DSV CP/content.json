@@ -1,0 +1,2424 @@
+{
+	"Format": "2.0.0",
+	"DynamicTokens": [   
+		
+//
+///////////// SHARED CORE TOKENS /////////////
+//
+		
+// ODD YEAR TOKEN
+		{
+			"Name": "OddYearToken",
+			"Value": "2",
+			"When":
+			{
+				"Query: {{Year}} % 2 = 1": false
+			},
+		},
+		{
+			"Name": "OddYearToken",
+			"Value": "1",
+			"When":
+			{
+				"Query: {{Year}} % 2 = 1": true
+			},
+		},
+		
+// SHARED RANDOM OUTFITS
+		{
+			"Name": "RandomTwoToken",
+			"Value": "{{Random: 1, 2 |key= RandomTwo}}",
+		},
+		{
+			"Name": "RandomThreeToken",
+			"Value": "{{Random: 1, 2, 3 |key= RandomThree}}",
+		},
+		{
+			"Name": "RandomFourToken",
+			"Value": "{{Random: 1, 2, 3, 4 |key= RandomFour}}",
+		},
+		{
+			"Name": "RandomSpiritsEveTwoToken",
+			"Value": "{{Random: 1, 2 |key= RandomSpiritsEveTwo}}"
+		},
+		{
+			"Name": "RandomSpiritsEveThreeToken",
+			"Value": "{{Random: 1, 2, 3 |key= RandomSpiritsEveThree}}"
+		},
+
+// SWIM TOKENS
+		{
+			"Name": "SwimToken",
+			"Value": "{{DSV.Core/ConfigValue:BeachStyle}}",
+			"When":
+			{
+				"DSV.Core/ConfigValue:BeachStyle |contains= RandomBeachwear": false
+			}
+		},
+		{
+			"Name": "SwimToken",
+			"Value": "DSVStyle, VanillaStyle",
+			"When":
+			{
+				"DSV.Core/ConfigValue:BeachStyle |contains= RandomBeachwear": true
+			}
+		},
+		
+// NO MORE WAR COMPAT
+		{
+			"Name": "NoMoreWarToken",
+			"Value": "False",
+		},
+		{
+			"Name": "NoMoreWarToken",
+			"Value": "True",
+			"When":
+			{
+				"HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist, Mazout.NoMoreWarSFGKentReporterDeGuerre": true
+			},
+		},
+		{
+			"Name": "NoMoreWarToken",
+			"Value": "True",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true'": true,
+				"DSV.Core/ConfigValue:NoMoreWarDialogueEdits": "true"
+			},
+		}, 
+		{
+			"Name": "NoMoreWarToken",
+			"Value": "True",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": true,
+			},
+		},
+		
+// SUNGLASSES OVERLAYS
+
+		{
+			"Name": "SunglassesToken",
+			"Value": ""
+		},
+		{			
+			"Name": "SunglassesToken",
+			"Value": "SunglassesSpringFall",
+			"When":
+			{
+				"Season |contains= spring, fall": true,
+				"Weather |contains= sun, wind": true,
+				"Time": "{{Range: 0800, 1800}}",
+			}
+		},
+		{			
+			"Name": "SunglassesToken",
+			"Value": "SunglassesSummer",
+			"When":
+			{
+				"Season |contains= summer": true,
+				"Weather |contains= sun, wind": true,
+				"Time": "{{Range: 0800, 1900}}",
+			}
+		},
+		
+//
+///////////// INDIVIDUAL TOKENS /////////////
+//
+
+// ABIGAIL MAKE-UP
+		{
+			"Name": "AbigailMakeupToken",
+			"Value": "FullGoth",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AbigailGothMakeup |contains= Always": true
+			},
+		},
+		{
+			"Name": "AbigailMakeupToken",
+			"Value": "{{Random: FullGoth, GothEyeshadow, GothLipstick, RegularMakeup, SmokyEye, x, x, x |key=AbigailMakeup}}",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AbigailGothMakeup |contains= Dynamic": true
+			},
+		},
+
+// ALEX KIPPOT
+
+		{
+			"Name": "JewishAlexKippahToken",
+			"Value": "",
+		},
+		{
+			"Name": "JewishAlexKippahToken",
+			"Value": "Kippah",
+			"When":
+			{
+				"DayOfWeek |contains= Friday": true,
+				"Time": "{{Range: 1800, 2600}}",
+				"IsOutdoors": false,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+		},
+		{
+			"Name": "JewishAlexKippahToken",
+			"Value": "Kippah",
+			"When":
+			{
+				"DayOfWeek |contains= Friday": true,
+				"Time": "{{Range: 1800, 2600}}",
+				"Season |contains= spring, winter": true,
+				"RandomTwoToken |contains= 1": true,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+		},
+		{
+			"Name": "JewishAlexKippahToken",
+			"Value": "Kippah",
+			"When":
+			{
+				"DayOfWeek |contains= Friday": true,
+				"Time": "{{Range: 1800, 2600}}",
+				"Season |contains= winter": true,
+				"RandomTwoToken |contains= 2": true,
+				"Weather |contains= sunny": true,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+		},
+		{
+			"Name": "JewishAlexKippahToken",
+			"Value": "Kippah",
+			"When":
+			{
+				"DayOfWeek |contains= Saturday": true,
+				"Time": "{{Range: 0600, 1800}}",
+				"IsOutdoors": false,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+		},
+		{
+			"Name": "JewishAlexKippahToken",
+			"Value": "Kippah",
+			"When":
+			{
+				"DayOfWeek |contains= Saturday": true,
+				"Time": "{{Range: 0600, 1800}}",
+				"Season |contains= spring, winter": true,
+				"RandomTwoToken |contains= 1": true,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+		},
+		{
+			"Name": "JewishAlexKippahToken",
+			"Value": "Kippah",
+			"When":
+			{
+				"DayOfWeek |contains= Saturday": true,
+				"Time": "{{Range: 0600, 1800}}",
+				"Season |contains= winter": true,
+				"RandomTwoToken |contains= 2": true,
+				"Weather |contains= sunny": true,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Full": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+		},
+		{
+			"Name": "JewishAlexKippahToken",
+			"Value": "Kippah",
+			"When":
+			{
+				"DayOfWeek |contains= Saturday": true,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Light, Ultralight": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= True": true
+			},
+		},
+		{
+			"Name": "JewishAlexKippahToken",
+			"Value": "",
+			"When":
+			{
+				"DayEvent |contains= wedding": true,
+				"HasMod |contains= Elaho.AlexJewishWeddingSuit": true
+			},
+		},
+
+// ALEX STAR OF DAVID PENDANT
+		{			
+			"Name": "AlexStarofDavidToken",
+			"Value": "Regular",
+		},
+		{			
+			"Name": "AlexStarofDavidToken",
+			"Value": "Summer_1",
+			"When":
+			{				
+				"Season |contains= summer": true,
+				"RandomTwoToken |contains= 1": true
+			},
+		},
+		{			
+			"Name": "AlexStarofDavidToken",
+			"Value": "Summer_1_Rain",
+			"When":
+			{				
+				"Season |contains= summer": true,
+				"RandomTwoToken |contains= 1": true,
+				"DSV.Core/Weather:Alex |contains= rain": true
+			},
+		},
+
+// ALEX HALEY VISITS
+		{
+			"Name": "AlexHaleyVisitToken",
+			"Value": "true"
+		},
+		{
+			"Name": "AlexHaleyVisitToken",
+			"Value": "false",
+			"When":
+			{
+				"Hearts:Haley": "{{Range: 0,5}}",
+				"DayOfWeek |contains= Wednesday": true
+			}
+		},
+		{
+			"Name": "AlexHaleyVisitToken",
+			"Value": "true",
+			"When":
+			{
+				"HasMod |contains=missmarlot.bachelorsstayfriends, Amaranthacyan.PPAFSMAPI": true
+			}
+		},
+
+// HALEY HEARING AIDS
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "",
+		},
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "One",
+			"When":
+			{
+				"Season |contains= spring": true,
+				"RandomThreeToken |contains= 2": true
+			},
+		},
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "One",
+			"When":
+			{
+				"Season |contains= summer, fall": true,
+				"RandomThreeToken |contains= 1": true
+			},
+		},
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "One",
+			"When":
+			{
+				"LocationName |contains= Desert, IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest": true,
+				"RandomThreeToken |contains= 1": true
+			},
+		},
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "Both",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Black}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true'": true,
+				"Season |contains= winter": true,
+				"RandomThreeToken |contains= 1, 3": true
+			},
+		},
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "Both",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Black}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true'": true,
+				"LocationName |contains= Desert, IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest": true,
+				"RandomThreeToken |contains= 3": true
+			},
+		},
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "Regular",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Romani, Vanilla}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"Season |contains= spring": true,
+				"RandomThreeToken |contains= 1": true
+			},
+		},
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "Regular",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Romani, Vanilla}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"Season |contains= spring": false,
+				"RandomThreeToken |contains= 2": true
+			},
+		},
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "Regular",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Romani, Vanilla}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"Season |contains= winter": true,
+				"RandomThreeToken |contains= 3": true
+			},
+		},
+		{
+			"Name": "HaleyHearingAidToken",
+			"Value": "Regular",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Romani, Vanilla}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"LocationName |contains= Desert, IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest": true,
+				"RandomThreeToken |contains= 2": true
+			},
+		},
+		{
+			"Name": "HaleyHearingAidTokenSpiritsEve",
+			"Value": "",
+		},
+		{
+			"Name": "HaleyHearingAidTokenSpiritsEve",
+			"Value": "Both",
+			"When":
+			{
+				"RandomSpiritsEveTwoToken |contains= 2": "true"
+			},
+		},
+		{
+			"Name": "HaleyHearingAidTokenSpiritsEve",
+			"Value": "Regular",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Romani, Vanilla}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"RandomSpiritsEveTwoToken |contains= 1": "true"
+			},
+		},
+		{
+			"Name": "HaleyHearingAidTokenBeach",
+			"Value": "false",
+		},
+		{
+			"Name": "HaleyHearingAidTokenBeach",
+			"Value": "true",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Black}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true'": true,
+				"DSV.Core/ConfigValue:BeachStyle |contains= VanillaStyle": false,
+			},
+		},
+		{
+			"Name": "HaleyHearingAidTokenBeach",
+			"Value": "true",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Romani, Vanilla}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true,
+				"DSV.Core/ConfigValue:BeachStyle |contains= VanillaStyle": true,
+			},
+		},
+
+// KENT SWIM
+		{
+			"Name": "KentSwimToken",
+			"Value": "1"
+		},
+		{
+			"Name": "KentSwimToken",
+			"Value": "2",
+			"When":
+			{
+				"Year |contains= 3": true
+			}
+		},
+		{
+			"Name": "KentSwimToken",
+			"Value": "3",
+			"When":
+			{
+				"Year |contains= 1, 2, 3": false
+			}
+		},
+
+// KENT FAMILY RELIGION
+		{
+			"Name": "KentFamilyReligionToken",
+			"Value": "Vanilla"
+		},
+		{
+			"Name": "KentFamilyReligionToken",
+			"Value": "JustKent",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": true,
+				"Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true'": false
+			}
+		},
+		{
+			"Name": "KentFamilyReligionToken",
+			"Value": "JustJodi",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": false,
+				"Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true'": true
+			}
+		},
+		{
+			"Name": "KentFamilyReligionToken",
+			"Value": "Both",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": true,
+				"Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true'": true
+			}
+		},
+
+// MARU BLACK HAIR
+
+		{
+			"Name": "MaruBlackHairToken",
+			"Value": "Daily",
+		},
+		{
+			"Name": "MaruBlackHairToken",
+			"Value": "Winter_1",
+			"When":
+			{
+				"RandomThreeToken |contains= 1": true,
+				"DSV.Core/Weather:Maru |contains= Snow": true,
+				"DSV.Core/ConfigValue:MaruLightweightConfig |contains= Full": true
+			},
+		},
+		{
+			"Name": "MaruBlackHairToken",
+			"Value": "Winter_2",
+			"When":
+			{
+				"RandomThreeToken |contains= 2": true,
+				"DSV.Core/Weather:Maru |contains= Snow": true,
+				"DSV.Core/ConfigValue:MaruLightweightConfig |contains= Full": true
+			},
+		},
+		{
+			"Name": "MaruBlackHairTokenFlowerDance",
+			"Value": "FlowerDance_1",
+		},
+		{
+			"Name": "MaruBlackHairTokenFlowerDance",
+			"Value": "FlowerDance_1_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Maru": true
+			},
+		},
+
+// PAM SALOON DRINK FLUSH OVERLAY
+		{
+			"Name": "PamDrinkToken",
+			"Value": "",
+		},
+		{
+			"Name": "PamDrinkToken", // Pre-bus repair Full
+			"Value": "DrinkFlushOverlay",
+			"When":
+			{
+				"LocationName": "Saloon",
+				"HasFlag |contains=ccVault": false,
+				"HasFlag |contains=jojaVault": false,
+				"DSV.Core/ConfigValue:PamLightweightConfig |contains= Ultralight": false,
+			},
+		},
+		{
+			"Name": "PamDrinkToken", // Post-bus repair, pre-house upgrade
+			"Value": "{{Random: DrinkFlushOverlay, DrinkFlushOverlay, x}}",
+			"When":
+			{
+				"LocationName": "Saloon",
+				"HasFlag": "ccVault, jojaVault",
+				"HasSeenEvent |contains=503180": false,
+				"DSV.Core/ConfigValue:PamLightweightConfig |contains= Ultralight": false,
+			},
+		},
+		{
+			"Name": "PamDrinkToken",
+			"Value": "{{Random: DrinkFlushOverlay, x, x}}", // Post-bus repair, post-house upgrade
+			"When":
+			{
+				"LocationName": "Saloon",
+				"HasFlag": "ccVault, jojaVault",
+				"HasSeenEvent |contains=503180": true,
+				"DSV.Core/ConfigValue:PamLightweightConfig |contains= Ultralight": false,
+			},
+		},
+		{
+			"Name": "PamDrinkToken", // Pre-bus repair Light
+			"Value": "DrinkFlushOverlay",
+			"When":
+			{
+				"LocationName": "Saloon",
+				"HasFlag |contains=ccVault": false,
+				"HasFlag |contains=jojaVault": false,
+				"DSV.Core/ConfigValue:PamLightweightConfig |contains= Ultralight": true,
+			},
+		},
+		
+// PENNY PPAF FRECKLES
+		{
+			"Name": "PennyPPAFFrecklesToken",
+			"Value": "Sob",
+		},
+		{
+			"Name": "PennyPPAFFrecklesToken",
+			"Value": "Sad",
+			"When":
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ShouldEditPortraits:Penny": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains= FullyPlatonic, SexWithoutRomance": true,
+			},
+		},
+
+// SAM BINDER
+		{
+			"Name": "SamBinderToken",
+			"Value": "Binder",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamBinder |contains= True": true
+			}
+		},
+		{
+			"Name": "SamBinderToken",
+			"Value": "NoBinder",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamBinder |contains= True": false
+			}
+		},
+		
+// SEBASTIAN GLASSES
+
+		{
+			"Name": "SebGlassesToken",
+			"Value": "Glasses",
+		},
+		{
+			"Name": "SebGlassesToken",
+			"Value": "Glasses_Fall3",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SebastianLightweightConfig |contains= Full": true,
+				"DSV.Core/Weather:Sebastian |contains= Rain": true,
+				"Season |contains= fall": true,
+				"RandomThreeToken |contains= 3": true
+			},
+		},
+		{
+			"Name": "SebGlassesToken",
+			"Value": "Glasses_Summer",
+			"When": 
+			{
+				"Season |contains= summer": true,
+			},
+		},
+		{
+			"Name": "SebGlassesToken",
+			"Value": "",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SebGlasses |contains= Dynamic": true,
+				"LocationName |contains= Farmhouse, SebastianRoom, SamHouse": false		
+			},
+		},
+		{
+			"Name": "SebGlassesTokenHelmet",
+			"Value": "Glasses",
+		},
+		{
+			"Name": "SebGlassesTokenHelmet",
+			"Value": "Glasses_Helmet",
+			"When":
+			{
+				"LocationName |contains= Mountain": true
+			},
+		},
+		
+// SHANE DYNAMIC
+		{
+			"Name": "ShaneDynamicToken",
+			"Value": "{{DSV.Core/ConfigValue:ShaneSelfCare}}",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneSelfCare |contains= Dynamic": false,
+			},
+		},
+		{
+			"Name": "ShaneDynamicToken",
+			"Value": "messy",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneSelfCare |contains= Dynamic": true,
+				"DSV.Core/ConfigValue:ShaneLightweightConfig |contains= Ultralight": true,
+			},
+		},
+		{
+			"Name": "ShaneDynamicToken",
+			"Value": "messy",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneSelfCare |contains= Dynamic": true,
+				"DSV.Core/ConfigValue:ShaneLightweightConfig |contains= Ultralight": false,
+				"HasSeenEvent |contains= 2118991": false,
+			},
+		},
+		{
+			"Name": "ShaneDynamicToken",
+			"Value": "{{Random: neat, messy |key=ShaneDynamic}}",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneSelfCare |contains= Dynamic": true,
+				"DSV.Core/ConfigValue:ShaneLightweightConfig |contains= Ultralight": false,
+				"HasSeenEvent |contains= 2118991": true,
+				"HasSeenEvent |contains= 3900074": false,
+				"Hearts:Shane": "{{Range: 0, 7}}",
+			},
+		},
+		{
+			"Name": "ShaneDynamicToken",
+			"Value": "{{Random: neat, neat, neat, messy, messy |key=ShaneDynamic}}",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneSelfCare |contains= Dynamic": true,
+				"DSV.Core/ConfigValue:ShaneLightweightConfig |contains= Ultralight": false,
+				"HasSeenEvent |contains= 2118991": true,
+				"HasSeenEvent |contains= 3900074": false,
+				"Hearts:Shane": "{{Range: 8, 14}}",
+			},
+		},
+		{
+			"Name": "ShaneDynamicToken",
+			"Value": "{{Random: neat, neat, neat, neat, neat, neat, neat, neat, neat, messy |key=ShaneDynamic}}",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneSelfCare |contains= Dynamic": true,
+				"DSV.Core/ConfigValue:ShaneLightweightConfig |contains= Ultralight": false,
+				"HasSeenEvent |contains= 2118991": true,
+				"HasSeenEvent |contains= 3900074": true,
+			},
+		},
+		
+// SHANE JOJA UNIFORM
+
+		{
+			"Name": "ShaneJojaToken",
+			"Value": "Warm",
+			"When":
+			{
+				"Season |contains= spring, summer": true
+			},
+		},
+		{
+			"Name": "ShaneJojaToken",
+			"Value": "Cool",
+			"When":
+			{
+				"Season |contains= fall, winter": true
+			},
+		},
+
+// INDIVIDUAL RANDOM OUTFITS
+		{
+			"Name": "RandomPennyToken",
+			"Value": "{{Random: 1, 2, 3 |key= RandomPenny}}",
+		},
+		{
+			"Name": "RandomPennyToken",
+			"Value": "1",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PennyPamDynamicOutfits |contains= True": true,
+				"HasFlag |contains= ccVault, jojaVault": false,
+			},
+		},
+		{
+			"Name": "RandomPamToken",
+			"Value": "{{Random: 1, 2 |key= RandomPam}}",
+		},
+		{
+			"Name": "RandomPamToken",
+			"Value": "1",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PennyPamDynamicOutfits |contains= True": true,
+				"HasFlag |contains= ccVault, jojaVault": false,
+			},
+		},
+		{
+			"Name": "RandomShaneToken",
+			"Value": "1",
+		},
+		{
+			"Name": "RandomShaneToken",
+			"Value": "{{Random: 1, 2 |key= RandomShane}}",
+			"When":
+			{
+				"ShaneDynamicToken |contains= Neat": true,
+			},
+		},
+		{
+			"Name": "RandomMarnieToken",
+			"Value": "{{Random: 1, 2, 3 |key= RandomMarnie}}"
+		},
+		{
+			"Name": "RandomMarnieToken",
+			"Value": "{{Random: 1, 2 |key= RandomMarnie}}",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieDynamicOutfits |contains= True": true
+			},
+		},
+		{
+			"Name": "RandomHarveyToken",
+			"Value": "{{Random: 1, 2 |key= RandomHarvey}}",
+		},
+		{
+			"Name": "RandomHarveyToken",
+			"Value": "{{Random: 1, 2, 3 |key= RandomHarvey}}",
+			"When":
+			{
+				"HasMod |contains= rkni.hgapos": true,
+			},
+		},
+
+// FLOWER DANCE TOKENS
+		{
+			"Name": "FlowerDanceYearDialogueToken",
+			"Value": ""
+		},
+		{
+			"Name": "FlowerDanceYearDialogueToken",
+			"Value": "_y2",
+			"When": 
+			{
+				"OddYearToken": "2"
+			}
+		},
+		{
+			"Name": "AlexFlowerDanceToken",
+			"Value": ""
+		},
+		{
+			"Name": "AlexFlowerDanceToken",
+			"Value": "_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Alex": true,
+				"DSV.Core/ConfigValue:AlexLightweightConfig |contains= Ultralight": false
+			},
+		},
+		{
+			"Name": "AlexFlowerDanceToken",
+			"Value": "_Elaho",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= true": true,
+			},
+		},
+		{
+			"Name": "AlexFlowerDanceToken",
+			"Value": "_FlowerQueen_Elaho",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Alex": true,
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:JewishMullners |contains= true": true,
+			},
+		},
+		{
+			"Name": "ElliottFlowerDanceToken",
+			"Value": ""
+		},
+		{
+			"Name": "ElliottFlowerDanceToken",
+			"Value": "_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Elliott": true,
+				"DayEvent |contains= flower dance": true
+			},
+		},
+		{
+			"Name": "ElliottFlowerDanceToken",
+			"Value": "_Elaho",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla, Elaho.ElliottScottishFestivalRegalia": true
+			},
+		},
+		{
+			"Name": "ElliottFlowerDanceToken",
+			"Value": "_FlowerQueen_Elaho",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Elliott": true,
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla, Elaho.ElliottScottishFestivalRegalia": true,
+				"DayEvent |contains= flower dance": true
+			},
+		},
+		{
+			"Name": "HarveyFlowerDanceToken",
+			"Value": "",
+		},
+		{
+			"Name": "HarveyFlowerDanceToken",
+			"Value": "_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Harvey": true,
+				"DSV.Core/ConfigValue:HarveyLightweightConfig |contains= Ultralight": false
+			},
+		},
+		{
+			"Name": "HarveyFlowerDanceToken",
+			"Value": "_Elaho",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"Query: '{{DSV.Core/ConfigValue:HarveyVariant |contains= Vanilla}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.MedinaquirinPinzolHarvey}}' = 'true'": true
+			},
+		},
+		{
+			"Name": "HarveyFlowerDanceToken",
+			"Value": "_FlowerQueen_Elaho",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Harvey": true,
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"Query: '{{DSV.Core/ConfigValue:HarveyVariant |contains= Vanilla}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.MedinaquirinPinzolHarvey}}' = 'true'": true
+			},
+		},
+		{
+			"Name": "JasFlowerDanceToken",
+			"Value": "{{Random: 1, 2|key=VincentJasFlowerDance}}",
+		},	
+		{
+			"Name": "JasFlowerDanceToken",
+			"Value": "{{Random: 1, 2|key=VincentJasFlowerDance}}_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Jas": true,
+				"DayEvent |contains= flower dance": true
+			}
+		},
+		{
+			"Name": "KentFlowerDanceToken",
+			"Value": "1"
+		},
+		{
+			"Name": "KentFlowerDanceToken",
+			"Value": "{{Random: 1, 2 |key= KentFestival}}",
+			"When":
+			{
+				"NoMoreWarToken": false,
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": false
+			}
+		},
+		{
+			"Name": "KentFlowerDanceToken",
+			"Value": "1_Elaho",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DayEvent |contains= flower dance": true,
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": false
+			},
+		},
+		{
+			"Name": "LeahFlowerDanceToken",
+			"Value": ""
+		},
+		{
+			"Name": "LeahFlowerDanceToken",
+			"Value": "_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Leah": true,
+				"DSV.Core/ConfigValue:LeahLightweightConfig |contains= Ultralight": false
+			},
+		},
+		{
+			"Name": "LeahFlowerDanceToken",
+			"Value": "_Elaho",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:LeahVariant |contains= Vanilla": true,
+			},
+		},
+		{
+			"Name": "LeahFlowerDanceToken",
+			"Value": "_FlowerQueen_Elaho",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Leah": true,
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:LeahVariant |contains= Vanilla": true,
+			},
+		},
+		{
+			"Name": "PennyFlowerDanceToken",
+			"Value": ""
+		},
+		{
+			"Name": "PennyFlowerDanceToken",
+			"Value": "_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Penny": true,
+				"DayEvent |contains= flower dance": true
+			},
+		},
+		{
+			"Name": "PennyFlowerDanceToken",
+			"Value": "_Elaho",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true
+			},
+		},
+		{
+			"Name": "PennyFlowerDanceToken",
+			"Value": "_FlowerQueen_Elaho",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Penny": true,
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DayEvent |contains= flower dance": true
+			},
+		},
+		{
+			"Name": "SamFlowerDanceToken",
+			"Value": ""
+		},
+		{
+			"Name": "SamFlowerDanceToken",
+			"Value": "_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Sam": true,
+				"DayEvent |contains= flower dance": true
+			},
+		},
+		{
+			"Name": "SamFlowerDanceToken",
+			"Value": "_Elaho",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": false
+			},
+		},
+		{
+			"Name": "SamFlowerDanceToken",
+			"Value": "_FlowerQueen_Elaho",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Sam": true,
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DayEvent |contains= flower dance": true,
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": false
+			},
+		},
+		{
+			"Name": "ShaneFlowerDanceToken",
+			"Value": "",
+		},
+		{
+			"Name": "ShaneFlowerDanceToken",
+			"Value": "_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Shane": true,
+				"DSV.Core/ConfigValue:ShaneLightweightConfig |contains= Ultralight": false
+			},
+		},
+		{
+			"Name": "ShaneFlowerDanceToken",
+			"Value": "_Elaho",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:ShaneVariant |contains= Vanilla": true,
+			},
+		},
+		{
+			"Name": "ShaneFlowerDanceToken",
+			"Value": "_FlowerQueen_Elaho",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Shane": true,
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DSV.Core/ConfigValue:ShaneVariant |contains= Vanilla": true,
+			},
+		},
+		{
+			"Name": "VincentFlowerDanceToken",
+			"Value": "{{Random: 1, 2|key=VincentJasFlowerDance}}",
+		},		
+		{
+			"Name": "VincentFlowerDanceToken",
+			"Value": "1_Elaho",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DayEvent |contains= flower dance": true
+			}
+		},
+		{
+			"Name": "VincentFlowerDanceToken",
+			"Value": "{{Random: 1, 2|key=VincentJasFlowerDance}}_FlowerQueen",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Vincent": true,
+				"DayEvent |contains= flower dance": true
+			}
+		},	
+		{
+			"Name": "VincentFlowerDanceToken",
+			"Value": "1_FlowerQueen_Elaho",
+			"When":
+			{
+				"DSV.Core/FlowerQueen |contains= Vincent": true,
+				"HasMod |contains= Elaho.ElahosCulturalFlowerDanceVanilla": true,
+				"DayEvent |contains= flower dance": true,
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": false
+			}
+		},
+
+// ALTAR EDITS TOKENS
+
+		{
+			"Name": "AltarEditsToken",
+			"Value": "False",
+		},
+		{
+			"Name": "AltarEditsToken",
+			"Value": "True",
+			"When":
+			{
+				"Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true'": true,
+			}
+		},
+		{
+			"Name": "AltarEditsToken",
+			"Value": "True",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": true
+			}
+		},
+		{
+			"Name": "AltarEditsToken",
+			"Value": "True",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JewishMullners": "True"
+			}
+		},
+		{
+			"Name": "AltarEditsToken",
+			"Value": "True",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HarveyVariant |contains= Sikh": true
+			}
+		},
+	
+//
+///////////// COMPATIBILITY TOKENS /////////////
+//
+
+// HALEY'S PREGNANCY COMPATIBILITY
+		{
+			"Name": "HaleyMaternityToken",
+			"Value": "1",
+		},		
+		{
+			"Name": "HaleyMaternityToken",
+			"Value": "2",
+			"When":
+			{
+				"HasMod |contains= cptnmatruz.HaleysPregnancy": true,
+				"Season |contains= Summer": true
+			}
+		},	
+		{
+			"Name": "HaleyMaternityToken",
+			"Value": "3",
+			"When":
+			{
+				"HasMod |contains= cptnmatruz.HaleysPregnancy": true,
+				"Season |contains= Winter": true
+			}
+		},
+		
+// MARRIAGEABLE WIZARD
+		{
+			"Name": "WizardMarriageToken",
+			"Value": "Default",
+		},
+		{
+			"Name": "WizardMarriageToken",
+			"Value": "LookingForLove",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LFLWizard |contains= LookingForLove": true,
+				"HasMod |contains= foggy.LfL, mush.loveydovey": true,
+			}
+		},
+		{
+			"Name": "WizardMarriageToken",
+			"Value": "RomRas",
+			"When":
+			{
+				"HasMod |contains= Wolf.RomRas": true,
+			}
+		},
+
+// MARRIAGEABLE CLINT
+		{
+			"Name": "ClintMarriageToken",
+			"Value": "Default",
+		},
+		{
+			"Name": "ClintMarriageToken",
+			"Value": "LookingForLove",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LFLClint |contains= LookingForLove": true,
+				"HasMod |contains= foggy.LfL, mush.loveydovey": true,
+			},
+		},
+		{
+			"Name": "ClintMarriageToken",
+			"Value": "ImprovedClint",
+			"When":
+			{
+				"HasMod |contains= SoftPandaBoi.ClintReforged": true,
+			},
+		},
+		
+// GUNTHER MOD COMPATIBILITY
+		{
+			"Name": "GuntherCompatToken",
+			"Value": "Default",
+		},
+		{
+			"Name": "GuntherCompatToken",
+			"Value": "MuseumExpansion",
+			"When":
+			{
+				"HasMod |contains= andril11.charlie": true,
+			},
+		},
+		{
+			"Name": "GuntherCompatToken",
+			"Value": "MakeGuntherReal",
+			"When":
+			{
+				"HasMod |contains= Wolf.Gun": true,
+			},
+		},
+		{
+			"Name": "GuntherCompatToken",
+			"Value": "BefriendMarGun",
+			"When":
+			{
+				"HasMod |contains= Yoshimax.BefriendMarlon": true,
+			},
+		},
+		
+// MARLON MOD COMPATIBILITY
+		{
+			"Name": "MarlonCompatToken",
+			"Value": "Default",
+		},
+		{
+			"Name": "MarlonCompatToken",
+			"Value": "BefriendMarGun",
+			"When":
+			{
+				"HasMod |contains= Yoshimax.BefriendMarlon": true,
+			},
+		},
+		{
+			"Name": "MarlonCompatToken",
+			"Value": "MakeMarlonReal",
+			"When":
+			{
+				"HasMod |contains= Wolf.Marlon, Ghost.Marlon": true,
+			},
+		},
+		
+// GUNTHER MUSEUM EXPANSION
+		{
+			"Name": "GuntherMuseumExpansionToken",
+			"Value": "",
+		},
+		{
+			"Name": "GuntherMuseumExpansionToken",
+			"Value": "_shop",
+			"When":
+			{
+				"HasMod |contains= andril11.charlie": true,
+				"HasMod |contains= Wolf.Gun, Yoshimax.BefriendMarlon": false,
+				"DSV.Core/ConfigValue:GuntherVariant |contains= Off": false,
+			},
+		},
+		
+// LUTI & PRETTIER INTERIORS COMPAT
+		{
+			"Name": "LUTIToken",
+			"Value": ""
+		},
+		{
+			"Name": "LUTIToken",
+			"Value": "_LUTI",
+			"When":
+			{
+				"HasMod |contains= uglynt.town.interiors": true
+			}
+		},
+		{
+			"Name": "PrettierInteriorsToken",
+			"Value": ""
+		},
+		{
+			"Name": "PrettierInteriorsToken",
+			"Value": "_Prettier",
+			"When":
+			{
+				"HasMod |contains= pilzkopfi.prettier.interior": true
+			}
+		},
+
+// AGE COMPAT WINTER
+		{
+			"Name": "AGEIndoorOutdoorToken",
+			"Value": ""
+		},
+		{
+			"Name": "AGEIndoorOutdoorToken",
+			"Value": "_Indoor",
+			"When": 
+			{
+				"Season": "Winter",
+				"IsOutdoors": false,
+				"HasMod |contains= supert.adventureguildexpanded": true,
+			}
+		},
+		{
+			"Name": "AGEIndoorOutdoorToken",
+			"Value": "_Outdoor",
+			"When": 
+			{
+				"Season": "Winter",
+				"IsOutdoors": true,
+				"HasMod |contains= supert.adventureguildexpanded": true,
+			}
+		},
+		
+// ELAHO SEBASTIAN IMMERSIVE WEDDING COMPAT
+		{
+			"Name": "SebastianElahoUglyCryToken",
+			"Value": "",
+		},
+		{
+			"Name": "SebastianElahoUglyCryToken",
+			"Value": "_UglyCry",
+			"When":
+			{
+				"HasCraftingRecipe |contains= Crystal Skull": true,
+				"Query: '{{DSV.Core/ConfigValue:SebastianVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.ZoeDollSebastian}}' = 'true'": true,
+				"Relationship:Sebastian |contains= Engaged": true
+			},
+		},
+		{
+			"Name": "SebastianElahoUglyCryToken",
+			"Value": "_UglyCry_Summer",
+			"When":
+			{
+				"HasCraftingRecipe |contains= Crystal Skull": true,
+				"Query: '{{DSV.Core/ConfigValue:SebastianVariant |contains= Off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.ZoeDollSebastian}}' = 'true'": true,
+				"Relationship:Sebastian |contains= Engaged": true,
+				"Season |contains= summer": true
+			},
+		},
+
+// WEDDING TOKENS
+
+		{
+			"Name": "AbigailSeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:AbigailWeddingOutfit}}"
+		},
+		{
+			"Name": "AbigailSeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:AbigailWeddingOutfit}}_{{season}}",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:AbigailWeddingOutfit |contains= 6": true
+			}
+		},
+		{
+			"Name": "AbigailSeasonalWeddingToken",
+			"Value": "5",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AbigailRelationshipType |contains= FullyPlatonic": true,
+				"HasMod |contains= nraittanna.LifeCycleAbigailSebastian": false,
+			}
+		},
+		{
+			"Name": "AlexSeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:AlexWeddingOutfit}}"
+		},
+		{
+			"Name": "AlexSeasonalWeddingToken",
+			"Value": "1",
+			"When": 
+			{
+				"HasMod |contains= Elaho.AlexJewishWeddingSuit": false,
+				"DSV.Core/ConfigValue:AlexWeddingOutfit |contains= 6": true
+			}
+		},
+		{
+			"Name": "AlexSeasonalWeddingToken",
+			"Value": "6_{{season}}",
+			"When": 
+			{
+				"HasMod |contains= Elaho.AlexJewishWeddingSuit": true,
+				"DSV.Core/ConfigValue:AlexWeddingOutfit |contains= 6": true
+			}
+		},
+		{
+			"Name": "AlexSeasonalWeddingToken",
+			"Value": "5",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlexRelationshipType |contains= FullyPlatonic": true,
+				"HasMod |contains= ZoeDoll.JericAlexRivalHearts": false,
+				"HasMod |contains= baguettemagiqu7.NPCParkJaemin": false,
+			}
+		},
+		{
+			"Name": "ElliottSeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:ElliottWeddingOutfit}}"
+		},
+		{
+			"Name": "ElliottSeasonalWeddingToken",
+			"Value": "1",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:ElliottWeddingOutfit |contains= 6": true,
+				"DSV.Core/ConfigValue:ElliottVariant |contains= Modded": false
+			}
+		},
+		{
+			"Name": "ElliottSeasonalWeddingToken",
+			"Value": "6_{{season}}",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:ElliottWeddingOutfit |contains= 6": true,
+				"DSV.Core/ConfigValue:ElliottVariant |contains= Modded": true
+			}
+		},
+		{
+			"Name": "ElliottSeasonalWeddingToken",
+			"Value": "1",
+			"When": 
+			{
+				"HasMod |contains= Elaho.ElliottScottishWeddingKilt": false,
+				"DSV.Core/ConfigValue:ElliottWeddingOutfit |contains= 7": true
+			}
+		},
+		{
+			"Name": "ElliottSeasonalWeddingToken",
+			"Value": "7_{{season}}",
+			"When": 
+			{
+				"HasMod |contains= Elaho.ElliottScottishWeddingKilt": true,
+				"DSV.Core/ConfigValue:ElliottWeddingOutfit |contains= 7": true
+			}
+		},
+		{
+			"Name": "ElliottSeasonalWeddingToken",
+			"Value": "5",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ElliottRelationshipType |contains= FullyPlatonic": true,
+			}
+		},
+		{
+			"Name": "EmilySeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:EmilyWeddingOutfit}}"
+		},
+		{
+			"Name": "EmilySeasonalWeddingToken",
+			"Value": "6",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:EmilyRelationshipType |contains= FullyPlatonic": true,
+			}
+		},
+		{
+			"Name": "HaleySeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:HaleyWeddingOutfit}}"
+		},
+		{
+			"Name": "HaleySeasonalWeddingToken",
+			"Value": "6",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HaleyRelationshipType |contains= FullyPlatonic": true,
+				"HasMod |contains= nraittanna.LifeCycleHaleyLeah": false,
+			}
+		},
+		{
+			"Name": "HarveySeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:HarveyWeddingOutfit}}"
+		},
+		{
+			"Name": "HarveySeasonalWeddingToken",
+			"Value": "1",
+			"When": 
+			{
+				"HasMod |contains= Elaho.HarveyHungarianWeddingSuit": false,
+				"DSV.Core/ConfigValue:HarveyWeddingOutfit |contains= 5": true,
+			}
+		},
+		{
+			"Name": "HarveySeasonalWeddingToken",
+			"Value": "5_{{season}}",
+			"When": 
+			{
+				"HasMod |contains= Elaho.HarveyHungarianWeddingSuit": true,
+				"DSV.Core/ConfigValue:HarveyWeddingOutfit |contains= 5": true,
+				"Query: '{{DSV.Core/ConfigValue:HarveyVariant |contains= Vanilla}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.MedinaquirinPinzolHarvey}}' = 'true'": true
+			}
+		},
+		{
+			"Name": "HarveySeasonalWeddingToken",
+			"Value": "4",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HarveyRelationshipType |contains= FullyPlatonic": true,
+				"HasMod |contains= nraittanna.LifeCycleMaruHarvey": false,
+			}
+		},
+		{
+			"Name": "LeahSeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:LeahWeddingOutfit}}"
+		},
+		{
+			"Name": "LeahSeasonalWeddingToken",
+			"Value": "1",
+			"When": 
+			{
+				"HasMod |contains= Elaho.LeahPolishWeddingOutfits": false,
+				"DSV.Core/ConfigValue:LeahWeddingOutfit |contains= 6, 7": true
+			}
+		},
+		{
+			"Name": "LeahSeasonalWeddingToken",
+			"Value": "6_{{season}}",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:LeahWeddingOutfit |contains= 6": true,
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
+			}
+		},
+		{
+			"Name": "LeahSeasonalWeddingToken",
+			"Value": "6_{{season}}",
+			"When": 
+			{
+				"HasMod |contains= Elaho.LeahPolishWeddingOutfits": true,
+				"DSV.Core/ConfigValue:LeahWeddingOutfit |contains= 6": true
+			}
+		},
+		{
+			"Name": "LeahSeasonalWeddingToken",
+			"Value": "7_{{season}}",
+			"When": 
+			{
+				"HasMod |contains= Elaho.LeahPolishWeddingOutfits": true,
+				"DSV.Core/ConfigValue:LeahWeddingOutfit |contains= 7": true,
+				"DSV.Core/ConfigValue:LeahVariant |contains= Vanilla": true
+			}
+		},
+		{
+			"Name": "LeahSeasonalWeddingToken",
+			"Value": "6_{{season}}",
+			"When": 
+			{
+				"HasMod |contains= Elaho.LeahPolishWeddingOutfits": true,
+				"DSV.Core/ConfigValue:LeahWeddingOutfit |contains= 7": true,
+				"DSV.Core/ConfigValue:LeahVariant |contains= Vanilla": false
+			}
+		},
+		{
+			"Name": "LeahSeasonalWeddingToken",
+			"Value": "5",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:LeahRelationshipType |contains= FullyPlatonic": true,
+				"HasMod |contains= nraittanna.LifeCycleHaleyLeah": false,
+			}
+		},
+		{
+			"Name": "MaruSeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:MaruWeddingOutfit}}"
+		},
+		{
+			"Name": "MaruSeasonalWeddingToken",
+			"Value": "6_{{season}}",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:MaruWeddingOutfit |contains= 6": true
+			}
+		},
+		{
+			"Name": "MaruSeasonalWeddingToken",
+			"Value": "5",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:MaruRelationshipType |contains= FullyPlatonic": true,
+				"HasMod |contains= nraittanna.LifeCycleMaruHarvey": false,
+			}
+		},
+		{
+			"Name": "PennySeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:PennyWeddingOutfit}}"
+		},
+		{
+			"Name": "PennySeasonalWeddingToken",
+			"Value": "1",
+			"When": 
+			{
+				"HasMod |contains= Elaho.PennyIrishWeddingDress": false,
+				"DSV.Core/ConfigValue:PennyWeddingOutfit |contains= 6": true
+			}
+		},
+		{
+			"Name": "PennySeasonalWeddingToken",
+			"Value": "6_{{season}}",
+			"When": 
+			{
+				"HasMod |contains= Elaho.PennyIrishWeddingDress": true,
+				"DSV.Core/ConfigValue:PennyWeddingOutfit |contains= 6": true
+			}
+		},
+		{
+			"Name": "PennySeasonalWeddingToken",
+			"Value": "5",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains= FullyPlatonic": true,
+				"HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts": false,
+				"HasMod |contains= nraittanna.LifeCyclePennySam": false,
+			}
+		},
+		{
+			"Name": "SamSeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:SamWeddingOutfit}}"
+		},
+		{
+			"Name": "SamSeasonalWeddingToken",
+			"Value": "1",
+			"When": 
+			{
+				"HasMod |contains= Elaho.SamNorwegianWeddingSuit": false,
+				"DSV.Core/ConfigValue:SamWeddingOutfit |contains= 4": true
+			}
+		},
+		{
+			"Name": "SamSeasonalWeddingToken",
+			"Value": "4_{{season}}",
+			"When": 
+			{
+				"HasMod |contains= Elaho.SamNorwegianWeddingSuit": true,
+				"DSV.Core/ConfigValue:SamWeddingOutfit |contains= 4": true
+			}
+		},
+		{
+			"Name": "SamSeasonalWeddingToken",
+			"Value": "3",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SamRelationshipType |contains= FullyPlatonic": true,
+				"HasMod |contains= ZoeDoll.SamAndAlissaRivalHearts": false,
+				"HasMod |contains= nraittanna.LifeCyclePennySam": false,
+			}
+		},
+		{
+			"Name": "SebastianSeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:SebastianWeddingOutfit}}"
+		},
+		{
+			"Name": "SebastianSeasonalWeddingToken",
+			"Value": "5_{{season}}",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:SebastianWeddingOutfit |contains= 5": true
+			}
+		},
+		{
+			"Name": "SebastianSeasonalWeddingToken",
+			"Value": "4",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SebastianRelationshipType |contains= FullyPlatonic": true,
+				"HasMod |contains= nraittanna.LifeCycleAbigailSebastian": false,
+			}
+		},
+		{
+			"Name": "ShaneSeasonalWeddingToken",
+			"Value": "{{DSV.Core/ConfigValue:ShaneWeddingOutfit}}"
+		},
+		{
+			"Name": "ShaneSeasonalWeddingToken",
+			"Value": "1",
+			"When": 
+			{
+				"HasMod |contains= Elaho.ShaneGeorgianWeddingSuit": false,
+				"DSV.Core/ConfigValue:ShaneWeddingOutfit |contains= 6": true,
+			}
+		},
+		{
+			"Name": "ShaneSeasonalWeddingToken",
+			"Value": "1",
+			"When": 
+			{
+				"DSV.Core/ConfigValue:ShaneWeddingOutfit |contains= 6": true,
+				"DSV.Core/ConfigValue:ShaneVariant |contains= Vanilla": false
+			}
+		},
+		{
+			"Name": "ShaneSeasonalWeddingToken",
+			"Value": "6_{{season}}",
+			"When": 
+			{
+				"HasMod |contains= Elaho.ShaneGeorgianWeddingSuit": true,
+				"DSV.Core/ConfigValue:ShaneWeddingOutfit |contains= 6": true,
+				"DSV.Core/ConfigValue:ShaneVariant |contains= Vanilla": true
+			}
+		},
+		{
+			"Name": "ShaneSeasonalWeddingToken",
+			"Value": "5",
+			"When": 
+			{
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ShaneRelationshipType |contains= FullyPlatonic": true,
+			}
+		},
+
+// ELAHO ELLIOTT SCOTTISH REGALIA PYJAMAS
+		{
+			"Name": "ElahoElliottPyjamasToken",
+			"Value": "",
+		},
+		{
+			"Name": "ElahoElliottPyjamasToken",
+			"Value": "_{{season}}",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElliottScottishFestivalRegalia": true,				
+				"Query: '{{DSV.Core/ConfigValue:ElliottVariant |contains= off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.EemieElliott}}' = 'true'": true
+			},
+		},
+		{
+			"Name": "ElahoElliottPyjamasToken",
+			"Value": "_{{season}}_Rain",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElliottScottishFestivalRegalia": true,
+				"Weather |contains= rain, storm, snow": true,
+				"Query: '{{DSV.Core/ConfigValue:ElliottVariant |contains= off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.EemieElliott}}' = 'true'": true
+			},
+		},
+		{
+			"Name": "ElahoElliottPyjamasToken",
+			"Value": "_{{season}}_Snow",
+			"When":
+			{
+				"HasMod |contains= Elaho.ElliottScottishFestivalRegalia": true,
+				"Weather |contains= rain, storm": true,
+				"Season |contains= winter": true,
+				"Query: '{{DSV.Core/ConfigValue:ElliottVariant |contains= off}}' = 'false' OR '{{HasMod |contains= DSVTeam.AddOnPack.EemieElliott}}' = 'true'": true
+			},
+		},
+
+// JORTS & JEAN COMPATIBILITY - MARIGOLD TALKING
+
+		{
+			"Name": "MarigoldTalkToken",
+			"Value": "",
+		},
+		{
+			"Name": "MarigoldTalkToken",
+			"Value": ".Talk",
+			"When":
+			{
+				"HasMod |contains= Tiakall.jortsandjean": "true"
+			},
+		},
+		
+// CFDE & IFD COMPAT - RANDOM FESTIVAL DIALOGUE
+		{
+			"Name": "FestivalDialogueRandomToken",
+			"Value": "1",
+		},
+		{
+			"Name": "FestivalDialogueRandomToken",
+			"Value": "{{Random: 1, 2}}",
+			"When":
+			{
+				"HasMod |contains= gizzymo.canonfriendlyexpansion, tangeriney.FestivalDialogue": true
+			},
+		},
+		
+// FURNITURE RECOLOUR COMPATIBILITY
+		{
+			"Name": "RecolourCompatToken",
+			"Value": "",
+		},
+		{
+			"Name": "RecolourCompatToken",
+			"Value": "_Starblue",
+			"When":
+			{
+				"HasMod |contains= Lita.StarblueValley": true
+			},
+		},
+		{
+			"Name": "RecolourCompatToken",
+			"Value": "_Vibrant",
+			"When":
+			{
+				"HasMod |contains= grapeponta.VibrantPastoralRecolor, grapeponta.VanillaInteriors": true
+			},
+		},
+		{
+			"Name": "RecolourCompatToken",
+			"Value": "_Earthy",
+			"When":
+			{
+				"HasMod |contains= DaisyNiko.EarthyInteriors": true
+			},
+		},
+		{
+			"Name": "RecolourCompatToken",
+			"Value": "_Elegant",
+			"When":
+			{
+				"HasMod |contains= colling.towninterior": true
+			},
+		},
+		{
+			"Name": "RecolourCompatToken",
+			"Value": "_Rustic",
+			"When":
+			{
+				"HasMod |contains= Hesper.RusticCountrysideTownInterior": true
+			},
+		},
+		{
+			"Name": "RecolourCompatToken",
+			"Value": "_TonedDown",
+			"When":
+			{
+				"HasMod |contains= narianka.toneddowntowninteriors": true
+			},
+		},
+
+// SPOUSE PORTRAITS REWORKED COMPATIBILITY
+		{
+			"Name": "SpousePortraitsToken",
+			"Value": "JunimoPainting",
+		},
+		{
+			"Name": "SpousePortraitsToken",
+			"Value": "HitmeSpousePortrait",
+			"When":
+			{
+				"HasMod |contains= Hitme.SpousePortraitsReworked": true
+			},
+		},
+		{
+			"Name": "TonedDownPortraitToken",
+			"Value": "",
+		},
+		{
+			"Name": "TonedDownPortraitToken",
+			"Value": "_TonedDown",
+			"When":
+			{
+				"DSV.Core/ConfigValue:TonedDown": "True",
+				"HasMod |contains= Hitme.SpousePortraitsReworked": true
+			},
+		},
+		{
+			"Name": "EmilyPortraitToken",
+			"Value": "",
+		},
+		{
+			"Name": "EmilyPortraitToken",
+			"Value": "_{{DSV.Core/ConfigValue:EmilyPortrait}}",
+			"When":
+			{
+				"HasMod |contains= Hitme.SpousePortraitsReworked": true
+			},
+		},
+		{
+			"Name": "WizardPortraitToken",
+			"Value": "",
+		},
+		{
+			"Name": "WizardPortraitToken",
+			"Value": "_{{DSV.Core/ConfigValue:WizardPortrait}}",
+			"When":
+			{
+				"HasMod |contains= Hitme.SpousePortraitsReworked": true
+			},
+		},
+	],
+
+	"Changes":
+	[
+
+// VANILLA NPC INCLUDES
+
+		{
+			"LogName": "Misc Main Includes",
+			"Action": "Include",
+			"FromFile": "Code/Other/Default.json, Code/Other/PregnancyEdits.json, Code/Other/DarkSkinVariants.json",
+		},
+		{
+			"LogName": "Abigail Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Abigail/{{DSV.Core/ConfigValue:AbigailLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AbigailVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.LavenderAbigail": false,
+			},
+		},
+		{
+			"LogName": "Caroline Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Caroline/{{DSV.Core/ConfigValue:CarolineLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:CarolineVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.AlkantheCaroline, DSVTeam.AddOnPack.AirynCaroline, piper.holychurros": false,
+			},
+		},
+		{
+			"LogName": "Pierre Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Pierre/{{DSV.Core/ConfigValue:PierreLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PierreVariant |contains= Off": false,
+				"HasMod |contains= piper.holychurros": false,
+			},
+		},
+		{
+			"LogName": "Alex Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Alex/{{DSV.Core/ConfigValue:AlexLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:AlexVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.SnuffpotAlex": false,
+			}
+		},
+		{
+			"LogName": "Evelyn Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Evelyn/{{DSV.Core/ConfigValue:EvelynLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EvelynVariant |contains= Off": false
+			}
+		},
+		{
+			"LogName": "George Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/George/{{DSV.Core/ConfigValue:GeorgeLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GeorgeVariant |contains= Off": false
+			}
+		},
+		{
+			"LogName": "Haley Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Haley/{{DSV.Core/ConfigValue:HaleyLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HaleyVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley, DSVTeam.AddOnPack.AirynHaley": false,
+			}
+		},
+		{
+			"LogName": "Emily Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Emily/{{DSV.Core/ConfigValue:EmilyLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EmilyVariant |contains= Off": false,
+			}
+		},
+		{
+			"LogName": "Sandy Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Sandy/Sandy.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SandyVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.PoltergeisterSandy": false,
+			}
+		},
+		{
+			"LogName": "Harvey Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Harvey/{{DSV.Core/ConfigValue:HarveyLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:HarveyVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.MedinaquirinPinzolHarvey, SystemWorks.Hazel": false,
+			}
+		},
+		{
+			"LogName": "Gus Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Gus/{{DSV.Core/ConfigValue:GusLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GusVariant |contains= Off": false,
+			}
+		},
+		{
+			"LogName": "Lewis Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Lewis/{{DSV.Core/ConfigValue:LewisLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LewisVariant |contains= Off": false,
+			}
+		},
+		{
+			"LogName": "Krobus Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Krobus/Krobus.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KrobusVariant": "true",
+			}
+		},
+		{
+			"LogName": "Mermaids Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Mermaids/{{DSV.Core/ConfigValue:Mermaids}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:Mermaids |contains= Off": false,
+				"HasMod |contains= gwenynnefydd.diversemermaidshow, Naya.Colling.MermaidShow": false,
+			}
+		},
+		{
+			"LogName": "Wizard Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Wizard/{{DSV.Core/ConfigValue:WizardLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WizardVariant |contains= Off": false,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP, DSVTeam.AddOnPack.AirynWizard, Ran.HarvestGoddess": false,
+			}
+		},
+		{
+			"LogName": "Witch Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Witch/Witch.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WitchVariant": "true",
+				"HasMod |contains= ZoeDoll.NPCAlecto": false,
+			}
+		},
+		{
+			"LogName": "Elliott Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Elliott/{{DSV.Core/ConfigValue:ElliottLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ElliottVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.EemieElliott": false,
+			}
+		},
+		{
+			"LogName": "Leah Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Leah/{{DSV.Core/ConfigValue:LeahLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LeahVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.JoLeah, DSVTeam.AddOnPack.AshbrassLeah": false,
+			}
+		},
+		{
+			"LogName": "Marlon Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Marlon/Marlon.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarlonVariant |contains= Off": false,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+			}
+		},
+		{
+			"LogName": "Gunther Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Gunther/Gunther.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GuntherVariant |contains= Off": false,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+			}
+		},
+		{
+			"LogName": "Morris Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Morris/Morris.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MorrisVariant": "true",
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP, DSVTeam.AddOnPack.AirynMorris": false,
+			}
+		},
+		{
+			"LogName": "Penny Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Penny/{{DSV.Core/ConfigValue:PennyLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PennyVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.BittybeePenny": false,
+			}
+		},
+		{
+			"LogName": "Pam Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Pam/{{DSV.Core/ConfigValue:PamLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:PamVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.SivolobwhoPam": false,
+			}
+		},
+		{
+			"LogName": "Sam Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Sam/{{DSV.Core/ConfigValue:SamLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SamVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.OenimoSam, DSVTeam.AddOnPack.AirynSam, DSVTeam.AddOnPack.Cheshire348Sam, DSVTeam.AddOnPack.OyoshiSam": false,
+			}
+		},
+		{
+			"LogName": "Vincent Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Vincent/{{DSV.Core/ConfigValue:VincentLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:VincentVariant |contains= Off": false
+			}
+		},
+		{
+			"LogName": "Jodi Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Jodi/{{DSV.Core/ConfigValue:JodiLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JodiVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi": false,
+			}
+		},
+		{
+			"LogName": "Kent Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Kent/{{DSV.Core/ConfigValue:KentLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:KentVariant |contains= Off": false
+			}
+		},
+		{
+			"LogName": "Sebastian Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Sebastian/{{DSV.Core/ConfigValue:SebastianLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:SebastianVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.ZoeDollSebastian": false,
+			}
+		},
+		{
+			"LogName": "Maru Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Maru/{{DSV.Core/ConfigValue:MaruLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MaruVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.RubyquesterMaru": false,
+			}
+		},
+		{
+			"LogName": "Robin Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Robin/{{DSV.Core/ConfigValue:RobinLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RobinVariant |contains= Off": false
+			}
+		},
+		{
+			"LogName": "Demetrius Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Demetrius/{{DSV.Core/ConfigValue:DemetriusLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:DemetriusVariant |contains= Off": false
+			}
+		},
+		{
+			"LogName": "Shane Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Shane/{{DSV.Core/ConfigValue:ShaneLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ShaneVariant |contains= Off": false,
+			}
+		},
+		{
+			"LogName": "Jas Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Jas/{{DSV.Core/ConfigValue:JasLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:JasVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.SarahsynaJas": false,
+			}
+		},
+		{
+			"LogName": "Marnie Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Marnie/{{DSV.Core/ConfigValue:MarnieLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:MarnieVariant |contains= Off": false,
+			}
+		},
+		{
+			"LogName": "Willy Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Willy/{{DSV.Core/ConfigValue:WillyLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:WillyVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.AirynWilly": false,
+			}
+		},
+		{
+			"LogName": "Clint Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Clint/{{DSV.Core/ConfigValue:ClintLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:ClintVariant |contains= Off": false
+			}
+		},
+		{
+			"LogName": "Linus Main",
+			"Action": "Include",
+			"FromFile": "Code/VanillaNPCs/Linus/{{DSV.Core/ConfigValue:LinusLightweightConfig}}.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LinusVariant |contains= Off": false
+			}
+		},
+		{
+			"LogName": "Marigold Main",
+			"Action": "Include",
+			"FromFile": "Code/Marigold/MarigoldMain.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:LinusVariant |contains= Modded": true,
+				"HasMod |contains= BleakCodex.SpritesInDetail": true,
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+			}
+		},
+
+// DIALOGUE & ADDITIONAL INCLUDES
+
+		{
+			"LogName": "Variant-Based Dialogue",
+			"Action": "Include",
+			"FromFile": "Dialogue/VariantBasedDialogue/Dialogue_AbigailCarolinePierre.json, Dialogue/VariantBasedDialogue/Dialogue_AlexEvelynGeorge.json, Dialogue/VariantBasedDialogue/Dialogue_EmilyHaleySandy.json, Dialogue/VariantBasedDialogue/Dialogue_HarveyGusLewis.json, Dialogue/VariantBasedDialogue/Dialogue_LeahElliott.json, Dialogue/VariantBasedDialogue/Dialogue_PennyPam.json, Dialogue/VariantBasedDialogue/Dialogue_SamVincentJodiKent.json, Dialogue/VariantBasedDialogue/Dialogue_SebastianMaruRobinDemetrius.json, Dialogue/VariantBasedDialogue/Dialogue_WillyClintLinus.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:EnableVariantBasedDialogue": "true"
+			}
+		},
+		{
+			"LogName": "Dialogue No More War Edits",
+			"Action": "Include",
+			"FromFile": "Dialogue/Dialogue_NoMoreWar.json",
+			"When":
+			{
+				"NoMoreWarToken": "true",
+			}
+		},
+		{
+			"LogName": "Additional Includes",
+			"Action": "Include",
+			"FromFile": "Dialogue/Dialogue_MinorEdits.json, Code/Other/ReligionEdits.json"
+		},
+		{
+			"LogName": "Flower Queen's Crown Code & Dialogue",
+			"Action": "Include",
+			"FromFile": "Code/Other/FlowerQueensCrown.json, Dialogue/Dialogue_FlowerQueensCrown.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:FlowerQueensCrown": "true"
+			}
+		},
+		{
+			"LogName": "Map Patches",
+			"Action": "Include",
+			"FromFile": "Code/Other/MapPatches.json",
+			"When":
+			{
+				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
+			}
+		},
+		{
+			"LogName": "Gift Tastes Changes",
+			"Action": "Include",
+			"FromFile": "Code/GiftTastesChanges/GiftTastesChanges.json",
+			"When":
+			{
+				"DSV.Core/ConfigValue:GiftTastesChange": "true"
+			}
+		},
+		{
+			"LogName": "Sunglasses Main",
+			"Action": "Include",
+			"FromFile": "Code/Other/Sunglasses.json",
+		},
+
+// COMPATIBILITY INCLUDES
+
+		{
+			"LogName": "SKE Compatibility",
+			"Action": "Include",
+			"FromFile": "Code/Compatibility/SKE_DSV.json",
+			"When":
+			{
+				"HasMod |contains= BURAKMESE.SKE": true
+			}
+		},
+		{
+			"LogName": "RSV Compatibility",
+			"Action": "Include",
+			"FromFile": "Code/Compatibility/RSV_DSV.json",
+			"When":
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true,
+			}
+		},
+		{
+			"LogName": "AGE Compatibility",
+			"Action": "Include",
+			"FromFile": "Code/Compatibility/AGE_DSV.json",
+			"When":
+			{
+				"HasMod |contains= supert.adventureguildexpanded": true,
+			}
+		},
+		{
+			"LogName": "Jaemin Compatibility",
+			"Action": "Include",
+			"FromFile": "Code/Compatibility/Jaemin_DSV.json",
+			"When":
+			{
+				"HasMod |contains= baguettemagiqu7.NPCParkJaemin": true,
+				"DSV.Core/ConfigValue:AlexVariant |contains= Off": false,
+				"HasMod |contains= DSVTeam.AddOnPack.SnuffpotAlex": false,
+			}
+		},
+		{
+			"LogName": "College Boy Mike Compatibility",
+			"Action": "Include",
+			"FromFile": "Code/Compatibility/Mike_DSV.json",
+			"When":
+			{
+				"HasMod |contains= SYS.mike": true,
+				"DSV.Core/ConfigValue:TurkishMike": "true",
+				"DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
+			}
+		},
+
+// TILESHEET LOAD
+
+		{
+			"Action": "Load",
+			"Target": "Maps/DSV_HouseEdits_Tilesheet",
+			"FromFile": "Art/Misc/MapPatches/Tilesheets/DSV_HouseEdits_Tilesheet.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/DSV_HouseEdits_Tilesheet",
+			"FromFile": "Art/Misc/MapPatches/Tilesheets/DSV_HouseEdits_Tilesheet{{RecolourCompatToken}}.png"
+		},
+	]
+}

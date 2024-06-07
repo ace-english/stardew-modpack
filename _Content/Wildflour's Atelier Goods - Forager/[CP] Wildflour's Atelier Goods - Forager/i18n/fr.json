@@ -1,0 +1,584 @@
+{
+
+//NEW CATEGORIES
+
+"ateliercrops_nut.category":"Fruit à coque",
+"ateliercrops_herb.category":"Aromate",
+"ateliercrops_mushroom.category":"Champignon",
+"ateliercrops_root.category":"Racine",
+"ateliercrops_feather.category":"Plume",
+"ateliercrops_magic.category":"Objet magique",
+"ateliercrops_magic_fruit.category":"Fruit magique",
+"ateliercrops_magic_flower.category":"Fleur magique",
+
+//NEW BUSHES
+
+	"ateliercrops_StrawberryBush.name":"Fraisier des bois",
+	"ateliercrops_StrawberryBush.description":"Un buisson sur lequel poussent des fraises des bois au printemps.",
+
+	"ateliercrops_RaspberryBush.name":"Framboisier sauvage",
+	"ateliercrops_RaspberryBush.description":"Un buisson sur lequel poussent des framboises en été.",
+
+	"ateliercrops_ValerianBush.name":"Buisson de valériane",
+	"ateliercrops_ValerianBush.description":"Un buisson sur lequel pousse de la valériane au printemps.",
+
+	"ateliercrops_MugwortBush.name":"Buisson d'armoise",
+	"ateliercrops_MugwortBush.description":"Un buisson sur lequel pousse de l'armoise en été et en automne.",
+
+	"ateliercrops_ThistleBush.name":"Buisson de chardon",
+	"ateliercrops_ThistleBush.description":"Un buisson sur lequel pousse du chardon en été.",
+
+	"ateliercrops_RoseFlaxBush.name":"Buisson de lin rose",
+	"ateliercrops_RoseFlaxBush.description":"Un buisson sur lequel pousse du lin rose au printemps, en été et en automne.",
+
+	"ateliercrops_VioletFlaxBush.name":"Buisson de lin parme",
+	"ateliercrops_VioletFlaxBush.description":"Un buisson sur lequel pousse du lin parme au printemps, en été et en automne.",
+
+	"ateliercrops_AmberBush.name":"Vigne de gouttelune d'ambre",
+	"ateliercrops_AmberBush.description":"Un buisson sur lequel pousse du raisin gouttelune d'ambre au printemps et en été.",
+
+	"ateliercrops_LapisBush.name":"Vigne de gouttelune de lapis",
+	"ateliercrops_LapisBush.description":"Un buisson sur lequel pousse du raisin gouttelune de lapis en été et en automne.",
+
+	"ateliercrops_JadeBush.name":"Vigne de gouttelune de jade",
+	"ateliercrops_JadeBush.description":"Un buisson sur lequel pousse du raisin gouttelune de jade en été et en automne.",
+
+	"ateliercrops_PearlBush.name":"Vigne de gouttelune de perle",
+	"ateliercrops_PearlBush.description":"Un buisson sur lequel pousse du raisin gouttelune de perle en hiver et au printemps.",
+	
+	//SEEDS
+
+	"ateliercrops_vanillaseeds.name": "Plant de vanillon de Calico",
+	"ateliercrops_vanillaseeds.description": "À planter en été. Il faut 14 jours pour arriver à maturité. Produit tous les 5 jours après la 1ère récolte.",
+
+	"ateliercrops_chamomileseeds.name": "Graines de camomille sylvestre",
+	"ateliercrops_chamomileseeds.description": "À planter au printemps et en été. Il faut 5 jours pour arriver à maturité.",
+
+	"ateliercrops_lavenderseeds.name": "Graines de lavande sylvestre",
+	"ateliercrops_lavenderseeds.description": "À planter toute l'année sauf l'hiver. Il faut 14 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+
+	"ateliercrops_jasmineseeds.name": "Graines de jasmin des Gemmes",
+	"ateliercrops_jasmineseeds.description": "À planter en été. Il faut 14 jours pour arriver à maturité. Produit tous les 5 jours après la 1ère récolte.",
+
+	"ateliercrops_mallowseeds.name": "Graines de guimauve",
+	"ateliercrops_mallowseeds.description": "À planter au printemps ou en été. Il faut 8 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+
+	"ateliercrops_mintseeds.name": "Graines de menthe Pélican",
+	"ateliercrops_mintseeds.description": "À planter au printemps ou en été. Il faut 12 jours pour arriver à maturité. Produit tous les 3 jours après la 1ère récolte.",
+
+	"ateliercrops_redonionseeds.name": "Bulbes d'oignon rouge sauvage",
+	"ateliercrops_redonionseeds.description": "À planter au printemps ou en automne. Il faut 7 jours pour arriver à maturité.",
+
+	"ateliercrops_strawberryseeds.name": "Graines de fraisier des bois",
+	"ateliercrops_strawberryseeds.description": "À planter au printemps. Il faut 12 jours pour arriver à maturité. Produit tous les 3 jours après la 1ère récolte.",
+
+	"ateliercrops_raspberryseeds.name": "Graines de framboisier sauvage",
+	"ateliercrops_raspberryseeds.description": "À planter en été. Il faut 10 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+
+	"ateliercrops_wormwoodseeds.name": "Graines d'armoise",
+	"ateliercrops_wormwoodseeds.description": "À planter en été. Il faut 10 jours pour arriver à maturité. Produit tous les 3 jours après la 1ère récolte.",
+
+	//HERB SEEDS
+
+	"ateliercrops_basilseeds.name": "Graines de basilic doux",
+	"ateliercrops_basilseeds.description": "À planter en été. Il faut 14 jours pour arriver à maturité. Produit tous les 3 jours après la 1ère récolte.",
+
+	"ateliercrops_cilantroseeds.name": "Graines de coriandre Sève-cendreuse",
+	"ateliercrops_cilantroseeds.description": "À planter au printemps. Il faut 7 jours pour arriver à maturité. Produit tous les 5 jours après la 1ère récolte.",
+
+	"ateliercrops_rosemaryseeds.name": "Graines de romarin rustique",
+	"ateliercrops_rosemaryseeds.description": "À planter au printemps ou en automne. Il faut 14 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+
+	"ateliercrops_sageseeds.name": "Graines de sauge Sève-cendreuse",
+	"ateliercrops_sageseeds.description": "À planter en automne. Il faut 12 jours pour arriver à maturité. Produit tous les 5 jours après la 1ère récolte.",
+
+	"ateliercrops_thymeseeds.name": "Graines de thym citronnelle",
+	"ateliercrops_thymeseeds.description": "À planter au printemps ou en été. Il faut 12 jours pour arriver à maturité. Produit tous les 5 jours après la 1ère récolte.",
+
+	"ateliercrops_gentianroot.name": "Racine de gentiane",
+	"ateliercrops_gentianroot.description": "La racine d'une plante de montagne utilisée pour aromatiser des boissons alcoolisées.",
+
+	"ateliercrops_wormwood.name": "Armoise",
+	"ateliercrops_wormwood.description": "Aussi appelée absinthe, elle a aussi de nombreux usages médicinaux.",
+
+	// MUSHROOM STARTERS
+
+    "ateliercrops_chickenwoodsseeds.name":"Mycélium de poulet-des-bois",
+    "ateliercrops_chickenwoodsseeds.description":"À planter en été. Il faut 14 jours pour arriver à maturité. Produit tous les 5 jours après la 1ère récolte.",
+
+    "ateliercrops_honeyfungusseeds.name":"Mycélium de champimiel",
+    "ateliercrops_honeyfungusseeds.description":"À planter au printemps. Il faut 21 jours pour arriver à maturité. Produit tous les 3 jours après la 1ère récolte.",
+
+    "ateliercrops_meringueshroomseeds.name":"Mycélium de pleurote meringue",
+    "ateliercrops_meringueshroomseeds.description":"À planter en automne. Il faut 16 jours pour arriver à maturité. Produit tous les 3 jours après la 1ère récolte.",
+
+    "ateliercrops_milkshroomseeds.name":"Mycélium de champignon laiteux",
+    "ateliercrops_milkshroomseeds.description":"À planter en été et en automne. Il faut 14 jours pour arriver à maturité. Produit tous les 5 jours après la 1ère récolte.",
+
+    "ateliercrops_wheatshroomseeds.name":"Mycélium de volvaire du froment",
+    "ateliercrops_wheatshroomseeds.description":"À planter en automne. Il faut 12 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+	
+	//HERBS
+	
+	"ateliercrops_basil.name": "Basilic doux",
+	"ateliercrops_basil.description": "Une variété de basilic aux saveurs plus douces que le basilic commun.",
+
+	"ateliercrops_cilantro.name": "Coriandre Sève-cendreuse",
+	"ateliercrops_cilantro.description": "Une variété sauvage de la coriandre, aromate idéal dans les plats épicés.",
+
+	"ateliercrops_sage.name": "Sauge Sève-cendreuse",
+	"ateliercrops_sage.description": "Une herbe aromatique utilisée pour relever le goût des plats d'automne.",
+
+	"ateliercrops_rosemary.name": "Romarin rustique",
+	"ateliercrops_rosemary.description": "Une herbe robuste qui pousse presque n'importe où. Elle ressemble à un pin miniature.",
+
+	"ateliercrops_thyme.name": "Thym citronnelle",
+	"ateliercrops_thyme.description": "La variété citronnée d'un aromate qui pousse dans tous les jardins.",
+
+	"ateliercrops_anise.name": "Badiane",
+	"ateliercrops_anise.description": "On l'appelle aussi anis étoilé. Souvent utilisée en cuisine et essentielle en pharmacopée.",
+	
+	
+	//TREES NEW
+
+	"ateliercrops_lemonsapling.name":"Jeune citronnier nain",
+	"ateliercrops_lemonsapling.description":"Il faut 28 jours pour que le citronnier arrive à maturité. Porte des fruits au printemps.",
+
+	"ateliercrops_limesapling.name":"Jeune limettier nain",
+	"ateliercrops_limesapling.description":"Il faut 28 jours pour que le limettier arrive à maturité. Porte des fruits au printemps.",
+
+	"ateliercrops_anise_sapling.name": "Jeune badianier",
+	"ateliercrops_anise_sapling.description": "Il faut 28 jours pour que le badianier arrive à maturité. Porte des graines au printemps. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+	"ateliercrops_elder_sapling.name": "Jeune sureau",
+	"ateliercrops_elder_sapling.description": "Il faut 28 jours pour que le sureau arrive à maturité. Porte des fruits en été. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+
+	//TREES
+
+	"ateliercrops_pistachiosapling.name": "Jeune pistachier de Calico",
+	"ateliercrops_pistachiosapling.description": "Il faut 28 jours pour que le pistachier arrive à maturité. Porte des fruits en été et en automne.",
+
+	"ateliercrops_cinnamonsapling.name": "Jeune cannelier Sève-cendreuse",
+	"ateliercrops_cinnamonsapling.description": "Il faut 28 jours pour que le cannelier arrive à maturité. Récolter l'écorce en hiver.",
+
+	"ateliercrops_olivesapling.name": "Jeune olivier des îles de Fern",
+	"ateliercrops_olivesapling.description": "Il faut 28 jours pour que l'olivier arrive à maturité. Porte des fruits en été.",
+
+	"ateliercrops_cashewsapling.name": "Jeune pommier-cajou des Gemmes",
+	"ateliercrops_cashewsapling.description": "Il faut 28 jours pour que le pommier-cajou arrive à maturité. Porte des fruits à l'automne.",
+
+	"ateliercrops_walnutsapling.name": "Jeune noyer de Grampleton",
+	"ateliercrops_walnutsapling.description": "Il faut 28 jours pour que le noyer arrive à maturité. Porte des fruits à l'automne.",
+
+	"ateliercrops_almondsapling.name": "Jeune amandier Saint-Cannoli",
+	"ateliercrops_almondsapling.description": "Il faut 28 jours pour que l'amandier arrive à maturité. Porte des fruits au printemps et en été.",
+
+	"ateliercrops_cacaopodsapling.name": "Jeune cacaoyer sauvage",
+	"ateliercrops_cacaopodsapling.description": "Il faut 28 jours pour que le cacaoyer arrive à maturité. Porte des fruits à l'automne.",
+
+	//OBJECTS
+
+	"ateliercrops_pistachio.name":"Pistache de Calico",
+	"ateliercrops_pistachio.description":"Une variété de pistache sauvage indigène du désert de Calico.",
+
+	"ateliercrops_vanilla.name": "Vanille de Calico",
+	"ateliercrops_vanilla.description": "Une variété de vanille sauvage indigène du désert de Calico.",
+
+	"ateliercrops_cherryblossoms.name": "Pétales de fleur de cerisier",
+	"ateliercrops_cherryblossoms.description": "De délicats pétales frais de fleur de cerisier.",
+
+	"ateliercrops_chickenwoods.name": "Poulet-des-bois",
+	"ateliercrops_chickenwoods.description": "Un champignon au nom original qui se trouve partout dans le monde. On dit qu'il a le même goût que le poulet !",
+
+	"ateliercrops_cinnamon.name": "Cannelle Sève-cendreuse",
+	"ateliercrops_cinnamon.description": "De l'écorce de cannelier qui ne se trouve qu'en hiver dans la Forêt Sève-cendreuse.",
+
+	"ateliercrops_olive.name": "Olive des îles de Fern",
+	"ateliercrops_olive.description": "Une espèce rare d'olive qu'on trouve sur les îles tropicales de Ferngill.",
+
+	"ateliercrops_chamomile.name": "Camomille sylvestre",
+	"ateliercrops_chamomile.description": "Une fleur trouvée au plus profond de la forêt. Apaisante en tisane.",
+
+	"ateliercrops_lavender.name": "Lavande sylvestre",
+	"ateliercrops_lavender.description": "Une fleur parfumée qui pousse en buissons dans les sous-bois.",
+
+	"ateliercrops_jasmine.name": "Jasmin des Gemmes",
+	"ateliercrops_jasmine.description": "Une fleur d'un jasmin merveilleusement parfumé endémique de l'Île Gingembre.",
+
+	"ateliercrops_cashew.name": "Pomme de cajou des Gemmes",
+	"ateliercrops_cashew.description": "La noix de cajou se trouve dans l'enveloppe brune au bout de ce fruit natif des îles de Fern.",
+
+	"ateliercrops_walnut.name": "Noix de Grampleton",
+	"ateliercrops_walnut.description": "Le fruit de la variété de noyer qui pousse à Grampleton, et désormais à Pélican Ville !",
+
+	"ateliercrops_honeyfungus.name": "Champimiel",
+	"ateliercrops_honeyfungus.description": "Toxique cru, ce champignon a un riche goût de noisette lorsqu'il est bien cuit.",
+
+	"ateliercrops_mallow.name": "Guimauve",
+	"ateliercrops_mallow.description": "Une plante aux belles fleurs roses dont la racine est utilisé en confiseriee.",
+
+	"ateliercrops_meringueshroom.name": "Pleurote meringue",
+	"ateliercrops_meringueshroom.description": "Un champignon natif de Stardew Valley. Sa couleur et son goût font penser à du bonbon.",
+
+	"ateliercrops_milkshroom.name": "Champignon laiteux",
+	"ateliercrops_milkshroom.description": "Ce champignon d'un blanc éclatant a une texture crémeuse.",
+
+	"ateliercrops_mint.name": "Menthe Pélican",
+	"ateliercrops_mint.description": "Une plante invasive qui pousse partout à Pélican Ville, peu importe les efforts des villageois pour s'en débarrasser.",
+
+	"ateliercrops_lemon.name": "Mini-citron",
+	"ateliercrops_lemon.description": "Un citron jaune sauvage minuscule, acide mais très juteux.",
+
+	"ateliercrops_lime.name": "Mini-lime",
+	"ateliercrops_lime.description": "Un citron vert sauvage minuscule, dont le jus réveille les papilles.",
+
+    "ateliercrops_almond.name": "Amande Saint-Cannoli",
+	"ateliercrops_almond.description": "La plus rare des variétés d'amande, qui aurait été cultivée par le vieux maître Cannoli lui-même.",
+
+	"ateliercrops_wheatshroom.name": "Volvaire du froment",
+	"ateliercrops_wheatshroom.description": "Son apparence banale ne trompe pas les gastronomes qui connaissent son potentiel culinaire.",
+
+	"ateliercrops_cacaopod.name": "Cabosse de cacao sauvage",
+	"ateliercrops_cacaopod.description": "On y trouve les précieuses fèves de cacao utilisées pour fabriquer du chocolat.",
+
+	"ateliercrops_raspberry.name": "Framboise sauvage",
+	"ateliercrops_raspberry.description": "Une variété en buisson qui pousse dans les forêts de Ferngill.",
+
+	"ateliercrops_redonion.name": "Oignon rouge sauvage",
+	"ateliercrops_redonion.description": "Méfiez-vous quand vous le couperez, il pourrait vous faire pleurer !",
+
+	"ateliercrops_strawberry.name": "Fraise des bois",
+	"ateliercrops_strawberry.description": "Un fruit sauvage plus petit et savoureux que celui cultivé dans les jardins.",
+
+	"ateliercrops_elderberries.name": "Fleurs de sureau",
+	"ateliercrops_elderberries.description": "Des fleurs blanches et des baies noires, à utiliser en tisane ou en sirop.",
+
+///////////////////////////////
+// FAERIE GARDEN TRANSLATION //
+///////////////////////////////
+
+//MUSHROOMS
+
+"ateliercrops_dawn_trumpet.name":"Trompettes de l'aube",
+"ateliercrops_dawn_trumpet.description":"De petits champignons qui poussent en groupe lors des dernières heures du jour.",
+
+"ateliercrops_dusk_cap.name":"Pholiote crépusculaire",
+"ateliercrops_dusk_cap.description":"Un champignon au chapeau visqueux qui n'apparaît qu'après la tombée de la nuit.",
+
+"ateliercrops_giant_amanita.name":"Amanite géantoïde",
+"ateliercrops_giant_amanita.description":"Un espèce spectaculaire, contenant une grande quantité de substances toxiques.",
+
+"ateliercrops_amanita_cluster.name":"Amanite polycéphale",
+"ateliercrops_amanita_cluster.description":"Un champignon à plusieurs chapeaux sur un seul pied. Toxique mais nécessaire dans certaines potions.",
+
+"ateliercrops_golden_aura.name":"Kintaké",
+"ateliercrops_golden_aura.description":"Son nom signifie champignon d'or. Un ingrédient essentiel à plusieurs potions magiques.",
+
+"ateliercrops_moon_mushroom.name":"Vesse-de-lune",
+"ateliercrops_moon_mushroom.description":"Un champignon de la famille des lycoperdons qui ressemble à une pleine lune.",
+
+"ateliercrops_gloomy_blewit.name":"Craterelle bémol",
+"ateliercrops_gloomy_blewit.description":"Un champignon en forme de trompette qui ne se développe que durant les orages.",
+
+"ateliercrops_tiny_angels.name":"Armillaire petits-anges",
+"ateliercrops_tiny_angels.description":"Contrairement à un autre champignon nommé Ange de la mort, ceux-ci sont parfaitement comestibles !",
+
+"ateliercrops_verdigris_agaric.name":"Strophaire vert-de-gris",
+"ateliercrops_verdigris_agaric.description":"Un champignon à la couleur irisée contenant des substances hallucinogènes. Venimeux à haute dose.",
+
+"ateliercrops_faerie_helmets.name":"Casques-de-fées",
+"ateliercrops_faerie_helmets.description":"On appelle cette armillaire ainsi car ses minuscules chapeaux ressemblent à des coiffes.",
+
+"ateliercrops_blush_cap.name":"Pholiote rosissante",
+"ateliercrops_blush_cap.description":"Un champignon mortel qui ne doit être manipulé que par des mains expertes!",
+
+"ateliercrops_peach_parasol.name":"Paraspore pêche",
+"ateliercrops_peach_parasol.description":"Il aurait servi autrefois comme pigment pour teindre des habits ou colorer des baumes.",
+
+//FLOWERS
+
+"ateliercrops_geranium.name": "Géraniange",
+"ateliercrops_geranium.description": "Une variété de pélargonium qui pousse en épais buissons colorés.",
+
+"ateliercrops_arctic_fox.name": "Gueule-de-renard",
+"ateliercrops_arctic_fox.description": "Une très belle et rare espèce de muflier, ou gueule-de-loup.",
+
+"ateliercrops_avalune.name": "Avalune",
+"ateliercrops_avalune.description": "Une variété de lupin de couleur rose. Elle serait une des fleurs préférées des fées.",
+
+"ateliercrops_chiffon.name": "Organdi bleu",
+"ateliercrops_chiffon.description": "Une pivoine d'un bleu sublime.",
+
+"ateliercrops_daisy.name": "Pâquerette des murailles",
+"ateliercrops_daisy.description": "Une humble petite fleur, qui a pourtant un usage culinaire, médicinal... et magique.",
+
+"ateliercrops_dawn_lily.name": "Lys d'une aube",
+"ateliercrops_dawn_lily.description": "Une variété extrêmement rare du lys d'un jour qui ne fleurit qu'à l'aube. Elle pousserait dans les endroits parcourus d'énergies magiques.",
+
+"ateliercrops_dusk_lily.name": "Lys d'un soir",
+"ateliercrops_dusk_lily.description": "Une variété extrêmement rare du lys d'un jour qui ne fleurit qu'au crépuscule. Elle pousserait dans les endroits parcourus d'énergies magiques.",
+
+"ateliercrops_puffball.name": "Pompon de lutin",
+"ateliercrops_puffball.description": "Une fleur aussi douce qu'un nuage, associée à la magie des fées.",
+
+"ateliercrops_violet.name": "Violette des prés",
+"ateliercrops_violet.description": "La fleur d'une plante rampante qui peut couvrir rapidement des prairies entières.",
+
+"ateliercrops_maiden.name": "Belle de lune",
+"ateliercrops_maiden.description": "Elle serait un cadeau aux humains de la part de fées bienveillantes pour la venue du printemps.",
+
+"ateliercrops_pixies_breath.name": "Souffle de fée",
+"ateliercrops_pixies_breath.description": "Une variété de gypsophile nuage, ou souffle de bébé, en un peu plus magique.",
+
+"ateliercrops_primrose.name": "Primerose quartz",
+"ateliercrops_primrose.description": "Une espèce de rose naine grimpante prisée pour son parfum et sa couleur qui rappelle celle du quartz rose.",
+
+"ateliercrops_cake_blossom.name":"Fleur-gâteau",
+"ateliercrops_cake_blossom.description":"Une fleur dorée au parfum étrange, appréciée des lutins pour son goût de gâteau d'anniversaire.",
+
+"ateliercrops_caramel_blossom.name":"Fleur-caramel",
+"ateliercrops_caramel_blossom.description":"Un trio de fleurs au parfum étrange, appréciée des lutins pour son goût de sucre cuit.",
+
+"ateliercrops_creamsicle_blossom.name":"Fleur-sorbet",
+"ateliercrops_creamsicle_blossom.description":"Une fleur orange au parfum étrange, appréciée des lutins pour son goût de crème glacée.",
+
+"ateliercrops_custard_blossom.name":"Fleur-vanilline",
+"ateliercrops_custard_blossom.description":"Une fleur blanche au parfum étrange, appréciée des lutins pour son goût de crème à la vanille.",
+
+"ateliercrops_gumdrop_blossom.name":"Fleur-boule de gomme",
+"ateliercrops_gumdrop_blossom.description":"Un trio de fleurs au parfum étrange, appréciée des lutins pour son goût de bonbon.",
+
+"ateliercrops_macaron_blossom.name":"Fleur-macaron",
+"ateliercrops_macaron_blossom.description":"Une fleur violette au parfum étrange, appréciée des lutins pour son goût de macaron à la lavande.",
+
+"ateliercrops_pie_blossom.name":"Fleur-tartelette",
+"ateliercrops_pie_blossom.description":"Une fleur bleue au parfum étrange, appréciée des lutins pour son goût de tarte à la myrtille.",
+
+"ateliercrops_shortcake_blossom.name":"Fleur-charlotte",
+"ateliercrops_shortcake_blossom.description":"Une fleur rose au parfum étrange, appréciée des lutins pour son goût de fraise des bois.",
+
+"ateliercrops_sprinkle_blossom.name":"Fleur-paillette",
+"ateliercrops_sprinkle_blossom.description":"Une fleur rose au parfum étrange, appréciée des lutins pour son goût de vermicelles arc-en-ciel.",
+
+"ateliercrops_sugar_blossom.name":"Fleur-candy",
+"ateliercrops_sugar_blossom.description":"Une fleur rose au parfum étrange, appréciée des lutins pour son goût de sirop de sucre.",
+
+"ateliercrops_mysteria_name":"Mystycine",
+"ateliercrops_mysteria.description":"Un cultivar très rare de la glycine. Très toxique mais tenue en haute estime pour son parfum et ses propriétés magiques.",
+
+//FRUITS
+
+"ateliercrops_amber_moondrop.name": "Gouttelune d'ambre",
+"ateliercrops_amber_moondrop.description": "Le fruit doré d'une vigne extraordinaire qu'on dit cultivée par le Peuple des Fées de Ferngill.",
+
+"ateliercrops_apple.name": "Pomme ambroisie",
+"ateliercrops_apple.description": "Une pomme vert vif si sucrée qu'on lui a donné le nom de la nourriture préférée des divinités.",
+
+"ateliercrops_orange.name": "Orange sanguinelle",
+"ateliercrops_orange.description": "Un agrume rare au jus abondant et sucré.",
+
+"ateliercrops_pomegranate.name": "Grenadivine",
+"ateliercrops_pomegranate.description": "On raconte que ce fruit merveilleux est toujours mûr à point, quel que soit le moment où on le cueille.",
+
+"ateliercrops_jade_moondrop.name": "Gouttelune de jade",
+"ateliercrops_jade_moondrop.description": "Le fruit vert d'une vigne extraordinaire qu'on dit cultivée par le Peuple des Fées de Ferngill.",
+
+"ateliercrops_banana.name": "Bananille",
+"ateliercrops_banana.description": "Une banane longue et fine comme l'index d'une main.",
+
+"ateliercrops_lapis_moondrop.name": "Gouttelune de lapis",
+"ateliercrops_lapis_moondrop.description": "Le fruit bleu d'une vigne extraordinaire, qu'on dit cultivée par le Peuple des Fées de Ferngill.",
+
+"ateliercrops_apricot.name": "Abricot pleine-lune",
+"ateliercrops_apricot.description": "Sa peau est pâle et sa chair dorée. Il serait le fruit préféré des divinités lunaires.",
+
+"ateliercrops_pearl_moondrop.name": "Gouttelune de perle",
+"ateliercrops_pearl_moondrop.description": "Le fruit blanc d'une vigne extraordinaire, qu'on dit cultivée par le Peuple des Fées de Ferngill.",
+
+"ateliercrops_peach.name": "Pêche fraîche-neige",
+"ateliercrops_peach.description": "Un fruit délicat associé à la princesse d'un vieux conte qui lui a donné son nom.",
+
+"ateliercrops_cherry.name": "Cerise griottine",
+"ateliercrops_cherry.description": "Son apparence banale cache un goût qui relève plus du bonbon acide que du fruit.",
+
+"ateliercrops_mango.name": "Mangue grand-soleil",
+"ateliercrops_mango.description": "Une mangue délicieuse qui atteint son meilleur goût quand le soleil rougeoit.",
+
+//HERBS
+
+"ateliercrops_rose_flax.name":"Lin rose",
+"ateliercrops_rose_flax.description":"Une céréale d'un joli rose pâle. Moulue, elle donne une farine très prisée.",
+
+"ateliercrops_mugwort.name": "Armoise",
+"ateliercrops_mugwort.description": "Celui qui a soin d'avoir toujours sur lui cette herbe ne craint point les mauvais esprits, ni le poison, ni l'eau, ni le feu.",
+
+"ateliercrops_violet_flax.name":"Lin parme",
+"ateliercrops_violet_flax.description":"Une céréale d'un joli violet pâle. Moulue, elle donne une farine très prisée.",
+
+"ateliercrops_thistle.name": "Chardon",
+"ateliercrops_thistle.description": "Considérée comme une mauvaise herbe, sauf par les sorcières qui apprécient sa capacité à soigner les esprits tourmentés.",
+
+"ateliercrops_valerian.name": "Valériane",
+"ateliercrops_valerian.description": "Prisée pour son pouvoir sédatif, mais aussi pour éloigner les risques de tempête et d'inondation.",
+
+"ateliercrops_yarrow.name":"Achillée",
+"ateliercrops_yarrow.description":"Connues pour ses propriétés médicinales depuis des siècles, particulièrement contre les maux d'estomac.",
+
+//FEATHERS
+
+"ateliercrops_bluebird_feather.name": "Plume de merlebleu azuré",
+"ateliercrops_bluebird_feather.description": "Une plume bleu vif d'un oiseau des montagnes locales.",
+
+"ateliercrops_crow_feather.name": "Plume de corneille",
+"ateliercrops_crow_feather.description": "Aussi noire qu'une nuit sans lune.",
+
+"ateliercrops_lovebird_feather.name": "Plume d'inséparable",
+"ateliercrops_lovebird_feather.description": "Une plume multicolore d'une petite espèce de perroquet.",
+
+"ateliercrops_owl_feather.name": "Plume de chouette blanche",
+"ateliercrops_owl_feather.description": "Une belle plume provenant d'un chouette très rare dans la région.",
+
+"ateliercrops_phoenix_feather.name": "Plume de phénix",
+"ateliercrops_phoenix_feather.description": "La plume flamboyante d'un oiseau magique extrêmement rare.",
+
+"ateliercrops_raven_feather.name": "Plume de corbeau",
+"ateliercrops_raven_feather.description": "Une plume noire aux profonds reflets violets.",
+
+"ateliercrops_rosefinch_feather.name": "Plume de roselin",
+"ateliercrops_rosefinch_feather.description": "La plume rose d'une petite espèce d'oiseau locale.",
+
+"ateliercrops_starling_feather.name": "Plume d'étourneau à dos violet",
+"ateliercrops_starling_feather.description": "Les plumes du dos des étourneaux locaux ont la couleur de l'iridium, ce qui les rend particulièrement recherchées.",
+
+//FORAGE
+
+"ateliercrops_fire_dragon_scale.name": "Écaille de dragon des flammes",
+"ateliercrops_fire_dragon_scale.description": "Une magnifique écaille tombée d'un dragon de feu de légende.",
+
+"ateliercrops_clover.name": "Trèfle à quatre feuilles",
+"ateliercrops_clover.description": "Quelle chance !!",
+
+"ateliercrops_mandrake.name": "Racine de mandragore",
+"ateliercrops_mandrake.description": "Un tubercule qui a l'air d'avoir sa propre conscience... Les sorcières bouchent leurs oreilles en les déterrant car elles hurlent à la mort.",
+
+"ateliercrops_ice_dragon_scale.name": "Écaille de dragon des pluies",
+"ateliercrops_ice_dragon_scale.description": "Une magnifique écaille tombée d'un dragon d'eau de légende.",
+
+"ateliercrops_shooting_star.name": "Étoile filante",
+"ateliercrops_shooting_star.description": "Une étoile tombée du ciel ! Le plus beau trésor que peuvent trouver magiciens et sorcières.",
+
+"ateliercrops_unicorn_horn.name": "Corne de licorne",
+"ateliercrops_unicorn_horn.description": "La corne lactéale d'une licorne juvénile, un merveilleux trésor.",
+
+//TREE SAPLINGS
+
+"ateliercrops_chiffon_sapling.name": "Treillis pour organdi bleu",
+"ateliercrops_chiffon_sapling.description": "Il faut 28 jours pour que la plante envahisse tout le treillis. Fleurit en automne. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_daisy_sapling.name": "Treillis pour pâquerette des murailles",
+"ateliercrops_daisy_sapling.description": "Il faut 28 jours pour que la plante envahisse tout le treillis. Fleurit au printemps. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_dawn_sapling.name": "Treillis pour lys d'une aube",
+"ateliercrops_dawn_sapling.description": "Il faut 28 jours pour que la plante envahisse tout le treillis. Fleurit en été. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_dusk_sapling.name": "Treillis pour lys d'un soir",
+"ateliercrops_dusk_sapling.description": "Il faut 28 jours pour que la plante envahisse tout le treillis. Fleurit en été. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_geranium_sapling.name": "Treillis pour géraniange",
+"ateliercrops_geranium_sapling.description": "Il faut 28 jours pour que la plante envahisse tout le treillis. Fleurit en automne. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_primrose_sapling.name": "Treillis pour primerosier quartz",
+"ateliercrops_primrose_sapling.description": "Il faut 28 jours pour que le rosier envahisse tout le treillis. Fleurit en automne. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_violet_sapling.name": "Treillis pour violette des prés",
+"ateliercrops_violet_sapling.description": "Il faut 28 jours pour que la violette envahisse tout le treillis. Fleurit au printemps. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_mysteria_sapling.name": "Treillis pour mystycine",
+"ateliercrops_mysteria_sapling.description": "Il faut 28 jours pour que la glycine envahisse tout le treillis. Fleurit au printemps. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+
+//SWEET TREE SAPLINGS
+
+"ateliercrops_pavlova_sapling.name": "Jeune pavlovier",
+"ateliercrops_pavlova_sapling.description": "Il faut 28 jours pour que le pavlovier arrive à maturité. Fleurit au printemps et en été. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_gelato_sapling.name": "Jeune sorbetillier",
+"ateliercrops_gelato_sapling.description": "Il faut 28 jours pour que le sorbetillier arrive à maturité. Fleurit en été et en hiver. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_souffle_sapling.name": "Jeune arbre à soufflé",
+"ateliercrops_souffle_sapling.description": "Il faut 28 jours pour que l'arbre à soufflé arrive à maturité. Fleurit en été et en automne. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_brulee_sapling.name": "Jeune vanicaramellier",
+"ateliercrops_brulee_sapling.description": "Il faut 28 jours pour que le vanicaramellier arrive à maturité. Fleurit en automne et en hiver. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+"ateliercrops_buttercream_sapling.name": "Jeune crèmobeurrier",
+"ateliercrops_buttercream_sapling.description": "Il faut 28 jours pour que le crèmobeurrier arrive à maturité. Fleurit au printemps et en été. Ne pousse que si les 8 \"cases\" environnantes sont vides.",
+
+//MUSHROOM TREES
+
+"ateliercrops_MysticTrumpet_seeds.name":"Graine de trompette mystique",
+"ateliercrops_MysticTrumpet_seeds.description":"Une graine enchantée qui pourra peut-être donner un grand arbre champignon.",
+
+"ateliercrops_StrangeCap_seeds.name":"Graine de champignon occulte",
+"ateliercrops_StrangeCap_seeds.description":"Une graine enchantée qui pourra peut-être donner un grand arbre champignon.",
+
+"ateliercrops_WitchwoodTree_seeds.name":"Graine de bois-sorcière",
+"ateliercrops_WitchwoodTree_seeds.description":"Une graine enchantée qui pourra peut-être donner un grand arbre champignon.",
+
+//FLOWER SEEDS
+
+"ateliercrops_arctic_fox_seeds.name": "Graines de gueule-de-renard",
+"ateliercrops_arctic_fox_seeds.description": "À planter au printemps ou en été. Il faut 20 jours pour fleurir.",
+
+"ateliercrops_avalune_seeds.name": "Graines d'avalune",
+"ateliercrops_avalune_seeds.description": "À planter au printemps ou en été. Il faut 12 jours pour fleurir.",
+
+"ateliercrops_puffball_seeds.name": "Graines de pompon de lutin",
+"ateliercrops_puffball_seeds.description": "À planter au printemps. Il faut 12 jours pour fleurir. Fleurit tous les 5 jours après la 1ère récolte.",
+
+"ateliercrops_maiden_seeds.name": "Graines de belle de lune",
+"ateliercrops_maiden_seeds.description": "À planter au printemps. Il faut 5 jours pour fleurir.",
+
+"ateliercrops_pixies_breath_seeds.name": "Graines de souffle de fée",
+"ateliercrops_pixies_breath_seeds.description": "À planter en automne. Il faut 14 jours pour fleurir. Fleurit tous les 3 jours après la 1ère récolte.",
+
+//FRUIT SEEDS
+
+"ateliercrops_amber_moondrop_seeds.name": "Plant de gouttelune d'ambre",
+"ateliercrops_amber_moondrop_seeds.description": "À planter au printemps et en été. Il faut 21 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+
+"ateliercrops_lapis_moondrop_seeds.name": "Plant de gouttelune de lapis",
+"ateliercrops_lapis_moondrop_seeds.description": "À planter en été et en automne. Il faut 21 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+
+"ateliercrops_jade_moondrop_seeds.name": "Plant de gouttelune de jade",
+"ateliercrops_jade_moondrop_seeds.description": "À planter en été et en automne. Il faut 21 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+
+"ateliercrops_pearl_moondrop_seeds.name": "Plant de gouttelune de perle",
+"ateliercrops_pearl_moondrop_seeds.description": "À planter en hiver pour récolter au printemps. Il faut 21 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+
+//HERB SEEDS
+
+"ateliercrops_rose_flax_seeds.name": "Graines de lin rose",
+"ateliercrops_rose_flax_seeds.description": "À planter toute l'année. Il faut 4 jours pour arriver à maturité. Récolter à la faux.",
+
+"ateliercrops_mandrake_seeds.name": "Graines de mandragore",
+"ateliercrops_mandrake_seeds.description": "À planter en automne. Il faut 10 jours pour que la racine arrive à maturité.",
+
+"ateliercrops_mugwort_seeds.name": "Graines d'armoise",
+"ateliercrops_mugwort_seeds.description": "À planter en été et en automne. Il faut 12 jours pour arriver à maturité. Produit tous les 4 jours après la 1ère récolte.",
+
+"ateliercrops_violet_flax_seeds.name": "Graines de lin parme",
+"ateliercrops_violet_flax_seeds.description": "À planter toute l'année. Il faut 4 jours pour arriver à maturité. Récolter à la faux.",
+
+"ateliercrops_thistle_seeds.name": "Graines de chardon",
+"ateliercrops_thistle_seeds.description": "À planter en été et en automne. Il faut 10 jours pour arriver à maturité. Produit tous les 5 jours après la 1ère récolte.",
+
+"ateliercrops_valerian_seeds.name": "Graines de valériane",
+"ateliercrops_valerian_seeds.description": "À planter en été. Il faut 13 jours pour arriver à maturité. Produit tous les 5 jours après la 1ère récolte.",
+
+"ateliercrops_yarrow_seeds.name": "Graines d'achillée",
+"ateliercrops_yarrow_seeds.description": "À planter au printemps et en été. Il faut 12 jours pour arriver à maturité."	
+
+
+}

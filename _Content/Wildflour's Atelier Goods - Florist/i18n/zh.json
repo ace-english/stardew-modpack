@@ -1,0 +1,697 @@
+{
+
+    //////////////
+    // MACHINES //
+    //////////////
+
+    "atelierfloral_FlowerStation.name": "花卉加工站",
+    "atelierfloral_FlowerStation.description": "将 5 朵花制成花束。",
+
+    "atelierfloral_FragranceStation.name": "香氛机",
+    "atelierfloral_FragranceStation.description": "将花卉制成高级香水，或是将干花制成焚香。",
+
+    "atelierfloral_CandleStation.name": "蜡熔锅",
+    "atelierfloral_CandleStation.description": "将花卉制成香氛皂，或是将干花制成蜡烛。需要蜂巢。",
+
+    ///////////////////////
+    // GENERIC ITEMS NEW //
+    ///////////////////////
+
+    "atelierfloral_dried_flowers.name": "干花",
+    "atelierfloral_dried_flowers.description": "干花，方便保存。",
+
+    "atelierfloral_flower_bouquet.name": "花束",
+    "atelierfloral_flower_bouquet.description": "现组花束。",
+
+    "atelierfloral_flower_perfume.name": "香水",
+    "atelierfloral_flower_perfume.description": "使用鲜花制作的香水。",
+
+    "atelierfloral_flower_soap.name": "香皂",
+    "atelierfloral_flower_soap.description": "使用蜂巢和鲜花做的香皂。",
+
+    "atelierfloral_flower_candles.name": "蜡烛",
+    "atelierfloral_flower_candles.description": "有干花香气的手工蜡烛。",
+
+    "atelierfloral_flower_incense.name": "精油",
+    "atelierfloral_flower_incense.description": "使用干花制作的可燃精油。",
+
+    /////////////////
+    // NEWLY ADDED //
+    /////////////////
+
+    "atelierfloral_crocus_candles.name": "冬季节日蜡烛",
+    "atelierfloral_crocus_candles.description": "手工蘸制，带有干野生冬季番红花香味的蜡烛。",
+
+    "atelierfloral_daisy_candles.name": "春日草原蜡烛",
+    "atelierfloral_daisy_candles.description": "手工蘸制，带有干雏菊花香味的蜡烛。",
+
+    "atelierfloral_thistle_candles.name": "神秘森林蜡烛",
+    "atelierfloral_thistle_candles.description": "手工蘸制，带有干蓟花香味的蜡烛。",
+
+    "atelierfloral_valerian_candles.name": "宁静和平蜡烛",
+    "atelierfloral_valerian_candles.description": "手工蘸制，带有干欧缅草香味的蜡烛。",
+
+    "atelierfloral_violet_candles.name": "紫罗兰蜡烛",
+    "atelierfloral_violet_candles.description": "手工蘸制，带有干紫罗兰花香味的蜡烛。",
+
+    "atelierfloral_yarrow_candles.name": "女巫蜡烛",
+    "atelierfloral_yarrow_candles.description": "手工蘸制，带有干洋蓍草香味的蜡烛。",
+
+
+    /////////////
+    // STRINGS //
+    /////////////
+
+    "atelierfloral_dried_flowers": "干 {0}",
+    "atelierfloral_flower_bouquet": "{0} 花束",
+    "atelierfloral_flower_perfume": "{0} 香水",
+    "atelierfloral_flower_soap": "{0} 香氛皂",
+    "atelierfloral_flower_candles": "{0} 蜡烛",
+    "atelierfloral_flower_incense": "{0} 精油",
+
+    //////////////////////////////
+    // MODDED SUPPORT ITEMS NEW //
+    //////////////////////////////
+
+    "atelierfloral_dried_gardenias.name": "干栀子花",
+    "atelierfloral_dried_gardenias.description": "干栀子花，方便保存。",
+
+    "atelierfloral_gardenia_bouquet.name": "栀子花束",
+    "atelierfloral_gardenia_bouquet.description": "现组栀子花束。",
+
+    "atelierfloral_gardenia_perfume.name": "栀子花香水",
+    "atelierfloral_gardenia_perfume.description": "使用新鲜栀子花制作的香水。",
+
+    "atelierfloral_gardenia_soap.name": "栀子花香氛皂",
+    "atelierfloral_gardenia_soap.description": "使用蜂巢和新鲜栀子花做的香皂。",
+
+    "atelierfloral_gardenia_candles.name": "栀子花蜡烛",
+    "atelierfloral_gardenia_candles.description": "有干栀子花香气的手工蜡烛。",
+
+    "atelierfloral_gardenia_incense.name": "栀子花精油",
+    "atelierfloral_gardenia_incense.description": "使用干栀子花制作的可燃精油。",
+
+    "atelierfloral_dried_hibiscus.name": "干洛神花",
+    "atelierfloral_dried_hibiscus.description": "干洛神花，方便保存。",
+
+    "atelierfloral_hibiscus_bouquet.name": "洛神花束",
+    "atelierfloral_hibiscus_bouquet.description": "现组洛神花束。",
+
+    "atelierfloral_hibiscus_perfume.name": "洛神花香水",
+    "atelierfloral_hibiscus_perfume.description": "使用新鲜洛神花制作的香水。",
+
+    "atelierfloral_hibiscus_soap.name": "洛神花香氛皂",
+    "atelierfloral_hibiscus_soap.description": "使用蜂巢和新鲜洛神花做的香皂。",
+
+    "atelierfloral_hibiscus_candles.name": "洛神花蜡烛",
+    "atelierfloral_hibiscus_candles.description": "有干洛神花香气的手工蜡烛。",
+
+    "atelierfloral_hibiscus_incense.name": "洛神花精油",
+    "atelierfloral_hibiscus_incense.description": "使用干洛神花制作的可燃精油。",
+
+    "atelierfloral_dried_freesia.name": "干小苍兰",
+    "atelierfloral_dried_freesia.description": "干小苍兰，方便保存。",
+
+    "atelierfloral_freesia_bouquet.name": "小苍兰花束",
+    "atelierfloral_freesia_bouquet.description": "现组小苍兰花束。",
+
+    "atelierfloral_freesia_perfume.name": "小苍兰香水",
+    "atelierfloral_freesia_perfume.description": "使用新鲜小苍兰制作的香水。",
+
+    "atelierfloral_freesia_soap.name": "小苍兰香氛皂",
+    "atelierfloral_freesia_soap.description": "使用蜂巢和新鲜小苍兰做的香皂。",
+
+    "atelierfloral_freesia_candles.name": "小苍兰蜡烛",
+    "atelierfloral_freesia_candles.description": "有干小苍兰香气的手工蜡烛。",
+
+    "atelierfloral_freesia_incense.name": "小苍兰精油",
+    "atelierfloral_freesia_incense.description": "使用干小苍兰制作的可燃精油。",
+
+    "atelierfloral_dried_peony.name": "干牡丹",
+    "atelierfloral_dried_peony.description": "干牡丹，方便保存。",
+
+    "atelierfloral_peony_bouquet.name": "牡丹花束",
+    "atelierfloral_peony_bouquet.description": "现组牡丹花束。",
+
+    "atelierfloral_peony_perfume.name": "牡丹香水",
+    "atelierfloral_peony_perfume.description": "使用新鲜牡丹制作的香水。",
+
+    "atelierfloral_peony_soap.name": "牡丹香氛皂",
+    "atelierfloral_peony_soap.description": "使用蜂巢和新鲜牡丹做的香皂。",
+
+    "atelierfloral_peony_candles.name": "牡丹蜡烛",
+    "atelierfloral_peony_candles.description": "有干牡丹香气的手工蜡烛。",
+
+    "atelierfloral_peony_incense.name": "牡丹精油",
+    "atelierfloral_peony_incense.description": "使用干牡丹制作的可燃精油。",
+
+    "atelierfloral_dried_snapdragon.name": "干金鱼草",
+    "atelierfloral_dried_snapdragon.description": "干金鱼草，方便保存。",
+
+    "atelierfloral_snapdragon_bouquet.name": "金鱼草花束",
+    "atelierfloral_snapdragon_bouquet.description": "现组金鱼草花束。",
+
+    "atelierfloral_snapdragon_perfume.name": "金鱼草香水",
+    "atelierfloral_snapdragon_perfume.description": "使用新鲜金鱼草制作的香水。",
+
+    "atelierfloral_snapdragon_soap.name": "金鱼草香氛皂",
+    "atelierfloral_snapdragon_soap.description": "使用蜂巢和新鲜金鱼草做的香皂。",
+
+    "atelierfloral_snapdragon_candles.name": "金鱼草蜡烛",
+    "atelierfloral_snapdragon_candles.description": "有干金鱼草香气的手工蜡烛。",
+
+    "atelierfloral_snapdragon_incense.name": "金鱼草精油",
+    "atelierfloral_snapdragon_incense.description": "使用干金鱼草制作的可燃精油。",
+
+    "atelierfloral_dried_calendula.name": "干金盏花",
+    "atelierfloral_dried_calendula.description": "干金盏花，方便保存。",
+
+    "atelierfloral_calendula_bouquet.name": "金盏花束",
+    "atelierfloral_calendula_bouquet.description": "现组金盏花束。",
+
+    "atelierfloral_calendula_perfume.name": "金盏花香水",
+    "atelierfloral_calendula_perfume.description": "使用新鲜金盏花制作的香水。",
+
+    "atelierfloral_calendula_soap.name": "金盏花香氛皂",
+    "atelierfloral_calendula_soap.description": "使用蜂巢和新鲜金盏花做的香皂。",
+
+    "atelierfloral_calendula_candles.name": "金盏花蜡烛",
+    "atelierfloral_calendula_candles.description": "有干金盏花香气的手工蜡烛。",
+
+    "atelierfloral_calendula_incense.name": "金盏花精油",
+    "atelierfloral_calendula_incense.description": "使用干金盏花制作的可燃精油。",
+
+    "atelierfloral_dried_hollyhock.name": "干蜀葵",
+    "atelierfloral_dried_hollyhock.description": "干蜀葵，方便保存。",
+
+    "atelierfloral_hollyhock_bouquet.name": "蜀葵花束",
+    "atelierfloral_hollyhock_bouquet.description": "现组蜀葵花束。",
+
+    "atelierfloral_hollyhock_perfume.name": "蜀葵香水",
+    "atelierfloral_hollyhock_perfume.description": "使用新鲜蜀葵制作的香水。",
+
+    "atelierfloral_hollyhock_soap.name": "蜀葵香氛皂",
+    "atelierfloral_hollyhock_soap.description": "使用蜂巢和新鲜蜀葵做的香皂。",
+
+    "atelierfloral_hollyhock_candles.name": "蜀葵蜡烛",
+    "atelierfloral_hollyhock_candles.description": "有干蜀葵香气的手工蜡烛。",
+
+    "atelierfloral_hollyhock_incense.name": "蜀葵精油",
+    "atelierfloral_hollyhock_incense.description": "使用干蜀葵制作的可燃精油。",
+
+    "atelierfloral_dried_springpansy.name": "干三色堇",
+    "atelierfloral_dried_springpansy.description": "干三色堇，方便保存。",
+
+    "atelierfloral_springpansy_bouquet.name": "春日三色堇花束",
+    "atelierfloral_springpansy_bouquet.description": "现组春日三色堇花束。",
+
+    "atelierfloral_springpansy_perfume.name": "春日三色堇香水",
+    "atelierfloral_springpansy_perfume.description": "使用新鲜春日三色堇制作的香水。",
+
+    "atelierfloral_springpansy_soap.name": "春日三色堇香氛皂",
+    "atelierfloral_springpansy_soap.description": "使用蜂巢和新鲜春日三色堇做的香皂。",
+
+    "atelierfloral_springpansy_candles.name": "春日三色堇蜡烛",
+    "atelierfloral_springpansy_candles.description": "有干春日三色堇香气的手工蜡烛。",
+
+    "atelierfloral_springpansy_incense.name": "春日三色堇精油",
+    "atelierfloral_springpansy_incense.description": "使用干春日三色堇制作的可燃精油。",
+
+    "atelierfloral_dried_cornflower.name": "干矢车菊",
+    "atelierfloral_dried_cornflower.description": "干矢车菊，方便保存。",
+
+    "atelierfloral_cornflower_bouquet.name": "矢车菊花束",
+    "atelierfloral_cornflower_bouquet.description": "现组矢车菊花束。",
+
+    "atelierfloral_cornflower_perfume.name": "矢车菊香水",
+    "atelierfloral_cornflower_perfume.description": "使用新鲜矢车菊制作的香水。",
+
+    "atelierfloral_cornflower_soap.name": "矢车菊香氛皂",
+    "atelierfloral_cornflower_soap.description": "使用蜂巢和新鲜矢车菊做的香皂。",
+
+    "atelierfloral_cornflower_candles.name": "矢车菊蜡烛",
+    "atelierfloral_cornflower_candles.description": "有干矢车菊香气的手工蜡烛。",
+
+    "atelierfloral_cornflower_incense.name": "矢车菊精油",
+    "atelierfloral_cornflower_incense.description": "使用干矢车菊制作的可燃精油。",
+
+    "atelierfloral_dried_iris.name": "干鸢尾花",
+    "atelierfloral_dried_iris.description": "干鸢尾花，方便保存。",
+
+    "atelierfloral_iris_bouquet.name": "鸢尾花束",
+    "atelierfloral_iris_bouquet.description": "现组鸢尾花束。",
+
+    "atelierfloral_iris_perfume.name": "鸢尾花香水",
+    "atelierfloral_iris_perfume.description": "使用新鲜鸢尾花制作的香水。",
+
+    "atelierfloral_iris_soap.name": "鸢尾花香氛皂",
+    "atelierfloral_iris_soap.description": "使用蜂巢和新鲜鸢尾花做的香皂。",
+
+    "atelierfloral_iris_candles.name": "鸢尾花蜡烛",
+    "atelierfloral_iris_candles.description": "有干鸢尾花香气的手工蜡烛。",
+
+    "atelierfloral_iris_incense.name": "鸢尾花精油",
+    "atelierfloral_iris_incense.description": "使用干鸢尾花制作的可燃精油。",
+
+    "atelierfloral_dried_cosmos.name": "干波斯菊",
+    "atelierfloral_dried_cosmos.description": "干波斯菊，方便保存。",
+
+    "atelierfloral_cosmos_bouquet.name": "波斯菊花束",
+    "atelierfloral_cosmos_bouquet.description": "现组波斯菊花束。",
+
+    "atelierfloral_cosmos_perfume.name": "波斯菊香水",
+    "atelierfloral_cosmos_perfume.description": "使用新鲜波斯菊制作的香水。",
+
+    "atelierfloral_cosmos_soap.name": "波斯菊香氛皂",
+    "atelierfloral_cosmos_soap.description": "使用蜂巢和新鲜波斯菊做的香皂。",
+
+    "atelierfloral_cosmos_candles.name": "波斯菊蜡烛",
+    "atelierfloral_cosmos_candles.description": "有干波斯菊香气的手工蜡烛。",
+
+    "atelierfloral_cosmos_incense.name": "波斯菊精油",
+    "atelierfloral_cosmos_incense.description": "使用干波斯菊制作的可燃精油。",
+
+    "atelierfloral_dried_primrose.name": "干樱草",
+    "atelierfloral_dried_primrose.description": "干樱草，方便保存。",
+
+    "atelierfloral_primrose_bouquet.name": "樱草花束",
+    "atelierfloral_primrose_bouquet.description": "现组樱草花束。",
+
+    "atelierfloral_primrose_perfume.name": "樱草香水",
+    "atelierfloral_primrose_perfume.description": "使用新鲜樱草制作的香水。",
+
+    "atelierfloral_primrose_soap.name": "樱草香氛皂",
+    "atelierfloral_primrose_soap.description": "使用蜂巢和新鲜樱草做的香皂。",
+
+    "atelierfloral_primrose_candles.name": "樱草蜡烛",
+    "atelierfloral_primrose_candles.description": "有干樱草香气的手工蜡烛。",
+
+    "atelierfloral_primrose_incense.name": "樱草精油",
+    "atelierfloral_primrose_incense.description": "使用干樱草制作的可燃精油。",
+
+    "atelierfloral_dried_pixiebell.name": "干精铃草",
+    "atelierfloral_dried_pixiebell.description": "干精铃草，方便保存。",
+
+    "atelierfloral_pixiebell_bouquet.name": "精铃草花束",
+    "atelierfloral_pixiebell_bouquet.description": "现组精铃草花束。",
+
+    "atelierfloral_pixiebell_perfume.name": "精铃草香水",
+    "atelierfloral_pixiebell_perfume.description": "使用新鲜精铃草制作的香水。",
+
+    "atelierfloral_pixiebell_soap.name": "精铃草香氛皂",
+    "atelierfloral_pixiebell_soap.description": "使用蜂巢和新鲜精铃草做的香皂。",
+
+    "atelierfloral_pixiebell_candles.name": "精铃草蜡烛",
+    "atelierfloral_pixiebell_candles.description": "有干精铃草香气的手工蜡烛。",
+
+    "atelierfloral_pixiebell_incense.name": "精铃草精油",
+    "atelierfloral_pixiebell_incense.description": "使用干精铃草制作的可燃精油。",
+
+    "atelierfloral_dried_pinkmorningglory.name": "干粉牵牛",
+    "atelierfloral_dried_pinkmorningglory.description": "干粉牵牛，方便保存。",
+
+    "atelierfloral_pinkmorningglory_bouquet.name": "粉牵牛花束",
+    "atelierfloral_pinkmorningglory_bouquet.description": "现组粉牵牛花束。",
+
+    "atelierfloral_pinkmorningglory_perfume.name": "粉牵牛香水",
+    "atelierfloral_pinkmorningglory_perfume.description": "使用新鲜粉牵牛制作的香水。",
+
+    "atelierfloral_pinkmorningglory_soap.name": "粉牵牛香氛皂",
+    "atelierfloral_pinkmorningglory_soap.description": "使用蜂巢和新鲜粉牵牛做的香皂。",
+
+    "atelierfloral_pinkmorningglory_candles.name": "粉牵牛蜡烛",
+    "atelierfloral_pinkmorningglory_candles.description": "有干粉牵牛香气的手工蜡烛。",
+
+    "atelierfloral_pinkmorningglory_incense.name": "粉牵牛精油",
+    "atelierfloral_pinkmorningglory_incense.description": "使用干粉牵牛制作的可燃精油。",
+
+    "atelierfloral_dried_sweetpea.name": "干甜豌豆",
+    "atelierfloral_dried_sweetpea.description": "干甜豌豆，方便保存。",
+
+    "atelierfloral_sweetpea_bouquet.name": "甜豌豆花束",
+    "atelierfloral_sweetpea_bouquet.description": "现组甜豌豆花束。",
+
+    "atelierfloral_sweetpea_perfume.name": "甜豌豆香水",
+    "atelierfloral_sweetpea_perfume.description": "使用新鲜甜豌豆制作的香水。",
+
+    "atelierfloral_sweetpea_soap.name": "甜豌豆香氛皂",
+    "atelierfloral_sweetpea_soap.description": "使用蜂巢和新鲜甜豌豆做的香皂。",
+
+    "atelierfloral_sweetpea_candles.name": "甜豌豆蜡烛",
+    "atelierfloral_sweetpea_candles.description": "有干甜豌豆香气的手工蜡烛。",
+
+    "atelierfloral_sweetpea_incense.name": "甜豌豆精油",
+    "atelierfloral_sweetpea_incense.description": "使用干甜豌豆制作的可燃精油。",
+
+
+    ///////////////////////////
+    // MACHINE NOTIFICATIONS //
+    ///////////////////////////
+
+    "atelierfloral_FlowerStation_InvalidItem.message": "无法制作",
+    "atelierfloral_FlowerStation_InvalidCount.message": "需要 5 朵花",
+
+    "atelierfloral_FragranceStation_InvalidItem.message": "无法制作",
+    "atelierfloral_FragranceStation_InvalidCount.message": "需要更多物品",
+
+    "atelierfloral_CandleStation_InvalidItem.message": "无法制作",
+    "atelierfloral_CandleStation_InvalidCount.message": "需要蜂巢",
+
+
+    //INCENSE
+
+    "atelierfloral_autumn_incense.name": "劲秋焚香",
+    "atelierfloral_autumn_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以秋日花朵制成，用以迎接换季。",
+
+    "atelierfloral_chamomile_incense.name": "欢悦焚香",
+    "atelierfloral_chamomile_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以洋甘菊制成，象征和平与和谐。",
+
+    "atelierfloral_chiffon_incense.name": "和谐焚香",
+    "atelierfloral_chiffon_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以蓝雪纺制成，象征和谐与和平。",
+
+    "atelierfloral_daisy_incense.name": "希冀焚香",
+    "atelierfloral_daisy_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以天竺葵制成，象征希望与护佑。",
+
+    "atelierfloral_jasmine_incense.name": "冥想焚香",
+    "atelierfloral_jasmine_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以茉莉制成，象征和谐与灵性。",
+
+    "atelierfloral_lavender_incense.name": "松缓焚香",
+    "atelierfloral_lavender_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以薰衣草制成，具有放松的疗效。",
+
+    "atelierfloral_lily_incense.name": "护佑焚香",
+    "atelierfloral_lily_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以百合制成，象征挡咒。",
+
+    "atelierfloral_mugwort_incense.name": "预见焚香",
+    "atelierfloral_mugwort_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以北艾制成，具有魔法特性。",
+
+    "atelierfloral_pixie_incense.name": "精灵焚香",
+    "atelierfloral_pixie_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以满天精灵制成，象征创造力。",
+
+    "atelierfloral_quartz_primrose_incense.name": "疗愈焚香",
+    "atelierfloral_quartz_primrose_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以粉晶樱草制成，象征积极乐观。",
+
+    "atelierfloral_mysteria_incense.name": "秘密焚香",
+    "atelierfloral_mysteria_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以稀有谜藤花制成，象征繁荣。",
+
+    "atelierfloral_spring_incense.name": "芳春焚香",
+    "atelierfloral_spring_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以春日花朵制成，用以迎接新年。",
+
+    "atelierfloral_summer_incense.name": "盛夏焚香",
+    "atelierfloral_summer_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以夏日花朵制成，用以迎接换季。",
+
+    "atelierfloral_thistle_incense.name": "辉耀焚香",
+    "atelierfloral_thistle_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以蓟制成，象征护佑与繁荣。",
+
+    "atelierfloral_valerian_incense.name": "美梦焚香",
+    "atelierfloral_valerian_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以欧缅草制成，具有镇静的疗效。",
+
+    "atelierfloral_vanilla_incense.name": "归根焚香",
+    "atelierfloral_vanilla_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以香草制成，具有放松的疗效。",
+
+    "atelierfloral_violet_incense.name": "优美焚香",
+    "atelierfloral_violet_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以紫罗兰制成，象征爱、丰饶与富足。",
+
+    "atelierfloral_winter_incense.name": "凛冬焚香",
+    "atelierfloral_winter_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以野生冬季番红花制成，用以迎接一年的结束。",
+
+    "atelierfloral_yarrow_incense.name": "无畏焚香",
+    "atelierfloral_yarrow_incense.description": "焚烧以用于芳香疗法与冥想的材料；此款以洋蓍草制成，象征勇敢与爱。",
+
+
+    //DRIED ITEMS
+
+    "atelierfloral_dried_geranium.name": "干天竺葵",
+    "atelierfloral_dried_geranium.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_arcticfox.name": "干北极狐",
+    "atelierfloral_dried_arcticfox.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_avalune.name": "干鲁冰花",
+    "atelierfloral_dried_avalune.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_chiffon.name": "干木槿",
+    "atelierfloral_dried_chiffon.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_chamomile.name": "干洋甘菊",
+    "atelierfloral_dried_chamomile.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_daisy.name": "干雏菊",
+    "atelierfloral_dried_daisy.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_dawn_lily.name": "干晨曦百合",
+    "atelierfloral_dried_dawn_lily.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_dusk_lily.name": "干薄暮百合",
+    "atelierfloral_dried_dusk_lily.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_crocus.name": "干番红花",
+    "atelierfloral_dried_crocus.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_fairy_rose.name": "干玫瑰仙子",
+    "atelierfloral_dried_fairy_rose.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_jazz.name": "干蓝爵",
+    "atelierfloral_dried_jazz.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_mallow.name": "干棉花糖花",
+    "atelierfloral_dried_mallow.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_puffball.name": "干蒲公英",
+    "atelierfloral_dried_puffball.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_jasmine.name": "干茉莉",
+    "atelierfloral_dried_jasmine.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_lavender.name": "干薰衣草",
+    "atelierfloral_dried_lavender.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_mysteria.name": "干谜藤花",
+    "atelierfloral_dried_mysteria.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_violet.name": "干紫罗兰",
+    "atelierfloral_dried_violet.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_moon_maiden.name": "干月下美人",
+    "atelierfloral_dried_moon_maiden.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_mugwort.name": "干北艾",
+    "atelierfloral_dried_mugwort.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_pixiesbreath.name": "干满天精灵",
+    "atelierfloral_dried_pixiesbreath.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_quartz_primrose.name": "干樱草",
+    "atelierfloral_dried_quartz_primrose.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_poppy.name": "干虞美人",
+    "atelierfloral_dried_poppy.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_sakura.name": "干樱花",
+    "atelierfloral_dried_sakura.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_spangle.name": "干夏日亮片",
+    "atelierfloral_dried_spangle.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_sunflower.name": "干向日葵",
+    "atelierfloral_dried_sunflower.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_thistle.name": "干蓟",
+    "atelierfloral_dried_thistle.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_tulip.name": "干郁金香",
+    "atelierfloral_dried_tulip.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_valerian.name": "干欧缅草",
+    "atelierfloral_dried_valerian.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_vanilla.name": "干香荚兰",
+    "atelierfloral_dried_vanilla.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+    "atelierfloral_dried_yarrow.name": "干洋蓍草",
+    "atelierfloral_dried_yarrow.description": "一束干花，可以在这种状态下保存数个月甚至数年。",
+
+
+    //////////////
+    // BOUQUETS //
+    //////////////
+
+    "atelierfloral_jazz_bouquet.name": "蓝爵花束",
+    "atelierfloral_jazz_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_vanilla_bouquet.name": "卡利科香草花束",
+    "atelierfloral_vanilla_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_fairy_bouquet.name": "玫瑰仙子花束",
+    "atelierfloral_fairy_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_chamomile_bouquet.name": "森林洋甘菊花束",
+    "atelierfloral_chamomile_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_lavender_bouquet.name": "森林薰衣草花束",
+    "atelierfloral_lavender_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_jasmine_bouquet.name": "宝石岛茉莉花束",
+    "atelierfloral_jasmine_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_mallow_bouquet.name": "棉花糖花束",
+    "atelierfloral_mallow_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_poppy_bouquet.name": "虞美人花束",
+    "atelierfloral_poppy_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_sakura_bouquet.name": "樱花束",
+    "atelierfloral_sakura_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_spangle_bouquet.name": "亮片花束",
+    "atelierfloral_spangle_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_sunflower_bouquet.name": "向日葵花束",
+    "atelierfloral_sunflower_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_tulip_bouquet.name": "郁金香花束",
+    "atelierfloral_tulip_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    /////////////
+    // PERFUME //
+    /////////////
+
+    "atelierfloral_jazz_perfume.name": "蓝爵淡香水",
+    "atelierfloral_jazz_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_vanilla_perfume.name": "卡利科香草淡香水",
+    "atelierfloral_vanilla_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_fairy_perfume.name": "玫瑰仙子淡香水",
+    "atelierfloral_fairy_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_chamomile_perfume.name": "森林洋甘菊淡香水",
+    "atelierfloral_chamomile_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_lavender_perfume.name": "森林薰衣草淡香水",
+    "atelierfloral_lavender_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_jasmine_perfume.name": "宝石岛茉莉淡香水",
+    "atelierfloral_jasmine_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_mallow_perfume.name": "棉花糖花淡香水",
+    "atelierfloral_mallow_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_poppy_perfume.name": "虞美人淡香水",
+    "atelierfloral_poppy_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_sakura_perfume.name": "樱花淡香水",
+    "atelierfloral_sakura_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_spangle_perfume.name": "亮片淡香水",
+    "atelierfloral_spangle_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_sunflower_perfume.name": "向日葵淡香水",
+    "atelierfloral_sunflower_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_tulip_perfume.name": "郁金香淡香水",
+    "atelierfloral_tulip_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    //////////
+    // SOAP //
+    //////////
+
+    "atelierfloral_jazz_soap.name": "蓝爵奢华香氛皂",
+    "atelierfloral_jazz_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_vanilla_soap.name": "卡利科香草奢华香氛皂",
+    "atelierfloral_vanilla_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_fairy_soap.name": "玫瑰仙子奢华香氛皂",
+    "atelierfloral_fairy_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_chamomile_soap.name": "森林洋甘菊奢华香氛皂",
+    "atelierfloral_chamomile_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_lavender_soap.name": "森林薰衣草奢华香氛皂",
+    "atelierfloral_lavender_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_jasmine_soap.name": "宝石岛茉莉奢华香氛皂",
+    "atelierfloral_jasmine_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_mallow_soap.name": "棉花糖奢华香氛皂",
+    "atelierfloral_mallow_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_poppy_soap.name": "虞美人奢华香氛皂",
+    "atelierfloral_poppy_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_sakura_soap.name": "樱花奢华香氛皂",
+    "atelierfloral_sakura_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_spangle_soap.name": "亮片奢华香氛皂",
+    "atelierfloral_spangle_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_sunflower_soap.name": "向日葵奢华香氛皂",
+    "atelierfloral_sunflower_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_tulip_soap.name": "郁金香奢华香氛皂",
+    "atelierfloral_tulip_soap.description": "带有花香的奢华香皂——真精致！",
+
+    /////////////
+    // CANDLES //
+    /////////////
+
+    "atelierfloral_jazz_candles.name": "爵士香氛蜡烛",
+    "atelierfloral_jazz_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_vanilla_candles.name": "香草香氛蜡烛",
+    "atelierfloral_vanilla_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_fairy_candles.name": "玫瑰仙子香氛蜡烛",
+    "atelierfloral_fairy_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_chamomile_candles.name": "洋甘菊香氛蜡烛",
+    "atelierfloral_chamomile_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_lavender_candles.name": "薰衣草香氛蜡烛",
+    "atelierfloral_lavender_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_jasmine_candles.name": "茉莉香氛蜡烛",
+    "atelierfloral_jasmine_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_mallow_candles.name": "棉花糖香氛蜡烛",
+    "atelierfloral_mallow_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_poppy_candles.name": "虞美人香氛蜡烛",
+    "atelierfloral_poppy_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_sakura_candles.name": "樱花香氛蜡烛",
+    "atelierfloral_sakura_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_spangle_candles.name": "亮片香氛蜡烛",
+    "atelierfloral_spangle_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_sunflower_candles.name": "向日葵香氛蜡烛",
+    "atelierfloral_sunflower_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_tulip_candles.name": "郁金香香氛蜡烛",
+    "atelierfloral_tulip_candles.description": "美丽的香氛蜡烛三件套。",
+
+
+    //////////
+    // MAIL //
+    //////////
+
+    "atelierfloral_FlowerStationRecipe.name": "给刚起步的花匠",
+    "atelierfloral_FlowerStationRecipe.text": "@，^^你知道可以把花加工成香氛蜡烛和香皂吗？我很喜欢用贾斯带回家的花做，不过你或许可以用这台机器加工你种的花赚到不少钱！^^玛妮",
+
+    "atelierfloral_FragranceStationRecipe.name": "花卉精油",
+    "atelierfloral_FragranceStationRecipe.text": "@，^^我从杂志剪下这页，现在很流行自己做精油跟香水！或许你能用农场种的花试试看？^^海莉",
+        
+    "atelierfloral_CandleStationRecipe.name": "每个优秀花商都需要一个蜡熔锅",
+    "atelierfloral_CandleStationRecipe.text": "@, ^^ 你看得没错。如果你想蘸蜡烛或者用你的花制作高品质肥皂，那么蜡熔锅是必不可少的。它结实且加热均匀，如果有人烦到你了，你也可以把他们扔进去，而且没有人会知道。只是开个玩笑。^^ - 艾芙琳",
+    
+    "atelierfloral_jas_gift.name": "给农夫的花",
+    "atelierfloral_jas_gift.text": "@，^^玛妮姑姑寄给你一封跟花有关的信，所以我也想寄一封给你！我们一起在森林找到了这些香香的花，而且她说你会喜欢，所以送你吧！^^贾斯",
+
+    "atelierfloral_sandy_gift.name": "给朋友的花",
+    "atelierfloral_sandy_gift.text": "@，^^你种花种得怎么样啊？我希望沙漠可以长出更多的花但这里真的太热了。我有个宝石岛来的朋友送给我这些花，我觉得或许你可以种在温室里……^^桑迪",
+
+    "atelierfloral_emily_gift.name": "一些花束灵感",
+    "atelierfloral_emily_gift.text": "@，^^艾芙琳跟我说了你新的花卉计划，我也想帮忙！我认为玫瑰仙子会是很迷人的秋日花束，你觉得呢？^^艾米丽"
+
+}

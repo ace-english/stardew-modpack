@@ -1,0 +1,112 @@
+{
+	"Changes": 
+	[
+
+// BERT
+
+		{
+			"LogName": "DSV Bert",
+			"Action": "EditImage",
+			"Target": "Portraits/Bert, Portraits/Bert_Beach, Characters/Bert, Characters/Bert_Beach, Portraits/Bert_winter, Characters/Bert_winter",
+			"FromFile": "Art/Compatibility/RSVCompat/Bert/{{Target}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RSVBert |contains= True": true
+			}
+		},
+		{
+			"LogName": "DSV Bert Seasonal",
+			"Action": "EditImage",
+			"Target": "Portraits/Bert_spring, Portraits/Bert_summer, Portraits/Bert_fall, Portraits/Bert_winter, Portraits/Bert_rain, Portraits/Bert_spring24, Portraits/Bert_fall27-1, Portraits/Bert_fall27-2, Characters/Bert_spring, Characters/Bert_summer, Characters/Bert_fall, Characters/Bert_winter, Characters/Bert_rain, Characters/Bert_spring24, Characters/Bert_fall27-1, Characters/Bert_fall27-2",
+			"FromFile": "Art/Compatibility/RSVCompat/Bert/{{Target}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RSVBert |contains= True": true,
+				"HasMod |contains= Rafseazz.RSVSeasonalOutfits": true
+			}
+		},
+		{
+			"LogName": "DSV Bert Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/RSVemojis",
+			"FromFile": "Art/Compatibility/RSVCompat/Bert/Bert_Emoji.png",
+			"ToArea": {"X": 54, "Y": 0, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:RSVBert |contains= True": true
+			}
+		},	
+
+// TRINNIE
+
+		{
+			"LogName": "DSV Trinnie",
+			"Action": "EditImage",
+			"Target": "Portraits/Trinnie, Portraits/Trinnie_Beach, Characters/Trinnie, Characters/Trinnie_Beach, Portraits/Trinnie_winter, Characters/Trinnie_winter, Characters/Trinnie_Fashion",
+			"FromFile": "Art/Compatibility/RSVCompat/Trinnie/{{Target}}_{{DSV.Core/ConfigValue:RSVTrinnie}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RSVTrinnie |contains= Off": false
+			}
+		},
+		{
+			"LogName": "DSV Trinnie Seasonal",
+			"Action": "EditImage",
+			"Target": "Portraits/Trinnie_spring, Portraits/Trinnie_summer, Portraits/Trinnie_fall, Portraits/Trinnie_winter, Portraits/Trinnie_rain, Portraits/Trinnie_spring24, Portraits/Trinnie_fall27-1, Portraits/Trinnie_fall27-2, Characters/Trinnie_spring, Characters/Trinnie_summer, Characters/Trinnie_fall, Characters/Trinnie_winter, Characters/Trinnie_rain, Characters/Trinnie_spring24, Characters/Trinnie_fall27-1, Characters/Trinnie_fall27-2",
+			"FromFile": "Art/Compatibility/RSVCompat/Trinnie/{{Target}}_{{DSV.Core/ConfigValue:RSVTrinnie}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RSVTrinnie |contains= Off": false,
+				"HasMod |contains= Rafseazz.RSVSeasonalOutfits": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "DSV Trinnie Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/RSVemojis",
+			"FromFile": "Art/Compatibility/RSVCompat/Trinnie/Trinnie_Emoji_{{DSV.Core/ConfigValue:RSVTrinnie}}.png",
+			"ToArea": {"X": 45, "Y": 27, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:RSVTrinnie |contains= Off": false
+			}
+		},	
+
+// LENNY
+
+		{
+			"LogName": "DSV Lenny",
+			"Action": "EditImage",
+			"Target": "Portraits/Lenny, Portraits/Lenny_Beach, Characters/Lenny, Characters/Lenny_Beach, Portraits/Lenny_winter, Characters/Lenny_winter",
+			"FromFile": "Art/Compatibility/RSVCompat/Lenny/{{Target}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RSVLenny |contains= True": true
+			}
+		},
+		{
+			"LogName": "DSV Lenny Seasonal",
+			"Action": "EditImage",
+			"Target": "Portraits/Lenny_spring, Portraits/Lenny_summer, Portraits/Lenny_fall, Portraits/Lenny_winter, Portraits/Lenny_rain, Portraits/Lenny_spring24, Portraits/Lenny_fall27-1, Portraits/Lenny_fall27-2, Characters/Lenny_spring, Characters/Lenny_summer, Characters/Lenny_fall, Characters/Lenny_winter, Characters/Lenny_rain, Characters/Lenny_spring24, Characters/Lenny_fall27-1, Characters/Lenny_fall27-2",
+			"FromFile": "Art/Compatibility/RSVCompat/Lenny/{{Target}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RSVLenny |contains= True": true,
+				"HasMod |contains= Rafseazz.RSVSeasonalOutfits": true
+			},
+			"Update": "OnLocationChange"
+		},		
+		{
+			"LogName": "DSV Lenny Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/RSVemojis",
+			"FromFile": "Art/Compatibility/RSVCompat/Lenny/Lenny_Emoji.png",
+			"ToArea": {"X": 117, "Y": 9, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:RSVLenny |contains= True": true
+			}
+		}
+	]
+}

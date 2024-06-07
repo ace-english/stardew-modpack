@@ -1,0 +1,52 @@
+{
+
+	"Changes": [
+		
+// NO MORE WAR DIALOGUE - JAEMIN
+		
+		{
+			"LogName": "NMW Dialogue - Jaemin",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jaemin",
+			"Entries": 
+			{
+				"Tue2": "{{i18n: DSV.DialogueEdit.Jaemin.ReligionNMW.Jaemin.Tue2}}"
+			}
+		},
+		
+// NO MORE WAR DIALOGUE - KENT
+		
+		{
+			"LogName": "NMW Dialogue - Kent Jaemin",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": 
+			{
+				"Thu": "{{Random:{{i18n:DSV.DialogueEdit.Jaemin.ReligionNMW.Kent.Thu.Part1}}++{{i18n:DSV.DialogueEdit.Jaemin.ReligionNMW.Kent.Thu.Part2}}|inputSeparator=++}}"
+			},
+			"When": 
+			{
+				"Relationship:Jaemin |contains= Friendly": true,
+				"DSV.Core/ConfigValue:JaeminSamFamilyDialogue": "true"
+			}
+		},
+		
+// NO MORE WAR DIALOGUE - VINCENT
+		
+		{
+			"LogName": "NMW Dialogue - Vincent Jaemin",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": 
+			{
+				"Wed4": "{{Random:{{i18n:DSV.DialogueEdit.Jaemin.ReligionNMW.Vincent.Wed4.Part1}}++{{i18n:DSV.DialogueEdit.Jaemin.ReligionNMW.Vincent.Wed4.Part2}}|inputSeparator=++}}",
+				"Sat8": "{{Random:{{i18n:DSV.DialogueEdit.Jaemin.ReligionNMW.Vincent.Sat8.Part1}}++{{i18n:DSV.DialogueEdit.Jaemin.ReligionNMW.Vincent.Sat8.Part2}}|inputSeparator=++}}"
+			},
+			"When": 
+			{
+				"Relationship:Jaemin |contains= Friendly": true,
+				"DSV.Core/ConfigValue:JaeminSamFamilyDialogue": "true"
+			}
+		}
+	]
+}

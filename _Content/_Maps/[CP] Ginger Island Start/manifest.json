@@ -1,0 +1,24 @@
+{
+  "Name": "Start in GI - ContentPatcher",
+  "Author": "mistyspring",
+  "Version": "1.0.0",
+  "Description": "ContentPatcher component of \"Start in Ginger Island\".",
+  "UniqueID": "mistyspring.GingerIslandStartCP",
+  "MinimumApiVersion": "3.14.0",
+  "UpdateKeys": [
+    "nexus:-1"
+  ],
+  "Dependencies": [
+    {
+      "UniqueID": "mistyspring.GingerIslandStart",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "mistyspring.ItemExtensions",
+      "IsRequired": true
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,626 @@
+{
+
+////////////////////
+// ALES MEADS SO  //
+////////////////////
+
+
+"alesxmeads_SO_1.name":"回敬一杯",
+"alesxmeads_SO_1.text":"我想用特酿艾尔啤酒给酒吧所有人惊喜！格斯也认为这是好主意，但我不知道该从哪里得到它们。",
+"alesxmeads_SO_1.deliver":"带给潘姆 5 瓶椰奶司陶特啤酒。",
+"alesxmeads_SO_1.accept":"这很完美！大家常常请我喝一杯，所以我也很想回敬他们一杯！",
+
+"alesxmeads_SO_2.name":"酒是现在",
+"alesxmeads_SO_2.text":"酸艾尔啤酒喝起来怎么样？那东西听起来很奇怪但我想喝看看……",
+"alesxmeads_SO_2.deliver":"带给谢恩 5 瓶樱桃酸艾尔啤酒。",
+"alesxmeads_SO_2.accept":"哼，樱桃的酸味真的中和了艾尔啤酒的甜味。我印象很深刻，感谢你的分享。",
+
+"alesxmeads_SO_3.name":"酒吧需要更多艾尔啤酒",
+"alesxmeads_SO_3.text":"比起啤酒跟淡啤酒，客人现在更想喝特酿艾尔啤酒。你可以帮我增加酒吧品项吗？",
+"alesxmeads_SO_3a.deliver":"把 3 瓶橙子皮尔森啤酒放进格斯的冰箱。",
+"alesxmeads_SO_3b.deliver":"把 3 瓶蜜桃司陶特啤酒放进格斯的冰箱。",
+"alesxmeads_SO_3c.deliver":"把 3 瓶蓝莓艾尔啤酒放进格斯的冰箱。",
+"alesxmeads_SO_3d.deliver":"把 3 瓶甜瓜淡啤酒放进格斯的冰箱。",
+
+"alesxmeads_SO_4.name":"寻寻蜜蜜",
+"alesxmeads_SO_4.text":"我今晚想在酒吧喝点不是已经喝到腻的啤酒。听说蜂蜜酒还不错……有谁能给我几杯吗？",
+"alesxmeads_SO_4.deliver":"带给谢恩 3 瓶熙春杏子蜂蜜酒。",
+"alesxmeads_SO_4.accept":"用发酵蜂蜜做的是吧？真狂。好吧至少它看起来比我那无聊啤酒好多了。",
+
+"alesxmeads_SO_5.name":"暖身蜜方",
+"alesxmeads_SO_5.text":"我很希望有些蜂蜜酒能在冷秋下午钓鱼时喝。",
+"alesxmeads_SO_5.deliver":"带给威利 3 瓶甜蜜石榴蜂蜜酒。",
+"alesxmeads_SO_5.accept":"我的确很爱喝蜂蜜酒；尤其是像这种带有新鲜水果风味的！",
+
+"alesxmeads_SO_6.name":"辣妹鵜鹕团",
+"alesxmeads_SO_6.text":"我跟好姐妹的女孩之夜需要蜂蜜酒！",
+"alesxmeads_SO_6a.deliver":"把 3 瓶辛香蜂蜜酒放进莉亚房子里的箱子。",
+"alesxmeads_SO_6b.deliver":"把 3 瓶酸蔓越莓蜂蜜酒放进莉亚房子里的箱子。",
+"alesxmeads_SO_6c.deliver":"把 3 瓶黑莓盛宴蜂蜜酒放进莉亚房子里的箱子。",
+"alesxmeads_SO_6d.deliver":"把 3 瓶爽脆苹果蜂蜜酒放进莉亚房子里的箱子。",
+
+"alesxmeads_SO_7.name":"酿酒大师挑战",
+"alesxmeads_SO_7.text":"又到了每年的这个时候——我们已经开放申请年度酿酒大师了！把你最好的艾尔啤酒寄给我们，看你能不能赢得大奖！",
+"alesxmeads_SO_7.ship":"出货 100 瓶金星质量的艾尔啤酒。",
+
+"alesxmeads_SO_8.name":"蜜酒大师挑战",
+"alesxmeads_SO_8.text":"又到了每年的这个时候——我们已经开放申请年度蜜酒大师了！把你最好的蜂蜜酒寄给我们，看你能不能赢得大奖！",
+"alesxmeads_SO_8.ship":"出货 100 瓶金星质量的蜂蜜酒。",
+
+//REWARDS MAIL
+ 
+"alesxmeads_SO2_reward.title": "给我最爱的艾尔啤酒农夫",
+"alesxmeads_SO2_reward.text":"@，^^^哼，樱桃的酸味真的中和了艾尔啤酒的甜味。我印象很深刻，感谢你的分享，农夫。^谢恩",
+
+"alesxmeads_SO3_reward.title": "小小谢礼",
+"alesxmeads_SO3_reward.text": "@，^^^你品味真好！星果酒吧在地图的评分上升不少。送你这些小东西象征我的谢意与感激。^艾米丽",
+
+"alesxmeads_SO6_reward.title": "谢谢！",
+"alesxmeads_SO6_reward.text": "@，^^^这些酒甜蜜辛香；真的很适合我们的女孩之夜！谢咯农夫。^莉亚",
+
+"alesxmeads_SO7_reward.title": "恭喜！",
+"alesxmeads_SO7_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你酿酒大师的头衔。请领取这份奖赏。",
+ 
+"alesxmeads_SO8_reward.title": "恭喜！",
+"alesxmeads_SO8_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你蜜酒大师的头衔。请领取这份奖赏。",
+
+//////////////////
+// BEVERAGE SOS //
+//////////////////
+
+"atelierjuicebar_SO_1.name":"增肌早餐",
+"atelierjuicebar_SO_1.text":"我忙着增肌跟练习格球；没有时间每天做早餐了！有人能帮我吗？",
+"atelierjuicebar_SO_1.deliver":"带给亚历克斯 5 杯蓝莓甘蓝冰沙",
+"atelierjuicebar_SO_1.accept":"所以这些冰沙含有蛋白质跟纤维素？赞啦！我完全可以透过这些饮料帮助增肌。",
+
+"atelierjuicebar_SO_2.name":"新潮珍珠",
+"atelierjuicebar_SO_2.text":"阿比盖尔之前跟我提到过珍奶……那是什么？好喝吗？如果有人能带一些来让我喝我会很感谢。",
+"atelierjuicebar_SO_2a.deliver":"把 2 杯珍奶乌龙放进卡洛琳的厨房。",
+"atelierjuicebar_SO_2b.deliver":"把 2 杯黑糖珍奶放进卡洛琳的厨房。",
+"atelierjuicebar_SO_2c.deliver":"把 2 杯草莓珍奶放进卡洛琳的厨房。",
+
+"atelierjuicebar_SO_3.name":"柠檬水对决冰茶",
+"atelierjuicebar_SO_3.text":"没有比在大热天喝冰凉柠檬水更好的了……或许冰茶？嗯我选不出来。有人能带它们来让我有办法下决定吗！",
+"atelierjuicebar_SO_3a.deliver":"把 2 杯柠檬绿茶放进乔治厨房里的箱子。",
+"atelierjuicebar_SO_3b.deliver":"把 2 杯经典柠檬水放进乔治厨房里的箱子。",
+"atelierjuicebar_SO_3c.deliver":"把 2 杯甜蜜冰茶放进乔治厨房里的箱子。",
+"atelierjuicebar_SO_3d.deliver":"把 2 杯蜜桃冰茶放进乔治厨房里的箱子。",
+
+"atelierjuicebar_SO_4.name":"现榨饮品",
+"atelierjuicebar_SO_4.text":"我正在尝试少喝汽水，但我还是想喝点甜的。有人有想法吗？",
+"atelierjuicebar_SO_4a.deliver":"把 2 杯葡萄汁放进山姆房间里的箱子。",
+"atelierjuicebar_SO_4b.deliver":"把 2 杯神奇苹果汁放进山姆房间里的箱子。",
+"atelierjuicebar_SO_4c.deliver":"把 2 杯美味莓果汁放进山姆房间里的箱子。",
+"atelierjuicebar_SO_4d.deliver":"把 2 杯早起的鸟儿橙子汁放进山姆房间里的箱子。",
+
+"atelierjuicebar_SO_5.name":"爆红饮品挑战",
+"atelierjuicebar_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度爆红饮品挑战了！把你最好的饮料寄给我们，看你能不能赢得大奖！",
+"atelierjuicebar_SO_5.ship":"出货 100 杯金星质量的饮料。",
+
+"atelierjuicebar_SO_6.name":"给艾米丽的珍奶",
+"atelierjuicebar_SO_6.text":"我的珍奶喝完了！拜托带些新的给我！",
+"atelierjuicebar_SO_6.deliver":"带给艾米丽 4 杯珍珠奶茶。",
+"atelierjuicebar_SO_6.accept":"太好了！没有好喝珍奶我都快变得不像自己了。谢谢！",
+
+"atelierjuicebar_SO_7.name":"给海莉的冰沙",
+"atelierjuicebar_SO_7.text":"我上周太忙了没准备新的冰沙！现在我早餐要喝什么？",
+"atelierjuicebar_SO_7.deliver":"带给海莉 4 杯冰沙。",
+"atelierjuicebar_SO_7.accept":"谢天谢地！我的早上没有冰沙就不一样了。再次感谢。",
+
+"atelierjuicebar_SO_8.name":"给谢恩的果汁",
+"atelierjuicebar_SO_8.text":"我，好像，又，忘记这次轮到我为贾斯和她的朋友准备果汁了。有人能救我吗？拜托？",
+"atelierjuicebar_SO_8.deliver":"带给谢恩 8 杯果汁。",
+"atelierjuicebar_SO_8.accept":"谢谢由巴，你真的救了我一命；谢谢。",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierjuicebar_SO2_reward.title": "谢谢！",
+"atelierjuicebar_SO2_reward.text": "@，^^^谁猜得到我会深深着迷珍珠奶茶呢？谢谢你的分享。这些礼物送你感谢你的付出。^^卡洛琳",
+
+"atelierjuicebar_SO3_reward.title": "沁凉冰饮",
+"atelierjuicebar_SO3_reward.text": "@，^^^我想起来了！我两个都喜欢！谢谢你，@。这应该能帮上你一点忙；希望你别忘了老伙伴乔治会时不时想喝冰饮！",
+
+"atelierjuicebar_SO4_reward.title": "谢谢你",
+"atelierjuicebar_SO4_reward.text": "@，^^^再次感谢你的果汁！它们很好喝，不过我还是比较喜欢汽水，看来我又回到原点了。不过我觉得这可以帮你调出更多种饮料！^^山姆",
+
+"atelierjuicebar_SO5_reward.title": "恭喜！",
+"atelierjuicebar_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你爆红饮品比赛的冠军。请领取这份奖赏。",
+
+///////////////
+// CANDY SOS //
+///////////////
+
+"ateliercandy_SO_1.name":"棉花软糖挑战",
+"ateliercandy_SO_1.text":"我想玩棉花软糖挑战但塞原味太腻了！有人可以给我调味的吗？",
+"ateliercandy_SO_1a.deliver":"带给贾斯 3 颗草莓棉花软糖。",
+"ateliercandy_SO_1b.deliver":"带给贾斯 3 颗薰衣草棉花软糖。",
+"ateliercandy_SO_1c.deliver":"带给贾斯 3 颗抹茶棉花软糖。",
+"ateliercandy_SO_1d.deliver":"带给贾斯 3 颗椰香棉花软糖。",
+"ateliercandy_SO_1.accept":"耶！颜色好多好可爱，我可以跟朋友一起玩了！",
+
+"ateliercandy_SO_2.name":"都是棉应该没什么差别吧？",
+"ateliercandy_SO_2.text":"棉花糖真的好酷！又轻又软又好吃——我希望可以吃到所有口味！",
+"ateliercandy_SO_2a.deliver":"把 1 支棉花糖放进文森特房间的箱子。",
+"ateliercandy_SO_2b.deliver":"把 1 支薰衣草棉花糖放进文森特房间的箱子。",
+"ateliercandy_SO_2c.deliver":"把 1 支柠檬蛋白霜棉花糖放进文森特房间的箱子。",
+"ateliercandy_SO_2d.deliver":"把 1 支橙子奶油冰棍棉花糖放进文森特房间的箱子。",
+"ateliercandy_SO_2e.deliver":"把 1 支薄荷棉花糖放进文森特房间的箱子。",
+"ateliercandy_SO_2f.deliver":"把 1 支草莓奶油蛋糕棉花糖放进文森特房间的箱子。",
+"ateliercandy_SO_2g.deliver":"把 1 支香草棉花糖放进文森特房间的箱子。",
+
+"ateliercandy_SO_3.name":"怀旧滋味",
+"ateliercandy_SO_3.text":"我小时候，妈妈常常用华丽的棒棒糖给我惊喜。我希望可以找一点跟她分享，但我不知道哪里有！",
+"ateliercandy_SO_3a.deliver":"把 1 支柠檬蛋白霜美味棒棒糖放进潘妮的厨房。",
+"ateliercandy_SO_3b.deliver":"把 1 支香草薄荷美味棒棒糖放进潘妮的厨房。 ",
+"ateliercandy_SO_3c.deliver":"把 1 支综合莓果美味棒棒糖放进潘妮的厨房。",
+"ateliercandy_SO_3d.deliver":"把 1 支蓝莓派美味棒棒糖放进潘妮的厨房。",
+
+"ateliercandy_SO_4.name":"美味零石",
+"ateliercandy_SO_4.text":"我就知道你可以吃石头！我现在可以跟大家分享最爱的零食了，但我要怎么找到足够的量？",
+"ateliercandy_SO_4.deliver":"把 5 根水晶糖棒放进阿比盖尔房间里的箱子。",
+
+"ateliercandy_SO_5.name":"糖果大师的挑战",
+"ateliercandy_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度糖果大师了！把你最好的糖果寄给我们，看你能不能赢得大奖！",
+"ateliercandy_SO_5.ship":"出货 100 个金星质量的糖果。",
+
+"ateliercandy_SO_6.name":"给艾米丽的棉花糖",
+"ateliercandy_SO_6.text":"你不觉得棉花糖真的很神奇吗？如果有人能带给我几个我会很开心。",
+"ateliercandy_SO_6.deliver":"带给艾米丽 3 支棉花糖。",
+"ateliercandy_SO_6.accept":"它们美到我舍不得吃了！谢谢你带给我这些，好朋友。",
+
+"ateliercandy_SO_7.name":"给罗宾的棉花软糖",
+"ateliercandy_SO_7.text":"我的热可可需要棉花软糖。",
+"ateliercandy_SO_7.deliver":"带给罗宾 5 颗棉花软糖。",
+"ateliercandy_SO_7.accept":"我喜欢在店里辛苦工作一整天后喝杯好喝的热可可放松。谢谢你带给我这些完美的棉花软糖！",
+
+"ateliercandy_SO_8.name":"给刘易斯的糖果",
+"ateliercandy_SO_8.text":"我好想念那些古早味硬糖。不过到处都找不到了！有人能帮我吗？",
+"ateliercandy_SO_8.deliver":"带给刘易斯 12 颗硬糖。",
+"ateliercandy_SO_8.accept":"我找它们找好久了！这年头要找到好吃的糖果真难。谢谢你我的朋友。",
+
+//CANDY REWARDS MAIL
+ 
+"ateliercandy_SO2_reward.title": "谢谢！",
+"ateliercandy_SO2_reward.text": "@，^^^它们看起来好棒，希望妈妈可以让我用它们而不是那些恶心的棉线当牙线……^^文森特特",
+
+"ateliercandy_SO3_reward.title": "谢谢",
+"ateliercandy_SO3_reward.text": "@，^^^它们吃起来就跟妈妈以前开完长途车后带回家给我的一模一样，我很高兴能和她分享。^^潘妮",
+
+"ateliercandy_SO4_reward.title": "谢谢",
+"ateliercandy_SO4_reward.text": "@，^^^嘎吱酥脆，甜蜜又好吃。我要去跟塞巴和山姆分享；再次感谢！^^阿比盖尔",
+
+"ateliercandy_SO5_reward.title": "恭喜！",
+"ateliercandy_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你糖果大师的头衔。请领取这份奖赏。",
+
+////////////////
+// COFFEE SOS //
+////////////////
+
+"atelierbarista_CoffeeSO_1.name":"放松咖啡",
+"atelierbarista_CoffeeSO_1.text":"我的咖啡粉快没了！有人可以给我几包让我存起来吗？",
+"atelierbarista_CoffeeSO_1a.deliver":"带给哈维 2 包榛子咖啡粉。",
+"atelierbarista_CoffeeSO_1b.deliver":"带给哈维 2 包冷翠咖啡粉。",
+"atelierbarista_CoffeeSO_1c.deliver":"带给哈维 2 包卡利科香草咖啡粉。",
+"atelierbarista_CoffeeSO_1.accept":"啊，来得刚好！相信我，没人希望自己的医生想睡觉！",
+
+"atelierbarista_CoffeeSO_2.name":"抱歉我拿么晚来……",
+"atelierbarista_CoffeeSO_2.text":"闹钟响的时候我总是会按贪睡然后就什么事都迟到！有人可以给我几杯咖啡让我早点出门别再迟到了吗？",
+"atelierbarista_CoffeeSO_2.deliver":"带给海莉 5 杯甜心拿铁。",
+"atelierbarista_CoffeeSO_2.accept":"或许我终于可以准时赴约了！",
+
+"atelierbarista_CoffeeSO_3.name":"早起打咖",
+"atelierbarista_CoffeeSO_3.text":"我从来不早起，但我想试试看。不过我需要非常多咖啡才有机会做到……",
+"atelierbarista_CoffeeSO_3a.deliver":"把 3 包早餐混合咖啡粉放进塞巴斯蒂安房间里的箱子。",
+"atelierbarista_CoffeeSO_3b.deliver":"把 3 包摩卡咖啡粉放进塞巴斯蒂安房间里的箱子。",
+"atelierbarista_CoffeeSO_3c.deliver":"把 3 包香烤椰子咖啡粉放进塞巴斯蒂安房间里的箱子。",
+"atelierbarista_CoffeeSO_3d.deliver":"把 3 包甜甜圈专柜咖啡粉放进塞巴斯蒂安房间里的箱子。",
+
+"atelierbarista_CoffeeSO_4.name":"南香拿的季节到了",
+"atelierbarista_CoffeeSO_4.text":"大家都问我秋天时会不会在店里卖南瓜香料拿铁！我不知道那是什么，有人能帮我跟上这股潮流吗？",
+"atelierbarista_CoffeeSO_4.deliver":"把 12 杯南瓜香料拿铁放进格斯的冰箱。",
+
+"atelierbarista_CoffeeSO_5.name":"烘豆大师挑战",
+"atelierbarista_CoffeeSO_5.text":"又到了每年的这个时候——我们已经开放申请年度烘豆大师了！把你最好的咖啡寄给我们，看你能不能赢得大奖！",
+"atelierbarista_CoffeeSO_5.ship":"出货 100 个金星质量的咖啡产品。",
+
+"atelierbarista_CoffeeSO_6.name":"给桑迪的冷萃咖啡",
+"atelierbarista_CoffeeSO_6.text":"这里真的好热。有谁能送几杯冷萃咖啡来吗？",
+"atelierbarista_CoffeeSO_6.deliver":"带给桑迪 3 杯冷萃咖啡。",
+"atelierbarista_CoffeeSO_6.accept":"这些冷萃咖啡又冰又清爽，完美！谢谢你小甜心。",
+
+"atelierbarista_CoffeeSO_7.name":"给玛妮的拿铁",
+"atelierbarista_CoffeeSO_7.text":"动物们让我整晚都睡不着，而我现在累得不行。有人能给我几杯拿铁吗？",
+"atelierbarista_CoffeeSO_7.deliver":"带给玛妮 4 杯拿铁。",
+"atelierbarista_CoffeeSO_7.accept":"我很爱我的动物，但我可不爱失眠。至少我现在能用这些可爱拿铁提神了！再次感谢你。",
+
+"atelierbarista_CoffeeSO_8.name":"给皮耶尔的咖啡",
+"atelierbarista_CoffeeSO_8.text":"我需要补充店里的咖啡粉库存。",
+"atelierbarista_CoffeeSO_8.deliver":"带给皮耶尔 8 包咖啡粉。",
+"atelierbarista_CoffeeSO_8.accept":"有了这些咖啡粉后店里看起来会比以前更棒！谢谢你朋友。",
+
+
+//COFFEE REWARDS MAIL
+ 
+"atelierbarista_CoffeeSO2_reward.title": "再次感谢！",
+"atelierbarista_CoffeeSO2_reward.text": "@，^^^或许除了拿铁外我还需要其他东西才能准时，但这是个好的开始！^海莉",
+
+"atelierbarista_CoffeeSO3_reward.title": "感谢你的咖啡",
+"atelierbarista_CoffeeSO3_reward.text": "@，^^^虽然我是个夜猫子，但这些或许能帮我在中午前起床。再次感谢。^塞巴斯蒂安",
+
+"atelierbarista_CoffeeSO4_reward.title": "谢谢你！",
+"atelierbarista_CoffeeSO4_reward.text": "@，^^^我不是很懂这在红什么，但只要秋天时这能让年轻人高兴然后停下来买杯咖啡就够了！^格斯",
+
+"atelierbarista_CoffeeSO5_reward.title": "恭喜！",
+"atelierbarista_CoffeeSO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你烘豆大师的头衔。请领取这份奖赏。",
+
+////////////////
+// FROZEN SOS //
+////////////////
+
+"atelierfrozen_SO_1.name":"再靠近一点点就给你喝奶昔",
+"atelierfrozen_SO_1.text":"你们说能把牛奶……做成其他饮料？那听起来很诱人。我愿意付可观的报酬来品尝这些奇怪的加工饮品。",
+"atelierfrozen_SO_1a.deliver":"带给矮人 1 杯香草籽奶昔。",
+"atelierfrozen_SO_1b.deliver":"带给矮人 1 杯草莓奶昔。",
+"atelierfrozen_SO_1c.deliver":"带给矮人 1 杯巧克力奶昔。",
+"atelierfrozen_SO_1.accept":"所以这东西叫……奶昔？真是有趣。冰凉甜蜜……你们人类还真神秘。",
+
+"atelierfrozen_SO_2.name":"沉思冰棍",
+"atelierfrozen_SO_2.text":"我看到镇上的小孩手上拿着有彩色冰块的棍子……我很想尝尝看！",
+"atelierfrozen_SO_2.deliver":"带给科罗布斯 6 支冰棍。",
+"atelierfrozen_SO_2.accept":"谢谢你！我真的很想尝尝看这些东西。",
+
+"atelierfrozen_SO_3.name":"冰淇淋派对",
+"atelierfrozen_SO_3.text":"我准备举办豪华的冰淇淋派对，需要有人帮我选出菜单上的口味！",
+"atelierfrozen_SO_3a.deliver":"把 3 碗柠檬雪酪放进乔迪厨房里的箱子。",
+"atelierfrozen_SO_3b.deliver":"把 3 碗薄荷巧克力优格冰放进乔迪厨房里的箱子。",
+"atelierfrozen_SO_3c.deliver":"把 3 支柠檬薰衣草冰淇淋放进乔迪厨房里的箱子。",
+"atelierfrozen_SO_3d.deliver":"把 3 支欧洽塔冰淇淋放进乔迪厨房里的箱子。",
+
+"atelierfrozen_SO_4.name":"甜蜜夹心",
+"atelierfrozen_SO_4.text":"我很怀念小时候最爱的甜点：夹心冰淇淋。玛鲁说现在出了很多种口味。有人能带给我一些吗？",
+"atelierfrozen_SO_4a.deliver":"把 2 个摩卡夹心冰淇淋放进德米特里厄斯实验室里的箱子。",
+"atelierfrozen_SO_4b.deliver":"把 2 个开心果夹心冰淇淋放进德米特里厄斯实验室里的箱子。",
+"atelierfrozen_SO_4c.deliver":"把 2 个草莓夹心冰淇淋放进德米特里厄斯实验室里的箱子。",
+"atelierfrozen_SO_4d.deliver":"把 2 个椰香摩卡夹心冰淇淋放进德米特里厄斯实验室里的箱子。",
+
+"atelierfrozen_SO_5.name":"冰品盛宴挑战",
+"atelierfrozen_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度冰品盛宴了！把你最棒的冰品寄给我们，看你能不能赢得大奖！",
+"atelierfrozen_SO_5.ship":"出货 100 个金星质量的冰品。",
+
+"atelierfrozen_SO_6.name":"给肯特的奶昔",
+"atelierfrozen_SO_6.text":"我想给家人一些惊喜。或许奶昔能帮上忙？",
+"atelierfrozen_SO_6.deliver":"带给肯特 4 杯奶昔。",
+"atelierfrozen_SO_6.accept":"我家人一定会很爱这些！多谢了朋友。",
+
+"atelierfrozen_SO_7.name":"给艾利欧特的冰棍",
+"atelierfrozen_SO_7.text":"我需要冰棍来让我文思泉涌！你问我为什么？我无法解释但我真的很需要冰棍！",
+"atelierfrozen_SO_7.deliver":"带给艾利欧特 4 支冰棍。",
+"atelierfrozen_SO_7.accept":"完美的冰棍！谢谢你，现在我需要默默思考这些冰棍。",
+
+"atelierfrozen_SO_8.name":"给格斯的冰淇淋",
+"atelierfrozen_SO_8.text":"我想在酒吧里提供一些冷冻甜品，有人能帮我设计菜单吗？",
+"atelierfrozen_SO_8.deliver":"带给格斯 12 支冰淇淋。",
+"atelierfrozen_SO_8.accept":"这些能让酒吧的所有客人满意了！谢谢你！",
+
+//FROZEN REWARDS MAIL
+ 
+"atelierfrozen_SO2_reward.title": "谢谢！",
+"atelierfrozen_SO2_reward.text": "@，^^^冰棍。这真是美妙的发明。改天你一定要教我怎么做。我希望这些来自矿坑的宝藏能帮助你制作更多冰棍。^^科罗布斯",
+
+"atelierfrozen_SO3_reward.title": "谢谢你！",
+"atelierfrozen_SO3_reward.text": "@，^^^谢谢你让我的菜单很完美！^^乔迪",
+
+"atelierfrozen_SO4_reward.title": "谢谢你！",
+"atelierfrozen_SO4_reward.text": "@，^^^这些三明治真的唤起我的回忆了。谢谢你跟我分享！^德米特里厄斯",
+
+"atelierfrozen_SO5_reward.title": "恭喜！",
+"atelierfrozen_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你冰品盛宴比赛的冠军。请领取这份奖赏。",
+   
+////////////////
+// FLORAL SOS //
+////////////////
+
+"atelierfloral_SO_1.name":"春季大扫除",
+"atelierfloral_SO_1.text":"我最近忙着大扫除，而我希望可以用些香氛让衣橱清新宜人；有人可以给我几包香囊吗？",
+"atelierfloral_SO_1.deliver":"带给艾芙琳 6 份干燥花。",
+"atelierfloral_SO_1.accept":"它们闻起来真棒，整间房子立刻清新又干净了！",
+
+"atelierfloral_SO_2.name":"抽空享受玫瑰",
+"atelierfloral_SO_2.text":"我真的好喜欢鲜花，就算它们有时候会让我打喷嚏也一样。一束玫瑰仙子放在我房间一定很好看……",
+"atelierfloral_SO_2.deliver":"带给山姆 1 束玫瑰仙子花束。",
+"atelierfloral_SO_2.accept":"哇，这束花不但缤纷还很香！或许我会放在房间角落以免一直打喷嚏……",
+
+"atelierfloral_SO_3.name":"狂芳不羁",
+"atelierfloral_SO_3.text":"我用光最爱的香水了！没有它们我怎么活下去？",
+"atelierfloral_SO_3a.deliver":"把 2 瓶向日葵淡香水放进海莉的房子。",
+"atelierfloral_SO_3b.deliver":"把 2 瓶森林薰衣草淡香水放进海莉的房子。",
+"atelierfloral_SO_3c.deliver":"把 2 瓶玫瑰仙子淡香水放进海莉的房子。",
+"atelierfloral_SO_3d.deliver":"把 2 瓶郁金香淡香水放进海莉的房子。",
+
+"atelierfloral_SO_4.name":"肥皂剧",
+"atelierfloral_SO_4.text":"我正在进行关于肥皂碱液的科学实验，我需要一些样品跟我的测试用成品进行比较！",
+"atelierfloral_SO_4.deliver":"把 10 块奢华香氛皂放进玛鲁实验室的箱子。",
+
+"atelierfloral_SO_5.name":"花艺大师挑战",
+"atelierfloral_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度花艺大师了！把你最高级的花艺品寄给我们，看你能不能赢得大奖！",
+"atelierfloral_SO_5.ship":"出货 100 个金星质量的花卉产品。",
+
+"atelierfloral_SO_6.name":"给谢恩的花束",
+"atelierfloral_SO_6.text":"贾斯跟玛妮一直都对我很有耐心，我想送她们一些好礼……",
+"atelierfloral_SO_6.deliver":"带给谢恩 2 束花束。",
+"atelierfloral_SO_6.accept":"它们很美。一定很适合送给贾斯跟玛妮。谢了朋友。",
+
+"atelierfloral_SO_7.name":"给威力的香氛皂",
+"atelierfloral_SO_7.text":"捕鱼很累还害我的皮肤龟裂！希望有香皂能修复我的皮肤。",
+"atelierfloral_SO_7.deliver":"带给威力 4 块香氛皂。",
+"atelierfloral_SO_7.accept":"你可能听过富贵手，不过我会说自己有超干的鱼贵手。谢谢你的香皂；我很确定它们能帮上大忙。",
+
+"atelierfloral_SO_8.name":"给科罗布斯的蜡烛",
+"atelierfloral_SO_8.text":"感觉人类不只对花本身，还对它们的味道有兴趣。我希望能让下水道闻起来像花一样，你能帮我的忙吗？",
+"atelierfloral_SO_8.deliver":"带给科罗布斯 8 组香氛蜡烛。",
+"atelierfloral_SO_8.accept":"这真迷人，蜡烛带来了宜人芳香跟温和微光。人类真是有趣的生物。谢谢你给我这些。",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierfloral_SO2_reward.title": "谢谢你！",
+"atelierfloral_SO2_reward.text": "@，^^^我真的不知道该怎么感谢你给我花束，就算它们偶尔会害我鼻子痒也一样。^^山姆",
+
+"atelierfloral_SO3_reward.title": "十分感谢！",
+"atelierfloral_SO3_reward.text": "@，^^^你是我的救命恩人。你懂得，女生没有她最爱的香水就活不下去了。^^海莉",
+
+"atelierfloral_SO4_reward.title": "谢谢你！",
+"atelierfloral_SO4_reward.text": "@，^^^它们很适合我的实验！你知道制作肥皂的专有名词叫做皂化反应吗？不知道？噢，好吧，我要回去测试我的成品了！^^玛鲁",
+
+"atelierfloral_SO5_reward.title": "恭喜！",
+"atelierfloral_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你花艺大师的头衔。请领取这份奖赏。",
+
+//////////////
+// JAMS SOS //
+//////////////
+
+"jams_SO_1.name":"给艾芙琳的春日点心",
+"jams_SO_1.text":"艾芙琳为我做了很多事；我想给她一点东西以示我的感激。她最爱郁金香了，或许在她的司康里加郁金香花酱可以给她个惊喜？",
+"jams_SO_1.deliver":"带给乔治 5 罐郁金香花酱。",
+"jams_SO_1.accept":"她一定会爱死这个——我欠你一份人情。",
+
+"jams_SO_2.name":"红粉佳人",
+"jams_SO_2.text":"贾斯已经长到什么都要粉红色的年纪了，连食物都要！有人能救救我吗？",
+"jams_SO_2.deliver":"带给玛妮 5 罐玫瑰草莓果酱。",
+"jams_SO_2.accept":"哦谢天谢地！或许把这个抹在贝果里能让她肯吃早餐……",
+
+"jams_SO_3.name":"完美松饼酱",
+"jams_SO_3.text":"我们家周日一定要吃松饼，但我已经吃腻枫糖浆想换成其他酱了。有人有想法吗？",
+"jams_SO_3a.deliver":"把 3 罐香草樱桃果酱放进乔迪厨房里的箱子。",
+"jams_SO_3b.deliver":"把 3 罐蜂蜜蜜桃果酱放进乔迪厨房里的箱子。",
+"jams_SO_3c.deliver":"把 3 罐草莓大黄果酱放进乔迪厨房里的箱子。",
+
+"jams_SO_4.name":"摄取所需维生素C",
+"jams_SO_4.text":"健康饮食很需要维生素！我确定维生素C在柑橘酱里也有用，应该吧？应该啦。",
+"jams_SO_4a.deliver":"把 2 罐三重奏柑橘酱放进刘易斯厨房里的箱子。",
+"jams_SO_4b.deliver":"把 2 罐甜蜜莱姆柑橘酱放进刘易斯厨房里的箱子。",
+"jams_SO_4c.deliver":"把 2 罐盛夏橙子柑橘酱放进刘易斯厨房里的箱子。",
+"jams_SO_4d.deliver":"把 2 罐春日柠檬柑橘酱放进刘易斯厨房里的箱子。",
+
+"jams_SO_5.name":"罐头大师挑战",
+"jams_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度罐头大师了！把你最好的果酱寄给我们，看你能不能赢得大奖！",
+"jams_SO_5.ship":"出货 100 罐特制果酱。",
+
+"jams_SO_6.name":"给莱纳斯的果酱",
+"jams_SO_6.text":"我希望能有些果酱让我在冬天也能享受大自然的恩赐……",
+"jams_SO_6.deliver":"带给莱纳斯 3 罐果酱。",
+"jams_SO_6.accept":"真棒。就算在严冬我也能享受大自然的恩惠了。谢谢你，我的朋友。",
+
+"jams_SO_7.name":"给潘妮的果酱",
+"jams_SO_7.text":"妈妈跟我喜欢在早餐吃好吃的果酱。有人可以给我一些有趣的口味吗？",
+"jams_SO_7.deliver":"带给潘妮 5 罐果酱。",
+"jams_SO_7.accept":"这些很适合搭配我们的周日松饼！真是谢谢你！",
+
+"jams_SO_8.name":"给克林特的果酱",
+"jams_SO_8.text":"我想在我的食物库储存更多美味食材。我很喜欢果酱，或许那是个好的开始？",
+"jams_SO_8.deliver":"带给克林特 10 罐果酱。",
+"jams_SO_8.accept":"我要拿这些果酱做什么？我还不确定，不过它们在厨房里一定很好看，谢谢你。",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+"jams_SO2_reward.title": "谢谢你！",
+"jams_SO2_reward.text": "@，^^^再次感谢你的果酱。贾斯超爱！这里附上一些果胶，这样你就可以做来自己吃了。^^玛妮",
+
+"jams_SO3_reward.title": "再次感谢！",
+"jams_SO3_reward.text": "@，^^^哇！松饼有了这些酱直接好吃好几倍！^^乔迪",
+
+"jams_SO4_reward.title": "谢谢你！",
+"jams_SO4_reward.text": "@，^^^它们好好吃！我再也不用担心坏血病之类的东西了。^^刘易斯",
+
+"jams_SO5_reward.title": "恭喜！",
+"jams_SO5_reward.text": "亲爱的　@‵，^^^你的贡献令我们印象深刻，我们很荣幸能给予你罐头大师的头衔。请领取这份奖赏。",
+
+///////////////
+// PANTRY SO //
+///////////////
+
+"gourmetpantry_SO_1.name":"无可奶何",
+"gourmetpantry_SO_1.text":"卡洛琳现在整天都在烘焙，我想给她能搭配的食材。",
+"gourmetpantry_SO_1a.deliver":"带给皮耶尔 1 罐柠檬凝乳。",
+"gourmetpantry_SO_1b.deliver":"带给皮耶尔 1 罐南瓜黄油酱。",
+"gourmetpantry_SO_1c.deliver":"带给皮耶尔 1 罐蜂蜜黄油酱。",
+"gourmetpantry_SO_1d.deliver":"带给皮耶尔 1 罐莱姆凝乳。",
+"gourmetpantry_SO_1.accept":"这会让她的蛋糕跟比斯吉很完美！我等不及用这些给她惊喜了。",
+
+"gourmetpantry_SO_2.name":"浓、纯、香！",
+"gourmetpantry_SO_2.text":"我遇到很多乳糖不耐症的病人，但我不太懂替代奶。有人能带给我几种让我亲自喝看看吗？",
+"gourmetpantry_SO_2a.deliver":"把 2 瓶杏仁奶放进哈维诊所里的箱子。",
+"gourmetpantry_SO_2b.deliver":"把 2 瓶米浆放进哈维诊所里的箱子。",
+"gourmetpantry_SO_2c.deliver":"把 2 瓶椰奶放进哈维诊所里的箱子。",
+"gourmetpantry_SO_2d.deliver":"把 2 瓶榛子奶放进哈维诊所里的箱子。",
+
+"gourmetpantry_SO_3.name":"需要全新蛋白质！",
+"gourmetpantry_SO_3.text":"我听说坚果是很好的蛋白质来源，尤其是加进冰沙里！我想在早餐的蛋白质奶昔中尝试几种不同的坚果。",
+"gourmetpantry_SO_3.deliver": "把 10 罐坚果黄油酱放进亚历克斯家里的箱子。",
+
+"gourmetpantry_SO_4.name":"引起粉乱",
+"gourmetpantry_SO_4.text":"艾芙琳常常烘焙导致我们的面粉总是不够！或许她会乐意用不同的粉烘焙？",
+"gourmetpantry_SO_4.deliver":"把 10 包特制粉类放进乔治家里的箱子。",
+
+"gourmetpantry_SO_5.name":"加工大师挑战",
+"gourmetpantry_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度加工大师了！把你最高级的食材寄给我们，看你能不能赢得大奖！",
+"gourmetpantry_SO_5.ship":"出货 100 个金星质量的加工食材。",
+
+"gourmetpantry_SO_6.name":"给艾芙琳的香草精",
+"gourmetpantry_SO_6.text":"我的香草精用完了！没有它我没办法烘焙……",
+"gourmetpantry_SO_6.deliver":"带给艾芙琳 3 瓶香草精。",
+"gourmetpantry_SO_6.accept":"你能想象饼干没有加香草吗？那绝对不可以。谢谢你带给我这些香草精，甜心。",
+
+"gourmetpantry_SO_7.name":"给阿比盖尔的橄榄油",
+"gourmetpantry_SO_7.text":"我想试一些全新的烹饪食谱，但我需要橄榄油。有人能帮忙吗？",
+"gourmetpantry_SO_7.deliver":"带给阿比盖尔 5 瓶橄榄油。",
+"gourmetpantry_SO_7.accept":"谢谢你！我在食谱读到做佛卡夏需要大量橄榄油，这能帮我省下许多时间跟精力。",
+
+"gourmetpantry_SO_8.name":"给格斯的巧克力",
+"gourmetpantry_SO_8.text":"我的巧克力供应商在最后一分钟跑单了！有人能给我需要的食材吗？",
+"gourmetpantry_SO_8.deliver":"带给格斯 9 个烘焙用巧克力。",
+"gourmetpantry_SO_8.accept":"酒吧菜单没有我的特制巧克力蛋糕就不一样了！你真的帮了我一个大忙；谢谢你。",
+
+//PANTRY REWARDS MAIL
+
+"gourmetpantry_SO2_reward.title": "谢谢你！",
+"gourmetpantry_SO2_reward.text": "@，^^^用米、坚果甚至是椰子做的？真令人惊艳！这对我的病人来说会是很好的替代品。^哈维",
+
+"gourmetpantry_SO3_reward.title": "非常感谢！",
+"gourmetpantry_SO3_reward.text": "@，^^^太棒了！有了这些我的增肌效果一定会比以前更好！你真狂！^亚历克斯",
+
+"gourmetpantry_SO4_reward.title": "再次感谢",
+"gourmetpantry_SO4_reward.text": "@，^^^或许我们有这些粉后就不会一天用光了……至少我希望是这样。谢谢你的帮忙，农夫。^乔治",
+
+"gourmetpantry_SO5_reward.title": "恭喜！",
+"gourmetpantry_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你加工大师的头衔。请领取这份奖赏。",
+
+////////////////////////
+// SPECIAL ORDERS TEA //
+////////////////////////
+
+"atelierbarista_TeaSO_1.name":"茶包储存",
+"atelierbarista_TeaSO_1.text":"我的自种茶叶用完了！有人能给我些茶包让我度过这周吗？",
+"atelierbarista_TeaSO_1a.deliver":"带给卡洛琳 2 包肉桂香料茶包。",
+"atelierbarista_TeaSO_1b.deliver":"带给卡洛琳 2 包雀跃薄荷茶包。",
+"atelierbarista_TeaSO_1c.deliver":"带给卡洛琳 2 包格雷仕女茶包。",
+"atelierbarista_TeaSO_1.accept":"你带给我的口味真棒！我的下午茶一定会变得很有趣。",
+
+"atelierbarista_TeaSO_2.name":"品茶派对",
+"atelierbarista_TeaSO_2.text":"品茶派对我邀请了一些女士到我家享用茶跟司康，但我希望多几种茶能让她们选！有人能帮我吗？",
+"atelierbarista_TeaSO_2a.deliver":"把 2 杯樱花茶放进艾芙琳厨房里的箱子。",
+"atelierbarista_TeaSO_2b.deliver":"把 2 杯玫瑰花茶放进艾芙琳厨房里的箱子。",
+"atelierbarista_TeaSO_2c.deliver":"把 2 杯英式早餐茶放进艾芙琳厨房里的箱子。",
+
+"atelierjuicebar_TeaSO_3.name":"带起茶流",
+"atelierjuicebar_TeaSO_3.text":"我听见阿比盖尔跟塞巴在聊康普茶对身体的好处……有人能带几瓶给我喝喝看吗？",
+"atelierjuicebar_TeaSO_3a.deliver":"把 2 瓶秋日苹果康普茶放进罗宾工作室里的箱子。",
+"atelierjuicebar_TeaSO_3b.deliver":"把 2 瓶覆盆莓康普茶放进罗宾工作室里的箱子。",
+"atelierjuicebar_TeaSO_3c.deliver":"把 2 瓶野生草莓康普茶放进罗宾工作室里的箱子。",
+"atelierjuicebar_TeaSO_3d.deliver":"把 2 瓶石榴绿康普茶放进罗宾工作室里的箱子。",
+
+"atelierbarista_TeaSO_4.name":"助眠茶饮",
+"atelierbarista_TeaSO_4.text":"我真的筋疲力尽只想要一夜好眠，有人能带给我一些助眠的温和花草茶吗？",
+"atelierbarista_TeaSO_4a.deliver":"把 3 包温馨洋甘菊茶包放进乔迪厨房里的箱子。",
+"atelierbarista_TeaSO_4b.deliver":"把 3 包雀跃薄荷茶包放进乔迪厨房里的箱子。",
+"atelierbarista_TeaSO_4c.deliver":"把 3 包卡利科香草茶包放进乔迪厨房里的箱子。",
+"atelierbarista_TeaSO_4d.deliver":"把 3 包柠檬姜茶包放进乔迪厨房里的箱子。",
+
+"atelierbarista_TeaSO_5.name":"制茶大师挑战",
+"atelierbarista_TeaSO_5.text":"又到了每年的这个时候——我们已经开放申请年度制茶大师了！把你最好的茶寄给我们，看你能不能赢得大奖！",
+"atelierbarista_TeaSO_5.ship":"出货 100 个金星质量的茶类产品。",
+
+"atelierjuicebar_TeaSO_6.name":"给艾利克斯的康普茶",
+"atelierjuicebar_TeaSO_6.text":"我问了好几次皮耶尔就是不肯进康普茶。我到底要怎样才有办法喝到？",
+"atelierjuicebar_TeaSO_6.deliver":"带给艾利克斯 4 四瓶康普茶。",
+"atelierjuicebar_TeaSO_6.accept":"你带康普茶来了！赞啦，谢谢你拿给我。",
+
+"atelierbarista_TeaSO_7.name":"给海莉的茶",
+"atelierbarista_TeaSO_7.text":"网购茶真的好麻烦；我连看都看不到要怎么知道质量好不好？或许镇上有人可以直接卖茶给我……",
+"atelierbarista_TeaSO_7.deliver":"带给海莉 6 杯茶。",
+"atelierbarista_TeaSO_7.accept":"这些茶真的超可爱。我准备要去喝它们了——再次感谢！",
+
+"atelierbarista_TeaSO_8.name":"给桑迪的茶包",
+"atelierbarista_TeaSO_8.text":"我打算做一大壶冰茶来让我在沙漠消暑。有人能带几包茶包给我吗？",
+"atelierbarista_TeaSO_8.deliver":"带给桑迪 8 包茶包。",
+"atelierbarista_TeaSO_8.accept":"我现在不会觉得要融化在沙漠热浪里了！谢谢你我的好朋友。",
+
+//TEA REWARDS MAIL
+ 
+"atelierbarista_TeaSO2_reward.title": "谢谢你；附上几株茶苗！",
+"atelierbarista_TeaSO2_reward.text": "@，^^^我们刚刚用这些茶举办了一场完美的维多利亚品茶派对！^^艾芙琳",
+
+"atelierbarista_TeaSO3_reward.title": "谢谢你；附上一些蘑菇原木！",
+"atelierbarista_TeaSO3_reward.text": "@，^^^噢它比我想象中还多气泡！不过还是好喝到令我惊讶。^^罗宾",
+
+"atelierbarista_TeaSO4_reward.title": "再次感谢！",
+"atelierbarista_TeaSO4_reward.text": "@，^^^它们闻起来好温和，我赌我今晚还没躺上枕头就先睡着了！^^乔迪",
+
+"atelierbarista_TeaSO5_reward.title": "恭喜！",
+"atelierbarista_TeaSO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你制茶大师的头衔。请领取这份奖赏。",
+
+///////////////////
+// WILD FOOD SOS //
+///////////////////
+
+"ateliercrops_SO_1.name":"卡利科之梦",
+"ateliercrops_SO_1.text":"我听说有种在特定季节的卡利科沙漠才会绽放的兰花。有人能带给我一点好让我风干放在帐篷里吗？",
+"ateliercrops_SO_1.deliver":"带给莱纳斯 3 朵卡利科香草。",
+"ateliercrops_SO_1.accept":"噢我真的好爱卡利科沙漠。风干这些兰花后，我就能常常在家享受一点沙漠感了。",
+
+"ateliercrops_SO_2.name":"莓有尽头",
+"ateliercrops_SO_2.text":"我的莓果都吃完了但我真的好想做巧克力莓果塔，有人能帮我吗？",
+"ateliercrops_SO_2a.deliver":"把 4 个野生草莓放进莉亚房子里的箱子。",
+"ateliercrops_SO_2b.deliver":"把 4 个野生覆盆莓放进莉亚房子里的箱子。",
+
+"ateliercrops_SO_3.name":"嘎嘣脆，鸡肉味！",
+"ateliercrops_SO_3.text":"科学家需要多种蘑菇以找出山谷里最好的替代肉。",
+"ateliercrops_SO_3.deliver":"把 15 朵蘑菇放进德米特里厄斯实验室里的箱子。",
+
+"ateliercrops_SO_4.name":"沙漠花海",
+"ateliercrops_SO_4.text":"沙漠有沙漠自己的美，不过我好想念那些只开在山谷森林里的花！有人能带给我一点吗？",
+"ateliercrops_SO_4a.deliver":"把 5 朵森林薰衣草放进桑迪店里的箱子。",
+"ateliercrops_SO_4b.deliver":"把 5 朵森林洋甘菊放进桑迪店里的箱子。",
+
+"ateliercrops_SO_5.name":"觅食大师挑战",
+"ateliercrops_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度觅食大师了！把你的觅食物品寄给我们，看你能不能赢得大奖！",
+"ateliercrops_SO_5.ship":"出货 100 个金星质量的觅食物品。",
+
+"ateliercrops_SO_6.name":"给玛鲁的蘑菇",
+"ateliercrops_SO_6.text":"我需要一些新鲜蘑菇做实验，但是诊所的工作太忙了。有没有可能刚好有人有多的能分给我？",
+"ateliercrops_SO_6.deliver":"带给玛鲁 5 朵野生蘑菇。",
+"ateliercrops_SO_6.accept":"这些看起来很完美！谢谢你帮我节省许多寻找它们的时间。",
+
+"ateliercrops_SO_7.name":"给格斯的水果",
+"ateliercrops_SO_7.text":"我订的新鲜水果卖家天窗了，但酒吧需要鸡尾酒！我现在该怎么办？",
+"ateliercrops_SO_7.deliver":"带给格斯 6 个野生水果。",
+"ateliercrops_SO_7.accept":"我的鸡尾酒有了这些可爱水果将与众不同！再次感谢。",
+
+"ateliercrops_SO_8.name":"给艾芙琳的草药",
+"ateliercrops_SO_8.text":"我的草药用完了，但做菜需要它们！有人能帮帮我吗？",
+"ateliercrops_SO_8.deliver":"带给艾芙琳 8 株野生草药。",
+"ateliercrops_SO_8.accept":"烹饪真的很需要草药！谢谢你把这些带来。",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+"ateliercrops_SO2_reward.title": "谢谢你。",
+"ateliercrops_SO2_reward.text": "这些莓果很适合我的塔！真的很谢谢你为了我找它们。^^莉亚",
+
+"ateliercrops_SO3_reward.title": "一张感谢纸条与一些蘑菇原木！",
+"ateliercrops_SO3_reward.text": "亲爱的　@^^谢谢你，我离找出完美的纯素蛋白质来源更进一步了！感谢帮忙觅食这些蘑菇。^^",
+
+"ateliercrops_SO4_reward.title": "一张感谢纸条与更多蘑菇原木！",
+"ateliercrops_SO4_reward.text": "这就是我想要的！我要赶快把它们放进我的手帐里！^^桑迪",
+
+"ateliercrops_SO5_reward.title": "恭喜！",
+"ateliercrops_SO5_reward.text": "你的贡献令我们印象深刻，我们很荣幸能给予你觅食大师的头衔。请领取这份奖赏。",
+
+
+}

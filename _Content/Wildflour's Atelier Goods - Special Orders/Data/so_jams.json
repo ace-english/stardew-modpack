@@ -1,0 +1,515 @@
+{
+  "Changes": [
+ 
+///////////////
+// DROPBOXES //
+///////////////
+
+{
+  "Action": "EditMap",
+        "Target": "Maps/SamHouse",
+  "MapTiles": [
+      {
+         "Position": { "X": 3, "Y": 4},
+         "Layer": "Buildings",
+         "SetProperties": { "Action": "DropBox JodiKitchen"}
+      }		
+  ]
+},
+
+    {
+  "Action": "EditMap",
+        "Target": "Maps/ManorHouse",
+  "MapTiles": [
+      {
+         "Position": { "X": 5, "Y": 4},
+         "Layer": "Buildings",
+         "SetProperties": { "Action": "DropBox LewisKitchen"}
+      }		
+  ]
+},
+
+/////////////////////
+// SPECIAL ORDER 1 //
+/////////////////////
+
+    {
+    "LogName": "Jams Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "wildflour.jams_SO_1": {
+        "Name": "{{i18n:jams_SO_1.name}}",
+        "Requester": "George",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_robinResource, mail_ClintReward, mail_willyBugWadCutscene",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:jams_SO_1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:jams_SO_1.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.jams_tulip_jelly",
+                "Message": "{{i18n:jams_SO_1.accept}}",
+                "TargetName": "George"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2100"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "George"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+/////////////////////
+// SPECIAL ORDER 2 //
+/////////////////////
+
+    {
+      "LogName": "Jams Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.jams_SO_2": {
+          "Name": "{{i18n:jams_SO_2.name}}",
+          "Requester": "Marnie",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_robinResource, mail_ClintReward, mail_willyBugWadCutscene",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:jams_SO_2.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:jams_SO_2.deliver}}",
+                "RequiredCount": "5",
+                "Data": {
+                  "AcceptedContextTags": "item_wildflour.jams_rose_petal_jelly",
+                  "Message": "{{i18n:jams_SO_2.accept}}",
+                  "TargetName": "Marnie"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "9750"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Marnie"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.jams_SO2_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 3 //
+/////////////////////
+
+    {
+      "LogName": "Jams Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.jams_SO_3": {
+          "Name": "{{i18n:jams_SO_3.name}}",
+          "Requester": "Jodi",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_robinResource, mail_ClintReward, mail_willyBugWadCutscene",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:jams_SO_3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:jams_SO_3a.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "JodiKitchen",
+                  "DropBoxGameLocation": "SamHouse",
+                  "DropBoxIndicatorLocation": "3 4",
+                  "AcceptedContextTags": "item_wildflour.jams_cherry_vanilla_jam"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:jams_SO_3b.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "JodiKitchen",
+                  "DropBoxGameLocation": "SamHouse",
+                  "DropBoxIndicatorLocation": "3 4",
+                  "AcceptedContextTags": "item_wildflour.jams_honey_peach_preserves"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:jams_SO_3c.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "JodiKitchen",
+                  "DropBoxGameLocation": "SamHouse",
+                  "DropBoxIndicatorLocation": "3 4",
+                  "AcceptedContextTags": "item_wildflour.jams_strawberry_rhubarb_jam"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "17850"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Jodi"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.jams_SO3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+/////////////////////
+// SPECIAL ORDER 4 //
+/////////////////////
+
+    {
+      "LogName": "Jams Order 4",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+          "wildflour.jams_SO_4": {
+            "Name": "{{i18n:jams_SO_4.name}}",
+            "Requester": "Lewis",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "mail_robinResource, mail_ClintReward, mail_willyBugWadCutscene",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:jams_SO_4.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:jams_SO_4b.deliver}}",
+                  "RequiredCount": "2",
+                  "Data": {
+                    "DropBox": "LewisKitchen",
+                    "DropBoxGameLocation": "ManorHouse",
+                    "DropBoxIndicatorLocation": "5 4",
+                    "AcceptedContextTags": "item_wildflour.jams_lime_marmalade"
+                  }
+                },
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:jams_SO_4c.deliver}}",
+                  "RequiredCount": "2",
+                  "Data": {
+                    "DropBox": "LewisKitchen",
+                    "DropBoxGameLocation": "ManorHouse",
+                    "DropBoxIndicatorLocation": "5 4",
+                    "AcceptedContextTags": "item_wildflour.jams_orange_marmalade"
+                  }
+                },
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:jams_SO_4d.deliver}}",
+                  "RequiredCount": "2",
+                  "Data": {
+                    "DropBox": "LewisKitchen",
+                    "DropBoxGameLocation": "ManorHouse",
+                    "DropBoxIndicatorLocation": "5 4",
+                    "AcceptedContextTags": "item_wildflour.jams_lemon_marmalade"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "12120"
+                }
+              },
+
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Lewis"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.jams_SO4_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 5 //
+/////////////////////
+
+    {
+      "LogName": "Jams Order 5",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+          "wildflour.jams_SO_5": {
+            "Name": "{{i18n:jams_SO_5.name}}",
+            "Requester": "Lewis",
+            "Duration": "Month",
+            "Repeatable": "False",
+            "RequiredTags": "mail_wildflour.jams_SO2_complete, mail_wildflour.jams_SO3_complete, mail_wildflour.jams_SO4_complete",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:jams_SO_5.text}}",
+            "Objectives": [
+                {
+                  "Type": "Ship",
+                  "Text": "{{i18n:jams_SO_5.ship}}",
+                  "RequiredCount": "100",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_jam_item"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "100000"
+                }
+              },
+
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.jams_SO5_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 6 //
+/////////////////////
+
+    {
+      "LogName": "Jams Order 6",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.jams_SO_6": {
+          "Name": "{{i18n:jams_SO_6.name}}",
+          "Requester": "Linus",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_robinResource, mail_ClintReward, mail_willyBugWadCutscene",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:jams_SO_6.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:jams_SO_6.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "AcceptedContextTags": "wildflour_jam_item",
+                  "Message": "{{i18n:jams_SO_6.accept}}",
+                  "TargetName": "Linus"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5000"
+                }
+              },
+
+              {
+                "Type": "Friendship",
+                "Data": {}
+                }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 7 //
+/////////////////////
+
+    {
+    "LogName": "Jams Order 7",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "wildflour.jams_SO_7": {
+        "Name": "{{i18n:jams_SO_7.name}}",
+        "Requester": "Penny",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_robinResource, mail_ClintReward, mail_willyBugWadCutscene",
+          "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:jams_SO_7.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:jams_SO_7.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "wildflour_jam_item",
+                "Message": "{{i18n:jams_SO_7.accept}}",
+                "TargetName": "Penny"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "7500"
+              }
+            },
+
+          {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  },
+
+/////////////////////
+// SPECIAL ORDER 8 //
+/////////////////////
+
+    {
+    "LogName": "Jams Order 8",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "wildflour.jams_SO_8": {
+        "Name": "{{i18n:jams_SO_8.name}}",
+        "Requester": "Clint",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_robinResource, mail_ClintReward, mail_willyBugWadCutscene",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:jams_SO_8.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:jams_SO_8.deliver}}",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "wildflour_jam_item",
+                "Message": "{{i18n:jams_SO_8.accept}}",
+                "TargetName": "Clint"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "12500"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  }
+
+  ]
+}
+

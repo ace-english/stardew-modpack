@@ -1,0 +1,696 @@
+{
+    "Changes": [
+        
+///////////////
+// TEA ITEMS //
+///////////////
+
+    {
+        "LogName":"Add Atelier Barista Tea Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+            "wildflour.atelierbarista_apple_sachet": {
+                "Name": "wildflour.atelierbarista_apple_sachet",
+                "DisplayName": "{{i18n:atelierbarista_apple_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_apple_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_dark_red"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 0
+        },
+            "wildflour.atelierbarista_matcha_sachet": {
+                "Name": "wildflour.atelierbarista_matcha_sachet",
+                "DisplayName": "{{i18n:atelierbarista_matcha_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_matcha_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_dark_green"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 2
+        },
+            "wildflour.atelierbarista_breakfast_sachet": {
+                "Name": "wildflour.atelierbarista_breakfast_sachet",
+                "DisplayName": "{{i18n:atelierbarista_breakfast_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_breakfast_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 5
+        },
+            "wildflour.atelierbarista_ginger_sachet": {
+                "Name": "wildflour.atelierbarista_ginger_sachet",
+                "DisplayName": "{{i18n:atelierbarista_ginger_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_ginger_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_sand"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 7
+        },
+            "wildflour.atelierbarista_berry_sachet": {
+                "Name": "wildflour.atelierbarista_berry_sachet",
+                "DisplayName": "{{i18n:atelierbarista_berry_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_berry_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_dark_red"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 11
+        },
+            "wildflour.atelierbarista_peach_sachet": {
+                "Name": "wildflour.atelierbarista_peach_sachet",
+                "DisplayName": "{{i18n:atelierbarista_peach_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_peach_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_salmon"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 12
+        },
+            "wildflour.atelierbarista_pineapple_sachet": {
+                "Name": "wildflour.atelierbarista_pineapple_sachet",
+                "DisplayName": "{{i18n:atelierbarista_pineapple_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_pineapple_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_gold"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 13
+        },
+            "wildflour.atelierbarista_pomegranate_sachet": {
+                "Name": "wildflour.atelierbarista_pomegranate_sachet",
+                "DisplayName": "{{i18n:atelierbarista_pomegranate_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_pomegranate_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_dark_violet"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 14
+        },
+            "wildflour.atelierbarista_rose_sachet": {
+                "Name": "wildflour.atelierbarista_rose_sachet",
+                "DisplayName": "{{i18n:atelierbarista_rose_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_rose_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_light_purple"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 16
+        },
+            "wildflour.atelierbarista_flavored_sachet": {
+                "Name": "wildflour.atelierbarista_flavored_sachet",
+                "DisplayName": "{{i18n:atelierbarista_flavored_sachet.name}}",
+                "Description": "{{i18n:atelierbarista_flavored_sachet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": true,
+            
+                "ContextTags":
+                ["wildflour_tea_item",
+                "sachet_item",
+                "color_dark_violet"],
+            
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 18
+        },
+            "wildflour.atelierbarista_apple_tea": {
+                "Name": "wildflour.atelierbarista_apple_tea",
+                "DisplayName": "{{i18n:atelierbarista_apple_tea.name}}",
+                "Description": "{{i18n:atelierbarista_apple_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_red"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 32
+        },
+            "wildflour.atelierbarista_matcha_tea": {
+                "Name": "wildflour.atelierbarista_matcha_tea",
+                "DisplayName": "{{i18n:atelierbarista_matcha_tea.name}}",
+                "Description": "{{i18n:atelierbarista_matcha_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_green"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 34
+        },
+            "wildflour.atelierbarista_breakfast_tea": {
+                "Name": "wildflour.atelierbarista_breakfast_tea",
+                "DisplayName": "{{i18n:atelierbarista_breakfast_tea.name}}",
+                "Description": "{{i18n:atelierbarista_breakfast_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 37
+        },
+            "wildflour.atelierbarista_ginger_tea": {
+                "Name": "wildflour.atelierbarista_ginger_tea",
+                "DisplayName": "{{i18n:atelierbarista_ginger_tea.name}}",
+                "Description": "{{i18n:atelierbarista_ginger_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_gold"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 39
+        },
+            "wildflour.atelierbarista_berry_tea": {
+                "Name": "wildflour.atelierbarista_berry_tea",
+                "DisplayName": "{{i18n:atelierbarista_berry_tea.name}}",
+                "Description": "{{i18n:atelierbarista_berry_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_dark_red"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 43
+        },
+            "wildflour.atelierbarista_peach_tea": {
+                "Name": "wildflour.atelierbarista_peach_tea",
+                "DisplayName": "{{i18n:atelierbarista_peach_tea.name}}",
+                "Description": "{{i18n:atelierbarista_peach_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_salmon"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 44
+        },
+            "wildflour.atelierbarista_pineapple_tea": {
+                "Name": "wildflour.atelierbarista_pineapple_tea",
+                "DisplayName": "{{i18n:atelierbarista_pineapple_tea.name}}",
+                "Description": "{{i18n:atelierbarista_pineapple_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_gold"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 45
+        },
+            "wildflour.atelierbarista_pomegranate_tea": {
+                "Name": "wildflour.atelierbarista_pomegranate_tea",
+                "DisplayName": "{{i18n:atelierbarista_pomegranate_tea.name}}",
+                "Description": "{{i18n:atelierbarista_pomegranate_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_dark_purple"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 46
+        },
+            "wildflour.atelierbarista_rose_tea": {
+                "Name": "wildflour.atelierbarista_rose_tea",
+                "DisplayName": "{{i18n:atelierbarista_rose_tea.name}}",
+                "Description": "{{i18n:atelierbarista_rose_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_light_pink"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 48
+        },
+            "wildflour.atelierbarista_flavored_tea": {
+                "Name": "wildflour.atelierbarista_flavored_tea",
+                "DisplayName": "{{i18n:atelierbarista_flavored_tea.name}}",
+                "Description": "{{i18n:atelierbarista_flavored_tea.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 8,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": true,
+            
+                "ContextTags":
+                ["wildflour_tea_item",
+                "tea_item",
+                "color_green"],
+            
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 50
+        }
+    }
+    },
+
+//////////////////
+// COFFEE ITEMS //
+//////////////////
+
+    {
+        "LogName":"Add Atelier Barista Coffee Bags and Drinks",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+            "wildflour.atelierbarista_breakfast_ground": {
+                "Name": "wildflour.atelierbarista_breakfast_ground",
+                "DisplayName": "{{i18n:atelierbarista_breakfast_ground.name}}",
+                "Description": "{{i18n:atelierbarista_breakfast_ground.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "ground_coffee_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 96
+        },
+            "wildflour.atelierbarista_breakfast_latte": {
+                "Name": "wildflour.atelierbarista_breakfast_latte",
+                "DisplayName": "{{i18n:atelierbarista_breakfast_latte.name}}",
+                "Description": "{{i18n:atelierbarista_breakfast_latte.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 25,
+                "Price": 200,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "drink_item",
+                "artisan_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 97
+        },
+            "wildflour.atelierbarista_cold_ground": {
+                "Name": "wildflour.atelierbarista_cold_ground",
+                "DisplayName": "{{i18n:atelierbarista_cold_ground.name}}",
+                "Description": "{{i18n:atelierbarista_cold_ground.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "ground_coffee_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 100
+        },
+            "wildflour.atelierbarista_cold_latte": {
+                "Name": "wildflour.atelierbarista_cold_latte",
+                "DisplayName": "{{i18n:atelierbarista_cold_latte.name}}",
+                "Description": "{{i18n:atelierbarista_cold_latte.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 25,
+                "Price": 200,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "drink_item",
+                "artisan_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 101
+        },          
+            "wildflour.atelierbarista_donut_ground": {
+                "Name": "wildflour.atelierbarista_donut_ground",
+                "DisplayName": "{{i18n:atelierbarista_donut_ground.name}}",
+                "Description": "{{i18n:atelierbarista_donut_ground.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "ground_coffee_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 102
+        },
+            "wildflour.atelierbarista_donut_latte": {
+                "Name": "wildflour.atelierbarista_donut_latte",
+                "DisplayName": "{{i18n:atelierbarista_donut_latte.name}}",
+                "Description": "{{i18n:atelierbarista_donut_latte.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 25,
+                "Price": 200,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "drink_item",
+                "artisan_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 109
+        },  
+            "wildflour.atelierbarista_hazelnut_ground": {
+                "Name": "wildflour.atelierbarista_hazelnut_ground",
+                "DisplayName": "{{i18n:atelierbarista_hazelnut_ground.name}}",
+                "Description": "{{i18n:atelierbarista_hazelnut_ground.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "ground_coffee_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 104
+        },
+            "wildflour.atelierbarista_hazelnut_latte": {
+                "Name": "wildflour.atelierbarista_hazelnut_latte",
+                "DisplayName": "{{i18n:atelierbarista_hazelnut_latte.name}}",
+                "Description": "{{i18n:atelierbarista_hazelnut_latte.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 25,
+                "Price": 200, 
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "drink_item",
+                "artisan_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 105
+        },  
+            "wildflour.atelierbarista_pumpkin_ground": {
+                "Name": "wildflour.atelierbarista_pumpkin_ground",
+                "DisplayName": "{{i18n:atelierbarista_pumpkin_ground.name}}",
+                "Description": "{{i18n:atelierbarista_pumpkin_ground.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "ground_coffee_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 110
+        },
+            "wildflour.atelierbarista_holiday_ground": {
+                "Name": "wildflour.atelierbarista_holiday_ground",
+                "DisplayName": "{{i18n:atelierbarista_holiday_ground.name}}",
+                "Description": "{{i18n:atelierbarista_holiday_ground.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "ground_coffee_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 106
+        },
+            "wildflour.atelierbarista_holiday_latte": {
+                "Name": "wildflour.atelierbarista_holiday_latte",
+                "DisplayName": "{{i18n:atelierbarista_holiday_latte.name}}",
+                "Description": "{{i18n:atelierbarista_holiday_latte.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 25,
+                "Price": 200,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "drink_item",
+                "artisan_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 107
+        },  
+            "wildflour.atelierbarista_pumpkin_latte": {
+                "Name": "wildflour.atelierbarista_pumpkin_latte",
+                "DisplayName": "{{i18n:atelierbarista_pumpkin_latte.name}}",
+                "Description": "{{i18n:atelierbarista_pumpkin_latte.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 25,
+                "Price": 200,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "drink_item",
+                "artisan_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 111
+        },  
+            "wildflour.atelierbarista_sweetheart_ground": {
+                "Name": "wildflour.atelierbarista_sweetheart_ground",
+                "DisplayName": "{{i18n:atelierbarista_sweetheart_ground.name}}",
+                "Description": "{{i18n:atelierbarista_sweetheart_ground.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "ground_coffee_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 112
+        },
+            "wildflour.atelierbarista_sweetheart_latte": {
+                "Name": "wildflour.atelierbarista_sweetheart_latte",
+                "DisplayName": "{{i18n:atelierbarista_sweetheart_latte.name}}",
+                "Description": "{{i18n:atelierbarista_sweetheart_latte.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 25,
+                "Price": 200,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "drink_item",
+                "artisan_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 113
+        },  
+            "wildflour.atelierbarista_coconut_ground": {
+                "Name": "wildflour.atelierbarista_coconut_ground",
+                "DisplayName": "{{i18n:atelierbarista_coconut_ground.name}}",
+                "Description": "{{i18n:atelierbarista_coconut_ground.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "ground_coffee_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 114
+        },
+            "wildflour.atelierbarista_coconut_latte": {
+                "Name": "wildflour.atelierbarista_coconut_latte",
+                "DisplayName": "{{i18n:atelierbarista_coconut_latte.name}}",
+                "Description": "{{i18n:atelierbarista_coconut_latte.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 25,
+                "Price": 200,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_coffee_item",
+                "drink_item",
+                "artisan_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierbarista/Objects",
+                "SpriteIndex": 115
+        }
+
+    }
+    }
+
+    ]
+}

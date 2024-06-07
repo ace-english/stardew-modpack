@@ -1,0 +1,228 @@
+{
+// ROBIN DSV LIGHT
+
+	"Changes": [
+
+	// APPEARANCES
+
+		{
+			"LogName": "Robin Appearances",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Robin", "Appearance"],
+			"Entries":
+			{
+			// DAILY
+				"DSV.Robin.Indoor":
+				{
+					"Id": "{{ModId}}_Robin_Indoor",
+					"Portrait": "Portraits/Robin_Indoor",
+					"Sprite": "Characters/Robin_Indoor",
+					"Precedence": -110
+				},
+			// FESTIVALS
+				"DSV.Robin.EggFestival":
+				{
+					"Id": "{{ModId}}_Robin_EggFestival",
+					"Portrait": "Portraits/Robin_EggFestival",
+					"Sprite": "Characters/Robin_EggFestival",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring13",
+					"Precedence": -200
+				},
+				"DSV.Robin.FlowerDance":
+				{
+					"Id": "{{ModId}}_Robin_FlowerDance",
+					"Portrait": "Portraits/Robin_FlowerDance",
+					"Sprite": "Characters/Robin_FlowerDance",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_spring24",
+					"Precedence": -200
+				},
+				"DSV.Robin.Luau":
+				{
+					"Id": "{{ModId}}_Robin_Luau",
+					"Portrait": "Portraits/Robin_Luau",
+					"Sprite": "Characters/Robin_Luau",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer11",
+					"Precedence": -200
+				},
+				"DSV.Robin.MoonlightJellies":
+				{
+					"Id": "{{ModId}}_Robin_MoonlightJellies",
+					"Portrait": "Portraits/Robin_MoonlightJellies",
+					"Sprite": "Characters/Robin_MoonlightJellies",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_summer28",
+					"Precedence": -200
+				},
+				"DSV.Robin.SVFair":
+				{
+					"Id": "{{ModId}}_Robin_SVFair",
+					"Portrait": "Portraits/Robin_SVFair",
+					"Sprite": "Characters/Robin_SVFair",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_fall16\" \"IS_EVENT festival_fall20, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Robin.SpiritsEve":
+				{
+					"Id": "{{ModId}}_Robin_SpiritsEve",
+					"Portrait": "Portraits/Robin_SpiritsEve",
+					"Sprite": "Characters/Robin_SpiritsEve",
+					"Condition": "ANY \"IS_EVENT festival_fall27\" \"IS_EVENT 29102022, {{HasMod |contains= LenneDalben.TrickorTreatEvent}}\" \"DAY_OF_MONTH 27, SEASON Fall, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn EastScarp_ClearingHouse, {{HasMod |contains= LemurKat.EastScarpe.CP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Robin.IceFestival":
+				{
+					"Id": "{{ModId}}_Robin_IceFestival",
+					"Portrait": "Portraits/Robin_IceFestival",
+					"Sprite": "Characters/Robin_IceFestival",
+					"Indoors": false,
+					"Condition": "ANY \"IS_EVENT festival_winter8\" \"IS_EVENT festival_winter28, {{HasMod |contains= Rafseazz.RSVCP}}\"",
+					"Precedence": -200
+				},
+				"DSV.Robin.WinterStar":
+				{
+					"Id": "{{ModId}}_Robin_WinterStar",
+					"Portrait": "Portraits/Robin_WinterStar",
+					"Sprite": "Characters/Robin_WinterStar",
+					"Indoors": false,
+					"Condition": "IS_EVENT festival_winter25",
+					"Precedence": -200
+				},
+			// OTHER
+				"DSV.Robin.Swim":
+				{
+					"Id": "{{ModId}}_Robin_Swim",
+					"Portrait": "Portraits/Robin_Swim",
+					"Sprite": "Characters/Robin_Swim",
+					"Condition": "ANY \"LOCATION_NAME Target BathHouse_Pool BathHouse_MensLocker BathHouse_WomensLocker\" \"IS_EVENT festival_summer5, {{HasMod |contains= spacechase0.SurfingFestival}}\"",
+					"Precedence": -150
+				},
+				"DSV.Robin.HotClimate":
+				{
+					"Id": "{{ModId}}_Robin_HotClimate",
+					"Portrait": "Portraits/Robin_HotClimate",
+					"Sprite": "Characters/Robin_HotClimate",
+					"Condition": "LOCATION_CONTEXT Target Desert Island",
+					"Precedence": -150
+				},
+				"DSV.Robin.Aerobics":
+				{
+					"Id": "{{ModId}}_Robin_Aerobics",
+					"Portrait": "Portraits/Robin_Aerobics",
+					"Sprite": "Characters/Robin_Aerobics",
+					"Condition": "ANY \"LOCATION_NAME Target SeedShop, DAY_OF_WEEK Tuesday, !WEATHER Target Rain Storm\" \"IS_EVENT 58\"",
+					"Precedence": -150
+				}
+			}
+		},
+
+	// LOADS
+	
+		{
+			"LogName": "Robin Load - Indoor Outdoor Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Robin_Indoor, Characters/Robin_Indoor",
+			"FromFile": "Art/VanillaNPCs/Robin/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:RobinVariant}}/Robin_Fall_1_Sun.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RobinVariant|contains= Off": false
+			}
+		},
+		{
+			"LogName": "Robin Load - Festival & Special Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Robin_EggFestival, Characters/Robin_EggFestival, Portraits/Robin_FlowerDance, Characters/Robin_FlowerDance, Portraits/Robin_Luau, Characters/Robin_Luau, Portraits/Robin_MoonlightJellies, Characters/Robin_MoonlightJellies, Portraits/Robin_SVFair, Characters/Robin_SVFair, Portraits/Robin_SpiritsEve, Characters/Robin_SpiritsEve, Portraits/Robin_IceFestival, Characters/Robin_IceFestival, Portraits/Robin_WinterStar, Characters/Robin_WinterStar, Portraits/Robin_Swim, Characters/Robin_Swim, Portraits/Robin_Aerobics, Characters/Robin_Aerobics",
+			"FromFile": "Art/VanillaNPCs/Robin/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:RobinVariant}}/{{TargetWithoutPath}}_1.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RobinVariant|contains= Off": false
+			}
+		},	
+		{
+			"LogName": "Robin Load - Desert & Island Outfits",
+			"Action": "Load",
+			"Target": "Portraits/Robin_HotClimate, Characters/Robin_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Robin/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:RobinVariant}}/Robin_Summer_1_Base.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:RobinVariant|contains= Off": false
+			}
+		},
+
+	// EDITS
+
+		{
+			"LogName": "Robin Base Seasonal Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Robin_Indoor, Characters/Robin_Indoor",
+			"FromFile": "Art/VanillaNPCs/Robin/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:RobinVariant}}/Robin_{{season}}_1_Base.png"
+		},
+		{
+			"LogName": "Robin Desert & Island Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Robin_HotClimate, Characters/Robin_HotClimate",
+			"FromFile": "Art/VanillaNPCs/Robin/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:RobinVariant}}/Robin_Summer_1_Sun.png"
+		},
+		{
+			"LogName": "Robin Beach Outfits",
+			"Action": "EditImage",
+			"Target": "Portraits/Robin_Beach, Characters/Robin_Beach",
+			"FromFile": "Art/VanillaNPCs/Robin/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:RobinVariant}}/Robin_Beach_{{Random: {{SwimToken}} |key={{TargetWithoutPath}}}}.png",
+			"When":
+			{
+				"DSV.Core/ConfigValue:BeachStyle |contains= RandomBeachwear": false
+			}
+		},
+		{
+			"LogName": "Robin Prologue",
+			"Action": "EditImage",
+			"Target": "Portraits/Robin, Characters/Robin",
+			"FromFile": "Art/VanillaNPCs/{{TargetWithoutPath}}/{{TargetPathOnly}}/{{DSV.Core/ConfigValue:RobinVariant}}/Robin_Spring_1_Sun.png",
+			"When":
+			{
+				"HasSeenEvent |contains= 60367": false
+			}
+		},
+		
+// MISCELLANEOUS
+		{
+			"LogName": "Robin Emoji",
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Art/VanillaNPCs/Robin/Misc/Robin_Emoji_Modded.png",
+			"ToArea": {"X": 18, "Y": 108, "Width": 9, "Height": 9},
+			"When": 
+			{
+				"DSV.Core/ConfigValue:RobinVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Robin Clothes Therapy 1",
+			"Action": "EditImage",
+			"Target": "Characters/ClothesTherapyCharacters",
+			"FromFile": "Art/VanillaNPCs/Robin/Misc/ClothesTherapy_Robin_Modded.png",
+			"ToArea": {"X": 0, "Y": 128, "Width": 64, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 32},
+			"When":
+			{
+				"DSV.Core/ConfigValue:RobinVariant|contains= Modded": true
+			}
+		},
+		{
+			"LogName": "Robin Clothes Therapy 2",
+			"Action": "EditImage",
+			"Target": "Characters/ClothesTherapyCharacters",
+			"FromFile": "Art/VanillaNPCs/Robin/Misc/ClothesTherapy_Robin_Modded.png",
+			"ToArea": {"X": 16, "Y": 160, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 32, "Width": 16, "Height": 32},
+			"When":
+			{
+				"DSV.Core/ConfigValue:RobinVariant|contains= Modded": true
+			}
+		}
+	]
+}

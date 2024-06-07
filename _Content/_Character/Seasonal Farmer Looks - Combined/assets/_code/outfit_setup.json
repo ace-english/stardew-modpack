@@ -1,0 +1,134 @@
+{
+	"Changes": [
+		{//Base
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{BaseOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange"
+		},
+		
+		{//Seasonal
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{SeasonalOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "SeasonalOutfitsEnabled": true }
+		},
+		
+		{//Rain
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{RaincoatOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Weather": "{{RainyWeatherList}}", "RaincoatEnabled": true }
+		},		
+		{//Seasonal raincoats
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{SeasonalRaincoatName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "RaincoatEnabled": true, "SeasonalRaincoatsEnabled": true, "Weather": "{{RainyWeatherList}}" }
+		},
+		{//Green raincoat
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{GreenRaincoatOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "GreenRaincoatChoice": "GreenRaincoatOption", "Weather": "GreenRain" }
+		},
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{SeasonalRaincoatName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "GreenRaincoatChoice": "SeasonalRaincoatOption", "Weather": "GreenRain" }
+		},
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{RaincoatOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "GreenRaincoatChoice": "RegularRaincoatOption", "Weather": "GreenRain" }
+		},
+				
+		{//Festivals and events
+			"Action": "Include",
+			"FromFile": "assets/_code/outfit_festival.json",
+			"Update": "OnDayStart",
+			"When": { "FestivalOutfitsEnabled": true, "HasValue:{{DayEvent}}": true }
+		},
+		
+		{//Island
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{IslandOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "IslandOutfitEnabled": true, "LocationContext": "Island" }
+		},
+		{//Island raincoat
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{IslandRaincoatOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": {  "IslandRaincoatChoice": "IslandRaincoatOption", "LocationContext": "Island", "Weather: island": "{{RainyWeatherList}}" }
+		},
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{SeasonalRaincoatName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "IslandRaincoatChoice": "SeasonalRaincoatOption", "LocationContext": "Island", "Weather: island": "{{RainyWeatherList}}" }
+		},
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{RaincoatOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "IslandRaincoatChoice": "RegularRaincoatOption", "LocationContext": "Island", "Weather: island": "{{RainyWeatherList}}" }
+		},
+		{//Desert
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{DesertOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "DesertOutfitEnabled": true, "LocationName": "Desert, SandyHouse, Club, {{ModdedDesertLocations}}" }
+		},
+		
+		{//Mining
+			"Action": "Include",
+			"FromFile": "assets/_code/outfit_mining.json",
+			"Update": "OnTimeChange, OnLocationChange",
+			"When": { "MiningOutfitEnabled": true }
+		},
+		
+		{//Pajamas
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{PajamasOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Time": "{{Range: 0600, {{PajamaMorningTime}}}}", "LocationName": "Farmhouse, IslandFarmHouse", "MorningPajamas": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{PajamasOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange, OnTimeChange",
+			"When": { "Time": "{{Range: {{PajamaEveningTime}}, 2600}}", "LocationName": "Farmhouse, IslandFarmHouse", "EveningPajamas": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{PajamasOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnDayStart, OnLocationChange",
+			"When": { "LocationName": "Farmhouse, IslandFarmHouse", "PajamasAllDay": true }
+		},
+		
+		{//Bathhouse outfit
+			"Action": "EditData",
+			"Target": "nihilistzsche.FashionSenseOutfits/Outfits",
+			"Fields": { "RequestedOutfit": { "OutfitID": "{{BathOutfitName}}{{CurrentPostfix}}" } },
+			"Update": "OnLocationChange",
+			"When": { "LocationName": "{{BathingLocations}}", "BathOutfitEnabled": true }
+		}
+	]
+}

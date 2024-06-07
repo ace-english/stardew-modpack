@@ -1,0 +1,325 @@
+{
+
+    //KETTLE
+
+    "atelierbarista_TeaProcessor.name": "茶叶处理器",
+    "atelierbarista_TeaProcessor.description": "将不同食材制成茶包。.",
+
+    "atelierbarista_TeaKettle.name": "茶壶",
+    "atelierbarista_TeaKettle.description": "冲泡特制茶饮。",
+
+    ///////////////////////////
+    // MACHINE NOTIFICATIONS //
+    ///////////////////////////
+
+    "atelierbarista_TeaProcessor_InvalidItem.message": "无法制作",
+    "atelierbarista_TeaProcessor_InvalidCount.message": "需要茶叶",
+
+    "atelierbarista_TeaKettle_InvalidItem.message": "无法冲泡",
+    "atelierbarista_TeaKettle_InvalidCount.message": "需要蜂蜜",
+
+    ////////////////////////////
+    // FLAVORED GENERIC ITEMS //
+    ////////////////////////////
+
+    "atelierbarista_flavored_sachet.name": "茶包",
+    "atelierbarista_flavored_sachet.description": "混合独特花卉风味制成的茶包。",
+
+    "atelierbarista_flavored_tea.name": "茶",
+    "atelierbarista_flavored_tea.description": "用自制茶包冲泡而成的茶。",
+
+    /////////////
+    // STRINGS //
+    /////////////
+
+    "atelierbarista_flavored_sachet": "{0} 茶包",
+    "atelierbarista_flavored_tea": "{0} 茶",
+
+    /////////////////////////
+    // MOD SUPPORTED ITEMS //
+    /////////////////////////
+
+    "atelierbarista_gardenia_sachet.name": "栀子花茶包",
+    "atelierbarista_gardenia_sachet.description": "混合独特花卉风味制成的茶包。",
+
+    "atelierbarista_hibiscus_sachet.name": "洛神花茶包",
+    "atelierbarista_hibiscus_sachet.description": "混合独特花卉风味制成的茶包。",
+
+    "atelierbarista_gardenia_tea.name": "栀子花茶",
+    "atelierbarista_gardenia_tea.description": "用栀子花调味的现泡茶。",
+
+    "atelierbarista_hibiscus_tea.name": "洛神花茶",
+    "atelierbarista_hibiscus_tea.description": "用洛神花调味的现泡茶。",
+
+    "atelierbarista_borage_sachet.name": "琉璃苣茶包",
+    "atelierbarista_borage_sachet.description": "混合独特花卉风味制成的茶包。",
+
+    "atelierbarista_calendula_sachet.name": "金盏花茶包",
+    "atelierbarista_calendula_sachet.description": "混合独特花卉风味制成的茶包。",
+
+    "atelierbarista_borage_tea.name": "琉璃苣茶",
+    "atelierbarista_borage_tea.description": "用琉璃苣花调味的现泡茶。",
+
+    "atelierbarista_calendula_tea.name": "金盏花茶",
+    "atelierbarista_calendula_tea.description": "用金盏花调味的现泡茶。",
+
+    "atelierbarista_hollyhock_sachet.name": "蜀葵花茶包",
+    "atelierbarista_hollyhock_sachet.description": "混合独特花卉风味制成的茶包。",
+
+    "atelierbarista_springpansy_sachet.name": "三色堇茶包",
+    "atelierbarista_springpansy_sachet.description": "混合独特花卉风味制成的茶包。",
+
+    "atelierbarista_hollyhock_tea.name": "蜀葵花茶",
+    "atelierbarista_hollyhock_tea.description": "用蜀葵花调味的现泡茶。",
+
+    "atelierbarista_springpansy_tea.name": "三色堇茶",
+    "atelierbarista_springpansy_tea.description": "用三色堇调味的现泡茶。",
+
+    "atelierbarista_orangeblossom_sachet.name": "橙花茶包",
+    "atelierbarista_orangeblossom_sachet.description": "混合独特花卉风味制成的茶包。",
+
+    "atelierbarista_orangeblossom_tea.name": "橙花茶",
+    "atelierbarista_orangeblossom_tea.description": "用橙花调味的现泡茶。",
+
+
+
+    //TEA SACHETS
+
+    "atelierbarista_apple_sachet.name": "秋日苹果茶包",
+    "atelierbarista_apple_sachet.description": "混合了辛香料和爽脆苹果让这调味茶非常适合在悠闲的秋日下午饮用。",
+
+    "atelierbarista_vanilla_sachet.name": "卡利科香草茶包",
+    "atelierbarista_vanilla_sachet.description": "这种调味香草茶最适合暖心暖身。",
+
+    "atelierbarista_matcha_sachet.name": "仪式抹茶包",
+    "atelierbarista_matcha_sachet.description": "初摘茶叶制成的典礼级调味茶。",
+
+    "atelierbarista_cinnamon_sachet.name": "肉桂香料茶包",
+    "atelierbarista_cinnamon_sachet.description": "混合了茶叶和煤炭肉桂粉，非常适合泡茶。",
+
+    "atelierbarista_chamomile_sachet.name": "温和洋甘菊茶包",
+    "atelierbarista_chamomile_sachet.description": "干燥洋甘菊花瓣以及其他宁神的草药造就这舒缓的调味茶。",
+
+    "atelierbarista_breakfast_sachet.name": "英式早餐茶包",
+    "atelierbarista_breakfast_sachet.description": "醇厚浓郁的调味茶。",
+
+    "atelierbarista_jasmine_sachet.name": "芳香茉莉茶包",
+    "atelierbarista_jasmine_sachet.description": "混合了茶叶和芳香茉莉花瓣，非常适合泡茶。",
+
+    "atelierbarista_ginger_sachet.name": "蜜桃姜茶包",
+    "atelierbarista_ginger_sachet.description": "桃子甜蜜果味和姜的温暖辛香搭配而成的调味茶。",
+
+    "atelierbarista_grey_sachet.name": "格雷仕女茶包",
+    "atelierbarista_grey_sachet.description": "加入一点柠檬和橙子使这调味茶比格雷伯爵茶还要更柔和、淡雅。",
+
+    "atelierbarista_lemon_sachet.name": "柠檬姜茶包",
+    "atelierbarista_lemon_sachet.description": "用小柠檬皮和干燥的姜制成的提神调味茶。",
+
+    "atelierbarista_mint_sachet.name": "雀跃薄荷茶包",
+    "atelierbarista_mint_sachet.description": "常为了舒缓感冒与流感症状而泡的清新调味茶。",
+
+    "atelierbarista_berry_sachet.name": "综合莓果茶包",
+    "atelierbarista_berry_sachet.description": "有着新鲜莓果香的醇厚调味茶。",
+
+    "atelierbarista_peach_sachet.name": "蜜桃芒果茶包",
+    "atelierbarista_peach_sachet.description": "有着蜜桃芒果风味，令人雀跃的调味茶！",
+
+    "atelierbarista_pineapple_sachet.name": "菠萝椰香茶包",
+    "atelierbarista_pineapple_sachet.description": "甜蜜菠萝与清爽椰子的调味茶能立刻把你带到岛屿码头。",
+
+    "atelierbarista_pomegranate_sachet.name": "石榴绿茶包",
+    "atelierbarista_pomegranate_sachet.description": "以清新石榴为主调，味道强烈的草本调味茶。",
+
+    "atelierbarista_raspberry_sachet.name": "覆盆莓茶包",
+    "atelierbarista_raspberry_sachet.description": "带有覆盆莓酸味的芬吉尔香醇调味茶。",
+
+    "atelierbarista_rose_sachet.name": "玫瑰花茶包",
+    "atelierbarista_rose_sachet.description": "用玫瑰花瓣与花蕾制成的调味茶。",
+
+    "atelierbarista_sakura_sachet.name": "樱花茶包",
+    "atelierbarista_sakura_sachet.description": "用保鲜樱花瓣制成的调味茶。",
+
+    "atelierbarista_strawberry_sachet.name": "野生草莓茶包",
+    "atelierbarista_strawberry_sachet.description": "用春季野生草莓制成的甜蜜调味茶。",
+
+
+    //TEA
+
+    "atelierbarista_apple_tea.name": "秋日苹果茶",
+    "atelierbarista_apple_tea.description": "现泡苹果茶。",
+
+    "atelierbarista_vanilla_tea.name": "卡利科香草茶",
+    "atelierbarista_vanilla_tea.description": "现泡香草茶。",
+
+    "atelierbarista_matcha_tea.name": "仪式抹茶",
+    "atelierbarista_matcha_tea.description": "现泡抹茶。",
+
+    "atelierbarista_cinnamon_tea.name": "肉桂香料茶",
+    "atelierbarista_cinnamon_tea.description": "现泡肉桂茶。",
+
+    "atelierbarista_chamomile_tea.name": "温和洋甘菊茶",
+    "atelierbarista_chamomile_tea.description": "现泡洋甘菊茶。",
+
+    "atelierbarista_breakfast_tea.name": "英式早餐茶",
+    "atelierbarista_breakfast_tea.description": "现泡英式早餐茶。",
+
+    "atelierbarista_jasmine_tea.name": "芳香茉莉茶",
+    "atelierbarista_jasmine_tea.description": "现泡茉莉茶。",
+
+    "atelierbarista_ginger_tea.name": "蜜桃姜茶",
+    "atelierbarista_ginger_tea.description": "现泡蜜桃姜茶。",
+
+    "atelierbarista_grey_tea.name": "格雷仕女茶",
+    "atelierbarista_grey_tea.description": "现泡格雷仕女茶。",
+
+    "atelierbarista_lemon_tea.name": "柠檬姜茶",
+    "atelierbarista_lemon_tea.description": "现泡柠檬姜茶。",
+
+    "atelierbarista_mint_tea.name": "雀跃薄荷茶",
+    "atelierbarista_mint_tea.description": "现泡薄荷茶。",
+
+    "atelierbarista_berry_tea.name": "综合莓果茶",
+    "atelierbarista_berry_tea.description": "现泡综合莓果茶。",
+
+    "atelierbarista_peach_tea.name": "蜜桃芒果茶",
+    "atelierbarista_peach_tea.description": "现泡蜜桃芒果茶。",
+
+    "atelierbarista_pineapple_tea.name": "菠萝椰香茶",
+    "atelierbarista_pineapple_tea.description": "现泡菠萝椰香茶。",
+
+    "atelierbarista_pomegranate_tea.name": "石榴绿茶",
+    "atelierbarista_pomegranate_tea.description": "现泡石榴绿茶。",
+
+    "atelierbarista_raspberry_tea.name": "覆盆莓茶",
+    "atelierbarista_raspberry_tea.description": "现泡覆盆莓茶。",
+
+    "atelierbarista_rose_tea.name": "玫瑰花茶",
+    "atelierbarista_rose_tea.description": "现泡玫瑰花茶。",
+
+    "atelierbarista_sakura_tea.name": "樱花茶",
+    "atelierbarista_sakura_tea.description": "现泡樱花茶。",
+
+    "atelierbarista_strawberry_tea.name": "野生草莓茶",
+    "atelierbarista_strawberry_tea.description": "现泡野生草莓茶。",
+
+
+    //////////
+    // MAIL //
+    //////////
+
+    "atelierbarista_TeaProcessorRecipe.name": "是时候制作手工茶包了！",
+    "atelierbarista_TeaProcessorRecipe.text": "@, ^^ 如果你真的想深入学习泡茶，你应该试着制作一个这样的处理器。它内置了制作茶包的方式！我很愿意尝试你创造的任何新茶。^^ - 艾利欧特",
+    
+    "atelierbarista_TeaKettleRecipe.name": "使用茶壶",
+    "atelierbarista_TeaKettleRecipe.text": "@, ^^ 我觉得拥有自己的茶壶可以让家里变得更温馨；这是教你自己做茶壶的蓝图！只是到时候别忘了邀请我去你的茶会。^^ - 卡洛琳",
+    
+    "ateliertea_evelyn_gift.name": "送你的种子",
+    "ateliertea_evelyn_gift.text": "@，^^我听说你正在学习更多泡茶的知识！这是趟很美妙的冒险。送你吧：这些是从我的花园拿来的洋甘菊种子。这种花可以泡成舒缓身心的花草茶助眠。^^艾芙琳",
+
+    "ateliertea_leah_gift.name": "送至你的茶园",
+    "ateliertea_leah_gift.text": "@，^^你泡茶的进展如何？如果你在觅食茶叶上有困难，我很乐意跟你分享一些种子！这些会长成坚稳的茶树丛，这样你想泡什么茶都没问题了。^^莉亚",
+
+    "ateliertea_maru_gift.name": "泡康普茶",
+    "ateliertea_maru_gift.text": "@，^^你知道你能把茶发酵成康普茶吗？这种茶并不「普」遍（抱歉我用了双关语），但我认为这充满气泡很好喝！你会想种这些蘑菇帮助发酵的。^^玛鲁",
+
+    //////////////////
+    // COFFEE BEGIN //
+    //////////////////
+
+    "atelierbarista_CoffeeGrinder.name": "磨豆机",
+    "atelierbarista_CoffeeGrinder.description": "将咖啡豆与原料磨成自制咖啡粉的机器。",
+
+    "atelierbarista_CoffeeBrewer.name": "咖啡壶",
+    "atelierbarista_CoffeeBrewer.description": "用来冲泡美味拿铁的壶。",
+
+
+    ///////////////////////////
+    // MACHINE NOTIFICATIONS //
+    ///////////////////////////
+
+    "atelierbarista_CoffeeGrinder_InvalidItem.message": "无法研磨",
+    "atelierbarista_CoffeeGrinder_InvalidCount.message": "需要 15 颗咖啡豆",
+
+    "atelierbarista_CoffeeBrewer_InvalidItem.message": "无法冲泡",
+    "atelierbarista_CoffeeBrewer_InvalidCount.message": "需要奶油",
+
+    ///////////////////
+    // GROUND COFFEE //
+    ///////////////////
+
+    "atelierbarista_breakfast_ground.name": "早餐混合咖啡粉",
+    "atelierbarista_breakfast_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    "atelierbarista_vanilla_ground.name": "卡利科香草咖啡粉",
+    "atelierbarista_vanilla_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    "atelierbarista_cold_ground.name": "冷萃咖啡粉",
+    "atelierbarista_cold_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    "atelierbarista_donut_ground.name": "甜甜圈专柜咖啡粉",
+    "atelierbarista_donut_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    "atelierbarista_hazelnut_ground.name": "榛子咖啡粉",
+    "atelierbarista_hazelnut_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    "atelierbarista_holiday_ground.name": "假期混合咖啡粉",
+    "atelierbarista_holiday_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    "atelierbarista_mocha_ground.name": "摩卡咖啡粉",
+    "atelierbarista_mocha_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    "atelierbarista_pumpkin_ground.name": "南瓜香料咖啡粉",
+    "atelierbarista_pumpkin_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    "atelierbarista_sweetheart_ground.name": "甜心混合咖啡粉",
+    "atelierbarista_sweetheart_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    "atelierbarista_coconut_ground.name": "香烤椰子咖啡粉",
+    "atelierbarista_coconut_ground.description": "包装好的现磨咖啡豆，随时能泡成美味咖啡！",
+
+    ////////////
+    // DRINKS //
+    ////////////
+
+    "atelierbarista_breakfast_latte.name": "早餐混合拿铁",
+    "atelierbarista_breakfast_latte.description": "现煮咖啡，轻松惬意！",
+
+    "atelierbarista_vanilla_latte.name": "卡利科香草拿铁",
+    "atelierbarista_vanilla_latte.description": "现煮咖啡，轻松惬意！",
+
+    "atelierbarista_cold_latte.name": "经典冷翠",
+    "atelierbarista_cold_latte.description": "现煮咖啡，轻松惬意！",
+
+    "atelierbarista_donut_latte.name": "甜甜圈专柜拿铁",
+    "atelierbarista_donut_latte.description": "现煮咖啡，轻松惬意！",
+
+    "atelierbarista_hazelnut_latte.name": "榛子拿铁",
+    "atelierbarista_hazelnut_latte.description": "现煮咖啡，轻松惬意！",
+
+    "atelierbarista_holiday_latte.name": "假期混合拿铁",
+    "atelierbarista_holiday_latte.description": "现煮咖啡，轻松惬意！",
+
+    "atelierbarista_mocha_latte.name": "浓郁摩卡",
+    "atelierbarista_mocha_latte.description": "现煮咖啡，轻松惬意！",
+
+    "atelierbarista_pumpkin_latte.name": "温和南瓜香料拿铁",
+    "atelierbarista_pumpkin_latte.description": "现煮咖啡，轻松惬意！",
+
+    "atelierbarista_sweetheart_latte.name": "甜心拿铁",
+    "atelierbarista_sweetheart_latte.description": "现煮咖啡，轻松惬意！",
+
+    "atelierbarista_coconut_latte.name": "香烤椰子拿铁",
+    "atelierbarista_coconut_latte.description": "现煮咖啡，轻松惬意！",
+
+    ////////////
+    /// MAIL ///
+    ////////////
+
+    "atelierbarista_BrewerRecipe.text": "@，^^有时候当你半夜起床又不想偷偷摸摸跑去厨房时就会需要有台自己的咖啡壶。不对，我想起来你根本不用担心吵醒自己爸妈了。算了，反正我都已经开始写这封信了就……收下吧。^^塞巴斯蒂安",
+    "atelierbarista_GrinderRecipe.text": "@，^^我发现自己研磨可以泡出更好的咖啡，所以我决定跟你分享我最喜欢的磨豆机蓝图。只是要记得咖啡因摄取太多会让你过于亢奋，所以要确保一切适量！^^哈维",
+    "atelierbarista_haley.text": "@，^^我很难过镇上没有可爱的小咖啡厅，不过至少我能去你家喝杯美味拿铁。或许下次拜访时你可以泡杯摩卡拿铁给我？^^海莉",
+    "atelierbarista_george.text": "@，^^伊芙琳自己喜欢茶，不过她随时都会泡杯咖啡给我。她曾经泡过一杯香草拿铁……我觉得很好喝，应该吧。总之或许你可以用这些香草荚泡一杯。^^乔治",
+    "atelierbarista_sebastian.text": "@，^^你有泡过冷萃咖啡吗？它保有所有咖啡因跟风味，而且还去除了苦味所以我很推它。给你这个，善加利用的话或许能帮你做包冷萃咖啡粉。^^塞巴斯蒂安"
+
+
+}

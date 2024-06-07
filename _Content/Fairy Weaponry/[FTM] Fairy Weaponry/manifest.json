@@ -1,0 +1,11 @@
+{
+  "Name": "[FTM] Fairy Weaponry",
+  "Author": "Dolly",
+  "Version": "2.0.0",
+  "Description": "Spawn fairy items.",
+  "UniqueID": "Dolly.FTMFairyWeaponry",
+  "ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager",
+		"MinimumVersion": "1.18.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Wildflour's Atelier Goods - Canner",
+    "Author": "wildflourmods",
+    "Version": "1.0.1",
+    "Description": "This mod adds new items and recipes centered around fancy jams and jellies!",
+    "UniqueID": "wildflour.jams",
+    "UpdateKeys": ["Nexus:22738"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "wildflour.gourmetpantry", "IsRequired": true},
+        {"UniqueID": "wildflour.ateliercrops", "IsRequired": false}
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

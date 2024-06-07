@@ -1,0 +1,227 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"Add Atelier Floral QL Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierfloral_gardenia_bouquet": {
+                    "Name": "wildflour.atelierfloral_gardenia_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_gardenia_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_gardenia_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 128
+            },
+                "wildflour.atelierfloral_gardenia_perfume": {
+                    "Name": "wildflour.atelierfloral_gardenia_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_gardenia_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_gardenia_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 144
+            },
+                "wildflour.atelierfloral_dried_gardenia": {
+                    "Name": "wildflour.atelierfloral_dried_gardenia",
+                    "DisplayName": "{{i18n:atelierfloral_dried_gardenia.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_gardenia.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 192
+            },
+                "wildflour.atelierfloral_gardenia_incense": {
+                    "Name": "wildflour.atelierfloral_gardenia_incense",
+                    "DisplayName": "{{i18n:atelierfloral_gardenia_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_gardenia_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 208
+            },
+                "wildflour.atelierfloral_snapdragon_bouquet": {
+                    "Name": "wildflour.atelierfloral_snapdragon_bouquet",
+                    "DisplayName": "{{i18n:atelierfloral_snapdragon_bouquet.name}}",
+                    "Description": "{{i18n:atelierfloral_snapdragon_bouquet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_bouquet_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 132
+            },
+                "wildflour.atelierfloral_snapdragon_perfume": {
+                    "Name": "wildflour.atelierfloral_snapdragon_perfume",
+                    "DisplayName": "{{i18n:atelierfloral_snapdragon_perfume.name}}",
+                    "Description": "{{i18n:atelierfloral_snapdragon_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_perfume_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 148
+            },
+                "wildflour.atelierfloral_dried_snapdragon": {
+                    "Name": "wildflour.atelierfloral_dried_snapdragon",
+                    "DisplayName": "{{i18n:atelierfloral_dried_snapdragon.name}}",
+                    "Description": "{{i18n:atelierfloral_dried_snapdragon.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "dried_flower_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 196
+            },
+                "wildflour.atelierfloral_snapdragon_incense": {
+                    "Name": "wildflour.atelierfloral_snapdragon_incense",
+                    "DisplayName": "{{i18n:atelierfloral_snapdragon_incense.name}}",
+                    "Description": "{{i18n:atelierfloral_snapdragon_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "incense_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 212
+            }
+        }
+        },
+
+        {
+            "LogName":"Add Atelier Floral QL Candles & Soap",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": { "HasMod: |contains=wildflour.honeybees": true },
+            "Entries": {
+                "wildflour.atelierfloral_gardenia_candles": {
+                    "Name": "wildflour.atelierfloral_gardenia_candles",
+                    "DisplayName": "{{i18n:atelierfloral_gardenia_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_gardenia_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "candle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 176
+            },
+                "wildflour.atelierfloral_gardenia_soap": {
+                    "Name": "wildflour.atelierfloral_gardenia_soap",
+                    "DisplayName": "{{i18n:atelierfloral_gardenia_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_gardenia_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 160
+            },
+                "wildflour.atelierfloral_snapdragon_candles": {
+                    "Name": "wildflour.atelierfloral_snapdragon_candles",
+                    "DisplayName": "{{i18n:atelierfloral_snapdragon_candles.name}}",
+                    "Description": "{{i18n:atelierfloral_snapdragon_candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "candle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 180
+            },
+                "wildflour.atelierfloral_snapdragon_soap": {
+                    "Name": "wildflour.atelierfloral_snapdragon_soap",
+                    "DisplayName": "{{i18n:atelierfloral_snapdragon_soap.name}}",
+                    "Description": "{{i18n:atelierfloral_snapdragon_soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "soap_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierfloral/Objects",
+                    "SpriteIndex": 164
+            }
+        }
+        }
+
+    ]
+}

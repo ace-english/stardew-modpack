@@ -1,0 +1,1280 @@
+{
+"Format": "2.0.0",
+  
+// C O N F I G
+	"ConfigSchema": {
+		"Override Generic Dialogue": {
+			"AllowValues": "false, true",
+			"Default":"false",
+            },
+		"Portrait": {
+			"AllowValues": "vanilla, alternate, disabled",
+			"Default":"vanilla",
+            },
+		"call_me_kid": {
+			"AllowValues": "false, true",
+			"Default":"true",
+            },
+    }, 
+
+// D Y N A M I C   T O K E N S
+	"DynamicTokens": [
+		{
+		"Name": "IsEvenYear",
+		"Value": "{{Query: {{Year}} % 2 = 0}}"
+		},
+		
+		{
+        "Name": "Gil75",
+    	"Value": "friendship Gil 75/",
+    	"When": {"HasMod |contains=Wolf.Gil": true}
+        },
+        
+		{
+        "Name": "Gil125",
+        "Value": "friendship Gil 125/",
+        "When": {"HasMod |contains=Wolf.Gil": true}
+        },
+        
+		{
+        "Name": "Gil250",
+        "Value": "friendship Gil 250/",
+        "When": {"HasMod |contains=Wolf.Gil": true}
+        },
+        
+		{
+        "Name": "Gil500",
+        "Value": "friendship Gil 500/",
+        "When": {"HasMod |contains=Wolf.Gil": true}
+        },
+        
+		{
+        "Name": "Gil-500",
+        "Value": "friendship Gil -500/",
+        "When": {"HasMod |contains=Wolf.Gil": true}
+        },
+        
+		{   
+		"Name":"kid_or_nothing",
+		"Value":"",
+		"When": {"call_me_kid" : false}
+		},
+		
+		{   
+		"Name":"kid_or_nothing",
+		"Value":"kid",
+		"When": {"call_me_kid" : true}
+		},
+		
+		{   
+		"Name":"kid_or_name",
+		"Value":"@",
+		"When": {"call_me_kid" : false}
+		},
+		
+		{   
+		"Name":"kid_or_name",
+		"Value":"kid",
+		"When": {"call_me_kid" : true}
+		},
+    ],
+	
+	"Changes": [
+ //S P R I T E S
+		{
+		"LogName": "Marlon's Sprites",
+		"Action": "Load",
+		"Target": "Characters/Marlon",
+		"FromFile": "assets/Sprites/Marlon.png"
+        },
+		
+// P O R T R A I T
+		{
+		"Action": "Load",
+		"Target": "Portraits/Marlon",
+		"FromFile": "assets/Portraits/Marlon.png",
+		"When": {"Portrait": "vanilla",},
+		},
+		
+		{
+		"Action": "Load",
+		"Target": "Portraits/Marlon",
+		"FromFile": "assets/Portraits/Marlon_alt.png",
+		"When": {"Portrait": "alternate",},
+		},
+		
+// N P C    D I S P O S I T I O N S
+		{
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+        	"Marlon": {
+                "DisplayName": "Marlon", 
+                "BirthSeason": "Spring",
+                "BirthDay": 22,
+                "HomeRegion": "Other",
+                "Gender": "Male",
+                "Age": "Adult",
+                "Manner": "Rude",
+                "SocialAnxiety": "Neutral",
+                "Optimism": "Negative",
+                "CanCommentOnPurchasedShopItems": false,
+                "ItemDeliveryQuests": false,
+                "SpouseRoom": {
+                	"MapAsset": "spouseRoomMarlon",
+                    "MapSourceRect": {
+                        	"X": 0,
+                        	"Y": 0,
+                        	"Width": 6,
+                        	"Height": 9
+                    	}
+                	},
+                "SpousePatio":{
+                	"MapAsset":"spousePatioMarlon",
+                	"SpriteAnimationFrames": [
+    						[24, 500], 
+    						[25, 250], 
+							]
+                		},
+                "CanBeRomanced": true,
+                "Home": [{
+                            "Id": "Default",
+                            "Location": "AdventureGuild",
+                            "Tile": { "X": 6, "Y": 5 },
+                            "Direction": "Down"
+                        }],
+                }
+            }
+        },
+        
+// SPOUSE ROOM
+  {
+    "Action": "Load",
+    "FromFile": "assets/Maps/spouseRoomMarlon.tmx",
+    "Target": "Maps/spouseRoomMarlon"
+  },
+  
+//SPOUSE PATIO
+  {
+    "Action": "Load",
+    "FromFile": "assets/Maps/spousePatioMarlon.tmx",
+    "Target": "Maps/spousePatioMarlon"
+  },
+
+// G I F T    T A S T E S
+		{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"Marlon": "Damn. That's the good stuff. Thank you./205 244 773 337 349/Hey, this isn't half bad {{kid_or_nothing}}. Thanks./351 441 286 287 288 336 335 386/Hmph. I guess I could feed it to a slime./346 459 303 348/You're giving me this? You trying to make me hate you?/402 418 421 591 593 595/Hmm. Thanks, I guess.//",
+			},
+		},
+		
+// D I A L O G U E
+		{
+		"Action": "Load",
+		"Target": "Characters/Dialogue/Marlon",
+		"FromFile": "assets/dialogue_Marlon.json" 
+		},
+		
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marlon",
+		"Entries": {
+			"Mon":"You want something from me {{kid_or_nothing}}? I ain't got nothing to say to you.$a",
+			"Fri":"You're in my way {{kid_or_nothing}}.$a",
+			"Sun":"You looking for trouble {{kid_or_nothing}}?#$b#Cause you're about to find it.$a",
+			"Thu2":"...hm?#$e#Scram {{kid_or_nothing}}. I'm busy.$a",
+			"Sat2":"Nothing doing.$a#$e#Keep your nose clean {{kid_or_nothing}}.",
+			"Sun2":"Where I come from, people keep to themselves and we thank 'em for it.$a#$e#You ain't got no respect {{kid_or_nothing}}.$a",
+			"Thu4":"A good delver knows when to turn back {{kid_or_nothing}}. Remember that.#$b#You think you're good with a blade, get cocky, forget to watch your back. Something else'll watch it for you, believe you me.#$e#Know your limits. That's all I'm saying.",
+			"Fri4":"Choosing the right tool for the job is everything. For farming and fighting.#$e#You want speed? Take a dagger and get up close and personal with them baddies.#$b#Grab a club if you got more strength than skill. Hard to miss with a swing like that.#$b#Sword takes skill and finesse, but you'll get the best of both worlds.#$e#Take my word for it {{kid_or_nothing}}. Grab a sword and sharpen it up good if you go in the mines.",
+			"Sat4":"Don't bother Gil while he's napping.#$e#Learned that the hard way.",
+			"Sun4":"Ever seen a ghost {{kid_or_nothing}}?#$b#They'll dog your steps in the caves. Sneak up on you when you least expect it.#$e#Watch your back  {{kid_or_nothing}}.",
+			
+			"Town_42_86":"The hell you doing here?$a#$b#Scram {{kid_or_nothing}}. This is a private place.$a",
+			"Event_Mine_3":"It's my business to keep damn fools like yourself from getting themselves killed down there. So check your stupidity, turn around, and walk away {{kid_or_nothing}}.$a",
+		},
+		},
+		
+		{
+        "Action": "Load",
+        "Target": "Characters/Dialogue/MarriageDialogueMarlon",
+        "FromFile": "assets/MarriageDialogueMarlon.json"
+        },
+		
+		{
+        "Action": "EditData",
+		"Target": "Characters/Dialogue/Marlon",
+        	"Entries": {
+				"Town_42_86":"Brought some flowers for Fin.#$b#He was real fond of those blue fluffy ones.^She was real fond of those blue fluffy ones.#$b#*sigh*",
+				},
+		"When":{"HasSeenEvent": "7018004"},
+        },
+		
+		{
+		"Action": "EditData",
+		"Target": "Data/EngagementDialogue",
+		"Entries": {
+			"Marlon0": "Still a bit dumbfounded, to be honest. Sure you wanna do this?",
+			"Marlon1": "Well... Hell. Never thought I'd marry a farmer. Never thought I'd marry at all.",
+			},
+		},
+		
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueMarlon",
+        "Entries": {
+			"funLeave_Marlon": "{{Random: Good morning, my lover. A lot on your plate today?#$e#I'll be heading out soon myself.#$b#Places to go. Monsters to kill. The usual. \\ Guess I should remember to bring some food with me if I walk out all day.#$b#Gil ain't got nothing edible in the guild. Yoba knows how he survived.#$e#Hey, we got any of those roots left? \\ Every time I head up to the guild I feel a little sorry for Gil.$s#$b#We did everything together once. Now he's stuck in that decaying hall with all those memories.#$e#Then I remember he's a right pain in the ass. \\ Heading to the guild makes me appreciate what we've got here even more.#$b#How the hell was I living in that for so long?#$e#Guess you couldn't really call it living. |inputSeparator=\\}}",
+			},
+        },
+	
+
+//I T E M    R E C O V E R Y
+		{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "Entries": {
+			"ItemRecovery_Description": "Lost some items, huh? Damn well warned you to be careful down there. *sigh* Guess I could get one of 'em back for you.",
+			"ItemRecovery_Engaged": "Alright, I'll find your lost {0} tonight and drop it off in your mailbox tomorrow morning. Next time, watch your Yobdamn back!",
+			"ItemRecovery_Engaged_Stack": "Alright, I'll find your lost {0} tonight and drop them off in your mailbox tomorrow morning. Next time, watch your Yobdamn back!",
+			"Stats.cs.5129": "Monster Slayer Goal Complete! Check the barrel in the Adventurer's Guild for your reward.",
+			}
+		},
+	
+//S P E E C H   B U B B L E S
+		{
+        "Action": "EditData",
+        "Target": "Strings/SpeechBubbles",
+        "Entries": {
+			"AdventureGuild_Marlon_Greeting2": "Hey there.",
+			"AdventureGuild_Marlon_Greeting4": "Back again, huh?",
+			}
+		},
+		
+// G E N E R I C   D I A L O G U E
+		//Marriage
+		{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "Entries": {
+			"Game1.cs.2782": "One hell of a party.#$e#...#$b#It’s gonna take a while to settle in that we're actually married.",
+			},
+        "When": {"Override Generic Dialogue": "true",},
+        	},
+
+		
+// S C H E D U L E
+		{
+		"Action": "Load",
+		"Target": "Characters/schedules/Marlon",
+		"FromFile": "assets/schedule_Marlon.json"
+		},
+		
+		{
+		"LogName":"Marlon's Post-8-Heart-Schedule",
+		"Action": "EditData",
+		"Target": "Characters/schedules/Marlon",
+		"Entries":{
+			"Sun":"610 Town 42 86 0/1300 AdventureGuild 5 11 2/2200 AdventureGuild 6 5 2",  
+			},
+		"When": {"HasSeenEvent |contains=7018013":true},
+		"Update": "OnLocationChange"
+		},
+		
+		{
+      	"Action": "Load",
+      	"Target": "Strings/schedules/Marlon",
+      	"FromFile": "assets/schedule_strings_Marlon.json"
+    	},
+		
+
+// S T R I N G S   F R O M   M A P S
+		{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+			"MarlonRoom.000": "His favorite sword. The blade is marked with numerous chips and dings.",
+			"MarlonRoom.001": "There is a faint odor of rotten eggs in this corner.",
+			"MarlonRoom.002": "Did he think there would be a shortage of hay on the farm?",
+			"MarlonRoom.003": "What is in these barrels? You may never know.",
+			},
+		},
+		
+		{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+			"Town.3": "Beloved Finley. Gone too soon.",
+			},
+		},
+
+// E V E N T S
+		//Marlon Intro Event and 2-Heart Event
+		{
+		"LogName": "Mine Events",
+		"Action": "EditData",
+		"Target": "Data/Events/Mine",
+		"Entries": {
+			"100162/t 600 2600": "MarlonsTheme/21 9/farmer -100 -100 0 Marlon 23 6 2/addQuest 14/skippable/pause 1000/move Marlon 0 2 2/pause 1500/speak Marlon \"Hmmm... \"/pause 500/warp farmer 18 13/playSound stoneStep/move farmer 0 -3 1/move farmer 5 0 0/pause 1000/speak Marlon \"$q 1 null#...You got some business in here {{kid_or_nothing}}?#$r 1 0 Event_Mine_1#I was just taking a look around.#$r 1 0 Event_Mine_2#I heard there's treasure down there.#$r 1 0 Event_Mine_3#Maybe. What's it matter to you?\"/pause 1000/speak Marlon \"Sigh...\"/pause 1000/speak Marlon \"But you ain't gonna listen to me, are you?#$b#You got some damn fool notion of adventure in your head, and you're going in, whatever I say, aren't you?\"/pause 500/speak Marlon \"Take this. You're gonna need it.\"/pause 500/playSound dwop/faceDirection farmer 1 true/pause 50/faceDirection farmer 2/itemAboveHead sword/pause 3300/awardFestivalPrize sword/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/pause 500/speak Marlon \"Name's Marlon, so you know what to shout when you get in over your head.#$b#If I'm feelin' generous I might even come bail you out.\"/pause 500/end",
+			"7018002/f Marlon 500/t 600 2400": "MarlonsTheme/21 9/farmer 18 13 0 Marlon 18 7 2/skippable/pause 1000/speak Marlon \"Thought I might find you here.\"/move farmer 0 -2 0/speak Marlon \"You're like a damn gopher, you know that? Try to get rid of you and you just dig deeper.\"/pause 700/speak Marlon \"Listen {{kid_or_nothing}}.#$b#@.#$b#You can't keep rummaging in these mines like this. Leastaways not without knowing what the hell you're doing.\"/pause 500/speak Marlon \"No, I ain't worried about you! I just don't want to have that on my conscience.#$b#If you get yourself killed, it ain't gonna be my fault.\"/pause 500/emote Marlon 40/pause 500/speak Marlon \"Here.\"/pause 100/move Marlon 0 3 2/speak Marlon \"You take this sword. Hold it by the handle, not the blade.#$b#Now I'm going to teach you how to swing a blade, proper like. Won't have you waving it around all frantic every time you see something creeping in the dark.#$b#That's how you get dead.#$b#But first you learn to block. Because that'll save your neck in a dark corner someday.\"/globalFade/viewport -1000 -1000/speak Marlon \"Hold it high! Keep your damn blade straight!\"/pause 500/playSound swordswipe/pause 200/playSound throwDownITem/pause 500/speak Marlon \"I said block, not drop! This ain't a fire drill {{kid_or_nothing}}.\"/pause 500/playSound swordswipe/pause 100/playSound clank/speak Marlon \"There you go! Hold it there. I wanna see those little arms shaking!\"/pause 500/speak Marlon \"Not bad. I've seen worse in my time.#$b#But you'll have to move faster than that if you want to keep your head attached to your neck at the bottom of the mine.#$b#Now let's see how you swing that blade.\"/pause 500/speak Marlon \"Hit me. \"/pause 200/playSound swordswipe/pause 200/speak Marlon \"Never gonna get anywhere if you're afraid of hurting someone. Hit me!\"/pause 200/playSound swordswipe/pause 100/playSound clank/pause 200/speak Marlon \"Ha! Weak. Do it again, and put some muscle into it! I might be old, but I'll take you with my one arm tied behind my back. \"/pause 200/playSound swordswipe/pause 100/playSound crit/pause 200/speak Marlon \"That's the way! Again! Don't bum out on me {{kid_or_nothing}}, we got a long way to go yet.\"/pause 200/playSound swordswipe/pause 100/playSound crit/pause 200/warp Marlon 18 9/faceDirection Marlon 1/warp farmer 20 9/faceDirection farmer 3/viewport 21 9/speak Marlon \"You're alright, {{kid_or_name}}. Not half as bad as I thought you'd be. Quick learner. That'll save your skin.\"/pause 500/speak Marlon \"Now get on out of here. And remember to keep your elbows tucked and your gut tight.\"/pause 100/move Marlon 0 5 2/pause 500/speak Marlon \"Damn.$s#$b#Reminds me of...$s\"/pause 500/move Marlon 0 1 2/warp Marlon 1000 1000/pause 500/globalFade/viewport -1000 -1000/friendship Marlon 50/{{Gil75}}end",
+			},
+		},
+		
+		//Marlon 4-Heart Event
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/AdventureGuild",
+		"Entries": {
+			"7018008/f Marlon 1000/k 7118004":"MarlonsTheme/-1000 -1000/farmer -1000 -1000 0 Marlon 6 12 1 Gil 1001 1001 3/skippable/changeLocation Mountain/warp farmer 76 9/viewport 76 8/pause 1000/speak Marlon \"I ain’t taking an interest!$a\"/pause 1000/emote farmer 8/pause 500/speak Marlon \"I’m just trying not to get anyone else killed!$a\"/pause 2000/speak Marlon \"Seen enough stupid young kids get themselves killed to last a lifetime. And then some.#$b#Don’t pretend you got nothing riding on this. You ain’t interested in making any more mistakes either.\"/pause 2000/globalFade .01/viewport -1000 -1000/changeLocation AdventureGuild/viewport 6 12/pause 2000/speak Marlon \"Don’t give me that bullshit! You hairy bastard. Pretend you ain’t got responsibilities left in this world.\"/pause 500/speak Gil \"I don’t.$u#$b#When the world turns its back, there’s only one way to move forward.$u\"/pause 500/speak Marlon \"Well you sure as hell ain’t moving forward! If you think what you’re doing is helping you move on, you’re dead wrong.$a#$b#You do nothing.#$b#Nothing but sit in that damn chair all day.#$b#You say you don’t give a damn about the world, but that’s just to feel better about it up and leaving you behind.\"/pause 1000/speak Marlon \" Well I ain’t gonna sit back and do nothing. Watch the world pass me by like some old fogey.\"/pause 500/speak Gil \"You are an old fogey.$u\"/pause 500/speak Marlon \"That ain’t the damn point! Point is, I made enough mistakes from doing nothing. Maybe you’re alright with that. But I ain’t.\"/pause 500/speak Gil \"So you are taking an interest.\"/pause 500/speak Marlon \"Damn you!$a#$b#Fine! I’m taking a Yobdamn interest in @.$a#$b#Happy?$a\"/pause 500/speak Gil \"Are you?\"/speak Marlon \"No!$a\"/speed Marlon 4/move Marlon 0 7 2/warp Marlon 1000 1000/globalFade .02/viewport -1000 -1000/changeLocation Mountain/viewport 76 14/pause 500/playSound woodyStep/pause 200/emote farmer 16/pause 200/move farmer -1 0 2/warp Marlon 76 9/playSound doorClose/showFrame 94/jump farmer/speed Marlon 4/move Marlon 0 5 2/pause 3000/showFrame farmer 0/pause 1000/emote farmer 28/pause 1000/faceDirection Marlon 3/pause 1000/faceDirection Marlon 2/pause 1000/speak Marlon \"You got no business listening at doors, {{kid_or_name}}.#$b#It’s no good eavesdropping on arguments between two old men.\"/pause 2000/speak Marlon \"Go on. Scat.\"/pause 200/jump farmer/pause 200/speed farmer 5/move farmer 0 2 2/move farmer -15 0 3/warp farmer 1000 1000/pause 2000/speak Marlon \"*sigh*...$s\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation AdventureGuild/{{Gil125}}end warpOut",
+			},
+		},
+		
+		//Marlon 6-Heart and 8-Heart Events
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/Town",
+		"Entries": {
+			"7018003/f Marlon 1500/t 1000 4000/w sunny/a 81 0": "MarlonsTheme/79 10/Marlon 80 18 0 farmer -100 -100 2 Gil 1001 1001 0/skippable/speed Marlon 1/move Marlon 0 -4 0/pause 500/speak Marlon \"Yoba damn sonofa-\"/pause 500/speed Marlon 1/move Marlon 0 -1 0/pause 200/speed Marlon 1/move Marlon 0 -1 0/pause 200/speed Marlon 1/move Marlon 0 -1 0/pause 200/speed Marlon 1/move Marlon 0 -1 0/pause 500/speak Marlon \"Of all the times for this damn knee to flare up. Couldn't have waited five minutes, you damn devil?\"/warp farmer 81 0/move farmer 0 5 2/emote farmer 16/speed farmer 5/move farmer 0 5 3/pause 100/emote farmer 8/faceDirection Marlon 1/pause 100/speak Marlon \"Damn. Should've known you'd turn up just at the wrong time. Gotta stick yer nose in everywhere, don't you?$a\"/pause 300/emote Marlon 12/pause 100/faceDirection Marlon 0/pause 700/faceDirection Marlon 1/pause 200/speak Marlon \"Well, you gonna help me out or not? Can't half walk when my knee locks up like this.$a\"/pause 300/emote Marlon 12/pause 100/faceDirection Marlon 0/faceDirection farmer 0/speed farmer 1/speed Marlon 2/move Marlon 0 -7 0 true/move farmer 0 -7 0 true/pause 3700/warp Marlon 1000 1000/warp farmer -100 -100/globalFade/viewport -1000 -1000/changeLocation AdventureGuild/viewport 6 15/warp Marlon 6 19/move Marlon 0 -1 0 false/warp farmer 6 19/playSound doorClose/move Marlon 0 -3 0/speed farmer 1/move farmer 0 -2 0 false/pause 500/faceDirection Marlon 2/pause 500/emote Marlon 40/pause 500/speak Marlon \"Now don't go thinking I'm some decrepit old fogey. Damn body's been through the wringer and sooner or later that stuff catches up with you.#$b#You keep dungeon diving like you're doing and you'll be racking up bills. Hope you're ready to pay them.\"/pause 200/emote farmer 28/pause 500/speak Gil \"He means 'thanks.'\"/pause 500/emote Marlon 28/pause 500/speak Marlon \"...thanks, @.#$b#Now go on. Scat.\"/pause 300/move farmer 0 2 2/warp farmer 1000 1000/playSound doorClose/globalFade/viewport -1000 -1000/changeLocation Town/viewport -1000 -1000/warp farmer 81 0/{{Gil250}}end dialogue Marlon \"Sorry about earlier, @. I'm not as young as I used to be. Makes me a bit cranky to be reminded of it.\"",
+			"7018004/f Marlon 2000/t 600 2400" : "sadpiano/42 86/Marlon 42 86 0 farmer 51 91 0/skippable/pause 2000/speak Marlon \"Hey.#$b#It's been a long while. Know that.#$b#I always did keep you waiting, up until the very last time...\"/pause 500/speak Marlon \"I been busy.#$b#There's this person moved into town... damn well reminds me of you.\"/move farmer -7 0 0/speak Marlon \"Bright. A bit cocky. Can't hold him down.^Bright. A bit cocky. Can't hold her down.#$b#I know, 'cause I tried. Few times now.#$b#Can't keep him outta trouble.^Can't keep her outta trouble.#$b#So I'm just trying to keep him alive.^So I'm just trying to keep her alive.\"/pause 500/speak Marlon \"Not gonna fail again.\"/pause 500/speak Marlon \"Not this time.\"/pause 500/faceDirection Marlon 2/showFrame Marlon 21/pause 1000/showFrame Marlon 0/speak Marlon \"@!$6#$b#Damn it all! Can't go sneaking up on a man like that!\"/pause 200/move farmer 0 -5 3/faceDirection Marlon 1/pause 500/emote Marlon 40/speak Marlon \"$q 7774 null#Were you listening to that whole thing?#$r 7774 50 Event_Listening_1#Yes...#$r 7774 -50 Event_Listening_2#Nope. Didn't listen to a single word.\"pause 500/speak Marlon \"*sigh* I guess I owe you a story, huh?\"/pause 500/playMusic desolate/pause 500/speak Marlon \"It was a long time back. A whole 'nother lifetime, when I was a young man and full of myself.#$b#Back then there were three of us. Me and Gil and another lad named Finley.^Back then there were three of us. Me and Gil and a lass named Finley.#$b#And Fin... he was the best of us.^And Fin... she was the best of us.#$b#We built that guild, you know. From the ground up, just the three of us.#$b#It was a pipedream, but we thought it'd be all adventure and glory when the doors opened.#$b#Maybe it was for a while, but all that's faded and tarnished now.\"/pause 500/speak Marlon \"You see we dug in real deep. Wasn't an inch of this place we didn't know. And people hereabouts knew it. Used to rely on us to keep this valley safe. So when there were rumblings of a big old brute that had climbed out of the desert, they knew who to turn to.\"/pause 500/speak Marlon \"Only... I'd been up real late the night before. Celebrating, you see. It was the guild's anniversary.#$b#And I'd had a spot too much to drink... was hungover and out of sorts and...\"/pause 500/speak Marlon \"*sigh* I ain't gonna get into the details. Yoba knows I drudge them up often enough in my own damn head.#$b#We got the bastard. But not before it got Fin. Snatched him up right in front of me.^We got the bastard. But not before it got Fin. Snatched her up right in front of me.#$b#And I, drunk and stupid, went after. Stuck my arm right into its mouth to drag him out.^And I, drunk and stupid, went after. Stuck my arm right into its mouth to drag her out.#$b#If I'd been there in time, it woulda been worth the trade. But I lost 'em both.#$b#Fin was broken in two. My arm was lizard bait.\"/pause 1000/speak Marlon \"Gil took the damn thing down while I was still screaming.#$b#Didn't even feel my arm missing. Just saw Fin lying there, all broken and bloody.\"/pause 1000/speak Marlon \"*sigh* Sorry. Said I wouldn't get into it.\"/pause 1000/speak Marlon \"We brought him back and buried him here, at home.^We brought her back and buried her here, at home.#$b#I ain't touched a drop of liquor since that day.#$b#That was the end of the guild. After that it was just two old, broken men in a run-down shack, pretending we still had something worth living for.\"/pause 1000/speak Marlon \"Anyway, that's the story. Now you know.\"/pause 500/speak Marlon \"You know why I couldn't stand your damn cocky face popping back into the mines every time I chased you off. Couldn't even stand looking at you, but damn it all, here you are and I'm wondering if Yoba's giving me a second chance.#$b#I ain't messing it up this time, @.\"/pause 1000/speak Marlon \"Not this time.\"/pause 1000/speak Marlon \"Let's get out of here, @.\"/pause 200/faceDirection Marlon 0/pause 1300/speak Marlon \"See you around, Fin.\"/pause 500/move Marlon 1 0 1/move Marlon 0 5 2 true/move farmer 0 5 2 true/pause 1200/{{Gil250}}end dialogue Marlon \"Thought I'd hate you for butting into something private like that, but I don't. I'm glad you know, @. Ain't no more secrets between us.\"",
+			},
+		},
+		
+		//Marlon 10-Heart Event Letter
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+        "Entries": {
+               	"7018005/f Marlon 2500/x beachInvite": "null",
+            	}
+        	},
+		
+		//Marlon 10-Heart Event
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/Beach",
+        "Entries": {
+               	"7018006/n beachInvite/t 1700 1900" : "ocean/12 38/farmer 12 29 2 Marlon -1000 -1000 2/skippable/move farmer 0 7 2/pause 500/faceDirection farmer 3/pause 500/faceDirection farmer 1/pause 500/faceDirection farmer 3/pause 500/faceDirection farmer 2/move farmer 0 3 2/pause 3000/faceDirection farmer 3/pause 500/faceDirection farmer 1/pause 500/faceDirection farmer 3/pause 500/faceDirection farmer 2/pause 1000/emote farmer 40/pause 3000/warp Marlon 12 29/move Marlon 0 7 2/faceDirection farmer 0/speak Marlon \"Sorry for the wait. Damn legs ain't what they used to be.\"/move Marlon 0 2 2/move Marlon 1 0 2/move Marlon 0 1 3/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/faceDirection farmer 1/pause 200/faceDirection farmer 2/faceDirection Marlon 2/pause 2000/speak Marlon \"Nice view...\"/pause 5000/speak Marlon \"Was there something you wanted to talk about?\"/question null \"#Me? What? No. I thought you did.#Didn’t you ask me here?#Um. Nothing in particular... You?\"/pause 2000/faceDirection Marlon 3/pause 500/faceDirection Marlon 2/pause 2000/speak Marlon \"You didn’t invite me here?\"/question null \"#Nope.#Hm. Maybe I did and forgot?\" pause 2000/speak Marlon \"That son of a - \"/pause 200/faceDirection farmer 1/pause 300/emote farmer 8/pause 500/speak Marlon \"Gil! He told me you wanted to see me. Bet he told you the same, hm?#$b#That meddling bastard. I’ll wring his hairy neck.\"/pause 200/move Marlon 0 -2 0/faceDirection farmer 0/pause 500/faceDirection Marlon 2/pause 2000/speak Marlon \"S'pose that can wait, though... he ain’t worth the hike back up.\"/pause 500/move Marlon 0 2 2/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/positionOffset Marlon 0 2/pause 10/faceDirection farmer 2/pause 2000/faceDirection Marlon 3/pause 200/faceDirection Marlon 2/pause 200/faceDirection farmer 1/pause 200/faceDirection farmer 2/pause 1000/faceDirection Marlon 3/pause 200/faceDirection Marlon 2/speak Marlon \"Listen, @. There was something I wanted to talk about...\"/pause 3000/speak Marlon \"I been thinking a lot lately. About us, I mean.#$b#About you.#$b#Thing is, @... I’m an old man. You got no business hanging around me when there're plenty of handsome young fellas in town just waiting for you to throw them a bone.\"/pause 2000/speak Marlon \"If I was a better man I’d send you off. You’d spend some time with other men and see I ain’t worth your time...\"/pause 3000/speak Marlon \"But I ain’t that man.\"/pause 500/faceDirection Marlon 2/faceDirection farmer 1/faceDirection Marlon 3/pause 500/speak Marlon \"You are an incredible man, @.^You are an incredible woman, @.#$b#And I don’t know what I’d be doing without you.\"/speak Marlon \"$q 77751 null#What should I do?#$r 770 0 Event_Beach1#(kiss him)#$r 771 0 Event_Beach2#(say nothing)\"/fork 771 BeachKiss/playMusic musicboxsong/pause 2000/animate farmer false true 100 101/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/showFrame Marlon 21/pause 800/showFrame Marlon 0/pause 800/showFrame Marlon 42/pause 3000/stopAnimation farmer/showFrame Marlon 12/positionOffset Marlon 2 0/pause 50/positionOffset Marlon 2 0/pause 50/positionOffset Marlon 2 0/pause 3000/speak Marlon \"Well.$l#$b#Hell.$l\"/pause 2000/speak Marlon \"Yobdamn.$l\"/pause 3000/showFrame Marlon 42/positionOffset Marlon -2 0/pause 10/positionOffset Marlon -2 0/pause 10/positionOffset Marlon -2 0/animate farmer false true 100 101/pause 1000/specificTemporarySprite heart 13 38/pause 3000/globalFade/viewport -1000 -1000/{{Gil500}}end warpOut",
+				"BeachKiss" : "pause 1000/speak Marlon \"$q 77752 null#What I’m trying to say is, I think this old man has fallen in love with you, @.#$r 773 0 Event_Beach3#I feel the same about you.#$r 774 -500 Event_Beach4#Oh. Uh... Well. This is awkward.\"/fork 774 NoKiss/pause 500/emote Marlon 12/pause 500/faceDirection Marlon 2/pause 1000/faceDirection Marlon 3/pause 500/speak Marlon \"Damn it all, don’t give me that look.\"/pause 500/faceDirection Marlon 2/pause 200/faceDirection Marlon 3/pause 200/speak Marlon \"Damn it.\"/pause 100/playMusic musicboxsong/pause 2000/showFrame Marlon 42/positionOffset Marlon -2 0/pause 10/positionOffset Marlon -2 0/pause 10/positionOffset Marlon -2 0/pause 10/positionOffset Marlon -2 0/pause 10/positionOffset Marlon -2 0/pause 10/animate farmer false true 100 101/pause 1000/pause 2000/stopAnimation farmer/showFrame Marlon 12/positionOffset Marlon 2 0/pause 50/positionOffset Marlon 2 0/pause 50/positionOffset Marlon 2 0/pause 500/emote farmer 20/pause 500/speak Marlon \"Now you’re stuck with me. Ain’t no one but yourself to blame for that.\"/pause 1000/showFrame Marlon 42/positionOffset Marlon -2 0/pause 10/positionOffset Marlon -2 0/pause 10/positionOffset Marlon -2 0/pause 10/animate farmer false true 100 101/pause 1000/specificTemporarySprite heart 13 38/pause 3000/globalFade/viewport -1000 -1000/{{Gil500}}end warpOut",
+				"NoKiss" : "pause 1000/speak Marlon \"And this’d be what happens when Gil meddles in my business.\"/pause 1000/speak Marlon \"For some reason I was thinking...\"/pause 1000/speak Marlon \"Never mind.\"/pause 1000/faceDirection Marlon 0/pause 200/speak Marlon \"See you around, @.\"/move Marlon 0 -1 0/move Marlon -1 0 3/faceDirection farmer 0/move Marlon 0 -9 0/globalFade/viewport -1000 -1000/{{Gil-500}}end warpOut",
+
+            	}
+        },
+
+		//Marlon 14-Heart Event
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/FarmHouse",
+		"Entries": {
+			"7018007/f Marlon 3500/O Marlon/t 2200 2600/L" : "nightTime/24 13/farmer 12 19 0 Marlon 29 13 2/skippable/makeInvisible 12 18 14 1/makeInvisible 25 13 1 6/makeInvisible 26 13/positionOffset Marlon 0 -4/showFrame Marlon 23/playSound doorClose/move farmer 0 -1 0/move farmer 8 0 1/move farmer 5 0 1/textAboveHead Marlon \" No...\"/pause 500/faceDirection farmer 0/emote farmer 8/pause 500/showFrame Marlon 26/pause 1000/showFrame Marlon 12/move farmer 0 -5 0/speak Marlon \"Stay back, @.$u\"/faceDirection farmer 1/pause 1000/emote farmer 8/pause 500/showFrame Marlon 23/pause 500/showFrame Marlon 26/pause 500/showFrame Marlon 23/pause 500/showFrame Marlon 12/pause 500/showFrame Marlon 23/pause 500/move farmer 3 0 1/pause 200/speak Marlon \"@!$u\"/pause 1000/emote farmer 16/pause 500/textAboveHead Marlon \"NOO!!!!\"/pause 1000/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 200/showFrame Marlon 0/jump Marlon/pause 200/faceDirection Marlon 3/pause 500/playMusic desolate/pause 2000/speak Marlon \"@...\"/pause 2000/speak Marlon \"Oh Yoba, @...$s\"/pause 200/shake Marlon 5000/pause 500/emote farmer 60/pause 500/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 50/positionOffset Marlon -2 0/pause 50/positionOffset Marlon -2 0/pause 50/positionOffset Marlon -2 0/pause 50/positionOffset Marlon -2 0/pause 2000/speak Marlon \"It happened again.$s#$b#Except it was you instead of Fin.$s\"/pause 1000/emote farmer 60/pause 1000/speak Marlon \"Ain’t the first time.$s#$b#I dream it all the time.$s\"/pause 1000/speak Marlon \"Dream you don’t come back from the mines.$s#$b#Dream I go after and just find your body, so broken no one can put you back together again.$s#$b#Dream I’m standing right by, but can’t move, can’t do nothing.$s#$b#Dream I gotta watch you torn to bits in front of me cause I can’t look away.$s\"/pause 200/shake Marlon 4000/pause 500/emote farmer 60/pause 1500/speak Marlon \"Damn...\"/pause 200/positionOffset Marlon 2 0/positionOffset Marlon 2 0/faceDirection Marlon 1/pause 500/speak Marlon \"Sorry. Didn’t mean to go to pieces on you.\"/pause 500/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 200/emote farmer 20/pause 200/faceDirection Marlon 3/pause 500/speak Marlon  \"Look. @. I know it might not seem like it when I’m falling apart on you every other day. But you’ve worked miracles for this old man.$l#$b#Dunno where I’d be without you.$l#$b#I know sometimes I wake up and need to hear your voice tell me it’s all inside my head.$s#$b#And sometimes I can’t stand to have you out of my sight. Cause the thought of losing you breaks me up inside.$s#$b#But that’s all because you put some purpose back into this old life. That didn’t used to be there, before you came to town.$l#$b#I know now that you ain’t gonna let me down. I know you’re never gonna leave me. But I can’t help my mind doing what it does.$l\"/pause 500/speak Marlon  \"And I still can’t get my head around all this love you give me.$l#$b#So just bear with me.$l\"/pause 100/emote farmer 20/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/animate farmer false true 100 101/pause 50/showFrame Marlon 42/pause 3000/stopAnimation farmer/showFrame Marlon 12/pause 3000/speak Marlon \"Mmh.$l#$b#You coming to bed?$l\"/pause 500/emote farmer 32/pause 500/speak Marlon  \"Good. I don’t sleep so well without you here.$l\"/pause 500/positionOffset Marlon -2 0/positionOffset Marlon -2 0/pause 500/showFrame Marlon 26/pause 2000/emote Marlon 24/pause 1000/emote farmer 20/pause 1000/globalFade/viewport -1000 -1000/end",
+			},
+		},
+		
+// E V E N T S   X N B   L O A D S
+		{
+	 	"Action": "Load",
+	 	"Target": "Data/Events/AdventureGuild",
+		"FromFile": "assets/AdventureGuild.json"
+		},
+
+
+// M A I L
+		{
+		"Action": "EditData",
+		"Target":"Data/Mail",
+		"Entries":{
+			"guildQuest": "Looks like I was right. You just can't keep your nose out of trouble, can you? You want to make something of yourself, kill ten of those slimes down there. Then we'll talk.^^   -Marlon%item quest 15 true %%[#]Quest To Slay Slimes",
+			"beachInvite":  "Meet me at the beach. Sunset. %item object 595 1 %%[#]A Mysterious Invitation",
+			"passedOut4": "@, ^^Found you face-down in the mud during my 3:00 AM sweep.^^You're damn lucky I did. Next time someone else'll find you. So don't let there be a next time.^^     -Marlon[#]Note From Marlon",
+			"MarlonRecovery": "Dear stupid reckless farmer,^Found your damn item.^^If you can't keep your nose above water, you shouldn't be poking it around in the mines. I've warned you before. You'll get yourself killed.^   -Marlon%item itemRecovery %%[#]Marlon Found Your Item",
+			}
+		},
+		
+// F E S T I V A L    D I A L O G U E
+	// EGG FESTIVAL
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {
+        	"Hearts:Marlon": "2, 3"
+			},
+        "Entries": {
+        	"Marlon": "Well look who it is. Come to show up the kiddies in the great egg hunt?",
+        	"Marlon_y2": "Well look who it is. Come to show up the kiddies in the great egg hunt?"
+          	}
+       	},
+       	
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {
+        	"Hearts:Marlon": "4, 5"
+			},
+        "Entries": {
+        	"Marlon": "Eggs are a good source of protein.#$b#Get your body fueled good and proper and you'll never have to worry about it giving out on you. Remember that, @.#$e#Unless a damn skeleton sneaks up on you and hacks your legs out from under you.#$b#But that's a story for another time.",
+        	"Marlon_y2": "Eggs are a good source of protein.#$b#Get your body fueled good and proper and you'll never have to worry about it giving out on you. Remember that, @.#$e#Unless a damn skeleton sneaks up on you and hacks your legs out from under you.#$b#But that's a story for another time."
+          	}
+       	},
+       	
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {
+        	"Hearts:Marlon": "6, 7, 8"
+			},
+        "Entries": {
+        	"Marlon": "The hunt is on. If I was a younger man, I'd show all you kids how it's done.",
+        	"Marlon_y2": "The hunt is on. If I was a younger man, I'd show all you kids how it's done."
+          	}
+       	},
+       	
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {
+        	"Relationship:Marlon": "Dating"
+			},
+        "Entries": {
+        	"Marlon": "@.#$b#You look lovely, dressed for spring. The picture of youth itself.$l",
+        	"Marlon_y2": "@.#$b#You look lovely, dressed for spring. The picture of youth itself.$l"
+          	}
+       	},
+       	
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {
+        	"Relationship:Marlon": "Married"
+			},
+        "Entries": {
+        	"Marlon": "When I was just a lad, this used to be my favorite festival. Now I'm too old for all this running about hunting down eggs.#$e#Win me a prize, love.",
+        	"Marlon_y2": "When I was just a lad, this used to be my favorite festival. Now I'm too old for all this running about hunting down eggs.#$e#Win me a prize, love."
+          	}
+       	},
+       	
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {
+        	"Relationship:Marlon": "Divorced"
+			},
+        "Entries": {
+        	"Marlon": "Ain't got nothing to say to you.$a",
+        	"Marlon_y2": "Ain't got nothing to say to you.$a"
+          	}
+       	},
+
+	// FLOWER FESTIVAL
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+        	"Hearts:Marlon": "2, 3"
+			},
+        "Entries": {
+        	"Marlon": "Used to be dancing meant something. But this one's all fluff and nothing real to back it up.",
+        	"Marlon_y2": "Used to be dancing meant something. But this one's all fluff and nothing real to back it up."
+          	}
+       	},
+       	
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+        	"Hearts:Marlon": "4, 5"
+			},
+        "Entries": {
+        	"Marlon": "Yeah, I know the steps. Learned them way back, before even your granddad was around these parts.#$b#Doesn't mean I like it. Makes my knee ache something awful.",
+        	"Marlon_y2": "Yeah, I know the steps. Learned them way back, before even your granddad was around these parts.#$b#Doesn't mean I like it. Makes my knee ache something awful."
+          	}
+       	},
+       	
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+        	"Hearts:Marlon": "6, 7, 8"
+			},
+        "Entries": {
+        	"Marlon": "I'd prefer a waltz. And not just because the bobbing up and down in this one does a number on my bad leg.#$b#A man's gotta have some dignity.",
+        	"Marlon_y2": "I'd prefer a waltz. And not just because the bobbing up and down in this one does a number on my bad leg.#$b#A man's gotta have some dignity."
+          	}
+       	},
+       	
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+        	"Relationship:Marlon": "Dating"
+			},
+        "Entries": {
+        	"Marlon": "Something about spring makes me feel younger. The bees are buzzing, the flowers are blooming, the eggs are hatching. Makes an old man feel like a spring chicken again.#$b#Or maybe it's just you.$l",
+        	"Marlon_y2": "Something about spring makes me feel younger. The bees are buzzing, the flowers are blooming, the eggs are hatching. Makes an old man feel like a spring chicken again.#$b#Or maybe it's just you.$l"
+          	}
+       	},
+       	
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+        	"Relationship:Marlon": "Married"
+			},
+        "Entries": {
+        	"Marlon": "I plucked this flower for you. It'll look sweet in your hair.#$b#Shall we dance, gorgeous?$l",
+        	"Marlon_y2": "I plucked this flower for you. It'll look sweet in your hair.#$b#Shall we dance, gorgeous?$l"
+        	}
+       	},
+		
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+      	"When": {
+        	"Relationship:Marlon": "Divorced"
+			},
+        "Entries": {
+        	"Marlon": "Don't even think about asking for a dance.$a",
+        	"Marlon_y2": "Don't even think about asking for a dance.$a"
+          	}
+       	},
+
+	// SUMMER LUAU
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {
+        	"Hearts:Marlon": "2, 3"
+			},
+        "Entries": {
+        	"Marlon": "You know what goes in that soup?#$b#Me neither. I'd steer clear, if I were you.",
+        	"Marlon_y2": "You know what goes in that soup?#$b#Me neither. I'd steer clear, if I were you."
+          	}
+       	},
+		
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer11",
+          	"When": {
+           		 "Hearts:Marlon": "4, 5"
+			},
+          	"Entries": {
+             		"Marlon": "The summer sun's broiling, even on the beach. I'd take the mines over this any day of the week.#$b#Not to mention all these people. Ugh.$a",
+        	"Marlon_y2": "The summer sun's broiling, even on the beach. I'd take the mines over this any day of the week.#$b#Not to mention all these people. Ugh.$a"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer11",
+          	"When": {
+           		 "Hearts:Marlon": "6, 7, 8"
+			},
+          	"Entries": {
+             		"Marlon": "@. Come to keep an old man company in the middle of this mess?#$b#No need. You run along and have your fun. I'll be over here where it's a little cooler. And quieter.",
+        	"Marlon_y2": "@. Come to keep an old man company in the middle of this mess?#$b#No need. You run along and have your fun. I'll be over here where it's a little cooler. And quieter."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer11",
+          	"When": {
+           		 "Relationship:Marlon": "Dating"
+			},
+          	"Entries": {
+             		"Marlon": "@.#$b#You're looking lovely in the summer sun. Where others sweat, you simply glow.$l",
+        	"Marlon_y2": "@.#$b#You're looking lovely in the summer sun. Where others sweat, you simply glow.$l"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer11",
+          	"When": {
+           		 "Relationship:Marlon": "Married"
+			},
+          	"Entries": {
+             		"Marlon": "Maybe once all this excitement dies down, we could take a dip in the ocean together. To cool off.#$e#Or heat up.$l",
+        	"Marlon_y2": "Maybe once all this excitement dies down, we could take a dip in the ocean together. To cool off.#$e#Or heat up.$l"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer11",
+          	"When": {
+           		 "Relationship:Marlon": "Divorced"
+			},
+          	"Entries": {
+             	"Marlon": "Get your damn face out of my view.$a",
+        		"Marlon_y2": "Get your damn face out of my view.$a"
+          		}
+       		},
+
+	// MOONLIGHT JELLIES
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer28",
+          	"Entries": {
+             	"Marlon": "Keep your eyes peeled {{kid_or_nothing}}.",
+        		"Marlon_y2": "Keep your eyes peeled {{kid_or_nothing}}."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer28",
+          	"When": {
+           		 "Hearts:Marlon": "2, 3"
+			},
+          	"Entries": {
+             	"Marlon": "I've seen monsters that glow in the dark. Never a good sign, but I'll take them over the ones that don't any day of the week.",
+        		"Marlon_y2": "I've seen monsters that glow in the dark. Never a good sign, but I'll take them over the ones that don't any day of the week."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer28",
+          	"When": {
+           		 "Hearts:Marlon": "4, 5"
+			},
+          	"Entries": {
+             	"Marlon": "Rasmodius can tell you more about these things than all the villagers combined.#$b#He's worth a talk if you've got an open mind.",
+        		"Marlon_y2": "Rasmodius can tell you more about these things than all the villagers combined.#$b#He's worth a talk if you've got an open mind."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer28",
+          	"When": {
+           		 "Hearts:Marlon": "6, 7, 8"
+			},
+          	"Entries": {
+             	"Marlon": "I've seen too many dark things crawl out of the depths to get too close. I'll keep my feet on dry land, if you don't mind.#$e#I'd suggest you do the same.",
+        		"Marlon_y2": "I've seen too many dark things crawl out of the depths to get too close. I'll keep my feet on dry land, if you don't mind.#$e#I'd suggest you do the same."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer28",
+          	"When": {
+           		 "Relationship:Marlon": "Dating"
+			},
+          	"Entries": {
+             	"Marlon": "Used to think it was just a damn eerie sight, everything all lit with blue from the water.#$b#But you look enchanting in blue.$l",
+        		"Marlon_y2": "Used to think it was just a damn eerie sight, everything all lit with blue from the water.#$b#But you look enchanting in blue.$l"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer28",
+          	"When": {
+           		 "Relationship:Marlon": "Married"
+			},
+          	"Entries": {
+             	"Marlon": "Stand closer, @. There's a chill in the air.#$b#I'll keep your warm.$l#$e#But I'll want your shoulder for the walk back. The weather's bringing out the ache in my knee.",
+        		"Marlon_y2": "Stand closer, @. There's a chill in the air.#$b#I'll keep your warm.$l#$e#But I'll want your shoulder for the walk back. The weather's bringing out the ache in my knee."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/summer28",
+          	"When": {
+           		 "Relationship:Marlon": "Divorced"
+			},
+          	"Entries": {
+             	"Marlon": "Hmph.$a",
+        		"Marlon_y2": "Hmph.$a"
+          		}
+       		},
+
+	// STARDEW VALLEY FAIR
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall16",
+          	"When": {
+           		 "Hearts:Marlon": "2, 3"
+			},
+          	"Entries": {
+             	"Marlon": "I've got my eye on a prize blade from Clint's collection.#$b#Going to take all year to pay that off.",
+        		"Marlon_y2": "I've got my eye on a prize blade from Clint's collection.#$b#Going to take all year to pay that off."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall16",
+          	"When": {
+           		 "Hearts:Marlon": "4, 5"
+			},
+          	"Entries": {
+             	"Marlon": "Got your display all set up, @?#$b#Good. Come take a look at this blade. Maybe you can convince Clint to shave a few gold off the price tag.",
+        		"Marlon_y2": "Got your display all set up, @?#$b#Good. Come take a look at this blade. Maybe you can convince Clint to shave a few gold off the price tag."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall16",
+          	"When": {
+           		 "Hearts:Marlon": "6, 7, 8"
+			},
+          	"Entries": {
+             	"Marlon": "Too many people about.#$b#Usually the townsfolk'll leave me alone if I snarl at them. The damn tourists don't have enough sense, though.$a",
+        		"Marlon_y2": "Too many people about.#$b#Usually the townsfolk'll leave me alone if I snarl at them. The damn tourists don't have enough sense, though.$a"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall16",
+          	"When": {
+           		 "Relationship:Marlon": "Dating"
+			},
+          	"Entries": {
+             	"Marlon": "@. Looking lovely, as usual.$l#$e#Put together a display this year? You'll knock these villagers out of the water, guaranteed.",
+        		"Marlon_y2": "@. Looking lovely, as usual.$l#$e#Put together a display this year? You'll knock these villagers out of the water, guaranteed."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall16",
+          	"When": {
+           		 "Relationship:Marlon": "Married"
+			},
+          	"Entries": {
+             	"Marlon": "@. I was just looking for you.#$b#Um.#$b#We can fit a new sword into the budget, right?#$e#What do you mean I'll never use it? A man can dream, can't he?!",
+        		"Marlon_y2": "@. I was just looking for you.#$b#Um.#$b#We can fit a new sword into the budget, right?#$e#What do you mean I'll never use it? A man can dream, can't he?!"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall16",
+          	"When": {
+           		 "Relationship:Marlon": "Divorced"
+			},
+          	"Entries": {
+             	"Marlon": "Something you want to say to me?$a",
+        		"Marlon_y2": "Something you want to say to me?$a"
+          		}
+       		},
+
+	// SPIRIT'S EVE
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall27",
+          	"When": {
+           		 "Hearts:Marlon": "2, 3"
+			},
+          	"Entries": {
+             	"Marlon": "You seen one of these things in person before {{kid_or_nothing}}?#$b#You delve deep enough in the mines and you'll find them. Mark my words.",
+        		"Marlon_y2": "You seen one of these things in person before {{kid_or_nothing}}?#$b#You delve deep enough in the mines and you'll find them. Mark my words."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall27",
+          	"When": {
+           		 "Hearts:Marlon": "4, 5"
+			},
+          	"Entries": {
+             	"Marlon": "This year's skeletons are feisty ones. I ain't worried about you, but keep an eye on those town kids.#$b#Don't want any fingers chomped off.",
+        		"Marlon_y2": "This year's skeletons are feisty ones. I ain't worried about you, but keep an eye on those town kids.#$b#Don't want any fingers chomped off."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall27",
+          	"When": {
+           		 "Hearts:Marlon": "6, 7, 8"
+			},
+          	"Entries": {
+             	"Marlon": "Damn fool kids think it's just a trick. 'How are they moving?' Ugh.$a#$b#Told you. They got no idea what's right underneath their feet.$a",
+        		"Marlon_y2": "Damn fool kids think it's just a trick. 'How are they moving?' Ugh.$a#$b#Told you. They got no idea what's right underneath their feet.$a"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall27",
+          	"When": {
+           		 "Relationship:Marlon": "Dating"
+			},
+          	"Entries": {
+             	"Marlon": "There's a fear of the unknown that sets all your senses on edge. The air's all sharp with it, this time of year.#$b#It's the same feeling what keeps us diving back into the mines and hunting for adventure. Danger. Darkness. Excitement.#$e#Not all that different from the feeling I get lookin' at you.$l",
+        		"Marlon_y2": "There's a fear of the unknown that sets all your senses on edge. The air's all sharp with it, this time of year.#$b#It's the same feeling what keeps us diving back into the mines and hunting for adventure. Danger. Darkness. Excitement.#$e#Not all that different from the feeling I get lookin' at you.$l"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall27",
+          	"When": {
+           		 "Relationship:Marlon": "Married"
+			},
+          	"Entries": {
+             	"Marlon": "This festival is electric with unknown excitement.#$b#Or maybe that's just what I always feel when you're around.$l",
+        		"Marlon_y2": "This festival is electric with unknown excitement.#$b#Or maybe that's just what I always feel when you're around.$l"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall27",
+          	"When": {
+           		 "Relationship:Marlon": "Divorced"
+			},
+          	"Entries": {
+             	"Marlon": "You wanna see something neat? Put your head between these bars here.$a",
+        		"Marlon_y2": "You wanna see something neat? Put your head between these bars here.$a"
+          		}
+       		},
+
+	// ICE FESTIVAL
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter8",
+          	"Entries": {
+             	"Marlon": "It's too damn cold out here. Should have taken a leaf out of Gil's book and stayed in by the fire.",
+        		"Marlon_y2": "It's too damn cold out here. Should have taken a leaf out of Gil's book and stayed in by the fire."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter8",
+          	"When": {
+           		 "Hearts:Marlon": "2, 3"
+			},
+          	"Entries": {
+             	"Marlon": "Fish. Bah. Keep an eye on that forest {{kid_or_nothing}}. You never know what might wander out.",
+        		"Marlon_y2": "Fish. Bah. Keep an eye on that forest {{kid_or_nothing}}. You never know what might wander out."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter8",
+          	"When": {
+           		 "Hearts:Marlon": "4, 5"
+			},
+          	"Entries": {
+             	"Marlon": "Fell into a frozen lake, once. Nearly lost both my feet.#$b#I'll stay over here with both my feet on solid ground, if it's all the same to you.",
+        		"Marlon_y2": "Fell into a frozen lake, once. Nearly lost both my feet.#$b#I'll stay over here with both my feet on solid ground, if it's all the same to you."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter8",
+          	"When": {
+           		 "Hearts:Marlon": "6, 7, 8"
+			},
+          	"Entries": {
+             	"Marlon": "Going fishing today, @?#$b#Good. It'll be over quick when you win, and I can go back in where it's warm.",
+        		"Marlon_y2": "Going fishing today, @?#$b#Good. It'll be over quick when you win, and I can go back in where it's warm."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter8",
+          	"When": {
+           		 "Relationship:Marlon": "Dating"
+			},
+          	"Entries": {
+             	"Marlon": "How do you manage to look so sweet when it's so damn cold out here?$l#$b#You make everything look so natural. Handsome.$l^You make everything look so natural. Beautiful.$l",
+        		"Marlon_y2": "How do you manage to look so sweet when it's so damn cold out here?$l#$b#You make everything look so natural. Handsome.$l^You make everything look so natural. Beautiful.$l"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter8",
+          	"When": {
+           		 "Relationship:Marlon": "Married"
+			},
+          	"Entries": {
+             	"Marlon": "Urg. I shouldn't be out in this damn cold. My knee feels like it'll snap every time I bend it.#$e#Well I wasn't going to miss you beating these provincials in the fishing contest, was I?$a",
+        		"Marlon_y2": "Urg. I shouldn't be out in this damn cold. My knee feels like it'll snap every time I bend it.#$e#Well I wasn't going to miss you beating these provincials in the fishing contest, was I?$a"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter8",
+          	"When": {
+           		 "Relationship:Marlon": "Divorced"
+			},
+          	"Entries": {
+             	"Marlon": "Don't stand too close to the river. You might fall in.",
+        		"Marlon_y2": "Don't stand too close to the river. You might fall in."
+          		}
+       		},
+
+	// FEAST OF THE WINTER STAR
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter25",
+          	"Entries": {
+             	"Marlon": "Gunther'll talk your ear off about holiday history, if you let him.#$b#Take a leaf out of Gil's book and pretend like you've fallen asleep.",
+        		"Marlon_y2": "Gunther'll talk your ear off about holiday history, if you let him.#$b#Take a leaf out of Gil's book and pretend like you've fallen asleep."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter25",
+          	"When": {
+           		 "Hearts:Marlon": "2, 3"
+			},
+          	"Entries": {
+             	"Marlon": "I once opened a box with a bomb inside. Nearly lost a hand.#$b#Mind your fingers when you open your presents, that's all I'm saying.#$e#Especially if they came from Gil.",
+        		"Marlon_y2": "I once opened a box with a bomb inside. Nearly lost a hand.#$b#Mind your fingers when you open your presents, that's all I'm saying.#$e#Especially if they came from Gil."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter25",
+          	"When": {
+           		 "Hearts:Marlon": "4, 5"
+			},
+          	"Entries": {
+             	"Marlon": "Everyone's always giving me wool socks and knitted caps.#$b#Do I look like an invalid? All I want is another damn sword.$a",
+        		"Marlon_y2": "Everyone's always giving me wool socks and knitted caps.#$b#Do I look like an invalid? All I want is another damn sword.$a"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter25",
+          	"When": {
+           		 "Hearts:Marlon": "6, 7, 8"
+			},
+          	"Entries": {
+             	"Marlon": "Gil got me a nice set of sharpening stones and some oil for my blades.#$b#I feel a little bad about that egg I hid under his bed now.#$e#But only a little bit.",
+        		"Marlon_y2": "Gil got me a nice set of sharpening stones and some oil for my blades.#$b#I feel a little bad about that egg I hid under his bed now.#$e#But only a little bit."
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter25",
+          	"When": {
+           		 "Relationship:Marlon": "Dating"
+			},
+          	"Entries": {
+             	"Marlon": "Stand a little closer, @.#$b#This cold is making all my old scars ache, but the pain goes away when you're near.$l",
+        		"Marlon_y2": "Stand a little closer, @.#$b#This cold is making all my old scars ache, but the pain goes away when you're near.$l"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter25",
+          	"When": {
+           		 "Relationship:Marlon": "Married"
+			},
+          	"Entries": {
+             	"Marlon": "Guess we should be giving thanks and all that.#$b#I give thanks every day that you found something worth loving in this old man.$l",
+        		"Marlon_y2": "Guess we should be giving thanks and all that.#$b#I give thanks every day that you found something worth loving in this old man.$l"
+          		}
+       		},
+		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/winter25",
+          	"When": {
+           		 "Relationship:Marlon": "Divorced"
+			},
+          	"Entries": {
+             	"Marlon": "Bah. Humbug.$a",
+        		"Marlon_y2": "Bah. Humbug.$a"
+          		}
+       		},
+
+// A N I M A T I O N S
+
+		{
+      	"Action": "EditData",
+      	"Target": "Data/animationDescriptions",
+      	"Entries": {
+			"marlon_spar": "12/24 24 24 24 24 24 25 25 25/12",
+			"marlon_sleep": "23/23/23",
+			}
+		},
+	 
+// F E S T I V A L   L O C A T I O N S
+
+	// Egg Festival
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": {"IsEvenYear": false},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 41 57 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 35 62 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": {"IsEvenYear": true},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 17 73 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 23 61 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	// Flower Festival
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": {"IsEvenYear": false},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 22 21 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 21 21 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": {"IsEvenYear": true},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 2 41 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 22 20 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	// Luau
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": {"IsEvenYear": false},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 54 7 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 54 7 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": {"IsEvenYear": true},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 53 7 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 20 4 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+
+	//Moonlight Jellies
+	{ 
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "When": {"IsEvenYear": false},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 90 4 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 90 4 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{ 
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "When": {"IsEvenYear": true},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 70 5 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 70 5 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	//Stardew Valley Fair
+	{ 
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "When": {"IsEvenYear": false},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 35 77 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{ 
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "When": {"IsEvenYear": true},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 20 77 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	//Spirit's Eve
+	{ 
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "When": {"IsEvenYear": false},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 28 57 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{ 
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "When": {"IsEvenYear": true},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 22 62 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	//Ice Festival
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "When": {"IsEvenYear": false},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 57 53 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 70 42 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "When": {"IsEvenYear": true},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 44 15 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Marlon 75 50 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	//Feast of the Winter Star
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "When": {"IsEvenYear": false},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 37 56 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "When": {"IsEvenYear": true},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Marlon 34 56 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+
+
+]
+}

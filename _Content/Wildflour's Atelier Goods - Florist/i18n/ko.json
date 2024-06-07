@@ -1,0 +1,717 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+    "atelierfloral_FlowerStation.name": "꽃 작업대",
+	"atelierfloral_FlowerStation.description": "꽃 5송이로 꽃다발을 만들 수 있습니다.",
+
+    "atelierfloral_FragranceStation.name":"향수 기계",
+    "atelierfloral_FragranceStation.description":"꽃으로 향수를 만들거나, 말린 꽃으로 인센스 스틱을 만들 수 있습니다.",
+
+    "atelierfloral_CandleStation.name": "밀랍 솥",
+	"atelierfloral_CandleStation.description": "꽃으로 비누를, 혹은 말린 꽃으로 향초를 만듭니다. 벌집이 필요합니다.",
+
+///////////////////////
+// GENERIC ITEMS NEW //
+///////////////////////
+
+    "atelierfloral_dried_flowers.name": "말린 꽃",
+    "atelierfloral_dried_flowers.description": "보관하기 좋은 말린 꽃.",
+
+    "atelierfloral_flower_bouquet.name": "꽃다발",
+    "atelierfloral_flower_bouquet.description": "꽃으로 만든 아름다운 꽃다발.",
+
+    "atelierfloral_flower_perfume.name": "향수",
+    "atelierfloral_flower_perfume.description": "신선한 꽃으로 만든 향수.",
+
+    "atelierfloral_flower_soap.name": "비누",
+    "atelierfloral_flower_soap.description": "꽃과 벌집으로 만든 비누",
+
+    "atelierfloral_flower_candles.name": "향초",
+    "atelierfloral_flower_candles.description": "말린 꽃향기를 담아낸 수제 향초.",
+
+    "atelierfloral_flower_incense.name": "인센스 스틱",
+    "atelierfloral_flower_incense.description": "말린 꽃으로 만든 향. 불에 태워서 씁니다.",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierfloral_dried_flowers": "건조한 {0}",
+"atelierfloral_flower_bouquet": "{0} 꽃다발",
+"atelierfloral_flower_perfume": "{0} 향수",
+"atelierfloral_flower_soap": "{0} 비누",
+"atelierfloral_flower_candles": "{0} 향초",
+"atelierfloral_flower_incense": "{0} 향",
+
+//////////////////////////////
+// MODDED SUPPORT ITEMS NEW //
+//////////////////////////////
+
+"atelierfloral_dried_gardenias.name": "말린 치자꽃",
+"atelierfloral_dried_gardenias.description": "보관하기 좋은 말린 치자꽃.",
+
+"atelierfloral_gardenia_bouquet.name": "치자꽃다발",
+"atelierfloral_gardenia_bouquet.description": "치자꽃으로 만든 아름다운 꽃다발.",
+
+"atelierfloral_gardenia_perfume.name": "치자꽃 향수",
+"atelierfloral_gardenia_perfume.description": "신선한 치자꽃으로 만든 향수.",
+
+"atelierfloral_gardenia_soap.name": "치자꽃 비누",
+"atelierfloral_gardenia_soap.description": "치자꽃과 벌집으로 만든 비누",
+
+"atelierfloral_gardenia_candles.name": "치자꽃 향초",
+"atelierfloral_gardenia_candles.description": "말린 꽃향기를 담아낸 수제 향초.",
+
+"atelierfloral_gardenia_incense.name": "치자 인센스",
+"atelierfloral_gardenia_incense.description": "말린 치자꽃으로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_hibiscus.name": "말린 히비스커스",
+"atelierfloral_dried_hibiscus.description": "보관하기 좋은 말린 히비스커스.",
+
+"atelierfloral_hibiscus_bouquet.name": "히비스커스 꽃다발",
+"atelierfloral_hibiscus_bouquet.description": "히비스커스 꽃으로 만든 아름다운 꽃다발.",
+
+"atelierfloral_hibiscus_perfume.name": "히비스커스 향수",
+"atelierfloral_hibiscus_perfume.description": "신선한 히비스커스 꽃으로 만든 향수.",
+
+"atelierfloral_hibiscus_soap.name": "히비스커스 비누",
+"atelierfloral_hibiscus_soap.description": "히비스커스와 벌집으로 만든 비누",
+
+"atelierfloral_hibiscus_candles.name": "히비스커스 향초",
+"atelierfloral_hibiscus_candles.description": "말린 꽃향기를 담아낸 수제 향초.",
+
+"atelierfloral_hibiscus_incense.name": "히비스커스 인센스",
+"atelierfloral_hibiscus_incense.description": "말린 히비스커스로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_freesia.name": "말린 프리지아",
+"atelierfloral_dried_freesia.description": "보관하기 좋은 말린 프리지아.",
+
+"atelierfloral_freesia_bouquet.name": "프리지아 꽃다발",
+"atelierfloral_freesia_bouquet.description": "프리지아로 만든 아름다운 꽃다발.",
+
+"atelierfloral_freesia_perfume.name": "프리지아 향수",
+"atelierfloral_freesia_perfume.description": "신선한 프리지아로 만든 향수.",
+
+"atelierfloral_freesia_soap.name": "프리지아 비누",
+"atelierfloral_freesia_soap.description": "프리지아와 벌집으로 만든 비누",
+
+"atelierfloral_freesia_candles.name": "프리지아 향초",
+"atelierfloral_freesia_candles.description": "말린 프리지아 향기를 담아낸 수제 향초.",
+
+"atelierfloral_freesia_incense.name": "프리지아 인센스",
+"atelierfloral_freesia_incense.description": "말린 프리지아로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_peony.name": "말린 작약",
+"atelierfloral_dried_peony.description": "보관하기 좋은 말린 작약.",
+
+"atelierfloral_peony_bouquet.name": "작약 꽃다발",
+"atelierfloral_peony_bouquet.description": "작약으로 만든 아름다운 꽃다발.",
+
+"atelierfloral_peony_perfume.name": "작약 향수",
+"atelierfloral_peony_perfume.description": "신선한 작약으로 만든 향수.",
+
+"atelierfloral_peony_soap.name": "작약 비누",
+"atelierfloral_peony_soap.description": "작약과 벌집으로 만든 비누",
+
+"atelierfloral_peony_candles.name": "작약 향초",
+"atelierfloral_peony_candles.description": "말린 작약 향기를 담아낸 수제 향초.",
+
+"atelierfloral_peony_incense.name": "작약 인센스",
+"atelierfloral_peony_incense.description": "말린 작약으로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_snapdragon.name": "말린 금어초",
+"atelierfloral_dried_snapdragon.description": "보관하기 좋은 말린 꽃.",
+
+"atelierfloral_snapdragon_bouquet.name": "금어초 꽃다발",
+"atelierfloral_snapdragon_bouquet.description": "금어초로 만든 아름다운 꽃다발.",
+
+"atelierfloral_snapdragon_perfume.name": "금어초 향수",
+"atelierfloral_snapdragon_perfume.description": "신선한 금어초로 만든 향수.",
+
+"atelierfloral_snapdragon_soap.name": "금어초 비누",
+"atelierfloral_snapdragon_soap.description": "금어초 꽃과 벌집으로 만든 비누",
+
+"atelierfloral_snapdragon_candles.name": "금어초 향초",
+"atelierfloral_snapdragon_candles.description": "말린 금어초 향기를 담아낸 수제 향초.",
+
+"atelierfloral_snapdragon_incense.name": "금어초 인센스",
+"atelierfloral_snapdragon_incense.description": "말린 금어초로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_calendula.name": "말린 금잔화",
+"atelierfloral_dried_calendula.description": "보관하기 좋은 말린 꽃.",
+
+"atelierfloral_calendula_bouquet.name": "금잔화 꽃다발",
+"atelierfloral_calendula_bouquet.description": "금잔화로 만든 아름다운 꽃다발.",
+
+"atelierfloral_calendula_perfume.name": "금잔화 향수",
+"atelierfloral_calendula_perfume.description": "신선한 금잔화로 만든 향수.",
+
+"atelierfloral_calendula_soap.name": "금잔화 비누",
+"atelierfloral_calendula_soap.description": "금잔화 꽃과 벌집으로 만든 비누",
+
+"atelierfloral_calendula_candles.name": "금잔화 향초",
+"atelierfloral_calendula_candles.description": "말린 금잔화 향기를 담아낸 수제 향초.",
+
+"atelierfloral_calendula_incense.name": "금잔화 인센스",
+"atelierfloral_calendula_incense.description": "말린 금잔화로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_hollyhock.name": "말린 접시꽃",
+"atelierfloral_dried_hollyhock.description": "보관하기 좋은 말린 접시꽃.",
+
+"atelierfloral_hollyhock_bouquet.name": "접시꽃다발",
+"atelierfloral_hollyhock_bouquet.description": "접시꽃으로 만든 아름다운 꽃다발.",
+
+"atelierfloral_hollyhock_perfume.name": "접시꽃 향수",
+"atelierfloral_hollyhock_perfume.description": "신선한 접시꽃으로 만든 향수.",
+
+"atelierfloral_hollyhock_soap.name": "접시꽃 비누",
+"atelierfloral_hollyhock_soap.description": "접시꽃과 벌집으로 만든 비누",
+
+"atelierfloral_hollyhock_candles.name": "접시꽃 향초",
+"atelierfloral_hollyhock_candles.description": "말린 접시꽃 향기를 담아낸 수제 향초.",
+
+"atelierfloral_hollyhock_incense.name": "접시꽃 인센스",
+"atelierfloral_hollyhock_incense.description": "말린 접시꽃으로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_springpansy.name": "말린 팬지",
+"atelierfloral_dried_springpansy.description": "보관하기 좋은 말린 봄팬지꽃.",
+
+"atelierfloral_springpansy_bouquet.name": "봄팬지 꽃다발",
+"atelierfloral_springpansy_bouquet.description": "봄팬지 꽃으로 만든 아름다운 꽃다발.",
+
+"atelierfloral_springpansy_perfume.name": "봄팬지 향수",
+"atelierfloral_springpansy_perfume.description": "신선한 봄팬지로 만든 향수.",
+
+"atelierfloral_springpansy_soap.name": "봄팬지 비누",
+"atelierfloral_springpansy_soap.description": "봄팬지 꽃과 벌집으로 만든 비누",
+
+"atelierfloral_springpansy_candles.name": "봄팬지 향초",
+"atelierfloral_springpansy_candles.description": "말린 봄팬지 향기를 담아낸 수제 향초.",
+
+"atelierfloral_springpansy_incense.name": "봄팬지 인센스",
+"atelierfloral_springpansy_incense.description": "말린 봄팬지로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_cornflower.name": "말린 수레국화",
+"atelierfloral_dried_cornflower.description": "보관하기 좋은 말린 수레국화.",
+
+"atelierfloral_cornflower_bouquet.name": "수레국화 꽃다발",
+"atelierfloral_cornflower_bouquet.description": "수레국화로 만든 아름다운 꽃다발.",
+
+"atelierfloral_cornflower_perfume.name": "수레국화 향수",
+"atelierfloral_cornflower_perfume.description": "신선한 수레국화로 만든 향수.",
+
+"atelierfloral_cornflower_soap.name": "수레국화 비누",
+"atelierfloral_cornflower_soap.description": "수레국화 꽃과 벌집으로 만든 비누",
+
+"atelierfloral_cornflower_candles.name": "수레국화 향초",
+"atelierfloral_cornflower_candles.description": "말린 수레국화 향기를 담아낸 수제 향초.",
+
+"atelierfloral_cornflower_incense.name": "수레국화 인센스",
+"atelierfloral_cornflower_incense.description": "말린 수레국화로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_iris.name": "말린 붓꽃",
+"atelierfloral_dried_iris.description": "보관하기 좋은 말린 붓꽃.",
+
+"atelierfloral_iris_bouquet.name": "붓꽃다발",
+"atelierfloral_iris_bouquet.description": "붓꽃으로 만든 아름다운 꽃다발.",
+
+"atelierfloral_iris_perfume.name": "붓꽃 향수",
+"atelierfloral_iris_perfume.description": "신선한 붓꽃으로 만든 향수.",
+
+"atelierfloral_iris_soap.name": "붓꽃 비누",
+"atelierfloral_iris_soap.description": "붓꽃과 벌집으로 만든 비누",
+
+"atelierfloral_iris_candles.name": "붓꽃 향초",
+"atelierfloral_iris_candles.description": "말린 붓꽃 향기를 담아낸 수제 향초.",
+
+"atelierfloral_iris_incense.name": "붓꽃 인센스",
+"atelierfloral_iris_incense.description": "말린 붓꽃으로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_cosmos.name": "말린 코스모스",
+"atelierfloral_dried_cosmos.description": "보관하기 좋은 말린 코스모스.",
+
+"atelierfloral_cosmos_bouquet.name": "코스모스 꽃다발",
+"atelierfloral_cosmos_bouquet.description": "코스모스로 만든 아름다운 꽃다발.",
+
+"atelierfloral_cosmos_perfume.name": "코스모스 향수",
+"atelierfloral_cosmos_perfume.description": "신선한 코스모스로 만든 향수.",
+
+"atelierfloral_cosmos_soap.name": "코스모스 비누",
+"atelierfloral_cosmos_soap.description": "코스모스 꽃과 벌집으로 만든 비누",
+
+"atelierfloral_cosmos_candles.name": "코스모스 향초",
+"atelierfloral_cosmos_candles.description": "말린 코스모스 향기를 담아낸 수제 향초.",
+
+"atelierfloral_cosmos_incense.name": "코스모스 인센스",
+"atelierfloral_cosmos_incense.description": "말린 코스모스로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_primrose.name": "말린 앵초",
+"atelierfloral_dried_primrose.description": "보관하기 좋은 말린 앵초꽃.",
+
+"atelierfloral_primrose_bouquet.name": "앵초꽃다발",
+"atelierfloral_primrose_bouquet.description": "앵초꽃으로 만든 아름다운 꽃다발.",
+
+"atelierfloral_primrose_perfume.name": "앵초 향수",
+"atelierfloral_primrose_perfume.description": "신선한 앵초꽃으로 만든 향수.",
+
+"atelierfloral_primrose_soap.name": "앵초꽃 비누",
+"atelierfloral_primrose_soap.description": "앵초꽃과 벌집으로 만든 비누",
+
+"atelierfloral_primrose_candles.name": "앵초꽃 향초",
+"atelierfloral_primrose_candles.description": "말린 앵초 향기를 담아낸 수제 향초.",
+
+"atelierfloral_primrose_incense.name": "앵초꽃 인센스",
+"atelierfloral_primrose_incense.description": "말린 앵초로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_pixiebell.name": "말린 요정종꽃",
+"atelierfloral_dried_pixiebell.description": "보관하기 좋은 말린 요정종꽃.",
+
+"atelierfloral_pixiebell_bouquet.name": "요정종 부케",
+"atelierfloral_pixiebell_bouquet.description": "요정종꽃으로 만든 아름다운 꽃다발.",
+
+"atelierfloral_pixiebell_perfume.name": "요정종 향수",
+"atelierfloral_pixiebell_perfume.description": "신선한 요정종꽃으로 만든 향수.",
+
+"atelierfloral_pixiebell_soap.name": "요정종 비누",
+"atelierfloral_pixiebell_soap.description": "요정종꽃과 벌집으로 만든 비누",
+
+"atelierfloral_pixiebell_candles.name": "요정종 향초",
+"atelierfloral_pixiebell_candles.description": "말린 요정종꽃향기를 담아낸 수제 향초.",
+
+"atelierfloral_pixiebell_incense.name": "요정종 인센스",
+"atelierfloral_pixiebell_incense.description": "말린 요정종꽃으로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_pinkmorningglory.name": "말린 분홍나팔꽃",
+"atelierfloral_dried_pinkmorningglory.description": "보관하기 좋은 말린 분홍나팔꽃.",
+
+"atelierfloral_pinkmorningglory_bouquet.name": "분홍나팔꽃 꽃다발",
+"atelierfloral_pinkmorningglory_bouquet.description": "분홍나팔꽃으로 만든 아름다운 꽃다발.",
+
+"atelierfloral_pinkmorningglory_perfume.name": "분홍나팔꽃 향수",
+"atelierfloral_pinkmorningglory_perfume.description": "신선한 분홍나팔꽃으로 만든 향수.",
+
+"atelierfloral_pinkmorningglory_soap.name": "분홍나팔꽃 비누",
+"atelierfloral_pinkmorningglory_soap.description": "분홍나팔꽃과 벌집으로 만든 비누",
+
+"atelierfloral_pinkmorningglory_candles.name": "분홍나팔꽃 향초",
+"atelierfloral_pinkmorningglory_candles.description": "말린 분홍나팔꽃향기를 담아낸 수제 향초.",
+
+"atelierfloral_pinkmorningglory_incense.name": "분홍나팔꽃 인센스",
+"atelierfloral_pinkmorningglory_incense.description": "말린 분홍나팔꽃으로 만든 향. 불에 태워서 씁니다.",
+
+"atelierfloral_dried_sweetpea.name": "말린 스위트피",
+"atelierfloral_dried_sweetpea.description": "보관하기 좋은 말린 스위트피",
+
+"atelierfloral_sweetpea_bouquet.name": "스위트피 꽃다발",
+"atelierfloral_sweetpea_bouquet.description": "스위트피로 만든 아름다운 꽃다발.",
+
+"atelierfloral_sweetpea_perfume.name": "스위트피 향수",
+"atelierfloral_sweetpea_perfume.description": "신선한 스위트피로 만든 향수.",
+
+"atelierfloral_sweetpea_soap.name": "스위트피 비누",
+"atelierfloral_sweetpea_soap.description": "스위트피와 벌집으로 만든 비누",
+
+"atelierfloral_sweetpea_candles.name": "스위트피 향초",
+"atelierfloral_sweetpea_candles.description": "말린 스위트피 향기를 담아낸 수제 향초.",
+
+"atelierfloral_sweetpea_incense.name": "스위트피 인센스",
+"atelierfloral_sweetpea_incense.description": "말린 스위트피로 만든 향. 불에 태워서 씁니다.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfloral_FlowerStation_InvalidItem.message": "실행 불가.",
+"atelierfloral_FlowerStation_InvalidCount.message": "꽃 5송이 필요.",
+
+"atelierfloral_FragranceStation_InvalidItem.message": "실행 불가.",
+"atelierfloral_FragranceStation_InvalidCount.message": "더 많은 재료 필요함",    
+
+"atelierfloral_CandleStation_InvalidItem.message": "실행 불가.",
+"atelierfloral_CandleStation_InvalidCount.message": "밀랍 필요.",    
+
+	
+//INCENSE
+
+	"atelierbotanicals_autumn_incense.name":"가을의 정취",
+	"atelierbotanicals_autumn_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 계절의 변화를 맞이하기 위해 가을에 피는 꽃을 더했습니다.",
+
+	"atelierbotanicals_chamomile_incense.name":"행복의 향",
+	"atelierbotanicals_chamomile_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 평화와 조화로움의 연관성으로 캐모마일을 더했습니다.",
+
+	"atelierbotanicals_chiffon_incense.name":"향의 조화",
+	"atelierbotanicals_chiffon_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 조화로움과 평화의 연관성으로 블루 쉬폰을 더했습니다.",
+
+	"atelierbotanicals_daisy_incense.name":"가득찬 희망",
+	"atelierbotanicals_daisy_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 희망, 그리고 보호와의 연관성으로 천사 제라늄을 더했습니다.",
+
+	"atelierbotanicals_jasmine_incense.name":"명상의 향",
+	"atelierbotanicals_jasmine_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 화합과 영성이 어우러지게끔 자스민을 더했습니다.",
+
+	"atelierbotanicals_lavender_incense.name":"진정의 꽃",
+	"atelierbotanicals_lavender_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 진정 효과를 위해 라벤더를 더했습니다.",
+
+	"atelierbotanicals_lily_incense.name":"수호의 꽃",
+	"atelierbotanicals_lily_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 저주와 사악한 주술에서 보호하기 위해 나리꽃을 더했습니다.",
+
+	"atelierbotanicals_mugwort_incense.name":"예언가의 말",
+	"atelierbotanicals_mugwort_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 마법적인 특성을 고려하여 향쑥을 사용했습니다.",
+
+	"atelierbotanicals_pixie_incense.name":"요정의 재치",
+	"atelierbotanicals_pixie_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 요정의 숨결을 더한 이유는, 창의성과 연관된 향이기 때문입니다.",
+
+	"atelierbotanicals_primrose_incense.name":"치유의 향기",
+	"atelierbotanicals_primrose_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 긍정적인 에너지와의 연계를 생각하여 석영앵초를 더했습니다.",
+
+	"atelierbotanicals_mysteria_incense.name":"번영의 비밀",
+	"atelierbotanicals_mysteria_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 번영과 관련해서는 이 등꽃만한 게 없습니다.",
+
+	"atelierbotanicals_spring_incense.name":"봄의 정취",
+	"atelierbotanicals_spring_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 새로운 시작을 맞이하기 위해 봄에 피는 꽃을 더했습니다.",
+
+	"atelierbotanicals_summer_incense.name":"여름의 정취",
+	"atelierbotanicals_summer_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 바뀌는 계절을 기념하여 여름에 피는 꽃을 더했습니다.",
+
+	"atelierbotanicals_thistle_incense.name":"찬란한 보호",
+	"atelierbotanicals_thistle_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 보호와 번영을 함께 신경쓴다면, 엉겅퀴만한 게 없습니다.",
+
+	"atelierbotanicals_valerian_incense.name":"달콤한 꿈",
+	"atelierbotanicals_valerian_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 잔잔하고 고요함을 안겨주기 위해 고양이풀을 더했습니다.",
+
+	"atelierbotanicals_vanilla_incense.name":"그리운 집",
+	"atelierbotanicals_vanilla_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 위로와 진정에는 바닐라의 향이 일품입니다.",
+
+	"atelierbotanicals_violet_incense.name":"비너스의 매력",
+	"atelierbotanicals_violet_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 사랑과 다산, 풍요를 위해 그 힘에 젖은 제비꽃을 더했습니다.",
+
+	"atelierbotanicals_winter_incense.name":"겨울의 정취",
+	"atelierbotanicals_winter_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 한 해의 마지막을 끝마치기 위해 야생 크로커스를 더했습니다.",
+
+	"atelierbotanicals_yarrow_incense.name":"북돋아진 용기",
+	"atelierbotanicals_yarrow_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 용기와 사랑을 북돋아주는 것에 있어 서양톱풀만한 게 없습니다.",
+
+
+
+//DRIED ITEMS
+
+
+"atelierbotanicals_dried_geranium.name": "말린 제라늄",
+"atelierbotanicals_dried_geranium.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_arcticfox.name": "말린 북극여우",
+"atelierbotanicals_dried_arcticfox.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_avalune.name": "말린 루핀",
+"atelierbotanicals_dried_avalune.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_bluechiffon.name": "말린 작약",
+"atelierbotanicals_dried_bluechiffon.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_chamomile.name": "말린 캐모마일",
+"atelierbotanicals_dried_chamomile.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_daisy.name": "말린 데이지",
+"atelierbotanicals_dried_daisy.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_dawn_lily.name": "말린 여명원추리",
+"atelierbotanicals_dried_dawn_lily.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_dusk_lily.name": "말린 황혼원추리",
+"atelierbotanicals_dried_dusk_lily.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierfloral_dried_crocus.name": "말린 크로커스",
+"atelierfloral_dried_crocus.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierfloral_dried_fairy_rose.name": "말린 요정장미",
+"atelierfloral_dried_fairy_rose.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierfloral_dried_jazz.name": "말린 블루재즈",
+"atelierfloral_dried_jazz.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierfloral_dried_mallow.name": "말린 마시멜로꽃",
+"atelierfloral_dried_mallow.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_puffball.name": "말린 분첩",
+"atelierbotanicals_dried_puffball.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_jasmine.name": "말린 자스민",
+"atelierbotanicals_dried_jasmine.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_lavender.name": "말린 라벤더",
+"atelierbotanicals_dried_lavender.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_mysteria.name": "말린 신비등꽃",
+"atelierbotanicals_dried_mysteria.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_violet.name": "말린 제비꽃",
+"atelierbotanicals_dried_violet.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_moon_maiden.name": "말린 달빛꽃",
+"atelierbotanicals_dried_moon_maiden.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_mugwort.name": "말린 향쑥",
+"atelierbotanicals_dried_mugwort.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_pixiesbreath.name": "말린 안개꽃",
+"atelierbotanicals_dried_pixiesbreath.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_primrose.name": "말린 앵초",
+"atelierbotanicals_dried_primrose.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_poppy.name": "말린 양귀비",
+"atelierbotanicals_dried_poppy.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierfloral_dried_sakura.name": "말린 벚꽃",
+"atelierfloral_dried_sakura.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierfloral_dried_spangle.name": "말린 여름별꽃",
+"atelierfloral_dried_spangle.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierfloral_dried_sunflower.name": "말린 해바라기",
+"atelierfloral_dried_sunflower.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_thistle.name": "말린 엉겅퀴",
+"atelierbotanicals_dried_thistle.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierfloral_dried_tulip.name": "말린 튤립",
+"atelierfloral_dried_tulip.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_valerian.name": "말린 고양이풀",
+"atelierbotanicals_dried_valerian.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierfloral_dried_vanilla.name": "말린 바닐라",
+"atelierfloral_dried_vanilla.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+
+"atelierbotanicals_dried_yarrow.name": "말린 서양톱풀",
+"atelierbotanicals_dried_yarrow.description": "말린 꽃다발. 이 상태에서 오랫동안 보관할 수 있습니다.",
+	
+
+//////////////
+// BOUQUETS //
+//////////////
+
+    "atelierfloral_jazz_bouquet.name": "푸른 재즈 꽃다발",
+    "atelierfloral_jazz_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_vanilla_bouquet.name": "칼리코 바닐라 꽃다발",
+    "atelierfloral_vanilla_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_fairy_bouquet.name": "요정장미 꽃다발",
+    "atelierfloral_fairy_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_chamomile_bouquet.name": "숲 카모마일 꽃다발",
+    "atelierfloral_chamomile_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_lavender_bouquet.name": "숲 라벤더 꽃다발",
+    "atelierfloral_lavender_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_jasmine_bouquet.name": "보석 섬 자스민 꽃다발",
+    "atelierfloral_jasmine_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_mallow_bouquet.name": "마시멜로 꽃다발",
+    "atelierfloral_mallow_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_poppy_bouquet.name": "양귀비 꽃다발",
+    "atelierfloral_poppy_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_sakura_bouquet.name": "벚꽃 꽃다발",
+    "atelierfloral_sakura_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_spangle_bouquet.name": "여름별꽃 꽃다발",
+    "atelierfloral_spangle_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+    "atelierfloral_sunflower_bouquet.name": "해바라기 꽃다발",
+    "atelierfloral_sunflower_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+    
+    "atelierfloral_tulip_bouquet.name": "튤립 꽃다발",
+    "atelierfloral_tulip_bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+/////////////
+// PERFUME //
+/////////////
+
+    "atelierfloral_jazz_perfume.name": "푸른 재즈 오드 뚜왈렛",
+    "atelierfloral_jazz_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+    "atelierfloral_vanilla_perfume.name": "칼리코 바닐라 오드 뚜왈렛",
+    "atelierfloral_vanilla_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+    "atelierfloral_fairy_perfume.name": "요정장미 오드 뚜왈렛",
+    "atelierfloral_fairy_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+    "atelierfloral_chamomile_perfume.name": "숲 카모마일 오드 뚜왈렛",
+    "atelierfloral_chamomile_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+    "atelierfloral_lavender_perfume.name": "숲 라벤더 오드 뚜왈렛",
+    "atelierfloral_lavender_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+    "atelierfloral_jasmine_perfume.name": "보석 섬 자스민 오드 뚜왈렛",
+    "atelierfloral_jasmine_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+    "atelierfloral_mallow_perfume.name": "마시멜로 오드 뚜왈렛",
+    "atelierfloral_mallow_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+    "atelierfloral_poppy_perfume.name": "양귀비 오드 뚜왈렛",
+    "atelierfloral_poppy_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+    
+    "atelierfloral_sakura_perfume.name": "벚꽃 오드 뚜왈렛",
+    "atelierfloral_sakura_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+    
+    "atelierfloral_spangle_perfume.name": "여름별꽃 오드 뚜왈렛",
+    "atelierfloral_spangle_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+    "atelierfloral_sunflower_perfume.name": "해바라기 오드 뚜왈렛",
+    "atelierfloral_sunflower_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+    "atelierfloral_tulip_perfume.name": "튤립 오드 뚜왈렛",
+    "atelierfloral_tulip_perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+//////////
+// SOAP //
+//////////
+
+
+    "atelierfloral_jazz_soap.name": "푸른 재즈 고급 비누",
+    "atelierfloral_jazz_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_vanilla_soap.name": "칼리코 바닐라 고급 비누",
+    "atelierfloral_vanilla_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_fairy_soap.name": "요정장미 고급 비누",
+    "atelierfloral_fairy_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_chamomile_soap.name": "숲 카모마일 고급 비누",
+    "atelierfloral_chamomile_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_lavender_soap.name": "숲 라벤더 고급 비누",
+    "atelierfloral_lavender_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_jasmine_soap.name": "보석 섬 자스민 고급 비누",
+    "atelierfloral_jasmine_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_mallow_soap.name": "마시멜로 고급 비누",
+    "atelierfloral_mallow_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_poppy_soap.name": "양귀비 고급 비누",
+    "atelierfloral_poppy_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_sakura_soap.name": "벚꽃 고급 비누",
+    "atelierfloral_sakura_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_spangle_soap.name": "여름별꽃 고급 비누",
+    "atelierfloral_spangle_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_sunflower_soap.name": "해바라기 고급 비누",
+    "atelierfloral_sunflower_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+    "atelierfloral_tulip_soap.name": "튤립 고급 비누",
+    "atelierfloral_tulip_soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+///////////////
+// POTPOURRI //
+///////////////
+
+"atelierfloral_jazz_potpourri.name": "푸른 재즈 포푸리",
+"atelierfloral_jazz_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_vanilla_potpourri.name": "칼리코 바닐라 포푸리",
+"atelierfloral_vanilla_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_fairy_potpourri.name": "요정장미 포푸리",
+"atelierfloral_fairy_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_chamomile_potpourri.name": "숲 카모마일 포푸리",
+"atelierfloral_chamomile_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_lavender_potpourri.name": "숲 라벤더 포푸리",
+"atelierfloral_lavender_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_jasmine_potpourri.name": "보석 섬 자스민 포푸리",
+"atelierfloral_jasmine_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_mallow_potpourri.name": "마시멜로 포푸리",
+"atelierfloral_mallow_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_poppy_potpourri.name": "양귀비 포푸리",
+"atelierfloral_poppy_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_sakura_potpourri.name": "벚꽃 포푸리",
+"atelierfloral_sakura_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_spangle_potpourri.name": "여름별꽃 포푸리",
+"atelierfloral_spangle_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_sunflower_potpourri.name": "해바라기 포푸리",
+"atelierfloral_sunflower_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"atelierfloral_tulip_potpourri.name": "튤립 포푸리",
+"atelierfloral_tulip_potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+/////////////
+// CANDLES //
+/////////////
+
+"atelierfloral_jazz_candles.name": "블루 재즈 향초",
+"atelierfloral_jazz_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_vanilla_candles.name": "칼리코 바닐라 향초",
+"atelierfloral_vanilla_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_fairy_candles.name": "요정장미 향초",
+"atelierfloral_fairy_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_chamomile_candles.name": "숲 캐모마일 향초",
+"atelierfloral_chamomile_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_lavender_candles.name": "숲 라벤더 향초",
+"atelierfloral_lavender_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_jasmine_candles.name": "보석 섬 자스민 향초",
+"atelierfloral_jasmine_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_mallow_candles.name": "마시멜로 향초",
+"atelierfloral_mallow_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_poppy_candles.name": "양귀비 향초",
+"atelierfloral_poppy_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_sakura_candles.name": "벚꽃 향초",
+"atelierfloral_sakura_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_spangle_candles.name": "여름별꽃 향초",
+"atelierfloral_spangle_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_sunflower_candles.name": "해바라기 향초",
+"atelierfloral_sunflower_candles.description": "좋은 향이 나는 양초 세 개.",
+
+"atelierfloral_tulip_candles.name": "튤립 향초",
+"atelierfloral_tulip_candles.description": "좋은 향이 나는 양초 세 개.",
+
+
+//////////
+// MAIL //
+//////////
+
+    "atelierfloral_FlowerStationRecipe.name":"친애하는 플로리스트에게",
+    "atelierfloral_FlowerStationRecipe.text":"@, ^^ 꽃을 말린 꽃잎, 포푸리 그리고 향초로 가공할 수 있다는 것을 알고 있어? 나는 재스가 집으로 가져오는 꽃으로 만드는 편이지만, 네가 키운 꽃도 이런 기계로 가공해서 꽤 많은 돈을 벌 수 있을 거야!^^ - 마니",
+
+    "atelierfloral_FragranceStationRecipe.name":"꽃 향유",
+    "atelierfloral_FragranceStationRecipe.text":"@, ^^ 나는 이것을 내 잡지에서 오려냈어. 자기만의 에센스와 향수를 만드는 게 지금 유행이야! 너네 농장의 꽃으로 그것을 시험해 볼 수도 있지 않을까?^^ - 헤일리",
+
+    "atelierfloral_BouquetStationRecipe.name":"수제 꽃다발",
+    "atelierfloral_BouquetStationRecipe.text":"@, ^^ 마을에서 화단을 가꾸는 모습을 보았겠지만, 나는 집에서도 꽃다발이나 물건을 만드는 일에 손을 대는 것을 좋아한단다. 야생화 작업대를 이용한다면 너는 곧 멋진 꽃다발을 조립할 수 있을거야.^^ - 에블린",
+
+    "atelierfloral_jas_gift.name":"농부를 위한 꽃",
+    "atelierfloral_jas_gift.text":"@, ^^ 마니 이모가 꽃에 관한 편지를 보내셔서 나도 편지를 쓰고 싶었어요! 우리는 함께 숲에서 이 예쁜 향이 나는 꽃들을 발견했고 이모는 선물로 주면 좋아할 거라고 말했어요. 여기요!^^ - 재스",
+
+    "atelierfloral_sandy_gift.name":"친구를 위한 꽃",
+    "atelierfloral_sandy_gift.text":"@, ^^ 화훼 농사는 잘 되어가? 사막에 꽃이 더 많이 피었으면 좋겠는데 여기는 너무 더워. 보석 해 제도에서 온 친구가 보내줬는데 온실에 넣어둘 수 있을 것 같아서...^^ - 샌디",
+
+    "atelierfloral_emily_gift.name":"꽃다발을 통한 영감",
+    "atelierfloral_emily_gift.text":"@, ^^ 에블린이 너의 새로운 꽃 프로젝트에 대해 이야기하고 있어서 나도 돕고 싶었어! 나는 요정 장미가 꽤 멋진 가을 꽃다발을 만들 것이라고 생각해, 그렇지 않니?^^ - 에밀리",
+
+}

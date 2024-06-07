@@ -1,0 +1,260 @@
+{
+	"Format": "1.24.0",
+	"DynamicTokens": 
+		[
+			{
+			"Name": "NoDetectSVE",
+			"Value": "true"
+			},
+			{
+			"Name": "NoDetectSVE",
+			"Value": "false",
+			"When": 
+				{
+					"HasMod": "FlashShifter.StardewValleyExpandedCP" 
+				}
+			}
+		],
+	"ConfigSchema":
+		{
+			"ReplaceGenderSymbols":
+				{
+					"AllowValues": "true, false",
+					"Default": "true",
+					"Description": "Changes the male and female gender symbols into a 1 and 2."
+				},
+			"FixBathHouseDoors":
+				{
+					"AllowValues": "true, false",
+					"Default": "true",
+					"Description": "Allows player to enter either door at the bath house."
+				},
+			"FixBathHouseTiles":
+				{
+					"AllowValues": "true, false",
+					"Default": "true",
+					"Description": "Removes the 'W' and 'M' from the bath house doors."
+				},
+			"FixOtherPlayers":
+				{
+					"AllowValues": "true, false",
+					"Default": "true",
+					"Description": "Changes multiplayer messages to use noun/pronoun settings below."
+				}
+		},
+	"Changes":
+		[
+			{
+				"Action": "Include",
+				"FromFile": "assets/GenderSymbolsReplacer/ReplaceGenderSymbols.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Maps/FixBathHouse.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Abigail.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Alex.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Elliott.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Emily.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Evelyn.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/George.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Haley.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Jas.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Marnie.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/MarriageDialogue.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/MarriageDialogueAbigail.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/MarriageDialogueAlex.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/MarriageDialogueElliott.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/MarriageDialogueHarvey.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/MarriageDialogueLeah.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/MarriageDialogueMaru.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/MarriageDialoguePenny.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/MarriageDialogueSam.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Pam.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Penny.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Pierre.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Sam.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Sebastian.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Vincent.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Characters/Dialogue/Willy.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/ExtraDialogue.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/mail.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/AnimalShop.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/Beach.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/BoatTunnel.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/Farm.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/FarmHouse.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/FishShop.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/Forest.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/HaleyHouse.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/JoshHouse.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/LeahHouse.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/Mine.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/Mountain.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/Saloon.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/ScienceHouse.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/SeedShop.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/Temp.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/Town.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Data/Events/Trailer.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Strings/Locations.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Strings/SpeechBubbles.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Strings/StringsFromCSFiles.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Strings/StringsFromMaps.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Strings/UI.json"
+			},
+			{
+				"Action": "Include",
+				"FromFile": "assets/Strings/UI2.json"
+			}
+		]
+}

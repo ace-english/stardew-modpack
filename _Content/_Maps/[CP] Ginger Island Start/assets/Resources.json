@@ -1,0 +1,41 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add extra wood if installed FTM",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_TropicalWood": {
+                    "Name": "Tropical Wood",
+                    "DisplayName": "[LocalizedText Strings\\Objects:Wood_Name]",
+                    "Description": "[LocalizedText Strings\\Objects:Wood_Description]",
+                    "SpriteIndex": 1,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 2,
+                    "Sound": "axe",
+                    "BreakingSound": "cut",
+                    "ItemDropped": "(O)388",
+                    "Tool": "Axe",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)770", //mixed seeds
+                            "Chance": 0.3 //30%
+                        },
+                        {
+                            "ItemId":"(O)178", //fiber
+                            "Chance": 0.1
+                        }
+                    ],
+                    "Debris": "wood #b7733a"
+                }
+            },
+            "When": {
+                "FirstDayOrFlag": true,
+                "HasMod": "Esca.FarmTypeManager"
+            }
+        }
+    ]
+}

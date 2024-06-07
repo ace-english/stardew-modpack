@@ -1,0 +1,10 @@
+{
+    "Name": "Wear the Rainbow",
+    "Author": "Riverdragon323",
+    "Version": "1.0.0",
+    "Description": "Adds a plethora of prismatic clothes for you to enjoy!",
+    "UniqueID": "Riverdragon323.WeartheRainbow",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

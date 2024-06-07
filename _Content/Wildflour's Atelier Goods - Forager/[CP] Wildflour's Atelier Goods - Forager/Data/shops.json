@@ -1,0 +1,351 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"WAG Forager Shop Additions Raccoon",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Raccoon", "Items" ],
+            "Entries": {
+                "wildflour.ateliercrops_Raccoon_Saplings_FG": {
+                    "Price": 0,
+                    "TradeItemID": "(O)GoldenMysteryBox",
+                    "TradeItemAmount": 3,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Raccoon_Saplings_FG",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_buttercream_sapling",
+                        "wildflour.ateliercrops_brulee_sapling",
+                        "wildflour.ateliercrops_gelato_sapling",
+                        "wildflour.ateliercrops_souffle_sapling",
+                        "wildflour.ateliercrops_pavlova_sapling"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE FaerieGarden True"
+                  },
+                "wildflour.ateliercrops_Raccoon_Saplings_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)MysteryBox",
+                    "TradeItemAmount": 3,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Raccoon_Saplings_WF",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_walnutsapling",
+                        "wildflour.ateliercrops_lemonsapling",
+                        "wildflour.ateliercrops_limesapling"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+                  },
+                "wildflour.ateliercrops_Raccoon_Seeds_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)638",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Raccoon_Seeds_WF",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_redonionseeds",
+                        "wildflour.ateliercrops_basilseeds",
+                        "wildflour.ateliercrops_thymeseeds",
+                        "wildflour.ateliercrops_mintseeds"
+                    ],
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+                  },
+                "wildflour.ateliercrops_Raccoon_Berries_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)400",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Raccoon_Berries_WF",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_StrawberryBush",
+                        "wildflour.ateliercrops_RaspberryBush"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+                  },
+            }
+        },
+        
+        {
+            "LogName":"WAG Forager Shop Additions Traveling Merchant",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "Entries": {
+                "wildflour.ateliercrops_Traveler_Saplings_FG": {
+                    "Price": 0,
+                    "TradeItemID": "(O)432",
+                    "TradeItemAmount": 2,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Traveler_Saplings_FG",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_daisy_sapling",
+                        "wildflour.ateliercrops_violet_sapling",
+                        "wildflour.ateliercrops_primrose_sapling"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE FaerieGarden True"
+                  },
+                "wildflour.ateliercrops_Traveler_Seeds_FG": {
+                    "Price": 0,
+                    "TradeItemID": "(O)Raisins",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Traveler_Seeds_FG",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_puffball_seeds",
+                        "wildflour.ateliercrops_maiden_seeds",
+                        "wildflour.ateliercrops_pixies_breath_seeds",
+                        "wildflour.ateliercrops_yarrow_seeds"
+                    ],
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Condition": "CAULDRON_CONFIG_VALUE FaerieGarden True"
+                  },
+                "wildflour.ateliercrops_Traveler_Seeds_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)Raisins",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Traveler_Seeds_WF",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_sageseeds",
+                        "wildflour.ateliercrops_chamomileseeds"
+                    ],
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+                  }
+            }
+        },
+
+        {
+            "LogName":"WAG Forager Shop Additions Island Trader",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "Entries": {
+                "wildflour.ateliercrops_IslandTrade_Saplings_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)834",
+                    "TradeItemAmount": 10,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_IslandTrade_Saplings_WF",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_cashewsapling",
+                        "wildflour.ateliercrops_almondsapling"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+                  },
+                "wildflour.ateliercrops_IslandTrade_Seeds_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)88",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_IslandTrade_Seeds_WF",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_mallowseeds",
+                        "wildflour.ateliercrops_jasmineseeds",
+                        "wildflour.ateliercrops_cilantroseeds"
+                    ],
+                    "MinStack": 2,
+                    "MaxStack": 4,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+                  }
+
+            }
+        },
+
+        {
+            "LogName":"WAG Forager Shop Additions Krobus",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "Entries": {
+                "wildflour.ateliercrops_ShadowShop_Saplings_FG": {
+                    "Price": 0,
+                    "TradeItemID": "(O)MysticSyrup",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_ShadowShop_Saplings_FG",
+                    "RandomItemId": [
+                      "wildflour.ateliercrops_StrangeCap_seeds",
+                      "wildflour.ateliercrops_MysticTrumpet_seeds",
+                      "wildflour.ateliercrops_WitchwoodTree_seeds"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE FaerieGarden True"
+                  },
+                "wildflour.ateliercrops_ShadowShop_Seeds_FG": {
+                    "Price": 0,
+                    "TradeItemID": "(O)DriedMushrooms",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_ShadowShop_Seeds_FG",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_avalune_seeds",
+                        "wildflour.ateliercrops_mandrake_seeds",
+                        "wildflour.ateliercrops_arctic_fox_seeds"
+                    ],
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Condition": "CAULDRON_CONFIG_VALUE FaerieGarden True"
+                  },
+                "wildflour.ateliercrops_ShadowShop_Saplings_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)DriedFruit",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_ShadowShop_Saplings_WF",
+                    "RandomItemId": [
+                      "wildflour.ateliercrops_elder_sapling",
+                      "wildflour.ateliercrops_anise_sapling"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+                  },
+                "wildflour.ateliercrops_ShadowShop_Moondrops_FG": {
+                    "Price": 0,
+                    "TradeItemID": "(O)597",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_ShadowShop_Moondrops_FG",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_AmberBush",
+                        "wildflour.ateliercrops_JadeBush",
+                        "wildflour.ateliercrops_LapisBush",
+                        "wildflour.ateliercrops_PearlBush"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE FaerieGarden True"
+                  },
+            }
+        },
+
+        {
+            "LogName":"WAG Forager Shop Additions Shop Additions Desert Trader",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "DesertTrade", "Items" ],
+            "Entries": {
+                "wildflour.ateliercrops_DesertTrade_Saplings_FG": {
+                    "Price": 0,
+                    "TradeItemID": "(O)CalicoEgg",
+                    "TradeItemAmount": 10,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_DesertTrade_Saplings_FG",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_geranium_sapling",
+                        "wildflour.ateliercrops_chiffon_sapling",
+                        "wildflour.ateliercrops_dawn_sapling",
+                        "wildflour.ateliercrops_dusk_sapling"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE FaerieGarden True"
+           
+                  },
+                "wildflour.ateliercrops_DesertTrade_Saplings_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)CalicoEgg",
+                    "TradeItemAmount": 10,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_DesertTrade_Saplings_WF",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_pistachiosapling",
+                        "wildflour.ateliercrops_cacaopodsapling",
+                        "wildflour.ateliercrops_olivesapling"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+           
+                  },
+                "wildflour.ateliercrops_DesertTrade_Seeds_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)CalicoEgg",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_DesertTrade_Seeds_WF",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_vanillaseeds",
+                        "wildflour.ateliercrops_lavenderseeds",
+                        "wildflour.ateliercrops_rosemaryseeds"
+                    ],
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+                  }
+            }
+        },
+
+        {
+            "LogName":"WAG Forager Shop Additions Shop Additions Dwarf",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "Entries": {
+                "wildflour.ateliercrops_Dwarf_Saplings_FG": {
+                    "Price": 0,
+                    "TradeItemID": "(O)CaveJelly",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Dwarf_Saplings",
+                    "RandomItemId": [
+                    "wildflour.ateliercrops_mysteria_sapling"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE FaerieGarden True"
+                  },
+                "wildflour.ateliercrops_Dwarf_Seeds_WF": {
+                    "Price": 0,
+                    "TradeItemID": "(O)RiverJelly",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Dwarf_Seeds_WF",
+                    "RandomItemId": [
+                    "wildflour.ateliercrops_wormwoodseeds",
+                    "wildflour.ateliercrops_milkshroomseeds",
+                    "wildflour.ateliercrops_wheatshroomseeds",
+                    "wildflour.ateliercrops_meringueshroomseeds",
+                    "wildflour.ateliercrops_chickenwoodsseeds",
+                    "wildflour.ateliercrops_honeyfungusseeds"
+                    ],
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True"
+                  },
+                "wildflour.ateliercrops_Dwarf_Herbs_FG": {
+                    "Price": 0,
+                    "TradeItemID": "(O)SeaJelly",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Id": "wildflour.ateliercrops_Dwarf_Herbs_FG",
+                    "RandomItemId": [
+                        "wildflour.ateliercrops_MugwortBush",
+                        "wildflour.ateliercrops_ThistleBush",
+                        "wildflour.ateliercrops_ValerianBush",
+                        "wildflour.ateliercrops_RoseFlaxBush",
+                        "wildflour.ateliercrops_VioletFlaxBush",
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "Condition": "CAULDRON_CONFIG_VALUE FaerieGarden True"
+                  }
+            }
+        }
+    ]
+}

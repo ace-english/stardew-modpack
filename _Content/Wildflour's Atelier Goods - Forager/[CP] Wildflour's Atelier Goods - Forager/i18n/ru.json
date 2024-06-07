@@ -1,0 +1,586 @@
+{
+
+//NEW CATEGORIES
+
+"ateliercrops_nut.category":"Орех",
+"ateliercrops_herb.category":"Трава",
+"ateliercrops_mushroom.category":"Гриб",
+"ateliercrops_root.category":"Корень",
+"ateliercrops_feather.category":"Перо",
+"ateliercrops_magic.category":"Волшебный предмет",
+"ateliercrops_magic_fruit.category":"Волшебный фрукт",
+"ateliercrops_magic_flower.category":"Волшебный цветок",
+
+//NEW BUSHES
+
+	"ateliercrops_StrawberryBush.name":"Куст дикой клубники",
+	"ateliercrops_StrawberryBush.description":"Куст, на котором весной растет клубника.",
+
+	"ateliercrops_RaspberryBush.name":"Куст дикой малины",
+	"ateliercrops_RaspberryBush.description":"Куст, на котором летом растет дикая малина.",
+
+	"ateliercrops_ValerianBush.name":"Куст валерианы",
+	"ateliercrops_ValerianBush.description":"Куст, на котором весной растет валериана.",
+
+	"ateliercrops_MugwortBush.name":"Куст полыни",
+	"ateliercrops_MugwortBush.description":"Куст, на котором летом и осенью растет полынь",
+
+	"ateliercrops_ThistleBush.name":"Куст чертополоха",
+	"ateliercrops_ThistleBush.description":"Куст, на котором летом растет чертополох.",
+
+	"ateliercrops_RoseFlaxBush.name":"Куст розового льна",
+	"ateliercrops_RoseFlaxBush.description":"Куст, на котором весной, летом и осенью растет розовый лен.",
+
+	"ateliercrops_VioletFlaxBush.name":"Куст фиолетового льна",
+	"ateliercrops_VioletFlaxBush.description":"Куст, на котором весной, летом и осенью растет фиолетовый лен.",
+
+	"ateliercrops_AmberBush.name":"Куст Янтарной Лунной Капли",
+	"ateliercrops_AmberBush.description":"Куст, на котором весной и летом растет виноград \"Янтарная Лунная Капля\".",
+
+	"ateliercrops_LapisBush.name":"Куст Лазурной Лунной Капли",
+	"ateliercrops_LapisBush.description":"Куст, на котором летом и осенью растет виноград \"Лазурная Лунная Капля\".",
+
+	"ateliercrops_JadeBush.name":"Куст Нефритовой Лунной Капли",
+	"ateliercrops_JadeBush.description":"Куст, на котором летом и осенью растет виноград \"Нефритовая Лунная Капля\".",
+
+	"ateliercrops_PearlBush.name":"Куст Жемчуной Лунной Капли",
+	"ateliercrops_PearlBush.description":"Куст, на котором зимой и весной растет виноград \"Жемчуная Лунная Капля\".",
+	
+	//SEEDS
+
+	"ateliercrops_vanillaseeds.name": "Рассада ванили Калико",
+	"ateliercrops_vanillaseeds.description": "Сажайте летом. Вырастает через 14 дней, затем продолжает давать урожай каждые 5 дней.",
+
+	"ateliercrops_chamomileseeds.name": "Семена лесной ромашки",
+	"ateliercrops_chamomileseeds.description": "Сажайте весной или летом. Вырастают через 5 дней.",
+
+	"ateliercrops_lavenderseeds.name": "Семена лесной лаванды",
+        "ateliercrops_lavenderseeds.description": "Сажайте весной, летом или осенью. Вырастают через 14 дней, затем продолжают давать урожай каждые 4 дня.",
+
+	"ateliercrops_jasmineseeds.name": "Семена жасмина Фернских островов",
+        "ateliercrops_jasmineseeds.description": "Сажайте летом. Вырастают через 14 дней, затем продолжают давать урожай каждые 5 дней.",
+
+
+	"ateliercrops_mallowseeds.name": "Семена Алтея",
+"ateliercrops_mallowseeds.description": "Сажайте весной или летом. Вырастают через 8 дней, затем продолжают давать урожай каждые 3 дня.",
+
+
+	"ateliercrops_mintseeds.name": "Семена мяты Пеликан",
+        "ateliercrops_mintseeds.description": "Сажайте весной или летом. Вырастают через 12 дней, затем продолжают давать урожай каждые 3 дня.",
+
+	"ateliercrops_redonionseeds.name": "Семена дикого красного лука",
+        "ateliercrops_redonionseeds.description": "Сажайте весной или осенью. Вырастают через 7 дней.",
+
+        "ateliercrops_strawberryseeds.name": "Куст дикой клубники",
+        "ateliercrops_strawberryseeds.description": "Сажайте весной. Вырастает через 12 дней, затем продолжает давать урожай каждые 3 дня.",
+
+        "ateliercrops_raspberryseeds.name": "Куст дикой малины",
+        "ateliercrops_raspberryseeds.description": "Сажайте летом. Вырастает через 10 дней, затем продолжает давать урожай каждые 4 дня.",
+
+        "ateliercrops_wormwoodseeds.name": "Семена полыни горькой",
+        "ateliercrops_wormwoodseeds.description": "Сажайте летом. Вырастают через 10 дней, затем продолжают давать урожай каждые 3 дня.",
+
+	//HERB SEEDS
+
+	"ateliercrops_basilseeds.name": "Семена сладкого базилика",
+        "ateliercrops_basilseeds.description": "Сажайте летом. Вырастают через 14 дней, затем продолжают давать урожай каждые 3 дня.",
+	
+	"ateliercrops_cilantroseeds.name": "Семена кинзы Синдерсэпа",
+        "ateliercrops_cilantroseeds.description": "Сажайте весной. Вырастают через 7 дней, затем продолжают давать урожай каждые 5 дней.",
+	
+	"ateliercrops_rosemaryseeds.name": "Семена стойкого розмарина",
+        "ateliercrops_rosemaryseeds.description": "Сажайте весной или осенью. Вырастают через 14 дней, затем продолжают давать урожай каждые 4 дня.",
+	
+	"ateliercrops_sageseeds.name": "Семена шалфея Синдерсэпа",
+        "ateliercrops_sageseeds.description": "Сажайте осенью. Вырастают через 12 дней, затем продолжают давать урожай каждые 5 дней.",
+	
+	"ateliercrops_thymeseeds.name": "Семена лимонного тимьяна",
+        "ateliercrops_thymeseeds.description": "Сажайте весной или летом. Вырастают через 12 дней, затем продолжают давать урожай каждые 5 дней.",
+
+	"ateliercrops_gentianroot.name": "Корень горечавки",
+        "ateliercrops_gentianroot.description": "Корень, который растет в горной местности и часто используется в качестве ароматизатора в настойках и других напитках.",
+
+
+        "ateliercrops_wormwood.name": "Полынь горькая",
+        "ateliercrops_wormwood.description": "Эта трава, известная как один из основных ингредиентов абсента, имеет множество применений.",
+
+	// MUSHROOM STARTERS
+
+	"ateliercrops_chickenwoodsseeds.name":"Мицелий летипорусов", 
+        "ateliercrops_chickenwoodsseeds.description":"Сажайте летом. Вырастает через 14 дней, затем продолжает давать урожай каждые 5 дней.",
+
+	"ateliercrops_honeyfungusseeds.name":"Мицелий опят",
+	"ateliercrops_honeyfungusseeds.description":"Сажайте весной. Вырастает через 21 день, затем продолжает давать урожай каждые 3 дня.",
+
+        "ateliercrops_meringueshroomseeds.name":"Мицелий меренговых грибов",
+	"ateliercrops_meringueshroomseeds.description":"Сажайте осенью. Вырастает через 16 дней, затем продолжает давать урожай каждые 3 дня.",
+
+        "ateliercrops_milkshroomseeds.name":"Мицелий молочных грибов",
+	"ateliercrops_milkshroomseeds.description":"Сажайте летом или осенью. Вырастает через 14 дней, затем продолжает давать урожай каждые 5 дней.",
+
+        "ateliercrops_wheatshroomseeds.name":"Мицелий пшеничных грибов",
+	"ateliercrops_wheatshroomseeds.description":"Сажайте осенью. Вырастает через 12 дней, затем продолжает давать урожай каждые 4 дня.",
+	
+	//HERBS
+	
+	"ateliercrops_basil.name": "Сладкий базилик",
+        "ateliercrops_basil.description": "Сладкая разновидность популярной травы, используется в различных рецептах из-за ее цвета и вкуса.",
+
+        "ateliercrops_cilantro.name": "Кинза Синдерсэпа",
+        "ateliercrops_cilantro.description": "Дикий сорт кинзы (также известен как кориандр), который часто используется в острых блюдах или сальсе.",
+
+        "ateliercrops_sage.name": "Шалфей Синдерсэпа",
+        "ateliercrops_sage.description": "Нежная трава с цветочными нотками, используется для придания насыщенного вкуса многим осенним блюдам.",
+
+        "ateliercrops_rosemary.name": "Стойкий розмарин",
+        "ateliercrops_rosemary.description": "Мощная и крепкая трава, которая растет практически где угодно; она может напоминать небольшую сосну.",
+
+        "ateliercrops_thyme.name": "Тимьян лимонный",
+        "ateliercrops_thyme.description": "Популярная трава, которая быстро разрастается в любом саду; лимонный сорт ценится за травянистый цитрусовый вкус.",
+
+        "ateliercrops_anise.name": "Звездчатый анис",
+        "ateliercrops_anise.description": "Хотя анис является распространенной травой во многих традиционных кухнях, он также обладает многими магическими свойствами и может использоваться для вызова пророчеств.",
+
+	//TREES NEW
+
+	"ateliercrops_lemonsapling.name":"Саженец мини-лимона",
+        "ateliercrops_lemonsapling.description":"Становится взрослым деревом мини-лимона через 28 дней. Плодоносит весной.",
+
+        "ateliercrops_limesapling.name":"Саженец мини-лайма",
+        "ateliercrops_limesapling.description":"Становится взрослым деревом мини-лайма через 28 дней. Плодоносит весной.",
+
+        "ateliercrops_anise_sapling.name": "Саженец звездчатого аниса",
+        "ateliercrops_anise_sapling.description": "Становится взрослым деревом звездчатого аниса через 28 дней. Плодоносит весной. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+        "ateliercrops_elder_sapling.name": "Саженец бузины",
+        "ateliercrops_elder_sapling.description": "Становится взрослым деревом бузины через 28 дней. Плодоносит летом. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+	//TREES
+
+	"ateliercrops_pistachiosapling.name": "Саженец фисташки Калико",
+        "ateliercrops_pistachiosapling.description": "Становится взрослым фисташковым деревом через 28 дней. Плодоносит летом и осенью.",
+
+        "ateliercrops_cinnamonsapling.name": "Саженец корицы Синдерсэпа",
+        "ateliercrops_cinnamonsapling.description": "Становится взрослым деревом корицы Синдерсэпа через 28 дней. Собирайте кору зимой",
+
+        "ateliercrops_olivesapling.name": "Саженец оливы Фернгилла",
+        "ateliercrops_olivesapling.description": "Становится взрослым оливковым деревом через 28 дней. Плодоносит летом.",
+
+        "ateliercrops_cashewsapling.name": "Саженец кешью Самоцветного Моря",
+        "ateliercrops_cashewsapling.description": "Становится взрослым деревом кешью через 28 дней. Плодоносит осенью.",
+
+        "ateliercrops_walnutsapling.name": "Саженец грецкого ореха Грэмплтона",
+        "ateliercrops_walnutsapling.description": "Становится взрослым деревом грецкого ореха Грэмплтона через 28 дней. Плодоносит осенью.",
+
+        "ateliercrops_almondsapling.name": "Саженец миндаля мастера Канноли",
+        "ateliercrops_almondsapling.description": "Становится взрослым миндальным деревом через 28 дней. Плодоносит весной и летом.",
+
+        "ateliercrops_cacaopodsapling.name": "Саженец дикого какао",
+        "ateliercrops_cacaopodsapling.description": "Становится взрослым какао-деревом через 28 дней. Плодоносит осенью.",
+
+	//OBJECTS
+
+	"ateliercrops_pistachio.name":"Фисташка Калико",
+        "ateliercrops_pistachio.description":"Уникальный фисташковый орех, который можно найти только в пустыне Калико.",
+
+        "ateliercrops_vanilla.name": "Ваниль Калико ",
+        "ateliercrops_vanilla.description": "Уникальная ваниль, которую можно найти только в пустыне Калико.",
+
+        "ateliercrops_cherryblossoms.name": "Лепестки сакуры",
+        "ateliercrops_cherryblossoms.description": "Свежие лепестки цветущей сакуры",
+
+	"ateliercrops_chickenwoods.name": "Летипорус",
+        "ateliercrops_chickenwoods.description": "Этот гриб со странным названием встречается по всему миру, и некоторые утверждают, что по вкусу он напоминает курицу!",
+
+        "ateliercrops_cinnamon.name": "Корица Синдерсэпа",
+        "ateliercrops_cinnamon.description": "Редкая кора корицы, которую можно найти только в лесу Синдерсэпа зимой.",
+
+	"ateliercrops_olive.name": "Олива Фернгилла",
+        "ateliercrops_olive.description": "Редкий сорт оливок, встречающийся на тропических островах, открытый опытными собирателями на пляжах Республики Фернгилл.",
+
+        "ateliercrops_chamomile.name": "Лесная ромашка",
+        "ateliercrops_chamomile.description": "Нежный цветок, найденный в чаще леса; идеально подходит для приготовления чая.",
+
+        "ateliercrops_lavender.name": "Лесная лаванда",
+        "ateliercrops_lavender.description": "Цветок с густым ароматом, найденный в чаще леса.",
+
+        "ateliercrops_jasmine.name": "Жасмин Фернских островов",
+        "ateliercrops_jasmine.description": "Прекрасный ароматный цветок, который можно найти только на Имбирном острове.",
+
+        "ateliercrops_cashew.name": "Кешью Самоцветного Моря",
+        "ateliercrops_cashew.description": "Орех из тропического яблока кешью, который можно найти только на островах Самоцветного Моря",
+
+        "ateliercrops_walnut.name": "Грецкий орех Грэмплтона",
+        "ateliercrops_walnut.description": "Сорт грецкого ореха, который рос на Грэмплтонских полях, а теперь, судя по всему, и в городе Пеликан!",
+
+        "ateliercrops_honeyfungus.name": "Опёнок",
+        "ateliercrops_honeyfungus.description": "Хотя эти грибы опасно употреблять в сыром виде, при правильном приготовлении они имеют насыщенный ореховый вкус.",
+
+	"ateliercrops_mallow.name": "Алтей",
+	"ateliercrops_mallow.description": "Цветы алтея в основном используются при изготовлении сладостей, например, маршмеллоу.",
+
+        "ateliercrops_meringueshroom.name": "Меренговый гриб",
+        "ateliercrops_meringueshroom.description": "Необычайно сладкий гриб, который добывают только лучшие собиратели долины. Его цвет и форма кажутся почти зефирными.",
+
+        "ateliercrops_milkshroom.name": "Молочный гриб",
+        "ateliercrops_milkshroom.description": "Эти грибы ярко-белые и имеют кремовую текстуру.",
+
+        "ateliercrops_mint.name": "Мята Пеликан",
+        "ateliercrops_mint.description": "Разновидность мяты, которая растет по всему городу Пеликан, как бы жители деревни ни пытались от нее избавиться.",
+
+        "ateliercrops_lemon.name": "Мини-лимон",
+        "ateliercrops_lemon.description": "Крошечный, но ароматный лимон, найденный в дикой природе опытными собирателями.",
+
+        "ateliercrops_lime.name": "Мини-лайм",
+        "ateliercrops_lime.description": "Крошечный, но ароматный лайм, найденный в дикой природе опытными собирателями.",
+
+        "ateliercrops_almond.name": "Миндаль мастера Канноли",
+        "ateliercrops_almond.description": "Мечта собирателя сбылась! Редчайший миндаль, который, как говорят, выращивал сам старый мастер Канноли.",
+
+        "ateliercrops_wheatshroom.name": "Пшеничный гриб",
+        "ateliercrops_wheatshroom.description": "С виду обычный гриб для собирателя-любителя. Но профессионалы знают, что этот гриб можно превратить в ключевой ингредиент блюда.",
+
+        "ateliercrops_cacaopod.name": "Стручок дикого какао",
+        "ateliercrops_cacaopod.description": "Фруктовый, мясистый стручок дерева какао. Используется при приготовлении какао и экзотических блюд.",
+
+        "ateliercrops_raspberry.name": "Дикая малина",
+        "ateliercrops_raspberry.description": "Маленькая сладкая ягода, дикая, растет в лесах по всему Фернгиллу.",
+
+        "ateliercrops_redonion.name": "Дикий красный лук",
+        "ateliercrops_redonion.description": "Как и с дикой морковью - будьте осторожны с этим луком, иначе вы заплачете!",
+
+        "ateliercrops_strawberry.name": "Дикая клубника",
+        "ateliercrops_strawberry.description": "Клубника этого сорта маленькая, дикая, растет в лесах по всему Фернгиллу.",
+
+        "ateliercrops_elderberries.name": "Соцветие бузины",
+        "ateliercrops_elderberries.description": "Ветки и цветки бузины; из них можно приготовить отличный чай или настойку.",
+
+///////////////////////////////
+// FAERIE GARDEN TRANSLATION //
+///////////////////////////////
+
+//MUSHROOMS
+
+"ateliercrops_dawn_trumpet.name":"Вороночник рассветный",
+"ateliercrops_dawn_trumpet.description":"Таинственное скопление грибов, растущее в предрассветные часы.",
+
+"ateliercrops_dusk_cap.name":"Сумеречный гриб",
+"ateliercrops_dusk_cap.description":"Зловещий, сочный гриб, который появляется только после захода солнца.",
+
+"ateliercrops_giant_amanita.name":"Гигантский мухомор",
+"ateliercrops_giant_amanita.description":"Необычайно большой ядовитый гриб.",
+
+"ateliercrops_amanita_cluster.name":"Сросток мухоморов",
+"ateliercrops_amanita_cluster.description":"Ядовитые грибы, растущие небольшими группами. Полезны при приготовлении некоторых зелий, но смертельны при употреблении в сыром виде.",
+
+"ateliercrops_golden_aura.name":"Золотой атмос",
+"ateliercrops_golden_aura.description":"Потрясающий золотой гриб, часто используется в магических отварах.",
+
+"ateliercrops_moon_mushroom.name":"Лунный гриб",
+"ateliercrops_moon_mushroom.description":"Разновидность дождевика, пугающе напоминает полную луну.",
+
+"ateliercrops_gloomy_blewit.name":"Мрачная рядовка",
+"ateliercrops_gloomy_blewit.description":"Тёмный странный гриб, который появляется во время ливня.",
+
+"ateliercrops_tiny_angels.name":"Крошечный ангел",
+"ateliercrops_tiny_angels.description":"В отличие от своего дальнего родственника, \"Уничтожающего ангела\", эти маленькие грибочки съедобны и хорошо сочетаются с салатами!",
+
+"ateliercrops_verdigris_agaric.name":"Строфария сине-зелёная",
+"ateliercrops_verdigris_agaric.description":"Потрясающий бирюзовый гриб, который часто употребляют в пищу из-за его галлюциногенных свойств. В больших дозах может быть ядовитым.",
+
+"ateliercrops_faerie_helmets.name":"Мицена кровяноножковая",
+"ateliercrops_faerie_helmets.description":"Из-за крошечного размера и формы, напоминающей шляпу, их также называют \"Сказочными шляпками\"!",
+
+"ateliercrops_blush_cap.name":"Слаймовый гриб",
+"ateliercrops_blush_cap.description":"Очень ядовитый гриб, подбирать следует только очень опытным ведьмам или собирателям!",
+
+"ateliercrops_peach_parasol.name":"Персиковая парасолька",
+"ateliercrops_peach_parasol.description":"Странный розовый гриб. Ходят слухи, что когда-то из него делали красители для одежды и косметики.",
+
+//FLOWERS
+
+"ateliercrops_geranium.name": "Ангельская герань",
+"ateliercrops_geranium.description": "Кустистая разновидность герани, ценимая за яркие цвета.",
+
+"ateliercrops_arctic_fox.name": "Лисья наперстянка",
+"ateliercrops_arctic_fox.description": "Редкий сорт наперстянки. Очень ядовит.",
+
+"ateliercrops_avalune.name": "Авалун",
+"ateliercrops_avalune.description": "Потрясающе яркий сорт люпина. Станет отличным подарком для феи.",
+
+"ateliercrops_chiffon.name": "Синяя Пеларгония",
+"ateliercrops_chiffon.description": "Потрясающий сорт голубого пиона.",
+
+"ateliercrops_daisy.name": "Ползучая маргаритка",
+"ateliercrops_daisy.description": "Хотя маргаритку часто игнорируют как обычный цветок, многие части маргаритки можно использовать в кулинарии, медицине... и магии.",
+
+"ateliercrops_dawn_lily.name": "Рассветная лилия",
+"ateliercrops_dawn_lily.description": "Хотя этот сорт и связан с лилией обыкновенной, он чрезвычайно редок и цветет только на рассвете. Ходят слухи, что он процветает только в местах с сильной духовной энергией.",
+
+"ateliercrops_dusk_lily.name": "Сумеречная лилия",
+"ateliercrops_dusk_lily.description": "Хотя этот сорт и связан с лилией обыкновенной, он чрезвычайно редок и цветет только в сумерках. Ходят слухи, что он процветает только в местах с сильной духовной энергией.",
+
+"ateliercrops_puffball.name": "Волшебный одуванчик",
+"ateliercrops_puffball.description": "Этот цветок мягкий, как облако; возможно, именно поэтому его часто ассоциируют с народом фей и их неземной магией.",
+
+"ateliercrops_violet.name": "Луговая фиалка",
+"ateliercrops_violet.description": "Ползучая фиалка, которая быстро распространяется, покрывая целые луга темно-фиолетовыми оттенками.",
+
+"ateliercrops_maiden.name": "Лунный Мэйден",
+"ateliercrops_maiden.description": "Ходят слухи, что этот нежный цветок — подарок людям от добрых пикси в честь встречи весны.",
+
+"ateliercrops_pixies_breath.name": "Дыхание Пикси",
+"ateliercrops_pixies_breath.description": "Это похоже на \"Дыхание младенца\", только немного более волшебное.",
+
+"ateliercrops_primrose.name": "Кварцевый первоцвет",
+"ateliercrops_primrose.description": "Карликовый сорт розы, который хорошо растет на шпалере. Цветы, ценимые как за цвет, так и за аромат, напоминают драгоценный камень - розовый кварц.",
+
+"ateliercrops_cake_blossom.name":"Кексовый цветок",
+"ateliercrops_cake_blossom.description":"Золотой цветок со странным сладким ароматом, за который его ценят Пикси; он напоминает воздушный кекс.",
+
+"ateliercrops_caramel_blossom.name":"Карамельный цветок",
+"ateliercrops_caramel_blossom.description":"Цветочное трио со странным сладким ароматом, за который его ценят Пикси; оно напоминает коричневый сахар.",
+
+"ateliercrops_creamsicle_blossom.name":"Кремовый цветок",
+"ateliercrops_creamsicle_blossom.description":"Оранжевый цветок со странным сладким ароматом. Пикси ценят его за вкус; он напоминает праздничный торт.",
+
+"ateliercrops_custard_blossom.name":"Сливочный цветок",
+"ateliercrops_custard_blossom.description":"Белый цветок со странным сладким ароматом, за который его ценят Пикси; он напоминает стручки ванили.",
+
+"ateliercrops_gumdrop_blossom.name":"Мармеладный цветок",
+"ateliercrops_gumdrop_blossom.description":"Цветочное трио со странным сладким ароматом, за который его ценят Пикси; оно напоминает конфеты с фруктовым вкусом.",
+
+"ateliercrops_macaron_blossom.name":"Цветок-макарон",
+"ateliercrops_macaron_blossom.description":"Цветок фиалки со странным сладким ароматом, за который его ценят Пикси; он напоминает лавандовый макарон.",
+
+"ateliercrops_pie_blossom.name":"Пироговый цветок",
+"ateliercrops_pie_blossom.description":"Синий цветок со странным сладким ароматом, за который его ценят Пикси; он напоминает черничный пирог.",
+
+"ateliercrops_shortcake_blossom.name":"Бисквитный цветок",
+"ateliercrops_shortcake_blossom.description":"Розовый цветок со странным сладким ароматом, за который его ценят Пикси; он напоминает сладкую летнюю клубнику.",
+
+"ateliercrops_sprinkle_blossom.name":"Цветок с посыпкой",
+"ateliercrops_sprinkle_blossom.description":"Розовый цветок со странным сладким ароматом, за который его ценят Пикси; он напоминает радужную посыпку.",
+
+"ateliercrops_sugar_blossom.name":"Сахарный цветок",
+"ateliercrops_sugar_blossom.description":"Розовый цветок со странным сладким ароматом, за который его ценят Пикси; он напоминает праздничный торт.",
+
+"ateliercrops_mysteria.name":"Мистерия",
+"ateliercrops_mysteria.description":"Редкий и высоко ценимый сорт глицинии. Очень ядовит, но любим многими за свой аромат и магические свойства.",
+
+//FRUITS
+
+"ateliercrops_amber_moondrop.name": "Янтарная Лунная Капля",
+"ateliercrops_amber_moondrop.description": "Красивый и редкий сорт золотого винограда, говорят, изначально он выращивался феями из Республики Фернгилл.",
+
+"ateliercrops_apple.name": "Яблоко \"Амброзия\"",
+"ateliercrops_apple.description": "Ярко-зеленое яблоко, настолько сладкое, что названо в честь нектара богов.",
+
+"ateliercrops_orange.name": "Кровавый апельсин",
+"ateliercrops_orange.description": "Редкий сорт цитрусовых.",
+
+"ateliercrops_pomegranate.name": "Вечносладкий гранат",
+"ateliercrops_pomegranate.description": "Гранат яркого цвета, окутанный тайной. Ходят слухи, что этот фрукт всегда сочный и сладкий, независимо от того, когда его собирают.",
+
+"ateliercrops_jade_moondrop.name": "Нефритовая Лунная Капля",
+"ateliercrops_jade_moondrop.description": "Красивый и редкий сорт зеленого винограда, говорят, изначально он выращивался феями из Республики Фернгилл.",
+
+"ateliercrops_banana.name": "Банан \"Дамские Пальчики\"",
+"ateliercrops_banana.description": "Бананы этого сорта длинные и нежные, намного слаще традиционных бананов.",
+
+"ateliercrops_lapis_moondrop.name": "Лазурная Лунная Капля",
+"ateliercrops_lapis_moondrop.description": "Красивый и редкий сорт синего винограда, который, говорят, изначально он выращивался феями из Республики Фернгилл.",
+
+"ateliercrops_apricot.name": "Абрикос \"Золотая Луна\"",
+"ateliercrops_apricot.description": "Бледный абрикос с золотистой мякотью. Говорят, что это любимый фрукт лунных божеств.",
+
+"ateliercrops_pearl_moondrop.name": "Жемчужная Лунная Капля",
+"ateliercrops_pearl_moondrop.description": "Красивый и редкий сорт зелёного винограда, который, говорят, изначально он выращивался феями из Республики Фернгилл.",
+
+"ateliercrops_peach.name": "Персик \"Снежная красавица\"",
+"ateliercrops_peach.description": "Редкий и нежный персик; говорят, что это любимый фрукт одной принцессы из древнего фольклора.",
+
+"ateliercrops_cherry.name": "Метеоритная вишня",
+"ateliercrops_cherry.description": "Хотя этот сорт выглядит как обычная вишня, на вкус он странно напоминает кислые конфеты, а не фрукты.",
+
+"ateliercrops_mango.name": "Закатное манго",
+"ateliercrops_mango.description": "Нежное манго, созревшее при заходе солнца.",
+
+//HERBS
+
+"ateliercrops_rose_flax.name":"Розовый лен",
+"ateliercrops_rose_flax.description":"Зерно красивого розового цвета. При помоле из него получается особенно ценная мука.",
+
+"ateliercrops_mugwort.name": "Полынь",
+"ateliercrops_mugwort.description": "Это растение из семейства маргариток. Ведьмы выращивают его, так как он увеличивает качество сновидений и гадания.",
+
+"ateliercrops_violet_flax.name":"Фиолетовый лён",
+"ateliercrops_violet_flax.description":"Зерно красивого фиолетового цвета. При помоле из него получается особенно ценная мука.",
+
+"ateliercrops_thistle.name": "Чертополох",
+"ateliercrops_thistle.description": "Обычное цветущее растение, которое люди часто воспринимают как сорняк, но ведьмы ценят его за его целебные свойства.",
+
+"ateliercrops_valerian.name": "Валериана",
+"ateliercrops_valerian.description": "Трава, которую часто используют для приготовления усыпляющего чая, а также для защиты от молний и наводнений.",
+
+"ateliercrops_yarrow.name":"Тысячелистник",
+"ateliercrops_yarrow.description":"Тысячелистник, также известный как Дьявольская крапива, на протяжении веков использовался мудрыми ведьмами и собирателями для облегчения спазмов желудка.",
+
+//FEATHERS
+
+"ateliercrops_bluebird_feather.name": "Перо горной лазурной птицы",
+"ateliercrops_bluebird_feather.description": "Яркое лазурное перо местной горной синей птицы.",
+
+"ateliercrops_crow_feather.name": "Перо вороны",
+"ateliercrops_crow_feather.description": "Это перо черное, как ночное небо.",
+
+"ateliercrops_lovebird_feather.name": "Перо неразлучника",
+"ateliercrops_lovebird_feather.description": "Разноцветное перо неразлучника.",
+
+"ateliercrops_owl_feather.name": "Перо полярной совы",
+"ateliercrops_owl_feather.description": "Величественное белое перо большой полярной совы.",
+
+"ateliercrops_phoenix_feather.name": "Перо феникса",
+"ateliercrops_phoenix_feather.description": "Потрясающее малиновое перо феникса, скорее всего, потерянное во время его трансформации.",
+
+"ateliercrops_raven_feather.name": "Перо ворона",
+"ateliercrops_raven_feather.description": "Темно-фиолетовое перо ворона — отличная находка для алхимика или ведьмы.",
+
+"ateliercrops_rosefinch_feather.name": "Перо зяблика",
+"ateliercrops_rosefinch_feather.description": "Ярко-розовое перо розового зяблика.",
+
+"ateliercrops_starling_feather.name": "Фиолетовое перо скворца",
+"ateliercrops_starling_feather.description": "Скворцы с фиолетовой спиной почти того же цвета, что и иридиевая руда, поэтому их перья являются ценным сокровищем среди собирателей.",
+
+
+//FORAGE
+
+"ateliercrops_fire_dragon_scale.name": "Чешуя огненного дракона",
+"ateliercrops_fire_dragon_scale.description": "Мерцающая драконья чешуя, упавшая с мифического огненного дракона.",
+
+"ateliercrops_clover.name": "Скрытая удача",
+"ateliercrops_clover.description": "Редкий четырехлистный клевер.",
+
+"ateliercrops_mandrake.name": "Корень мандрагоры",
+"ateliercrops_mandrake.description": "Странный корень, который выглядит почти разумным? Легенда гласит, что он будет визжать, если его вытащить из земли, поэтому мудрые ведьмы надевают затычки для ушей, когда ищут его.",
+
+"ateliercrops_ice_dragon_scale.name": "Чешуя Туманного Дракона",
+"ateliercrops_ice_dragon_scale.description": "Мерцающая драконья чешуя, упавшая с мифического морского дракона.",
+
+"ateliercrops_shooting_star.name": "Падающая звезда",
+"ateliercrops_shooting_star.description": "Упавшая звезда! Поистине редкая и великолепная находка для ведьмы или волшебника-собирателя.",
+
+"ateliercrops_unicorn_horn.name": "Рог единорога",
+"ateliercrops_unicorn_horn.description": "Рог, сброшенный молодым единорогом; редкая и ценная находка для любой ведьмы или волшебника.",
+
+//TREE SAPLINGS
+
+"ateliercrops_chiffon_sapling.name": "Саженец синей пеларгонии",
+"ateliercrops_chiffon_sapling.description": "Становится взрослой пеларгонией через 28 дней. Приносит урожай осенью. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_daisy_sapling.name": "Саженец ползучей маргаритки",
+"ateliercrops_daisy_sapling.description": "Становится взрослой ползучей маргариткой через 28 дней. Приносит урожай весной. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_dawn_sapling.name": "Саженец рассветной лилии",
+"ateliercrops_dawn_sapling.description": "Становится взрослой лилией через 28 дней. Приносит урожай летом. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_dusk_sapling.name": "Саженец сумеречной лилии",
+"ateliercrops_dusk_sapling.description": "Становится взрослой лилией через 28 дней. Приносит урожай летом. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_geranium_sapling.name": "Саженец ангельской герани",
+"ateliercrops_geranium_sapling.description": "Становится взрослой геранью через 28 дней. Приносит урожай осенью. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_primrose_sapling.name": "Саженец Кварцевого первоцвета",
+"ateliercrops_primrose_sapling.description": "Становится взрослым первоцветом через 28 дней. Приносит урожай осенью. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_violet_sapling.name": "Саженец луговой фиалки",
+"ateliercrops_violet_sapling.description": "Становится взрослой фиалкой через 28 дней. Приносит урожай весной. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_mysteria_sapling.name": "Саженец мистерии",
+"ateliercrops_mysteria_sapling.description": "Становится взрослой мистерией через 28 дней. Приносит урожай весной. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+
+//SWEET TREE SAPLINGS
+
+"ateliercrops_pavlova_sapling.name": "Саженец Павлова",
+"ateliercrops_pavlova_sapling.description": "Становится взрослым деревом Павлова через 28 дней. Приносит урожай весной и летом. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_gelato_sapling.name": "Саженец мороженого",
+"ateliercrops_gelato_sapling.description": "Становится взрослым деревом мороженого через 28 дней. Приносит урожай летом и зимой. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_souffle_sapling.name": "Саженец суфле",
+"ateliercrops_souffle_sapling.description": "Становится взрослым Деревом-суфле через 28 дней. Приносит урожай летом и осенью. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_brulee_sapling.name": "Саженец крем-брюле",
+"ateliercrops_brulee_sapling.description": "Становится взрослым деревом крем-брюле через 28 дней. Приносит урожай осенью и зимой. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+"ateliercrops_buttercream_sapling.name": "Саженец сливочного дерева",
+"ateliercrops_buttercream_sapling.description": "Становится взрослым сливочным деревом через 28 дней. Приносит урожай весной и летом. Растет только если 8 \"клеток\" вокруг него не заняты.",
+
+//MUSHROOM TREES
+
+"ateliercrops_MysticTrumpet_seeds.name":"Семя мистического вороночника",
+"ateliercrops_MysticTrumpet_seeds.description":"Зачарованное семя, из которого может вырасти большое грибное дерево.",
+
+"ateliercrops_StrangeCap_seeds.name":"Семя странного чернильного гриба",
+"ateliercrops_StrangeCap_seeds.description":"Зачарованное семя, из которого может вырасти большое грибное дерево.",
+
+"ateliercrops_WitchwoodTree_seeds.name":"Семя ведьминого дерева",
+"ateliercrops_WitchwoodTree_seeds.description":"Зачарованное семя, из которого может вырасти большое грибное дерево.",
+
+
+//FLOWER SEEDS
+
+"ateliercrops_arctic_fox_seeds.name": "Семена лисьей наперстянки",
+"ateliercrops_arctic_fox_seeds.description": "Сажайте весной или летом. Вырастают через 20 дней.",
+
+"ateliercrops_avalune_seeds.name": "Семена авалуна",
+"ateliercrops_avalune_seeds.description": "Сажайте весной или летом. Вырастают через 12 дней.",
+
+"ateliercrops_puffball_seeds.name": "Семена волшебного одуванчика",
+"ateliercrops_puffball_seeds.description": "Сажайте весной. Через 12 дней вырастает одуванчик, даст следующий урожай через 5 дней.",
+
+"ateliercrops_maiden_seeds.name": "Семена лунного Мэйдена",
+"ateliercrops_maiden_seeds.description": "Сажайте весной. Вырастают через 5 дней.",
+
+"ateliercrops_pixies_breath_seeds.name": "Семена дыхания пикси",
+"ateliercrops_pixies_breath_seeds.description": "Сажайте осенью. Через 14 дней вырастает дыхание пикси, продолжает давать цветы после первого сбора урожая каждые 3 дня.",
+
+//FRUIT SEEDS
+
+"ateliercrops_amber_moondrop_seeds.name": "Черенки Янтарной Лунной Капли",
+"ateliercrops_amber_moondrop_seeds.description": "Сажайте весной или летом. Вырастают через 21 день, затем плодоносят каждые 4 дня.",
+
+"ateliercrops_lapis_moondrop_seeds.name": "Черенки Лазурной Лунной Капли",
+"ateliercrops_lapis_moondrop_seeds.description": "Сажайте летом или осенью. Вырастают через 21 день, затем  плодоносят каждые 4 дня.",
+
+"ateliercrops_jade_moondrop_seeds.name": "Черенки Нефритовой Лунной Капли",
+"ateliercrops_jade_moondrop_seeds.description": "Сажайте летом или осенью. Вырастают через 21 день, затем плодоносят каждые 4 дня.",
+
+"ateliercrops_pearl_moondrop_seeds.name": "Черенки Жемчужной Лунной Капли",
+"ateliercrops_pearl_moondrop_seeds.description": "Сажайте зимой, чтобы собрать урожай весной. Вырастают через 21 день, затем плодоносят каждые 4 дня.",
+
+//HERB SEEDS
+
+"ateliercrops_rose_flax_seeds.name": "Семена розового льна",
+"ateliercrops_rose_flax_seeds.description": "Сажайте в любое время года. Вырастают через 4 дня. Собирайте урожай косой.",
+
+"ateliercrops_mandrake_seeds.name": "Семена мандрагоры",
+"ateliercrops_mandrake_seeds.description": "Сажайте осенью. Через 10 дней вырастает корень мандрагоры.",
+
+"ateliercrops_mugwort_seeds.name": "Семена полыни",
+"ateliercrops_mugwort_seeds.description": "Сажайте летом или осенью. Через 12 дней вырастает полынь, затем продолжает давать урожай каждые 4 дня.",
+
+"ateliercrops_violet_flax_seeds.name": "Семена фиолетового льна",
+"ateliercrops_violet_flax_seeds.description": "Сажайте в любое время года. Вырастают через 4 дня. Собирайте урожай косой.",
+
+"ateliercrops_thistle_seeds.name": "Семена чертополоха",
+"ateliercrops_thistle_seeds.description": "Сажайте летом или осенью. Через 10 дней вырастает Чертополох, затем продолжает давать урожай каждые 5 дней.",
+
+"ateliercrops_valerian_seeds.name": "Семена валерианы",
+"ateliercrops_valerian_seeds.description": "Сажайте летом. Через 13 дней вырастает валериана, затем продолжает давать урожай каждые 5 дней.",
+
+"ateliercrops_yarrow_seeds.name": "Семена тысячелистника",
+"ateliercrops_yarrow_seeds.description": "Сажайте весной или летом. Вырастают через 12 дней."	
+
+}

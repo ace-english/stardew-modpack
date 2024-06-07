@@ -1,0 +1,80 @@
+{
+	"Changes": [
+		{
+			"LogName": "Temporary Sprites Mermaid A Top",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Mermaids/MermaidA/MermaidA_Top2.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 113, "Height": 70 }
+		},
+		{
+			"LogName": "Temporary Sprites Mermaid A Tail",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Mermaids/MermaidA/MermaidA_Tail4.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 113, "Height": 70 },
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Temporary Sprites Mermaid B Top",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Mermaids/MermaidB/MermaidB_Top3.png",
+			"ToArea": { "X": 192, "Y": 0, "Width": 30, "Height": 32 }
+		},
+		{
+			"LogName": "Temporary Sprites Mermaid C Top",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Mermaids/MermaidC/MermaidC_Top4.png",
+			"ToArea": { "X": 0, "Y": 80, "Width": 251, "Height": 36 }
+		},
+		{
+			"LogName": "Temporary Sprites Mermaid C Tail",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Mermaids/MermaidC/MermaidC_Tail1.png",
+			"ToArea": { "X": 0, "Y": 80, "Width": 251, "Height": 36 },
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Temporary Sprites Mermaid D Top",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Mermaids/MermaidD/MermaidD_Top1.png",
+			"ToArea": { "X": 68, "Y": 190, "Width": 70, "Height": 51 },
+			"When":
+			{
+				"HasMod |contains=PaperNautilus.Isla": false
+			}
+		},
+		{
+			"LogName": "Temporary Sprites Mermaid D Tail",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Mermaids/MermaidD/MermaidD_Tail2.png",
+			"ToArea": { "X": 68, "Y": 190, "Width": 70, "Height": 51 },
+			"PatchMode": "Overlay",
+			"When":
+			{
+				"HasMod |contains=PaperNautilus.Isla": false
+			}
+		},
+		{
+			"LogName": "Temporary Sprites Mermaid E Top",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Mermaids/MermaidE/MermaidE_Top1.png",
+			"ToArea": { "X": 304, "Y": 592, "Width": 192, "Height": 35 }
+		},
+		{
+			"LogName": "Temporary Sprites Mermaid E Tail",
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Art/VanillaNPCs/Mermaids/MermaidE/MermaidE_Tail4.png",
+			"ToArea": { "X": 304, "Y": 592, "Width": 192, "Height": 35 },
+			"PatchMode": "Overlay"
+		}
+	]
+}
+	

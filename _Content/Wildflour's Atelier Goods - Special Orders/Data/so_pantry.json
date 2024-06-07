@@ -1,0 +1,462 @@
+{
+  "Changes": [
+
+///////////////
+// DROPBOXES //
+///////////////
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Hospital",
+      "MapTiles": [
+                  {
+                  "Position": { "X": 2, "Y": 4},
+                  "Layer": "Buildings",
+                  "SetProperties": { "Action": "DropBox HarveyClinic"}
+                  }		
+          ]
+      },
+
+      {
+      "Action": "EditMap",
+      "Target": "Maps/JoshHouse",
+      "MapTiles": [
+      {
+       "Position": { "X": 19, "Y": 22},
+       "Layer": "Buildings",
+       "SetProperties": { "Action": "DropBox MullnerHouse"}
+      }		
+          ]
+      },
+
+/////////////////////
+// SPECIAL ORDER 1 //
+/////////////////////
+
+    {
+    "LogName": "Pantry Orders WF CMC",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When": {
+      "Query: {{Atelier.Cauldron/ConfigValue:CMC}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
+      },
+    "Entries": {
+      "wildflour.gourmetpantry_SO_1": {
+        "Name": "{{i18n:gourmetpantry_SO_1.name}}",
+        "Requester": "Pierre",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:gourmetpantry_SO_1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:gourmetpantry_SO_1a.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_lemon_curd",
+                "TargetName": "Pierre"
+              }
+            },        
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:gourmetpantry_SO_1b.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_pumpkin_butter",
+                "TargetName": "Pierre"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:gourmetpantry_SO_1c.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_honey_butter",
+                "TargetName": "Pierre"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:gourmetpantry_SO_1d.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_lime_curd",
+                "Message": "{{i18n:gourmetpantry_SO_1.accept}}",
+                "TargetName": "Pierre"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3360"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Pierre"
+                }
+              }
+          ]
+      },
+      "wildflour.gourmetpantry_SO_2": {
+        "Name": "{{i18n:gourmetpantry_SO_2.name}}",
+        "Requester": "Harvey",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:gourmetpantry_SO_2.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:gourmetpantry_SO_2a.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "HarveyClinic",
+                "DropBoxGameLocation": "Hospital",
+                "DropBoxIndicatorLocation": "2 4",
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_almond_milk"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:gourmetpantry_SO_2b.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "HarveyClinic",
+                "DropBoxGameLocation": "Hospital",
+                "DropBoxIndicatorLocation": "2 4",
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_rice_milk"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:gourmetpantry_SO_2c.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "HarveyClinic",
+                "DropBoxGameLocation": "Hospital",
+                "DropBoxIndicatorLocation": "2 4",
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_coconut_milk"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:gourmetpantry_SO_2d.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "HarveyClinic",
+                "DropBoxGameLocation": "Hospital",
+                "DropBoxIndicatorLocation": "2 4",
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_hazelnut_milk"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "4700"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Harvey"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.gourmetpantry_SO2_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      },
+      "wildflour.gourmetpantry_SO_3": {
+        "Name": "{{i18n:gourmetpantry_SO_3.name}}",
+        "Requester": "Alex",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:gourmetpantry_SO_3.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:gourmetpantry_SO_3.deliver}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "MullnerHouse",
+                "DropBoxGameLocation": "JoshHouse",
+                "DropBoxIndicatorLocation": "19 22",
+                "AcceptedContextTags": "nut_butter_item"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "6000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Alex"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "wildflour.gourmetpantry_SO3_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+      },
+      "wildflour.gourmetpantry_SO_6": {
+        "Name": "{{i18n:gourmetpantry_SO_6.name}}",
+        "Requester": "Evelyn",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:gourmetpantry_SO_6.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:gourmetpantry_SO_6.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_vanilla_extract",
+                "Message": "{{i18n:gourmetpantry_SO_6.accept}}",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+  
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+      "wildflour.gourmetpantry_SO_7": {
+        "Name": "{{i18n:gourmetpantry_SO_7.name}}",
+        "Requester": "Abigail",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:gourmetpantry_SO_7.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:gourmetpantry_SO_7.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.gourmetpantry_olive_oil",
+                "Message": "{{i18n:gourmetpantry_SO_7.accept}}",
+                "TargetName": "Abigail"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+    
+          {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+      "wildflour.gourmetpantry_SO_8": {
+        "Name": "{{i18n:gourmetpantry_SO_8.name}}",
+        "Requester": "Gus",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:gourmetpantry_SO_8.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:gourmetpantry_SO_8.deliver}}",
+              "RequiredCount": "9",
+              "Data": {
+                "AcceptedContextTags": "chocolate_item",
+                "Message": "{{i18n:gourmetpantry_SO_8.accept}}",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "12500"
+              }
+            },
+    
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  },
+
+/////////////////////
+// SPECIAL ORDERS  //
+/////////////////////
+
+{
+  "LogName": "Special Orders Vanilla",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "wildflour.gourmetpantry_SO_4": {
+        "Name": "{{i18n:gourmetpantry_SO_4.name}}",
+        "Requester": "George",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:gourmetpantry_SO_4.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:gourmetpantry_SO_4.deliver}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "MullnerHouse",
+							  "DropBoxGameLocation": "JoshHouse",
+							  "DropBoxIndicatorLocation": "19 21",
+                "AcceptedContextTags": "flour_item, wildflour_pantry",
+                "Message": "{{i18n:gourmetpantry_SO_4.accept}}"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "George"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.gourmetpantry_SO4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    },
+      "wildflour.gourmetpantry_SO_5": {
+        "Name": "{{i18n:gourmetpantry_SO_5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour.gourmetpantry_SO4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:gourmetpantry_SO_5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:gourmetpantry_SO_5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_pantry"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.gourmetpantry_SO5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+}
+
+  ]
+}
+

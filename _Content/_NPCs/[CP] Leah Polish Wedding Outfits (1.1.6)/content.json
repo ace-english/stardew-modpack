@@ -1,0 +1,96 @@
+  {
+    "Format": "2.0.0",
+   
+  "ConfigSchema": {
+	"Leah Wedding Outfit Masculine": {"AllowValues": "true, false",
+	"Default": "false"},
+		},
+
+
+  "DynamicTokens": [
+        {
+            "Name": "WeddingToken",
+            "Value": "",
+        },
+        {
+            "Name": "WeddingToken",
+            "Value": "Wedding_Spring",
+            "When":
+            {
+                "DayEvent": "wedding",
+                "LocationName": "town, temp",
+		"Season": "spring",
+            }
+        },
+        {
+            "Name": "WeddingToken",
+            "Value": "Wedding_Summer",
+            "When":
+            {
+                "DayEvent": "wedding",
+                "LocationName": "town, temp",
+                "Season": "summer",
+            }
+        },
+        {
+            "Name": "WeddingToken",
+            "Value": "Wedding_Fall",
+            "When":
+            {
+                "DayEvent": "wedding",
+                "LocationName": "town, temp",
+                "Season": "fall",
+            }
+        },
+        {
+            "Name": "WeddingToken",
+            "Value": "Wedding_Winter",
+            "When":
+            {
+                "DayEvent": "wedding",
+                "LocationName": "town, temp",
+                "Season": "winter",
+            }
+        },
+    ],
+     "Changes": [
+	{
+            "LogName": "Wedding Sprite Leah",
+            "Action": "EditImage",
+            "Target": "Characters/Leah",
+            "FromFile": "assets/{{Target}}/Leah_{{WeddingToken}}.png",
+	    "When":
+		{
+		"HasFile:{{FromFile}}": true,
+		"Leah Wedding Outfit Masculine": "false",
+		},
+            "Update": "OnLocationChange",  
+			"ToArea":
+            {
+                "X": 0,
+                "Y": 288,
+                "Width": 48,
+                "Height": 32
+            },
+        },
+	{
+            "LogName": "Wedding Sprite Leah - Masculine",
+            "Action": "EditImage",
+            "Target": "Characters/Leah",
+            "FromFile": "assets/{{Target}}_Masculine/Leah_{{WeddingToken}}.png",
+	    "When":
+		{
+		"HasFile:{{FromFile}}": true,
+		"Leah Wedding Outfit Masculine": "true",
+		},
+            "Update": "OnLocationChange",  
+			"ToArea":
+            {
+                "X": 0,
+                "Y": 288,
+                "Width": 48,
+                "Height": 32
+            },
+        }
+    ]
+}

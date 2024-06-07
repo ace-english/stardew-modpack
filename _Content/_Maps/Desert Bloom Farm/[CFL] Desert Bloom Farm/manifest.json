@@ -1,0 +1,27 @@
+{
+    "Name": "Desert Bloom Farm CFL",
+    "Author": "DeLiXx",
+    "Version": "2.0.1",
+    "UniqueID": "DeLiXx.Desert_Bloom_Farm_CFL",
+    "MinimumApiVersion": "2.11.2",
+    "UpdateKeys": [ "Nexus:????" ],
+    "ContentPackFor": {
+        "UniqueID": "DeLiXx.Custom_Farm_Loader",
+		"MinimumVersion": "1.1.2"
+    },
+    "Dependencies":[
+		{
+			"UniqueID": "DeLiXx.Desert_Bloom_Farm",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Pathoschild.ContentPatcher",
+			"IsRequired": true,
+			"MinimumVersion": "1.28.0"
+		},
+		{
+			"UniqueID": "DLX.Bundles",
+			"IsRequired": true
+		}
+    ]
+}
