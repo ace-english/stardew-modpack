@@ -1,0 +1,10 @@
+{
+   "Name": "Bog's Seasonal Junimo Catalogue",
+   "Author": "BogWyytch",
+   "Version": "1.0",
+   "Description": "a seasonal reimagining of the Junimo Catalogue",
+   "UniqueID": "Bogs.SeasonalJunimoCatalogue",
+     "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

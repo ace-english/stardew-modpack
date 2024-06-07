@@ -1,0 +1,1 @@
+To use the Starblue recolor of the mailbox's winter state, copy the png file from the Winter Mailbox - STARBLUE folder into the main assets folder and let it overwrite the original.

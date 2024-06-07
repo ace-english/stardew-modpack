@@ -1,0 +1,12 @@
+{
+    "Name": "Bog's UI Interface",
+    "Author": "BogWyytch",
+    "Version": "1.1.2",
+    "Description": "a custom UI retexture in my style",
+    "UniqueID": "Bos.UIInterface",
+    "UpdateKeys": [ "Nexus:23987" ],
+    "ContentPackFor": 
+	{
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+}

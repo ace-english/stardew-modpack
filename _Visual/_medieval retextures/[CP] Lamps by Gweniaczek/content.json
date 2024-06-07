@@ -1,0 +1,104 @@
+{
+    "Format": "1.24.0",
+	
+	"ConfigSchema": 
+	
+	{
+		"IronLampoption": {"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+						"Default": "4"},
+		"IronFoliage": {"AllowValues": "true, false",
+					"Default": "true"},
+		"WoodLampoption": {"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+						"Default": "9"},
+		"WoodFoliage": {"AllowValues": "true, false",
+					"Default": "true"},
+
+		
+					
+		"RecolorOverwrite": {"AllowValues": "Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, Starblue, VibrantPastoral, WittilyNamed",
+					"AllowBlank": true,
+					"Default": "",
+					"Description": " Change ONLY when you want to change automaticaly matched recolor palette" },
+	},
+	
+	"DynamicTokens": [
+	
+	//checking what recolor is used
+		{
+		"Name": "recolor",
+		"Value": "Vanilla",
+		},
+		{
+		"Name": "recolor",
+		"Value": "DNEarthyRecolour",
+			"When": { "HasMod": "DaisyNiko.EarthyRecolour" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "Eemie's",
+			"When": { "HasMod": "minervamaga.CP.eemieMapRecolour" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "FoliageRedone",
+			"When": { "HasMod": "stardewfoliageredone" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "Starblue",
+			"When": { "HasMod": "Lita.StarblueValley" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "VibrantPastoral",
+			"When": { "HasMod": "grapeponta.VibrantPastoralRecolor" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "WittilyNamed",
+			"When": { "HasMod": "Acerbicon.Recolor" },
+		},
+
+	//recolor overwrite
+		{
+		"Name": "recolor",
+		"Value": "{{RecolorOverwrite}}",
+			"When": { "RecolorOverwrite |contains=Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, Starblue, VibrantPastoral, WittilyNamed": true },
+		},
+	],
+	
+    "Changes": [
+		{
+		"LogName": "Wood lamp main",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/{{WoodFoliage}}/{{WoodLampoption}}_{{season}}.png",
+		"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32 },
+		},
+		{
+		"LogName": "Iron lamp main",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/{{IronFoliage}}/{{IronLampoption}}_{{season}}.png",
+		"ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 32 },
+		},
+		{
+		"LogName": "Wood lamp island",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/{{WoodFoliage}}/{{WoodLampoption}}_summer.png",
+		"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+		{
+		"LogName": "Iron lamp island",
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/{{recolor}}/{{IronFoliage}}/{{IronLampoption}}_summer.png",
+		"ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		}
+     ]
+}

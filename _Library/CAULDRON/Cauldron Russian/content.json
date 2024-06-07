@@ -1,0 +1,136 @@
+{
+        "Format": "2.0.0",
+                "Changes": [
+                {
+                        "Action": "EditData",
+                        "Target": "Atelier.Cauldron/Translations",
+                        "Entries":
+                        {
+                                "ru-RU":
+                                {
+                                
+                                "GMCM.PageTitle.0": "Глобальные настройки",
+                                "GMCM.PageTitle.1": "Совместимость",
+                                "GMCM.PageTitle.2": "Специальные заказы",
+                                "GMCM.PageTitle.3": "Настройки отгрузки",
+                                "GMCM.PageTitle.4": "Настройки секретных локаций для собирательства",
+        
+                                "GMCM.Title.WildFoodEnable.Name": "Wild Food",
+                                "GMCM.Options.WildFood.Name": "Включено",
+                                "GMCM.Options.WildFood.ToolTip": "Включает урожай и культуры сосредоточенные на съедобных травах, фруктах, орехах и так далее.",
+        
+                                "GMCM.Title.WildFoodShip.Name": "Добавить в коллекцию отгруженных товаров",
+                                "GMCM.Options.WildFoodShipment.Name": "Включено",
+                                "GMCM.Options.FaerieGardenShipment.Name": "Включено",
+        
+                                "GMCM.Title.FaerieGardenShip.Name": "Добавить в коллекцию отгруженных товаров",
+                                "GMCM.Title.FaerieGardenEnable.Name": "Faerie Garden",
+                                "GMCM.Options.FaerieGarden.Name": "Включено",
+                                "GMCM.Options.FaerieGarden.ToolTip": "Включает урожай и культуры сосредоточенные на волшебных фруктах, цветах, грибах и так далее.",
+        
+                                "GMCM.Title.CategoryOverrideEnable.Name": "Перераспределение категорий",
+                                "GMCM.Options.CategoryOverride.Name": "Включено",
+                                "GMCM.Options.CategoryOverride.ToolTip": "Включает более точные категории для таких предметов, как грибы, травы и т.д. Требуется мод Calcifer",
+        
+                                "GMCM.Title.VanillaTweaksEnable.Name": "Семена в ванильном стиле",
+                                "GMCM.Options.VanillaTweaks.Name": "Включено",
+                                "GMCM.Options.VanillaTweaks.ToolTip": "Позволяет семенам и саженцам соответствовать ванильному стилю",
+        
+                                "GMCM.Options.SpecialOrders.Name": "Специальные заказы",
+                                "GMCM.Options.SpecialOrders.ToolTip": "Включает специальные заказы, соответствующие новым предметам этого мода. По умолчанию True.",
+        
+                                "GMCM.Title.EasyRecipesEnable.Name": "Простые рецепты",      
+                                "GMCM.Options.EasyRecipes.Name": "Включено",
+                                "GMCM.Options.EasyRecipes.ToolTip": "Установите значение true, если вы хотите, чтобы рецепты устройств были известны изначально. В противном случае игрок узнает рецепты от горожан. По умолчанию False.",
+        
+                                "GMCM.Options.ShippingCollection.Name": "Включить в коллекцию отгруженных товаров",
+                                "GMCM.Options.ShippingCollection.ToolTip": "Установите значение false, если вы не хотите, чтобы предметы требовались для достижения совершенства или коллекции отгруженных товаров. По умолчанию True.",
+        
+                                "GMCM.Title.MachineColorEnable.Name": "Выберите цвет устройств",
+                                "GMCM.Options.MachineColor.Name": "Цвет устройств",
+                                "GMCM.Options.MachineColor.ToolTip": "Выберите цветовую схему для ремесленных устройств. По умолчанию базовый.",
+                                
+                                "GMCM.Options.Base.Name": "Базовый",
+                                "GMCM.Options.Black.Name": "Черный",
+                                "GMCM.Options.Blue.Name": "Синий",
+                                "GMCM.Options.Cream.Name": "Кремовый",
+                                "GMCM.Options.Mint.Name": "Мятный",
+                                "GMCM.Options.Mocha.Name": "Мокко",
+                                "GMCM.Options.Pink.Name": "Розовый",
+                                "GMCM.Options.Purple.Name": "Фиолетовый",
+                                
+                                "GMCM.Title.QLCompatEnable.Name": "Quaint Living",
+                                "GMCM.Options.QL.Name": "Включить совместимость",
+                                "GMCM.Options.QL.ToolTip": "Установите значение true, чтобы позволить устройствам использовать цветы из Quaint Living и создавать новые предметы. По умолчанию True.",
+                        
+                                "GMCM.Title.SMCompatEnable.Name": "Serene Meadow",
+                                "GMCM.Options.SM.Name": "Включить совместимость",
+                                "GMCM.Options.SM.ToolTip": "Установите значение true, чтобы позволить устройствам использовать цветы из Serene Meadow и создавать новые предметы. По умолчанию True.",
+                        
+                                "GMCM.Title.VMVCompatEnable.Name": "Visit Mt Vapius",
+                                "GMCM.Options.VMV.Name": "Включить совместимость",
+                                "GMCM.Options.VMV.ToolTip": "Установите значение true, чтобы позволить устройствам использовать цветы из Visit Mt. Vapius и создавать новые предметы. По умолчанию True.",
+                                
+                                "GMCM.Title.CMCCompatEnable.Name": "Cornucopia More Crops",
+                                "GMCM.Options.CMC.Name": "Включить совместимость",
+                                "GMCM.Options.CMC.ToolTip": "Установите значение true, чтобы позволить устройствам использовать культуры из Cornucopia More Crops и создавать новые предметы. По умолчанию True.",
+                        
+                                "GMCM.Title.CMFCompatEnable.Name": "Cornucopia More Flowers",
+                                "GMCM.Options.CMF.Name": "Включить совместимость",
+                                "GMCM.Options.CMF.ToolTip": "Установите значение true, чтобы позволить устройствам использовать цветы из Cornucopia More Flowers и создавать новые предметы. По умолчанию True.",
+                             
+                                "GMCM.Title.AlesMeadsShip.Name": "Brewer",
+                                "GMCM.Options.AlesMeadsShipment.Name": "Включить в коллекцию отгруженных товаров",
+                                "GMCM.Title.SOAlesMeadsEnable.Name":"Brewer",
+                                "GMCM.Options.SOAlesMeads.Name": "Включить специальные заказы",
+                                
+                                "GMCM.Title.BeveragesShip.Name": "Barista: Cold",
+                                "GMCM.Options.BeveragesShipment.Name": "Включить в коллекцию отгруженных товаров",
+                                "GMCM.Title.SOBeveragesEnable.Name":"Barista: Cold",
+                                "GMCM.Options.SOBeverages.Name": "Включить специальные заказы",
+                                
+                                "GMCM.Title.CandyShip.Name": "Confectioner: Sweet",
+                                "GMCM.Options.CandyShipment.Name": "Включить в коллекцию отгруженных товаров",
+                                "GMCM.Title.SOCandyEnable.Name":"Confectioner: Sweet",
+                                "GMCM.Options.SOCandy.Name": "Включить специальные заказы",
+                                
+                                "GMCM.Title.BaristaShip.Name": "Barista: Hot",
+                                "GMCM.Options.BaristaShipment.Name": "Включить в коллекцию отгруженных товаров",
+                                "GMCM.Title.SOBaristaEnable.Name":"Barista: Hot",
+                                "GMCM.Options.SOBarista.Name": "Включить специальные заказы",
+        
+                                "GMCM.Title.FloralShip.Name": "Florist",
+                                "GMCM.Options.FloralShipment.Name": "Включить в коллекцию отгруженных товаров",
+                                "GMCM.Title.SOFloralEnable.Name":"Florist",
+                                "GMCM.Options.SOFloral.Name": "Включить специальные заказы",
+                                
+                                "GMCM.Title.FrozenShip.Name": "Confectioner: Frozen",
+                                "GMCM.Options.FrozenShipment.Name": "Включить в коллекцию отгруженных товаров",
+                                "GMCM.Title.SOFrozenEnable.Name":"Confectioner: Frozen",
+                                "GMCM.Options.SOFrozen.Name": "Включить специальные заказы",
+                                
+                                "GMCM.Title.MakeupShip.Name": "Cosmetologist",
+                                "GMCM.Options.MakeupShipment.Name": "Включить в коллекцию отгруженных товаров",
+                                "GMCM.Title.SOMakeupEnable.Name":"Cosmetologist",
+                                "GMCM.Options.SOMakeup.Name": "Включить специальные заказы",
+                                
+                                "GMCM.Options.SOJams.Name": "Включить специальные заказы",
+                                "GMCM.Title.SOJamsEnable.Name":"Canner",
+                                "GMCM.Options.SOPickles.Name": "Включено",
+                                
+                                "GMCM.Title.PantryShip.Name": "Gourmand",
+                                "GMCM.Options.PantryShipment.Name": "Включить в коллекцию отгруженных товаров",
+                                "GMCM.Title.SOPantryEnable.Name":"Gourmand",
+                                "GMCM.Options.SOPantry.Name": "Включить специальные заказы",
+                                
+                                "GMCM.Title.ShippingCollection.Name": "Включить предметы в коллекцию отгруженных товаров",
+                                "GMCM.Title.SpecialOrders.Name": "Включить специальные заказы",
+        
+                                "GMCM.Title.PresentLocations.Name": "Сделать ВСЕ локации доступными",
+                                "GMCM.Options.PresentLocationsConfig.Name": "Включено",
+                                "GMCM.Options.PresentLocationsConfig.ToolTip": "Установите значение true, чтобы секретные локации для собирательства были доступны всегда, вместо того, чтобы открывать их с помощью повышения уровня навыков и дружбы. По умолчанию False."
+                        }       
+                }
+        }
+        ]
+        }

@@ -1,0 +1,10 @@
+{
+   "Name": "Bog's Witchy Silo",
+   "Author": "BogWyytch",
+   "Version": "1.0",
+   "Description": "a witchy smaller silo for your farm.",
+   "UniqueID": "Bogs.WitchySilo",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

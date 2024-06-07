@@ -1,0 +1,200 @@
+{
+	"Format": "1.23.0",
+
+	"ConfigSchema": {
+		
+		"ShipBinoption":{"AllowValues": "1, 2",
+					"Default": "1"},
+		"ShipBinExtra":{"AllowValues": "steel, trellis, moss, flowers",
+					"AllowMultiple": true,
+					"AllowBlank": true,
+					"Default": "trellis, moss, flowers"},
+		"ShipBinReplace":{"AllowValues": "true, false",
+					"Default": "true"},
+		
+		"FallColor":{"AllowValues": "1, 2",
+					"Default": "1",
+					"Description": "To match recolor mods that have that option -> green(1) orange(2)" },
+		"RecolourOverwrite":{"AllowValues": "Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, Starblue, VibrantPastoral, WittilyNamed",
+					"AllowBlank": true,
+					"Default": "",
+					"Description": "If you want to manually change recolor palette" },
+	},
+	
+	"DynamicTokens": [
+	//checking what recolour is used
+		{
+		"Name": "Recolour",
+		"Value": "Vanilla",
+		},
+		{
+		"Name": "Recolour",
+		"Value": "DNEarthyRecolour",
+			"When": { "HasMod": "DaisyNiko.EarthyRecolour" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "Eemie's",
+			"When": { "HasMod": "minervamaga.CP.eemieMapRecolour" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "FoliageRedone",
+			"When": { "HasMod": "stardewfoliageredone" },
+		},{
+		"Name": "Recolour",
+		"Value": "Starblue",
+			"When": { "HasMod": "Lita.StarblueValley" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "VibrantPastoral",
+			"When": { "HasMod": "grapeponta.VibrantPastoralRecolor" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "WittilyNamed",
+			"When": { "HasMod": "Acerbicon.Recolor" },
+		},
+
+	//recolor overwrite
+		{
+		"Name": "Recolour",
+		"Value": "{{RecolourOverwrite}}",
+			"When": { "RecolourOverwrite |contains=Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, FoliageRedoneReshade, Starblue, VibrantPastoral, WittilyNamed": true },
+		},
+	//fall color overwrite
+		{
+		"Name": "Recolour",
+		"Value": "{{Recolour}}/{{FallColor}}",
+			"When": { "Recolour |contains=Eemie's, VibrantPastoral": true,
+					"Season": "fall" },
+		},
+	],
+	
+	"Changes": [
+
+//Shipping Bin
+	//base
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Shipping Bin",
+        "FromFile": "assets/base/{{ShipBinoption}}_b.png",
+			"When": { "ShipBinReplace": "true" },
+        },
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/base/{{ShipBinoption}}_{{ShipBinExtra |contains=trellis}}.png",
+			"ToArea": { "X": 134, "Y": 226, "Width": 390, "Height": 25 },
+			"When": { "ShipBinReplace": "true" },
+        },
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/base/{{ShipBinoption}}_ca.png",
+			"ToArea": { "X": 526, "Y": 218, "Width": 100, "Height": 22 },
+			"When": { "ShipBinReplace": "true" },
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Maps/island_tilesheet_1",
+        "FromFile": "assets/base/{{ShipBinoption}}_o.png",
+			"ToArea": { "X": 192, "Y": 720, "Width": 32, "Height": 32 },
+			"When": { "ShipBinReplace": "true" },
+        },
+	//trellis
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "Buildings/Shipping Bin",
+        "FromFile": "assets/trellis/{{ShipBinoption}}_b.png",
+			"When": { "ShipBinReplace": "true",
+					"ShipBinExtra": "trellis" },
+		},
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "Maps/island_tilesheet_1",
+        "FromFile": "assets/trellis/{{ShipBinoption}}_o.png",
+			"ToArea": { "X": 192, "Y": 720, "Width": 32, "Height": 32 },
+			"When": { "ShipBinReplace": "true",
+					"ShipBinExtra": "trellis" },
+        },
+	//metal
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "Buildings/Shipping Bin",
+        "FromFile": "assets/steel/{{ShipBinoption}}_b.png",
+			"When": { "ShipBinReplace": "true",
+					"ShipBinExtra": "steel" },
+		},
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/steel/{{ShipBinoption}}_cl.png",
+			"ToArea": { "X": 134, "Y": 226, "Width": 390, "Height": 25 },
+			"When": { "ShipBinReplace": "true",
+					"ShipBinExtra": "steel" },
+		},
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "Maps/island_tilesheet_1",
+        "FromFile": "assets/steel/{{ShipBinoption}}_o.png",
+			"ToArea": { "X": 192, "Y": 720, "Width": 32, "Height": 32 },
+			"When": { "ShipBinReplace": "true",
+					"ShipBinExtra": "steel" },
+        },
+	//moss
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "Buildings/Shipping Bin",
+        "FromFile": "assets/{{Recolour}}/{{ShipBinoption}}/b_{{season}}_{{ShipBinExtra |contains=trellis}}.png",
+			"When": { "ShipBinReplace": "true",
+					"ShipBinExtra": "moss" },
+		},
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "Maps/island_tilesheet_1",
+        "FromFile": "assets/{{Recolour}}/{{ShipBinoption}}/o_summer_{{ShipBinExtra |contains=trellis}}.png",
+			"ToArea": { "X": 192, "Y": 720, "Width": 32, "Height": 32 },
+			"When": {"ShipBinReplace": "true",
+					"ShipBinExtra": "moss" },
+        },
+	//flowers
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "Buildings/Shipping Bin",
+        "FromFile": "assets/{{Recolour}}/{{season}}_{{ShipBinoption}}_less.png",
+			"FromArea": { "X": 96, "Y": 0, "Width": 32, "Height": 32 },
+			"When": { "ShipBinReplace": "true",
+					"ShipBinExtra": "flowers" },
+		},
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "Maps/island_tilesheet_1",
+        "FromFile": "assets/{{Recolour}}/summer_{{ShipBinoption}}_less.png",
+			"FromArea": { "X": 32, "Y": 0, "Width": 32, "Height": 32 },
+			"ToArea": { "X": 192, "Y": 720, "Width": 32, "Height": 32 },
+			"When": { "ShipBinReplace": "true",
+					"ShipBinExtra": "flowers" },
+        },
+	//snow
+		{
+        "Action": "EditImage",
+			"PatchMode": "Overlay",
+        "Target": "Buildings/Shipping Bin",
+        "FromFile": "assets/{{Recolour}}/winter_{{ShipBinoption}}_less.png",
+			"FromArea": { "X": 64, "Y": 0, "Width": 32, "Height": 32 },
+			"When": { "ShipBinReplace": "true",
+					"season": "winter"},
+		},
+     ]
+}

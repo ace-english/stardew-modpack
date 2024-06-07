@@ -1,0 +1,50 @@
+{
+    "Format": "2.0.0",
+
+    "ConfigSchema": {
+      "AllowSeasonalChanges": {
+        "AllowValues": "true, false",
+        "Default": "true"  
+      },
+      "ChooseSeason": {
+        "AllowValues": "spring, summer, fall, winter",
+        "Default": "spring"
+      }
+    },
+
+    "DynamicTokens": [
+      {
+         "Name": "SeasonalChanges",
+         "Value": "{{season}}",
+         "When": {
+           "AllowSeasonalChanges": "true"
+         }
+      },
+      {
+         "Name": "SeasonalChanges",
+         "Value": "{{ChooseSeason}}",
+         "When": {
+           "AllowSeasonalChanges": "false"
+         }
+      }
+    ],
+    "Changes": [
+
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/junimo_furniture",
+          "FromFile": "assets/{{SeasonalChanges}}JunimoFurniture.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 208, "Height": 432 },
+          "ToArea": { "X": 0, "Y": 0, "Width": 208, "Height": 432 },
+          "PatchMode": "replace",
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/junimo_furnitureFront",
+          "FromFile": "assets/{{SeasonalChanges}}Front.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 208, "Height": 320 },
+          "ToArea": { "X": 0, "Y": 0, "Width": 208, "Height": 320 },
+          "PatchMode": "replace",
+       }
+    ],
+} 

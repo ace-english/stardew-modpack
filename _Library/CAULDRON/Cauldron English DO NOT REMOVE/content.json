@@ -1,0 +1,179 @@
+{
+        "Format": "2.0.0",
+                "Changes": [
+                {
+                        "Action": "EditData",
+                        "Target": "Atelier.Cauldron/Translations",
+                        "Entries":
+                        {
+                                "en":
+                                {
+                                
+                                "GMCM.PageTitle.0": "Global Options",
+                                "GMCM.PageTitle.1": "Compatibility",
+                                "GMCM.PageTitle.2": "Special Orders",
+                                "GMCM.PageTitle.3": "Shipping Options",
+                                "GMCM.PageTitle.4": "Secret Forage Locations Options",
+                                "GMCM.PageTitle.5": "H&W Freshly Baked",
+
+                                "GMCM.Title.WildFoodEnable.Name": "Wild Food",
+                                "GMCM.Options.WildFood.Name": "Enable",
+                                "GMCM.Options.WildFood.ToolTip": "Enables crops and forage focused on edible herbs, fruits, nuts etc'.",
+        
+                                "GMCM.Title.WildFoodShip.Name": "Add to Shipping Collection",
+                                "GMCM.Options.WildFoodShipment.Name": "Enable",
+                                "GMCM.Options.FaerieGardenShipment.Name": "Enable",
+        
+                                "GMCM.Title.FaerieGardenShip.Name": "Add to Shipping Collection",
+                                "GMCM.Title.FaerieGardenEnable.Name": "Faerie Garden",
+                                "GMCM.Options.FaerieGarden.Name": "Enable",
+                                "GMCM.Options.FaerieGarden.ToolTip": "Enables crops and forage focused on magical fruit, flowers, mushrooms etc.",
+        
+                                "GMCM.Title.CategoryOverrideEnable.Name": "Category Override",
+                                "GMCM.Options.CategoryOverride.Name": "Enable",
+                                "GMCM.Options.CategoryOverride.ToolTip": "Enables more detailed categories for items like mushrooms, herbs etc. Requires the mod Calcifer.",
+        
+                                "GMCM.Title.VanillaTweaksEnable.Name": "Vanilla Tweaks Style Seeds",
+                                "GMCM.Options.VanillaTweaks.Name": "Enable",
+                                "GMCM.Options.VanillaTweaks.ToolTip": "Enables seeds and saplings to match Vanilla Tweaks style.",
+        
+                                "GMCM.Options.SpecialOrders.Name": "Special Orders",
+                                "GMCM.Options.SpecialOrders.ToolTip": "Enables special orders that correspond to this mod's new items. True by default.",
+        
+                                "GMCM.Title.EasyRecipesEnable.Name": "Easy Recipes",      
+                                "GMCM.Options.EasyRecipes.Name": "Enable",
+                                "GMCM.Options.EasyRecipes.ToolTip": "Set to true if you want machine recipes to be known immediately. Otherwise player learns recipes from NPCS. False by default.",
+        
+                                "GMCM.Options.ShippingCollection.Name": "Enable Shipping Collection",
+                                "GMCM.Options.ShippingCollection.ToolTip": "Set to false if you do not want enabled items to be required for perfection or shipping achievement. True by default.",
+        
+                                "GMCM.Title.MachineColorEnable.Name": "Choose Machine Color",
+                                "GMCM.Options.MachineColor.Name": "Machine Color",
+                                "GMCM.Options.MachineColor.ToolTip": "Choose a color scheme for artisanal machines. Defaults to base.",
+                                
+                                "GMCM.Options.Base.Name": "Base",
+                                "GMCM.Options.Black.Name": "Black",
+                                "GMCM.Options.BlackWhite.Name": "Black & White",
+                                "GMCM.Options.Dark.Name": "Dark",
+                                "GMCM.Options.Blue.Name": "Blue",
+                                "GMCM.Options.Cream.Name": "Cream",
+                                "GMCM.Options.Mint.Name": "Mint",
+                                "GMCM.Options.Mocha.Name": "Mocha",
+                                "GMCM.Options.Pink.Name": "Pink",
+                                "GMCM.Options.Purple.Name": "Purple",
+                                
+                                "GMCM.Title.QLCompatEnable.Name": "Quaint Living",
+                                "GMCM.Options.QL.Name": "Enable Compatibility",
+                                "GMCM.Options.QL.ToolTip": "Set to true to enable machine rules to accept Quaint Living's flowers and add new items. True by default.",
+                        
+                                "GMCM.Title.SMCompatEnable.Name": "Serene Meadow",
+                                "GMCM.Options.SM.Name": "Enable Compatibility",
+                                "GMCM.Options.SM.ToolTip": "Set to true to enable machine rules to accept Serene Meadow's flowers and add new items. True by default.",
+                        
+                                "GMCM.Title.VMVCompatEnable.Name": "Visit Mt Vapius",
+                                "GMCM.Options.VMV.Name": "Enable Compatibility",
+                                "GMCM.Options.VMV.ToolTip": "Set to true to enable machine rules to accept Visit Mt. Vapius's flowers and add new items. True by default.",
+                                
+                                "GMCM.Title.CMCCompatEnable.Name": "Cornucopia More Crops",
+                                "GMCM.Options.CMC.Name": "Enable Compatibility",
+                                "GMCM.Options.CMC.ToolTip": "Set to true to enable machine rules to accept Cornucopia More Crops's crops and add new items. True by default.",
+                        
+                                "GMCM.Title.CMFCompatEnable.Name": "Cornucopia More Flowers",
+                                "GMCM.Options.CMF.Name": "Enable Compatibility",
+                                "GMCM.Options.CMF.ToolTip": "Set to true to enable machine rules to accept Cornucopia More Flowers's flowers and add new items. True by default.",
+                             
+                                "GMCM.Title.AlesMeadsShip.Name": "Brewer",
+                                "GMCM.Options.AlesMeadsShipment.Name": "Enable Shipping Collection",
+                                "GMCM.Title.SOAlesMeadsEnable.Name":"Brewer",
+                                "GMCM.Options.SOAlesMeads.Name": "Enable Special Orders",
+                                
+                                "GMCM.Title.BeveragesShip.Name": "Barista: Cold",
+                                "GMCM.Options.BeveragesShipment.Name": "Enable Shipping Collection",
+                                "GMCM.Title.SOBeveragesEnable.Name":"Barista: Cold",
+                                "GMCM.Options.SOBeverages.Name": "Enable Special Orders",
+                                
+                                "GMCM.Title.CandyShip.Name": "Confectioner: Sweet",
+                                "GMCM.Options.CandyShipment.Name": "Enable Shipping Collection",
+                                "GMCM.Title.SOCandyEnable.Name":"Confectioner: Sweet",
+                                "GMCM.Options.SOCandy.Name": "Enable Special Orders",
+                                
+                                "GMCM.Title.BaristaShip.Name": "Barista: Hot",
+                                "GMCM.Options.BaristaShipment.Name": "Enable Shipping Collection",
+                                "GMCM.Title.SOBaristaEnable.Name":"Barista: Hot",
+                                "GMCM.Options.SOBarista.Name": "Enable Special Orders",
+        
+                                "GMCM.Title.FloralShip.Name": "Florist",
+                                "GMCM.Options.FloralShipment.Name": "Enable Shipping Collection",
+                                "GMCM.Title.SOFloralEnable.Name":"Florist",
+                                "GMCM.Options.SOFloral.Name": "Enable Special Orders",
+                                
+                                "GMCM.Title.FrozenShip.Name": "Confectioner: Frozen",
+                                "GMCM.Options.FrozenShipment.Name": "Enable Shipping Collection",
+                                "GMCM.Title.SOFrozenEnable.Name":"Confectioner: Frozen",
+                                "GMCM.Options.SOFrozen.Name": "Enable Special Orders",
+                                
+                                "GMCM.Title.MakeupShip.Name": "Cosmetologist",
+                                "GMCM.Options.MakeupShipment.Name": "Enable Shipping Collection",
+                                "GMCM.Title.SOMakeupEnable.Name":"Cosmetologist",
+                                "GMCM.Options.SOMakeup.Name": "Enable Special Orders",
+                                
+                                "GMCM.Options.SOJams.Name": "Enable Special Orders",
+                                "GMCM.Title.SOJamsEnable.Name":"Canner",
+                                "GMCM.Options.SOPickles.Name": "Enable",
+                                
+                                "GMCM.Title.PantryShip.Name": "Gourmand",
+                                "GMCM.Options.PantryShipment.Name": "Enable Shipping Collection",
+                                "GMCM.Title.SOPantryEnable.Name":"Gourmand",
+                                "GMCM.Options.SOPantry.Name": "Enable Special Orders",
+                                
+                                "GMCM.Title.ShippingCollection.Name": "Add Items to Shipping Collection",
+                                "GMCM.Title.SpecialOrders.Name": "Enable Special Orders",
+                        
+                                "GMCM.Title.PresentLocations.Name": "Make All Locations Available",
+                                "GMCM.Options.PresentLocationsConfig.Name": "Enable",
+                                "GMCM.Options.PresentLocationsConfig.ToolTip": "Set to true for secret forage locations to always be present, instead of unlocking them by leveling skills and relationships. Defaults to False.",
+
+                                "GMCM.Title.CookingConfig.Name": "Cooking Instead of Crafting",
+                                "GMCM.Options.Cooking.Name": "Enable",
+                                "GMCM.Options.Cooking.ToolTip": "Sets mod to use cooking recipes and not artisan crafting. Requires Wild Food module to work. Defaults to false.",
+                        
+                                "GMCM.Title.ColorSchemeConfig.Name": "Color Scheme",
+                                "GMCM.Options.ColorScheme.Name": "Choose",
+                                "GMCM.Options.ColorScheme.ToolTip": "Choose a color scheme! Defaults to Base.",
+                        
+                                "GMCM.Title.CakesConfig.Name": "Cakes",
+                                "GMCM.Options.Cakes.Name": "Enable",
+                                "GMCM.Options.Cakes.ToolTip": "Adds the craftable cakes and corresponding machine. Defaults to true.",
+                        
+                                "GMCM.Title.TinyCakesConfig.Name": "Tiny Cakes",
+                                "GMCM.Options.TinyCakes.Name": "Enable",
+                                "GMCM.Options.TinyCakes.ToolTip": "Adds the craftable cupcakes, petit fours and corresponding machine. Defaults to true.",
+                        
+                                "GMCM.Title.MuffinsConfig.Name": "Muffins",
+                                "GMCM.Options.Muffins.Name": "Enable",
+                                "GMCM.Options.Muffins.ToolTip": "Adds the craftable muffins, scones and corresponding machine. Defaults to true.",
+                        
+                                "GMCM.Title.BreadsConfig.Name": "Breads",
+                                "GMCM.Options.Breads.Name": "Enable",
+                                "GMCM.Options.Breads.ToolTip": "Adds the craftable breads and corresponding machine. Defaults to true.",
+                        
+                                "GMCM.Title.DoughnutsConfig.Name": "Doughnuts",
+                                "GMCM.Options.Doughnuts.Name": "Enable",
+                                "GMCM.Options.Doughnuts.ToolTip": "Adds the craftable doughnuts, eclairs and corresponding machine. Defaults to true.",
+                        
+                                "GMCM.Title.CookiesConfig.Name": "Cookies",
+                                "GMCM.Options.Cookies.Name": "Enable",
+                                "GMCM.Options.Cookies.ToolTip": "Adds the craftable cookies, macarons, brownies and corresponding machine. Defaults to true.",
+                        
+                                "GMCM.Title.PiesConfig.Name": "Pies",
+                                "GMCM.Options.Pies.Name": "Enable",
+                                "GMCM.Options.Pies.ToolTip": "Adds the craftable pies, tarts and corresponding machine. Defaults to true.",
+                        
+                                "GMCM.Title.PuddingsConfig.Name": "Puddings",
+                                "GMCM.Options.Puddings.Name": "Enable",
+                                "GMCM.Options.Puddings.ToolTip": "Adds the craftable puddings and corresponding machine. Defaults to true."
+                        }       
+                }
+        }
+        ]
+        }

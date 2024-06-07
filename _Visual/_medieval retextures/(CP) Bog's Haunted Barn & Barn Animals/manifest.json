@@ -1,0 +1,11 @@
+{
+   "Name": "Bog's Haunted Barns and Animals",
+   "Author": "BogWytch",
+   "Version": "1.0",
+   "Description": "your barn and animals now are spooky!",
+   "UniqueID": "Bogs.HauntedBarns",
+   "UpdateKeys": [ "Nexus:24652" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

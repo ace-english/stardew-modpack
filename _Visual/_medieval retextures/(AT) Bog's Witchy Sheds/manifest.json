@@ -1,0 +1,11 @@
+﻿{
+  "Name": "[AT] Bogs Witchy Sheds",
+  "Author": "BogWyytch",
+  "Version": "1.0",
+  "Description": "Alternative Textures with 4 different sheds!",
+  "UniqueID": "BogWyytch.WitchySheds",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"Format": "1.24.0",
+	"Changes": [
+		{
+			"Action": "EditImage",
+            "Target": "sophie.ColoredCrystalariums/Overlay",
+            "FromFile": "assets/overlay.png",
+			"When": {
+				"HasMod |contains=Gweniaczek.Medieval_Craftables": true
+			}
+		}
+	]
+}

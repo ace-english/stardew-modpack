@@ -1,0 +1,136 @@
+{
+        "Format": "2.0.0",
+                "Changes": [
+                {
+                        "Action": "EditData",
+                        "Target": "Atelier.Cauldron/Translations",
+                        "Entries":
+                        {
+                                "fr-FR":
+                                {
+                                
+                                "GMCM.PageTitle.0": "Paramètres généraux",
+                                "GMCM.PageTitle.1": "Compatibilité",
+                                "GMCM.PageTitle.2": "Quêtes spéciales",
+                                "GMCM.PageTitle.3": "Paramètres de collection",
+                                "GMCM.PageTitle.4": "Paramètres des lieux de cueillette secrets",
+        
+                                "GMCM.Title.WildFoodEnable.Name": "Wild Food - Délices de la nature",
+                                "GMCM.Options.WildFood.Name": "Activer",
+                                "GMCM.Options.WildFood.ToolTip": "Ajoute des cultures et cueillettes : fruits, fleurs, champignons, fruits à coque...",
+        
+                                "GMCM.Title.WildFoodShip.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Options.WildFoodShipment.Name": "Activer",
+                                "GMCM.Options.FaerieGardenShipment.Name": "Activer",
+        
+                                "GMCM.Title.FaerieGardenShip.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Title.FaerieGardenEnable.Name": "Faerie Garden - Jardin féérique",
+                                "GMCM.Options.FaerieGarden.Name": "Activer",
+                                "GMCM.Options.FaerieGarden.ToolTip": "Ajoute des cultures et cueillettes sur le thème des fées et de la magie.",
+        
+                                "GMCM.Title.CategoryOverrideEnable.Name": "Changement des catégories",
+                                "GMCM.Options.CategoryOverride.Name": "Activer",
+                                "GMCM.Options.CategoryOverride.ToolTip": "Ajoute et change les catégories de certains objets comme les champignons, les aromates, etc. Nécessite le mod Calcifer.",
+        
+                                "GMCM.Title.VanillaTweaksEnable.Name": "Graines style Vanilla Tweaks",
+                                "GMCM.Options.VanillaTweaks.Name": "Activer",
+                                "GMCM.Options.VanillaTweaks.ToolTip": "Les sachets de graines et jeunes arbres reprennent le style du mod Vanilla Tweaks.",
+        
+                                "GMCM.Options.SpecialOrders.Name": "Quêtes spéciales",
+                                "GMCM.Options.SpecialOrders.ToolTip": "Des quêtes nécessitant des objets ajoutés par ce mod apparaissent sur le panneau des quêtes spéciales.",
+        
+                                "GMCM.Title.EasyRecipesEnable.Name": "Plans de fabrication faciles",      
+                                "GMCM.Options.EasyRecipes.Name": "Activer",
+                                "GMCM.Options.EasyRecipes.ToolTip": "Permet de savoir fabriquer les machines du mod par défaut plutôt que de devoir les apprendre grâce aux PNJ.",
+        
+                                "GMCM.Options.ShippingCollection.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Options.ShippingCollection.ToolTip": "Si cette option est désactivée, vous n'aurez pas besoin d'obtenir et/ou expédier les objets du mod pour atteindre le score de perfection ou remplir la collection d'expédition.",
+        
+                                "GMCM.Title.MachineColorEnable.Name": "Choix du coloris",
+                                "GMCM.Options.MachineColor.Name": "Coloris des machines",
+                                "GMCM.Options.MachineColor.ToolTip": "Choix du thème de couleur des machines ajoutées par le mod.",
+                                
+                                "GMCM.Options.Base.Name": "Classique",
+                                "GMCM.Options.Black.Name": "Noir",
+                                "GMCM.Options.Blue.Name": "Bleu",
+                                "GMCM.Options.Cream.Name": "Crème",
+                                "GMCM.Options.Mint.Name": "Menthe",
+                                "GMCM.Options.Mocha.Name": "Café",
+                                "GMCM.Options.Pink.Name": "Rose",
+                                "GMCM.Options.Purple.Name": "Violet",
+                                
+                                "GMCM.Title.QLCompatEnable.Name": "Quaint Living",
+                                "GMCM.Options.QL.Name": "Activer la compatibilité",
+                                "GMCM.Options.QL.ToolTip": "Cette option permet d'utiliser les fleurs du mod Quaint Living avec les machines du mod.",
+                        
+                                "GMCM.Title.SMCompatEnable.Name": "Serene Meadow",
+                                "GMCM.Options.SM.Name": "Activer la compatibilité",
+                                "GMCM.Options.SM.ToolTip": "Cette option permet d'utiliser les fleurs du mod Serene Meadow avec les machines du mod.",
+                        
+                                "GMCM.Title.VMVCompatEnable.Name": "Visit Mt Vapius",
+                                "GMCM.Options.VMV.Name": "Activer la compatibilité",
+                                "GMCM.Options.VMV.ToolTip": "Cette option permet d'utiliser les fleurs du mod Lumisteria Visit Mt Vapius avec les machines du mod.",
+                                
+                                "GMCM.Title.CMCCompatEnable.Name": "Cornucopia More Crops",
+                                "GMCM.Options.CMC.Name": "Activer la compatibilité",
+                                "GMCM.Options.CMC.ToolTip": "Cette option permet d'utiliser les cultures du mod Cornucopia More Crops avec les machines du mod.",
+                        
+                                "GMCM.Title.CMFCompatEnable.Name": "Cornucopia More Flowers",
+                                "GMCM.Options.CMF.Name": "Activer la compatibilité",
+                                "GMCM.Options.CMF.ToolTip": "Cette option permet d'utiliser les fleurs du mod Cornucopia More Flowers avec les machines du mod.",
+                             
+                                "GMCM.Title.AlesMeadsShip.Name": "Brewer - Brasserie",
+                                "GMCM.Options.AlesMeadsShipment.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Title.SOAlesMeadsEnable.Name":"Brewer - Brasserie",
+                                "GMCM.Options.SOAlesMeads.Name": "Activer les quêtes spéciales",
+                                
+                                "GMCM.Title.BeveragesShip.Name": "Barista: Cold - Boissons fraîches",
+                                "GMCM.Options.BeveragesShipment.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Title.SOBeveragesEnable.Name":"Barista: Cold - Boissons fraîches",
+                                "GMCM.Options.SOBeverages.Name": "Activer les quêtes spéciales",
+                                
+                                "GMCM.Title.CandyShip.Name": "Confectioner: Sweet - Confiserie",
+                                "GMCM.Options.CandyShipment.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Title.SOCandyEnable.Name":"Confectioner: Sweet - Confiserie",
+                                "GMCM.Options.SOCandy.Name": "Activer les quêtes spéciales",
+                                
+                                "GMCM.Title.BaristaShip.Name": "Barista: Hot - Thés et cafés",
+                                "GMCM.Options.BaristaShipment.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Title.SOBaristaEnable.Name":"Barista: Hot - Thés et cafés",
+                                "GMCM.Options.SOBarista.Name": "Activer les quêtes spéciales",
+        
+                                "GMCM.Title.FloralShip.Name": "Florist - Fleuriste",
+                                "GMCM.Options.FloralShipment.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Title.SOFloralEnable.Name":"Florist - Fleuriste",
+                                "GMCM.Options.SOFloral.Name": "Activer les quêtes spéciales",
+                                
+                                "GMCM.Title.FrozenShip.Name": "Confectioner: Frozen - Glaces artisanales",
+                                "GMCM.Options.FrozenShipment.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Title.SOFrozenEnable.Name":"Confectioner: Frozen - Glaces artisanales",
+                                "GMCM.Options.SOFrozen.Name": "Activer les quêtes spéciales",
+                                
+                                "GMCM.Title.MakeupShip.Name": "Cosmetologist - Maquillage magique",
+                                "GMCM.Options.MakeupShipment.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Title.SOMakeupEnable.Name":"Cosmetologist - Maquillage magique",
+                                "GMCM.Options.SOMakeup.Name": "Activer les quêtes spéciales",
+                                
+                                "GMCM.Options.SOJams.Name": "Activer les quêtes spéciales",
+                                "GMCM.Title.SOJamsEnable.Name":"Canner - Conserves",
+                                "GMCM.Options.SOPickles.Name": "Activer",
+                                
+                                "GMCM.Title.PantryShip.Name": "Gourmand - Garde-manger gourmet",
+                                "GMCM.Options.PantryShipment.Name": "Ajouter à la collection d'expédition",
+                                "GMCM.Title.SOPantryEnable.Name":"Gourmand - Garde-manger gourmet",
+                                "GMCM.Options.SOPantry.Name": "Activer les quêtes spéciales",
+                                
+                                "GMCM.Title.ShippingCollection.Name": "Ajouter les objets à la collection d'expédition",
+                                "GMCM.Title.SpecialOrders.Name": "Activer les quêtes spéciales",
+        
+                                "GMCM.Title.PresentLocations.Name": "Lieux secrets facilement accessibles",
+                                "GMCM.Options.PresentLocationsConfig.Name": "Activer",
+                                "GMCM.Options.PresentLocationsConfig.ToolTip": "Permet d'accéder à tous les lieux de cueillette secrets dès le début plutôt que de les apprendre en faisant augmenter les compétences et les amitiés."
+                        }       
+                }
+        }
+        ]
+        }

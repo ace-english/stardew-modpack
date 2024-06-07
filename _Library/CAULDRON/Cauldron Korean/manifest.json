@@ -1,0 +1,20 @@
+{
+    "Name": "[CP] Atelier Cauldron Korean Translation Pack",
+	"Author": "Rivieiris",
+	"Version": "1.0",
+	"Description": "Adds Atelier Cauldron Korean translation.",
+	"MinimumApiVersion": "3.6.0",
+	"UniqueID": "wildflour.AtelierKorean.CP",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": 
+    [
+    {
+		"UniqueID": "Atelier.Cauldron",
+		"IsRequired": true,
+    }
+    ]
+}

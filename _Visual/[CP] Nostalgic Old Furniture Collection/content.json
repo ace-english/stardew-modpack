@@ -1,0 +1,32 @@
+{
+    "Format": "2.0.0",
+
+    "ConfigSchema": {
+        "Furniture Mode": 
+            {
+                "Description": "You can use this option to decide how to use this furniture module. There are three options to choose from: 'Replace' will replace the original furniture, and 'Add' will add new furniture that can be purchased. 'Disable' will simple turn off this mod.",
+                "AllowValues": "Replace, Add, Disable",
+                "Default": "Replace",
+                "AllowBlank": false
+            }
+    },
+    
+    "Changes": [
+        //Replace
+        {
+        "LogName": "Nostalgic Furniture Replacemnt",
+        "Action": "Include",
+        "FromFile": "Data/Furniture_Replacement.json",
+        "When": {"Furniture Mode": "Replace"}
+        },
+
+        //Addon
+
+        {
+        "LogName": "Nostalgic Furniture Replacemnt Addon",
+        "Action": "Include",
+        "FromFile": "Data/Furniture_Addon.json",
+        "When": {"Furniture Mode": "Add"}
+        },		
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "[AT] DustBeauty's Industrial Furniture",
+    "Author": "Novaphene",
+    "Version": "4.0",
+    "Description": "AT version for DustBeauty's Industrial Furnitures",
+    "UniqueID": "Novaphene.IndustrialFurniture",
+    "UpdateKeys": ["Nexus:17656"],
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "ItemName": "Shed",
+  "Type": "Building",
+  "Seasons": ["Winter"],
+  "TextureWidth": 112,
+  "TextureHeight": 128,
+  "Keywords": ["seasonal"],
+  "Variations": 4
+}

@@ -1,0 +1,29 @@
+{
+    "Format": "2.0.0",
+    	"Changes":[
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries":{
+
+"SeasonalOpenWindows_2L_Bl": "Open Window 2TL Black/window/-1/-1/1/300/-1/Open Window 2TL Black/0/Tilesheets\\SeasonalOpenWindows_{{season}}_Bl/false/",
+
+"SeasonalOpenWindows_2R_Bl": "Open Window 2TR Black/window/-1/-1/1/300/-1/Open Window 2TR Black/2/Tilesheets\\SeasonalOpenWindows_{{season}}_Bl/false/",
+
+"SeasonalOpenWindows_1_Bl": "Open Window Black/window/-1/-1/1/300/-1/Open Window Black/4/Tilesheets\\SeasonalOpenWindows_{{season}}_Bl/false/",
+
+"SeasonalOpenWindows_3L_Bl": "Open Window 3TL Black/window/-1/-1/1/300/-1/Open Window 3TL Black/6/Tilesheets\\SeasonalOpenWindows_{{season}}_Bl/false/",
+
+"SeasonalOpenWindows_3C_Bl": "Open Window 3TC Black/window/-1/-1/1/300/-1/Open Window 3TC Black/8/Tilesheets\\SeasonalOpenWindows_{{season}}_Bl/false/",
+
+"SeasonalOpenWindows_3R_Bl": "Open Window 3TR Black/window/-1/-1/1/300/-1/Open Window 3TR Black/10/Tilesheets\\SeasonalOpenWindows_{{season}}_Bl/false/",
+				
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Tilesheets/SeasonalOpenWindows_{{season}}_Bl",
+			"FromFile": "assets/SeasonalOpenWindows_{{season}}_Bl.png"
+		}
+	]
+}

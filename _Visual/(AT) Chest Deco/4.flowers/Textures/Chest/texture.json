@@ -1,0 +1,13 @@
+{ 
+ "CollectiveNames":
+[
+"Chest",
+"Stone Chest",
+"Junimo Chest"
+],
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "Keywords": [ "Flower", "Flowers" ],
+  "Variations": 11
+}

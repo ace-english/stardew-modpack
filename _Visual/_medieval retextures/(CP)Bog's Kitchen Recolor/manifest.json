@@ -1,0 +1,9 @@
+{
+   "Name": "Bog's Kitchen Recolor",
+   "Author": "BogWyytch",
+   "Version": "1.0",
+   "Description": "A Kitchen recolor and retexture in my aesthetic",
+   "UniqueID": "Bogs.KitchenRecolor",
+   "MinimumApiVersion": "1.6",
+   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+}

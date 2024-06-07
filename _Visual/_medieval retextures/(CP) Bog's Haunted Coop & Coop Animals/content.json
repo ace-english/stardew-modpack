@@ -1,0 +1,338 @@
+{
+	"Format": "2.0.0",
+  "ConfigSchema": {
+    "Allow Ghost Animals": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+ 
+    "Allow Ghost Animal Products": {
+      "AllowValues": "true, false",
+      "Default": "true"
+   }
+  },
+	"Changes": [
+
+  {
+          "Action": "EditImage",
+          "Target": "Buildings/Coop",
+          "FromFile": "assets/{{season}}Coop.png",
+		  "PatchMode": "replace",
+       }, 
+ {
+          "Action": "EditImage",
+          "Target": "Buildings/Big Coop",
+          "FromFile": "assets/{{season}}Big Coop.png",
+		  "PatchMode": "replace",
+       }, 
+ {
+          "Action": "EditImage",
+          "Target": "Buildings/Deluxe Coop",
+          "FromFile": "assets/{{season}}Deluxe Coop.png",
+		  "PatchMode": "replace",
+       }, 
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/BabyBlue Chicken",
+          "FromFile": "assets/BabyBlue Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+ 
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/BabyBrown Chicken",
+          "FromFile": "assets/BabyBrown Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/BabyGolden Chicken",
+          "FromFile": "assets/BabyGolden Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/BabyRabbit",
+          "FromFile": "assets/BabyRabbit.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/BabyVoid Chicken",
+          "FromFile": "assets/BabyVoid Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/BabyWhite Chicken",
+          "FromFile": "assets/BabyWhite Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/Blue Chicken",
+          "FromFile": "assets/Blue Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+   },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/Brown Chicken",
+          "FromFile": "assets/Brown Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/Duck",
+          "FromFile": "assets/Duck.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/Golden Chicken",
+          "FromFile": "assets/Golden Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/Rabbit",
+          "FromFile": "assets/Rabbit.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/Void Chicken",
+          "FromFile": "assets/Void Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+   },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Animals/White Chicken",
+          "FromFile": "assets/White Chicken.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animals": true
+
+   },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/WhiteLargeEgg.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+    },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/WhiteEgg.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 128, "Y": 112, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+   },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/BrownEgg.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 192, "Y": 112, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/BrownLargeEgg.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 224, "Y": 112, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/VoidEgg.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 272, "Y": 192, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Mayo.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 288, "Y": 192, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/DuckMayo.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 304, "Y": 192, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/VoidMayo.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 320, "Y": 192, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/DuckEgg.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 160, "Y": 288, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/DuckFeather.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 192, "Y": 288, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/RabbitFoot.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 224, "Y": 288, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Priority": "Late",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Fluff.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		  "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+   },
+},
+{
+          "Action": "EditImage",
+          "Target": "Buildings/coop",
+          "FromFile": "assets/coop.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+   },
+},
+{
+          "Action": "EditImage",
+          "Target": "Buildings/Big Coop",
+          "FromFile": "assets/Big Coop.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+{
+          "Action": "EditImage",
+          "Target": "Buildings/Deluxe Coop",
+          "FromFile": "assets/Deluxe Coop.png",
+		  "PatchMode": "replace",
+		"When": {
+        	"Allow Ghost Animal Products": true
+  },
+},
+],
+}

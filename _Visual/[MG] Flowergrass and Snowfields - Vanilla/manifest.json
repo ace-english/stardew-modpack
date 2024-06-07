@@ -1,0 +1,12 @@
+{
+    "Name": "Flowergrass and Snowfields - Vanilla",
+    "Author": "Alvadea",
+    "Version": "1.1.0",
+    "Description": "A More Grass Content Pack for default colors",
+    "UniqueID": "Alvadea.MoreGrassPack",
+    "MinimumApiVersion": "3.5",
+    "UpdateKeys": [ "Nexus:6742" ],
+    "ContentPackFor": {
+        "UniqueID": "EpicBellyFlop45.MoreGrass"
+    }
+}

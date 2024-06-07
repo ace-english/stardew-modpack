@@ -1,0 +1,11 @@
+{
+   "Name": "Bog's Spouse Portraits",
+   "Author": "BogWytch",
+   "Version": "1.2",
+   "Description": "Now your spouses have a whimsical frame for their portrait!",
+   "UniqueID": "Bogs.SpousePortraits",
+  "UpdateKeys": [ "Nexus:23968" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

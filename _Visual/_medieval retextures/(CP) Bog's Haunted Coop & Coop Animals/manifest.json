@@ -1,0 +1,10 @@
+{
+   "Name": "Bog's Haunted Coops and Animals",
+   "Author": "BogWytch",
+   "Version": "1.0",
+   "Description": "your coop and animals now are spooky!",
+   "UniqueID": "Bogs.HauntedCoops",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

@@ -1,0 +1,125 @@
+{
+        "Format": "2.0.0",
+                "Changes": [
+                {
+                        "Action": "EditData",
+                        "Target": "Atelier.Cauldron/Translations",
+                        "Entries":
+                        {
+                                "de-DE":
+                                {
+                                
+                                "GMCM.PageTitle.0": "Globale Einstellunge",
+                                "GMCM.PageTitle.1": "Kompatibilität",
+                                "GMCM.PageTitle.2": "Spezialaufträge",
+                                "GMCM.PageTitle.3": "Versandkonfiguration",
+        
+                                "GMCM.Title.WildFoodEnable.Name": "Wild Food",
+                                "GMCM.Options.WildFood.Name": "Aktivieren",
+                                "GMCM.Options.WildFood.ToolTip": "Aktiviert Nutzpflanzen und sammelbare Gegenstände mit dem Fokus auf essbaren Kräutern, Früchten, Nüssen etc..",
+        
+                                "GMCM.Title.WildFoodShip.Name": "Füge Wild Food zur Versandsammlung hinzu",
+                                "GMCM.Options.WildFoodShipment.Name": "Aktivieren",
+                                "GMCM.Options.FaerieGardenShipment.Name": "Aktivieren",
+        
+                                "GMCM.Title.FaerieGardenShip.Name": "Füge Faerie Garden zur Versandsammlung hinzu",
+                                "GMCM.Title.FaerieGardenEnable.Name": "Faerie Garden",
+                                "GMCM.Options.FaerieGarden.Name": "Aktivieren",
+                                "GMCM.Options.FaerieGarden.ToolTip": "Aktiviert Nutzpflanzen und sammelbare Gegenstände mit dem Fokus auf magischen Früchten, Blumen, Pilzen etc.",
+        
+                                "GMCM.Options.SpecialOrders.Name": "Spezialaufträge",
+                                "GMCM.Options.SpecialOrders.ToolTip": "Aktiviert Spezialaufträge, die mit den neuen Gegenständen dieser Mod zusammenhängen. Standardmäßig aktiviert.",
+        
+                                "GMCM.Title.EasyRecipesEnable.Name": "Einfach Rezepte",      
+                                "GMCM.Options.EasyRecipes.Name": "Aktivieren",
+                                "GMCM.Options.EasyRecipes.ToolTip": "Aktivieren, wenn Maschinenrezepte sofort bekannt sein sollen. Ansonsten können Rezepte von NPCS kennengelernt werden. Standardmäßig deaktiviert.",
+        
+                                "GMCM.Options.ShippingCollection.Name": "Aktiviere Versandsammlung",
+                                "GMCM.Options.ShippingCollection.ToolTip": "Deaktivieren, wenn aktivierte Artikel für die Perfektion oder die Versanderrungenschaft erforderlich sein sollen. Standardmäßig aktiviert.",
+        
+                                "GMCM.Title.MachineColorEnable.Name": "Wähle die Maschinenfarbe",
+                                "GMCM.Options.MachineColor.Name": "Maschinenfarbe",
+                                "GMCM.Options.MachineColor.ToolTip": "Wähle ein Farbschema für Handwerks-Maschinen. Standardmäßig Grundfarbe.",
+                                
+                                "GMCM.Options.Base.Name": "Grundfarbe",
+                                "GMCM.Options.Black.Name": "Schwarz",
+                                "GMCM.Options.Blue.Name": "Blau",
+                                "GMCM.Options.Cream.Name": "Creme",
+                                "GMCM.Options.Mint.Name": "Minz",
+                                "GMCM.Options.Mocha.Name": "Mokka",
+                                "GMCM.Options.Pink.Name": "Pink",
+                                "GMCM.Options.Purple.Name": "Lila",
+                                
+                                "GMCM.Title.QLCompatEnable.Name": "Quaint Living",
+                                "GMCM.Options.QL.Name": "Aktiviere Kompatibilität",
+                                "GMCM.Options.QL.ToolTip": "Aktivieren, damit Maschinenregeln die Blumen von Quaint Living akzeptieren und neue Gegenstände hinzufügen. Standardmäßig aktiviert.",
+                        
+                                "GMCM.Title.SMCompatEnable.Name": "Serene Meadow",
+                                "GMCM.Options.SM.Name": "Aktiviere Kompatibilität",
+                                "GMCM.Options.SM.ToolTip": "Aktivieren, damit Maschinenregeln die Blumen von Serene Meadow akzeptieren und neue Gegenstände hinzufügen. Standardmäßig aktiviert.",
+                        
+                                "GMCM.Title.VMVCompatEnable.Name": "Visit Mt Vapius",
+                                "GMCM.Options.VMV.Name": "Aktiviere Kompatibilität",
+                                "GMCM.Options.VMV.ToolTip": "Aktivieren, damit Maschinenregeln die Blumen von Visit Mt Vapius akzeptieren und neue Gegenstände hinzufügen. Standardmäßig aktiviert.",
+                                
+                                "GMCM.Title.CMCCompatEnable.Name": "Cornucopia More Crops",
+                                "GMCM.Options.CMC.Name": "Aktiviere Kompatibilität",
+                                "GMCM.Options.CMC.ToolTip": "Aktivieren, damit Maschinenregeln die Nutzpflanzen von Cornucopia More Crops akzeptieren und neue Gegenstände hinzufügen. Standardmäßig aktiviert.",
+                        
+                                "GMCM.Title.CMFCompatEnable.Name": "Cornucopia More Flowers",
+                                "GMCM.Options.CMF.Name": "Aktiviere Kompatibilität",
+                                "GMCM.Options.CMF.ToolTip": "Aktivieren, damit Maschinenregeln die Blumen von Cornucopia More Flowers akzeptieren und neue Gegenstände hinzufügen. Standardmäßig aktiviert.",
+                             
+                                "GMCM.Title.AlesMeadsShip.Name": "Ales and Meads",
+                                "GMCM.Options.AlesMeadsShipment.Name": "Aktiviere Versandsammlung",
+                                "GMCM.Title.SOAlesMeadsEnable.Name":"Ales and Meads",
+                                "GMCM.Options.SOAlesMeads.Name": "Aktiviere Spezialaufträge",
+                                
+                                "GMCM.Title.BeveragesShip.Name": "Refreshing Beverages",
+                                "GMCM.Options.BeveragesShipment.Name": "Aktiviere Versandsammlung",
+                                "GMCM.Title.SOBeveragesEnable.Name":"Refreshing Beverages",
+                                "GMCM.Options.SOBeverages.Name": "Aktiviere Spezialaufträge",
+                                
+                                "GMCM.Title.CandyShip.Name": "Candy Shoppe",
+                                "GMCM.Options.CandyShipment.Name": "Aktiviere Versandsammlung",
+                                "GMCM.Title.SOCandyEnable.Name":"Candy Shoppe",
+                                "GMCM.Options.SOCandy.Name": "Aktiviere Spezialaufträge",
+                                
+                                "GMCM.Title.BaristaShip.Name": "Barista",
+                                "GMCM.Options.BaristaShipment.Name": "Aktiviere Versandsammlung",
+                                "GMCM.Title.SOBaristaEnable.Name":"Barista",
+                                "GMCM.Options.SOBarista.Name": "Aktiviere Spezialaufträge",
+        
+                                "GMCM.Title.FloralShip.Name": "Flower Shoppe",
+                                "GMCM.Options.FloralShipment.Name": "Aktiviere Versandsammlung",
+                                "GMCM.Title.SOFloralEnable.Name":"Flower Shoppe",
+                                "GMCM.Options.SOFloral.Name": "Aktiviere Spezialaufträge",
+                                
+                                "GMCM.Title.FrozenShip.Name": "Chilly Treats",
+                                "GMCM.Options.FrozenShipment.Name": "Aktiviere Versandsammlung",
+                                "GMCM.Title.SOFrozenEnable.Name":"Chilly Treats",
+                                "GMCM.Options.SOFrozen.Name": "Aktiviere Spezialaufträge",
+                                
+                                "GMCM.Title.MakeupShip.Name": "Magic Makeup",
+                                "GMCM.Options.MakeupShipment.Name": "Aktiviere Versandsammlung",
+                                "GMCM.Title.SOMakeupEnable.Name":"Magic Makeup",
+                                "GMCM.Options.SOMakeup.Name": "Aktiviere Spezialaufträge",
+                                
+                                "GMCM.Options.SOJams.Name": "Aktiviere Spezialaufträge",
+                                "GMCM.Title.SOJamsEnable.Name":"Specialty Jams and Jellies",
+                                "GMCM.Options.SOPickles.Name": "Aktivieren",
+                                
+                                "GMCM.Title.PantryShip.Name": "Gourmet Pantry",
+                                "GMCM.Options.PantryShipment.Name": "Aktiviere Versandsammlung",
+                                "GMCM.Title.SOPantryEnable.Name":"Gourmet Pantry",
+                                "GMCM.Options.SOPantry.Name": "Aktiviere Spezialaufträge",
+                                
+                                "GMCM.Title.ShippingCollection.Name": "Füge Gegenständer zur Versandsammlung hinzu",
+                                "GMCM.Title.SpecialOrders.Name": "Aktiviere Spezialaufträge",
+        
+        
+                        }
+                }
+        }
+        ]
+        }

@@ -1,0 +1,22 @@
+{
+  "Format": "1.9",
+  "Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "Maps/{{season}}_outdoorsTileSheet",
+          "FromFile": "assets/{{season}}_mailbox.png",
+		  "ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 }
+       },
+{
+
+          "Action": "EditImage",
+          "Target": "Maps/winter_outdoorsTileSheet",
+          "FromFile": "assets/Starblue/winter_mailbox.png",
+          "ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+          "When": {
+              "HasMod": "Lita.StarblueValley"
+          },
+       },
+
+    ]
+}

@@ -1,0 +1,13 @@
+{
+   "Name": "Overgrown Mailbox",
+   "Author": "Medinaquirin",
+   "Version": "1.1",
+   "Description": "Ivy-covered seasonal mailbox for Content Patcher.",
+   "UniqueID": "Medinaquirin.OvergrownMailbox",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": ["Nexus:4465"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.0.0"
+   }
+}

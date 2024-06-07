@@ -1,0 +1,20 @@
+{
+    "Name": "[CP] Atelier Cauldron French Translation Pack",
+	"Author": "Mazout",
+	"Version": "1.0",
+	"Description": "Adds Atelier Cauldron French translation.",
+	"MinimumApiVersion": "3.6.0",
+	"UniqueID": "wildflour.AtelierFrench.CP",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": 
+    [
+    {
+		"UniqueID": "Atelier.Cauldron",
+		"IsRequired": true,
+    }
+    ]
+}

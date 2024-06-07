@@ -1,0 +1,179 @@
+{
+        "Format": "2.0.0",
+                "Changes": [
+                {
+                        "Action": "EditData",
+                        "Target": "Atelier.Cauldron/Translations",
+                        "Entries":
+                        {
+                                "pt-BR":
+                                {
+                                
+                                "GMCM.PageTitle.0": "Opções Globais",
+                                "GMCM.PageTitle.1": "Compatibilidade",
+                                "GMCM.PageTitle.2": "Pedidos Especiais",
+                                "GMCM.PageTitle.3": "Configuração de Envio",
+                                "GMCM.PageTitle.4": "Secret Forage Locations Options",
+                                "GMCM.PageTitle.5": "H&W Freshly Baked",
+
+                                "GMCM.Title.WildFoodEnable.Name": "Wild Food",
+                                "GMCM.Options.WildFood.Name": "Ativar",
+                                "GMCM.Options.WildFood.ToolTip": "Ativa colheitas e forrageamento focados em ervas comestíveis, frutas, nozes etc.",
+
+                                "GMCM.Title.WildFoodShip.Name": "Adicionar à Coleção de Envios",
+                                "GMCM.Options.WildFoodShipment.Name": "Ativar",
+                                "GMCM.Options.FaerieGardenShipment.Name": "Ativar",
+
+                                "GMCM.Title.CategoryOverrideEnable.Name": "Ativar Substituição de Categoria",
+                                "GMCM.Options.CategoryOverride.Name": "Ativar",
+                                "GMCM.Options.CategoryOverride.ToolTip": "Ativa categorias mais detalhadas para itens como cogumelos, ervas etc. Requer o mod Calcifer.",
+
+                                "GMCM.Title.VanillaTweaksEnable.Name": "Sementes Estilo Vanilla Tweaks",
+                                "GMCM.Options.VanillaTweaks.Name": "Ativar",
+                                "GMCM.Options.VanillaTweaks.ToolTip": "Ativa sementes e mudas para se ajustarem ao estilo Vanilla Tweaks.",
+
+                                "GMCM.Title.FaerieGardenShip.Name": "Adicionar à Coleção de Envios",
+                                "GMCM.Title.FaerieGardenEnable.Name": "Jardim das Fadas",
+                                "GMCM.Options.FaerieGarden.Name": "Ativar",
+                                "GMCM.Options.FaerieGarden.ToolTip": "Ativa colheitas e forrageamento focados em frutas mágicas, flores, cogumelos etc.",
+
+                                "GMCM.Options.SpecialOrders.Name": "Pedidos Especiais",
+                                "GMCM.Options.SpecialOrders.ToolTip": "Ativa pedidos especiais que correspondem aos novos itens deste mod. Verdadeiro por padrão.",
+        
+                                "GMCM.Title.EasyRecipesEnable.Name": "Receitas Fáceis",
+                                "GMCM.Options.EasyRecipes.Name": "Ativar",
+                                "GMCM.Options.EasyRecipes.ToolTip": "Defina como verdadeiro se desejar que as receitas das máquinas sejam conhecidas imediatamente. Caso contrário, o jogador aprende as receitas com NPCs. Falso por padrão.",
+
+                                "GMCM.Options.ShippingCollection.Name": "Ativar Coleção de Envios",
+                                "GMCM.Options.ShippingCollection.ToolTip": "Defina como falso se não desejar que os itens ativados sejam necessários para a conquista de perfeição ou para o envio. Verdadeiro por padrão.",
+
+                                "GMCM.Title.MachineColorEnable.Name": "Escolher Cor da Máquina",
+                                "GMCM.Options.MachineColor.Name": "Cor da Máquina",
+                                "GMCM.Options.MachineColor.ToolTip": "Escolha um esquema de cores para as máquinas artesanais. Padrão é a base.",
+                                
+                                "GMCM.Options.Base.Name": "Base",
+                                "GMCM.Options.Black.Name": "Preto",
+                                "GMCM.Options.BlackWhite.Name": "Preto e Branco",
+                                "GMCM.Options.Dark.Name": "Escuro",
+                                "GMCM.Options.Blue.Name": "Azul",
+                                "GMCM.Options.Cream.Name": "Creme",
+                                "GMCM.Options.Mint.Name": "Menta",
+                                "GMCM.Options.Mocha.Name": "Mocha",
+                                "GMCM.Options.Pink.Name": "Rosa",
+                                "GMCM.Options.Purple.Name": "Roxo",
+                                
+                                "GMCM.Title.QLCompatEnable.Name": "Quaint Living",
+                                "GMCM.Options.QL.Name": "Ativar Compatibilidade",
+                                "GMCM.Options.QL.ToolTip": "Defina como verdadeiro para Ativar as regras das máquinas para aceitar flores do Quaint Living e adicionar novos itens. Verdadeiro por padrão.",
+
+                                "GMCM.Title.SMCompatEnable.Name": "Serene Meadow",
+                                "GMCM.Options.SM.Name": "Ativar Compatibilidade",
+                                "GMCM.Options.SM.ToolTip": "Defina como verdadeiro para Ativar as regras das máquinas para aceitar flores do Serene Meadow e adicionar novos itens. Verdadeiro por padrão.",
+
+                                "GMCM.Title.VMVCompatEnable.Name": "Visit Mt Vapius",
+                                "GMCM.Options.VMV.Name": "Ativar Compatibilidade",
+                                "GMCM.Options.VMV.ToolTip": "Defina como verdadeiro para Ativar as regras das máquinas para aceitar flores do Visit Mt. Vapius e adicionar novos itens. Verdadeiro por padrão.",
+
+                                "GMCM.Title.CMCCompatEnable.Name": "Cornucopia More Crops",
+                                "GMCM.Options.CMC.Name": "Ativar Compatibilidade",
+                                "GMCM.Options.CMC.ToolTip": "Defina como verdadeiro para Ativar as regras das máquinas para aceitar cultivos do Cornucopia More Crops e adicionar novos itens. Verdadeiro por padrão.",
+
+                                "GMCM.Title.CMFCompatEnable.Name": "Cornucopia More Flowers",
+                                "GMCM.Options.CMF.Name": "Ativar Compatibilidade",
+                                "GMCM.Options.CMF.ToolTip": "Defina como verdadeiro para Ativar as regras das máquinas para aceitar flores do Cornucopia More Flowers e adicionar novos itens. Verdadeiro por padrão.",
+                             
+                                "GMCM.Title.AlesMeadsShip.Name": "Brewer",
+                                "GMCM.Options.AlesMeadsShipment.Name": "Ativar Coleção de Envios",
+                                "GMCM.Title.SOAlesMeadsEnable.Name": "Brewer",
+                                "GMCM.Options.SOAlesMeads.Name": "Ativar Pedidos Especiais",
+
+                                "GMCM.Title.BeveragesShip.Name": "Barista: Cold",
+                                "GMCM.Options.BeveragesShipment.Name": "Ativar Coleção de Envios",
+                                "GMCM.Title.SOBeveragesEnable.Name": "Barista: Cold",
+                                "GMCM.Options.SOBeverages.Name": "Ativar Pedidos Especiais",
+
+                                "GMCM.Title.CandyShip.Name": "Confectioner: Sweet",
+                                "GMCM.Options.CandyShipment.Name": "Ativar Coleção de Envios",
+                                "GMCM.Title.SOCandyEnable.Name": "Confectioner: Sweet",
+                                "GMCM.Options.SOCandy.Name": "Ativar Pedidos Especiais",
+
+                                "GMCM.Title.BaristaShip.Name": "Barista: Hot",
+                                "GMCM.Options.BaristaShipment.Name": "Ativar Coleção de Envios",
+                                "GMCM.Title.SOBaristaEnable.Name": "Barista: Hot",
+                                "GMCM.Options.SOBarista.Name": "Ativar Pedidos Especiais",
+
+                                "GMCM.Title.FloralShip.Name": "Florist",
+                                "GMCM.Options.FloralShipment.Name": "Ativar Coleção de Envios",
+                                "GMCM.Title.SOFloralEnable.Name": "Florist",
+                                "GMCM.Options.SOFloral.Name": "Ativar Pedidos Especiais",
+                                
+                                "GMCM.Title.FrozenShip.Name": "Confectioner: Frozen",
+                                "GMCM.Options.FrozenShipment.Name": "Ativar Coleção de Envios",
+                                "GMCM.Title.SOFrozenEnable.Name": "Confectioner: Frozen",
+                                "GMCM.Options.SOFrozen.Name": "Ativar Pedidos Especiais",
+
+                                "GMCM.Title.MakeupShip.Name": "Cosmetologist",
+                                "GMCM.Options.MakeupShipment.Name": "Ativar Coleção de Envios",
+                                "GMCM.Title.SOMakeupEnable.Name": "Cosmetologist",
+                                "GMCM.Options.SOMakeup.Name": "Ativar Pedidos Especiais",
+
+                                "GMCM.Options.SOJams.Name": "Ativar Pedidos Especiais",
+                                "GMCM.Title.SOJamsEnable.Name": "Canner",
+                                "GMCM.Options.SOPickles.Name": "Ativar",
+
+                                "GMCM.Title.PantryShip.Name": "Gourmand",
+                                "GMCM.Options.PantryShipment.Name": "Ativar Coleção de Envios",
+                                "GMCM.Title.SOPantryEnable.Name": "Gourmand",
+                                "GMCM.Options.SOPantry.Name": "Ativar Pedidos Especiais",
+
+                                "GMCM.Title.ShippingCollection.Name": "Adicionar Itens à Coleção de Envios",
+                                "GMCM.Title.SpecialOrders.Name": "Ativar Pedidos Especiais",
+
+                                "GMCM.Title.PresentLocations.Name": "Tornar Todas as Localizações Disponíveis",
+                                "GMCM.Options.PresentLocationsConfig.Name": "Ativar",
+                                "GMCM.Options.PresentLocationsConfig.ToolTip": "Defina como verdadeiro para que as localizações secretas de forrageio estejam sempre disponíveis, em vez de desbloqueá-las ao aumentar habilidades e relacionamentos. Padrão: Falso.",
+
+                                "GMCM.Title.CookingConfig.Name": "Cozinhar em Vez de Fabricar",
+                                "GMCM.Options.Cooking.Name": "Ativar",
+                                "GMCM.Options.Cooking.ToolTip": "Define o mod para usar receitas de cozinha e não fabricação de artesão. Requer o módulo Wild Food para funcionar. Padrão: falso.",
+
+                                "GMCM.Title.ColorSchemeConfig.Name": "Esquema de Cores",
+                                "GMCM.Options.ColorScheme.Name": "Escolher",
+                                "GMCM.Options.ColorScheme.ToolTip": "Escolha um esquema de cores! Padrão: Base.",
+
+                                "GMCM.Title.CakesConfig.Name": "Bolos",
+                                "GMCM.Options.Cakes.Name": "Ativar",
+                                "GMCM.Options.Cakes.ToolTip": "Adiciona os bolos artesanais e a máquina correspondente. Padrão: verdadeiro.",
+
+                                "GMCM.Title.TinyCakesConfig.Name": "Mini Bolos",
+                                "GMCM.Options.TinyCakes.Name": "Ativar",
+                                "GMCM.Options.TinyCakes.ToolTip": "Adiciona os cupcakes artesanais, petit fours e a máquina correspondente. Padrão: verdadeiro.",
+
+                                "GMCM.Title.MuffinsConfig.Name": "Muffins",
+                                "GMCM.Options.Muffins.Name": "Ativar",
+                                "GMCM.Options.Muffins.ToolTip": "Adiciona os muffins artesanais, scones e a máquina correspondente. Padrão: verdadeiro.",
+
+                                "GMCM.Title.BreadsConfig.Name": "Pães",
+                                "GMCM.Options.Breads.Name": "Ativar",
+                                "GMCM.Options.Breads.ToolTip": "Adiciona os pães artesanais e a máquina correspondente. Padrão: verdadeiro.",
+
+                                "GMCM.Title.DoughnutsConfig.Name": "Rosquinhas",
+                                "GMCM.Options.Doughnuts.Name": "Ativar",
+                                "GMCM.Options.Doughnuts.ToolTip": "Adiciona as rosquinhas artesanais, éclairs e a máquina correspondente. Padrão: verdadeiro.",
+
+                                "GMCM.Title.CookiesConfig.Name": "Cookies",
+                                "GMCM.Options.Cookies.Name": "Ativar",
+                                "GMCM.Options.Cookies.ToolTip": "Adiciona os cookies artesanais, macarons, brownies e a máquina correspondente. Padrão: verdadeiro.",
+
+                                "GMCM.Title.PiesConfig.Name": "Tortas",
+                                "GMCM.Options.Pies.Name": "Ativar",
+                                "GMCM.Options.Pies.ToolTip": "Adiciona as tortas artesanais, tortinhas e a máquina correspondente. Padrão: verdadeiro.",
+
+                                "GMCM.Title.PuddingsConfig.Name": "Pudins",
+                                "GMCM.Options.Puddings.Name": "Ativar",
+                                "GMCM.Options.Puddings.ToolTip": "Adiciona os pudins artesanais e a máquina correspondente. Padrão: verdadeiro.",
+                        }
+                }
+        }
+        ]
+        }

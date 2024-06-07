@@ -1,0 +1,20 @@
+{
+    "Name": "[CP] Atelier Cauldron Portuguese Translation Pack",
+	"Author": "voidggukie",
+	"Version": "0.1",
+	"Description": "Adds Atelier Cauldron Portuguese translation.",
+	"MinimumApiVersion": "3.6.0",
+	"UniqueID": "wildflour.AtelierPortuguese.CP",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": 
+    [
+    {
+		"UniqueID": "Atelier.Cauldron",
+		"IsRequired": true,
+    }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "Name": "[CP] Atelier Cauldron Russian Translation Pack",
+	"Author": "Kaen",
+	"Version": "1.0",
+	"Description": "Adds Atelier Cauldron Russian translation.",
+	"MinimumApiVersion": "3.6.0",
+	"UniqueID": "wildflour.AtelierRussian.CP",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": 
+    [
+    {
+		"UniqueID": "Atelier.Cauldron",
+		"IsRequired": true,
+    }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "Name": "[CP] Atelier Cauldron Chinese Translation Pack",
+	"Author": "Lala92876",
+	"Version": "1.0",
+	"Description": "Adds Atelier Cauldron Chinese translation.",
+	"MinimumApiVersion": "3.6.0",
+	"UniqueID": "wildflour.AtelierChinese.CP",
+    "UpdateKeys": [""],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": 
+    [
+    {
+		"UniqueID": "Atelier.Cauldron",
+		"IsRequired": true,
+    }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+	"Format": "2.0.0",
+
+	"Changes": [
+
+// Farmhouse Kitchen
+			{
+			"Action": "EditImage",
+                        "Priority": "Late",
+			"PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/BogsKitchenRecolor.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			},
+			{
+			"Action": "EditImage",
+                        "Priority": "Late",
+			"PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/BogsKitchenRecolor.png",
+			"ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+			"FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+			},
+			{
+			"Action": "EditImage",
+                        "Priority": "Late",
+			"PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/BogsKitchenRecolor.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+			"FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },	
+			},
+						
+// Island Kitchen
+			{
+			"Action": "EditImage",
+                        "Priority": "Late",
+			"PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/BogsKitchenRecolor.png",
+			"ToArea": { "X": 64, "Y": 304, "Width": 48, "Height": 48 },
+			"FromArea": { "X": 64, "Y": 304, "Width": 48, "Height": 48 },
+			},
+			
+// Fridge Animation
+			{
+			"Action": "EditImage",
+                        "Priority": "Late",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "assets/Cursors2_FridgeAnim.png",
+			"ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+			},
+			
+//Minifridge
+			{
+			"Action": "EditImage",
+                        "Priority": "Late",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/BogsMinifridge.png",
+			"ToArea": { "X": 0, "Y": 864, "Width": 48, "Height": 32 },
+			},
+
+	]
+}

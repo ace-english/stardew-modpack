@@ -1,0 +1,136 @@
+{
+        "Format": "2.0.0",
+                "Changes": [
+                {
+                        "Action": "EditData",
+                        "Target": "Atelier.Cauldron/Translations",
+                        "Entries":
+                        {
+                                "ko-KR":
+                                {
+                                
+                                "GMCM.PageTitle.0": "전체 옵션",
+                                "GMCM.PageTitle.1": "호환성",
+                                "GMCM.PageTitle.2": "특별 주문",
+                                "GMCM.PageTitle.3": "배송 옵션",
+                                "GMCM.PageTitle.4": "비밀의 채집터 옵션",
+        
+                                "GMCM.Title.WildFoodEnable.Name": "야생 채집품",
+                                "GMCM.Options.WildFood.Name": "사용됨",
+                                "GMCM.Options.WildFood.ToolTip": "식용 허브, 과일, 견과류 등에 초점을 맞춘 작물 및 채집품 적용 가능.",
+        
+                                "GMCM.Title.WildFoodShip.Name": "배송 컬렉션에 추가",
+                                "GMCM.Options.WildFoodShipment.Name": "사용됨",
+                                "GMCM.Options.FaerieGardenShipment.Name": "사용됨",
+        
+                                "GMCM.Title.FaerieGardenShip.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.FaerieGardenEnable.Name": "요정의 정원",
+                                "GMCM.Options.FaerieGarden.Name": "사용됨",
+                                "GMCM.Options.FaerieGarden.ToolTip": "마법의 힘을 지닌 과일, 꽃, 버섯 등에 초점을 맞춘 작물과 채집품 적용 가능.",
+        
+                                "GMCM.Title.CategoryOverrideEnable.Name": "카테고리 재정의",
+                                "GMCM.Options.CategoryOverride.Name": "사용됨",
+                                "GMCM.Options.CategoryOverride.ToolTip": "버섯, 허브 등과 같은 아이템에 있어 다양한 카테고리를 부여합니다. Calcifer 모드가 필요합니다.",
+        
+                                "GMCM.Title.VanillaTweaksEnable.Name": "바닐라 트윅스 씨앗",
+                                "GMCM.Options.VanillaTweaks.Name": "사용됨",
+                                "GMCM.Options.VanillaTweaks.ToolTip": "바닐라 트윅스 스타일에 맞게 씨앗과 묘목을 바꿉니다.",
+        
+                                "GMCM.Options.SpecialOrders.Name": "특별 주문",
+                                "GMCM.Options.SpecialOrders.ToolTip": "이 모드의 새로운 아이템에 해당하는 특별 주문을 활성화합니다. 기본적으로 True 상태로 적용됩니다.",
+        
+                                "GMCM.Title.EasyRecipesEnable.Name": "쉬운 레시피 습득",      
+                                "GMCM.Options.EasyRecipes.Name": "사용됨",
+                                "GMCM.Options.EasyRecipes.ToolTip": "다양한 제작기계의 레시피를 바로 습득한 상태로 진행합니다. 비활성화 상태에서는 NPC의 호감도를 통해 습득합니다. 기본적으로 비활성화 상태로 진행합니다.",
+        
+                                "GMCM.Options.ShippingCollection.Name": "배송 컬렉션에 추가",
+                                "GMCM.Options.ShippingCollection.ToolTip": "완벽 추적기에 필요한 배송 목록에서 제외하고자 하면 False 상태로 비활성화 하세요. 기본적으로 활성화 상태로 진행됩니다.",
+        
+                                "GMCM.Title.MachineColorEnable.Name": "제작기계 색상 선택",
+                                "GMCM.Options.MachineColor.Name": "기계 색상",
+                                "GMCM.Options.MachineColor.ToolTip": "다양한 제작기계에 대한 색을 고를 수 있습니다. 기본적으로 베이스 색상이 적용된 상태입니다.",
+                                
+                                "GMCM.Options.Base.Name": "베이스",
+                                "GMCM.Options.Black.Name": "검정",
+                                "GMCM.Options.Blue.Name": "파랑",
+                                "GMCM.Options.Cream.Name": "크림",
+                                "GMCM.Options.Mint.Name": "민트",
+                                "GMCM.Options.Mocha.Name": "모카",
+                                "GMCM.Options.Pink.Name": "분홍",
+                                "GMCM.Options.Purple.Name": "보라",
+                                
+                                "GMCM.Title.QLCompatEnable.Name": "Quaint Living",
+                                "GMCM.Options.QL.Name": "호환가능",
+                                "GMCM.Options.QL.ToolTip": "제작기계가 'Quaint Living' 모드와 호환되게끔 되어있습니다.",
+                        
+                                "GMCM.Title.SMCompatEnable.Name": "Serene Meadow",
+                                "GMCM.Options.SM.Name": "호환가능",
+                                "GMCM.Options.SM.ToolTip": "제작기계가 'Serene Meadow's flowers' 모드와 호환되게끔 되어있습니다.",
+                        
+                                "GMCM.Title.VMVCompatEnable.Name": "Visit Mt Vapius",
+                                "GMCM.Options.VMV.Name": "호환가능",
+                                "GMCM.Options.VMV.ToolTip": "제작기계가 'Visit Mt Vapius' 모드와 호환되게끔 되어있습니다.",
+                                
+                                "GMCM.Title.CMCCompatEnable.Name": "Cornucopia More Crops",
+                                "GMCM.Options.CMC.Name": "호환가능",
+                                "GMCM.Options.CMC.ToolTip": "제작기계가 'Cornucopia More Crops' 모드와 호환되게끔 되어있습니다.",
+                        
+                                "GMCM.Title.CMFCompatEnable.Name": "Cornucopia More Flowers",
+                                "GMCM.Options.CMF.Name": "호환가능",
+                                "GMCM.Options.CMF.ToolTip": "제작기계가 'Cornucopia More Flowers' 모드와 호환되게끔 되어있습니다.",
+                             
+                                "GMCM.Title.AlesMeadsShip.Name": "양조장인",
+                                "GMCM.Options.AlesMeadsShipment.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.SOAlesMeadsEnable.Name":"양조장인",
+                                "GMCM.Options.SOAlesMeads.Name": "특별 주문 적용",
+                                
+                                "GMCM.Title.BeveragesShip.Name": "바리스타 : 차가운 음료",
+                                "GMCM.Options.BeveragesShipment.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.SOBeveragesEnable.Name":"바리스타 : 차가운 음료",
+                                "GMCM.Options.SOBeverages.Name": "특별 주문 적용s",
+                                
+                                "GMCM.Title.CandyShip.Name": "제과사 : 사탕",
+                                "GMCM.Options.CandyShipment.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.SOCandyEnable.Name":"제과사 : 사탕",
+                                "GMCM.Options.SOCandy.Name": "특별 주문 적용",
+                                
+                                "GMCM.Title.BaristaShip.Name": "바리스타 : 따뜻한 음료",
+                                "GMCM.Options.BaristaShipment.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.SOBaristaEnable.Name":"바리스타 : 따뜻한 음료",
+                                "GMCM.Options.SOBarista.Name": "특별 주문 적용",
+        
+                                "GMCM.Title.FloralShip.Name": "플로리스트",
+                                "GMCM.Options.FloralShipment.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.SOFloralEnable.Name":"플로리스트",
+                                "GMCM.Options.SOFloral.Name": "특별 주문 적용",
+                                
+                                "GMCM.Title.FrozenShip.Name": "제과사 : 얼음제과",
+                                "GMCM.Options.FrozenShipment.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.SOFrozenEnable.Name":"제과사 : 얼음제과",
+                                "GMCM.Options.SOFrozen.Name": "특별 주문 적용",
+                                
+                                "GMCM.Title.MakeupShip.Name": "화장품 제작자",
+                                "GMCM.Options.MakeupShipment.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.SOMakeupEnable.Name":"화장품 제작자",
+                                "GMCM.Options.SOMakeup.Name": "특별 주문 적용",
+                                
+                                "GMCM.Options.SOJams.Name": "보존식 제작자",
+                                "GMCM.Title.SOJamsEnable.Name":"저장식품",
+                                "GMCM.Options.SOPickles.Name": "특별 주문 적용",
+                                
+                                "GMCM.Title.PantryShip.Name": "미식가",
+                                "GMCM.Options.PantryShipment.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.SOPantryEnable.Name":"미식가",
+                                "GMCM.Options.SOPantry.Name": "특별 주문 적용",
+                                
+                                "GMCM.Title.ShippingCollection.Name": "배송 컬렉션에 추가",
+                                "GMCM.Title.SpecialOrders.Name": "특별 주문 적용",
+        
+                                "GMCM.Title.PresentLocations.Name": "Make All Locations Available",
+                                "GMCM.Options.PresentLocationsConfig.Name": "사용가능",
+                                "GMCM.Options.PresentLocationsConfig.ToolTip": "비밀의 채집터가 스킬 및 호감도에 관계없이 상시 이용할 수 있게 하는 기능입니다. 기본값은 False(비활성화)입니다."
+                        }       
+                }
+        }
+        ]
+        }

@@ -1,0 +1,136 @@
+{
+        "Format": "2.0.0",
+                "Changes": [
+                {
+                        "Action": "EditData",
+                        "Target": "Atelier.Cauldron/Translations",
+                        "Entries":
+                        {
+                                "zh-CN":
+                                {
+                                
+                                "GMCM.PageTitle.0": "全局选项",
+                                "GMCM.PageTitle.1": "兼容性",
+                                "GMCM.PageTitle.2": "特殊订单",
+                                "GMCM.PageTitle.3": "出货设定",
+                                "GMCM.PageTitle.4": "秘密觅食地设定",
+        
+                                "GMCM.Title.WildFoodEnable.Name": "野生食物",
+                                "GMCM.Options.WildFood.Name": "启用",
+                                "GMCM.Options.WildFood.ToolTip": "加入以草药、花卉和坚果为主要内容的作物与觅食物。",
+        
+                                "GMCM.Title.WildFoodShip.Name": "加入出货收集品",
+                                "GMCM.Options.WildFoodShipment.Name": "启用",
+                                "GMCM.Options.FaerieGardenShipment.Name": "启用",
+        
+                                "GMCM.Title.FaerieGardenShip.Name": "加入出货收集品",
+                                "GMCM.Title.FaerieGardenEnable.Name": "仙子花园",
+                                "GMCM.Options.FaerieGarden.Name": "启用",
+                                "GMCM.Options.FaerieGarden.ToolTip": "加入以魔法水果、花卉和蘑菇为主要内容的作物与觅食物。",
+        
+                                "GMCM.Title.CategoryOverrideEnable.Name": "类别覆盖",
+                                "GMCM.Options.CategoryOverride.Name": "启用",
+                                "GMCM.Options.CategoryOverride.ToolTip": "使用更细项的物品分类 例如蘑菇、草药等。需要模组「Calcifer」。",
+        
+                                "GMCM.Title.VanillaTweaksEnable.Name": "原版风格种子",
+                                "GMCM.Options.VanillaTweaks.Name": "启用",
+                                "GMCM.Options.VanillaTweaks.ToolTip": "将种子和树苗的图示换成原版风格。",
+        
+                                "GMCM.Options.SpecialOrders.Name": "特殊订单",
+                                "GMCM.Options.SpecialOrders.ToolTip": "加入和此模组相关的特殊订单。默认为开启。",
+        
+                                "GMCM.Title.EasyRecipesEnable.Name": "简化流程",      
+                                "GMCM.Options.EasyRecipes.Name": "启用",
+                                "GMCM.Options.EasyRecipes.ToolTip": "开启时你可以直接制作任何机器，不需要从 NPC 的信件学习。默认为关闭。",
+        
+                                "GMCM.Options.ShippingCollection.Name": "算入出货收集品",
+                                "GMCM.Options.ShippingCollection.ToolTip": "关闭时此模组物品将不会列入完美度或是成就要求。默认为开启。",
+        
+                                "GMCM.Title.MachineColorEnable.Name": "选择机器色调",
+                                "GMCM.Options.MachineColor.Name": "机器色调",
+                                "GMCM.Options.MachineColor.ToolTip": "选择工匠机器的色彩风格。默认为基本。",
+                                
+                                "GMCM.Options.Base.Name": "基本",
+                                "GMCM.Options.Black.Name": "黑",
+                                "GMCM.Options.Blue.Name": "蓝",
+                                "GMCM.Options.Cream.Name": "奶油",
+                                "GMCM.Options.Mint.Name": "薄荷",
+                                "GMCM.Options.Mocha.Name": "摩卡",
+                                "GMCM.Options.Pink.Name": "粉红",
+                                "GMCM.Options.Purple.Name": "紫",
+                                
+                                "GMCM.Title.QLCompatEnable.Name": "Quaint Living",
+                                "GMCM.Options.QL.Name": "启用兼容性",
+                                "GMCM.Options.QL.ToolTip": "开启时此模组机器将接受模组「Quaint Living」的花卉并加入新物品。默认为开启。",
+                        
+                                "GMCM.Title.SMCompatEnable.Name": "Serene Meadow",
+                                "GMCM.Options.SM.Name": "启用兼容性",
+                                "GMCM.Options.SM.ToolTip": "开启时此模组机器将接受模组「Serene Meadow」的花卉并加入新物品。默认为开启。",
+                        
+                                "GMCM.Title.VMVCompatEnable.Name": "Visit Mt Vapius",
+                                "GMCM.Options.VMV.Name": "启用兼容性",
+                                "GMCM.Options.VMV.ToolTip": "开启时此模组机器将接受模组「Visit Mt Vapius」的花卉并加入新物品。默认为开启。",
+                                
+                                "GMCM.Title.CMCCompatEnable.Name": "Cornucopia More Crops",
+                                "GMCM.Options.CMC.Name": "启用兼容性",
+                                "GMCM.Options.CMC.ToolTip": "开启时此模组机器将接受模组「Cornucopia」的作物并加入新物品。默认为开启。",
+                        
+                                "GMCM.Title.CMFCompatEnable.Name": "Cornucopia More Flowers",
+                                "GMCM.Options.CMF.Name": "启用兼容性",
+                                "GMCM.Options.CMF.ToolTip": "开启时此模组机器将接受模组「Cornucopia」的花卉并加入新物品。默认为开启。",
+                             
+                                "GMCM.Title.AlesMeadsShip.Name": "酿造家",
+                                "GMCM.Options.AlesMeadsShipment.Name": "算入出货收集品",
+                                "GMCM.Title.SOAlesMeadsEnable.Name":"酿造家",
+                                "GMCM.Options.SOAlesMeads.Name": "加入特殊订单",
+                                
+                                "GMCM.Title.BeveragesShip.Name": "咖啡师（冷饮）",
+                                "GMCM.Options.BeveragesShipment.Name": "算入出货收集品",
+                                "GMCM.Title.SOBeveragesEnable.Name":"咖啡师（冷饮）",
+                                "GMCM.Options.SOBeverages.Name": "加入特殊订单",
+                                
+                                "GMCM.Title.CandyShip.Name": "甜点师（甜品）",
+                                "GMCM.Options.CandyShipment.Name": "算入出货收集品",
+                                "GMCM.Title.SOCandyEnable.Name":"甜点师（甜品）",
+                                "GMCM.Options.SOCandy.Name": "加入特殊订单",
+                                
+                                "GMCM.Title.BaristaShip.Name": "咖啡师（热饮）",
+                                "GMCM.Options.BaristaShipment.Name": "算入出货收集品",
+                                "GMCM.Title.SOBaristaEnable.Name":"咖啡师（热饮）",
+                                "GMCM.Options.SOBarista.Name": "加入特殊订单",
+        
+                                "GMCM.Title.FloralShip.Name": "花匠",
+                                "GMCM.Options.FloralShipment.Name": "算入出货收集品",
+                                "GMCM.Title.SOFloralEnable.Name":"花匠",
+                                "GMCM.Options.SOFloral.Name": "加入特殊订单",
+                                
+                                "GMCM.Title.FrozenShip.Name": "甜点师（冰品）",
+                                "GMCM.Options.FrozenShipment.Name": "算入出货收集品",
+                                "GMCM.Title.SOFrozenEnable.Name":"甜点师（冰品）",
+                                "GMCM.Options.SOFrozen.Name": "加入特殊订单",
+                                
+                                "GMCM.Title.MakeupShip.Name": "美容师",
+                                "GMCM.Options.MakeupShipment.Name": "算入出货收集品",
+                                "GMCM.Title.SOMakeupEnable.Name":"美容师",
+                                "GMCM.Options.SOMakeup.Name": "加入特殊订单",
+                                
+                                "GMCM.Options.SOJams.Name": "加入特殊订单",
+                                "GMCM.Title.SOJamsEnable.Name":"罐头商",
+                                "GMCM.Options.SOPickles.Name": "启用",
+                                
+                                "GMCM.Title.PantryShip.Name": "美食家",
+                                "GMCM.Options.PantryShipment.Name": "算入出货收集品",
+                                "GMCM.Title.SOPantryEnable.Name":"美食家",
+                                "GMCM.Options.SOPantry.Name": "加入特殊订单",
+                                
+                                "GMCM.Title.ShippingCollection.Name": "将物品加入出货收集品",
+                                "GMCM.Title.SpecialOrders.Name": "加入特殊订单",
+        
+                                "GMCM.Title.PresentLocations.Name": "可进入所有地点",
+                                "GMCM.Options.PresentLocationsConfig.Name": "启用",
+                                "GMCM.Options.PresentLocationsConfig.ToolTip": "开启时可以立即进入所有隐藏地点，不需要达到特定等级或是和特定 NPC 拥有好感。默认为关闭。"
+                        }       
+                }
+        }
+        ]
+        }

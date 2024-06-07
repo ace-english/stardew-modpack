@@ -1,0 +1,13 @@
+{
+	"Format": "2.0.0",
+
+	"Changes": [
+
+   {
+          "Action": "EditImage",
+          "Target": "Buildings/Silo",
+          "FromFile": "assets/{{season}}Silo.png",
+		  "PatchMode": "replace",
+       },
+  ],
+}

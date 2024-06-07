@@ -1,0 +1,13 @@
+{
+	"Format": "2.0.0",
+
+	"Changes": [
+
+   {
+          "Action": "EditImage",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/{{season}}BogsHouses.png",
+		  "PatchMode": "replace",
+       },
+  ],
+}

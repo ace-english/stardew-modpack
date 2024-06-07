@@ -1,0 +1,96 @@
+{
+  "Format": "1.19",
+
+  "ConfigSchema": {
+	"stableoption":{"AllowValues": "1, 2, 3, 4",
+					"Default": "1"},
+	"stableroof":{"AllowValues": "less, more",
+					"Default": "more"},
+					
+	"FallColor":{"AllowValues": "1, 2",
+					"Default": "1",
+					"Description": "To match recolor mods that have that option -> green(1) orange(2)" },
+	"RecolourOverwrite":{"AllowValues": "Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, Starblue, VibrantPastoral, WittilyNamed",
+					"AllowBlank": true,
+					"Default": "",
+					"Description": "If you want to manually change recolor palette" },
+	},
+	
+	
+	"DynamicTokens": [
+	//checking what recolour is used
+		{
+		"Name": "Recolour",
+		"Value": "Vanilla",
+		},
+		{
+		"Name": "Recolour",
+		"Value": "DNEarthyRecolour",
+			"When": { "HasMod": "DaisyNiko.EarthyRecolour" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "Eemie's",
+			"When": { "HasMod": "minervamaga.CP.eemieMapRecolour" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "FoliageRedone",
+			"When": { "HasMod": "stardewfoliageredone" },
+		},{
+		"Name": "Recolour",
+		"Value": "Starblue",
+			"When": { "HasMod": "Lita.StarblueValley" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "VibrantPastoral",
+			"When": { "HasMod": "grapeponta.VibrantPastoralRecolor" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "WittilyNamed",
+			"When": { "HasMod": "Acerbicon.Recolor" },
+		},
+
+	//recolor overwrite
+		{
+		"Name": "Recolour",
+		"Value": "{{RecolourOverwrite}}",
+			"When": { "RecolourOverwrite |contains=Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, FoliageRedoneReshade, Starblue, VibrantPastoral, WittilyNamed": true },
+		},
+	//fall color overwrite
+		{
+		"Name": "Recolour",
+		"Value": "{{Recolour}}/{{FallColor}}",
+			"When": { "Recolour |contains=Eemie's, VibrantPastoral": true,
+					"Season": "fall" },
+		},
+	],
+
+  "Changes": [
+		{
+		"LogName": "option 1",
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/{{Recolour}}/{{season}}_1_{{stableroof}}.png",
+        "When": { "stableoption": "1",
+				"Weather": "Sun, Wind"},
+        },
+		{
+		"LogName": "option 1 peta",
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/{{Recolour}}/Stable_{{season}}_{{stableroof}}.png",
+        "When": { "stableoption": "1",
+				"Weather": "Rain, Storm, Snow"},
+        },
+		{
+		"LogName": "option 2,3 or 4",
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/{{Recolour}}/{{season}}_{{stableoption}}_{{stableroof}}.png",
+        "When": { "stableoption": "2, 3, 4"},
+        },
+	]
+}

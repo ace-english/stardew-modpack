@@ -1,0 +1,51 @@
+{
+   "Name": "Shipping_chest",
+   "Author": "Gweniaczek",
+   "Version": "2.0",
+   "Description": "2 shipping bin retextures matching Medieval buildings",
+   "UniqueID": "Gweniaczek.Shipping_chest",
+   "UpdateKeys": ["Nexus:5512"],
+   "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.23.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "kaya.floralvalley",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ManaKirel.VMI",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "stardewfoliageredone",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "DaisyNiko.EarthyRecolour",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "minervamaga.CP.ATDSV",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Lita.StarblueValley",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Acerbicon.Recolor",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "minervamaga.CP.eemieMapRecolour",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "grapeponta.VibrantPastoralRecolor",
+			"IsRequired": false,
+		},
+	],
+}
+

@@ -1,0 +1,10 @@
+{
+   "Name": "Bog's Wizard Catalogue Recolor",
+   "Author": "BogWyytch",
+   "Version": "1.0",
+   "Description": "Recolor of the Wizard Catalogue for the goblins",
+   "UniqueID": "Bogs.WizardFurnitureRecolor",
+     "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "[CP] Nostalgic Old Furniture Collection",
+    "Author": "StarDust",
+    "Version": "1.3.1",
+    "Description": "Add some comfort furniture to your game:)",
+    "UniqueID": "Nostalgic.Old.Furniture.Collection",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

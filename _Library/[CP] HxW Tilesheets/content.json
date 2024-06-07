@@ -1,0 +1,130 @@
+{
+    "Format": "1.28.0",
+    "DynamicTokens":
+    [
+        //Mini Date 1: 
+        //Does Sterling get the kids ready for bed?
+        {
+            "Name": "Coloring",
+            "Value": "Vanilla",
+            "When": { "HasMod: |contains=DaisyNiko.EarthyRecolour,Lita.StarblueValley,yri.RetroRecolor,Acerbicon.Recolor,grapeponta.VibrantPastoralRecolor": false },
+        },
+        {
+            "Name": "Coloring",
+            "Value": "Muted",
+            "When": { "HasMod: |contains=DaisyNiko.EarthyRecolour,Lita.StarblueValley,yri.RetroRecolor,Acerbicon.Recolor,grapeponta.VibrantPastoralRecolor": true },
+        },
+
+        {
+            "Name": "SeasonWithDefault",
+            "Value": "Spring"
+            },
+           
+        {
+            "Name": "SeasonWithDefault",
+            "Value": "{{Season}}",
+            },
+    ],
+    
+    "Changes": [
+        // Fairy Garden
+        {
+            "Action": "Load",
+            "Target": "Maps/hime_fairygarden",
+            "FromFile": "Assets/{{Coloring}}/hime_fairygarden.png"
+        },
+        // Fountains
+        {
+            "Action": "Load",
+            "Target": "Maps/hime_fountains",
+            "FromFile": "Assets/{{Coloring}}/hime_fountains.png"
+        },
+         // Bathroom
+         {
+            "Action": "Load",
+            "Target": "Maps/hime_bathroom",
+            "FromFile": "Assets/{{Coloring}}/hime_bathroom.png"
+        },
+         // Farmer's Market
+         {
+            "Action": "Load",
+            "Target": "Maps/hime_farmersmarket",
+            "FromFile": "Assets/{{Coloring}}/hime_farmersmarket.png"
+        },
+        // Romantic Fountains
+        {
+            "Action": "Load",
+            "Target": "Maps/hime_romanticfountains",
+            "FromFile": "Assets/{{Coloring}}/{{SeasonWithDefault}}/hime_romanticfountains.png"
+        },
+        // Romantic Furniture
+        {
+            "Action": "Load",
+            "Target": "Maps/hime_romanticfurniture",
+            "FromFile": "Assets/{{Coloring}}/{{SeasonWithDefault}}/hime_romanticfurniture.png"
+        },
+        // Outdoor Furniture
+        {
+            "Action": "Load",
+            "Target": "Maps/hime_outdoorfurniture",
+            "FromFile": "Assets/{{Coloring}}/{{SeasonWithDefault}}/hime_outdoorfurniture.png"
+        },
+
+        //Outdoor Furniture Front
+        {
+            "Action": "Load",
+            "Target": "Mods/himetarts.tilesheets/hime_outdoorfurniture_Front",
+            "FromFile": "Assets/{{Coloring}}/{{SeasonWithDefault}}/hime_outdoorfurniture_Front.png"
+        },
+        // Sitting
+        {
+            "Action": "EditData",
+            "Target": "Data/ChairTiles",
+            "Entries": {
+                // Outdoor Furniture
+                "hime_outdoorfurniture/10/1": "2/1/down/bench/-1/-1/false",
+                "hime_outdoorfurniture/12/1": "1/1/right/bench/-1/-1/false",
+                "hime_outdoorfurniture/12/6": "2/1/down/bench/-1/-1/false",
+                "hime_outdoorfurniture/0/9": "3/1/down/bench/-1/-1/false",
+                "hime_outdoorfurniture/3/9": "1/1/right/bench/-1/-1/false",
+                "hime_outdoorfurniture/4/9": "3/1/up/highback_chair/4/9/false/Mods\\himetarts.tilesheets\\hime_outdoorfurniture_Front",
+                "hime_outdoorfurniture/10/9": "4/1/up/stool/-1/-1/false",
+                "hime_outdoorfurniture/14/14": "4/1/up/stool/-1/-1/false",
+                "hime_outdoorfurniture/3/12": "3/1/down/bench/-1/-1/false",
+                "hime_outdoorfurniture/3/14": "3/1/up/bench/-1/-1/false",
+                "hime_outdoorfurniture/0/11": "1/1/down/chair/-1/-1/false",
+                "hime_outdoorfurniture/1/11": "1/1/right/chair/-1/-1/false",
+                "hime_outdoorfurniture/2/11": "1/1/up/highback_chair/2/11/false/Mods\\himetarts.tilesheets\\hime_outdoorfurniture_Front",
+                "hime_outdoorfurniture/6/12": "3/1/down/bench/6/12/false/Mods\\himetarts.tilesheets\\hime_outdoorfurniture_Front", 
+                "hime_outdoorfurniture/6/14": "3/1/up/bench/-1/-1/false",   
+                "hime_outdoorfurniture/13/14": "1/1/down/bench/-1/-1/false",
+                "hime_outdoorfurniture/16/14": "1/1/down/bench/-1/-1/false",
+                "hime_outdoorfurniture/3/21": "1/1/right/stool/-1/-1/false",
+                "hime_outdoorfurniture/10/21": "1/1/left/stool/-1/-1/false",
+                "hime_outdoorfurniture/18/21": "1/1/down/bench/-1/-1/false",
+                "hime_outdoorfurniture/21/21": "1/1/down/bench/-1/-1/false",
+                "hime_outdoorfurniture/21/2": "1/1/down/chair/-1/-1/false",
+                "hime_outdoorfurniture/9/12": "1/3/right/bench/9/12/false/Mods\\himetarts.tilesheets\\hime_outdoorfurniture_Front",
+
+                // Fairy Garden
+                "hime_fairygarden/18/11": "1/1/down/stool/-1/-1/false",
+                "hime_fairygarden/19/11": "1/1/down/stool/-1/-1/false",
+                "hime_fairygarden/10/13": "1/1/down/bench/-1/-1/false",
+                "hime_fairygarden/26/17": "1/1/down/bench/-1/-1/false",
+                "hime_fairygarden/7/16": "1/1/down/stool/-1/-1/false",
+                "hime_fairygarden/10/16": "1/1/down/stool/-1/-1/false",
+
+                // Romantic Furniture
+                "hime_romanticfurniture/9/11": "2/1/down/bench/-1/-1/false",
+                "hime_romanticfurniture/11/11": "1/2/right/bench/-1/-1/false",
+                "hime_romanticfurniture/9/13": "2/1/down/bench/-1/-1/false",
+                "hime_romanticfurniture/11/14": "1/3/right/bench/9/13/false\\himetarts.tilesheets\\hime_romanticfurniture_Front",
+                "hime_romanticfurniture/12/13": "2/2/right/highback_chair/12/13/false\\himetarts.tilesheets\\hime_romanticfurniture_Front",
+                "hime_romanticfurniture/38/14": "3/1/down/bench/-1/-1/false",
+                "hime_romanticfurniture/41/14": "3/1/down/bench/-1/-1/false",
+                "hime_romanticfurniture/6/27": "2/1/down/bench/-1/-1/false",
+
+            }
+        }  
+    ]
+}

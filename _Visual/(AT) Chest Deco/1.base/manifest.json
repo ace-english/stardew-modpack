@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chest Deco : base",
+  "Author": "guxelbit",
+  "Version": "1.2",
+  "Description": "Chest",
+  "UniqueID": "gxbuatmod.cdbase",
+  "UpdateKeys": ["Nexus:20384"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "6.9.0"
+  }
+}

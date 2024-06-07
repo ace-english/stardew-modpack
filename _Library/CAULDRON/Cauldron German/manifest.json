@@ -1,0 +1,20 @@
+{
+    "Name": "[CP] Atelier Cauldron German Translation Pack",
+	"Author": "HumanlyPuma",
+	"Version": "0.1",
+	"Description": "Adds Atelier Cauldron German translation.",
+	"MinimumApiVersion": "3.6.0",
+	"UniqueID": "wildflour.AtelierGerman.CP",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": 
+    [
+    {
+		"UniqueID": "Atelier.Cauldron",
+		"IsRequired": true,
+    }
+    ]
+}

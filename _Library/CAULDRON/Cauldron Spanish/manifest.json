@@ -1,0 +1,20 @@
+{
+    "Name": "[CP] Atelier Cauldron Spanish Translation Pack",
+	"Author": "souvlakic",
+	"Version": "1.0",
+	"Description": "Agrega la traducción al español de Atelier Cauldron.",
+	"MinimumApiVersion": "3.6.0",
+	"UniqueID": "wildflour.AtelierSpanish.CP",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": 
+    [
+    {
+		"UniqueID": "Atelier.Cauldron",
+		"IsRequired": true,
+    }
+    ]
+}

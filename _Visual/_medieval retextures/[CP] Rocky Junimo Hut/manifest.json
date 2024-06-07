@@ -1,0 +1,13 @@
+{
+   "Name": "Rocky Junimo Hut", // https://www.nexusmods.com/stardewvalley/mods/1870
+   "Author": "Gweniaczek",
+   "Version": "1.0",
+   "Description": "Replacement for the Junimo Hut. A shorter, rockier little home for the little guys :3",
+   "UniqueID": "Gweniaczek.JunimoHut",
+   "MinimumApiVersion": "2.6-beta.15", // https://smapi.io/
+   "UpdateKeys": ["Nexus:1870"], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", // https://www.nexusmods.com/stardewvalley/mods/1915
+      "MinimumVersion": "1.4-beta.3"
+   }
+}

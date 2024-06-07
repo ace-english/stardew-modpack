@@ -1,0 +1,9 @@
+{
+  "Name": "[CP] Seasonal Open Windows",
+  "Author": "orangeblossom",
+  "Version": "1.2.1",
+  "Description": "CP version of this mod.",
+  "UniqueID": "OB7.SOWindows.brown",
+  "UpdateKeys": ["Nexus:20298"],
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
+}
