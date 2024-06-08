@@ -1,0 +1,18 @@
+{
+  "AxeUpgradesRequired": 1,
+  "WhenBushesRegrow": "12 days",
+  "DestroyableBushLocations": [],
+  "DestroyableBushTypes": {
+    "SmallBushes": true,
+    "MediumBushes": true,
+    "LargeBushes": true,
+    "WalnutBushes": true
+  },
+  "AmountOfWoodDropped": {
+    "SmallBushes": 2,
+    "MediumBushes": 4,
+    "LargeBushes": 8,
+    "WalnutBushes": 4,
+    "GreenTeaBushes": 0
+  }
+}

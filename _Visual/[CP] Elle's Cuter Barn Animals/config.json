@@ -1,0 +1,16 @@
+{
+  "White Cow Default": "SpottedSilver",
+  "White Cow Skins": "SpottedSilver, SpottedGrey, SpottedBlack, SolidCream, SolidBlonde, SolidGrey, SolidSilver, SolidWhite, SpottedBlonde, HerefordBlonde, HerefordGrey, HerefordSilver, BeltedBlonde, BeltedGrey, BeltedSilver, HighlandCream, HighlandBlonde, HighlandGrey, HighlandSilver, HighlandWhite",
+  "Brown Cow Default": "HerefordFawn",
+  "Brown Cow Skins": "HerefordFawn, HerefordBrown, HerefordRed, SolidFawn, SolidBrown, SolidRed, SolidMidnight, SolidBlack, SpottedFawn, SpottedBrown, SpottedRed, SpottedMidnight, SpottedBlack, HerefordMidnight, HerefordBlack, BeltedFawn, BeltedBrown, BeltedRed, BeltedMidnight, BeltedBlack, HighlandBrown, HighlandRed, HighlandMidnight, HighlandBlack, HighlandGrey, SolidVoid, SpottedVoid, HerefordVoid, BeltedVoid",
+  "Goat Default": "SocksFawn",
+  "Goat Skins": "SolidCream, SolidBlonde, LongSolidGrey, LongSolidSilver, SolidFawn, SolidBrown, SolidRed, SolidMidnight, SolidBlack, SolidGrey, SolidSilver, SolidWhite, SocksBlonde, SocksFawn, SocksBrown, SocksRed, SocksMidnight, SocksBlack, SocksGrey, SocksSilver, SpottedBlonde, SpottedFawn, SpottedBrown, SpottedRed, SpottedMidnight, SpottedBlack, SpottedGrey, SpottedSilver, BeltedBlonde, BeltedFawn, BeltedBrown, BeltedRed, BeltedMidnight, BeltedBlack, BeltedGrey, BeltedSilver, LongSolidCream, LongSolidBlonde, LongSolidFawn, LongSolidBrown, LongSolidRed, LongSolidMidnight, LongSolidBlack, LongSolidWhite, LongSocksBlonde, LongSocksFawn, LongSocksBrown, LongSocksRed, LongSocksMidnight, LongSocksBlack, LongSocksGrey, LongSocksSilver, LongSpottedBlonde, LongSpottedFawn, LongSpottedBrown, LongSpottedRed, LongSpottedMidnight, LongSpottedBlack, LongSpottedGrey, LongSpottedSilver, LongBeltedBlonde, LongBeltedFawn, LongBeltedBrown, LongBeltedRed, LongBeltedMidnight, LongBeltedBlack, LongBeltedGrey, LongBeltedSilver, SolidVoid, SpottedVoid, BeltedVoid, SocksVoid, LongSolidVoid, LongSpottedVoid, LongBeltedVoid, LongSocksVoid",
+  "Sheep Default": "SpottedBlonde",
+  "Sheep Skins": "SolidCream, SpottedBlonde, SocksFawn, SolidBlonde, SolidFawn, SolidBrown, SolidRed, SolidMidnight, SolidBlack, SolidGrey, SolidSilver, SolidWhite, SpottedFawn, SpottedBrown, SpottedRed, SpottedMidnight, SpottedBlack, SpottedGrey, SpottedSilver, SocksBlonde, SocksBrown, SocksRed, SocksMidnight, SocksBlack, SocksGrey, SocksSilver, SolidVoid, SpottedVoid, SocksVoid",
+  "Pig Default": "BeltedVoid",
+  "Pig Skins": "SolidPink, SpottedPink, SolidCream, SolidBlonde, SolidFawn, SolidBrown, SolidRed, SolidMidnight, SolidBlack, SolidGrey, SolidSilver, SolidWhite, SocksBlonde, SocksFawn, SocksBrown, SocksRed, SocksMidnight, SocksBlack, SocksGrey, SocksSilver, SpottedBlonde, SpottedFawn, SpottedBrown, SpottedRed, SpottedMidnight, SpottedBlack, SpottedGrey, SpottedSilver, BeltedPink, BeltedBlonde, BeltedFawn, BeltedBrown, BeltedRed, BeltedMidnight, BeltedBlack, BeltedGrey, BeltedSilver, DeerBlonde, DeerFawn, DeerBrown, DeerRed, DeerMidnight, DeerBlack, DeerGrey, DeerSilver, DeerVoid, SolidVoid, SpottedVoid, BeltedVoid, SocksVoid",
+  "Ostrich Default": "Black",
+  "Ostrich Skins": "Black, Grey, Blonde, Fawn, Brown, Red, Midnight, Silver, Void",
+  "Wool Recolor": "Cream",
+  "Cloth Recolor": "Cream"
+}

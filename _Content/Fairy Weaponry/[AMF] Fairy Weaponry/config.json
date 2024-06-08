@@ -1,0 +1,30 @@
+{
+  "variables": {
+    "Woodland Staff Projectile 1 Damage": 50,
+    "Woodland Staff Projectile 2 Damage": 50,
+    "Woodland Staff Projectile 3 Damage": 50,
+    "Fairy Tome Projectile 1 Damage": 65,
+    "Fairy Tome Projectile 2 Damage": 65,
+    "Fairy Tome Projectile 3 Damage": 65,
+    "Radiant Staff Projectile 1 Damage": 80,
+    "Radiant Staff Projectile 2 Damage": 95,
+    "Radiant Staff Projectile 3 Damage": 80,
+    "Zephyr Projectile 1 Damage": 75,
+    "Zephyr Projectile 2 Damage": 75,
+    "Zephyr Projectile 3 Damage": 75,
+    "Zephyr Projectile 4 Damage": 75,
+    "Zephyr Projectile 5 Damage": 75,
+    "Zephyr Projectile 6 Damage": 75,
+    "Zephyr Projectile 7 Damage": 75,
+    "Zephyr Projectile 8 Damage": 75,
+    "Fairy Staff Projectile 1 Damage": 90,
+    "Fairy Staff Projectile 2 Damage": 90,
+    "Fairy Staff Projectile 3 Damage": 90,
+    "Fairy Staff Projectile 4 Damage": 100,
+    "Fairy Staff Projectile 5 Damage": 100,
+    "Fairy Staff Projectile 6 Damage": 100,
+    "Fairy Staff Projectile 7 Damage": 90,
+    "Fairy Staff Projectile 8 Damage": 90,
+    "Fairy Staff Projectile 9 Damage": 90
+  }
+}

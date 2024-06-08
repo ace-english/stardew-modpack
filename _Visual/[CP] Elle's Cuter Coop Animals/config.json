@@ -1,0 +1,21 @@
+{
+  "White Chicken Default": "BrahmaWhite",
+  "White Chicken Skins": "BrahmaWhite, SilkieBlonde, BantamCream, BrahmaCream, BrahmaBlonde, BrahmaGrey, BrahmaSilver, SilkieCream, SilkieFawn, SilkieGrey, SilkieSilver, SilkieWhite, BantamBlonde, BantamGrey, BantamSilver, BantamWhite",
+  "Brown Chicken Default": "SilkieBrown",
+  "Brown Chicken Skins": "BrahmaBrown, SilkieRed, BantamFawn, BrahmaFawn, BrahmaRed, BrahmaMidnight, BrahmaBlack, BrahmaWhite, BrahmaVoid, SilkieFawn, SilkieBrown, SilkieMidnight, SilkieBlack, SilkieVoid, BantamBrown, BantamRed, BantamMidnight, BantamBlack, BantamGrey, BantamSilver, BantamWhite, BantamVoid",
+  "Void Chicken Default": "Midnight",
+  "Void Chicken Skins": "Grey, Silver, Black, Midnight",
+  "Blue Chicken Default": "LightBlue",
+  "Blue Chicken Skins": "LightBlue, DarkBlue, Turquoise, FullTurquoise, FullLightBlue, FullDarkBlue",
+  "Golden Chicken Default": "Golden",
+  "Golden Chicken Skins": "Golden",
+  "Duck Default": "MallardMale",
+  "Duck Skins": "MallardMale, MallardFemale, Cream, Blonde, Fawn, Brown, Red, Midnight, Black, Grey, Silver, White, Void, false",
+  "Rabbit Default": "SolidBlonde",
+  "Rabbit Skins": "SolidBlonde, DutchFawn, LopPointedBrown, LopBeltedRed, SolidCream, SolidFawn, SolidBrown, SolidRed, SolidMidnight, SolidBlack, SolidGrey, SolidSilver, SolidWhite, PointedBlonde, PointedFawn, PointedBrown, PointedRed, PointedMidnight, PointedBlack, PointedGrey, PointedSilver, DutchBlonde, DutchBrown, DutchRed, DutchMidnight, DutchBlack, DutchGrey, DutchSilver, BeltedBlonde, BeltedFawn, BeltedBrown, BeltedRed, BeltedMidnight, BeltedBlack, BeltedGrey, BeltedSilver, LopSolidCream, LopSolidBlonde, LopSolidFawn, LopSolidBrown, LopSolidRed, LopSolidMidnight, LopSolidBlack, LopSolidGrey, LopSolidSilver, LopSolidWhite, LopPointedBlonde, LopPointedFawn, LopPointedRed, LopPointedMidnight, LopPointedBlack, LopPointedGrey, LopPointedSilver, LopDutchBlonde, LopDutchFawn, LopDutchBrown, LopDutchRed, LopDutchMidnight, LopDutchBlack, LopDutchGrey, LopDutchSilver, LopBeltedBlonde, LopBeltedFawn, LopBeltedBrown, LopBeltedMidnight, LopBeltedBlack, LopBeltedGrey, LopBeltedSilver, SolidVoid, BeltedVoid, DutchVoid, PointedVoid, LopSolidVoid, LopBeltedVoid, LopDutchVoid, LopPointedVoid",
+  "Dinosaur Default": "Green",
+  "Dinosaur Skins": "Green, LightBlue, DarkBlue, Iridium, Red, Orange, Grey, White, Void",
+  "Duck Feather Recolor": "MallardMale",
+  "Rabbit Foot Recolor": "Blonde",
+  "Dinosaur Egg Recolor": "Iridium"
+}

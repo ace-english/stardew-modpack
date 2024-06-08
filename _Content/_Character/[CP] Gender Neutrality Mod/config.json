@@ -1,0 +1,6 @@
+{
+  "ReplaceGenderSymbols": "true",
+  "FixBathHouseDoors": "true",
+  "FixBathHouseTiles": "true",
+  "FixOtherPlayers": "true"
+}
