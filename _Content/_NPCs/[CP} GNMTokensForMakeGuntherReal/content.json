@@ -1,0 +1,125 @@
+{
+    "Format": "2.1.0",
+
+    "Changes":[
+
+        // NPC Tastes
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Gunther": "{{Hana.GNMTokens/Title}} @!#$b#This is a kingly gift indeed! Thank you. From the bottom of my heart./614 579 580 581 582 583 584 585 586 587 588 589 96 97 98 99 100 101 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127/Why, thank you kindly. This is a lovely gift./80 446 797 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 815 341/Hm. I'm not sure what to say. But I appreciate the thought./428 306 307/This isn't really my thing. Sorry./206 225 202 215 731/Thank you./340 373 303 346 459 424 426 350/",
+                },
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When":
+            {
+                "Relationship:Gunther":"Dating,Married"
+            },
+            "Entries": {
+                "Gunther": "@, {{Lowercase:{{Hana.GNMTokens/Adjective}}}}!#$b#This is a magnificent gift indeed! Thank you, darling, the bottom of my heart./614 579 580 581 582 583 584 585 586 587 588 589 96 97 98 99 100 101 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127/Why, thank you kindly. This is a lovely gift./80 446 797 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 815 341/Hm. I'm not sure what to say. But I appreciate the thought./428 306 307/This isn't really my thing. Sorry./206 225 202 215 731/Thank you./340 373 303 346 459 424 426 350/",
+                },
+        },
+
+        // Dialogue
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gunther",
+            "Entries": 
+            {
+                "Introduction":"Well hello there!$u#$b#I heard we were getting a newcomer in town. You must be {{Lowercase:{{Hana.GNMTokens/SubjectivePronoun}}}}.#$b#I’m Gunther, curator of the local museum and library. And it is my absolute pleasure to welcome you to Stardew Valley.",
+
+                "FlowerDance_Accept":"You want me to dance with you? Certainly!#$6#$b#Let's see if I still remember all the steps then, @.#$u#",
+                "FlowerDance_Accept_Spouse":"Of course I'll dance with you, {{Lowercase:{{Hana.GNMTokens/Adjective}}}}.#%l#",
+                "FlowerDance_Decline":"Respectfully, {{Hana.GNMTokens/Title}} @, I don’t feel comfortable accepting that kind of invitation.",
+                "dumped_Guys":"Let's keep things professional between us, {{Hana.GNMTokens/Title}} @.#$a#",
+                "secondChance_Guys": "I'm still hurt, @...#$s#$b#But I'm willing to give us another chance if you are.#$l#",
+                "breakUp": "That's-!#$6#%b#I... I understand. Sometimes our feelings aren't what we thought they were.#$s#$b#I understand that as well as anyone.",
+                "RejectBouquet_Divorced":"{{Hana.GNMTokens/Title}} @...#$a#%b#I do not think that would be a good idea for you, myself, or Cecily.#%s#",
+                "RejectMermaidPendant_Divorced":"I'm sorry {{Hana.GNMTokens/Title}} @, but absolutely not.#$a#%B#I don't only have my own wellbeing to look out for.#$s#",
+
+                "Mon":"Good day, {{Hana.GNMTokens/Title}} @! I hope it finds you well.$u#$e#",
+                "Wed":"Ah, {{Hana.GNMTokens/Title}} @! How are you?$u#$b#How fares the farm?#$e#I’m sure you’ll prevail. I have the utmost confidence in your perseverance!",
+                "Thu":"Hello there, {{Hana.GNMTokens/Title}} @!$u#$b#Is your work coming along well? What are you growing this season?#$e#Wonderful, truly wonderful.#$e#Now I fear I must get back to my work.",
+                "Fri":"Happy Friday, {{Hana.GNMTokens/Title}} @! Though I suppose the weekend is all the same to a farmer, isn’t it?#$b#Do you have any weekend plans?#$e#Well that sounds lovely all the same.",
+                "Sat":"{{Hana.GNMTokens/Title}} @! It’s lovely to see you.$u#$b#I would love to stop by your farm one of these days and see all the work you’ve put into it.",
+                "Sun":"Hello, {{Hana.GNMTokens/Title}} @!$u#$q 881/882 Sun_pet#I'm wondering: do you consider yourself more of a cat person or a dog person?#$r 881 0 animalquestion_cat#Cat person, definitely.#$r 882 0 animalquestion_dog#Dog person, without question.",
+                "Mon2":"I find myself envying you, {{Hana.GNMTokens/Title}} @. Your work takes you out to enjoy this lovely weather.#$b#I, myself, am stuck inside for most of the day.#$e#Oh, it’s not all bad, of course. I have fascinating work to occupy myself with!$h",
+                "winter_Mon2": "Ah, {{Hana.GNMTokens/Title}} @.$u#$b#Keeping warm, I hope?#$e#I don’t envy a farmer’s life in this weather! I’d much rather be tucked up among my books and dusty artifacts where it’s nice and warm.",
+                "Tue2":"Perhaps I’ll close up the museum early today and go for a dig!#$e#Ha! I jest, {{Hana.GNMTokens/Title}} @.$h#$b#It’s hard enough to pry me out of this museum outside of normal hours. You’ll not find me outside my dusty shelves while the sign says we’re open.$h",
+                "Wed2":"How are you, {{Hana.GNMTokens/Title}} @?$u#$p 881#And how is your kitty faring?|I wish good health on you. Not that I’d wish poor health on anyone, but I expect your work would be much worse with a cold!",
+                "Fri2":"It’s good to see you, {{Hana.GNMTokens/Title}} @. I’ve just been engrossed in these latest tomes to come through.#$b#Oh, but I won’t bore you with the dry details.#$e#Have a good day!",
+                "Sun2":"Hello there, {{Hana.GNMTokens/Title}} @! Every time I see you you're in a bit of a rush.$u#$q 883/884/885 Sun_hobby#What do you get up to when you're not working?#$r 883 0 hobby_games#I could spend hours playing arcade games at the Stardrop.#$r 884 0 hobby_adventure#I’m a bit of an adventurer. I’ve been delving in the old mines a lot lately.#$r 884 20 hobby_archaeology#I’ve really been enjoying digging up artifacts for the museum!",
+
+                "AcceptGift_(O)StardropTea": "This is... Absolutely lovely. It's like unearthing a new discovery with every sip. Thank you.#$h#",
+                "AcceptGift_(O)Book_Artifact":
+                "It's unfortunate how many discovories disappear into the depths of private collections...#$s#$b#Still, there is some useful information in a book like this.#$0#$e#",
+			    "AcceptGift_book_item": "Perhaps there is room in the stacks for this. And if not, I'm sure there's someone in town who could benefit from this knowledge.#e#",
+
+
+            },
+        },
+        // Events
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "Entries": {
+                "7102002/f Gunther 1000": "jaunty/3 11/Gunther 54 7 2 farmer 3 14 0 Cecily 54 9 0/skippable/playSound doorClose/pause 1000/move farmer 0 -3 0/pause 500/faceDirection farmer 1/pause 200/faceDirection farmer 2/pause 200/faceDirection farmer 1/pause 200/faceDirection farmer 0/pause 1000/emote farmer 8/pause 1000/speak Gunther \"What do you say? I’ll make spaghetti - your favorite.\"/faceDirection farmer 1/viewport move 6 0 9000/pause 700/speak Cecily \"Dad, I’m sixteen. Spaghetti hasn’t been my favorite since I was five.$u\"/pause 700/speak Gunther \"Oh. Well. What would you prefer then?\"/pause 700/speak Cecily \"I don’t know. Sushi I guess. You’re right on the sea. Can’t you get some high quality sashimi here?\"/warp farmer 38 18/speed farmer 3/move farmer 13 0 0 true/pause 700/speak Gunther \"Of course! One sashimi platter, straight from the sea, coming right up.\"/move Gunther 1 0 2 true/pause 700/emote Gunther 16/pause 200/faceDirection Cecily 2/pause 200/speak Cecily \"Who’re you?\"/pause 500/speak Gunther \"Oh, @. Come in.\"/move farmer 3 0 0/move farmer 0 -7 0/speak Gunther \"This is my daughter Cecily.\"/move Gunther 0 2 2/speak Gunther \"Cecily, this is @. {{Hana.GNMTokens/SubjectivePronoun}} are the farmer who moved into the old farm down the way.#$b#I told you about {{Lowercase:{{Hana.GNMTokens/ObjectivePronoun}}}}.\"/pause 500/jump Gunther/speak Gunther \"Oh! That reminds me. I had something to show you, Cecily. Wait here just a moment.\"/speed Gunther 5/move Gunther 0 9 2/speed Gunther 5/move Gunther -19 0 0/speak Cecily \"So.#$b#You’re friends with my dad?\"/pause 200/emote farmer 32/pause 200/stopMusic/speak Cecily \"I’d stay away from him, if I were you.#$b#Not because I’m trying to protect him or because I don’t want him to get married again - I mean, I don’t, but not for the reasons you’re thinking - but because I don’t want him to do to anyone else what he did to Mom.$s\"/playMusic echos/pause 2000/speak Cecily \"I don’t think he really does it on purpose. He’s not malicious, I guess. He’s just oblivious and self-absorbed.\"/pause 500/speak Cecily \"I bet you think he’s really friendly, right?#$b#A great guy. Always interested in you and what you like to do.#$b#Asks you questions about your hobbies and your interests and then he keeps track of all that stuff, when you thought it was just smalltalk.#$b#It’s almost like he actually cares.\"/pause 500/speak Cecily \"Don’t be fooled. He collects people, you see. Yeah, he wants to learn about you, just like he wants to learn about that dinged up old dwarf helmet on the museum shelf. He has to know what makes you tick so he knows what to write on the little card next to your display case:#$b#@. A farmer with a keen interest in geology and archaeology. Lives on %farm Farm with %pet. Loves %favorite.\"/pause 500/speak Cecily \"I don’t mean for it to sound like he’s a psychopath or anything. He’s not going to murder you and put that plaque next to your head on his wall.#$b#He’s just an incurable academic and he’s spent so much time studying people and society that he forgets maybe he should talk to people just to talk to them.#$b#Because when he makes them into puzzles then he’ll eventually solve them and get bored of them.\"/pause 500/speak Cecily \"That’s what he did with Mom. She thought he was great. A real genuine guy.#$b#And then after a few years of living together he was sure he had every inch of her mind figured out, so he didn’t need to spend any more time talking to her. Ever.\"/pause 500/speak Cecily \"He hasn’t gotten bored of me, yet. Maybe I should let him so he’ll stop insisting I visit once a month.#$b#But I guess I’m afraid it’ll hurt more than I think.$s#$b#He’s still my dad, y’know?$s\"/pause 1000/speak Cecily \"Anyway, it was nice meeting you.\"/move Cecily 0 1 2/move Cecily 7 0 1/faceDirection farmer 1/move Cecily 0 3 2/doAction 61 14/playSound doorCreak/stopMusic/move Cecily 0 3 2/pause 1000/emote farmer 28/speed Gunther 5/move Gunther 18 0 0/faceDirection farmer 2/speak Gunther \"It’s a fascinating old scroll from -\"/pause 200/speak Gunther \"Oh.#$b#I see that conversation didn’t hold.\"/move Gunther 0 -5 0/quickQuestion #Um. Yeah. Heh. She seems like a great kid!#She said I should stay away from you because you collect people like artifacts.(break)pause 100\\speak Gunther \"She told you something terrible about me, didn’t she?\"\\pause 200\\emote farmer 28(break)pause 100/speak Gunther \"Ah.\"/playMusic desolate/pause 1000/speak Gunther \"She is her mother’s daughter. And one’s ex-spouse tends to think the worst of one.$s#$b#It is true, of course, that I find people fascinating. I enjoy learning what interests people and what makes them light with passion.#$b#People are at their best when discussing what they truly love, don’t you agree?#$b#But that doesn’t quite equate to collecting people or trying to put them in glass cases.\"/pause 500/speak Gunther \"I was a very young man when I met my ex-wife. I was still learning about myself, not to mention others. And I suppose I mistook what I felt for her, only to realize when it was too late.$s#$b#You see, an interest in someone as a person is not the same as being in love with them.$s\"/pause 500/speak Gunther \"But I do not, as Cecily’s mother might suggest to her, collect interesting people, learn all of their quirks, and then abandon them like old toys.#$b#Even if I was inclined to discard people once I was fully familiar with them, I would never have left a single person behind.#$b#People are much too complicated for that. You could spend a lifetime with one other person and still be learning about them when you die.#$b#People are not static. Not much is.\"/pause 1000/speak Gunther \"*sigh*...$s\"/pause 200/faceDirection Gunther 2/pause 200/showFrame Gunther 20/pause 2000/speak Gunther \"Well. I’m sorry to have embroiled you so thoroughly in the drama of my broken little family.$s#$b#Thanks for stopping by, @.#$b#I’d better see about getting some sashimi for my daughter.\"/pause 1000/globalFade/viewport -1000 -1000/end warpOut",
+                }
+                
+            },
+
+            {
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "When": 
+            {
+                "Hana.GNMTokens/Singular": true
+            },
+            "Entries": 
+            {
+                "7102002/f Gunther 1000": "jaunty/3 11/Gunther 54 7 2 farmer 3 14 0 Cecily 54 9 0/skippable/playSound doorClose/pause 1000/move farmer 0 -3 0/pause 500/faceDirection farmer 1/pause 200/faceDirection farmer 2/pause 200/faceDirection farmer 1/pause 200/faceDirection farmer 0/pause 1000/emote farmer 8/pause 1000/speak Gunther \"What do you say? I’ll make spaghetti - your favorite.\"/faceDirection farmer 1/viewport move 6 0 9000/pause 700/speak Cecily \"Dad, I’m sixteen. Spaghetti hasn’t been my favorite since I was five.$u\"/pause 700/speak Gunther \"Oh. Well. What would you prefer then?\"/pause 700/speak Cecily \"I don’t know. Sushi I guess. You’re right on the sea. Can’t you get some high quality sashimi here?\"/warp farmer 38 18/speed farmer 3/move farmer 13 0 0 true/pause 700/speak Gunther \"Of course! One sashimi platter, straight from the sea, coming right up.\"/move Gunther 1 0 2 true/pause 700/emote Gunther 16/pause 200/faceDirection Cecily 2/pause 200/speak Cecily \"Who’re you?\"/pause 500/speak Gunther \"Oh, @. Come in.\"/move farmer 3 0 0/move farmer 0 -7 0/speak Gunther \"This is my daughter Cecily.\"/move Gunther 0 2 2/speak Gunther \"Cecily, this is @. {{Hana.GNMTokens/SubjectivePronoun}}'s the farmer who moved into the old farm down the way.#$b#I told you about {{Lowercase:{{Hana.GNMTokens/ObjectivePronoun}}}}.\"/pause 500/jump Gunther/speak Gunther \"Oh! That reminds me. I had something to show you, Cecily. Wait here just a moment.\"/speed Gunther 5/move Gunther 0 9 2/speed Gunther 5/move Gunther -19 0 0/speak Cecily \"So.#$b#You’re friends with my dad?\"/pause 200/emote farmer 32/pause 200/stopMusic/speak Cecily \"I’d stay away from him, if I were you.#$b#Not because I’m trying to protect him or because I don’t want him to get married again - I mean, I don’t, but not for the reasons you’re thinking - but because I don’t want him to do to anyone else what he did to Mom.$s\"/playMusic echos/pause 2000/speak Cecily \"I don’t think he really does it on purpose. He’s not malicious, I guess. He’s just oblivious and self-absorbed.\"/pause 500/speak Cecily \"I bet you think he’s really friendly, right?#$b#A great guy. Always interested in you and what you like to do.#$b#Asks you questions about your hobbies and your interests and then he keeps track of all that stuff, when you thought it was just smalltalk.#$b#It’s almost like he actually cares.\"/pause 500/speak Cecily \"Don’t be fooled. He collects people, you see. Yeah, he wants to learn about you, just like he wants to learn about that dinged up old dwarf helmet on the museum shelf. He has to know what makes you tick so he knows what to write on the little card next to your display case:#$b#@. A farmer with a keen interest in geology and archaeology. Lives on %farm Farm with %pet. Loves %favorite.\"/pause 500/speak Cecily \"I don’t mean for it to sound like he’s a psychopath or anything. He’s not going to murder you and put that plaque next to your head on his wall.#$b#He’s just an incurable academic and he’s spent so much time studying people and society that he forgets maybe he should talk to people just to talk to them.#$b#Because when he makes them into puzzles then he’ll eventually solve them and get bored of them.\"/pause 500/speak Cecily \"That’s what he did with Mom. She thought he was great. A real genuine guy.#$b#And then after a few years of living together he was sure he had every inch of her mind figured out, so he didn’t need to spend any more time talking to her. Ever.\"/pause 500/speak Cecily \"He hasn’t gotten bored of me, yet. Maybe I should let him so he’ll stop insisting I visit once a month.#$b#But I guess I’m afraid it’ll hurt more than I think.$s#$b#He’s still my dad, y’know?$s\"/pause 1000/speak Cecily \"Anyway, it was nice meeting you.\"/move Cecily 0 1 2/move Cecily 7 0 1/faceDirection farmer 1/move Cecily 0 3 2/doAction 61 14/playSound doorCreak/stopMusic/move Cecily 0 3 2/pause 1000/emote farmer 28/speed Gunther 5/move Gunther 18 0 0/faceDirection farmer 2/speak Gunther \"It’s a fascinating old scroll from -\"/pause 200/speak Gunther \"Oh.#$b#I see that conversation didn’t hold.\"/move Gunther 0 -5 0/quickQuestion #Um. Yeah. Heh. She seems like a great kid!#She said I should stay away from you because you collect people like artifacts.(break)pause 100\\speak Gunther \"She told you something terrible about me, didn’t she?\"\\pause 200\\emote farmer 28(break)pause 100/speak Gunther \"Ah.\"/playMusic desolate/pause 1000/speak Gunther \"She is her mother’s daughter. And one’s ex-spouse tends to think the worst of one.$s#$b#It is true, of course, that I find people fascinating. I enjoy learning what interests people and what makes them light with passion.#$b#People are at their best when discussing what they truly love, don’t you agree?#$b#But that doesn’t quite equate to collecting people or trying to put them in glass cases.\"/pause 500/speak Gunther \"I was a very young man when I met my ex-wife. I was still learning about myself, not to mention others. And I suppose I mistook what I felt for her, only to realize when it was too late.$s#$b#You see, an interest in someone as a person is not the same as being in love with them.$s\"/pause 500/speak Gunther \"But I do not, as Cecily’s mother might suggest to her, collect interesting people, learn all of their quirks, and then abandon them like old toys.#$b#Even if I was inclined to discard people once I was fully familiar with them, I would never have left a single person behind.#$b#People are much too complicated for that. You could spend a lifetime with one other person and still be learning about them when you die.#$b#People are not static. Not much is.\"/pause 1000/speak Gunther \"*sigh*...$s\"/pause 200/faceDirection Gunther 2/pause 200/showFrame Gunther 20/pause 2000/speak Gunther \"Well. I’m sorry to have embroiled you so thoroughly in the drama of my broken little family.$s#$b#Thanks for stopping by, @.#$b#I’d better see about getting some sashimi for my daughter.\"/pause 1000/globalFade/viewport -1000 -1000/end warpOut",
+            },
+                
+            },
+
+            {
+            "Action": "EditData",
+		    "Target": "Data/Events/BusStop",
+            "Entries": {
+			"7102005/e 7102002/e 7102003/f Gunther 2000/t 810 1700 ": "none/-1000 -1000/Cecily 22 10 2 Gunther 22 13 0 farmer 10 23 1/skippable/pause 500/playSound busDoorOpen/pause 5000/viewport 22 15 clamp true/playMusic desolate/pause 2000/speak Cecily \"Dad...$4\"/pause 500/move Cecily 0 3 2/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/speed farmer 2/move farmer 13 0 0 true/showFrame Gunther 21/shake Cecily 30000/speak Gunther \"It’s alright, sweetheart. I’ve got you. Hush now.$s\"/pause 2000/speak Cecily \"...$4\"/pause 2000/emote farmer 8/pause 2000/showFrame Gunther 0/faceDirection Gunther 2/pause 200/speak Gunther \"*mouthing* Later.$s\"/pause 200/faceDirection Gunther 0/showFrame Gunther 21/pause 3000/speed farmer 1/move farmer 14 0 0 true/globalFade/viewport -1000 -1000/end invisible Gunther",
+            }
+        },
+         
+            {
+                "Action": "EditData",
+		        "Target": "Characters/Dialogue/Cecily",
+                "Entries":
+                {
+                    "AcceptGift_(O)StardropTea": "Ooooh, blackberries and chocolate!#$0##$b#Sweet!#$h#",
+                    "Sun_inlaw_Gunther":"Hi {{Hana.GNMTokens/ParentalNoun}}.#$e#...#$b#Nope. Can’t do it. It’s too weird.$h",
+                }
+
+            },
+
+            // Marriage schedule fix
+            {
+                "Action": "EditData",
+                "Target": "Characters/schedules/Gunther",
+                "Entries":
+                {
+                    "marriage_Mon":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.000\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.001\"/2000 bed",
+                    "marriage_Tue":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.002\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.003\"/2000 bed",
+                    "marriage_Wed":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.004\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.005\"/2000 bed",
+                    "marriage_Thur":"630 ArchaeologyHouse 33 12 2 \"Strings\\schedules\\Gunther:marriage_teach\"/1200 ArchaeologyHouse 2 10 0 \"Strings\\schedules\\Gunther:marriage.006\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.007\"/2000 bed",
+                    "marriage_Fri":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.008\"/1800 bed",
+                } 
+            }
+
+    ],
+
+
+}

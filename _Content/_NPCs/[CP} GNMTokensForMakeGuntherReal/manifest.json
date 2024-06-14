@@ -1,0 +1,22 @@
+{
+   "Name": "[CP] GNMT patch for Make Gunther Real",
+   "Author": "EraTheOutworlder",
+   "Version": "1.0.0",
+   "Description": "Patch to add Gender Neutrality Mod Tokens and misc fixes to WerewolfMaster's Makes Gunther Real",
+   "UniqueID": "Era.GNMTGunther",
+   "MinimumApiVersion": "2.5",
+   "Dependencies": [
+   {
+      "UniqueID": "Hana.GNMTokens",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "Wolf.Gun",
+      "IsRequired": true
+   }
+   ],
+   "UpdateKeys": [ "Nexus:24931" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
