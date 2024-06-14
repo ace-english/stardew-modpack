@@ -1,0 +1,10 @@
+{
+"Name": "[CP] Orangeblossom's Basic Kitchen Add-ons",
+"Author": "orangeblossom",
+"Version": "1.0.3",
+"Description": "Kitchen furniture.",
+"UniqueID": "OB7.KichFurni",
+"Dependencies": [{"UniqueID": "OB7.FurniCatalogue","IsRequired": true}],
+"UpdateKeys":["Nexus:24649"],
+"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
+}

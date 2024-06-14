@@ -286,7 +286,7 @@
             },
             "TileSize":{
                 "X": 3,
-                "Y": 3
+                "Y": 4
             }
     },
         "wildflour.ateliercrops_giantstrawberry": {
@@ -312,7 +312,7 @@
             },
             "TileSize":{
                 "X": 3,
-                "Y": 3
+                "Y": 4
             }
     },
         "wildflour.ateliercrops_giantlavender": {
@@ -333,7 +333,7 @@
             },
             "TileSize":{
                 "X": 3,
-                "Y": 3
+                "Y": 4
             }
     },
         "wildflour.ateliercrops_giantmint": {
@@ -354,9 +354,115 @@
             },
             "TileSize":{
                 "X": 3,
-                "Y": 3
+                "Y": 4
+            }
+    },
+        "wildflour.ateliercrops_giant_meringue_mushroom": {
+            "FromItemId":"wildflour.ateliercrops_meringueshroomseeds",
+            "Seasons": [ "fall" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"wildflour.ateliercrops_meringueshroom",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/wildflour.ateliercrops/GiantCropsWF",
+            "TexturePosition": {
+                "X": 0,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 4
+            }
+    },
+        "wildflour.ateliercrops_giant_milk_mushroom": {
+            "FromItemId":"wildflour.ateliercrops_milkshroomseeds",
+            "Seasons": [ "summer","fall" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"wildflour.ateliercrops_milkshroom",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/wildflour.ateliercrops/GiantCropsWF",
+            "TexturePosition": {
+                "X": 96,
+                "Y": 64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 4
+            }
+    },
+        "wildflour.ateliercrops_giant_wheatberry_mushroom": {
+            "FromItemId":"wildflour.ateliercrops_wheatshroomseeds",
+            "Seasons": [ "spring" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"wildflour.ateliercrops_wheatshroom",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/wildflour.ateliercrops/GiantCropsWF",
+            "TexturePosition": {
+                "X": 144,
+                "Y": 64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 4
+            }
+    },
+        "wildflour.ateliercrops_giant_honey_mushroom": {
+            "FromItemId":"wildflour.ateliercrops_honeyfungusseeds",
+            "Seasons": [ "spring" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"wildflour.ateliercrops_honeyfungus",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/wildflour.ateliercrops/GiantCropsWF",
+            "TexturePosition": {
+                "X": 0,
+                "Y": 64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 4
+            }
+    },
+        "wildflour.ateliercrops_giant_chicken_mushroom": {
+            "FromItemId":"wildflour.ateliercrops_chickenwoodsseeds",
+            "Seasons": [ "summer" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"wildflour.ateliercrops_chickenwoods",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/wildflour.ateliercrops/GiantCropsWF",
+            "TexturePosition": {
+                "X": 48,
+                "Y":64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 4
             }
     }
+
 }
 }
 

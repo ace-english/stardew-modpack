@@ -147,7 +147,7 @@
   
   
   //Oasis Tier 3
-  //Profit per attempt: ~97g - 120g
+  //Profit per attempt: ~97g - 120g (old calculation)
   //Total Chance: ~77% - 85,7%
 	{ "Area": "107,13; 136,42", "Fish": [
 		{ "ID": 140, "Chance": 0.18   }, //Walleye
@@ -158,7 +158,7 @@
 		{ "ID": 164, "Chance": 0.2925 }, //Sandfish
 		{ "ID": 165, "Chance": 0.0675 }, //Scorpion Carp 
 		
-		//At Max Fishing LvL that's 1.5% chance weight per legendary fish.
+		//At Max Fishing LvL that's 2% chance weight per legendary fish.
 		{ "ID": 160, "Type": "Item", "Chance": 0.005, "ChancePerLevel": 0.0015 }, //Angler
 		{ "ID": 159, "Type": "Item", "Chance": 0.005, "ChancePerLevel": 0.0015 }, //Crimsonfish
 		{ "ID": 775, "Type": "Item", "Chance": 0.005, "ChancePerLevel": 0.0015 }, //Glacierfish

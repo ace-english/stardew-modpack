@@ -549,6 +549,198 @@
     ]
 },
 
+{
+    "LogName": "Add Wild Food Mushroom Box Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)128", 
+                    "OutputRules",
+                    "Default",
+                    "OutputItem"
+                ],
+    "Entries": {
+        "wildflour.ateliercrops_mushroombox_meringueshroom":
+                {
+                    "CustomData": null,
+                    "OutputMethod": null,
+                    "CopyColor": false,
+                    "CopyPrice": false,
+                    "CopyQuality": false,
+                    "PreserveType": null,
+                    "PreserveId": null,
+                    "IncrementMachineParentSheetIndex": 0,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Condition": "RANDOM .02",
+                    "Id": "wildflour.ateliercrops_mushroombox_meringueshroom",
+                    "ItemId": "(O)wildflour.ateliercrops_meringueshroom",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": "Stack",
+                    "QualityModifiers": null,
+                    "QualityModifierMode": "Stack",
+                    "ModData": null,
+                    "PerItemCondition": null
+                },
+        "wildflour.ateliercrops_mushroombox_milkshroom":
+                {
+                    "CustomData": null,
+                    "OutputMethod": null,
+                    "CopyColor": false,
+                    "CopyPrice": false,
+                    "CopyQuality": false,
+                    "PreserveType": null,
+                    "PreserveId": null,
+                    "IncrementMachineParentSheetIndex": 0,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Condition": "RANDOM .02",
+                    "Id": "wildflour.ateliercrops_mushroombox_milkshroom",
+                    "ItemId": "(O)wildflour.ateliercrops_milkshroom",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": "Stack",
+                    "QualityModifiers": null,
+                    "QualityModifierMode": "Stack",
+                    "ModData": null,
+                    "PerItemCondition": null
+                },
+        "wildflour.ateliercrops_mushroombox_honeyfungus":
+                {
+                    "CustomData": null,
+                    "OutputMethod": null,
+                    "CopyColor": false,
+                    "CopyPrice": false,
+                    "CopyQuality": false,
+                    "PreserveType": null,
+                    "PreserveId": null,
+                    "IncrementMachineParentSheetIndex": 0,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Condition": "RANDOM .09",
+                    "Id": "wildflour.ateliercrops_mushroombox_honeyfungus",
+                    "ItemId": "(O)wildflour.ateliercrops_honeyfungus",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": "Stack",
+                    "QualityModifiers": null,
+                    "QualityModifierMode": "Stack",
+                    "ModData": null,
+                    "PerItemCondition": null
+                },
+        "wildflour.ateliercrops_mushroombox_wheatshroom":
+                {
+                    "CustomData": null,
+                    "OutputMethod": null,
+                    "CopyColor": false,
+                    "CopyPrice": false,
+                    "CopyQuality": false,
+                    "PreserveType": null,
+                    "PreserveId": null,
+                    "IncrementMachineParentSheetIndex": 0,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Condition": "RANDOM .1",
+                    "Id": "wildflour.ateliercrops_mushroombox_wheatshroom",
+                    "ItemId": "(O)wildflour.ateliercrops_wheatshroom",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": "Stack",
+                    "QualityModifiers": null,
+                    "QualityModifierMode": "Stack",
+                    "ModData": null,
+                    "PerItemCondition": null
+                },
+        "wildflour.ateliercrops_mushroombox_chickenwoods":
+                {
+                    "CustomData": null,
+                    "OutputMethod": null,
+                    "CopyColor": false,
+                    "CopyPrice": false,
+                    "CopyQuality": false,
+                    "PreserveType": null,
+                    "PreserveId": null,
+                    "IncrementMachineParentSheetIndex": 0,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Condition": "RANDOM .09",
+                    "Id": "wildflour.ateliercrops_mushroombox_chickenwoods",
+                    "ItemId": "(O)wildflour.ateliercrops_chickenwoods",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": "Stack",
+                    "QualityModifiers": null,
+                    "QualityModifierMode": "Stack",
+                    "ModData": null,
+                    "PerItemCondition": null
+                }
+            },
+        "MoveEntries": [
+                {
+                    "ID": "wildflour.ateliercrops_mushroombox_meringueshroom",
+                    "ToPosition":"Top"
+                },
+                {
+                    "ID": "wildflour.ateliercrops_mushroombox_milkshroom",
+                    "ToPosition":"Top"
+                },
+                {
+                    "ID": "wildflour.ateliercrops_mushroombox_honeyfungus",
+                    "ToPosition":"Top"
+                },
+                {
+                    "ID": "wildflour.ateliercrops_mushroombox_wheatshroom",
+                    "ToPosition":"Top"
+                },
+                {
+                    "ID": "wildflour.ateliercrops_mushroombox_chickenwoods",
+                    "ToPosition":"Top"
+                }
+            ]      
+        },
+       
+
+        
 
 ////////// berry bush test
 

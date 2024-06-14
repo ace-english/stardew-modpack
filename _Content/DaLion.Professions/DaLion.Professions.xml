@@ -4,24 +4,24 @@
         <name>DaLion.Professions</name>
     </assembly>
     <members>
-        <member name="T:DaLion.Professions.Commands.AddProfessionsCommand">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Commands.AddProfessionsCommand"/> class.</summary>
+        <member name="T:DaLion.Professions.Commands.AddCommand">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Commands.AddCommand"/> class.</summary>
             <param name="handler">The <see cref="T:DaLion.Shared.Commands.CommandHandler"/> instance that handles this command.</param>
         </member>
-        <member name="M:DaLion.Professions.Commands.AddProfessionsCommand.#ctor(DaLion.Shared.Commands.CommandHandler)">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Commands.AddProfessionsCommand"/> class.</summary>
+        <member name="M:DaLion.Professions.Commands.AddCommand.#ctor(DaLion.Shared.Commands.CommandHandler)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Commands.AddCommand"/> class.</summary>
             <param name="handler">The <see cref="T:DaLion.Shared.Commands.CommandHandler"/> instance that handles this command.</param>
         </member>
-        <member name="P:DaLion.Professions.Commands.AddProfessionsCommand.Triggers">
+        <member name="P:DaLion.Professions.Commands.AddCommand.Triggers">
             <inheritdoc />
         </member>
-        <member name="P:DaLion.Professions.Commands.AddProfessionsCommand.Documentation">
+        <member name="P:DaLion.Professions.Commands.AddCommand.Documentation">
             <inheritdoc />
         </member>
-        <member name="M:DaLion.Professions.Commands.AddProfessionsCommand.CallbackImpl(System.String,System.String[])">
+        <member name="M:DaLion.Professions.Commands.AddCommand.CallbackImpl(System.String,System.String[])">
             <inheritdoc />
         </member>
-        <member name="M:DaLion.Professions.Commands.AddProfessionsCommand.GetUsage">
+        <member name="M:DaLion.Professions.Commands.AddCommand.GetUsage">
             <inheritdoc />
         </member>
         <member name="T:DaLion.Professions.Commands.ClearNewLevelsCommand">
@@ -112,24 +112,24 @@
         <member name="M:DaLion.Professions.Commands.ReadyLimitBreakCommand.CallbackImpl(System.String,System.String[])">
             <inheritdoc />
         </member>
-        <member name="T:DaLion.Professions.Commands.RemoveProfessionsCommand">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Commands.RemoveProfessionsCommand"/> class.</summary>
+        <member name="T:DaLion.Professions.Commands.RemoveCommand">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Commands.RemoveCommand"/> class.</summary>
             <param name="handler">The <see cref="T:DaLion.Shared.Commands.CommandHandler"/> instance that handles this command.</param>
         </member>
-        <member name="M:DaLion.Professions.Commands.RemoveProfessionsCommand.#ctor(DaLion.Shared.Commands.CommandHandler)">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Commands.RemoveProfessionsCommand"/> class.</summary>
+        <member name="M:DaLion.Professions.Commands.RemoveCommand.#ctor(DaLion.Shared.Commands.CommandHandler)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Commands.RemoveCommand"/> class.</summary>
             <param name="handler">The <see cref="T:DaLion.Shared.Commands.CommandHandler"/> instance that handles this command.</param>
         </member>
-        <member name="P:DaLion.Professions.Commands.RemoveProfessionsCommand.Triggers">
+        <member name="P:DaLion.Professions.Commands.RemoveCommand.Triggers">
             <inheritdoc />
         </member>
-        <member name="P:DaLion.Professions.Commands.RemoveProfessionsCommand.Documentation">
+        <member name="P:DaLion.Professions.Commands.RemoveCommand.Documentation">
             <inheritdoc />
         </member>
-        <member name="M:DaLion.Professions.Commands.RemoveProfessionsCommand.CallbackImpl(System.String,System.String[])">
+        <member name="M:DaLion.Professions.Commands.RemoveCommand.CallbackImpl(System.String,System.String[])">
             <inheritdoc />
         </member>
-        <member name="M:DaLion.Professions.Commands.RemoveProfessionsCommand.GetUsage">
+        <member name="M:DaLion.Professions.Commands.RemoveCommand.GetUsage">
             <inheritdoc />
         </member>
         <member name="T:DaLion.Professions.Commands.ResetSkillLevelsCommand">
@@ -445,8 +445,14 @@
         <member name="M:DaLion.Professions.Framework.Events.Content.ProfessionAssetRequestedEvent.EditMailData(StardewModdingAPI.IAssetData)">
             <summary>Patches mail data with mail from the Ferngill Revenue Service.</summary>
         </member>
+        <member name="M:DaLion.Professions.Framework.Events.Content.ProfessionAssetRequestedEvent.EditMachinesData(StardewModdingAPI.IAssetData)">
+            <summary>Patches machine rules for new mayo objects.</summary>
+        </member>
         <member name="M:DaLion.Professions.Framework.Events.Content.ProfessionAssetRequestedEvent.EditObjectsData(StardewModdingAPI.IAssetData)">
             <summary>Patches new mayo objects.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Content.ProfessionAssetRequestedEvent.Edit_1_6_Strings(StardewModdingAPI.IAssetData)">
+            <summary>Removes reference to quality preservation from Fish Smoker.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.Events.Content.ProfessionAssetRequestedEvent.ProvideSkillBars">
             <summary>Provides the correct skill bars texture path.</summary>
@@ -463,6 +469,20 @@
             <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
         </member>
         <member name="M:DaLion.Professions.Framework.Events.Content.ProfessionAssetsInvalidatedEvent.OnAssetsInvalidatedImpl(System.Object,StardewModdingAPI.Events.AssetsInvalidatedEventArgs)">
+            <inheritdoc />
+        </member>
+        <member name="T:DaLion.Professions.Framework.Events.Display.RenderedActiveMenu.MasteryWarningRenderedActiveMenuEvent">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Display.RenderedActiveMenu.MasteryWarningRenderedActiveMenuEvent"/> class.</summary>
+            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Display.RenderedActiveMenu.MasteryWarningRenderedActiveMenuEvent.#ctor(DaLion.Shared.Events.EventManager)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Display.RenderedActiveMenu.MasteryWarningRenderedActiveMenuEvent"/> class.</summary>
+            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
+        </member>
+        <member name="P:DaLion.Professions.Framework.Events.Display.RenderedActiveMenu.MasteryWarningRenderedActiveMenuEvent.IsEnabled">
+            <inheritdoc />
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Display.RenderedActiveMenu.MasteryWarningRenderedActiveMenuEvent.OnRenderedActiveMenuImpl(System.Object,StardewModdingAPI.Events.RenderedActiveMenuEventArgs)">
             <inheritdoc />
         </member>
         <member name="T:DaLion.Professions.Framework.Events.Display.RenderedHud.ProspectorHuntRenderedHudEvent">
@@ -674,25 +694,6 @@
         </member>
         <member name="M:DaLion.Professions.Framework.Events.GameLoop.ProfessionSavingEvent.OnSavingImpl(System.Object,StardewModdingAPI.Events.SavingEventArgs)">
             <inheritdoc />
-        </member>
-        <member name="T:DaLion.Professions.Framework.Events.GameLoop.ProfessionsChangedEvent">
-            <summary>Monitors changes to <see cref="F:StardewValley.Farmer.professions"/>.</summary>
-        </member>
-        <member name="M:DaLion.Professions.Framework.Events.GameLoop.ProfessionsChangedEvent.#ctor(DaLion.Shared.Events.EventManager,StardewValley.Farmer)">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.GameLoop.ProfessionsChangedEvent"/> class.</summary>
-            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
-            <param name="who">The <see cref="T:StardewValley.Farmer"/> to monitor.</param>
-        </member>
-        <member name="M:DaLion.Professions.Framework.Events.GameLoop.ProfessionsChangedEvent.Dispose">
-            <inheritdoc />
-        </member>
-        <member name="M:DaLion.Professions.Framework.Events.GameLoop.ProfessionsChangedEvent.OnProfessionAdded(System.Int32)">
-            <summary>Invoked when a profession is added to the local player.</summary>
-            <param name="added">The index of the added profession.</param>
-        </member>
-        <member name="M:DaLion.Professions.Framework.Events.GameLoop.ProfessionsChangedEvent.OnProfessionRemoved(System.Int32)">
-            <summary>Invoked when a profession is removed from the local player.</summary>
-            <param name="removed">The index of the removed profession.</param>
         </member>
         <member name="T:DaLion.Professions.Framework.Events.GameLoop.ProfessionsReturnedToTitleEvent">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.GameLoop.ProfessionsReturnedToTitleEvent"/> class.</summary>
@@ -964,6 +965,20 @@
         <member name="M:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.ManualDetonationUpdateTickedEvent.OnUpdateTickedImpl(System.Object,StardewModdingAPI.Events.UpdateTickedEventArgs)">
             <inheritdoc />
         </member>
+        <member name="T:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.MasteryWarningUpdateTickedEvent">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.MasteryWarningUpdateTickedEvent"/> class.</summary>
+            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.MasteryWarningUpdateTickedEvent.#ctor(DaLion.Shared.Events.EventManager)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.MasteryWarningUpdateTickedEvent"/> class.</summary>
+            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
+        </member>
+        <member name="P:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.MasteryWarningUpdateTickedEvent.IsEnabled">
+            <inheritdoc />
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.MasteryWarningUpdateTickedEvent.OnUpdateTickedImpl(System.Object,StardewModdingAPI.Events.UpdateTickedEventArgs)">
+            <inheritdoc />
+        </member>
         <member name="T:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.PrestigeTreasureHuntUpdateTickedEvent">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.PrestigeTreasureHuntUpdateTickedEvent"/> class.</summary>
             <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
@@ -1033,6 +1048,20 @@
         <member name="M:DaLion.Professions.Framework.Events.GameLoop.UpdateTicked.SpelunkerUpdateTickedEvent.OnUpdateTickedImpl(System.Object,StardewModdingAPI.Events.UpdateTickedEventArgs)">
             <inheritdoc />
         </member>
+        <member name="T:DaLion.Professions.Framework.Events.Input.ButtonPressed.MasteryWarningButtonPressedEvent">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Input.ButtonPressed.MasteryWarningButtonPressedEvent"/> class.</summary>
+            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Input.ButtonPressed.MasteryWarningButtonPressedEvent.#ctor(DaLion.Shared.Events.EventManager)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Input.ButtonPressed.MasteryWarningButtonPressedEvent"/> class.</summary>
+            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
+        </member>
+        <member name="P:DaLion.Professions.Framework.Events.Input.ButtonPressed.MasteryWarningButtonPressedEvent.IsEnabled">
+            <inheritdoc />
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Input.ButtonPressed.MasteryWarningButtonPressedEvent.OnButtonPressedImpl(System.Object,StardewModdingAPI.Events.ButtonPressedEventArgs)">
+            <inheritdoc />
+        </member>
         <member name="T:DaLion.Professions.Framework.Events.Input.ButtonPressed.RascalButtonPressedEvent">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Input.ButtonPressed.RascalButtonPressedEvent"/> class.</summary>
             <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
@@ -1070,6 +1099,20 @@
             <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
         </member>
         <member name="M:DaLion.Professions.Framework.Events.Input.ButtonsChanged.TrackerButtonsChangedEvent.OnButtonsChangedImpl(System.Object,StardewModdingAPI.Events.ButtonsChangedEventArgs)">
+            <inheritdoc />
+        </member>
+        <member name="T:DaLion.Professions.Framework.Events.Input.CursorMoved.MasteryWarningCursorMovedEvent">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Input.CursorMoved.MasteryWarningCursorMovedEvent"/> class.</summary>
+            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Input.CursorMoved.MasteryWarningCursorMovedEvent.#ctor(DaLion.Shared.Events.EventManager)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Input.CursorMoved.MasteryWarningCursorMovedEvent"/> class.</summary>
+            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
+        </member>
+        <member name="P:DaLion.Professions.Framework.Events.Input.CursorMoved.MasteryWarningCursorMovedEvent.IsEnabled">
+            <inheritdoc />
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Input.CursorMoved.MasteryWarningCursorMovedEvent.OnCursorMovedImpl(System.Object,StardewModdingAPI.Events.CursorMovedEventArgs)">
             <inheritdoc />
         </member>
         <member name="T:DaLion.Professions.Framework.Events.Multiplayer.ModMessageReceived.HuntingForTreasureModMessageReceivedEvent">
@@ -1125,17 +1168,6 @@
         <member name="M:DaLion.Professions.Framework.Events.Multiplayer.PeerDisconnected.PrestigeTreasureHuntPeerDisconnectedEvent.OnPeerDisconnectedImpl(System.Object,StardewModdingAPI.Events.PeerDisconnectedEventArgs)">
             <inheritdoc />
         </member>
-        <member name="T:DaLion.Professions.Framework.Events.Player.InventoryChanged.RascalInventoryChangedEvent">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Player.InventoryChanged.RascalInventoryChangedEvent"/> class.</summary>
-            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
-        </member>
-        <member name="M:DaLion.Professions.Framework.Events.Player.InventoryChanged.RascalInventoryChangedEvent.#ctor(DaLion.Shared.Events.EventManager)">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Player.InventoryChanged.RascalInventoryChangedEvent"/> class.</summary>
-            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
-        </member>
-        <member name="M:DaLion.Professions.Framework.Events.Player.InventoryChanged.RascalInventoryChangedEvent.OnInventoryChangedImpl(System.Object,StardewModdingAPI.Events.InventoryChangedEventArgs)">
-            <inheritdoc />
-        </member>
         <member name="T:DaLion.Professions.Framework.Events.Player.LevelChanged.CombatLevelChangedEvent">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Player.LevelChanged.CombatLevelChangedEvent"/> class.</summary>
             <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
@@ -1157,6 +1189,25 @@
         </member>
         <member name="M:DaLion.Professions.Framework.Events.Player.LevelChanged.RestoreForgottenRecipesLevelChangedEvent.OnLevelChangedImpl(System.Object,StardewModdingAPI.Events.LevelChangedEventArgs)">
             <inheritdoc />
+        </member>
+        <member name="T:DaLion.Professions.Framework.Events.Player.ProfessionsChangedEvent">
+            <summary>Monitors changes to <see cref="F:StardewValley.Farmer.professions"/>.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Player.ProfessionsChangedEvent.#ctor(DaLion.Shared.Events.EventManager,StardewValley.Farmer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Player.ProfessionsChangedEvent"/> class.</summary>
+            <param name="manager">The <see cref="T:DaLion.Shared.Events.EventManager"/> instance that manages this event.</param>
+            <param name="who">The <see cref="T:StardewValley.Farmer"/> to monitor.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Player.ProfessionsChangedEvent.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Player.ProfessionsChangedEvent.OnProfessionAdded(System.Int32)">
+            <summary>Invoked when a profession is added to the local player.</summary>
+            <param name="added">The index of the added profession.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Events.Player.ProfessionsChangedEvent.OnProfessionRemoved(System.Int32)">
+            <summary>Invoked when a profession is removed from the local player.</summary>
+            <param name="removed">The index of the removed profession.</param>
         </member>
         <member name="T:DaLion.Professions.Framework.Events.Player.Warped.BruteWarpedEvent">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Events.Player.Warped.BruteWarpedEvent"/> class.</summary>
@@ -1829,11 +1880,24 @@
         <member name="P:DaLion.Professions.Framework.FakeFarmer.IsEnemy">
             <summary>Gets or sets a value indicating whether the <see cref="T:DaLion.Professions.Framework.FakeFarmer"/> is an enemy to be targeted.</summary>
         </member>
-        <member name="T:DaLion.Professions.Framework.Integrations.CombatIntegration">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Integrations.CombatIntegration"/> class.</summary>
+        <member name="T:DaLion.Professions.Framework.Integrations.EnchantmentsIntegration">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Integrations.EnchantmentsIntegration"/> class.</summary>
         </member>
-        <member name="M:DaLion.Professions.Framework.Integrations.CombatIntegration.#ctor">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Integrations.CombatIntegration"/> class.</summary>
+        <member name="M:DaLion.Professions.Framework.Integrations.EnchantmentsIntegration.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Integrations.EnchantmentsIntegration"/> class.</summary>
+        </member>
+        <member name="T:DaLion.Professions.Framework.Integrations.IEnchantmentsApi">
+            <summary>The public interface for the Taxes mod API.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Integrations.IEnchantmentsApi.CreateQuincyProjectile(StardewValley.Farmer,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Single)">
+            <summary>Creates a new instance of a Quincy projectile.</summary>
+            <param name="firer">The <see cref="T:StardewValley.Farmer"/> who fired this projectile.</param>
+            <param name="startingPosition">The projectile's starting position.</param>
+            <param name="xVelocity">The projectile's starting velocity in the horizontal direction.</param>
+            <param name="yVelocity">The projectile's starting velocity in the vertical direction.</param>
+            <param name="rotationVelocity">The projectile's starting rotational velocity.</param>
+            <param name="scale">The projectile's starting scale.</param>
+            <returns>The amount of income tax due in gold, along with total income, business expenses, eligible deductions and total taxable amount (in that order).</returns>
         </member>
         <member name="T:DaLion.Professions.Framework.Integrations.ItemExtensionsIntegration">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Integrations.ItemExtensionsIntegration"/> class.</summary>
@@ -2005,7 +2069,7 @@
             <summary>Determines whether this skill's level matches the expected level for the current experience, and if not fixes those levels.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.ISkill.CanReset(DaLion.Professions.Framework.ISkill)">
-            <summary>Determines whether this skill can be reset for Masteries.</summary>
+            <summary>Determines whether this skill can be reset.</summary>
             <param name="skill">The <see cref="T:DaLion.Professions.Framework.ISkill"/>.</param>
             <returns><see langword="true"/> if the local player meets all reset conditions, otherwise <see langword="false"/>.</returns>
         </member>
@@ -2539,9 +2603,6 @@
         <member name="P:DaLion.Professions.Framework.Lookups.AnimalDerivedGoods">
             <summary>Gets the qualified IDs of artisan goods derived from animal produce.</summary>
         </member>
-        <member name="P:DaLion.Professions.Framework.Lookups.LegendaryFishes">
-            <summary>Gets the qualified IDs of the legendary and extended family fish.</summary>
-        </member>
         <member name="P:DaLion.Professions.Framework.Lookups.FamilyPairs">
             <summary>Gets a map from a legendary fish ID to that of its corresponding extended family pair.</summary>
         </member>
@@ -2601,7 +2662,7 @@
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Combat.FarmerCurrentToolIndexSetterPatcher"/> class.</summary>
             <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
         </member>
-        <member name="M:DaLion.Professions.Framework.Patchers.Combat.FarmerCurrentToolIndexSetterPatcher.FarmerCurrentToolIndexPostfix(StardewValley.Farmer,System.Int32)">
+        <member name="M:DaLion.Professions.Framework.Patchers.Combat.FarmerCurrentToolIndexSetterPatcher.FarmerCurrentToolIndexPrefix(StardewValley.Farmer,System.Int32)">
             <summary>Set Rascal ammo slots.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Combat.FarmerTakeDamagePatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
@@ -2805,6 +2866,13 @@
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Combat.SlingshotCanThisBeAttachedPatcher.SlingshotCanThisBeAttachedPostfix(StardewValley.Tools.Slingshot,System.Boolean@,StardewValley.Object)">
             <summary>Patch to allow Rascal special ammo.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Combat.SlingshotDrawInMenuPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Combat.SlingshotDrawInMenuPatcher"/> class.</summary>
+            <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Combat.SlingshotDrawInMenuPatcher.SlingshotPatchDrawInMenuPrefixTranspiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.MethodBase)">
+            <summary>Draw current ammo.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Combat.SlingshotGetAmmoCollisionSoundPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Combat.SlingshotGetAmmoCollisionSoundPatcher"/> class.</summary>
@@ -3035,7 +3103,10 @@
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Fishing.FishingRodPullFishFromWaterPatcher"/> class.</summary>
             <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
         </member>
-        <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishingRodPullFishFromWaterPatcher.FishingRodPullFishFromWaterPrefix(System.String)">
+        <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishingRodPullFishFromWaterPatcher.FishingRodPullFishFromWaterPrefix(StardewValley.Tools.FishingRod,System.String@,System.Boolean)">
+            <summary>Pull out legendary family members.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishingRodPullFishFromWaterPatcher.FishingRodPullFishFromWaterPostfix(System.String,System.Boolean)">
             <summary>Count trash fished by rod.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishingRodStartMinigameEndFunctionPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
@@ -3052,12 +3123,12 @@
         <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishPondAddFishToPondPatcher.FishPondAddFishToPondPostfix(StardewValley.Buildings.FishPond,StardewValley.GameData.FishPonds.FishPondData,StardewValley.Object)">
             <summary>Distinguish extended family pairs + increment total Fish Pond quality ratings.</summary>
         </member>
-        <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishPondCreateFishInstancePatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
-            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Fishing.FishPondCreateFishInstancePatcher"/> class.</summary>
+        <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishPondClearPondPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Fishing.FishPondClearPondPatcher"/> class.</summary>
             <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
         </member>
-        <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishPondCreateFishInstancePatcher.FishPondCreateFishInstancePrefix(StardewValley.Buildings.FishPond,StardewValley.Item@)">
-            <summary>Spawn extended family when the pond is cleared.</summary>
+        <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishPondClearPondPatcher.FishPondClearPondPrefix(StardewValley.Buildings.FishPond,StardewValley.Object@,System.Boolean@)">
+            <summary>Clear Family Living Here data.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Fishing.FishPondDoActionPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Fishing.FishPondDoActionPatcher"/> class.</summary>
@@ -3142,12 +3213,26 @@
         <member name="M:DaLion.Professions.Framework.Patchers.Foraging.FruitTreeDayUpdatePatcher.FruitTreeDayUpdatePostfix(StardewValley.TerrainFeatures.FruitTree,System.ValueTuple{System.Int32,System.Int32})">
             <summary>Patch to increase Arborist fruit tree growth speed.</summary>
         </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Foraging.FruitTreeGetQualityPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Foraging.FruitTreeGetQualityPatcher"/> class.</summary>
+            <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Foraging.FruitTreeGetQualityPatcher.FruitTreeGetQualityPrefix(System.Int32@)">
+            <summary>Patch to apply Ecologist perk to shaken fruit trees.</summary>
+        </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Foraging.FruitTreePerformToolActionPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Foraging.FruitTreePerformToolActionPatcher"/> class.</summary>
             <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Foraging.FruitTreePerformToolActionPatcher.FruitTreePerformToolActionTranspiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.Emit.ILGenerator,System.Reflection.MethodBase)">
             <summary>Patch to add bonus wood for prestiged Lumberjack.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Foraging.FruitTreeShakePatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Foraging.FruitTreeShakePatcher"/> class.</summary>
+            <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Foraging.FruitTreeShakePatcher.FruitTreeGetQualityPrefix(StardewValley.TerrainFeatures.FruitTree)">
+            <summary>Patch to apply Ecologist perk to shaken fruit trees.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Foraging.FruitTreeTickUpdatePatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Foraging.FruitTreeTickUpdatePatcher"/> class.</summary>
@@ -3203,7 +3288,7 @@
             <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Foraging.TreeShakePatcher.TreeShakeTranspiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.MethodBase)">
-            <summary>Patch to apply Ecologist perk to coconuts from shaken trees.</summary>
+            <summary>Patch to apply Ecologist perk to shaken trees.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Foraging.TreeTickUpdatePatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Foraging.TreeTickUpdatePatcher"/> class.</summary>
@@ -3245,6 +3330,20 @@
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.IClickableMenuDrawHoverTextPatcher.IClickableMenuDrawHoverTextTranspiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.Emit.ILGenerator,System.Reflection.MethodBase)">
             <summary>Patch to flush Rascal slingshot tooltip.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Integration.UiInfoSuite.ExperienceBarDrawExperienceBarPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Integration.UiInfoSuite.ExperienceBarDrawExperienceBarPatcher"/> class.</summary>
+            <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Integration.UiInfoSuite.ExperienceBarDrawExperienceBarPatcher.ExperienceBarDrawExperienceBarTranspiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.MethodBase)">
+            <summary>Patch to move skill icon to the right.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Integration.UiInfoSuite.ExperienceBarGetExperienceRequiredToLevelPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Integration.UiInfoSuite.ExperienceBarGetExperienceRequiredToLevelPatcher"/> class.</summary>
+            <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Integration.UiInfoSuite.ExperienceBarGetExperienceRequiredToLevelPatcher.ExperienceBarGetExperienceRequiredToLevelPrefix(System.Int32@,System.Int32)">
+            <summary>Patch to reflect adjusted base experience + extended progression experience.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.LevelUpMenuAddProfessionDescriptionsPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.LevelUpMenuAddProfessionDescriptionsPatcher"/> class.</summary>
@@ -3560,8 +3659,25 @@
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuClaimRewardPatcher"/> class.</summary>
             <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
         </member>
-        <member name="M:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuClaimRewardPatcher.MasteryTrackerMenuPostfix(StardewValley.Menus.MasteryTrackerMenu,System.Int32)">
+        <member name="M:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuClaimRewardPatcher.MasteryTrackerMenuClaimRewardPostfix(System.Int32)">
             <summary>Patch for post-Mastery unlocks.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuClaimRewardPatcher.MasteryTrackerMenuClaimRewardTranspiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction},System.Reflection.MethodBase)">
+            <summary>Patch to wait for Limit selection before spirit candles.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuPerformHoverActionPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuPerformHoverActionPatcher"/> class.</summary>
+            <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuPerformHoverActionPatcher.MasteryTrackerMenuPerformHoverActionPrefix">
+            <summary>Patch to prevent interaction during warning.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuReceiveLeftClickPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuReceiveLeftClickPatcher"/> class.</summary>
+            <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
+        </member>
+        <member name="M:DaLion.Professions.Framework.Patchers.Prestige.MasteryTrackerMenuReceiveLeftClickPatcher.MasteryTrackerMenuReceiveLeftClickPrefix(StardewValley.Menus.MasteryTrackerMenu,System.Boolean,System.Single,System.Single,System.Int32,System.Int32,System.Int32)">
+            <summary>Patch for Mastery warnings and unlocks.</summary>
         </member>
         <member name="M:DaLion.Professions.Framework.Patchers.Prestige.SkillsPageCtorPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.Patchers.Prestige.SkillsPageCtorPatcher"/> class.</summary>
@@ -4135,6 +4251,15 @@
             <summary>Draws the menu background.</summary>
             <param name="b">The <see cref="T:Microsoft.Xna.Framework.Graphics.SpriteBatch"/>.</param>
         </member>
+        <member name="T:DaLion.Professions.Framework.UI.MasteryWarningBox">
+            <summary>Warning dialogue box to inform players when they might be locked out of Skill Reset.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.UI.MasteryWarningBox.#ctor(StardewValley.GameLocation,StardewValley.Menus.MasteryTrackerMenu)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.Framework.UI.MasteryWarningBox"/> class.</summary>
+        </member>
+        <member name="M:DaLion.Professions.Framework.UI.MasteryWarningBox.draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <inheritdoc />
+        </member>
         <member name="T:DaLion.Professions.Framework.VanillaProfession">
             <summary>Represents a vanilla profession.</summary>
         </member>
@@ -4637,6 +4762,9 @@
         </member>
         <member name="P:DaLion.Professions.ProfessionsConfig.AgingTreesQualitySyrups">
             <summary>Gets a value indicating whether regular trees should age like fruit trees, producing higher-quality syrups when tapped.</summary>
+        </member>
+        <member name="P:DaLion.Professions.ProfessionsConfig.ShowEquippedAmmo">
+            <summary>Gets a value indicating whether to draw the currently equipped ammo over the slingshot's tooltip.</summary>
         </member>
         <member name="M:DaLion.Professions.ProfessionsConfigMenu.#ctor">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Professions.ProfessionsConfigMenu"/> class.</summary>
@@ -5316,6 +5444,9 @@
         <member name="M:DaLion.Professions.I18n.Prestige_LevelUp_Single">
             <summary>Get a translation equivalent to "Gained Prestige".</summary>
         </member>
+        <member name="M:DaLion.Professions.I18n.Prestige_Mastery_Warning">
+            <summary>Get a translation equivalent to "Mastering this skill will prevent it from being reset. Continue?".</summary>
+        </member>
         <member name="M:DaLion.Professions.I18n.Prestige_Mastery_Unlocked(System.Object)">
             <summary>Get a translation equivalent to "Can now develop the {{skill}} skill further.".</summary>
             <param name="skill">The value to inject for the <c>{{skill}}</c> token.</param>
@@ -5596,6 +5727,15 @@
         </member>
         <member name="M:DaLion.Professions.I18n.Gmcm_AgingTreesQualitySyrups_Desc">
             <summary>Get a translation equivalent to "Causes regular trees to age like Fruit Trees, which will increase the quality of produced syrups by 1 per year.".</summary>
+        </member>
+        <member name="M:DaLion.Professions.I18n.Gmcm_Sections_Prfs_Rascal">
+            <summary>Get a translation equivalent to "Rascal".</summary>
+        </member>
+        <member name="M:DaLion.Professions.I18n.Gmcm_ShowEquippedAmmo_Title">
+            <summary>Get a translation equivalent to "Show Equipped Ammo".</summary>
+        </member>
+        <member name="M:DaLion.Professions.I18n.Gmcm_ShowEquippedAmmo_Desc">
+            <summary>Get a translation equivalent to "Whether to draw the currently equipped ammo over the slingshot's tooltip.".</summary>
         </member>
         <member name="M:DaLion.Professions.I18n.Gmcm_Sections_Prfs_SkillReset">
             <summary>Get a translation equivalent to "Skill Reset".</summary>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="43">
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="936">
+   <animation>
+    <frame tileid="936" duration="250"/>
+    <frame tileid="1864" duration="250"/>
+    <frame tileid="1866" duration="250"/>
+    <frame tileid="1868" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="937">
+   <animation>
+    <frame tileid="937" duration="250"/>
+    <frame tileid="1865" duration="250"/>
+    <frame tileid="1867" duration="250"/>
+    <frame tileid="1869" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <layer id="1" name="Back" width="7" height="10">
+  <data encoding="csv">
+191,191,191,191,191,191,0,
+191,191,191,191,191,191,0,
+191,191,191,191,191,191,0,
+576,575,576,575,576,575,0,
+608,608,608,607,608,607,0,
+640,1150,1151,1152,640,639,0,
+608,1182,1183,1184,608,640,0,
+640,607,640,607,640,608,0,
+608,639,608,639,608,640,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="AlwaysBack" width="7" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Back"/>
+ <layer id="5" name="Buildings" width="7" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,1,
+81,81,81,81,81,81,1,
+113,113,113,113,113,113,1,
+1707,1708,1709,1710,739,769,1,
+0,0,0,0,0,769,1,
+0,0,0,0,0,769,1,
+0,0,0,0,0,769,1,
+0,0,522,0,0,801,1,
+0,0,776,777,0,833,1,
+1,1,1,1,1,865,1
+</data>
+ </layer>
+ <objectgroup id="6" name="Buildings">
+  <object id="37" name="TileData" x="32.433" y="112.379" width="15.2018" height="15.4195">
+   <properties>
+    <property name="Action" value="Message &quot;GuntherRoom.000&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Front" width="7" height="10">
+  <data encoding="csv">
+0,0,0,721,722,0,69,
+1643,1644,1645,0,0,0,69,
+1675,1676,1677,1678,707,737,69,
+0,0,0,0,0,0,69,
+0,0,0,0,0,0,69,
+0,0,0,0,0,0,69,
+0,0,490,0,0,0,69,
+0,0,680,778,0,0,69,
+166,166,166,166,166,167,168,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="AlwaysFront" width="7" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,675,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+</map>

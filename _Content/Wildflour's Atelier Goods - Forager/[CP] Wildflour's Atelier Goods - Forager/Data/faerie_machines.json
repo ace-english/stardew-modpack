@@ -25,21 +25,9 @@
                     "StackModifiers": [
                         {
                             "Id": "GoodForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
-                            "Modification": "Add",
-                            "Amount": 1
-                        },
-                        {
-                            "Id": "GreatForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
-                            "Modification": "Add",
-                            "Amount": 2
-                        },
-                        {
-                            "Id": "GreatestForager",
                             "Condition": "PLAYER_FORAGING_LEVEL Any 10",
                             "Modification": "Add",
-                            "Amount": 3
+                            "Amount": 1
                         }
                     ]
                 }
@@ -64,29 +52,43 @@
                     "MaxStack": 1,
                     "StackModifiers": [
                         {
-                            "Id": "GoodForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
-                            "Modification": "Add",
-                            "Amount": 1
-                        },
-                        {
-                            "Id": "GreatForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
-                            "Modification": "Add",
-                            "Amount": 2
-                        },
-                        {
                             "Id": "GreatestForager",
                             "Condition": "PLAYER_FORAGING_LEVEL Any 10",
                             "Modification": "Add",
-                            "Amount": 3
+                            "Amount": 1
                         }
                     ]
                 }
             ],
             "MinutesUntilReady": 20
         },
-
+        "wildflour.ateliercrops_seedmaker_mysteria": {
+          "Id": "wildflour.ateliercrops_seedmaker_mysteria",
+          "Triggers": [
+              {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "wildflour.ateliercrops_mysteria",
+                  "RequiredCount": 3
+              }
+          ],
+          "OutputItem": [
+              {
+                  "Id": "wildflour.ateliercrops_mysteria_sapling",
+                  "ItemId": "(O)wildflour.ateliercrops_mysteria_sapling",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "StackModifiers": [
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 1
+                    }
+                ]
+              }
+          ],
+          "MinutesUntilReady": 20
+        },
         "wildflour.ateliercrops_seedmaker_primrose": {
             "Id": "wildflour.ateliercrops_seedmaker_primrose",
             "Triggers": [
@@ -104,29 +106,16 @@
                     "MaxStack": 1,
                     "StackModifiers": [
                         {
-                            "Id": "GoodForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
-                            "Modification": "Add",
-                            "Amount": 1
-                        },
-                        {
-                            "Id": "GreatForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
-                            "Modification": "Add",
-                            "Amount": 2
-                        },
-                        {
                             "Id": "GreatestForager",
                             "Condition": "PLAYER_FORAGING_LEVEL Any 10",
                             "Modification": "Add",
-                            "Amount": 3
+                            "Amount": 1
                         }
                     ]
                 }
             ],
             "MinutesUntilReady": 20
         },
-
         "wildflour.ateliercrops_seedmaker_chiffon": {
             "Id": "wildflour.ateliercrops_seedmaker_chiffon",
             "Triggers": [
@@ -144,29 +133,16 @@
                     "MaxStack": 1,
                     "StackModifiers": [
                         {
-                            "Id": "GoodForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
-                            "Modification": "Add",
-                            "Amount": 1
-                        },
-                        {
-                            "Id": "GreatForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
-                            "Modification": "Add",
-                            "Amount": 2
-                        },
-                        {
                             "Id": "GreatestForager",
                             "Condition": "PLAYER_FORAGING_LEVEL Any 10",
                             "Modification": "Add",
-                            "Amount": 3
+                            "Amount": 1
                         }
                     ]
                 }
             ],
             "MinutesUntilReady": 20
         },  
-
         "wildflour.ateliercrops_seedmaker_violet": {
             "Id": "wildflour.ateliercrops_seedmaker_violet",
             "Triggers": [
@@ -184,29 +160,16 @@
                     "MaxStack": 1,
                     "StackModifiers": [
                         {
-                            "Id": "GoodForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
-                            "Modification": "Add",
-                            "Amount": 1
-                        },
-                        {
-                            "Id": "GreatForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
-                            "Modification": "Add",
-                            "Amount": 2
-                        },
-                        {
                             "Id": "GreatestForager",
                             "Condition": "PLAYER_FORAGING_LEVEL Any 10",
                             "Modification": "Add",
-                            "Amount": 3
+                            "Amount": 1
                         }
                     ]
                 }
             ],
             "MinutesUntilReady": 20
         },
-
         "wildflour.ateliercrops_seedmaker_dawn_lily": {
             "Id": "wildflour.ateliercrops_seedmaker_dawn_lily",
             "Triggers": [
@@ -224,29 +187,16 @@
                     "MaxStack": 1,
                     "StackModifiers": [
                         {
-                            "Id": "GoodForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
-                            "Modification": "Add",
-                            "Amount": 1
-                        },
-                        {
-                            "Id": "GreatForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
-                            "Modification": "Add",
-                            "Amount": 2
-                        },
-                        {
                             "Id": "GreatestForager",
                             "Condition": "PLAYER_FORAGING_LEVEL Any 10",
                             "Modification": "Add",
-                            "Amount": 3
+                            "Amount": 1
                         }
                     ]
                 }
             ],
             "MinutesUntilReady": 20
         },
-
         "wildflour.ateliercrops_seedmaker_dusk_lily": {
             "Id": "wildflour.ateliercrops_seedmaker_dusk_lily",
             "Triggers": [
@@ -264,22 +214,10 @@
                     "MaxStack": 1,
                     "StackModifiers": [
                         {
-                            "Id": "GoodForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
-                            "Modification": "Add",
-                            "Amount": 1
-                        },
-                        {
-                            "Id": "GreatForager",
-                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
-                            "Modification": "Add",
-                            "Amount": 2
-                        },
-                        {
                             "Id": "GreatestForager",
                             "Condition": "PLAYER_FORAGING_LEVEL Any 10",
                             "Modification": "Add",
-                            "Amount": 3
+                            "Amount": 1
                         }
                     ]
                 }
@@ -292,6 +230,10 @@
         {
             "ID": "wildflour.ateliercrops_seedmaker_geranium",
             "BeforeId": "Default"
+        },
+        {
+          "ID": "wildflour.ateliercrops_seedmaker_mysteria",
+          "BeforeId": "Default"
         },
         {
             "ID": "wildflour.ateliercrops_seedmaker_daisy",
@@ -319,6 +261,429 @@
         }
     ]
 },
+
+
+
+{
+  "LogName": "Faerie Garden Mushroom Rules Recycling Machine",
+  "Action": "EditData",
+  "Target": "Data/Machines",
+  "TargetField": ["(BC)20", "OutputRules"],
+  "Entries": {
+      "wildflour.ateliercrops_recyclingmachine_blush_cap": {
+          "Id": "wildflour.ateliercrops_recyclingmachine_blush_cap",
+          "Triggers": [
+              {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "wildflour.ateliercrops_blush_cap",
+                  "RequiredCount": 1
+              }
+          ],
+          "OutputItem": [
+              {
+                  "Id": "Deluxe Fertilizer",
+                  "ItemId": "(O)919",
+                  "MinStack": 7,
+                  "MaxStack": 10,
+                  "StackModifiers": [
+                      {
+                          "Id": "GoodForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                          "Modification": "Add",
+                          "Amount": 1
+                      },
+                      {
+                          "Id": "GreatForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                          "Modification": "Add",
+                          "Amount": 2
+                      },
+                      {
+                          "Id": "GreatestForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                          "Modification": "Add",
+                          "Amount": 3
+                      }
+                  ]
+              }
+          ],
+          "MinutesUntilReady": 60
+      },
+      "wildflour.ateliercrops_recyclingmachine_dawn_trumpet": {
+          "Id": "wildflour.ateliercrops_recyclingmachine_dawn_trumpet",
+          "Triggers": [
+              {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "wildflour.ateliercrops_dawn_trumpet",
+                  "RequiredCount": 1
+              }
+          ],
+          "OutputItem": [
+              {
+                  "Id": "Deluxe Retaining Soil",
+                  "ItemId": "(O)920",
+                  "MinStack": 10,
+                  "MaxStack": 10,
+                  "StackModifiers": [
+                      {
+                          "Id": "GoodForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                          "Modification": "Add",
+                          "Amount": 1
+                      },
+                      {
+                          "Id": "GreatForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                          "Modification": "Add",
+                          "Amount": 2
+                      },
+                      {
+                          "Id": "GreatestForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                          "Modification": "Add",
+                          "Amount": 3
+                      }
+                  ]
+              }
+          ],
+          "MinutesUntilReady": 60
+      },
+      "wildflour.ateliercrops_recyclingmachine_dusk_cap": {
+          "Id": "wildflour.ateliercrops_recyclingmachine_dusk_cap",
+          "Triggers": [
+              {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "wildflour.ateliercrops_dusk_cap",
+                  "RequiredCount": 1
+              }
+          ],
+          "OutputItem": [
+              {
+                  "Id": "Quality Retaining Soil",
+                  "ItemId": "(O)371",
+                  "MinStack": 10,
+                  "MaxStack": 10,
+                  "StackModifiers": [
+                      {
+                          "Id": "GoodForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                          "Modification": "Add",
+                          "Amount": 1
+                      },
+                      {
+                          "Id": "GreatForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                          "Modification": "Add",
+                          "Amount": 2
+                      },
+                      {
+                          "Id": "GreatestForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                          "Modification": "Add",
+                          "Amount": 3
+                      }
+                  ]
+              }
+          ],
+          "MinutesUntilReady": 60
+      },
+      "wildflour.ateliercrops_recyclingmachine_faerie_helmets": {
+          "Id": "wildflour.ateliercrops_recyclingmachine_faerie_helmets",
+          "Triggers": [
+              {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "wildflour.ateliercrops_faerie_helmets",
+                  "RequiredCount": 1
+              }
+          ],
+          "OutputItem": [
+              {
+                  "Id": "Quality Fertilizer",
+                  "ItemId": "(O)369",
+                  "MinStack": 10,
+                  "MaxStack": 10,
+                  "StackModifiers": [
+                      {
+                          "Id": "GoodForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                          "Modification": "Add",
+                          "Amount": 1
+                      },
+                      {
+                          "Id": "GreatForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                          "Modification": "Add",
+                          "Amount": 2
+                      },
+                      {
+                          "Id": "GreatestForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                          "Modification": "Add",
+                          "Amount": 3
+                      }
+                  ]
+              }
+          ],
+          "MinutesUntilReady": 20
+      },
+      "wildflour.ateliercrops_recyclingmachine_giant_amanita": {
+                  "Id": "wildflour.ateliercrops_recyclingmachine_giant_amanita",
+                  "Triggers": [
+                      {
+                          "Trigger": "ItemPlacedInMachine",
+                          "RequiredItemId": "wildflour.ateliercrops_giant_amanita",
+                          "RequiredCount": 1
+                      }
+                  ],
+                  "OutputItem": [
+                      {
+                          "Id": "Hyper Speed Gro",
+                          "ItemId": "(O)918",
+                          "MinStack": 5,
+                          "MaxStack": 7,
+                          "StackModifiers": [
+                              {
+                                  "Id": "GoodForager",
+                                  "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                  "Modification": "Add",
+                                  "Amount": 1
+                              },
+                              {
+                                  "Id": "GreatForager",
+                                  "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                  "Modification": "Add",
+                                  "Amount": 2
+                              },
+                              {
+                                  "Id": "GreatestForager",
+                                  "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                  "Modification": "Add",
+                                  "Amount": 3
+                              }
+                          ]
+                      }
+                  ],
+                  "MinutesUntilReady": 20
+      },
+      "wildflour.ateliercrops_recyclingmachine_amanita_cluster": {
+        "Id": "wildflour.ateliercrops_recyclingmachine_amanita_cluster",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "wildflour.ateliercrops_amanita_cluster",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Deluxe Speed Gro",
+                "ItemId": "(O)466",
+                "MinStack": 7,
+                "MaxStack": 7,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+      },
+      "wildflour.ateliercrops_recyclingmachine_verdigris_agaric": {
+        "Id": "wildflour.ateliercrops_recyclingmachine_verdigris_agaric",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "wildflour.ateliercrops_verdigris_agaric",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Tree Fertilizer",
+                "ItemId": "(O)805",
+                "MinStack": 10,
+                "MaxStack": 10,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+      },
+      "wildflour.ateliercrops_recyclingmachine_fire_dragon_scale": {
+        "Id": "wildflour.ateliercrops_recyclingmachine_fire_dragon_scale",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "wildflour.ateliercrops_fire_dragon_scale",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Cinder Shards",
+                "ItemId": "(O)848",
+                "MinStack": 10,
+                "MaxStack": 10,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+      },
+      "wildflour.ateliercrops_recyclingmachine_ice_dragon_scale": {
+        "Id": "wildflour.ateliercrops_recyclingmachine_ice_dragon_scale",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "wildflour.ateliercrops_ice_dragon_scale",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Frozen Tear",
+                "ItemId": "(O)84",
+                "MinStack": 10,
+                "MaxStack": 10
+            }
+        ],
+        "MinutesUntilReady": 20
+      },
+      "wildflour.ateliercrops_recyclingmachine_shooting_star": {
+        "Id": "wildflour.ateliercrops_recyclingmachine_shooting_star",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "wildflour.ateliercrops_shooting_star",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Battery Pack",
+                "ItemId": "(O)787",
+                "MinStack": 1,
+                "MaxStack": 3
+            }
+        ],
+        "MinutesUntilReady": 20
+      },
+      "wildflour.ateliercrops_recyclingmachine_unicorn_horn": {
+        "Id": "wildflour.ateliercrops_recyclingmachine_unicorn_horn",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "wildflour.ateliercrops_unicorn_horn",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Artifact Trove",
+                "ItemId": "(O)275",
+                "MinStack": 10,
+                "MaxStack": 10
+            }
+        ],
+        "MinutesUntilReady": 20
+      },
+      "wildflour.ateliercrops_recyclingmachine_clover": {
+        "Id": "wildflour.ateliercrops_recyclingmachine_clover",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "wildflour.ateliercrops_clover",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Blue Grass",
+                "ItemId": "(O)BlueGrassStarter",
+                "MinStack": 1,
+                "MaxStack": 3,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+      }
+  }
+
+},
+
+
+
 
 // bushes
 
@@ -814,7 +1179,7 @@
                       "IncrementMachineParentSheetIndex": 0,
                       "PriceModifiers": null,
                       "PriceModifierMode": "Stack",
-                      "Condition": "SEASON Summer, WEATHER Here Storm",
+                      "Condition": "SEASON Summer",
                       "Id": "wildflour.ateliercrops_amber_moondrop",
                       "ItemId": "(O)wildflour.ateliercrops_amber_moondrop",
                       "RandomItemId": null,
@@ -835,14 +1200,13 @@
                     }
                   ],
                   "MinutesUntilReady": -1,
-                  "DaysUntilReady": 1,
+                  "DaysUntilReady": 2,
                   "InvalidCountMessage": null,
                   "RecalculateOnCollect": false
                 }
             ],
             "ShowNextIndexWhenReady":false,
             "WobbleWhileWorking":false,
-            "PreventTimePass": ["Sun"],
             "ReadyTimeModifierMode": "Stack"
           },
             "(BC)wildflour.ateliercrops_JadeBush": {
@@ -879,7 +1243,7 @@
                       "IncrementMachineParentSheetIndex": 0,
                       "PriceModifiers": null,
                       "PriceModifierMode": "Stack",
-                      "Condition": "SEASON Fall WEATHER Here Rain",
+                      "Condition": "SEASON Fall",
                       "Id": "wildflour.ateliercrops_jade_moondrop",
                       "ItemId": "(O)wildflour.ateliercrops_jade_moondrop",
                       "RandomItemId": null,
@@ -900,14 +1264,13 @@
                     }
                   ],
                   "MinutesUntilReady": -1,
-                  "DaysUntilReady": 1,
+                  "DaysUntilReady": 2,
                   "InvalidCountMessage": null,
                   "RecalculateOnCollect": false
                 }
             ],
             "ShowNextIndexWhenReady":false,
             "WobbleWhileWorking":false,
-            "PreventTimePass": ["Sun"],
             "ReadyTimeModifierMode": "Stack"
           },
             "(BC)wildflour.ateliercrops_LapisBush": {
@@ -944,7 +1307,7 @@
                       "IncrementMachineParentSheetIndex": 0,
                       "PriceModifiers": null,
                       "PriceModifierMode": "Stack",
-                      "Condition": "SEASON Spring, WEATHER Here Rain",
+                      "Condition": "SEASON Spring",
                       "Id": "wildflour.ateliercrops_lapis_moondrop",
                       "ItemId": "(O)wildflour.ateliercrops_lapis_moondrop",
                       "RandomItemId": null,
@@ -965,14 +1328,13 @@
                     }
                   ],
                   "MinutesUntilReady": -1,
-                  "DaysUntilReady": 1,
+                  "DaysUntilReady": 2,
                   "InvalidCountMessage": null,
                   "RecalculateOnCollect": false
                 }
             ],
             "ShowNextIndexWhenReady":false,
             "WobbleWhileWorking":false,
-            "PreventTimePass": ["Sun"],
             "ReadyTimeModifierMode": "Stack"
           },
             "(BC)wildflour.ateliercrops_PearlBush": {

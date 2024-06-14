@@ -69,14 +69,14 @@
 "Saloon_Entry": "Good evening, everyone!",
 "Saloon": "Good evening, Mr @!$u^Good evening, Ms @!$u#$b#I’m pleased to see you relaxing, for once!",
 "Saloon2" : "#$p 883#Good evening, Mr @! Beaten the high score in Journey of the Prairie King, yet?^Good evening, Ms @! Beaten the high score in Journey of the Prairie King, yet?|Good evening, Mr @! I’m pleased to see you relaxing, for once!^Good evening, Ms @! I’m pleased to see you relaxing, for once!",
-"Saloon6":"#$p 21870102 #I’ll need a lot of practice before my Journey of the Prairie King skills impress Cecily.|Good evening, @! Come join us. Pull up a chair, order a drink! There’s always room for more company.#$b#Especially yours.",
-"Saloon8":"#$p 21870201 #I wish Cecily had some kids her own age in Stardew Valley, but she gets on well with these youngsters.#$b#I like to think they consider her an adopted little sister!$h|Ah, @. Have you come to beat my high score in Journey of the Prairie King? It won’t be easy, I’ll tell you that!",
+"Saloon6":"#$p 71020102 #I’ll need a lot of practice before my Journey of the Prairie King skills impress Cecily.|Good evening, @! Come join us. Pull up a chair, order a drink! There’s always room for more company.#$b#Especially yours.",
+"Saloon8":"#$p 71020201 #I wish Cecily had some kids her own age in Stardew Valley, but she gets on well with these youngsters.#$b#I like to think they consider her an adopted little sister!$h|Ah, @. Have you come to beat my high score in Journey of the Prairie King? It won’t be easy, I’ll tell you that!",
 "Beach":"You can find some amazing things buried around these parts.",
 "Beach4":"I'm hoping to turn up some aquatic fossils for the collection.",
-"Beach8":"#$p 21870201 #Good evening, @! We were just enjoying the calm of the evening ocean.#$b#Not that Stardew Valley has any hustle and bustle to escape from, but it’s nice to step outside and enjoy the ocean fresh air.|Hello @! Come to lend a hand?#$b#As if you haven't already, ha ha!$h",
+"Beach8":"#$p 71020201 #Good evening, @! We were just enjoying the calm of the evening ocean.#$b#Not that Stardew Valley has any hustle and bustle to escape from, but it’s nice to step outside and enjoy the ocean fresh air.|Hello @! Come to lend a hand?#$b#As if you haven't already, ha ha!$h",
 "Mountain":"You can find some amazing things buried around these parts.",
 "Mountain4":"I'm hoping to turn up some quality bones for the museum.",
-"Mountain8":"#$p 21870201 #You know, I think she’s beginning to get the hang of this. Maybe someday she’ll even admit it’s fun!$h|Well, I can't leave you digging everything up on your own, can I now?#$b#What sort of an anthropologist would that make me?",
+"Mountain8":"#$p 71020201 #You know, I think she’s beginning to get the hang of this. Maybe someday she’ll even admit it’s fun!$h|Well, I can't leave you digging everything up on your own, can I now?#$b#What sort of an anthropologist would that make me?",
 "Event_letgo":"*sigh*... You’re right. I suppose that’s just what I’ll have to do.$s",
 "Event_fight":"You’re right. You're absolutely right. That's just what I’ll do.",
 "Event_aggressive":"Hm. Not yet.$a",
@@ -86,6 +86,8 @@
 "Event_Desert3":"Oh...$s",
 "Event_Desert4":"...$l",
 "Event_Desert5":"@. It's not a dinosaur.",
+"GreenRain": "I must confess a certain concern... we've never seen anything like this before.#$e#Yet also, I'm fascinated.#$e#You seem to have fared alright on your way here.#$b#Let's hope any side effects aren't simply delayed.",
+"GreenRain_2": "How fascinating!#$b#It would seem this weather phenomenon is history in the making.",
 }
 
 

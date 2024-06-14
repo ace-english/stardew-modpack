@@ -13,4 +13,5 @@
 	"marriage_Wed":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.004\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.005\"/2000 BusStop -1 23 3",
 	"marriage_Thur":"630 ArchaeologyHouse 33 12 2 \"Strings\\schedules\\Gunther:marriage_teach\"/1200 ArchaeologyHouse 2 10 0 \"Strings\\schedules\\Gunther:marriage.006\"/1800 ArchaeologyHouse 54 6 0 \"Strings\\schedules\\Gunther:marriage.007\"/2000 BusStop -1 23 3",
 	"marriage_Fri":"630 ArchaeologyHouse 4 8 2 \"Strings\\schedules\\Gunther:marriage.008\"/1800 BusStop -1 23 3",
+	"GreenRain":"0 Saloon 25 23 0",
 }

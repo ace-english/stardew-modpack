@@ -1,7 +1,7 @@
 {
     "Name": "Wildflour's Atelier Goods: Forager",
     "Author": "wildflourmods",
-    "Version": "1.0.7",
+    "Version": "1.0.8",
     "Description": "New crops, forage, trees and items",
     "UniqueID": "wildflour.ateliercrops",
     "UpdateKeys": ["Nexus:22728"], 

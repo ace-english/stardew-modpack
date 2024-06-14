@@ -39,9 +39,9 @@
     {
       "MapName": "Custom_WF_OldForest",
       "Name": null,
-      "Tile": "37, 35",
+      "Tile": "51, 38",
       "Type": "ResourceClump",
-      "ID": "wildflour.foragelocations_MagicMushLog",
+      "ID": "wildflour.foragelocations_MagicMushStump",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -50,7 +50,7 @@
     {
       "MapName": "Custom_WF_OldForest",
       "Name": null,
-      "Tile": "64, 23",
+      "Tile": "64, 32",
       "Type": "ResourceClump",
       "ID": "wildflour.foragelocations_WildMushStump",
       "DaysUntilExpire": 1,
@@ -61,7 +61,7 @@
     {
       "MapName": "Custom_WF_AbandonedFarmhouse",
       "Name": null,
-      "Tile": "37, 24",
+      "Tile": "12, 23",
       "Type": "ResourceClump",
       "ID": "Cauliflower",
       "DaysUntilExpire": 1,
@@ -72,9 +72,9 @@
     {
       "MapName": "Custom_WF_AbandonedFarmhouse",
       "Name": null,
-      "Tile": "34, 26",
+      "Tile": "12, 27",
       "Type": "ResourceClump",
-      "ID": "wildflour.foragelocations_MagicFlowerStump",
+      "ID": "wildflour.foragelocations_GiantBerryBlue",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -83,7 +83,7 @@
     {
       "MapName": "Custom_WF_AbandonedFarmhouse",
       "Name": null,
-      "Tile": "24, 34",
+      "Tile": "27, 14",
       "Type": "ResourceClump",
       "ID": "wildflour.foragelocations_GiantBerryRed",
       "DaysUntilExpire": 1,
@@ -94,7 +94,7 @@
     {
       "MapName": "Custom_WF_AbandonedFarmhouse",
       "Name": null,
-      "Tile": "4, 35",
+      "Tile": "16, 31",
       "Type": "ResourceClump",
       "ID": "wildflour.foragelocations_WildFlowerStump",
       "DaysUntilExpire": 1,
@@ -105,7 +105,7 @@
     {
       "MapName": "Custom_WF_MysticalForest",
       "Name": null,
-      "Tile": "22, 5",
+      "Tile": "36, 32",
       "Type": "ResourceClump",
       "ID": "wildflour.foragelocations_MagicMushLog",
       "DaysUntilExpire": 1,
@@ -116,7 +116,18 @@
     {
       "MapName": "Custom_WF_MysticalForest",
       "Name": null,
-      "Tile": "26, 32",
+      "Tile": "13, 34",
+      "Type": "ResourceClump",
+      "ID": "wildflour.foragelocations_MagicMushStump",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MysticalForest",
+      "Name": null,
+      "Tile": "11, 15",
       "Type": "ResourceClump",
       "ID": "wildflour.foragelocations_WildMushStump",
       "DaysUntilExpire": 1,
@@ -127,7 +138,7 @@
     {
       "MapName": "Custom_WF_MysticalForest",
       "Name": null,
-      "Tile": "54, 14",
+      "Tile": "15, 35",
       "Type": "ResourceClump",
       "ID": "wildflour.foragelocations_WildMushLog",
       "DaysUntilExpire": 1,
@@ -137,8 +148,30 @@
     },
     {
       "MapName": "Custom_WF_OldForest",
+      "Name": "wildflour.foragelocations_berry_node_magical",
+      "Tile": "38, 30",
+      "Type": "Forage",
+      "ID": "wildflour.foragelocations_berry_node_magical",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_OldForest",
+      "Name": "wildflour.foragelocations_berry_node_magical",
+      "Tile": "14, 19",
+      "Type": "Forage",
+      "ID": "wildflour.foragelocations_berry_node_magical",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_OldForest",
       "Name": "wildflour.foragelocations_mush_node_purple_magical",
-      "Tile": "39, 31",
+      "Tile": "69, 40",
       "Type": "Forage",
       "ID": "wildflour.foragelocations_mush_node_purple_magical",
       "DaysUntilExpire": 1,
@@ -148,10 +181,10 @@
     },
     {
       "MapName": "Custom_WF_OldForest",
-      "Name": "wildflour.foragelocations_herb_weed_magical",
-      "Tile": "35, 27",
+      "Name": "wildflour.foragelocations_mush_node_purple_magical",
+      "Tile": "64, 18",
       "Type": "Forage",
-      "ID": "wildflour.foragelocations_herb_weed_magical",
+      "ID": "wildflour.foragelocations_mush_node_purple_magical",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -159,10 +192,10 @@
     },
     {
       "MapName": "Custom_WF_OldForest",
-      "Name": "wildflour.ateliercrops_sage",
-      "Tile": "44, 9",
+      "Name": "wildflour.foragelocations_mush_node_brown_wild",
+      "Tile": "6, 11",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_sage",
+      "ID": "wildflour.foragelocations_mush_node_brown_wild",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -170,30 +203,8 @@
     },
     {
       "MapName": "Custom_WF_OldForest",
-      "Name": "725",
-      "Tile": "64, 16",
-      "Type": "Forage",
-      "ID": "725",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_WF_FrogHollow",
-      "Name": "wildflour.ateliercrops_pearl_moondrop",
-      "Tile": "35, 3",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_pearl_moondrop",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_WF_FrogHollow",
       "Name": "wildflour.ateliercrops_rosemary",
-      "Tile": "4, 29",
+      "Tile": "11, 4",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_rosemary",
       "DaysUntilExpire": 1,
@@ -202,11 +213,44 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_WF_FrogHollow",
-      "Name": "wildflour.ateliercrops_strawberry",
-      "Tile": "19, 7",
+      "MapName": "Custom_WF_OldForest",
+      "Name": "wildflour.ateliercrops_rosemary",
+      "Tile": "75, 25",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_strawberry",
+      "ID": "wildflour.ateliercrops_rosemary",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_OldForest",
+      "Name": "724",
+      "Tile": "29, 34",
+      "Type": "Forage",
+      "ID": "724",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_FrogHollow",
+      "Name": "wildflour.foragelocations_herb_weed_magical",
+      "Tile": "5, 14",
+      "Type": "Forage",
+      "ID": "wildflour.foragelocations_herb_weed_magical",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_FrogHollow",
+      "Name": "wildflour.foragelocations_herb_weed_magical",
+      "Tile": "8, 38",
+      "Type": "Forage",
+      "ID": "wildflour.foragelocations_herb_weed_magical",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -215,7 +259,7 @@
     {
       "MapName": "Custom_WF_MermaidGrotto",
       "Name": "723",
-      "Tile": "19, 18",
+      "Tile": "7, 11",
       "Type": "Forage",
       "ID": "723",
       "DaysUntilExpire": 1,
@@ -224,9 +268,42 @@
       "MonType": null
     },
     {
+      "MapName": "Custom_WF_MermaidGrotto",
+      "Name": "393",
+      "Tile": "13, 12",
+      "Type": "Forage",
+      "ID": "393",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MermaidGrotto",
+      "Name": "152",
+      "Tile": "17, 24",
+      "Type": "Forage",
+      "ID": "152",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_CrystalCave",
+      "Name": "749",
+      "Tile": "13, 12",
+      "Type": "Forage",
+      "ID": "749",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
       "MapName": "Custom_WF_CrystalCave",
       "Name": "535",
-      "Tile": "10, 21",
+      "Tile": "23, 16",
       "Type": "Forage",
       "ID": "535",
       "DaysUntilExpire": 1,
@@ -237,7 +314,7 @@
     {
       "MapName": "Custom_WF_CrystalCave",
       "Name": "537",
-      "Tile": "28, 0",
+      "Tile": "8, 29",
       "Type": "Forage",
       "ID": "537",
       "DaysUntilExpire": 1,
@@ -246,11 +323,44 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_WF_RainforestRetreat",
-      "Name": "wildflour.foragelocations_flower_weed_wild",
-      "Tile": "19, 41",
+      "MapName": "Custom_WF_CrystalCave",
+      "Name": "535",
+      "Tile": "16, 26",
       "Type": "Forage",
-      "ID": "wildflour.foragelocations_flower_weed_wild",
+      "ID": "535",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_CrystalCave",
+      "Name": "536",
+      "Tile": "37, 6",
+      "Type": "Forage",
+      "ID": "536",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MermaidGrotto",
+      "Name": "wildflour.ateliercrops_ice_dragon_scale",
+      "Tile": "3, 21",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_ice_dragon_scale",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MermaidGrotto",
+      "Name": "wildflour.ateliercrops_shooting_star",
+      "Tile": "5, 8",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_shooting_star",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -258,10 +368,10 @@
     },
     {
       "MapName": "Custom_WF_RainforestRetreat",
-      "Name": "wildflour.foragelocations_flower_weed_wild",
-      "Tile": "16, 7",
+      "Name": "wildflour.ateliercrops_golden_aura",
+      "Tile": "5, 11",
       "Type": "Forage",
-      "ID": "wildflour.foragelocations_flower_weed_wild",
+      "ID": "wildflour.ateliercrops_golden_aura",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -269,21 +379,10 @@
     },
     {
       "MapName": "Custom_WF_RainforestRetreat",
-      "Name": "wildflour.foragelocations_flower_weed_wild",
-      "Tile": "39, 14",
+      "Name": "wildflour.ateliercrops_golden_aura",
+      "Tile": "40, 11",
       "Type": "Forage",
-      "ID": "wildflour.foragelocations_flower_weed_wild",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_WF_RainforestRetreat",
-      "Name": "wildflour.ateliercrops_pistachio",
-      "Tile": "34, 33",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_pistachio",
+      "ID": "wildflour.ateliercrops_golden_aura",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -292,18 +391,7 @@
     {
       "MapName": "Custom_WF_RainforestRetreat",
       "Name": "wildflour.ateliercrops_fire_dragon_scale",
-      "Tile": "35, 27",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_fire_dragon_scale",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_WF_RainforestRetreat",
-      "Name": "wildflour.ateliercrops_fire_dragon_scale",
-      "Tile": "32, 47",
+      "Tile": "29, 46",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_fire_dragon_scale",
       "DaysUntilExpire": 1,
@@ -314,7 +402,18 @@
     {
       "MapName": "Custom_WF_RainforestRetreat",
       "Name": "wildflour.ateliercrops_golden_aura",
-      "Tile": "44, 24",
+      "Tile": "10, 28",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_golden_aura",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_RainforestRetreat",
+      "Name": "wildflour.ateliercrops_golden_aura",
+      "Tile": "32, 36",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_golden_aura",
       "DaysUntilExpire": 1,
@@ -324,8 +423,74 @@
     },
     {
       "MapName": "Custom_WF_MysticalForest",
+      "Name": "257",
+      "Tile": "7, 12",
+      "Type": "Forage",
+      "ID": "257",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MysticalForest",
+      "Name": "420",
+      "Tile": "36, 38",
+      "Type": "Forage",
+      "ID": "420",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MysticalForest",
+      "Name": "257",
+      "Tile": "9, 27",
+      "Type": "Forage",
+      "ID": "257",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MysticalForest",
+      "Name": "257",
+      "Tile": "60, 6",
+      "Type": "Forage",
+      "ID": "257",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MysticalForest",
+      "Name": "wildflour.foragelocations_mush_node_brown_wild",
+      "Tile": "15, 24",
+      "Type": "Forage",
+      "ID": "wildflour.foragelocations_mush_node_brown_wild",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MysticalForest",
+      "Name": "wildflour.foragelocations_mush_node_brown_wild",
+      "Tile": "50, 20",
+      "Type": "Forage",
+      "ID": "wildflour.foragelocations_mush_node_brown_wild",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MysticalForest",
       "Name": "wildflour.ateliercrops_golden_aura",
-      "Tile": "10, 10",
+      "Tile": "8, 13",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_golden_aura",
       "DaysUntilExpire": 1,
@@ -334,9 +499,31 @@
       "MonType": null
     },
     {
+      "MapName": "Custom_WF_MysticalForest",
+      "Name": "wildflour.foragelocations_mush_node_red_magical",
+      "Tile": "76, 21",
+      "Type": "Forage",
+      "ID": "wildflour.foragelocations_mush_node_red_magical",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_MysticalForest",
+      "Name": "wildflour.foragelocations_mush_node_red_magical",
+      "Tile": "44, 23",
+      "Type": "Forage",
+      "ID": "wildflour.foragelocations_mush_node_red_magical",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
       "MapName": "Custom_WF_SecretOrchard",
       "Name": "638",
-      "Tile": "21, 31",
+      "Tile": "17, 18",
       "Type": "Forage",
       "ID": "638",
       "DaysUntilExpire": 1,
@@ -346,8 +533,19 @@
     },
     {
       "MapName": "Custom_WF_SecretOrchard",
+      "Name": "634",
+      "Tile": "13, 26",
+      "Type": "Forage",
+      "ID": "634",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WF_SecretOrchard",
       "Name": "wildflour.ateliercrops_cherry",
-      "Tile": "22, 27",
+      "Tile": "7, 33",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_cherry",
       "DaysUntilExpire": 1,
@@ -356,54 +554,11 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_WF_AbandonedFarmhouse",
-      "Name": null,
-      "Tile": "25, 38",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          429
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_WF_AbandonedFarmhouse",
-      "Name": null,
-      "Tile": "37, 34",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          429
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_WF_AbandonedFarmhouse",
-      "Name": "wildflour.ateliercrops_daisy",
-      "Tile": "22, 37",
+      "MapName": "Custom_WF_SecretOrchard",
+      "Name": "wildflour.ateliercrops_cherry",
+      "Tile": "30, 35",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_daisy",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_WF_AbandonedFarmhouse",
-      "Name": "wildflour.ateliercrops_violet",
-      "Tile": "19, 32",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_violet",
+      "ID": "wildflour.ateliercrops_cherry",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,

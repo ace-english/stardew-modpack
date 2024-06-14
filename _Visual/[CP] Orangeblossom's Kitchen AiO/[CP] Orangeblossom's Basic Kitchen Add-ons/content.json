@@ -1,0 +1,29 @@
+{"Format": "2.0.0",
+"Changes":[{
+"Action": "EditData",
+"Target": "Data/Furniture",
+"Entries":{
+
+"OB7.KitchenIsland1": "ob7.KitchenIsland1/decor/4 3/4 2/1/1250/-1/{{i18n:ob7_KitchenIsland1}}/0/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+"OB7.KitchenIsland2": "ob7.KitchenIsland2/decor/4 3/4 2/1/1250/-1/{{i18n:ob7_KitchenIsland2}}/4/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+"OB7.KitchenIsland3": "ob7.KitchenIsland3/decor/4 3/4 2/1/1250/-1/{{i18n:ob7_KitchenIsland3}}/8/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+"OB7.KitchenIsland4": "ob7.KitchenIsland4/decor/4 3/4 2/1/1250/-1/{{i18n:ob7_KitchenIsland4}}/12/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+
+"OB7.KitchenIsland1A": "ob7.KitchenIsland1A/decor/4 3/4 2/1/1250/-1/{{i18n:ob7_KitchenIsland1A}}/48/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+"OB7.KitchenIsland2A": "ob7.KitchenIsland2A/decor/4 3/4 2/1/1250/-1/{{i18n:ob7_KitchenIsland2A}}/52/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+"OB7.KitchenIsland3A": "ob7.KitchenIsland3A/decor/4 3/4 2/1/1250/-1/{{i18n:ob7_KitchenIsland3A}}/56/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+"OB7.KitchenIsland4A": "ob7.KitchenIsland4A/decor/4 3/4 2/1/1250/-1/{{i18n:ob7_KitchenIsland4A}}/60/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+
+"OB7.KitchenStool1": "ob7.KitchenStool1/chair/-1/-1/4/350/-1/{{i18n:ob7_KitchenStool1}}/96/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+"OB7.KitchenStool2": "ob7.KitchenStool2/chair/-1/-1/4/350/-1/{{i18n:ob7_KitchenStool2}}/99/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+"OB7.KitchenStool3": "ob7.KitchenStool3/chair/-1/-1/4/350/-1/{{i18n:ob7_KitchenStool3}}/102/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+"OB7.KitchenStool4": "ob7.KitchenStool4/chair/-1/-1/4/350/-1/{{i18n:ob7_KitchenStool4}}/105/Tilesheets\\OKichF_kitchenFurniture/false/collection_ob7Furniture",
+
+
+}
+},
+
+{"Action": "Load","Target": "Tilesheets/OKichF_kitchenFurniture","FromFile": "assets/OKichF_kitchenFurniture.png"},
+{"Action": "Load","Target": "Tilesheets/OKichF_kitchenFurnitureFront","FromFile": "assets/OKichF_kitchenFurnitureFront.png"}
+
+]}

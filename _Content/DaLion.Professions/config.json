@@ -30,17 +30,17 @@
   },
   "ModKey": "LeftShift, LeftShoulder",
   "LaxOwnershipRequirements": false,
-  "ShouldJunimosInheritProfessions": true,
+  "ShouldJunimosInheritProfessions": false,
   "ArtisanMachines": [
     "(BC)ExampleMod.ExampleMachine"
   ],
   "EnableGoldenOstrichMayo": true,
-  "ImmersiveDairyYield": false,
+  "ImmersiveDairyYield": true,
   "AnimalDerivedGoods": [
     "(O)ExampleMod.ExampleProduce"
   ],
   "BeesAreAnimals": true,
-  "ForagesNeededForBestQuality": 50,
+  "ForagesNeededForBestQuality": 30,
   "MineralsNeededForBestQuality": 30,
   "TreasureHuntStartChanceMultiplier": 1.0,
   "AllowScavengerHuntsOnFarm": false,
@@ -59,5 +59,6 @@
   "ConservationistTrashNeededPerFriendshipPoint": 100,
   "ConservationistTaxDeductionCeiling": 1.0,
   "ImmersiveHeavyTapperYield": true,
-  "AgingTreesQualitySyrups": true
+  "AgingTreesQualitySyrups": true,
+  "ShowEquippedAmmo": true
 }

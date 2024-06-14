@@ -1,0 +1,11 @@
+{
+   "Name": "Lynnea's Recolor of Bog's Wizard Catalogue Recolor",
+   "Author": "Lynneaura",
+   "Version": "1.3",
+   "Description": "Recolor of the Wizard Catalogue for the goblins",
+   "UniqueID": "Lynnea.BogWizardFurnitureRecolor",
+   "UpdateKeys": [ "Nexus:24101" ],
+     "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

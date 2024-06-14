@@ -58,7 +58,7 @@
         <member name="T:DaLion.Ponds.Framework.Extensions.FishPondExtensions">
             <summary>Extensions for the <see cref="T:StardewValley.Buildings.FishPond"/> class.</summary>
         </member>
-        <member name="M:DaLion.Ponds.Framework.Extensions.FishPondExtensions.HasLegendaryFish(StardewValley.Buildings.FishPond)">
+        <member name="M:DaLion.Ponds.Framework.Extensions.FishPondExtensions.HasBossFish(StardewValley.Buildings.FishPond)">
             <summary>Determines whether a legendary fish lives in this <paramref name="pond"/>.</summary>
             <param name="pond">The <see cref="T:StardewValley.Buildings.FishPond"/>.</param>
             <returns><see langword="true"/> if the <paramref name="pond"/> houses a legendary fish species, otherwise <see langword="false"/>.</returns>
@@ -141,9 +141,6 @@
         <member name="T:DaLion.Ponds.Framework.Lookups">
             <summary>Holds maps which may be referenced by different modules.</summary>
         </member>
-        <member name="P:DaLion.Ponds.Framework.Lookups.LegendaryFishes">
-            <summary>Gets the qualified IDs of the legendary and extended family fish.</summary>
-        </member>
         <member name="P:DaLion.Ponds.Framework.Lookups.FamilyPairs">
             <summary>Gets a map from a legendary fish ID to that of its corresponding extended family pair.</summary>
         </member>
@@ -164,6 +161,13 @@
         </member>
         <member name="M:DaLion.Ponds.Framework.Patchers.FishPondAddFishToPondPatcher.FishPondAddFishToPondPostfix(StardewValley.Buildings.FishPond,StardewValley.GameData.FishPonds.FishPondData,StardewValley.Object)">
             <summary>Add to PondFish data.</summary>
+        </member>
+        <member name="M:DaLion.Ponds.Framework.Patchers.FishPondClearPondPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
+            <summary>Initializes a new instance of the <see cref="T:DaLion.Ponds.Framework.Patchers.FishPondClearPondPatcher"/> class.</summary>
+            <param name="harmonizer">The <see cref="T:DaLion.Shared.Harmony.Harmonizer"/> instance that manages this patcher.</param>
+        </member>
+        <member name="M:DaLion.Ponds.Framework.Patchers.FishPondClearPondPatcher.FishPondClearPondPrefix(StardewValley.Buildings.FishPond,StardewValley.Object@,System.Boolean@)">
+            <summary>Clear Family Living Here data.</summary>
         </member>
         <member name="M:DaLion.Ponds.Framework.Patchers.FishPondCtorPatcher.#ctor(DaLion.Shared.Harmony.Harmonizer)">
             <summary>Initializes a new instance of the <see cref="T:DaLion.Ponds.Framework.Patchers.FishPondCtorPatcher"/> class.</summary>

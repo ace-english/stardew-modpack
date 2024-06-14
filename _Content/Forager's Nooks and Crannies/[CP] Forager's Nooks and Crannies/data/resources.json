@@ -20,7 +20,7 @@
                     "SpriteIndex": 0,
                     "Width": 2,
                     "Height": 2,
-                    "Health": 12,
+                    "Health": 8,
                     "Sound": "axe",
                     "BreakingSound": "treethud",
                     "Debris": "stump #CBC3E3",
@@ -36,11 +36,16 @@
                         },
                         {
                             "ItemId": "(O)wildflour.ateliercrops_milkshroom",
-                            "Chance": 0.4
+                            "Chance": 0.3
                         },
                         {
                             "ItemId": "(O)wildflour.ateliercrops_honeyfungus",
                             "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_WoodgoatMushroom",
+                            "Chance": 0.4,
+                            "HasMod": "Lumisteria.MtVapius"
                         },
                         {
                             "ItemId": "(O)281",
@@ -62,7 +67,7 @@
                     "SpriteIndex": 2,
                     "Width": 2,
                     "Height": 2,
-                    "Health": 12, 
+                    "Health": 8, 
                     "Sound": "axe",
                     "BreakingSound": "treethud",
                     "Debris": "stump #CBC3E3",
@@ -103,7 +108,7 @@
                     "SpriteIndex": 4,
                     "Width": 2,
                     "Height": 2,
-                    "Health": 12, 
+                    "Health": 8, 
                     "Sound": "axe",
                     "BreakingSound": "treethud",
                     "Debris": "stump #CBC3E3",
@@ -128,6 +133,20 @@
                         {
                             "ItemId": "(O)wildflour.ateliercrops_mallow",
                             "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_BlueMorningGlory",
+                            "Chance": 0.3,
+                            "HasMod": "Lumisteria.MtVapius"
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_PinkMorningGlory",
+                            "Chance": 0.2,
+                            "HasMod": "Lumisteria.MtVapius"
+                        },
+                        {
+                            "ItemId": "(O)MixedFlowerSeeds",
+                            "Chance": 0.4
                         }
                     ],
                     "Tool": "Axe",
@@ -144,7 +163,7 @@
                     "SpriteIndex": 36,
                     "Width": 2,
                     "Height": 2,
-                    "Health": 12, 
+                    "Health": 8, 
                     "Sound": "axe", 
                     "BreakingSound": "treethud",
                     "Debris": "stump #CBC3E3",
@@ -156,7 +175,7 @@
                         },
                         {
                             "ItemId": "(O)wildflour.ateliercrops_chiffon",
-                            "Chance": 0.4
+                            "Chance": 0.2
                         },
                         {
                             "ItemId": "(O)wildflour.ateliercrops_daisy",
@@ -168,6 +187,15 @@
                         },
                         {
                             "ItemId": "(O)wildflour.ateliercrops_geranium",
+                            "Chance": 0.3
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_CasalotierFlower",
+                            "Chance": 0.3,
+                            "HasMod": "Lumisteria.MtVapius"
+                        },
+                        {
+                            "ItemId": "(O)MixedFlowerSeeds",
                             "Chance": 0.4
                         }
                     ],
@@ -185,7 +213,7 @@
                     "SpriteIndex": 32,
                     "Width": 2,
                     "Height": 2,
-                    "Health": 20,
+                    "Health": 8,
                     "Sound": "axe",
                     "BreakingSound": "treethud",
                     "Debris": "wood #CBC3E3",
@@ -230,7 +258,7 @@
                     "SpriteIndex": 34,
                     "Width": 2,
                     "Height": 2,
-                    "Health": 20,
+                    "Health": 8,
                     "Sound": "axe",
                     "BreakingSound": "treethud",
                     "Debris": "wood #CBC3E3",
@@ -271,7 +299,7 @@
                     "SpriteIndex": 22,
                     "Width": 3,
                     "Height": 3,
-                    "Health": 20,
+                    "Health": 8,
                     "Sound": "axe",
                     "BreakingSound": "treethud",
                     "Debris": "wood #CBC3E3",
@@ -284,6 +312,10 @@
                         {
                             "ItemId": "(O)417",
                             "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)400",
+                            "Chance": 0.2
                         },
                         {
                             "ItemId": "(O)wildflour.ateliercrops_lemon",
@@ -308,7 +340,7 @@
                     "SpriteIndex": 25,
                     "Width": 3,
                     "Height": 3,
-                    "Health": 20,
+                    "Health": 8,
                     "Sound": "axe",
                     "BreakingSound": "treethud",
                     "Debris": "wood #CBC3E3",
@@ -325,6 +357,10 @@
                         {
                             "ItemId": "(O)wildflour.ateliercrops_orange",
                             "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)258",
+                            "Chance": 0.3
                         },
                         {
                             "ItemId": "(O)454",
@@ -371,6 +407,24 @@
                         {
                             "ItemId": "(O)wildflour.ateliercrops_vanillaseeds",
                             "Chance": 0.2
+                        },
+                        {
+                            "ItemId": "Lumisteria.SereneMeadow_CornflowerSeeds",
+                            "HasMod": "Lumisteria.SereneMeadow",
+                            "Chance": 0.3
+                        },
+                        {
+                            "ItemId": "Lumisteria.SereneMeadow_CalendulaSeeds",
+                            "HasMod": "Lumisteria.SereneMeadow",
+                            "Chance": 0.3
+                        },
+                        {
+                            "ItemId": "(O)431",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)455",
+                            "Chance": 0.4
                         }
                     ],
                     "Debris": "weeds blue"
@@ -410,7 +464,29 @@
                         {
                             "ItemId": "(O)wildflour.ateliercrops_pixies_breath_seeds",
                             "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "Lumisteria.SereneMeadow_GiantFernSeeds",
+                            "HasMod": "Lumisteria.SereneMeadow",
+                            "Chance": 0.3
+                        },
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O)MixedFlowerSeeds",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)425",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)453",
+                            "Chance": 0.4
                         }
+
                     ],
                     "Debris": "weeds blue"
                 },
@@ -457,7 +533,16 @@
                         {
                             "ItemId": "(O)wildflour.ateliercrops_rosemaryseeds",
                             "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)302",
+                            "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)770",
+                            "Chance": 0.4
                         }
+
                     ],
                     "Debris": "weeds blue"
                 },
@@ -475,7 +560,7 @@
                     "ExtraItems": [
                         {
                             "ItemId": "(O)wildflour.ateliercrops_mugwort",
-                            "Chance": 0.4
+                            "Chance": 0.2
                         },
                         {
                             "ItemId": "(O)wildflour.ateliercrops_thistle",
@@ -483,7 +568,7 @@
                         },
                         {
                             "ItemId": "(O)wildflour.ateliercrops_valerian",
-                            "Chance": 0.4
+                            "Chance": 0.3
                         },
                         {
                             "ItemId": "(O)wildflour.ateliercrops_rose_flax",
@@ -496,6 +581,18 @@
                         {
                             "ItemId": "(O)wildflour.ateliercrops_violet_flax",
                             "Chance": 0.4
+                        },
+                        {
+                            "ItemId": "(O)476",
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)299",
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)499",
+                            "Chance": 0.1
                         }
                     ],
                     "Debris": "weeds blue"
@@ -527,7 +624,16 @@
                         {
                             "ItemId": "(BC)wildflour.ateliercrops_RaspberryBush",
                             "Chance": 0.1
+                        },
+                        {
+                            "ItemId": "(O)410",
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)296",
+                            "Chance": 0.5
                         }
+
                     ],
                     "Debris": "wood green"
                 },
@@ -574,6 +680,14 @@
                         {
                             "ItemId": "(BC)wildflour.ateliercrops_PearlBush",
                             "Chance": 0.1
+                        },
+                        {
+                            "ItemId": "(O)638",
+                            "Chance": 0.2
+                        },
+                        {
+                            "ItemId": "(O)613",
+                            "Chance": 0.2
                         }
                     ],
                     "Debris": "wood green"
@@ -675,7 +789,7 @@
                     "Debris": "wood green"
                 }
             }
-        },
+        }
 
 
     ]

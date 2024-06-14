@@ -4,33 +4,28 @@
   // C O N F I G
 	"ConfigSchema": {
         "Sprite": {
-         "AllowValues": "vanilla, new",
-		 "Default":"vanilla",
-            },
+         	"AllowValues": "vanilla, new",
+		 	"Default":"vanilla",
+        },
 		"Cecily Portrait Style": {
-         "AllowValues": "vanilla, 1, 2",
-		 "Default":"vanilla",
-            },
+         	"AllowValues": "vanilla, 1, 2",
+		 	"Default":"vanilla",
+        },
+        "Load Desert":{
+        	"AllowValues":"true, false",
+        	"Default":"true"
+        },
     }, 
+    
+    "DynamicTokens": [
+		{
+			"Name": "IsEvenYear",
+			"Value": "{{Query: {{Year}} % 2 = 0}}"
+		},
+	],
 	
   "Changes": [
-  	{
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "Gunther": {
-                    "DisplayName": "Gunther", 
-                    "SocialTab": "UnknownUntilMet",
-                    "CanSocialize": "TRUE",
-					"CanBeRomanced":"TRUE",
-                    "IntroductionsQuest": false,
-                    "PerfectionScore": false,
-                    "EndSlideShow": true,
-                },
-            },
-        },
-
-  //S P R I T E S
+  //S P R I T E S 
 		{
 		"LogName": "Gunther's Sprites",
 		"Action": "Load",
@@ -38,7 +33,7 @@
 		"FromFile": "assets/Gunther.png",
 		"When":{
 				"Sprite":"new",
-            },
+        	},
         },
 		{
 		"LogName": "Gunther's Sprites",
@@ -59,21 +54,48 @@
 
 // N P C    D I S P O S I T I O N S
 		{
-		"Action": "EditData",
-		"Target": "Data/NPCDispositions",
-		"Entries": {"Gunther": "adult/polite/outgoing/positive/male/datable/Penny/Town/fall 8/Penny '' Elliott '' Harvey '' Jas '' Vincent '' Abigail ''/ArchaeologyHouse 62 4/Gunther"},
-		"Fields": {
-			"Penny" :{
-				9: "Pam 'mother' Gunther ''"
-				},
-			"Elliott" :{
-				9: "Willy '' Gunther ''"
-				},
-			"Harvey" :{
-				9: "Gunther ''"
-				},
-			},
-		},
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Gunther": {
+                    "DisplayName": "Gunther", 
+                    "BirthSeason": "Fall",
+                    "BirthDay": 8,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "SpouseRoom": {
+                    	"MapAsset": "spouseRoomGunther",
+                    	"MapSourceRect": {
+                        	"X": 0,
+                        	"Y": 0,
+                        	"Width": 6,
+                        	"Height": 9
+                    	}
+                	},
+                	"SpousePatio":{
+                		"MapAsset":"spousePatioGunther",
+                		"SpriteAnimationFrames": [
+    						[17, 500], 
+    						[18, 500], 
+							]
+                		},
+                    "CanBeRomanced": true,
+
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "ArchaeologyHouse",
+                            "Tile": { "X": 62, "Y": 4 },
+                            "Direction": "Left"
+                        }
+                    ],
+                }
+            }
+        },
 		
 // G I F T    T A S T E S
 		{
@@ -83,6 +105,20 @@
 			"Gunther": "Mr @!^Ms @!#$b#This is a kingly gift indeed! Thank you. From the bottom of my heart./614 579 580 581 582 583 584 585 586 587 588 589 96 97 98 99 100 101 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127/Why, thank you kindly. This is a lovely gift./80 446 797 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 815 341/Hm. I'm not sure what to say. But I appreciate the thought./428 306 307/This isn't really my thing. Sorry./206 225 202 215 731/Thank you./340 373 303 346 459 424 426 350/",
 			},
 		},
+
+// SPOUSE ROOM
+  {
+    "Action": "Load",
+    "FromFile": "assets/spouseRoomGunther.tmx",
+    "Target": "Maps/spouseRoomGunther"
+  },
+  
+//SPOUSE PATIO
+  {
+    "Action": "Load",
+    "FromFile": "assets/spousePatioGunther.tmx",
+    "Target": "Maps/spousePatioGunther"
+  },
 		
 // D I A L O G U E
 		{
@@ -114,9 +150,9 @@
         "Entries": {
 			"Mon8": "*yawn*#$b#Oh, @. You’re looking exceptionally chipper today. I was up late playing Junimo Kart with Cecily. It’s absurd what that girl can talk me into.",
 			"winter_Mon8": "*yawn*#$b#Oh, @. You’re looking exceptionally chipper today. I was up late playing Junimo Kart with Cecily. It’s absurd what that girl can talk me into.",
-			"Tue8": "@! My favorite person!$u Don’t tell Cecily I said that. Though I suspect she’s rather fond of you as well!$h",
-			"winter_Tue8": "@! My favorite person!$u Don’t tell Cecily I said that. Though I suspect she’s rather fond of you as well!$h",
-			"fall_Tue8": "@! My favorite person!$u Don’t tell Cecily I said that. Though I suspect she’s rather fond of you as well!$h",
+			"Tue8": "@! My favorite person!$u#$b#Don’t tell Cecily I said that. Though I suspect she’s rather fond of you as well!$h",
+			"winter_Tue8": "@! My favorite person!$u#$b#Don’t tell Cecily I said that. Though I suspect she’s rather fond of you as well!$h",
+			"fall_Tue8": "@! My favorite person!$u#$b#Don’t tell Cecily I said that. Though I suspect she’s rather fond of you as well!$h",
 			"Wed8": "I am learning more than I ever wanted to know about teenage girls, @.#$b#I still don’t understand what makeup is for, but I know it’s important, and Yoba forbid you ask what brow threading is.",
 			"Thu8": "My grocery bills have tripled since Cecily moved in, I swear, @.#$b#I thought only teenage boys were supposed to eat this much! She doesn’t look like she can eat half as much as she does!",
 			"Fri8": "Hello there, @! Will I see you at the saloon tonight?$u#$b#Cecily enjoys the weekly meet-up with the kids. She’s a few years younger, but I think they like having her around all the same.",
@@ -179,18 +215,18 @@
 		  "Action": "EditData",
 		  "Target": "Characters/schedules/Gunther",
 		  "Entries": {
-				"Thu": "610 ArchaeologyHouse 54 6 0/800 ArchaeologyHouse 33 12 2/1400 SeedShop 12 23 0/1200 ArchaeologyHouse 2 10 0/1800 ArchaeologyHouse 54 6 0/2400 ArchaeologyHouse 64 4 gunther_sleep",
+				"Thu": "610 ArchaeologyHouse 54 6 0/800 ArchaeologyHouse 33 12 2/1200 SeedShop 12 23 0/1500 ArchaeologyHouse 2 10 0/1800 ArchaeologyHouse 54 6 0/2400 ArchaeologyHouse 64 4 gunther_sleep",
 			    "Fri": "610 Town 79 95 2/800 ArchaeologyHouse 4 8 2/1000 ArchaeologyHouse 19 5 0/1800 Saloon 3 21 0/2130 ArchaeologyHouse 64 4 gunther_sleep",
 				"winter_Fri" : "610 ArchaeologyHouse 54 6 0/800 ArchaeologyHouse 4 8 2/1000 ArchaeologyHouse 47 7 1/1800 Saloon 3 21 0/2130 ArchaeologyHouse 64 4 gunther_sleep",
 				"Sat":"610 ArchaeologyHouse 54 6 0/800 ArchaeologyHouse 4 8 2/1000 ArchaeologyHouse 28 14 2/1800 Beach 38 24 2/2400 ArchaeologyHouse 64 4 gunther_sleep",
 				"winter_Sat" : "610 ArchaeologyHouse 54 6 0/800 ArchaeologyHouse 4 8 2/1000 ArchaeologyHouse 47 7 1/1800 ArchaeologyHouse 52 11 0/2100 ArchaeologyHouse 64 4 gunther_sleep",
-				"Sun": "700 ArchaeologyHouse 31 14 2/1800 Mountain 6 33 gunther_dig/2200 ArchaeologyHouse 64 4 gunther_sleep",
-				"winter_Sun": "700 ArchaeologyHouse 31 14 2/1800 ArchaeologyHouse 52 11 0/2100 ArchaeologyHouse 64 4 gunther_sleep",
+				"Sun": "610 ArchaeologyHouse 62 4 2/700 ArchaeologyHouse 28 14 2/1800 Mountain 6 33 gunther_dig/2200 ArchaeologyHouse 64 4 gunther_sleep",
+				"winter_Sun": "610 ArchaeologyHouse 62 4 2/700 ArchaeologyHouse 28 14 2/1800 ArchaeologyHouse 52 11 0/2100 ArchaeologyHouse 64 4 gunther_sleep",
 				"spring": "610 Town 79 95 2/800 ArchaeologyHouse 4 8 2/1800 ArchaeologyHouse 52 11 0/2100 ArchaeologyHouse 64 4 gunther_sleep",
 				"summer": null,
 				"fall": null,
-				"winter": "800 ArchaeologyHouse 4 8 2/1800 ArchaeologyHouse 54 6 0/2400 ArchaeologyHouse 64 4 gunther_sleep",
-				"rain": "800 ArchaeologyHouse 4 8 2/1800 ArchaeologyHouse 54 6 0/2400 ArchaeologyHouse 64 4 gunther_sleep",
+				"winter": "610 ArchaeologyHouse 62 4 2/800 ArchaeologyHouse 4 8 2/1800 ArchaeologyHouse 54 6 0/2400 ArchaeologyHouse 64 4 gunther_sleep",
+				"rain": "610 ArchaeologyHouse 62 4 2/800 ArchaeologyHouse 4 8 2/1800 ArchaeologyHouse 54 6 0/2400 ArchaeologyHouse 64 4 gunther_sleep",
 			},
 		  "When": { "HasSeenEvent": "7102005" },
 		},
@@ -266,8 +302,8 @@
 		"Target": "Data/Events/ArchaeologyHouse",
 		"Entries": {
 			"0/n somethingToDonate/l somethingWasDonated": "libraryTheme/29 12/farmer 22 13 1 Gunther 31 12 2/removeQuest 23/addQuest 24/skippable/pause 1000/showFrame Gunther 22/pause 500/showFrame Gunther 0/pause 500/showFrame Gunther 23/pause 500/showFrame Gunther 0/pause 1000/showFrame Gunther 25/pause 500/speak Gunther \"Abysmal...#$b#Not a single piece in the entire collection.\"/move farmer 7 0 1/showFrame Gunther 23/pause 800/emote Gunther 16/jump Gunther/pause 800/speak Gunther \"What's this? You found something? Let me see it!\"/move farmer 0 -1 1/move farmer 1 0 1/pause 500/playSound coin/animate Gunther false true 500 26 27/pause 3000/speak Gunther \"Remarkable!#$b#It's very old.#$b#I'd love to study this in greater detail... But it is yours.\"/stopAnimation Gunther/showFrame Gunther 23/pause 1000/speak Gunther \"Hmmm...#$b#I've got a favor to ask you.#$b#Would you consider donating any new artifacts or minerals that you find?#$b#We could make a groundbreaking discovery together!#$b#Oh, and who knows... If you keep donating I might come across some interesting items to send your way.\"/pause 1000/showFrame Gunther 0/pause 500/speak Gunther \"Think about it, will you?#$b#If you decide to donate, just bring the objects to the front desk.\"/move farmer -3 0 2 true/pause 400/showFrame Gunther 25/proceedPosition farmer/move farmer 0 1 3/move farmer -7 0 3 true/pause 1000/globalFade/viewport -1000 -1000/end",
-			"7102001/f Gunther 500": "jaunty/56 15/Gunther 56 16 1 farmer 40 18 1/skippable/showFrame Gunther 16/changeMapTile Front 57 15 1453/pause 1000/move farmer 10 0 1/pause 500/speak Gunther \"Of course it’s alright, sweetheart.#$b#If you need to focus on schoolwork, I completely understand.\"/pause 500/speak Gunther \"Just remember to give me a call if you need any help with anthropology.#$b#I’m not a bad hand with mathematics, either!\"/pause 500/speak Gunther \"I mean it! You can always come to me for help, Cecily. You know that. And if -\"/pause 2000/speak Gunther \" ... Alright. I’ll let you go then.#$b#Be good. Study hard and you’ll blast those exams out of the water.#$b#I love you, sweetheart.\"/playSound openBox/faceDirection Gunther 1/changeMapTile Front 57 15 1454/move farmer 3 0 1/faceDirection Gunther 2/jump Gunther/speak Gunther \"@!$6\"/pause 200/emote farmer 28/pause 200/speak Gunther \"No, no. It’s quite alright. Come on in.\"/move farmer 0 -2 1/faceDirection Gunther 3/pause 500/speak Gunther \"That was my daughter, Cecily. She lives with her mother. But once a month she comes to stay with me for the weekend.#$b#She was just calling to let me know she couldn’t make it this month.\"/stopMusic/pause 500/faceDirection Gunther 2/playMusic sadpiano/pause 2000/speak Gunther \"I’m afraid the visits that I look forward to so much are something of an imposition to her.$s#$b#Once she’s old enough to make her own choices about where she lives and where she goes in a couple years...$s\"/pause 1000/speak Gunther \"Well, I don’t know if she’ll ever come visit her old man at all.$s\"/pause 500/showFrame Gunther 20/speak Gunther \"I’ve tried to be a good father to her.$s#$b#But it’s hard when I only see her a few days a month.$s\"/pause 1000/speak Gunther \"*sigh*...$s\"/pause 1000/faceDirection Gunther 2/pause 500/faceDirection Gunther 3/pause 500/speak Gunther \"But you didn’t come to hear me complain about family matters.#$b#Did you dig up something interesting?#$b#Let’s see it!\"/pause 2000/globalFade/viewport -1000 -1000/end warpOut",
-			"7102002/f Gunther 1000": "jaunty/3 11/Gunther 54 7 2 farmer 3 14 0 Cecily 54 9 0/skippable/playSound doorClose/pause 1000/move farmer 0 -3 0/pause 500/faceDirection farmer 1/pause 200/faceDirection farmer 2/pause 200/faceDirection farmer 1/pause 200/faceDirection farmer 0/pause 1000/emote farmer 8/pause 1000/speak Gunther \"What do you say? I’ll make spaghetti - your favorite.\"/faceDirection farmer 1/viewport move 6 0 9000/pause 700/speak Cecily \"Dad, I’m sixteen. Spaghetti hasn’t been my favorite since I was five.$u\"/pause 700/speak Gunther \"Oh. Well. What would you prefer then?\"/pause 700/speak Cecily \"I don’t know. Sushi I guess. You’re right on the sea. Can’t you get some high quality sashimi here?\"/warp farmer 38 18 1/speed farmer 3/move farmer 13 0 0 true/pause 700/speak Gunther \"Of course! One sashimi platter, straight from the sea, coming right up.\"/move Gunther 1 0 2 true/pause 700/emote Gunther 16/pause 200/faceDirection Cecily 2/pause 200/speak Cecily \"Who’re you?\"/pause 500/speak Gunther \"Oh, @. Come in.\"/move farmer 3 0 0/move farmer 0 -7 0/speak Gunther \"This is my daughter Cecily.\"/move Gunther 0 2 2/speak Gunther \"Cecily, this is @. He’s the farmer who moved into the old farm down the way.^Cecily, this is @. She’s the farmer who moved into the old farm down the way.#$b#I told you about him.^I told you about her.\"/pause 500/jump Gunther/speak Gunther \"Oh! That reminds me. I had something to show you, Cecily. Wait here just a moment.\"/speed Gunther 5/move Gunther 0 9 2/speed Gunther 5/move Gunther -19 0 0/speak Cecily \"So.#$b#You’re friends with my dad?\"/pause 200/emote farmer 32/pause 200/stopMusic/speak Cecily \"I’d stay away from him, if I were you.#$b#Not because I’m trying to protect him or because I don’t want him to get married again - I mean, I don’t, but not for the reasons you’re thinking - but because I don’t want him to do to anyone else what he did to Mom.$s\"/playMusic echos/pause 2000/speak Cecily \"I don’t think he really does it on purpose. He’s not malicious, I guess. He’s just oblivious and self-absorbed.\"/pause 500/speak Cecily \"I bet you think he’s really friendly, right?#$b#A great guy. Always interested in you and what you like to do.#$b#Asks you questions about your hobbies and your interests and then he keeps track of all that stuff, when you thought it was just smalltalk.#$b#It’s almost like he actually cares.\"/pause 500/speak Cecily \"Don’t be fooled. He collects people, you see. Yeah, he wants to learn about you, just like he wants to learn about that dinged up old dwarf helmet on the museum shelf. He has to know what makes you tick so he knows what to write on the little card next to your display case:#$b#@. A farmer with a keen interest in geology and archaeology. Lives on %farm Farm with %pet. Loves %favorite.\"/pause 500/speak Cecily \"I don’t mean for it to sound like he’s a psychopath or anything. He’s not going to murder you and put that plaque next to your head on his wall.#$b#He’s just an incurable academic and he’s spent so much time studying people and society that he forgets maybe he should talk to people just to talk to them.#$b#Because when he makes them into puzzles then he’ll eventually solve them and get bored of them.\"/pause 500/speak Cecily \"That’s what he did with Mom. She thought he was great. A real genuine guy.#$b#And then after a few years of living together he was sure he had every inch of her mind figured out, so he didn’t need to spend any more time talking to her. Ever.\"/pause 500/speak Cecily \"He hasn’t gotten bored of me, yet. Maybe I should let him so he’ll stop insisting I visit once a month.#$b#But I guess I’m afraid it’ll hurt more than I think.$s#$b#He’s still my dad, y’know?$s\"/pause 1000/speak Cecily \"Anyway, it was nice meeting you.\"/move Cecily 0 1 2/move Cecily 7 0 1/faceDirection farmer 1/move Cecily 0 3 2/doAction 61 14/playSound doorCreak/stopMusic/move Cecily 0 3 2/pause 1000/emote farmer 28/speed Gunther 5/move Gunther 18 0 0/faceDirection farmer 2/speak Gunther \"It’s a fascinating old scroll from -\"/pause 200/speak Gunther \"Oh.#$b#I see that conversation didn’t hold.\"/move Gunther 0 -5 0/quickQuestion #Um. Yeah. Heh. She seems like a great kid!#She said I should stay away from you because you collect people like artifacts.(break)pause 100\\speak Gunther \"She told you something terrible about me, didn’t she?\"\\pause 200\\emote farmer 28(break)pause 100/speak Gunther \"Ah.\"/playMusic desolate/pause 1000/speak Gunther \"She is her mother’s daughter. And one’s ex-spouse tends to think the worst of one.$s#$b#It is true, of course, that I find people fascinating. I enjoy learning what interests people and what makes them light with passion.#$b#People are at their best when discussing what they truly love, don’t you agree?#$b#But that doesn’t exactly quite equate to collecting people or trying to put them in glass cases.\"/pause 500/speak Gunther \"I was a very young man when I met my ex-wife. I was still learning about myself, not to mention others. And I suppose I mistook what I felt for her, only to realize when it was too late.$s#$b#You see, an interest in someone as a person is not the same as being in love with them.$s\"/pause 500/speak Gunther \"But I do not, as Cecily’s mother might suggest to her, collect interesting people, learn all of their quirks, and then abandon them like old toys.#$b#Even if I was inclined to discard people once I was fully familiar with them, I would never have left a single person behind.#$b#People are much too complicated for that. You could spend a lifetime with one other person and still be learning about them when you die.#$b#People are not static. Not much is.\"/pause 1000/speak Gunther \"*sigh*...$s\"/pause 200/faceDirection Gunther 2/pause 200/showFrame Gunther 20/pause 1000/faceDirection Gunther 0/speak Gunther \"Well. I’m sorry to have embroiled you so thoroughly in the drama of my broken little family.$s#$b#Thanks for stopping by, @.#$b#I’d better see about getting some sashimi for my daughter.\"/pause 1000/globalFade/viewport -1000 -1000/end warpOut",
+			"7102001/f Gunther 500": "jaunty/56 15/Gunther 56 16 1 farmer 40 18 1/skippable/showFrame Gunther 16/changeMapTile Front 57 15 1453/pause 1000/move farmer 10 0 1/pause 500/speak Gunther \"Of course it’s alright, sweetheart.#$b#If you need to focus on schoolwork, I completely understand.\"/pause 500/speak Gunther \"Just remember to give me a call if you need any help with anthropology.#$b#I’m not a bad hand with mathematics, either!\"/pause 500/speak Gunther \"I mean it! You can always come to me for help, Cecily. You know that. And if -\"/pause 2000/speak Gunther \" ... Alright. I’ll let you go then.#$b#Be good. Study hard and you’ll blast those exams out of the water.#$b#I love you, sweetheart.\"/playSound openBox/faceDirection Gunther 1/changeMapTile Front 57 15 1454/move farmer 3 0 1/faceDirection Gunther 2/jump Gunther/speak Gunther \"@!$6\"/pause 200/emote farmer 28/pause 200/speak Gunther \"No, no. It’s quite alright. Come on in.\"/move farmer 0 -2 1/faceDirection Gunther 3/pause 500/speak Gunther \"That was my daughter, Cecily. She lives with her mother. But once a month she comes to stay with me for the weekend.#$b#She was just calling to let me know she couldn’t make it this month.\"/stopMusic/pause 500/faceDirection Gunther 2/playMusic sadpiano/pause 2000/speak Gunther \"I’m afraid the visits that I look forward to so much are something of an imposition to her.$s#$b#Once she’s old enough to make her own choices about where she lives and where she goes in a couple years...$s\"/pause 1000/speak Gunther \"Well, I don’t know if she’ll ever come visit her old man at all.$s\"/pause 500/showFrame Gunther 20/speak Gunther \"I’ve tried to be a good father to her.$s#$b#But it’s hard when I only see her a few days a month.$s\"/pause 1000/speak Gunther \"*sigh*...$s\"/pause 1000/faceDirection Gunther 2/pause 500/faceDirection Gunther 3/pause 500/speak Gunther \"But you didn’t come to hear me complain about family matters.#$b#Did you dig up something interesting?#$b#Let’s see it!\"/pause 2000/globalFade/viewport -1000 -1000/end",
+			"7102002/f Gunther 1000": "jaunty/3 11/Gunther 54 7 2 farmer 3 14 0 Cecily 54 9 0/skippable/playSound doorClose/pause 1000/move farmer 0 -3 0/pause 500/faceDirection farmer 1/pause 200/faceDirection farmer 2/pause 200/faceDirection farmer 1/pause 200/faceDirection farmer 0/pause 1000/emote farmer 8/pause 1000/speak Gunther \"What do you say? I’ll make spaghetti - your favorite.\"/faceDirection farmer 1/viewport move 6 0 9000/pause 700/speak Cecily \"Dad, I’m sixteen. Spaghetti hasn’t been my favorite since I was five.$u\"/pause 700/speak Gunther \"Oh. Well. What would you prefer then?\"/pause 700/speak Cecily \"I don’t know. Sushi I guess. You’re right on the sea. Can’t you get some high quality sashimi here?\"/warp farmer 38 18/speed farmer 3/move farmer 13 0 0 true/pause 700/speak Gunther \"Of course! One sashimi platter, straight from the sea, coming right up.\"/move Gunther 1 0 2 true/pause 700/emote Gunther 16/pause 200/faceDirection Cecily 2/pause 200/speak Cecily \"Who’re you?\"/pause 500/speak Gunther \"Oh, @. Come in.\"/move farmer 3 0 0/move farmer 0 -7 0/speak Gunther \"This is my daughter Cecily.\"/move Gunther 0 2 2/speak Gunther \"Cecily, this is @. He’s the farmer who moved into the old farm down the way.^Cecily, this is @. She’s the farmer who moved into the old farm down the way.#$b#I told you about him.^I told you about her.\"/pause 500/jump Gunther/speak Gunther \"Oh! That reminds me. I had something to show you, Cecily. Wait here just a moment.\"/speed Gunther 5/move Gunther 0 9 2/speed Gunther 5/move Gunther -19 0 0/speak Cecily \"So.#$b#You’re friends with my dad?\"/pause 200/emote farmer 32/pause 200/stopMusic/speak Cecily \"I’d stay away from him, if I were you.#$b#Not because I’m trying to protect him or because I don’t want him to get married again - I mean, I don’t, but not for the reasons you’re thinking - but because I don’t want him to do to anyone else what he did to Mom.$s\"/playMusic echos/pause 2000/speak Cecily \"I don’t think he really does it on purpose. He’s not malicious, I guess. He’s just oblivious and self-absorbed.\"/pause 500/speak Cecily \"I bet you think he’s really friendly, right?#$b#A great guy. Always interested in you and what you like to do.#$b#Asks you questions about your hobbies and your interests and then he keeps track of all that stuff, when you thought it was just smalltalk.#$b#It’s almost like he actually cares.\"/pause 500/speak Cecily \"Don’t be fooled. He collects people, you see. Yeah, he wants to learn about you, just like he wants to learn about that dinged up old dwarf helmet on the museum shelf. He has to know what makes you tick so he knows what to write on the little card next to your display case:#$b#@. A farmer with a keen interest in geology and archaeology. Lives on %farm Farm with %pet. Loves %favorite.\"/pause 500/speak Cecily \"I don’t mean for it to sound like he’s a psychopath or anything. He’s not going to murder you and put that plaque next to your head on his wall.#$b#He’s just an incurable academic and he’s spent so much time studying people and society that he forgets maybe he should talk to people just to talk to them.#$b#Because when he makes them into puzzles then he’ll eventually solve them and get bored of them.\"/pause 500/speak Cecily \"That’s what he did with Mom. She thought he was great. A real genuine guy.#$b#And then after a few years of living together he was sure he had every inch of her mind figured out, so he didn’t need to spend any more time talking to her. Ever.\"/pause 500/speak Cecily \"He hasn’t gotten bored of me, yet. Maybe I should let him so he’ll stop insisting I visit once a month.#$b#But I guess I’m afraid it’ll hurt more than I think.$s#$b#He’s still my dad, y’know?$s\"/pause 1000/speak Cecily \"Anyway, it was nice meeting you.\"/move Cecily 0 1 2/move Cecily 7 0 1/faceDirection farmer 1/move Cecily 0 3 2/doAction 61 14/playSound doorCreak/stopMusic/move Cecily 0 3 2/pause 1000/emote farmer 28/speed Gunther 5/move Gunther 18 0 0/faceDirection farmer 2/speak Gunther \"It’s a fascinating old scroll from -\"/pause 200/speak Gunther \"Oh.#$b#I see that conversation didn’t hold.\"/move Gunther 0 -5 0/quickQuestion #Um. Yeah. Heh. She seems like a great kid!#She said I should stay away from you because you collect people like artifacts.(break)pause 100\\speak Gunther \"She told you something terrible about me, didn’t she?\"\\pause 200\\emote farmer 28(break)pause 100/speak Gunther \"Ah.\"/playMusic desolate/pause 1000/speak Gunther \"She is her mother’s daughter. And one’s ex-spouse tends to think the worst of one.$s#$b#It is true, of course, that I find people fascinating. I enjoy learning what interests people and what makes them light with passion.#$b#People are at their best when discussing what they truly love, don’t you agree?#$b#But that doesn’t quite equate to collecting people or trying to put them in glass cases.\"/pause 500/speak Gunther \"I was a very young man when I met my ex-wife. I was still learning about myself, not to mention others. And I suppose I mistook what I felt for her, only to realize when it was too late.$s#$b#You see, an interest in someone as a person is not the same as being in love with them.$s\"/pause 500/speak Gunther \"But I do not, as Cecily’s mother might suggest to her, collect interesting people, learn all of their quirks, and then abandon them like old toys.#$b#Even if I was inclined to discard people once I was fully familiar with them, I would never have left a single person behind.#$b#People are much too complicated for that. You could spend a lifetime with one other person and still be learning about them when you die.#$b#People are not static. Not much is.\"/pause 1000/speak Gunther \"*sigh*...$s\"/pause 200/faceDirection Gunther 2/pause 200/showFrame Gunther 20/pause 2000/speak Gunther \"Well. I’m sorry to have embroiled you so thoroughly in the drama of my broken little family.$s#$b#Thanks for stopping by, @.#$b#I’d better see about getting some sashimi for my daughter.\"/pause 1000/globalFade/viewport -1000 -1000/end warpOut",
 			}
 		},
 		
@@ -284,8 +320,8 @@
 		"Action": "EditData",
 		"Target": "Data/Events/BusStop",
 		"Entries": {
-			"7102005/f Gunther 2000/t 610 1700/a 0 23": "none/-1000 -1000/Cecily 12 10 2 Gunther 12 13 0 farmer 0 23 1/skippable/pause 500/playSound busDoorOpen/pause 5000/viewport 11 15 clamp true/playMusic desolate/pause 2000/speak Cecily \"Dad...$4\"/pause 500/move Cecily 0 3 2/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/speed farmer 2/move farmer 13 0 0 true/showFrame Gunther 21/shake Cecily 30000/speak Gunther \"It’s alright, sweetheart. I’ve got you. Hush now.$s\"/pause 2000/speak Cecily \"...$4\"/pause 2000/emote farmer 8/pause 2000/showFrame Gunther 0/faceDirection Gunther 2/pause 200/speak Gunther \"*mouthing* Later.$s\"/pause 200/faceDirection Gunther 0/showFrame Gunther 21/pause 3000/speed farmer 1/move farmer 14 0 0 true/globalFade/viewport -1000 -1000/end invisible Gunther",
-			"7102007/n desertInvite/t 610 1150":"continue/-1000 -1000/farmer 12 19 0 Gunther 13 10 2 Pam 10 10 2/viewport 12 11 clamp true/skippable/move farmer 0 -4 0 true/move farmer 0 -1 0/move Gunther 0 1 2/speak Gunther \"Ah, @. Excellent. I wasn’t sure you’d come.\"/pause 200/emote farmer 8/speak Gunther \"Patience. It’s a surprise!$h\"/pause 200/speak Gunther \"Well, we should be on our way.\"/move Pam 2 0 0/move Pam 0 -1 0/warp Pam -100 -100/playSound thudStep/faceDirection Gunther 3 true/playSound thudStep/move farmer 0 -4 0 true/globalFade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/pause 4000/changeLocation Desert/speak Gunther \"It isn’t much of a drive...\"/pause 2000/speak Gunther \"I hope you enjoy it!$h\"/pause 3000/playMusic wavy/warp Gunther 18 29/faceDirection Gunther 0/warp farmer 18 28/faceDirection farmer 2/viewport 18 29/pause 1000/speak Gunther \"And here we are!$h\"/pause 500/faceDirection farmer 1/pause 500/faceDirection farmer 3/pause 500/faceDirection farmer 2/pause 500/emote farmer 8/speak Gunther \"Um.$l#$b#It’s this way.\"/move Gunther -1 0 1/move farmer 0 1 3/viewport move -1 0 2000/move Gunther -9 0 2 true/move farmer -9 0 2 true/pause 5500/emote farmer 56/pause 2000/faceDirection Gunther 1/speak Gunther \"Magnificent, isn’t it?#$b#Carbon dating suggests it’s nearly eighty million years old! That pre-dates the age of dinosaurs by several million years.\"/pause 1000/emote farmer 8/pause 800/speak Gunther \"Ah, well, that’s a question for the ages, isn’t it? It’s the first of its kind. Perhaps the only one of its kind.#$b#An absolutely unique specimen, of which I’ve never seen the likes of before...#$b#And will likely never have the chance to again.$l\"/pause 1000/speak Gunther \"Would you like to move closer?#$b#Ah—to the fossil, I mean!$l\"/pause 500/emote farmer 56/pause 500/move Gunther 0 4 2 true/move farmer 0 4 2 true/pause 2000/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/pause 1000/faceDirection Gunther 1/pause 500/speak Gunther \"Beautiful.#$b#Absolutely beautiful.\"/pause 1000/speak Gunther \"Ahem.$l\"/pause 500/faceDirection Gunther 2/pause 2000/speak Gunther \"Ah. Uhm. @.$l\"/pause 500/faceDirection farmer 3/pause 1000/emote farmer 8/pause 1000/speak Gunther \"I brought you here to show you this because I thought you’d appreciate its majesty as much as I do, but also because I hoped it would help me tell you something...#$b#So far it isn’t working.$l\"/pause 1000/speak Gunther \"I thought having something so incredible but also concrete would help me explain how... how incredible you make me feel.#$b#But the truth is I have no better idea how to do that now than I would have in town.\"/pause 1000/faceDirection Gunther 1/pause 200/speak Gunther \"@. I have known and grown near to so many people. And not a single one of them has made me feel the way you make me feel.#$b#I once thought I understood what love was and that it simply hadn’t worked out. But since knowing you, I’ve come to realize that I never had the slightest inkling what being in love might feel like.#$b#So I suppose... what I’m really trying to say...#$b#Is that I think I’m in love with you, @. And I don’t know how to handle that.$l\"/speak Gunther \"$q 71021 null#What should I do?#$r 710211 0 Event_Desert1#I love you too.#$r 710212 0 Event_Desert2#Well you could have said that from the start, you big dork! Of course I love you too.#$r 710213 0 Event_Desert3#Oh. Um. I’m sorry... I don’t feel the same.\"/fork 710213 RejectGunther/playMusic musicboxsong/pause 2000/animate farmer true true 150 6 7 6 8/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/stopAnimation farmer/showFrame Gunther 28/positionOffset Gunther 4 0/animate farmer true true 100 101/pause 3000/stopAnimation farmer/showFrame Gunther 4/pause 3000/speak Gunther \"Well.$l#$b#It seems this old fossil helped after all.$l\"/speak Gunther \"$q 71022 null#...#$r 710220 0 Event_Desert4#I guess so..#$r 710220 0 Event_Desert5#You talking about yourself or the dinosaur?\"/pause 2000/animate farmer true true 100 101/showFrame Gunther 28/pause 3000/globalFade/viewport -1000 -1000/changeLocation BusStop/end",
+			"7102005/f Gunther 2000/t 810 1700": "none/-1000 -1000/Cecily 22 10 2 Gunther 22 13 0 farmer 10 23 1/skippable/pause 500/playSound busDoorOpen/pause 5000/viewport 22 15 clamp true/playMusic desolate/pause 2000/speak Cecily \"Dad...$4\"/pause 500/move Cecily 0 3 2/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/positionOffset Cecily -2 0/pause 10/speed farmer 2/move farmer 13 0 0 true/showFrame Gunther 21/shake Cecily 30000/speak Gunther \"It’s alright, sweetheart. I’ve got you. Hush now.$s\"/pause 2000/speak Cecily \"...$4\"/pause 2000/emote farmer 8/pause 2000/showFrame Gunther 0/faceDirection Gunther 2/pause 200/speak Gunther \"*mouthing* Later.$s\"/pause 200/faceDirection Gunther 0/showFrame Gunther 21/pause 3000/speed farmer 1/move farmer 14 0 0 true/globalFade/viewport -1000 -1000/end invisible Gunther",
+			"7102007/n desertInvite/t 610 1150":"continue/-1000 -1000/farmer 22 19 0 Gunther 23 10 2 Pam 20 10 2/viewport 22 11 clamp true/skippable/move farmer 0 -4 0 true/move farmer 0 -1 0/move Gunther 0 1 2/speak Gunther \"Ah, @. Excellent. I wasn’t sure you’d come.\"/pause 200/emote farmer 8/speak Gunther \"Patience. It’s a surprise!$h\"/pause 200/speak Gunther \"Well, we should be on our way.\"/move Pam 2 0 0/move Pam 0 -1 0/warp Pam -100 -100/playSound thudStep/faceDirection Gunther 3 true/playSound thudStep/move farmer 0 -4 0 true/globalFade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/pause 4000/changeLocation Desert/speak Gunther \"It isn’t much of a drive...\"/pause 2000/speak Gunther \"I hope you enjoy it!$h\"/pause 3000/playMusic wavy/warp Gunther 18 29/faceDirection Gunther 0/warp farmer 18 28/faceDirection farmer 2/viewport 18 29/pause 1000/speak Gunther \"And here we are!$h\"/pause 500/faceDirection farmer 1/pause 500/faceDirection farmer 3/pause 500/faceDirection farmer 2/pause 500/emote farmer 8/speak Gunther \"Um.$l#$b#It’s this way.\"/move Gunther -1 0 1/move farmer 0 1 3/viewport move -1 0 2000/move Gunther -9 0 2 true/move farmer -9 0 2 true/pause 5500/emote farmer 56/pause 2000/faceDirection Gunther 1/speak Gunther \"Magnificent, isn’t it?#$b#Carbon dating suggests it’s nearly eighty million years old! That pre-dates the age of dinosaurs by several million years.\"/pause 1000/emote farmer 8/pause 800/speak Gunther \"Ah, well, that’s a question for the ages, isn’t it? It’s the first of its kind. Perhaps the only one of its kind.#$b#An absolutely unique specimen, of which I’ve never seen the likes of before...#$b#And will likely never have the chance to again.$l\"/pause 1000/speak Gunther \"Would you like to move closer?#$b#Ah—to the fossil, I mean!$l\"/pause 500/emote farmer 56/pause 500/move Gunther 0 4 2 true/move farmer 0 4 2 true/pause 2000/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/positionOffset Gunther 0 2/pause 10/pause 1000/faceDirection Gunther 1/pause 500/speak Gunther \"Beautiful.#$b#Absolutely beautiful.\"/pause 1000/speak Gunther \"Ahem.$l\"/pause 500/faceDirection Gunther 2/pause 2000/speak Gunther \"Ah. Uhm. @.$l\"/pause 500/faceDirection farmer 3/pause 1000/emote farmer 8/pause 1000/speak Gunther \"I brought you here to show you this because I thought you’d appreciate its majesty as much as I do, but also because I hoped it would help me tell you something...#$b#So far it isn’t working.$l\"/pause 1000/speak Gunther \"I thought having something so incredible but also concrete would help me explain how... how incredible you make me feel.#$b#But the truth is I have no better idea how to do that now than I would have in town.\"/pause 1000/faceDirection Gunther 1/pause 200/speak Gunther \"@. I have known and grown near to so many people. And not a single one of them has made me feel the way you make me feel.#$b#I once thought I understood what love was and that it simply hadn’t worked out. But since knowing you, I’ve come to realize that I never had the slightest inkling what being in love might feel like.#$b#So I suppose... what I’m really trying to say...#$b#Is that I think I’m in love with you, @. And I don’t know how to handle that.$l\"/speak Gunther \"$q 71021 null#What should I do?#$r 710211 0 Event_Desert1#I love you too.#$r 710212 0 Event_Desert2#Well you could have said that from the start, you big dork! Of course I love you too.#$r 710213 0 Event_Desert3#Oh. Um. I’m sorry... I don’t feel the same.\"/fork 710213 RejectGunther/playMusic musicboxsong/pause 2000/animate farmer true true 150 6 7 6 8/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/stopAnimation farmer/showFrame Gunther 28/positionOffset Gunther 4 0/animate farmer true true 100 101/pause 3000/stopAnimation farmer/showFrame Gunther 4/pause 3000/speak Gunther \"Well.$l#$b#It seems this old fossil helped after all.$l\"/speak Gunther \"$q 71022 null#...#$r 710220 0 Event_Desert4#I guess so..#$r 710220 0 Event_Desert5#You talking about yourself or the dinosaur?\"/pause 2000/animate farmer true true 100 101/showFrame Gunther 28/pause 3000/globalFade/viewport -1000 -1000/changeLocation BusStop/end",
 			}
 		},
 		
@@ -293,14 +329,26 @@
 		"Action": "EditData",
 		"Target": "Data/Events/Farm",
 		"Entries": {
-			"7102006/e 7102005/t 600 800": "sappypiano/64 15/farmer 64 16 2 Gunther 64 18 0/pause 1500/speak Gunther \"@ It’s good to see you.#$b#I wanted to apologize about yesterday. I was a little preoccupied.\"/pause 500/emote farmer 8/pause 1000/speak Gunther \"*sigh*...$s#$b#You remember that new stepfather I told you about?\"/pause 1000/speak Gunther \"As it turns out, he’s not such a great guy after all.#$b#My ex-wife has made some bad choices in her lifetime - myself among them.#$b#But I would never have thought she’d marry a man who would take a hand to my little girl.$a\"/pause 500/emote farmer 16/pause 500/speak Gunther \"#$q 710202 null#(What should I say?)#$r 71020201 0 Event_aggressive#He HIT her? Did you kill him??#$r 71020201 0 Event_gentle#Oh my Yoba! I’m so sorry. Is she alright?\"/pause 1000/speak Gunther \"My ex-wife doesn’t believe Cecily. She doesn’t want to see what’s right in front of her.$a#$b#Though with Cecily out of the way now, it’s only a matter of time before... well.#$b#Never mind.$s\"/pause 2000/speak Gunther \"The point is, Cecily’s safe here with me. For good now.#$b#And that man will never lay a hand on her again.$a\"/pause 1000/speak Gunther \"If you see her around town, be sure to give her a smile, alright?\"/pause 1000/speak Gunther \"My poor baby’s been through a hell of a lot.\"/pause 3000/globalFade/viewport -1000 -1000/end",
+			"7102006/e 7102005/t 600 800": "sappypiano/64 15/farmer 64 16 2 Gunther 64 18 0/skippable/pause 1500/speak Gunther \"@ It’s good to see you.#$b#I wanted to apologize about yesterday. I was a little preoccupied.\"/pause 500/emote farmer 8/pause 1000/speak Gunther \"*sigh*...$s#$b#You remember that new stepfather I told you about?\"/pause 1000/speak Gunther \"As it turns out, he’s not such a great guy after all.#$b#My ex-wife has made some bad choices in her lifetime - myself among them.#$b#But I would never have thought she’d marry a man who would take a hand to my little girl.$a\"/pause 500/emote farmer 16/pause 500/speak Gunther \"#$q 710202 null#(What should I say?)#$r 71020201 0 Event_aggressive#He HIT her? Did you kill him??#$r 71020201 0 Event_gentle#Oh my Yoba! I’m so sorry. Is she alright?\"/pause 1000/speak Gunther \"My ex-wife doesn’t believe Cecily. She doesn’t want to see what’s right in front of her.$a#$b#Though with Cecily out of the way now, it’s only a matter of time before... well.#$b#Never mind.$s\"/pause 2000/speak Gunther \"The point is, Cecily’s safe here with me. For good now.#$b#And that man will never lay a hand on her again.$a\"/pause 1000/speak Gunther \"If you see her around town, be sure to give her a smile, alright?\"/pause 1000/speak Gunther \"My poor baby’s been through a hell of a lot.\"/pause 3000/globalFade/viewport -1000 -1000/end",
 			"3073014/f Gunther 2500/x desertInvite": "null"
 			}
 		},
+		
 		{
 		"Action": "Load",
 		"Target": "Data/Events/Desert",
 		"FromFile": "assets/Desert.json",
+		"When":{
+			"Load Desert":"true",
+            },
+		},
+		
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/Desert",
+		"Entries": {
+		"RejectGunther": "pause 1000/speak Gunther \"I see.$s\"/pause 1000/speak Gunther \"Well. I suppose that is bound to happen sometimes...$s\"/pause 1000/speak Gunther \"I hope you enjoyed the fossil.$s#$b#We'd better be heading back then.$s\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation BusStop/end",
+}
 		},
 
 // M A I L
@@ -371,6 +419,22 @@
              		"Gunther": "..."
           		}
        		},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"IsEvenYear": false},
+        "Entries": {
+        	"Cecily": "I haven't done an egg hunt since I was little.#$e#Dad used to be big on them. Mom not so much."
+          		}
+       	},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"IsEvenYear": true},
+        "Entries": {
+        	"Cecily": "Think Dad would let me get a pet rabbit?"
+          		}
+       	},
 
 	// FLOWER FESTIVAL
 		{
@@ -380,7 +444,7 @@
              		"Gunther": "Demetrius is absolutely right. It was a fertility ritual.#$b#You’ll note it’s always the younger people dancing. That could just be because they have better knees or look better in the outfit, but you and I know the real reason.#$e#Fertility! Ha ha!$h"
           		}
        		},
-		{
+			{
           	"Action": "EditData",
           	"Target": "Data/Festivals/spring24",
           	"When": {
@@ -430,6 +494,22 @@
              		"Gunther": "..."
           		}
        		},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"IsEvenYear": false},
+        "Entries": {
+        	"Cecily": "Do you think anyone will ever ask me to dance?$s#$e#Not that I want to or anything!$a#$b#It looks prety stupid.$h"
+          		}
+       	},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"IsEvenYear": true},
+        "Entries": {
+        	"Cecily": "I'm just glad it's not me wearing that stupid dress.#$b#Ugh. So outdated.$u"
+          		}
+       	},
 
 	// SUMMER LUAU
 		{
@@ -489,6 +569,23 @@
              		"Gunther": "..."
           		}
        		},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"IsEvenYear": false},
+        "Entries": {
+        	"Cecily": "Oh my gosh. I can't believe Sam would do that!$h#$e#Hm. I actually I totally can."
+          		}
+       	},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"IsEvenYear": true},
+        "Entries": {
+        	"Cecily": "Oh hey.#$b#I just needed a second away from everyone. It can be a lot, y'know?"
+          		}
+       	},
+       	
 		// MOONLIGHT JELLIES
 		{
           	"Action": "EditData",
@@ -547,6 +644,22 @@
              		"Gunther": "..."
           		}
        		},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"IsEvenYear": false},
+        "Entries": {
+        	"Cecily": "It's a little spooky out there, don't you think?"
+          		}
+       	},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"IsEvenYear": true},
+        "Entries": {
+        	"Cecily": "So when do these glowing jellyfish show up?"
+          		}
+       	},
 
 	// STARDEW VALLEY FAIR
 		{
@@ -606,20 +719,47 @@
              		"Gunther": "..."
           		}
        		},
+       		
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"IsEvenYear": false},
+        "Entries": {
+        	"Cecily": "Abby is so much better than me.#$b#But I already spent all my money trying to beat her score in the shooting game.#$e#Hey, can you ask my dad if I can have an advance on my allowance?"
+          		}
+       	},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"IsEvenYear": true},
+        "Entries": {
+        	"Cecily": "Oh my gosh, I want a bunny so baaaaad.$h#$e#Think Dad would mind if I brought one home?"
+          		}
+       	},
 
 	// SPIRIT'S EVE
 		{
           	"Action": "EditData",
           	"Target": "Data/Festivals/fall27",
+          	"When": {"IsEvenYear": false},
           	"Entries": {
              		"Gunther": "Halloween, All Hallow’s Eve, Spirit’s Eve... humankind has celebrated some form of this festival since ancient times!#$b#This ending of the summer and coming of the winter marks a loss of life and vitality in the world, and thus came to be associated with human death.#$e#Originally, it was a night marked by bonfires, where people wore costumes to ward off ghosts, as they believed this time of year caused the boundary between the living and dead to be blurred.#$b#Fascinating how far we’ve come, isn’t it?"
+          		}
+       		},
+       		{
+          	"Action": "EditData",
+          	"Target": "Data/Festivals/fall27",
+          	"When": {"IsEvenYear": true},
+          	"Entries": {
+             		"Gunther": "Have you seen Cecily anywhere?#$b#I swear I was just behind her..."
           		}
        		},
 		{
           	"Action": "EditData",
           	"Target": "Data/Festivals/fall27",
           	"When": {
-           		 "Hearts:Gunther": "4, 5"
+           		 "Hearts:Gunther": "4, 5",
+           		 "IsEvenYear": false
 			},
           	"Entries": {
              		"Gunther": "I believe the tradition of trickery and mischief associated with Spirit’s Eve comes from the old belief that the spirits of the dead - which returned to the world to haunt the living during the fall - were known to destroy crops and cause trouble.#$e#Have you had any mischievous spirits terrorizing your farm this fall? Ha ha!$h"
@@ -629,7 +769,8 @@
           	"Action": "EditData",
           	"Target": "Data/Festivals/fall27",
           	"When": {
-           		 "Hearts:Gunther": "6, 7, 8"
+           		 "Hearts:Gunther": "6, 7, 8",
+           		 "IsEvenYear": false
 			},
           	"Entries": {
              		"Gunther": "I have a particularly cute picture of Cecily, age five, dressed as a junimo.#$e#If she ever found it, I suspect she would burn it."
@@ -639,7 +780,8 @@
           	"Action": "EditData",
           	"Target": "Data/Festivals/fall27",
           	"When": {
-           		 "Relationship:Gunther": "Dating"
+           		 "Relationship:Gunther": "Dating",
+           		 "IsEvenYear": false
 			},
           	"Entries": {
              		"Gunther": "You aren’t feeling frightened, are you @?#$e#That’s a shame. I was hoping to offer my comforting embrace to ward off any ghosts.#$e#Perhaps we could try this in reverse.#$b#*Ahem* Oh, @, I’ve just returned from the maze and I’m ever so shaken. Won’t you stand a little closer?"
@@ -649,7 +791,8 @@
           	"Action": "EditData",
           	"Target": "Data/Festivals/fall27",
           	"When": {
-           		 "Relationship:Gunther": "Married"
+           		 "Relationship:Gunther": "Married",
+           		 "IsEvenYear": false
 			},
           	"Entries": {
              		"Gunther": "Winter is nearly here, spooks and spirits lurk around every corner, and the apple cider is absolutely delightful.#$e#All in all, a good night to crawl into bed and curl up close... wouldn’t you say?"
@@ -665,6 +808,23 @@
              		"Gunther": "..."
           		}
        		},
+       		
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"IsEvenYear": false},
+        "Entries": {
+        	"Cecily": "Eek!#$e#This thing just grabbed me!"
+          		}
+       	},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"IsEvenYear": true},
+        "Entries": {
+        	"Cecily": "I made Dad come in with me, but I sort of lost him.#$e#Oops."
+          		}
+       	},
 			
 				// ICE FESTIVAL
 		{
@@ -734,6 +894,24 @@
              		"Gunther": "..."
           		}
        		},
+       		
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"IsEvenYear": false},
+        "Entries": {
+        	"Cecily": "Abigail's is my favorite, I think.#$b#Clint gets bonus points for how bad it is."
+          		}
+       	},	
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"IsEvenYear": true},
+        "Entries": {
+        	"Cecily": "What should we build?#$b#A snow dinosaur?$h"
+          		}
+       	},
+       	
 
 	// FEAST OF THE WINTER STAR
 		{
@@ -803,6 +981,23 @@
              		"Gunther": "..."
           		}
        		},
+       		
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": {"IsEvenYear": false},
+        "Entries": {
+        	"Cecily": "Whatever you do, do not talk to Willy.#$b#He started going on about the origin of the Feast of the Winter Star and I couldn't figure out how to get away until he was finished so I just smiled and nodded for like twenty minutes.#$b#Usually it's my dad who does that.$u"
+          		}
+       	},
+       	{
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": {"IsEvenYear": true},
+        "Entries": {
+        	"Cecily": "Alright, fine. I admit it.#$b#This is pretty cozy.$h"
+          		}
+       	},
 
 
 		
@@ -879,16 +1074,34 @@
 		},
 		
 		{
-		"Action": "EditData",
-		"Target": "Data/NPCDispositions",
-		"Entries": {"Cecily": "teen/polite/outgoing/positive/female/not-datable//Town/fall 8/Gunther 'dad'/ArchaeologyHouse 66 15/Cecily"},
-		"Fields": {
-			"Gunther" :{
-				9: "Penny '' Elliott '' Harvey '' Jas '' Vincent '' Abigail '' Cecily 'little girl'"
-				},
-			},
-		"When": { "HasSeenEvent": "7102005" },
-		},
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "Cecily": {
+                "DisplayName": "Cecily", 
+                "BirthSeason": "Fall",
+                "BirthDay": 8,
+                "HomeRegion": "Town",
+                "Gender": "Female",
+                "Age": "Teen",
+                "Manner": "Rude",
+                "SocialAnxiety": "Outgoing",
+                "Optimism": "Neutral",
+
+                "CanBeRomanced": false,
+
+                "Home": [
+                        {
+                        "Id": "Default",
+                        "Location": "ArchaeologyHouse",
+                        "Tile": { "X": 66, "Y": 15 },
+                        "Direction": "Left"
+                        }
+                    ],
+                }
+            },
+            "When": { "HasSeenEvent": "7102005" },
+        },
 		
 		{
 		"Action": "EditData",
@@ -899,5 +1112,643 @@
 		"When": { "HasSeenEvent": "7102005" },
 		},
 		
+		
+// F E S T I V A L   L O C A T I O N S
+
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": {
+                "IsEvenYear": false
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 42 57 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 42 57 down",
+		"Delimiter": "/"
+		},
 	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": {
+                "IsEvenYear": true
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 36 72 left",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 25 59 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": { 
+    		"IsEvenYear": false,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 24 78 up",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 28 72 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": { 
+    		"IsEvenYear": true,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 28 66 left",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 33 68 left",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": {
+                "IsEvenYear": false
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 15 34 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 12 21 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": {
+                "IsEvenYear": true
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 8 37 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 14 30 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": { 
+    		"IsEvenYear": false,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 5 34 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 11 21 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": { 
+    		"IsEvenYear": true,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 8 21 right",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 13 30 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": {
+                "IsEvenYear": false
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 30 11 left",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 30 11 right",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": {
+                "IsEvenYear": true
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 48 11 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 29 18 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": { 
+    		"IsEvenYear": false,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 26 19 up",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 26 19 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": { 
+    		"IsEvenYear": true,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 19 24 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 28 18 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "When": {
+                "IsEvenYear": false
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 41 36 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 42 36 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "When": {
+                "IsEvenYear": true
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 11 28 left",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 11 28 left",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "When": { 
+    		"IsEvenYear": false,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 10 39 down",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 43 36 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "When": { 
+    		"IsEvenYear": true,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 11 29 left",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 11 29 left",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "When": {
+                "IsEvenYear": false
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 24 34 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "When": {
+                "IsEvenYear": true
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 38 77 left",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "When": { 
+    		"IsEvenYear": false,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 25 65 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "When": { 
+    		"IsEvenYear": true,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 34 33 left",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "When": {
+                "IsEvenYear": false
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 35 63 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "When": {
+                "IsEvenYear": true
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 6 15 right",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "When": { 
+    		"IsEvenYear": false,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 41 29 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "When": { 
+    		"IsEvenYear": true,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 43 28 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "When": {
+                "IsEvenYear": false
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 65 46 up",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 69 42 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "When": {
+                "IsEvenYear": true
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 90 26 up",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Gunther 78 40 left",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "When": { 
+    		"IsEvenYear": false,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 94 34 left",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 70 42 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "When": { 
+    		"IsEvenYear": true,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 91 25 left",
+		"Delimiter": "/"
+		},
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "MainEvent_additionalCharacters"],
+		"Value": "Cecily 78 39 left",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "When": {
+                "IsEvenYear": false
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 26 68 left",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "When": {
+                "IsEvenYear": true
+            },
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Gunther 38 60 right",
+		"Delimiter": "/"
+		},
+	]
+	},
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "When": { 
+    		"IsEvenYear": false,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 25 67 down",
+		"Delimiter": "/"
+		},
+	]
+	},
+	{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "When": { 
+    		"IsEvenYear": true,
+    		"HasSeenEvent": "7102005" 
+    		},
+    "TextOperations": [
+		{    
+		"Operation": "Append",
+		"Target": ["Entries", "Set-Up_additionalCharacters"],
+		"Value": "Cecily 39 61 up",
+		"Delimiter": "/"
+		},
+	]
+	},
+
+		
+]
 }

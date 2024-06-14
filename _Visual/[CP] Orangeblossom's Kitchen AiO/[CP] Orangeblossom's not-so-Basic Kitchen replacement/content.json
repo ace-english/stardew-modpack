@@ -1,0 +1,484 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+	"CounterColor": {
+		"AllowValues": "White, Green, Blue, Black, Grey",
+		"Default": "White"
+			},
+	"CounterTopColor": {
+		"AllowValues": "Basic, Birch, Black, Brown, Chocolate Brown, Grey",
+		"Default": "basic"
+			},
+	"KitchenAppliances": {
+		"AllowValues": "Silver, Silver2, Black",
+		"Default": "Silver"
+			},
+	"KitchenApplianceOpenFridge": {
+		"AllowValues": "Silver, Silver2, Black",
+		"Default": "Silver"
+			} 	 
+		    },
+    "Changes": [
+
+//counter
+
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+
+//countertop
+
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+
+//appliances
+
+	{
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+	    {
+            "Action": "EditImage",
+            "FromFile": "assets/OpenFridge_{{KitchenApplianceOpenFridge}}.png",
+            "Target": "LooseSprites/Cursors2",
+            "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "FarmHouse"
+            },
+		"Update": "OnLocationChange"
+        },
+
+//cabins
+//counter
+
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_{{CounterColor}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+
+//countertop
+
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tile_countertop_{{CounterTopColor}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+
+//appliances
+
+	{
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/appliance_{{KitchenAppliances}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+	    {
+            "Action": "EditImage",
+            "FromFile": "assets/OpenFridge_{{KitchenApplianceOpenFridge}}.png",
+            "Target": "LooseSprites/Cursors2",
+            "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+            "Patchmode": "Overlay",
+            "When": {
+                "LocationName": "Cabin"
+            },
+		"Update": "OnLocationChange"
+        }
+    ]
+}

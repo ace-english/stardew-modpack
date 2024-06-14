@@ -23,5 +23,8 @@ _QOL/XPDisplay/config.json
 _Visual/[CP] DaisyNiko's Earthy Recolour/config.json
 _Visual/[CP] DaisyNiko's Tilesheets/config.json
 _Visual/DynamicReflections/config.json
-_Visual/[CP] Elle's Cuter Barn Animals/example_config.json
-_Visual/[CP] Elle's Cuter Cats/alloptions_config.json
+*example_config.json
+*alloptions_config.json
+_Content/_NPCs/Diverse Stardew Valley/DSV Core/assets/devs-config.json
+*/data/*
+*.save

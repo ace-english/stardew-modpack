@@ -10,7 +10,7 @@
   "CanGrassLiveInSpring": true,
   "CanGrassLiveInSummer": true,
   "CanGrassLiveInFall": true,
-  "CanGrassLiveInWinter": true,
+  "CanGrassLiveInWinter": false,
   "CanGrassGrowInSpring": true,
   "CanGrassGrowInSummer": true,
   "CanGrassGrowInFall": true,

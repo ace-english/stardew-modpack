@@ -210,6 +210,7 @@
   "prestige.level_up.choose": "Choose a profession to prestige:",
   "prestige.level_up.single": "Gained Prestige",
 
+  "prestige.mastery.warning": "Mastering this skill will prevent it from being reset. Continue?",
   "prestige.mastery.unlocked": "Can now develop the {{skill}} skill further.",
   "prestiged.title": "Master ",
 
@@ -331,6 +332,11 @@
   "gmcm.immersive_heavy_tapper_yield.desc": "Causes Heavy Tapper to double syrup output stack instead of halving the production frequency. This makes it more consistent with the new Heavy Furnance and less redundant with the Tapper profession.",
   "gmcm.aging_trees_quality_syrups.title": "Quality Syrups From Aging Trees",
   "gmcm.aging_trees_quality_syrups.desc": "Causes regular trees to age like Fruit Trees, which will increase the quality of produced syrups by 1 per year.",
+
+  // rascal
+  "gmcm.sections.prfs.rascal": "Rascal",
+  "gmcm.show_equipped_ammo.title": "Show Equipped Ammo",
+  "gmcm.show_equipped_ammo.desc": "Whether to draw the currently equipped ammo over the slingshot's tooltip.",
 
   // skill reset
   "gmcm.sections.prfs.skill_reset": "Skill Reset",

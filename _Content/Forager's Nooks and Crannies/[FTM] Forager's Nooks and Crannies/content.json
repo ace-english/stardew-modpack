@@ -7,6 +7,69 @@
     "Areas": [
       {
         "SpringItemIndex": [
+          "wildflour.ateliercrops_rose_cacao",
+          "wildflour.ateliercrops_sugar_blossom",
+          "wildflour.ateliercrops_violet",
+          "wildflour.ateliercrops_mysteria",
+          593,
+          454
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_sugar_plum",
+          "wildflour.ateliercrops_creamsicle_blossom",
+          417,
+          595
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_custard_blossom",
+          "wildflour.ateliercrops_pie_blossom",
+          "wildflour.ateliercrops_jade_moondrop",
+          "wildflour.ateliercrops_rose_cacao",
+          591
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_pearl_moondrop",
+          "wildflour.ateliercrops_sugar_plum",
+          597,
+          376
+        ],
+        "UniqueAreaID": "Ruins Forage FG",
+        "MapName": "Custom_WF_Ruins",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE FaerieGarden True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
           "wildflour.ateliercrops_avalune",
           "wildflour.ateliercrops_puffball",
           "wildflour.ateliercrops_violet",
@@ -966,6 +1029,64 @@
       },
       {
         "SpringItemIndex": [
+          20,
+          18,
+          16,
+          22
+        ],
+        "SummerItemIndex": [
+          396,
+          398,
+          402,
+          259
+        ],
+        "FallItemIndex": [
+          408,
+          406,
+          404,
+          410
+        ],
+        "WinterItemIndex": [
+          414,
+          283,
+          412,
+          416
+        ],
+        "UniqueAreaID": "Frog Hollow Forage Vanilla",
+        "MapName": "Custom_WF_FrogHollow",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
           "wildflour.ateliercrops_maiden",
           "wildflour.ateliercrops_pearl_moondrop",
           "wildflour.foragelocations_flower_weed_magical",
@@ -1030,7 +1151,9 @@
         "SpringItemIndex": [
           724,
           725,
-          726
+          726,
+          20,
+          18
         ],
         "SummerItemIndex": [
           724,
@@ -1049,8 +1172,8 @@
         ],
         "UniqueAreaID": "Old Forest Forage Vanilla",
         "MapName": "Custom_WF_OldForest",
-        "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 2,
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
           "All"
         ],

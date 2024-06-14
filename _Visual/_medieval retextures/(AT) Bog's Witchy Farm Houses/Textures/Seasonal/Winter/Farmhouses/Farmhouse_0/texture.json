@@ -1,0 +1,9 @@
+{
+  "ItemName": "Farmhouse_0",
+  "Type": "Building",
+  "Seasons": ["Winter"],
+  "TextureWidth": 320,
+  "TextureHeight": 144,
+  "Keywords": ["seasonal"],
+  "Variations": 1
+}

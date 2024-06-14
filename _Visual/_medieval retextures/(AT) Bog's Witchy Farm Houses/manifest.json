@@ -1,0 +1,12 @@
+﻿{
+  "Name": "[AT] Bogs Witchy Farm Houses",
+  "Author": "BogWyytch",
+  "Version": "1.1",
+  "Description": "Alternative Textures version of my Farm Houses!",
+  "UniqueID": "BogWyytch.ATWitchyFarmHouses",
+  "UpdateKeys": [ "Nexus:24226@AT" ],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

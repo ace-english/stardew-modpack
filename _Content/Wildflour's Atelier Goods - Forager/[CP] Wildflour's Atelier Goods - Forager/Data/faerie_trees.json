@@ -289,30 +289,32 @@
             "FertilizedGrowthChance": 1,
             "SeedOnChopChance": 0.15,
             "DropWoodOnChop": false,
-            "DropHardwoodOnLumberChop": false,
-            "UseAlternateSpriteWhenNotShaken":"false",
-            "ShakeItems":[
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
                 {
-                    "ItemId":"wildflour.ateliercrops_blush_cap",
-                    "Chance":"1",
-                    "Season":"spring"
-                },
-                {
-                    "ItemId":"wildflour.ateliercrops_dusk_cap",
-                    "Chance":"1",
-                    "Season":"summer"
-                },
-                {
-                    "ItemId":"wildflour.ateliercrops_giant_amanita",
-                    "Chance":"1",
-                    "Season":"fall"
-                },
-                {
-                    "ItemId":"wildflour.ateliercrops_faerie_helmets",
-                    "Chance":"1",
-                    "Season":"winter"
-                }
-            ]
+                "ItemId":"wildflour.ateliercrops_blush_cap",
+                "DaysUntilReady":2,
+                "Chance":"1",
+                "Season":"spring"
+            },
+            {
+                "ItemId":"(O)420",
+                "DaysUntilReady":2,
+                "Chance":"1",
+                "Season":"summer"
+            },
+            {
+                "ItemId":"(O)422",
+                "DaysUntilReady":2,
+                "Chance":"1",
+                "Season":"fall"
+            },
+            {
+                "ItemId":"wildflour.ateliercrops_dusk_cap",
+                "DaysUntilReady":2,
+                "Chance":"1",
+                "Season":"winter"
+            }]
     },
         "wildflour.ateliercrops_MysticTrumpet_tree": {
 
@@ -344,27 +346,31 @@
             "SeedChance": 0.05,
             "SeedOnChopChance": 0.15,
             "DropWoodOnChop": false,
-            "DropHardwoodOnLumberChop": false,
+            "DropHardwoodOnLumberChop": true,
             "GrowsInWinter":"true",
             "UseAlternateSpriteWhenNotShaken":"false",
-            "ShakeItems":[
+            "TapItems":[
                 {
                     "ItemId":"wildflour.ateliercrops_gloomy_blewit",
+                    "DaysUntilReady":2,
                     "Chance":"1",
                     "Season":"spring"
                 },
                 {
                     "ItemId":"wildflour.ateliercrops_dawn_trumpet",
+                    "DaysUntilReady":2,
                     "Chance":"1",
                     "Season":"summer"
                 },
                 {
                     "ItemId":"wildflour.ateliercrops_golden_aura",
+                    "DaysUntilReady":2,
                     "Chance":"1",
                     "Season":"fall"
                 },
                 {
                     "ItemId":"wildflour.ateliercrops_moon_mushroom",
+                    "DaysUntilReady":2,
                     "Chance":"1",
                     "Season":"winter"
                 }
@@ -401,26 +407,29 @@
             "SeedOnChopChance": 0.15,
             "DropWoodOnChop": true,
             "DropHardwoodOnLumberChop": true,
-            "UseAlternateSpriteWhenNotShaken":"true",
             "ChopItems": [],
-            "ShakeItems":[
+            "TapItems":[
                 {
                     "ItemId":"wildflour.ateliercrops_verdigris_agaric",
+                    "DaysUntilReady":2,
                     "Chance":"1",
-                    "Season":"spring"
+                    "Season":"spring",
                 },
                 {
                     "ItemId":"wildflour.ateliercrops_peach_parasol",
+                    "DaysUntilReady":2,
                     "Chance":"1",
                     "Season":"summer"
                 },
                 {
                     "ItemId":"wildflour.ateliercrops_amanita_cluster",
+                    "DaysUntilReady":2,
                     "Chance":"1",
                     "Season":"fall"
                 },
                 {
                     "ItemId":"wildflour.ateliercrops_tiny_angels",
+                    "DaysUntilReady":2,
                     "Chance":"1",
                     "Season":"winter"
                 }
@@ -428,6 +437,52 @@
     }
                 }
 },
+
+////////////////////////
+// MUSHROOMS TAPPABLE //
+////////////////////////
+
+
+{
+    "LogName":"Add Giant Amanita to Tree Tappable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["10","TapItems"],
+    "Entries": {
+        "wildflour.ateliercrops_giant_amanita": {
+            "DaysUntilReady":2,
+            "Chance": 1.0,
+            "Id": "wildflour.ateliercrops_giant_amanita",
+            "ItemId": "(O)wildflour.ateliercrops_giant_amanita",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "IsRecipe": false
+        }
+    }
+},
+
+{
+    "LogName":"Add Faerie Helmets to Tree Tappable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["11","TapItems"],
+    "Entries": {
+        "wildflour.ateliercrops_faerie_helmets": {
+            "DaysUntilReady":2,
+            "Chance": 1.0,
+            "Id": "wildflour.ateliercrops_faerie_helmets",
+            "ItemId": "(O)wildflour.ateliercrops_faerie_helmets",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "IsRecipe": false
+        }
+    }
+},
+
+
+
 
 //////////////////////////////
 // ADDITIONS TO FRUIT TREES //
@@ -805,7 +860,6 @@
     }
 },
 
-
 ////////////////////////////
 // FEATHERS IN BASE TREES //
 ////////////////////////////
@@ -983,69 +1037,6 @@
             "Chance": 0.3,
             "Id": "wildflour.ateliercrops_phoenix_feather",
             "ItemId": "(O)wildflour.ateliercrops_phoenix_feather",
-            "MinStack": 1,
-            "MaxStack": -1,
-            "Quality": -1,
-            "IsRecipe": false
-        }
-    }
-},
-
-
-////////////////////////
-// MUSHROOMS TAPPABLE //
-////////////////////////
-
-
-{
-    "LogName":"Add Giant Amanita to Tree Tappable Items",
-    "Action": "EditData",
-    "Target": "Data/WildTrees",
-    "TargetField": ["10","TapItems"],
-    "Entries": {
-        "wildflour.ateliercrops_giant_amanita": {
-            "DaysUntilReady":3,
-            "Chance": 1.0,
-            "Id": "wildflour.ateliercrops_giant_amanita",
-            "ItemId": "(O)wildflour.ateliercrops_giant_amanita",
-            "MinStack": 1,
-            "MaxStack": -1,
-            "Quality": -1,
-            "IsRecipe": false
-        }
-    }
-},
-
-{
-    "LogName":"Add Faerie Helmets to Tree Tappable Items",
-    "Action": "EditData",
-    "Target": "Data/WildTrees",
-    "TargetField": ["11","TapItems"],
-    "Entries": {
-        "wildflour.ateliercrops_faerie_helmets": {
-            "DaysUntilReady":2,
-            "Chance": 1.0,
-            "Id": "wildflour.ateliercrops_faerie_helmets",
-            "ItemId": "(O)wildflour.ateliercrops_faerie_helmets",
-            "MinStack": 1,
-            "MaxStack": -1,
-            "Quality": -1,
-            "IsRecipe": false
-        }
-    }
-},
-
-{
-    "LogName":"Add Verdigris Agaric to Tree Tappable Items",
-    "Action": "EditData",
-    "Target": "Data/WildTrees",
-    "TargetField": ["12","TapItems"],
-    "Entries": {
-        "wildflour.ateliercrops_verdigris_agaric": {
-            "Chance": 1.0,
-            "DaysUntilReady": 2,
-            "Id": "wildflour.ateliercrops_verdigris_agaric",
-            "ItemId": "(O)wildflour.ateliercrops_verdigris_agaric",
             "MinStack": 1,
             "MaxStack": -1,
             "Quality": -1,
