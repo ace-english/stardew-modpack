@@ -1,0 +1,38 @@
+{
+  "ItemName": "Brown Cow",
+  "Type": "Character",
+  "TextureWidth": 128,
+  "TextureHeight": 160,
+  "ManualVariations": [
+	{
+       "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Hereford",
+	  "Keywords": [ "Hereford" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Friesian",
+	  "Keywords": [ "Friesian" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+      "Name": "Texas Longhorn",
+	  "Keywords": [ "Texas Longhorn" ]
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0.1,
+	  "Name": "Highland",
+	  "Keywords": [ "Hughland" ]
+    },
+	{
+      "Id": 4,
+      "ChanceWeight": 0.1,
+      "Name": "simmental",
+	  "Keywords": [ "simmental" ]
+    }
+	]
+}

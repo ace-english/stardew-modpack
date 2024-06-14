@@ -1,0 +1,181 @@
+{
+  "ItemName": "Toddler_Female_Light",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 192,
+  "Variations": 34,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Penny Pigtails",
+      "Keywords": [ "Penny Pigtails" ]
+    },
+    {
+      "Id": 1,
+      "Name": "Penny Buns",
+      "Keywords": [ "Penny Buns" ]
+    },
+    {
+      "Id": 2,
+      "Name": "Maru Pigtails",
+      "Keywords": [ "Maru Pigtails" ]
+    },
+    {
+      "Id": 3,
+      "Name": "Maru Buns",
+      "Keywords": [ "Maru Buns" ]
+    },
+    {
+      "Id": 4,
+      "Name": "Leah Pigtails",
+      "Keywords": [ "Leah Pigtails" ]
+    },
+    {
+      "Id": 5,
+      "Name": "Leah Buns",
+      "Keywords": [ "Leah Buns" ]
+    },
+    {
+      "Id": 6,
+      "Name": "Harvey Pigtails",
+      "Keywords": [ "Harvey Pigtails" ]
+    },
+    {
+      "Id": 7,
+      "Name": "Harvey Buns",
+      "Keywords": [ "Harvey Buns" ]
+    },
+    {
+      "Id": 8,
+      "Name": "Haley Pigtails",
+      "Keywords": [ "Haley Pigtails" ]
+    },
+    {
+      "Id": 9,
+      "Name": "Haley Buns",
+      "Keywords": [ "Haley Buns" ]
+    },
+    {
+      "Id": 10,
+      "Name": "Emily Pigtails",
+      "Keywords": [ "Emily Pigtails" ]
+    },
+    {
+      "Id": 11,
+      "Name": "Emily Buns",
+      "Keywords": [ "Emily Buns" ]
+    },
+    {
+      "Id": 12,
+      "Name": "Elliott Pigtails",
+      "Keywords": [ "Elliott Pigtails" ]
+    },
+    {
+      "Id": 13,
+      "Name": "Elliott Buns",
+      "Keywords": [ "Elliott Buns" ]
+    },
+    {
+      "Id": 14,
+      "Name": "Alex Pigtails",
+      "Keywords": [ "Alex Pigtails" ]
+    },
+    {
+      "Id": 15,
+      "Name": "Alex Buns",
+      "Keywords": [ "Alex Buns" ]
+    },
+    {
+      "Id": 16,
+      "Name": "Abigail Pigtails",
+      "Keywords": [ "Abigail Pigtails" ]
+    },
+
+    {
+      "Id": 17,
+      "Name": "Abigail Buns",
+      "Keywords": [ "Abigail Buns" ]
+    },
+    {
+      "Id": 18,
+      "Name": "Shane Pigtails",
+      "Keywords": [ "Shane Pigtails" ]
+    },
+    {
+      "Id": 19,
+      "Name": "Shane Buns",
+      "Keywords": [ "Shane Buns" ]
+    },
+    {
+      "Id": 20,
+      "Name": "Diverse Emily Pigtails",
+      "Keywords": [ "Diverse Emily Pigtails" ]
+    },
+
+    {
+      "Id": 21,
+      "Name": "Diverse Emily Buns",
+      "Keywords": [ "Diverse Emily Buns" ]
+    },
+    {
+      "Id": 22,
+      "Name": "Sam Pigtails",
+      "Keywords": [ "Sam Pigtails" ]
+    },
+    {
+      "Id": 23,
+      "Name": "Sam Buns",
+      "Keywords": [ "Sam Buns" ]
+    },
+    {
+      "Id": 24,
+      "Name": "Sebastian Pigtails",
+      "Keywords": [ "Sebastian Pigtails" ]
+    },
+    {
+      "Id": 25,
+      "Name": "Sebastian Buns",
+      "Keywords": [ "Sebastian Buns" ]
+    },
+    {
+      "Id": 26,
+      "Name": "Sebastian Ginger Pigtails",
+      "Keywords": [ "Sebastian Ginger Pigtails" ]
+    },
+    {
+      "Id": 27,
+      "Name": "Sebastian Ginger Buns",
+      "Keywords": [ "Sebastian Ginger Buns" ]
+    },
+    {
+      "Id": 28,
+      "Name": "Sophia Pigtails",
+      "Keywords": [ "Sophia Pigtails" ]
+    },
+    {
+      "Id": 29,
+      "Name": "Sophia Buns",
+      "Keywords": [ "Sophia Buns" ]
+    },
+    {
+      "Id": 30,
+      "Name": "Victor Pigtails",
+      "Keywords": [ "Victor Pigtails" ]
+    },
+    {
+      "Id": 31,
+      "Name": "Victor Buns",
+      "Keywords": [ "Victor Buns" ]
+    },
+    {
+      "Id": 32,
+      "Name": "Caroline Pigtails",
+      "Keywords": [ "Caroline Pigtails" ]
+    },
+    {
+      "Id": 33,
+      "Name": "Caroline Buns",
+      "Keywords": [ "Caroline Buns" ]
+    }
+  ]
+}

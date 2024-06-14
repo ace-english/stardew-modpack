@@ -1,0 +1,456 @@
+{
+  "ItemName": "Horse",
+  "Type": "Character",
+  "TextureWidth": 224,
+  "TextureHeight": 128,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "1",
+      "ChanceWeight": 0.3,
+      "Keywords": [
+        "1"
+      ]
+    },
+    {
+      "Id": 1,
+      "Name": "2",
+      "ChanceWeight": 0.3,
+      "Keywords": [
+        "2"
+      ]
+    },
+    {
+      "Id": 2,
+      "ChanceWeight": 0.3,
+      "Name": "3",
+      "Keywords": [
+        "3"
+      ]
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0.3,
+      "Name": "4",
+      "Keywords": [
+        "4"
+      ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.3,
+      "Name": "5",
+      "Keywords": [
+        "5"
+      ]
+    },
+    {
+      "Id": 5,
+      "ChanceWeight": 0.3,
+      "Name": "6",
+      "Keywords": [
+        "6"
+      ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.3,
+      "Name": "7",
+      "Keywords": [
+        "7"
+      ]
+    },
+    {
+      "Id": 7,
+      "ChanceWeight": 0.3,
+      "Name": "8",
+      "Keywords": [
+        "8"
+      ]
+    },
+    {
+      "Id": 8,
+      "ChanceWeight": 0.3,
+      "Name": "9",
+      "Keywords": [
+        "9"
+      ]
+    },
+    {
+      "Id": 9,
+      "ChanceWeight": 0.3,
+      "Name": "10",
+      "Keywords": [
+        "10"
+      ]
+    },
+    {
+      "Id": 10,
+      "ChanceWeight": 0.3,
+      "Name": "11",
+      "Keywords": [
+        "11"
+      ]
+    },
+    {
+      "Id": 11,
+      "ChanceWeight": 0.3,
+      "Name": "12",
+      "Keywords": [
+        "12"
+      ]
+    },
+    {
+      "Id": 12,
+      "ChanceWeight": 0.3,
+      "Name": "13",
+      "Keywords": [
+        "13"
+      ]
+    },
+    {
+      "Id": 13,
+      "ChanceWeight": 0.3,
+      "Name": "14",
+      "Keywords": [
+        "14"
+      ]
+    },
+    {
+      "Id": 14,
+      "ChanceWeight": 0.3,
+      "Name": "15",
+      "Keywords": [
+        "15"
+      ]
+    },
+    {
+      "Id": 15,
+      "ChanceWeight": 0.3,
+      "Name": "16",
+      "Keywords": [
+        "16"
+      ]
+    },
+    {
+      "Id": 16,
+      "ChanceWeight": 0.3,
+      "Name": "17",
+      "Keywords": [
+        "17"
+      ]
+    },
+    {
+      "Id": 17,
+      "ChanceWeight": 0.3,
+      "Name": "18",
+      "Keywords": [
+        "18"
+      ]
+    },
+    {
+      "Id": 18,
+      "ChanceWeight": 0.3,
+      "Name": "19",
+      "Keywords": [
+        "19"
+      ]
+    },
+    {
+      "Id": 19,
+      "ChanceWeight": 0.3,
+      "Name": "20",
+      "Keywords": [
+        "20"
+      ]
+    },
+    {
+      "Id": 20,
+      "ChanceWeight": 0.3,
+      "Name": "21",
+      "Keywords": [
+        "21"
+      ]
+    },
+    {
+      "Id": 21,
+      "ChanceWeight": 0.3,
+      "Name": "22",
+      "Keywords": [
+        "22"
+      ]
+    },
+    {
+      "Id": 22,
+      "ChanceWeight": 0.3,
+      "Name": "23",
+      "Keywords": [
+        "23"
+      ]
+    },
+    {
+      "Id": 23,
+      "ChanceWeight": 0.3,
+      "Name": "24",
+      "Keywords": [
+        "24"
+      ]
+    },
+    {
+      "Id": 24,
+      "ChanceWeight": 0.3,
+      "Name": "25",
+      "Keywords": [
+        "25"
+      ]
+    },
+    {
+      "Id": 25,
+      "ChanceWeight": 0.3,
+      "Name": "26",
+      "Keywords": [
+        "26"
+      ]
+    },
+    {
+      "Id": 26,
+      "ChanceWeight": 0.3,
+      "Name": "27",
+      "Keywords": [
+        "27"
+      ]
+    },
+    {
+      "Id": 27,
+      "ChanceWeight": 0.3,
+      "Name": "28",
+      "Keywords": [
+        "28"
+      ]
+    },
+    {
+      "Id": 28,
+      "ChanceWeight": 0.3,
+      "Name": "29",
+      "Keywords": [
+        "29"
+      ]
+    },
+    {
+      "Id": 29,
+      "ChanceWeight": 0.3,
+      "Name": "30",
+      "Keywords": [
+        "30"
+      ]
+    },
+    {
+      "Id": 30,
+      "ChanceWeight": 0.3,
+      "Name": "31",
+      "Keywords": [
+        "31"
+      ]
+    },
+    {
+      "Id": 31,
+      "ChanceWeight": 0.3,
+      "Name": "32",
+      "Keywords": [
+        "32"
+      ]
+    },
+    {
+      "Id": 32,
+      "ChanceWeight": 0.3,
+      "Name": "33",
+      "Keywords": [
+        "33"
+      ]
+    },
+    {
+      "Id": 33,
+      "ChanceWeight": 0.3,
+      "Name": "34",
+      "Keywords": [
+        "34"
+      ]
+    },
+    {
+      "Id": 34,
+      "ChanceWeight": 0.3,
+      "Name": "35",
+      "Keywords": [
+        "35"
+      ]
+    },
+    {
+      "Id": 35,
+      "ChanceWeight": 0.3,
+      "Name": "36",
+      "Keywords": [
+        "36"
+      ]
+    },
+    {
+      "Id": 36,
+      "ChanceWeight": 0.3,
+      "Name": "37",
+      "Keywords": [
+        "37"
+      ]
+    },
+    {
+      "Id": 37,
+      "ChanceWeight": 0.3,
+      "Name": "38",
+      "Keywords": [
+        "38"
+      ]
+    },
+    {
+      "Id": 38,
+      "ChanceWeight": 0.3,
+      "Name": "39",
+      "Keywords": [
+        "39"
+      ]
+    },
+    {
+      "Id": 39,
+      "ChanceWeight": 0.3,
+      "Name": "40",
+      "Keywords": [
+        "40"
+      ]
+    },
+    {
+      "Id": 40,
+      "ChanceWeight": 0.3,
+      "Name": "41",
+      "Keywords": [
+        "41"
+      ]
+    },
+    {
+      "Id": 41,
+      "ChanceWeight": 0.3,
+      "Name": "42",
+      "Keywords": [
+        "42"
+      ]
+    },
+    {
+      "Id": 42,
+      "ChanceWeight": 0.3,
+      "Name": "43",
+      "Keywords": [
+        "43"
+      ]
+    },
+    {
+      "Id": 43,
+      "ChanceWeight": 0.3,
+      "Name": "44",
+      "Keywords": [
+        "44"
+      ]
+    },
+    {
+      "Id": 44,
+      "ChanceWeight": 0.3,
+      "Name": "45",
+      "Keywords": [
+        "45"
+      ]
+    },
+    {
+      "Id": 45,
+      "ChanceWeight": 0.3,
+      "Name": "46",
+      "Keywords": [
+        "46"
+      ]
+    },
+    {
+      "Id": 46,
+      "ChanceWeight": 0.3,
+      "Name": "47",
+      "Keywords": [
+        "47"
+      ]
+    },
+    {
+      "Id": 47,
+      "ChanceWeight": 0.3,
+      "Name": "48",
+      "Keywords": [
+        "49"
+      ]
+    },
+    {
+      "Id": 48,
+      "ChanceWeight": 0.3,
+      "Name": "49",
+      "Keywords": [
+        "49"
+      ]
+    },
+    {
+      "Id": 49,
+      "ChanceWeight": 0.3,
+      "Name": "50",
+      "Keywords": [
+        "50"
+      ]
+    },
+    {
+      "Id": 50,
+      "ChanceWeight": 0.3,
+      "Name": "51",
+      "Keywords": [
+        "51"
+      ]
+    },
+    {
+      "Id": 51,
+      "ChanceWeight": 0.3,
+      "Name": "52",
+      "Keywords": [
+        "52"
+      ]
+    },
+    {
+      "Id": 52,
+      "ChanceWeight": 0.3,
+      "Name": "52",
+      "Keywords": [
+        "53"
+      ]
+    },
+    {
+      "Id": 53,
+      "ChanceWeight": 0.3,
+      "Name": "53",
+      "Keywords": [
+        "54"
+      ]
+    },
+    {
+      "Id": 54,
+      "ChanceWeight": 0.3,
+      "Name": "54",
+      "Keywords": [
+        "55"
+      ]
+    },
+    {
+      "Id": 55,
+      "ChanceWeight": 0.3,
+      "Name": "55",
+      "Keywords": [
+        "56"
+      ]
+    },
+	]
+}

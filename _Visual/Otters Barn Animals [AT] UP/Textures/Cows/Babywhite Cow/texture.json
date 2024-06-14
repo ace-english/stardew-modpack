@@ -1,0 +1,38 @@
+{
+  "ItemName": "BabyWhite Cow",
+  "Type": "Character",
+  "TextureWidth": 128,
+  "TextureHeight": 160,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Charolais",
+	  "Keywords": [ "Charolais" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Simmental",
+	  "Keywords": [ "Simmental" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+      "Name": "Waygu",
+	  "Keywords": [ "Waygu" ]
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0.1,
+	  "Name": "Angus",
+	  "Keywords": [ "Angus" ]
+    },
+	{
+      "Id": 4,
+      "ChanceWeight": 0.1,
+      "Name": "Friesan",
+	  "Keywords": [ "Friesan" ]
+    }
+	]
+}

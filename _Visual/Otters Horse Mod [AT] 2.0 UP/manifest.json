@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Otter's Horse Mod [AT]",
+   "Author": "Thatotterthing",
+   "Version": "2.1",
+   "Description": "AT pack for your horse",
+   "UniqueID": "thatotterthing.AT.ottershorsemod",
+  "UpdateKeys": ["Nexus:15784" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "7.1.1"
+  }
+}

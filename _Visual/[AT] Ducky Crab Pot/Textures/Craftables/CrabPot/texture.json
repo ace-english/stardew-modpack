@@ -1,0 +1,50 @@
+{
+  "ItemName": "Crab Pot",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "Variations": 8, 
+  "Animation": [
+	{
+	  "Frame": 0,
+	  "Duration": 12000
+	},
+	{
+	  "Frame": 1,
+	  "Duration": 165
+	},
+	{
+	  "Frame": 2,
+	  "Duration": 165
+	},
+	{
+	  "Frame": 3,
+	  "Duration": 165
+	},
+	{
+	  "Frame": 4,
+	  "Duration": 165
+	},
+	{
+	  "Frame": 5,
+	  "Duration": 165
+	},
+	{
+	  "Frame": 6,
+	  "Duration": 165
+	},
+	{
+	  "Frame": 7,
+	  "Duration": 165
+	},
+	{
+	  "Frame": 8,
+	  "Duration": 165
+	},
+	{
+	  "Frame": 9,
+	  "Duration": 165
+	}
+
+  ]
+}  

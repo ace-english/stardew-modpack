@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] 1.6 Alternate Crops",
+  "Author": "VampireDemonBunny",
+  "Version": "1.0.0",
+  "Description": "Adds extra texture varieties for crops introduced in 1.6",
+  "UniqueID": "DemonBun.AT.Crops1.6",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.3.11"
+  }
+}

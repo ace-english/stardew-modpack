@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Otter's Barn Mod [AT]",
+   "Author": "Thatotterthing",
+   "Version": "2.1",
+   "Description": "AT pack for your Barn Critters",
+   "UniqueID": "thatotterthing.AT.ottersbarnmod",
+  "UpdateKeys": ["nexus:15783" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "7.1.1"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "ItemName": "ShearedSheep",
+  "Type": "Character",
+  "TextureWidth": 128,
+  "TextureHeight": 160,
+  "ManualVariations": [
+	{
+ "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Lincoln",
+	  "Keywords": [ "Lincoln" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "suffolk",
+	  "Keywords": [ "suffolk" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+      "Name": "Marino",
+	  "Keywords": [ "Marino" ]
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0.1,
+	  "Name": "Herdwick",
+	  "Keywords": [ "Herdwick" ]
+    },
+	{
+      "Id": 4,
+      "ChanceWeight": 0.1,
+      "Name": "Black Alpaca",
+	  "Keywords": [ "Black Alpaca" ]
+    },
+    {
+      "Id": 5,
+      "ChanceWeight": 0.1,
+      "Name": "Pink Alpaca",
+	  "Keywords": [ "Pink Alpaca" ]
+    },
+	{
+      "Id": 6,
+      "ChanceWeight": 0.1,
+      "Name": "Blue Alpaca",
+	  "Keywords": [ "Blue Alpaca" ]
+    },
+    {
+      "Id": 7,
+      "ChanceWeight": 0.1,
+      "Name": "Green Alpaca",
+	  "Keywords": [ "Green Alpaca" ]
+    },
+	{
+      "Id": 8,
+      "ChanceWeight": 0.1,
+      "Name": "Orange Alpaca",
+	  "Keywords": [ "Orange Alpaca" ]
+    },
+    {
+      "Id": 9,
+      "ChanceWeight": 0.1,
+      "Name": "Beige Alpaca",
+	  "Keywords": [ "Beige Alpaca" ]
+    },
+	{
+      "Id": 10,
+      "ChanceWeight": 0.1,
+      "Name": "Brown Alpaca",
+	  "Keywords": [ "Brown Alpaca" ]
+    },
+	{
+      "Id": 11,
+      "ChanceWeight": 0.1,
+      "Name": "White Alpaca",
+	  "Keywords": [ "White Alpaca" ]
+    }
+	]
+}

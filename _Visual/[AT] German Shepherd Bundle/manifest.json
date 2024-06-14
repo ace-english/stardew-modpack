@@ -1,0 +1,14 @@
+{
+   "Name": "(AT) German Shepherd Bundle",
+   "Author": "Beroin",
+   "Version": "2.0.0",
+   "Description": "A bundle of German Shepherd dog skins for Alternative Textures",
+   "UniqueID": "Beroin.GermanShepherdBundleAT",
+   "MinimumGameVersion": "1.6.0",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": ["Nexus:22134@AlternativeTextures"],
+   "ContentPackFor": {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+	  "MinimumVersion": "7.2.5"
+   }
+}

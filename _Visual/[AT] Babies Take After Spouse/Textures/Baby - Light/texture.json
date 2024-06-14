@@ -1,0 +1,98 @@
+{
+  "ItemName": "Baby_Light",
+  "Type": "Character",
+  "TextureWidth": 88,
+  "TextureHeight": 192,
+  "Variations": 16,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0,
+    },
+    {
+      "Id": 0,
+      "Name": "Penny",
+      "Keywords": [ "Penny" ]
+    },
+    {
+      "Id": 1,
+      "Name": "Maru",
+      "Keywords": [ "Maru" ]
+    },
+    {
+      "Id": 2,
+      "Name": "Leah",
+      "Keywords": [ "Leah" ]
+    },
+    {
+      "Id": 3,
+      "Name": "Harvey",
+      "Keywords": [ "Harvey" ]
+    },
+    {
+      "Id": 4,
+      "Name": "Haley",
+      "Keywords": [ "Haley" ]
+    },
+    {
+      "Id": 5,
+      "Name": "Emily",
+      "Keywords": [ "Emily" ]
+    },
+    {
+      "Id": 6,
+      "Name": "Elliott",
+      "Keywords": [ "Elliott" ]
+    },
+    {
+      "Id": 7,
+      "Name": "Alex",
+      "Keywords": [ "Alex" ]
+    },
+    {
+      "Id": 8,
+      "Name": "Abigail",
+      "Keywords": [ "Abigail" ]
+    },
+    {
+      "Id": 9,
+      "Name": "Shane",
+      "Keywords": [ "Shane" ]
+    },
+    {
+      "Id": 10,
+      "Name": "Diverse Emily",
+      "Keywords": [ "Diverse Emily" ]
+    },
+    {
+      "Id": 11,
+      "Name": "Sam",
+      "Keywords": [ "Sam" ]
+    },
+    {
+      "Id": 12,
+      "Name": "Sebastian",
+      "Keywords": [ "Sebastian" ]
+    },
+    {
+      "Id": 13,
+      "Name": "Sebastian Ginger",
+      "Keywords": [ "Sebastian Ginger" ]
+    },
+    {
+      "Id": 14,
+      "Name": "Sophia",
+      "Keywords": [ "Sophia" ]
+    },
+    {
+      "Id": 15,
+      "Name": "Victor",
+      "Keywords": [ "Victor" ]
+    },
+    {
+      "Id": 16,
+      "Name": "Caroline",
+      "Keywords": [ "Caroline" ]
+    }
+  ]
+}

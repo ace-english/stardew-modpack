@@ -1,0 +1,32 @@
+{
+  "ItemName": "BabyOstrich",
+  "Type": "Character",
+  "TextureWidth": 128,
+  "TextureHeight": 160,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Black Ostrich",
+	  "Keywords": [ "Black Ostrich" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Brown Ostrich",
+	  "Keywords": [ "Brown Ostrich" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Light Brown Ostrich",
+	  "Keywords": [ "Light Brown Ostrich" ]
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0.1,
+	  "Name": "Cassowary",
+	  "Keywords": [ "Cassowary" ]
+    }
+	]
+}

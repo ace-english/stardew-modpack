@@ -1,0 +1,8 @@
+{
+  "ItemName": "Dog",
+  "Type": "Character",
+  "Keywords": ["German", "Shepherd", "German Shepherd"],
+  "TextureWidth": 128,
+  "TextureHeight": 288,
+  "Variations": 10
+}

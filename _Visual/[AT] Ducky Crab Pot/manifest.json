@@ -1,0 +1,13 @@
+﻿{
+    "Name": "Animated Ducky Crab Pot",
+    "Author": "JennaJuffuffles",
+    "Version": "1.0.1",
+    "MinimumApiVersion": "4.0.0",
+    "UniqueID": "jennajuffuffles.duckycrabpot",
+    "Description": "Replace crab pots with animated duckies!",
+    "UpdateKeys": ["Nexus:21810"],
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures",
+        "MinimumVersion": "7.0.0"
+    }
+}

@@ -1,0 +1,185 @@
+{
+  "ItemName": "Toddler_Male_Dark",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 192,
+  "Variations": 34,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0,
+    },
+    {
+      "Id": 0,
+      "Name": "Penny Combed",
+      "Keywords": [ "Penny Combed" ]
+    },
+    {
+      "Id": 1,
+      "Name": "Penny Messy",
+      "Keywords": [ "Penny Messy" ]
+    },
+    {
+      "Id": 2,
+      "Name": "Maru Combed",
+      "Keywords": [ "Maru Combed" ]
+    },
+    {
+      "Id": 3,
+      "Name": "Maru Messy",
+      "Keywords": [ "Maru Messy" ]
+    },
+    {
+      "Id": 4,
+      "Name": "Leah Combed",
+      "Keywords": [ "Leah Combed" ]
+    },
+    {
+      "Id": 5,
+      "Name": "Leah Messy",
+      "Keywords": [ "Leah Messy" ]
+    },
+    {
+      "Id": 6,
+      "Name": "Harvey Combed",
+      "Keywords": [ "Harvey Combed" ]
+    },
+    {
+      "Id": 7,
+      "Name": "Harvey Messy",
+      "Keywords": [ "Harvey Messy" ]
+    },
+    {
+      "Id": 8,
+      "Name": "Haley Combed",
+      "Keywords": [ "Haley Combed" ]
+    },
+    {
+      "Id": 9,
+      "Name": "Haley Messy",
+      "Keywords": [ "Haley Messy" ]
+    },
+    {
+      "Id": 10,
+      "Name": "Emily Combed",
+      "Keywords": [ "Emily Combed" ]
+    },
+    {
+      "Id": 11,
+      "Name": "Emily Messy",
+      "Keywords": [ "Emily Messy" ]
+    },
+    {
+      "Id": 12,
+      "Name": "Elliott Combed",
+      "Keywords": [ "Elliott Combed" ]
+    },
+    {
+      "Id": 13,
+      "Name": "Elliott Messy",
+      "Keywords": [ "Elliott Messy" ]
+    },
+    {
+      "Id": 14,
+      "Name": "Alex Combed",
+      "Keywords": [ "Alex Combed" ]
+    },
+    {
+      "Id": 15,
+      "Name": "Alex Messy",
+      "Keywords": [ "Alex Messy" ]
+    },
+    {
+      "Id": 16,
+      "Name": "Abigail Combed",
+      "Keywords": [ "Abigail Combed" ]
+    },
+
+    {
+      "Id": 17,
+      "Name": "Abigail Messy",
+      "Keywords": [ "Abigail Messy" ]
+    },
+    {
+      "Id": 18,
+      "Name": "Shane Combed",
+      "Keywords": [ "Shane Combed" ]
+    },
+    {
+      "Id": 19,
+      "Name": "Shane Messy",
+      "Keywords": [ "Shane Messy" ]
+    },
+    {
+      "Id": 20,
+      "Name": "Diverse Emily Combed",
+      "Keywords": [ "Diverse Emily Combed" ]
+    },
+
+    {
+      "Id": 21,
+      "Name": "Diverse Emily Messy",
+      "Keywords": [ "Diverse Emily Messy" ]
+    },
+    {
+      "Id": 22,
+      "Name": "Sam Combed",
+      "Keywords": [ "Sam Combed" ]
+    },
+    {
+      "Id": 23,
+      "Name": "Sam Messy",
+      "Keywords": [ "Sam Messy" ]
+    },
+    {
+      "Id": 24,
+      "Name": "Sebastian Combed",
+      "Keywords": [ "Sebastian Combed" ]
+    },
+    {
+      "Id": 25,
+      "Name": "Sebastian Messy",
+      "Keywords": [ "Sebastian Messy" ]
+    },
+    {
+      "Id": 26,
+      "Name": "Sebastian Ginger Combed",
+      "Keywords": [ "Sebastian Ginger Combed" ]
+    },
+    {
+      "Id": 27,
+      "Name": "Sebastian Ginger Messy",
+      "Keywords": [ "Sebastian Ginger Messy" ]
+    },
+    {
+      "Id": 28,
+      "Name": "Sophia Combed",
+      "Keywords": [ "Sophia Combed" ]
+    },
+    {
+      "Id": 29,
+      "Name": "Sophia Messy",
+      "Keywords": [ "Sophia Messy" ]
+    },
+    {
+      "Id": 30,
+      "Name": "Victor Combed",
+      "Keywords": [ "Victor Combed" ]
+    },
+    {
+      "Id": 31,
+      "Name": "Victor Messy",
+      "Keywords": [ "Victor Messy" ]
+    },
+    {
+      "Id": 32,
+      "Name": "Caroline Combed",
+      "Keywords": [ "Caroline Combed" ]
+    },
+    {
+      "Id": 33,
+      "Name": "Caroline Messy",
+      "Keywords": [ "Caroline Messy" ]
+    }
+  ]
+}

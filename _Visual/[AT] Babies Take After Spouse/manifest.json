@@ -1,0 +1,11 @@
+{
+  "Name": "[AT] Babies Take After Spouse",
+  "Author": "peachygoose",
+  "Version": "1.0.4",
+  "Description": "Alternative Textures version of 'Babies Take Afetr Spouse' by lakoria.",
+  "UniqueID": "peachygoose.ATBabiesTakeAfterSpouse",
+  "UpdateKeys": ["Nexus:23187"],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures"
+  }
+}

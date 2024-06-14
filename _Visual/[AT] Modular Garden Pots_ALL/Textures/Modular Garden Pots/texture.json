@@ -1,0 +1,8 @@
+{
+  "ItemName": "Garden Pot",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "Keywords": [ "Garden", "Planter", "Pot" ],
+  "Variations": 29
+}

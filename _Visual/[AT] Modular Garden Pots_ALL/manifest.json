@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Modular Garden Pots_All",
+  "Author": "Birbeton",
+  "Version": "1.0.0",
+  "Description": "Modular Garden Pots for makeshift Greenhouses",
+  "UniqueID": "Birbeton.ModularGardenPots",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "7.3.0"
+  }
+}

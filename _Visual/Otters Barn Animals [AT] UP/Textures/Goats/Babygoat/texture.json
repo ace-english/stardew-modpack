@@ -1,0 +1,68 @@
+{
+  "ItemName": "BabyGoat",
+  "Type": "Character",
+  "TextureWidth": 128,
+  "TextureHeight": 160,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Black Striped Alpine",
+	  "Keywords": [ "Black Striped Alpine" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "White Alpine",
+	  "Keywords": [ "White Alpine" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+      "Name": "Brown Alpine",
+	  "Keywords": [ "Brown Alpine" ]
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0.1,
+	  "Name": "Bilberry",
+	  "Keywords": [ "Bilberry" ]
+    },
+	{
+      "Id": 4,
+      "ChanceWeight": 0.1,
+      "Name": "Pashmina",
+	  "Keywords": [ "Pashmina" ]
+    },
+    {
+      "Id": 5,
+      "ChanceWeight": 0.1,
+	  "Name": "Rove",
+	  "Keywords": [ "Rove" ]
+    },
+	{
+      "Id": 6,
+      "ChanceWeight": 0.1,
+      "Name": "Kumori",
+	  "Keywords": [ "Kumori" ]
+    },
+    {
+      "Id": 7,
+      "ChanceWeight": 0.1,
+	  "Name": "Gray Alpine",
+	  "Keywords": [ "Gray Alpine" ]
+    },
+	{
+      "Id": 8,
+      "ChanceWeight": 0.1,
+      "Name": "Boer",
+	  "Keywords": [ "Boer" ]
+    },
+    {
+      "Id": 9,
+      "ChanceWeight": 0.1,
+	  "Name": "Antolien Black",
+	  "Keywords": [ "Antolien Black" ]
+    }
+	]
+}

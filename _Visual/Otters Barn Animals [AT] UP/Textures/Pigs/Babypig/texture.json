@@ -1,0 +1,44 @@
+{
+  "ItemName": "BabyPig",
+  "Type": "Character",
+  "TextureWidth": 128,
+  "TextureHeight": 160,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Yorkshire",
+	  "Keywords": [ "Yorkshire" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Mangalica",
+	  "Keywords": [ "Mangalica" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Hampshire",
+	  "Keywords": [ "Hampshire" ]
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0.1,
+	  "Name": "Meishan",
+	  "Keywords": [ "Meishan" ]
+    },
+	{
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Tamworth",
+	  "Keywords": [ "Tamworth" ]
+    },
+    {
+      "Id": 5,
+      "ChanceWeight": 0.1,
+	  "Name": "Chester White",
+	  "Keywords": [ "Chester White" ]
+    }
+	]
+}
